@@ -3,41 +3,202 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HTMLプレビューツール</title>
+  <title>HTML プレビューツール</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="text/babel">
+    const { useState, useRef, useCallback } = React;
+
+    function HTMLPreviewer() {
+      const [code, setCode] = useState(`<!DOCTYPE html>
+<html>
+<head>
   <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: sans-serif; height: 100vh; display: flex; flex-direction: column; }
-    header { background: #333; color: #fff; padding: 10px 20px; }
-    main { display: flex; flex: 1; }
-    .panel { flex: 1; display: flex; flex-direction: column; }
-    .panel h2 { background: #eee; padding: 8px 12px; font-size: 14px; }
-    textarea { flex: 1; width: 100%; border: none; padding: 12px; font-family: monospace; font-size: 14px; resize: none; }
-    iframe { flex: 1; width: 100%; border: none; background: #fff; }
-    .divider { width: 4px; background: #ccc; cursor: col-resize; }
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .card {
+      background: white;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+    h1 { color: #333; margin-bottom: 10px; }
+    p { color: #666; }
   </style>
 </head>
 <body>
-  <header>
-    <h1>HTMLプレビューツール</h1>
-  </header>
-  <main>
-    <div class="panel">
-      <h2>HTMLコードを貼り付け ↓</h2>
-      <textarea id="code" placeholder="ここにHTMLを貼り付けてください..."></textarea>
-    </div>
-    <div class="divider"></div>
-    <div class="panel">
-      <h2>プレビュー ↓</h2>
-      <iframe id="preview"></iframe>
-    </div>
-  </main>
-  <script>
-    const code = document.getElementById('code');
-    const preview = document.getElementById('preview');
-    
-    code.addEventListener('input', () => {
-      preview.srcdoc = code.value;
-    });
+  <div class="card">
+    <h1>Hello World!</h1>
+    <p>HTMLコードを左側で編集してみてください</p>
+  </div>
+</body>
+</html>`);
+
+      const [isPreviewMaximized, setIsPreviewMaximized] = useState(false);
+      const [leftPanelWidth, setLeftPanelWidth] = useState(50);
+      const containerRef = useRef(null);
+      const isDragging = useRef(false);
+
+      const handleMouseDown = useCallback((e) => {
+        isDragging.current = true;
+        document.body.style.cursor = 'col-resize';
+        document.body.style.userSelect = 'none';
+      }, []);
+
+      const handleMouseMove = useCallback((e) => {
+        if (!isDragging.current || !containerRef.current) return;
+
+        const container = containerRef.current;
+        const rect = container.getBoundingClientRect();
+        const newWidth = ((e.clientX - rect.left) / rect.width) * 100;
+
+        if (newWidth >= 20 && newWidth <= 80) {
+          setLeftPanelWidth(newWidth);
+        }
+      }, []);
+
+      const handleMouseUp = useCallback(() => {
+        isDragging.current = false;
+        document.body.style.cursor = 'default';
+        document.body.style.userSelect = 'auto';
+      }, []);
+
+      const handleDownload = useCallback(() => {
+        const blob = new Blob([code], { type: 'text/html' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'preview.html';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+      }, [code]);
+
+      return (
+        <div
+          className="flex flex-col h-screen bg-gray-900"
+          onMouseMove={handleMouseMove}
+          onMouseUp={handleMouseUp}
+          onMouseLeave={handleMouseUp}
+        >
+          {/* ヘッダー */}
+          <div className="bg-gray-800 px-6 py-3 flex items-center justify-between border-b border-gray-700">
+            <h1 className="text-white font-bold text-lg">HTML プレビューツール</h1>
+            <div className="flex gap-2">
+              <button
+                onClick={() => setLeftPanelWidth(50)}
+                className="px-3 py-1 bg-gray-700 hover:bg-gray-600 text-gray-300 text-sm rounded transition"
+              >
+                リセット
+              </button>
+              <button
+                onClick={() => setCode('')}
+                className="px-3 py-1 bg-gray-700 hover:bg-gray-600 text-gray-300 text-sm rounded transition"
+              >
+                クリア
+              </button>
+            </div>
+          </div>
+
+          {/* メインコンテンツ */}
+          <div ref={containerRef} className="flex flex-1 overflow-hidden">
+            {/* コードエディタ */}
+            {!isPreviewMaximized && (
+              <>
+                <div
+                  className="flex flex-col"
+                  style={{ width: `${leftPanelWidth}%` }}
+                >
+                  <div className="bg-gray-800 px-4 py-2 text-gray-400 text-sm font-medium">
+                    HTMLコード
+                  </div>
+                  <textarea
+                    value={code}
+                    onChange={(e) => setCode(e.target.value)}
+                    className="flex-1 bg-gray-950 text-green-400 font-mono text-sm p-4 resize-none focus:outline-none"
+                    placeholder="ここにHTMLコードを貼り付けてください..."
+                    spellCheck={false}
+                  />
+                </div>
+
+                {/* ドラッグ可能な仕切り */}
+                <div
+                  onMouseDown={handleMouseDown}
+                  className="w-2 bg-gray-700 hover:bg-blue-500 cursor-col-resize flex items-center justify-center transition-colors group"
+                >
+                  <div className="w-1 h-12 bg-gray-500 group-hover:bg-white rounded-full transition-colors" />
+                </div>
+              </>
+            )}
+
+            {/* プレビュー */}
+            <div
+              className="flex flex-col"
+              style={{ width: isPreviewMaximized ? '100%' : `${100 - leftPanelWidth}%` }}
+            >
+              <div className="bg-gray-800 px-4 py-2 text-gray-400 text-sm font-medium flex items-center justify-between">
+                <span>プレビュー</span>
+                <div className="flex gap-2">
+                  <button
+                    onClick={handleDownload}
+                    className="px-3 py-1 bg-green-600 hover:bg-green-500 text-white text-xs rounded transition flex items-center gap-1"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                    </svg>
+                    ダウンロード
+                  </button>
+                  <button
+                    onClick={() => setIsPreviewMaximized(!isPreviewMaximized)}
+                    className="px-3 py-1 bg-blue-600 hover:bg-blue-500 text-white text-xs rounded transition flex items-center gap-1"
+                  >
+                    {isPreviewMaximized ? (
+                      <>
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 9V4.5M9 9H4.5M9 9L3.75 3.75M9 15v4.5M9 15H4.5M9 15l-5.25 5.25M15 9h4.5M15 9V4.5M15 9l5.25-5.25M15 15h4.5M15 15v4.5m0-4.5l5.25 5.25" />
+                        </svg>
+                        縮小
+                      </>
+                    ) : (
+                      <>
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
+                        </svg>
+                        最大化
+                      </>
+                    )}
+                  </button>
+                </div>
+              </div>
+              <div className="flex-1 bg-white">
+                <iframe
+                  srcDoc={code}
+                  title="Preview"
+                  className="w-full h-full border-0"
+                  sandbox="allow-scripts"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      );
+    }
+
+    ReactDOM.createRoot(document.getElementById('root')).render(<HTMLPreviewer />);
   </script>
 </body>
 </html>
