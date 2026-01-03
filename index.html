@@ -8,6 +8,8 @@
   <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 </head>
 <body>
   <div id="root"></div>
@@ -117,73 +119,45 @@
         document.body.style.userSelect = 'auto';
       }, []);
 
-      const handleDownload = useCallback(() => {
-        const isSvg = currentMode === 'SVG';
-        const blob = new Blob([code], { type: isSvg ? 'image/svg+xml' : 'text/html' });
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = isSvg ? 'preview.svg' : 'preview.html';
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-        URL.revokeObjectURL(url);
-      }, [code, currentMode]);
+      const iframeRef = useRef(null);
 
-      const loadSample = useCallback((type) => {
-        if (type === 'html') {
-          setCode(`<!DOCTYPE html>
-<html>
-<head>
-  <style>
-    body {
-      font-family: sans-serif;
-      padding: 20px;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      min-height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .card {
-      background: white;
-      padding: 40px;
-      border-radius: 16px;
-      box-shadow: 0 10px 40px rgba(0,0,0,0.2);
-      text-align: center;
-    }
-    h1 { color: #333; margin-bottom: 10px; }
-    p { color: #666; }
-  </style>
-</head>
-<body>
-  <div class="card">
-    <h1>Hello World!</h1>
-    <p>HTMLコードを左側で編集してみてください</p>
-  </div>
-</body>
-</html>`);
-        } else if (type === 'svg') {
-          setCode(`<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
-    </linearGradient>
-  </defs>
+      const handleDownloadPDF = useCallback(async () => {
+        if (!iframeRef.current) return;
 
-  <rect width="400" height="300" fill="url(#grad1)" rx="20"/>
+        try {
+          const iframe = iframeRef.current;
+          const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+          const body = iframeDoc.body;
 
-  <circle cx="200" cy="120" r="50" fill="white" opacity="0.9"/>
-  <text x="200" y="130" text-anchor="middle" font-size="40">&#127912;</text>
+          // html2canvasでキャプチャ
+          const canvas = await html2canvas(body, {
+            scale: 2,
+            useCORS: true,
+            logging: false,
+            backgroundColor: '#ffffff'
+          });
 
-  <text x="200" y="200" text-anchor="middle" font-family="sans-serif" font-size="24" fill="white" font-weight="bold">
-    SVG サンプル
-  </text>
-  <text x="200" y="230" text-anchor="middle" font-family="sans-serif" font-size="14" fill="white" opacity="0.8">
-    SVGコードを編集してみてください
-  </text>
-</svg>`);
+          // jsPDFでPDF生成
+          const { jsPDF } = window.jspdf;
+          const imgData = canvas.toDataURL('image/png');
+          const imgWidth = canvas.width;
+          const imgHeight = canvas.height;
+
+          // A4サイズに合わせる
+          const pdfWidth = 210;
+          const pdfHeight = (imgHeight * pdfWidth) / imgWidth;
+
+          const pdf = new jsPDF({
+            orientation: pdfHeight > pdfWidth ? 'portrait' : 'landscape',
+            unit: 'mm',
+            format: 'a4'
+          });
+
+          pdf.addImage(imgData, 'PNG', 0, 0, pdfWidth, pdfHeight);
+          pdf.save('preview.pdf');
+        } catch (error) {
+          console.error('PDF generation failed:', error);
+          alert('PDF生成に失敗しました。');
         }
       }, []);
 
@@ -207,18 +181,6 @@
               </span>
             </div>
             <div className="flex gap-2">
-              <button
-                onClick={() => loadSample('html')}
-                className="px-3 py-1 bg-blue-700 hover:bg-blue-600 text-white text-sm rounded transition"
-              >
-                HTMLサンプル
-              </button>
-              <button
-                onClick={() => loadSample('svg')}
-                className="px-3 py-1 bg-purple-700 hover:bg-purple-600 text-white text-sm rounded transition"
-              >
-                SVGサンプル
-              </button>
               <button
                 onClick={() => setLeftPanelWidth(50)}
                 className="px-3 py-1 bg-gray-700 hover:bg-gray-600 text-gray-300 text-sm rounded transition"
@@ -274,13 +236,13 @@
                 <span>プレビュー</span>
                 <div className="flex gap-2">
                   <button
-                    onClick={handleDownload}
+                    onClick={handleDownloadPDF}
                     className="px-3 py-1 bg-green-600 hover:bg-green-500 text-white text-xs rounded transition flex items-center gap-1"
                   >
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                     </svg>
-                    ダウンロード
+                    PDF
                   </button>
                   <button
                     onClick={() => setIsPreviewMaximized(!isPreviewMaximized)}
@@ -306,10 +268,11 @@
               </div>
               <div className="flex-1 bg-white">
                 <iframe
+                  ref={iframeRef}
                   srcDoc={previewCode}
                   title="Preview"
                   className="w-full h-full border-0"
-                  sandbox="allow-scripts"
+                  sandbox="allow-scripts allow-same-origin"
                 />
               </div>
             </div>
