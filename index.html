@@ -238,7 +238,9 @@
 
       const handleDownload = useCallback(() => {
         const isSvg = currentMode === 'SVG';
-        const blob = new Blob([code], { type: isSvg ? 'image/svg+xml' : 'text/html' });
+        const blob = new Blob([code], {
+          type: isSvg ? 'image/svg+xml;charset=utf-8' : 'text/html;charset=utf-8'
+        });
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
         a.href = url;
@@ -349,28 +351,42 @@
                             タップでコピー
                           </div>
                           {texts.length > 1 && (
-                            <button
+                            <div
+                              role="button"
+                              tabIndex={0}
+                              onTouchEnd={(e) => {
+                                e.preventDefault();
+                                handleCopyAll(texts);
+                              }}
                               onClick={() => handleCopyAll(texts)}
-                              className={`text-xs px-2 py-1 rounded transition ${
+                              className={`text-xs px-2 py-1 rounded transition cursor-pointer select-none ${
                                 copiedIndex === 'all'
                                   ? 'bg-green-500 text-white'
-                                  : 'bg-gray-200 text-gray-600 active:bg-gray-300'
+                                  : 'bg-gray-200 text-gray-600'
                               }`}
                             >
                               {copiedIndex === 'all' ? '✓ コピー完了！' : '全てコピー'}
-                            </button>
+                            </div>
                           )}
                         </div>
                         {texts.length > 0 ? (
                           <div className="flex flex-wrap gap-2">
                             {texts.map((text, idx) => (
-                              <button
+                              <div
                                 key={idx}
+                                role="button"
+                                tabIndex={0}
+                                onTouchStart={(e) => e.currentTarget.classList.add('scale-95')}
+                                onTouchEnd={(e) => {
+                                  e.currentTarget.classList.remove('scale-95');
+                                  e.preventDefault();
+                                  handleCopyText(text, idx);
+                                }}
                                 onClick={() => handleCopyText(text, idx)}
-                                className={`px-3 py-2 rounded-lg text-sm font-mono text-left transition-all active:scale-95 ${
+                                className={`px-3 py-2 rounded-lg text-sm font-mono text-left transition-all cursor-pointer select-none ${
                                   copiedIndex === idx
                                     ? 'bg-green-500 text-white shadow-md'
-                                    : 'bg-blue-100 text-blue-800 hover:bg-blue-200 active:bg-blue-300'
+                                    : 'bg-blue-100 text-blue-800'
                                 }`}
                               >
                                 {copiedIndex === idx ? (
@@ -383,7 +399,7 @@
                                 ) : (
                                   text
                                 )}
-                              </button>
+                              </div>
                             ))}
                           </div>
                         ) : (
