@@ -152,12 +152,19 @@
         }
       };
 
+      // SVGタグを抽出
+      const extractSvgTag = (text) => {
+        const match = text.match(/<svg[\s\S]*<\/svg>/i);
+        return match ? match[0] : text;
+      };
+
       // SVGかどうかを判定し、必要ならHTMLでラップ
       const previewCode = useMemo(() => {
         const trimmed = code.trim();
         const isSvg = trimmed.includes('<svg') || trimmed.startsWith('<?xml');
 
         if (isSvg) {
+          const svgOnly = extractSvgTag(trimmed);
           return `<!DOCTYPE html>
 <html>
 <head>
@@ -177,7 +184,7 @@
   </style>
 </head>
 <body>
-  ${trimmed}
+  ${svgOnly}
 </body>
 </html>`;
         }
@@ -240,7 +247,9 @@
         const isSvg = currentMode === 'SVG';
         // UTF-8 BOMを追加して文字化け防止
         const BOM = '\uFEFF';
-        const blob = new Blob([BOM + code], {
+        // SVGの場合はタグだけ抽出
+        const content = isSvg ? extractSvgTag(code.trim()) : code;
+        const blob = new Blob([BOM + content], {
           type: isSvg ? 'image/svg+xml;charset=utf-8' : 'text/html;charset=utf-8'
         });
         const url = URL.createObjectURL(blob);
@@ -449,7 +458,7 @@
                   {/* SVG表示 */}
                   <div
                     className="flex-1 overflow-auto flex items-center justify-center p-4"
-                    dangerouslySetInnerHTML={{ __html: code.trim() }}
+                    dangerouslySetInnerHTML={{ __html: extractSvgTag(code.trim()) }}
                   />
                 </div>
               ) : (
