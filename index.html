@@ -288,6 +288,88 @@
         isDragging.current = false;
       }, []);
 
+      // PNG変換ダウンロード（SVGのみ）
+      const handleDownloadPng = useCallback(async () => {
+        if (currentMode !== 'SVG') return;
+
+        try {
+          const svgContent = extractSvgTag(code.trim());
+
+          // SVGのサイズを取得
+          const parser = new DOMParser();
+          const svgDoc = parser.parseFromString(svgContent, 'image/svg+xml');
+          const svgEl = svgDoc.querySelector('svg');
+
+          let width = svgEl?.getAttribute('width') || svgEl?.viewBox?.baseVal?.width || 800;
+          let height = svgEl?.getAttribute('height') || svgEl?.viewBox?.baseVal?.height || 600;
+
+          // 数値に変換（pxなどの単位を除去）
+          width = parseInt(width) || 800;
+          height = parseInt(height) || 600;
+
+          // 高解像度対応（2倍）
+          const scale = 2;
+
+          // Canvasを作成
+          const canvas = document.createElement('canvas');
+          canvas.width = width * scale;
+          canvas.height = height * scale;
+          const ctx = canvas.getContext('2d');
+          ctx.scale(scale, scale);
+
+          // 背景を白に
+          ctx.fillStyle = 'white';
+          ctx.fillRect(0, 0, width, height);
+
+          // SVGをImageとして読み込み
+          const img = new Image();
+          const svgBlob = new Blob([svgContent], { type: 'image/svg+xml;charset=utf-8' });
+          const url = URL.createObjectURL(svgBlob);
+
+          img.onload = () => {
+            ctx.drawImage(img, 0, 0, width, height);
+            URL.revokeObjectURL(url);
+
+            // PNGとしてダウンロード
+            const pngUrl = canvas.toDataURL('image/png');
+
+            // ファイル名生成
+            const now = new Date();
+            const timestamp = now.getFullYear().toString() +
+              String(now.getMonth() + 1).padStart(2, '0') +
+              String(now.getDate()).padStart(2, '0');
+
+            let title = '';
+            const match = code.match(/<!--\s*メインタイトル\s*-->[\s\S]*?<text[^>]*>([^<]+)<\/text>/);
+            if (match && match[1]) {
+              title = match[1].trim();
+            }
+            if (!title) {
+              const texts = extractSvgTexts(code.trim());
+              if (texts.length > 0) title = texts[0];
+            }
+            title = title.slice(0, 30).replace(/[\/\\:*?"<>|\n\r]/g, '').trim() || 'svg';
+
+            const a = document.createElement('a');
+            a.href = pngUrl;
+            a.download = `${timestamp}_${title}.png`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+          };
+
+          img.onerror = () => {
+            URL.revokeObjectURL(url);
+            alert('PNG変換に失敗しました');
+          };
+
+          img.src = url;
+        } catch (e) {
+          console.error('PNG conversion failed:', e);
+          alert('PNG変換に失敗しました');
+        }
+      }, [code, currentMode]);
+
       const handleDownload = useCallback(() => {
         const isSvg = currentMode === 'SVG';
         // UTF-8 BOMを追加して文字化け防止
@@ -385,6 +467,17 @@
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                   </svg>
                 </button>
+                {currentMode === 'SVG' && (
+                  <button
+                    onClick={handleDownloadPng}
+                    className="p-2 bg-pink-600 hover:bg-pink-500 text-white rounded-lg transition active:scale-95"
+                    title="PNG変換"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                    </svg>
+                  </button>
+                )}
                 <button
                   onClick={handleShare}
                   className="p-2 bg-blue-600 hover:bg-blue-500 text-white rounded-lg transition active:scale-95"
@@ -643,6 +736,17 @@
                     </svg>
                     ダウンロード
                   </button>
+                  {currentMode === 'SVG' && (
+                    <button
+                      onClick={handleDownloadPng}
+                      className="px-3 py-1 bg-pink-600 hover:bg-pink-500 text-white text-xs rounded transition flex items-center gap-1"
+                    >
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                      </svg>
+                      PNG
+                    </button>
+                  )}
                   <button
                     onClick={() => setIsPreviewMaximized(!isPreviewMaximized)}
                     className="px-3 py-1 bg-blue-600 hover:bg-blue-500 text-white text-xs rounded transition flex items-center gap-1"
