@@ -67,7 +67,6 @@
       const [savedItems, setSavedItems] = useState([]);
       const [showLibrary, setShowLibrary] = useState(false);
       const [debouncedCode, setDebouncedCode] = useState(code);
-      const [forceMode, setForceMode] = useState(null); // null=自動, 'TEXT'/'HTML'/'SVG'=強制
       const containerRef = useRef(null);
       const isDragging = useRef(false);
 
@@ -254,11 +253,8 @@
         return debouncedCode;
       }, [debouncedCode]);
 
-      // 現在のモードを判定（forceMode優先、なければ自動判定）
-      // 判定ロジック: 先頭が「<」で始まるかどうかで判定
-      // → チャットログ等は普通テキストで始まるのでTEXTになる
+      // 現在のモードを判定（先頭文字で自動判定）
       const currentMode = useMemo(() => {
-        if (forceMode) return forceMode;
         const trimmed = debouncedCode.trim();
 
         // 先頭が<で始まらない → TEXT
@@ -266,21 +262,13 @@
           return 'TEXT';
         }
 
-        // <で始まる場合、SVGかHTMLか判定
+        // <svg or <?xml → SVG
         if (trimmed.startsWith('<svg') || trimmed.startsWith('<?xml')) {
           return 'SVG';
         }
 
         return 'HTML';
-      }, [debouncedCode, forceMode]);
-
-      // モード切り替え（クリックで循環）
-      const cycleMode = useCallback(() => {
-        const modes = [null, 'TEXT', 'HTML', 'SVG'];
-        const currentIndex = modes.indexOf(forceMode);
-        const nextIndex = (currentIndex + 1) % modes.length;
-        setForceMode(modes[nextIndex]);
-      }, [forceMode]);
+      }, [debouncedCode]);
 
       // マウスイベント（デスクトップ用）
       const handleMouseDown = useCallback((e) => {
@@ -499,19 +487,15 @@
             <div className="bg-gray-800 px-4 py-3 flex items-center justify-between border-b border-gray-700">
               <div className="flex items-center gap-2">
                 <h1 className="text-white font-bold text-base">HTML / SVG</h1>
-                <button
-                  onClick={cycleMode}
-                  className={`px-2 py-0.5 text-xs rounded font-medium transition active:scale-95 ${
-                    currentMode === 'SVG'
-                      ? 'bg-purple-600 text-white'
-                      : currentMode === 'TEXT'
-                      ? 'bg-gray-600 text-white'
-                      : 'bg-blue-600 text-white'
-                  } ${forceMode ? 'ring-2 ring-yellow-400' : ''}`}
-                  title="クリックでモード切り替え"
-                >
-                  {currentMode}{forceMode ? ' 固定' : ''}
-                </button>
+                <span className={`px-2 py-0.5 text-xs rounded font-medium ${
+                  currentMode === 'SVG'
+                    ? 'bg-purple-600 text-white'
+                    : currentMode === 'TEXT'
+                    ? 'bg-gray-600 text-white'
+                    : 'bg-blue-600 text-white'
+                }`}>
+                  {currentMode}
+                </span>
               </div>
               <div className="flex gap-2">
                 <button
@@ -732,19 +716,15 @@
           <div className="bg-gray-800 px-6 py-3 flex items-center justify-between border-b border-gray-700">
             <div className="flex items-center gap-3">
               <h1 className="text-white font-bold text-lg">HTML / SVG プレビューツール</h1>
-              <button
-                onClick={cycleMode}
-                className={`px-2 py-0.5 text-xs rounded font-medium transition hover:opacity-80 ${
-                  currentMode === 'SVG'
-                    ? 'bg-purple-600 text-white'
-                    : currentMode === 'TEXT'
-                    ? 'bg-gray-600 text-white'
-                    : 'bg-blue-600 text-white'
-                } ${forceMode ? 'ring-2 ring-yellow-400' : ''}`}
-                title="クリックでモード切り替え（自動→TEXT→HTML→SVG→自動...）"
-              >
-                {currentMode}{forceMode ? ' 固定' : ''}
-              </button>
+              <span className={`px-2 py-0.5 text-xs rounded font-medium ${
+                currentMode === 'SVG'
+                  ? 'bg-purple-600 text-white'
+                  : currentMode === 'TEXT'
+                  ? 'bg-gray-600 text-white'
+                  : 'bg-blue-600 text-white'
+              }`}>
+                {currentMode}
+              </span>
             </div>
             <div className="flex gap-2">
               <button
