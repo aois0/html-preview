@@ -290,6 +290,8 @@
 
       // PNG変換ダウンロード（SVGのみ）
       const handleDownloadPng = useCallback(async () => {
+        alert('PNG変換開始');
+
         if (currentMode !== 'SVG') {
           alert('SVGモードでのみ使用できます');
           return;
