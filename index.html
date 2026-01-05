@@ -402,12 +402,16 @@
             }
             title = title.slice(0, 30).replace(/[\/\\:*?"<>|\n\r]/g, '').trim() || 'svg';
 
-            // モバイルではモーダル表示（長押し保存用）
-            if (isMobile) {
+            // PWAスタンドアロンモード検出
+            const isPWA = window.matchMedia('(display-mode: standalone)').matches ||
+                          window.navigator.standalone === true;
+
+            // モバイルまたはPWAではモーダル表示（長押し/右クリック保存用）
+            if (isMobile || isPWA) {
               const modal = document.createElement('div');
               modal.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,0.9);z-index:9999;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:20px;';
               modal.innerHTML = `
-                <p style="color:white;font-size:16px;margin-bottom:16px;text-align:center;">📱 画像を長押しして保存</p>
+                <p style="color:white;font-size:16px;margin-bottom:16px;text-align:center;">${isMobile ? '📱 画像を長押しして保存' : '🖱️ 画像を右クリックして保存'}</p>
                 <img src="${pngUrl}" style="max-width:90%;max-height:70vh;border-radius:8px;box-shadow:0 4px 20px rgba(0,0,0,0.5);" />
                 <button style="margin-top:20px;padding:12px 32px;background:#3b82f6;color:white;border:none;border-radius:8px;font-size:16px;">閉じる</button>
               `;
@@ -436,7 +440,7 @@
         }
       }, [code, currentMode]);
 
-      const handleDownload = useCallback(() => {
+      const handleDownload = useCallback(async () => {
         const isSvg = currentMode === 'SVG';
         // UTF-8 BOMを追加して文字化け防止
         const BOM = '\uFEFF';
@@ -445,7 +449,6 @@
         const blob = new Blob([BOM + content], {
           type: isSvg ? 'image/svg+xml;charset=utf-8' : 'text/html;charset=utf-8'
         });
-        const url = URL.createObjectURL(blob);
 
         // タイムスタンプ生成 (YYYYMMDD)
         const now = new Date();
@@ -480,6 +483,30 @@
 
         const filename = `${timestamp}_${title}.${isSvg ? 'svg' : 'html'}`;
 
+        // PWAスタンドアロンモード検出
+        const isPWA = window.matchMedia('(display-mode: standalone)').matches ||
+                      window.navigator.standalone === true;
+
+        // PWAモードではWeb Share APIを試す
+        if (isPWA && navigator.canShare) {
+          try {
+            const file = new File([blob], filename, { type: blob.type });
+            if (navigator.canShare({ files: [file] })) {
+              await navigator.share({
+                files: [file],
+                title: filename
+              });
+              return;
+            }
+          } catch (e) {
+            // シェアがキャンセルされた場合は何もしない
+            if (e.name === 'AbortError') return;
+            // 他のエラーは通常ダウンロードにフォールバック
+          }
+        }
+
+        // 通常のダウンロード
+        const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
         a.href = url;
         a.download = filename;
