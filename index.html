@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=5.0, user-scalable=yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTML / SVG プレビューツール</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
@@ -206,7 +206,7 @@
           return `<!DOCTYPE html>
 <html>
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       margin: 0;
@@ -901,17 +901,6 @@
     }
 
     ReactDOM.createRoot(document.getElementById('root')).render(<HTMLPreviewer />);
-  </script>
-  <script>
-    // Service Worker を解除してキャッシュをクリア
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.getRegistrations().then(registrations => {
-        registrations.forEach(reg => reg.unregister());
-      });
-      caches.keys().then(keys => {
-        keys.forEach(key => caches.delete(key));
-      });
-    }
   </script>
 </body>
 </html>
