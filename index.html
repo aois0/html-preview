@@ -255,16 +255,23 @@
       }, [debouncedCode]);
 
       // 現在のモードを判定（forceMode優先、なければ自動判定）
+      // 判定ロジック: 先頭が「<」で始まるかどうかで判定
+      // → チャットログ等は普通テキストで始まるのでTEXTになる
       const currentMode = useMemo(() => {
         if (forceMode) return forceMode;
         const trimmed = debouncedCode.trim();
-        if (trimmed.includes('<svg') || trimmed.startsWith('<?xml')) {
+
+        // 先頭が<で始まらない → TEXT
+        if (!trimmed.startsWith('<')) {
+          return 'TEXT';
+        }
+
+        // <で始まる場合、SVGかHTMLか判定
+        if (trimmed.startsWith('<svg') || trimmed.startsWith('<?xml')) {
           return 'SVG';
         }
-        if (trimmed.includes('<') && trimmed.includes('>')) {
-          return 'HTML';
-        }
-        return 'TEXT';
+
+        return 'HTML';
       }, [debouncedCode, forceMode]);
 
       // モード切り替え（クリックで循環）
