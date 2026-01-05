@@ -32,37 +32,7 @@
     const { useState, useRef, useCallback, useEffect, useMemo } = React;
 
     function HTMLPreviewer() {
-      const [code, setCode] = useState(`<!DOCTYPE html>
-<html>
-<head>
-  <style>
-    body {
-      font-family: sans-serif;
-      padding: 20px;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      min-height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .card {
-      background: white;
-      padding: 40px;
-      border-radius: 16px;
-      box-shadow: 0 10px 40px rgba(0,0,0,0.2);
-      text-align: center;
-    }
-    h1 { color: #333; margin-bottom: 10px; }
-    p { color: #666; }
-  </style>
-</head>
-<body>
-  <div class="card">
-    <h1>Hello World!</h1>
-    <p>HTMLコードを編集してみてください</p>
-  </div>
-</body>
-</html>`);
+      const [code, setCode] = useState('');
 
       const [isPreviewMaximized, setIsPreviewMaximized] = useState(false);
       const [leftPanelWidth, setLeftPanelWidth] = useState(50);
@@ -70,7 +40,7 @@
       const [isMobile, setIsMobile] = useState(false);
       const [savedItems, setSavedItems] = useState([]);
       const [showLibrary, setShowLibrary] = useState(false);
-      const [debouncedCode, setDebouncedCode] = useState(code);
+      const [debouncedCode, setDebouncedCode] = useState('');
       const containerRef = useRef(null);
       const isDragging = useRef(false);
 
