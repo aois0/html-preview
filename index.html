@@ -94,16 +94,19 @@
         if (!code.trim()) return;
 
         const isSvg = code.includes('<svg');
+        const svgContent = isSvg ? extractSvgTag(code.trim()) : code;
         let title = '';
 
         // タイトル取得
         if (isSvg) {
-          const match = code.match(/<!--\s*メインタイトル\s*-->[\s\S]*?<text[^>]*>([^<]+)<\/text>/);
+          // メインタイトルコメントから取得
+          const match = svgContent.match(/<!--\s*メインタイトル\s*-->[\s\S]*?<text[^>]*>([^<]+)<\/text>/);
           if (match && match[1]) {
             title = match[1].trim();
           }
+          // なければ最初のテキスト要素
           if (!title) {
-            const texts = extractSvgTexts(code.trim());
+            const texts = extractSvgTexts(svgContent);
             if (texts.length > 0) title = texts[0];
           }
         }
@@ -444,7 +447,10 @@
                             </div>
                           </div>
                           <button
-                            onClick={() => handleDelete(item.id)}
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              handleDelete(item.id);
+                            }}
                             className="p-2 text-gray-500 hover:text-red-400 transition"
                           >
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
