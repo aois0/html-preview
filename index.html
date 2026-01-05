@@ -8,6 +8,7 @@
   <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lz-string/1.5.0/lz-string.min.js"></script>
   <style>
     /* タッチデバイスでのスクロール改善 */
     textarea {
@@ -95,15 +96,12 @@
           const params = new URLSearchParams(window.location.search);
           const data = params.get('data');
           if (data) {
-            // Base64デコード → UTF-8バイト配列 → 文字列
-            const binary = atob(data);
-            const bytes = new Uint8Array(binary.length);
-            for (let i = 0; i < binary.length; i++) {
-              bytes[i] = binary.charCodeAt(i);
+            // lz-stringで解凍
+            const decoded = LZString.decompressFromEncodedURIComponent(data);
+            if (decoded) {
+              setCode(decoded);
+              setActiveTab('preview');
             }
-            const decoded = new TextDecoder('utf-8').decode(bytes);
-            setCode(decoded);
-            setActiveTab('preview');
             // URLをクリーンにする（履歴を残さず）
             window.history.replaceState({}, '', window.location.pathname);
           }
@@ -192,11 +190,15 @@
         try {
           const isSvg = code.includes('<svg');
           const content = isSvg ? extractSvgTag(code.trim()) : code;
-          // UTF-8バイト配列 → Base64
-          const bytes = new TextEncoder().encode(content);
-          const binary = String.fromCharCode(...bytes);
-          const encoded = btoa(binary);
-          const shareUrl = `${window.location.origin}${window.location.pathname}?data=${encoded}`;
+          // lz-stringで圧縮（URL安全）
+          const compressed = LZString.compressToEncodedURIComponent(content);
+          const shareUrl = `${window.location.origin}${window.location.pathname}?data=${compressed}`;
+
+          // URLが長すぎる場合は警告
+          if (shareUrl.length > 8000) {
+            alert('コードが大きすぎてURL共有できません（8000文字制限）');
+            return;
+          }
 
           // クリップボードにコピー
           await navigator.clipboard.writeText(shareUrl);
