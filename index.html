@@ -758,12 +758,7 @@
           {showLibrary && (
             <div className="bg-gray-900 border-b border-gray-700 p-4 max-h-72 overflow-auto">
               {savedItems.length === 0 ? (
-                <div className="text-gray-500 text-center py-4">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mx-auto mb-2 opacity-50" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
-                  </svg>
-                  <p className="text-sm">まだ登録がありません</p>
-                </div>
+                <p className="text-gray-500 text-sm text-center py-2">まだ登録がありません</p>
               ) : (
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
                   {savedItems.map(item => (
