@@ -66,8 +66,17 @@
       const [isMobile, setIsMobile] = useState(false);
       const [savedItems, setSavedItems] = useState([]);
       const [showLibrary, setShowLibrary] = useState(false);
+      const [debouncedCode, setDebouncedCode] = useState(code);
       const containerRef = useRef(null);
       const isDragging = useRef(false);
+
+      // デバウンス処理（大量テキスト対策）
+      useEffect(() => {
+        const timer = setTimeout(() => {
+          setDebouncedCode(code);
+        }, 300);
+        return () => clearTimeout(timer);
+      }, [code]);
 
       // 画面サイズ検出
       useEffect(() => {
@@ -211,8 +220,9 @@
       }, [code]);
 
       // SVGかどうかを判定し、必要ならHTMLでラップ
+      // プレビュー用コード（デバウンス適用）
       const previewCode = useMemo(() => {
-        const trimmed = code.trim();
+        const trimmed = debouncedCode.trim();
         const isSvg = trimmed.includes('<svg') || trimmed.startsWith('<?xml');
 
         if (isSvg) {
@@ -240,12 +250,12 @@
 </body>
 </html>`;
         }
-        return code;
-      }, [code]);
+        return debouncedCode;
+      }, [debouncedCode]);
 
-      // 現在のモードを判定
+      // 現在のモードを判定（デバウンス適用）
       const currentMode = useMemo(() => {
-        const trimmed = code.trim();
+        const trimmed = debouncedCode.trim();
         if (trimmed.includes('<svg') || trimmed.startsWith('<?xml')) {
           return 'SVG';
         }
@@ -253,7 +263,7 @@
           return 'HTML';
         }
         return 'TEXT';
-      }, [code]);
+      }, [debouncedCode]);
 
       // マウスイベント（デスクトップ用）
       const handleMouseDown = useCallback((e) => {
@@ -651,11 +661,11 @@
                 <div
                   className="w-full h-full bg-gray-100 overflow-auto p-4"
                   style={{ userSelect: 'text', WebkitUserSelect: 'text' }}
-                  dangerouslySetInnerHTML={{ __html: extractSvgTag(code.trim()) }}
+                  dangerouslySetInnerHTML={{ __html: extractSvgTag(debouncedCode.trim()) }}
                 />
               ) : currentMode === 'TEXT' ? (
                 <div className="w-full h-full bg-white overflow-auto p-4">
-                  <pre className="whitespace-pre-wrap break-words font-sans text-gray-800 text-base leading-relaxed" style={{ userSelect: 'text', WebkitUserSelect: 'text' }}>{code}</pre>
+                  <pre className="whitespace-pre-wrap break-words font-sans text-gray-800 text-base leading-relaxed" style={{ userSelect: 'text', WebkitUserSelect: 'text' }}>{debouncedCode}</pre>
                 </div>
               ) : (
                 <iframe
@@ -874,7 +884,7 @@
               </div>
               <div className="flex-1 bg-white overflow-auto">
                 {currentMode === 'TEXT' ? (
-                  <pre className="p-4 whitespace-pre-wrap break-words font-sans text-gray-800 text-base leading-relaxed" style={{ userSelect: 'text' }}>{code}</pre>
+                  <pre className="p-4 whitespace-pre-wrap break-words font-sans text-gray-800 text-base leading-relaxed" style={{ userSelect: 'text' }}>{debouncedCode}</pre>
                 ) : (
                   <iframe
                     srcDoc={previewCode}
