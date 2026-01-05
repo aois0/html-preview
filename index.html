@@ -65,6 +65,7 @@
       const [activeTab, setActiveTab] = useState('code'); // モバイル用タブ
       const [isMobile, setIsMobile] = useState(false);
       const [savedItems, setSavedItems] = useState([]);
+      const [showLibrary, setShowLibrary] = useState(false);
       const containerRef = useRef(null);
       const isDragging = useRef(false);
 
@@ -712,6 +713,18 @@
             </div>
             <div className="flex gap-2">
               <button
+                onClick={handleSave}
+                className="px-3 py-1 bg-yellow-600 hover:bg-yellow-500 text-white text-sm rounded transition"
+              >
+                保存
+              </button>
+              <button
+                onClick={() => setShowLibrary(!showLibrary)}
+                className={`px-3 py-1 text-sm rounded transition ${showLibrary ? 'bg-yellow-600 text-white' : 'bg-gray-700 hover:bg-gray-600 text-gray-300'}`}
+              >
+                ライブラリ {savedItems.length > 0 && `(${savedItems.length})`}
+              </button>
+              <button
                 onClick={() => setLeftPanelWidth(50)}
                 className="px-3 py-1 bg-gray-700 hover:bg-gray-600 text-gray-300 text-sm rounded transition"
               >
@@ -725,6 +738,38 @@
               </button>
             </div>
           </div>
+
+          {/* ライブラリパネル */}
+          {showLibrary && (
+            <div className="bg-gray-850 border-b border-gray-700 p-4 max-h-64 overflow-auto">
+              {savedItems.length === 0 ? (
+                <p className="text-gray-500 text-center">まだ保存がありません</p>
+              ) : (
+                <div className="flex flex-wrap gap-2">
+                  {savedItems.map(item => (
+                    <div
+                      key={item.id}
+                      className="bg-gray-800 rounded px-3 py-2 flex items-center gap-2 hover:bg-gray-700 cursor-pointer transition"
+                      onClick={() => { handleLoad(item); setShowLibrary(false); }}
+                    >
+                      <span className={`px-2 py-0.5 text-xs rounded font-medium ${
+                        item.type === 'SVG' ? 'bg-purple-600' : item.type === 'TEXT' ? 'bg-gray-600' : 'bg-blue-600'
+                      } text-white`}>
+                        {item.type}
+                      </span>
+                      <span className="text-white text-sm">{item.title}</span>
+                      <button
+                        onClick={(e) => { e.stopPropagation(); handleDelete(item.id); }}
+                        className="text-gray-500 hover:text-red-400 ml-1"
+                      >
+                        ×
+                      </button>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          )}
 
           {/* メインコンテンツ */}
           <div ref={containerRef} className="flex flex-1 overflow-hidden">
