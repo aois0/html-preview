@@ -164,6 +164,12 @@
             const texts = extractSvgTexts(content);
             if (texts.length > 0) title = texts[0];
           }
+        } else if (type === 'HTML') {
+          // HTMLの場合は<title>タグから取得
+          const titleMatch = code.match(/<title[^>]*>([^<]+)<\/title>/i);
+          if (titleMatch && titleMatch[1]) {
+            title = titleMatch[1].trim();
+          }
         } else if (type === 'TEXT') {
           // テキストの場合は最初の行をタイトルに
           const firstLine = code.trim().split('\n')[0];
