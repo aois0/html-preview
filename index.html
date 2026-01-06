@@ -94,8 +94,17 @@
             try {
               const arrayBuffer = event.target.result;
               const pdf = await pdfjsLib.getDocument({ data: arrayBuffer }).promise;
-              const images = [];
 
+              // メタデータからタイトル取得
+              let pdfTitle = file.name;
+              try {
+                const metadata = await pdf.getMetadata();
+                if (metadata?.info?.Title) {
+                  pdfTitle = metadata.info.Title;
+                }
+              } catch (e) {}
+
+              const images = [];
               for (let i = 1; i <= pdf.numPages; i++) {
                 const page = await pdf.getPage(i);
                 const scale = 2;
@@ -112,7 +121,7 @@
               }
 
               setCode(images.join('\n'));
-              setLoadedFile({ name: file.name, type: 'PDF' });
+              setLoadedFile({ name: pdfTitle, type: 'PDF' });
               if (navigator.vibrate) navigator.vibrate(50);
             } catch (err) {
               console.error('PDF読み込みエラー:', err);
