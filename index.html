@@ -58,6 +58,7 @@
       const longPressTimer = useRef(null);
       const textareaRef = useRef(null);
       const fileInputRef = useRef(null);
+      const importInputRef = useRef(null);
 
       // ファイル選択ハンドラ（モバイル用）- 画像/HTML/PDF対応
       const handleFileSelect = useCallback((e) => {
@@ -342,6 +343,56 @@
         setCode(item.code);
         setActiveTab('preview');
       }, []);
+
+      // エクスポート機能（JSONダウンロード）
+      const handleExport = useCallback(() => {
+        if (savedItems.length === 0) {
+          alert('エクスポートするデータがありません');
+          return;
+        }
+        const data = JSON.stringify(savedItems, null, 2);
+        const blob = new Blob([data], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `html-preview-library-${new Date().toISOString().slice(0,10)}.json`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+      }, [savedItems]);
+
+      // インポート機能（JSON読み込み）
+      const handleImport = useCallback((e) => {
+        const file = e.target.files?.[0];
+        if (!file) return;
+
+        const reader = new FileReader();
+        reader.onload = (event) => {
+          try {
+            const imported = JSON.parse(event.target.result);
+            if (!Array.isArray(imported)) {
+              alert('無効なファイル形式です');
+              return;
+            }
+            // 既存データとマージ（IDが重複したら上書き）
+            const existingIds = new Set(savedItems.map(item => item.id));
+            const newItems = imported.filter(item => !existingIds.has(item.id));
+            const merged = [...imported.filter(item => existingIds.has(item.id)), ...savedItems.filter(item => !imported.find(i => i.id === item.id)), ...newItems];
+            // IDでソート（新しい順）
+            merged.sort((a, b) => b.id - a.id);
+            setSavedItems(merged);
+            localStorage.setItem('html-preview-library', JSON.stringify(merged));
+            alert(`インポート完了！（${imported.length}件）`);
+            if (navigator.vibrate) navigator.vibrate(50);
+          } catch (err) {
+            console.error('Import error:', err);
+            alert('インポートに失敗しました');
+          }
+        };
+        reader.readAsText(file);
+        e.target.value = '';
+      }, [savedItems]);
 
       // URL共有機能（フラグメント#を使用 - より長いデータに対応）
       const [isShortening, setIsShortening] = useState(false);
@@ -898,6 +949,34 @@
                 </div>
               ) : activeTab === 'library' ? (
                 <div className="w-full h-full bg-gray-950 overflow-auto p-4">
+                  {/* エクスポート/インポートボタン */}
+                  <div className="flex gap-2 mb-4">
+                    <input
+                      ref={importInputRef}
+                      type="file"
+                      accept=".json"
+                      onChange={handleImport}
+                      className="hidden"
+                    />
+                    <button
+                      onClick={() => importInputRef.current?.click()}
+                      className="flex-1 py-2 bg-blue-600 hover:bg-blue-500 text-white text-sm rounded-lg transition active:scale-95 flex items-center justify-center gap-2"
+                    >
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
+                      </svg>
+                      インポート
+                    </button>
+                    <button
+                      onClick={handleExport}
+                      className="flex-1 py-2 bg-green-600 hover:bg-green-500 text-white text-sm rounded-lg transition active:scale-95 flex items-center justify-center gap-2"
+                    >
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                      </svg>
+                      エクスポート
+                    </button>
+                  </div>
                   {savedItems.length === 0 ? (
                     <div className="text-gray-500 text-center py-8">
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 mx-auto mb-3 opacity-50" fill="none" viewBox="0 0 24 24" stroke="currentColor">
