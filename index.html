@@ -54,40 +54,57 @@
       const isDragging = useRef(false);
       const longPressTimer = useRef(null);
       const textareaRef = useRef(null);
-      const imageInputRef = useRef(null);
+      const fileInputRef = useRef(null);
 
-      // 画像ファイル選択ハンドラ（モバイル用）
-      const handleImageSelect = useCallback((e) => {
+      // ファイル選択ハンドラ（モバイル用）- 画像/HTML/PDF対応
+      const handleFileSelect = useCallback((e) => {
         const file = e.target.files?.[0];
         if (!file) return;
 
-        const reader = new FileReader();
-        reader.onload = (event) => {
-          const base64 = event.target.result;
-          const imgTag = `<img src="${base64}" alt="写真" style="max-width:100%;height:auto;">`;
+        const fileName = file.name.toLowerCase();
+        const fileType = file.type;
 
-          // カーソル位置に挿入、またはコードの末尾に追加
-          if (textareaRef.current) {
-            const textarea = textareaRef.current;
-            const start = textarea.selectionStart;
-            const end = textarea.selectionEnd;
-            const currentCode = code;
-
-            if (start !== end || start > 0) {
-              // カーソル位置に挿入
-              const newCode = currentCode.slice(0, start) + imgTag + currentCode.slice(end);
-              setCode(newCode);
-            } else {
-              // 末尾に追加
-              setCode(currentCode + (currentCode ? '\n' : '') + imgTag);
-            }
-          } else {
+        // HTMLファイル: テキストとして読み込んで置き換え
+        if (fileName.endsWith('.html') || fileName.endsWith('.htm') || fileType === 'text/html') {
+          const reader = new FileReader();
+          reader.onload = (event) => {
+            setCode(event.target.result);
+            if (navigator.vibrate) navigator.vibrate(50);
+          };
+          reader.readAsText(file);
+        }
+        // SVGファイル: テキストとして読み込んで置き換え
+        else if (fileName.endsWith('.svg') || fileType === 'image/svg+xml') {
+          const reader = new FileReader();
+          reader.onload = (event) => {
+            setCode(event.target.result);
+            if (navigator.vibrate) navigator.vibrate(50);
+          };
+          reader.readAsText(file);
+        }
+        // PDFファイル: base64でembed
+        else if (fileName.endsWith('.pdf') || fileType === 'application/pdf') {
+          const reader = new FileReader();
+          reader.onload = (event) => {
+            const base64 = event.target.result;
+            const pdfEmbed = `<embed src="${base64}" type="application/pdf" width="100%" height="600px" style="min-height:80vh;">`;
+            setCode(pdfEmbed);
+            if (navigator.vibrate) navigator.vibrate(50);
+          };
+          reader.readAsDataURL(file);
+        }
+        // 画像ファイル: base64でimg挿入
+        else if (fileType.startsWith('image/')) {
+          const reader = new FileReader();
+          reader.onload = (event) => {
+            const base64 = event.target.result;
+            const imgTag = `<img src="${base64}" alt="${file.name}" style="max-width:100%;height:auto;">`;
+            // 既存コードに追加
             setCode(code + (code ? '\n' : '') + imgTag);
-          }
-
-          if (navigator.vibrate) navigator.vibrate(50);
-        };
-        reader.readAsDataURL(file);
+            if (navigator.vibrate) navigator.vibrate(50);
+          };
+          reader.readAsDataURL(file);
+        }
 
         // 同じファイルを再選択可能にする
         e.target.value = '';
@@ -657,16 +674,16 @@
               </div>
               <div className="flex gap-2">
                 <input
-                  ref={imageInputRef}
+                  ref={fileInputRef}
                   type="file"
-                  accept="image/*"
-                  onChange={handleImageSelect}
+                  accept="image/*,.html,.htm,.svg,.pdf"
+                  onChange={handleFileSelect}
                   className="hidden"
                 />
                 <button
-                  onClick={() => imageInputRef.current?.click()}
+                  onClick={() => fileInputRef.current?.click()}
                   className="p-2 bg-purple-600 hover:bg-purple-500 text-white rounded-lg transition active:scale-95"
-                  title="画像をアップロード"
+                  title="ファイルを開く (画像/HTML/SVG/PDF)"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
