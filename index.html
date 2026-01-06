@@ -207,21 +207,39 @@
             }
           }
 
-          // クリップボードにコピー（モバイルSafari対応）
+          // 共有処理（Web Share API → クリップボード → prompt）
           const sizeInfo = shareUrl.length < 100 ? '短縮済み' : `${Math.round(shareUrl.length/1000)}KB`;
+
+          // モバイルでWeb Share API対応ならネイティブ共有を使用
+          if (navigator.share && isMobile) {
+            try {
+              await navigator.share({
+                title: 'HTML/SVG Preview',
+                text: 'プレビューを共有',
+                url: shareUrl
+              });
+              return; // 共有シートが開いたら終了
+            } catch (shareError) {
+              // ユーザーがキャンセルした場合は何もしない
+              if (shareError.name === 'AbortError') return;
+              console.warn('Web Share API failed:', shareError);
+            }
+          }
+
+          // デスクトップまたはWeb Share失敗時はクリップボード
           try {
             await navigator.clipboard.writeText(shareUrl);
             alert(`共有URLをコピーしました！（${sizeInfo}）\nこのURLを送るだけで誰でも同じ内容を見れます。`);
           } catch (clipboardError) {
-            // クリップボードAPIが失敗した場合、URLを表示してコピーさせる
-            console.warn('Clipboard API failed, showing prompt:', clipboardError);
-            prompt(`共有URL（${sizeInfo}）\n長押しでコピーしてください:`, shareUrl);
+            // クリップボードも失敗した場合、選択可能なテキストで表示
+            console.warn('Clipboard API failed:', clipboardError);
+            alert(`共有URL（${sizeInfo}）:\n\n${shareUrl}\n\n↑このURLを長押しでコピーしてください`);
           }
         } catch (e) {
           console.error('Failed to create share URL:', e);
           alert('共有URLの作成に失敗しました');
         }
-      }, [code]);
+      }, [code, isMobile]);
 
       // SVGかどうかを判定し、必要ならHTMLでラップ
       // プレビュー用コード（デバウンス適用）
