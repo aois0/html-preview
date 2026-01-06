@@ -281,12 +281,17 @@
 
         const isSvg = code.includes('<svg');
         const isHtml = code.includes('<') && code.includes('>');
-        const type = isSvg ? 'SVG' : isHtml ? 'HTML' : 'TEXT';
+        // loadedFileがあればそのタイプを優先
+        const type = loadedFile?.type || (isSvg ? 'SVG' : isHtml ? 'HTML' : 'TEXT');
         const content = isSvg ? extractSvgTag(code.trim()) : code;
         let title = '';
 
-        // タイトル取得
-        if (isSvg) {
+        // loadedFileがあればそのタイトルを優先
+        if (loadedFile?.name) {
+          title = loadedFile.name;
+        }
+        // タイトル取得（loadedFileがない場合）
+        else if (isSvg) {
           // メインタイトルコメントから取得
           const match = content.match(/<!--\s*メインタイトル\s*-->[\s\S]*?<text[^>]*>([^<]+)<\/text>/);
           if (match && match[1]) {
@@ -308,7 +313,7 @@
           const firstLine = code.trim().split('\n')[0];
           title = firstLine;
         }
-        title = title.slice(0, 30).replace(/[\/\\:*?"<>|\n\r]/g, '').trim() || type;
+        title = title.slice(0, 50).replace(/[\/\\:*?"<>|\n\r]/g, '').trim() || type;
 
         const newItem = {
           id: Date.now(),
@@ -322,7 +327,7 @@
         setSavedItems(updated);
         localStorage.setItem('html-preview-library', JSON.stringify(updated));
         alert('登録しました！');
-      }, [code, savedItems]);
+      }, [code, savedItems, loadedFile]);
 
       // 削除機能
       const handleDelete = useCallback((id) => {
