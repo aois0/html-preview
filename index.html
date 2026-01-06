@@ -68,6 +68,20 @@
         }
       }, []);
 
+      // ペーストボタン用（モバイル）
+      const handlePaste = useCallback(async () => {
+        try {
+          const text = await navigator.clipboard.readText();
+          if (text) {
+            setCode(text);
+            if (navigator.vibrate) navigator.vibrate(50);
+          }
+        } catch (err) {
+          // フォールバック：ブラウザ標準のペーストを促す
+          alert('クリップボードへのアクセスが許可されていません。\n入力欄を長押しして「ペースト」を選んでください。');
+        }
+      }, []);
+
       // デバウンス処理（大量テキスト対策）
       useEffect(() => {
         const timer = setTimeout(() => {
@@ -575,6 +589,15 @@
                 </span>
               </div>
               <div className="flex gap-2">
+                <button
+                  onClick={handlePaste}
+                  className="p-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg transition active:scale-95"
+                  title="ペースト"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+                  </svg>
+                </button>
                 <button
                   onClick={() => setCode('')}
                   className="p-2 bg-gray-700 hover:bg-gray-600 text-gray-300 rounded-lg transition active:scale-95"
