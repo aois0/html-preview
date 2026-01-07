@@ -999,16 +999,16 @@
                           className="bg-gray-800 rounded-lg p-3 flex items-center justify-between"
                         >
                           <div
-                            className="flex-1 cursor-pointer"
+                            className="flex-1 min-w-0 cursor-pointer"
                             onClick={() => handleLoad(item)}
                           >
-                            <div className="flex items-center gap-2">
-                              <span className={`px-2 py-0.5 text-xs rounded font-medium ${
+                            <div className="flex items-start gap-2">
+                              <span className={`px-2 py-0.5 text-xs rounded font-medium flex-shrink-0 ${
                                 item.type === 'SVG' ? 'bg-purple-600' : item.type === 'TEXT' ? 'bg-gray-600' : 'bg-blue-600'
                               } text-white`}>
                                 {item.type}
                               </span>
-                              <span className="text-white font-medium truncate">{item.title}</span>
+                              <span className="text-white font-medium break-words">{item.title}</span>
                             </div>
                             <div className="text-gray-500 text-xs mt-1">
                               {new Date(item.createdAt).toLocaleDateString('ja-JP')}
