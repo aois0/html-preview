@@ -1262,16 +1262,9 @@
         );
       }
 
-      // デスクトップレイアウト
+      // デスクトップレイアウト（タブ式UI）
       return (
-        <div
-          className="flex flex-col h-screen bg-gray-900"
-          onMouseMove={handleMouseMove}
-          onMouseUp={handleMouseUp}
-          onMouseLeave={handleMouseUp}
-          onTouchMove={handleTouchMove}
-          onTouchEnd={handleTouchEnd}
-        >
+        <div className="flex flex-col h-screen bg-gray-900">
           {/* ヘッダー */}
           <div className="bg-gray-800 px-6 py-3 flex items-center justify-between border-b border-gray-700">
             <div className="flex items-center gap-3">
@@ -1289,250 +1282,294 @@
             <div className="flex gap-2">
               <button
                 onClick={handleSave}
-                className="px-3 py-1 bg-yellow-600 hover:bg-yellow-500 text-white text-sm rounded transition"
+                className="px-4 py-2 bg-yellow-600 hover:bg-yellow-500 text-white text-sm rounded transition"
               >
-                保存
+                📚 登録
               </button>
+              {currentMode === 'SVG' && (
+                <button
+                  onClick={handleDownloadPng}
+                  className="px-4 py-2 bg-pink-600 hover:bg-pink-500 text-white text-sm rounded transition"
+                >
+                  🖼 PNG
+                </button>
+              )}
               <button
-                onClick={() => setShowLibrary(!showLibrary)}
-                className={`px-3 py-1 text-sm rounded transition ${showLibrary ? 'bg-yellow-600 text-white' : 'bg-gray-700 hover:bg-gray-600 text-gray-300'}`}
+                onClick={handleShare}
+                disabled={isShortening}
+                className={`px-4 py-2 ${isShortening ? 'bg-blue-400' : 'bg-blue-600 hover:bg-blue-500'} text-white text-sm rounded transition`}
               >
-                ライブラリ {savedItems.length > 0 && `(${savedItems.length})`}
-              </button>
-              <button
-                onClick={() => setLeftPanelWidth(50)}
-                className="px-3 py-1 bg-gray-700 hover:bg-gray-600 text-gray-300 text-sm rounded transition"
-              >
-                リセット
-              </button>
-              <button
-                onClick={() => setCode('')}
-                className="px-3 py-1 bg-gray-700 hover:bg-gray-600 text-gray-300 text-sm rounded transition"
-              >
-                クリア
+                {isShortening ? '処理中...' : '🔗 共有'}
               </button>
             </div>
           </div>
 
-          {/* ライブラリパネル */}
-          {showLibrary && (
-            <div className="bg-gray-900 border-b border-gray-700 px-4 py-2 max-h-64 overflow-auto">
-              {/* インポート/エクスポートボタン */}
-              <div className="flex gap-2 mb-2">
+          {/* タブバー */}
+          <div className="bg-gray-800 px-4 flex border-b border-gray-700">
+            {['code', 'preview', 'library'].map((tab) => (
+              <button
+                key={tab}
+                onClick={() => setActiveTab(tab)}
+                className={`px-6 py-3 text-sm font-medium transition ${
+                  activeTab === tab
+                    ? 'text-yellow-400 border-b-2 border-yellow-400'
+                    : 'text-gray-400 hover:text-gray-200'
+                }`}
+              >
+                {tab === 'code' ? 'コード' : tab === 'preview' ? 'プレビュー' : `ライブラリ${savedItems.length > 0 ? ` (${savedItems.length})` : ''}`}
+              </button>
+            ))}
+          </div>
+
+          {/* ライブラリタブ: 検索バー */}
+          {activeTab === 'library' && (
+            <div className="bg-gray-900 px-4 py-2 border-b border-gray-700">
+              <div className="relative max-w-md">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 absolute left-3 top-1/2 -translate-y-1/2 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
                 <input
-                  ref={importInputRef}
-                  type="file"
-                  accept=".json"
-                  onChange={handleImport}
-                  className="hidden"
+                  type="text"
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  placeholder="ライブラリを検索..."
+                  className="w-full pl-10 pr-10 py-2 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-yellow-500"
                 />
-                <button
-                  onClick={() => importInputRef.current?.click()}
-                  className="px-3 py-1 bg-slate-600 hover:bg-slate-500 text-white text-xs rounded transition flex items-center gap-1"
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
-                  </svg>
-                  インポート
-                </button>
-                {selectMode ? (
-                  <>
-                    <button
-                      onClick={toggleSelectAll}
-                      className="px-3 py-1 bg-slate-600 hover:bg-slate-500 text-white text-xs rounded transition"
-                    >
-                      {selectedItems.size === savedItems.length ? '全解除' : '全選択'}
-                    </button>
-                    <button
-                      onClick={handleExport}
-                      disabled={selectedItems.size === 0}
-                      className={`px-3 py-1 text-white text-xs rounded transition flex items-center gap-1 ${selectedItems.size === 0 ? 'bg-gray-600 opacity-50' : 'bg-green-600 hover:bg-green-500'}`}
-                    >
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
-                      </svg>
-                      {selectedItems.size > 0 ? `${selectedItems.size}件をエクスポート` : 'エクスポート'}
-                    </button>
-                    <button
-                      onClick={() => { setSelectMode(false); setSelectedItems(new Set()); }}
-                      className="px-2 py-1 bg-gray-700 hover:bg-gray-600 text-white text-xs rounded transition"
-                    >
-                      ✕
-                    </button>
-                  </>
-                ) : (
+                {searchQuery && (
                   <button
-                    onClick={() => setSelectMode(true)}
-                    className="px-3 py-1 bg-slate-600 hover:bg-slate-500 text-white text-xs rounded transition flex items-center gap-1"
+                    onClick={() => setSearchQuery('')}
+                    className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 hover:text-gray-300"
                   >
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                     </svg>
-                    エクスポート
                   </button>
                 )}
               </div>
-              {savedItems.length === 0 ? (
-                <p className="text-gray-500 text-sm text-center py-1">まだ登録がありません</p>
-              ) : (
-                <div className="grid grid-cols-3 gap-3">
-                  {savedItems.map(item => (
-                    <div
-                      key={item.id}
-                      className={`bg-gray-800 rounded-lg p-3 flex items-center gap-3 hover:bg-gray-700 cursor-pointer transition ${selectMode && selectedItems.has(item.id) ? 'ring-2 ring-green-500' : ''}`}
-                      onClick={selectMode ? () => toggleSelectItem(item.id) : () => { handleLoad(item); setShowLibrary(false); }}
-                    >
-                      {selectMode && (
-                        <div className={`w-6 h-6 rounded border-2 flex items-center justify-center flex-shrink-0 ${selectedItems.has(item.id) ? 'bg-green-500 border-green-500' : 'border-gray-500'}`}>
-                          {selectedItems.has(item.id) && (
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
-                            </svg>
-                          )}
-                        </div>
-                      )}
-                      <div className="flex-1 min-w-0">
-                        <div className="flex items-start gap-2">
-                          <span className={`px-2 py-0.5 text-xs rounded font-medium flex-shrink-0 ${
-                            item.type === 'SVG' ? 'bg-purple-600' : item.type === 'TEXT' ? 'bg-gray-600' : 'bg-blue-600'
-                          } text-white`}>
-                            {item.type}
-                          </span>
-                          <span className="text-white font-medium break-words">{item.title}</span>
-                        </div>
-                        <div className="text-gray-500 text-xs mt-1">
-                          {new Date(item.createdAt).toLocaleDateString('ja-JP')}
-                        </div>
-                      </div>
-                      {!selectMode && (
-                        <button
-                          onClick={(e) => { e.stopPropagation(); handleDelete(item.id); }}
-                          className="p-2 text-gray-500 hover:text-red-400 transition flex-shrink-0"
-                        >
-                          <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
-                          </svg>
-                        </button>
-                      )}
-                    </div>
-                  ))}
-                </div>
-              )}
             </div>
           )}
 
-          {/* メインコンテンツ */}
-          <div ref={containerRef} className="flex flex-1 overflow-hidden">
-            {/* コードエディタ */}
-            {!isPreviewMaximized && (
-              <>
-                <div
-                  className="flex flex-col"
-                  style={{ width: `${leftPanelWidth}%` }}
+          {/* コンテンツ */}
+          <div className="flex-1 overflow-hidden">
+            {activeTab === 'code' ? (
+              <div className="relative w-full h-full">
+                <textarea
+                  value={code}
+                  onChange={(e) => setCode(e.target.value)}
+                  className="w-full h-full bg-gray-950 text-green-400 font-mono text-sm p-4 resize-none focus:outline-none"
+                  placeholder="ここにHTMLまたはSVGコードを貼り付けてください..."
+                  spellCheck={false}
+                />
+                {/* 左下：開くボタン */}
+                <button
+                  onClick={() => fileInputRef.current?.click()}
+                  className="absolute bottom-4 left-4 p-3 bg-purple-600 hover:bg-purple-500 text-white rounded-full shadow-lg transition active:scale-95 z-10"
+                  title="ファイルを開く"
                 >
-                  <div className="bg-gray-800 px-4 py-2 text-gray-400 text-sm font-medium">
-                    コード（HTML または SVG）
-                  </div>
-                  <textarea
-                    value={code}
-                    onChange={(e) => setCode(e.target.value)}
-                    className="flex-1 bg-gray-950 text-green-400 font-mono text-sm p-4 resize-none focus:outline-none"
-                    placeholder="ここにHTMLまたはSVGコードを貼り付けてください..."
-                    spellCheck={false}
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
+                  </svg>
+                </button>
+              </div>
+            ) : activeTab === 'library' ? (
+              <div className="w-full h-full bg-gray-950 overflow-auto p-4">
+                {/* エクスポート/インポートボタン */}
+                <div className="flex gap-2 mb-4">
+                  <input
+                    ref={importInputRef}
+                    type="file"
+                    accept=".json"
+                    onChange={handleImport}
+                    className="hidden"
                   />
-                </div>
-
-                {/* ドラッグ可能な仕切り */}
-                <div
-                  onMouseDown={handleMouseDown}
-                  onTouchStart={handleTouchStart}
-                  className="w-2 bg-gray-700 hover:bg-blue-500 cursor-col-resize flex items-center justify-center transition-colors group touch-none"
-                >
-                  <div className="w-1 h-12 bg-gray-500 group-hover:bg-white rounded-full transition-colors" />
-                </div>
-              </>
-            )}
-
-            {/* プレビュー */}
-            <div
-              className="flex flex-col"
-              style={{ width: isPreviewMaximized ? '100%' : `${100 - leftPanelWidth}%` }}
-            >
-              <div className="bg-gray-800 px-4 py-2 text-gray-400 text-sm font-medium flex items-center justify-between">
-                <span>プレビュー</span>
-                <div className="flex gap-2">
                   <button
-                    onClick={handleShare}
-                    disabled={isShortening}
-                    className={`px-3 py-1 ${isShortening ? 'bg-blue-400' : 'bg-blue-600 hover:bg-blue-500'} text-white text-xs rounded transition flex items-center gap-1`}
-                  >
-                    {isShortening ? (
-                      <svg className="animate-spin h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                        <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                        <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                      </svg>
-                    ) : (
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
-                      </svg>
-                    )}
-                    {isShortening ? '処理中...' : '共有'}
-                  </button>
-                  <button
-                    onClick={handleDownload}
-                    className="px-3 py-1 bg-green-600 hover:bg-green-500 text-white text-xs rounded transition flex items-center gap-1"
+                    onClick={() => importInputRef.current?.click()}
+                    className="py-2 px-4 bg-slate-600 hover:bg-slate-500 text-white text-sm rounded-lg transition active:scale-95 flex items-center gap-2"
                   >
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                     </svg>
-                    ダウンロード
+                    インポート
                   </button>
-                  {currentMode === 'SVG' && (
+                  {selectMode ? (
+                    <>
+                      <button
+                        onClick={toggleSelectAll}
+                        className="py-2 px-4 bg-slate-600 hover:bg-slate-500 text-white text-sm rounded-lg transition active:scale-95"
+                      >
+                        {selectedItems.size === savedItems.length ? '全解除' : '全選択'}
+                      </button>
+                      <button
+                        onClick={handleExport}
+                        disabled={selectedItems.size === 0}
+                        className={`py-2 px-4 text-white text-sm rounded-lg transition active:scale-95 flex items-center gap-2 ${selectedItems.size === 0 ? 'bg-gray-600 opacity-50' : 'bg-green-600 hover:bg-green-500'}`}
+                      >
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
+                        </svg>
+                        {selectedItems.size > 0 ? `${selectedItems.size}件をエクスポート` : 'エクスポート'}
+                      </button>
+                      <button
+                        onClick={() => { setSelectMode(false); setSelectedItems(new Set()); }}
+                        className="py-2 px-3 bg-gray-700 hover:bg-gray-600 text-white text-sm rounded-lg transition active:scale-95"
+                      >
+                        ✕
+                      </button>
+                    </>
+                  ) : (
                     <button
-                      onClick={handleDownloadPng}
-                      className="px-3 py-1 bg-pink-600 hover:bg-pink-500 text-white text-xs rounded transition flex items-center gap-1"
+                      onClick={() => setSelectMode(true)}
+                      className="py-2 px-4 bg-slate-600 hover:bg-slate-500 text-white text-sm rounded-lg transition active:scale-95 flex items-center gap-2"
                     >
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
                       </svg>
-                      PNG
+                      エクスポート
                     </button>
                   )}
-                  <button
-                    onClick={() => setIsPreviewMaximized(!isPreviewMaximized)}
-                    className="px-3 py-1 bg-blue-600 hover:bg-blue-500 text-white text-xs rounded transition flex items-center gap-1"
-                  >
-                    {isPreviewMaximized ? (
-                      <>
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 9V4.5M9 9H4.5M9 9L3.75 3.75M9 15v4.5M9 15H4.5M9 15l-5.25 5.25M15 9h4.5M15 9V4.5M15 9l5.25-5.25M15 15h4.5M15 15v4.5m0-4.5l5.25 5.25" />
-                        </svg>
-                        縮小
-                      </>
-                    ) : (
-                      <>
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
-                        </svg>
-                        最大化
-                      </>
-                    )}
-                  </button>
                 </div>
+                {savedItems.length === 0 ? (
+                  <div className="text-gray-500 text-center py-8">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 mx-auto mb-3 opacity-50" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+                    </svg>
+                    <p>まだ登録がありません</p>
+                    <p className="text-sm mt-1">コードを入力して登録ボタンを押してね</p>
+                  </div>
+                ) : (() => {
+                  const filteredItems = savedItems.filter(item => {
+                    if (!searchQuery.trim()) return true;
+                    const query = searchQuery.toLowerCase();
+                    return item.title.toLowerCase().includes(query) ||
+                           item.code.toLowerCase().includes(query) ||
+                           item.type.toLowerCase().includes(query);
+                  });
+                  return filteredItems.length === 0 ? (
+                    <div className="text-gray-500 text-center py-8">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 mx-auto mb-3 opacity-50" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                      </svg>
+                      <p>「{searchQuery}」に一致する項目がありません</p>
+                    </div>
+                  ) : (
+                    <div className="grid grid-cols-3 gap-3">
+                      {filteredItems.map(item => (
+                        <div
+                          key={item.id}
+                          className={`bg-gray-800 rounded-lg p-3 flex items-center gap-3 hover:bg-gray-700 cursor-pointer transition ${selectMode && selectedItems.has(item.id) ? 'ring-2 ring-green-500' : ''}`}
+                          onClick={selectMode ? () => toggleSelectItem(item.id) : () => handleLoad(item)}
+                        >
+                          {selectMode && (
+                            <div className={`w-6 h-6 rounded border-2 flex items-center justify-center flex-shrink-0 ${selectedItems.has(item.id) ? 'bg-green-500 border-green-500' : 'border-gray-500'}`}>
+                              {selectedItems.has(item.id) && (
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                                </svg>
+                              )}
+                            </div>
+                          )}
+                          <div className="flex-1 min-w-0">
+                            <div className="flex items-start gap-2">
+                              <span className={`px-2 py-0.5 text-xs rounded font-medium flex-shrink-0 ${
+                                item.type === 'SVG' ? 'bg-purple-600' : item.type === 'TEXT' ? 'bg-gray-600' : 'bg-blue-600'
+                              } text-white`}>
+                                {item.type}
+                              </span>
+                              <span className="text-white font-medium break-words">{item.title}</span>
+                            </div>
+                            <div className="text-gray-500 text-xs mt-1">
+                              {new Date(item.createdAt).toLocaleDateString('ja-JP')}
+                            </div>
+                          </div>
+                          {!selectMode && (
+                            <button
+                              onClick={(e) => { e.stopPropagation(); handleDelete(item.id); }}
+                              className="p-2 text-gray-500 hover:text-red-400 transition flex-shrink-0"
+                            >
+                              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                              </svg>
+                            </button>
+                          )}
+                        </div>
+                      ))}
+                    </div>
+                  );
+                })()}
               </div>
-              <div className="flex-1 bg-white overflow-auto">
-                {currentMode === 'TEXT' ? (
-                  <pre className="p-4 whitespace-pre-wrap break-words font-sans text-gray-800 text-base leading-relaxed" style={{ userSelect: 'text' }}>{debouncedCode}</pre>
+            ) : (
+              <div className="relative w-full h-full">
+                {/* 左上：ダウンロードボタン */}
+                {code && (
+                  <button
+                    onClick={handleDownload}
+                    className="absolute top-2 left-2 p-2 bg-green-600/80 hover:bg-green-500 text-white rounded-lg transition active:scale-95 z-10"
+                    title="ダウンロード"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                    </svg>
+                  </button>
+                )}
+                {/* 右上：最大化ボタン */}
+                <button
+                  onClick={() => setIsFullscreen(!isFullscreen)}
+                  className="absolute top-2 right-2 p-2 bg-gray-800/80 hover:bg-gray-700 text-white rounded-lg transition active:scale-95 z-10"
+                  title={isFullscreen ? '縮小' : '最大化'}
+                >
+                  {isFullscreen ? (
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 9V4.5M9 9H4.5M9 9L3.75 3.75M9 15v4.5M9 15H4.5M9 15l-5.25 5.25M15 9h4.5M15 9V4.5M15 9l5.25-5.25M15 15h4.5M15 15v4.5m0-4.5l5.25 5.25" />
+                    </svg>
+                  ) : (
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
+                    </svg>
+                  )}
+                </button>
+                {/* 左下：クリアボタン */}
+                {code && (
+                  <button
+                    onClick={() => {
+                      setConfirmDialog({
+                        show: true,
+                        message: 'クリアしますか？',
+                        onConfirm: () => {
+                          setCode('');
+                          setLoadedFile(null);
+                          setActiveTab('code');
+                          setConfirmDialog({ show: false, message: '', onConfirm: null });
+                        }
+                      });
+                    }}
+                    className="absolute bottom-4 left-4 p-3 bg-gray-700/80 hover:bg-gray-600 text-gray-300 rounded-full shadow-lg transition active:scale-95 z-10"
+                    title="クリア"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                    </svg>
+                  </button>
+                )}
+                {currentMode === 'SVG' ? (
+                  <div
+                    className="w-full h-full bg-gray-100 overflow-auto p-4"
+                    style={{ userSelect: 'text', WebkitUserSelect: 'text' }}
+                    dangerouslySetInnerHTML={{ __html: extractSvgTag(debouncedCode.trim()) }}
+                  />
+                ) : currentMode === 'TEXT' ? (
+                  <div className="w-full h-full bg-white overflow-auto p-4">
+                    <pre className="whitespace-pre-wrap break-words font-sans text-gray-800 text-base leading-relaxed" style={{ userSelect: 'text', WebkitUserSelect: 'text' }}>{debouncedCode}</pre>
+                  </div>
                 ) : (
                   <iframe
                     srcDoc={previewCode}
                     title="Preview"
-                    className="w-full h-full border-0"
+                    className="w-full h-full border-0 bg-white"
                     sandbox="allow-scripts"
                   />
                 )}
               </div>
-            </div>
+            )}
           </div>
 
           {/* カスタム確認ダイアログ（ブラウザ風） */}
