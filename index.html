@@ -280,11 +280,15 @@
       const handleSave = useCallback(() => {
         if (!code.trim()) return;
 
-        const isSvg = code.includes('<svg');
-        const isHtml = code.includes('<') && code.includes('>');
+        const trimmed = code.trim();
+        // HTMLドキュメント（<!DOCTYPE, <html）は中にSVGがあってもHTML扱い
+        const isHtmlDoc = trimmed.startsWith('<!DOCTYPE') || trimmed.startsWith('<html') || trimmed.startsWith('<HTML');
+        // 純粋なSVGは<svgまたは<?xmlで始まる場合のみ
+        const isSvg = !isHtmlDoc && (trimmed.startsWith('<svg') || trimmed.startsWith('<?xml'));
+        const isHtml = trimmed.startsWith('<');
         // loadedFileがあればそのタイプを優先
         const type = loadedFile?.type || (isSvg ? 'SVG' : isHtml ? 'HTML' : 'TEXT');
-        const content = isSvg ? extractSvgTag(code.trim()) : code;
+        const content = isSvg ? extractSvgTag(trimmed) : code;
         let title = '';
 
         // loadedFileがあればそのタイトルを優先
