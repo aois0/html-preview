@@ -1055,8 +1055,8 @@
                       </svg>
                     )}
                   </button>
-                  {/* 左上：ダウンロードボタン */}
-                  {code && (
+                  {/* 左上：ダウンロードボタン（最大化時は非表示） */}
+                  {code && !isFullscreen && (
                     <button
                       onClick={handleDownload}
                       className="absolute top-2 left-2 p-2 bg-green-600/80 hover:bg-green-500 text-white rounded-lg transition active:scale-95 z-10"
@@ -1067,8 +1067,8 @@
                       </svg>
                     </button>
                   )}
-                  {/* 左下：クリアボタン（確認付き） */}
-                  {code && (
+                  {/* 左下：クリアボタン（確認付き、最大化時は非表示） */}
+                  {code && !isFullscreen && (
                     <button
                       onClick={() => {
                         if (confirm('クリアしますか？')) {
