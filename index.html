@@ -800,6 +800,7 @@
                 )}
               </div>
               <div className="flex gap-2">
+                {/* hidden file input - コードタブのボタンから参照 */}
                 <input
                   ref={fileInputRef}
                   type="file"
@@ -808,39 +809,12 @@
                   className="hidden"
                 />
                 <button
-                  onClick={() => fileInputRef.current?.click()}
-                  className="p-2 bg-purple-600 hover:bg-purple-500 text-white rounded-lg transition active:scale-95"
-                  title="ファイルを開く (画像/HTML/SVG/PDF)"
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
-                  </svg>
-                </button>
-                <button
-                  onClick={() => { setCode(''); setLoadedFile(null); }}
-                  className="p-2 bg-gray-700 hover:bg-gray-600 text-gray-300 rounded-lg transition active:scale-95"
-                  title="クリア"
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
-                  </svg>
-                </button>
-                <button
                   onClick={handleSave}
                   className="p-2 bg-yellow-600 hover:bg-yellow-500 text-white rounded-lg transition active:scale-95"
                   title="登録"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
-                  </svg>
-                </button>
-                <button
-                  onClick={handleDownload}
-                  className="p-2 bg-green-600 hover:bg-green-500 text-white rounded-lg transition active:scale-95"
-                  title="ダウンロード"
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                   </svg>
                 </button>
                 {currentMode === 'SVG' && (
@@ -958,6 +932,16 @@
                       <span className="text-sm font-medium">タップでペースト</span>
                     </button>
                   )}
+                  {/* 左下：開くボタン */}
+                  <button
+                    onClick={() => fileInputRef.current?.click()}
+                    className="absolute bottom-4 left-4 p-3 bg-purple-600 hover:bg-purple-500 text-white rounded-full shadow-lg transition active:scale-95 z-10"
+                    title="ファイルを開く"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
+                    </svg>
+                  </button>
                 </div>
               ) : activeTab === 'library' ? (
                 <div className="w-full h-full bg-gray-950 overflow-auto p-4">
@@ -1056,7 +1040,7 @@
                       sandbox="allow-scripts"
                     />
                   )}
-                  {/* 最大化ボタン */}
+                  {/* 右上：最大化ボタン */}
                   <button
                     onClick={() => setIsFullscreen(!isFullscreen)}
                     className="absolute top-2 right-2 p-2 bg-gray-800/80 hover:bg-gray-700 text-white rounded-lg transition active:scale-95 z-10"
@@ -1071,6 +1055,35 @@
                       </svg>
                     )}
                   </button>
+                  {/* 左上：ダウンロードボタン */}
+                  {code && (
+                    <button
+                      onClick={handleDownload}
+                      className="absolute top-2 left-2 p-2 bg-green-600/80 hover:bg-green-500 text-white rounded-lg transition active:scale-95 z-10"
+                      title="ダウンロード"
+                    >
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                      </svg>
+                    </button>
+                  )}
+                  {/* 左下：クリアボタン（確認付き） */}
+                  {code && (
+                    <button
+                      onClick={() => {
+                        if (confirm('クリアしますか？')) {
+                          setCode('');
+                          setLoadedFile(null);
+                        }
+                      }}
+                      className="absolute bottom-4 left-4 p-3 bg-gray-700/80 hover:bg-gray-600 text-gray-300 rounded-full shadow-lg transition active:scale-95 z-10"
+                      title="クリア"
+                    >
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                      </svg>
+                    </button>
+                  )}
                 </div>
               )}
             </div>
