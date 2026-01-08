@@ -59,6 +59,7 @@
       const [selectedItems, setSelectedItems] = useState(new Set()); // 選択中のアイテムID
       const [syncModal, setSyncModal] = useState({ show: false, mode: null, code: null, loading: false, error: null }); // 同期モーダル
       const [syncCodeInput, setSyncCodeInput] = useState(''); // 同期コード入力
+      const [orientationModal, setOrientationModal] = useState({ show: false, callback: null }); // 向き選択モーダル
       // モバイルでは常にペーストボタンを表示
       const showPasteButton = true;
       const containerRef = useRef(null);
@@ -692,7 +693,8 @@
       }, []);
 
       // PDF出力（SVG/HTML両対応）- netprint対応
-      const handleDownload = useCallback(async () => {
+      // PDF生成の実装（向き指定あり）
+      const generatePdf = useCallback(async (orientation = 'p') => {
         const isSvg = currentMode === 'SVG';
 
         // タイムスタンプ生成 (YYYYMMDD)
@@ -783,11 +785,14 @@
             }
 
             // A4サイズ（mm）をピクセルに変換（96dpi基準）
-            const a4Width = 210 * 96 / 25.4;  // 約794px
-            const a4Height = 297 * 96 / 25.4; // 約1123px
+            const a4Short = 210 * 96 / 25.4;  // 約794px（短辺）
+            const a4Long = 297 * 96 / 25.4;   // 約1123px（長辺）
+            // 向きに応じて幅・高さを設定
+            const pageWidth = orientation === 'l' ? a4Long : a4Short;
+            const pageHeight = orientation === 'l' ? a4Short : a4Long;
             const margin = 30; // 余白
-            const contentWidth = a4Width - margin * 2;
-            const pageContentHeight = a4Height - margin * 2; // 1ページの有効高さ
+            const contentWidth = pageWidth - margin * 2;
+            const pageContentHeight = pageHeight - margin * 2; // 1ページの有効高さ
 
             const tempContainer = document.createElement('div');
             tempContainer.style.cssText = `position:absolute;left:-9999px;top:0;width:${contentWidth}px;background:white;padding:${margin}px;`;
@@ -834,8 +839,8 @@
 
             document.body.removeChild(tempContainer);
 
-            // A4縦向きでPDF作成
-            const pdf = new jsPDF({ orientation: 'p', unit: 'px', format: [a4Width, a4Height] });
+            // 指定された向きでPDF作成
+            const pdf = new jsPDF({ orientation, unit: 'px', format: [pageWidth, pageHeight] });
 
             // ページ区切り位置でPDFを生成
             breakPoints.push(totalHeight); // 最後まで
@@ -912,6 +917,18 @@
           alert('PDF生成に失敗しました:\n\n' + e.message);
         }
       }, [code, currentMode, isMobile]);
+
+      // ダウンロードハンドラ（向き選択モーダルを表示）
+      const handleDownload = useCallback(() => {
+        const isSvg = currentMode === 'SVG';
+        if (isSvg) {
+          // SVGは内容サイズから向きを自動判定するのでそのまま実行
+          generatePdf();
+        } else {
+          // HTMLは向き選択モーダルを表示
+          setOrientationModal({ show: true, callback: generatePdf });
+        }
+      }, [currentMode, generatePdf]);
 
       // モバイルレイアウト
       if (isMobile) {
@@ -1396,6 +1413,44 @@
               </div>
             )}
 
+            {/* 向き選択モーダル */}
+            {orientationModal.show && (
+              <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-[200]" onClick={() => setOrientationModal({ show: false, callback: null })}>
+                <div className="bg-gray-800 rounded-xl mx-4 max-w-xs w-full overflow-hidden shadow-2xl" onClick={e => e.stopPropagation()}>
+                  <div className="px-4 py-4 text-center border-b border-gray-700">
+                    <p className="text-white font-bold text-lg">📄 PDF向き選択</p>
+                    <p className="text-gray-400 text-sm mt-1">A4用紙の向きを選択</p>
+                  </div>
+                  <div className="p-4 flex gap-3">
+                    <button
+                      onClick={() => { setOrientationModal({ show: false, callback: null }); orientationModal.callback('p'); }}
+                      className="flex-1 py-4 bg-blue-600 hover:bg-blue-500 text-white rounded-lg font-medium text-base active:scale-95 transition flex flex-col items-center gap-2"
+                    >
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-8" fill="none" viewBox="0 0 24 32" stroke="currentColor" strokeWidth={1.5}>
+                        <rect x="2" y="1" width="20" height="30" rx="2" />
+                      </svg>
+                      縦（Portrait）
+                    </button>
+                    <button
+                      onClick={() => { setOrientationModal({ show: false, callback: null }); orientationModal.callback('l'); }}
+                      className="flex-1 py-4 bg-green-600 hover:bg-green-500 text-white rounded-lg font-medium text-base active:scale-95 transition flex flex-col items-center gap-2"
+                    >
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-10" fill="none" viewBox="0 0 32 24" stroke="currentColor" strokeWidth={1.5}>
+                        <rect x="1" y="2" width="30" height="20" rx="2" />
+                      </svg>
+                      横（Landscape）
+                    </button>
+                  </div>
+                  <button
+                    onClick={() => setOrientationModal({ show: false, callback: null })}
+                    className="w-full py-3 text-gray-400 text-sm border-t border-gray-700 active:bg-gray-700"
+                  >
+                    キャンセル
+                  </button>
+                </div>
+              </div>
+            )}
+
             {/* 同期モーダル */}
             {syncModal.show && (
               <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-[300]" onClick={closeSyncModal}>
@@ -1772,6 +1827,44 @@
                     OK
                   </button>
                 </div>
+              </div>
+            </div>
+          )}
+
+          {/* 向き選択モーダル */}
+          {orientationModal.show && (
+            <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-[200]" onClick={() => setOrientationModal({ show: false, callback: null })}>
+              <div className="bg-gray-800 rounded-xl mx-4 max-w-xs w-full overflow-hidden shadow-2xl" onClick={e => e.stopPropagation()}>
+                <div className="px-4 py-4 text-center border-b border-gray-700">
+                  <p className="text-white font-bold text-lg">📄 PDF向き選択</p>
+                  <p className="text-gray-400 text-sm mt-1">A4用紙の向きを選択</p>
+                </div>
+                <div className="p-4 flex gap-3">
+                  <button
+                    onClick={() => { setOrientationModal({ show: false, callback: null }); orientationModal.callback('p'); }}
+                    className="flex-1 py-4 bg-blue-600 hover:bg-blue-500 text-white rounded-lg font-medium text-base active:scale-95 transition flex flex-col items-center gap-2"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-8" fill="none" viewBox="0 0 24 32" stroke="currentColor" strokeWidth={1.5}>
+                      <rect x="2" y="1" width="20" height="30" rx="2" />
+                    </svg>
+                    縦（Portrait）
+                  </button>
+                  <button
+                    onClick={() => { setOrientationModal({ show: false, callback: null }); orientationModal.callback('l'); }}
+                    className="flex-1 py-4 bg-green-600 hover:bg-green-500 text-white rounded-lg font-medium text-base active:scale-95 transition flex flex-col items-center gap-2"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-10" fill="none" viewBox="0 0 32 24" stroke="currentColor" strokeWidth={1.5}>
+                      <rect x="1" y="2" width="30" height="20" rx="2" />
+                    </svg>
+                    横（Landscape）
+                  </button>
+                </div>
+                <button
+                  onClick={() => setOrientationModal({ show: false, callback: null })}
+                  className="w-full py-3 text-gray-400 text-sm border-t border-gray-700 active:bg-gray-700"
+                >
+                  キャンセル
+                </button>
               </div>
             </div>
           )}
