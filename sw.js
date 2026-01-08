@@ -1,4 +1,4 @@
-const CACHE_NAME = 'html-preview-v62';
+const CACHE_NAME = 'html-preview-v63';
 const urlsToCache = [
   '/html-preview/',
   '/html-preview/index.html',
