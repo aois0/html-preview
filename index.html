@@ -15,6 +15,7 @@
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lz-string/1.5.0/lz-string.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
   <script>pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';</script>
   <style>
@@ -690,7 +691,7 @@
         isDragging.current = false;
       }, []);
 
-      // PNG出力（SVG/HTML両対応）
+      // PDF出力（SVG/HTML両対応）- netprint対応
       const handleDownload = useCallback(async () => {
         const isSvg = currentMode === 'SVG';
 
@@ -711,13 +712,18 @@
           }
         }
         title = title.slice(0, 30).replace(/[\/\\:*?"<>|\n\r]/g, '').trim() || (isSvg ? 'svg' : 'html');
-        const filename = `${timestamp}_${title}.png`;
+        const filename = `${timestamp}_${title}.pdf`;
 
         try {
-          let pngDataUrl;
+          if (!window.jspdf) {
+            alert('jsPDFライブラリが読み込まれていません。ページを再読み込みしてください。');
+            return;
+          }
+          const { jsPDF } = window.jspdf;
+          let pdfBlob, imgDataUrl;
 
           if (isSvg) {
-            // SVGの場合：Canvasに描画してPNG化
+            // SVGの場合：Canvasに描画してPDF化
             let svgContent = extractSvgTag(code.trim());
             if (!svgContent) { alert('SVGが見つかりません'); return; }
 
@@ -763,7 +769,11 @@
               img.src = dataUrl;
             });
 
-            pngDataUrl = canvas.toDataURL('image/png');
+            imgDataUrl = canvas.toDataURL('image/jpeg', 0.85);
+            const orientation = width > height ? 'l' : 'p';
+            const pdf = new jsPDF({ orientation, unit: 'px', format: [width, height] });
+            pdf.addImage(imgDataUrl, 'JPEG', 0, 0, width, height);
+            pdfBlob = pdf.output('blob');
 
           } else {
             // HTMLの場合：一時divにレンダリングしてキャプチャ
@@ -777,7 +787,6 @@
             tempContainer.innerHTML = code;
             document.body.appendChild(tempContainer);
 
-            // スタイル・画像の読み込みを待つ
             await new Promise(resolve => setTimeout(resolve, 500));
 
             const canvas = await html2canvas(tempContainer, {
@@ -788,57 +797,39 @@
             });
 
             document.body.removeChild(tempContainer);
-            pngDataUrl = canvas.toDataURL('image/png');
+            imgDataUrl = canvas.toDataURL('image/jpeg', 0.85);
+            const imgWidth = canvas.width / 2;
+            const imgHeight = canvas.height / 2;
+            const orientation = imgWidth > imgHeight ? 'l' : 'p';
+            const pdf = new jsPDF({ orientation, unit: 'px', format: [imgWidth, imgHeight] });
+            pdf.addImage(imgDataUrl, 'JPEG', 0, 0, imgWidth, imgHeight);
+            pdfBlob = pdf.output('blob');
           }
 
-          // モバイル：モーダルで画像を表示（共有ボタンでnetprint等に送信可能）
-          if (isMobile) {
-            // data URLをBlobに変換（iOS長押し保存対応）
-            const byteString = atob(pngDataUrl.split(',')[1]);
-            const mimeType = 'image/png';
-            const ab = new ArrayBuffer(byteString.length);
-            const ia = new Uint8Array(ab);
-            for (let i = 0; i < byteString.length; i++) {
-              ia[i] = byteString.charCodeAt(i);
-            }
-            const blob = new Blob([ab], { type: mimeType });
-            const blobUrl = URL.createObjectURL(blob);
-            const file = new File([blob], filename, { type: mimeType });
+          const blobUrl = URL.createObjectURL(pdfBlob);
+          const file = new File([pdfBlob], filename, { type: 'application/pdf' });
 
+          // モバイル：モーダルでPDF操作
+          if (isMobile) {
             const modal = document.createElement('div');
             modal.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,0.9);z-index:9999;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:20px;';
             modal.innerHTML = `
-              <p style="color:white;font-size:14px;margin-bottom:12px;text-align:center;">netprint: 🖨印刷 → 共有 → netprint</p>
-              <img src="${blobUrl}" style="max-width:90%;max-height:50vh;border-radius:8px;box-shadow:0 4px 20px rgba(0,0,0,0.5);-webkit-touch-callout:default;" />
-              <div style="display:flex;gap:10px;margin-top:14px;flex-wrap:wrap;justify-content:center;">
-                <button id="print-btn" style="padding:12px 20px;background:#f59e0b;color:white;border:none;border-radius:8px;font-size:15px;cursor:pointer;">🖨 印刷</button>
-                <button id="share-btn" style="padding:12px 20px;background:#3b82f6;color:white;border:none;border-radius:8px;font-size:15px;cursor:pointer;">📤 共有</button>
-                <a href="${blobUrl}" download="${filename}" style="padding:12px 20px;background:#22c55e;color:white;border-radius:8px;font-size:15px;text-decoration:none;">💾 保存</a>
+              <p style="color:white;font-size:18px;margin-bottom:20px;text-align:center;">📄 PDF生成完了</p>
+              <div style="display:flex;flex-direction:column;gap:12px;width:100%;max-width:280px;">
+                <button id="share-btn" style="padding:16px 24px;background:#3b82f6;color:white;border:none;border-radius:8px;font-size:16px;cursor:pointer;">📤 共有（netprint等）</button>
+                <a href="${blobUrl}" download="${filename}" style="padding:16px 24px;background:#22c55e;color:white;border-radius:8px;font-size:16px;text-decoration:none;text-align:center;">💾 保存</a>
+                <a href="${blobUrl}" target="_blank" style="padding:14px 24px;background:#8b5cf6;color:white;border-radius:8px;font-size:15px;text-decoration:none;text-align:center;">👁 プレビュー</a>
               </div>
-              <button id="close-btn" style="margin-top:12px;padding:10px 28px;background:#6b7280;color:white;border:none;border-radius:8px;font-size:14px;">閉じる</button>
+              <button id="close-btn" style="margin-top:20px;padding:12px 32px;background:#6b7280;color:white;border:none;border-radius:8px;font-size:16px;">閉じる</button>
             `;
 
-            // 印刷ボタン（iOS: 印刷プレビュー → 共有でPDF化 → netprint）
-            modal.querySelector('#print-btn').onclick = () => {
-              const printWin = window.open('', '_blank');
-              printWin.document.write(`
-                <!DOCTYPE html>
-                <html><head><title>${filename}</title>
-                <style>@media print { body { margin: 0; } img { max-width: 100%; height: auto; } }</style>
-                </head><body style="margin:0;display:flex;justify-content:center;align-items:center;min-height:100vh;background:#fff;">
-                <img src="${pngDataUrl}" style="max-width:100%;max-height:100vh;" onload="window.print();" />
-                </body></html>
-              `);
-              printWin.document.close();
-            };
-
-            // 共有ボタン
+            // 共有ボタン（netprint対応）
             modal.querySelector('#share-btn').onclick = async () => {
               try {
                 if (navigator.canShare && navigator.canShare({ files: [file] })) {
                   await navigator.share({ files: [file], title: filename });
                 } else {
-                  alert('このブラウザではファイル共有がサポートされていません');
+                  alert('このブラウザではファイル共有がサポートされていません。\\n「保存」または「プレビュー」からファイルアプリで共有してください。');
                 }
               } catch (e) {
                 if (e.name !== 'AbortError') {
@@ -853,16 +844,17 @@
           } else {
             // デスクトップ：直接ダウンロード
             const a = document.createElement('a');
-            a.href = pngDataUrl;
+            a.href = blobUrl;
             a.download = filename;
             document.body.appendChild(a);
             a.click();
             document.body.removeChild(a);
+            URL.revokeObjectURL(blobUrl);
           }
 
         } catch (e) {
-          console.error('PNG generation failed:', e);
-          alert('PNG生成に失敗しました:\n\n' + e.message);
+          console.error('PDF generation failed:', e);
+          alert('PDF生成に失敗しました:\n\n' + e.message);
         }
       }, [code, currentMode, isMobile]);
 
@@ -928,10 +920,10 @@
                   <button
                     onClick={handleDownload}
                     className="p-2 bg-green-600 hover:bg-green-500 text-white rounded-lg transition active:scale-95"
-                    title="PNG出力"
+                    title="PDF出力"
                   >
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
                     </svg>
                   </button>
                 )}
@@ -1266,15 +1258,15 @@
                       </svg>
                     )}
                   </button>
-                  {/* 左上：PNG出力ボタン（最大化時は非表示） */}
+                  {/* 左上：PDF出力ボタン（最大化時は非表示） */}
                   {code && !isFullscreen && (
                     <button
                       onClick={handleDownload}
                       className="absolute top-2 left-2 p-2 bg-green-600/80 hover:bg-green-500 text-white rounded-lg transition active:scale-95 z-10"
-                      title="PNG出力"
+                      title="PDF出力"
                     >
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
                       </svg>
                     </button>
                   )}
@@ -1482,7 +1474,7 @@
                   onClick={handleDownload}
                   className="px-4 py-2 bg-green-600 hover:bg-green-500 text-white text-sm rounded transition"
                 >
-                  🖼 PNG
+                  📄 PDF
                 </button>
               )}
               <button
