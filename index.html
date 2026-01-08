@@ -15,6 +15,8 @@
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lz-string/1.5.0/lz-string.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
   <script>pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';</script>
   <style>
     /* タッチデバイスでのスクロール改善 */
@@ -810,13 +812,6 @@
 
       const handleDownload = useCallback(async () => {
         const isSvg = currentMode === 'SVG';
-        // UTF-8 BOMを追加して文字化け防止
-        const BOM = '\uFEFF';
-        // SVGの場合はタグだけ抽出
-        const content = isSvg ? extractSvgTag(code.trim()) : code;
-        const blob = new Blob([BOM + content], {
-          type: isSvg ? 'image/svg+xml;charset=utf-8' : 'text/html;charset=utf-8'
-        });
 
         // タイムスタンプ生成 (YYYYMMDD)
         const now = new Date();
@@ -824,65 +819,127 @@
           String(now.getMonth() + 1).padStart(2, '0') +
           String(now.getDate()).padStart(2, '0');
 
-        // メインタイトルを取得（<!--メインタイトル-->コメントの直後のテキスト）
+        // タイトル取得
         let title = '';
         if (isSvg) {
-          try {
-            // 正規表現で <!-- メインタイトル --> の直後のテキスト要素を探す（改行・スペース対応）
-            const match = code.match(/<!--\s*メインタイトル\s*-->[\s\S]*?<text[^>]*>([^<]+)<\/text>/);
-            if (match && match[1]) {
-              title = match[1].trim();
-            }
-
-            // 見つからなければ最初のテキスト要素
-            if (!title) {
-              const texts = extractSvgTexts(code.trim());
-              if (texts.length > 0) {
-                title = texts[0];
-              }
-            }
-          } catch (e) {}
-        }
-        // ファイル名に使えない文字を除去、最大30文字
-        title = title
-          .slice(0, 30)
-          .replace(/[\/\\:*?"<>|\n\r]/g, '')
-          .trim() || (isSvg ? 'svg' : 'html');
-
-        const filename = `${timestamp}_${title}.${isSvg ? 'svg' : 'html'}`;
-
-        // PWAスタンドアロンモード検出
-        const isPWA = window.matchMedia('(display-mode: standalone)').matches ||
-                      window.navigator.standalone === true;
-
-        // PWAモードではWeb Share APIを試す
-        if (isPWA && navigator.canShare) {
-          try {
-            const file = new File([blob], filename, { type: blob.type });
-            if (navigator.canShare({ files: [file] })) {
-              await navigator.share({
-                files: [file],
-                title: filename
-              });
-              return;
-            }
-          } catch (e) {
-            // シェアがキャンセルされた場合は何もしない
-            if (e.name === 'AbortError') return;
-            // 他のエラーは通常ダウンロードにフォールバック
+          const match = code.match(/<!--\s*メインタイトル\s*-->[\s\S]*?<text[^>]*>([^<]+)<\/text>/);
+          if (match && match[1]) title = match[1].trim();
+          if (!title) {
+            const texts = extractSvgTexts(code.trim());
+            if (texts.length > 0) title = texts[0];
           }
         }
+        title = title.slice(0, 30).replace(/[\/\\:*?"<>|\n\r]/g, '').trim() || (isSvg ? 'svg' : 'html');
+        const filename = `${timestamp}_${title}.pdf`;
 
-        // 通常のダウンロード
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = filename;
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-        URL.revokeObjectURL(url);
-      }, [code, currentMode]);
+        try {
+          const { jsPDF } = window.jspdf;
+          let pdfBlob;
+
+          if (isSvg) {
+            // SVGの場合：Canvasに描画してPDF化
+            let svgContent = extractSvgTag(code.trim());
+            if (!svgContent) { alert('SVGが見つかりません'); return; }
+
+            const parser = new DOMParser();
+            const svgDoc = parser.parseFromString(svgContent, 'image/svg+xml');
+            const svgEl = svgDoc.querySelector('svg');
+            if (!svgEl) { alert('SVGの解析に失敗しました'); return; }
+
+            let width, height;
+            const viewBox = svgEl.getAttribute('viewBox');
+            if (viewBox) {
+              const parts = viewBox.split(/\s+|,/).map(Number);
+              width = parts[2] || 800;
+              height = parts[3] || 600;
+            } else {
+              width = parseInt(svgEl.getAttribute('width')) || 800;
+              height = parseInt(svgEl.getAttribute('height')) || 600;
+            }
+
+            svgEl.setAttribute('width', width);
+            svgEl.setAttribute('height', height);
+            svgContent = new XMLSerializer().serializeToString(svgEl);
+
+            const scale = 2;
+            const canvas = document.createElement('canvas');
+            canvas.width = width * scale;
+            canvas.height = height * scale;
+            const ctx = canvas.getContext('2d');
+            ctx.scale(scale, scale);
+            ctx.fillStyle = 'white';
+            ctx.fillRect(0, 0, width, height);
+
+            const svgBase64 = btoa(unescape(encodeURIComponent(svgContent)));
+            const dataUrl = `data:image/svg+xml;base64,${svgBase64}`;
+
+            await new Promise((resolve, reject) => {
+              const img = new Image();
+              img.onload = () => {
+                ctx.drawImage(img, 0, 0, width, height);
+                resolve();
+              };
+              img.onerror = reject;
+              img.src = dataUrl;
+            });
+
+            const imgData = canvas.toDataURL('image/png');
+            const orientation = width > height ? 'l' : 'p';
+            const pdf = new jsPDF({ orientation, unit: 'px', format: [width, height] });
+            pdf.addImage(imgData, 'PNG', 0, 0, width, height);
+            pdfBlob = pdf.output('blob');
+
+          } else {
+            // HTMLの場合：iframeをhtml2canvasでキャプチャ
+            const iframe = document.querySelector('iframe');
+            if (!iframe) { alert('プレビューが見つかりません'); return; }
+
+            const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+            const body = iframeDoc.body;
+
+            const canvas = await html2canvas(body, {
+              scale: 2,
+              useCORS: true,
+              backgroundColor: '#ffffff'
+            });
+
+            const imgData = canvas.toDataURL('image/png');
+            const imgWidth = canvas.width;
+            const imgHeight = canvas.height;
+            const orientation = imgWidth > imgHeight ? 'l' : 'p';
+            const pdf = new jsPDF({ orientation, unit: 'px', format: [imgWidth / 2, imgHeight / 2] });
+            pdf.addImage(imgData, 'PNG', 0, 0, imgWidth / 2, imgHeight / 2);
+            pdfBlob = pdf.output('blob');
+          }
+
+          // PWAスタンドアロンモード検出
+          const isPWA = window.matchMedia('(display-mode: standalone)').matches ||
+                        window.navigator.standalone === true;
+
+          // PWA/モバイルではWeb Share APIを使用
+          if ((isPWA || isMobile) && navigator.canShare) {
+            const file = new File([pdfBlob], filename, { type: 'application/pdf' });
+            if (navigator.canShare({ files: [file] })) {
+              await navigator.share({ files: [file], title: filename });
+              return;
+            }
+          }
+
+          // 通常のダウンロード
+          const url = URL.createObjectURL(pdfBlob);
+          const a = document.createElement('a');
+          a.href = url;
+          a.download = filename;
+          document.body.appendChild(a);
+          a.click();
+          document.body.removeChild(a);
+          URL.revokeObjectURL(url);
+
+        } catch (e) {
+          console.error('PDF generation failed:', e);
+          alert('PDF生成に失敗しました: ' + e.message);
+        }
+      }, [code, currentMode, isMobile]);
 
       // モバイルレイアウト
       if (isMobile) {
@@ -1284,15 +1341,15 @@
                       </svg>
                     )}
                   </button>
-                  {/* 左上：ダウンロードボタン（最大化時は非表示） */}
+                  {/* 左上：PDF出力ボタン（最大化時は非表示） */}
                   {code && !isFullscreen && (
                     <button
                       onClick={handleDownload}
                       className="absolute top-2 left-2 p-2 bg-green-600/80 hover:bg-green-500 text-white rounded-lg transition active:scale-95 z-10"
-                      title="ダウンロード"
+                      title="PDF出力"
                     >
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
                       </svg>
                     </button>
                   )}
@@ -1500,7 +1557,7 @@
                   onClick={handleDownload}
                   className="px-4 py-2 bg-green-600 hover:bg-green-500 text-white text-sm rounded transition"
                 >
-                  ⬇ DL
+                  📄 PDF
                 </button>
               )}
               {currentMode === 'SVG' && (
