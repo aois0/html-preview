@@ -59,10 +59,8 @@
       const [selectedItems, setSelectedItems] = useState(new Set()); // 選択中のアイテムID
       const [syncModal, setSyncModal] = useState({ show: false, mode: null, code: null, loading: false, error: null }); // 同期モーダル
       const [syncCodeInput, setSyncCodeInput] = useState(''); // 同期コード入力
-      const showPasteButton = useMemo(() => {
-        const params = new URLSearchParams(window.location.search);
-        return params.get('paste') === '1';
-      }, []);
+      // モバイルでは常にペーストボタンを表示
+      const showPasteButton = true;
       const containerRef = useRef(null);
       const isDragging = useRef(false);
       const longPressTimer = useRef(null);
