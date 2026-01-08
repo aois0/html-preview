@@ -831,6 +831,15 @@
         const filename = `${timestamp}_${title}.pdf`;
 
         try {
+          // ライブラリの確認
+          if (!window.jspdf) {
+            alert('jsPDFライブラリが読み込まれていません。ページを再読み込みしてください。');
+            return;
+          }
+          if (!window.html2canvas) {
+            alert('html2canvasライブラリが読み込まれていません。ページを再読み込みしてください。');
+            return;
+          }
           const { jsPDF } = window.jspdf;
           let pdfBlob;
 
@@ -940,7 +949,7 @@
 
         } catch (e) {
           console.error('PDF generation failed:', e);
-          alert('PDF生成に失敗しました: ' + e.message);
+          alert('PDF生成に失敗しました:\n\n' + e.message + '\n\n' + e.stack);
         }
       }, [code, currentMode, isMobile]);
 
