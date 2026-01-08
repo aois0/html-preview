@@ -14,8 +14,6 @@
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lz-string/1.5.0/lz-string.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"></script>
-  <script src="https://unpkg.com/html5-qrcode@2.3.8/html5-qrcode.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
   <script>pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';</script>
   <style>
@@ -38,6 +36,8 @@
 
     // URL短縮サービスのエンドポイント（Cloudflare Worker）
     const SHORTENER_URL = 'https://url-shortener.takalovesthailand.workers.dev';
+    // 同期サービスのエンドポイント
+    const SYNC_URL = 'https://html-preview-sync.takalovesthailand.workers.dev';
 
     function HTMLPreviewer() {
       const [code, setCode] = useState('');
@@ -55,8 +55,8 @@
       const [confirmDialog, setConfirmDialog] = useState({ show: false, message: '', onConfirm: null }); // カスタム確認ダイアログ
       const [selectMode, setSelectMode] = useState(false); // 選択モード
       const [selectedItems, setSelectedItems] = useState(new Set()); // 選択中のアイテムID
-      const [qrModal, setQrModal] = useState({ show: false, mode: null, data: null }); // QRモーダル
-      const qrScannerRef = useRef(null);
+      const [syncModal, setSyncModal] = useState({ show: false, mode: null, code: null, loading: false, error: null }); // 同期モーダル
+      const [syncCodeInput, setSyncCodeInput] = useState(''); // 同期コード入力
       const showPasteButton = useMemo(() => {
         const params = new URLSearchParams(window.location.search);
         return params.get('paste') === '1';
@@ -440,108 +440,88 @@
         e.target.value = '';
       }, [savedItems]);
 
-      // QRコード生成
-      const generateQR = useCallback(() => {
+      // 同期コード発行（データをサーバーに保存）
+      const generateSyncCode = useCallback(async () => {
         const itemsToExport = selectMode && selectedItems.size > 0
           ? savedItems.filter(item => selectedItems.has(item.id))
           : savedItems;
         if (itemsToExport.length === 0) {
-          alert('QRコードにするデータがありません');
-          return;
-        }
-        // データを圧縮
-        const json = JSON.stringify(itemsToExport);
-        const compressed = LZString.compressToEncodedURIComponent(json);
-
-        // QRコードの容量チェック（約2KB程度が限界）
-        if (compressed.length > 2000) {
-          alert(`データが大きすぎます（${Math.round(compressed.length/1000)}KB）\n1-2件ずつ選択してください`);
+          alert('同期するデータがありません');
           return;
         }
 
-        // QRコード生成
-        const qr = qrcode(0, 'L');
-        qr.addData(compressed);
-        qr.make();
-        const qrDataUrl = qr.createDataURL(6, 4);
-
-        setQrModal({ show: true, mode: 'generate', data: qrDataUrl, count: itemsToExport.length });
+        setSyncModal({ show: true, mode: 'generate', code: null, loading: true, error: null, count: itemsToExport.length });
         setSelectMode(false);
         setSelectedItems(new Set());
+
+        try {
+          const json = JSON.stringify(itemsToExport);
+          const response = await fetch(`${SYNC_URL}/sync`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: json
+          });
+          const result = await response.json();
+
+          if (result.code) {
+            setSyncModal(prev => ({ ...prev, loading: false, code: result.code }));
+          } else {
+            throw new Error(result.error || 'Unknown error');
+          }
+        } catch (err) {
+          console.error('Sync error:', err);
+          setSyncModal(prev => ({ ...prev, loading: false, error: 'コード発行に失敗しました' }));
+        }
       }, [savedItems, selectMode, selectedItems]);
 
-      // QRスキャン開始
-      const startQRScan = useCallback(() => {
-        setQrModal({ show: true, mode: 'scan', data: null });
+      // 同期コード入力モーダルを開く
+      const openSyncInput = useCallback(() => {
+        setSyncCodeInput('');
+        setSyncModal({ show: true, mode: 'input', code: null, loading: false, error: null });
       }, []);
 
-      // QRスキャン処理
-      const handleQRScan = useCallback((decodedText) => {
+      // 同期コードでデータを取得
+      const fetchSyncData = useCallback(async () => {
+        if (!/^\d{4}$/.test(syncCodeInput)) {
+          setSyncModal(prev => ({ ...prev, error: '4桁の数字を入力してください' }));
+          return;
+        }
+
+        setSyncModal(prev => ({ ...prev, loading: true, error: null }));
+
         try {
-          // 圧縮データをデコード
-          const json = LZString.decompressFromEncodedURIComponent(decodedText);
-          if (!json) throw new Error('Invalid data');
+          const response = await fetch(`${SYNC_URL}/sync/${syncCodeInput}`);
+          const result = await response.json();
 
-          const imported = JSON.parse(json);
-          if (!Array.isArray(imported)) throw new Error('Invalid format');
+          if (result.data) {
+            const imported = JSON.parse(result.data);
+            if (!Array.isArray(imported)) throw new Error('Invalid format');
 
-          // 既存データとマージ
-          const existingIds = new Set(savedItems.map(item => item.id));
-          const newItems = imported.filter(item => !existingIds.has(item.id));
-          const merged = [...imported.filter(item => existingIds.has(item.id)), ...savedItems.filter(item => !imported.find(i => i.id === item.id)), ...newItems];
-          merged.sort((a, b) => b.id - a.id);
-          setSavedItems(merged);
-          localStorage.setItem('html-preview-library', JSON.stringify(merged));
+            // 既存データとマージ
+            const existingIds = new Set(savedItems.map(item => item.id));
+            const newItems = imported.filter(item => !existingIds.has(item.id));
+            const merged = [...imported.filter(item => existingIds.has(item.id)), ...savedItems.filter(item => !imported.find(i => i.id === item.id)), ...newItems];
+            merged.sort((a, b) => b.id - a.id);
+            setSavedItems(merged);
+            localStorage.setItem('html-preview-library', JSON.stringify(merged));
 
-          // スキャナー停止
-          if (qrScannerRef.current) {
-            qrScannerRef.current.stop().catch(() => {});
-            qrScannerRef.current = null;
+            setSyncModal({ show: false, mode: null, code: null, loading: false, error: null });
+            alert(`インポート完了！（${imported.length}件）`);
+            if (navigator.vibrate) navigator.vibrate([100, 50, 100]);
+          } else {
+            throw new Error(result.error || 'コードが見つかりません');
           }
-
-          setQrModal({ show: false, mode: null, data: null });
-          alert(`インポート完了！（${imported.length}件）`);
-          if (navigator.vibrate) navigator.vibrate([100, 50, 100]);
         } catch (err) {
-          console.error('QR decode error:', err);
-          alert('QRコードの読み取りに失敗しました');
+          console.error('Sync fetch error:', err);
+          setSyncModal(prev => ({ ...prev, loading: false, error: err.message || 'データ取得に失敗しました' }));
         }
-      }, [savedItems]);
+      }, [syncCodeInput, savedItems]);
 
-      // QRモーダルを閉じる
-      const closeQRModal = useCallback(() => {
-        if (qrScannerRef.current) {
-          qrScannerRef.current.stop().catch(() => {});
-          qrScannerRef.current = null;
-        }
-        setQrModal({ show: false, mode: null, data: null });
+      // 同期モーダルを閉じる
+      const closeSyncModal = useCallback(() => {
+        setSyncModal({ show: false, mode: null, code: null, loading: false, error: null });
+        setSyncCodeInput('');
       }, []);
-
-      // QRスキャナー初期化（モーダル表示時）
-      useEffect(() => {
-        if (qrModal.show && qrModal.mode === 'scan') {
-          const scanner = new Html5Qrcode('qr-reader');
-          qrScannerRef.current = scanner;
-
-          scanner.start(
-            { facingMode: 'environment' },
-            { fps: 10, qrbox: { width: 250, height: 250 } },
-            handleQRScan,
-            () => {} // ignore errors
-          ).catch(err => {
-            console.error('Camera error:', err);
-            alert('カメラを起動できませんでした');
-            closeQRModal();
-          });
-        }
-
-        return () => {
-          if (qrScannerRef.current) {
-            qrScannerRef.current.stop().catch(() => {});
-            qrScannerRef.current = null;
-          }
-        };
-      }, [qrModal.show, qrModal.mode, handleQRScan, closeQRModal]);
 
       // URL共有機能（フラグメント#を使用 - より長いデータに対応）
       const [isShortening, setIsShortening] = useState(false);
@@ -1121,13 +1101,13 @@
                   {/* 同期ボタン */}
                   <div className="flex gap-2 mb-3">
                     <button
-                      onClick={startQRScan}
+                      onClick={openSyncInput}
                       className="flex-1 py-3 bg-indigo-600 hover:bg-indigo-500 text-white text-sm rounded-lg transition active:scale-95 flex items-center justify-center gap-2"
                     >
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1zm12 0h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1zM5 20h2a1 1 0 001-1v-2a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4" />
                       </svg>
-                      QRスキャン
+                      同期コード入力
                     </button>
                   </div>
                   {/* エクスポート/インポートボタン */}
@@ -1378,23 +1358,36 @@
               </div>
             )}
 
-            {/* QRモーダル */}
-            {qrModal.show && (
-              <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-[300]" onClick={closeQRModal}>
+            {/* 同期モーダル */}
+            {syncModal.show && (
+              <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-[300]" onClick={closeSyncModal}>
                 <div className="bg-gray-900 rounded-xl mx-4 max-w-sm w-full overflow-hidden shadow-2xl" onClick={e => e.stopPropagation()}>
-                  {qrModal.mode === 'generate' ? (
+                  {syncModal.mode === 'generate' ? (
                     <>
-                      <div className="p-4 text-center">
-                        <h3 className="text-white font-bold text-lg mb-2">QRコード</h3>
-                        <p className="text-gray-400 text-sm mb-4">{qrModal.count}件のデータ</p>
-                        <div className="bg-white rounded-lg p-4 inline-block">
-                          <img src={qrModal.data} alt="QR Code" className="w-64 h-64" />
-                        </div>
-                        <p className="text-gray-500 text-xs mt-4">スマホのカメラでスキャンしてください</p>
+                      <div className="p-6 text-center">
+                        <h3 className="text-white font-bold text-lg mb-2">同期コード</h3>
+                        <p className="text-gray-400 text-sm mb-4">{syncModal.count}件のデータ</p>
+                        {syncModal.loading ? (
+                          <div className="py-8">
+                            <div className="animate-spin w-8 h-8 border-2 border-indigo-500 border-t-transparent rounded-full mx-auto"></div>
+                            <p className="text-gray-400 text-sm mt-4">コード発行中...</p>
+                          </div>
+                        ) : syncModal.error ? (
+                          <div className="py-8">
+                            <p className="text-red-400">{syncModal.error}</p>
+                          </div>
+                        ) : (
+                          <>
+                            <div className="bg-gray-800 rounded-lg py-6 px-4">
+                              <p className="text-5xl font-mono font-bold text-white tracking-[0.3em]">{syncModal.code}</p>
+                            </div>
+                            <p className="text-gray-500 text-xs mt-4">5分間有効・1回限り</p>
+                          </>
+                        )}
                       </div>
                       <div className="border-t border-gray-700">
                         <button
-                          onClick={closeQRModal}
+                          onClick={closeSyncModal}
                           className="w-full py-4 text-blue-400 font-medium text-base active:bg-gray-800"
                         >
                           閉じる
@@ -1403,17 +1396,37 @@
                     </>
                   ) : (
                     <>
-                      <div className="p-4 text-center">
-                        <h3 className="text-white font-bold text-lg mb-2">QRスキャン</h3>
-                        <p className="text-gray-400 text-sm mb-4">デスクトップのQRコードを読み取り</p>
-                        <div id="qr-reader" className="w-full rounded-lg overflow-hidden"></div>
+                      <div className="p-6 text-center">
+                        <h3 className="text-white font-bold text-lg mb-2">同期コード入力</h3>
+                        <p className="text-gray-400 text-sm mb-4">デスクトップで表示されたコードを入力</p>
+                        <input
+                          type="text"
+                          inputMode="numeric"
+                          pattern="[0-9]*"
+                          maxLength={4}
+                          value={syncCodeInput}
+                          onChange={(e) => setSyncCodeInput(e.target.value.replace(/\D/g, '').slice(0, 4))}
+                          className="w-full text-center text-4xl font-mono font-bold tracking-[0.3em] bg-gray-800 text-white rounded-lg py-4 px-4 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                          placeholder="0000"
+                          autoFocus
+                        />
+                        {syncModal.error && (
+                          <p className="text-red-400 text-sm mt-3">{syncModal.error}</p>
+                        )}
                       </div>
-                      <div className="border-t border-gray-700">
+                      <div className="border-t border-gray-700 flex">
                         <button
-                          onClick={closeQRModal}
-                          className="w-full py-4 text-blue-400 font-medium text-base active:bg-gray-800"
+                          onClick={closeSyncModal}
+                          className="flex-1 py-4 text-gray-400 font-medium text-base active:bg-gray-800 border-r border-gray-700"
                         >
                           キャンセル
+                        </button>
+                        <button
+                          onClick={fetchSyncData}
+                          disabled={syncModal.loading || syncCodeInput.length !== 4}
+                          className={`flex-1 py-4 font-medium text-base active:bg-gray-800 ${syncModal.loading || syncCodeInput.length !== 4 ? 'text-gray-600' : 'text-blue-400'}`}
+                        >
+                          {syncModal.loading ? '取得中...' : '取得'}
                         </button>
                       </div>
                     </>
@@ -1605,11 +1618,11 @@
                       {selectedItems.size === savedItems.length ? '全解除' : '全選択'}
                     </button>
                     <button
-                      onClick={generateQR}
+                      onClick={generateSyncCode}
                       disabled={selectedItems.size === 0}
                       className={`py-1 px-3 text-white text-xs rounded transition ${selectedItems.size === 0 ? 'bg-gray-600 opacity-50' : 'bg-indigo-600 hover:bg-indigo-500'}`}
                     >
-                      {selectedItems.size > 0 ? `QR(${selectedItems.size})` : 'QR'}
+                      {selectedItems.size > 0 ? `同期(${selectedItems.size})` : '同期'}
                     </button>
                     <button
                       onClick={handleExport}
@@ -1719,23 +1732,36 @@
             </div>
           )}
 
-          {/* QRモーダル */}
-          {qrModal.show && (
-            <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-[300]" onClick={closeQRModal}>
+          {/* 同期モーダル */}
+          {syncModal.show && (
+            <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-[300]" onClick={closeSyncModal}>
               <div className="bg-gray-900 rounded-xl mx-4 max-w-sm w-full overflow-hidden shadow-2xl" onClick={e => e.stopPropagation()}>
-                {qrModal.mode === 'generate' ? (
+                {syncModal.mode === 'generate' ? (
                   <>
-                    <div className="p-4 text-center">
-                      <h3 className="text-white font-bold text-lg mb-2">QRコード</h3>
-                      <p className="text-gray-400 text-sm mb-4">{qrModal.count}件のデータ</p>
-                      <div className="bg-white rounded-lg p-4 inline-block">
-                        <img src={qrModal.data} alt="QR Code" className="w-64 h-64" />
-                      </div>
-                      <p className="text-gray-500 text-xs mt-4">スマホのカメラでスキャンしてください</p>
+                    <div className="p-6 text-center">
+                      <h3 className="text-white font-bold text-lg mb-2">同期コード</h3>
+                      <p className="text-gray-400 text-sm mb-4">{syncModal.count}件のデータ</p>
+                      {syncModal.loading ? (
+                        <div className="py-8">
+                          <div className="animate-spin w-8 h-8 border-2 border-indigo-500 border-t-transparent rounded-full mx-auto"></div>
+                          <p className="text-gray-400 text-sm mt-4">コード発行中...</p>
+                        </div>
+                      ) : syncModal.error ? (
+                        <div className="py-8">
+                          <p className="text-red-400">{syncModal.error}</p>
+                        </div>
+                      ) : (
+                        <>
+                          <div className="bg-gray-800 rounded-lg py-6 px-4">
+                            <p className="text-5xl font-mono font-bold text-white tracking-[0.3em]">{syncModal.code}</p>
+                          </div>
+                          <p className="text-gray-500 text-xs mt-4">5分間有効・1回限り</p>
+                        </>
+                      )}
                     </div>
                     <div className="border-t border-gray-700">
                       <button
-                        onClick={closeQRModal}
+                        onClick={closeSyncModal}
                         className="w-full py-4 text-blue-400 font-medium text-base active:bg-gray-800"
                       >
                         閉じる
@@ -1744,17 +1770,37 @@
                   </>
                 ) : (
                   <>
-                    <div className="p-4 text-center">
-                      <h3 className="text-white font-bold text-lg mb-2">QRスキャン</h3>
-                      <p className="text-gray-400 text-sm mb-4">デスクトップのQRコードを読み取り</p>
-                      <div id="qr-reader" className="w-full rounded-lg overflow-hidden"></div>
+                    <div className="p-6 text-center">
+                      <h3 className="text-white font-bold text-lg mb-2">同期コード入力</h3>
+                      <p className="text-gray-400 text-sm mb-4">デスクトップで表示されたコードを入力</p>
+                      <input
+                        type="text"
+                        inputMode="numeric"
+                        pattern="[0-9]*"
+                        maxLength={4}
+                        value={syncCodeInput}
+                        onChange={(e) => setSyncCodeInput(e.target.value.replace(/\D/g, '').slice(0, 4))}
+                        className="w-full text-center text-4xl font-mono font-bold tracking-[0.3em] bg-gray-800 text-white rounded-lg py-4 px-4 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                        placeholder="0000"
+                        autoFocus
+                      />
+                      {syncModal.error && (
+                        <p className="text-red-400 text-sm mt-3">{syncModal.error}</p>
+                      )}
                     </div>
-                    <div className="border-t border-gray-700">
+                    <div className="border-t border-gray-700 flex">
                       <button
-                        onClick={closeQRModal}
-                        className="w-full py-4 text-blue-400 font-medium text-base active:bg-gray-800"
+                        onClick={closeSyncModal}
+                        className="flex-1 py-4 text-gray-400 font-medium text-base active:bg-gray-800 border-r border-gray-700"
                       >
                         キャンセル
+                      </button>
+                      <button
+                        onClick={fetchSyncData}
+                        disabled={syncModal.loading || syncCodeInput.length !== 4}
+                        className={`flex-1 py-4 font-medium text-base active:bg-gray-800 ${syncModal.loading || syncCodeInput.length !== 4 ? 'text-gray-600' : 'text-blue-400'}`}
+                      >
+                        {syncModal.loading ? '取得中...' : '取得'}
                       </button>
                     </div>
                   </>
