@@ -1551,6 +1551,17 @@ ${content}
                   )}
                   {/* プレビューエリア */}
                   <div className="relative flex-1 overflow-hidden">
+                    {/* 左右エッジのスワイプ検知エリア */}
+                    <div
+                      className="absolute left-0 top-0 bottom-0 w-8 z-20"
+                      onTouchStart={handleSwipeStart}
+                      onTouchEnd={handleSwipeEnd}
+                    />
+                    <div
+                      className="absolute right-0 top-0 bottom-0 w-8 z-20"
+                      onTouchStart={handleSwipeStart}
+                      onTouchEnd={handleSwipeEnd}
+                    />
                     {currentMode === 'SVG' ? (
                       <div
                         className="w-full h-full bg-gray-100 overflow-auto p-4"
