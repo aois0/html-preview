@@ -761,6 +761,7 @@
 
       // SVGかどうかを判定し、必要ならHTMLでラップ
       // スクロール検知スクリプト（iframe内で検知→親にpostMessage）
+      // 注意: </script> は <\/script> にエスケープ（外側のscriptタグを閉じないため）
       const scrollDetectScript = `<script>
 (function(){
   var lastY=0,ticking=false;
@@ -778,7 +779,7 @@
     });
   },{passive:true});
 })();
-</script>`;
+<\/script>`;
 
       // プレビュー用コード（デバウンス適用）
       const previewCode = useMemo(() => {
