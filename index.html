@@ -77,14 +77,18 @@
       const tabOrder = ['code', 'preview', 'library'];
       const swipeState = useRef({ startX: 0, startY: 0, isSwiping: false, isLocked: false });
 
-      // タブスワイプ開始
+      // タブスワイプ開始（エッジスワイプ：画面端30pxからのみ有効）
+      const EDGE_WIDTH = 30;
       const handleTabSwipeStart = useCallback((e) => {
         const touch = e.touches[0];
+        const screenWidth = window.innerWidth;
+        const isFromEdge = touch.clientX < EDGE_WIDTH || touch.clientX > screenWidth - EDGE_WIDTH;
+
         swipeState.current = {
           startX: touch.clientX,
           startY: touch.clientY,
           isSwiping: false,
-          isLocked: false
+          isLocked: !isFromEdge // エッジ以外からの開始はロック
         };
       }, []);
 
