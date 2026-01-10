@@ -1417,23 +1417,28 @@ ${content}
                           className="w-full h-full border-0 bg-white"
                           sandbox="allow-scripts"
                         />
-                        {/* タップオーバーレイ（UI非表示時のみ表示） */}
+                        {/* UI非表示時：タップで戻すオーバーレイ */}
                         {hideUI && (
                           <div
-                            className="absolute inset-0 bg-transparent"
+                            className="absolute inset-0 z-20"
                             onClick={handlePreviewTap}
                           >
-                            <div className="absolute bottom-4 left-1/2 -translate-x-1/2 px-3 py-1 bg-black/50 text-white text-xs rounded-full">
+                            <div className="absolute bottom-4 left-1/2 -translate-x-1/2 px-4 py-2 bg-black/70 text-white text-sm rounded-full shadow-lg">
                               タップでUI表示
                             </div>
                           </div>
                         )}
-                        {/* UI表示時：上部タップエリア */}
-                        {!hideUI && (
-                          <div
-                            className="absolute top-0 left-0 right-0 h-12 bg-transparent"
-                            onClick={handlePreviewTap}
-                          />
+                        {/* UI表示時：全画面ボタン */}
+                        {!hideUI && !isFullscreen && (
+                          <button
+                            onClick={() => setHideUI(true)}
+                            className="absolute top-2 right-2 p-2 bg-black/50 hover:bg-black/70 text-white rounded-lg z-20 transition"
+                            title="全画面表示"
+                          >
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
+                            </svg>
+                          </button>
                         )}
                       </div>
                     )}
