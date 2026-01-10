@@ -52,6 +52,7 @@
       const [isFullscreen, setIsFullscreen] = useState(false);
       const [loadedFile, setLoadedFile] = useState(null); // { name, type: 'PDF'|'HTML'|'SVG'|'IMAGE' }
       const [searchQuery, setSearchQuery] = useState(''); // ライブラリ検索
+      const [showStarredOnly, setShowStarredOnly] = useState(false); // ★のみ表示
       const [confirmDialog, setConfirmDialog] = useState({ show: false, message: '', onConfirm: null }); // カスタム確認ダイアログ
       const [selectMode, setSelectMode] = useState(false); // 選択モード
       const [selectedItems, setSelectedItems] = useState(new Set()); // 選択中のアイテムID
@@ -354,6 +355,16 @@
             setConfirmDialog({ show: false, message: '', onConfirm: null });
           }
         });
+      }, [savedItems]);
+
+      // スター切り替え
+      const toggleStar = useCallback((id) => {
+        const updated = savedItems.map(item =>
+          item.id === id ? { ...item, starred: !item.starred } : item
+        );
+        setSavedItems(updated);
+        localStorage.setItem('html-preview-library', JSON.stringify(updated));
+        if (navigator.vibrate) navigator.vibrate(30);
       }, [savedItems]);
 
       // 読み込み機能
@@ -1080,27 +1091,43 @@ ${content}
             {/* ライブラリ検索バー */}
             {activeTab === 'library' && !isFullscreen && (
               <div className="bg-gray-900 px-4 py-2 border-b border-gray-700">
-                <div className="relative">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 absolute left-3 top-1/2 -translate-y-1/2 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                  </svg>
-                  <input
-                    type="text"
-                    value={searchQuery}
-                    onChange={(e) => setSearchQuery(e.target.value)}
-                    placeholder="ライブラリを検索..."
-                    className="w-full pl-10 pr-10 py-2 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-yellow-500"
-                  />
-                  {searchQuery && (
-                    <button
-                      onClick={() => setSearchQuery('')}
-                      className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 hover:text-gray-300"
-                    >
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                      </svg>
-                    </button>
-                  )}
+                <div className="flex items-center gap-2">
+                  <div className="relative flex-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 absolute left-3 top-1/2 -translate-y-1/2 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                    <input
+                      type="text"
+                      value={searchQuery}
+                      onChange={(e) => setSearchQuery(e.target.value)}
+                      placeholder="ライブラリを検索..."
+                      className="w-full pl-10 pr-10 py-2 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-yellow-500"
+                    />
+                    {searchQuery && (
+                      <button
+                        onClick={() => setSearchQuery('')}
+                        className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 hover:text-gray-300"
+                      >
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                      </button>
+                    )}
+                  </div>
+                  {/* ★フィルターボタン */}
+                  <button
+                    onClick={() => setShowStarredOnly(!showStarredOnly)}
+                    className={`p-2 rounded-lg border transition flex-shrink-0 ${
+                      showStarredOnly
+                        ? 'bg-yellow-500/20 border-yellow-500 text-yellow-400'
+                        : 'bg-gray-800 border-gray-700 text-gray-500 hover:text-yellow-400'
+                    }`}
+                    title={showStarredOnly ? '全て表示' : '★のみ表示'}
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill={showStarredOnly ? 'currentColor' : 'none'} viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                  </button>
                 </div>
               </div>
             )}
@@ -1232,6 +1259,7 @@ ${content}
                     </div>
                   ) : (() => {
                     const filteredItems = savedItems.filter(item => {
+                      if (showStarredOnly && !item.starred) return false;
                       if (!searchQuery.trim()) return true;
                       const query = searchQuery.toLowerCase();
                       return item.title.toLowerCase().includes(query) ||
@@ -1243,7 +1271,7 @@ ${content}
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 mx-auto mb-3 opacity-50" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                         </svg>
-                        <p>「{searchQuery}」に一致する項目がありません</p>
+                        <p>{showStarredOnly ? '★付きの項目がありません' : `「${searchQuery}」に一致する項目がありません`}</p>
                       </div>
                     ) : (
                       <div className="space-y-3">
@@ -1267,6 +1295,9 @@ ${content}
                             onClick={selectMode ? undefined : () => handleLoad(item)}
                           >
                             <div className="flex items-start gap-2">
+                              {item.starred && (
+                                <span className="text-yellow-400 flex-shrink-0">★</span>
+                              )}
                               <span className={`px-2 py-0.5 text-xs rounded font-medium flex-shrink-0 ${
                                 item.type === 'SVG' ? 'bg-purple-600' : item.type === 'TEXT' ? 'bg-gray-600' : 'bg-blue-600'
                               } text-white`}>
@@ -1279,17 +1310,30 @@ ${content}
                             </div>
                           </div>
                           {!selectMode && (
-                            <button
-                              onClick={(e) => {
-                                e.stopPropagation();
-                                handleDelete(item.id);
-                              }}
-                              className="p-2 text-gray-500 hover:text-red-400 transition"
-                            >
-                              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
-                              </svg>
-                            </button>
+                            <>
+                              <button
+                                onClick={(e) => {
+                                  e.stopPropagation();
+                                  toggleStar(item.id);
+                                }}
+                                className={`p-2 transition ${item.starred ? 'text-yellow-400' : 'text-gray-500 hover:text-yellow-400'}`}
+                              >
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill={item.starred ? 'currentColor' : 'none'} viewBox="0 0 24 24" stroke="currentColor">
+                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                                </svg>
+                              </button>
+                              <button
+                                onClick={(e) => {
+                                  e.stopPropagation();
+                                  handleDelete(item.id);
+                                }}
+                                className="p-2 text-gray-500 hover:text-red-400 transition"
+                              >
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                                </svg>
+                              </button>
+                            </>
                           )}
                         </div>
                       ))}
@@ -1653,27 +1697,43 @@ ${content}
               </div>
               {/* 検索バー */}
               <div className="bg-gray-900 px-3 py-2 border-b border-gray-700">
-                <div className="relative">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 absolute left-3 top-1/2 -translate-y-1/2 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                  </svg>
-                  <input
-                    type="text"
-                    value={searchQuery}
-                    onChange={(e) => setSearchQuery(e.target.value)}
-                    placeholder="検索..."
-                    className="w-full pl-9 pr-8 py-1.5 bg-gray-800 border border-gray-700 rounded text-white text-sm placeholder-gray-500 focus:outline-none focus:border-yellow-500"
-                  />
-                  {searchQuery && (
-                    <button
-                      onClick={() => setSearchQuery('')}
-                      className="absolute right-2 top-1/2 -translate-y-1/2 text-gray-500 hover:text-gray-300"
-                    >
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                      </svg>
-                    </button>
-                  )}
+                <div className="flex items-center gap-2">
+                  <div className="relative flex-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 absolute left-3 top-1/2 -translate-y-1/2 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                    <input
+                      type="text"
+                      value={searchQuery}
+                      onChange={(e) => setSearchQuery(e.target.value)}
+                      placeholder="検索..."
+                      className="w-full pl-9 pr-8 py-1.5 bg-gray-800 border border-gray-700 rounded text-white text-sm placeholder-gray-500 focus:outline-none focus:border-yellow-500"
+                    />
+                    {searchQuery && (
+                      <button
+                        onClick={() => setSearchQuery('')}
+                        className="absolute right-2 top-1/2 -translate-y-1/2 text-gray-500 hover:text-gray-300"
+                      >
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                      </button>
+                    )}
+                  </div>
+                  {/* ★フィルターボタン */}
+                  <button
+                    onClick={() => setShowStarredOnly(!showStarredOnly)}
+                    className={`p-1.5 rounded border transition flex-shrink-0 ${
+                      showStarredOnly
+                        ? 'bg-yellow-500/20 border-yellow-500 text-yellow-400'
+                        : 'bg-gray-800 border-gray-700 text-gray-500 hover:text-yellow-400'
+                    }`}
+                    title={showStarredOnly ? '全て表示' : '★のみ表示'}
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill={showStarredOnly ? 'currentColor' : 'none'} viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                  </button>
                 </div>
               </div>
               {/* 同期ボタン */}
@@ -1751,6 +1811,7 @@ ${content}
                   </div>
                 ) : (() => {
                   const filteredItems = savedItems.filter(item => {
+                    if (showStarredOnly && !item.starred) return false;
                     if (!searchQuery.trim()) return true;
                     const query = searchQuery.toLowerCase();
                     return item.title.toLowerCase().includes(query) ||
@@ -1759,7 +1820,7 @@ ${content}
                   });
                   return filteredItems.length === 0 ? (
                     <div className="text-gray-500 text-center py-8 text-sm">
-                      <p>「{searchQuery}」に一致する項目なし</p>
+                      <p>{showStarredOnly ? '★付きの項目なし' : `「${searchQuery}」に一致する項目なし`}</p>
                     </div>
                   ) : (
                     <div className="space-y-1">
@@ -1778,6 +1839,9 @@ ${content}
                               )}
                             </div>
                           )}
+                          {item.starred && (
+                            <span className="text-yellow-400 flex-shrink-0 text-sm">★</span>
+                          )}
                           <span className={`px-1.5 py-0.5 text-xs rounded font-medium flex-shrink-0 ${
                             item.type === 'SVG' ? 'bg-purple-600' : item.type === 'TEXT' ? 'bg-gray-600' : 'bg-blue-600'
                           } text-white`}>
@@ -1785,14 +1849,24 @@ ${content}
                           </span>
                           <span className="text-white flex-1 truncate">{item.title}</span>
                           {!selectMode && (
-                            <button
-                              onClick={(e) => { e.stopPropagation(); handleDelete(item.id); }}
-                              className="p-1 text-gray-500 hover:text-red-400 transition flex-shrink-0"
-                            >
-                              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
-                              </svg>
-                            </button>
+                            <>
+                              <button
+                                onClick={(e) => { e.stopPropagation(); toggleStar(item.id); }}
+                                className={`p-1 transition flex-shrink-0 ${item.starred ? 'text-yellow-400' : 'text-gray-500 hover:text-yellow-400'}`}
+                              >
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill={item.starred ? 'currentColor' : 'none'} viewBox="0 0 24 24" stroke="currentColor">
+                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                                </svg>
+                              </button>
+                              <button
+                                onClick={(e) => { e.stopPropagation(); handleDelete(item.id); }}
+                                className="p-1 text-gray-500 hover:text-red-400 transition flex-shrink-0"
+                              >
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                                </svg>
+                              </button>
+                            </>
                           )}
                         </div>
                       ))}
