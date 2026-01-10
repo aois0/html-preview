@@ -57,6 +57,10 @@
       const [selectedItems, setSelectedItems] = useState(new Set()); // 選択中のアイテムID
       const [syncModal, setSyncModal] = useState({ show: false, mode: null, code: null, loading: false, error: null }); // 同期モーダル
       const [syncCodeInput, setSyncCodeInput] = useState(''); // 同期コード入力
+      const [folders, setFolders] = useState([]); // フォルダ一覧
+      const [currentFolder, setCurrentFolder] = useState(null); // 選択中フォルダ (null=全て)
+      const [saveModal, setSaveModal] = useState({ show: false }); // 保存先フォルダ選択モーダル
+      const [newFolderName, setNewFolderName] = useState(''); // 新規フォルダ名
       const showPasteButton = useMemo(() => {
         const params = new URLSearchParams(window.location.search);
         return params.get('paste') === '1';
@@ -237,6 +241,10 @@
           if (saved) {
             setSavedItems(JSON.parse(saved));
           }
+          const savedFolders = localStorage.getItem('html-preview-folders');
+          if (savedFolders) {
+            setFolders(JSON.parse(savedFolders));
+          }
         } catch (e) {
           console.error('Failed to load from localStorage:', e);
         }
@@ -284,8 +292,15 @@
         }
       };
 
-      // 登録機能
+      // 登録機能 - モーダルを開く
       const handleSave = useCallback(() => {
+        if (!code.trim()) return;
+        setSaveModal({ show: true, selectedFolder: currentFolder });
+        setNewFolderName('');
+      }, [code, currentFolder]);
+
+      // 実際の保存処理
+      const doSave = useCallback((folder) => {
         if (!code.trim()) return;
 
         const trimmed = code.trim();
@@ -333,14 +348,45 @@
           title,
           type,
           code: content,
+          folder: folder || null,
           createdAt: new Date().toISOString()
         };
 
         const updated = [newItem, ...savedItems];
         setSavedItems(updated);
         localStorage.setItem('html-preview-library', JSON.stringify(updated));
-        alert('登録しました！');
+        setSaveModal({ show: false });
+        if (navigator.vibrate) navigator.vibrate(50);
       }, [code, savedItems, loadedFile]);
+
+      // フォルダ作成
+      const createFolder = useCallback((name) => {
+        if (!name.trim()) return;
+        const trimmedName = name.trim();
+        if (folders.includes(trimmedName)) {
+          alert('同じ名前のフォルダが既にあります');
+          return;
+        }
+        const updated = [...folders, trimmedName];
+        setFolders(updated);
+        localStorage.setItem('html-preview-folders', JSON.stringify(updated));
+        setNewFolderName('');
+        return trimmedName;
+      }, [folders]);
+
+      // フォルダ削除
+      const deleteFolder = useCallback((name) => {
+        const updated = folders.filter(f => f !== name);
+        setFolders(updated);
+        localStorage.setItem('html-preview-folders', JSON.stringify(updated));
+        // フォルダ内のアイテムはルートに移動
+        const updatedItems = savedItems.map(item =>
+          item.folder === name ? { ...item, folder: null } : item
+        );
+        setSavedItems(updatedItems);
+        localStorage.setItem('html-preview-library', JSON.stringify(updatedItems));
+        if (currentFolder === name) setCurrentFolder(null);
+      }, [folders, savedItems, currentFolder]);
 
       // 削除機能
       const handleDelete = useCallback((id) => {
@@ -1222,6 +1268,45 @@ ${content}
                       </button>
                     )}
                   </div>
+                  {/* フォルダナビゲーション */}
+                  <div className="flex gap-2 mb-3 overflow-x-auto pb-2">
+                    <button
+                      onClick={() => setCurrentFolder(null)}
+                      className={`flex-shrink-0 px-3 py-1.5 rounded-full text-sm font-medium transition ${
+                        currentFolder === null ? 'bg-yellow-600 text-white' : 'bg-gray-800 text-gray-400'
+                      }`}
+                    >
+                      すべて
+                    </button>
+                    {folders.map(folder => (
+                      <button
+                        key={folder}
+                        onClick={() => setCurrentFolder(folder)}
+                        onContextMenu={(e) => {
+                          e.preventDefault();
+                          setConfirmDialog({
+                            show: true,
+                            message: `「${folder}」フォルダを削除？\n（中のアイテムはルートに移動）`,
+                            onConfirm: () => {
+                              deleteFolder(folder);
+                              setConfirmDialog({ show: false, message: '', onConfirm: null });
+                            }
+                          });
+                        }}
+                        className={`flex-shrink-0 px-3 py-1.5 rounded-full text-sm font-medium transition flex items-center gap-1.5 ${
+                          currentFolder === folder ? 'bg-yellow-600 text-white' : 'bg-gray-800 text-gray-400'
+                        }`}
+                      >
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+                        </svg>
+                        {folder}
+                        <span className="text-xs opacity-70">
+                          ({savedItems.filter(item => item.folder === folder).length})
+                        </span>
+                      </button>
+                    ))}
+                  </div>
                   {savedItems.length === 0 ? (
                     <div className="text-gray-500 text-center py-8">
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 mx-auto mb-3 opacity-50" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -1232,6 +1317,9 @@ ${content}
                     </div>
                   ) : (() => {
                     const filteredItems = savedItems.filter(item => {
+                      // フォルダフィルタ
+                      if (currentFolder !== null && item.folder !== currentFolder) return false;
+                      // 検索フィルタ
                       if (!searchQuery.trim()) return true;
                       const query = searchQuery.toLowerCase();
                       return item.title.toLowerCase().includes(query) ||
@@ -1409,6 +1497,79 @@ ${content}
                       className="flex-1 py-3 text-blue-600 font-medium text-base active:bg-gray-100"
                     >
                       OK
+                    </button>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {/* 保存先フォルダ選択モーダル */}
+            {saveModal.show && (
+              <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-[300]" onClick={() => setSaveModal({ show: false })}>
+                <div className="bg-gray-900 rounded-xl mx-4 max-w-sm w-full overflow-hidden shadow-2xl" onClick={e => e.stopPropagation()}>
+                  <div className="p-4">
+                    <h3 className="text-white font-bold text-lg mb-4 text-center">保存先フォルダ</h3>
+
+                    {/* フォルダ一覧 */}
+                    <div className="space-y-2 max-h-60 overflow-y-auto">
+                      <button
+                        onClick={() => doSave(null)}
+                        className={`w-full text-left px-4 py-3 rounded-lg transition flex items-center gap-3 ${
+                          !saveModal.selectedFolder ? 'bg-yellow-600 text-white' : 'bg-gray-800 text-gray-300 hover:bg-gray-700'
+                        }`}
+                      >
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                        </svg>
+                        ルート（フォルダなし）
+                      </button>
+                      {folders.map(folder => (
+                        <button
+                          key={folder}
+                          onClick={() => doSave(folder)}
+                          className={`w-full text-left px-4 py-3 rounded-lg transition flex items-center gap-3 ${
+                            saveModal.selectedFolder === folder ? 'bg-yellow-600 text-white' : 'bg-gray-800 text-gray-300 hover:bg-gray-700'
+                          }`}
+                        >
+                          <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+                          </svg>
+                          {folder}
+                        </button>
+                      ))}
+                    </div>
+
+                    {/* 新規フォルダ作成 */}
+                    <div className="mt-4 pt-4 border-t border-gray-700">
+                      <div className="flex gap-2">
+                        <input
+                          type="text"
+                          value={newFolderName}
+                          onChange={(e) => setNewFolderName(e.target.value)}
+                          placeholder="新規フォルダ名"
+                          className="flex-1 px-3 py-2 bg-gray-800 text-white rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-yellow-500"
+                        />
+                        <button
+                          onClick={() => {
+                            const name = createFolder(newFolderName);
+                            if (name) doSave(name);
+                          }}
+                          disabled={!newFolderName.trim()}
+                          className={`px-4 py-2 rounded-lg text-sm font-medium transition ${
+                            newFolderName.trim() ? 'bg-green-600 hover:bg-green-500 text-white' : 'bg-gray-700 text-gray-500'
+                          }`}
+                        >
+                          作成して保存
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="border-t border-gray-700">
+                    <button
+                      onClick={() => setSaveModal({ show: false })}
+                      className="w-full py-4 text-gray-400 font-medium text-base active:bg-gray-800"
+                    >
+                      キャンセル
                     </button>
                   </div>
                 </div>
@@ -1743,6 +1904,43 @@ ${content}
                   </button>
                 )}
               </div>
+              {/* フォルダナビゲーション */}
+              <div className="bg-gray-900 px-3 py-2 border-b border-gray-700 flex gap-1.5 overflow-x-auto">
+                <button
+                  onClick={() => setCurrentFolder(null)}
+                  className={`flex-shrink-0 px-2.5 py-1 rounded text-xs font-medium transition ${
+                    currentFolder === null ? 'bg-yellow-600 text-white' : 'bg-gray-800 text-gray-400 hover:bg-gray-700'
+                  }`}
+                >
+                  すべて
+                </button>
+                {folders.map(folder => (
+                  <button
+                    key={folder}
+                    onClick={() => setCurrentFolder(folder)}
+                    onContextMenu={(e) => {
+                      e.preventDefault();
+                      setConfirmDialog({
+                        show: true,
+                        message: `「${folder}」フォルダを削除？\n（中のアイテムはルートに移動）`,
+                        onConfirm: () => {
+                          deleteFolder(folder);
+                          setConfirmDialog({ show: false, message: '', onConfirm: null });
+                        }
+                      });
+                    }}
+                    className={`flex-shrink-0 px-2.5 py-1 rounded text-xs font-medium transition flex items-center gap-1 ${
+                      currentFolder === folder ? 'bg-yellow-600 text-white' : 'bg-gray-800 text-gray-400 hover:bg-gray-700'
+                    }`}
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+                    </svg>
+                    {folder}
+                    <span className="opacity-70">({savedItems.filter(item => item.folder === folder).length})</span>
+                  </button>
+                ))}
+              </div>
               {/* アイテムリスト */}
               <div className="flex-1 overflow-auto bg-gray-950 p-2">
                 {savedItems.length === 0 ? (
@@ -1751,6 +1949,9 @@ ${content}
                   </div>
                 ) : (() => {
                   const filteredItems = savedItems.filter(item => {
+                    // フォルダフィルタ
+                    if (currentFolder !== null && item.folder !== currentFolder) return false;
+                    // 検索フィルタ
                     if (!searchQuery.trim()) return true;
                     const query = searchQuery.toLowerCase();
                     return item.title.toLowerCase().includes(query) ||
@@ -1823,6 +2024,79 @@ ${content}
                     className="flex-1 py-3 text-blue-600 font-medium text-base active:bg-gray-100"
                   >
                     OK
+                  </button>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* 保存先フォルダ選択モーダル */}
+          {saveModal.show && (
+            <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-[300]" onClick={() => setSaveModal({ show: false })}>
+              <div className="bg-gray-900 rounded-xl mx-4 max-w-sm w-full overflow-hidden shadow-2xl" onClick={e => e.stopPropagation()}>
+                <div className="p-4">
+                  <h3 className="text-white font-bold text-lg mb-4 text-center">保存先フォルダ</h3>
+
+                  {/* フォルダ一覧 */}
+                  <div className="space-y-2 max-h-60 overflow-y-auto">
+                    <button
+                      onClick={() => doSave(null)}
+                      className={`w-full text-left px-4 py-3 rounded-lg transition flex items-center gap-3 ${
+                        !saveModal.selectedFolder ? 'bg-yellow-600 text-white' : 'bg-gray-800 text-gray-300 hover:bg-gray-700'
+                      }`}
+                    >
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                      </svg>
+                      ルート（フォルダなし）
+                    </button>
+                    {folders.map(folder => (
+                      <button
+                        key={folder}
+                        onClick={() => doSave(folder)}
+                        className={`w-full text-left px-4 py-3 rounded-lg transition flex items-center gap-3 ${
+                          saveModal.selectedFolder === folder ? 'bg-yellow-600 text-white' : 'bg-gray-800 text-gray-300 hover:bg-gray-700'
+                        }`}
+                      >
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+                        </svg>
+                        {folder}
+                      </button>
+                    ))}
+                  </div>
+
+                  {/* 新規フォルダ作成 */}
+                  <div className="mt-4 pt-4 border-t border-gray-700">
+                    <div className="flex gap-2">
+                      <input
+                        type="text"
+                        value={newFolderName}
+                        onChange={(e) => setNewFolderName(e.target.value)}
+                        placeholder="新規フォルダ名"
+                        className="flex-1 px-3 py-2 bg-gray-800 text-white rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-yellow-500"
+                      />
+                      <button
+                        onClick={() => {
+                          const name = createFolder(newFolderName);
+                          if (name) doSave(name);
+                        }}
+                        disabled={!newFolderName.trim()}
+                        className={`px-4 py-2 rounded-lg text-sm font-medium transition ${
+                          newFolderName.trim() ? 'bg-green-600 hover:bg-green-500 text-white' : 'bg-gray-700 text-gray-500'
+                        }`}
+                      >
+                        作成して保存
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div className="border-t border-gray-700">
+                  <button
+                    onClick={() => setSaveModal({ show: false })}
+                    className="w-full py-4 text-gray-400 font-medium text-base hover:bg-gray-800 transition"
+                  >
+                    キャンセル
                   </button>
                 </div>
               </div>
