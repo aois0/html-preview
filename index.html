@@ -60,6 +60,7 @@
       const [syncCodeInput, setSyncCodeInput] = useState(''); // 同期コード入力
       const [editingItem, setEditingItem] = useState(null); // 編集中のアイテム { id, title }
       const [actionMenu, setActionMenu] = useState(null); // アクションメニュー用アイテム
+      const [swipedItemId, setSwipedItemId] = useState(null); // スワイプ中のアイテムID
       const showPasteButton = useMemo(() => {
         const params = new URLSearchParams(window.location.search);
         return params.get('paste') === '1';
@@ -103,6 +104,34 @@
           }
         }
       }, [activeTab]);
+
+      // アイテムスワイプ用ref
+      const itemSwipeStart = useRef({ x: 0, y: 0, id: null });
+
+      // アイテムスワイプ開始
+      const handleItemSwipeStart = useCallback((e, itemId) => {
+        if (selectMode) return;
+        const touch = e.touches[0];
+        itemSwipeStart.current = { x: touch.clientX, y: touch.clientY, id: itemId };
+      }, [selectMode]);
+
+      // アイテムスワイプ終了
+      const handleItemSwipeEnd = useCallback((e) => {
+        if (!itemSwipeStart.current.id) return;
+        const touch = e.changedTouches[0];
+        const dx = touch.clientX - itemSwipeStart.current.x;
+        const dy = touch.clientY - itemSwipeStart.current.y;
+
+        // 左スワイプでゴミ箱表示（50px以上、縦移動少ない）
+        if (dx < -50 && Math.abs(dy) < 30) {
+          setSwipedItemId(itemSwipeStart.current.id);
+          if (navigator.vibrate) navigator.vibrate(20);
+        } else if (dx > 30) {
+          // 右スワイプで閉じる
+          setSwipedItemId(null);
+        }
+        itemSwipeStart.current = { x: 0, y: 0, id: null };
+      }, []);
 
       // ライブラリ長押し開始
       const handleLibraryTouchStart = useCallback((e, item) => {
@@ -1330,15 +1359,22 @@ ${content}
                       {filtered.map((item) => (
                         <div
                           key={item.id}
-                          className={`flex items-center gap-3 p-3 rounded-lg transition ${
-                            selectMode
-                              ? selectedItems.has(item.id)
-                                ? 'bg-blue-900/50 border border-blue-500'
-                                : 'bg-gray-800 border border-transparent'
-                              : 'bg-gray-800 active:bg-gray-700'
-                          }`}
-                          onClick={selectMode ? () => toggleSelectItem(item.id) : undefined}
+                          className="relative overflow-hidden rounded-lg"
+                          onTouchStart={(e) => handleItemSwipeStart(e, item.id)}
+                          onTouchEnd={handleItemSwipeEnd}
                         >
+                          <div
+                            className={`flex items-center gap-3 p-3 transition-transform duration-200 ${
+                              swipedItemId === item.id ? '-translate-x-16' : ''
+                            } ${
+                              selectMode
+                                ? selectedItems.has(item.id)
+                                  ? 'bg-blue-900/50 border border-blue-500'
+                                  : 'bg-gray-800 border border-transparent'
+                                : 'bg-gray-800 active:bg-gray-700'
+                            }`}
+                            onClick={selectMode ? () => toggleSelectItem(item.id) : undefined}
+                          >
                           {selectMode && (
                             <div className={`w-5 h-5 rounded border-2 flex items-center justify-center flex-shrink-0 ${
                               selectedItems.has(item.id) ? 'bg-blue-500 border-blue-500' : 'border-gray-500'
@@ -1382,6 +1418,18 @@ ${content}
                                 <circle cx="12" cy="5" r="2"/>
                                 <circle cx="12" cy="12" r="2"/>
                                 <circle cx="12" cy="19" r="2"/>
+                              </svg>
+                            </button>
+                          )}
+                          </div>
+                          {/* スワイプ時のゴミ箱ボタン */}
+                          {swipedItemId === item.id && (
+                            <button
+                              onClick={() => handleDelete(item.id)}
+                              className="absolute right-0 top-0 bottom-0 w-16 bg-red-600 flex items-center justify-center"
+                            >
+                              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
                               </svg>
                             </button>
                           )}
