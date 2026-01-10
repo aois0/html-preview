@@ -72,9 +72,6 @@
       const libraryLongPressTimer = useRef(null);
       const libraryLongPressTriggered = useRef(false);
       const libraryTouchStart = useRef({ x: 0, y: 0 });
-      const previewLongPressTimer = useRef(null);
-      const previewTouchStart = useRef({ x: 0, y: 0 });
-
       // タブスワイプ用（ライブラリ→プレビューの2タブ）
       const tabOrder = ['library', 'preview'];
       const swipeState = useRef({ startX: 0, startY: 0, isSwiping: false, isLocked: false });
@@ -174,36 +171,6 @@
           return;
         }
         handleLoad(item);
-      }, []);
-
-      // プレビュー長押し開始（最大化用）
-      const handlePreviewTouchStart = useCallback((e) => {
-        const touch = e.touches[0];
-        previewTouchStart.current = { x: touch.clientX, y: touch.clientY };
-        previewLongPressTimer.current = setTimeout(() => {
-          if (navigator.vibrate) navigator.vibrate(30);
-          setIsFullscreen(true);
-        }, 500);
-      }, []);
-
-      // プレビュー長押し終了
-      const handlePreviewTouchEnd = useCallback(() => {
-        if (previewLongPressTimer.current) {
-          clearTimeout(previewLongPressTimer.current);
-          previewLongPressTimer.current = null;
-        }
-      }, []);
-
-      // プレビュータッチ移動（10px以上でキャンセル）
-      const handlePreviewTouchMove = useCallback((e) => {
-        if (!previewLongPressTimer.current) return;
-        const touch = e.touches[0];
-        const dx = touch.clientX - previewTouchStart.current.x;
-        const dy = touch.clientY - previewTouchStart.current.y;
-        if (Math.abs(dx) > 10 || Math.abs(dy) > 10) {
-          clearTimeout(previewLongPressTimer.current);
-          previewLongPressTimer.current = null;
-        }
       }, []);
 
       // コードペースト検知→自動プレビュー遷移
@@ -1549,13 +1516,8 @@ ${content}
                       </div>
                     </div>
                   )}
-                  {/* プレビューエリア（長押しで最大化） */}
-                  <div
-                    className="relative flex-1 overflow-hidden"
-                    onTouchStart={handlePreviewTouchStart}
-                    onTouchEnd={handlePreviewTouchEnd}
-                    onTouchMove={handlePreviewTouchMove}
-                  >
+                  {/* プレビューエリア */}
+                  <div className="relative flex-1 overflow-hidden">
                     {currentMode === 'SVG' ? (
                       <div
                         className="w-full h-full bg-gray-100 overflow-auto p-4"
