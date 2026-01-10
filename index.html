@@ -381,6 +381,25 @@
         lastScrollY.current = 0;
       }, [activeTab]);
 
+      // iframe内スクロールのpostMessageリスナー
+      useEffect(() => {
+        let lastProcessed = 0;
+        const handleMessage = (e) => {
+          if (e.data && e.data.type === 'iframe-scroll') {
+            const now = Date.now();
+            if (now - lastProcessed < 100) return;
+            lastProcessed = now;
+            const currentY = e.data.top || 0;
+            const diff = currentY - lastScrollY.current;
+            if (diff > 20) setHideUI(true);
+            else if (diff < -20) setHideUI(false);
+            lastScrollY.current = currentY;
+          }
+        };
+        window.addEventListener('message', handleMessage);
+        return () => window.removeEventListener('message', handleMessage);
+      }, []);
+
       // LocalStorageから読み込み
       useEffect(() => {
         try {
@@ -756,6 +775,9 @@
         // 純粋なSVGの場合のみSVG処理
         const isSvg = !isHtmlDoc && (trimmed.startsWith('<svg') || trimmed.startsWith('<?xml'));
 
+        // スクロール通知用のインラインハンドラ（onscroll属性方式）
+        const scrollHandler = "window.parent.postMessage({type:'iframe-scroll',top:document.documentElement.scrollTop||document.body.scrollTop},'*')";
+
         if (isSvg) {
           const svgOnly = extractSvgTag(trimmed);
           return `<!DOCTYPE html>
@@ -779,12 +801,33 @@
     }
   </style>
 </head>
-<body>
+<body onscroll="${scrollHandler}">
   ${svgOnly}
 </body>
 </html>`;
         }
-        return debouncedCode;
+
+        // HTML の場合: body タグに onscroll を注入
+        let html = debouncedCode;
+
+        // 既存の body タグがある場合は属性を追加
+        if (/<body\b/i.test(html)) {
+          // onscroll が既にある場合は上書きしない
+          if (!/<body[^>]*onscroll/i.test(html)) {
+            html = html.replace(/<body\b([^>]*)>/i, `<body$1 onscroll="${scrollHandler}">`);
+          }
+        } else if (/<html\b/i.test(html)) {
+          // html タグはあるが body がない場合
+          if (/<\/head>/i.test(html)) {
+            html = html.replace(/<\/head>/i, `</head><body onscroll="${scrollHandler}">`);
+            html = html.replace(/<\/html>/i, '</body></html>');
+          }
+        } else {
+          // html タグもない場合（断片的なHTML）
+          html = `<body onscroll="${scrollHandler}">${html}</body>`;
+        }
+
+        return html;
       }, [debouncedCode]);
 
       // 現在のモードを判定（先頭文字で自動判定）
