@@ -1578,6 +1578,7 @@ ${content}
           {/* 3カラムコンテンツ */}
           <div className="flex-1 flex overflow-hidden">
             {/* 左: コードエディタ */}
+            {!isFullscreen && (
             <div className="w-1/3 flex flex-col border-r border-gray-700">
               <div className="bg-gray-800 px-4 py-2 text-gray-400 text-sm font-medium border-b border-gray-700">
                 コード
@@ -1590,19 +1591,26 @@ ${content}
                 spellCheck={false}
               />
             </div>
+            )}
 
             {/* 中央: プレビュー */}
-            <div className="w-1/3 flex flex-col border-r border-gray-700 relative">
+            <div className={`${isFullscreen ? 'w-full' : 'w-1/3'} flex flex-col border-r border-gray-700 relative`}>
               <div className="bg-gray-800 px-4 py-2 text-gray-400 text-sm font-medium border-b border-gray-700 flex items-center justify-between">
-                <span>プレビュー</span>
+                <span>プレビュー {isFullscreen && '（最大化中）'}</span>
                 <button
                   onClick={() => setIsFullscreen(!isFullscreen)}
                   className="p-1 hover:bg-gray-700 rounded transition"
-                  title="最大化"
+                  title={isFullscreen ? '元に戻す' : '最大化'}
                 >
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
-                  </svg>
+                  {isFullscreen ? (
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 9V4.5M9 9H4.5M9 9L3.75 3.75M9 15v4.5M9 15H4.5M9 15l-5.25 5.25M15 9h4.5M15 9V4.5M15 9l5.25-5.25M15 15h4.5M15 15v4.5m0-4.5l5.25 5.25" />
+                    </svg>
+                  ) : (
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
+                    </svg>
+                  )}
                 </button>
               </div>
               <div className="flex-1 overflow-hidden">
@@ -1628,6 +1636,7 @@ ${content}
             </div>
 
             {/* 右: ライブラリ */}
+            {!isFullscreen && (
             <div className="w-1/3 flex flex-col">
               <div className="bg-gray-800 px-4 py-2 text-gray-400 text-sm font-medium border-b border-gray-700">
                 ライブラリ {savedItems.length > 0 && `(${savedItems.length})`}
@@ -1782,6 +1791,7 @@ ${content}
                 })()}
               </div>
             </div>
+            )}
           </div>
 
           {/* カスタム確認ダイアログ */}
