@@ -73,8 +73,8 @@
       const libraryLongPressTriggered = useRef(false);
       const libraryTouchStart = useRef({ x: 0, y: 0 });
 
-      // タブスワイプ用（ライブラリ→コード→プレビューの順）
-      const tabOrder = ['library', 'code', 'preview'];
+      // タブスワイプ用（ライブラリ→プレビューの2タブ）
+      const tabOrder = ['library', 'preview'];
       const swipeState = useRef({ startX: 0, startY: 0, isSwiping: false, isLocked: false });
 
       // タブスワイプ開始（エッジスワイプ：画面端30pxからのみ有効）
@@ -1086,8 +1086,8 @@ ${content}
               className="hidden"
             />
 
-            {/* タブ切り替え（ライブラリ→コード→プレビュー） */}
-            {!isFullscreen && (
+            {/* タブ切り替え（ライブラリ→プレビュー、コードはプレビューからアクセス） */}
+            {!isFullscreen && activeTab !== 'code' && (
             <div className="flex bg-gray-800 border-b border-gray-700">
               <button
                 onClick={() => setActiveTab('library')}
@@ -1105,21 +1105,6 @@ ${content}
                   {savedItems.length > 0 && (
                     <span className="bg-yellow-600 text-white text-xs px-1.5 rounded-full">{savedItems.length}</span>
                   )}
-                </span>
-              </button>
-              <button
-                onClick={() => setActiveTab('code')}
-                className={`flex-1 py-3 text-sm font-medium transition ${
-                  activeTab === 'code'
-                    ? 'text-blue-400 border-b-2 border-blue-400 bg-gray-900'
-                    : 'text-gray-400 hover:text-gray-300'
-                }`}
-              >
-                <span className="flex items-center justify-center gap-2">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-                  </svg>
-                  コード
                 </span>
               </button>
               <button
@@ -1193,21 +1178,46 @@ ${content}
               onTouchEndCapture={handleTabSwipeEnd}
             >
               {activeTab === 'code' ? (
-                <div className="relative w-full h-full">
-                  <textarea
-                    ref={textareaRef}
-                    value={code}
-                    onChange={(e) => setCode(e.target.value)}
-                    onPaste={handleCodePaste}
-                    onTouchStart={handleLongPressStart}
-                    onTouchEnd={handleLongPressEnd}
-                    onTouchMove={handleLongPressEnd}
-                    className="w-full h-full bg-gray-950 text-green-400 font-mono text-base leading-relaxed p-4 resize-none focus:outline-none selection:bg-blue-600 selection:text-white"
-                    placeholder="ここにHTMLまたはSVGコードを貼り付け..."
-                    spellCheck={false}
-                    autoCapitalize="off"
-                    autoCorrect="off"
-                  />
+                <div className="flex flex-col w-full h-full">
+                  {/* コードビューヘッダー */}
+                  <div className="flex items-center justify-between px-2 py-1.5 bg-gray-800 border-b border-gray-700">
+                    <button
+                      onClick={() => setActiveTab('preview')}
+                      className="flex items-center gap-2 px-3 py-2 bg-green-600 hover:bg-green-500 text-white text-sm rounded-lg transition active:scale-95"
+                    >
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                      </svg>
+                      プレビュー
+                    </button>
+                    <span className="text-gray-400 text-sm">コード編集</span>
+                    <button
+                      onClick={() => fileInputRef.current?.click()}
+                      className="p-2 bg-purple-600 hover:bg-purple-500 text-white rounded-lg transition active:scale-95"
+                      title="ファイルを開く"
+                    >
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
+                      </svg>
+                    </button>
+                  </div>
+                  {/* コードエリア */}
+                  <div className="relative flex-1">
+                    <textarea
+                      ref={textareaRef}
+                      value={code}
+                      onChange={(e) => setCode(e.target.value)}
+                      onPaste={handleCodePaste}
+                      onTouchStart={handleLongPressStart}
+                      onTouchEnd={handleLongPressEnd}
+                      onTouchMove={handleLongPressEnd}
+                      className="w-full h-full bg-gray-950 text-green-400 font-mono text-base leading-relaxed p-4 resize-none focus:outline-none selection:bg-blue-600 selection:text-white"
+                      placeholder="ここにHTMLまたはSVGコードを貼り付け..."
+                      spellCheck={false}
+                      autoCapitalize="off"
+                      autoCorrect="off"
+                    />
                   {!code && (
                     <button
                       onClick={handlePaste}
@@ -1219,16 +1229,7 @@ ${content}
                       <span className="text-sm font-medium">タップでペースト</span>
                     </button>
                   )}
-                  {/* 左下：開くボタン */}
-                  <button
-                    onClick={() => fileInputRef.current?.click()}
-                    className="absolute bottom-4 left-4 p-3 bg-purple-600 hover:bg-purple-500 text-white rounded-full shadow-lg transition active:scale-95 z-10"
-                    title="ファイルを開く"
-                  >
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
-                    </svg>
-                  </button>
+                  </div>
                 </div>
               ) : activeTab === 'library' ? (
                 <div className="flex flex-col w-full h-full bg-gray-950">
@@ -1479,7 +1480,6 @@ ${content}
                                 onConfirm: () => {
                                   setCode('');
                                   setLoadedFile(null);
-                                  setActiveTab('code');
                                   setConfirmDialog({ show: false, message: '', onConfirm: null });
                                 }
                               });
@@ -1491,6 +1491,17 @@ ${content}
                         >
                           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                          </svg>
+                        </button>
+                        {/* コード表示 */}
+                        <button
+                          onClick={() => setActiveTab('code')}
+                          disabled={!code}
+                          className={`p-2 rounded-lg transition active:scale-95 ${code ? 'bg-blue-600 hover:bg-blue-500 text-white' : 'bg-gray-700 text-gray-500'}`}
+                          title="コード表示"
+                        >
+                          <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
                           </svg>
                         </button>
                         {/* 最大化 */}
