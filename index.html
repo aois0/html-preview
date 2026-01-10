@@ -1600,18 +1600,7 @@ ${content}
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
                           </svg>
                         </button>
-                        {/* コード表示 */}
-                        <button
-                          onClick={() => setActiveTab('code')}
-                          disabled={!code}
-                          className={`p-2 rounded-lg transition active:scale-95 ${code ? 'bg-blue-600 hover:bg-blue-500 text-white' : 'bg-gray-700 text-gray-500'}`}
-                          title="コード表示"
-                        >
-                          <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-                          </svg>
-                        </button>
-                        {/* 三点メニュー（共有・ダウンロード・PNG・印刷）- 一番右 */}
+                        {/* 三点メニュー（コード・共有・ダウンロード・PNG・印刷）- 一番右 */}
                         <div className="relative">
                           <button
                             onClick={() => setShowPreviewMenu(!showPreviewMenu)}
@@ -1628,11 +1617,21 @@ ${content}
                             <>
                             <div className="fixed inset-0 z-40" onClick={() => setShowPreviewMenu(false)} />
                             <div className="absolute bottom-full right-0 mb-2 bg-gray-900 rounded-lg shadow-xl border border-gray-700 p-1 z-50 flex gap-1">
+                              {/* コード表示 */}
+                              <button
+                                onClick={() => { setActiveTab('code'); setShowPreviewMenu(false); }}
+                                className="p-2 rounded-lg bg-blue-600 hover:bg-blue-500 text-white transition active:scale-95"
+                                title="コード表示"
+                              >
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                                </svg>
+                              </button>
                               {/* 共有 */}
                               <button
                                 onClick={() => { handleShare(); setShowPreviewMenu(false); }}
                                 disabled={isShortening}
-                                className="p-2 rounded-lg bg-blue-600 hover:bg-blue-500 text-white transition active:scale-95"
+                                className="p-2 rounded-lg bg-gray-600 hover:bg-gray-500 text-white transition active:scale-95"
                                 title="共有"
                               >
                                 {isShortening ? (
