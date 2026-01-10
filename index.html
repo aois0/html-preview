@@ -381,18 +381,6 @@
         lastScrollY.current = 0;
       }, [activeTab]);
 
-      // iframe内スクロールのpostMessageリスナー
-      useEffect(() => {
-        const handler = (e) => {
-          if (e.data?.type !== 'preview-scroll') return;
-          const diff = e.data.diff;
-          if (diff > 20) setHideUI(true);
-          else if (diff < -20) setHideUI(false);
-        };
-        window.addEventListener('message', handler);
-        return () => window.removeEventListener('message', handler);
-      }, []);
-
       // LocalStorageから読み込み
       useEffect(() => {
         try {
@@ -760,32 +748,9 @@
       }, [code, isMobile]);
 
       // SVGかどうかを判定し、必要ならHTMLでラップ
-      // スクロール検知スクリプト（iframe内で検知→親にpostMessage）
-      // 注意: </script> は <\/script> にエスケープ（外側のscriptタグを閉じないため）
-      const scrollDetectScript = `<script>
-(function(){
-  var lastY=0,ticking=false;
-  function getY(){return (document.scrollingElement||document.documentElement).scrollTop;}
-  window.addEventListener("scroll",function(){
-    if(ticking)return;
-    ticking=true;
-    requestAnimationFrame(function(){
-      var y=getY(),diff=y-lastY;
-      if(Math.abs(diff)>20){
-        parent.postMessage({type:"preview-scroll",diff:diff},"*");
-        lastY=y;
-      }
-      ticking=false;
-    });
-  },{passive:true});
-})();
-<\/script>`;
-
       // プレビュー用コード（デバウンス適用）
       const previewCode = useMemo(() => {
         const trimmed = debouncedCode.trim();
-        // 空の場合はそのまま返す（スクリプト不要）
-        if (!trimmed) return '';
         // HTMLドキュメントの場合はそのまま表示（中にSVGがあってもHTML扱い）
         const isHtmlDoc = trimmed.startsWith('<!DOCTYPE') || trimmed.startsWith('<html') || trimmed.startsWith('<HTML');
         // 純粋なSVGの場合のみSVG処理
@@ -816,25 +781,10 @@
 </head>
 <body>
   ${svgOnly}
-  ${scrollDetectScript}
 </body>
 </html>`;
         }
-        // HTMLの場合、</body>または</html>の前にスクリプトを挿入
-        if (trimmed.includes('</body>')) {
-          return trimmed.replace('</body>', scrollDetectScript + '</body>');
-        } else if (trimmed.includes('</html>')) {
-          return trimmed.replace('</html>', scrollDetectScript + '</html>');
-        }
-        // HTMLドキュメント形式でラップしてスクリプトを追加
-        return `<!DOCTYPE html>
-<html>
-<head><meta name="viewport" content="width=device-width, initial-scale=1.0"></head>
-<body>
-${trimmed}
-${scrollDetectScript}
-</body>
-</html>`;
+        return debouncedCode;
       }, [debouncedCode]);
 
       // 現在のモードを判定（先頭文字で自動判定）
@@ -1450,14 +1400,12 @@ ${content}
                         className="w-full h-full bg-gray-100 overflow-auto p-4"
                         style={{ userSelect: 'text', WebkitUserSelect: 'text' }}
                         onScroll={handlePreviewScroll}
-                        onClick={hideUI ? handlePreviewTap : undefined}
                         dangerouslySetInnerHTML={{ __html: extractSvgTag(debouncedCode.trim()) }}
                       />
                     ) : currentMode === 'TEXT' ? (
                       <div
                         className="w-full h-full bg-white overflow-auto p-4"
                         onScroll={handlePreviewScroll}
-                        onClick={hideUI ? handlePreviewTap : undefined}
                       >
                         <pre className="whitespace-pre-wrap break-words font-sans text-gray-800 text-base leading-relaxed" style={{ userSelect: 'text', WebkitUserSelect: 'text' }}>{debouncedCode}</pre>
                       </div>
@@ -1479,6 +1427,13 @@ ${content}
                               タップでUI表示
                             </div>
                           </div>
+                        )}
+                        {/* UI表示時：上部タップエリア */}
+                        {!hideUI && (
+                          <div
+                            className="absolute top-0 left-0 right-0 h-12 bg-transparent"
+                            onClick={handlePreviewTap}
+                          />
                         )}
                       </div>
                     )}
