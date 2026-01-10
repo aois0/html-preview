@@ -1534,6 +1534,45 @@ ${content}
               </div>
             )}
 
+            {/* タイトル編集モーダル（モバイル） */}
+            {editingItem && (
+              <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-[200]" onClick={() => setEditingItem(null)}>
+                <div className="bg-gray-900 rounded-xl mx-4 max-w-sm w-full overflow-hidden shadow-2xl" onClick={e => e.stopPropagation()}>
+                  <div className="p-4">
+                    <h3 className="text-white font-bold text-base mb-3">タイトル変更</h3>
+                    <input
+                      type="text"
+                      value={editingItem.title}
+                      onChange={(e) => setEditingItem({ ...editingItem, title: e.target.value })}
+                      onKeyDown={(e) => {
+                        if (e.key === 'Enter') {
+                          updateTitle(editingItem.id, editingItem.title);
+                        } else if (e.key === 'Escape') {
+                          setEditingItem(null);
+                        }
+                      }}
+                      className="w-full px-3 py-2 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-blue-500"
+                      autoFocus
+                    />
+                  </div>
+                  <div className="flex border-t border-gray-700">
+                    <button
+                      onClick={() => setEditingItem(null)}
+                      className="flex-1 py-3 text-gray-400 font-medium text-base border-r border-gray-700 active:bg-gray-800"
+                    >
+                      キャンセル
+                    </button>
+                    <button
+                      onClick={() => updateTitle(editingItem.id, editingItem.title)}
+                      className="flex-1 py-3 text-blue-400 font-medium text-base active:bg-gray-800"
+                    >
+                      保存
+                    </button>
+                  </div>
+                </div>
+              </div>
+            )}
+
             {/* アクションメニュー（モバイル） */}
             {actionMenu && (
               <div className="fixed inset-0 bg-black/60 flex items-end justify-center z-[200]" onClick={() => setActionMenu(null)}>
