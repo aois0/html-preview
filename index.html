@@ -73,6 +73,36 @@
       const libraryLongPressTimer = useRef(null);
       const libraryLongPressTriggered = useRef(false);
       const libraryTouchStart = useRef({ x: 0, y: 0 });
+      const swipeStart = useRef({ x: 0, y: 0 });
+
+      // タブ順序
+      const tabOrder = ['code', 'preview', 'library'];
+
+      // スワイプでタブ切り替え
+      const handleSwipeStart = useCallback((e) => {
+        const touch = e.touches[0];
+        swipeStart.current = { x: touch.clientX, y: touch.clientY };
+      }, []);
+
+      const handleSwipeEnd = useCallback((e) => {
+        const touch = e.changedTouches[0];
+        const dx = touch.clientX - swipeStart.current.x;
+        const dy = touch.clientY - swipeStart.current.y;
+
+        // 水平方向のスワイプのみ（縦移動が少ない場合）
+        if (Math.abs(dx) > 80 && Math.abs(dy) < 100) {
+          const currentIndex = tabOrder.indexOf(activeTab);
+          if (dx < 0 && currentIndex < tabOrder.length - 1) {
+            // 左スワイプ → 次のタブ
+            setActiveTab(tabOrder[currentIndex + 1]);
+            if (navigator.vibrate) navigator.vibrate(20);
+          } else if (dx > 0 && currentIndex > 0) {
+            // 右スワイプ → 前のタブ
+            setActiveTab(tabOrder[currentIndex - 1]);
+            if (navigator.vibrate) navigator.vibrate(20);
+          }
+        }
+      }, [activeTab]);
 
       // ライブラリ長押し開始
       const handleLibraryTouchStart = useCallback((e, item) => {
@@ -996,7 +1026,11 @@ ${content}
       // モバイルレイアウト
       if (isMobile) {
         return (
-          <div className="flex flex-col h-screen bg-gray-900">
+          <div
+            className="flex flex-col h-screen bg-gray-900"
+            onTouchStart={handleSwipeStart}
+            onTouchEnd={handleSwipeEnd}
+          >
             {/* ヘッダー（ファイル読み込み時のみ表示） */}
             {!isFullscreen && loadedFile && (
             <div className="bg-gray-800 px-4 py-2 flex items-center gap-2 border-b border-gray-700">
