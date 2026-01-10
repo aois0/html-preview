@@ -1184,35 +1184,6 @@ ${content}
                   {/* 上部ツールバー */}
                   <div className="flex items-center justify-between px-2 py-1.5 bg-gray-800 border-b border-gray-700">
                     <div className="flex gap-1">
-                      {/* 受信 */}
-                      <button
-                        onClick={openSyncInput}
-                        className="p-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg transition active:scale-95"
-                        title="同期受信"
-                      >
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-                        </svg>
-                      </button>
-                      {/* JSONインポート */}
-                      <input
-                        ref={importInputRef}
-                        type="file"
-                        accept=".json"
-                        onChange={handleImport}
-                        className="hidden"
-                      />
-                      <button
-                        onClick={() => importInputRef.current?.click()}
-                        className="p-2 bg-slate-600 hover:bg-slate-500 text-white rounded-lg transition active:scale-95"
-                        title="JSONインポート"
-                      >
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
-                        </svg>
-                      </button>
-                    </div>
-                    <div className="flex gap-1">
                       {selectMode ? (
                         <>
                           <button
@@ -1280,6 +1251,35 @@ ${content}
                           </svg>
                         </button>
                       )}
+                    </div>
+                    <div className="flex gap-1">
+                      {/* 受信 */}
+                      <button
+                        onClick={openSyncInput}
+                        className="p-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg transition active:scale-95"
+                        title="同期受信"
+                      >
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                        </svg>
+                      </button>
+                      {/* JSONインポート */}
+                      <input
+                        ref={importInputRef}
+                        type="file"
+                        accept=".json"
+                        onChange={handleImport}
+                        className="hidden"
+                      />
+                      <button
+                        onClick={() => importInputRef.current?.click()}
+                        className="p-2 bg-slate-600 hover:bg-slate-500 text-white rounded-lg transition active:scale-95"
+                        title="JSONインポート"
+                      >
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                        </svg>
+                      </button>
                     </div>
                   </div>
                   {/* アイテム一覧 */}
