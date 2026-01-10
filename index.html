@@ -60,8 +60,6 @@
       const [editingItem, setEditingItem] = useState(null); // 編集中のアイテム { id, title }
       const [actionMenu, setActionMenu] = useState(null); // アクションメニュー用アイテム
       const [swipedItemId, setSwipedItemId] = useState(null); // スワイプ中のアイテムID
-      const contentRef = useRef(null); // タブコンテンツ参照
-      const swipeState = useRef({ startX: 0, startY: 0, offset: 0, isSwiping: false, isLocked: false });
       const showPasteButton = useMemo(() => {
         const params = new URLSearchParams(window.location.search);
         return params.get('paste') === '1';
@@ -75,89 +73,6 @@
       const libraryLongPressTimer = useRef(null);
       const libraryLongPressTriggered = useRef(false);
       const libraryTouchStart = useRef({ x: 0, y: 0 });
-      const swipeStart = useRef({ x: 0, y: 0 });
-
-      // タブ順序
-      const tabOrder = ['code', 'preview', 'library'];
-
-      // スワイプでタブ切り替え（DOM直接操作で滑らかに）
-      const handleSwipeStart = useCallback((e) => {
-        if (e.target.closest('textarea, input, button, .no-swipe')) return;
-        const touch = e.touches[0];
-        swipeState.current = {
-          startX: touch.clientX,
-          startY: touch.clientY,
-          offset: 0,
-          isSwiping: false,
-          isLocked: false
-        };
-      }, []);
-
-      const handleSwipeMove = useCallback((e) => {
-        const state = swipeState.current;
-        if (state.isLocked) return;
-
-        const touch = e.touches[0];
-        const dx = touch.clientX - state.startX;
-        const dy = touch.clientY - state.startY;
-
-        // 最初の動きで方向を判定
-        if (!state.isSwiping && (Math.abs(dx) > 10 || Math.abs(dy) > 10)) {
-          if (Math.abs(dy) > Math.abs(dx)) {
-            // 縦スクロール優先
-            state.isLocked = true;
-            return;
-          }
-          state.isSwiping = true;
-        }
-
-        if (!state.isSwiping) return;
-
-        e.preventDefault(); // 横スワイプ中は縦スクロール防止
-
-        // 端での抵抗感
-        const currentIndex = tabOrder.indexOf(activeTab);
-        let offset = dx;
-        if ((dx > 0 && currentIndex === 0) || (dx < 0 && currentIndex === tabOrder.length - 1)) {
-          offset = dx * 0.3;
-        }
-        state.offset = offset;
-
-        // DOM直接操作（requestAnimationFrame不要、touch移動は60fps）
-        if (contentRef.current) {
-          contentRef.current.style.transform = `translateX(${offset}px)`;
-          contentRef.current.style.transition = 'none';
-        }
-      }, [activeTab]);
-
-      const handleSwipeEnd = useCallback(() => {
-        const state = swipeState.current;
-        if (!state.isSwiping) return;
-
-        const currentIndex = tabOrder.indexOf(activeTab);
-        const threshold = window.innerWidth * 0.2;
-        let newTab = activeTab;
-
-        if (state.offset < -threshold && currentIndex < tabOrder.length - 1) {
-          newTab = tabOrder[currentIndex + 1];
-          if (navigator.vibrate) navigator.vibrate(15);
-        } else if (state.offset > threshold && currentIndex > 0) {
-          newTab = tabOrder[currentIndex - 1];
-          if (navigator.vibrate) navigator.vibrate(15);
-        }
-
-        // アニメーション付きで戻す
-        if (contentRef.current) {
-          contentRef.current.style.transition = 'transform 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94)';
-          contentRef.current.style.transform = 'translateX(0)';
-        }
-
-        if (newTab !== activeTab) {
-          setActiveTab(newTab);
-        }
-
-        swipeState.current = { startX: 0, startY: 0, offset: 0, isSwiping: false, isLocked: false };
-      }, [activeTab]);
 
       // アイテムスワイプ用ref
       const itemSwipeStart = useRef({ x: 0, y: 0, id: null });
@@ -1097,9 +1012,6 @@ ${content}
         return (
           <div
             className="flex flex-col h-screen bg-gray-900 overflow-hidden"
-            onTouchStart={handleSwipeStart}
-            onTouchMove={handleSwipeMove}
-            onTouchEnd={handleSwipeEnd}
           >
             {/* ヘッダー（ファイル読み込み時のみ表示） */}
             {!isFullscreen && loadedFile && (
@@ -1229,10 +1141,7 @@ ${content}
             )}
 
             {/* コンテンツ */}
-            <div
-              ref={contentRef}
-              className="flex-1 overflow-hidden"
-            >
+            <div className="flex-1 overflow-hidden">
               {activeTab === 'code' ? (
                 <div className="relative w-full h-full">
                   <textarea
@@ -1567,19 +1476,6 @@ ${content}
                   )}
                   {/* プレビューエリア */}
                   <div className="relative flex-1 overflow-hidden">
-                    {/* 左右エッジのスワイプ検知エリア */}
-                    <div
-                      className="absolute left-0 top-0 bottom-0 w-8 z-20"
-                      onTouchStart={handleSwipeStart}
-                      onTouchMove={handleSwipeMove}
-                      onTouchEnd={handleSwipeEnd}
-                    />
-                    <div
-                      className="absolute right-0 top-0 bottom-0 w-8 z-20"
-                      onTouchStart={handleSwipeStart}
-                      onTouchMove={handleSwipeMove}
-                      onTouchEnd={handleSwipeEnd}
-                    />
                     {currentMode === 'SVG' ? (
                       <div
                         className="w-full h-full bg-gray-100 overflow-auto p-4"
