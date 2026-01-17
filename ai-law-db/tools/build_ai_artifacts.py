@@ -6,6 +6,8 @@ Outputs (workspace-relative):
 - ai-law-db/data/resolve.json
 - ai-law-db/data/resolve.min.json
 - ai-law-db/data/resolve_lite.json
+- ai-law-db/data/resolve_lite/index.json
+- ai-law-db/data/resolve_lite/{law_code}.json
 - ai-law-db/data/law_aliases.json
 - ai-law-db/data/chunks/{law_code}.jsonl
 - ai-law-db/text/{law_code}/{article}.txt
@@ -29,6 +31,7 @@ from bs4 import BeautifulSoup
 
 SITE_BASE_URL = "https://jplawdb.github.io/html-preview/ai-law-db"
 SITE_ENHANCED_BASE_URL = f"{SITE_BASE_URL}/enhanced"
+RESOLVE_LITE_DIR_NAME = "resolve_lite"
 
 
 def sort_article_key(num: str):
@@ -340,6 +343,7 @@ def main() -> None:
         "base_url": SITE_BASE_URL,
         "enhanced_base_url": SITE_ENHANCED_BASE_URL,
         "article_url_template": resolve.get("article_url_template"),
+        "text_url_template": "text/{law_code}/{article}.txt",
         "anchors": resolve.get("anchors"),
         "law_aliases": aliases,
         "laws": resolve_lite_laws,
@@ -347,6 +351,67 @@ def main() -> None:
 
     (data_dir / "resolve_lite.json").write_text(
         json.dumps(resolve_lite, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+    resolve_lite_dir = data_dir / RESOLVE_LITE_DIR_NAME
+    resolve_lite_dir.mkdir(parents=True, exist_ok=True)
+
+    # Per-law resolver-lite: much smaller download when the law_code is known.
+    # Typical flow:
+    #   1) data/law_aliases.json => law_code
+    #   2) data/resolve_lite/{law_code}.json => available articles
+    #   3) text/{law_code}/{article}.txt => content
+    for law_code, law in laws.items():
+        articles = list((law.get("articles") or {}).keys())
+        per_law = {
+            "as_of": law.get("as_of"),
+            "base_url": SITE_BASE_URL,
+            "enhanced_base_url": SITE_ENHANCED_BASE_URL,
+            "law_code": law_code,
+            "law_title": law.get("title"),
+            "law_type": law.get("type"),
+            "law_num": law.get("law_num"),
+            "egov_id": law.get("egov_id"),
+            "index_url": law.get("index_url"),
+            "article_url_template": resolve.get("article_url_template"),
+            "text_url_template": "text/{law_code}/{article}.txt",
+            "anchors": resolve.get("anchors"),
+            "articles": sorted(articles, key=sort_article_key),
+        }
+        (resolve_lite_dir / f"{law_code}.json").write_text(
+            json.dumps(per_law, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+
+    # Directory index (lightweight) for discovery.
+    index_laws: dict[str, Any] = {}
+    for law_code, law in laws.items():
+        articles = list((law.get("articles") or {}).keys())
+        index_laws[law_code] = {
+            "title": law.get("title"),
+            "type": law.get("type"),
+            "law_num": law.get("law_num"),
+            "egov_id": law.get("egov_id"),
+            "as_of": law.get("as_of"),
+            "index_url": law.get("index_url"),
+            "articles_count": len(articles),
+            "resolve_lite_url": f"{SITE_BASE_URL}/data/{RESOLVE_LITE_DIR_NAME}/{law_code}.json",
+        }
+
+    resolve_lite_index = {
+        "as_of": resolve.get("as_of"),
+        "base_url": SITE_BASE_URL,
+        "enhanced_base_url": SITE_ENHANCED_BASE_URL,
+        "article_url_template": resolve.get("article_url_template"),
+        "text_url_template": "text/{law_code}/{article}.txt",
+        "anchors": resolve.get("anchors"),
+        "law_aliases": aliases,
+        "laws": index_laws,
+    }
+
+    (resolve_lite_dir / "index.json").write_text(
+        json.dumps(resolve_lite_index, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
 

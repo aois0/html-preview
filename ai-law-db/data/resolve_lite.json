@@ -3,6 +3,7 @@
   "base_url": "https://jplawdb.github.io/html-preview/ai-law-db",
   "enhanced_base_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced",
   "article_url_template": "enhanced/{law_code}/{article}.html",
+  "text_url_template": "text/{law_code}/{article}.txt",
   "anchors": {
     "paragraph": "#p{paragraph}",
     "item": "#p{paragraph}-i{item_index}"
