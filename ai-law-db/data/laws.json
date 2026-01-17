@@ -1,0 +1,16 @@
+{
+  "as_of": "2025-12-27",
+  "source": "e-Gov法令検索（法令XML相当）を基に生成",
+  "laws": [
+    {"code":"shotokuzei","title":"所得税法","egov_id":"340AC0000000033","type":"act"},
+    {"code":"hojinzei","title":"法人税法","egov_id":"340AC0000000034","type":"act"},
+    {"code":"hojinzei_seirei","title":"法人税法施行令","type":"order"},
+    {"code":"hojinzei_kisoku","title":"法人税法施行規則","type":"rule"},
+    {"code":"shohizei","title":"消費税法","egov_id":"363AC0000000108","type":"act"},
+    {"code":"sozokuzei","title":"相続税法","egov_id":"325AC0000000073","type":"act"},
+    {"code":"kokuzei_tsusoku","title":"国税通則法","egov_id":"337AC0000000066","type":"act"},
+    {"code":"sozei_tokubetsu","title":"租税特別措置法","egov_id":"332AC0000000026","type":"act"},
+    {"code":"sozei_tokubetsu_seirei","title":"租税特別措置法施行令","type":"order"},
+    {"code":"sozei_tokubetsu_kisoku","title":"租税特別措置法施行規則","type":"rule"}
+  ]
+}

@@ -1,0 +1,12 @@
+# html-preview / ai-law-db
+
+このリポジトリには、次の2つが含まれます。
+
+1) HTML Preview Tool
+- /html-preview/index.html
+
+2) AI向け 日本税法（主要税法）
+- /html-preview/ai-law-db/index.html
+- /html-preview/ai-law-db/llms.txt  （AI向けサイトマップ）
+
+AI/LLMで税法条文を参照する場合は、原則として `ai-law-db/llms.txt` から辿ってください。

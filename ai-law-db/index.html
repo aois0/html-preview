@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI向け 日本税法（主要税法）</title>
+  <meta name="description" content="主要税法の条文をAIが読みやすい最小HTML（1条=1ページ）で提供します。" />
+  <link rel="alternate" type="text/plain" href="/html-preview/ai-law-db/llms.txt" title="LLM Site Map" />
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, 'Noto Sans JP', sans-serif; line-height: 1.7; max-width: 900px; margin: 0 auto; padding: 24px; }
+    h1 { margin: 0 0 8px; }
+    .meta { color: #555; margin: 0 0 16px; }
+    code { background: #f3f3f3; padding: 0 6px; border-radius: 4px; }
+    ul { padding-left: 1.2rem; }
+  </style>
+</head>
+<body>
+  <h1>AI向け 日本税法（主要税法）</h1>
+  <p class="meta">1条=1ページ（AI向け最小HTML）。入口は <code>llms.txt</code> を推奨。</p>
+
+  <ul>
+    <li><a href="llms.txt">/ai-law-db/llms.txt</a>（AI向けサイトマップ）</li>
+    <li><a href="data/laws.json">/ai-law-db/data/laws.json</a>（機械処理向けメタデータ）</li>
+  </ul>
+
+  <h2>法令一覧（enhanced）</h2>
+  <ul>
+    <li><a href="enhanced/shotokuzei/index.html">所得税法</a></li>
+    <li><a href="enhanced/hojinzei/index.html">法人税法</a></li>
+    <li><a href="enhanced/hojinzei_seirei/index.html">法人税法施行令</a></li>
+    <li><a href="enhanced/hojinzei_kisoku/index.html">法人税法施行規則</a></li>
+    <li><a href="enhanced/shohizei/index.html">消費税法</a></li>
+    <li><a href="enhanced/sozokuzei/index.html">相続税法</a></li>
+    <li><a href="enhanced/kokuzei_tsusoku/index.html">国税通則法</a></li>
+    <li><a href="enhanced/sozei_tokubetsu/index.html">租税特別措置法</a></li>
+    <li><a href="enhanced/sozei_tokubetsu_seirei/index.html">租税特別措置法施行令</a></li>
+    <li><a href="enhanced/sozei_tokubetsu_kisoku/index.html">租税特別措置法施行規則</a></li>
+  </ul>
+
+  <h2>URLパターン</h2>
+  <ul>
+    <li>条文: <code>/ai-law-db/enhanced/{law_code}/{article}.html</code></li>
+    <li>項アンカー: <code>#p1</code>（例: <code>#p2</code>）</li>
+    <li>号アンカー: <code>#p2-i1</code>（例: 第2項第1号）</li>
+  </ul>
+</body>
+</html>

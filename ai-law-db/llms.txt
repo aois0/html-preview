@@ -1,0 +1,50 @@
+# AI向け 日本税法（主要税法）データセット
+
+> 主要税法の条文を、AIが読みやすい最小HTML（1条=1ページ）で提供します。
+
+## 目的
+
+- LLM/AIエージェントが「条文そのもの」に素早くアクセスできること
+- URLが安定していて、条・項・号の引用位置をフラグメントで特定できること
+
+## サイト構造
+
+- /ai-law-db/index.html : 入口（法令一覧）
+- /ai-law-db/enhanced/{law_code}/index.html : 法令ごとの目次（条文一覧）
+- /ai-law-db/enhanced/{law_code}/{article}.html : 個別条文（例: 57-8.html）
+- /ai-law-db/data/laws.json : 利用可能な法令メタデータ（機械処理向け）
+- /ai-law-db/sitemap.xml : サイトマップ
+
+## HTMLの構造（AI向け）
+
+- 条（Article）
+  - `<article data-law="法令名" data-article="57-8">`
+  - 見出し: `<h2 id="article-57-8">...`
+
+- 項（Paragraph）
+  - `<div data-paragraph="1" id="p1">...`
+
+- 号（Item）
+  - `<p class="item" data-item="一" id="p2-i1">...`
+
+フラグメント例:
+- 第2項へ: `.../57-8.html#p2`
+- 第2項第1号へ: `.../57-8.html#p2-i1`
+
+## 利用可能な法令（law_code）
+
+- shotokuzei : 所得税法
+- hojinzei : 法人税法
+- hojinzei_seirei : 法人税法施行令
+- hojinzei_kisoku : 法人税法施行規則
+- shohizei : 消費税法
+- sozokuzei : 相続税法
+- kokuzei_tsusoku : 国税通則法
+- sozei_tokubetsu : 租税特別措置法
+- sozei_tokubetsu_seirei : 租税特別措置法施行令
+- sozei_tokubetsu_kisoku : 租税特別措置法施行規則
+
+## データ出典
+
+- e-Gov法令検索（法令XML相当）を基に生成
+- 生成元データ最終更新（目安）: 2025-12-27
