@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 47−7 / id: 47-7 / title: 売価還元法により評価額を計算する場合のその年中に販売した棚卸資産の対価の総額の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/47-7.html
+
+[p1] 売価還元法により評価額を計算する場合における令第99条第1項第1号ヘに規定する「その年中に販売した当該棚卸資産の対価の総額」は、その年において販売した棚卸資産の実際の販売価額の合計額によるのであるが、その年において従業員、特定の顧客等特定の者に対する販売について値引きを行っている場合において、その者に対する販売状況が個別に管理されており、その値引きの額が明らかにされているときは、その値引きの額をその販売価額に加算して計算することができるものとする。（平21課個2-29、課審4-52改正）

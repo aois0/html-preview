@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 73−5 / id: 73-5 / title: 医薬品の購入の対価
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/73-5.html
+
+[p1] 令第207条第2号に規定する医薬品とは、医薬品、医療機器等の品質、有効性及び安全性の確保等に関する法律第2条第1項《医薬品の定義》に規定する医薬品をいうのであるが、同項に規定する医薬品に該当するものであっても、疾病の予防又は健康増進のために供されるものの購入の対価は、医療費に該当しないことに留意する。（平26課法10−14、課個2−22、課審5−27改正）

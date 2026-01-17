@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 54−9 / id: 54-9 / title: 退職金共済契約等に基づく給付金だけを受ける者
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/10/04.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/54-9.html
+
+[p1] 令第156条《退職金共済契約等を締結している場合の繰入限度額の特例等》に規定する退職金共済契約等又は適格退職年金契約等に基づく給付金だけの支給を受ける者は、令第154条第2項かっこ内に規定する「退職給与の支給の対象とならないもの」に該当することに留意する。

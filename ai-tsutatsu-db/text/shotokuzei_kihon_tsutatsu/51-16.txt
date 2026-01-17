@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 51−16 / id: 51-16 / title: 更生手続の対象とされなかった更生債権の貸倒れ
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/09/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/51-16.html
+
+[p1] 指定された期限までに裁判所に届け出なかったため更生手続の対象とされなかった更生債権については、その金額をその更生計画の認可の決定のあった日において貸倒れとすることができる。

@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 36-41 / id: 36-41 / title: 小規模住宅等に係る通常の賃貸料の額の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/36-41.html
+
+[p1] 36-40の住宅等のうち、その貸与した家屋の床面積(2以上の世帯を収容する構造の家屋については、1世帯として使用する部分の床面積。以下この項において同じ。)が132平方メ-トル(木造家屋以外の家屋については99平方メ-トル)以下であるものに係る通常の賃貸料の額は、36-40にかかわらず、次に掲げる算式により計算した金額とする。
+[p2] (注) 敷地だけを貸与した場合には、この取扱いは適用しないことに留意する。

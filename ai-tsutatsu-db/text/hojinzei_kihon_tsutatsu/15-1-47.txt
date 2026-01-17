@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−47 / id: 15-1-47 / title: 問屋業の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_21.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-47.html
+
+[p1] 令第5条第1項第20号《問屋業》の問屋業とは、自己の名をもって他の者のために売買その他の行為を行う事業（いわゆる取次業）をいい、例えば商品取引員、出版取次業（物品販売業に該当するものを除く。）、広告代理店業に係る事業がこれに該当する。（昭56年直法2−16「七」により追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第22款 鉱業及び土石採取業
+[p4] 第22款 鉱業及び土石採取業

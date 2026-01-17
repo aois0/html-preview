@@ -1,0 +1,6 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 5−5 / id: 5-5 / title: 搭乗者保険等の契約に基づく保険金
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/05.htm#a-5_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/5-5.html
+

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−22 / id: 49-22 / title: 土石採取用土地等の償却
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/08.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-22.html
+
+[p1] 土石又は砂利を採取する目的で取得した土地については、その取得価額のうち土石又は砂利に係る部分につき旧生産高比例法又は生産高比例法に準ずる方法により計算される金額を必要経費に算入することができる。（平19課個2−11、課資3−1、課法9−5、課審4−26改正）

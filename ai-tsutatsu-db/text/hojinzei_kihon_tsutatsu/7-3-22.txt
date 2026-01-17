@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−3−22 / id: 7-3-22 / title: 耐用年数短縮の承認があった後に取得した資産の耐用年数
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_03_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-3-22.html
+
+[p1] 令第57条第1項《耐用年数の短縮》の規定による耐用年数の短縮の承認に係る減価償却資産が規則第16条第2号《特掲されていない設備の耐用年数の短縮》に掲げる事由又はこれに準ずる事由に該当するものである場合において、その後その承認の対象となった資産と種類を同じくする資産を取得したときは、その取得した資産についても承認に係る耐用年数を適用する。

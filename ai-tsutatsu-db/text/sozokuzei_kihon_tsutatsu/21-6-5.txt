@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 21の6-5 / id: 21-6-5 / title: 居住用不動産と同時に居住用不動産以外の財産を取得した場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/11.htm#a-21_6_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/21-6-5.html
+
+[p1] 配偶者から贈与により取得した金銭及び当該金銭以外の資金をもって、居住用不動産と同時に居住用不動産以外の財産を取得した場合には、法第21条の6第1項の規定の適用上、当該金銭はまず居住用不動産の取得に充てられたものとして取り扱うことができるものとする。（昭41直審（資）5追加、昭50直資2-257改正）

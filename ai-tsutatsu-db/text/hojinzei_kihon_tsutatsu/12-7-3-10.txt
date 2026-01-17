@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 12の7−3−10 / id: 12-7-3-10 / title: 共同事業に係る要件の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/12_7/12_7_03_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/12-7-3-10.html
+
+[p1] 法第64条の12第１項第４号《通算制度への加入に伴う資産の時価評価損益》に規定する「共同で事業を行う場合として政令で定める場合」に該当するかどうかの判定（以下12の７−３−11において「共同事業に係る要件の判定」という。）に当たっては、１−４−４《従業者の範囲》から１−４−７《特定役員の範囲》までの取扱いを準用する。（令４年課法2−14｢五十」により追加）

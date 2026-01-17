@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 45−2 / id: 45-2 / title: 業務の遂行上必要な部分
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/07/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/45-2.html
+
+[p1] 令第96条第1号に規定する「主たる部分が不動産所得、事業所得、山林所得又は雑所得を生ずべき業務の遂行上必要」であるかどうかは、その支出する金額のうち当該業務の遂行上必要な部分が50％を超えるかどうかにより判定するものとする。ただし、当該必要な部分の金額が50%以下であっても、その必要である部分を明らかに区分することができる場合には、当該必要である部分に相当する金額を必要経費に算入して差し支えない。
+[p2] 〔附帯税（第2号関係）〕

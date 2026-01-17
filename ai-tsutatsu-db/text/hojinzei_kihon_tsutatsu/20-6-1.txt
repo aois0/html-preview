@@ -1,0 +1,11 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 20−6−1 / id: 20-6-1 / title: 資産の譲渡の場合に損金の額に算入する金額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/20a/20_06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/20-6-1.html
+
+[p1] 外国法人の法第141条第1号ロ及び第2号《課税標準》に定める国内源泉所得に係る所得の金額の計算上、外国法人が令第178条第1項各号《国内にある資産の譲渡により生ずる所得》に規定する資産を譲渡した場合には、当該資産の譲渡原価並びに当該事業年度において当該資産の譲渡のために要した費用（当該資産につき生じた損失を含む。）以外の費用及び損失の額は、当該事業年度の損金の額に算入しないものとする。（平26年課法2−9「十」により追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第1款 所得税額の控除
+[p4] 第7節 税額の計算
+[p5] 第1款 所得税額の控除

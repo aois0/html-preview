@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 10−6−4 / id: 10-6-4 / title: 2以上の種類の資産を交換した場合の交換差金等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/10/10_06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/10-6-4.html
+
+[p1] 法人が2以上の種類の固定資産を同時に交換した場合、例えば、土地及び建物と土地及び建物とを交換した場合には、土地は土地と建物は建物とそれぞれ交換したものとする。この場合において、これらの資産は全体としては等価であるが、土地と土地、建物と建物とはそれぞれの時価が異なっているときは、それぞれの交換の時における価額の差額は交換差金等となることに留意する。

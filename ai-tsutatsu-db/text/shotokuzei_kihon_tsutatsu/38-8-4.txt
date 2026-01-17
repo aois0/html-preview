@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 38−8の4 / id: 38-8-4 / title: 固定資産を取得するために要した借入金を借り換えた場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/18.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/38-8-4.html
+
+[p1] 固定資産を取得するために要した借入金を借り換えた場合には、借換え前の借入金の額（借換え時までの当該借入金に係る未払利子を含む。）と借換え後の借入金の額とのうちいずれか低い金額は、借換え後もその固定資産の取得資金に充てられたものとして取り扱う。（昭56直資3−2、直所3−3追加）

@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 6−10−1 / id: 6-10-1 / title: 身体障害者用物品の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/06/10.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/6-10-1.html
+
+[p1] 法別表第二第10号《身体障害者用物品の譲渡等》に規定する身体障害者用物品（以下この節において「身体障害者用物品」という。）に該当するのは、身体障害者の使用に供するための特殊な性状、構造又は機能を有する物品として、令第14条の４第１項《身体障害者用物品の範囲等》の規定により内閣総理大臣及び厚生労働大臣が財務大臣と協議して指定するものに限られる。したがって、これ以外の物品については、身体障害者が購入する場合であっても非課税とならないのであるから留意する。（令５課消２−３により改正）

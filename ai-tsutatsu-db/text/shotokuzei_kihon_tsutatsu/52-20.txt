@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 52−20 / id: 52-20 / title: リース取引に係る貸金
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/10/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/52-20.html
+
+[p1] 法第67条の2第1項により売買があったものとされたリース取引(同条第3項に規定するリース取引をいう。)に係るリース料のうち、その年12月31日において支払期日の到来していないリース料の額の合計額は貸金に該当するものとする。（平19課個2−31、課審4−44、平30課個2−19、課審5−2改正）

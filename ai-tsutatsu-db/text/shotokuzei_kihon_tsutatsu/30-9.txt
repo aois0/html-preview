@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 30−9 / id: 30-9 / title: 日々雇い入れられる期間
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/30-9.html
+
+[p1] 法第185条第1項第3号《日額表丙欄の適用を受ける給与等》に掲げる給与等の支払を受けていた期間は、令第69条第1項第1号に規定する「引き続き勤務した期間」及び「他の者の下において勤務した期間」に含まれない。（昭63直法6−1、直所3−1改正）

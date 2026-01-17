@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 2−7 / id: 2-7 / title: 法人でない社団又は財団の代表者又は管理人
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/2-7.html
+
+[p1] 法人でない社団又は財団について代表者又は管理人の定めがあるとは、その社団又は財団の定款、寄附行為、規則、規約等によって代表者又は管理人が定められている場合のほか、その社団又は財団の業務に係る契約を締結し、その金銭、物品等を管理するなどの業務を主宰する者が事実上あることをいうものとする。したがって、法人でない社団又は財団で代表者又は管理人の定めのないものは通常あり得ないことに留意する。

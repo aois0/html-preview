@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 14−1−7 / id: 14-1-7 / title: 免税事業者等となった後の売上げに係る対価の返還等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/14/01/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/14-1-7.html
+
+[p1] 課税事業者が事業を廃止し、又は免税事業者となった後において、課税事業者であった課税期間における課税資産の譲渡等につき、売上げに係る対価の返還等を行った場合には、その返還等の金額に係る消費税額について、法第38条第1項《売上げに係る対価の返還等をした場合の消費税額の控除》の規定は適用されないのであるから留意する。

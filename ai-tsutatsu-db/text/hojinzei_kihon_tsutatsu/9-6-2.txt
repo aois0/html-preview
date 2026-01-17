@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−6−2 / id: 9-6-2 / title: 回収不能の金銭債権の貸倒れ
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_06_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-6-2.html
+
+[p1] 法人の有する金銭債権につき、その債務者の資産状況、支払能力等からみてその全額が回収できないことが明らかになった場合には、その明らかになった事業年度において貸倒れとして損金経理をすることができる。この場合において、当該金銭債権について担保物があるときは、その担保物を処分した後でなければ貸倒れとして損金経理をすることはできないものとする。（昭55年直法2−15「十五」、平10年課法2−7「十三」により改正）
+[p2] (注) 保証債務は、現実にこれを履行した後でなければ貸倒れの対象にすることはできないことに留意する。

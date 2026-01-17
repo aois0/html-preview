@@ -1,0 +1,11 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−9−13 / id: 5-9-13 / title: １週に２回以上発行する新聞の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/09.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-9-13.html
+
+[p1] 法別表第一第２号《定期購読契約に基づく新聞の譲渡》に規定する「１週に２回以上発行する新聞」とは、通常の発行予定日が週２回以上とされている新聞をいうのであるから、国民の祝日及び通常の頻度で設けられている新聞休刊日によって１週に１回以下となる週があっても「１週に２回以上発行する新聞」に該当する。
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第1節 土地等の譲渡及び貸付け関係
+[p4] 第6章 非課税範囲
+[p5] 第1節 土地等の譲渡及び貸付け関係

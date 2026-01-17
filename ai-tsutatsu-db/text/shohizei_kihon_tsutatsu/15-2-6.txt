@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 15−2−6 / id: 15-2-6 / title: 残余財産の確定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/15/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/15-2-6.html
+
+[p1] 法第45条第4項《清算中の法人の確定申告》に規定する「残余財産が確定した場合」とは、一切の資産、負債の額が具体的に確定したことをいうが、解散した法人の資産、負債の一切を当該法人の首脳者等が引き継いで事業を承継し、実質的に事業の譲渡をしたと認められるような場合には、その引継ぎがあったときに残余財産が確定したものとして取り扱う。（平18課消1−16により改正）

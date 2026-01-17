@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 58−1の2 / id: 58-1-2 / title: 取得時期の引継規定の適用がある資産の所有期間
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/12/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/58-1-2.html
+
+[p1] 交換により譲渡又は取得した固定資産が次に掲げる資産である場合における法第58条第1項に規定する「1年以上有していた固定資産」であるかどうかの判定は、次に掲げるところによる。（昭52直資3−14、直所3−22追加）
+[p2] (1) 法第60条第1項《贈与等により取得した資産の取得費等》又は措置法第33条の6第1項《収用交換等により取得した代替資産等の取得価額の計算》の規定の適用がある資産・・・・・・引き続き所有していたものとして判定する。
+[p3] (2) 令第168条《交換による取得資産の取得価額等の計算》の規定の適用がある資産・・・・・・その実際の取得の日を基礎として判定する。

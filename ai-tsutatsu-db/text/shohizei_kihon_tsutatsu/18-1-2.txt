@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 18−1−2 / id: 18-1-2 / title: 会員制の店舗等の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/18/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/18-1-2.html
+
+[p1] 会員のみが利用できる会員制の店舗等であっても、当該会員の募集が不特定かつ多数の者を対象として行われている場合には、法第63条《価格の表示》に規定する「不特定かつ多数の者に課税資産の譲渡等……を行う場合」に該当することに留意する。（令５課消２−９により追加）

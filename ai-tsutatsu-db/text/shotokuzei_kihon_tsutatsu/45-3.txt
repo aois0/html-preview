@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 45−3 / id: 45-3 / title: 山林所得を生ずべき事業の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/07/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/45-3.html
+
+[p1] 山林所得を生ずべき事業とは、山林の輪伐のみによって通常の生活費を賄うことができる程度の規模において行う山林の経営をいうものとする。

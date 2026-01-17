@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−4−6の3 / id: 9-4-6-3 / title: 災害の場合の取引先に対する低利又は無利息による融資
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_04_04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-4-6-3.html
+
+[p1] 法人が、災害を受けた取引先に対して低利又は無利息による融資をした場合において、当該融資が取引先の復旧を支援することを目的として災害発生後相当の期間内に行われたものであるときは、当該融資は正常な取引条件に従って行われたものとする。（平7年課法2−7「六」により追加、令2年課法2−10「一」により改正）
+[p2] (注) 本文の取扱いは、9−4−6の2(注)2の取引先に対する支援として行う低利又は無利息による融資についても、同様とする。

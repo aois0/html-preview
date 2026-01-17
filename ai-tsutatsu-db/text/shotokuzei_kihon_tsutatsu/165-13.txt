@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 165−13 / id: 165-13 / title: 租税条約等により所得税が課されない所得の損失の金額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/24/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/165-13.html
+
+[p1] 外国居住者等の所得に対する相互主義による所得税等の非課税等に関する法律の規定又は租税条約により所得税が課されないこととされている不動産所得、事業所得、山林所得又は譲渡所得について損失の金額が生じた場合においても、当該損失の金額は、法第165条第1項に規定する総合課税に係る所得税の課税標準の額の計算上なかったものとされることに留意する（平28課2−4、課法11−8、課審5−5追加）。

@@ -1,0 +1,10 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 12−3−3 / id: 12-3-3 / title: 調整対象固定資産を中途で売却した場合等の不適用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/12/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/12-3-3.html
+
+[p1] 法第33条第1項《課税売上割合が著しく変動した場合の調整対象固定資産に係る消費税額の調整》の規定は、調整対象固定資産を同項に規定する第三年度の課税期間の末日において有している場合に適用があるのであるから、当該調整対象固定資産について除却、廃棄、滅失又は譲渡があったため、当該第三年度の課税期間の末日において当該調整対象固定資産を有していない場合には、同項の規定の適用はないことに留意する。
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第4節 課税業務用から非課税業務用に転用した場合の調整
+[p4] 第4節 課税業務用から非課税業務用に転用した場合の調整

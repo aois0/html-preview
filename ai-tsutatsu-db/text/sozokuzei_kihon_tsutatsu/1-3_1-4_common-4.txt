@@ -1,0 +1,6 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 1の3・1の4共−4 / id: 1-3_1-4_common-4 / title: 居住無制限納税義務者の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/01.htm#a-1_1_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/1-3_1-4_common-4.html
+

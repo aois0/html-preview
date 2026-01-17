@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 13−1−9 / id: 13-1-9 / title: 建物等の区分所有に係る借地権割合の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/13/13.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/13-1-9.html
+
+[p1] 令第138条第1項第2号《建物等の区分所有に係る借地権割合》に掲げる割合は、法人が建物又は構築物の区分所有を目的とする借地権の設定によりその所有する土地を使用させた場合のその区分所有部分の借地権割合をいうのであるから、同号ロに定める残額は、その区分所有部分に対応する土地について計算することに留意する。（昭55年直法2−15「三十一」により改正）

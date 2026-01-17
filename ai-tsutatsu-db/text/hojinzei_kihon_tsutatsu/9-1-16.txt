@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−1−16 / id: 9-1-16 / title: 固定資産について評価損の計上ができる「準ずる特別の事実」の例示
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_01_04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-1-16.html
+
+[p1] 令第68条第1項第3号ホ《固定資産の評価損の計上ができる事実》に規定する「イからニまでに準ずる特別の事実」には、例えば、法人の有する固定資産がやむを得ない事情によりその取得の時から1年以上事業の用に供されないため、当該固定資産の価額が低下したと認められることが含まれる。

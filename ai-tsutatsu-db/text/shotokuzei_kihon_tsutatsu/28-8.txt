@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 28−8 / id: 28-8 / title: 地方自治法の規定による費用の弁償
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/28-8.html
+
+[p1] 地方自治法第203条第2項((議員報酬、費用弁償及び期末手当))及び同法第203条の2第3項((報酬及び費用弁償及び期末手当))の規定により受ける費用の弁償は、法第9条第1項第4号に掲げる金品に該当するものその他その職務を行うために要した費用の弁償であることが明らかなものを除き、給与等とする。（昭46直審（所）19、平22課個2−16、課法9−1、課審4−30、令４課個2-13、課法12-16、課審5-９改正）

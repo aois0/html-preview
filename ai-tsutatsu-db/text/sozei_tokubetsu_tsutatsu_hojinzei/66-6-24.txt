@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の6-24 / id: 66-6-24 / title: 外国法人税の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/14/14_66_6_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-6-24.html
+
+[p1] 措置法令第39条の17の2第2項第1号イに規定する外国法人税の額には、外国関係会社が法第138条第1項又は所得税法第161条第1項に規定する国内源泉所得に係る所得について課された法人税及び所得税並びに地方法人税及び法第38条第2項第2号に掲げるものの額を含めることができる。（平29年課法2-22「二」により追加、平30年課法2-12「二十九」により改正）

@@ -1,0 +1,10 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 56-5 / id: 56-5 / title: 中小企業事業再編投資損失準備金の基礎としなかった株式等がある場合の評価減
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/02/02_55_7.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/56-5.html
+
+[p1] 法人が、当該事業年度前の事業年度から引き続き有している特定法人の株式等について帳簿価額を減額した場合には、当該株式等のうちに中小企業事業再編投資損失準備金の設定の基礎としなかった株式等があるときにおいても、その減額した日における中小企業事業再編投資損失準備金の金額のうちその減額した金額に達するまでの金額は、措置法第56条第３項第５号の規定により益金の額に算入しなければならないことに留意する。（令３年課法2-31「七」により追加、令４年課法２−14「二十八」により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第57条の9 《中小企業者等の貸倒引当金の特例》関係
+[p4] 第57条の9 《中小企業者等の貸倒引当金の特例》関係

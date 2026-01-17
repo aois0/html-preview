@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 10-2 / id: 10-2 / title: 利子計算期間の中途で購入した有価証券の利子についての非課税規定の適用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/10-2.html
+
+[p1] その利子について法第10条第1項の規定が適用される有価証券をその発行の日後において購入した場合には、その最初に支払を受ける利子の全額につき同項の規定を適用する。（昭46直審（所）19、昭60直法6-8、直所3-12、昭63直法6-7、直所3-8改正）

@@ -1,0 +1,10 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 12−1−9 / id: 12-1-9 / title: 免税事業者等となった後の仕入れに係る対価の返還等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/12/01/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/12-1-9.html
+
+[p1] 課税事業者が事業を廃止し、又は免税事業者となった後において、課税事業者であった課税期間における課税仕入れにつき仕入れに係る対価の返還等を受けた場合には、その返還等の金額に係る消費税額について、法第32条《仕入れに係る対価の返還等を受けた場合の仕入れに係る消費税額の控除の特例》の規定は適用されないのであるから留意する。
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第2款 対価の返還等の時期
+[p4] 第2款 対価の返還等の時期

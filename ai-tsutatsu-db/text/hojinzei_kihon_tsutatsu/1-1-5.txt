@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 1−1−5 / id: 1-1-5 / title: 被合併法人の法人税に係る納税地
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/01/01_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/1-1-5.html
+
+[p1] 法人が合併した場合において、当該合併に係る被合併法人のその合併の日以後における法人税の納税地は、当該合併に係る合併法人の納税地によるのであるから留意する。（平15年課法２−７「二」、令４年課法２−14｢二」により改正）

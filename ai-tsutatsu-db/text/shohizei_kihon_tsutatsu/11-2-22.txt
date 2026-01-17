@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 11−2−22 / id: 11-2-22 / title: 災害その他やむを得ない事情の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/11/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/11-2-22.html
+
+[p1] 法第30条第７項ただし書《災害その他やむを得ない事情により帳簿等を保存しなかった場合》及び同条第11項ただし書《災害その他やむを得ない事情により本人確認書類を保存しなかった場合》に規定する「災害その他やむを得ない事情」の意義については8−1−4による。（平31課消2-9、令2課消2-9により改正）

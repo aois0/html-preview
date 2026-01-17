@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 42−10の2 / id: 42-10-2 / title: 税務署長の調査期間に係る災害等延長期間の重複
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/04.htm#a-42_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/42-10-2.html
+
+[p1] 法第42条第18項の適用において、同条第28項第1号の規定により読み替えて適用する第6項ただし書きに規定する災害等延長期間（又は同条第28項第2号に規定する政令で定める期間）の全部又は一部が、同条第28項第2号に規定する政令で定める期間（又は災害等延長期間若しくは同条第28項第2号に規定する政令で定める期間）と重複する場合については、39−11の2の取扱いに準ずるものとする。

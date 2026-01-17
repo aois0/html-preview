@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 8−1−12 / id: 8-1-12 / title: 職業運動選手等の契約金等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/08/08_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/8-1-12.html
+
+[p1] 法人が職業運動選手等との専属契約をするために支出する契約金等は、令第14条第1項第6号ホ《その他自己が便益を受けるための費用》に規定する繰延資産に該当するものとする。（昭55年直法2−8「二十八」により追加、平19年課法2−3「十八」、平19年課法2−17「十六」により改正）
+[p2] (注) セールスマン、ホステス等の引抜料、仕度金等の額は、その支出をした日の属する事業年度の損金の額に算入することができる。

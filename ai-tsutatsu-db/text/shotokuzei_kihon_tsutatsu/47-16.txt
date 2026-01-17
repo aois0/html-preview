@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 47−16 / id: 47-16 / title: 評価方法の選定単位の細分
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/02.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/47-16.html
+
+[p1] 棚卸資産の評価方法は、事業所別に、又は令第100条第1項に規定する棚卸資産の区分を更に細分してその種類の異なるごとその他合理的な区分ごとに選定することができる。（昭57直所3−1改正）
+[p2] （注） 同項に規定する棚卸資産の区分又はその種類を同じくする棚卸資産のうちに個別法を選定することができるものがある場合には、これを区分して個別法を選定することができる。
+[p3] 〔棚卸資産の評価の方法の変更手続（令第101条関係）〕

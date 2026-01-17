@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 36−3 / id: 36-3 / title: 振替記載等を受けた公社債
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/36-3.html
+
+[p1] 社債、株式等の振替に関する法律の規定により振替記載等を受けた公社債及び国債に関する法律又は廃止前の社債等登録法の規定により登録した公社債は、法第36条第3項に規定する無記名の公社債には該当しない。（平15課法8−3、課個2−13、課審3−19、平21課法9-3、課個2-17、課審4-31改正）

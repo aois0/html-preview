@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−38 / id: 15-1-38 / title: 席貸業の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_15.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-38.html
+
+[p1] 令第5条第1項第14号イ《席貸業》に規定する「不特定又は多数の者の娯楽、遊興又は慰安の用に供するための席貸業」には、興行（15−1−53により興行業に該当しないものとされるものを含む。）を目的として集会場、野球場、テニスコート、体育館等を利用する者に対してその貸付けを行う事業（不動産貸付業に該当するものを除く。）が含まれることに留意する。（昭56年直法2−16「七」により追加、昭59年直法2−3「九」により改正）
+[p2] (注) 展覧会等のための席貸しは、同号イの娯楽、遊興又は慰安の用に供するための席貸しに該当する。

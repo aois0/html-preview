@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 161−28 / id: 161-28 / title: 振替公社債等の利子
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/22/03.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/161-28.html
+
+[p1] 161−13の取扱いは、法第161条第1項第8号イに規定する債券の範囲について準用する（平28課2−4、課法11−8、課審5−5追加）。
+[p2] 〔貸付金利子の所得（第10号関係）〕

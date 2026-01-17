@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−2−25 / id: 9-2-25 / title: 海外在勤役員に対する滞在手当等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_02_06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-2-25.html
+
+[p1] 法人が海外にある支店、出張所等に勤務する役員に対して支給する滞在手当等の金額を令第70条第1号ロ《限度額等を超える役員給与の額》に定める役員給与の限度額等に含めていない場合には、同条の規定の適用については、当該滞在手当等の金額のうち相当と認められる金額は、これを当該役員に対する給与の額に含めないものとする。（平11年課法2−9「十一」、平19年課法2−3「二十二」により改正）

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 38−8の5 / id: 38-8-5 / title: 借入金で取得した固定資産の一部を譲渡した場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/18.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/38-8-5.html
+
+[p1] 借入金により取得した固定資産の一部を譲渡した場合には、当該固定資産のうち譲渡した部分の取得時の価額が当該固定資産の取得時の価額のうちに占める割合を当該借入金の額に乗じて計算した金額を当該譲渡した固定資産の取得のために借り入れたものとして38−8の取扱いを適用する。（昭56直資3−2、直所3−3追加）

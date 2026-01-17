@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 95−26 / id: 95-26 / title: 給与所得及び退職所得に係る国外源泉所得の所得の金額の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/17/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/95-26.html
+
+[p1] 法第95条第4項第10号に掲げる国外源泉所得のうち法第28条第2項（（給与所得））に規定する給与所得及び法第30条第2項((退職所得))に規定する退職所得に係るものの所得の金額は、それぞれ次の区分に応じ、次の算式により計算した金額とする（平28課2−4、課法11−8、課審5−5追加）。
+[p2] （1）給与所得
+[p3] （2）退職所得

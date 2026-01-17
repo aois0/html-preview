@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 78−8 / id: 78-8 / title: 個人の負担すべき寄附金を法人が支出した場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/78-8.html
+
+[p1] 個人の負担すべき法第78条第2項各号に掲げる寄附金を法人が支出した場合において、当該法人又は個人に対する法人税法又は所得税法の適用上当該寄附金が当該個人に対する給与等とされたときは、当該給与等とされた金額は当該個人が支出した寄附金として同条の規定を適用する。（平20課個2−17、課審4−186、課法9−3改正）

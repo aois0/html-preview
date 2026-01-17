@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−6 / id: 49-6 / title: 採掘権の取得価額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-6.html
+
+[p1] 試掘権の目的となっている鉱物に係る鉱区につき採掘権を取得した場合には、当該試掘権の未償却残額に相当する金額及び当該採掘権の出願料、登録免許税その他その取得のために直接要した費用の額の合計額を当該採掘権の取得価額とする。

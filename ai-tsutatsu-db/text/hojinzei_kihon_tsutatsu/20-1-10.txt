@@ -1,0 +1,12 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 20−1−10 / id: 20-1-10 / title: 直接又は間接保有の株式
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/20a/20_01_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/20-1-10.html
+
+[p1] 令第4条の4第9項《恒久的施設の範囲》に規定する「特殊の関係」(以下20−1−10において「特殊の関係」という。)にあるかどうかを判定する場合の直接又は間接に保有する株式には、その払込金額等の全部又は一部について払込み等が行われていないものが含まれるものとする。(平30年課法2−28「六」により追加)
+[p2] (注) 名義株は、その実際の権利者が保有するものとして特殊の関係の有無を判定することに留意する。
+[p3] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p4] 第1款 恒久的施設帰属所得
+[p5] 第2節 国内源泉所得
+[p6] 第1款 恒久的施設帰属所得

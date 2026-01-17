@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 37-35 / id: 37-35 / title: 立木賦課金の償却の特例
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/10.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/37-35.html
+
+[p1] 立木賦課金の賦課の対象となった山林を毎年同程度の規模により伐採又は譲渡している場合には、37-34にかかわらず、当該立木賦課金を無形減価償却資産の減価償却に準ずる方法により、25年間に均等償却して差し支えない。

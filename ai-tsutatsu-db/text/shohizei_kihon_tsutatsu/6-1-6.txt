@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 6−1−6 / id: 6-1-6 / title: 土地等の譲渡又は貸付けに係る仲介手数料
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/06/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/6-1-6.html
+
+[p1] 土地又は土地の上に存する権利の譲渡又は貸付け（令第8条《土地の貸付けから除外される場合》の規定に該当する貸付けを除く。）に係る対価は非課税であるが、土地等の譲渡又は貸付けに係る仲介料を対価とする役務の提供は、課税資産の譲渡等に該当することに留意する。

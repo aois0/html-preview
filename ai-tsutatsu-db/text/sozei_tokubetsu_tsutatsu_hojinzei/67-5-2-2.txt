@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 67の5−2の2 / id: 67-5-2-2 / title: 一時的に貸付けの用に供した減価償却資産
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/15/15_67_5.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/67-5-2-2.html
+
+[p1] 措置法令第39条の28第２項の規定の適用上、中小企業者等が減価償却資産を貸付けの用に供したかどうかはその減価償却資産の使用目的、使用状況等を総合勘案して判定されるものであるから、例えば、一時的に貸付けの用に供したような場合において、その貸付けの用に供した事実のみをもって、その減価償却資産が同項に規定する貸付けの用に供したものに該当するとはいえないことに留意する。（令４年課法2−14｢六十五」により追加）

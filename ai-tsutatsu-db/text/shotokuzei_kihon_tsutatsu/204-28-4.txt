@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 204−28の4 / id: 204-28-4 / title: 不特定多数の者から受けるものの範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/36/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/204-28-4.html
+
+[p1] 法第204条第5号かっこ内に規定する「不特定多数の者から受けるもの」とは、個人事業主が自ら主催して演劇その他の芸能の公演を行うことにより観客等から受ける入場料、観覧料等をいい、当該個人事業主がその公演に係る客席等の全部又は一部の貸切契約を締結することにより支払を受けるその貸切契約に係る対価（興行場等の経営者又は主催者が、いずれの名義でするかを問わず、興行場等の入場者から領収すべきその入場の対価をいう。）もこれに該当するものとする。（平15課法8−3、課個2−13、課審3−19追加）

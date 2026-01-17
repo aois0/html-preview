@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 47−5 / id: 47-5 / title: 売価還元法の適用区分
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/47-5.html
+
+[p1] 売価還元法により評価額を計算する場合には、その種類の著しく異なるものを除き、通常の差益の率がおおむね同じ棚卸資産は、これをその計算上の一区分とすることができるものとする。

@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 14−3−3 / id: 14-3-3 / title: 新法人が負担した租税公課
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/14/14_03_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/14-3-3.html
+
+[p1] 新法人が更生計画の定めるところにより、その設立により解散する法人の納付すべき法人税、事業税その他の租税公課を負担したときは、これらの税額（解散した法人において未払金、引当金として処理したものを除く。）は、新法人の法人税その他の租税公課に準じて取り扱う。（平11年課法2−9「二十」、平17年課法2−14「十六」により改正）

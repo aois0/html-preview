@@ -1,0 +1,12 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 44-8 / id: 44-8 / title: 新増設の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/01/01_44.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/44-8.html
+
+[p1] 措置法第44条第1項の規定の適用上、次に掲げる研究所用の施設については、同項の新設又は増設により取得等をした研究所用の施設に該当するものとする。（平27年課法2-8「十」により追加）
+[p2] （1） 既存設備が災害により滅失又は損壊したため、その代替設備として取得等をした研究所用の施設
+[p3] （2） 既存設備の取替え又は更新のために研究所用の施設の取得等をした場合で、その取得等により処理能力等が従前に比して相当程度（おおむね30％）以上増加したときにおける当該研究所用の施設のうちその処理能力等が増加した部分に係るもの
+[p4] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p5] 第44条の2《特定事業継続力強化設備等の特別償却》関係
+[p6] 第44条の2《特定事業継続力強化設備等の特別償却》関係

@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 161−5 / id: 161-5 / title: 反復して非居住者又は外国法人に代わって行動する者の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/22/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/161-5.html
+
+[p1] 令第１条の２第７項に規定する「契約締結代理人等」には、長期の代理契約に基づいて非居住者又は外国法人に代わって行動する者のほか、個々の代理契約は短期的であるが、２以上の代理契約に基づいて反復して一の非居住者又は外国法人に代わって行動する者が含まれる（平30課個２‐29、課法12‐104、課審５‐８追加）。
+[p2] (注) 本文の「一の非居住者又は外国法人に代わって行動する者」は、特定の非居住者又は外国法人のみに代わって行動する者に限られないことに留意する。

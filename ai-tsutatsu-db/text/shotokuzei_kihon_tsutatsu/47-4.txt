@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 47−4 / id: 47-4 / title: 半製品又は仕掛品についての売価還元法
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/47-4.html
+
+[p1] 製造業を営む者が、原価計算を行わないため半製品及び仕掛品について製造工程に応じて製品売価の何％として評価する場合のその評価方法は、売価還元法に該当するものとする。

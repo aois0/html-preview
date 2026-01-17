@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 37−30の2 / id: 37-30-2 / title: 短期の前払費用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/09.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/37-30-2.html
+
+[p1] 前払費用（一定の契約に基づき継続的に役務の提供を受けるために支出した費用のうちその年12月31日においてまだ提供を受けていない役務に対応するものをいう。以下この項において同じ。）の額はその年分の必要経費に算入されないのであるが、その者が、前払費用の額でその支払った日から1年以内に提供を受ける役務に係るものを支払った場合において、その支払った額に相当する金額を継続してその支払った日の属する年分の必要経費に算入しているときは、これを認める。（昭55直所3−19、直法6−8追加）

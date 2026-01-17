@@ -1,0 +1,18 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−9−1 / id: 7-9-1 / title: 劣化資産の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_09.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-9-1.html
+
+[p1] 劣化資産とは、生産設備の本体の一部を構成するものではないが、それと一体となって繰り返し使用される資産で、数量的に減耗し、又は質的に劣化するものをいう。（昭55年直法2−8「二十七」により改正）
+[p2] (注) 次のものは、劣化資産に該当する。
+[p3] (1) 冷媒
+[p4] (2) 触媒
+[p5] (3) 熱媒
+[p6] (4) 吸着材及び脱着材
+[p7] (5) 溶剤及び電解液
+[p8] (6) か性ソーダ製造における水銀
+[p9] (7) 鋳物製造における砂
+[p10] (8) 亜鉛鉄板製造における溶融鉛
+[p11] (9) アルミニューム電解用の陽極カーボン及び氷晶石
+[p12] (10) 発電用原子炉用の重水及び核燃料棒

@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 43の２−7 / id: 43-2-7 / title: 付随区域
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/01/01_43_3.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/43-2-7.html
+
+[p1] 措置法第43条の２第1項に規定する「被災区域である土地に付随して一体的に使用される土地」とは、当該被災区域である土地と一団をなす土地で当該被災区域である土地の使用に伴って一体的に使用されるものをいうのであるから、例えば、建物を建築する場合において、当該被災区域である土地とともにその建物の敷地の用に供される土地がこれに該当する。（平29年課法2-17「十四」により追加、令5年課法2−8「五」により改正）

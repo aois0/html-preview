@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 6−13−7 / id: 6-13-7 / title: 転貸する場合の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/06/13.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/6-13-7.html
+
+[p1] 住宅用の建物を賃貸する場合において、賃借人が自ら使用しない場合であっても、当該賃貸借に係る契約において、賃借人が住宅として転貸することが契約書その他において明らかな場合には、当該住宅用の建物の貸付けは、住宅の貸付けに含まれるのであるから留意する。
+[p2] (注) この場合において、賃借人が行う住宅の転貸も住宅の貸付けに該当する

@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 3−1−5 / id: 3-1-5 / title: 昭48年直法2−81「9」により追加、平6年課法2−5「一」、平11年課法2−9「三」、平14年課法2−1「十二」、平15年課法2−7「十一」、平19年課法2−3「十三」、平19年課法2−17「七」、平22年課法2−1「十」、平27年課法2−8「五」、令４年課法2−14｢十一」により改正
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/03/03_01_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/3-1-5.html
+
+[p1] 削除（平15年課法2−12「四」により追加、平19年課法2−3「十三」、平19年課法2−17「七」、平22年課法2−1「十」、平27年課法2−8「五」により改正、令４年課法2−14｢十一」により削除）

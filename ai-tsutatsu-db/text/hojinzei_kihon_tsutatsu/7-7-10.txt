@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−7−10 / id: 7-7-10 / title: 追加償却資産に係る除却価額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_07_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-7-10.html
+
+[p1] 令第55条第6項《資本的支出の取得価額の特例》の規定の適用を受けた一の減価償却資産を構成する各追加償却資産の一部に除却等があった場合には、当該除却等に係る追加償却資産を一の資産として、その除却等による損益を計算することに留意する。この場合において、その除却等による損益の計算の基礎となる帳簿価額は、7−4−2の2《転用した追加償却資産に係る償却限度額等》の(1)又は(2)の取扱いに準じて計算した金額による。(平19年課法2−7「七」により追加、令6年課法2-14「七」により改正)
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第8節 資本的支出と修繕費
+[p4] 第8節 資本的支出と修繕費

@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 28−9の2 / id: 28-9-2 / title: 医師又は歯科医師が支給を受ける休日、夜間診療の委嘱料等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/28-9-2.html
+
+[p1] 医師又は歯科医師が、地方公共団体等の開設する救急センター、病院等において休日、祭日又は夜間に診療等を行うことにより地方公共団体等から支給を受ける委嘱料等は、給与等に該当する。（昭55直所3−19、直法6−8追加）
+[p2] （注） 地方公共団体等から支払を受ける委嘱料等に係る所得で、事業所得に該当するものについては、27−5の(5)参照

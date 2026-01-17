@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 45−4 / id: 45-4 / title: 必要経費に算入される利子税の計算の基礎となる各種所得の金額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/07/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/45-4.html
+
+[p1] 令第97条第1項第1号《必要経費に算入される利子税の計算》に規定する各種所得の金額並びに同項第3号及び第4号に規定する事業所得の金額、譲渡所得の金額又は雑所得の金額とは、いわゆる黒字の金額をいい、また、当該各種所得の金額のうち長期保有資産（法第33条第3項第2号《譲渡所得》に掲げる所得の基因となる資産をいう。）に係る譲渡所得の金額又は一時所得の金額については、それぞれ法第33条第3項又は第34条第2項《一時所得》に規定する「特別控除額を控除した金額」の2分の1に相当する金額をいうものとする。（平27課個2-11、課法10-16、課審5-7改正）

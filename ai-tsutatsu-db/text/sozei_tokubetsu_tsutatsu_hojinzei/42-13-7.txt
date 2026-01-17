@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 42の13-7 / id: 42-13-7 / title: 資本的支出
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/01/01_42_13.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/42-13-7.html
+
+[p1] 法人の有する国内資産につき資本的支出を行った場合の当該資本的支出に係る金額は、42の13−10ただし書の適用があるものを除き、措置法第42条の13第５項第２号イに掲げる金額（以下「国内設備投資額」という。）に含まれるものとする。（令３年課法２-21「十三」により追加、令４年課法２−14「十七」により改正）

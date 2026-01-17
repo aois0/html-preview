@@ -1,0 +1,8 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 65の7 / id: 65-7 / title: 不動産売買業者の有する土地等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/10/10_65_7_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/65-7.html
+
+[p1] （1）-1
+[p2] 措置法第65条の7から第65条の9までの規定は、法第2条第20号に規定する棚卸資産については適用がないのであるが、不動産売買業を営む法人の有する土地又は建物（その附属設備を含む。以下同じ。）で、当該法人が使用し、若しくは他に貸し付けているもの（販売の目的で所有しているもので、一時的に使用し又は他に貸し付けているものを除く。）又は当該法人が具体的な使用計画に基づいて使用することを予定し相当の期間所有していることが明らかであるものは、棚卸資産には該当しないことに留意する。（平14年課法2-1「五十四」、令5年課法2−8「二十」により改正）

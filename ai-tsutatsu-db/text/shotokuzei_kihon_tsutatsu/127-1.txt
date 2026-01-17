@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 127−1 / id: 127-1 / title: 年の中途で出国をする場合における所得控除
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/19/02.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/127-1.html
+
+[p1] 法第127条の規定により確定申告書を提出する場合における所得控除額の計算については、124・125−4の取扱いに準ずる。
+[p2] 法第132条《延払条件付譲渡に係る所得税額の延納》関係

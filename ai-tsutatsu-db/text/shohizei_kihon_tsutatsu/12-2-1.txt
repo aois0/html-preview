@@ -1,0 +1,13 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 12−2−1 / id: 12-2-1 / title: 調整対象固定資産に含まれるものの範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/12/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/12-2-1.html
+
+[p1] 令第5条第11号《調整対象固定資産の範囲》に掲げる「前各号に掲げる資産に準ずるもの」には、例えば、次に掲げるものが含まれる。（平25課消1-34により改正）
+[p2] (1) 回路配置利用権
+[p3] (2) 預託金方式のゴルフ会員権
+[p4] (3) 課税資産を賃借するために支出する権利金等
+[p5] (4) 令第6条第1項第7号《著作権等の所在地》に規定する著作権等
+[p6] (5) 他の者からのソフトウエアの購入費用又は他の者に委託してソフトウエアを開発した場合におけるその開発費用
+[p7] (6) 書画・骨とう

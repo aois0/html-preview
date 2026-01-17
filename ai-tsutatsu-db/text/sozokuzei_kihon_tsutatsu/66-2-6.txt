@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 66の2―6 / id: 66-2-6 / title: 特定一般社団法人等が相続開始の年において被相続人から贈与を受けている場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/07/01.htm#a-49_2
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/66-2-6.html
+
+[p1] 特定一般社団法人等が、被相続人の相続開始の年において当該被相続人から贈与により財産を取得している場合には、法第66条の2第5項の規定により当該財産の価額については法第19条第1項の規定の適用はないのであるが、当該贈与について法第66条第4項において準用する同条第1項又は第2項の規定の適用がある場合には、当該贈与による財産の取得につき当該特定一般社団法人等に贈与税が課されることに留意する。（平30課資2−9追加）
+[p2] (注) 上記により課された贈与税の税額については、法施行令第34条第7項に規定する控除対象金額に含まれることに留意する。

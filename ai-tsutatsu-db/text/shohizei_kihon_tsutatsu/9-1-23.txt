@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 9−1−23 / id: 9-1-23 / title: 保証金等のうち返還しないものの額を対価とする資産の譲渡等の時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/09/01/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/9-1-23.html
+
+[p1] 資産の賃貸借契約等に基づいて保証金、敷金等として受け入れた金額であっても、当該金額のうち期間の経過その他当該賃貸借契約等の終了前における一定の事由の発生により返還しないこととなる部分の金額は、その返還しないこととなった日の属する課税期間において行った資産の譲渡等に係る対価となるのであるから留意する。

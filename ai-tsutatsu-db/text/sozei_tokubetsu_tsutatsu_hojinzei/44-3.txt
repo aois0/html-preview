@@ -1,0 +1,10 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 44-3 / id: 44-3 / title: 研究所用の建物及びその附属設備の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/01/01_44.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/44-3.html
+
+[p1] 措置法第44条第1項に規定する研究所用の建物及びその附属設備には、次に掲げる建物及びその附属設備が含まれるものとする。（昭63年直法2-1「六」により追加、平6年課法2-5「五」、平10年課法2-17「十一」、平26年課法2-6「十」により改正）
+[p2] （1） 研究所の構内にある守衛所、詰所、自転車置場、浴場その他これらに類するもので研究所用の建物としての耐用年数を適用するもの及びこれらの建物の附属設備
+[p3] （2） 研究所において使用する電力に係る発電所又は変電所の用に供する建物及びこれらの建物の附属設備
+[p4] （注） 倉庫用の建物は、研究所用の建物に該当しない。

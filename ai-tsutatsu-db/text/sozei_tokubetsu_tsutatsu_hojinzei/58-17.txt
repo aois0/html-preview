@@ -1,0 +1,12 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 58−17 / id: 58-17 / title: 特定原子力施設炉心等除去準備金の取扱いの準用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/04/04_58.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/58-17.html
+
+[p1] 探鉱準備金又は海外探鉱準備金の額の益金算入等については、57の4−1の取扱いに準じて取り扱うものとする。（平15年課法2−22「二十七」、平26年課法2−6「二十八」、令元年課法2-10「三十」、令2年課法2-17「十九」、令４年課法２−14「三十八」、令5年課法2−8「十四」により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第60条 《沖縄の認定法人の課税の特例》 関係
+[p4] 第5章
+[p5] 沖縄の認定法人の課税の特例
+[p6] 第60条 《沖縄の認定法人の課税の特例》関係

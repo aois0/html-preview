@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の6-24の2 / id: 66-6-24-2 / title: 租税負担割合の計算における企業集団等所得課税規定を除いた法令の規定による所得の金額の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/14/14_66_6_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-6-24-2.html
+
+[p1] 措置法令第39条の17の２第２項第１号イの本店所在地国の外国法人税に関する法令の規定から企業集団等所得課税規定を除いた法令の規定（以下66の６−26までにおいて「本店所在地国の法令の規定」という。）による所得の金額の計算については、66の６−21の２及び66の６−21の４の取扱いによる。（令元年課法２-６「一」により追加）

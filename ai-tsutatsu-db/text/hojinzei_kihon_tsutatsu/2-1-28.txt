@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−1−28 / id: 2-1-28 / title: 剰余金の配当等の帰属時期の特例
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_01_05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-1-28.html
+
+[p1] 法人が他の法人から受ける剰余金の配当等の額でその支払のために通常要する期間内に支払を受けるものにつき継続してその支払を受けた日の属する事業年度の収益としている場合には、2−1−27にかかわらず、これを認める。（昭55年直法2−8「六」により追加、平19年課法2−3「九」により改正）

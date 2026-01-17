@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 42の10-7 / id: 42-10-7 / title: 委託研究先への資産の貸与
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/01/01_42_10.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/42-10-7.html
+
+[p1] 実施法人が、その取得又は製作をした措置法第42条の10第1項に規定する機械及び装置並びに器具及び備品を自己の開発研究の委託先に貸与した場合において、当該委託先において当該機械及び装置並びに器具及び備品が専ら当該実施法人のためにする開発研究の用に供されるものであるときは、当該機械及び装置並びに器具及び備品は当該実施法人の行う開発研究の用に供したものとして取り扱う。（平26年課法2-6「六」により追加、平30年課法2-12「六」により改正）

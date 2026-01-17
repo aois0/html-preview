@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 76−5 / id: 76-5 / title: 保険金等の支払とともに又は保険金等の支払開始の日以後に分配を受ける剰余金等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/76-5.html
+
+[p1] 生命保険契約等に基づく剰余金の分配又は割戻金の割戻しで、その契約に基づく生命保険料等の払込みを要しなくなった後において保険金、年金又は共済金等の支払開始の日以後に支払を受けるものは、法第76条第1項第1号イ若しくは第2号イ、同条第2項第1号又は同条第3項第1号イ若しくは第2号イのかっこ内に規定する剰余金の分配又は割戻金の割戻しには該当しないものとする。（昭60直所3−1、直法6−1、直資3−1、平2直法6−5、直所3−6、平23課個2−33、課法9−9、課審4−46改正）

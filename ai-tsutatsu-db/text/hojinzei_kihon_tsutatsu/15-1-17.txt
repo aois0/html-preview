@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−17 / id: 15-1-17 / title: 不動産貸付業の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-17.html
+
+[p1] 令第5条第1項第5号《不動産貸付業》の不動産貸付業には、店舗の一画を他の者に継続的に使用させるいわゆるケース貸し及び広告等のために建物その他の建造物の屋上、壁面等を他の者に使用させる行為が含まれる。（昭56年直法2−16「七」により追加）
+[p2] (注) 他の者に不動産を使用させる行為であっても、同項第9号《倉庫業》、第14号《席貸業》、第27号《遊技所業》又は第31号《駐車場業》に掲げる事業のいずれかに該当するものは、不動産貸付業に含まれないことに留意する。

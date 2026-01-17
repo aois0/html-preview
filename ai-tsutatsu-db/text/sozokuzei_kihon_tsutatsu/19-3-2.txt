@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 19の3−2 / id: 19-3-2 / title: 婚姻した者の未成年者控除
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/08.htm#a-19_3_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/19-3-2.html
+
+[p1] 法第19条の3第1項の未成年者控除の規定は、民法の一部を改正する法律（平成30年法律第59号）による改正前の民法第753条((婚姻による成年擬制))の規定により成年に達したものとみなされた者についても適用があるのであるから留意する。(平17課資2−4、令2課資2−10改正)

@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−2−4 / id: 9-2-4 / title: 職制上の地位を有する役員の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_02_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-2-4.html
+
+[p1] 令第71条第1項第2号《使用人兼務役員とされない役員》に掲げる「副社長、専務、常務その他これらに準ずる職制上の地位を有する役員」とは、定款等の規定又は総会若しくは取締役会の決議等によりその職制上の地位が付与された役員をいう。(昭55年直法2−8「三十二」により追加、平19年課法2−3「二十二」により改正)

@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 28−9の3 / id: 28-9-3 / title: 派遣医が支給を受ける診療の報酬等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/28-9-3.html
+
+[p1] 大学病院の医局等若しくは教授等又は医療機関のあっせんにより派遣された医師又は歯科医師が、派遣先の医療機関において診療等を行うことにより当該派遣先の医療機関から支給を受ける報酬等は、給与等に該当する。（昭55直所3−19、直法6−8、追加、平19課法9−16、課個2−27、課審4−40改正）
+[p2] 大学病院の医局等とは、大学の医学部、歯学部若しくはその附属病院又はこれらの教室若しくは医局をいう。
+[p3] 教授等とは、大学病院の医局等の教授、准教授、講師、助教又は助手をいう。

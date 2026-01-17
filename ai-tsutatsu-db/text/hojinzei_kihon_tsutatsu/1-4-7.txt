@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 1−4−7 / id: 1-4-7 / title: 特定役員の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/01/01_04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/1-4-7.html
+
+[p1] 令第4条の3第4項第2号《適格合併に係る共同事業要件》に規定する「これらに準ずる者」とは、役員又は役員以外の者で、社長、副社長、代表取締役、代表執行役、専務取締役又は常務取締役と同等に法人の経営の中枢に参画している者をいう。（平14年課法2−1「三」により追加、平19年課法2−3「五」、平19年課法2−17「二」、平22年課法2−1「五」により改正）

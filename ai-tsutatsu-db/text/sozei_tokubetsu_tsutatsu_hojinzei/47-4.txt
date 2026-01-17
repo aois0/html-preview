@@ -1,0 +1,10 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 47-4 / id: 47-4 / title: 資本的支出
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/01/01_47_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/47-4.html
+
+[p1] 措置法第47条第1項の規定の適用を受けている特定都市再生建築物について資本的支出がされた場合には、当該特定都市再生建築物について同項の規定の適用がある期間内に限り、当該資本的支出に係る金額についても同項の規定の適用があるものとする。（平15年課法2-7「二十八」により追加、平15年課法2-22「二十二」、平23年課法2-17「二十四」、平25年課法2-4「十五」、平27年課法2-8「十八」、令元年課法2-10「十九」、令2年課法2-17「九」により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第48条 《倉庫用建物等の割増償却》関係
+[p4] 第48条 《倉庫用建物等の割増償却》関係

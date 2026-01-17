@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 6−11−2 / id: 6-11-2 / title: 施設設備費の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/06/11.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/6-11-2.html
+
+[p1] 令第14条の5第3号《教育に係る役務の提供の範囲》に規定する施設設備費とは、学校等の施設設備の整備・維持を目的として学生等から徴収するものをいい、例えば、次の名称で徴収するものが該当する。
+[p2] 施設設備費（料）、施設設備資金、施設費、設備費、施設拡充費、設備更新費、拡充設備費、図書館整備費、施設充実費、設備充実費、維持整備資金、施設維持費、維持費、図書費、図書拡充費、図書室整備費、暖房費（平12課消2−10により改正）

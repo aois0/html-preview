@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 36−25 / id: 36-25 / title: 課税しない経済的利益……掘採場勤務者に支給する燃料
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/36-25.html
+
+[p1] 鉱業を営む使用者が自己の掘採場（これに隣接して設置されている選鉱場、製錬場その他の付属設備を含む。）に勤務する使用人に対し、これらの者の保健衛生のため、社会通念上通常必要な厚生施設の設置に代えて支給すると認められる程度の石炭、薪等の燃料については、課税しなくて差し支えない。

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 95−23 / id: 95-23 / title: 工業所有権等の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/17/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/95-23.html
+
+[p1] 162−2の取扱いは、法第95条第4項第9号イに規定する「工業所有権その他の技術に関する権利、特別の技術による生産方式若しくはこれらに準ずるもの」（95−24において「工業所有権等」という。）の意義について準用する（平28課2−4、課法11−8、課審5−5追加）。

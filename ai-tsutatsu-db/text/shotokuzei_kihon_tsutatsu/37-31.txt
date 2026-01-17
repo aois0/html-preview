@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 37-31 / id: 37-31 / title: 災害等関連費用の必要経費算入の時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/10.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/37-31.html
+
+[p1] 山林について支出した令第203条各号《被災事業用資産の損失に含まれる支出》に掲げる費用その他これに類する費用の額は、その支出をした日の属する年分の事業所得の金額又は山林所得の金額の計算上必要経費に算入して差し支えない。

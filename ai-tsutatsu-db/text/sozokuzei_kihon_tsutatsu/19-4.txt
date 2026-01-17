@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 19−4 / id: 19-4 / title: 加算対象期間内に被相続人からの贈与により国外財産を取得している場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/05.htm#a-16_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/19-4.html
+
+[p1] 贈与税の制限納税義務者が贈与により法施行地外にある財産を取得した場合には当該財産の価額は贈与税の課税価格に算入されないことから、当該贈与をした者の相続の開始に係る相続税の課税価格の計算における当該財産の価額については、当該贈与を受けた者が当該相続の開始の時に相続税の無制限納税義務者に該当する場合であっても、法第19条第1項の規定の適用はないことに留意する。（平15課資2−1追加、平30課資2−9、令3課資2−14、令５課資２−21改正）

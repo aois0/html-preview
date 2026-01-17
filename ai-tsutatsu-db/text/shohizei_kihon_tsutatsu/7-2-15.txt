@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 7−2−15 / id: 7-2-15 / title: 非居住者の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/07/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/7-2-15.html
+
+[p1] 法第8条第1項《輸出物品販売場における輸出免税の特例》及び令第1条第2項第2号《定義》に規定する「非居住者」には、本邦内に住所又は居所を有しない自然人及び本邦内に主たる事務所を有しない法人がこれに該当し、非居住者の本邦内の支店、出張所その他の事務所は、法律上の代理権があるかどうかにかかわらず、その主たる事務所が外国にある場合においても居住者とみなされるのであるから留意する。

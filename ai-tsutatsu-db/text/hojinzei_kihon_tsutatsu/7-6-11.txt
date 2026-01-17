@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−6−11 / id: 7-6-11 / title: 償却限度額の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_06_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-6-11.html
+
+[p1] 特別な償却率による償却限度額は、その償却率の異なるものごとに計算する。
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第4款 生物の償却
+[p4] 第4款 生物の償却

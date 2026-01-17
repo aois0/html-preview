@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 27−7 / id: 27-7 / title: 有効な申告書としての取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/04/01.htm#a-27_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/27-7.html
+
+[p1] 期限内申告書、期限後申告書又は修正申告書に記載すべき事項のうちその一部について記載のないものの提出があった場合においても、財産の取得年月日、被相続人又は贈与をした者の氏名の記載がないもの等、その欠陥を税務署長が照会することにより補正することができる程度のものであるときは、その提出があった日において申告書の提出があったものとして取り扱うものとする。（平15課資2−1改正）

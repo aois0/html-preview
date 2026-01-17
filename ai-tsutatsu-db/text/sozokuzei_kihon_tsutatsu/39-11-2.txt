@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 39−11の2 / id: 39-11-2 / title: 税務署長の調査期間に係る災害等延長期間の重複
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/02.htm#a-39_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/39-11-2.html
+
+[p1] 法第39条第24項の適用において、同条第22項各号に掲げる場合が複数生じた場合は、3月（法第39条第23項の規定の適用がある場合には6月）に、先に生じた同条第22項各号に掲げる場合に係る災害等延長期間等の期間と、後に生じた同項各号に掲げる場合に係る災害等延長期間等のうち先に生じた同項各号に掲げる場合に係る災害等延長期間等と重複する期間を除いた期間を加算した期間内となることに留意する。

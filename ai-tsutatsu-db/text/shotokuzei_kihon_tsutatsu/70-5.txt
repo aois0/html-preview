@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 70−5 / id: 70-5 / title: 災害のあった年の翌年以後に支出した災害関連費用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/15/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/70-5.html
+
+[p1] 法第70条第3項かっこ内に規定する災害に関連するやむを得ない費用は、51−3により資本的支出とされるものを除き、当該費用を支出した日の属する年分の必要経費とされるのであるから、災害のあった年の翌年以後に支出した当該費用は、災害による資産そのものの損失及び災害のあった年において支出した当該費用とは区分して同条第2項の規定を適用することに留意する。（平23課個2−33、課法9−9、課審4−46改正）

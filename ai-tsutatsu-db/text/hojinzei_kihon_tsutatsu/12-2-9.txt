@@ -1,0 +1,9 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 12−2−9 / id: 12-2-9 / title: 災害損失特別勘定の損金算入に関する明細書の添付
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/12/12_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/12-2-9.html
+
+[p1] 災害損失特別勘定への繰入れを行う場合には、その繰入れを行う被災事業年度の確定申告書又は被災中間期間に係る法第72条《仮決算をした場合の中間申告書の記載事項等》の規定による中間申告書に災害損失特別勘定の損金算入に関する明細書を添付するものとする。
+[p2] この場合、当該明細書の書式は、付表の書式（これに準ずる書式を含む。）による。（平29年課法2−2「三」により追加、令元年課法2−10「九」、令４年課法2−14｢三十五」、令5年課法2−8「五」により改正）
+[p3] 災害損失特別勘定の損金算入に関する明細書(PDFファイル/191KB)

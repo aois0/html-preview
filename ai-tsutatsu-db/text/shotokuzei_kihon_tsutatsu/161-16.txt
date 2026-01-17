@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 161−16 / id: 161-16 / title: 土地等の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/22/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/161-16.html
+
+[p1] 法第161条第1項第5号に掲げる国内にある土地若しくは土地の上に存する権利又は建物及びその附属設備若しくは構築物（以下161−18までにおいて「土地等」という。）には、鉱業権（租鉱権及び採石権その他土石を採掘し又は採取する権利を含む。）、温泉を利用する権利、配偶者居住権（当該配偶者居住権の目的となっている建物の敷地の用に供される土地（土地の上に存する権利を含む。）を当該配偶者居住権に基づき使用する権利を含む。）、借家権及び土石（砂）などは含まれないことに留意する（平28課2−4、課法11−8、課審5−5、令2課資3−7、課個2−18、課法11−4、課審7−9改正）。

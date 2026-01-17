@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 38−1 / id: 38-1 / title: 相続税額が10万円を超えるかどうかの判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/01.htm#a-38_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/38-1.html
+
+[p1] 法第38条第1項に規定する「納付すべき相続税額が10万円を超え」るかどうかは、期限内申告書、期限後申告書又はこれらの申告書に係る修正申告書により申告された相続税額若しくは更正又は決定により納付すべき相続税額のそれぞれについて各別に判定するのであるから留意する。
+[p2] また、同条第3項に規定する「納付すべき贈与税額が10万円を超え」るかどうかの判定についても、これに準ずるのであるから留意する。（昭46直審（資）6、昭50直資2−257、昭57直資2−177、平元直資2−207、平4課資2−158・徴管5−6、平18徴管5−14改正）

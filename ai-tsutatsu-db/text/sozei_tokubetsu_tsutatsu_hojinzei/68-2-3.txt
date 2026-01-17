@@ -1,0 +1,8 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 68の2の3 / id: 68-2-3 / title: 名義株がある場合の特定支配関係の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/15/15_68_2_3_1.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/68-2-3.html
+
+[p1] (1)−1
+[p2] 措置法第68条の2の3第5項第3号の規定の適用上、一方の内国法人と他方の内国法人との間にいずれか一方の内国法人が他方の内国法人の株式を保有する関係があるかどうかは、株主名簿、社員名簿又は定款に記載又は記録されている株主等により判定するのであるが、その株主等が単なる名義人であって、当該株主等以外の者が実際の権利者である場合には、その実際の権利者が保有するものとして判定する。（平20年課法2−1「四十」により追加、令6年課法2-14「十七」により改正）

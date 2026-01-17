@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 10-13 / id: 10-13 / title: 非課税貯蓄限度額の引上げによりその合計額が300万円を超えることとなった非課税貯蓄申告書の効力
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/10-13.html
+
+[p1] 非課税貯蓄限度額の合計額が300万円を超えることとなるにもかかわらず、非課税貯蓄限度額を引き上げるための非課税貯蓄限度額変更申告書が提出された場合には、当該非課税貯蓄限度額変更申告書の提出に係る非課税貯蓄申告書は、当該非課税貯蓄限度額変更申告書の提出の日以後においては、その効力を有しないものとする。（昭63直法6-7、直所3-8追加）

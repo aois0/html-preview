@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 9−19 / id: 9-19 / title: 
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/04.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/9-19.html
+
+[p1] 令第30条本文かっこ内に規定する「必要経費に算入される金額を補てんするための金額」とは、例えば、心身又は資産の損害に基因して休業する場合にその休業期間中における使用人の給料、店舗の賃借料その他通常の維持管理に要する費用を
+[p2] するものとして計算された金額のようなものをいい、法第51条第1項又は第4項《資産損失の必要経費算入》の規定によりこれらの項に規定する損失の金額の計算上控除される保険金、損害賠償金その他これらに類するものは、これに含まれない。（平元直所3−14、直法6−9、直資3−8、平23課個2−33、課法9−9、課審4−46改正）

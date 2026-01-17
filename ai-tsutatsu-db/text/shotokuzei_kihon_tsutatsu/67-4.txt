@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 67−4 / id: 67-4 / title: 不動産所得を生ずべき業務及び事業所得を生ずべき業務のいずれか一方を廃止した場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/14/02.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/67-4.html
+
+[p1] 不動産所得を生ずべき業務及び事業所得を生ずべき業務を併せ営んでいた者が、これらの業務のうちいずれか一方を譲渡し又は廃止した場合には、当該譲渡し又は廃止した業務に係る各種所得の金額の計算については、当該譲渡し又は廃止した年において規則第40条第１項《収入及び費用の帰属時期の特例の適用の細目》の規定を適用することに留意する。（平11課所4−1、令４課個2-13、課法12-16、課審5-９改正）

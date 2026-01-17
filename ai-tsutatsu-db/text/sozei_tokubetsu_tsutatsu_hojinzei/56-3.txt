@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 56-3 / id: 56-3 / title: 特定法人が２以上ある場合の中小企業事業再編投資損失準備金の取崩しの計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/02/02_55_7.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/56-3.html
+
+[p1] 法人が中小企業事業再編投資損失準備金への積立てを２以上の特定法人の株式等について行っている場合には、当該準備金の金額は、それぞれの特定法人について設けられているのであるから、措置法第56条第２項又は第３項（第６号を除く。）の規定による益金算入額は各特定法人ごとに計算することに留意する。（令３年課法2-31「七」により追加、令４年課法２−14「二十八」により改正）

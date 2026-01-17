@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 52-12 / id: 52-12 / title: 国外にある債務者
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/10/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/52-12.html
+
+[p1] 国外にある債務者について、令第144条第1項第1号又は第3号に掲げる事由に類する事由が生じた場合には、これらの規定の適用があることに留意する。（平11課所4-1追加）

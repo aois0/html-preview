@@ -1,0 +1,10 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 67の3−1 / id: 67-3-1 / title: 免税対象飼育牛の売却利益の額の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/15/15_67_3.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/67-3-1.html
+
+[p1] 措置法第67条の3第1項に規定する免税対象飼育牛に該当する肉用牛の頭数の合計が年1,500頭を超える場合において、同項の規定により損金の額に算入される年1,500頭までの売却による利益の額がいずれの肉用牛の売却による利益の額の合計額であるかは、法人の計算による。(平20年課法2−14「二十五」により追加、平23年課法2−17「四十三」により改正)
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第67条の4 ((転廃業助成金等に係る課税の特例)) 関係
+[p4] 第67条の4 《転廃業助成金等に係る課税の特例》関係

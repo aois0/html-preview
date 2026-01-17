@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 50−2 / id: 50-2 / title: 繰延資産の償却期間の改訂
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/14.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/50-2.html
+
+[p1] 固定資産を利用するために支出した繰延資産で当該固定資産の耐用年数を基礎として償却期間を算定しているものにつき、その後当該固定資産の耐用年数が改正された場合には、その改正された年以後の当該繰延資産の償却期間は、改正後の耐用年数を基礎として算定した期間による。

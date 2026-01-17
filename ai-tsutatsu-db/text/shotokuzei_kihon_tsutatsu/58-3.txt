@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 58−3 / id: 58-3 / title: 交換の対象となる建物附属設備等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/12/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/58-3.html
+
+[p1] 法第58条第1項第2号かっこ内に規定する建物に附属する設備及び構築物は、その建物と一体となって交換される場合に限り建物として同条の規定の適用があるのであるから、建物に附属する設備又は構築物は、それぞれ単独には同条の規定の適用がない。

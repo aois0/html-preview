@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 4−3−3 / id: 4-3-3 / title: 信託の受益者としての権利の譲渡
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/04/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/4-3-3.html
+
+[p1] 受益者等課税信託の受益者等が有する権利の譲渡が行われた場合には、その権利の目的となる信託財産の譲渡が行われたこととなるのであるから留意する。 （平19課消1−18により追加）

@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 30−13 / id: 30-13 / title: 勤続年数の計算の基礎となる期間の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/30-13.html
+
+[p1] 勤続期間、令第69条第1項第1号イ若しくはロの規定により加算する期間又は同号ハただし書の規定により含まれるものとされる期間は、それぞれ暦に従って計算し、1月に満たない期間は日をもって数え、これらの年数、月数及び日数をそれぞれ合計し、日数は30日をもって1月とし、月数は12月をもって1年とする。
+[p2] 同項第2号に規定する組合員等であった期間についても同様とする。（昭63直法6−1、直所3−1改正）

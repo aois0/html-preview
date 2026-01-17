@@ -1,0 +1,11 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−3−12 / id: 9-3-12 / title: 保険事故の発生による積立保険料の処理
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-3-12.html
+
+[p1] 法人が長期の損害保険契約につき資産に計上している積立保険料に相当する部分の金額は、保険事故の発生により保険金の支払を受けた場合においても、その支払により当該損害保険契約が失効しないときは損金の額に算入されないことに留意する。（昭46年直審（法）20「9」により追加、昭55年直法2−15「十三」により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第1款 寄附金の範囲等
+[p4] 第4節 寄附金
+[p5] 第1款 寄附金の範囲等

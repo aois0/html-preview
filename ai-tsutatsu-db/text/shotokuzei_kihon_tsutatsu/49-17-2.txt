@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−17の2 / id: 49-17-2 / title: 耐用年数短縮の承認を受けている資産に資本的支出をした場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-17-2.html
+
+[p1] 耐用年数の短縮の承認を受けている減価償却資産（規則第30条第2号に掲げる事由又はこれに準ずる事由に該当するものを除く。）に資本的支出をした場合において、当該減価償却資産及び資本的支出につき、短縮した耐用年数により償却を行うときには、令第130条第7項に該当するときを除き、改めて同条第1項の規定による国税局長の承認を受けることに留意する。（平20課個2−17、課審4−186、課法9−3改正）

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 38−1の2 / id: 38-1-2 / title: 一括して購入した一団の土地の一部を譲渡した場合の取得費
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/18.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/38-1-2.html
+
+[p1] 一括して購入した一団の土地の一部を譲渡した場合における譲渡所得の金額の計算上控除すべき取得費の額は、原則として当該土地のうち譲渡した部分の面積が当該土地の面積のうちに占める割合を当該土地の取得価額に乗じて計算した金額によるものであるが、当該土地のうち譲渡した部分の譲渡時の価額が当該土地の譲渡時の価額のうちに占める割合を当該土地の取得価額に乗じて計算した金額によっても差し支えない。（昭56直資3−2、直所3−3追加）

@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 9−16の3 / id: 9-16-3 / title: 非課税とされる金品の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/04.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/9-16-3.html
+
+[p1] 法第９条第１項第16号に規定する事業により国又は地方公共団体から、他の者から受ける役務提供の対価の支払又は物品の購入に利用することのできる証券等の交付を受け、その受けた証券等を同号に規定する費用（以下この項において「子育て費用」という。）に充てた場合において、その充てた部分と子育て費用に充てた部分以外の部分とを区分しているときには、その充てた部分に係る証券等は同条第１項の規定の適用があることに留意する。（令３課個2-10、課法11-28、課審5-4追加））
+[p2] 〔相続等により取得するもの（第17号関係）〕

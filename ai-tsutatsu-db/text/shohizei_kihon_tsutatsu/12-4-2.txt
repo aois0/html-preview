@@ -1,0 +1,10 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 12−4−2 / id: 12-4-2 / title: 免税事業者となった課税期間等が含まれている場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/12/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/12-4-2.html
+
+[p1] 法第34条《課税業務用調整対象固定資産を非課税業務用に転用した場合の仕入れに係る消費税額の調整》の規定は、課税仕入れ等を行った日の属する課税期間と同条第1項に規定する業務の用に供した日の属する課税期間との間に免税事業者となった課税期間及び簡易課税制度の適用を受けた課税期間が含まれている場合にも適用されるのであるから留意する。
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第5節 非課税業務用から課税業務用に転用した場合の調整
+[p4] 第5節 非課税業務用から課税業務用に転用した場合の調整

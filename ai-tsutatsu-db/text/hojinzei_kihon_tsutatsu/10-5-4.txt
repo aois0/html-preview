@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 10−5−4 / id: 10-5-4 / title: 代替資産の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/10/10_05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/10-5-4.html
+
+[p1] 法第47条第1項《保険金等で取得した固定資産等の圧縮額の損金算入》に規定する代替資産は、所有固定資産が滅失等をしたことによりこれに代替するものとして取得等をされる固定資産に限られるのであるから、例えば滅失等のあった時において現に自己が建設、製作、製造又は改造中であった資産は代替資産に該当しないことに留意する。(昭55年直法2−15「二十一」、平14年課法2−1「二十五」により改正)

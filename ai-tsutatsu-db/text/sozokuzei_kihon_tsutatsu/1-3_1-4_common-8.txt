@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 1の3・1の4共−8 / id: 1-3_1-4_common-8 / title: 財産取得の時期の原則
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/01.htm#a-1_1_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/1-3_1-4_common-8.html
+
+[p1] 相続若しくは遺贈又は贈与による財産取得の時期は、次に掲げる場合の区分に応じ、それぞれ次によるものとする。(昭38直審(資)4、昭57直資2−177、平15課資2−1、平17課資2−4改正)
+[p2] (2) 贈与の場合 書面によるものについてはその契約の効力の発生した時、書面によらないものについてはその履行の時

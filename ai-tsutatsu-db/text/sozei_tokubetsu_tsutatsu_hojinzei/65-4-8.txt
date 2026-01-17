@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 65の4-8 / id: 65-4-8 / title: 会員を対象とする土地等の譲渡
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/10/10_65_4.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/65-4-8.html
+
+[p1] 63（5）-7の取扱いは、いわゆるハウジングメイト等の会員を対象として土地等の譲受人を募集する場合における措置法第65条の4第1項第3号ハの規定の適用について準用する。（平6年課法2-5「三十八」により追加、平9年課法2-14「十九」、平11年課法2-9「四十六」、平24年課法2-17「三十」により改正）

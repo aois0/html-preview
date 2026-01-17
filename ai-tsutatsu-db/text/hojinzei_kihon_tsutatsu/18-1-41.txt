@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 18−1−41 / id: 18-1-41 / title: 各種投資会社等における資産又は負債の時価の例示
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/18/18_01_08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/18-1-41.html
+
+[p1] 令第155条の17第6項《各種投資会社等に係る当期純損益金額の特例》の「時価」とは、例えば、令和元年７月４日付企業会計基準第30号「時価の算定に関する会計基準」（以下18−1−61までにおいて「時価算定会計基準」という。）第5項の時価をいう。（令5年課法2−17｢九」により追加）

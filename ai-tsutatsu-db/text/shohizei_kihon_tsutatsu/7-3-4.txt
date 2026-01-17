@@ -1,0 +1,11 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 7−3−4 / id: 7-3-4 / title: 外航船等について資格の変更があった場合の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/07/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/7-3-4.html
+
+[p1] 租特法第85条第1項《外航船等に積み込む物品の譲渡等に係る免税》に規定する外航船等について、関税法第25条《船舶又は航空機の資格の変更》の規定による資格の変更があった場合における船用品又は機用品の取扱いについては、関税法基本通達の25−3《船舶の資格変更の際における残存船用品の取扱い》の規定を準用するものとする。（平30課消2−5により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第1節 適用範囲等
+[p4] 第8章 輸出物品販売場における輸出物品の譲渡に係る免税
+[p5] 第1節 適用範囲等

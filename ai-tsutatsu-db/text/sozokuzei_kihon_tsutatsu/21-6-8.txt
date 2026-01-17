@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 21の6-8 / id: 21-6-8 / title: 法第21条の6第1項に規定する「当該配偶者」の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/11.htm#a-21_6_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/21-6-8.html
+
+[p1] 法第21条の6第1項に規定する「当該配偶者」とは、今回の贈与者である配偶者をいうものであるから留意する。（平元直資2-207追加）

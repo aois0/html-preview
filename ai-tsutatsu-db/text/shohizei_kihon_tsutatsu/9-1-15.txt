@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 9−1−15 / id: 9-1-15 / title: 工業所有権等の譲渡等の時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/09/01/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/9-1-15.html
+
+[p1] 工業所有権等（特許権、実用新案権、意匠権、商標権又は回路配置利用権並びにこれらの権利に係る出願権及び実施権をいう。以下9−1−21において同じ。）の譲渡又は実施権の設定については、その譲渡又は設定に関する契約の効力発生日に行われたものとする。ただし、その譲渡又は設定に関する契約の効力が登録により生ずることとなっている場合で、事業者がその登録日によっているときは、これを認める。
+[p2] （注） 実施権の設定による資産の譲渡等に関して受ける対価の額は、それが使用料等に充当されることとされている場合であっても、前受金等として繰延べることはできないことに留意する。

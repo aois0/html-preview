@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 64-1 / id: 64-1 / title: 回収不能の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/13/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/64-1.html
+
+[p1] 法第64条第1項に規定する収入金額若しくは総収入金額の全部若しくは一部を回収することができなくなったかどうか、又は同条第2項に規定する求償権の全部若しくは一部を行使することができなくなったかどうかの判定については、51-11から51-16までの取扱いに準ずる。（昭48直資4-6、直所2-22追加）

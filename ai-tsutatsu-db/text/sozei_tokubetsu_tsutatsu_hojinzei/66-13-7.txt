@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の13−7 / id: 66-13-7 / title: 特定株式の全部又は一部を有しないこととなった場合の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/15/15_66_13.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-13-7.html
+
+[p1] 措置法第66条の13第11項第1号に規定する「特定株式の全部又は一部を有しないこととなった場合」には、特定株式の併合によりその株式数が減少したことは含まれないことに留意する。（令2年課法2−17「三十」により追加、令4年課法2−14「六十三」、令5年課法2−8「二十二」により改正）

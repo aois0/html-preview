@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 212−6 / id: 212-6 / title: 組合契約事業から生ずる利益に係る源泉徴収義務者
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/37/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/212-6.html
+
+[p1] 法第212条第5項に規定する「配分をする者」とは、法第161条第1項第4号に規定する国内源泉所得につき同号に規定する組合契約に基づき共同事業により配分する者をいうのであるから、その全ての組合員（法第212条第5項に規定する組合員をいう。以下212−7までにおいて同じ。）は、同号に規定する利益につき源泉徴収をする義務があることに留意する（平28課2−4、課法11−8、課審5−5改正）。
+[p2] （注） 源泉徴収義務者となる組合員は、通則法第9条《共有物等に係る国税の連帯納付義務》に定める「連帯納付義務」を負うことに留意する。

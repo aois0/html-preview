@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 204−14 / id: 204-14 / title: 設計等とその施工の対価を一括して支払う場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/36/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/204-14.html
+
+[p1] 建築士の業務と建築の請負とを併せて行っている者に設計等とその施工とを併せて請け負わせた対価を一括して支払うような場合には、その対価の総額をその建築士の業務に関する報酬又は料金と建築の対価とに区分し、建築士の業務に関する報酬又は料金について源泉徴収を行うべきであるが、建築士の業務に関する報酬又は料金の部分が極めて少額であると認められるときは、源泉徴収をしなくて差し支えない。

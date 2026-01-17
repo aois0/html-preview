@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 24−2 / id: 24-2 / title: 年金により支払を受ける生命保険金等の額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/03/01.htm#a-23_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/24-2.html
+
+[p1] 年金の方法により支払又は支給を受ける生命保険契約若しくは損害保険契約に係る保険金又は退職手当金等の額は、法第24条の規定により計算した金額による。
+[p2] なお、一時金で支払又は支給を受ける生命保険契約若しくは損害保険契約に係る保険金又は退職手当金等の額は、当該一時金の額を分割の方法により利息を付して支払又は支給を受ける場合であっても当該一時金の額であることに留意する。（昭46直審（資）6、平22課資2−12、課審6−15、課評2−22改正）

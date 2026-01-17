@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 3−34 / id: 3-34 / title: 保険金受取人が死亡した場合の課税関係
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/04.htm#a-3_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/3-34.html
+
+[p1] 保険金受取人が死亡した時において、まだ保険事故が発生していない生命保険契約で当該保険金受取人が保険契約者でなく、かつ、保険料の負担者でないものについては、当該保険金受取人の死亡した時においては課税関係は生じないものとする。（昭46直審（資）6、昭57直資2
+[p2] −177改正）

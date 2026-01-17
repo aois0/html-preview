@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 36-38 / id: 36-38 / title: 食事の評価
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/36-38.html
+
+[p1] 使用者が役員又は使用人に対し支給する食事については、次に掲げる区分に応じ、それぞれ次に掲げる金額により評価する。(昭50直法6-4、直所3-8改正)
+[p2] (1) 使用者が調理して支給する食事 その食事の材料等に要する直接費の額に相当する金額
+[p3] (2) 使用者が購入して支給する食事 その食事の購入価額に相当する金額

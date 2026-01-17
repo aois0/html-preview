@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 40−3 / id: 40-3 / title: 実質的に贈与をしたと認められる金額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/06/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/40-3.html
+
+[p1] 法第40条第1項第2号に規定する「実質的に贈与をしたと認められる金額」とは、同項に規定する棚卸資産の39−1に定める価額とその譲渡の対価の額との差額に相当する金額をいうのであるが、当該棚卸資産の39−1に定める価額のおおむね70%に相当する金額からその対価の額を控除した金額として差し支えない。
+[p2] 法第41条《農産物の収穫の場合の総収入金額算入》関係

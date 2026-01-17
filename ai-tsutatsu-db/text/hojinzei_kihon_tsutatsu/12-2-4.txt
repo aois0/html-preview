@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 12−2−4 / id: 12-2-4 / title: 災害損失の額に含まれない費用の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/12/12_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/12-2-4.html
+
+[p1] 災害損失の額には、けが人への見舞金、被災者への弔慰金等のように滅失又は損壊した資産に直接関連しない費用は含まれないことに留意する。(平29年課法2−2「三」により追加)

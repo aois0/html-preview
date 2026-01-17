@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 37−2の2 / id: 37-2-2 / title: 損害賠償金の必要経費算入の時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/37-2-2.html
+
+[p1] 業務の遂行に関連して他の者に与えた損害につき賠償をする場合において、その年12月31日までにその賠償すべき額が確定していないときであっても、同日までにその額として相手方に申し出た金額(相手方に対する申出に代えて第三者に寄託した額を含む。)に相当する金額(保険金等により
+[p2] されることが明らかな部分の金額を除く。)を当該年分の必要経費に算入したときは、これを認める。(昭55直所3−19、直法6−8追加、平23課個2−33、課法9−9、課審4−46改正)
+[p3] (注) 損害賠償金を年金として支払う場合には、その年金の額は、これを支払うべき日の属する年分の必要経費に算入する。

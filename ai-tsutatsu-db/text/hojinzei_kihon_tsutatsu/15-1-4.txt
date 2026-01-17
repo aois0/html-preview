@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−4 / id: 15-1-4 / title: 事業場を設けて行われるもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-4.html
+
+[p1] 法第2条第13号《収益事業の意義》の「事業場を設けて行われるもの」には、常時店舗、事務所等事業活動の拠点となる一定の場所を設けてその事業を行うもののほか、必要に応じて随時その事業活動のための場所を設け、又は既存の施設を利用してその事業活動を行うものが含まれる。したがって、移動販売、移動演劇興行等のようにその事業活動を行う場所が転々と移動するものであっても、「事業場を設けて行われるもの」に該当する。(昭56年直法2−16「七」、平20年課法2−5「二十九」により改正)

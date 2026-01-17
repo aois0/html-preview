@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 73−1 / id: 73-1 / title: 生計を一にする親族に係る医療費
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/73-1.html
+
+[p1] 法第73条第1項に規定する「自己と生計を一にする配偶者その他の親族に係る医療費」とは、医療費を支出すべき事由が生じた時又は現実に医療費を支払った時の現況において居住者と生計を一にし、かつ、親族である者に係る医療費をいう。

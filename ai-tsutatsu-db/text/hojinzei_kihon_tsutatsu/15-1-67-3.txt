@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−67の3 / id: 15-1-67-3 / title: 大学入試のための学力の教授の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_30.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-67-3.html
+
+[p1] 規則第7条の2第1号《非課税とされる学力の教授》に規定する「大学の入学者を選抜するための学力試験に直接備えるための学力の教授」とは、高等学校を卒業した者及び高等学校の第3学年（定時制の高等学校にあっては第4学年）に在籍する者を主たる対象者として行う大学の入学試験に備えるための学力の教授をいう。（昭59年直法2−3「九」により追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第31款 駐車場業
+[p4] 第31款 駐車場業

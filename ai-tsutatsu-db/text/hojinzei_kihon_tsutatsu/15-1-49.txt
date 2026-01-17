@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−49 / id: 15-1-49 / title: 浴場業の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_23.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-49.html
+
+[p1] 令第5条第1項第23号《浴場業》の浴場業には、いわゆるサウナ風呂、砂湯等の特殊浴場業が含まれる。（昭56年直法2−16「七」により追加、昭63年直法2−1「三」により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第24款 理容業
+[p4] 第24款 理容業

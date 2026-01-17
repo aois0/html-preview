@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 12−1−3 / id: 12-1-3 / title: 共同で事業を行うための合併等の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/12/12_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/12-1-3.html
+
+[p1] 法第57条第3項《欠損金の繰越し》に規定する「共同で事業を行うための合併」に該当するかどうかの判定に当たっては、1−4−4《従業者の範囲》から1−4−7《特定役員の範囲》までの取扱いを準用する。
+[p2] 同条第4項に規定する「共同で事業を行うための適格組織再編成等」に該当するかどうかの判定に当たっても、同様とする。（平14年課法2−1「二十九」により追加、平15年課法2−22「十二」、平22年課法2−1「二十四」、平29年課法2−17「十三」、令４年課法2−14｢三十四」により改正）

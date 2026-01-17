@@ -1,0 +1,9 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 8−3 / id: 8-3 / title: 連帯債務者及び保証人の求償権の放棄
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/05.htm#a-5_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/8-3.html
+
+[p1] 次に掲げる場合には、それぞれ次に掲げる金額につき法第8条の規定による贈与があったものとみなされるのであるから留意する。（昭57直資2−177改正）
+[p2] （1） 連帯債務者が自己の負担に属する債務の部分を超えて弁済した場合において、その超える部分の金額について他の債務者に対し求償権を放棄したとき その超える部分の金額
+[p3] （2） 保証債務者が主たる債務者の弁済すべき債務を弁済した場合において、その求償権を放棄したとき その代わって弁済した金額

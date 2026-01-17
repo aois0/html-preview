@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 161−45 / id: 161-45 / title: 国外の寄航地において行われる一時的な人的役務の提供
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/22/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/161-45.html
+
+[p1] 令第285条第1項第2号かっこ内に規定する「国外における寄航地において行われる一時的な人的役務の提供」とは、国外の寄航地における地上勤務員等が荷物の積卸しを行う場合又は船（機）内の清掃、整備を行う場合等において一時的に乗船し又は搭乗して行う人的役務の提供をいうことに留意する。
+[p2] 〔その他〕

@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 12の2−2−5 / id: 12-2-2-5 / title: 最後に支配関係を有することとなった日
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/12_2/12_2_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/12-2-2-5.html
+
+[p1] 令第123条の8第1項第2号及び第3項《特定資産に係る譲渡等損失額の損金不算入》の「最後に支配関係を有することとなつた日」については、12−1−5《最後に支配関係を有することとなった日》の(1)の取扱いを準用する。(平22年課法2−1「二十九」により追加、平25年課法2−4「四」、令４年課法2−14｢三十八」により改正)

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 161−42 / id: 161-42 / title: 内国法人の使用人として常時勤務を行う場合の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/22/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/161-42.html
+
+[p1] 令第285条第1項第1号かっこ内に規定する「内国法人の使用人として常時勤務を行う場合」とは、内国法人の役員が内国法人の海外にある支店の長として常時その支店に勤務するような場合をいい、例えば、非居住者である内国法人の役員が、その内国法人の非常勤役員として海外において情報の提供、商取引の側面的援助等を行っているにすぎない場合は、これに該当しないことに留意する。

@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 10−4−1 / id: 10-4-1 / title: 2以上の事業年度にわたり納付金が納付される場合の圧縮記帳
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/10/10_04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/10-4-1.html
+
+[p1] 法第46条第1項《非出資組合が賦課金で取得した固定資産等の圧縮額の損金算入》の非出資組合が2以上の事業年度にわたり納付金を納付させることとしている場合において、その納付金の全額を納付させる前にその目的となった固定資産の取得等をし、その固定資産について、その取得等をした事業年度後に納付させる納付金の額をその事業年度において未収入金に計上し、その事業年度において圧縮記帳をしているときは、これを認める。（昭55年直法2−15「二十」、平11年課法2−9「十五」、平15年課法2−7「三十一」、令４年課法2−14｢三十一」により改正）

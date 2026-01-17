@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 14−1−1 / id: 14-1-1 / title: 任意組合等の組合事業から生ずる利益等の帰属
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/14/14_01_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/14-1-1.html
+
+[p1] 任意組合等において営まれる事業（以下14−1−2までにおいて「組合事業」という。）から生ずる利益金額又は損失金額については、各組合員に直接帰属することに留意する。（平17年課法2−14「十五」により追加）
+[p2] (注) 任意組合等とは、民法第667条第1項に規定する組合契約、投資事業有限責任組合契約に関する法律第3条第1項に規定する投資事業有限責任組合契約及び有限責任事業組合契約に関する法律第3条第1項に規定する有限責任事業組合契約により成立する組合並びに外国におけるこれらに類するものをいう。以下14−1−2までにおいて同じ。

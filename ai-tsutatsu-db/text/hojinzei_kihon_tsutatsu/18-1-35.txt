@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 18−1−35 / id: 18-1-35 / title: いずれもが独立企業間価格である場合の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/18/18_01_08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/18-1-35.html
+
+[p1] 令第155条の16第3項第3号《当期純損益金額》の規定の適用に当たり、同号の取引に係る金額は、いずれの独立企業間価格を用いてもよいが、いずれか一方の金額に合わせる必要があることに留意する。（令5年課法2−17｢九」により追加）

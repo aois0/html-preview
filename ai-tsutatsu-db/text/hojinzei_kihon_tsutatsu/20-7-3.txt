@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 20−7−3 / id: 20-7-3 / title: 外国法人に係る分配時調整外国税相当額の控除
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/20a/20_07_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/20-7-3.html
+
+[p1] 恒久的施設を有する外国法人が各事業年度において集団投資信託の収益の分配の支払を受ける場合の法第144条の２の２第１項《外国法人に係る分配時調整外国税相当額の控除》の規定の適用に当たっては、第16章第３節の２《分配時調整外国税相当額の控除》の取扱いを準用する。（令元年課法2-33「五」により追加）

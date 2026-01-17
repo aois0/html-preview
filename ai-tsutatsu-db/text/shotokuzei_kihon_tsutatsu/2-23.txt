@@ -1,0 +1,10 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 2−23 / id: 2-23 / title: 
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/2-23.html
+
+[p1] 削除（昭49直所2−23、昭51直所3−1、直法6−1、直資3−1、昭60直所3−21、直資3−5改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 〔繰延資産（第20号関係）〕
+[p4] 〔繰延資産（第20号関係）〕

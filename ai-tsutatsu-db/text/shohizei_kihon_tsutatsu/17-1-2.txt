@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 17−1−2 / id: 17-1-2 / title: 事業を廃止した場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/17/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/17-1-2.html
+
+[p1] 法第57条第1項第3号《事業を廃止した場合の届出》に規定する「事業を廃止した場合」には、事業の全部を相当期間休止した場合、事業の全部を譲渡した場合又は清算中法人の残余財産が確定した場合が含まれる。（平9課消2−5、平18課消1−16により改正）

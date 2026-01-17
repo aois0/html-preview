@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−2−28 / id: 9-2-28 / title: 役員に対する退職給与の損金算入の時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_02_07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-2-28.html
+
+[p1] 退職した役員に対する退職給与の額の損金算入の時期は、株主総会の決議等によりその額が具体的に確定した日の属する事業年度とする。ただし、法人がその退職給与の額を支払った日の属する事業年度においてその支払った額につき損金経理をした場合には、これを認める。（昭55年直法2−8「三十二」、平19年課法2−3「二十二」により改正）

@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 44−1 / id: 44-1 / title: 却下の日の翌日から起算して20日以内の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/06.htm#a-44_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/44-1.html
+
+[p1] 法第44条第1項又は法第45条第1項に規定する「却下の日の翌日から起算して二十日以内」の期間の計算に当たっては、申請者が物納申請の却下通知を受け取った日の翌日から起算して当該期間を計算するのであるから留意する。（平18徴管5-14追加）

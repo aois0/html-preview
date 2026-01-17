@@ -1,0 +1,6 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 1−4−12 / id: 1-4-12 / title: 工場所有権等の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/01/01_04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/1-4-12.html
+

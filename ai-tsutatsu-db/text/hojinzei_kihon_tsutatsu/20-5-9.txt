@@ -1,0 +1,9 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 20−5−9 / id: 20-5-9 / title: 本店配賦経費の配分の基礎となる費用の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/20a/20_05_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/20-5-9.html
+
+[p1] 法第142条第3項第2号《共通費用の配分》に規定する「外国法人の恒久的施設を通じて行う事業及びそれ以外の事業に共通するこれらの費用」とは、例えば、次に掲げる業務に関する費用のうち、恒久的施設を通じて行う事業とそれ以外の事業に共通する費用で、当該恒久的施設を有する外国法人の本店等において行われる事業活動の重要な部分に関連しないものをいうことに留意する。（平26年課法2−9「九」により追加）
+[p2] （1） 外国法人全体に係る情報通信システムの運用、保守又は管理
+[p3] （2） 外国法人全体に係る会計業務、税務業務又は法務業務

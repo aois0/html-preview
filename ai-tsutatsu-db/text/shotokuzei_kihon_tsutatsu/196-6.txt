@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 196−6 / id: 196-6 / title: 地震保険料の金額等を証する書類の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/33/02.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/196-6.html
+
+[p1] 地震保険料に係る法第196条第2項に規定する「証する書類」には、保険会社等が、その年中に支払った地震保険料の金額及び規則第76条第6項に規定する事項を証するために特に発行した書類のほか、これらの事項が記載されている保険料領収証書も含まれることに留意する。（昭63直法6−7、直所3−8、平2直法6−5、直所3−6、平19課法9−1、課審4−11、平23課個2−33、課法9−9、課審4−46改正）

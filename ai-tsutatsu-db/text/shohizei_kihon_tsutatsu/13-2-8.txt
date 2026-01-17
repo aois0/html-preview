@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 13−2−8 / id: 13-2-8 / title: 廃材（品）、加工くず等の売却収入の事業区分
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/13/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/13-2-8.html
+
+[p1] 第三種事業に該当する製造業等に係る事業に伴い生じた加工くず、副産物等の譲渡を行う事業は、第三種事業に該当するのであるから留意する。
+[p2] なお、第一種事業又は第二種事業のうち小売業から生じた段ボール等の不要物品等（当該事業者が事業の用に供していた固定資産等を除く。以下13−2−8において「不要物品等」という。）の譲渡を行う事業は、第四種事業に該当するのであるが、当該事業者が当該不要物品等が生じた事業区分に属するものとして処理しているときには、これを認める。（令５課消２−９により改正）

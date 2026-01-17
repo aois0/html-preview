@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 70−9 / id: 70-9 / title: 取壊し、除去等に従事した使用人の給与等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/15/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/70-9.html
+
+[p1] 災害を受けたことにより使用人を専ら被災事業用資産の取壊し若しくは除去又は原状回復若しくは障害物の除去の作業に従事させることにより支払う給与等は、令第203条に規定する費用に含まれる。

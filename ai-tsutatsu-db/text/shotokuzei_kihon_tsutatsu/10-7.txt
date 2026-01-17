@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 10-7 / id: 10-7 / title: 同じ日に預入等と払出しが行われた場合の普通預金等に係る限度額の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/10-7.html
+
+[p1] 令第35条第1項《普通預金契約等についての非課税貯蓄申込書の特例》に規定する限度額（以下10-9までにおいて「限度額」という。）を記載した非課税貯蓄申込書に係る預貯金等の口座につき、追加して預入等が行われたため、その現在高が一時的に当該限度額を超えても、その預入等と同じ日に払出しが行われ、その日の最終の現在高が当該限度額以下となっている場合には、当該限度額を超えた預入等はなかったものとする。（昭63直法6-7、直所3-8追加）
+[p2] （注） したがって、この場合には、当該限度額を変更するための非課税貯蓄申込書は提出しなくて差し支えないこととなる。

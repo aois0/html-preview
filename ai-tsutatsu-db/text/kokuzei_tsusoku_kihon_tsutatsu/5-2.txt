@@ -1,0 +1,30 @@
+doc: 国税通則法基本通達 (kokuzei_tsusoku_kihon_tsutatsu)
+item: 5-2 / id: 5-2 / title: 
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/mokuji.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/kokuzei_tsusoku_kihon_tsutatsu/5-2.html
+
+[p1] 特定納税管理人が指定されているときの送達
+[p2] 郵便又は信書便による送達
+[p3] 6
+[p4] 通常の取扱いによる郵便又は信書便
+[p5] 7
+[p6] 通常到達すべきであった時
+[p7] 交付送達
+[p8] 8
+[p9] 同居の者
+[p10] 9
+[p11] 相当のわきまえのある者
+[p12] 送達の効力発生時期
+[p13] 10
+[p14] 送達の効力発生時期
+[p15] 第13条関係 相続人に対する書類の送達の特例
+[p16] 1
+[p17] 相続人の氏名が明らかでない場合
+[p18] 2
+[p19] 相続人が限定承継をした場合
+[p20] 第14条関係 公示送達
+[p21] 1
+[p22] 住所及び居所が明らかでない場合
+[p23] 2
+[p24] 外国においてすべき送達につき困難な事情があると認められる場合

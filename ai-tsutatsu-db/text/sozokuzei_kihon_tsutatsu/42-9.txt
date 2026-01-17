@@ -1,0 +1,11 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 42−9 / id: 42-9 / title: 「調査に3月を超える期間を要すると認めるとき」の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/04.htm#a-42_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/42-9.html
+
+[p1] 法第42条第16項に規定する「調査に三月を超える期間を要すると認めるとき」とは、次のようなものをいうのであるから留意する。（平18徴管5−14追加、平25徴管6−4改正）
+[p2] 物納財産が多数ある場合
+[p3] 物納財産が遠方に所在し、確認調査等に時間を要すると認められる場合
+[p4] 財産の性質、形状その他の特徴により管理処分不適格財産に該当するかどうかの審査や収納価額の算定等に相当の期間を要すると認められる場合
+[p5] 法施行令第18条第1号ワ又は同条第2号へに規定する者に該当するかどうかの確認に相当の期間を要すると認められる場合

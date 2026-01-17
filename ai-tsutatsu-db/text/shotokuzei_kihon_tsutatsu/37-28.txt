@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 37−28 / id: 37-28 / title: 賦払の契約により購入した資産に係る利息等相当部分
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/09.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/37-28.html
+
+[p1] 業務の用に供される資産を賦払の契約により購入した場合において、その契約において購入代価と賦払期間中の利息及び賦払金の回収のための費用等に相当する金額とが明らかに区分されている場合のその利息及び費用等に相当する金額は、当該賦払期間中の各年分の必要経費に算入する。ただし、当該資産の使用開始の日までの期間に対応する部分の金額については、当該資産の取得価額に算入することができる。（昭52直資3−14、直所3−22改正）

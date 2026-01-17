@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の4の4−3 / id: 66-4-4-3 / title: 必要な措置が講じられていない場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/12/12_66_4_4.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-4-4-3.html
+
+[p1] 措置法令第39条の12の4第1項第1号に規定する「国別報告事項（……）に相当する事項の提供を求めるために必要な措置が講じられていない場合」とは、最終親会社等（同号に規定する最終親会社等をいう。以下同じ。）の居住地国（同号に規定する居住地国をいう。以下同じ。）において、国別報告事項（同号に規定する国別報告事項をいう。以下同じ。）に相当する事項の提供を義務付ける制度が実施されていない場合をいうのであるから、最終親会社等の居住地国において国別報告事項に相当する事項の提供の義務が免除されている場合はこれに含まれないことに留意する。（平28年課法2−11「三十九」により追加）

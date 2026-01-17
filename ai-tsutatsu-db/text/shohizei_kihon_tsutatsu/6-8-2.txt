@@ -1,0 +1,10 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 6−8−2 / id: 6-8-2 / title: 妊娠中及び出産後の入院の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/06/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/6-8-2.html
+
+[p1] 妊娠中及び出産後の入院については、次のとおりとなるのであるから留意する。
+[p2] (1) 妊娠中の入院については、産婦人科医が必要と認めた入院（妊娠中毒症、切迫流産等）及び他の疾病（骨折等）による入院のうち産婦人科医が共同して管理する間の入院は、助産に係る資産の譲渡等に該当する。
+[p3] (2) 出産後の入院のうち、産婦人科医が必要と認めた入院及び他の疾病による入院のうち産婦人科医が共同して管理する間については、出産の日から1月を限度として助産に係る資産の譲渡等に該当する。
+[p4] (3) 新生児については、(2)の取扱いに準ずる。

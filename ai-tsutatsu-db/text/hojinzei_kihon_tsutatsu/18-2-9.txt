@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 18−2−9 / id: 18-2-9 / title: 特定構成会社等がある場合の適用免除基準
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/18/18_02_06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/18-2-9.html
+
+[p1] 法第82条の2第7項《国際最低課税額》の規定の適用に当たり、令第155条の55第1項各号《収入金額等に関する適用免除基準》の収入金額並びに同条第2項第1号の個別計算所得金額及び同項第2号の個別計算損失金額については、法第82条の2第3項に規定する特定構成会社等（同項第3号に掲げる各種投資会社等を除く。）と同項に規定する特定構成会社等以外の構成会社等とに区分せずに計算することに留意する。（令5年課法2−17｢十」により追加、令6年課法2−21「三」により改正）

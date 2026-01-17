@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−7−8 / id: 5-7-8 / title: 営業権の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-7-8.html
+
+[p1] 令第6条第1項第8号《営業権等の所在地》に規定する営業権には、例えば、繊維工業における織機の登録権利、許可漁業の出漁権、タクシー業のいわゆるナンバー権のように、法令の規定、行政官庁の指導等による規制に基づく登録、認可、許可、割当て等に基づく権利（外国におけるこれらの権利を含む。）が該当する。（平12課消2−10、平23課消1-35により改正）

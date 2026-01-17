@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 30−1 / id: 30-1 / title: 退職手当等の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/30-1.html
+
+[p1] 退職手当等とは、本来退職しなかったとしたならば支払われなかったもので、退職したことに基因して一時に支払われることとなった給与をいう。したがって、退職に際し又は退職後に使用者等から支払われる給与で、その支払金額の計算基準等からみて、他の引き続き勤務している者に支払われる賞与等と同性質であるものは、退職手当等に該当しないことに留意する。

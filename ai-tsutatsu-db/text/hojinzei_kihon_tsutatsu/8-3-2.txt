@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 8−3−2 / id: 8-3-2 / title: 償却費として損金経理をした金額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/08/08_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/8-3-2.html
+
+[p1] 法人が、繰延資産となるべき費用を支出した場合において、その全部又は一部を償却費以外の科目をもって損金経理をしているときにおいても、その損金経理をした金額は、法第32条第1項《繰延資産の償却費の損金算入》に規定する「償却費として損金経理をした金額」に含まれるものとする。（昭55年直法2−8「三十」により改正）

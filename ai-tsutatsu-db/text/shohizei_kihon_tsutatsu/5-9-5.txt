@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−9−5 / id: 5-9-5 / title: 自動販売機による譲渡
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/09.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-9-5.html
+
+[p1] 自動販売機により行われるジュース、パン、お菓子等の販売は、飲食料品を飲食させる役務の提供を行っているものではなく、単にこれらの飲食料品を販売するものであるから、軽減税率の適用対象となる飲食料品の譲渡に該当することに留意する。（令５課消２−９により追加）

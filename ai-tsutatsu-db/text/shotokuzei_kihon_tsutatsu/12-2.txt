@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 12−2 / id: 12-2 / title: 事業から生ずる収益を享受する者の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/03/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/12-2.html
+
+[p1] 事業から生ずる収益を享受する者がだれであるかは、その事業を経営していると認められる者（以下12−5までにおいて「事業主」という。）がだれであるかにより判定するものとする。

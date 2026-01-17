@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 16−2−3 / id: 16-2-3 / title: 課税仕入れ等に係る特定収入の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/16/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/16-2-3.html
+
+[p1] 令第75条第4項第1号《国、地方公共団体等の仕入れに係る消費税額の特例》に規定する「課税仕入れ等に係る特定収入」には、特定収入の金額が課税仕入れ等に係る支出のみに充てることとされているもののほか、特定収入のうちの一定金額が課税仕入れ等に係る支出に充てることとされている場合における当該一定金額もこれに該当するのであるから留意する。

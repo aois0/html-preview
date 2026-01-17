@@ -1,0 +1,10 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 95−30 / id: 95-30 / title: 外国所得税を課されたことを証する書類
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/17/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/95-30.html
+
+[p1] 規則第41条第1項第3号《外国税額控除を受けるための書類等》の「税を課されたことを証する・・・・・・その納付を証する書類」には、申告書の写し又は現地の税務官署が発行する納税証明書等のほか、更正若しくは決定に係る通知書、賦課決定通知書、納税告知書、源泉徴収の外国所得税に係る源泉徴収票その他これらに準ずる書類又はこれらの書類の写しが含まれる（平28課2−4、課法11−8、課審5−5、平29課個2−13、課資3−3、課審5−5改正）。
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 法第93条《分配時調整外国税相当額控除》関係
+[p4] 法第93条《分配時調整外国税相当額控除》関係

@@ -1,0 +1,10 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 43−8 / id: 43-8 / title: 公用又は公共の用に供されることが確実と見込まれる財産による還付
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/05.htm#a-43_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/43-8.html
+
+[p1] 法第43条第3項ただし書に規定する「公用若しくは公共の用に……供されることが確実と見込まれる」とは、例えば、物納不動産について法令等の手続を経て国の事業又は道路若しくは公園など土地収用法（昭和26年法律第219号）に列記するような公共の利益となる事業の用に供されることが確実と見込まれるものをいい、必ずしも契約締結時の事務的な手続を必要としないのであるから留意する。（平7課資2−119・徴管5−5追加、平18徴管5−14改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第43条《物納財産の収納価額等》関係
+[p4] 第43条《物納財産の収納価額等》関係

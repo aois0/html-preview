@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 2−12 / id: 2-12 / title: 金融機関の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/03.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/2-12.html
+
+[p1] 令第2条本文《預貯金の範囲》に規定する「銀行その他の金融機関」とは、法律の規定により預金又は貯金の受入れの業務を行うことが認められている銀行、信用金庫、信用金庫連合会、労働金庫、労働金庫連合会、信用協同組合、農業協同組合、漁業協同組合、水産加工業協同組合等をいう。（平15課法8−3、課個2−13、課審3−19、平19課法9−16、課個2−27、課審4−40改正）
+[p2] （注） 金融機関以外のものに対する寄託金につき受ける利子は、令第2条各号に掲げるものにつき受けるものを除き、雑所得に該当する。
+[p3] 〔棚卸資産（第16号関係）〕

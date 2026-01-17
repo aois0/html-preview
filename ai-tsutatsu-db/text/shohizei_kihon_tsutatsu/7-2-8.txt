@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 7−2−8 / id: 7-2-8 / title: 船舶運航事業を営む者等の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/07/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/7-2-8.html
+
+[p1] 令第17条第1項及び第2項《輸出取引等の範囲》に規定する「船舶運航事業を営む者」、「船舶貸渡業を営む者」又は「航空運送事業を営む者」は、海上運送法又は航空法において規定する「船舶運航事業」若しくは「船舶貸渡事業」又は「航空運送事業」を営む者をいい、我が国において支店等を設けてこれらの事業を営む外国の事業者を含むほか、我が国に支店等を有していない外国の事業者で我が国との間で国際間輸送を行う者も含まれることに留意する。

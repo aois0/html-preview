@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 67の12−2 / id: 67-12-2 / title: 多額の借財の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/15/15_67_10.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/67-12-2.html
+
+[p1] 措置法第67条の12第1項に規定する「組合事業に係る多額の借財」に該当するかどうかは、組合事業に係る当該借財の額、当該借財が組合財産及び経常利益等に占める割合、当該借財の目的並びにその組合事業における従来の取扱い等の状況などを総合的に勘案して判定する。（平17年課法2−14「三十八」により追加）

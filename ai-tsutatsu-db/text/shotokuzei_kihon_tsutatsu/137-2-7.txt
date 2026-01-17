@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 137の2−7 / id: 137-2-7 / title: 担保の提供等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/19/02-2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/137-2-7.html
+
+[p1] 法第137条の2第1項の規定による担保の提供については、通則法第50条《担保の種類》から第54条《担保の提供等に関する細目》までの規定の適用があることに留意する。
+[p2] ただし、法第137条の２第11項第２号に規定する非上場株式等（137の２―８及び137の２―９において「非上場株式等」という。）を担保として提供する場合には、同号及び同項第３号の規定並びに令第266条の２第１項及び第２項の規定の適用があることに留意する。（平27課資3−2、課個2−7、課審7-6、徴管6-12追加、令5課資3-5、課法10-37、課審7-5、徴管6-27改正）

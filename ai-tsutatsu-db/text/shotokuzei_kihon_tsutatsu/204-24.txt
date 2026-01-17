@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 204−24 / id: 204-24 / title: ラジオ放送又はテレビジョン放送に係る出演の報酬又は料金に含まれるもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/36/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/204-24.html
+
+[p1] 法第204条第1項第5号に規定する「ラジオ放送若しくはテレビジョン放送に係る出演」の報酬又は料金には、クイズ放送又はいわゆるのど自慢放送の審査員に対する報酬又は料金も含まれる。

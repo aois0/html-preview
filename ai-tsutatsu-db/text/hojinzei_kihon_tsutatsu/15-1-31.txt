@@ -1,0 +1,9 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−31 / id: 15-1-31 / title: 出版業の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_13.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-31.html
+
+[p1] 令第5条第1項第12号《出版業》の出版業には、各種の名簿、統計数値、企業財務に関する情報等を印刷物等として刷成し、これを販売する事業が含まれる。(昭56年直法2−16「七」により追加)
+[p2] 1 他の者が出版する出版物の編集、監修等を引き受ける事業は、同項第10号《請負業》の請負業に該当する。
+[p3] 2 出版物の取次を行う事業は、同項第1号《物品販売業》の物品販売業又は同項第20号《問屋業》の問屋業に該当する。

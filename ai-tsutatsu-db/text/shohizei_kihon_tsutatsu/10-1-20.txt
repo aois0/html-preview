@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 10−1−20 / id: 10-1-20 / title: 譲渡等に係る対価が確定していない場合の見積り
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/10/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/10-1-20.html
+
+[p1] 事業者が資産の譲渡等を行った場合において、その資産の譲渡等をした日の属する課税期間の末日までにその対価の額が確定していないときは、同日の現況によりその金額を適正に見積もるものとする。この場合において、その後確定した対価の額が見積額と異なるときは、その差額は、その確定した日の属する課税期間における資産の譲渡等の対価の額に加算し、又は当該対価の額から減算するものとする。

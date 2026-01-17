@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 48−1の2 / id: 48-1-2 / title: 特定譲渡制限付株式等の価額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/48-1-2.html
+
+[p1] 令第109条第1項第2号((有価証券の取得価額))に規定する特定譲渡制限付株式又は承継譲渡制限付株式のその譲渡についての制限が解除された日における価額は、23〜35共−5の4により求めた価額とする。（平28課個2−22、課審5−18改正）

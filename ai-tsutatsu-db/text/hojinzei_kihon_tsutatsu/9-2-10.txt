@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−2−10 / id: 9-2-10 / title: 給与としない経済的な利益
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_02_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-2-10.html
+
+[p1] 法人が役員等に対し9−2−9に掲げる経済的な利益の供与をした場合において、それが所得税法上経済的な利益として課税されないものであり、かつ、当該法人がその役員等に対する給与として経理しなかったものであるときは、給与として取り扱わないものとする。（平19年課法2−3「二十二」により追加）

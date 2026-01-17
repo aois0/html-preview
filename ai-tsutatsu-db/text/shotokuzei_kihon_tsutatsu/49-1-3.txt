@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−1の3 / id: 49-1-3 / title: 研究開発のためのソフトウエア
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/05.htm#a-00
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-1-3.html
+
+[p1] 特定の研究開発にのみ使用するため取得又は製作をしたソフトウエア（研究開発のためのいわば材料となるものであることが明らかなものを除く。）であっても、当該ソフトウエアは減価償却資産に該当することに留意する。（平12課所4−30追加、平19課個2−11、課資3−1、課法9−5、課審4−26、平20課個2−17、課審4−186、課法9−3改正）
+[p2] （注） 当該ソフトウエアが耐用年数省令第2条第2号に規定する開発研究の用に供されている場合には、耐用年数省令別表第六に掲げる耐用年数が適用されることに留意する。
+[p3] 〔減価償却資産の償却の方法（令第120条関係）〕

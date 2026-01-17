@@ -1,0 +1,10 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 9−3−7 / id: 9-3-7 / title: 個人事業者が行う延払条件付譲渡の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/09/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/9-3-7.html
+
+[p1] 法第16条第5項《個人事業者の山林所得又は譲渡所得の基因となる資産の延払条件付譲渡に係る資産の譲渡等の時期の特例》に規定する延払条件付譲渡に該当する資産の譲渡等には、個人事業者が行う所法令第79条《資産の譲渡とみなされる行為》に規定する行為が含まれるものとする。（平10課消2−9により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第4節 工事の請負に係る資産の譲渡等の時期の特例
+[p4] 第4節 工事の請負に係る資産の譲渡等の時期の特例

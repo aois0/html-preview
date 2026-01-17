@@ -1,0 +1,10 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 11の2−1 / id: 11-2-1 / title: 「財産」の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/01.htm#a-11_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/11-2-1.html
+
+[p1] 法に規定する「財産」とは、金銭に見積ることができる経済的価値のあるすべてのものをいうのであるが、なお次に留意する。（昭57直資2−177、平3課資2-49改正 ）
+[p2] （1） 財産には、物権、債権及び無体財産権に限らず、信託受益権、電話加入権等が含まれること。
+[p3] （2） 財産には、法律上の根拠を有しないものであっても経済的価値が認められているもの、例えば、営業権のようなものが含まれること。
+[p4] （3） 質権、抵当権又は地役権（区分地上権に準ずる地役権を除く。）のように従たる権利は、主たる権利の価値を担保し、又は増加させるものであって、独立して財産を構成しないこと。

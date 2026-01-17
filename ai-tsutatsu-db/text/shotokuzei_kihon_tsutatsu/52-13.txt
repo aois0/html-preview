@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 52-13 / id: 52-13 / title: 中央銀行の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/10/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/52-13.html
+
+[p1] 令第144条第1項第4号に規定する「中央銀行」とは、金融機関でその本店又は主たる事務所の所在する国において、通貨の調節、金融の調整又は信用制度の保持育成の業務その他これに準ずる業務を行うものをいう。（平11課所4-1追加）

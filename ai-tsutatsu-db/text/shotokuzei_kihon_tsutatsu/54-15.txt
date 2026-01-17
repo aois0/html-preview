@@ -1,0 +1,11 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 54−15 / id: 54-15 / title: 青色申告の承認を受けている者等の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/10/04.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/54-15.html
+
+[p1] 令第157条に規定する「青色申告書を提出することについて税務署長の承認を受けているもの」及び「法第144条（青色申告の承認の申請）の申請書を提出したもの」の範囲については、52−23の取扱いに準ずる。（平11課所4−1改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 〔退職給与規程の範囲（令第153条関係）〕
+[p4] 法第54条《退職給与引当金》関係
+[p5] 〔退職給与規程の範囲（令第153条関係）〕

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 2−34 / id: 2-34 / title: 報酬年額又は使用料年額の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/06.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/2-34.html
+
+[p1] 令第8条第1号又は第2号に規定する「報酬の年額」又は「使用料の年額」とは、契約締結の際において見積もった報酬又は使用料のいわゆる平年額をいうものとする。

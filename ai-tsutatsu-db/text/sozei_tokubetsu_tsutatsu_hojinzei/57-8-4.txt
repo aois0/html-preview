@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 57の8−4 / id: 57-8-4 / title: 特別修繕完了の日
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/02/02_57_8.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/57-8-4.html
+
+[p1] 措置法第57条の8第5項及び措置法令第33条の6第1項、第6項又は第14項の特別の修繕の完了の日とは、定期検査の行われた船舶についての新たな船舶検査証書の交付の日をいう。（平10年課法2−7「二」により追加、平14年課法2−1「三十九」、平15年課法2−7「五十」、平24年課法2−17「二十四」、平26年課法2−6「二十六」により改正）

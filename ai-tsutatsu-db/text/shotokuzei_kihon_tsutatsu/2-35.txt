@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 2−35 / id: 2-35 / title: 使用料年額の2倍以上かどうかの判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/06.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/2-35.html
+
+[p1] 令第8条第2号に規定する「権利金、頭金その他の対価」が同号に規定する「使用料の年額の2倍に相当する金額以上」であるかどうかは、契約ごとに判定する。

@@ -1,0 +1,9 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−7−2 / id: 7-7-2 / title: 有姿除却
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_07_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-7-2.html
+
+[p1] 次に掲げるような固定資産については、たとえ当該資産につき解撤、破砕、廃棄等をしていない場合であっても、当該資産の帳簿価額からその処分見込価額を控除した金額を除却損として損金の額に算入することができるものとする。（昭55年直法2−8「二十五」により追加）
+[p2] (1) その使用を廃止し、今後通常の方法により事業の用に供する可能性がないと認められる固定資産
+[p3] (2) 特定の製品の生産のために専用されていた金型等で、当該製品の生産を中止したことにより将来使用される可能性のほとんどないことがその後の状況等からみて明らかなもの

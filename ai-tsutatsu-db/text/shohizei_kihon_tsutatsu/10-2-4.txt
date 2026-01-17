@@ -1,0 +1,12 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 10−2−4 / id: 10-2-4 / title: 芸能人の役務の提供の対価に含まれないもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/10/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/10-2-4.html
+
+[p1] 事業者が特定役務の提供を受けた場合における法第28条第２項《特定課税仕入れに係る消費税額の課税標準》に規定する特定課税仕入れに係る支払対価の額には、例えば、芸能人の実演の録音、録画、放送又は有線放送につき著作隣接権の対価として支払われるもので、契約その他において明確に区分されているものは含まれないことに留意する。（平27課消1-17により追加）
+[p2] (注) 著作隣接権の対価は資産の譲渡又は貸付けの対価に該当する。
+[p3] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p4] 第1節 通則
+[p5] 第11章 仕入れに係る消費税額の控除
+[p6] 第1節 通則

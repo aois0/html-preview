@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 57の8−6 / id: 57-8-6 / title: 準備金設定特定船舶を賃貸した場合の取崩し
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/02/02_57_8.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/57-8-6.html
+
+[p1] 法人が特別修繕準備金勘定を設けている特定船舶を賃貸した場合において、その契約により賃借人が当該特定船舶の特別の修繕のために要する費用を負担することを定めているときは、準備金設定特定船舶について特別の修繕を行わないこととなったものとして措置法第57条の8第5項第2号の規定により当該特定船舶に係る特別修繕準備金勘定の金額を取り崩すものとする。（平10年課法2−7「二」により追加、平14年課法2−1「三十九」、平15年課法2−7「五十」、平24年課法2−17「二十四」、令４年課法２−14「三十六」により改正）

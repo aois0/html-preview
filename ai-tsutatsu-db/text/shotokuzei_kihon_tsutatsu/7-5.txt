@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 7−5 / id: 7-5 / title: 確定申告等の時までに支払がない所得の支払地の推定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/7-5.html
+
+[p1] 非国外源泉所得又は国外源泉所得でその年分の確定申告書の提出又は更正若しくは決定を行う時までにまだ支払われていないものがある場合において、これらの所得が国内又は国外のいずれにおいて支払われるか明らかでないときは、例えば、同種の取引に係る所得の過去における支払地、国外にある営業所等、国外における受領者とみられる家族等又は国外にある預金口座の有無等の具体的事情に応じ、国内又は国外のいずれにおいて支払われることとなるかを適正に推定するものとする。（平28課2−4、課法11−8、課審5−5、平29課個2−13、課資3−3、課審5−5改正）

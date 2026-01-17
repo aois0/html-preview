@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 13−1−12 / id: 13-1-12 / title: 土地の価額が増加する事由
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/13/13.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/13-1-12.html
+
+[p1] 令第138条第4項《特別の経済的な利益を返還した場合の土地等の帳簿価額》に規定する「その他土地等の価値の増加があったとき」には、その土地に係る賃貸借契約に基づく借地権の存続期間の満了等による建物等の買取り又は地役権の解除等の事実が該当する。（昭55年直法2−15「三十一」により改正）

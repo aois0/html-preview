@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−27 / id: 49-27 / title: 成熟の年齢又は樹齢
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/09.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-27.html
+
+[p1] 令第6条第9号に掲げる生物の減価償却は、当該生物がその成熟の年齢又は樹齢に達した月（成熟の年齢又は樹齢に達した後に取得したものについては、取得の月）から行うことができる。この場合におけるその成熟の年齢又は樹齢は、次による。
+[p2] （1） 牛馬等については、通常業務の用に供する年齢とする。ただし、現に業務の用に供するに至った年齢がその年齢後であるときは、現に業務の用に供するに至った年齢とする。
+[p3] （2） 果樹等については、当該果樹等の償却額を含めて通常の場合におおむね収支相償うに至ると認められる樹齢とする。

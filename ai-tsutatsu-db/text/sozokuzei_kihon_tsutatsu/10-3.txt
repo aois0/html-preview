@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 10-3 / id: 10-3 / title: 「貸付金債権」の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/10.htm#a-10_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/10-3.html
+
+[p1] 法第10条第1項第7号に掲げる「貸付金債権」には、いわゆる融通手形による貸付金を含み、売掛債権、いわゆる商業手形債権その他事業取引に関して発生した債権で短期間内（おおむね6月以内）に返済されるべき性質のものは含まれないものとする。（平15課資2−1改正）

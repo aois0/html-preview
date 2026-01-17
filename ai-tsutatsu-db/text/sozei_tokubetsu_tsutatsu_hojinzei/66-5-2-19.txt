@@ -1,0 +1,11 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の5の2−19 / id: 66-5-2-19 / title: 公社債の利子から成る部分の金額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/13/13_66_5_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-5-2-19.html
+
+[p1] 措置法令第39条の13の２第24項に規定する「公社債の利子から成る部分の金額」とは、法人が支払を受ける法第２条第28号に規定する公社債投資信託の収益の分配の額の内訳書において所得税法第２条第１項第９号に規定する公社債の利子であることが確認できる金額のみをいう。（令３年課法２-21「二十七」により追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第66条の6〜第66条の9 《内国法人の外国関係会社に係る所得の課税の特例》関係
+[p4] 第13章 内国法人の外国関係会社に係る所得等の課税の特例
+[p5] 第66条の6〜第66条の9 《内国法人の外国関係会社に係る所得の課税の特例》関係

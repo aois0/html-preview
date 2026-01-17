@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 23−1 / id: 23-1 / title: 借地権及び区分地上権の評価
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/03/01.htm#a-23_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/23-1.html
+
+[p1] 建物の所有を目的とする地上権及び民法第269条の2((地下又は空間を目的とする地上権))の規定による区分地上権については、法第23条の規定の適用はなく、法第22条の規定が適用されるのであるから留意する。（昭57直資2−177、平17課資2−4改正）
+[p2] 第23条の2《配偶者居住権等の評価》関係

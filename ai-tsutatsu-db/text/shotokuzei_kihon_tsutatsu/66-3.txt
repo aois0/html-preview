@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 66−3 / id: 66-3 / title: 契約において手形で請負の対価の額が支払われることになっている場合の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/14/02.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/66-3.html
+
+[p1] 令第192条第2項《支払条件に係る長期大規模工事の判定》に規定する「支払われること」には、契約において定められている支払期日に手形により支払われる場合も含まれることに留意する。（平11課所4−1追加）

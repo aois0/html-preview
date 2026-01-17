@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 51−14 / id: 51-14 / title: 更生債権者が更生計画の定めるところにより株式を取得した場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/09/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/51-14.html
+
+[p1] 更生債権者が更生計画の定めるところにより、新たに払込み又は現物出資をしないで更生会社（新会社を含む。以下51−15において同じ。）が発行する株式を取得した場合において、当該取得した株式の価額の合計額が当該株式の割当ての基礎とされた債権額に満たないときは、その差額に相当する金額を貸倒れとすることができる。（平19課個2−11、課資3−1、課法9−5、課審4−26改正）

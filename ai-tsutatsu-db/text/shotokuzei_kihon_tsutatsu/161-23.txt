@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 161−23 / id: 161-23 / title: 職業運動家の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/22/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/161-23.html
+
+[p1] 令第282条第1号に規定する「職業運動家」には、運動家のうち、いわゆるアマチュア、ノンプロ等と称される者であっても、競技等の役務を提供することにより報酬を受ける場合には、これに含まれることに留意する。（平4課法8−5、課所4−3追加）
+[p2] （注）運動家には、陸上競技などの選手に限られず、騎手、レーサーのほか、大会などで競技する囲碁、チェス等の競技者等が含まれることに留意する。

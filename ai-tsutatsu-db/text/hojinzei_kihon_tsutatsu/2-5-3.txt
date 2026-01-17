@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−5−3 / id: 2-5-3 / title: 法人が計上しなかった仕入割戻しの処理
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-5-3.html
+
+[p1] 法人が購入した棚卸資産に係る仕入割戻しの金額につき2−5−1又は2−5−2に定める事業年度において計上しなかった場合には、その仕入割戻しの金額は、当該事業年度の総仕入高から控除しないで益金の額に算入する。（昭55年直法2−8「九」、平12年課法2−7「六」、平30年課法2−8「六」により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第6節 その他
+[p4] 第6節 その他

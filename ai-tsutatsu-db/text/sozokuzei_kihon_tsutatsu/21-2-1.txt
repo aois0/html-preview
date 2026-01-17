@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 21の2-1 / id: 21-2-1 / title: 納税義務の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/10.htm#a-21_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/21-2-1.html
+
+[p1] 法第1条の4第1項の各号のいずれに該当するかは、贈与によって財産を取得した時ごとに定まるのであるから、留意する。（平15課資2-1、平27課資2−9、平30課資2−9、令3課資2−14改正）

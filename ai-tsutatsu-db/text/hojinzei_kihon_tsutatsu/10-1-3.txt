@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 10−1−3 / id: 10-1-3 / title: 積立金の任意取崩しの場合の償却超過額等の処理
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/10/10_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/10-1-3.html
+
+[p1] 圧縮記帳による圧縮額を積立金として経理している法人が当該積立金の額の全部又は一部を取り崩して益金の額に算入した場合において、その取り崩した積立金の設定の基礎となった資産に係る償却超過額又は評価損の否認金（当該事業年度において生じた償却超過額又は評価損の否認金を含む。）があるときは、その償却超過額又は評価損の否認金の額のうち益金の額に算入した積立金の額に達するまでの金額は、当該事業年度の損金の額に算入する。（昭55年直法2−15 「十七」、昭57年直法2−11「十」、平19年課法2−3「二十六」により改正）

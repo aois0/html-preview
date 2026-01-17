@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 10−1−8 / id: 10-1-8 / title: 交換資産の時価
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/10/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/10-1-8.html
+
+[p1] 交換の当事者が交換に係る資産の価額を定め、相互に等価であるとして交換した場合において、その定めた価額が通常の取引価額と異なるときであっても、その交換がその交換をするに至った事情に照らし正常な取引条件に従って行われたものであると認められるときは、令第45条第2項第4号《交換の場合の対価の額》の規定の適用上、これらの資産の価額は当該当事者間において合意されたところによるものとする。

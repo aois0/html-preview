@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 9-12 / id: 9-12 / title: 共有持分の放棄
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/06.htm#a-9_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/9-12.html
+
+[p1] 共有に属する財産の共有者の1人が、その持分を放棄(相続の放棄を除く。)したとき、又は死亡した場合においてその者の相続人がないときは、その者に係る持分は、他の共有者がその持分に応じ贈与又は遺贈により取得したものとして取り扱うものとする。

@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 16−3の2−2 / id: 16-3-2-2 / title: 証券投資信託の収益の分配の計算期間
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/16/16_03_05b.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/16-3-2-2.html
+
+[p1] 証券投資信託の収益の分配に係る分配時調整外国税相当額につき令第149条第３項《法人税額から控除する分配時調整外国税相当額の計算》において準用する令第140条の２第２項又は第３項《法人税額から控除する所得税額の計算》の規定を適用する場合における当該収益の分配の計算の基礎となった期間については、16−２−８《証券投資信託の収益の分配の計算期間》の例による。（令元年課法2-33「四」により追加、令４年課法2−14｢五十九」により改正）

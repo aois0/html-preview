@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−1−5 / id: 7-1-5 / title: 織機の登録権利等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_01_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-1-5.html
+
+[p1] 繊維工業における織機の登録権利、許可漁業の出漁権、タクシー業のいわゆるナンバー権のように法令の規定、行政官庁の指導等による規制に基づく登録、認可、許可、割当て等の権利を取得するために支出する費用は、営業権に該当するものとする。(昭55年直法2−8「十九」、平11年課法2−9「八」により改正)
+[p2] (注) 例えば当該権利に係る事業を廃止する者に対して残存業者が負担する補償金のように当該権利の維持又は保全のために支出する費用についても、営業権として減価償却をすることができる。

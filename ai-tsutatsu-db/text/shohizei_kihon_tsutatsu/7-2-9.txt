@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 7−2−9 / id: 7-2-9 / title: 船舶の貸付けの意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/07/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/7-2-9.html
+
+[p1] 令第17条第１項第１号《国際輸送用船舶等の貸付け》に規定する「船舶の貸付け」には、裸傭船契約に基づく傭船のほか定期傭船契約に基づく傭船が含まれる。（平31課消2-9により改正）

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 204−25 / id: 204-25 / title: 出演の報酬又は料金に含まれないもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/36/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/204-25.html
+
+[p1] 料理屋、旅館等において特定の客（団体客を含む。）の求めに応じ、日本舞踊、三味線等の伎芸をもって客に接し酒興を添えるために軽易な芸を披露した者（当該料理屋、旅館等に専属して芸を披露している者又は常時出演している者など専ら客に対して芸能の提供を行う者を除く。）に対し、その客が直接に又は当該料理屋、旅館等を通じて支払うその報酬又は料金は、法第204条第1項第5号に掲げる報酬又は料金に含まれないものとする。（昭63直6−7、直所3−8、平5課法8−2、課所4−6改正）

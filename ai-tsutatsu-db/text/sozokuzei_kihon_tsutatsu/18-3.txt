@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 18−3 / id: 18-3 / title: 養子、養親の場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/05.htm#a-16_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/18-3.html
+
+[p1] 養子又は養親が相続又は遺贈により被相続人たる養親又は養子の財産を取得した場合においては、これらの者は被相続人の一親等の法定血族であるので、これらの者については法第18条の相続税額の加算の規定の適用がないのであるから留意する。
+[p2] ただし、被相続人の直系卑属が当該被相続人の養子となっている場合(当該被相続人の直系卑属が相続開始以前に死亡し、又は相続権を失ったため、代襲して相続人になっている場合を除く。)の当該直系卑属については、相続税額の加算の規定が適用されるのであるから留意する。 （昭42直審（資）5改正、平15課資2−1改正）

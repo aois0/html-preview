@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 18−2−1 / id: 18-2-1 / title: 構成会社等の従業員又はこれに類する者の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/18/18_02_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/18-2-1.html
+
+[p1] 規則第38条の31第1項《構成会社等に係る国別グループ純所得の金額から控除する金額》の構成会社等の従業員又はこれに類する者（以下18−２−１の２において「従業員等」という。）には、例えば、令第155条の38第1項《国別グループ純所得の金額から控除する金額》に規定する構成会社等の通常の業務（当該構成会社等又は当該構成会社等が属する特定多国籍企業グループ等の他の構成会社等の指揮命令を受けて行うものに限る。）に従事する外部職員（独立請負人）が含まれることに留意する。（令5年課法2−17｢十」により追加、令６年課法２−21「三」により改正）

@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の6-28 / id: 66-6-28 / title: 特定所得の金額に係る源泉税等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/14/14_66_6_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-6-28.html
+
+[p1] 措置法第66条の6第6項第1号から第4号まで及び同項第8号から第10号まで並びに措置法令第39条の17の3第16項第1号に規定する「直接要した費用の額」には、措置法第66条の6第6項に規定する特定所得の金額に係る源泉税等（令第141条第2項第3号に掲げる税及びこれに附帯して課される法第2条第41号に規定する附帯税に相当する税その他当該附帯税に相当する税に類する税をいう。）の額が含まれることに留意する。（平29年課法2-22「二」により追加、平30年課法2-12「二十九」により改正）

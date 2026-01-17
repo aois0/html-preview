@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−2−36 / id: 9-2-36 / title: 使用人が役員となった場合の退職給与
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_02_07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-2-36.html
+
+[p1] 法人の使用人がその法人の役員となった場合において、当該法人がその定める退職給与規程に基づき当該役員に対してその役員となった時に使用人であった期間に係る退職給与として計算される金額を支給したときは、その支給した金額は、退職給与としてその支給をした日の属する事業年度の損金の額に算入する。（昭55年直法2−8「三十二」、平19年課法2−3「二十二」により改正）
+[p2] (注) 9−2−35の(注)は、この取扱いを適用する場合について準用する。

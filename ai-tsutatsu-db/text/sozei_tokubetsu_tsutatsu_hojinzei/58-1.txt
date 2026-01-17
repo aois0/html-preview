@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 58−1 / id: 58-1 / title: 鉱業を営む法人の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/04/04_58.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/58-1.html
+
+[p1] 措置法第58条第1項に規定する「法人で鉱業を営むもの」には、鉱業法による鉱業権者又は租鉱権者として鉱業を営む法人のほか、鉱業権者又は租鉱権者として登録は受けていないが、鉱業権者又は租鉱権者である者との契約に基づいて鉱業経営に関する費用及び損失を負担し、採掘された鉱物（当該鉱物に係る収益を含む。）の配分を受けることとしているため、実質的に自ら鉱業を営んでいると認められる法人が含まれるものとする。（昭54年直法2−31「十七」により追加、平15年課法2−22「二十七」により改正）

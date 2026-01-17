@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 121-4 / id: 121-4 / title: 一の給与等の支払者から給与等の支払を受ける場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/19/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/121-4.html
+
+[p1] 法第121条第1項第1号に規定する一の給与等の支払者から給与等の支払を受ける場合とは、その年中の同一時点においては2以上の給与等の支払者から給与等の支払を受けることがない場合をいうのであるが、2以上の給与等の支払者から給与等の支払を受ける場合であっても、当該給与等の全部について法第190条《年末調整》の規定が適用されるときは、これに該当するものとする。

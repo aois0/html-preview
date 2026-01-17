@@ -1,0 +1,10 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 6−4−6 / id: 6-4-6 / title: 物品切手等の取扱手数料
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/06/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/6-4-6.html
+
+[p1] 事業者が法別表第二第4号ハ《物品切手等の譲渡》に規定する物品切手等を譲渡した場合において、当該譲渡が他の者からの委託によるものであるときは、当該事業者における物品切手等の譲渡は法第2条第1項第8号《資産の譲渡等の意義》に規定する資産の譲渡に該当しないが、当該譲渡に関して受ける取扱手数料は、課税資産の譲渡等の対価に該当することに留意する。（令５課消２−９により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第5節 国等の手数料及び外国為替業務等関係
+[p4] 第5節 国等の手数料及び外国為替業務等関係

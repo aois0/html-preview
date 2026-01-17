@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−6−4 / id: 5-6-4 / title: 保税地域において外国貨物が亡失又は滅失した場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-6-4.html
+
+[p1] 保税地域にある外国貨物が災害等により亡失し、又は滅失した場合には、法第4条第6項《保税地域における外国貨物の消費等》の規定は適用されないのであるから留意する。（平27課消1-17により改正）

@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 14−1−5 / id: 14-1-5 / title: 課税売上げと非課税売上げを一括して対象とする売上割戻し
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/14/01/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/14-1-5.html
+
+[p1] 事業者が、一の取引先に対して課税資産の譲渡等（軽減対象課税資産の譲渡等を除く。）、軽減対象課税資産の譲渡等及びこれら以外の資産の譲渡等のうち２以上の区分の資産の譲渡等を同時に行った場合において、当該２以上の区分の資産の譲渡等の対価の額につき、一括して売上げに係る割戻しを行ったときは、それぞれの資産の譲渡等に係る部分の割戻金額を合理的に区分したところにより法第38条第１項《売上げに係る対価の返還等をした場合の消費税額の控除》の規定を適用することとなるのであるから留意する。（令５課消２−９により改正）

@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 3-31 / id: 3-31 / title: 被相続人の死亡後支給額が確定した退職手当金等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/03.htm#a-3_18
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/3-31.html
+
+[p1] 被相続人の生前退職による退職手当金等であっても、その支給されるべき額が、被相続人の死亡前に確定しなかったもので、被相続人の死亡後3年以内に確定したものについては、法第3条第1項第2号に規定する退職手当金等に該当するのであるから留意する。(昭50直資2-257追加、昭57直資2-177改正)

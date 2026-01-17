@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 79−2 / id: 79-2 / title: 年の中途で死亡した居住者等の障害者である扶養親族等とされた者に係る障害者控除
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/06.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/79-2.html
+
+[p1] 年の中途において死亡し又は出国をした居住者の障害者である同一生計配偶者又は扶養親族について、その居住者が障害者控除の適用を受けた場合であっても、その後その年中において相続人等他の居住者の同一生計配偶者又は扶養親族にも該当するときは、当該他の居住者が自己の障害者である同一生計配偶者又は扶養親族として障害者控除の適用を受けることができることに留意する。（平22課個2−16、課法9−1、課審4−30追加、平29課法10−13、課個2−22、課審5−8改正）
+[p2] 法第80条《寡婦控除》関係

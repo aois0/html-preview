@@ -1,0 +1,11 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−7−20 / id: 9-7-20 / title: 費途不明の交際費等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_07_04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-7-20.html
+
+[p1] 法人が交際費、機密費、接待費等の名義をもって支出した金銭でその費途が明らかでないものは、損金の額に算入しない。（昭46年直審（法）20「9」、昭55年直法2−15「十六」により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第1節 圧縮記帳の通則
+[p4] 第10章 圧縮記帳
+[p5] 第1節 圧縮記帳の通則

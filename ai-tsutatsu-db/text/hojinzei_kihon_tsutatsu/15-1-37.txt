@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−37 / id: 15-1-37 / title: 写真業の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_14.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-37.html
+
+[p1] 令第5条第1項第13号《写真業》の写真業には、他の者の撮影した写真フィルムの現像、焼付け等（その取次ぎを含む。）を行う事業が含まれる。（昭56年直法2−16「七」により追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第15款 席貸業
+[p4] 第15款 席貸業

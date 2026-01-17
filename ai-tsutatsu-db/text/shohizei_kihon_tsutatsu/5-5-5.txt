@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−5−5 / id: 5-5-5 / title: ゴルフクラブ等の入会金
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-5-5.html
+
+[p1] ゴルフクラブ、宿泊施設その他レジャー施設の利用又は一定の割引率で商品等を販売するなど会員に対する役務の提供を目的とする事業者が会員等の資格を付与することと引換えに収受する入会金（返還しないものに限る。）は、資産の譲渡等の対価に該当することに留意する。

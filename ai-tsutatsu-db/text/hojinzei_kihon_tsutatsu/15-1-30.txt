@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−30 / id: 15-1-30 / title: 印刷業の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_12.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-30.html
+
+[p1] 令第5条第1項第11号《印刷業》の印刷業には、謄写印刷業、タイプ孔版印刷業及び複写業のほか、製版業、植字業、鉛版等製造業、銅版又は木版彫刻業、製本業、印刷物加工業等が含まれる。（昭56年直法2−16「七」により追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第13款 出版業
+[p4] 第13款 出版業

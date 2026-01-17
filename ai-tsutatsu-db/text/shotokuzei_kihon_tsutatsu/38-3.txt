@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 38−3 / id: 38-3 / title: 主たる部分を業務の用に供していない譲渡資産の取得費
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/18.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/38-3.html
+
+[p1] 譲渡資産が業務の用と業務の用以外の用とに併せ供されていた場合において、当該譲渡資産の所有期間を通じ、当該業務の用以外の用に供されていた部分が当該譲渡資産の90%以上であるときは、その資産の全部が業務の用以外の用に供されていたものとして法第38条第2項の規定を適用して差し支えない。

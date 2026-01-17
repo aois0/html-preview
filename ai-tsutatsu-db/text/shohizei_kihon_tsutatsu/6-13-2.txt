@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 6−13−2 / id: 6-13-2 / title: プール、アスレチック施設等付き住宅の貸付け
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/06/13.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/6-13-2.html
+
+[p1] プール、アスレチック施設等を備えた住宅の貸付けにおいて、例えば当該施設等を居住者以外の者も利用でき、かつ、当該居住者以外の者が利用する場合に利用料（月決め又は年決めの会費等を含む。）を徴収している場合等には、居住者について家賃の一部としてその利用料に相当する額が収受されていても、当該施設等の貸付けは住宅の貸付けには含まれないのであるから留意する。

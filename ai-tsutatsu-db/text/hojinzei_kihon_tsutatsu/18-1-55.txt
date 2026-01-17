@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 18−1−55 / id: 18-1-55 / title: 保険業に係る自己資本の充実が図られるものの意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/18/18_01_08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/18-1-55.html
+
+[p1] 規則第38条の19《銀行等に係る個別計算所得等の金額の計算》の「保険業に関する規制により必要とされる自己資本の充実が図られるもの」とは、例えば、平成8年2月29日付大蔵省告示第50号「保険会社の資本金、基金、準備金等及び通常の予測を超える危険に相当する額の計算方法等を定める件」第1条第4項第5号イ《資本金、基金、準備金等の計算》に掲げる負債性資本調達手段又は外国におけるこれに相当するものに係るものをいう。（令5年課法2−17｢九」により追加）

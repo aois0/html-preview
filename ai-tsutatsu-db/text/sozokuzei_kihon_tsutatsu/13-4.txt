@@ -1,0 +1,10 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 13−4 / id: 13-4 / title: 葬式費用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/03.htm#a-13_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/13-4.html
+
+[p1] 法第13条第1項の規定により葬式費用として控除する金額は、次に掲げる金額の範囲内のものとする。（昭57直資2−177改正）
+[p2] （2） 葬式に際し、施与した金品で、被相続人の職業、財産その他の事情に照らして相当程度と認められるものに要した費用
+[p3] （3） （1）又は（2）に掲げるもののほか、葬式の前後に生じた出費で通常葬式に伴うものと認められるもの
+[p4] （4） 死体の捜索又は死体若しくは遺骨の運搬に要した費用

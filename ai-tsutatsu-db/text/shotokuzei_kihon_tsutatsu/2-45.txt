@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 2−45 / id: 2-45 / title: 職業に必要な技術の教授をする課程の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/07.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/2-45.html
+
+[p1] 令第11条の3第2項第1号《勤労学生の範囲》に規定する「職業に必要な技術の教授をする」課程とは、一定の資格、特殊な技能又は専門的な知識を必要とする職業におけるその一定の資格の取得又は特殊な技能若しくは専門的な知識の習得に必要な学科、実技等の教授をする課程をいうものとする。（昭46直審（所）19、昭60直所3−21、直資3−5改正）
+[p2] 〔同一生計配偶者等（第33号から第33号の4まで関係）〕

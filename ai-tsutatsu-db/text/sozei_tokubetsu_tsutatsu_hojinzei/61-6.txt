@@ -1,0 +1,11 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 61-6 / id: 61-6 / title: 申告に係る損金の額に算入されるべき金額の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/05/05_60_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/61-6.html
+
+[p1] 措置法第61条第8項に規定する「申告に係るその損金の額に算入されるべき金額」の意義については、60-6の取扱いを準用する。（平23年課法2-17「二十九」により追加、平26年課法2-6「三十」、平27年課法2-8「二十」、平28年課法2-11「二十九」、令４年課法２−14「四十」により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第61条の2 《農業経営基盤強化準備金》 関係
+[p4] 第7章 認定農地所有適格法人の課税の特例
+[p5] 第61条の2 《農業経営基盤強化準備金》関係

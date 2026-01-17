@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 9-1 / id: 9-1 / title: 「利益を受けた」の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/06.htm#a-9_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/9-1.html
+
+[p1] 法第9条に規定する「利益を受けた」とは、おおむね利益を受けた者の財産の増加又は債務の減少があった場合等をいい、労務の提供等を受けたような場合は、これに含まないものとする。

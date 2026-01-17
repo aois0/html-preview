@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−9−8 / id: 5-9-8 / title: 飲食設備等の設置者が異なる場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/09.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-9-8.html
+
+[p1] 飲食料品を提供する事業者とテーブルや椅子等の設備を設置し、又は管理している者とが異なる場合において、これらの者の間の合意等に基づき、当該設備を当該事業者の顧客に利用させることとしているときは、当該設備は、飲食設備に該当することに留意する。（令５課消２−９により追加）
+[p2] (注) 飲食料品を提供する事業者と何ら関連のない公園のベンチ等の設備は、当該事業者から飲食料品を購入した顧客が飲食に利用した場合であっても、飲食設備には該当しない。

@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 8−3−1 / id: 8-3-1 / title: 固定資産を公共的施設として提供した場合の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/08/08_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/8-3-1.html
+
+[p1] 法人がその有する固定資産を自己が便益を受ける公共的施設として提供した場合におけるその提供に係る繰延資産の額は、当該固定資産のその提供の直前における帳簿価額に相当する金額によることができる。（昭55年直法2−8「三十」により追加）

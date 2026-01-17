@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−3−15 / id: 7-3-15 / title: 出願権を取得するための費用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_03_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-3-15.html
+
+[p1] 法人が他から出願権（工業所有権に関し特許又は登録を受ける権利をいう。）を取得した場合のその取得の対価については、無形固定資産に準じて当該出願権の目的たる工業所有権の耐用年数により償却することができるが、その出願により工業所有権の登録があったときは、当該出願権の未償却残額（工業所有権を取得するために要した費用があるときは、その費用の額を加算した金額)に相当する金額を当該工業所有権の取得価額とする。(昭46年直審（法）21「4」により改正）

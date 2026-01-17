@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 38−4 / id: 38-4 / title: たな卸資産である不動産
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/01.htm#a-38_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/38-4.html
+
+[p1] 法第38条に規定する「不動産」には、たな卸資産である不動産を含むのであるから留意する。（昭57直資2−177追加、平4課資2−158・徴管5−6、平18徴管5−14改正）

@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 33-6 / id: 33-6 / title: 借家人が受ける立退料
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/33-6.html
+
+[p1] 借家人が賃貸借の目的とされている家屋の立退きに際し受けるいわゆる立退料のうち、借家権の消滅の対価の額に相当する部分の金額は、令第95条《譲渡所得の収入金額とされる補償金等》に規定する譲渡所得に係る収入金額に該当する。
+[p2] （注） 上記に該当しない立退料については、34-1の（7）参照

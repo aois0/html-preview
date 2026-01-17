@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 5−2 / id: 5-2 / title: 保険金受取人の取扱いの準用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/05.htm#a-5_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/5-2.html
+
+[p1] 法第5条第1項に規定する「保険金受取人」については、3−11及び3-12の取扱いに準ずるものとする。（昭57直資2−177改正）

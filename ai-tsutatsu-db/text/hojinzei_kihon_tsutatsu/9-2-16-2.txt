@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−2−16の2 / id: 9-2-16-2 / title: 業績指標に応じて無償で取得する株式の数が変動する給与
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_02_05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-2-16-2.html
+
+[p1] 譲渡制限付株式による給与で、令第111条の2第1項第2号《譲渡制限付株式の範囲等》の無償で取得する株式の数が業績指標に応じて変動するものは、法第34 条第1項各号《役員給与の損金不算入》に掲げる給与のいずれにも該当しない。（平29年課法2−17「十二」により追加）

@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 42の11-4 / id: 42-11-4 / title: 特定国際戦略事業の用に供したものとされる資産の貸与
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/01/01_42_11.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/42-11-4.html
+
+[p1] 措置法第42条の11第1項に規定する指定法人（以下「指定法人」という。）が、その取得又は製作若しくは建設をした同項に規定する特定機械装置等を自己の下請業者に貸与した場合において、当該特定機械装置等が同項に規定する国際戦略総合特別区域内において専ら当該指定法人の同項に規定する特定国際戦略事業（以下「特定国際戦略事業」という。）のためにする製品の加工等の用に供されるものであるときは、当該特定機械装置等は当該指定法人の営む特定国際戦略事業の用に供したものとして同条の規定を適用する。（平23年課法2-17「九」により追加、平26年課法2-6「七」により改正）

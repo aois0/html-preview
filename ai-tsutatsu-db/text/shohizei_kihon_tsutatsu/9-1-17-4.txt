@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 9−1−17の4 / id: 9-1-17-4 / title: 持分会社の社員の持分等の譲渡の時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/09/01/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/9-1-17-4.html
+
+[p1] 合名会社、合資会社又は合同会社の社員の持分、協同組合等の組合員又は会員の持分その他これらに類する法人（人格のない社団等、匿名組合及び民法上の組合を含む。）の出資者の持分（証券が発行されていないものに限る。）の譲渡の時期は、譲渡の意思表示があった日とする。（平11課消2−8により追加、平18課消1−16により改正）

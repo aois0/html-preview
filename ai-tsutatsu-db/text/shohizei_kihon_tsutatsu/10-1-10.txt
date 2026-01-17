@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 10−1−10 / id: 10-1-10 / title: 他の事業者の資産の専属的利用による経済的利益の額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/10/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/10-1-10.html
+
+[p1] 事業者が課税資産の譲渡等の対価として他の者の有する資産を専属的に利用する場合のその利用に係る法第28条第1項《課税標準》に規定する経済的な利益の額は、その資産の利用につき通常支払うべき使用料その他その利用の対価に相当する額（その利用者がその利用の対価として支出する金額があるときは、これを控除した額）とする。

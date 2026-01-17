@@ -1,0 +1,10 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 21の8-3 / id: 21-8-3 / title: 「当該財産の価額」等の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/11.htm#a-21_6_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/21-8-3.html
+
+[p1] 法第21条の8に規定する「当該財産の価額」及び「課税価格に算入された財産の価額」とは、暦年課税においては贈与税の配偶者控除及び贈与税の基礎控除前の当該財産の価額、相続時精算課税においては相続時精算課税に係る基礎控除及び法第21条の12第1項に規定する特別控除前の当該財産の価額をいうものとする。（昭46直審（資）6改正、平15課資2-1、平19課資2-5、平21課資2-5、平22課資2-12、課審6-15、課評2-22、令５課資２−21改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第21条の6《贈与税の配偶者控除》関係
+[p4] 第21条の6《贈与税の配偶者控除》関係

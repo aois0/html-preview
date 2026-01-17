@@ -1,0 +1,6 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 18−1−8 / id: 18-1-8 / title: 収入等が会社等の恒久的施設等に帰せられないことの判定を行う場合の準用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/18/18_01_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/18-1-8.html
+

@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 1−4−10 / id: 1-4-10 / title: 出向により分割承継法人等の業務に従事する場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/01/01_04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/1-4-10.html
+
+[p1] 法第2条第12号の11ロ(2)又は令第4条の3第8項第4号若しくは第9項第4号《適格分割の要件》に規定する「分割承継法人の業務に従事することが見込まれていること」には、分割法人の分割の直前の従業者が出向により分割承継法人の業務に従事する場合が含まれることに留意する。
+[p2] 法第2条第12号の14ロ(2)又は令第4条の3第15項第4号《適格現物出資の要件》の判定についても、同様とする。（平14年課法2−1「三」により追加、平19年課法2−17「二」、平22年課法2−1「五」、平28年課法2−11「一」、平29年課法2−17「四」により改正）

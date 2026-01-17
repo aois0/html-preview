@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 12−1 / id: 12-1 / title: 「墓所、霊びょう」の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/02.htm#a-12_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/12-1.html
+
+[p1] 法第12条第1項第2号に規定する「墓所、霊びょう」には、墓地、墓石及びおたまやのようなもののほか、これらのものの尊厳の維持に要する土地その他の物件をも含むものとして取り扱うものとする。（平元直資2−207改正）

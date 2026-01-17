@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 9−12の2 / id: 9-12-2 / title: 「資力を喪失して債務を弁済することが著しく困難」である場合の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/9-12-2.html
+
+[p1] 法第9条第1項第10号及び令第26条《非課税とされる資力喪失による譲渡所得》に規定する「資力を喪失して債務を弁済することが著しく困難」である場合とは、債務者の債務超過の状態が著しく、その者の信用、才能等を活用しても、現にその債務の全部を弁済するための資金を調達することができないのみならず、近い将来においても調達することができないと認められる場合をいい、これに該当するかどうかは、これらの規定に規定する資産を譲渡した時の現況により判定する。（昭50直資3−11、直所3−19追加、平元直所3−14、直法6−9、直資3−8改正）

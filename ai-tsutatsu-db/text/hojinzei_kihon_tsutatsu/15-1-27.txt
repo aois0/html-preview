@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−27 / id: 15-1-27 / title: 請負業の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_11.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-27.html
+
+[p1] 令第5条第1項第10号《収益事業の範囲》の請負業には、事務処理の委託を受ける業が含まれるから、他の者の委託に基づいて行う調査、研究、情報の収集及び提供、手形交換、為替業務、検査、検定等の事業（国等からの委託に基づいて行うこれらの事業を含み、同号イからホまでに掲げるものを除く。）は請負業に該当するが、農産物等の原産地証明書の交付等単に知っている事実を証明するだけの行為はこれに含まれない。（昭56年直法2−16「七」により追加、平16年課法2−14「十五」、令6年課法2-14「九」により改正）

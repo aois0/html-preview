@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−19 / id: 49-19 / title: 定額法を定率法に変更した場合等の償却費の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/08.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-19.html
+
+[p1] 減価償却資産の償却方法について、旧定額法を旧定率法に変更した場合又は定額法を定率法に変更した場合には、その後の償却費（令第134条第２項の規定による償却費を除く。）は、その変更をした年の１月１日における未償却残額、当該減価償却資産に係る改定取得価額又は当該減価償却資産に係る取得価額を基礎とし、当該減価償却資産について定められている耐用年数に応ずる償却率、改定償却率又は保証率により計算するものとする。（平19課個2−11、課資3−1、課法9−5、課審4−26、平19課個2−31、課審4−44改正）

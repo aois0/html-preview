@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−7−1 / id: 7-7-1 / title: 取り壊した建物等の帳簿価額の損金算入
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_07_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-7-1.html
+
+[p1] 法人がその有する建物、構築物等でまだ使用に耐え得るものを取り壊し新たにこれに代わる建物、構築物等を取得した場合（7−3−6《土地とともに取得した建物等の取壊し費等》に該当する場合を除く。）には、その取り壊した資産の取壊し直前の帳簿価額（取り壊した時における廃材等の見積額を除く。）は、その取り壊した日の属する事業年度の損金の額に算入する。（昭55年直法2−8「二十五」により改正）

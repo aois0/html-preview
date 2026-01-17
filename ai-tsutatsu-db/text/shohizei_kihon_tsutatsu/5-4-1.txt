@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−4−1 / id: 5-4-1 / title: 資産に係る権利の設定の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-4-1.html
+
+[p1] 法第2条第2項《資産の貸付けの意義》に規定する「資産に係る権利の設定」とは、例えば、土地に係る地上権若しくは地役権、特許権等の工業所有権に係る実施権若しくは使用権又は著作物に係る出版権の設定をいう。

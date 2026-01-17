@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 28−2 / id: 28-2 / title: 同一人が宿直と日直とを引き続いて行った場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/28-2.html
+
+[p1] 同一人が宿直と日直とを引き続いて行った場合（土曜日等通常の勤務時間が短い日の宿直で、宿直としての勤務時間が長いため、通常の日の宿直料よりも多額の宿直料が支給される場合を含む。）には、通常の宿直又は日直に相当する勤務時間を経過するごとに宿直又は日直を1回行ったものとして、28−1のただし書の取扱いを適用する。

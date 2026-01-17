@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 20−5−32 / id: 20-5-32 / title: 恒久的施設の閉鎖に伴う資産に係る時価の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/20a/20_05_07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/20-5-32.html
+
+[p1] 法第142条の8第1項《恒久的施設の閉鎖に伴う資産の時価評価損益》に規定する「恒久的施設閉鎖事業年度（……）終了の時に恒久的施設に帰せられる資産」の価額を算定する場合には、12の７−３−１《通算制度の開始に伴う時価評価資産等に係る時価の意義》の取扱いを準用する。（平26年課法2−9「九」により追加、令４年課法2−14｢六十五」により改正）

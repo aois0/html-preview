@@ -1,0 +1,31 @@
+doc: 国税通則法基本通達 (kokuzei_tsusoku_kihon_tsutatsu)
+item: 7-2 / id: 7-2 / title: 
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/mokuji.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/kokuzei_tsusoku_kihon_tsutatsu/7-2.html
+
+[p1] 納税者の履行状況に関する保証人への通知
+[p2] 8
+[p3] 担保提供の順位
+[p4] 担保の額
+[p5] 9
+[p6] 担保の額
+[p7] 10
+[p8] 担保財産の見積価額
+[p9] 第51条関係 担保の変更等
+[p10] 1
+[p11] その他の理由
+[p12] 2
+[p13] 担保を提供した者
+[p14] 3
+[p15] その他の担保を確保するための措置
+[p16] 第52条関係 担保の処分
+[p17] 担保の処分
+[p18] 1
+[p19] 不服申立てに係る国税の担保の処分
+[p20] 2
+[p21] 会社更生法との関係
+[p22] 担保財産の処分
+[p23] 3
+[p24] 担保財産の差押え
+[p25] 保証人からの徴収

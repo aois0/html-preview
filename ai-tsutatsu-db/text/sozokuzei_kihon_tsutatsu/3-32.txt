@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 3-32 / id: 3-32 / title: 被相続人の死亡後確定した賞与
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/03.htm#a-3_18
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/3-32.html
+
+[p1] 被相続人が受けるべきであった賞与の額が被相続人の死亡後確定したものは、法第3条第1項第2号に規定する退職手当金等には該当しないで、本来の相続財産に属するものであるから留意する。

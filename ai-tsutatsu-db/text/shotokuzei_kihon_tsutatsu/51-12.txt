@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 51−12 / id: 51-12 / title: 回収不能の貸金等の貸倒れ
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/09/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/51-12.html
+
+[p1] 貸金等につき、その債務者の資産状況、支払能力等からみてその全額が回収できないことが明らかになった場合には、当該債務者に対して有する貸金等の全額について貸倒れになったものとしてその明らかになった日の属する年分の当該貸金等に係る事業の所得の金額の計算上必要経費に算入する。この場合において、当該貸金等について担保物があるときは、その担保物を処分した後でなければ貸倒れとすることはできない。（昭57直所3−1改正）
+[p2] （注） 保証債務は、現実にこれを履行した後でなければ貸倒れの対象にすることはできないことに留意する。

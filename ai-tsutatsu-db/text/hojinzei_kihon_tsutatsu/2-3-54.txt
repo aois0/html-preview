@@ -1,0 +1,6 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−3−54 / id: 2-3-54 / title: 履行確定取引及び履行予定取引の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_03_07a.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-3-54.html
+

@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−2−6 / id: 15-2-6 / title: 収益事業に専属する借入金等の利子
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-2-6.html
+
+[p1] 公益法人等が、法令の規定、主務官庁の指導等により収益事業以外の事業に係る資金の運用方法等が規制されているため、収益事業の遂行上必要な資金の全部又は一部を外部からの借入金等により賄うこととしている場合には、当該借入金等に係る利子の額のうち当該収益事業の遂行上通常必要と認められる部分の金額は、収益事業について直接要した費用の額とすることができる。(昭56年直法2−16「八」により追加)

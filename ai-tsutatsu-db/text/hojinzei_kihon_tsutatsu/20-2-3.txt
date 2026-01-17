@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 20−2−3 / id: 20-2-3 / title: 恒久的施設が果たす機能の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/20a/20_02_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/20-2-3.html
+
+[p1] 法第138条第1項第1号《恒久的施設帰属所得》に規定する「恒久的施設が果たす機能」には、恒久的施設が果たすリスクの引受け又はリスクの管理に関する人的機能、資産の帰属に係る人的機能、研究開発に係る人的機能、製造に係る人的機能、販売に係る人的機能、役務提供に係る人的機能等が含まれることに留意する。（平26年課法2−9「六」により追加）
+[p2] (注) 本文の「恒久的施設が果たすリスクの引受け又はリスクの管理に関する人的機能」とは、当該恒久的施設を通じて行う事業に従事する者が行うリスクの引受け又はリスクの管理に関する積極的な意思決定が必要とされる活動をいう。

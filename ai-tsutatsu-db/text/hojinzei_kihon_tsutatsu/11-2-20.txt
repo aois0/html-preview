@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 11−2−20 / id: 11-2-20 / title: リース取引に係る売掛債権等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/11/11_02_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/11-2-20.html
+
+[p1] 法第64条の2第1項《リース取引に係る所得の金額の計算》により売買があったものとされたリース取引に係るリース料のうち、当該事業年度終了の時において支払期日の到来していないリース料の額の合計額は売掛債権等に該当するものとする。(平19年課法2−17「二十一」により追加、平20年課法2−5「二十三」により改正)

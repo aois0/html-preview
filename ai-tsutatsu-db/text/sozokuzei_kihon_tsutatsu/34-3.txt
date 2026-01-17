@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 34−3 / id: 34-3 / title: 連帯納付の責めにより相続税又は贈与税の納付があった場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/04/01.htm#a-27_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/34-3.html
+
+[p1] 法第34条第1項又は第4項の規定による連帯納付の責めに基づいて相続税又は贈与税の納付があった場合において、その納付が相続若しくは遺贈により財産を取得した者又は贈与により財産を取得した者がその取得した財産を費消するなどにより資力を喪失して相続税又は贈与税を納付することが困難であることによりなされたときは、8−3の取扱いの適用はないのであるから留意する。（平元直資2−207追加）
+[p2] （注） 法第34条第1項又は第4項の規定による連帯納付の責めに基づいて相続税又は贈与税の納付があった場合において、上記の場合に該当しないときには、8−3の適用がある。

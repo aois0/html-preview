@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−5−12 / id: 9-5-12 / title: 役員等に対する罰科金等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_05_06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-5-12.html
+
+[p1] 法人がその役員又は使用人に対して課された罰金若しくは科料、過料又は交通反則金を負担した場合において、その罰金等が法人の業務の遂行に関連してされた行為等に対して課されたものであるときは法人の損金の額に算入しないものとし、その他のものであるときはその役員又は使用人に対する給与とする。（平21年課法2−5「八」により追加、令４年課法2−14｢二十六」により改正）

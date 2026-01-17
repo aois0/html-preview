@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 13−6 / id: 13-6 / title: 信託の受益者としての権利の譲渡等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/03/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/13-6.html
+
+[p1] 受益者等課税信託の受益者がその有する権利の譲渡又は取得が行われた場合には、その権利の目的となっている信託財産に属する資産及び負債が譲渡又は取得されたこととなることに留意する。（平19課個2−11、課資3−1、課法9−5、課審4−26追加）

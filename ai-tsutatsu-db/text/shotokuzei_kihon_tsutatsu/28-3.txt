@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 28−3 / id: 28-3 / title: 年額又は月額により支給される旅費
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/28-3.html
+
+[p1] 職務を遂行するために行う旅行の費用に充てるものとして支給される金品であっても、年額又は月額により支給されるものは、給与等とする。ただし、その支給を受けた者の職務を遂行するために行う旅行の実情に照らし、明らかに法第9条第1項第4号《非課税所得》に掲げる金品に相当するものと認められる金品については、課税しない。

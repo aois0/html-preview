@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 38−14 / id: 38-14 / title: 電話加入権の取得費
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/18.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/38-14.html
+
+[p1] 電話加入権の取得費には、電気通信事業者との加入電話契約に基づいて支出する工事負担金のほか、屋内配線工事に要した費用等電話機を設置するために支出する費用（当該費用の支出の目的となった資産を自己の所有とする場合のその設置のために支出するものを除く。）が含まれることに留意する。（昭60直所3−1、直法6−1、直資3−1、昭60直所3−21、直資3−5、平16課個2−23、課資3−7、課法8−8、課審4−33改正）

@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 14−2−8 / id: 14-2-8 / title: 領収書等の交付の省略
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/14/14_02_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/14-2-8.html
+
+[p1] 組合員の利用の対価を組合員の勤務先の給与から差引決済する等掛売りの方法を採用している等のため、領収書等を組合員に交付しないでも組合員の利用量が確認できることとなっている消費生活協同組合等については、売掛台帳等により確認された利用分量により消費生協法規則第207条第7項《利用分量割戻しの基準》の基準の判定及び第207条第10項《利用分量の確認》の利用分量の確認を行うことができる。(平11年課法2−9「十九」、平14年課法2−1「三十五」、平20年課法2−5「二十八」により改正)
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第2款 特別の賦課金
+[p4] 第2款 特別の賦課金

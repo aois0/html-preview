@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 48の2−6 / id: 48-2-6 / title: 当該財産の状況に著しい変化が生じたとき
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/06.htm#a-44_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/48-2-6.html
+
+[p1] 法第48条の2第5項に規定する「収納の時までに当該財産の状況に著しい変化が生じたとき」については、43-3の取扱いに準ずる。（平18徴管5-14追加）

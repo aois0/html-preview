@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 28−7 / id: 28-7 / title: 委員手当等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/28-7.html
+
+[p1] 国又は地方公共団体の各種委員会（審議会、調査会、協議会等の名称のものを含む。）の委員に対する謝金、手当等の報酬は、原則として、給与等とする。ただし、当該委員会を設置した機関から他に支払われる給与等がなく、かつ、その委員会の委員として旅費その他の費用の弁償を受けない者に対して支給される当該謝金、手当等の報酬で、その年中の支給額が1万円以下であるものについては、課税しなくて差し支えない。この場合において、その支給額が1万円以下であるかどうかは、その所属する各種委員会ごとに判定するものとする。（平2直法6−5、直所3−6改正）

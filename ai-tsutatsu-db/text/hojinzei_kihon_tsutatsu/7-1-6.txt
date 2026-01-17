@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−1−6 / id: 7-1-6 / title: 無形減価償却資産の事業の用に供した時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_01_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-1-6.html
+
+[p1] 令第13条第8号《無形減価償却資産の範囲》に掲げる無形減価償却資産のうち、漁業権、工業所有権及び樹木採取権については、その存続期間の経過により償却すべきものであるから、その取得の日から事業の用に供したものとして取り扱う。(昭55年直法2−8「十九」、令2年課法2−17「五」により改正)

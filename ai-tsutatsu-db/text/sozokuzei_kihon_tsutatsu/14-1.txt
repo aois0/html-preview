@@ -1,0 +1,10 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 14−1 / id: 14-1 / title: 確実な債務
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/03.htm#a-13_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/14-1.html
+
+[p1] 債務が確実であるかどうかについては、必ずしも書面の証拠があることを必要としないものとする。
+[p2] なお、債務の金額が確定していなくても当該債務の存在が確実と認められるものについては、相続開始当時の現況によって確実と認められる範囲の金額だけを控除するものとする。（昭57直資2
+[p3] −
+[p4] 177改正）

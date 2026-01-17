@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−56 / id: 15-1-56 / title: 医療保健業の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_29.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-56.html
+
+[p1] 令第5条第1項第29号《収益事業の範囲》の医療保健業には、施術業、助産師業、看護業、歯科技工業、獣医業等が含まれる。(昭56年直法2−16「七」、平15年課法2−7「五十三」、令6年課法2-14「九」により改正)

@@ -1,0 +1,10 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 57の7−2 / id: 57-7-2 / title: 特定原子力施設炉心等除去準備金の取扱いの準用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/02/02_57_7.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/57-7-2.html
+
+[p1] 関西国際空港用地整備準備金の額の益金算入等については、57の4−1の取扱いに準じて取り扱うものとする。（平24年課法2−17「二十二」により追加、平26年課法2−6「二十四」、令元年課法2-10「二十六」、令2年課法2-17「十六」、令４年課法２−14「三十四」、令5年課法2−8「十一」により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第57条の7の2 《中部国際空港整備準備金》関係
+[p4] 第57条の7の2 《中部国際空港整備準備金》関係

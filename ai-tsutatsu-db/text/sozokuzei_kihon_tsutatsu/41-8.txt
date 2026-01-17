@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 41−8 / id: 41-8 / title: 通常行われる他の土地との境界確認方法
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/03.htm#a-41_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/41-8.html
+
+[p1] 法施行規則第21条第3項第1号に規定する「当該土地の取引において通常行われる他の土地との境界の確認方法により境界を認識できるもの」とは、例えば、山林などの境界確認のように、目印となる樹木や山の尾根などをもって土地の境界とする合意が当事者間で行われることが一般的な例とされているものなどをいう。（平18徴管5−14追加）

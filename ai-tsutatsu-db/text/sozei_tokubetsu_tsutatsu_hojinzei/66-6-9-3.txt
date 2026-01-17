@@ -1,0 +1,8 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の6-9の3 / id: 66-6-9-3 / title: 事業の遂行上欠くことのできない機能の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/14/14_66_6_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-6-9-3.html
+
+[p1] 措置法令第39条の14の３第８項第２号に規定する「管理支配会社の行う事業（……）の遂行上欠くことのできない機能を果たしていること」とは、特定子会社の株式等の保有を主たる事業とする外国関係会社が存在しないとしたならば、管理支配会社の行う事業の継続に支障をきたすこととなり、かつ、当該事業の継続のために代替する機能が必要となることをいう。
+[p2] 同条第９項第１号イ、同項第３号イ(1)(�A)、同号ハ、措置法規則第22条の11第10項第２号、第14項第１号及び第20項第２号の欠くことのできない機能を果たしていることについても、同様とする。（令元年課法２−６「一」により追加、令4年課法2−14「六十一」により改正）

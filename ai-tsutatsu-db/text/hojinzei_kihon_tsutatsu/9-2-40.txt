@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−2−40 / id: 9-2-40 / title: 生計の支援を受けているもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_02_08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-2-40.html
+
+[p1] 令第72条第3号《特殊関係使用人の範囲》に規定する「役員から生計の支援を受けているもの」とは、当該役員から給付を受ける金銭その他の財産又は給付を受けた金銭その他の財産の運用によって生ずる収入を生活費に充てている者をいう。（平10年課法2−7「十」により追加、平10年課法2−17「五」、平19年課法2−3「二十二」、平22年課法2−1「十八」により改正）

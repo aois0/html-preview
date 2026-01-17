@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 204−11 / id: 204-11 / title: 登録免許税に充てるため支払われた金銭等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/36/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/204-11.html
+
+[p1] 法第204条第1項第2号に掲げる報酬又は料金の支払者が、同号に規定する者に対し委嘱事項に関連して支払う金銭等であっても、当該支払者が国又は地方公共団体に対し登記、申請等をするため本来納付すべきものとされている登録免許税、手数料等に充てるものとして支払われたことが明らかなものについては、同項の規定は適用しない。

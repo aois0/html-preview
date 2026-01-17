@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 11−2−8 / id: 11-2-8 / title: 保険金等による資産の譲受け等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/11/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/11-2-8.html
+
+[p1] 法第2条第1項第12号《課税仕入れの意義》に規定する「他の者から資産を譲り受け、若しくは借り受け、又は役務の提供を受けること」（以下11−2−8において「資産の譲受け等」という。）が課税仕入れに該当するかどうかは、資産の譲受け等のために支出した金銭の源泉を問わないのであるから、保険金、補助金、損害賠償金等を資産の譲受け等に充てた場合であっても、その資産の譲受け等が課税仕入れに該当するときは、その課税仕入れにつき法第30条《仕入れに係る消費税額の控除》の規定が適用されるのであるから留意する。（令５課消２−９により改正）

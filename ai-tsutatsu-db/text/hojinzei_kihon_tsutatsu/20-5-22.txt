@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 20−5−22 / id: 20-5-22 / title: 規制上の自己資本の額及び規制上の連結自己資本の額の円換算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/20a/20_05_05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/20-5-22.html
+
+[p1] 令第188条第2項第1号ロ《恒久的施設に帰せられるべき資本に対応する負債の利子の損金不算入》に規定する「規制上の自己資本の額」は、外国法人の当該事業年度終了の日における外国通貨表示の当該規制上の自己資本の額を当該事業年度終了の日の電信売買相場の仲値により換算した円換算額による。
+[p2] 同条第4項第2号に規定する「外国法人の属する企業集団の当該事業年度の規制上の連結自己資本の額」についても、同様とする。（平26年課法2−9「九」により追加）

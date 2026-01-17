@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の6-15 / id: 66-6-15 / title: 船舶又は航空機の貸付けの意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/14/14_66_6_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-6-15.html
+
+[p1] 措置法第66条の6第2項第3号イ又は同条第6項第8号の規定の適用上、船舶又は航空機の貸付けとは、いわゆる裸用船（機）契約に基づく船舶（又は航空機）の貸付けをいい、いわゆる定期用船（機）契約又は航海用船（機）契約に基づく船舶（又は航空機）の用船（機）は、これに該当しない。（平29年課法2-22「二」により追加）

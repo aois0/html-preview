@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−39の２ / id: 49-39-2 / title: 一時的に貸付けの用に供した減価償却資産
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/12.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-39-2.html
+
+[p1] 令第138条又は第139条の規定の適用上、居住者が減価償却資産を貸付けの用に供したかどうかはその減価償却資産の使用目的、使用状況等を総合勘案して判定されるものであるから、例えば、一時的に貸付けの用に供したような場合において、その貸付けの用に供した事実のみをもって、その減価償却資産がこれらの規定に規定する貸付けの用に供したものに該当するとはいえないことに留意する。（令４課個2-13、課法12-16、課審5-９追加）

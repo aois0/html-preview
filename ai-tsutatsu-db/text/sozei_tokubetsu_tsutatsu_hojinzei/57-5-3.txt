@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 57の5−3 / id: 57-5-3 / title: 通常の掛金率及び特別の安全率の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/02/02_57_5.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/57-5-3.html
+
+[p1] 措置法第57条の5第4項に規定する「通常の掛金率」とは、同条第1項第7号に規定する火災等共済組合が行政庁の認可を受けた共済掛金算出方法書に記載されている基本共済掛金の算出の基礎となる純掛金率及び付加掛金率をいい、同条第4項に規定する「特別の安全率」とは、当該基本共済掛金の算出上特別に危険率を考慮して純掛金率及び付加掛金率のほかに特に加算される安全率をいうことに留意する。（昭53年直法2−24「50」、昭58年直法2−11「十四」、平2年直法2−6「二十五」、平26年課法2−6「二十三」により改正）

@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−2−1 / id: 15-2-1 / title: 所得に関する経理
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-2-1.html
+
+[p1] 令第6条《収益事業を行う法人の経理の区分》の「所得に関する経理」とは、単に収益及び費用に関する経理だけでなく、資産及び負債に関する経理を含むことに留意する。(昭56年直法2−16「八」、平20年課法2−5「三十」により改正)
+[p2] (注) 一の資産が収益事業の用と収益事業以外の事業の用とに共用されている場合(それぞれの事業ごとに専用されている部分が明らかな場合を除く。)には、当該資産については、収益事業に属する資産としての区分経理はしないで、その償却費その他当該資産について生ずる費用の額のうち収益事業に係る部分の金額を当該収益事業に係る費用として経理することになる。

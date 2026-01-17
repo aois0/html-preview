@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 95−27 / id: 95-27 / title: 利子の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/17/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/95-27.html
+
+[p1] 165の3−8の取扱いは、法第95条第7項に規定する利子の範囲について準用する（平28課2−4、課法11−8、課審5−5追加、平28課個2-22、課審5-18改正）。
+[p2] (外国所得税の換算）

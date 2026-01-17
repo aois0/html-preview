@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 121-3 / id: 121-3 / title: 役員から受ける金銭その他の資産によって生計を維持している者の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/19/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/121-3.html
+
+[p1] 令第262条の2第4号《給与所得以外の所得が少額であっても確定申告書の提出を要する場合》に規定する「役員から受ける金銭その他の資産によって生計を維持している者」とは、同族会社の役員から給付を受ける金銭その他の資産又はその給付を受けた金銭その他の資産の運用によって生ずる収入を日常生活の資の主要部分としている者をいう。

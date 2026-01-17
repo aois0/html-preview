@@ -1,0 +1,10 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 33-9 / id: 33-9 / title: 資産の取得の日
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/33-9.html
+
+[p1] 法第33条第3項第1号に規定する取得の日は、次による。
+[p2] （1） 他から取得した資産については、36-12に準じて判定した日とする。
+[p3] （2） 自ら建設、製作又は製造（以下この項において「建設等」という。）をした資産については、当該建設等が完了した日とする。
+[p4] （3） 他に請け負わせて建設等をした資産については、当該資産の引渡しを受けた日とする。

@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 11−2−5 / id: 11-2-5 / title: 担保権の実行により取立て等の見込みがあると認められる部分の金額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/11/11_02_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/11-2-5.html
+
+[p1] 令第96条第1項第1号及び第3号《貸倒引当金勘定への繰入限度額》に規定する担保権の実行により取立て等の見込みがあると認められる部分の金額とは、質権、抵当権、所有権留保、信用保険等によって担保されている部分の金額をいうことに留意する。（平10年課法2−7「十五」により追加）

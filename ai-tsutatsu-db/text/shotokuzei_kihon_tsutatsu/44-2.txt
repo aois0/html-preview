@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 44−2 / id: 44-2 / title: 資産の移転、移築の費用に充てるため交付を受けた金額を除却の費用に充てた場合等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/06/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/44-2.html
+
+[p1] 資産の移転又は移築の費用に充てるために交付を受けた金額をその資産の除却のために支出した場合又は資産の除却の費用に充てるために交付を受けた金額をその資産の移転又は移築のために支出した場合においても、その支出した金額は、法第44条の規定の適用上、その交付の目的に従って支出したものとする。
+[p2] 法第44条の2《免責許可の決定等により債務免除を受けた場合の経済的利益の総収入金額不算入》関係

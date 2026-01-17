@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 55−2 / id: 55-2 / title: 相続又は遺贈により取得したものとみなされる財産
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/07/01.htm#a-49_2
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/55-2.html
+
+[p1] 法第55条の規定により課税価格を計算する場合において、法第3条及び第4条並びに第7条から第9条までの規定により相続又は遺贈により取得したものとみなされる財産があるときは、当該財産の価額は、その者の民法に規定する相続分又は包括遺贈の割合に応ずる本来の相続財産価額に加算して課税価格を計算するものとする。
+[p2] 第59条《調書の提出》関係

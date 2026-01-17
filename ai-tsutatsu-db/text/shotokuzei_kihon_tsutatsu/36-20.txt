@@ -1,0 +1,11 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 36−20 / id: 36-20 / title: 事業の広告宣伝のための賞金を受けた場合の経済的利益の評価
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/36-20.html
+
+[p1] 法第204条第1項第8号《源泉徴収義務》に規定する広告宣伝のための賞金を受けた場合の経済的利益の額については、令第321条《金銭以外のもので支払われる賞金の価額》の規定により評価した金額によって差し支えない。
+[p2] （注） 令第321条の規定による評価については、205−9参照
+[p3] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p4] 〔給与等に係る経済的利益〕
+[p5] 〔給与等に係る経済的利益〕

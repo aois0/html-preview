@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 95−3 / id: 95-3 / title: 
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/17/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/95-3.html
+
+[p1] 法第95条第1項又は第2項《外国税額控除》の規定による外国税額控除は、外国所得税を納付することとなる日の属する年分において適用があるのであるが、居住者が継続してその納付することが確定した外国所得税の額につき、実際に納付した日の属する年分においてこれらの項を適用している場合には、これを認める。
+[p2] （注） 上記の「納付することとなる日」とは、申告、賦課決定等の手続により外国所得税について具体的にその納付すべき租税債務が確定した日をいう。
+[p3] (予定納付等をした外国所得税についての外国税額控除の適用時期）

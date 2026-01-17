@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−53 / id: 49-53 / title: 少額な劣化資産の必要経費算入
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/13.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-53.html
+
+[p1] 劣化資産のうち、一の設備に通常使用される劣化資産の取得価額が少額（おおむね60万円未満）なものは、その投入の都度その取得価額を必要経費に算入することができる。（昭55直所3−19、直法6−8、平元直所3−14、直法6−9、直資3−8改正）
+[p2] 〔その他〕

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−39 / id: 49-39 / title: 少額の減価償却資産又は一括償却資産であるかどうかの判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/12.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-39.html
+
+[p1] 令第138条又は第139条の規定を適用する場合において、取得価額が10万円未満又は20万円未満であるかどうかは、通常1単位として取引されるその単位、例えば、機械及び装置については1台又は1基ごとに、工具、器具及び備品については1個、1組又は1そろいごとに判定し、構築物のうち例えば枕木、電柱等単体では機能を発揮できないものについては、社会通念上一の効用を有すると認められる単位ごとに判定する。（昭51直所3−1、直法6−1、直資3−1、平11課所4−1改正）

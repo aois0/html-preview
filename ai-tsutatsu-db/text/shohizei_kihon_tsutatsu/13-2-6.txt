@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 13−2−6 / id: 13-2-6 / title: 製造小売業の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/13/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/13-2-6.html
+
+[p1] 製造小売業は、日本標準産業分類において小売業に分類されているが、法第37条《中小事業者の仕入れに係る消費税額の控除の特例》の規定の適用上は、令第57条第5項第3号へ《事業の種類》の製造業に含まれ、第三種事業に該当するのであるから留意する。

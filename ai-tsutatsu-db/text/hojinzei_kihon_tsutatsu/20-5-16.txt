@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 20−5−16 / id: 20-5-16 / title: 内部取引に係る勘定科目の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/20a/20_05_04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/20-5-16.html
+
+[p1] 令第187条第3項各号《保険会社の投資資産及び投資収益》の内部取引に係る勘定科目に計上されている金額は、税務計算上の金額によることに留意する。（平26年課法2−9「九」により追加）

@@ -1,0 +1,8 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の5の2−7 / id: 66-5-2-7 / title: 除外対象特定債券現先取引等に係る負債の帳簿価額の平均的な残高の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/13/13_66_5_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-5-2-7.html
+
+[p1] 措置法令第39条の13の２第９項に規定する「当該事業年度の当該負債の帳簿価額の平均的な残高として合理的な方法により計算した金額」とは、例えば、除外対象特定債券現先取引等（同条第８項に規定する除外対象特定債券現先取引等をいう。以下同じ。）に係る負債の帳簿価額の日々の平均残高又は各月末の平均残高等、その事業年度を通じた負債の帳簿価額の平均的な残高をいうものとする。（令元年課法2-33「二」により追加）
+[p2] (注) その事業年度の開始の時及び終了の時における除外対象特定債券現先取引等に係る負債の帳簿価額の平均額は、「平均的な残高として合理的な方法により計算した金額」に該当しない。

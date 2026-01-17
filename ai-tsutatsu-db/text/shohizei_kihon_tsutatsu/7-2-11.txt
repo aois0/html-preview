@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 7−2−11 / id: 7-2-11 / title: 水先等の役務の提供に類するもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/07/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/7-2-11.html
+
+[p1] 令第17条第2項第3号《輸出取引等の範囲》に規定する「その他これらに類する役務の提供」には、例えば、外航船舶等の清掃、廃油の回収、汚水処理等が含まれる。

@@ -1,0 +1,6 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 13の2−1−5 / id: 13-2-1-5 / title: 前渡金等の振替え
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/13_2/13_2_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/13-2-1-5.html
+

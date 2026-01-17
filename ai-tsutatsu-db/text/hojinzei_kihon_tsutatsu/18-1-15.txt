@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 18−1−15 / id: 18-1-15 / title: 持分法が適用されることとなる会社等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/18/18_01_06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/18-1-15.html
+
+[p1] 法第82条第15号イ《定義》の「適用されることとなる会社等」には、最終親会社等の連結等財務諸表において持分法が適用されていない場合、特定財務会計基準又は適格財務会計基準において持分法が適用されることとなる会社等がこれに該当することに留意する。（令５年課法２−17｢九」により追加、令6年課法2−21「二」により改正）

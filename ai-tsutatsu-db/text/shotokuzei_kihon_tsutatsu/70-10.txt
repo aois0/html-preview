@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 70−10 / id: 70-10 / title: 損壊等を防止するための費用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/15/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/70-10.html
+
+[p1] 事業用資産の災害による損壊等を予測して事前に当該損壊等を防止するために支出する費用（資本的支出に該当するものを除く。）は、その支出した日の属する年分の必要経費に算入されるのであるが、現実に災害による損壊等の事実が生ずるに至らなかった場合又は当該費用が令第203条第3号に掲げる費用に該当しない場合には、当該費用は被災事業用資産の損失とはならないことに留意する。（昭57直所3−1改正）

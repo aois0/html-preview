@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 53−1 / id: 53-1 / title: 利子税の計算の基礎となる相続税額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/07/01.htm#a-49_2
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/53-1.html
+
+[p1] 物納の許可若しくは物納申請の却下があった場合又は物納申請を取り下げたものとみなされた場合に、納付すべき利子税額を計算するに当たっては、物納財産ごとにされた物納許可等に係る税額を基礎金額として法第53条の規定に基づき計算するのであるから留意する。（平18徴管5−14追加）

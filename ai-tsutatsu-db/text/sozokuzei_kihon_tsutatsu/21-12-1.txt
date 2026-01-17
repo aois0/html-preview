@@ -1,0 +1,9 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 21の12-1 / id: 21-12-1 / title: 特別控除を適用する場合の申告要件
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/12.htm#a-21_11_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/21-12-1.html
+
+[p1] 法第21条の12第1項の規定は、贈与税の期限内申告書の提出がない限り、適用がないのであるから留意する。（平15課資2-1追加）
+[p2] (注) 贈与税の期限内申告書の提出がなかった場合におけるゆうじょ規定は設けられていない。
+[p3] 第21条の15《相続時精算課税に係る相続税額》関係

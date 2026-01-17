@@ -1,0 +1,9 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 1−5−9 / id: 1-5-9 / title: 分割等があった日
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/01/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/1-5-9.html
+
+[p1] 法第12条第1項《分割等があった場合の納税義務の免除の特例》に規定する「分割等があった日」とは、次に掲げる場合の区分に応じ、それぞれ次の日とする。（平13課消1−5、平14課消1−12により改正）
+[p2] (1) 当該分割等が法第12条第7項第1号又は第2号《分割等の意義》に該当する場合 同条第1項に規定する新設分割子法人の設立の登記の日
+[p3] (2) 当該分割等が法第12条第7項第3号《分割等の意義》に該当する場合 同号の契約に基づく金銭以外の資産の譲渡が行われた日

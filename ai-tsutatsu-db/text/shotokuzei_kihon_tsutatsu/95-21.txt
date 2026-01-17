@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 95−21 / id: 95-21 / title: 振替公社債等の利子
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/17/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/95-21.html
+
+[p1] 161−13の取扱いは、法第95条第4項第6号イに規定する債券の範囲について準用する（平28課2−4、課法11−8、課審5−5追加）。

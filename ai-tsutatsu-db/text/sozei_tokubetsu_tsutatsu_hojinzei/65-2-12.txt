@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 65の2-12 / id: 65-2-12 / title: 買取り等の申出証明書の発行者
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/10/10_65_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/65-2-12.html
+
+[p1] 公共事業施行者の買取り等の申出に関する事務に従事した者がその公共事業施行者の本店又は主たる事務所以外の営業所、事務所その他の事業場に勤務するものである場合には、保存する「買取り等の申出があったことを証する書類」は、当該営業所、事務所その他の事業場の長が発行したものによることができるものとする。（平19年課法2-5「六」、平30年課法2-12「二十二」により改正）

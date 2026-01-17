@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 13−1−5の2 / id: 13-1-5-2 / title: 「やむを得ない事情」の範囲等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/13/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/13-1-5-2.html
+
+[p1] 法第37条第8項《届出書の提出時期に係る特例》に規定する「やむを得ない事情」の意義については、1−4−16による。
+[p2] また、令第57条の2第3項《中小事業者の仕入れに係る消費税額の控除の特例の適用を受ける旨の届出等に関する特例》に規定する「当該事情がやんだ後相当の期間内」の意義については、1−4−17による。（平10課消2−9により追加、平22課消1−9、平28課消1-57により改正）

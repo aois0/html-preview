@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 12−2−3 / id: 12-2-3 / title: 災害損失の額に含まれる棚卸資産等の譲渡損
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/12/12_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/12-2-3.html
+
+[p1] 棚卸資産又は固定資産の譲渡による損失の額は、災害損失の額には含まれないのであるが、被災事業年度において、法人が、災害により著しく損傷したこれらの資産を譲渡したことにより生じた損失の額のうち被害を受けたことに基因する金額を災害損失の額に含めているときは、これを認める。(平29年課法2−2「三」により追加)

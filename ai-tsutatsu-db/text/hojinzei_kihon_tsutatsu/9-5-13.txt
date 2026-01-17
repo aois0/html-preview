@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−5−13 / id: 9-5-13 / title: 外国等が課する罰金又は科料に相当するもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_05_06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-5-13.html
+
+[p1] 法第55条第5項第1号《不正行為等に係る費用等の損金不算入》に規定する外国又はその地方公共団体が課する罰金又は科料に相当するものとは、裁判手続（刑事訴訟手続）を経て外国又はその地方公共団体により課されるものをいう。（平21年課法2−5「八」により追加、令４年課法2−14｢二十六」により改正）
+[p2] (注) いわゆる司法取引により支払われたものも、裁判手続（刑事訴訟手続）を経て課された罰金又は科料に相当するものに該当することに留意する。

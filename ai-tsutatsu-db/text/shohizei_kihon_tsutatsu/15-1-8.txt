@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 15−1−8 / id: 15-1-8 / title: 中間納付額の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/15/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/15-1-8.html
+
+[p1] 法第2条第1項第20号《中間納付額の意義》に規定する「中間納付額」とは、法第48条《課税資産の譲渡等及び特定課税仕入れについての中間申告による納付》の規定により納付すべき法第42条第1項第1号、第4項第1号及び第6項第1号《課税資産の譲渡等及び特定課税仕入れについての中間申告》に掲げる金額又は法第43条第1項第4号《仮決算をした場合の中間申告書の記載事項等》に掲げる残額に相当する消費税額をいい、事業者が納付した消費税額ではないことに留意する。（平14課消1−12、平15課消1−37、平27課消1-17により改正）

@@ -1,0 +1,6 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 12の7−2−13 / id: 12-7-2-13 / title: 通算承認の失効後５年経過前に通算子法人となる法人
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/12_7/12_7_02_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/12-7-2-13.html
+

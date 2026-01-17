@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 204−8 / id: 204-8 / title: デザインとその施工の対価を一括して支払う場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/36/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/204-8.html
+
+[p1] ネオンサイン、広告塔、ショーウインドー、陳列棚、商品展示会場又は庭園等のデザインとその施工とを併せて請け負った者にその対価を一括して支払うような場合には、その対価の総額をデザインの報酬又は料金と施工の対価とに区分し、デザインの報酬又は料金について源泉徴収を行うべきであるが、そのデザインの報酬又は料金の部分が極めて少額であると認められるときは、源泉徴収をしなくて差し支えない。

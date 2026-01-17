@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 14−4−3 / id: 14-4-3 / title: 信託財産に帰せられる収益及び費用の帰属額の総額法による計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/14/14_04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/14-4-3.html
+
+[p1] 受益者等課税信託の受益者等である法人は、当該受益者等課税信託の信託財産から生ずる利益又は損失を当該法人の収益又は費用とするのではなく、当該法人に係る当該信託財産に属する資産及び負債並びに当該信託財産に帰せられる収益及び費用を当該法人のこれらの金額として各事業年度の所得の金額の計算を行うのであるから、留意する。（平19年課法2−5「八」により追加）

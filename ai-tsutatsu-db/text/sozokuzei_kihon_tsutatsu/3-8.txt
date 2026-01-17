@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 3-8 / id: 3-8 / title: 保険金とともに支払を受ける剰余金等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/02.htm#a-3_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/3-8.html
+
+[p1] 法第3条第1項第1号の規定により相続又は遺贈により取得したものとみなされる保険金には、保険契約に基づき分配を受ける剰余金、割戻しを受ける割戻金及び払戻しを受ける前納保険料の額で、当該保険契約に基づき保険金とともに当該保険契約に係る保険金受取人(共済金受取人を含む。以下同じ。)が取得するものを含むものとする。(昭57直資2-177追加)

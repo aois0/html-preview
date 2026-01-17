@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 18−1−73 / id: 18-1-73 / title: ３年以内に支払われることが見込まれない金額に含まれないもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/18/18_01_10.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/18-1-73.html
+
+[p1] 令第155条の35第2項第3号ニ《調整後対象租税額の計算》の規定の適用に当たり、修正申告又は更正若しくは決定（外国におけるこれらに相当するものを含む。）により生じた法人税等の額は、同号ニの3年以内に支払われることが見込まれない金額に含まれないことに留意する。（令5年課法2−17｢九」により追加、令6年課法2−21「二」により改正）

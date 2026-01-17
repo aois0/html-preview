@@ -1,0 +1,11 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 6−6−3 / id: 6-6-3 / title: 保険外併用療養費、療養費等の支給に係る療養
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/06/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/6-6-3.html
+
+[p1] 健康保険法等の規定に基づく保険外併用療養費、医療費等の支給に係る療養は非課税となるが、これには、被保険者又は被保険者の家族の療養に際し、被保険者が負担する一部負担金に係る療養も含まれるのであるから留意する。（平12官総8−3、平18課消1−43、令５課消２−９により改正）
+[p2] (注) 平成元年大蔵省告示第7号「消費税法別表第二第6号に規定する財務大臣の定める資産の譲渡等及び金額を定める件」の規定により定められた金額を超える部分の金額については、非課税とされる療養の対価に該当しないことに留意する。
+[p3] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p4] 第7節 社会福祉事業等関係
+[p5] 第7節 社会福祉事業等関係

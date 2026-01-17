@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 10−1−17 / id: 10-1-17 / title: 下取り
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/10/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/10-1-17.html
+
+[p1] 課税資産の譲渡等に際して資産の下取りを行った場合であっても当該課税資産の譲渡等の金額について、その下取りに係る資産の価額を控除した後の金額とすることはできないのであるから留意する。（令５課消２−９により改正）
+[p2] (注) 課税資産（令第45条第３項第１号又は第２号《一括譲渡した場合の課税標準の計算の方法》に掲げる資産をいう。以下同じ。）の下取りをした場合には、その下取りは課税仕入れに該当し、法第30条《仕入れに係る消費税額の控除》の規定を適用することとなる。

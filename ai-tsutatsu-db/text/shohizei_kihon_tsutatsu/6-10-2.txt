@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 6−10−2 / id: 6-10-2 / title: 部分品の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/06/10.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/6-10-2.html
+
+[p1] 身体障害者用物品の一部を構成する部分品については、身体障害者用物品には該当しないのであるから留意する。

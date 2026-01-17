@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 63-1 / id: 63-1 / title: 個人事業を引き継いで設立された法人の損金に算入されない退職給与
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/13/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/63-1.html
+
+[p1] 個人事業を引き継いで設立された法人が、個人事業当時から引き続き在職する使用人の退職により退職給与を支給した場合において、その支給した金額のうちに、個人事業当時の事業主の負担すべきものとして当該法人の所得の金額の計算上損金に算入されなかった金額があるときは、その金額については、その事業主が支出した退職給与として法第63条の規定を適用する。

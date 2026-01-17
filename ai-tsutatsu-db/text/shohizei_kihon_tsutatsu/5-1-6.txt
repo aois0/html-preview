@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−1−6 / id: 5-1-6 / title: 金銭以外の資産の出資の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-1-6.html
+
+[p1] 令第2条第1項第2号《金銭以外の資産の出資》に規定する「金銭以外の資産の出資」には、法第12条第7項第3号《分割等の意義》に該当する金銭出資により設立した法人に同号の契約に基づく金銭以外の資産を譲渡する形態により行われるものは含まれないのであるから留意する。
+[p2] したがって、この場合における当該金銭以外の資産の譲渡に係る対価の額は、当該譲渡について現実に対価として収受し、又は収受すべき金額となる。（平13課消1-5により改正）

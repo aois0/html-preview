@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−30の6 / id: 49-30-6 / title: 形式基準による専用機械装置等の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/09.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-30-6.html
+
+[p1] 機械装置等を対象とするリース取引が、当該リース取引に係るリース資産の耐用年数の100分の80に相当する年数(1年未満の端数がある場合には、その端数を切り捨てる。)以上の年数をリース期間とするものである場合は、当該リース取引は令第120条の2第2項第5号ハに規定する「その使用可能期間中当該リース取引に係る賃借人によつてのみ使用されると見込まれるもの」には該当しないものとして取り扱うことができる。（平19課個2−31、課審4−44追加）

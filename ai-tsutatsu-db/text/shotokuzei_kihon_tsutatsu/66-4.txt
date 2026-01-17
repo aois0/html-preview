@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 66−4 / id: 66-4 / title: 長期大規模工事に該当するかどうかの判定単位
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/14/02.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/66-4.html
+
+[p1] 請け負った工事が法第66条第1項に規定する長期大規模工事に該当するかどうかは、当該工事に係る契約ごとに判定するのであるが、複数の契約書により工事の請負に係る契約が締結されている場合であって、当該契約に至った事情等からみてそれらの契約全体で一の工事を請け負ったと認められる場合には、当該工事に係る契約全体を一の契約として長期大規模工事に該当するかどうかの判定を行うことに留意する。（平11課所4−1追加）

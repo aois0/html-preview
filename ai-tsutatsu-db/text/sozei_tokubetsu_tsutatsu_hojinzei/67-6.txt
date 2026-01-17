@@ -1,0 +1,10 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 67-6 / id: 67-6 / title: 社会保険診療報酬に係る損金の額の計算明細書の添付
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/15/15_67.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/67-6.html
+
+[p1] 措置法第67条第1項の規定の適用を受ける場合には、同条第3項の規定により損金算入に関する申告の記載及び明細書の添付が必要であるが、この場合における明細書には社会保険診療報酬に係る損金の額及び当該損金の額の計算の基礎並びに同条第1項の規定により計算した金額を記載するものとする。(昭54年直法2-31「二十七」により改正)
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第67条の12 ((組合事業等による損失がある場合の課税の特例)) 関係
+[p4] 第67条の12 《組合事業等による損失がある場合の課税の特例》関係

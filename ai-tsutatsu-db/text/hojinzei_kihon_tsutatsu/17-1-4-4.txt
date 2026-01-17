@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 17−1−4の4 / id: 17-1-4-4 / title: 通算法人に係る確定申告書の提出期限の延長又は延長の特例の取扱いの準用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/17/17_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/17-1-4-4.html
+
+[p1] 通算法人が法第75条《確定申告書の提出期限の延長》又は第75条の２《確定申告書の提出期限の延長の特例》の規定の適用を受ける場合には、次表の左欄の取扱いを準用する。この場合において、左欄の規定中の中欄の字句は、右欄の字句に読み替える。（令４年課法2−14｢六十二」により追加）
+[p2] 左欄
+[p3] 中欄
+[p4] 右欄

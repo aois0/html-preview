@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−7−10 / id: 5-7-10 / title: 資産の所在場所が国外である場合の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-7-10.html
+
+[p1] 国内の事業者が、国内の他の事業者に対し、対価を得て法第4条第3項第1号又は令第6条第1項《資産の譲渡等が国内において行われたかどうかの判定》の規定により国外に所在するものとされる資産の譲渡又は貸付けをした場合には、当該譲渡又は貸付けは国外において行われたこととなり、消費税の課税の対象とはならないのであるから留意する。

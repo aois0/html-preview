@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 20−2−15 / id: 20-2-15 / title: 損害賠償金等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/20a/20_02_05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/20-2-15.html
+
+[p1] 法第138条第1項第4号及び第5号《国内源泉所得》に掲げる対価には、これらの対価に代わる性質を有する損害賠償金その他これに類するもの（債務の履行遅滞による損害金を含む。）が含まれることに留意する。（平26年課法2−9「六」により追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第3節 租税条約に異なる定めがある場合の国内源泉所得
+[p4] 第3節 租税条約に異なる定めがある場合の国内源泉所得

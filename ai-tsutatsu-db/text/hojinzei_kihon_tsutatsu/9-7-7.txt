@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−7−7 / id: 9-7-7 / title: 業務の遂行上必要な海外渡航の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_07_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-7-7.html
+
+[p1] 法人の役員又は使用人の海外渡航が法人の業務の遂行上必要なものであるかどうかは、その旅行の目的、旅行先、旅行経路、旅行期間等を総合勘案して実質的に判定するものとするが、次に掲げる旅行は、原則として法人の業務の遂行上必要な海外渡航に該当しないものとする。
+[p2] (1) 観光渡航の許可を得て行う旅行
+[p3] (2) 旅行あっせんを行う者等が行う団体旅行に応募してする旅行
+[p4] (3) 同業者団体その他これに準ずる団体が主催して行う団体旅行で主として観光目的と認められるもの

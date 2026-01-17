@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 55-2 / id: 55-2 / title: 積立限度額の計算の基礎となる取得価額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/02/02_55_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/55-2.html
+
+[p1] 措置法第55条に規定する海外投資等損失準備金の積立額の計算の基礎となる特定株式等の取得価額は、当該特定株式等の取得に際し現実に負担した金額によることに留意する。(平11年課法2-9「二十八」、平14年課法2-1「三十一」、平15年課法2-7「三十四」、平26年課法2-6「十五」により改正)

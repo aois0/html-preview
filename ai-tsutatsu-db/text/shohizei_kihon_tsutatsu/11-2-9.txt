@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 11−2−9 / id: 11-2-9 / title: 滅失等した資産に係る仕入税額控除
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/11/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/11-2-9.html
+
+[p1] 課税仕入れ等に係る資産が事故等により滅失し、若しくは亡失した場合又は盗難にあった場合などのように、結果的に資産の譲渡等を行うことができなくなった場合であっても、当該課税仕入れ等について法第30条《仕入れに係る消費税額の控除》の規定が適用されるのであるから留意する。

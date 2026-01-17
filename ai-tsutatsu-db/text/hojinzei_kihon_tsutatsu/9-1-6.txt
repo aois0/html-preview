@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−1−6 / id: 9-1-6 / title: 棚卸資産について評価損の計上ができない場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_01_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-1-6.html
+
+[p1] 棚卸資産の時価が単に物価変動、過剰生産、建値の変更等の事情によって低下しただけでは、令第68条第1項第1号《棚卸資産の評価損の計上ができる事実》に掲げる事実に該当しないことに留意する。（平12年課法2−19「十三」、平17年課法2−14「九」により改正）

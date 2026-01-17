@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 5−3−1 / id: 5-3-1 / title: 原価差額の調整
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/05/05_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/5-3-1.html
+
+[p1] 法人が各事業年度において製造等をした棚卸資産につき算定した取得価額が、令第32条第1項《棚卸資産の取得価額》に規定する取得価額に満たない場合には、その差額（以下この節において「原価差額」という。）のうち期末棚卸資産に対応する部分の金額は、当該期末棚卸資産の評価額に加算する。 （平16年課法2−14「四」により改正
+[p2] ）

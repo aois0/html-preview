@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 11−1−5 / id: 11-1-5 / title: 水道光熱費等の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/11/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/11-1-5.html
+
+[p1] 個人事業者が行う水道光熱費等の支払のうち課税仕入れに該当するのは、所法令第96条各号《家事関連費》に掲げる経費に係る部分に限られるのであるから留意する。（令５課消２−９により改正）

@@ -1,0 +1,10 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 192−1 / id: 192-1 / title: 徴収繰延額の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/32/02.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/192-1.html
+
+[p1] 法第192条第2項の規定により不足額の徴収繰延べをする場合において、同項に規定する「その承認に係る金額」の2分の1に相当する金額に1円未満の端数を生ずるときは、通則法第119条第3項《国税の確定金額の端数計算等》の規定により、翌年1月に徴収すべき税額に係るものは切り上げ、翌年2月に徴収すべき税額に係るものは切り捨てることに留意する。
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 法第191条《過納額の還付》関係
+[p4] 法第191条《過納額の還付》関係

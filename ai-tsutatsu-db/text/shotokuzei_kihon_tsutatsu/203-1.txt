@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 203−1 / id: 203-1 / title: 同一年中に2以上の退職手当等の支払を受ける場合の退職所得の受給に関する申告書の提出方法等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/34/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/203-1.html
+
+[p1] 同一年中に2以上の支払者から退職手当等の支払を受ける場合において、退職所得の受給に関する申告書をその2以上の支払者に同時に提出しようとするときは、それぞれの支払者に提出する当該申告書にその提出の順序を記載するものとする。この場合において、その記載された順序が先順位である支払者から支払を受ける退職手当等は、その順序が後順位である支払者に提出する当該申告書に法第203条第1項第2号に規定する「支払済みの他の退職手当等」に該当するものとして記載するものとする。

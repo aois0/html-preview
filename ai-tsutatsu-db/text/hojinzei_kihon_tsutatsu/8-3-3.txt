@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 8−3−3 / id: 8-3-3 / title: 分割払の繰延資産
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/08/08_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/8-3-3.html
+
+[p1] 法人が令第14条第1項第6号《公共的施設の負担金等の繰延資産》に掲げる繰延資産となるべき費用の額を分割して支払うこととしている場合には、たとえその総額が確定しているときであっても、その総額を未払金に計上して償却することはできないものとする。ただし、その分割して支払う期間が短期間（おおむね3年以内）である場合には、この限りでない。（昭51年直法2−39「4」、昭55年直法2−8「三十」、平19年課法2−3「二十」、平19年課法2−17「十八」により改正）

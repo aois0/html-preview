@@ -1,0 +1,9 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−6の2−13 / id: 7-6-2-13 / title: 賃貸借期間等に含まれる再リース期間
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_06_01_4.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-6-2-13.html
+
+[p1] 令第48条第1項第6号《旧国外リース期間定額法》に規定する「賃貸借の期間」には、改正前リース取引（同号に規定する改正前リース取引
+[p2] をいう。以下7−6の2−15において同じ。）のうち再リースをすることが明らかなものにおける当該再リースに係る賃貸借期間を含むものとする。
+[p3] 令第48条の2第1項第6号《リース期間定額法》に規定する「リース期間」及び令第49条の2第1項《旧リース期間定額法》に規定する「改定リース期間」についても同様とする。

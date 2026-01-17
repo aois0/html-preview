@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 18−1−48 / id: 18-1-48 / title: 
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/18/18_01_07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/18-1-48.html
+
+[p1] 《利益の配当の額の範囲》から18−1−51《所有持分の一部の譲渡又は移転をした場合の所有期間の判定》までの取扱いは、令第155条の13第4項第1号《各種投資会社等の範囲》の「利益の配当の額」について準用する。（令5年課法2−17｢九」により追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第8款 個別計算所得等の金額
+[p4] 第8款 個別計算所得等の金額

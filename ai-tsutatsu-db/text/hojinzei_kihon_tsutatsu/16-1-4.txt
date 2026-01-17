@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 16−1−4 / id: 16-1-4 / title: 
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/16/16_01_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/16-1-4.html
+
+[p1] 削除（平15年課法2−7「五十五」により改正、平19年課法2−3「四十三」により削除）

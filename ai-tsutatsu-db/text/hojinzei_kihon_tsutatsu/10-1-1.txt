@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 10−1−1 / id: 10-1-1 / title: 特別勘定の経理
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/10/10_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/10-1-1.html
+
+[p1] 法第43条及び第48条《国庫補助金等に係る特別勘定の金額の損金算入等》に規定する特別勘定の経理は、積立金として積み立てる方法のほか、仮受金等として経理する方法によることもできるものとする。（昭55年直法2−15「十七」により追加、昭57年直法2−11「十」、平19年課法2−3「二十六」により改正）

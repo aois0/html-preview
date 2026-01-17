@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 8−1−5の2 / id: 8-1-5-2 / title: 輸出しないときの範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/08/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/8-1-5-2.html
+
+[p1] 輸出物品販売場において免税対象物品を令第18条第３項各号《購入手続》に掲げる方法（同項第３号及び第６号に掲げる方法を除く。）により購入した免税購入対象者が、本邦から出国する際に当該物品を所持していなかった場合には、原則として、法第８条第３項《輸出免税物品を輸出しない場合の消費税の即時徴収》に規定する「当該物品を輸出しないとき」に該当することに留意する。（令3課消2−1により追加、令5課消2−3、令7課消2−4により改正）

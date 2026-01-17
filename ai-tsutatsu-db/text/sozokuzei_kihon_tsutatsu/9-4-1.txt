@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 9の4−1 / id: 9-4-1 / title: 目的信託についての法第1章第3節の規定の不適用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/09.htm#a-9-4_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/9-4-1.html
+
+[p1] 信託法第258条第1項((受益者の定めのない信託の要件))に規定する受益者の定め（受益者を定める方法の定めを含む。）のない信託で、かつ、特定委託者の存しないものについては、相続税法第1章第3節の規定の適用がないことに留意する。（平19課資2−5、課審6−3追加）

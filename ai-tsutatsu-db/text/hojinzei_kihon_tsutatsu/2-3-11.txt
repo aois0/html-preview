@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−3−11 / id: 2-3-11 / title: 政府保証債の応募予約料に相当する金額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_03_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-3-11.html
+
+[p1] 法人が新たに発行される政府保証債を引き受ける場合（証券業者等の募集に応じて引き受ける場合を含む。）において、その収入する応募予約料に相当する金額を発行価額から差し引いて払い込み、その払い込んだ金額を当該政府保証債の取得価額として経理しているときは、これを認める。（平12年課法2−7「四」により追加）
+[p2] (注) 金融機関等が政府保証債を引き受けたことにより収入する引受責任料及び募集取扱料に相当する金額又は国債を引き受けたことにより収入する手数料の額は、その収入すべき日（引受契約の締結日を含む。）の属する事業年度の益金の額に算入する。

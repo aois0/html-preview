@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 95−4 / id: 95-4 / title: 
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/17/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/95-4.html
+
+[p1] 居住者がいわゆる予定納付又は見積納付等（以下この項において「予定納付等」という。）をした外国所得税の額についても95−3に定める年分において法第95条第1項又は第2項《外国税額控除》の規定を適用することとなるのであるが、当該居住者が、継続して、当該外国所得税の額をその予定納付等に係る年分の外国所得税について確定申告又は賦課決定等があった日の属する年分においてこれらの項の規定を適用している場合には、これを認める。

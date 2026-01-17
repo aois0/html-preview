@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 9−23 / id: 9-23 / title: 葬祭料、香典等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/04.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/9-23.html
+
+[p1] 葬祭料、香典又は災害等の見舞金で、その金額がその受贈者の社会的地位、贈与者との関係等に照らし社会通念上相当と認められるものについては、令第30条の規定により課税しないものとする。（平元直所3−14、直法6−9、直資3−8改正）

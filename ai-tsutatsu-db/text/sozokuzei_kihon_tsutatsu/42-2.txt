@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 42−2 / id: 42-2 / title: 通常必要とされない場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/04.htm#a-42_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/42-2.html
+
+[p1] 法施行規則第22条第2項第1号に規定する「当該土地の取引において通常必要とされない場合」とは、例えば、山林などのように土地の全体を測量することが困難であり、その測量に多大な費用を要することから、通常の取引に当たっては地積測量図を作成しないことが一般的な例とされているものなどをいう。（平18徴管5−14追加）

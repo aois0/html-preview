@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−3−1 / id: 5-3-1 / title: 家事消費等の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/03/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-3-1.html
+
+[p1] 法第4条第5項第1号《個人事業者の家事消費等》に規定する「棚卸資産又は棚卸資産以外の資産で事業の用に供していたものを家事のために消費し、又は使用した場合」とは、同号に規定する資産を個人事業者又は当該個人事業者と生計を一にする親族の用に消費し、又は使用した場合をいう。（平27課消1-17により改正）

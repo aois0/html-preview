@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 178−2 / id: 178-2 / title: 居住用土地家屋等の貸付けによる対価
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/27/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/178-2.html
+
+[p1] 令第303条の2第2号に掲げる「自己又はその親族の居住の用に供するために借り受けた個人から支払われるもの」とは、同号に規定する土地家屋等を専ら自己又はその親族の居住の用に供している個人から支払われるものをいうのであるから、当該土地家屋等を居住の用と事業の用又は貸付けの用とに併用しているような個人が支払う対価については、居住の用に供している部分に係る対価を含めた総額を外国法人に対して課する所得税の課税標準とする。（平2直法6−5、直所3−6追加）
+[p2] 法第180条《恒久的施設を有する外国法人の受ける国内源泉所得に係る課税の特例》関係

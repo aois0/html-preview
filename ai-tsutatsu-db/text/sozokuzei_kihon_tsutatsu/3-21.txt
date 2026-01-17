@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 3-21 / id: 3-21 / title: 普通給与の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/03.htm#a-3_18
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/3-21.html
+
+[p1] 被相続人が非常勤役員である等のため、死亡当時に賞与だけを受けており普通給与を受けていなかった場合における3-20に定める普通給与の判定は、その者が死亡当時の直近に受けた賞与の額又は雇用主等の営む事業と類似する事業における当該被相続人と同様な地位にある役員の受ける普通給与若しくは賞与の額等から勘案し、当該被相続人が普通給与と賞与の双方の形態で給与を受けていたとした場合において評定されるべき普通給与の額を基準とするものとする。(昭57直資2-177改正)

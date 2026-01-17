@@ -1,0 +1,10 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 67の6-2 / id: 67-6-2 / title: 受益権の銘柄
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/15/15_67_6.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/67-6-2.html
+
+[p1] 措置法第67条の6第1項の規定により読み替えられた法第23条第2項の規定を適用する場合の特定株式投資信託の受益権の銘柄の区分は、ユニット型の特定株式投資信託の受益権についてはその設定の回ごとに、オープン型の特定株式投資信託の受益権についてはその信託ごとに行うものとする。（平27年課法2-8「三十」により追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第68条 《特定の協同組合等の法人税率の特例》 関係
+[p4] 第68条 《特定の協同組合等の法人税率の特例》 関係

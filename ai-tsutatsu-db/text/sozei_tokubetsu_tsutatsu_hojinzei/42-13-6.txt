@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 42の13-6 / id: 42-13-6 / title: 国内事業供用が見込まれる場合の国内資産の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/01/01_42_13.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/42-13-6.html
+
+[p1] 措置法第42条の13第５項第２号イの規定の適用上、法人の有する資産が対象年度終了の日において当該法人の事業の用に供されていない場合であっても、その後国内において当該法人の事業の用に供されることが見込まれるときには、当該資産は国内資産に該当することに留意する。（令３年課法２-21「十三」により追加、令４年課法２−14「十七」により改正）

@@ -1,0 +1,11 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 26−1 / id: 26-1 / title: 立木の評価の特例
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/03/01.htm#a-23_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/26-1.html
+
+[p1] 法第26条の規定は、相続又は遺贈（包括遺贈及び被相続人からの相続人に対する遺贈に限る。）によって取得した立木の価額に限り適用があり、贈与又は遺贈（包括遺贈及び被相続人からの相続人に対する遺贈を除く。）によって取得した立木の価額には適用がないのであるから留意する。（平15課資2−1改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第23条《地上権及び永小作権の評価》関係
+[p4] 第3章 財産の評価
+[p5] 第23条《地上権及び永小作権の評価》関係

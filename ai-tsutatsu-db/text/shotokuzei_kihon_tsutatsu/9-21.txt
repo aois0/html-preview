@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 9−21 / id: 9-21 / title: 高度障害保険金等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/04.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/9-21.html
+
+[p1] 疾病により重度障害の状態になったことなどにより、生命保険契約又は損害保険契約に基づき支払を受けるいわゆる高度障害保険金、高度障害給付金、入院費給付金等（一時金として受け取るもののほか、年金として受け取るものを含む。）は、令第30条第1号に掲げる「身体の傷害に基因して支払を受けるもの」に該当するものとする。（昭55直所3−19、直法6−8、昭57直所3−8、平元直所3−14、直法6−9、直資3−8改正）

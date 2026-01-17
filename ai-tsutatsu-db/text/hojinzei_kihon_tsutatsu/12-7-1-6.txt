@@ -1,0 +1,11 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 12の7−1−6 / id: 12-7-1-6 / title: 償却費として損金経理をした金額の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/12_7/12_7_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/12-7-1-6.html
+
+[p1] 令第131条の８第６項第２号《損益通算の対象となる欠損金額の特例》に規定する「償却費として損金経理をした金額」には、７−５−１《償却費として損金経理をした金額の意義》又は７−５−２《申告調整による償却費の損金算入》の取扱いにより償却費として損金経理をした金額に該当するものとされる金額が含まれることに留意する。（令４年課法２−14｢四十八」により追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第１款 通算承認
+[p4] 第２節 損益通算及び欠損金の通算のための承認等
+[p5] 第１款 通算承認

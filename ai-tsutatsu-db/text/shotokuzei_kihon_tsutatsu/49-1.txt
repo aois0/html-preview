@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−1 / id: 49-1 / title: 取得の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/05.htm#a-00
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-1.html
+
+[p1] 令第120条第1項及び令第120条の2第1項に規定する取得には、購入や自己の建設によるもののほか、相続、遺贈又は贈与（以下49−3において「相続等」という。）によるものも含まれることに留意する。（平11課所4−1追加、平19課個2−11、課資3−1、課法9−5、課審4−26改正）

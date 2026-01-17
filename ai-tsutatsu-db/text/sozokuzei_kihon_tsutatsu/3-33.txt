@@ -1,0 +1,10 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 3-33 / id: 3-33 / title: 支給期の到来していない給与
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/03.htm#a-3_18
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/3-33.html
+
+[p1] 相続開始の時において支給期の到来していない俸給、給料等は、法第3条第1項第2号に規定する退職手当金等には該当しないで、本来の相続財産に属するものであるから留意する。
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 〔退職手当金関係〕
+[p4] 〔退職手当金関係〕

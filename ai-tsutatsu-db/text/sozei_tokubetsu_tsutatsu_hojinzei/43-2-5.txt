@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 43の２−5 / id: 43-2-5 / title: 貸付けの用に供したものに該当しない資産の貸与
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/01/01_43_3.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/43-2-5.html
+
+[p1] 法人が、その取得等をした機械及び装置を自己の下請業者に貸与した場合において、当該機械及び装置が専ら当該法人のためにする製品の加工等の用に供されるものであるときは、当該機械及び装置は当該法人の営む事業の用に供したものとして措置法第43条の２の規定を適用する。（平29年課法2-17「十四」により追加、令5年課法2−8「五」により改正）

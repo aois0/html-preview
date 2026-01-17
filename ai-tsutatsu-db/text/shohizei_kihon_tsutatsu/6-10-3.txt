@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 6−10−3 / id: 6-10-3 / title: 改造の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/06/10.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/6-10-3.html
+
+[p1] 他の者から委託を受けて身体障害者用物品以外の物品を身体障害者用物品に改造する行為は、令第14条の4第2項《身体障害者用物品の範囲等》に規定する製作の請負に該当するのであるから留意する。（平12課消2−10により改正）

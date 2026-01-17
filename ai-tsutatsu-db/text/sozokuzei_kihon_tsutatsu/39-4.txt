@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 39−4 / id: 39-4 / title: 分納税額の納期限を経過した後に延納する場合の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/02.htm#a-39_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/39-4.html
+
+[p1] 延納申請に係る相続税の分納税額の全部又は一部について当該申請に係る分納税額の納期限を経過した後に延納を許可する場合においては、原則として、当該申請どおり許可し、当該許可をした延納税額のうち既に分納税額の納期限が経過しているものについては当該許可の日から1月以内の日をその分納税額の納期限とするものとする。（平4課資2−158・徴管5−6、平7課資2−119・徴管5−5改正）
+[p2] （注） この場合において、法第39条第22項の規定の適用があるときの利子税については、法第52条第5項の規定の適用があることに留意する。

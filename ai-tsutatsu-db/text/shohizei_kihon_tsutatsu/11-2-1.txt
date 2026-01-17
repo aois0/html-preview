@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 11−2−1 / id: 11-2-1 / title: 現物給付する資産の取得
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/11/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/11-2-1.html
+
+[p1] 事業者が役員又は使用人（以下11−2−2までにおいて「使用人等」という。）に金銭以外の資産を給付する場合の当該資産の取得が課税仕入れに該当するかどうかは、その取得が事業としての資産の譲受けであるかどうかを基礎として判定するのであり、その給付が使用人等の給与として所得税の課税の対象とされるかどうかにかかわらないのであるから留意する。（令５課消２−９により改正）

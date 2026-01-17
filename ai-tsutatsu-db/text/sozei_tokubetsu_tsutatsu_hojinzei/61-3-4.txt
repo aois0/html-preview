@@ -1,0 +1,13 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 61の3-4 / id: 61-3-4 / title: 農用地等の圧縮限度額の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/07/07_61_3.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/61-3-4.html
+
+[p1] 措置法第61条の3第1項に規定する農用地等が2以上ある場合において、同項に規定する圧縮限度額がいずれの農用地等から充てられたものとするかは、法人の計算によるものとする。（平20年課法2-1「二十六」により追加、令４年課法２−14「四十二」により改正）
+[p2] （注） 農用地等の取得価額が圧縮限度額を超える場合には、その超える部分に相当する金額につき当該事業年度後の事業年度に繰越しをすることができないことに留意する。
+[p3] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p4] 第1款 交際費等の範囲
+[p5] 第8章 交際費等の課税の特例
+[p6] 第61条の4 《交際費等の損金不算入》 関係
+[p7] 第1款 交際費等の範囲

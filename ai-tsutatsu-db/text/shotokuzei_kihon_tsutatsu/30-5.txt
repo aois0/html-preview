@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 30−5 / id: 30-5 / title: 解雇予告手当
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/30-5.html
+
+[p1] 労働基準法第20条《解雇の予告》の規定により使用者が予告をしないで解雇する場合に支払う予告手当は、退職手当等に該当する。（昭63直法6−1、直所3−1改正）

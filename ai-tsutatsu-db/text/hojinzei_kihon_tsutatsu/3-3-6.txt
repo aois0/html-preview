@@ -1,0 +1,12 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 3−3−6 / id: 3-3-6 / title: 外国源泉税等の額を課されたことを証する書類
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/03/03_03_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/3-3-6.html
+
+[p1] 規則第8条の5第1項第3号《外国子会社から受ける配当等の益金不算入に関する書類》の「外国源泉税等の額を課されたことを証する……その納付を証する書類」には、申告書の写し又は現地の税務官署が発行する納税証明書等のほか、更正若しくは決定に係る通知書、賦課決定通知書、納税告知書、源泉徴収の外国源泉税等に係る源泉徴収票その他これらに準ずる書類又はこれらの書類の写しが含まれる。（平21年課法2−5「四」により追加、平22年課法2−1「十二」、平27年課法2−8「七」により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第1款 通則
+[p4] 第4章 その他の益金等
+[p5] 第1節 資産の評価益
+[p6] 第1款 通則

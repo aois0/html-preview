@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 63−1 / id: 63-1 / title: 相続人の数に算入される養子の数の否認規定の適用範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/07/01.htm#a-49_2
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/63-1.html
+
+[p1] 法第63条の規定が適用される事項は、法第12条第1項第5号の保険金の非課税限度額、同項第6号の退職手当金等の非課税限度額、法第15条第1項の遺産に係る基礎控除額及び法第16条の相続税の総額に関する事項に限られるのであるから留意する。（平元直資2−207追加）

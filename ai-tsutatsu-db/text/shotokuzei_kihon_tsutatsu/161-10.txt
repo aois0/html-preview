@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 161−10 / id: 161-10 / title: 恒久的施設が果たす機能の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/22/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/161-10.html
+
+[p1] 法第161条第1項第1号に規定する「恒久的施設が果たす機能」には、恒久的施設が果たすリスクの引受け又はリスクの管理に関する人的機能、資産の帰属に係る人的機能、研究開発に係る人的機能、製造に係る人的機能、販売に係る人的機能、役務提供に係る人的機能等が含まれることに留意する（平28課2−4、課法11−8、課審5−5追加）。
+[p2] （注） 本文の「恒久的施設が果たすリスクの引受け又はリスクの管理に関する人的機能」とは、当該恒久的施設を通じて行う事業に従事する者が行うリスクの引受け又はリスクの管理に関する積極的な意思決定が必要とされる活動をいう。

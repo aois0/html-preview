@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 3−3−4 / id: 3-3-4 / title: 自己株式等の取得が予定されている株式等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/03/03_03_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/3-3-4.html
+
+[p1] 法第23条の2第2項第2号《外国子会社から受ける配当等の益金不算入》の規定を適用する場合における同号に規定する「その剰余金の配当等の額の生ずる基因となる同項第5号に掲げる事由が生ずることが予定されているもの」については、3−1−8《自己株式等の取得が予定されている株式等》の取扱いを準用する。（平22年課法2−1「十二」により追加、平27年課法2−8「七」、平29年課法2−17「十一」により改正）

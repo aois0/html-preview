@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 9−17 / id: 9-17 / title: 相続財産とされる死亡者の給与等、公的年金等及び退職手当等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/04.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/9-17.html
+
+[p1] 死亡した者に係る給与等、公的年金等及び退職手当等（法第30条第1項《退職所得》に規定する退職手当等をいう。）で、その死亡後に支給期の到来するもののうち相続税法の規定により相続税の課税価格計算の基礎に算入されるものについては、課税しないものとする。（昭63直所3−3、直法6−2、直資3−2、平元直所3−14、直法6−9、直資3−8改正）
+[p2] （注） 上記の給与等、公的年金等及び退職手当等の支給期については、36−9、36−10及び36−14の(1)に定めるところによる。

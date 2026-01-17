@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 3−2 / id: 3-2 / title: 学術、技芸を習得する者の住所の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/3-2.html
+
+[p1] 学術、技芸の習得のため国内又は国外に居住することとなった者の住所が国内又は国外のいずれにあるかは、その習得のために居住する期間その居住する地に職業を有するものとして、令第14条第1項《国内に住所を有する者と推定する場合》又は第15条第1項《国内に住所を有しない者と推定する場合》の規定により推定するものとする。

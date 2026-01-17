@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 42の12の4−8 / id: 42-12-4-8 / title: 貸付けの用に供したものに該当しない資産の貸与
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/01/01_42_12_4.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/42-12-4-8.html
+
+[p1] 法人が、その取得等をした特定経営力向上設備等を自己の下請業者に貸与した場合において、当該特定経営力向上設備等が専ら当該法人のためにする製品の加工等の用に供されるものであるときは、当該特定経営力向上設備等は当該法人の営む事業の用に供したものとして取り扱う。（平29年課法2-17「十」により追加、令3年課法2-21「十一」により改正）

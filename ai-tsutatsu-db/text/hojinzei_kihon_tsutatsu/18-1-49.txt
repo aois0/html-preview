@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 18−1−49 / id: 18-1-49 / title: 除外配当に係る費用の額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/18/18_01_08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/18-1-49.html
+
+[p1] 令第155条の18第3項第2号《個別計算所得等の金額の計算》の「所有持分（……）を有することにより受ける利益の配当の額（……）で、当期純損益金額に係る収益の額としている金額」の算定に当たっては、その利益の配当に係る費用の額を含めないことに留意する。（令5年課法2−17｢九」により追加）

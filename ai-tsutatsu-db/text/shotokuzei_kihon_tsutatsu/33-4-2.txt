@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 33-4の2 / id: 33-4-2 / title: 区画形質の変更等を加えた土地に借地権等を設定した場合の所得
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/33-4-2.html
+
+[p1] 固定資産である林地その他の土地に区画形質の変更を加え又は水道その他の施設を設け宅地等とした後、その土地に令第79条第1項《資産の譲渡とみなされる行為》に規定する借地権又は地役権（以下この項において「借地権等」という。）を設定した場合において、その借地権等の設定（営利を目的として継続的に行われるものを除く。）が同項に規定する行為に該当するときは、当該借地権等の設定に係る対価の額の全部が譲渡所得に係る収入金額に該当することに留意する。（昭56直資3-2、直所3-3追加）

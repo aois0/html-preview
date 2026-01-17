@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 78−7 / id: 78-7 / title: 公共企業体等に対する寄附金
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/78-7.html
+
+[p1] 日本中央競馬会等のように全額政府出資により設立された法人又は日本下水道事業団等のように地方公共団体の全額出資により設立された法人に対する寄附金は、国等に対する寄附金には該当しないことに留意する。（昭63直所3−3、直法6−2、直資3−2、平11課所4−25、平17課個2−23、課資3−5、課法8−6、課審4−113、平20課個2−17、課審4−186、課法9−3改正）

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 105−1 / id: 105-1 / title: 「確定しているところ」の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/18/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/105-1.html
+
+[p1] 法第105条に規定する「その年5月15日において確定しているところ」とは、確定申告若しくは修正申告又は更正若しくは決定等の処分によりその年5月15日において定まっているところをいうのであるから、確定申告に対して更正の請求がされ、又は更正若しくは決定等の処分に対して再調査の請求若しくは審査請求等がされている場合においても、その判定をすべき日までにあった確定申告若しくは修正申告又は更正若しくは決定等のうち、最終のものにより定まっているところによるべきことに留意する。（昭46直審（所）19、平28課個2-22、課審5-18改正）

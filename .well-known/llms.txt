@@ -1,4 +1,5 @@
 # Site entry for LLMs
 
 - Tax law dataset: /html-preview/ai-law-db/llms.txt
+- Tax circular dataset: /html-preview/ai-tsutatsu-db/llms.txt
 - Repository-level info: /html-preview/llms.txt

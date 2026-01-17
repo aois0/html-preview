@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 1−1−4 / id: 1-1-4 / title: 人格のない社団等の本店又は主たる事務所の所在地
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/01/01_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/1-1-4.html
+
+[p1] 人格のない社団等の本店又は主たる事務所の所在地は、次に掲げる場合に応じ、次による。(昭56年直法2−16「二」により改正)
+[p2] (1) 定款、寄附行為、規則又は規約(以下1−1−4において「定款等」という。)に本店又は主たる事務所の所在地の定めがある場合 その定款等に定められている所在地

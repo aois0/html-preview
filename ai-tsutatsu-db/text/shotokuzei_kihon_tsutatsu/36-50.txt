@@ -1,0 +1,11 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 36-50 / id: 36-50 / title: 用役の評価
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/36-50.html
+
+[p1] 使用者が役員又は使用人に提供した用役については、当該用役につき通常支払われるべき対価の額により評価する。ただし、36-30に定める行事に参加した役員又は使用人が受ける経済的利益で、その行事に参加しなかった役員又は使用人(使用者の業務の必要に基づき参加できなかった者を除く。以下この項において同じ。)に対してその参加に代えて金銭が支給される場合に受けるものについては、その参加しなかった役員又は使用人に支給される金銭の額に相当する額とする。
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 〔債務が確定している費用〕
+[p4] 法第37条《必要経費》関係
+[p5] 〔債務が確定している費用〕

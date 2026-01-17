@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 23の2−5 / id: 23-2-5 / title: 完全生命表
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/03/01.htm#a-23_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/23-2-5.html
+
+[p1] 法施行規則第12条の3に規定する「完全生命表」は、配偶者居住権が設定された時の属する年の1月1日現在において公表されている最新のものによる。

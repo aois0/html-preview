@@ -1,0 +1,11 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−43 / id: 15-1-43 / title: 飲食店業の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_17.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-43.html
+
+[p1] 令第5条第1項第16号《飲食店業》の料理店業その他の飲食店業には、他の者からの仕出しを受けて飲食物を提供するものが含まれることに留意する。（昭56年直法2−16「七」により追加、平19課法2−17「二十九」、平28年課法2−11「九」により改正）
+[p2] (注) 学校法人がその設置する小学校、中学校、義務教育学校、特別支援学校等において学校給食法等の規定に基づいて行う学校給食の事業は、料理店業その他の飲食店業に該当しない。
+[p3] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p4] 第18款 周旋業
+[p5] 第18款 周旋業

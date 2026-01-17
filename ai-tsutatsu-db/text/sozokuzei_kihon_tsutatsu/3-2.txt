@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 3-2 / id: 3-2 / title: 「相続権を失った者」の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/02.htm#a-3_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/3-2.html
+
+[p1] 法第3条第1項に規定する「相続権を失った者」とは、民法第891条の各号((相続人の欠格事由))に掲げる者並びに同法第892条((推定相続人の廃除))及び第893条((遺言による推定相続人の廃除))の規定による推定相続人の廃除の請求に基づき相続権を失った者(同法第894条((推定相続人の廃除の取消し))の規定により廃除の取消しのあった者を除く。)だけをいうのであるから留意する。(平17課資2-4改正)

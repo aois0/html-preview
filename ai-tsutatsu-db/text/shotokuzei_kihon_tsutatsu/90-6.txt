@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 90−6 / id: 90-6 / title: その年分の変動所得が赤字である場合の平均課税の適用の有無の判定及び平均課税対象金額の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/17/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/90-6.html
+
+[p1] 法第90条第1項の規定によりその年分の変動所得の金額及び臨時所得の金額の合計額がその年分の総所得金額の20%以上であるかどうかの判定を行う場合及びその年分の変動所得の金額と臨時所得の金額との合計額により同条第3項に規定する平均課税対象金額を計算する場合において、その年分の変動所得が赤字である場合には、その年分の臨時所得の金額がこれらの規定に規定する合計額となる。

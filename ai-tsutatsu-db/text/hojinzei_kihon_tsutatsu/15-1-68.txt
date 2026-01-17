@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−68 / id: 15-1-68 / title: 駐車場業の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_31.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-68.html
+
+[p1] 令第5条第1項第31号《駐車場業》の駐車場業には、駐車場所としての土地の貸付けが含まれることに留意する。（昭56年直法2−16「七」により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第32款 信用保証業
+[p4] 第32款 信用保証業

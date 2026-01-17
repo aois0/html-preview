@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−5−9 / id: 5-5-9 / title: 滞船料
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-5-9.html
+
+[p1] 海上運送業を営む事業者が船舶による運送に関連して受ける滞船料（貨物の積卸期間が当初契約で予定した期間を超過して運送期間が長期にわたることとなった場合に徴収する割増運賃をいう。）は、資産の譲渡等の対価に該当することに留意する。
+[p2] (注) 当該事業者が船舶による運送に関連して支払う早出料（貨物の積卸期間が短縮され運送期間が短縮したために運賃の割戻しを行う場合の割戻運賃をいう。以下14−1−1において同じ。）は、法第38条第1項《売上げに係る対価の返還等をした場合の消費税額の控除》に規定する売上げに係る対価の返還等の金額に該当する。

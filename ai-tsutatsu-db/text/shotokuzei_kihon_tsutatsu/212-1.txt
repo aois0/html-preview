@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 212−1 / id: 212-1 / title: 不特定多数の者から支払われるものの範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/37/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/212-1.html
+
+[p1] 令第328条第1号《源泉徴収を要しない国内源泉所得》に掲げる「不特定多数の者から支払われるもの」の範囲については、178−1の取扱いに準ずる。（昭51直所3−1、直法6−1、直資3−1、昭63直法6−7、直所3−8、平2直法6−5、直所3−6改正）

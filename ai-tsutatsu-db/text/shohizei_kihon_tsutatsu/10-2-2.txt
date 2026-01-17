@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 10−2−2 / id: 10-2-2 / title: 外貨建取引に係る支払対価の額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/10/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/10-2-2.html
+
+[p1] 外貨建ての取引に係る特定課税仕入れに係る支払対価の額の取扱いについては、10−1−7に準ずるものとする。（平27課消1-17により追加）

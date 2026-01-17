@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 76−1 / id: 76-1 / title: 控除の対象となる生命保険料等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/76-1.html
+
+[p1] 法第76条第1項に規定する「新生命保険料」(76−6において「新生命保険料」という。)、同項に規定する「旧生命保険料」(76−2において「旧生命保険料」という。)、同条第2項に規定する「介護医療保険料」、同条第3項に規定する「新個人年金保険料」(76−8において「新個人年金保険料」という。)又は同項に規定する「旧個人年金保険料」(76−8において「旧個人年金保険料」という。)に該当するかどうかは、保険料又は掛金を支払った時の現況により判定する。（昭60直所3−1、直法6−1、直資3−1、平2直法6−5、直所3−6、平23課個2−33、課法9−9、課審4−46改正）

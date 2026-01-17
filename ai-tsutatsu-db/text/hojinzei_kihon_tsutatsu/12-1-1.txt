@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 12−1−1 / id: 12-1-1 / title: 繰越欠損金の損金算入の順序
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/12/12_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/12-1-1.html
+
+[p1] 法第57条第1項《欠損金の繰越し》の規定による欠損金額の損金算入は、当該事業年度に繰り越された欠損金額が2以上の事業年度において生じたものからなる場合には、そのうちもっとも古い事業年度において生じた欠損金額に相当する金額から順次損金算入を行うものであることに留意する（令４年課法2−14｢三十四」により改正）。

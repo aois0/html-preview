@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 7−2−13の2 / id: 7-2-13-2 / title: 特例輸出貨物に対する役務の提供
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/07/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/7-2-13-2.html
+
+[p1] 令第17条第2項第4号《輸出取引等の範囲》に規定する「特例輸出貨物の輸出のための船舶又は航空機への積込みの場所におけるもの」とは、特例輸出貨物を輸出するための船舶又は航空機へ積み込む場所及び当該特例輸出貨物を積み込んだ船舶又は航空機における当該特例輸出貨物の荷役、検数、鑑定又は検量等の役務の提供をいう。（平23課消1-35により改正）

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 47−18 / id: 47-18 / title: 翌年以後において購入代価が確定した場合の調整
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/02.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/47-18.html
+
+[p1] 令第103条第1項第1号に掲げる棚卸資産でその購入した日の属する年においてその代価が確定していないものについては、その見積額によりその取得価額を計算するものとする。この場合において、その翌年以後の年において確定した代価の額がその見積額と異なることとなったときは、その差額は、その確定した日の属する年分の事業所得の金額の計算上総収入金額又は必要経費に算入する。ただし、その差額が多額な場合には、その差額のうち、当該年分に繰り越された棚卸資産に対応する部分は、当該年に取得した棚卸資産の取得価額に加算又は減算し、その他の部分は当該年分の必要経費又は総収入金額に算入する。

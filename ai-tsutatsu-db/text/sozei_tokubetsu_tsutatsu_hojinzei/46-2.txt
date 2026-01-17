@@ -1,0 +1,13 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 46-2 / id: 46-2 / title: 開発研究の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/01/01_46_2_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/46-2.html
+
+[p1] 措置法第46条第１項に規定する開発研究とは、措置法令第29条第２項各号に掲げる試験研究をいうのであるが、次に掲げるような試験研究を基礎とし、これらの試験研究の成果を企業化するためのデータの収集も含まれることに留意する。（令6年課法2-14「十」により追加）
+[p2] (1) 新たな製品のうち当該法人の既存の製品と構造、品種その他の特性が著しく異なるものの製造を目的として行う試験研究
+[p3] (2) 新たな製品を製造するために行う新たな資源の利用方法の研究
+[p4] (3) 新たな技術のうち当該法人の既存の技術と原理又は方法が異なるものの発明を目的として行う試験研究
+[p5] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p6] 第47条 《特定都市再生建築物の割増償却》関係
+[p7] 第47条 《特定都市再生建築物の割増償却》関係

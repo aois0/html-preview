@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−2−27 / id: 9-2-27 / title: 使用人が役員となった直後に支給される賞与等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_02_06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-2-27.html
+
+[p1] 使用人であった者が役員となった場合又は使用人兼務役員であった者が令第71条第1項各号《使用人兼務役員とされない役員》に掲げる役員となった場合において、その直後にその者に対して支給した賞与の額のうちその使用人又は使用人兼務役員であった期間に係る賞与の額として相当であると認められる部分の金額は、使用人又は使用人兼務役員に対して支給した賞与の額として認める。（昭55年直法2−8「三十二」により追加、平19年課法2−3「二十二」により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第7款 退職給与
+[p4] 第7款 退職給与

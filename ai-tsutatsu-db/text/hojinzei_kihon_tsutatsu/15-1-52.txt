@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−52 / id: 15-1-52 / title: 興行業の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_26.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-52.html
+
+[p1] 令第5条第1項第26号《興行業》の興行業には、自らは興行主とはならないで、他の興行主等のために映画、演劇、演芸、舞踊、舞踏、音楽、スポーツ、見せ物等の興行を行う事業及び興行の媒介又は取次ぎを行う事業が含まれる。（昭56年直法2−16「七」により改正）
+[p2] (注) 常設の美術館、博物館、資料館、宝物館等において主としてその所蔵品（保管の委託を受けたものを含む。）を観覧させる行為は、興行業に該当しない。

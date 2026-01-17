@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 39−3 / id: 39-3 / title: 準棚卸資産を家事消費した場合の所得区分
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/06/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/39-3.html
+
+[p1] 令第86条《自家消費の場合のたな卸資産に準ずる資産の範囲》に規定する棚卸資産に準ずる資産（以下この項において「準棚卸資産」という。）を家事のために消費した場合には、当該資産の価額に相当する金額は、当該消費した準棚卸資産の区分に応じ、それぞれ次に掲げる所得の金額の計算上総収入金額に算入する。
+[p2] （1） 事業所得を生ずべき事業に係る準棚卸資産 事業所得
+[p3] （2） 不動産所得、山林所得又は雑所得を生ずべき業務に係る準棚卸資産 雑所得

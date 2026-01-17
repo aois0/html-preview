@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−16の2 / id: 49-16-2 / title: 機械及び装置の未経過使用可能期間の算定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-16-2.html
+
+[p1] 機械及び装置に係る令第130条第1項に規定する「未経過使用可能期間」は、個々の資産の取得価額を償却基礎価額とし、49−15に準じて算定した年数を使用可能期間として、耐用年数通達1−6−1の2に従って算定した年数による。(平24課個2−11、課審4−8追加)

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 95−22 / id: 95-22 / title: 貸付金に準ずるもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/17/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/95-22.html
+
+[p1] 161−30の取扱いは、法第95条第4項第8号に規定する「国外において業務を行う者に対する貸付金」に準ずるものの範囲について準用する（平28課2−4、課法11−8、課審5−5追加）。

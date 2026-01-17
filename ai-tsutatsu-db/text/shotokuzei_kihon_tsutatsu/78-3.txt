@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 78−3 / id: 78-3 / title: 入学に関してする寄附金に該当するもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/78-3.html
+
+[p1] 法第78条第2項本文かっこ内に規定する「入学に関してするもの」については、次のことに留意する。（平20課個2−17、課審4−186、課法9−3改正）
+[p2] （1） 自己又は子女等の入学を希望して支出する寄附金は、入学辞退等により結果的に入学しないこととなった場合においても、これに該当すること。
+[p3] （2） 自己又は子女等が入学する学校に対して直接支出する寄附金のほか、当該学校と特殊の関係にある団体等に対して支出するものもこれに該当すること。

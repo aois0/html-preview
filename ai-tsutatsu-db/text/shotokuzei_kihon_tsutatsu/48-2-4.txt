@@ -1,0 +1,10 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 48の2−4 / id: 48-2-4 / title: 暗号資産の取得価額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/04-2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/48-2-4.html
+
+[p1] 暗号資産を売買した場合における事業所得の金額又は雑所得の金額の計算上必要経費に算入する金額は、法第37条第１項及び第48条の２の規定に基づいて計算した金額となるのであるが、暗号資産の売買による収入金額の100分の５に相当する金額を暗号資産の取得価額として事業所得の金額又は雑所得の金額を計算しているときは、これを認めて差し支えないものとする。（令元課個2-22、課法11-3、課審5-12追加、令2課個2−12、課法11−3、課審5−6改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 法第48条《有価証券の譲渡原価等の計算及びその評価の方法》関係
+[p4] 法第48条《有価証券の譲渡原価等の計算及びその評価の方法》関係

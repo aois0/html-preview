@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−67 / id: 15-1-67 / title: 公開模擬学力試験
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_30.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-67.html
+
+[p1] 令第5条第1項第30号《技芸教授業》の「公開模擬学力試験」には、その公開模擬学力試験を行う予備校等の生徒がその選択により受験料を負担してこれに参加する場合のその参加に係る部分が含まれる。（昭56年直法2−16「七」により追加）

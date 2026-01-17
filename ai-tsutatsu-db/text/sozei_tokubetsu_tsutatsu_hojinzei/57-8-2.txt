@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 57の8−2 / id: 57-8-2 / title: 船舶の定期検査のための修繕
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/02/02_57_8.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/57-8-2.html
+
+[p1] 法人がその有する船舶につき船舶安全法による定期検査を受けるために修繕を行った場合においても、当該修繕のうちに明らかに定期検査と関係のないものがあるときは、当該定期検査と関係のない修繕は措置法第57条の8第1項に規定する特別の修繕に該当しないことに留意する。（平10年課法2−7「二」により追加、平24年課法2−17「二十四」により改正）

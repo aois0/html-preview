@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 8−1−4 / id: 8-1-4 / title: 共同的施設の設置又は改良のために支出する費用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/08/08_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/8-1-4.html
+
+[p1] 令第14条第1項第6号イ《公共的施設等の負担金》に規定する「自己が便益を受ける共同的施設の設置又は改良のために支出する費用」とは、法人がその所属する協会、組合、商店街等の行う共同的施設の建設又は改良に要する費用の負担金をいう。この場合において、共同的施設の相当部分が貸室に供される等協会等の本来の用以外の用に供されているときは、その部分に係る負担金は、協会等に対する寄附金となることに留意する。（昭55年直法2−8「二十八」、平19年課法2−3「十八」、平19年課法2−17「十六」により改正）

@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 41−6 / id: 41-6 / title: 法第38条の規定に関する取扱いの準用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/03.htm#a-41_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/41-6.html
+
+[p1] 法第41条第2項に規定する「不動産」については、38−4の取扱いに準ずるものとする。（昭57直資2−177追加、平4課資2−158・徴管5−6、平18徴管5−14改正）

@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−3−1 / id: 7-3-1 / title: 高価買入資産の取得価額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_03_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-3-1.html
+
+[p1] 法人が不当に高価で買い入れた固定資産について、その買入価額のうち実質的に贈与をしたものと認められた金額がある場合には、買入価額から当該金額を控除した金額を取得価額とすることに留意する。（平14年課法2−1「十七」により改正）

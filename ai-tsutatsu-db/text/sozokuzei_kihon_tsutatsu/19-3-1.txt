@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 19の3−1 / id: 19-3-1 / title: 未成年者控除
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/08.htm#a-19_3_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/19-3-1.html
+
+[p1] 法第19条の3第1項の未成年者控除の規定は、財産を取得した者が相続を放棄したことにより相続人に該当しないこととなった場合においても、その者が無制限納税義務者で18歳未満（注）の者に該当し、かつ、当該被相続人の民法第5編第2章の規定による相続人（相続の放棄があった場合には、その放棄がなかったものとした場合における相続人）に該当するときは、適用があることに留意する。（昭38直審（資）4、平元直資2−207、令2課資2−10、令4課資2-6改正）
+[p2] （注） 令和４年３月31日以前に相続又は遺贈により財産を取得する者については、20歳未満。

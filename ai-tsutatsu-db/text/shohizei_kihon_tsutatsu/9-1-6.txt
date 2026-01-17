@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 9−1−6 / id: 9-1-6 / title: 建設工事等の引渡しの日の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/09/01/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/9-1-6.html
+
+[p1] 請負契約の内容が建設、造船その他これらに類する工事（以下「建設工事等」という。）を行うことを目的とするものであるときは、その引渡しの日がいつであるかについては、例えば、作業を結了した日、相手方の受入場所へ搬入した日、相手方が検収を完了した日、相手方において使用収益ができることとなった日等、当該建設工事等の種類及び性質、契約の内容等に応じてその引渡しの日として合理的であると認められる日のうち、事業者が継続して資産の譲渡等を行ったこととしている日によるものとする。

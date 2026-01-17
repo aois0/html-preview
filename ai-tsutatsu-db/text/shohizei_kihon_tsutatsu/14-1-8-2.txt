@@ -1,0 +1,10 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 14−1−8の2 / id: 14-1-8-2 / title: 特定資産の譲渡等に係る対価の返還等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/14/01/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/14-1-8-2.html
+
+[p1] 特定資産の譲渡等は法第38条《売上げに係る対価の返還等をした場合の消費税額の控除》における「課税資産の譲渡等｣に含まれないことから、特定資産の譲渡等に係る対価の返還等を行ったとしても、同条の規定の適用はないことに留意する。（平27課消1-17により追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第2款 対価の返還等を行った時期
+[p4] 第2款 対価の返還等を行った時期

@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 27−3 / id: 27-3 / title: 相続税の申告書の提出先
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/04/01.htm#a-27_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/27-3.html
+
+[p1] 被相続人がその死亡の時において法施行地に住所を有する場合においては、当該被相続人から相続又は遺贈によって財産を取得した者が提出しなければならない相続税の申告書の提出先は、法附則第3項の規定によりすべて当該被相続人の死亡の時における住所地の所轄税務署長となるのであるから留意する。

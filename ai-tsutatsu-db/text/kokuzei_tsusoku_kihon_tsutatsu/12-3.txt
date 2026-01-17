@@ -1,0 +1,10 @@
+doc: 国税通則法基本通達 (kokuzei_tsusoku_kihon_tsutatsu)
+item: 12-3 / id: 12-3 / title: 
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/mokuji.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/kokuzei_tsusoku_kihon_tsutatsu/12-3.html
+
+[p1] 納付困難
+[p2] 第3項の猶予
+[p3] 13
+[p4] 猶予金額

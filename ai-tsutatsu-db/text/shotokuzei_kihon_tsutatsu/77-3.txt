@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 77−3 / id: 77-3 / title: 損害保険契約等に基づく責任開始日前に支払った地震保険料
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/77-3.html
+
+[p1] 損害保険契約等（法第77条第2項に規定する損害保険契約等をいう。以下この項及び77-5において同じ。）に基づく責任開始日（保険会社等において損害についててん補責任を生ずる日をいう。以下この項において同じ。）前に支払った当該損害保険契約等に係る地震保険料（法第77条第1項に規定する地震保険料をいう。以下77−7までにおいて同じ。）については、現実の支払の日によらず、その責任開始日において支払ったものとする。（平18課個2−7、課資3−2、課審4−89改正）

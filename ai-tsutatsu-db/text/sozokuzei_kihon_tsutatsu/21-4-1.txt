@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 21の4-1 / id: 21-4-1 / title: 非課税限度額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/10.htm#a-21_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/21-4-1.html
+
+[p1] 法第21条の4第1項の規定により非課税とされる価額は、同項の規定の適用を受ける同項に規定する特別障害者1人について6,000万円（特別障害者以外の同項に規定する特定障害者（以下21の4-2において「一般障害者」という。）の場合には特定障害者1人について3,000万円）を限度とすることに留意する。（平15課資2-1追加、平25課資2-10改正）

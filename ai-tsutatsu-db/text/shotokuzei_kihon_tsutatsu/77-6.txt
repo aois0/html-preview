@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 77−6 / id: 77-6 / title: 店舗併用住宅等について支払った地震保険料の特例
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/77-6.html
+
+[p1] 保険等の目的とされている家屋を、店舗併用住宅のように居住の用と事業等の用とに併用している場合であっても、その家屋の全体のおおむね90%以上を居住の用に供しているときは、その家屋について支払った地震保険料の全額を居住用資産に係る地震保険料の金額として差し支えない。（平18課個2−7、課資3−2、課審4−89改正）

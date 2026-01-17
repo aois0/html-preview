@@ -1,0 +1,10 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 137の3−2 / id: 137-3-2 / title: 国外転出をする場合の譲渡所得等の特例の適用がある場合の納税猶予に関する取扱いの準用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/19/02-3.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/137-3-2.html
+
+[p1] 法第137条の3の規定の適用に当たっては、137の2-1から137の2-11までの取扱いを準用する。（平27課資3−2、課個2−7、課審7-6、徴管6-12追加、平28課資3-4、課個2-33、課審7-11、徴管6-24、令5課資3-5、課法10-37、課審7-5、徴管6-27改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 法第122条《還付等を受けるための申告》関係
+[p4] 法第122条《還付等を受けるための申告》関係

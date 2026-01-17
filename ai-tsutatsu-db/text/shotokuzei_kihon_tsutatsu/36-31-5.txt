@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 36−31の5 / id: 36-31-5 / title: 使用者契約の生命保険契約の転換をした場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/36-31-5.html
+
+[p1] 使用者がいわゆる契約転換制度によりその加入している養老保険又は定期付養老保険を他の養老保険、定期保険又は定期付養老保険(以下この項において「転換後契約」という。)に転換した場合には、その転換のあった日に転換後契約の責任準備金に充当される部分の金額(36−31から36−31の3までの取扱いにより,役員又は使用人に対する給与等とされている金額がある場合には当該金額を除く。)に相当する金額の保険料の一時払いをしたものとして、転換後契約の内容に応じて36−31から36−31の3までの例による。(昭63直法6−7、直所3−8追加)

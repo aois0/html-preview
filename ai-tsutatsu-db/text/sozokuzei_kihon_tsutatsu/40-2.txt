@@ -1,0 +1,10 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 40−2 / id: 40-2 / title: 弁明の方法の準用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/02.htm#a-39_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/40-2.html
+
+[p1] 法第40条第2項に規定する「弁明」については、39−16のなお書及び39−17の取扱いに準ずるものとする。（昭57直資2−177、平4課資2−158・徴管5−6、平7課資2−119・徴管5−5、平18徴管5−14改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第39条《延納手続》関係
+[p4] 第39条《延納手続》関係

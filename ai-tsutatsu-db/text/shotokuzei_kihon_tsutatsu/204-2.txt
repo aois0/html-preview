@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 204−2 / id: 204-2 / title: 報酬、料金等の性質を有するもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/36/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/204-2.html
+
+[p1] 法第204条第1項第1号、第2号及び第4号から第7号までに掲げる報酬、料金又は契約金の性質を有するものについては、たとえ謝礼、賞金、研究費、取材費、材料費、車賃、記念品代、酒こう料等の名義で支払うものであっても、同項の規定が適用されることに留意する。

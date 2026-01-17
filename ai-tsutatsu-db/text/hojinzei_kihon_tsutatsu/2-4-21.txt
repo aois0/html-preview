@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−4−21 / id: 2-4-21 / title: 外貨建工事の請負の対価の額が増額又は減額された場合の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_04_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-4-21.html
+
+[p1] 外貨建工事について、契約後、値増しや追加工事等又は値引きや工事の削減等があったことによりその請負の対価の額が増額又は減額された場合における令第129条第1項《長期大規模工事の判定》の規定の適用については、当該外貨建工事に係る当該増額後又は減額後の請負の対価の額を、当該外貨建工事に係る契約時の外国為替の売買相場(当該外貨建工事につき2−4−20による円換算に用いた外国為替の売買相場をいう。)により円換算した金額とすることに留意する。(平10年課法2−17「二」により追加、平12年課法2−7「五」により改正)

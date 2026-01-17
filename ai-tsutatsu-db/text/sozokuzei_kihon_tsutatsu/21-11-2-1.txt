@@ -1,0 +1,9 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 21の11の２−１ / id: 21-11-2-1 / title: 相続時精算課税に係る基礎控除の額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/12.htm#a-21_11_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/21-11-2-1.html
+
+[p1] 相続時精算課税に係る基礎控除の額は、各年分において、相続時精算課税適用者ごとに110万円であることに留意する。（令５課資２−21追加）
+[p2] １ 同一年中に２人以上の特定贈与者からの贈与により財産を取得した場合の相続時精算課税に係る基礎控除の額は、特定贈与者ごとに21の11の２−２の定めにより計算した金額となることに留意する。
+[p3] ２ 上記の「110万円」は、措置法第70条の３の２第１項の規定の適用後の金額であることに留意する。

@@ -1,0 +1,9 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 45-7 / id: 45-7 / title: 工場用、作業場用等とその他の用に共用されている建物の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/01/01_45.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/45-7.html
+
+[p1] 一の建物が工場用、作業場用等とその他の用に共用されている場合には、原則としてその用途の異なるごとに区分し、工場用、作業場用等に供されている部分について措置法第45条第1項の規定を適用するのであるが、次の場合には、次によることとする。（昭63年直法2-14「十三」、令4年課法2-14「二十一」により改正）
+[p2] （1） 工場用、作業場用等とその他の用に供されている部分を区分することが困難であるときは、当該建物が主としていずれの用に供されているかにより判定する。
+[p3] （2） その他の用に供されている部分が極めて小部分であるときは、その全部が工場用、作業場用等に供されているものとすることができる。

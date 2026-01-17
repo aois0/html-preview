@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 95−1 / id: 95-1 / title: 平17課個2−23、課資3−5、課法8−6、課審4−113
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/17/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/95-1.html
+
+[p1] 居住者が、その年において納付する外国所得税の額（法第95条第1項に規定する控除対象外国所得税の額に限る。以下この項において同じ。）の一部につき同条の規定の適用を受ける場合には、法第46条《所得税額から控除する外国税額の必要経費不算入》の規定により当該外国所得税の額の全部が必要経費又は支出した金額に算入されないことに留意する。（平23課個2−33、課法9−9、課審4−46改正、平28課2−4、課法11−8、課審5−5改正）
+[p2] (源泉徴収の外国所得税等）

@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 1−4−15の2 / id: 1-4-15-2 / title: 調整対象固定資産を売却等した場合の法第9条第7項の適用関係
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/01/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/1-4-15-2.html
+
+[p1] 法第9条第7項《調整対象固定資産の仕入れ等を行った場合の課税事業者選択不適用届出の制限》の規定は、課税事業者選択届出書を提出した事業者が、同項に規定する各課税期間（法第37条第1項《中小事業者の仕入れに係る消費税額の控除の特例》の適用を受ける課税期間を除く。）中に調整対象固定資産の仕入れ等を行った場合に適用されるのであるから、その後に当該調整対象固定資産を廃棄、売却等により処分したとしても、法第9条第7項の規定は継続して適用されることに留意する。（平22課消1−9により追加）

@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 108−1 / id: 108-1 / title: 予定納税基準額の計算の基準日等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/18/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/108-1.html
+
+[p1] 法第108条に規定する「その年5月1日又はその年9月15日において確定しているところ」の意義、法第107条《特別農業所得者の予定納税額の納付》の規定を適用する場合における居住者であるかどうかの判定及び前年に非居住者であった者が居住者となった場合等における同条に規定する予定納税額の計算については、105−1から105−3までの取扱いに準ずる。（昭和46直審（所）19改正）
+[p2] 法第109条《特別農業所得者に対する予定納税額等の通知》関係

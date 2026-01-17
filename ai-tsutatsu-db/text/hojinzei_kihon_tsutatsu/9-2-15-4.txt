@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−2−15の4 / id: 9-2-15-4 / title: 事前確定届出給与の要件
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_02_04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-2-15-4.html
+
+[p1] 法人がその役員に対して支給する給与が法第34条第1項第2号《事前確定届出給与》に掲げる給与に該当するかどうかの判定に当たっては、同号イに掲げる場合及び同号ロに掲げる場合のいずれにも該当する場合には、該当するそれぞれに定める要件のいずれも満たす必要があることに留意する。
+[p2] 同号イに掲げる場合及び同号ハに掲げる場合のいずれにも該当する場合の判定についても、同様とする。（平29年課法2−17「十二」により追加）

@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 21の18-1 / id: 21-18-1 / title: 相続人が特定贈与者のみである場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/12.htm#a-21_11_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/21-18-1.html
+
+[p1] 贈与により財産を取得した者の相続人が当該贈与をした者のみである場合には、相続時精算課税選択届出書を提出することはできないのであるから留意する。（平15課資2-1追加）

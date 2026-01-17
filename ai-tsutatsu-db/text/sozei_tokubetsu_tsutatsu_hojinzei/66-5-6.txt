@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の5−6 / id: 66-5-6 / title: 短期の前払利息
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/13/13_66_5.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-5-6.html
+
+[p1] 内国法人が、各事業年度において、国外支配株主等又は資金供与者等に支払った支払利息のうち基本通達2−2−14によりその支払った日を含む事業年度の損金の額に算入された前払利息の額は、措置法第66条の5第1項に規定する「当該事業年度において当該国外支配株主等及び資金供与者等に支払う負債の利子等の額」に含まれることに留意する。（平5年課法2−1「三十」により追加、平15年課法2−7「七十」、平19年課法2−3「四十九」、平22年課法2−7「三十一」、平24年課法2−17「三十三」、平28年課法2−11「四十」により改正）

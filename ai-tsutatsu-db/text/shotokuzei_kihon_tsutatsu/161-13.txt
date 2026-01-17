@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 161−13 / id: 161-13 / title: 振替公社債等の運用又は保有
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/22/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/161-13.html
+
+[p1] 令第280条第1項第1号に掲げる債券には、社債、株式等の振替に関する法律又は廃止前の社債等登録法の規定により振替口座簿に記載若しくは記録又は登録されたため債券の発行されていない公社債が含まれる。（平28課2−4、課法11−8、課審5−5追加）

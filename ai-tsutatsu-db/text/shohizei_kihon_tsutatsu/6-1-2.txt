@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 6−1−2 / id: 6-1-2 / title: 土地の上に存する権利の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/06/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/6-1-2.html
+
+[p1] 「土地の上に存する権利」とは、地上権、土地の賃借権、地役権、永小作権等の土地の使用収益に関する権利をいうのであり、例えば、鉱業権、土石採取権、温泉利用権及び土地を目的物とした抵当権は、これに含まれない。
+[p2] なお、土地の賃貸借の形態により行われる土石、砂利等の採取が、採石法第33条《採取計画の認可》、砂利採取法第16条《採取計画の認可》等の規定により認可を受けて行われるべきものである場合には、その対価は、土石、砂利等の採取の対価であり、非課税とされる土地の貸付けの対価には該当しないことに留意する。

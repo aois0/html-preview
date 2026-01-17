@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 12の7−2−10 / id: 12-7-2-10 / title: 通算制度の取りやめの承認事由
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/12_7/12_7_02_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/12-7-2-10.html
+
+[p1] 法第64条の10第１項《通算制度の取りやめ等》に規定する「やむを得ない事情があるとき」とは、例えば、通算制度の適用を継続することにより事務負担が著しく過重になると認められる場合をいうのであるから、単に税負担が軽減されることのみを理由として通算制度を適用しないこととする場合は、これに該当しないことに留意する。（令４年課法2−14｢四十九」により追加）

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 70−3 / id: 70-3 / title: 未収穫農作物の被災損失額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/15/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/70-3.html
+
+[p1] 未収穫農作物が災害により枯死、倒伏、流失、冠水等をしたことにより滅失し又はその価値が減少したために生じた損失の金額（災害により農作物が減産し又は収穫皆無となったため生じた損失の金額を含む。）は、当該農作物に係る種苗費の額並びに成熟させるために要した肥料費、労務費及び経費の額（冷害、干害等の自然現象の異変又は害虫その他の生物による災害の発生に伴い農作物の肥培管理のために特別に支出した費用の額を含む。）の合計額が収穫できた部分の農作物の収穫時の価額の合計額を超える場合における当該超える部分の金額に相当する金額とする。

@@ -1,0 +1,6 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 36・37共−20 / id: 36_37_common-20 / title: 任意組合等の組合員の組合事業に係る利益等の額の計算等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/16.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/36_37_common-20.html
+

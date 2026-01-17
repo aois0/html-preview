@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 11の2−2 / id: 11-2-2 / title: 遺産が未分割の場合の課税価格の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/01.htm#a-11_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/11-2-2.html
+
+[p1] 相続税の課税価格は、相続又は遺贈により取得した財産の価額、法第19条第１項の規定により相続税の課税価格に加算される財産の価額及び法第21条の15第１項又は第21条の16第３項の規定により相続税の課税価格に加算又は算入される金額の合計額をいうのであるが、未分割の遺産がある場合には、法第55条本文の規定を適用して、各相続人又は包括受遺者の課税価格を計算することに留意する。（平15課資2-1、令５課資２−21改正）

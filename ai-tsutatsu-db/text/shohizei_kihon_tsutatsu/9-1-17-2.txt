@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 9−1−17の2 / id: 9-1-17-2 / title: 株券の発行がない株式等の譲渡の時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/09/01/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/9-1-17-2.html
+
+[p1] 令第9条第1項第1号及び第3号《有価証券に類するものの範囲等》に規定する有価証券に類するものの譲渡の時期は、証券の代用物が発行されている場合はその引渡しがあった日、証券の代用物が発行されていない場合は譲渡の意思表示があった日とする。（平11課消2−8により追加、平14課消1−12、平18課消1−16により改正）

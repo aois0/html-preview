@@ -1,0 +1,10 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 11−8−1 / id: 11-8-1 / title: 国内以外の地域における自己の使用のための資産の輸出等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/11/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/11-8-1.html
+
+[p1] 法第31条第2項《海外支店等で自己使用する資産の輸出等を行った場合の仕入れに係る消費税額の控除の特例》に規定する「国内以外の地域における……自己の使用のため、資産を輸出した場合」とは、例えば、事業者が国外にある支店において使用するための事務機器等を当該支店あてに輸出する場合がこれに該当する。（令2課消2-9により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第7節 居住用賃貸建物
+[p4] 第7節 居住用賃貸建物

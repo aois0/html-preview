@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 9−5−1 / id: 9-5-1 / title: 小規模事業者等に係る資産の譲渡等の時期等の特例の適用関係
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/09/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/9-5-1.html
+
+[p1] 法第18条《小規模事業者等に係る資産の譲渡等の時期等の特例》の規定は、その事業者が所法第67条第１項又は第２項《小規模事業者等の収入及び費用の帰属時期》の規定の適用を受ける場合に限って適用することができるのであるが、これらの規定の適用を受ける場合であっても、当該事業者が全ての資産の譲渡等につきその譲渡等の時期をその実際の引渡しのあった日によることとすることは差し支えないのであるから留意する。

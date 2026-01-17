@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 38−7 / id: 38-7 / title: 代償分割に係る資産の取得費
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/18.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/38-7.html
+
+[p1] 遺産の代償分割に係る資産の取得費については、次による。（昭52直資3−14、直所3−22追加）
+[p2] (1) 代償分割により負担した債務に相当する金額は、当該債務を負担した者が当該代償分割に係る相続により取得した資産の取得費には算入されない。
+[p3] (2) 代償分割により債務を負担した者から当該債務の履行として取得した資産は、その履行があった時においてその時の価額により取得したこととなる。

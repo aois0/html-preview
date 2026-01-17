@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−2−18 / id: 9-2-18 / title: 確定した額等を限度としている算定方法の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_02_05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-2-18.html
+
+[p1] 法第34条第1項第3号イ(1)《損金の額に算入される業務連動給与》の「金銭による給与にあっては確定した額を、株式又は新株予約権による給与にあっては確定した数をそれぞれ限度としているもの」とは、その支給する金銭の額又は適格株式若しくは適格新株予約権の数の上限が具体的な金額又は数をもって定められていることをいうのであるから、例えば、「経常利益の○○％に相当する金額を限度として支給する。」という定め方は、これに当たらない。（平19年課法2−3「二十二」により追加、平29年課法2−17「十二」により改正）

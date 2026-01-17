@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−3−5 / id: 7-3-5 / title: 土地、建物等の取得に際して支払う立退料等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_03_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-3-5.html
+
+[p1] 法人が土地、建物等の取得に際し、当該土地、建物等の使用者等に支払う立退料その他立退きのために要した金額は、当該土地、建物等の取得価額に算入する。

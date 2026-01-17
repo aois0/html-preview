@@ -1,0 +1,6 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 36-43 / id: 36-43 / title: 通常の賃貸料の額の計算の特例
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/36-43.html
+

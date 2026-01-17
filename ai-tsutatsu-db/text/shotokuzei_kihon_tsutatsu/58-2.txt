@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 58−2 / id: 58-2 / title: 交換の対象となる土地の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/12/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/58-2.html
+
+[p1] 法第58条第1項第1号に規定する土地には、立木その他独立して取引の対象となる土地の定着物は含まれないが、その土地が宅地である場合には、庭木、石垣、庭園（庭園に附属する亭、庭内神し（祠）その他これらに類する附属設備を含む。）その他これらに類するもののうち宅地と一体として交換されるもの（同項第2号に該当するものを除く。）は含まれる。

@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 212−7 / id: 212-7 / title: 交付の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/37/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/212-7.html
+
+[p1] 法第212条第5項に規定する「交付」には、現実に金銭を交付する行為のほか、占有改定による組合契約事業（法第161条第1項第4号の2に規定する組合契約に基づいて行う事業をいう。）に係る財産から組合員各自の財産への振替え、金銭の出資への繰入れ又は預金口座への振替えなど同号に規定する「組合契約」に基づいて配分を受けるべき利益に係る債権の額が消滅する一切の行為が含まれることに留意する。（平17課法8-2、課個2-19、課審4-89追加、平28課2−4、課法11−8、課審5−5改正）
+[p2] 法第213条《徴収税額》関係

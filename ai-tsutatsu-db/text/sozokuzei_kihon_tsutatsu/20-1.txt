@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 20−1 / id: 20-1 / title: 相続を放棄した者等の相次相続控除
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/09.htm#a-20_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/20-1.html
+
+[p1] 相続を放棄した者及び相続権を失った者については、たとえその者について遺贈により取得した財産がある場合においても、相次相続控除の規定は適用されないのであるから留意する。

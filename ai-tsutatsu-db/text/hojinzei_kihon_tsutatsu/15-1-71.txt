@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−71 / id: 15-1-71 / title: 学校法人等が実習の一環として行う事業
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_34.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-71.html
+
+[p1] 収益事業に該当しない技芸の教授を行う学校法人等がその教育実習の一環として行う次のような行為であっても、継続して事業場を設けて行われるなど事業と認められる程度のものであるときは、その行為は収益事業に該当することに留意する。(昭56年直法2−16「七」、平20年課法2−5「二十九」により改正)

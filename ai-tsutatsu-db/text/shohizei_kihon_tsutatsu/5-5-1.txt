@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−5−1 / id: 5-5-1 / title: 役務の提供の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-5-1.html
+
+[p1] 法第2条第1項第8号《資産の譲渡等の意義》に規定する「役務の提供」とは、例えば、土木工事、修繕、運送、保管、印刷、広告、仲介、興行、宿泊、飲食、技術援助、情報の提供、便益、出演、著述その他のサービスを提供することをいい、弁護士、公認会計士、税理士、作家、スポーツ選手、映画監督、棋士等によるその専門的知識、技能等に基づく役務の提供もこれに含まれる。

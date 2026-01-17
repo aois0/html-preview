@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 1−5−21の2 / id: 1-5-21-2 / title: 法第12条の3第3項の規定が適用される特定新規設立法人
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/01/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/1-5-21-2.html
+
+[p1] 法第12条の3第3項《基準期間がない課税期間中に調整対象固定資産を取得した特定新規設立法人の納税義務の免除の特例》の規定が適用される特定新規設立法人は、同条第1項《特定新規設立法人の納税義務の免除の特例》に規定する特定新規設立法人をいうのであるから、同項の規定により法第9条第1項本文《小規模事業者に係る納税義務の免除》の規定が適用されない特定新規設立法人に限られないことに留意する。（平25課消1−34により追加）
+[p2] （総収入金額の範囲

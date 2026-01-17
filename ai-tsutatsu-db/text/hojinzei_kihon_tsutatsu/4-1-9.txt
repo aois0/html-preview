@@ -1,0 +1,11 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 4−1−9 / id: 4-1-9 / title: その他これに類する減価償却資産
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/04/04_01_04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/4-1-9.html
+
+[p1] 令第24条の2第4項第5号《評価益計上資産から除かれる資産の範囲》に規定する「その他これに類する減価償却資産」には、例えば、措置法第67条の5《中小企業者等の少額減価償却資産の取得価額の損金算入の特例》の規定の適用を受けた減価償却資産が該当する。（平25年課法2−4「一」により追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第1款 広告宣伝用資産等の受贈益
+[p4] 第2節 受贈益
+[p5] 第1款 広告宣伝用資産等の受贈益

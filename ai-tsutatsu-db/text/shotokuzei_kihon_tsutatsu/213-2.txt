@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 213−2 / id: 213-2 / title: 換算の基礎となる電信買相場
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/37/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/213-2.html
+
+[p1] 213−1の（2）の「電信買相場」は、その支払をする者の主要取引金融機関（その支払をする者がその外貨に係る対顧客直物電信買相場を公表している場合には、当該支払をする者）におけるその支払うべき日又は支払った日のその外貨に係る対顧客直物電信買相場によるものとする。（昭51直所3−1、直法6−1、直資3−1追加、平10課法8−2、課所4−5改正）

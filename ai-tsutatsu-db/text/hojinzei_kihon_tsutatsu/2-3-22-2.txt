@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−3−22の2 / id: 2-3-22-2 / title: 外国子会社から受ける配当等がある場合の益金不算入相当額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_03_04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-3-22-2.html
+
+[p1] 法人が他の法人から受ける対象配当等の額又は同一事業年度内配当等の額が措置法第66条の8第2項《内国法人の外国関係会社に係る所得の課税の特例》の規定の適用を受けるものである場合の益金不算入相当額は、同項の規定の適用を受けないものとして法第23条の2第1項《外国子会社から受ける配当等の益金不算入》の規定により計算した場合の益金不算入相当額となることに留意する。（令2年課法2−17「三」により追加）

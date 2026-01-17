@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 19の2−1 / id: 19-2-1 / title: 相続税額の軽減の対象となる配偶者の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/06.htm#a-19_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/19-2-1.html
+
+[p1] 法第19条の2の配偶者に対する相続税額の軽減の規定は、財産の取得者が無制限納税義務者又は制限納税義務者のいずれに該当する場合であっても適用があるのであるから留意する。（昭41直審（資）5、昭42直審（資）5、平15課資2−1改正）

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 10-24 / id: 10-24 / title: 非課税貯蓄相続申込書の提出の効果
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/10-24.html
+
+[p1] 令第47条の規定により相続人が非課税貯蓄相続申込書を提出した場合には、当該非課税貯蓄相続申込書に係る預貯金等は、当該非課税貯蓄相続申込書を提出した日に当該相続人が非課税貯蓄申込書を提出して預入等をしたものとみなされるのであるから、当該預貯金等につき非課税貯蓄相続申込書を提出した日以後最初に支払を受ける利子等に係る預貯金等の元本等の合計額が当該利子等の計算期間を通じて非課税貯蓄限度額を超えないかどうかは、当該利子等の計算期間のうち非課税貯蓄相続申込書の提出の日以後の期間について判定することに留意する。（昭60直法6-8、直所3-12改正）

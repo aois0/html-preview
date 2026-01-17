@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 13−1−10 / id: 13-1-10 / title: 借地権の設定等に伴う保証金等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/13/13.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/13-1-10.html
+
+[p1] 法人が借地権の設定等に当たり保証金、敷金等の名義による金銭を受け入れた場合においても、その受け入れた金額がその土地の存する地域において通常収受される程度の保証金等の額（その額が明らかでないときは、借地権の設定契約による地代の3月分相当額とする。）以下であるときは、当該受け入れた金額は、令第138条第2項《特別の経済的な利益》に規定する「特に有利な条件による金銭の貸付け」には該当しないものとする。（昭55年直法2−15「三十一」により改正）

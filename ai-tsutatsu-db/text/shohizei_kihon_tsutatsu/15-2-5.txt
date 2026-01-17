@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 15−2−5 / id: 15-2-5 / title: 納付すべき税額がない場合の確定申告の要否
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/15/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/15-2-5.html
+
+[p1] 法第45条第1項《課税資産の譲渡等及び特定課税仕入れについての確定申告》に 規定する「第4号に掲げる消費税額がない課税期間」には、同項第4号《課税仕入れ等に係る消費税額の控除》に掲げる消費税額が100円未満となることにより、通則法第119条第1項《国税の確定金額の端数計算等》の規定によりその全額が切り捨てられることとなる課税期間が含まれるが、このような課税期間であっても課税資産の譲渡等又は特定課税仕入れがあるときは、確定申告書を提出しなければならないのであるから留意する。（平27課消1-17により改正）

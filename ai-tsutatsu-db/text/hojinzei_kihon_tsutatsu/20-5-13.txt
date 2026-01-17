@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 20−5−13 / id: 20-5-13 / title: 租税条約等により法人税が課されない所得に係る欠損金
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/20a/20_05_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/20-5-13.html
+
+[p1] 外国居住者等の所得に対する相互主義による所得税等の非課税等に関する法律の規定又は租税条約により法人税が課されないこととされている所得について欠損金額が生じた場合においても、当該欠損金額は恒久的施設帰属所得に係る所得の金額の計算上損金の額に算入されないことに留意する。（平26年課法2−9「九」により追加、平28年課法2−11「十五」により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第4款 保険会社の投資資産及び投資収益
+[p4] 第4款 保険会社の投資資産及び投資収益

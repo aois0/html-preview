@@ -1,0 +1,6 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 9−3−3 / id: 9-3-3 / title: 長期割賦販売等の要件
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/09/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/9-3-3.html
+

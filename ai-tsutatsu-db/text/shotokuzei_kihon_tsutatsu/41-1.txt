@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 41−1 / id: 41-1 / title: 農産物の収穫価額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/06/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/41-1.html
+
+[p1] 法第41条に規定する農産物の収穫価額は、当該農産物の収穫時における生産者販売価額により計算する。
+[p2] 法第41条の2《発行法人から与えられた株式を取得する権利の譲渡による収入金額》関係

@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 3-27 / id: 3-27 / title: 「これに類する契約」の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/03.htm#a-3_18
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/3-27.html
+
+[p1] 法施行令第1条の3第9号に規定する「これに類する契約」とは、雇用主が退職手当金等を支給する事業を行う団体に掛金を納付し、その団体が当該雇用主の従業員の退職について退職手当金等を支給することを約した契約をいうものとする。(昭46直審(資)6追加、平14課資2-9、平15課資2-1、平18課資2-2、平26課資2-12、課審7-17、徴管6-25、平27課資2−9改正)

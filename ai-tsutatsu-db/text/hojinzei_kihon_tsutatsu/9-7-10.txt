@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−7−10 / id: 9-7-10 / title: 業務の遂行上必要と認められない海外渡航の旅費の特例
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_07_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-7-10.html
+
+[p1] 法人の役員又は使用人の海外渡航が9−7−7に掲げる旅行に該当する場合であっても、その海外渡航の旅行期間内における旅行先、行った仕事の内容等からみて法人の業務にとって直接関連のあるものがあると認められるときは、法人の支給するその海外渡航に要する旅費のうち、法人の業務にとって直接関連のある部分の旅行について直接要した費用の額は、旅費として損金の額に算入する。
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第3款 会費及び入会金等の費用
+[p4] 第3款 会費及び入会金等の費用

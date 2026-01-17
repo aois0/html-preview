@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−32 / id: 15-1-32 / title: 特定の資格
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_13.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-32.html
+
+[p1] 令第5条第1項第12号《出版業》に規定する「特定の資格」とは、特別に定められた法律上の資格、特定の過去の経歴からする資格その他これらに準ずる資格をいうのであるから、単に次に掲げることに該当することをもってその会員の資格とするような法人は、特定の資格を有する者を会員とする法人とはならないことに留意する。(昭56年直法2−16「七」により改正)
+[p2] (1) 年齢、性別又は姓名が同じであること。
+[p3] (2) 趣味又はし好が同じであること。
+[p4] (3) その他(1)又は(2)に準ずるものであること。

@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 11−1−2 / id: 11-1-2 / title: 給与等を対価とする役務の提供
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/11/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/11-1-2.html
+
+[p1] 法第2条第1項第12号《課税仕入れの意義》の規定により、課税仕入れの範囲から除かれる「給与等を対価とする役務の提供」とは、雇用契約又はこれに準ずる契約に基づき給与等を対価として労務を提供することをいうのであるが、この場合の給与等には、俸給、給料、賃金、歳費、賞与及びこれらの性質を有する給与のほか、過去の労務の提供を給付原因とする退職金、年金等も該当することに留意する。

@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−7−11 / id: 5-7-11 / title: 船荷証券の譲渡に係る内外判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-7-11.html
+
+[p1] 船荷証券の譲渡は、当該船荷証券に表彰されている貨物の譲渡であるから、原則として当該船荷証券の譲渡が行われる時において当該貨物が現実に所在している場所により国内取引に該当するかどうかを判定するのであるが、その船荷証券に表示されている「荷揚地」（PORT OF DISCHARGE）が国内である場合の当該船荷証券の譲渡については、その写しの保存を要件として国内取引に該当するものとして取り扱って差し支えない。
+[p2] なお、本邦からの輸出貨物に係る船荷証券の譲渡は、当該貨物の荷揚地が国外であることから、国外取引に該当する。

@@ -1,0 +1,10 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の11−3 / id: 66-11-3 / title: 中小企業倒産防止共済事業の前払掛金
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/15/15_66_11.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-11-3.html
+
+[p1] 中小企業倒産防止共済法の規定による共済契約を締結した法人が独立行政法人中小企業基盤整備機構に前納した共済契約に係る掛金は、前納の期間が1年以内であるものを除き、措置法第66条の11第1項第2号に掲げる掛金に該当しない。（昭53年直法2−24「46」により追加、平3年課法2−4「三十一」、平5年課法2−1「三十二」、平9年課法2−14「二十一」、平11年課法2−9「五十四」、平16年課法2−14「二十九」により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第66条の11の2《特定投資運用業者の役員に対する業績連動給与の損金算入の特例》関係
+[p4] 第66条の11の２ 《特定投資運用業者の役員に対する業績連動給与の損金算入の特例》関係

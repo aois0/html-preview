@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 34−2 / id: 34-2 / title: 遺族が受ける給与等、公的年金等及び退職手当等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/34-2.html
+
+[p1] 死亡した者に係る給与等、公的年金等及び退職手当等で、その死亡後に支給期の到来するもののうち9−17により課税しないものとされるもの以外のものに係る所得は、その支払を受ける遺族の一時所得に該当するものとする。（昭63直所3−3、直法6−2、直資3−2、平元直所3−14、直法6−9、直資3−8改正）

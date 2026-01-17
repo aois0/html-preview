@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 18−1−19 / id: 18-1-19 / title: 出資者等が複数でない場合の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/18/18_01_07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/18-1-19.html
+
+[p1] 会社等が令第155条の13第1項第1号《各種投資会社等の範囲》に掲げる要件を満たすかどうかの判定に当たり、例えば、投資家の募集期間中や会社等の清算手続中の一定の期間において、当該会社等に出資又は拠出を行った者が複数いない場合であっても、複数の者（同号に規定する「複数の者」をいう。）から出資又は拠出を受けた金銭その他の財産を運用することが当該会社等の目的とされているときは、当該要件を満たすことに留意する。
+[p2] 会社等が､同条第2項第1号に掲げる要件を満たすかどうかを判定する場合についても、同様とする。（令5年課法2-17｢九」により追加）

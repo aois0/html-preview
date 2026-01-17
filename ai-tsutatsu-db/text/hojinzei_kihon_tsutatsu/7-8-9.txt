@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−8−9 / id: 7-8-9 / title: 耐用年数を経過した資産についてした修理、改良等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-8-9.html
+
+[p1] 耐用年数を経過した減価償却資産について修理、改良等をした場合であっても、その修理、改良等のために支出した費用の額に係る資本的支出と修繕費の区分については、一般の例によりその判定を行うことに留意する。（昭55年直法2−8「二十六」により追加）

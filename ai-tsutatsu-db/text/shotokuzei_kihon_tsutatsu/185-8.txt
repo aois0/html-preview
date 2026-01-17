@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 185−8 / id: 185-8 / title: 日額表丙欄を適用する給与等に対する税額の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/31/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/185-8.html
+
+[p1] 法第185条第1項第3号の規定は、労働した日又は時間によって算定され、かつ、労働した日ごとに支払われる給与等で令第309条《日払の給与等の意義》に規定するもののほか、次に掲げる給与等についても適用があるものとする。この場合において、次に掲げる給与等を支払う際に徴収する税額は、労働した日ごとの給与等の額につき法別表第3の丙欄を適用して計算した税額の合計額となることに留意する。（昭49直所2−23、平元直所3−14、直法6−9、直資3−8、平19課法9−9、課個2−20、課審4−32改正）

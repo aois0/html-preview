@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 51−19 / id: 51-19 / title: 農地の転用、移転が不許可になったことなどにより返還した仲介手数料等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/09/03.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/51-19.html
+
+[p1] 不動産売買業者の仲介又は譲渡に係る農地についてその転用若しくは移転の許可が得られなかったこと、又はその転用若しくは移転の届出が受理されなかったことにより、その不動産業者が返還した仲介手数料又は譲渡代金は、令第141条第3号の規定によりその返還した日の属する年分の事業所得の金額の計算上必要経費に算入することに留意する。（平11課所4−1改正）
+[p2] 〔返品債権特別勘定〕

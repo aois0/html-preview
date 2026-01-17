@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 3-11 / id: 3-11 / title: 「保険金受取人」の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/02.htm#a-3_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/3-11.html
+
+[p1] 法第3条第1項第1号に規定する「保険金受取人」とは、その保険契約に係る保険約款等の規定に基づいて保険事故の発生により保険金を受け取る権利を有する者(以下3-12において「保険契約上の保険金受取人」という。)をいうものとする。(昭46直審(資)6、昭57直資2-177改正)

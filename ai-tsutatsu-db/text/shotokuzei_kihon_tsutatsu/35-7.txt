@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 35-7 / id: 35-7 / title: 
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/09.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/35-7.html
+
+[p1] 過去の勤務に基づき使用者であった者から支給される年金は、法第35条第3項第2号に規定する公的年金等となるのであるが、転籍者（他の法人に転籍した使用人をいう。）に対し転籍前の法人から転籍後の法人との給与条件の較差を
+[p2] するために支給される較差
+[p3] 金（転籍後の法人を経由して支給されるものを含む。）は、法第28条《給与所得》に規定する給与等に該当することに留意する。（昭63直法6-1、直所3-1追加、平23課個2-33、課法9-9、課審4-46改正）

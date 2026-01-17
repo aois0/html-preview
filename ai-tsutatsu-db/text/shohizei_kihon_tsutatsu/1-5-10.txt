@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 1−5−10 / id: 1-5-10 / title: 吸収分割があった日
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/01/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/1-5-10.html
+
+[p1] 法第12条第5項《吸収分割があった場合の納税義務の免除の特例》に規定する「吸収分割があった日」とは、分割の効力を生ずる日をいう。（平13課消1−5により追加、平14課消1−12、平19課消1−18により改正）

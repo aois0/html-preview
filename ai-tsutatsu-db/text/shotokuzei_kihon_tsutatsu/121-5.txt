@@ -1,0 +1,10 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 121-5 / id: 121-5 / title: 確定所得申告を要しない規定が適用されない給与所得者
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/19/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/121-5.html
+
+[p1] 次に掲げる者については、その年中に支払を受けるべき給与等の金額の合計額が法第121条第1項本文に規定する金額以下である場合であっても、同項の規定は適用されないことに留意する。
+[p2] （1） 法第184条《源泉徴収を要しない給与等の支払者》の規定により源泉徴収をすることを要しない常時2人以下の家事使用人のみに対し給与等の支払をする者から給与等又は退職手当等の支払を受ける居住者
+[p3] （2） 国際慣例により源泉徴収をする義務がないものとされる在日大公使館又は在日外交官から給与等又は退職手当等の支払を受ける居住者
+[p4] （3） 国外において給与等又は退職手当等の支払を受ける居住者

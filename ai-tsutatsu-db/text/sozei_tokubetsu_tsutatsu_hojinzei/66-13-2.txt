@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の13−2 / id: 66-13-2 / title: 特定株式の評価減をした場合の帳簿価額の減額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/15/15_66_13.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-13-2.html
+
+[p1] 法人がその有する特定株式について帳簿価額を減額した場合において、措置法第66条の13第1項又は第11項第6号の規定の適用に当たっては、措置法令第39条の24の2第20項各号に掲げる各株式のいずれの帳簿価額からその減額をした金額を減額するかは、法人の計算によるものとする。（令2年課法2−17「三十」により追加、令4年課法2−14「六十三」、令5年課法2−8「二十二」により改正）

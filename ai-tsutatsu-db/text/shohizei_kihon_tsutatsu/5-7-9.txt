@@ -1,0 +1,9 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−7−9 / id: 5-7-9 / title: 漁業権等の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-7-9.html
+
+[p1] 令第6条第1項第8号《漁業権等の所在地》に規定する「漁業権」又は「入漁権」とは、次のものをいう（外国におけるこれらの権利を含む。）。（平23課消1-35、令4課消2-4により改正）
+[p2] (1) 漁業権 漁業法第60条第1項《漁業権の定義》に規定する定置漁業権、区画漁業権及び共同漁業権をいう。
+[p3] (2) 入漁権 漁業法第60条第７項《入漁権の定義》に規定する入漁権をいう。

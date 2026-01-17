@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−6の2−8 / id: 7-6-2-8 / title: 税負担を著しく軽減することになると認められないもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_06_01_1.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-6-2-8.html
+
+[p1] 賃借人におけるそのリース資産と同一種類のリース資産に係る既往のリース取引の状況、当該リース資産の性質その他の状況からみて、リース期間の終了後に当該リース資産が賃貸人に返還されることが明らかなリース取引については、令第48条の2第5項第5号ニ《所有権移転外リース取引》に規定する「賃借人の法人税の負担を著しく軽減することになると認められるもの」には該当しないことに留意する。（平19年課法2−17「十五」により追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第2款 賃借人の処理
+[p4] 第2款 賃借人の処理

@@ -1,0 +1,35 @@
+# AI向け 日本税務通達（基本通達ほか）データセット
+
+> 国税庁等の通達（基本通達・個別通達等）を、AIが読みやすい最小HTML（1項番=1ページ）+プレーンテキストで提供します。
+
+## 目的
+
+- LLM/AIエージェントが「通達本文」に素早くアクセスできること
+- URLが安定していて、引用位置（段落）をフラグメントで特定できること
+- できるだけ軽量な index/resolve で辿れること（巨大JSONは最後の手段）
+
+## サイト構造
+
+- index.html : 入口
+- enhanced/{doc_code}/{item_id}.html : 個別項番（最小HTML）
+- text/{doc_code}/{item_id}.txt : プレーンテキスト（抽出・RAG前処理向け）
+- data/doc_aliases.json : 通達名・略称→doc_code
+- data/resolve_lite/index.json : 通達別 resolve_lite 目次（軽量）
+- data/resolve_lite/{doc_code}.json : 最軽量のURL解決（通達別・項番一覧）
+- sitemap.xml : サイトマップ
+
+## 推奨の参照フロー（高速）
+
+1) doc_code を確定: `data/doc_aliases.json`  
+2) 項番を探す: `data/resolve_lite/{doc_code}.json`  
+3) 本文抽出: まず `text/...` を読む（軽量で安定）  
+4) 根拠提示: 必要に応じて `enhanced/...#pX` を引用URLとして提示
+
+## 利用可能な通達（doc_code）
+
+- hojinzei_kihon_tsutatsu : 法人税基本通達
+- shotokuzei_kihon_tsutatsu : 所得税基本通達
+- shohizei_kihon_tsutatsu : 消費税基本通達
+- sozokuzei_kihon_tsutatsu : 相続税法基本通達
+- sozei_tokubetsu_tsutatsu_hojinzei : 租税特別措置法関係通達（法人税編）
+- kokuzei_tsusoku_kihon_tsutatsu : 国税通則法基本通達

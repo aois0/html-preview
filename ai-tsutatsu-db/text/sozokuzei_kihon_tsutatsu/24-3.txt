@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 24−3 / id: 24-3 / title: 解約返戻金の金額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/03/01.htm#a-23_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/24-3.html
+
+[p1] 法第24条第1項第1号イ、同項第2号イ及び同項第3号イに規定する解約返戻金の金額は、定期金給付契約に関する権利を取得した時において定期金給付契約を解約するとした場合に支払われることとなる解約返戻金に、当該解約返戻金とともに支払われることとなる剰余金の分配額等がある場合にはこれらの金額を加算し、解約返戻金の金額につき源泉徴収されるべき所得税の額に相当する金額がある場合には当該金額を減算した金額をいうことに留意する。（平22課資2−12、課審6−15、課評2−22追加）

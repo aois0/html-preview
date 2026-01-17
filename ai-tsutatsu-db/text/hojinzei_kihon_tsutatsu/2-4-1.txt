@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−4−1 / id: 2-4-1 / title: 賦払の方法
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_04_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-4-1.html
+
+[p1] 削除（昭48年直法2−81「2」、昭55年直法2−8「八」、平10年課法2−7「三」、平12年課法2−7「五」、平14年課法2−1「十」、平15年課法2−7「九」、平19年課法2−3「十一」、平19年課法2−17「六」により改正、平30年課法2−8「五」により削除）

@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 20−2−6 / id: 20-2-6 / title: 
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/16/16_03_02a.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/20-2-6.html
+
+[p1] 《振替公社債等の運用又は保有》は、令第145条の3第1項第1号《国外にある資産の運用又は保有により生ずる所得》に掲げる債券の範囲について準用する。（平26年課法2−9「四」により追加、令４年課法2−14｢五十八」により改正）

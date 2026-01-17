@@ -1,0 +1,10 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 4−1−3 / id: 4-1-3 / title: 委託販売等の場合の納税義務者の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/04/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/4-1-3.html
+
+[p1] 資産の譲渡等が委託販売の方法その他業務代行契約に基づいて行われるのであるかどうかの判定は、当該委託者等と受託者等との間の契約の内容、価格の決定経緯、当該資産の譲渡に係る代金の最終的な帰属者がだれであるか等を総合判断して行う。
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第2節 信託財産に係る譲渡等の帰属
+[p4] 第2節 信託財産に係る譲渡等の帰属

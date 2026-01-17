@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 18−1−10 / id: 18-1-10 / title: 一の国又は地域において複数の事業活動の拠点を有する場合の恒久的施設等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/18/18_01_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/18-1-10.html
+
+[p1] 会社等の所在地国以外の一の国又は地域に当該会社等の事業活動の拠点が複数ある場合には、複数の当該事業活動の拠点全体が一の恒久的施設等となるのであるから留意する。（令5年課法2−17｢九」により追加）

@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 38−8の7 / id: 38-8-7 / title: 借入金で取得した固定資産を交換した場合等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/18.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/38-8-7.html
+
+[p1] 借入金により取得した固定資産を交換により譲渡した場合には、交換の日におけるその借入金の残存額と交換取得資産の価額のうちいずれか低い金額は、その交換の日において、交換取得資産を取得するために借り入れたものとして取り扱う。
+[p2] 措置法第33条の2第1項に規定する交換処分等又は同法第33条の3《換地処分等に伴い資産を取得した場合の課税の特例》に規定する換地処分等があった場合も、同様である。（昭56直資3−2、直所3−3追加）
+[p3] (注) 固定資産を交換した場合において、交換差金を支払うために借り入れた資金は、交換取得資産の取得のために借り入れたものとして取り扱われることに留意する。

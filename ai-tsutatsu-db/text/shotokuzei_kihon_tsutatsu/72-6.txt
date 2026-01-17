@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 72−6 / id: 72-6 / title: 大規模な災害の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/72-6.html
+
+[p1] 令第206条第1項第2号に規定する「大規模な災害」とは、同号イからハまでに掲げる支出その他これらに類する支出が1年を超えて支出されると認められる災害をいうのであるが、大規模災害からの復興に関する法律（平成25年法律第55号）第2条第1号((定義))に規定する「特定大規模災害」は、同項第2号に規定する「大規模な災害」に該当することに留意する。（平27課個2-11、課法10-16、課審5-7追加）
+[p2] (注) この取扱いは、令第203条第2号((被災事業用資産の損失に含まれる支出))に規定する「大規模な災害」についても同様であることに留意する。

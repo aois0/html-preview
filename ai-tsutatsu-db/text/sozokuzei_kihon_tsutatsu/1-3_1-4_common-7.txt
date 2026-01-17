@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 1の3・1の4共−7 / id: 1-3_1-4_common-7 / title: 日本国籍と外国国籍とを併有する者がいる場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/01.htm#a-1_1_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/1-3_1-4_common-7.html
+
+[p1] 法第1条の3第1項第2号イ又は第1条の4第1項第2号イに規定する「日本国籍を有する個人」には、日本国籍と外国国籍とを併有する重国籍者も含まれるのであるから留意する。(平15課資2−1追加、平25課資2−10、平27課資2−9改正)

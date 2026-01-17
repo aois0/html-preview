@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 70の2−1 / id: 70-2-1 / title: 固定資産等の損失に関する取扱いの準用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/15/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/70-2-1.html
+
+[p1] 法第70条の２第４項第２号の事業用固定資産の特定非常災害による損失の金額及び同号かっこ内に規定する「その他これらに類するもの」については、51−２及び51−６の取扱いに準ずる。（令5課個2-25、課法12-11、課審5-9追加）

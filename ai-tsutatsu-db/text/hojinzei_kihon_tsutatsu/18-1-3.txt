@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 18−1−3 / id: 18-1-3 / title: 連結の範囲から除かれる会社等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/18/18_01_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/18-1-3.html
+
+[p1] 企業グループ等の判定に当たり、企業集団の計算書類において連結の範囲から除かれる会社等のうち、企業グループ等に含まれることとされる会社等は、規則第38条の5各号《企業グループ等の範囲》に掲げる理由に該当する会社等に限られるのであるから、最終親会社財務会計基準に従い当該理由以外の理由により連結の範囲から除かれる会社等は、企業グループ等に含まれないことに留意する。（令5年課法2−17｢九」により追加）

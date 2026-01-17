@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−4−2 / id: 7-4-2 / title: 転用資産の償却限度額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_04_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-4-2.html
+
+[p1] 減価償却資産を事業年度の中途において従来使用されていた用途から他の用途に転用した場合において、法人が転用した資産の全部について転用した日の属する事業年度開始の日から転用後の耐用年数により償却限度額を計算したときは、これを認める。(平19年課法2−7「五」により改正)
+[p2] (注) 償却方法として定率法を採用している減価償却資産の転用前の耐用年数よりも転用後の耐用年数が短くなった場合において、転用初年度に、転用後の耐用年数による償却限度額が、転用前の耐用年数による償却限度額に満たないときには、転用前の耐用年数により償却限度額を計算することができることに留意する。

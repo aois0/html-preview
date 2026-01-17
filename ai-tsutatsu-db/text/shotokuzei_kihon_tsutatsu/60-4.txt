@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 60−4 / id: 60-4 / title: 「配偶者居住権等を取得した時」の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/12/03.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/60-4.html
+
+[p1] 法第60条第３項第１号に規定する「配偶者居住権を取得した時」及び同項第２号に規定する「当該権利を取得した時」とは、配偶者居住権が設定された時をいうことに留意する。
+[p2] (注) 配偶者居住権が設定された時については、昭和34年１月28日付直資10「相続税法基本通達の全部改正について」通達23の２−２《「配偶者居住権が設定された時」の意義》参照（令２課資３−７、課個２−18、課法11−４、課審７−９追加）

@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 11の2−4 / id: 11-2-4 / title: 裁判確定前の相続分
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/01.htm#a-11_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/11-2-4.html
+
+[p1] 相続税の申告書を提出する時又は課税価格及び相続税額を更正し、若しくは決定する時において、まだ法第32条第1項第2号、同項第3号、法施行令第8条第2項第1号又は第2号に掲げる事由が未確定の場合には、当該事由がないものとした場合における各相続人の相続分を基礎として課税価格を計算することに取り扱うものとする。（昭39直審（資）30改正、平15課資2-1、平19課資2−5、課審6−3、平25課資2−10改正）

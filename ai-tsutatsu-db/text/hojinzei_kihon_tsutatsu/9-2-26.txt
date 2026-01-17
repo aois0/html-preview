@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−2−26 / id: 9-2-26 / title: 他の使用人に対する賞与の支給時期と異なる時期に支給したものの意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_02_06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-2-26.html
+
+[p1] 法人が、使用人兼務役員の使用人としての職務に対する賞与を、他の使用人に対する賞与の支給時期に未払金として経理し、他の役員への給与の支給時期に支払ったような場合には、当該賞与は、令第70条第3号《過大な役員給与の額》に規定する「他の使用人に対する賞与の支給時期と異なる時期に支給したもの」に該当することに留意する。（平19年課法2−3「二十二」により改正）

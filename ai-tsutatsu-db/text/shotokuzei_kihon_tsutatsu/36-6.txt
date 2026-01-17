@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 36−6 / id: 36-6 / title: 頭金、権利金等の収入すべき時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/36-6.html
+
+[p1] 不動産等の貸付け（貸付契約の更新及び地上権等の設定その他他人に不動産等を使用させる行為を含む。以下36−7までにおいて同じ。）をしたことに伴い一時に収受する頭金、権利金、名義書換料、更新料等に係る不動産所得の総収入金額の収入すべき時期は、当該貸付けに係る契約に伴い当該貸付けに係る資産の引渡しを要するものについては当該引渡しのあった日、引渡しを要しないものについては当該貸付けに係る契約の効力発生の日によるものとする。ただし、引渡しを要するものについて契約の効力発生の日により総収入金額に算入して申告があったときは、これを認める。

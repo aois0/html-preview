@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 4−4−3 / id: 4-4-3 / title: 受託事業者が交付する適格請求書等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/04/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/4-4-3.html
+
+[p1] 固有事業者が適格請求書発行事業者である場合において、受託事業者の事業として交付する適格請求書、適格簡易請求書又は適格返還請求書に記載すべき登録番号は、固有事業者の登録番号となることに留意する。（令５課消２−９により追加）

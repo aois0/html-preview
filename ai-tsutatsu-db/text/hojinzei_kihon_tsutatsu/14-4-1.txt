@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 14−4−1 / id: 14-4-1 / title: 信託財産に属する資産及び負債並びに信託財産に帰せられる収益及び費用の帰属
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/14/14_04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/14-4-1.html
+
+[p1] 受益者等課税信託における受益者は、受益者としての権利を現に有するものに限られるのであるから、例えば、一の受益者が有する受益者としての権利がその信託財産に係る受益者としての権利の一部にとどまる場合であっても、その余の権利を有する者が存しない又は特定されていないときには、当該受益者がその信託の信託財産に属する資産及び負債の全部を有するものとみなされ、かつ、当該信託財産に帰せられる収益及び費用の全部が帰せられるものとみなされることに留意する。（平19年課法2−5「八」により追加）

@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 11−5−5 / id: 11-5-5 / title: 輸出取引に係る対価の返還等があった場合の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/11/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/11-5-5.html
+
+[p1] 課税売上割合の計算に当たって、その課税期間中に課税資産の輸出取引（法第31条第1項《非課税資産の輸出等を行った場合の仕入れに係る消費税額の控除の特例》の規定により、法第30条《仕入れに係る消費税額の控除》の規定が適用される輸出取引等を含む。）に係る対価の返還等を行った場合には、当該対価の返還等の金額は、課税売上割合の計算上、法第30条第6項後段《課税売上割合》に規定する「資産の譲渡等の対価の額の合計額」及び「課税資産の譲渡等の対価の額の合計額」から控除するのであるから留意する。

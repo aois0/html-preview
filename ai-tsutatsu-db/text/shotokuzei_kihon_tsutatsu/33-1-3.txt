@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 33-1の3 / id: 33-1-3 / title: 使用可能期間が1年未満である減価償却資産
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/33-1-3.html
+
+[p1] 使用可能期間が1年未満である減価償却資産で令第138条第１項《少額の減価償却資産の取得価額の必要経費算入》の規定に該当するものの譲渡による所得は、当該減価償却資産がその者の業務の性質上基本的に重要なものに該当する場合であっても、譲渡所得には該当しない。（昭50直資3-11、直所3-19、令４課個2-13、課法12-16、課審5-９改正）

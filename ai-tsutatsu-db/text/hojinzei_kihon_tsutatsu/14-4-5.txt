@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 14−4−5 / id: 14-4-5 / title: 信託による資産の移転等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/14/14_04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/14-4-5.html
+
+[p1] 委託者と受益者がそれぞれ単一であり、かつ、同一の者である場合の受益者等課税信託においては、次に掲げる移転は受益者である委託者にとって資産の譲渡又は資産の取得には該当しないことに留意する。（平19年課法2−5「八」により追加）
+[p2] (1) 信託行為に基づき信託した資産の当該委託者から当該受託者への移転
+[p3] (2) 信託の終了に伴う残余財産の給付としての当該資産の当該受託者から当該受益者への移転
+[p4] (注) これらの移転があった場合における当該資産（当該信託の期間中に信託財産に属することとなった資産を除く。）の取得の日は、当該委託者が当該資産を取得した日となる。

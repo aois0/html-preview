@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 20−2 / id: 20-2 / title: 「相続税の課税価格に算入される部分」等の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/09.htm#a-20_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/20-2.html
+
+[p1] 法第20条第1号及び第2号に規定する「相続税の課税価格に算入される部分」及び「相続税の課税価格計算の基礎に算入された部分」とは、債務控除をした後の金額をいうものとする。（平15課資2−1改正）

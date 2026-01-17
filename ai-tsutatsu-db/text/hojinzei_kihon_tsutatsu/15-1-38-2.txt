@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−38の2 / id: 15-1-38-2 / title: 会員に準ずる者
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_15.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-38-2.html
+
+[p1] 令第5条第1項第14号ロ(4)《非課税とされる会員等を対象とする席貸業》に規定する「会員その他これに準ずる者」には、公益法人等の正会員のほか、準会員、賛助会員等として当該公益法人等の業務運営に参画し、その業務運営のための費用の一部を負担している者、当該公益法人等が複数の団体を構成員とする組織である場合のその間接の構成員等が含まれるものとする。（昭59年直法2−3「九」により追加）

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−13 / id: 49-13 / title: 耐用年数短縮の承認事由の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-13.html
+
+[p1] 減価償却資産が令第130条第1項各号に掲げる事由に該当するかどうかを判定する場合において、当該各号に規定する「使用可能期間が法定耐用年数に比して著しく短いこと」とは、当該減価償却資産の使用可能期間がその法定耐用年数に比しておおむね10%以上短い年数となったことをいうものとする。

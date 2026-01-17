@@ -1,0 +1,10 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 58−12 / id: 58-12 / title: 交換資産の時価
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/12/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/58-12.html
+
+[p1] 固定資産の交換があった場合において、交換当事者間において合意されたその資産の価額が交換をするに至った事情等に照らし合理的に算定されていると認められるものであるときは、その合意された価額が通常の取引価額と異なるときであっても、法第58条の規定の適用上、これらの資産の価額は当該当事者間において合意されたところによるものとする。（昭56直資3−2、直所3−3追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 法第59条《贈与等の場合の譲渡所得等の特例》関係
+[p4] 法第59条《贈与等の場合の譲渡所得等の特例》関係

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 120−４の２ / id: 120-4-2 / title: 前々年分の収入金額の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/19/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/120-4-2.html
+
+[p1] 法第120条第６項に規定する「その年の前々年分の当該業務に係る収入金額が1,000万円を超える」かどうかは、その年分の確定申告書を提出する時までに確定しているところにより判定するものとする。（令４課個2-13、課法12-16、課審5-９追加）

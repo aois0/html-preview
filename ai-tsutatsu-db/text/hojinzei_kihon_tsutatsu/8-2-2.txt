@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 8−2−2 / id: 8-2-2 / title: 繰延資産の償却期間の改訂
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/08/08_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/8-2-2.html
+
+[p1] 固定資産を利用するために支出した繰延資産で当該固定資産の耐用年数を基礎として支出の効果の及ぶ期間（以下この節において「償却期間」という。）を算定しているものにつき、その後当該固定資産の耐用年数が改正されたときは、その改正された事業年度以後の当該繰延資産の償却期間は、改正後の耐用年数を基礎として算定した年数による。

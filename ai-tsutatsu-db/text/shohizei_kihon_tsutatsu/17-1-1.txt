@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 17−1−1 / id: 17-1-1 / title: 課税事業者選択届出書を提出している場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/17/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/17-1-1.html
+
+[p1] 課税事業者選択届出書を提出している事業者は、当該届出書を提出した日の属する課税期間の翌課税期間以後の課税期間については、その基準期間における課税売上高が1,000万円を超えるかどうかにかかわらず課税事業者となるのであるから、法第57条第1項第1号《基準期間における課税売上高が1,000万円を超えることとなった場合の届出》に規定する届出書は提出しなくて差し支えない。（平9課消2−5、平15課消1−37により改正）

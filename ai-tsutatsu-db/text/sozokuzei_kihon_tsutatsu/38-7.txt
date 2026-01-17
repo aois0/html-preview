@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 38−7 / id: 38-7 / title: 不動産等の価額の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/01.htm#a-38_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/38-7.html
+
+[p1] 法第38条第1項前段のかっこ書の規定により、延納期間を延長することができる場合の「不動産等の価額」を計算するに当たり、法施行令第13条の「事業用の減価償却資産」とは、被相続人の事業の用に供されていた所得税法第2条第1項第19号に規定する減価償却資産をいうのであるから留意する。（平7課資2−119・徴管5−5追加、平18徴管5−14改正）

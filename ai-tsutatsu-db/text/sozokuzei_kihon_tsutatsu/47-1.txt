@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 47−1 / id: 47-1 / title: 災害等延長期間等の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/06.htm#a-44_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/47-1.html
+
+[p1] 法施行令第25条の5第2項により読み替える「災害等延長期間又は第22項第2号」の取扱いについては、39−10の2から39−10の4を準用するものとする。
+[p2] 第48条の2《特定の延納税額に係る物納》関係

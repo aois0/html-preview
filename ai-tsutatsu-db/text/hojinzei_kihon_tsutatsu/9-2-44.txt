@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−2−44 / id: 9-2-44 / title: 同時期に支給を受ける全ての使用人
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_02_08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-2-44.html
+
+[p1] 法人が、その使用人に対する賞与の支給について、いわゆるパートタイマー又は臨時雇い等の身分で雇用している者（雇用関係が継続的なものであって、他の使用人と同様に賞与の支給の対象としている者を除く。)とその他の使用人を区分している場合には、その区分ごとに、令第72条の3第2号イの支給額の通知を行ったかどうかを判定することができるものとする。（平10年課法2−7「十」により追加、平19年課法2−3「二十二」、平22年課法2−1「十八」、平23年課法2−17「十八」により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第9款 転籍、出向者に対する給与等
+[p4] 第9款 転籍、出向者に対する給与等

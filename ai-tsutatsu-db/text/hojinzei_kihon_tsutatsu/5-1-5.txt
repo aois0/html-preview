@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 5−1−5 / id: 5-1-5 / title: 製造間接費の製造原価への配賦
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/05/05_01_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/5-1-5.html
+
+[p1] 法人の事業の規模が小規模である等のため製造間接費を製品、半製品又は仕掛品に配賦することが困難である場合には、その製造間接費を半製品及び仕掛品の製造原価に配賦しないで製品の製造原価だけに配賦することができる。

@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 17−2−5 / id: 17-2-5 / title: 更生手続の開始の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/17/17_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/17-2-5.html
+
+[p1] 法第80条第4項《欠損金の繰戻しによる還付の特例》に規定する「更生手続の開始」とは、更生手続の開始の申立て(会社更生法第234条《更生手続の終了事由》等に規定する更生手続開始の申立てを棄却する決定があった場合のその申立てを除く。)があったことをいうものとする。(昭52年直法2−33「21」により追加、平12年課法2−19「十八」、平15年課法2−7「五十八」、平15年課法2−22「十八」、平22年課法2−1「四十四」、平29年課法2−2「四」により改正)

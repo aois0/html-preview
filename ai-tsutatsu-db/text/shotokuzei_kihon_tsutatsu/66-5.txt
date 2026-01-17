@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 66−5 / id: 66-5 / title: 工事の目的物について個々に引渡しが可能な場合の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/14/02.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/66-5.html
+
+[p1] 工事の請負に係る一の契約においてその目的物について個々に引渡しが可能な場合であっても、当該工事が法第66条第1項に規定する長期大規模工事に該当するかどうかは、当該一の契約ごとに判定することに留意する。
+[p2] ただし、その目的物の性質、取引の内容並びに目的物ごとの請負の対価の額及び原価の額の区分の状況などに照らして、個々に独立した契約が一の契約書に一括して記載されていると認められる工事の請負については、当該個々に独立した契約ごとに長期大規模工事の判定を行うことができる。（平11課所4−1追加）

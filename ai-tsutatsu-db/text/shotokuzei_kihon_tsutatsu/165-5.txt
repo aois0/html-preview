@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 165−5 / id: 165-5 / title: 必要経費の額等に算入できない保証料
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/24/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/165-5.html
+
+[p1] 非居住者の恒久的施設帰属所得に係る不動産所得、事業所得、山林所得若しくは雑所得又は一時所得の金額の計算上、恒久的施設とその事業場等（法第161条第2項に規定する事業場等をいう。以下第165条関係において同じ。）との間の資金の借入れに係る債務の保証に相当する事実に基づく保証料（これに準ずるものを含む。）の額は、必要経費の額又は支出した金額に算入することはできないことに留意する（平28課2−4、課法11−8、課審5−5追加）。

@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−3−6 / id: 7-3-6 / title: 土地とともに取得した建物等の取壊費等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_03_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-3-6.html
+
+[p1] 法人が建物等の存する土地（借地権を含む。以下7−3−6において同じ。）を建物等とともに取得した場合又は自己の有する土地の上に存する借地人の建物等を取得した場合において、その取得後おおむね1年以内に当該建物等の取壊しに着手する等、当初からその建物等を取り壊して土地を利用する目的であることが明らかであると認められるときは、当該建物等の取壊しの時における帳簿価額及び取壊費用の合計額（廃材等の処分によって得た金額がある場合は、当該金額を控除した金額）は、当該土地の取得価額に算入する。

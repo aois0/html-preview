@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 4-2 / id: 4-2 / title: 相続財産法人から財産の分与を受ける者
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/04.htm#a-3_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/4-2.html
+
+[p1] 民法第958条の2第1項の規定による相続財産の分与は、被相続人と生計を同じくしていた者、被相続人の療養看護に努めた者その他被相続人と特別の縁故があった個人のほか、特別の縁故があった人格のない社団若しくは財団で代表者等の定めがあるもの又は法人（以下4−2において「社団等」という。）に対してもされるが、社団等に対して財産の分与が行われた場合には、当該社団等について法第66条第1項又は第4項の規定の適用があることに留意する。（昭39直審（資）30追加、昭57直資2−177、平19課資2−5、課審6−3、令5課資2-12改正）

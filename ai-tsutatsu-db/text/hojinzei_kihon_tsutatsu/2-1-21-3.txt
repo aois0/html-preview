@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−1−21の3 / id: 2-1-21-3 / title: 履行義務が一時点で充足されるものに係る収益の帰属の時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_01_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-1-21-3.html
+
+[p1] 役務の提供のうち履行義務が一定の期間にわたり充足されるもの以外のもの（以下2−1−30までにおいて「履行義務が一時点で充足されるもの」という。）については、その引渡し等の日が法第22条の2第1項《収益の額》に規定する役務の提供の日に該当し、その収益の額は、引渡し等の日の属する事業年度の益金の額に算入されることに留意する。（平30年課法2−8「二」により追加）

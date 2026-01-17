@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 24-6の2 / id: 24-6-2 / title: 配当所得の収入金額を超える負債の利子
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/24-6-2.html
+
+[p1] 24-6の場合において、24-6に掲げる算式により計算した金額が配当所得の収入金額を超えるときは、その超える部分の金額を、株式等に係る譲渡所得等の金額又は総合課税の株式等に係る事業所得等の金額の計算上控除して差し支えない。（平元直所3-14、直法6-9、直資3-8追加、平11課所4-25改正）

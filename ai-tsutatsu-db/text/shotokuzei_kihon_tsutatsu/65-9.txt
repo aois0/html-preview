@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 65−9 / id: 65-9 / title: 契約の変更があった場合の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/14/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/65-9.html
+
+[p1] 法第65条第1項の規定によりその収入金額及び費用の額の計上につき延払基準の方法を適用しているリース譲渡についてその後契約の変更があり、リース料の支払期日又は各支払期日ごとのリース料の額が異動した場合は、その変更後の支払期日及び各支払期日ごとのリース料の額に基づいて同項の規定による延払基準の計算を行う。ただし、その変更前に既に支払期日の到来したリース料の額については、この限りでない。（昭55直所3−19、直法6−8追加、平11課所4−1、平19課個2−31、課審4−44、平30課個2−19、課審5−2改正）
+[p2] (注) 法第65条第2項の規定の適用においても同様とする。

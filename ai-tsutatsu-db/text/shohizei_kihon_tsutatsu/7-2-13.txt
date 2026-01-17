@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 7−2−13 / id: 7-2-13 / title: 指定保税地域等における役務の提供の範囲等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/07/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/7-2-13.html
+
+[p1] 令第17条第2項第4号《輸出取引等の範囲》に規定する「指定保税地域…における輸出しようとする貨物及び輸入の許可を受けた貨物に係るこれらの役務の提供」には、指定保税地域等にある輸出しようとする貨物又は輸入の許可を受けた貨物に係る荷役、運送、保管、検数、鑑定、検量又は通関手続等の役務の提供が含まれる。（平18課消1−1により改正）
+[p2] (注) 指定保税地域等には、関税法第30条第1 項第2号《外国貨物を置く場所の制限》の 規定により税関長が指定した場所を含むも のとして取り扱う。

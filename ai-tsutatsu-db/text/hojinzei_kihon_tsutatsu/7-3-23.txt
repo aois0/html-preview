@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−3−23 / id: 7-3-23 / title: 耐用年数短縮の承認を受けている資産に資本的支出をした場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_03_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-3-23.html
+
+[p1] 耐用年数の短縮の承認を受けている減価償却資産(規則第16条第2号《特掲されていない設備の耐用年数の短縮》に掲げる事由又はこれに準ずる事由に該当するものを除く。)に資本的支出をした場合において、当該減価償却資産及び当該資本的支出につき、短縮した耐用年数により償却を行うときには、令第57条第7項《耐用年数短縮が届出により認められる資産の更新》に該当するときを除き、改めて同条第1項《耐用年数の短縮》の規定による国税局長の承認を受けることに留意する。(平19年課法2−7「四」により追加、平20年課法2−5「十四」により改正)

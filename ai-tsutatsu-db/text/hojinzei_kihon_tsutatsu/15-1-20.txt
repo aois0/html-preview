@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−20 / id: 15-1-20 / title: 非課税とされる住宅用地の貸付け
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-20.html
+
+[p1] 令第5条第1項第5号ヘ《非課税とされる住宅用地の貸付業》に規定する「主として住宅の用に供される土地」とは、その床面積の2分の1以上が居住の用（貸家住宅の用を含み、別荘の用を除く。）に供される家屋の敷地として使用されている土地のうちその面積が当該家屋の床面積の10倍に相当する面積以下であるものをいう。（昭49年直法2−71「28」により追加、昭56年直法2−16「七」により改正）

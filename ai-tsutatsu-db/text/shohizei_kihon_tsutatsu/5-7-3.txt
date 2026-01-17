@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−7−3 / id: 5-7-3 / title: 航空機の登録をした機関の所在地
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-7-3.html
+
+[p1] 令第6条第1項第3号《航空機の所在地》に規定する「航空機の登録をした機関の所在地」とは、我が国の航空機については航空法第3条《登録》に規定する登録機関の所在地をいい、外国の航空機については、当該航空機の国籍の所在地をいう。

@@ -1,0 +1,9 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 11−3−11 / id: 11-3-11 / title: 電子申告の場合の輸入の許可があったことを証する書類
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/11/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/11-3-11.html
+
+[p1] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p2] 第4節 課税仕入れに係る支払対価の額
+[p3] 第4節 課税仕入れに係る支払対価の額

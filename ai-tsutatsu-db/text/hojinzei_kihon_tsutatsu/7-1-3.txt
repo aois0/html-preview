@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−1−3 / id: 7-1-3 / title: 稼働休止資産
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_01_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-1-3.html
+
+[p1] 稼働を休止している資産であっても、その休止期間中必要な維持補修が行われており、いつでも稼働し得る状態にあるものについては、減価償却資産に該当するものとする。(昭55年直法2−8「十九」により改正)
+[p2] (注) 他の場所において使用するために移設中の固定資産については、その移設期間がその移設のために通常要する期間であると認められる限り、減価償却を継続することができる。

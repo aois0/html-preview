@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−1の3の2 / id: 49-1-3-2 / title: 土石採取業の採石用坑道
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/05.htm#a-00
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-1-3-2.html
+
+[p1] 土石採取業における採石用の坑道は、令第120条第1項第3号又は令第120条の2第1項第3号に規定する鉱業用減価償却資産に該当することに留意する。（昭57直所3−1追加、平11課所4−1、平12課所4−30、平19課個2−11、課資3−1、課法9−5、課審4−26改正）

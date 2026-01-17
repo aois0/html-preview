@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 36−26 / id: 36-26 / title: 課税しない経済的利益……寄宿舎の電気料等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/36-26.html
+
+[p1] 使用者が寄宿舎（これに類する施設を含む。以下この項において同じ。）の電気、ガス、水道等の料金を負担することにより、当該寄宿舎に居住する役員又は使用人が受ける経済的利益については、当該料金の額がその寄宿舎に居住するために通常必要であると認められる範囲内のものであり、かつ、各人ごとの使用部分に相当する金額が明らかでない場合に限り、課税しなくて差し支えない。

@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−3−40 / id: 2-3-40 / title: みなし決済損益額に関する書類の保存
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_03_06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-3-40.html
+
+[p1] 規則第27条の7第4項《デリバティブ取引の範囲等》の規定の適用については、2−3−34《売買目的有価証券の時価評価金額に関する書類の保存》の取扱いを準用する。（令2年課法2−17「三」により追加）

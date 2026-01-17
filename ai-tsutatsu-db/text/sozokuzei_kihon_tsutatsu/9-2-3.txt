@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 9の2−3 / id: 9-2-3 / title: 信託の受益者等が存するに至った場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/07.htm#a-9-2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/9-2-3.html
+
+[p1] 法第9条の2第2項に規定する「信託の受益者等が存するに至った場合」とは、例えば、次に掲げる場合をいうことに留意する。（平19課資2−5、課審6−3追加）
+[p2] （3） 信託の受益者等として信託に関する権利を各々半分ずつ有する受益者Ａ及びＢが存する信託についてその有する権利の割合が変更された場合

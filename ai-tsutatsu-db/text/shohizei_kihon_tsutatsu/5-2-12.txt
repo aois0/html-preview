@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−2−12 / id: 5-2-12 / title: 自社使用等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-2-12.html
+
+[p1] 事業者が自己の広告宣伝又は試験研究等のために商品、原材料等の資産を消費し、又は使用した場合の当該消費又は使用は、資産の譲渡に該当しないことに留意する。

@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 19の2−3 / id: 19-2-3 / title: 相続を放棄した配偶者に対する相続税額の軽減
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/06.htm#a-19_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/19-2-3.html
+
+[p1] 配偶者に対する相続税額の軽減の規定は、配偶者が相続を放棄した場合であっても当該配偶者が遺贈により取得した財産があるときは、適用があるのであるから留意する。（昭41直審（資）5、昭42直審（資）5、令元課資2−10改正）

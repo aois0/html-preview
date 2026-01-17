@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 33-15 / id: 33-15 / title: 借地権の設定等に伴う保証金等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/33-15.html
+
+[p1] 借地権の設定等に当たり保証金、敷金等の名義による金銭を受け入れた場合においても、その受け入れた金額がその土地の存する地域において通常収受される程度の保証金等の額（その額が明らかでないときは、当該借地権の設定等に係る契約による地代のおおむね3月分相当額とする。）以下であるときは、当該受け入れた金額は、令第80条第1項に規定する「特に有利な条件による金銭の貸付け」には該当しないものとする。

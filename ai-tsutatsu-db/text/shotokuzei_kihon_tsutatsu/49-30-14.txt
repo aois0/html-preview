@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−30の14 / id: 49-30-14 / title: 賃貸借期間等に含まれる再リース期間
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/09.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-30-14.html
+
+[p1] 令第120条第1項第6号に規定する「賃貸借の期間」には、改正前リース取引(同号に規定する改正前リース取引をいう。以下49−30の16において同じ。)のうち再リースをすることが明らかなものにおける当該再リースに係る賃貸借期間を含むものとする。（平19課個2−31、課審4−44追加）
+[p2] (注) 令第120の2第1項第6号に規定する「リース期間」及び令第121条の2第1項に規定する「改定リース期間」についても同様とする。

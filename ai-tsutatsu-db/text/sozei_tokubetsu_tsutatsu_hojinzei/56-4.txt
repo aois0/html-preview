@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 56-4 / id: 56-4 / title: 特定法人の株式等の評価減を否認した場合の中小企業事業再編投資損失準備金の特例
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/02/02_55_7.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/56-4.html
+
+[p1] 法人が、中小企業事業再編投資損失準備金に係る特定法人の株式等の帳簿価額を減額するとともに、その中小企業事業再編投資損失準備金の金額を取り崩した場合において、当該特定法人の株式等のその減額をした後の帳簿価額が時価を下回る等のため損金の額に算入されない部分の金額があることによりその取り崩した金額が措置法第56条第３項の規定により取り崩して益金の額に算入すべき金額を超えるときは、その超える部分の金額は取崩しがなかったものとし、当該金額に相当する法人計算外の中小企業事業再編投資損失準備金の金額があるものとして取り扱う。（令３年課法2-31「七」により追加、令４年課法２−14「二十八」により改正）

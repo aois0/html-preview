@@ -1,0 +1,12 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 5−4−1 / id: 5-4-1 / title: 棚卸しの手続
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/05/05_04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/5-4-1.html
+
+[p1] 棚卸資産については各事業年度終了の時において実地棚卸しをしなければならないのであるが、法人が、その業種、業態及び棚卸資産の性質等に応じ、その実地棚卸しに代えて部分計画棚卸しその他合理的な方法により当該事業年度終了の時における棚卸資産の在高等を算定することとしている場合には、継続適用を条件としてこれを認める。（昭55年直法2−15「八」により追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第1款 減価償却資産
+[p4] 第7章 減価償却資産の償却等
+[p5] 第1節 減価償却資産の範囲
+[p6] 第1款 減価償却資産

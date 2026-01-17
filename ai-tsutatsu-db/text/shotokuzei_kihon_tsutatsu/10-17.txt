@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 10-17 / id: 10-17 / title: 非課税貯蓄申告書等に記載する氏名等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/10-17.html
+
+[p1] 非課税貯蓄申告書等には確認書類に記載されている氏名を記載すべきものであるから、預金取引等に雅号、芸名、通称等を使用している場合には、当該非課税貯蓄申告書等には必ず確認書類に記載されている氏名を記載するほか、その預金取引等に使用したその雅号等を付記し、取引名義人と申告者とが同一人であることを明らかにしておかなければならないことに留意する。（昭60直法6-8、直所3-12、昭63直法6-7、直所3-8改正）

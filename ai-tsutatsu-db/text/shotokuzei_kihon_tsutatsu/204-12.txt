@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 204−12 / id: 204-12 / title: 測量士等の資格のない測量業者等に支払う報酬又は料金
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/36/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/204-12.html
+
+[p1] 法第204条第1項第2号に掲げる報酬又は料金のうち測量士、測量士補、不動産鑑定士、不動産鑑定士補、建築士又は建築代理士（以下この項においてこれらを「測量士等」という。）の業務に関するものには、測量士等の資格を有しない者で測量士等の資格を有する使用人を使用しているものが支払を受けるこれらの業務に関する報酬又は料金も含まれる。

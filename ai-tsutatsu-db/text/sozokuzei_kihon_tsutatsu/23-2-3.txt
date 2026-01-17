@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 23の2−3 / id: 23-2-3 / title: 相続開始前に増改築がされた場合の「建築後の経過年数」の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/03/01.htm#a-23_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/23-2-3.html
+
+[p1] 法第23条の2第1項第2号イ及びロに規定する「経過年数」は、相続開始前に増改築がされた場合であっても、増改築部分を区分することなく、新築時からの経過年数によるのであるから留意する。

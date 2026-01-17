@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66−5 / id: 66-5 / title: 一の所有隣接土地等を交換により譲渡した場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/10/10_66.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-5.html
+
+[p1] 措置法第66条第1項に規定する所有隣接土地等(以下「所有隣接土地等」という。)が一の土地等である場合において、同条第1項又は第4項の規定の適用を受けるときには、当該所有隣接土地等の交換については、第65条の9の規定の適用を受けることはできないのであるから留意する。（平19年課法2−3「四十七」により追加）

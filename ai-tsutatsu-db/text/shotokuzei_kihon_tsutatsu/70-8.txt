@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 70−8 / id: 70-8 / title: 第三者に対する損害賠償金等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/15/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/70-8.html
+
+[p1] 次に掲げるような場合において、損害賠償金、見舞金、弔慰金等として支出する費用は、法第45条第1項第8号《必要経費に算入されない損害賠償金》に該当するものを除き、令第203条に規定する費用に含まれるものとする。（令元課個2-22、課法11-3、課審5-12改正）
+[p2] (1) 災害により事業用の建物又は構築物等が倒壊し、その倒壊により第三者に損害を与えた場合
+[p3] (2) 災害により事業に関連して保管している第三者の物品について損害が生じた場合

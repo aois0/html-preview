@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 120-2 / id: 120-2 / title: 2月15日以前に提出された確定申告書の受理
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/19/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/120-2.html
+
+[p1] その年分の確定申告書（法第122条第1項《還付等を受けるための申告》に規定する申告書を除く。）がその年の翌年2月15日以前に提出された場合には、当該申告書は通則法第17条第2項《期限内申告》に規定する期限内申告書に該当するものとする。（平23課個2-33、課法9-9、課審4-46、平29課個2−13、課資3−3、課審5−5、令３課個2-10、課法11-28、課審5-4改正）

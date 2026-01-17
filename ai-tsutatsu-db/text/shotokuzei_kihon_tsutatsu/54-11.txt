@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 54−11 / id: 54-11 / title: 支給基準等がさかのぼって改正された場合の取崩し
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/10/04.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/54-11.html
+
+[p1] 退職給与の支給基準又は給与ベースの改正が行われた場合には、当該改正が行われた年の12月31日までに退職した使用人に係る令第155条第1項第1号に規定する退職給与引当金勘定の金額の取崩しは、その改正の効果が前年にさかのぼるかどうかを問わず、改正前の規定又は給与ベースに基づく前年末退職給与の要支給額による。

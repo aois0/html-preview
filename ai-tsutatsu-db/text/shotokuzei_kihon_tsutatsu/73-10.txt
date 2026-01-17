@@ -1,0 +1,12 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 73−10 / id: 73-10 / title: 
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/73-10.html
+
+[p1] 医療費を
+[p2] する保険金等の額が医療費を支払った年分の確定申告書を提出する時までに確定していない場合には、当該保険金等の見込額に基づいて同項の規定を適用する。この場合において、後日、当該保険金等の確定額と当該見込額とが異なることとなったときは、遡及してその医療費控除額を訂正するものとする。（平23課個2−33、課法9−9、課審4−46改正）
+[p3] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p4] 法第72条《雑損控除》関係
+[p5] 第3節 所得控除
+[p6] 法第72条《雑損控除》関係

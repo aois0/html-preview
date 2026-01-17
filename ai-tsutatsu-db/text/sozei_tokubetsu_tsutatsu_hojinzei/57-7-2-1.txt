@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 57の7の2−1 / id: 57-7-2-1 / title: 適格合併等により引継ぎを受けた中部国際空港整備準備金の均分取崩し
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/02/02_57_7_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/57-7-2-1.html
+
+[p1] 適格合併又は適格分割型分割により引継ぎを受けた中部国際空港整備準備金の措置法第57条の7の2第3項の規定による均分取崩しについては、55−7の2の取扱いに準じて取り扱うものとする。（平25年課法2−4「十七」により追加、令４年課法２−14「三十五」により改正）

@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 21の6-4 / id: 21-6-4 / title: 家屋の増築
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/11.htm#a-21_6_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/21-6-4.html
+
+[p1] 法第21条の6第1項に規定する「取得」には、家屋の増築を含むものとする。（昭41直審（資）5追加、昭50直資2-257改正）

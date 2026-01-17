@@ -1,0 +1,12 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 15−4 / id: 15-4 / title: 代襲相続人が被相続人の養子である場合の相続人の数
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/04.htm#a-15_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/15-4.html
+
+[p1] 相続人のうちに代襲相続人であり、かつ、被相続人の養子となっている者がある場合の法第15条第2項に規定する相続人の数については、その者は実子1人として計算するのであるから留意する。（昭57直資2
+[p2] −
+[p3] 177追加、平元直資2
+[p4] −
+[p5] 207改正）
+[p6] （注） この場合の相続分は、代襲相続人としての相続分と養子としての相続分との双方を有するのであるから留意する。

@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 11の2−7 / id: 11-2-7 / title: 負担付遺贈があった場合の課税価格の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/01.htm#a-11_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/11-2-7.html
+
+[p1] 負担付遺贈により取得した財産の価額は、負担がないものとした場合における当該財産の価額から当該負担額（当該遺贈のあった時において確実と認められる金額に限る。）を控除した価額によるものとする。

@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−4−6 / id: 7-4-6 / title: 中間期間で増加償却を行った場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_04_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-4-6.html
+
+[p1] 法人が、中間期間において令第60条《通常の使用時間を超えて使用される機械及び装置の償却限度額の特例》の規定により増加償却の適用を受けている場合であっても、確定事業年度においては、改めて当該事業年度を通じて増加償却割合を計算し、同条の規定を適用することに留意する。(昭50年直法2−21「22」により追加、平10年課法2−7「七」、令４年課法2−14｢十八」により改正)

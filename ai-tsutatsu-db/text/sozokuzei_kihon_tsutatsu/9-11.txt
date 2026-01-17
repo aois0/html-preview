@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 9-11 / id: 9-11 / title: 負担付贈与等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/06.htm#a-9_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/9-11.html
+
+[p1] 負担付贈与又は負担付遺贈があった場合において当該負担額が第三者の利益に帰すときは、当該第三者が、当該負担額に相当する金額を、贈与又は遺贈によって取得したこととなるのであるから留意する。この場合において、当該負担が停止条件付のものであるときは、当該条件が成就した時に当該負担額相当額を贈与又は遺贈によって取得したことになるのであるから留意する。

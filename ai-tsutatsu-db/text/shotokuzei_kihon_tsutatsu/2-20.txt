@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 2−20 / id: 2-20 / title: 無形固定資産の業務の用に供した時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/2-20.html
+
+[p1] 令第6条第8号に掲げる無形固定資産のうち、現に営む業務の遂行上必要な漁業権、工業所有権及び樹木採取権については、その取得の日から業務の用に供されたものとして差し支えない。（昭55直所3−19、直法6−8、令2課個2−12、課法11−3、課審5−6改正）

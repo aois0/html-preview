@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 42の9−1 / id: 42-9-1 / title: 生産等設備の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/01/01_42_09.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/42-9-1.html
+
+[p1] 措置法令第27条の9第2項第2号及び第3号に規定する生産等設備は、措置法第42条の9第1項の表の第2号から第5号までの第3欄に掲げる電気通信業、製造業若しくは特定経済金融活性化産業に属する事業又は措置法令第27条の9第5項、第7項若しくは第9項に規定する事業の用に直接供される減価償却資産で構成されているものをいう。したがって、例えば、本店、販売所、寄宿舎等の建物、事務用器具備品、乗用自動車、福利厚生施設のようなものは、これに該当しない。（平10年課法2−17「六」により追加、平15年課法2−7「九」、平26年課法2−6「五」、令４年課法２−14「七」により改正）

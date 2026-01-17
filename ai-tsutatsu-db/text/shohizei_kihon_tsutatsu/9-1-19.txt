@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 9−1−19 / id: 9-1-19 / title: 貸付金利子等を対価とする資産の譲渡等の時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/09/01/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/9-1-19.html
+
+[p1] 貸付金、預金、貯金又は有価証券（以下9−1−19において「貸付金等」という。）から生ずる利子の額は、その利子の計算期間の経過に応じ当該課税期間に係る金額を当該課税期間の資産の譲渡等の対価の額とする。ただし、主として金融及び保険業を営む事業者以外の事業者が、その有する貸付金等（当該事業者が金融及び保険業を兼業する場合には、当該金融及び保険業に係るものを除く。）から生ずる利子で、その支払期日が1年以内の一定の期間ごとに到来するものの額につき、継続してその支払期日の属する課税期間の資産の譲渡等の対価の額としている場合には、これを認める。

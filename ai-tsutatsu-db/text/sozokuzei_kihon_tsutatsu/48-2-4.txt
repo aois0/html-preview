@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 48の2−4 / id: 48-2-4 / title: 特定物納の却下又は取下げ
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/06.htm#a-44_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/48-2-4.html
+
+[p1] 法第48条の2第3項の規定により特定物納の申請が却下された場合、同条第6項において準用する第42条第10項の規定により申請を取り下げたものとみなされた場合又は自ら申請を取り下げた場合は、特定物納の申請前に許可を受けた延納の条件（同条第4項に規定する分納税額の納期限の延長を除く。）が継続することに留意する。（平18徴管5-14追加）

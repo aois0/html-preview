@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 201−2 / id: 201-2 / title: 第2回以後の退職手当等に係る税額が赤字となる場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/34/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/201-2.html
+
+[p1] 同一年中に2以上の支払者から退職手当等の支払を受ける場合において、第2回目以後に支払を受ける退職手当等の額につき法第201条第1項第2号の規定により計算した税額が赤字になるときは、当該退職手当等から徴収する税額がないにとどまり、その赤字の金額は当該退職手当等の支払者からは還付しないことに留意する。
+[p2] (注) 当該赤字の金額の還付を受けるためには、その年分の退職手当等について確定申告書の提出を要することに留意する（法第122条《還付等を受けるための申告》参照）。

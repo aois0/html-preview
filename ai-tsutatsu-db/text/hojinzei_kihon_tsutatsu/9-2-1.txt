@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−2−1 / id: 9-2-1 / title: 役員の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_02_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-2-1.html
+
+[p1] 令第7条第1号《役員の範囲》に規定する「使用人以外の者でその法人の経営に従事しているもの」には、相談役、顧問その他これらに類する者でその法人内における地位、その行う職務等からみて他の役員と同様に実質的に法人の経営に従事していると認められるものが含まれることに留意する。

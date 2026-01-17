@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−14 / id: 15-1-14 / title: 金銭貸付業の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-14.html
+
+[p1] 令第5条第1項第3号《金銭貸付業》の金銭貸付業は、その貸付先が不特定又は多数の者である金銭の貸付けに限られないことに留意する。（昭56年直法2−16「七」により追加）
+[p2] (注) ここでいう「金銭の貸付け」には、手形の割引が含まれるが、公益法人等が余裕資金の運用等として行ういわゆる有価証券の現先取引に係る行為はこれに含まれないものとする。

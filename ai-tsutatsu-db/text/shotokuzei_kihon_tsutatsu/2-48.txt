@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 2−48 / id: 2-48 / title: 青色事業専従者等の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/07.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/2-48.html
+
+[p1] 法第2条第1項第33号に規定する「青色事業専従者等」とは、その配偶者が居住者の同一生計配偶者に該当するかどうかを判定する場合における当該居住者又は当該居住者と生計を一にする居住者の青色事業専従者等をいうのであるから、例えば年の中途までこれらの者以外の者の青色事業専従者等であった場合であっても、これらの者の青色事業専従者等に該当しないときは、同号の青色事業専従者等に含まれないことに留意する。（昭63直所3−3、直法6−2、直資3−2追加、平元直所3−14、直法6−9、直資3−8、平29課法10−13、課個2−22、課審5−8改正）
+[p2] 〔扶養親族（第34号及び第34号の２関係）〕

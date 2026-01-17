@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−38の3 / id: 15-1-38-3 / title: 利用の対価の額が実費の範囲を超えないもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_15.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-38-3.html
+
+[p1] 公益法人等の行う席貸業が令第5条第1項第14号ロ(4)に規定する「その利用の対価の額が実費の範囲を超えないもの」に該当するかどうかは、既往の実績等に照らし、当該事業年度における会員その他これに準ずる者に対する席貸しに係る収益の額と費用の額とがおおむね均衡すると認められるような利用料金が設定されているかどうかにより判定する。（昭59年直法2−3「九」により追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第16款 旅館業
+[p4] 第16款 旅館業

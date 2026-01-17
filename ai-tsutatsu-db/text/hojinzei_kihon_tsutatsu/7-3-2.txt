@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−3−2 / id: 7-3-2 / title: 割賦購入資産等の取得価額に算入しないことができる利息相当部分
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_03_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-3-2.html
+
+[p1] 割賦販売契約（延払条件付譲渡契約を含む。）によって購入した固定資産の取得価額には、契約において購入代価と割賦期間分の利息及び売手側の代金回収のための費用等に相当する金額とが明らかに区分されている場合のその利息及び費用相当額を含めないことができる。

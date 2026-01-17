@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 32−1 / id: 32-1 / title: 山林の伐採又は譲渡による所得
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/32-1.html
+
+[p1] 法第32条第1項に規定する「山林の伐採又は譲渡による所得」とは、山林を伐採して譲渡したことにより生ずる所得又は山林を伐採しないで譲渡したことにより生ずる所得をいう。

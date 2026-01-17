@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 39−2 / id: 39-2 / title: 家事消費等の総収入金額算入の特例
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/06/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/39-2.html
+
+[p1] 事業を営む者が法第39条若しくは第40条に規定する棚卸資産を自己の家事のために消費した場合又は同条第1項第1号に規定する贈与若しくは遺贈をした場合において、当該棚卸資産の取得価額以上の金額をもってその備え付ける帳簿に所定の記載を行い、これを事業所得の金額の計算上総収入金額に算入しているときは、当該算入している金額が、39−1に定める価額に比し著しく低額（おおむね70%未満）でない限り、39−1にかかわらず、これを認める。

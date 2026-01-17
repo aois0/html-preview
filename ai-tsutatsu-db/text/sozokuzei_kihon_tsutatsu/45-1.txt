@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 45−1 / id: 45-1 / title: 再申請の回数（1財産について1回限り）
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/06.htm#a-44_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/45-1.html
+
+[p1] 物納申請の却下に係る再申請は、同法第41条第1項の規定による申請があった場合の当該申請に係る物納申請財産が管理処分不適格財産又は物納劣後財産に該当することから、当該申請が却下された場合に認められるものであり（1財産について1回限り）、法第45条第1項により再申請された財産が却下された場合には適用がないのであるから留意する。（平18徴管5-14追加）

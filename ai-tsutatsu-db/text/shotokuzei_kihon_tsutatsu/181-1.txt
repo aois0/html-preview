@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 181−1 / id: 181-1 / title: 無記名の公社債の利子等に対する税額の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/29/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/181-1.html
+
+[p1] 無記名の公社債の利子又は無記名の貸付信託の受益証券に係る収益の分配に対する源泉徴収税額は、同一人に同時に支払う利子又は収益の分配の総額について一括して算出すべきであるが、これを困難とする場合には、利札又は収益金交付票1枚ごとに計算して差し支えない。

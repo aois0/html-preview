@@ -1,0 +1,10 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 162−2 / id: 162-2 / title: 工業所有権等及び使用料の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/22/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/162-2.html
+
+[p1] 161−34の取扱いは令第291条の2第2項第1号イ（（租税条約に異なる定めがある場合の国内源泉所得））に規定する「工業所有権その他の技術に関する権利、特別の技術による生産方式又はこれらに準ずるもの」（以下この項において「工業所有権等」という。）の意義について、161−35から161−38までの取扱いは同号イの工業所有権等の使用料又は同号ロの著作権の使用料の意義について準用する（平28課2−4、課法11−8、課審5−5追加）。
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 〔給与、報酬又は年金（第12号関係）〕
+[p4] 〔給与、報酬又は年金（第12号関係）〕

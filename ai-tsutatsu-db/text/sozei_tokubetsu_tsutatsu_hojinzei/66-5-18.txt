@@ -1,0 +1,10 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の5−18 / id: 66-5-18 / title: 自己資本の額を計算する場合の資本金等の額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/13/13_66_5.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-5-18.html
+
+[p1] 措置法令第39条の13第23項に規定する「資本金等の額」は、税務計算上の金額によるのであるから、例えば、税務計算上の払込否認金額がある場合には、当該払込否認金額を控除した金額によることに留意する。（平5年課法2−1「三十」により追加、平19年課法2−3「四十九」、平20年課法2−1「三十五」、平24年課法2−17「三十三」、平28年課法2−11「四十」により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第66条の5の2及び第66条の5の3 《対象純利益利子等に係る課税の特例》関係
+[p4] 第66条の5の2及び第66条の5の3 《対象純支払利子等に係る課税の特例》関係

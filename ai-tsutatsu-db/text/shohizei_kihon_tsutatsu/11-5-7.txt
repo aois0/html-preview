@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 11−5−7 / id: 11-5-7 / title: 課税売上割合に準ずる割合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/11/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/11-5-7.html
+
+[p1] 法第30条第3項《課税売上割合に準ずる割合》に規定する課税売上割合に準ずる割合（以下11−5−9までにおいて「課税売上割合に準ずる割合」という。）とは、使用人の数又は従事日数の割合、消費又は使用する資産の価額、使用数量、使用面積の割合その他課税資産の譲渡等とその他の資産の譲渡等に共通して要するものの性質に応ずる合理的な基準により算出した割合をいう。

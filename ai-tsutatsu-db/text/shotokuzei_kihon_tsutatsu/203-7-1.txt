@@ -1,0 +1,11 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 203の7-1 / id: 203-7-1 / title: 公的年金等を併給する場合の源泉徴収を要しない金額の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/35/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/203-7-1.html
+
+[p1] 法第203条の2《源泉徴収義務》に規定する公的年金等の支払者が、一の受給者に対し種類の異なる2以上の公的年金等を支給する場合おいて、その年中に支払うべき公的年金等の額が、法第203条の7に規定する「政令で定める金額」に満たないかどうかは、203の3-1により判定する。（昭63直法6-1、直所3-1追加、令元課個2-22、課法11-3、課審5-12改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 法第203条の3《徴収税額》関係
+[p4] 第5章 公的年金等に係る源泉徴収
+[p5] 法第203条の3《徴収税額》関係

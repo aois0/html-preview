@@ -1,0 +1,10 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−33の2 / id: 49-33-2 / title: 貸与を受けている機械及び装置がある場合の増加償却
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/10.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-33-2.html
+
+[p1] 機械及び装置につき1日当たりの超過使用時間を計算する場合において、一の設備を構成する機械及び装置の中に他から貸与を受けている資産が含まれているときは、当該資産の使用時間を除いたところによりその計算を行う。（昭55直所3−19、直法6−8追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 〔年の中途で業務の用に供した減価償却資産等の償却費の特例（令第132条関係）〕
+[p4] 〔年の中途で業務の用に供した減価償却資産等の償却費の特例（令第132条関係）〕

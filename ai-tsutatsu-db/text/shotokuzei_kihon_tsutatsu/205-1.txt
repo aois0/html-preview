@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 205−1 / id: 205-1 / title: 同一人に対し1回に支払われる金額の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/36/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/205-1.html
+
+[p1] 法第205条第1号かっこ内及び令第322条《支払金額から控除する金額》の表に規定する「同一人に対し1回に支払われる金額」とは、同一人に対し1回に支払われるべき金額をいう。ただし、法第205条第1号かっこ内に規定する税率を乗ずべき金額の判定に当たっては、現実に1回に支払われる金額によって差し支えない。

@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 18−1−20 / id: 18-1-20 / title: 会社等の持分
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/18/18_01_07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/18-1-20.html
+
+[p1] 令第155条の13第1項第1号イ《各種投資会社等の範囲》の「持分（当該他方の会社等が有する自己の持分を除く。）」には、株式の払込み又は給付の金額（以下18−1−21において「払込金額等」という。）の全部又は一部について払込み又は給付（以下18−1−21において「払込み等」という。）が行われていないものも含まれるものとする。（令5年課法2−17｢九」により追加）

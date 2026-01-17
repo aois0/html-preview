@@ -1,0 +1,6 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 36・37共−7の10 / id: 36_37_common-7-10 / title: 繰延資産の基因となった資産について損壊等の被害があった場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/19.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/36_37_common-7-10.html
+

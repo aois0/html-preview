@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 9-7 / id: 9-7 / title: 船員法第80条第1項の規定の適用がない漁船の乗組員に支給される食料
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/02.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/9-7.html
+
+[p1] 船員法第80条第1項《食料の支給》の規定の適用がない漁船の乗組員に対しその乗船中に支給される食料については、その乗組員の勤務がその漁船の操業区域において操業する他の同項の規定の適用がある漁船の乗組員の勤務に類すると認められる場合に支給されるものに限り、令第21条第1号《非課税とされる職務上必要な給付》に掲げる食料に準じて課税しなくて差し支えない。（平25課個2-8、課法9-3、課審5-28改正）

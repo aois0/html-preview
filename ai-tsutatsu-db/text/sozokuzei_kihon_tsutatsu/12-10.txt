@@ -1,0 +1,11 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 12-10 / id: 12-10 / title: 保険金についての取扱いの準用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/02.htm#a-12_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/12-10.html
+
+[p1] 相続を放棄した者等の取得した退職手当金等及び退職手当金等の非課税金額の計算については、12-8及び12-9の取扱いに準ずるものとする。（昭42直審（資）5、昭46直審（資）6、昭50直資2-257、昭57直資2-177改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 〔墓所、霊びょう、祭具等関係〕
+[p4] 第12条《相続税の非課税財産》関係
+[p5] 〔墓所、霊びょう、祭具等関係〕

@@ -1,0 +1,26 @@
+doc: 国税通則法基本通達 (kokuzei_tsusoku_kihon_tsutatsu)
+item: 3-2 / id: 3-2 / title: 
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/mokuji.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/kokuzei_tsusoku_kihon_tsutatsu/3-2.html
+
+[p1] 個人の保証人に対する取消しの通知
+[p2] 4
+[p3] 滞納処分を執行してもなお不足があると認めるとき
+[p4] 5
+[p5] 換価の制限
+[p6] 保証と主たる納税義務との関係
+[p7] 6
+[p8] 納税の猶予
+[p9] 7
+[p10] 換価の猶予
+[p11] 8
+[p12] 滞納処分の停止による消滅
+[p13] 9
+[p14] 時効の完成猶予及び更新のための訴え
+[p15] 10
+[p16] 催告の抗弁権等
+[p17] 第54条関係 担保の提供等に関する細目
+[p18] 担保の提供手続
+[p19] 1
+[p20] 担保が有価証券等の場合の担保の提供に関し必要と認められる書類

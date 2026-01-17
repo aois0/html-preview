@@ -1,0 +1,8 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 42の9−9 / id: 42-9-9 / title: 2以上の事業年度において事業の用に供した場合の取得価額の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/01/01_42_09.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/42-9-9.html
+
+[p1] 一の生産等設備を構成する工業用機械等でその取得価額の合計額が20億円を超えるものを2以上の事業年度において事業の用に供した場合には、その取得価額の合計額が初めて20億円を超えることとなる事業年度（以下「超過事業年度」という。）における措置法第42条の9第1項の規定による税額控除限度額の計算の基礎となる個々の工業用機械等の取得価額は、次の算式による。（平10年課法2−17「六」により追加、平15年課法2−7「九」、令４年課法２−14「七」により改正）
+[p2] (注) 超過事業年度前の各事業年度において事業の用に供した個々の工業用機械等については、その取得価額の調整は行わないことに留意する。

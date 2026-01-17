@@ -1,0 +1,13 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 34−5 / id: 34-5 / title: 法第34条第5項の通知
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/04/01.htm#a-27_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/34-5.html
+
+[p1] 法第34条第5項の規定による通知は、次に掲げる場合は行う必要がないことに留意する。
+[p2] 督促をした納税義務者の相続税の全額が、法第34条第1項第2号又は第3号の規定の適用を受ける場合
+[p3] 法第34条第2項から第4項までの規定により連帯納付の責めを負う場合
+[p4] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p5] 第27条《相続税の申告書》関係
+[p6] 第4章 申告及び納付
+[p7] 第27条《相続税の申告書》関係

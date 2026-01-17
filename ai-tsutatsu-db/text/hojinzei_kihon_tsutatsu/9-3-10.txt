@@ -1,0 +1,9 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−3−10 / id: 9-3-10 / title: 賃借建物等を保険に付した場合の支払保険料
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-3-10.html
+
+[p1] 法人が賃借している建物等（役員又は使用人から賃借しているもので当該役員又は使用人に使用させているものを除く。）に係る長期の損害保険契約について保険料を支払った場合には、当該保険料については、次に掲げる区分に応じ、次による。（昭46年直審（法）20「9」により追加、昭55年直法2−15「十三」、昭56年直法2−16「四」により改正）
+[p2] (1) 法人が保険契約者となり、当該建物等の所有者が被保険者となっている場合 9−3−9による。
+[p3] (2) 当該建物等の所有者が保険契約者及び被保険者となっている場合 保険料の全部を当該建物等の賃借料とする。

@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 3-5 / id: 3-5 / title: 法施行令第1条の2第2項に含まれる契約
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/02.htm#a-3_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/3-5.html
+
+[p1] 法施行令第1条の2第2項第1号に規定する保険契約及び同項第2号に規定する契約には、同項第1号又は第2号に掲げる者と締結した傷害疾病定額保険契約が含まれることに留意する。（平22課資2−12、課審6−15、課評2−22追加）

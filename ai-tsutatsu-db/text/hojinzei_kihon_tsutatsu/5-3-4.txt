@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 5−3−4 / id: 5-3-4 / title: 原価差額の調整を工場ごとに行っている場合の調整の省略
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/05/05_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/5-3-4.html
+
+[p1] 原価差額が事業の種類ごと又は製品の種類の異なるごとの総製造費用のおおむね1%相当額を超える場合においても、法人が原価差額の調整単位を更に工場ごとに細分しているときは、各工場における当該調整単位ごとの原価差額のうちそれぞれの総製造費用の1%相当額以内のものについては、5−3−3に準じて調整を行わないことができるものとする。（昭55年直法2−15「七」により改正）

@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 20−5−29 / id: 20-5-29 / title: 原価に算入した負債の利子の額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/20a/20_05_05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/20-5-29.html
+
+[p1] 外国法人の恒久的施設帰属所得に係る所得の金額の計算上、固定資産その他の資産の取得価額に含めた負債の利子の額又は繰延資産の額に含めた負債の利子の額であっても、当該事業年度に係るものは法第142条の4第1項《恒久的施設に帰せられるべき資本に対応する負債の利子の損金不算入》に規定する「当該事業年度の恒久的施設を通じて行う事業に係る負債の利子（……）の額」に含まれることに留意する。（平26年課法2−9「九」により追加）

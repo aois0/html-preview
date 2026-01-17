@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 60−7 / id: 60-7 / title: 令第169条の２第５項第１号及び第６項第１号に規定する配偶者居住権等の「取得費とされた金額」
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/12/03.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/60-7.html
+
+[p1] 令第169条の２第５項第１号及び第６項第１号に規定する配偶者居住権等の「取得費とされた金額」については、配偶者居住権を有していた居住者が配偶者居住権等の消滅による譲渡所得の金額の計算上控除した取得費について、60−５の定めにより計算した場合又は60−６ただし書の定めにより加算した金額がある場合であっても、法第60条第３項の規定により計算した金額によることに留意する。（令２課資３−７、課個２−18、課法11−４、課審７−９追加）

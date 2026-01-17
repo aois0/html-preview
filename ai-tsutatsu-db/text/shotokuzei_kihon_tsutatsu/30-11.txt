@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 30−11 / id: 30-11 / title: 前に勤務した期間の一部等を通算する場合の勤続年数の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/30-11.html
+
+[p1] 令第69条第1項第1号ロ及びハただし書に規定する場合において、退職手当等の支払金額の計算の基礎とする期間のうちに、前に勤務した期間のうちの一部の期間又は前に勤務した期間に一定の率を乗ずるなどにより換算をした期間を含めて計算するときは、それぞれ当該一部の期間又は当該前に勤務した期間を同号本文に規定する勤続期間（以下30−13において「勤続期間」という。）に加算して勤続年数を計算するものとする。（昭63直法6−1、直所3−1改正）

@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 61の3-3 / id: 61-3-3 / title: 貸付けの用に供されているものに該当しない機械の貸与
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/07/07_61_3.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/61-3-3.html
+
+[p1] 法人がその有する措置法第61条の3第1項に規定する特定農業用機械等を他に貸し付けている場合には、当該特定農業用機械等について同項の規定の適用はないのであるが、例えば農業用の機械を他の者に貸与した場合において、当該農業用の機械が専ら当該法人のためにする農畜産物の生産の用に供されているなど法人自らが使用しているものと同様の事情にあると認められる場合には、その貸し付けている農業用の機械は、当該法人の農業の用に供したものとして取り扱う。（平20年課法2-1「二十六」により追加、平27年課法2-8「二十二」により改正）

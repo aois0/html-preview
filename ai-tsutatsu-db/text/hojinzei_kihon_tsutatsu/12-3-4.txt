@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 12−3−4 / id: 12-3-4 / title: 債務免除等があった場合の債務免除等の金額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/12/12_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/12-3-4.html
+
+[p1] 法第59条第2項《会社更生等による債務免除等があった場合の欠損金の損金算入》に規定する「次に掲げる金額の合計額」を計算する場合において、同項第3号に掲げる金額が負（マイナス）であるときは、当該合計額は第1号及び第2号の正（プラス）の金額と第3号の負（マイナス）の金額とを通算した金額となることに留意する。（平17年課法2−14「十三」により追加、令４年課法2−14｢三十六」により改正）

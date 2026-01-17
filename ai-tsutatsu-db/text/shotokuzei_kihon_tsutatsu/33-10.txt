@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 33-10 / id: 33-10 / title: 借地権者等が取得した底地の取得時期等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/33-10.html
+
+[p1] 借地権その他の土地の上に存する権利（以下「借地権等」という。）を有する者が当該権利の設定されている土地（以下「底地」という。）を取得した場合には、その土地の取得の日は、当該底地に相当する部分とその他の部分とを各別に判定するものとする。
+[p2] 底地を有する者がその土地に係る借地権等を取得した場合も、同様とする。（昭56直資3-2、直所3-3改正）

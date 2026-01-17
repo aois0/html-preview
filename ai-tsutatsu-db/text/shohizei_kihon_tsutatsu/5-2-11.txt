@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−2−11 / id: 5-2-11 / title: 譲渡担保等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-2-11.html
+
+[p1] 事業者が債務の弁済の担保としてその有する資産を譲渡した場合において、その譲渡につき所基通33−2《譲渡担保に係る資産の移転》又は法基通2−1−18《固定資産を譲渡担保に供した場合》の取扱いの適用を受けているときは、その取扱いの例によるものとする。

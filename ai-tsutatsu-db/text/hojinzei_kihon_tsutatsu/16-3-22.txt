@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 16−3−22 / id: 16-3-22 / title: 外国法人税額の高率負担部分の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/16/16_03_02a.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/16-3-22.html
+
+[p1] 内国法人が納付することとなる外国法人税の額のうちに令第142条の2第1項《外国税額控除の対象とならない外国法人税の額》に規定する「所得に対する負担が高率な部分の金額」（以下16−3−23において「高率負担部分」という。）があるかどうかは、一の外国法人税ごとに、かつ、当該外国法人税の課税標準とされる金額ごとに判定するのであるから留意する。（平2年直法2−1「十三」により追加、平21年課法2−5「十七」、平24年課法2−17「七」により改正）

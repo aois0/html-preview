@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 21の6-7 / id: 21-6-7 / title: 贈与税の配偶者控除の場合の婚姻期間の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/11.htm#a-21_6_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/21-6-7.html
+
+[p1] 法第21条の6に規定する婚姻期間を計算する場合において、その計算した婚姻期間に1年未満の端数があるときであっても、その端数を切り上げないのであるから留意する。したがって、その婚姻期間が19年を超え20年未満であるときは、贈与税の配偶者控除の適用がない。（昭46直審（資）6追加、昭50直資2-257改正）

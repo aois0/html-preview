@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 7−3−1 / id: 7-3-1 / title: 外航船等に積み込む物品の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/07/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/7-3-1.html
+
+[p1] 租特法第85条第1項《外航船等に積み込む物品の譲渡等に係る免税》の規定により消費税が免除される指定物品は、消費税の課税の対象となる物品で関税法第2条第9号及び第10号《定義》に規定する船用品又は機用品に該当する物品と同じ範囲のものであるから留意する。

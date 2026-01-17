@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 191−1 / id: 191-1 / title: 過納額の計算上控除された未徴収の税額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/32/02.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/191-1.html
+
+[p1] 法第191条に規定する過納額の計算上同条かっこ内の規定により超過額から控除されたまだ徴収されていない部分の金額に相当する税額は、その後においてはその徴収を要しないものとする。この場合において、当該税額をその後において徴収したときは、その徴収の時に当該徴収した金額に相当する当該過納額が生じたものとする。

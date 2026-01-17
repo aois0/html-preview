@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 9-5 / id: 9-5 / title: 非常勤役員等の出勤のための費用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/02.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/9-5.html
+
+[p1] 給与所得を有する者で常には出勤を要しない次に掲げるようなものに対し、その勤務する場所に出勤するために行う旅行に必要な運賃、宿泊料等の支出に充てるものとして支給される金品で、社会通念上合理的な理由があると認められる場合に支給されるものについては、その支給される金品のうちその出勤のために直接必要であると認められる部分に限り、法第9条第1項第4号に掲げる金品に準じて課税しなくて差し支えない。
+[p2] （1） 国、地方公共団体の議員、委員、顧問又は参与
+[p3] （2） 会社その他の団体の役員、顧問、相談役又は参与

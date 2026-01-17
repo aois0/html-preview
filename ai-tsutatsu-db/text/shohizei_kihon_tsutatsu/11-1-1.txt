@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 11−1−1 / id: 11-1-1 / title: 課税仕入れ
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/11/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/11-1-1.html
+
+[p1] 課税仕入れとは、事業者が、事業として資産を譲り受け、若しくは借り受け、又は役務の提供を受けることをいうから、個人事業者が家事消費又は家事使用をするために資産を譲り受け、若しくは借り受け、又は役務の提供を受けることは、事業として行われるものではないから、課税仕入れに該当しないことに留意する。（平27課消1-17により改正）
+[p2] (注) 課税仕入れには特定課税仕入れも含まれることに留意する。

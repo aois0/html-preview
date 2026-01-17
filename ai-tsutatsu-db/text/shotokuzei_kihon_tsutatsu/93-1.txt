@@ -1,0 +1,13 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 93−1 / id: 93-1 / title: 分配時調整外国税相当額の控除する年分
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/17/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/93-1.html
+
+[p1] 居住者が法第93条第１項に規定する集団投資信託の収益の分配の支払を受ける場合には、当該収益の分配に係る同項に規定する分配時調整外国税相当額は、当該収益の分配に係る収入金額の収入すべき時期の属する年分の所得税の額から控除することに留意する。（令元課個2-36、課審5-120追加）
+[p2] （注）この取扱いは、恒久的施設を有する非居住者が法第165条の５の３第１項に規定する集団投資信託の収益の分配の支払を受ける場合について準用する。
+[p3] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p4] 法第104条《予定納税額の納付》関係
+[p5] 第3章 申告、納付及び還付
+[p6] 第1節 予定納税
+[p7] 法第104条《予定納税額の納付》関係

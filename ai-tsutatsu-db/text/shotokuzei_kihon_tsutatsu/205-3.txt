@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 205−3 / id: 205-3 / title: 同一人に対しその月分として支払われる金額の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/36/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/205-3.html
+
+[p1] 令第322条の表に規定する「同一人に対しその月分として支払われる金額」とは、診療機関からその月分として社会保険診療報酬支払基金に提出された診療報酬請求書に対応する診療報酬の額をいい、その月前に支払われた報酬の額に誤り等があったため、その誤り等をその月分の診療報酬請求書に対応する診療報酬の額で調整した場合には、その調整後の金額をいう。

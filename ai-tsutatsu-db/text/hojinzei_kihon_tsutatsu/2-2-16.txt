@@ -1,0 +1,11 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−2−16 / id: 2-2-16 / title: 前期損益修正
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_02_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-2-16.html
+
+[p1] 当該事業年度前の各事業年度においてその収益の額を益金の額に算入した資産の販売又は譲渡、役務の提供その他の取引について当該事業年度において契約の解除又は取消し、返品等の事実が生じた場合でも、これらの事実に基づいて生じた損失の額は、当該事業年度の損金の額に算入するのであるから留意する。（昭55年直法2−8「七」により追加、平15年課法2−7「七」、平30年課法2−8「三」、令４年課法2−14｢八」により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第1款 有価証券の譲渡損益等
+[p4] 第3節 有価証券等の譲渡損益、時価評価損益等
+[p5] 第1款 有価証券の譲渡損益等

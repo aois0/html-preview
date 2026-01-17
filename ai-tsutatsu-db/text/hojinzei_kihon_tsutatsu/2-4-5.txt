@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−4−5 / id: 2-4-5 / title: 延払基準の計算単位
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_04_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-4-5.html
+
+[p1] 令第124条第1項《延払基準の方法》の規定による延払基準の方法による収益の額及び費用の額の計算は、原則としてそのリース譲渡ごとに行うのであるが、法人が継続して差益率のおおむね同じものごとその他合理的な区分ごとに一括してその計算を行っている場合には、これを認める。（昭55年直法2−8「八」により追加、平10年課法2−7「三」、平12年課法2−7「五」、平14年課法2−1「十」、平30年課法2−8「五」により改正）

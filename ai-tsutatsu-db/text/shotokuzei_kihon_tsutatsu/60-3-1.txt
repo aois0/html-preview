@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 60の3−1 / id: 60-3-1 / title: 非居住者である相続人等が限定承認をした場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/12/03-3.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/60-3-1.html
+
+[p1] 居住者の有する有価証券等が、相続（限定承認に係るものに限る。）又は遺贈（包括遺贈のうち限定承認に係るものに限る。）により非居住者である相続人又は受遺者へ移転した場合には、法第60条の3第1項の規定の適用はなく、法第59条第1項第1号《贈与等の場合の譲渡所得等の特例》の規定の適用を受けることに留意する。（平27課資3−2、課個2−7、課審7-6、徴管6-12追加）

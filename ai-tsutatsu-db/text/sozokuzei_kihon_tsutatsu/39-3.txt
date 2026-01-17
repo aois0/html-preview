@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 39−3 / id: 39-3 / title: 許可前納付があった場合の延納の許可
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/02.htm#a-39_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/39-3.html
+
+[p1] 延納の許可に当たり、既にその申請に係る分納税額として納付された額がある場合には、その納付額相当額を含めて延納を許可するものとする。
+[p2] この場合、その納付された額についても、利子税を徴収することとなることに留意する。（昭46直審（資）6、平4課資2−158・徴管5−6、平7課資2−119・徴管5−5改正）

@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 13−2 / id: 13-2 / title: 相続財産に関する費用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/03.htm#a-13_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/13-2.html
+
+[p1] 民法第885条((相続財産に関する費用))の規定により相続財産の中から支弁する相続財産に関する費用は、法第13条第1項第1号に掲げる債務とはならないのであるから留意する。(平17課資2-4改正)

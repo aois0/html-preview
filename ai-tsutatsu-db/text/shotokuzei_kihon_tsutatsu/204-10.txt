@@ -1,0 +1,12 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 204−10 / id: 204-10 / title: 懸賞応募作品の入選者に支払う少額な報酬又は料金
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/36/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/204-10.html
+
+[p1] 法第204条第1項第1号に掲げる報酬又は料金のうち次のいずれかに該当するもので、同一人に対して1回に支払うべき金額が少額（おおむね5万円以下）のものについては、源泉徴収をしなくて差し支えない。
+[p2] (1) 懸賞応募作品等の入選者に支払う賞金等
+[p3] (3) ラジオ又はテレビジョン放送の聴視者番組への投稿者又はニュース写真等の提供者に支払う謝金等（あらかじめその投稿又は提供を委嘱した者にその対価として支払うものを除く。）
+[p4] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p5] 〔弁護士等の報酬又は料金（第2号関係）〕
+[p6] 〔弁護士等の報酬又は料金（第2号関係）〕

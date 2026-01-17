@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 6−11−5 / id: 6-11-5 / title: 幼稚園の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/06/11.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/6-11-5.html
+
+[p1] 幼稚園には、学校教育法第2条《学校の設置者、国立・公立・私立学校》に規定する者が設置するもののほか、同法附則第6条《学校法人の経過措置》に規定する者が設置するものも含まれる。（平21課消1−10により改正）

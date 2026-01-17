@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 72−5 / id: 72-5 / title: 災害等関連支出の控除年分
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/72-5.html
+
+[p1] 令第206条第1項各号に掲げる支出をした場合には、当該支出をした金額はその支出をした日の属する年分の法第72条第1項に規定する損失の金額となるのであるが、その年1月1日から3月15日までの間に支出をした金額については、その支出をした日の属する年の前年分(災害等のあった日の属する年以後の年分に限る。)の同項に規定する損失の金額として確定申告を行っている場合は、これを認めるものとする。（平23課個2−33、課法9−9、課審4−46改正）
+[p2] (注) 当該確定申告を行っている場合には、その支出をした金額は、その支出をした日の属する年分の当該損失の金額に含まれないことに留意する。

@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66−4 / id: 66-4 / title: 交換に伴い特定普通財産とともに金銭以外の資産を取得した場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/10/10_66.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-4.html
+
+[p1] 措置法第66条第1項に規定する交換により土地等を譲渡した場合において、その交換に伴い同項に規定する特定普通財産とともに金銭以外の資産を取得したときは、当該資産は同項に規定する交換差金に該当するものとして取り扱う。（平19年課法2−3「四十七」により追加）

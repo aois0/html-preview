@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−4−4 / id: 9-4-4 / title: 最終的に国等に帰属しない寄附金
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_04_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-4-4.html
+
+[p1] 国等に対して採納の手続を経て支出した寄附金であっても、その寄附金が特定の団体に交付されることが明らかである等最終的に国等に帰属しないと認められるものは、国等に対する寄附金には該当しないことに留意する。

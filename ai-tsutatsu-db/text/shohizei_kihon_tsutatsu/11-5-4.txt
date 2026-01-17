@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 11−5−4 / id: 11-5-4 / title: 国内において行った資産の譲渡等の対価の額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/11/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/11-5-4.html
+
+[p1] 法第30条第6項後段《課税売上割合》に規定する「資産の譲渡等の対価の額」及び「課税資産の譲渡等の対価の額」とは、いずれも国内において行う取引に係る資産の譲渡等の対価の額をいうのであるから、法第7条《輸出免税等》に規定する輸出取引に係る対価の額は含まれるが、国外において行う取引に係る対価の額は含まれないのであるから留意する。

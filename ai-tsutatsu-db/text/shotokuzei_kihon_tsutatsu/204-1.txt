@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 204−1 / id: 204-1 / title: 支払を受ける者が法人以外の団体等である場合の法第204条の規定の適用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/36/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/204-1.html
+
+[p1] 法第204条第1項各号に掲げる報酬、料金、契約金又は賞金の支払を受ける者が、官庁等の部、課、係、研究会又は劇団若しくは楽団等の名称のものであって、人格のない社団等に該当するかどうかが明らかでない場合には、その支払を受ける者が次のいずれかに掲げるような事実を挙げて人格のない社団等であることを立証した場合を除き、同項の規定の適用があるものとする。（平13課法8−2、課個2−7改正）
+[p2] (1) 法人税を納付する義務があること。
+[p3] (2) 定款、規約又は日常の活動状況からみて個人の単なる集合体ではなく団体として独立して存在していること。

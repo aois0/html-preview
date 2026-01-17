@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−3−66 / id: 2-3-66 / title: 専担者売買商品の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_03_11.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-3-66.html
+
+[p1] 令第118条の4第1号《短期売買商品等の範囲》に規定する専担者売買商品とは、いわゆるトレーディング目的で取得した商品をいうのであるから、法人がトレーディング業務を日常的に遂行し得る人材によって設置した独立の専門部署（関係会社を含む。）により当該商品の売買がされている場合の当該商品がこれに当たることに留意する。（平19年課法2−17「五」により追加、令元年課法2−10「四」により改正）

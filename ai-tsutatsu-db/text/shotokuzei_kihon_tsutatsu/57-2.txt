@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 57−2 / id: 57-2 / title: 事業が2以上ある場合の所得限度額の計算の基礎となる事業所得等の金額の合計額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/11/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/57-2.html
+
+[p1] 令第166条第2項《事業専従者控除の限度額の計算》に規定する事業専従者が従事する事業に係る不動産所得の金額、事業所得の金額又は山林所得の金額の合計額は、これらの所得の金額のうちに赤字の金額がある場合には他の黒字の所得の金額と相殺して計算することに留意する。

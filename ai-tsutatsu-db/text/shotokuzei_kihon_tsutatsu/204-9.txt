@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 204−9 / id: 204-9 / title: 版下の報酬又は料金の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/36/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/204-9.html
+
+[p1] 令第320条第1項《報酬、料金、契約金又は賞金に係る源泉徴収》に規定する版下の報酬又は料金には、原画又は原図から直ちに凸版、凹版、平版等を製版することが困難である場合において、当該原画又は原図を基として製版に適する下画又は下図を写調する報酬又は料金のほか、原画又は原図を基として直接亜鉛版（ジンク版）に写調する報酬又は料金及び活字の母型下を作成する報酬又は料金も含まれる。

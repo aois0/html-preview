@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 2−39 / id: 2-39 / title: 常に就床を要し複雑な介護を要する者
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/07.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/2-39.html
+
+[p1] 令第10条第1項第6号に掲げる「常に就床を要し、複雑な介護を要する者」とは、その年12月31日その他障害者であるかどうかを判定すべき時の現況において、引き続き6月以上にわたり身体の障害により就床を要し、介護を受けなければ自ら排便等をすることができない程度の状態にあると認められる者をいうものとする。（平元直所3-14、直法6-9、直資3-8改正）
+[p2] 〔寡婦及びひとり親(第30、第31号関係)〕

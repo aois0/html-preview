@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 8−1−5 / id: 8-1-5 / title: 資産を賃借するための権利金等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/08/08_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/8-1-5.html
+
+[p1] 次のような費用は、令第14条第1項第6号ロ《資産を賃借するための権利金等》に規定する繰延資産に該当する。（昭55年直法2−8「二十八」、平19年課法2−3「十八」、平19年課法2−17「十六」により改正）
+[p2] (1) 建物を賃借するために支出する権利金、立退料その他の費用
+[p3] (2) 電子計算機その他の機器の賃借に伴って支出する引取運賃、関税、据付費その他の費用
+[p4] (注) 建物の賃借に際して支払った仲介手数料の額は、その支払った日の属する事業年度の損金の額に算入することができる。

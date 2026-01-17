@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 5−2−3 / id: 5-2-3 / title: 月別総平均法等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/05/05_02_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/5-2-3.html
+
+[p1] 1月ごとに総平均法又は移動平均法により計算した価額を当該月末における棚卸資産の取得価額とみなし、翌月においてこれを繰越価額として順次計算することにより当該事業年度終了の日における棚卸資産の取得価額を計算する方法は、それぞれ総平均法又は移動平均法に該当するものとする。（平21年課法2−5「六」により改正）

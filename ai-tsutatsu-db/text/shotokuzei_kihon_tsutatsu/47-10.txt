@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 47−10 / id: 47-10 / title: 時価
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/47-10.html
+
+[p1] 棚卸資産について低価法を適用する場合における令第99条第1項第2号に規定する「その年12月31日における価額」は、その年12月31日においてその棚卸資産を売却するものとした場合に通常付される価額(以下この項において「棚卸資産の年末時価」という。)による。（平19課個2−31、課審4−44追加）
+[p2] （注） 棚卸資産の年末時価は、通常、商品又は製品として売却するものとした場合の売却可能価額から見積追加製造原価(未完成品に限る。)及び見積販売直接経費を控除した正味売却価額によることに留意する。

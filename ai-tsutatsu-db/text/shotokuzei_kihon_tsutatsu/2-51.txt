@@ -1,0 +1,10 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 2−51 / id: 2-51 / title: たばこ耕作者についての特別農業所得者の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/07.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/2-51.html
+
+[p1] たばこ耕作者が特別農業所得者に該当するかどうかの判定に当たっては、葉たばこの刈取り後の農家における通常の熟成の過程の完了する時期が9月1日以後となるものについては、その所得は9月1日以後に生ずるものとして差し支えない。この場合において、通常の熟成の過程の完了する時期とは、葉たばこを積み重ねて発酵させ、化学変化を起こさせるいわゆる堆積発酵の過程の完了する時期をいい、その時期が明らかでない場合には、刈取り時からおおむね2月の期間を経過した時期とする。（令４課個2-13、課法12-16、課審5-９改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 〔障害者（第28号関係）〕
+[p4] 〔障害者（第28号関係）〕

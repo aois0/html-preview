@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 18−1−71 / id: 18-1-71 / title: 不確実性がある金額が支払われた場合の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/18/18_01_10.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/18-1-71.html
+
+[p1] 令第155条の35第2項第2号ロ《調整後対象租税額の計算》の支払われた金額は、対象租税の額に限られるのであるから、同項第3号ハに掲げる金額について課された附帯税並びに地方税に係る延滞金及び加算金並びに外国におけるこれらに相当するものの額は含まれないことに留意する。（令5年課法2−17｢九」により追加、令6年課法2−21「二」により改正）

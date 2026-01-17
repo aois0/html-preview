@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 50−4 / id: 50-4 / title: 港湾しゅんせつ負担金等の償却期間の特例
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/14.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/50-4.html
+
+[p1] 公共的施設の設置又は改良のために支出する費用のうち企業合理化促進法第8条《産業関連施設の整備》の規定に基づき負担する港湾しゅんせつに伴う受益者負担金及び共同的施設の設置又は改良のために支出する費用のうち負担者又は構成員の属する協会等の本来の用に供される会館等の建設又は改良のために負担するものについては、50−3に定める償却期間が10年を超える場合には、当分の間、50−3にかかわらず、その償却期間を10年とするものとする。

@@ -1,0 +1,13 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 153の6−2 / id: 153-6-2 / title: 外国所得税を納付することとなる日の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/21/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/153-6-2.html
+
+[p1] 法第153条の6に規定する「外国所得税を納付することとなる日」とは、申告、賦課決定等の手続により外国所得税について具体的にその納付すべき租税債務が確定した日をいうのであるが、実際に外国所得税を納付した日を「外国所得税を納付することとなる日」として取り扱って差し支えない。（平27課資3−2、課個2−7、課審7-6、徴管6-12追加、平28課個2-22、課審5-18改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 〔恒久的施設〕
+[p4] 第3編 非居住者及び法人の納税義務
+[p5] 第1章 国内源泉所得
+[p6] 法第161条《国内源泉所得》関係
+[p7] 〔恒久的施設〕

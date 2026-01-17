@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 13−1 / id: 13-1 / title: 相続を放棄した者等の債務控除
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/03.htm#a-13_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/13-1.html
+
+[p1] 相続を放棄した者及び相続権を失った者については、法第13条の規定の適用はないのであるが、その者が現実に被相続人の葬式費用を負担した場合においては、当該負担額は、その者の遺贈によって取得した財産の価額から債務控除しても差し支えないものとする。

@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 50−6 / id: 50-6 / title: 固定資産を利用するための繰延資産の償却の開始の時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/14.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/50-6.html
+
+[p1] 繰延資産となるべき費用を支出した場合において、当該費用が固定資産を利用するためのものであり、かつ、当該固定資産の建設等に着手されていないときは、その固定資産の建設等に着手した時から償却する。
+[p2] 〔少額の繰延資産（令第139条の2関係）〕

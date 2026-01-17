@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 2−32 / id: 2-32 / title: 著作権の使用料に係る所得
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/06.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/2-32.html
+
+[p1] 令第7条の2に規定する「著作権の使用料に係る所得」には、著作権者以外の者が著作権者のために著作物の出版等による利用に関する代理若しくは媒介をし、又は当該著作物を管理することにより受ける対価に係る所得は含まれない。（昭49直所2−23改正）
+[p2] 〔臨時所得（第24号関係）〕

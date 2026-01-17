@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 1−5−7 / id: 1-5-7 / title: 外国法人の資本金以外の資本金等の額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/01/01_05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/1-5-7.html
+
+[p1] 外国法人が積み立てた積立金の額で令第8条第1項《資本金等の額》の規定による資本金以外の資本金等の額に類するものは、法の適用上同項の規定による資本金以外の資本金等の額に該当するものとする。この場合において、その積立金の額が同項の規定による資本金以外の資本金等の額に類するものであるかどうかは、その積立てが行われた時における当該外国法人の本店又は主たる事務所の所在する国の法令に定めるところを勘案して判定する。（昭55年直法2−8「五」により追加、平14年課法2−1「四」、平19年課法2−3「六」により改正）

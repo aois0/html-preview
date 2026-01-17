@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 204−22の3 / id: 204-22-3 / title: 特約店等のセールスマン又は従業員等のレクリエーションの費用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/36/04.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/204-22-3.html
+
+[p1] 製造業者又は卸売業者等が、特約店等に専属するセールスマン又は専ら自己の製品等を取り扱う特約店等の従業員等のために次に掲げる費用を支出することにより、当該セールスマン又は従業員等が受ける経済的利益については、課税しなくて差し支えない。（昭63直法6−7、直所3−8追加）
+[p2] (1) 当該セールスマン又は従業員等の慰安のために行われる運動会、演芸会、旅行等のために通常要する費用
+[p3] (2) 当該セールスマン若しくは従業員等又はこれらの者の親族等の慶弔、禍福に際し一定の基準に従って交付する金品の費用

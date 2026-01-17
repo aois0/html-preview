@@ -1,0 +1,10 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 11−1−10 / id: 11-1-10 / title: 帳簿積上げ方式における「課税仕入れの都度」の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/11/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/11-1-10.html
+
+[p1] 令第46条第２項《課税仕入れに係る帳簿による消費税額の積上げ計算》に規定する「その課税仕入れの都度、……法第30条第７項に規定する帳簿に記載している場合」には、例えば、課税仕入れに係る適格請求書その他の書類等の交付又は提供を受けた際に、これらの書類等を単位として帳簿に記載している場合のほか、課税期間の範囲内で一定の期間内に行った課税仕入れにつきまとめて交付又は提供を受けた適格請求書その他の書類等を単位として帳簿に記載している場合がこれに含まれる。（令５課消２−９により追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第2節 課税仕入れの範囲
+[p4] 第2節 課税仕入れの範囲

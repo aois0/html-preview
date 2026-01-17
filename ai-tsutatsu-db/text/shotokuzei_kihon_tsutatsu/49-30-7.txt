@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−30の7 / id: 49-30-7 / title: 識別困難なリース資産
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/09.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-30-7.html
+
+[p1] 令第120条の2第2項第5号ハに規定する「当該目的資産の識別が困難であると認められるもの」かどうかは、賃貸人及び賃借人において、そのリース資産の性質及び使用条件等に適合した合理的な管理方法によりリース資産が特定できるように管理されているかどうかにより判定するものとする。（平19課個2−31、課審4−44追加）

@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 12の6−2−1 / id: 12-6-2-1 / title: 公益法人等の法人課税信託に係る課税所得の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/12_6/12_6_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/12-6-2-1.html
+
+[p1] 公益法人等が法人課税信託の受託者となった場合には、当該法人課税信託に係る受託法人は当該公益法人等とは別の会社とみなされることから、当該法人課税信託に係る法人税の課税所得の範囲は、収益事業から生じた所得に限られないことに留意する。（平19年課法2−5「七」により追加）

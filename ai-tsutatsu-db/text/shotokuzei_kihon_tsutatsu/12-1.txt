@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 12−1 / id: 12-1 / title: 資産から生ずる収益を享受する者の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/03/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/12-1.html
+
+[p1] 法第12条の適用上、資産から生ずる収益を享受する者がだれであるかは、その収益の基因となる資産の真実の権利者がだれであるかにより判定すべきであるが、それが明らかでない場合には、その資産の名義者が真実の権利者であるものと推定する。

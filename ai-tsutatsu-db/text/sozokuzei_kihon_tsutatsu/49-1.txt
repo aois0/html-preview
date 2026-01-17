@@ -1,0 +1,10 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 49−1 / id: 49-1 / title: 開示の請求をすることができる者
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/07/01.htm#a-49_2
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/49-1.html
+
+[p1] 法第49条第1項の規定による開示の請求をすることができる者は、相続若しくは遺贈又は相続時精算課税の適用を受ける財産を特定贈与者である被相続人からの贈与により取得した者であるが、次に掲げる者も開示の請求ができるのであるから留意する。 （平15課資2−1追加、平18課資2−2改正）
+[p2] (1) 相続税の申告書を提出すべき者が当該申告書の提出前に死亡した場合において、通則法第5条の規定により相続税の納付義務を承継した者
+[p3] (2) 法第21条の17第1項又は第21条の18第1項の規定により相続時精算課税の適用に伴う権利義務を承継した者
+[p4] 第51条《延滞税の特則》関係

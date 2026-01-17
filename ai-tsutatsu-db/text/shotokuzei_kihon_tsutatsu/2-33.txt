@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 2−33 / id: 2-33 / title: 契約の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/06.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/2-33.html
+
+[p1] 令第8条第1号又は第2号《臨時所得の範囲》に規定する契約には、最初に締結する契約のほか、その契約を更新し又は更改する契約も含まれる。

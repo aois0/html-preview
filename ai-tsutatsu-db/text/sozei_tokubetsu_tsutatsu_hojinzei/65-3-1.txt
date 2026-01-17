@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 65の3-1 / id: 65-3-1 / title: 特定土地区画整理事業の施行者とその買取りをする者との関係
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/10/10_65_3.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/65-3-1.html
+
+[p1] 措置法第65条の3第1項第1号に規定する事業の施行者が、国、地方公共団体、独立行政法人都市再生機構又は地方住宅供給公社であり、かつ、当該事業の用に供される土地等の買取りをする者がこれらの者（措置法令第39条の4第2項に規定する団体を含む。）である場合には、当該事業の施行者と当該買取りをする者が異なっても、同号の適用があることに留意する。（昭51年直法2-39「31」、昭57年直法2-11「十五」、平11年課法2-9「四十五」、平16年課法2-14「二十ニ」により改正）

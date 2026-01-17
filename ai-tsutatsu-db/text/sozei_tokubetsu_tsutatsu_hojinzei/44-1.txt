@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 44-1 / id: 44-1 / title: 研究施設の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/01/01_44.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/44-1.html
+
+[p1] 措置法第44条第1項の規定の適用の対象となる研究施設は、措置法令第28条の4第1項第1号に規定する技術に関する研究開発のために直接使用されているものに限られるから、製品の生産工程の一部において使用されているなど当該技術に関する研究開発のために使用されていない資産については、措置法第44条第1項の規定の適用がないことに留意する。（昭63年直法2-1「六」により追加、平6年課法2-5「五」、平10年課法2-17「十一」、平26年課法2-6「十」により改正）

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 59−2 / id: 59-2 / title: 低額譲渡
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/12/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/59-2.html
+
+[p1] 法第59条第1項第2号に規定する「対価」には、法第36条第1項《収入金額》に規定する金銭以外の物又は権利その他経済的な利益も含まれるから、贈与名義による法人に対する資産の移転であっても、当該移転に伴い債務を引き受けさせることなどによる経済的な利益による収入がある場合には、当該移転については、法第59条第1項第1号の規定の適用はなく、当該経済的な利益による収入に基づいて同項第2号の規定の適用の有無を判定する。（昭50直資3−11、直所3−19改正）

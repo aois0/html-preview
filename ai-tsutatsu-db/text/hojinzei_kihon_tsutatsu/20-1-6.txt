@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 20−1−6 / id: 20-1-6 / title: 契約の締結のために主要な役割を果たす者の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/20a/20_01_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/20-1-6.html
+
+[p1] 令第4条の4第7項《恒久的施設の範囲》に規定する「主要な役割を果たす者」とは、同項各号に掲げる契約が締結されるという結果をもたらす役割を果たす者をいい、例えば、外国法人の商品について販売契約を成立させるために営業活動を行う者がこれに該当する。(平30年課法2−28「六」により追加）

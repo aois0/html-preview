@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 36−8の2 / id: 36-8-2 / title: 棚卸資産の引渡しの日の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/36-8-2.html
+
+[p1] 36−8の(1)の場合において、棚卸資産の引渡しの日がいつであるかについては、例えば、出荷した日、船積みをした日、相手方に着荷した日、相手方が検収した日、相手方において使用収益ができることとなった日、検針等により販売数量を確認した日等当該棚卸資産の種類及び性質、その販売に係る契約の内容等に応じその引渡しの日として合理的であると認められる日のうち、その者が継続して収入金額に計上することとしている日によるものとする。（昭55直所3−19、直法6−8追加、平30課個2−19、課審5−2改正）

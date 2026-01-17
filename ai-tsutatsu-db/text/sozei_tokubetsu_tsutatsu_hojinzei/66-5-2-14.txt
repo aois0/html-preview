@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の5の2−14 / id: 66-5-2-14 / title: 直接又は間接保有の株式
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/13/13_66_5_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-5-2-14.html
+
+[p1] 措置法第66条の５の２第２項第４号に規定する特殊の関係にあるかどうかを判定する場合の直接又は間接に保有する株式には、その払込金額等の全部又は一部について払込み等が行われていないものが含まれるものとする。（令元年課法2-33「二」により追加）

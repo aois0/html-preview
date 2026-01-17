@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−18 / id: 15-1-18 / title: 非課税とされる墳墓地の貸付け
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-18.html
+
+[p1] 令第5条第1項第5号ニ《非課税とされる墳墓地の貸付業》の規定により収益事業とされない墳墓地の貸付業には、同号ニに規定する法人がいわゆる永代使用料を徴して行う墳墓地の貸付けが含まれることに留意する。（昭56年直法2−16「七」により追加）

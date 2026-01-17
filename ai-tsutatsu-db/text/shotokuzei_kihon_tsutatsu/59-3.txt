@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 59−3 / id: 59-3 / title: 同族会社等に対する低額譲渡
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/12/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/59-3.html
+
+[p1] 山林（事業所得の基因となるものを除く。）又は譲渡所得の基因となる資産を法人に対し時価の2分の1以上の対価で譲渡した場合には、法第59条第1項第2号の規定の適用はないが、時価の2分の1以上の対価による法人に対する譲渡であっても、その譲渡が法第157条《同族会社等の行為又は計算の否認》の規定に該当する場合には、同条の規定により、税務署長の認めるところによって、当該資産の時価に相当する金額により山林所得の金額、譲渡所得の金額又は雑所得の金額を計算することができる。（昭50直資3−11、直所3−19追加）

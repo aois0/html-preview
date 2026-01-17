@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 54−4 / id: 54-4 / title: 自己都合により退職する場合の退職給与の額の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/10/04.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/54-4.html
+
+[p1] 令第154条第1項第1号に規定する自己の都合により退職するものと仮定した場合の退職給与の額を計算する場合において、退職給与規程に自己の都合による退職につき「病気のため」、「結婚のため」などの細目が定められているときは、当該退職給与の額は、そのうちの無条件任意退職の場合の支給率又は支給額により計算する。

@@ -1,0 +1,11 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 8−1−15 / id: 8-1-15 / title: 双方に関連を有する繰延資産の引継ぎ
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/08/08_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/8-1-15.html
+
+[p1] 適格分割又は適格現物出資により移転する資産等と移転しない資産等の双方に関連を有する繰延資産については、当該繰延資産の金額を合理的にあん分した金額を引き継ぐことができるものとする。（平14年課法2−1「十八」により追加、平15年課法2−7「二十一」、平22年課法2−1「十六」により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第2節
+[p4] 繰延資産の償却期間
+[p5] 第2節 繰延資産の償却期間

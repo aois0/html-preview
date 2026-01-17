@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 3−2−5 / id: 3-2-5 / title: 設立無効等の判決を受けた場合の清算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/03/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/3-2-5.html
+
+[p1] 法人が設立無効又は設立取消の判決により会社法の規定に従って清算をする場合には、当該判決の確定の日において解散したものとする。（平18課消1−16により改正）

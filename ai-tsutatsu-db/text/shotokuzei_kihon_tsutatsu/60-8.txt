@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 60−8 / id: 60-8 / title: 配偶者居住権等の消滅につき対価を支払わなかった場合における建物又は土地の取得費
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/12/03.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/60-8.html
+
+[p1] 配偶者居住権の設定に係る法第60条第１項第１号に掲げる相続又は遺贈により配偶者居住権の目的となっている建物又は当該建物の敷地の用に供される土地を取得した居住者が、配偶者居住権等の消滅につき対価を支払わなかった場合において、その消滅後にその居住者が当該建物又は当該土地を譲渡したときにおける当該建物又は当該土地の取得費は、当該配偶者居住権の設定に係る相続又は遺贈の時から配偶者居住権が設定されていなかったものとした場合において計算される取得費の額となることに留意する。（令２課資３−７、課個２−18、課法11−４、課審７−９追加）

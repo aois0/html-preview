@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 2−25 / id: 2-25 / title: 共同的施設の設置又は改良のために支出する費用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/2-25.html
+
+[p1] 令第7条第1項第3号イに掲げる「自己が便益を受ける……共同的施設の設置又は改良のために支出する費用」とは、その者の所属する協会、組合、商店街等の行う共同的施設の建設又は改良に要する費用の負担金をいう。この場合において、共同的施設の相当部分が貸室に供されるなど協会等の本来の用以外の用に供されているときは、その部分に係る負担金は、協会等に対する寄附金となることに留意する。（平19課個2−11、課資3−1、課法9−5、課審4−26、平20課個2−17、課審4−186、課法9−3改正）

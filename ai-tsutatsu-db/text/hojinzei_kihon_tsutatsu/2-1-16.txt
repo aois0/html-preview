@@ -1,0 +1,9 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−1−16 / id: 2-1-16 / title: 工業所有権等の譲渡に係る収益の帰属の時期の特例
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_01_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-1-16.html
+
+[p1] 工業所有権等（特許権、実用新案権、意匠権及び商標権並びにこれらの権利に係る出願権及び実施権をいう。以下この節において同じ。）の譲渡につき法人が次に掲げる日において収益計上を行っている場合には、次に掲げる日は、その引渡しの日に近接する日に該当するものとして、法第22条の2第2項《収益の額》の規定を適用する。（昭55年直法2−8「六」により追加、平30年課法2−8「二」により改正）
+[p2] (1) その譲渡に関する契約の効力発生の日
+[p3] (2) その譲渡の効力が登録により生ずることとなっている場合におけるその登録の日

@@ -1,0 +1,9 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 25−1 / id: 25-1 / title: 解約返戻金の金額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/03/01.htm#a-23_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/25-1.html
+
+[p1] 法第25条第2号に規定する解約返戻金の金額については、24−3((解約返戻金の金額))を準用する。（平22課資2−12、課審6−15、課評2−22追加）
+[p2] (注) 法第25条の規定の適用に当たっては、評価基本通達第8章第3節((定期金に関する権利))の定めに留意する。
+[p3] 第26条《立木の評価》関係

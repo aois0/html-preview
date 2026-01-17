@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 37−26 / id: 37-26 / title: 刑事事件に関する費用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/09.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/37-26.html
+
+[p1] 業務を営む者が当該業務の遂行に関連する行為について刑罰法令違反の疑いを受けた場合における弁護士の報酬その他その事件の処理のため支出した費用は、当該違反がないものとされ、若しくはその違反に対する処分を受けないこととなり、又は無罪の判決が確定した場合に限り、必要経費に算入する。
+[p2] (注) 必要経費に算入される費用は、その違反がないものとされ、若しくは処分を受けないこととなり、又は無罪の判決が確定した日の属する年分とその費用を支出すべきことが確定した日の属する年分とのいずれかの年分の必要経費に算入することができる。

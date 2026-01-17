@@ -1,0 +1,12 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 6−8−1 / id: 6-8-1 / title: 助産に係る資産の譲渡等の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/06/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/6-8-1.html
+
+[p1] 法別表第二第8号《助産に係る資産の譲渡等》に規定する「助産に係る資産の譲渡等」には、次のものが該当する。（令５課消２−９により改正）
+[p2] (1) 妊娠しているか否かの検査
+[p3] (2) 妊娠していることが判明した時以降の検診、入院
+[p4] (3) 分娩の介助
+[p5] (4) 出産の日以後2月以内に行われる母体の回復検診
+[p6] (5) 新生児に係る検診及び入院

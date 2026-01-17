@@ -1,0 +1,10 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 67の18−3 / id: 67-18-3 / title: 独立企業間価格との差額の国外所得金額への加算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/15/15_67_18.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/67-18-3.html
+
+[p1] 国外事業所等がその本店等に支払うこととされる内部取引の対価の額とした額が独立企業間価格を超える場合又は国外事業所等がその本店等から支払を受けることとされる内部取引の対価の額とした額が独立企業間価格に満たない場合における独立企業間価格との差額については、国外所得金額の計算上加算できないことに留意する。(平26年課法2−9「四」により追加)
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第67条の3 《農地所有適格法人の肉用牛の売却に係る所得の課税の特例》関係
+[p4] 第67条の3 《農地所有適格法人の肉用牛の売却に係る所得の課税の特例》関係

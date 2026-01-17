@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 36・37共−19の2 / id: 36_37_common-19-2 / title: 任意組合等の組合員の組合事業に係る利益等の帰属の時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/16.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/36_37_common-19-2.html
+
+[p1] 任意組合等の組合員の組合事業に係る利益の額又は損失の額は、その年分の各種所得の金額の計算上総収入金額又は必要経費に算入する。
+[p2] ただし、組合事業に係る損益を毎年1回以上一定の時期において計算し、かつ、当該組合員への個々の損益の帰属が当該損益発生後1年以内である場合には、当該任意組合等の計算期間を基として計算し、当該計算期間の終了する日の属する年分の各種所得の金額の計算上総収入金額又は必要経費に算入するものとする。（平17課個2−39、課資3−11、課審4−220追加）

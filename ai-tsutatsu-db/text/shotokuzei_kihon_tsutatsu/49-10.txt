@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−10 / id: 49-10 / title: 出漁権等の取得価額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-10.html
+
+[p1] 許可漁業の出漁権、繊維工業における織機の登録権利、タクシー業のいわゆるナンバー権のように法令の規定、行政官庁の指導等による規制に基づく許可、認可、登録、割当て等に係る権利の取得価額には、これらの権利を取得するために直接要した費用のほか、例えば、当該権利に係る事業を廃止する者に対して残存業者が負担する補償金のように当該権利の維持又は保全のために支出した費用の額が含まれる。（昭55直所3−19、直法6−8、平11課所4−25改正）

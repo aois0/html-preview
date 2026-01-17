@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 41−2 / id: 41-2 / title: 贈与税等についての物納規定の不適用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/03.htm#a-41_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/41-2.html
+
+[p1] 法第41条の物納の規定は、贈与税及び連帯納付の責に任ずる者のその責に任ずべき金額については適用がないのであるから留意する。
+[p2] また、期限後申告又は修正申告若しくは更正又は決定により納付すべき相続税額に併せて納付すべき延滞税又は加算税についても適用がないのであるから留意する。（平7課資2−119・徴管5−5改正）

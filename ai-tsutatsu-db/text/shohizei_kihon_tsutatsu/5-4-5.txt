@@ -1,0 +1,10 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−4−5 / id: 5-4-5 / title: 資産の無償貸付け
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-4-5.html
+
+[p1] 個人事業者又は法人が、資産の貸付けを行った場合において、その資産の貸付けに係る対価を収受しないこととしているときは、当該資産の貸付けを受けた者が当該個人事業者の家族又は当該法人の役員であっても、資産の譲渡等に該当しないことに留意する。
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第5節 役務の提供
+[p4] 第5節 役務の提供

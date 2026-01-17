@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−2−41 / id: 9-2-41 / title: 生計を一にすること
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_02_08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-2-41.html
+
+[p1] 法人が令第72条第4号《特殊関係使用人の範囲》により特殊関係使用人の判定を行う場合については、1−3−4《生計を一にすること》を準用する。（平10年課法2−7「十」により追加、平10年課法2−17「五」、平19年課法2−3「二十二」、平22年課法2−1「十八」により改正）

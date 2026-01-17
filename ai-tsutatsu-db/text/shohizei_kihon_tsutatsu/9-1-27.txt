@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 9−1−27 / id: 9-1-27 / title: 前受金、仮受金に係る資産の譲渡等の時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/09/01/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/9-1-27.html
+
+[p1] 資産の譲渡等に係る前受金、仮受金に係る資産の譲渡等の時期は、法第18条《小規模事業者に係る資産の譲渡等の時期等の特例》の規定の適用を受ける事業者を除き、現実に資産の譲渡等を行った時となることに留意する。

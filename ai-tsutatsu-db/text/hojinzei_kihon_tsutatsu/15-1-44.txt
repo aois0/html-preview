@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−44 / id: 15-1-44 / title: 周旋業の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_18.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-44.html
+
+[p1] 令第5条第1項第17号《周旋業》の周旋業とは、他の者のために商行為以外の行為の媒介、代理、取次ぎ等を行う事業をいい、例えば不動産仲介業、債権取立業、職業紹介所、結婚相談所等に係る事業がこれに該当する。（昭56年直法2−16「七」により追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第19款 代理業
+[p4] 第19款 代理業

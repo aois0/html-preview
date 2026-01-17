@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 16−3−3 / id: 16-3-3 / title: 確定申告書の提出期限の特例を受けている事業者の中間申告期限
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/16/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/16-3-3.html
+
+[p1] （平15課消1−37により削除
+[p2] ）

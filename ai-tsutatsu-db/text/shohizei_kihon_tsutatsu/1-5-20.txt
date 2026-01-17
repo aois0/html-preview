@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 1−5−20 / id: 1-5-20 / title: 法人設立届出書の提出があったときの取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/01/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/1-5-20.html
+
+[p1] 法法第148条《内国普通法人等の設立の届出》の規定による届出書の提出があった場合において、当該届出書に法第12条の2第1項《新設法人の納税義務の免除の特例》の規定の適用がある新設法人に該当する旨及び規則第26条第5項各号《新設法人に該当する旨の届出書の記載事項》に規定する事項の記載がある場合には、「消費税の新設法人に該当する旨の届出書」の提出があったものとして取り扱う。（平10課消2−9により追加、平22課消1−9、平25課消1−34により改正）

@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 30−3 / id: 30-3 / title: 保険金請求権等の買取りに係る買取額の支払いを受けたことにより新たに納付すべき相続税額があることとなった者の申告の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/04/01.htm#a-27_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/30-3.html
+
+[p1] 相続税の申告書の提出期限後において、保険業法第270条の6の10第3項((課税関係))に規定する「買取額」の支払いを受けたことにより新たに納付すべき相続税額があることとなった者が提出した申告書については、法第30条の規定による期限後申告書に該当するものとして取り扱うものとする。（昭39直審（資）30、昭57直資2−177、平12課資２−258、平15課資2−1、平17課資2-4改正）

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 73−6 / id: 73-6 / title: 保健師等以外の者から受ける療養上の世話
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/73-6.html
+
+[p1] 令第207条第5号に掲げる「保健師、看護師又は准看護師による療養上の世話」とは、保健師助産師看護師法第2条《保健師》、第5条《看護師》又は第6条《准看護師》に規定する保健師、看護師又は准看護師がこれらの規定に規定する業務として行う療養上の世話をいうのであるが、これらの者以外の者で療養上の世話を受けるために特に依頼したものから受ける療養上の世話も、これに含まれるものとする。（平14課個2−22、課資3−5、課法8−10、課審3−197改正）

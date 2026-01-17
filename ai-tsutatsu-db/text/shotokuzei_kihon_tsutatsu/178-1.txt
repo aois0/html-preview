@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 178−1 / id: 178-1 / title: 不特定多数の者から支払われるものの範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/27/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/178-1.html
+
+[p1] 令第303条の2第1号《外国法人に係る所得税の課税標準から除かれる国内源泉所得》に掲げる「不特定多数の者から支払われるもの」とは、外国法人が自ら主催して演劇の公演等の役務を提供することにより観客等から受ける入場料、観覧料等をいい、当該外国法人がその公演に係る客席等の全部又は一部の貸切契約を締結することにより支払を受けるその貸切契約に係る対価（興行場等の経営者又は主催者が、いずれの名義でするかを問わず、興行場等の入場者から領収すべきその入場の対価をいう。）もこれに該当するものとする。（平2直法6−5、直所3−6追加）

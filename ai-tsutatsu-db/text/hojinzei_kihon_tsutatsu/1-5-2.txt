@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 1−5−2 / id: 1-5-2 / title: 加入金
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/01/01_05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/1-5-2.html
+
+[p1] 令第8条第1項第4号《資本金等の額》に規定する「加入金」とは、法令若しくは定款の定め又は総会の決議に基づき新たに組合員又は会員となる者から出資持分を調整するために徴収するもので、これを拠出しないときは、組合員又は会員たる資格を取得しない場合のその加入金をいう。（昭57年直法2−11「一」、平14年課法2−1「四」、平15年課法2−7「四」、平19年課法2−3「六」により改正）

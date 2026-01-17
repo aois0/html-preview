@@ -1,0 +1,9 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 40−1 / id: 40-1 / title: 徴収を猶予する期間
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/02.htm#a-39_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/40-1.html
+
+[p1] 法第40条第1項の規定により徴収を猶予する期間は、当該申請に係る相続税額又は贈与税額の法第33条又は通則法第35条第2項に規定する納期限の翌日から、次に掲げる日までの期間をいうのであるから留意する。（平18徴管5−14追加）
+[p2] （2） 延納申請に係る相続税額又は贈与税額の全部又は一部についてその却下をした場合 延納却下があった日
+[p3] （3） 延納申請に係る相続税額又は贈与税額の全部又は一部についてみなす取下げ又は取下げがあった場合 みなす取下げ又は取下げがあった日

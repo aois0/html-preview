@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 165−10 / id: 165-10 / title: 事業場配賦経費の配分の基礎となる費用の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/24/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/165-10.html
+
+[p1] 法第165条第２項第２号に規定する「非居住者の恒久的施設を通じて行う事業及びそれ以外の事業に共通する販売費等及び育成費等」とは、例えば、次に掲げる業務に関する費用のうち、恒久的施設を通じて行う事業とそれ以外の事業に共通する費用で、当該恒久的施設を有する非居住者の事業場等において行われる事業活動の重要な部分に関連しないものをいうことに留意する（平28課2−4、課法11−8、課審5−5追加）。
+[p2] （1） 非居住者の営む業務全体に係る情報通信システムの運用、保守又は管理
+[p3] （2） 非居住者の営む業務全体に係る会計業務、税務業務又は法務業務

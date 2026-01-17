@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 70−11 / id: 70-11 / title: 災害関連費用に含まれる被害の発生防止費用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/15/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/70-11.html
+
+[p1] 令第203条第3号に規定する被害の発生を防止するために緊急に必要な措置を講ずるための費用とは、切迫している被害の発生を防止するための応急措置に係る費用のように、その費用の支出の効果がその災害による被害の発生を防止することのみに寄与するものをいうものとする。
+[p2] したがって、被害の発生を予測して支出する費用であっても、修繕等を施す費用は、原則として、同号に規定する費用には該当しないことに留意する。（昭57直所3−1、平29課個2−13、課資3−3、課審5−5改正）

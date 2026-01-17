@@ -1,0 +1,10 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 9−1−21 / id: 9-1-21 / title: 工業所有権等の使用料を対価とする資産の譲渡等の時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/09/01/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/9-1-21.html
+
+[p1] 工業所有権等又はノウハウを他の者に使用させたことにより支払を受ける使用料の額を対価とする資産の譲渡等の時期は、その額が確定した日とする。ただし、事業者が継続して契約により当該使用料の額の支払を受けることとなっている日としている場合には、これを認める。
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第6款 その他の資産の譲渡等の時期
+[p4] 第6款 その他の資産の譲渡等の時期

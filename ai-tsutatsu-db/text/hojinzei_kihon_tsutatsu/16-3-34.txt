@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 16−3−34 / id: 16-3-34 / title: 棚卸資産の販売による収入金額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/16/16_03_02a.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/16-3-34.html
+
+[p1] 規則第29条第3項《外国税額控除の対象とならない外国法人税の額の計算に係る売上総利益の額》に規定する「棚卸資産の販売による収入金額」には、棚卸資産の販売に係る契約が解除されたことにより収受する違約金の額は含まれないことに留意する。（平2年直法2−1「十三」により追加、平15年課法2−7「五十七」、平21年課法2−5「十七」により改正）

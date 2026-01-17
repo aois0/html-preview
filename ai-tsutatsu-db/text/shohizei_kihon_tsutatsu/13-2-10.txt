@@ -1,0 +1,10 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 13−2−10 / id: 13-2-10 / title: 売上げに係る対価の返還等を行った場合の事業区分
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/13/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/13-2-10.html
+
+[p1] 簡易課税制度を適用する事業者が、売上げに係る対価の返還等を行った場合において、当該対価の返還等に係る金額につき、第一種事業から第六種事業に係る事業の区分をしていない部分があるときは、当該区分していない部分については、当該事業者の課税売上げに係る帳簿等又は対価の返還等に係る帳簿等を基に合理的に区分するものとする。（平9課消2−5、平26課消1−8により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第3節 事業の区分及び区分記載の方法
+[p4] 第3節 事業の区分及び区分記載の方法

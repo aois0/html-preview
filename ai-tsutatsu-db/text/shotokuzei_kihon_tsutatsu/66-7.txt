@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 66−7 / id: 66-7 / title: 長期大規模工事の着手の日の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/14/02.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/66-7.html
+
+[p1] 令第192条第7項(同条第10項の規定により準用される場合を含む。)に規定する「その請け負つた工事の内容を完成するために行う一連の作業のうち重要な部分の作業」を開始した日がいつであるかについては、当該工事の種類及び性質、その工事に係る契約の内容、慣行等に応じてその「重要な部分の作業」を開始した日として合理的であると認められる日のうち継続して判定の基礎としている日によるものとする。（平11課所4−1追加、平20課個2−17、課審4−186、課法9−3改正）

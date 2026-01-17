@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 26−6 / id: 26-6 / title: 借地権の存続期間の更新の対価等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/02.htm#a-02
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/26-6.html
+
+[p1] 借地権、地役権等の存続期間の更新の対価として支払を受けるいわゆる更新料に係る所得及び借地権者等の変更に伴い支払を受けるいわゆる名義書換料に係る所得は、その実質が契約の更改に係るものであり、かつ、令第79条《資産の譲渡とみなされる行為》の規定の適用があるものを除き、不動産所得に該当する。

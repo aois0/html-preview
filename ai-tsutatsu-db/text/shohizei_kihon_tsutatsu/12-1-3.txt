@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 12−1−3 / id: 12-1-3 / title: 事業者が収受する事業分量配当金
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/12/01/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/12-1-3.html
+
+[p1] 法法第60条の2第1項第1号《協同組合等の事業分量配当等の損金算入》に掲げる協同組合等から事業者が収受する事業分量配当金のうち課税仕入れの分量等に応じた部分の金額は、当該事業者の仕入れに係る対価の返還等に該当することに留意する。（平18課消1−16により改正）

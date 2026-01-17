@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 10−6−2 / id: 10-6-2 / title: 交換の対象となる土地の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/10/10_06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/10-6-2.html
+
+[p1] 法第50条第1項第1号《交換の対象となる資産》に規定する土地には、立木その他独立して取引の対象となる土地の定着物は含まれないのであるが、その土地が宅地である場合には、庭木、石垣、庭園(庭園に附属する亭、庭内神し(祠)その他これらに類する附属設備を含む。)その他これらに類するもののうち宅地と一体として交換されるもの(同項第2号に該当するものを除く。)は含まれる。

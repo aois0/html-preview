@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 60−1 / id: 60-1 / title: 昭和47年以前に贈与等により取得した資産の取得費
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/12/03.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/60-1.html
+
+[p1] 法第60条第1項及び第4項の規定は、昭和48年1月1日以後に贈与、相続若しくは遺贈又は低額譲渡により取得した資産について適用され、昭和47年12月31日以前に贈与、相続若しくは遺贈又は低額譲渡により取得した資産については、所得税法の一部を改正する法律（昭和48年法律第8号）による改正前の所得税法又は旧所得税法（昭和22年法律第27号をいう。）の規定が適用されることに留意する。（昭49直所2−23、令2課資3−7、課個2−18、課法11−4、課審7−9改正）
+[p2] (注) 贈与等の時期に応じ、従前の法律の規定を示すと表4のようになる。

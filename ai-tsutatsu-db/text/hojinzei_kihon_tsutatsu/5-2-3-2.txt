@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 5−2−3の2 / id: 5-2-3-2 / title: 6月ごと総平均法等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/05/05_02_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/5-2-3-2.html
+
+[p1] 6月ごとに総平均法又は売価還元法により棚卸資産の取得価額を計算する方法は、それぞれ総平均法又は売価還元法に該当するものとする。(昭50年直法2−21「13」により追加、昭55年直法2−15「六」、平21年課法2−5「六」により改正）
+[p2] (注) 6月ごと移動平均法は、移動平均法に該当しない。

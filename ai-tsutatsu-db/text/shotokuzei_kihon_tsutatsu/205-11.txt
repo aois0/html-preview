@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 205−11 / id: 205-11 / title: 旅行その他の役務の提供と物品とのいずれかを選択できる場合の評価
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/36/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/205-11.html
+
+[p1] 事業の広告宣伝のために賞として支払われるものが旅行その他の役務の提供を内容とするものである場合において、それが物品との選択をすることができることとなっているときは、たとえ旅行その他の役務の提供を受けたためその選択できる物品の支払を受けない場合であっても、その物品の価額をその賞金の額とする。

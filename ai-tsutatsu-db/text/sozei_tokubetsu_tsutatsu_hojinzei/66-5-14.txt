@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の5−14 / id: 66-5-14 / title: 総負債の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/13/13_66_5.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-5-14.html
+
+[p1] 措置法令第39条の13第23項第2号に規定する総負債とは、外部負債たると内部負債たるとを問わないのであるから、貸倒引当金等だけではなく、税務計算上損金の額に算入されないものであっても、内国法人が損金経理により計上した税金未払金、各種引当金等も含むことに留意する。（平5年課法2−1「三十」により追加、平12年課法2−19「二十一」、平15年課法2−7「七十」、平19年課法2−3「四十九」、平20年課法2−1「三十五」、平24年課法2−17「三十三」、平28年課法2−11「四十」により改正）

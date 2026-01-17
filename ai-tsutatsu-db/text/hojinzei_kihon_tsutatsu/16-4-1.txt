@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 16−4−1 / id: 16-4-1 / title: 法人の年800万円以下の所得金額の端数計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/16/16_04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/16-4-1.html
+
+[p1] 法第66条第4項《事業年度が1年に満たない法人の年800万円以下の所得金額》に規定する事業年度が1年に満たない法人が、同条第2項《年800万円以下の所得金額に対する軽減税率》の規定を適用する場合において、同条第4項に規定する「800万円を12で除し、これに当該事業年度の月数を乗じて計算した金額」に1,000円未満の端数があるときは、これを切り捨てる。ただし、当該切り捨てられる端数の金額が当該事業年度の所得金額について切り捨てられる金額より多いときは、これを切り上げる。（平3年課法2−4「十四」により追加）

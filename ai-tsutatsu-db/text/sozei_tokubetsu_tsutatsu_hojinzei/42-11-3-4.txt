@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 42の11の3−4 / id: 42-11-3-4 / title: 取得価額の合計額が80億円を超えるかどうかの判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/01/01_42_11_3.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/42-11-3-4.html
+
+[p1] 措置法第42条の11の３の規定の適用上、一の特定業務施設（同条第１項に規定する特定業務施設をいう。以下同じ。）を構成する建物及びその附属設備並びに構築物の取得価額の合計額が80億円を超えるかどうかは、その特定業務施設が記載された同項又は同条第２項に規定する認定地方活力向上地域等特定業務施設整備計画ごとに判定することに留意する。（令6年課法2-14「三」により追加）

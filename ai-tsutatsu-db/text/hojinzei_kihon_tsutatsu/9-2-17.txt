@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−2−17 / id: 9-2-17 / title: 業務執行役員の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_02_05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-2-17.html
+
+[p1] 業務執行役員（法第34条第1項第3号《損金の額に算入される業績連動給与》に規定する業務執行役員をいう。以下9−2−19において同じ。）とは、法人の業務を執行する役員をいうのであるから、例えば、法人の役員であっても、取締役会設置会社における代表取締役以外の取締役のうち業務を執行する取締役として選定されていない者、社外取締役、監査役及び会計参与は、これに含まれないことに留意する。（平19年課法2−3「二十二」により追加、平29年課法2−17「十二」により改正）

@@ -1,0 +1,9 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 15−3 / id: 15-3 / title: 胎児がある場合の相続人の数
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/04.htm#a-15_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/15-3.html
+
+[p1] 相続人となるべき胎児が相続税の申告書を提出する日までに出生していない場合においては、当該胎児は法第15条第1項に規定する相続人の数には算入しないことに取り扱うものとする。（平元直資2
+[p2] −
+[p3] 207改正）

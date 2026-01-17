@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 3−1−7の4 / id: 3-1-7-4 / title: 配当等の額の支払に係る基準日が2以上ある場合の関連法人株式等の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/03/03_01_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/3-1-7-4.html
+
+[p1] 法人が支払を受けた他の同一法人の発行する株式等に係る配当等が当該事業年度に2以上ある場合において、当該配当等が関連法人株式等に係る配当等に該当するかどうかは、それぞれの配当等の額に係る基準日等において当該法人の有する株式等に基づいて判定することに留意する。（平10年課法2−7「四」により追加、平15年課法2−7「十一」、平19年課法2−3「十三」、平22年課法2−1「十」、平27年課法2−8「五」、平30年課法2−12「三」、令４年課法２−14｢十一」により改正）

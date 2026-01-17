@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 70の2−3 / id: 70-2-3 / title: 棚卸資産の被災損失額等に関する取扱いの準用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/15/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/70-2-3.html
+
+[p1] 法第70条の２第４項第６号に規定する棚卸資産特定災害損失額については、70−２及び70−３の取扱いに準ずる。（令5課個2-25、課法12-11、課審5-9追加）

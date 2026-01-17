@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 13−2−9 / id: 13-2-9 / title: 固定資産等の売却収入の事業区分
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/13/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/13-2-9.html
+
+[p1] 事業者が自己において使用していた固定資産等の譲渡を行う事業は、第四種事業に該当するのであるから留意する。

@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 42−13の6 / id: 42-13-6 / title: 前項（法第42条第28項）の規定の適用がある場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/04.htm#a-42_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/42-13-6.html
+
+[p1] 法第42条第29項の「前項の規定の適用がある場合」については、39−11の3の取扱いに準ずるものとする。

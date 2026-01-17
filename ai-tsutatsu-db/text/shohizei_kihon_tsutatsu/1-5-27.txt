@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 1−5−27 / id: 1-5-27 / title: 自己建設資産が棚卸資産である場合の高額特定資産の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/01/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/1-5-27.html
+
+[p1] 令第5条各号《調整対象固定資産の範囲》に掲げる資産であっても、棚卸資産の原材料として仕入れるものは、調整対象固定資産に該当しないのであるから、当該原材料を自ら建設等する棚卸資産の原材料として使用した場合には、その原材料の仕入れに係る支払対価の額についても、当該棚卸資産の建設等に要した仕入れ等に係る支払対価の額の合計額に含まれることに留意する。（平28課消1−57により追加）

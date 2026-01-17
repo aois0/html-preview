@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 33-12 / id: 33-12 / title: 特別高圧架空電線等の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/33-12.html
+
+[p1] 令第79条第1項かっこ内に規定する「特別高圧架空電線」又は「特別高圧地中電線」とは、電気設備に関する技術基準を定める省令（平成9年通商産業省令第52号）第2条第1項第3号《電圧の種別等》に規定する特別高圧（電圧が7,000ボルトを超えるもの）の電気を送電するための架空電線又は地中電線をいう。（昭56直資3-2、直所3-3、平16課資3-9、課個2-27、課審6-17改正）

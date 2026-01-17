@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−1−40 / id: 2-1-40 / title: 注
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_01_06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-1-40.html
+
+[p1] 法人が他の者から営業補償金、経費補償金等の名目で支払を受けた金額については、当該金額の支払がたとえ将来の逸失利益又は経費の発生等当該事業年度後の各事業年度において生ずることが見込まれる費用又は損失の
+[p2] に充てることを目的とするものであるとしても、その支払を受けた日の属する事業年度の益金の額に算入するのであるから留意する。（昭55年直法2−8「六」により追加、平12年課法2−7「二」、平15年課法2−7「六」、平23年課法2−17「四」、令４年課法2−14｢七」により改正）

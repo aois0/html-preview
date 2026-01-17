@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 12−7 / id: 12-7 / title: 公益事業の用に供しなかった財産
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/02.htm#a-12_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/12-7.html
+
+[p1] 法第12条第2項の規定により、財産を取得した日から2年を経過した日において、なお当該財産を法第12条第1項条3号に規定する公益を目的とする事業の用に供していないために、当該財産の価額を課税価格に算入することになった場合においては、当該財産を取得した時の時価によって評価し、相続税の課税価格の計算の基礎に算入するものとする。この場合において、その者については延滞税及び各種加算税の納付義務があるのであるから留意する。（昭46直審（資）6改正）
+[p2] 〔保険金関係〕

@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 11−6−5 / id: 11-6-5 / title: 通常必要であると認められる通勤手当
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/11/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/11-6-5.html
+
+[p1] 規則第15条の４第３号《請求書等の交付を受けることが困難な課税仕入れ》に規定する「通勤者につき通常必要であると認められる部分」とは、事業者が通勤者に支給する通勤手当が、当該通勤者がその通勤に必要な交通機関の利用又は交通用具の使用のために支出する費用に充てるものとした場合に、その通勤に通常必要であると認められるものをいう。
+[p2] したがって、所法令第20条の２各号《非課税とされる通勤手当》に定める金額を超えているかどうかにかかわらないことに留意する。（令５課消２−９により追加）

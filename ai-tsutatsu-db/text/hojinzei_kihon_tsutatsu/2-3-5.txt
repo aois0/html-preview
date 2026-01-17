@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−3−5 / id: 2-3-5 / title: 有価証券の購入のための付随費用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_03_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-3-5.html
+
+[p1] 令第119条第1項第1号《購入した有価証券の取得価額》に規定する「その他その有価証券の購入のために要した費用」には、有価証券を取得するために要した通信費、名義書換料の額を含めないことができる。
+[p2] 外国有価証券の取得に際して徴収される有価証券取得税その他これに類する税についても、同様とする。（平12年課法2−7「四」により追加、平15年課法2−7「八」により改正）

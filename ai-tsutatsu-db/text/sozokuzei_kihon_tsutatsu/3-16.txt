@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 3-16 / id: 3-16 / title: 保険料の負担者が被相続人以外の者である場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/02.htm#a-3_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/3-16.html
+
+[p1] 法第3条第1項第1号の規定により相続又は遺贈により取得したものとみなされる保険金は、保険料の負担者の死亡により支払われるものに限られ、その死亡した者及びその受取人以外の者が保険料を負担していたものについては、法第5条第1項の規定により保険金受取人が保険料を負担した者から贈与により取得したものとみなされるのであるから留意する。(昭46直審(資)6、昭57直資2-177改正)

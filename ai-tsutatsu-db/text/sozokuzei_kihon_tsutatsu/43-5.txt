@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 43−5 / id: 43-5 / title: 物納許可額等の訂正
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/05.htm#a-43_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/43-5.html
+
+[p1] 課税価格の更正により物納に充てた財産の価額に異動を生じたときは、異動後の価額により物納許可額を修正するのであるから留意する。

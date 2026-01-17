@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 20−5−36 / id: 20-5-36 / title: 資本金の額等の円換算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/20a/20_05_08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/20-5-36.html
+
+[p1] 外国法人につきその各事業年度終了の時における資本金の額若しくは出資金の額又は資本金等の額（以下20−5−36において「資本金の額等」という。）を基礎として法又は措置法の規定を適用する場合における当該資本金の額等については、当該事業年度終了の日の電信売買相場の仲値により換算した円換算額による。（平26年課法2−9「九」により追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第6節 その他の国内源泉所得に係る所得の金額の計算
+[p4] 第6節 その他の国内源泉所得に係る所得の金額の計算

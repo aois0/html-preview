@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 48−6の3 / id: 48-6-3 / title: 新株予約権付社債に係る新株予約権の行使により取得した株式の取得価額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/48-6-3.html
+
+[p1] 新株予約権付社債に係る新株予約権の内容として定められている新株予約権の行使に際して出資される財産の価額が当該新株予約権付社債の発行時の発行法人の株式の価額を基礎として合理的に定められている場合における当該新株予約権の行使により取得した株式1株当たりの取得価額は、次に定める算式により計算した金額によるものとする。（昭57直所3−15、直法6−13、直資3−8追加、平7課所4−1、課資3−1、平14課個2-5、課資3-3、課法8-3、課審3-118、平18課個2−18、課資3−10、課審4−114改正）

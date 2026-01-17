@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 12の6−1−2 / id: 12-6-1-2 / title: 信託財産に属する資産のみを信託する場合の課税関係
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/12_6/12_6_01a.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/12-6-1-2.html
+
+[p1] 法人が委託者となる信託のうち、受託者の信託財産に属する資産のみを信託するもの（以下12の6−1−2において「再信託」という。）については、当該受託者において法第2条第29号の2ハ《法人課税信託》に掲げる信託に該当しないのであるが、当該再信託の類型や契約内容等により、集団投資信託、受益者等課税信託又は法人課税信託（同号ハに掲げるものを除く。）のいずれかに該当することとなることに留意する。（平19年課法2−5「六」により追加）

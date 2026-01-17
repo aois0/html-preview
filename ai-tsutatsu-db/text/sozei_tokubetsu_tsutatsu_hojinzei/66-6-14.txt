@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の6-14 / id: 66-6-14 / title: 専ら統括業務に従事する者
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/14/14_66_6_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-6-14.html
+
+[p1] 措置法令第39条の14の3第20項第2号に規定する「専ら当該統括業務に従事する者……を有している」とは、同項の外国関係会社に同条第17項に規定する統括業務を行う専門部署（以下66の6-14において「統括部署」という。）が存している場合には当該統括部署で当該統括業務に従事する者を有していることをいい、当該外国関係会社に統括部署が存していない場合には当該統括業務に専属的に従事する者を有していることをいう。（平29年課法2-22「二」により追加、令元年課法2-6「一」により改正）

@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 10−1−19 / id: 10-1-19 / title: 家事共用資産の譲渡
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/10/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/10-1-19.html
+
+[p1] 個人事業者が、事業と家事の用途に共通して使用するものとして取得した資産を譲渡した場合には、その譲渡に係る金額を事業としての部分と家事使用に係る部分とに合理的に区分するものとする。この場合においては、当該事業としての部分に係る対価の額が資産の譲渡等の対価の額となる。

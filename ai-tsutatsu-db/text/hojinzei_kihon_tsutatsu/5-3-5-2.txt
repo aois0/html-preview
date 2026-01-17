@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 5−3−5の2 / id: 5-3-5-2 / title: 原価差額の簡便調整方法の特例
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/05/05_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/5-3-5-2.html
+
+[p1] 5−3−2の2の適用を受けた法人が、下期に繰り越された個々の棚卸資産に原価差額を配賦しないで一括して処理している場合において、下期における原価差額の調整を5−3−5の方法により行うときは、同項の算式中「原価差額」とあるのは「下期に生じた原価差額に上期末の棚卸資産に一括配賦した原価差額を加算した金額」と、「売上原価」とあるのは「下期に係る売上原価」と、それぞれ読み替えて適用するものとする。（昭50年直法2−21「15」により追加）

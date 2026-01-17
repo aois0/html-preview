@@ -1,0 +1,11 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の9の2-1 / id: 66-9-2-1 / title: 特殊関係株主等である内国法人の外国関係法人に係る所得の課税の特例
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/14/14_66_9_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-9-2-1.html
+
+[p1] 外国関係法人に係る措置法第66条の9の2から第66条の9の5までの規定の適用については、外国関係会社に係る66の6-1から66の6-31までの取扱い（66の6-9及び66の6-10から66の6-14までの取扱いを除く。）に準じて取り扱う。（平20年課法2-1「三十七」、平21年課法2-5「二十八」、平22年課法2-7「三十三」、平28年課法2-11「四十三」、平29年課法2-22「三」、令元年課法2-6「二」により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第66条の10 《技術研究組合の所得の計算の特例》関係
+[p4] 第14章 その他の特例
+[p5] 第66条の10 《技術研究組合の所得の計算の特例》関係

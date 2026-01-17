@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 10−2−3 / id: 10-2-3 / title: 国外事業者のために負担する旅費等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/10/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/10-2-3.html
+
+[p1] 特定役務の提供を受ける事業者が、当該役務の提供を行う者の当該役務の提供を行うために要する往復の旅費、国内滞在費等の費用を負担する場合のその費用は、特定課税仕入れに係る支払対価の額に含まれることに留意する。
+[p2] ただし、当該費用について、当該役務の提供を行う者に対して交付せずに、当該役務の提供を受ける事業者から航空会社、ホテル、旅館等に直接支払われている場合において、当該費用を除いた金額を特定課税仕入れに係る支払対価の額としているときは、その処理を認める。（平27課消1-17により追加）

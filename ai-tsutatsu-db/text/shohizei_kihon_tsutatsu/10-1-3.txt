@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 10−1−3 / id: 10-1-3 / title: 経済的利益
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/10/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/10-1-3.html
+
+[p1] 法第28条第1項かっこ書《課税標準》に規定する「金銭以外の物若しくは権利その他経済的な利益」とは、例えば、課税資産の譲渡等の対価として金銭以外の物若しくは権利の給付を受け、又は金銭を無償若しくは通常の利率よりも低い利率で借受けをした場合のように、実質的に資産の譲渡等の対価と同様の経済的効果をもたらすものをいう。

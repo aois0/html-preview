@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 10-4 / id: 10-4 / title: 主たる債務者が2以上ある場合の債権の所在
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/10.htm#a-10_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/10-4.html
+
+[p1] 主たる債務者が2以上ある場合におけるその債権の所在については、法施行令第1条の14の規定により判定するものとする。（昭46直審（資）6改正、平15課資2−1、平19課資2−5、課審6−3改正）

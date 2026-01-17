@@ -1,0 +1,10 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 204-34 / id: 204-34 / title: 同一人に対して2以上の者が共同して賞金を支払う場合に源泉徴収を行う者
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/36/06.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/204-34.html
+
+[p1] 同一人に対し2以上の者が共同して法第204条第1項第8号に掲げる賞金を支払う場合には、これらの者のうち授賞等の事務を主宰している者が源泉徴収を行うものとする。
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 〔契約金（第7号関係）〕
+[p4] 〔契約金（第7号関係）〕

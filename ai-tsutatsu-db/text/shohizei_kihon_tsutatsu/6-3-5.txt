@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 6−3−5 / id: 6-3-5 / title: 前渡金等の利子
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/06/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/6-3-5.html
+
+[p1] 前渡金等に係る利子のようにその経済的実質が貸付金であるものに係る利子は、法別表第二第3号《利子を対価とする貸付金等》に規定する利子を対価とする資産の貸付けに該当するものとして取り扱う。（令５課消２−９により改正）

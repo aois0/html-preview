@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−1−10 / id: 5-1-10 / title: 親族間の取引
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-1-10.html
+
+[p1] 個人事業者が生計を一にする親族との間で行った資産の譲渡及び貸付け並びに役務の提供であっても、それが事業として対価を得て行われるものであるときは、これらの行為は、資産の譲渡等に該当することに留意する。

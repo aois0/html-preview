@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 11−2−11 / id: 11-2-11 / title: 国外取引に係る仕入税額控除
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/11/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/11-2-11.html
+
+[p1] 国外において行う資産の譲渡等のための課税仕入れ等がある場合は、当該課税仕入れ等について法第30条《仕入れに係る消費税額の控除》の規定が適用されるのであるから留意する。
+[p2] この場合において、事業者が個別対応方式を適用するときは、当該課税仕入れ等は課税資産の譲渡等にのみ要するものに該当する。（令５課消２−９により改正）

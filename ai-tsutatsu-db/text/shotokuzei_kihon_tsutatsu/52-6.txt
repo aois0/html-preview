@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 52-6 / id: 52-6 / title: 相当期間の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/10/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/52-6.html
+
+[p1] 令第144条第1項第2号に規定する「債務者につき、債務超過の状態が相当期間継続し、かつ、その営む事業に好転の見通しがないこと」における「相当期間」とは、「おおむね1年以上」とし、その債務超過に至った事情と業務好転の見通しをみて、同号に規定する事由が生じているかどうかを判定するものとする。（平11課所4-1追加、平13課個2-30、課資3-3、課法8-9改正）

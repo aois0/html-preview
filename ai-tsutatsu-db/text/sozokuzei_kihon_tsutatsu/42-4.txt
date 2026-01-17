@@ -1,0 +1,9 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 42−4 / id: 42-4 / title: 管理官庁との協議
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/04.htm#a-42_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/42-4.html
+
+[p1] 税務署長は、物納申請財産が不動産、船舶又は有価証券である場合は、法第42条第2項の調査に当たり、当該物納申請財産の管理又は処分に関する意見を物納財産の管理官庁に求めるものとする。
+[p2] この場合において、管理官庁による物納申請財産の調査の結果、管理又は処分に関する意見の回答があったときは、当該回答に則して法第42条第2項の規定により物納の許可をし、又は当該申請の却下をするものとする。 （平4課資2−158・徴管5−6追加、平18徴管5−14改正）
+[p3] （注） 物納財産の管理官庁とは、財務（支）局、沖縄総合事務局、財務事務所、財務（支）局出張所、沖縄総合事務局財務出張所及び財務事務所出張所をいう。

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 185−10 / id: 185-10 / title: 日々雇い入れられる者の1回の就労時間が著しく長時間である場合の税額の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/31/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/185-10.html
+
+[p1] 法第185条第1項第3号に掲げる給与等の支払を受ける者の1回の就労時間が著しく長時間であるため隔日に就労することが通例となっている場合には、その1回の就労の対価である給与等については、2日間就労したことによる給与等として、法別表第3の丙欄を適用して源泉徴収税額を計算するものとする。（昭49直所2−23、平元直所3−14、直法6−9、直資3−8、平19課法9−9、課個2−20、課審4−32改正）

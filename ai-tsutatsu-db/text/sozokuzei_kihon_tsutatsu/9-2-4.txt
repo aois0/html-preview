@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 9の2−4 / id: 9-2-4 / title: 信託に関する権利の一部について放棄又は消滅があった場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/07.htm#a-9-2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/9-2-4.html
+
+[p1] 受益者等の存する信託に関する権利の一部について放棄又は消滅があった場合には、原則として、当該放棄又は消滅後の当該信託の受益者等が、その有する信託に関する権利の割合に応じて、当該放棄又は消滅した信託に関する権利を取得したものとみなされることに留意する。（平19課資2−5、課審6−3追加）

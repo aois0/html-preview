@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 17−2−1 / id: 17-2-1 / title: 相続人の申告義務
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/17/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/17-2-1.html
+
+[p1] 法第59条《申告義務等の承継》に規定する相続人の申告義務の承継は、相続 があったことにより生ずるものであるから、相続により相続人の事業を承継したかどうかは問わないことに留意する。

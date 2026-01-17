@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−7−19 / id: 9-7-19 / title: 社葬費用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_07_04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-7-19.html
+
+[p1] 法人が、その役員又は使用人が死亡したため社葬を行い、その費用を負担した場合において、その社葬を行うことが社会通念上相当と認められるときは、その負担した金額のうち社葬のために通常要すると認められる部分の金額は、その支出した日の属する事業年度の損金の額に算入することができるものとする。（昭55年直法2−15「十六」により追加）
+[p2] (注) 会葬者が持参した香典等を法人の収入としないで遺族の収入としたときは、これを認める。

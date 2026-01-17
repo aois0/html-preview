@@ -1,0 +1,10 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 21の6-2 / id: 21-6-2 / title: 店舗兼住宅等の居住用部分の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/11.htm#a-21_6_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/21-6-2.html
+
+[p1] 受贈配偶者の居住の用に供している家屋のうちに居住の用以外の用に供されている部分のある家屋及び当該家屋の敷地の用に供されている土地等（以下21の6-3において「店舗兼住宅等」という。）に係る21の6-1に定めるその居住の用に供している部分は、次により判定するものとする。（昭57直資2-177追加）
+[p2] （1） 当該家屋のうちその居住の用に供している部分は、次の算式により計算した面積に相当する部分とする。
+[p3] （2） 当該土地等のうちその居住の用に供している部分は、次の算式により計算した面積に相当する部分とする
+[p4] 。

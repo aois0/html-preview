@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 12−1−13 / id: 12-1-13 / title: 他の法律の規定により、還付を受ける場合の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/12/01/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/12-1-13.html
+
+[p1] 法第32条第4項《保税地域からの引取りに係る課税貨物に係る消費税額の還付を受ける場合の仕入れに係る消費税額の控除の特例》に規定する「他の法律の規定により、還付を受ける場合」には、例えば、輸徴法第14条第1項《相殺関税等が還付される場合の消費税の還付》、第15条第2項《変質、損傷等の場合の軽減又は還付》、第16条の3《輸入時と同一状態で再輸出される場合の還付》又は第17条《違約品等の再輸出又は廃棄の場合の還付》の規定により消費税の還付を受ける場合が該当する。（平13課消1−5、平14課消1-12により改正）

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 64-5の3 / id: 64-5-3 / title: 保証債務に係る相続税法第13条と法第64条第2項の規定の適用関係
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/13/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/64-5-3.html
+
+[p1] 被相続人の保証債務を承継した相続人が、当該保証債務を履行するために資産を譲渡した場合には、当該資産の譲渡は、その保証債務を被相続人の債務として相続税法第13条《債務控除》の規定の適用を受けるときであっても、法第64条第2項に規定する「保証債務を履行するため資産の譲渡があった場合」に該当するものとする。（昭56直資3-2、直所3-3追加）

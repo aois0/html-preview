@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−6−7 / id: 9-6-7 / title: 明細書の添付
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_06_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-6-7.html
+
+[p1] 返品債権特別勘定への繰入れを行う場合には、その繰入れを行う事業年度の確定申告書に返品債権特別勘定の繰入額の計算に関する明細を記載した書類を添付しなければならないものとする。（平10年課法2−7「十三」により改正）

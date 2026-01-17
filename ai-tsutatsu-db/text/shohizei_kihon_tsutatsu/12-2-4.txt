@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 12−2−4 / id: 12-2-4 / title: 共有に係る調整対象固定資産
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/12/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/12-2-4.html
+
+[p1] 事業者が他の者と共同で購入した共有物が調整対象固定資産に該当するかどうかを判定する場合において、令第5条《調整対象固定資産の範囲》に規定する金額が100万円以上であるかどうかは、当該事業者の共有物に係る持分割合に応じて判定する。（平28課消1-57により改正）

@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−2−7 / id: 5-2-7 / title: 建物賃貸借契約の解除等に伴う立退料の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-2-7.html
+
+[p1] 建物等の賃借人が賃貸借の目的とされている建物等の契約の解除に伴い賃貸人から収受する立退料（不動産業者等の仲介を行う者を経由して収受する場合を含む。）は、賃貸借の権利が消滅することに対する補償、営業上の損失又は移転等に要する実費補償などに伴い授受されるものであり、資産の譲渡等の対価に該当しない。
+[p2] (注) 建物等の賃借人たる地位を賃貸人以外の第三者に譲渡し、その対価を立退料等として収受したとしても、これらは建物等の賃借権の譲渡に係る対価として受領されるものであり、資産の譲渡等の対価に該当することになるのであるから留意する。

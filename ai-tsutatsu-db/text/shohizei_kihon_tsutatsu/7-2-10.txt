@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 7−2−10 / id: 7-2-10 / title: 船舶運航事業者等の求めに応じて行われる修理の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/07/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/7-2-10.html
+
+[p1] 令第17条第1項第3号又は第2項第1号ハ《外航船舶等の修理》の規定の適用に当たって、「船舶運航事業者等」の求めに応じて行われる修理は、船舶運航事業者等からの直接の求めに応じて行う修理に限られるのであるから、船舶運航事業者等から修理の委託を受けた事業者の求めに応じて行う修理は、これに含まれないことに留意する。
+[p2] (注) 船舶運航事業者等から修理の委託を受けた事業者の求めに応じて修理として行う役務の提供は、課税資産の譲渡等に該当し、当該修理の委託をした事業者にとっては課税仕入れとなる。

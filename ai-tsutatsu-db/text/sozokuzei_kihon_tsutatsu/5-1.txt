@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 5−1 / id: 5-1 / title: 法第3条第1項第1号の規定の適用を受ける保険金に関する取扱いの準用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/05.htm#a-5_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/5-1.html
+
+[p1] 法第5条第1項の規定により贈与により取得したものとみなされる保険金については、3−6及び3−8から3−10までの取扱いに準ずるものとする。（昭57直資2−177追加）

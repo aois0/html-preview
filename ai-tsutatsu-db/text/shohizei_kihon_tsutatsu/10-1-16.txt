@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 10−1−16 / id: 10-1-16 / title: 別途収受する配送料等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/10/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/10-1-16.html
+
+[p1] 事業者が、課税資産の譲渡等に係る相手先から、他の者に委託する配送等に係る料金を課税資産の譲渡の対価の額と明確に区分して収受し、当該料金を預り金又は仮受金等として処理している場合の、当該料金は、当該事業者における課税資産の譲渡等の対価の額に含めないものとして差し支えない。

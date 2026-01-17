@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 19−1−1 / id: 19-1-1 / title: 消費税と地方消費税の申告の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/19/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/19-1-1.html
+
+[p1] 譲渡割（地方税法第72条の77第2号《地方消費税に関する用語の意義》に規定する「譲渡割」をいう。以下19−1−1において同じ。）の申告は、地方税法附則第9条の5《譲渡割の申告の特例》の規定により、消費税の申告と併せて、税務署長にしなければならないのであるから、譲渡割の納税義務者は、消費税の申告と同時に譲渡割の申告も納税地を所轄する税務署長にしなければならないのであるから留意する。（平10課消2−9、令５課消２−９により追加）

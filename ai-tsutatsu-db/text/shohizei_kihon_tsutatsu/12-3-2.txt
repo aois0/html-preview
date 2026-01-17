@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 12−3−2 / id: 12-3-2 / title: 課税売上割合が著しく増加した場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/12/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/12-3-2.html
+
+[p1] 令第53条第1項《課税売上割合が著しく増加した場合》の規定の適用に当たり、仕入れ等の課税期間においては課税資産の譲渡等の対価の額がなく、仕入れ等の課税期間の翌課税期間から第三年度の課税期間までの期間においては課税資産の譲渡等の対価の額がある場合には、当該通算課税売上割合が100分の5以上であるときは、法第33条第1項《課税売上割合が著しく変動した場合の調整対象固定資産に関する仕入れに係る消費税額の調整》に規定する課税売上割合が著しく増加した場合に該当するものとして取り扱う。

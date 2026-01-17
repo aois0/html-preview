@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 37−23 / id: 37-23 / title: 不動産所得の基因となっていた建物の賃借人に支払った立退料
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/09.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/37-23.html
+
+[p1] 不動産所得の基因となっていた建物の賃借人を立ち退かすために支払う立退料は、当該建物の譲渡に際し支出するもの又は当該建物を取壊してその敷地となっていた土地等を譲渡するために支出するものを除き、その支出した日の属する年分の不動産所得の金額の計算上必要経費に算入する。

@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の5の2−3 / id: 66-5-2-3 / title: 短期の前払利息
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/13/13_66_5_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-5-2-3.html
+
+[p1] 法人が、各事業年度において支払った支払利息のうち基本通達２−２−14によりその支払った日の属する事業年度の損金の額に算入された前払利息の額は、支払利子等の額に含まれることに留意する。（令元年課法2-33「二」により追加）

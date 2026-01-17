@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 2−5 / id: 2-5 / title: 法人でない社団の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/2-5.html
+
+[p1] 法第2条第1項第8号に規定する法人でない社団とは、多数の者が一定の目的を達成するために結合した団体のうち法人格を有しないもので、単なる個人の集合体でなく、団体としての組織を有し統一された意思の下にその構成員の個性を超越して活動を行うものをいい、次に掲げるようなものは、これに含まれない。
+[p2] （1） 民法第667条《組合契約》の規定による組合
+[p3] （2） 商法第535条《匿名組合契約》の規定による匿名組合

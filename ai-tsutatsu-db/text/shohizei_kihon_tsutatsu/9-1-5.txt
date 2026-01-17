@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 9−1−5 / id: 9-1-5 / title: 請負による資産の譲渡等の時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/09/01/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/9-1-5.html
+
+[p1] 請負による資産の譲渡等の時期は、別に定めるものを除き、物の引渡しを要する請負契約にあってはその目的物の全部を完成して相手方に引き渡した日、物の引渡しを要しない請負契約にあってはその約した役務の全部を完了した日とする。

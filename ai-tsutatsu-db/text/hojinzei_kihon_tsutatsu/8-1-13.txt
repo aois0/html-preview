@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 8−1−13 / id: 8-1-13 / title: 簡易な施設の負担金の損金算入
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/08/08_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/8-1-13.html
+
+[p1] 国、地方公共団体、商店街等の行う街路の簡易舗装、街灯、がんぎ等の簡易な施設で主として一般公衆の便益に供されるもののために充てられる負担金は、これを繰延資産としないでその負担金を支出する日の属する事業年度の損金の額に算入することができる。（昭55年直法2−8「二十八」により改正）

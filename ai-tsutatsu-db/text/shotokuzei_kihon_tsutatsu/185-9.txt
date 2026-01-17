@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 185−9 / id: 185-9 / title: 日々雇い入れられる者が一の給与等の支払者から継続して給与等の支払を受けるかどうかの判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/31/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/185-9.html
+
+[p1] 令第309条かっこ内の規定の適用については、日々雇い入れられる者がたまたまその支払者に雇用されない日があっても、それがその者の病気若しくは休養又は支払者の側における公休日若しくは天候等に基づく作業の都合等によるものであって、その支払者のもとにおけるその者の1月を通じた就業の状態がその支払者に専ら雇用されている者と同等程度である場合には、これらの事情によりその支払者に雇用されない日を含む期間を通じその支払者から継続して給与等の支払を受けるものとする。

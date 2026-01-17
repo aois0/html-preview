@@ -1,0 +1,6 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 20の2−3 / id: 20-2-3 / title: 
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/09.htm#a-20_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/20-2-3.html
+

@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−3−3 / id: 5-3-3 / title: 役員の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/03/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-3-3.html
+
+[p1] 法第4条第5項第2号《役員に対するみなし譲渡》に規定する役員（法法第2条第15号《定義》に規定する役員をいう。以下5−3−5までにおいて同じ。）の範囲につき法法令第7条第1号《役員の範囲》の規定を適用する場合において、同号に規定する「使用人以外の者でその法人の経営に従事しているもの」には、相談役、顧問その他これらに類する者でその法人内における地位 、その行う職務等からみて他の役員と同様に実質的に法人の経営に従事していると認められるものが含まれることに留意する。（平27課消1-17により改正）

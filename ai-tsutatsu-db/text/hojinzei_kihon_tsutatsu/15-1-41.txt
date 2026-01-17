@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−41 / id: 15-1-41 / title: 学校法人等の経営する寄宿舎
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_16.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-41.html
+
+[p1] 学校法人等が専らその学校に在学する者を宿泊させるために行う寄宿舎の経営は、令第5条第1項第15号《旅館業》の旅館業に該当しないものとする。ただし、令第5条第1項第30号《技芸教授業》の技芸教授業を行う公益法人等が当該技芸教授業に付随して行う寄宿舎の経営については、この限りでない。(昭56年直法2−16「七」、平20年課法2−5「二十九」により改正)

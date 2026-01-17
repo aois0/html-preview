@@ -1,0 +1,11 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−8−9 / id: 5-8-9 / title: プラットフォーム事業者自身が行う電気通信利用役務の提供
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-8-9.html
+
+[p1] プラットフォーム事業者が、他の事業者に提供するデジタルプラットフォームを用いて自ら電気通信利用役務の提供を行う場合のその電気通信利用役務の提供について、法第15条の2第1項《特定プラットフォーム事業者を介して行う電気通信利用役務の提供に関するこの法律の適用》の規定の適用はないことに留意する。
+[p2] また、この場合の当該電気通信利用役務の提供に係る対価の額は、同条第２項に規定する合計額には含まないことに留意する。（令6課消2−6により改正）
+[p3] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p4] 第9節 軽減対象課税資産の譲渡等
+[p5] 第9節 軽減対象課税資産の譲渡等

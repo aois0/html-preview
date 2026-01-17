@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−4−6 / id: 2-4-6 / title: 時価以上の価額で資産を下取りした場合の対価の額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_04_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-4-6.html
+
+[p1] 法人がリース譲渡を行うに当たり、頭金等として相手方の有する資産を下取りした場合において、当該資産につきその取得の時における価額を超える価額を取得価額としているときは、その超える部分の金額については取得価額に含めないものとし、その超える部分の金額に相当する値引きをしてリース譲渡を行ったものとして取り扱う。（昭48年直法2−81「2」、昭55年直法2−8「八」、平10年課法2−7「三」、平12年課法2−7「五」、平30年課法2−8「五」により改正）

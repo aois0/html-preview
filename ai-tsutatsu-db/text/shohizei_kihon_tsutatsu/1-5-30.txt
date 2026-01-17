@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 1−5−30 / id: 1-5-30 / title: 高額特定資産等が居住用賃貸建物である場合等の法第12条の4の適用関係
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/01/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/1-5-30.html
+
+[p1] 高額特定資産又は調整対象自己建設高額資産について法第30条第10項《居住用賃貸建物に係る仕入税額控除の制限》の規定が適用された場合のように、課税仕入れについて、同条第１項《仕入れに係る消費税額の控除》の規定が適用されなかったとしても、法第12条の4第1項又は第2項《高額特定資産を取得した場合等の納税義務の免除の特例》の規定は適用されることに留意する。（令2課消2−9により追加、令5課消2−9により改正）

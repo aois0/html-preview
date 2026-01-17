@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 12の7−3−6 / id: 12-7-3-6 / title: 時価評価時に時価評価資産から除かれる資産を判定する場合の資本金等の額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/12_7/12_7_03_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/12-7-3-6.html
+
+[p1] 法人が時価評価資産を有するかどうかを判定する場合における令第131条の15第１項第５号《通算制度の開始に伴う資産の時価評価損益》に規定する「資本金等の額」は、通算開始直前事業年度終了の時の資本金等の額となることに留意する。（令４年課法2−14｢五十」により追加）

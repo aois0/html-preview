@@ -1,0 +1,11 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−26 / id: 15-1-26 / title: 倉庫業の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_10.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-26.html
+
+[p1] 令第5条第1項第9号《倉庫業》の倉庫業には、寄託を受けた物品を保管する業が含まれるから、手荷物、自転車等の預り業及び保護預り施設による物品等の預り業（貸金庫又は貸ロッカーを除く。）もこれに該当する。（昭56年直法2−16「七」により改正）
+[p2] (注) 貸金庫又は貸ロッカーは、同項第4号《物品貸付業》の物品貸付業に該当する。
+[p3] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p4] 第11款 請負業
+[p5] 第11款 請負業

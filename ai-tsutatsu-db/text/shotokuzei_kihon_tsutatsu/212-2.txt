@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 212−2 / id: 212-2 / title: 源泉徴収を要しない居住用土地家屋等の貸付けによる対価
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/37/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/212-2.html
+
+[p1] 令第328条第2号に掲げる「自己又はその親族の居住の用に供するために借り受けた個人から支払われるもの」の範囲については、178−2の取扱いに準ずる。（平2直法6−5、直所3−6改正）

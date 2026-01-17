@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 67-5 / id: 67-5 / title: 医師等が医薬品等の仕入れに関し支払を受ける仕入割戻し
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/15/15_67.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/67-5.html
+
+[p1] 医療法人が、社会保険診療報酬について措置法第67条の規定の適用を受けて各事業年度の所得の金額を計算する場合において、当該医療法人が使用医薬品等の仕入れに関し仕入割戻し(金銭によるもののほか、現物によるものも含む。)の支払を受けているときは、当該仕入割戻しの金額は、社会保険診療報酬に係る所得の金額の計算に関係なく益金の額に算入する。

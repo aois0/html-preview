@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 10-23 / id: 10-23 / title: 非課税貯蓄相続申込書を提出することができる者
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/10-23.html
+
+[p1] 令第47条第1項に規定する「非課税貯蓄申込書を提出することができる障害者等である者」には、被相続人の預貯金等を相続により取得した相続人のうち、当該相続の開始前に当該預貯金等の受入れをしている金融機関の営業所等を経由して既に当該預貯金等と同一種類の預貯金等につき非課税貯蓄申告書を提出していた者のほか、当該相続の開始後非課税貯蓄相続申込書を提出する時までに当該金融機関の営業所等を経由して当該預貯金等と同一種類の預貯金等につき非課税貯蓄申告書を提出した者も含まれる。（昭60直法6-8、直所3-12、昭63直法6-7、直所3-8、平17課法8-9、課個2-33、課審4-215改正）

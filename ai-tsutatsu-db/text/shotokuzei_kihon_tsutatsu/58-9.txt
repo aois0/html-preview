@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 58−9 / id: 58-9 / title: 資産の一部分を交換とし他の部分を売買とした場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/12/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/58-9.html
+
+[p1] 一の資産につき、その一部分については交換とし、他の部分については売買としているときは、法第58条の規定の適用については、当該他の部分を含めて交換があったものとし、売買代金は交換差金等とする。（昭56直資3−2、直所3−3改正）

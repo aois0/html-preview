@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の6-8 / id: 66-6-8 / title: 事業の管理、支配等を本店所在地国において行っていることの判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/14/14_66_6_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-6-8.html
+
+[p1] 措置法第66条の6第2項第2号イ（2）及び第3号ロにおけるその事業の管理、支配及び運営を本店所在地国（同項第2号イ（2）に規定する本店所在地国をいう。以下66の6-27までにおいて同じ。）において行っているかどうかの判定は、外国関係会社の株主総会及び取締役会等の開催、事業計画の策定等、役員等の職務執行、会計帳簿の作成及び保管等が行われている場所並びにその他の状況を総合的に勘案の上行うことに留意する。（平29年課法2-22「二」により追加）

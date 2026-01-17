@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 48の2−2 / id: 48-2-2 / title: 延納担保物件が特定物納申請財産として申請された場合の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/06.htm#a-44_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/48-2-2.html
+
+[p1] 特定物納に充てようとする財産が、特定物納の許可を受けようとする延納税額の担保となっている場合には、当該財産について他の私債権の担保権の目的となっていない場合に限り、法施行規則第21条第1項第1号の不動産に該当しないものとして取り扱うことに留意する。
+[p2] ただし、特定物納の許可によっても被担保債権の全額が納付済みとならず担保権の抹消が行えない場合には、この限りでないのであるから留意する。（平18徴管5-14追加）

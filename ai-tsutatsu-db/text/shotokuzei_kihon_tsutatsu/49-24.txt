@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−24 / id: 49-24 / title: 生産高比例法を定率法に変更した場合等の償却費の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/08.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-24.html
+
+[p1] 鉱業用減価償却資産（令第120条の2第1項第3号イに掲げる減価償却資産を除く。）の償却方法について、旧生産高比例法を旧定率法に変更した場合又は生産高比例法を定率法に変更した場合には、その後の償却費（令第134条第2項の規定による償却費を除く。）は、49−19に準じて計算する。（平19課個2−11、課資3−1、課法9−5、課審4−26、平28課個2−22、課審5−18改正）

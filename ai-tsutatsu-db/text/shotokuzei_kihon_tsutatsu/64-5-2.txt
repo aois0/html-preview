@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 64-5の2 / id: 64-5-2 / title: 保証債務を履行するため山林を伐採又は譲渡した場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/13/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/64-5-2.html
+
+[p1] 法第64条第2項の規定の対象となる所得は、保証債務を履行するため行った資産の譲渡による所得のうち棚卸資産（令第81条各号《譲渡所得の基因とされない棚卸資産に準ずる資産》に掲げる資産を含む。）の譲渡その他営利を目的として継続的に行われる資産の譲渡による所得以外の所得に限られるから、山林の伐採又は譲渡による所得であっても、営利を目的として継続的に行われる山林の伐採又は譲渡による所得については、法第64条第2項の規定は適用されない。（昭50直資3-11、直所3-19追加、令4課資3-7、課審7-16改正）

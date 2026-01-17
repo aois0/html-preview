@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 65の4-3 / id: 65-4-3 / title: 一団地の公営住宅の買取りが行われた場合の措置法第64条等との適用関係
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/10/10_65_4.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/65-4-3.html
+
+[p1] 措置法第65条の4の規定の適用がある「公営住宅法第2条第4号に規定する公営住宅の買取り」は、当該公営住宅の買取りが一団地の住宅経営に係る事業として行われる場合には、当該一団地の住宅戸数が50戸未満であるときに限られるのであるが、その住宅戸数が50戸以上であるときは、措置法第64条、第65条又は第65条の2のいずれかの規定の適用があることに留意する。（平9年課法2-14「十九」により追加、平15年課法2-7「六十三」により改正）

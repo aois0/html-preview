@@ -1,0 +1,11 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 20−4−1 / id: 20-4-1 / title: 恒久的施設を有する外国法人の課税標準
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/20a/20_04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/20-4-1.html
+
+[p1] 恒久的施設を有する外国法人については、法第138条第1項第2号から第6号まで《国内源泉所得》に掲げる所得であっても、同項第1号に掲げる所得に該当するものは、同号に掲げる所得として、法第141条《課税標準》の規定を適用することに留意する。（平26年課法2−9「八」により追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第1款 通則
+[p4] 第5節 恒久的施設帰属所得に係る所得の金額の計算
+[p5] 第1款 通則

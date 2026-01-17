@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 3−1−1 / id: 3-1-1 / title: 個人事業者の開業に係る課税期間の開始の日
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/03/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/3-1-1.html
+
+[p1] 個人が新たに事業を開始した場合における最初の課税期間の開始の日は、その事業を開始した日がいつであるかにかかわらず、その年の1月1日となることに留意する。（平9課消2−5、平13課消1−5により改正）

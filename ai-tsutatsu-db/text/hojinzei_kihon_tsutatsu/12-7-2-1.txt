@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 12の7−2−1 / id: 12-7-2-1 / title: 通算親法人及び通算子法人の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/12_7/12_7_02_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/12-7-2-1.html
+
+[p1] 法第２条第12号の６の７《定義》に規定する「通算親法人」及び同条第12号の７に規定する「通算子法人」とは、法第64条の９第４項《通算承認》の規定により通算承認の処分を受け、又は同項若しくは同条第５項、第９項、第11項若しくは第12項の規定により通算承認があったものとみなされるとともに、同条第６項及び第10項から第12項までの規定により通算承認の効力が生じている法人をいうことに留意する。（令４年課法2−14｢四十九」により追加）

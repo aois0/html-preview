@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−3−10 / id: 2-3-10 / title: 公社債の経過利子
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_03_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-3-10.html
+
+[p1] 法人が国債又は地方債若しくは社債（いわゆる金融債等会社以外の法人が特別の法律により発行する債券で利付きのものを含む。）をその利子の計算期間の中途において購入し、直前の利払期からその購入の時までの期間に応じてその債券の発行条件たる利率により計算される経過利子に相当する金額を支払った場合において、当該金額をこれらの債券の取得価額に含めないで当該債券の購入後最初に到来する利払期まで前払金として経理したときは、これを認める。（平12年課法2−7「四」により追加）

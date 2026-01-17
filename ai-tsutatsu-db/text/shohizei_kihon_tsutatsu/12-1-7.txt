@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 12−1−7 / id: 12-1-7 / title: 債務免除
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/12/01/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/12-1-7.html
+
+[p1] 事業者が課税仕入れの相手方に対する買掛金その他の債務の全部又は一部について債務免除を受けた場合における当該債務免除は、仕入れに係る対価の返還等に該当しないことに留意する。

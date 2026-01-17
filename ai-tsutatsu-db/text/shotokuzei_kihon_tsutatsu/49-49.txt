@@ -1,0 +1,16 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−49 / id: 49-49 / title: 劣化資産
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/13.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-49.html
+
+[p1] 生産設備の本体の一部を構成するものではないが、これと一体となって繰り返し使用される資産で、数量的に減耗し、又は質的に劣化する次のようなもの（以下49−53までにおいて「劣化資産」という。）に係る取得価額の必要経費算入等については、49−50から49−53までに定めるところによる。
+[p2] （1） 冷媒
+[p3] （2） 触媒
+[p4] （3） 熱媒
+[p5] （4） 吸着材及び脱着材
+[p6] （5） 溶剤及び電解液
+[p7] （6） か性ソーダ製造における水銀
+[p8] （7） 鋳物製造における砂
+[p9] （8） 亜鉛鉄板製造における溶融鉛
+[p10] （9） アルミニューム電解用の陽極カーボン及び氷晶石

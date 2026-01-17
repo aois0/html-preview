@@ -1,0 +1,10 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 2−1−2 / id: 2-1-2 / title: 事業所その他これらに準ずるもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/02/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/2-1-2.html
+
+[p1] 法第20条第3号《個人事業者の納税地》に規定する「その他これらに準ずるもの」とは、事務所、事業所に準ずるものをいい、工場、農園、養殖場、植林地、展示即売場、貸ビル、貸倉庫又は事業活動の拠点となっているホテルの一室等名称のいかんを問わず、資産の譲渡等に係る事業を行う一定の場所をいう。
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第2節 法人の納税地
+[p4] 第2節 法人の納税地

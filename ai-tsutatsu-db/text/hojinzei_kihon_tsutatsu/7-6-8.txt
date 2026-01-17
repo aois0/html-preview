@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−6−8 / id: 7-6-8 / title: 取替法における取替え
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_06_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-6-8.html
+
+[p1] 令第49条第2項第2号《取替法》の取替えとは、取替資産が通常使用に耐えなくなったため取り替える場合のその取替えをいうのであるから、規模の拡張若しくは増強のための取替え又は災害その他の事由により滅失したものの復旧のための取替えは、これに該当しないことに留意する。

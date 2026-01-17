@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 18−2−3 / id: 18-2-3 / title: 恒久的施設等を有する構成会社等における国別グループ純所得の金額から控除する金額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/18/18_02_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/18-2-3.html
+
+[p1] 法第82条の2第2項第1号イ(2)(i)及び(ii)《国際最低課税額》に掲げる金額の計算に当たっては、恒久的施設等を有する構成会社等が令第155条の30第1項及び第2項《恒久的施設等を有する構成会社等に係る個別計算所得等の金額の計算の特例》の規定の適用を受けた場合であっても、これを考慮しないことに留意する。（令5年課法2−17｢十」により追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第2款 構成会社等に係る国別実効税率の計算
+[p4] 第2款 構成会社等に係る国別実効税率の計算

@@ -1,0 +1,9 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−1−5 / id: 5-1-5 / title: 負担付き贈与の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-1-5.html
+
+[p1] 令第2条第1項第1号《負担付き贈与による資産の譲渡》に規定する「負担付き贈与」とは、その贈与に係る受贈者に一定の給付をする義務を負担させる資産の贈与をいうのであるから留意する。
+[p2] なお、事業者が他の事業者に対して行った広告宣伝用の資産の贈与は、同号に規定する負担付き贈与には該当しない。
+[p3] (注) 事業者が資産を贈与（法人のその役員に対する贈与を除く。）した場合において、当該資産の贈与が負担付き贈与に該当しない限り、当該資産の贈与は、資産の譲渡等に該当しない。

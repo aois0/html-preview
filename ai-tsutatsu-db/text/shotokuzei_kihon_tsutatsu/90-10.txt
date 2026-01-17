@@ -1,0 +1,10 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 90−10 / id: 90-10 / title: 変動所得及び臨時所得がある場合の平均課税の適用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/17/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/90-10.html
+
+[p1] 法第90条第1項の規定は、その年分の変動所得及び臨時所得の全部について適用されるのであるから、その年分の確定申告書、修正申告書又は更正請求書に変動所得又は臨時所得のうちのいずれか一方だけについて同条第4項に規定する事項を記載している場合であっても、他方の所得についても同条第1項の規定の適用があることに留意する。（昭46直審（所) 19、平23課個2−33、課法9−9、課審4−46改正)
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 法第95条の2《国外転出をする場合の譲渡所得等の特例に係る外国税額控除の特例》関係
+[p4] 法第95条の2《国外転出をする場合の譲渡所得等の特例に係る外国税額控除の特例》関係

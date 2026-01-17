@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−2−8 / id: 2-2-8 / title: 金属造りの移動性仮設建物の取得価額の特例
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_02_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-2-8.html
+
+[p1] 建設業者等が建設工事等の用に供する金属造りの移動性仮設建物については、その償却費を工事原価に算入するのであるが、この場合における当該建物の償却計算の基礎となる取得価額は、当該建物の構成部分のうちその移設に伴い反復して組み立てて使用されるものの取得のために要した費用の額によることができる。（昭55年直法2−8「七」により改正）
+[p2] (注) 当該建物の組立て、撤去に要する費用及び電気配線等の附属設備で他に転用することができないと認められるものの費用は、当該建物を利用して行う工事の工事原価に算入する。

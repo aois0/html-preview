@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 1−5−7 / id: 1-5-7 / title: 合併があった日
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/01/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/1-5-7.html
+
+[p1] 法第11条第1項《吸収合併があった場合の納税義務の免除の特例》に規定する「合併があった日」とは、合併の効力を生ずる日をいい、同条第3項《新設合併があった場合の納税義務の免除の特例》に規定する「合併があった日」とは、法人の設立の登記をした日をいう。（平13課消1−5、平14課消1−12、平19課消1−18により改正）

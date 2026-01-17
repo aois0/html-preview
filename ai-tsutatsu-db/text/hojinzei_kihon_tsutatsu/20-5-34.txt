@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 20−5−34 / id: 20-5-34 / title: 資本等取引に含まれるその他これらに類する事実
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/20a/20_05_08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/20-5-34.html
+
+[p1] 法第142条第3項第3号《資本等取引の意義》に規定する「その他これらに類する事実」には、例えば、恒久的施設の事業拡大のためのその本店等から当該恒久的施設への資金の供与が含まれることに留意する。（平26年課法2−9「九」により追加）

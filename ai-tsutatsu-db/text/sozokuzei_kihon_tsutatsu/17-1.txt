@@ -1,0 +1,9 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 17−1 / id: 17-1 / title: あん分割合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/05.htm#a-16_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/17-1.html
+
+[p1] 法第17条に規定する「財産を取得した者に係る相続税の課税価格が当該財産を取得したすべての者に係る課税価格の合計額のうちに占める割合」に小数点以下2位未満の端数がある場合において、その財産の取得者全員が選択した方法により、各取得者の割合の合計値が1になるようその端数を調整して、各取得者の相続税額を計算しているときは、これを認めて差し支えないものとする。
+[p2] なお、上記の方法を選択した者について相続税額を更正する場合には、その選択した方法によって相続税額を計算することができるものとする。（昭42直審（資）5、昭47直資2−130、昭50直資2−257、昭57直資2−177改正）
+[p3] 第18条《相続税額の加算》関係

@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 6−1−3 / id: 6-1-3 / title: 借地権に係る更新料、名義書換料
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/06/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/6-1-3.html
+
+[p1] 借地権に係る更新料（更改料を含む。）又は名義書換料は、土地の上に存する権利の設定若しくは譲渡又は土地の貸付けの対価に該当する。

@@ -1,0 +1,15 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 15−1 / id: 15-1 / title: 相続人の数が零である場合の遺産に係る基礎控除額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/04.htm#a-15_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/15-1.html
+
+[p1] 法第15条第2項に規定する相続人の数が零である場合における同条第1項に規定する遺産に係る基礎控除額は、3,000万円となるのであるから留意する。（昭38直審（資）4、昭39直審（資）30、昭41直審（資）5、昭50直資2
+[p2] −
+[p3] 257、平元直資2
+[p4] −
+[p5] 207、平4課資2
+[p6] −
+[p7] 158、平6課資2
+[p8] −
+[p9] 114、平26課資2-12、課審7-17、徴管6-25改正）

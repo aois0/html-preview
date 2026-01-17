@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 42の12の7-3 / id: 42-12-7-3 / title: 分割払の事業適応繰延資産
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/01/01_42_12_7.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/42-12-7-3.html
+
+[p1] 法人が措置法第42条の12の７第２項又は第５項に規定する事業適応繰延資産となる費用を分割して支払うこととしている場合には、たとえその総額が確定しているときであっても、同条第２項の特別償却限度額又は同条第５項の繰延資産税額控除限度額は当該費用を支出した日の属する事業年度において支出した金額を基礎として計算することとなり、当該金額に未払金の額を含めることはできないのであるが、分割して支払う期間が短期間（おおむね３年以内）である場合において、当該金額に未払金の額を含めることとしているときは、これを認める。（令３年課法2-31「五」により追加）

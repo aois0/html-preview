@@ -1,0 +1,10 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 17−3−1 / id: 17-3-1 / title: 保存すべき帳簿
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/17/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/17-3-1.html
+
+[p1] 法第58条《帳簿の備付け等》に規定する帳簿は、規則第27条《帳簿の記載事項等》に規定する記載事項を記録した帳簿であればよいのであるから、商業帳簿のほか、所得税又は法人税の申告の基礎となる帳簿書類でも差し支えない。
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第18章 事業者が消費者に対して価格を表示する場合の取扱い
+[p4] 第18章 事業者が消費者に対して価格を表示する場合の取扱い

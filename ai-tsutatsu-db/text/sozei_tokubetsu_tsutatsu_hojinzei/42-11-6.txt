@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 42の11-6 / id: 42-11-6 / title: 専ら開発研究の用に供される器具及び備品
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/01/01_42_11.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/42-11-6.html
+
+[p1] 措置法第42条の11第1項に規定する「専ら開発研究（……）の用に供されるもの」とは、耐用年数省令別表第六に掲げる器具及び備品のうち専ら開発研究の用に供されるものをいうのであるから、開発研究を行う施設において供用されるものであっても、他の目的のために使用されている減価償却資産で必要に応じ開発研究の用に供されるものは、これに該当しないことに留意する。（平25年課法2-4「四」により追加、平26年課法2-6「七」、平30年課法2-12「七」により改正）

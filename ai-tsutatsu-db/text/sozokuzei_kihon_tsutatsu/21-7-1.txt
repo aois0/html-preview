@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 21の7-1 / id: 21-7-1 / title: 贈与税額の端数処理
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/11.htm#a-21_6_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/21-7-1.html
+
+[p1] その年において贈与により取得した財産に係る贈与税の税額を計算する場合において、暦年課税において計算された贈与税額と相続時精算課税において計算された贈与税額との合計額に100円未満の端数があるとき又はその全額が100円未満であるときは、その端数金額又はその全額を切り捨てるのであるから留意する。（平15課資2-1追加）
+[p2] 第21条の8《在外財産に対する贈与税額の控除》関係

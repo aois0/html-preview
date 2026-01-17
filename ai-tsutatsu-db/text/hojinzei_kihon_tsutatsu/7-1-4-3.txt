@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−1−4の3 / id: 7-1-4-3 / title: 工業所有権の実施権等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_01_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-1-4-3.html
+
+[p1] 法人が他の者の有する工業所有権(特許権、実用新案権、意匠権及び商標権をいう。以下同じ。)について実施権又は使用権を取得した場合におけるその取得のために要した金額については、当該工業所有権に準じて取り扱う。この場合において、その実施権又は使用権のその取得後における存続期間が当該工業所有権の耐用年数に満たないときは、当該存続期間の年数(1年未満の端数は切り捨てる。)をその耐用年数とすることができる。(昭55年直法2−8「十九」により追加)

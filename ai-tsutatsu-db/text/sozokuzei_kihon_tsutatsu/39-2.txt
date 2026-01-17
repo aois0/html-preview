@@ -1,0 +1,9 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 39−2 / id: 39-2 / title: 取引相場のない株式の延納担保
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/02.htm#a-39_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/39-2.html
+
+[p1] 相続若しくは遺贈又は贈与により取得した取引相場のない株式を担保とした延納申請があった場合において、次のいずれかに該当する事由があるときは、当該株式を延納の担保として認めることができる。（平4課資2−158・徴管5−6追加）
+[p2] （1） 相続若しくは遺贈又は贈与により取得した財産のほとんどが取引相場のない株式であり、かつ、当該株式以外に延納の担保として提供すべき適当な財産がないと認められること。
+[p3] （2） 取引相場のない株式以外に財産があるが、当該財産が他の債務の担保となっており、延納の担保として提供することが適当でないと認められること。

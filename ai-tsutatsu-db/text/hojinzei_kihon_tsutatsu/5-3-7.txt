@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 5−3−7 / id: 5-3-7 / title: 原価差額を一括調整した場合の翌期の処理
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/05/05_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/5-3-7.html
+
+[p1] 法人が原価差額を個々の棚卸資産に配賦しないで一括して処理している場合には、その一括して処理している金額は、翌事業年度の損金の額に算入することができる。（平15年課法2−7「十四」、令４年課法2−14｢十五」により改正）

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 9-11 / id: 9-11 / title: 人的非課税
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/02.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/9-11.html
+
+[p1] 国内に居住する外国の大使、公使及び外交官である大公使館員並びにこれらの配偶者に対しては、課税しないものとする。

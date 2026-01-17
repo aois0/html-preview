@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 26−4 / id: 26-4 / title: アパート、下宿等の所得の区分
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/02.htm#a-02
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/26-4.html
+
+[p1] アパート、下宿等の所得の区分については、次による。
+[p2] （1） アパート、貸間等のように食事を供さない場合の所得は、不動産所得とする。
+[p3] （2） 下宿等のように食事を供する場合の所得は、事業所得又は雑所得とする。

@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 9−1−10 / id: 9-1-10 / title: 不動産の仲介あっせんに係る譲渡等の時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/09/01/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/9-1-10.html
+
+[p1] 土地、建物等の売買、交換又は賃貸借（以下9−1−10において「売買等」という。）の仲介又はあっせんに係る資産の譲渡等の時期は、原則としてその売買等に係る契約の効力が発生した日とする。ただし、事業者が売買又は交換の仲介又はあっせんに係る資産の譲渡等の時期を継続して当該契約に係る取引の完了した日（同日前に実際に収受した金額があるときは、当該金額を収受した日）としているときは、これを認める。

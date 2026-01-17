@@ -1,0 +1,10 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−3−2 / id: 5-3-2 / title: 使用の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/03/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-3-2.html
+
+[p1] 法第4条第5項第1号《個人事業者の家事消費等》に規定する「使用」とは、同号に規定する資産の全部又は一部を家事のためにのみ使用することをいうのであるから、例えば、事業の用に供している自動車を家事のためにも利用する場合のように、家事のためにのみ使用する部分を明確に区分できない資産に係る利用は、同号に規定する「使用」に該当しないことに留意する。（平27課消1-17により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第2款 役員に対するみなし譲渡
+[p4] 第2款 役員に対するみなし譲渡

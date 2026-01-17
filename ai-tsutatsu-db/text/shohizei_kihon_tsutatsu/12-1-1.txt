@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 12−1−1 / id: 12-1-1 / title: 事業者が収受する早出料
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/12/01/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/12-1-1.html
+
+[p1] 事業者が海上運送事業を営む他の事業者から船舶による運送に関連して収受する早出料は、仕入れに係る対価の返還等に該当する。

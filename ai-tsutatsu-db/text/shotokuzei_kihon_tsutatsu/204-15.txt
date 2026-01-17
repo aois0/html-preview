@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 204−15 / id: 204-15 / title: 企業診断員の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/36/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/204-15.html
+
+[p1] 令第320条第2項に規定する企業診断員には、中小企業支援法に基づく中小企業診断士の登録等及び試験に関する規則（平成12年通商産業省令第192号）により登録された中小企業診断士だけでなく、直接企業の求めに応じ、その企業の状況について調査及び診断を行い、又は企業経営の改善及び向上のための指導を行う者、例えば、経営士、経営コンサルタント、労務管理士等と称するような者も含まれる。（昭46直審（所）19改正、平13課法8−2、課個2−7改正、課法8−6、課個2−17、課審3−89、平16課法8−3改正）

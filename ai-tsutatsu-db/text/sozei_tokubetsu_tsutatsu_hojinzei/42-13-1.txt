@@ -1,0 +1,8 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 42の13-1 / id: 42-13-1 / title: 控除可能期間の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/01/01_42_13.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/42-13-1.html
+
+[p1] 法人が措置法第42条の13第1項に規定する調整前法人税額超過額を有する場合において、同項各号に定める金額を構成する同条第2項の繰越税額控除に関する規定に規定する繰越税額控除限度超過額の控除可能期間（同項に規定する控除可能期間をいう。）については、当該繰越税額控除限度超過額が生じた事業年度ごとに判定するものとする。（平21年課法2-5「六」により追加、平22年課法2-7「六」、平23年課法2-17「十一」、平25年課法2-4「九」、平27年課法2-8「九」、平28年課法2-11「十五」により改正）
+[p2] （注） 繰越税額控除限度超過額とは、同条第1項各号に規定する繰越税額控除限度超過額をいう。

@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 18−1−14 / id: 18-1-14 / title: 持分法が適用される会社等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/18/18_01_06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/18-1-14.html
+
+[p1] 法第82条第15号イ《定義》に掲げる共同支配会社等（以下18−1−30までにおいて「共同支配親会社等」という。）の判定に当たり、規則第38条の11第1項《共同支配会社等の範囲》の「会社等が……修正する方法」（以下18−1−15までにおいて「持分法」という。）が適用される会社等に該当するかどうかは、最終親会社財務会計基準に従って判定を行うのであるから、例えば、最終親会社財務会計基準において、持分法会計基準が適用される場合には、持分法会計基準により持分法の適用範囲に含まれる会社等がこれに該当することに留意する。（令5年課法2−17｢九」により追加）

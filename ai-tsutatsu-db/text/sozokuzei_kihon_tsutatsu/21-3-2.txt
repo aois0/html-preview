@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 21の3-2 / id: 21-3-2 / title: 人格のない社団又は財団からの贈与
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/10.htm#a-21_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/21-3-2.html
+
+[p1] 代表者又は管理者の定めのある人格のない社団又は財団からの贈与によって取得した財産については、法第21条の3第1項第1号に規定する法人からの贈与に準じ贈与税を課税しないことに取り扱う。（昭57直資2-177追加）
+[p2] 〔扶養義務者からの生活費等関係〕

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 76−7 / id: 76-7 / title: 保険会社等に積み立てられた剰余金等で生命保険料等の金額から控除するもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/76-7.html
+
+[p1] 生命保険契約等に基づき分配又は割戻しを受けるべきことが確定した剰余金又は割戻金で、保険約款等に定めるところにより保険会社等に積み立てておき、契約者から申出のあったときに随時払い戻すこととしているものは、その積み立てた時に分配又は割戻しがあったものとして法第76条第1項第1号イ若しくは第2号イ、同条第2項第1号又は同条第3項第1号イ若しくは第2号イのかっこ内の規定を適用する。（昭60直所3−1、直法6−1、直資3−1、平2直法6−5、直所3−6、平23課個2−33、課法9−9、課審4−46改正）

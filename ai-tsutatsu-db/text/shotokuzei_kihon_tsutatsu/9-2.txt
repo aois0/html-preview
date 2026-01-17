@@ -1,0 +1,10 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 9-2 / id: 9-2 / title: 非課税とされる年金の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/02.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/9-2.html
+
+[p1] 法第9条第1項第3号ロに掲げる年金には、次に掲げるものが含まれる。（昭63直法6-1、直所3-1改正）
+[p2] （1） 死亡した者の勤務に基づき、使用者であった者から当該死亡した者の遺族に支給される年金
+[p3] （2） 死亡した者がその勤務に直接関連して加入した社会保険又は共済に関する制度、退職年金制度等に基づき、当該死亡した者の遺族に支給される年金で、当該死亡した者が生存中に支給を受けたとすれば法第35条第3項《雑所得》の規定によりその者の公的年金等とされるもの
+[p4] 〔旅費（第4号関係）〕

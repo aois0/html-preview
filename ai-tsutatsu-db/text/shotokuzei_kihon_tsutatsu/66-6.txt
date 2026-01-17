@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 66−6 / id: 66-6 / title: 長期大規模工事に該当しないこととなった場合の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/14/02.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/66-6.html
+
+[p1] 長期大規模工事に該当する工事について、請負の対価の額の減額や工事期間の短縮があったこと等により、その着工の年の翌年以後において長期大規模工事に該当しないこととなった場合であって、その工事について工事進行基準の適用をしないこととしたときであっても、その適用しないこととした年の前年以前の各年分において計上した当該工事の請負に係る収入金額及び費用の額を既往にさかのぼって修正することはしないのであるから留意する。（平11課所4−1追加）

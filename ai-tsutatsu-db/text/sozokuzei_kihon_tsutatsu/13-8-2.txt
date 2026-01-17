@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 13−8の2 / id: 13-8-2 / title: 特別寄与料の額が特別寄与者の課税価格に算入されない場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/03.htm#a-13_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/13-8-2.html
+
+[p1] 特別寄与者が制限納税義務者に該当する場合において、支払いを受けるべき特別寄与料が法第10条の規定により法施行地外にあるものとされるときは、当該特別寄与料の額は当該特別寄与者に係る相続税の課税価格に算入されないことから、相続人が支払う当該特別寄与料について、法第13条第４項の規定の適用はないことに留意する。（令元課資2−10追加）

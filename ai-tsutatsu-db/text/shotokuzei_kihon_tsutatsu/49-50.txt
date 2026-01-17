@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−50 / id: 49-50 / title: 棚卸資産とすることができる劣化資産
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/13.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-50.html
+
+[p1] 劣化資産のうち、製造工程において生産の流れに参加し、かつ、中間生産物の物理的又は化学的組成となるものについては、これを棚卸資産として経理することができる。
+[p2] （注） 49−49の(5)又は(6)に掲げるものがこれに該当する。

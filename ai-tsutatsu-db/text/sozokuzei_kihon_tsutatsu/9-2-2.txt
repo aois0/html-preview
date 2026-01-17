@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 9の2−2 / id: 9-2-2 / title: 特定委託者
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/07.htm#a-9-2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/9-2-2.html
+
+[p1] 法第9条の2第1項に規定する特定委託者（以下「特定委託者」という。）とは、公益信託ニ関スル法律(大正11年法律第62号)第1条((公益信託))に規定する公益信託（以下9の2−6において「公益信託」という。）の委託者(その相続人その他の一般承継人を含む。以下同じ。)を除き、原則として次に掲げる者をいうことに留意する。（平19課資2−5、課審6−3追加）

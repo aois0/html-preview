@@ -1,0 +1,9 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 11−1−3 / id: 11-1-3 / title: 課税仕入れの相手方の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/11/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/11-1-3.html
+
+[p1] 法第2条第1項第12号《課税仕入れの意義》に規定する「他の者」には、課税事業者及び免税事業者のほか消費者が含まれる。（平27課消1-17、令５課消２−９により改正）
+[p2] 1 令第57条第6項《事業の種類》に規定する「他の者」についても同様である。
+[p3] 2 適格請求書発行事業者以外の者からの課税仕入れは、原則として、消費税法第30条第１項《仕入れに係る消費税額の控除》の規定は適用されないことに留意する。

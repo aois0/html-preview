@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−2−3 / id: 2-2-3 / title: 造成団地の工事原価に含まれる道路、公園等の建設費
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_02_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-2-3.html
+
+[p1] 法人が一団地の宅地を造成して分譲する場合において、団地経営に必要とされる道路、公園、緑地、水道、排水路、街灯、汚水処理施設等の施設（その敷地に係る土地を含む。）については、たとえ当該法人が将来にわたってこれらの施設を名目的に所有し、又はこれらの施設を公共団体等に帰属させることとしているときであっても、これらの施設の取得に要した費用の額（当該法人の所有名義とする施設については、これを処分した場合に得られるであろう価額に相当する金額を控除した金額とする。）は、その工事原価の額に算入する。（昭55年直法2−8「七」により改正）

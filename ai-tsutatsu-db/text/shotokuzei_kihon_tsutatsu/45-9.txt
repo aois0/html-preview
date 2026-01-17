@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 45−9 / id: 45-9 / title: 外国等が納付を命ずる課徴金及び延滞金に類するもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/07/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/45-9.html
+
+[p1] 法第45条第1項第10号((家事関連費等の必要経費不算入等))に規定する「外国若しくはその地方公共団体又は国際機関が納付を命ずるこれらに類するもの」とは、外国若しくはその地方公共団体又は国際機関が、法令等(市場における公正で自由な競争の実現を目的とするものに限る。)に基づいて納付を命ずるもの(同項第7号に掲げる罰金及び科料を除く。以下この項において「外国課徴金」という。)をいう。（平21課個2-29、課審4-52追加、令元課個2-22、課法11-3、課審5-12改正）
+[p2] （注） 欧州連合によるカルテル等違反への制裁金は、外国課徴金に該当する。
+[p3] 〔簿外経費(第３項関係)〕

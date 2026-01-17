@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−3−56 / id: 2-3-56 / title: 予定取引の中止が確実となった場合等の繰延ヘッジ処理の不適用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_03_07a.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-3-56.html
+
+[p1] 法第61条の6第1項《繰延ヘッジ処理による利益額又は損失額の繰延べ》の規定の適用を受けた後に、予定取引が事情変更等により実行されないことが確実となったとき又は解約されたときは、以後、繰延ヘッジ処理の適用はないことに留意する。（平12年課法2−7「四」により追加）

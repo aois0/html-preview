@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 51−5 / id: 51-5 / title: 延滞税の計算の基礎となる期間に算入しない部分の相続税額又は贈与税額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/07/01.htm#a-49_2
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/51-5.html
+
+[p1] 期限後申告書若しくは修正申告書の提出又は更正若しくは決定により納付すべき相続税額又は贈与税額のうちに、法第51条第2項又は第3項に掲げる事由以外の事由に基づくものが含まれている場合には、当該納付すべき相続税額又は贈与税額から同条第2項又は第3項の事由がないものとして計算される納付すべき相続税額又は贈与税額を控除した相続税額又は贈与税額について、同条第2項又は第3項の規定を適用する。（昭57直資2−177追加、平15課資２−１、平16課資2−6、平18課資2−2改正）
+[p2] 第52条《延納等に係る利子税》関係

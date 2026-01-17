@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−1の6 / id: 49-1-6 / title: 
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/05.htm#a-00
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-1-6.html
+
+[p1] 削除（平11課所4−1追加、平12課所4−30改正、平成19課個2-31、課審4-44削除）
+[p2] 〔特別な償却の方法（令第120条の3関係）〕

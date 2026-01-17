@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 181−5 / id: 181-5 / title: 支払の確定した日から1年を経過した日
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/29/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/181-5.html
+
+[p1] 法第181条第2項に規定する「支払の確定した日から1年を経過した日」とは、その支払の確定した日（36−4に定める日をいう。）の属する年の翌年の応当日の翌日をいうことに留意する。（平3直法6−1、直所3−3改正）

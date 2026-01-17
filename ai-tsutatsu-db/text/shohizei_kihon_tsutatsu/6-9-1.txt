@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 6−9−1 / id: 6-9-1 / title: 埋葬、火葬の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/06/09.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/6-9-1.html
+
+[p1] 埋葬とは、墓地、埋葬等に関する法律第2条第1項《定義》に規定する埋葬をいい、火葬とは、同条第2項に規定する火葬をいう。

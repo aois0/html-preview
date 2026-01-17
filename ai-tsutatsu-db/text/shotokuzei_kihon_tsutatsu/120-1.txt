@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 120-1 / id: 120-1 / title: 総所得金額、退職所得金額及び山林所得金額の合計額の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/19/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/120-1.html
+
+[p1] 法第120条第1項本文に規定する「その年分の総所得金額、退職所得金額及び山林所得金額の合計額」とは、法及びその他の法令の規定により確定申告書の提出又は確定申告書への記載若しくは明細書等の添付を要件として適用される特例等は、全て適用しないで計算した総所得金額、退職所得金額及び山林所得金額の合計額をいうものとする。（平23課個2-33、課法9-9、課審4-46改正）

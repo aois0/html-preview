@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 161-1の2 / id: 161-1-2 / title: 準備的な性格のものの意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/22/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/161-1-2.html
+
+[p1] 令第1条の2第4項に規定する事業の遂行にとって準備的な性格のものとは、本質的かつ重要な部分を構成する活動の遂行を予定し当該活動に先行して行われる活動をいうことに留意する（平30課個2‐29、課法12‐104、課審5-8追加）。
+[p2] (注) 本文の「先行して行われる活動」に該当するかどうかの判定は、その活動期間の長短によらないことに留意する。

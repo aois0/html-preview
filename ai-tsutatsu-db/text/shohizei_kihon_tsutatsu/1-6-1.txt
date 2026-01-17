@@ -1,0 +1,10 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 1−6−1 / id: 1-6-1 / title: 国外事業者の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/01/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/1-6-1.html
+
+[p1] 国外事業者とは、所法第2条第1項第5号《定義》に規定する非居住者である個人事業者及び法法第2条第4号《定義》に規定する外国法人をいうのであるから、例えば、これらの事業者が、国内に電気通信利用役務の提供を行う事務所等を有していたとしても国外事業者に該当することに留意する。（平27課消1-17により追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第7節 適格請求書発行事業者
+[p4] 第7節 適格請求書発行事業者

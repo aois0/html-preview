@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−3−18 / id: 7-3-18 / title: 耐用年数短縮の承認事由の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_03_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-3-18.html
+
+[p1] 法人の有する減価償却資産が令第57条第1項各号《耐用年数の短縮》に掲げる事由に該当するかどうかを判定する場合において、当該各号の「その使用可能期間が法定耐用年数に比して著しく短いこと」とは、当該減価償却資産の使用可能期間がその法定耐用年数に比しておおむね10%以上短い年数となったことをいうものとする。

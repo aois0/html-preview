@@ -1,0 +1,10 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 60の4−1 / id: 60-4-1 / title: 有価証券等の取得費とされる金額等の円換算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/12/03-4.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/60-4-1.html
+
+[p1] 令第170条の3第1項《外国転出時課税の規定の適用を受けた場合の譲渡所得等の特例》の規定による有価証券等の取得に要した金額（法第60条の4第1項に規定する収入金額に算入することとされた金額をいう。）及び同条第2項に規定する利益の額に相当する金額又は損失の額に相当する金額の法第57条の3第1項《外貨建取引の換算》に規定する円換算については、57の3−2に準じて計算するものとする。（平27課資3−2、課個2−7、課審7-6、徴管6-12追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 法第60条《贈与等により取得した資産の取得費等》関係
+[p4] 法第60条《贈与等により取得した資産の取得費等》関係

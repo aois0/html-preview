@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 2−43 / id: 2-43 / title: 通信教育生
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/07.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/2-43.html
+
+[p1] 学校教育法第1条《学校の範囲》に規定する学校の学生又は生徒には、通信教育生でその課程を履修した後は通信教育生以外の一般の学生等と同一の資格を与えられるものも含まれる。

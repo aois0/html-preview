@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 42−7 / id: 42-7 / title: 延長された提出期限までに物納手続関係書類の提出等がない場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/04.htm#a-42_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/42-7.html
+
+[p1] 法第42条第5項（同条第6項により読み替えて適用する場合を含む。）の規定により延長された物納手続関係書類の提出期限までに、当該申請者が物納手続関係書類の提出をしなかったときは、法第42条第2項の規定により物納の申請を却下するのであるから留意する。 （平18徴管5−14追加）

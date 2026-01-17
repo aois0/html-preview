@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 51−22 / id: 51-22 / title: 返品債権特別勘定の金額の総収入金額算入
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/09/03.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/51-22.html
+
+[p1] 返品債権特別勘定の金額は、その繰り入れた年の翌年分の事業所得の金額の計算上総収入金額に算入する。（平11課所4−1改正）

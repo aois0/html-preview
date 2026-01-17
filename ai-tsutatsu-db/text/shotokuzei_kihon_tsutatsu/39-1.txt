@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 39−1 / id: 39-1 / title: 家事消費又は贈与等をした棚卸資産の価額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/06/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/39-1.html
+
+[p1] 法第39条又は第40条《たな卸資産の贈与等の場合の総収入金額算入》に規定する消費又は贈与、遺贈若しくは譲渡の時における資産の価額に相当する金額は、その消費等をした資産がその消費等をした者の販売用の資産であるときは、当該消費等の時におけるその者の通常他に販売する価額により、その他の資産であるときは、当該消費等の時における通常売買される価額による。

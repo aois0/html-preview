@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 36−19 / id: 36-19 / title: 広告宣伝用資産の取得のために金銭の交付を受けた場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/36-19.html
+
+[p1] 販売業者等が製造業者等から広告宣伝用の資産の取得に充てるため金銭の交付を受けた場合には、36−18の取扱いに準ずる。

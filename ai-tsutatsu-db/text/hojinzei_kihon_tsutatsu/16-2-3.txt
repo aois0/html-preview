@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 16−2−3 / id: 16-2-3 / title: 支払請求に基づき支払った所得税の控除
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/16/16_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/16-2-3.html
+
+[p1] 法人がその事業年度開始の日前に支払を受けた法第68条《所得税額の控除》に規定する利子及び配当等に対する所得税に相当する金額につき、所得税法第222条《不徴収税額の支払金額からの控除及び支払請求等》の規定による控除又は支払の請求を受けた場合におけるその控除された又はその請求に対し支払をした所得税の額については、その控除又は支払をした日の属する事業年度において法第68条の規定を適用する。（平15年課法2−7「五十六」、令４年課法2−14｢五十七」により改正）

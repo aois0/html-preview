@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−24 / id: 15-1-24 / title: 通信業の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-24.html
+
+[p1] 令第5条第1項第7号《通信業》の通信業（放送業を含む。）とは、他人の通信を媒介若しくは介助し、又は通信設備を他人の通信の用に供する事業及び多数の者によって直接受信される通信の送信を行う事業をいうのであるから、無線呼出業務、電報の集配業務、郵便物又は信書便物の集配業務、公衆電話サービス業務（いわゆる赤電話等）及び共同聴取聴視業務（いわゆる共同アンテナ）に係る事業もこれに含まれることに留意する。（昭56年直法2−16「七」により追加、平17年課法2−14「十七」により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第9款 運送業
+[p4] 第9款 運送業

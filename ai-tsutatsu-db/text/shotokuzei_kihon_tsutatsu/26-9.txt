@@ -1,0 +1,10 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 26−9 / id: 26-9 / title: 建物の貸付けが事業として行われているかどうかの判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/02.htm#a-02
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/26-9.html
+
+[p1] 建物の貸付けが不動産所得を生ずべき事業として行われているかどうかは、社会通念上事業と称するに至る程度の規模で建物の貸付けを行っているかどうかにより判定すべきであるが、次に掲げる事実のいずれか一に該当する場合又は賃貸料の収入の状況、貸付資産の管理の状況等からみてこれらの場合に準ずる事情があると認められる場合には、特に反証がない限り、事業として行われているものとする。
+[p2] （1） 貸間、アパート等については、貸与することができる独立した室数がおおむね10以上であること。
+[p3] （2） 独立家屋の貸付けについては、おおむね5棟以上であること。
+[p4] 法第27条《事業所得》関係

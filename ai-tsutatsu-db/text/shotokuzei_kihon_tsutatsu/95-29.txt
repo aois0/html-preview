@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 95−29 / id: 95-29 / title: 
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/17/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/95-29.html
+
+[p1] 非永住者が法第7条第1項第2号《課税所得の範囲》に規定する所得以外の所得に対して外国又はその地方公共団体により課された税は、法第95条《外国税額控除》の対象とされる外国所得税には該当しないのであるから、当該税については同条の規定の適用はないことに留意する。

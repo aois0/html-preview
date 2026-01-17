@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 51−4 / id: 51-4 / title: スクラップ化していた資産の譲渡損失
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/09/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/51-4.html
+
+[p1] 法第51条第1項又は第4項に規定する資産の譲渡により損失が生じた場合において、当該資産が当該譲渡前に既にスクラップ化していたと認められるときは、当該損失の金額は、これらの規定により必要経費に算入すべき当該資産に係る損失の金額とする。

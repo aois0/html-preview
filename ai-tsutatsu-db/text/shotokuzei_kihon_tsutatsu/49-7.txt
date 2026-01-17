@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−7 / id: 49-7 / title: 自己の研究に基づき取得した工業所有権の取得価額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-7.html
+
+[p1] 自己の研究の成果に基づき取得した工業所有権の取得価額は、その研究のために特別に支出した費用の額の合計額のうちその取得した年の前年以前において必要経費に算入されなかった部分の金額とし、当該工業所有権の出願料、特許料その他登録のために要する費用の額は、当該取得価額に算入しないことができる。（昭46直審（所）19改正）

@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 7−2−3 / id: 7-2-3 / title: 国外で購入した貨物を国内の保税地域を経由して国外へ譲渡した場合の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/07/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/7-2-3.html
+
+[p1] 国外で購入した貨物を国内の保税地域に陸揚げし、輸入手続を経ないで再び国外へ譲渡する場合には、関税法第75条《外国貨物の積みもどし》の規定により内国貨物を輸出する場合の手続規定が準用されることから、当該貨物の譲渡は、法第7条第1項第1号《輸出免税》の規定により輸出免税の対象となる。

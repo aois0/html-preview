@@ -1,0 +1,11 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−51 / id: 15-1-51 / title: 美容業の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_25.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-51.html
+
+[p1] 令第5条第1項第25号《美容業》の美容業には、マッサージ、パック、美容体操等の方法により全身美容のサービスを提供する事業のほか、犬、猫等の愛玩動物のシャンプー、トリミング等を行う事業が含まれる。（昭56年直法2−16「七」により追加）
+[p2] (注) 15−1−50は、美容学校を経営する公益法人等が美容所を設けて不特定又は多数の者に対して美容サービスの提供を行っている場合について準用する。
+[p3] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p4] 第26款 興行業
+[p5] 第26款 興行業

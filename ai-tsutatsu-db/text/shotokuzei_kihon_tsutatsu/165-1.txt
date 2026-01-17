@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 165−1 / id: 165-1 / title: 年の中途で居住者が非居住者となった場合の税額の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/24/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/165-1.html
+
+[p1] その年12月31日（その年の中途において死亡し又は出国をした場合には、その死亡又は出国の日）において非居住者である者でその年において居住者であった期間を有するもの（165−2において「居住者期間を有する非居住者」という。）に対して課する所得税の額は、法第165条第1項の規定により、法第102条《年の中途で非居住者が居住者となった場合の税額の計算》の規定に準じて計算することに留意する（平28課2−4、課法11−8、課審5−5改正）。

@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−2−43 / id: 9-2-43 / title: 支給額の通知
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_02_08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-2-43.html
+
+[p1] 法人が支給日に在職する使用人のみに賞与を支給することとしている場合のその支給額の通知は、令第72条の3第2号イの支給額の通知には該当しないことに留意する。（平10年課法2−7「十」により追加、平19年課法2−3「二十二」、平22年課法2−1「十八」により改正）

@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 18−1−46の4 / id: 18-1-46-4 / title: 割引率として合理的と認められるもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/18/18_01_08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/18-1-46-4.html
+
+[p1] 規則第38条の16第11項第３号《個別計算所得等の金額の計算》の「当該適用者変更税額控除額に係る国等が発行した債券（……）の利回りのうち、……割引率として合理的と認められるもの」とは、例えば、同号の国等が発行した同号に規定する債券の発行日から償還日までの期間に係る複利利回り（いわゆる複利の応募者利回り）をいう。（令6年課法2−21｢二」により追加）

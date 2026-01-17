@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 21の3-9 / id: 21-3-9 / title: 社交上必要と認められる香典等の非課税の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/10.htm#a-21_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/21-3-9.html
+
+[p1] 個人から受ける香典、花輪代、年末年始の贈答、祝物又は見舞い等のための金品で、法律上贈与に該当するものであっても、社交上の必要によるもので贈与者と受贈者との関係等に照らして社会通念上相当と認められるものについては、贈与税を課税しないことに取り扱うものとする。（昭50直資2-257改正、平15課資2-1改正）
+[p2] 第21条の4 《特定障害者に対する贈与税の非課税》関係

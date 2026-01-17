@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 190-3 / id: 190-3 / title: その年最後に支払う給与等に対する税額計算の省略
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/32/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/190-3.html
+
+[p1] 年末調整を行う場合には、その年最後に支払う給与等に対する法第185条《賞与以外の給与等に係る徴収税額》又は第186条《賞与に係る徴収税額》の規定による税額の計算を省略し、当該給与等から徴収する税額はないものとして、法第190条本文に規定する超過額又は不足額を計算することができるものとする。
+[p2] （注） 上記の取扱いを適用した場合に生じた不足額について法第192条第2項《不足額の徴収》の規定を適用する場合には、当該不足額から当該給与等につき法第185条又は第186条の規定により徴収すべき税額に相当する金額を控除した残額が、同項の「第190条に規定する不足額」となることに留意する。

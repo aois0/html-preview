@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−1−2 / id: 9-1-2 / title: 評価損否認金等のある資産について評価損を計上した場合の処理
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_01_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-1-2.html
+
+[p1] 法人が評価損否認金又は償却超過額のある資産につき令第68条第1項《資産の評価損の計上ができる事実》に規定する事実が生じたため当該評価損否認金又は償却超過額の全部又は一部を申告調整により損金の額に算入した場合には、その損金の額に算入した金額は、評価損として損金経理をしたものとして取り扱う。（昭55年直法2−8「三十一」、平17年課法2−14「九」、平21年課法2−5「七」により改正）

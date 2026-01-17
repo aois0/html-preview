@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 1−1−12 / id: 1-1-12 / title: 理事の親族等の割合に係る要件の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/01/01_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/1-1-12.html
+
+[p1] 令第3条第1項第4号及び第2項第7号《非営利型法人の範囲》に規定する要件に該当するかどうかの判定は、原則として、判定される時の現況によることに留意する。
+[p2] ただし、例えば、非営利型法人が理事の退任に基因して当該要件に該当しなくなった場合において、当該該当しなくなった時から相当の期間内に理事の変更を行う等により、再度当該要件に該当していると認められるときには、継続して当該要件に該当しているものと取り扱って差し支えない。(平20年課法2−5｢二」により追加、平21年課法2−5｢二」により改正)

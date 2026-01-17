@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 18−1−6 / id: 18-1-6 / title: タイムサービスの値引き表示の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/18/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/18-1-6.html
+
+[p1] 特定の商品を対象とした一定の営業時間に限った価格の引下げ又は生鮮食料品等について一定の営業時間経過後の価格の引下げ等（いわゆるタイムサービス）を行う場合の値引き表示（値引き前の価格に対する割引率又は割引額を示す表示をいう。）は、総額表示義務の対象となる価格表示には該当しないことに留意する。
+[p2] なお、値引き後の価格を表示するか否かは事業者の任意であるが、表示する場合には当該価格表示が総額表示義務の対象となることに留意する。（令５課消２−９により追加）

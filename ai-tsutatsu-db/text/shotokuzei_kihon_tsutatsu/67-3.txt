@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 67−3 / id: 67-3 / title: 貸付金等の貸倒損失の必要経費算入
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/14/02.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/67-3.html
+
+[p1] 法第67条第１項の規定の適用を受けている者の事業所得を生ずべき業務の遂行上生じた債権のうち、例えば、金融業者の貸付金の元本のように損益取引以外の取引に係るものの貸倒れによる損失は、当該損失の生じた年分の令第196条第2項《小規模事業者の収入及び費用の帰属時期》に規定する必要経費に算入すべき金額に含まれるものとする。（平11課所4−1、令４課個2-13、課法12-16、課審5-９改正)

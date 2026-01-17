@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 21の8-2 / id: 21-8-2 / title: 税額控除の適用区分
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/11.htm#a-21_6_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/21-8-2.html
+
+[p1] 法第21条の8の規定は、暦年課税（措置法第70条の2の5第3項の場合には、同項各号に掲げる金額の別）又は相続時精算課税（相続時精算課税に係る特定贈与者が2以上ある場合には、当該特定贈与者の別）の別にそれぞれ適用するものとする。（平15課資2-1追加、平26課資2-12、課審7-17、徴管6-25、平27課資2−9改正）

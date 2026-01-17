@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 204−13 / id: 204-13 / title: 建築士事務所未登録の建築士
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/36/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/204-13.html
+
+[p1] 法第204条第1項第2号に規定する建築士には、建築士法第23条《登録》に規定する建築士事務所の登録を受けていない者も含まれる。

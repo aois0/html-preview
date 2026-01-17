@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 9−22 / id: 9-22 / title: 所得補償保険金
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/04.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/9-22.html
+
+[p1] 被保険者の傷害又は疾病により当該被保険者が勤務又は業務に従事することができなかったことによるその期間の給与又は収益の
+[p2] として損害保険契約に基づき当該被保険者が支払を受ける保険金は、令第30条第1号に掲げる「身体の傷害に基因して支払を受けるもの」に該当するものとする。（昭55直所3−19、直法6−8追加、平元直所3−14、直法6−9、直資3−8、平23課個2−33、課法9−9、課審4−46改正）
+[p3] （注） 業務を営む者が自己を被保険者として支払う当該保険金に係る保険料は、当該業務に係る所得の金額の計算上必要経費に算入することができないのであるから留意する。

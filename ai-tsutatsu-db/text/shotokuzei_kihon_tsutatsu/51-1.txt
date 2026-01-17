@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 51−1 / id: 51-1 / title: 建設中の固定資産等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/09/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/51-1.html
+
+[p1] 法第51条第1項に規定する「事業の用に供される固定資産」又は同条第4項に規定する「業務の用に供され又はこれらの所得の基因となる資産」には、その事業又は業務の用に供されることが明らかであると認められる建設（製作又は製造を含む。）中の固定資産も含まれるものとする。

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 213−3 / id: 213-3 / title: 邦貨換算の特例
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/37/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/213-3.html
+
+[p1] 213−1の（2）の場合において、外貨で表示されている額に相当する対外支払手段（外国為替及び外国貿易法（昭和24年法律第228号）第6条第1項第8号《定義》に規定する対外支払手段をいう。）をその支払うべき日以後において外貨の売買業務を行う者から邦貨により購入して支払うときは、その支払が著しく遅延して行われる場合を除き、その支払うべき外貨で表示されている額をその対外支払手段の購入に際して適用された外国為替相場によって換算した金額をその国内源泉所得の金額として差し支えないものとする。（昭51直所3−1、直法6−1、直資3−1追加、平10課法8−2、課所4−5改正）

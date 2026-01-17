@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 28−4 / id: 28-4 / title: 役員等に支給される交際費等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/28-4.html
+
+[p1] 使用者から役員又は使用人に交際費、接待費等として支給される金品は、その支給を受ける者の給与等とする。ただし、使用者の業務のために使用すべきものとして支給されるもので、そのために使用したことの事績の明らかなものについては、課税しない。

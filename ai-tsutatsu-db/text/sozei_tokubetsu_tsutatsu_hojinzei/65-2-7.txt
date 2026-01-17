@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 65の2-7 / id: 65-2-7 / title: 一の収用換地等に係る事業につき譲渡した資産のうちに農地等とその他の資産がある場合の譲渡の時期の特例
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/10/10_65_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/65-2-7.html
+
+[p1] 一の収用換地等に係る事業につき譲渡した資産のうちに農地法の規定による転用等の許可を受けなければならない農地等とその他の資産とがあり、これらの資産の収用換地等による譲渡が2以上の年にわたって行われた場合において、その他の資産の収用換地等による譲渡が行われた年にその農地等につき譲渡に関する契約が締結されており、かつ、その年にその農地等の収用換地等による譲渡があったものとして申告したときは、その農地等はその年において収用換地等による譲渡があったものとして取り扱う。

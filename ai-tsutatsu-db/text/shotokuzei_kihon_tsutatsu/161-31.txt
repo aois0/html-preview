@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 161−31 / id: 161-31 / title: 商品等の輸入代金に係る延払債権の利子相当額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/22/03.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/161-31.html
+
+[p1] 商品等の輸入代金に係る延払債権の利子相当額は、令第283条第1項《国内業務に係る貸付金の利子》に規定するものを除き、法第161条第1項第10号に掲げる貸付金の利子に該当するのであるが、当該利子相当額が商品等の代金に含めて関税の課税標準とされるものであるときは、当該利子相当額は同号に掲げる貸付金の利子に該当しないものとして差し支えない（平28課2−4、課法11−8、課審5−5改正）。

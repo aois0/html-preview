@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 13−1−13 / id: 13-1-13 / title: 更新料等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/13/13.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/13-1-13.html
+
+[p1] 法人が、借地権の設定等に係る契約の更新又は更改をする場合において、当該借地権に係る土地の存する地域において通常いわゆる更新料又は更改料を授受する取引上の慣行があることが明らかでないためその授受をしなかったときは、これを認める。（昭55年直法2−15「三十一」により追加）

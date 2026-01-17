@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 14−4−6 / id: 14-4-6 / title: 信託の受益者としての権利の譲渡等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/14/14_04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/14-4-6.html
+
+[p1] 受益者等課税信託の受益者等がその有する権利の譲渡又は取得が行われた場合には、その権利の目的となっている信託財産に属する資産及び負債が譲渡又は取得されたこととなることに留意する。（平19年課法2−5「八」により追加）
+[p2] (注) 例えば、受益者等がその有する権利の目的となっている信託財産に属する資産が土地である場合において、当該権利が譲渡されたときには、当該受益者等が当該土地を譲渡したものとして、その譲渡の態様に応じて、譲渡、交換、収用、買換え等の法人税に関する法令の規定の適用があることに留意する。

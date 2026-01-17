@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 61の2−1 / id: 61-2-1 / title: 適格合併により引継ぎを受けた農業経営基盤強化準備金の取崩し
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/07/07_61_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/61-2-1.html
+
+[p1] 適格合併により引継ぎを受けた農業経営基盤強化準備金の措置法第61条の2第2項の規定による取崩しについては、55−7の2の取扱いに準じて取り扱うものとする。（平20年課法2−1「二十四」により追加、令４年課法２−14「四十一」により改正）

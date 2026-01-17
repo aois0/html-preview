@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−2−8 / id: 5-2-8 / title: 剰余金の配当等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-2-8.html
+
+[p1] 剰余金の配当若しくは利益の配当又は剰余金の分配（出資に係るものに限る。以下5−2−8において同じ。）は、株主又は出資者たる地位 に基づき、出資に対する配当又は分配として受けるものであるから、資産の譲渡等の対価に該当しないことに留意する。（平18課消1−16により改正）
+[p2] (注) 事業者が、法法第60条の2第1項第1号《協同組合等の事業分量配当等の損金算入》に掲げる事業分量配当（当該事業者が協同組合等から行った課税仕入れに係るものに限る。）を受けた場合には、法第32条《仕入れに係る対価の返還等を受けた場合の仕入れに係る消費税額の控除の特例》の規定が適用されることになる。

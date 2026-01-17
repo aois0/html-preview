@@ -1,0 +1,10 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 57の6−1 / id: 57-6-1 / title: 保険会社等の異常危険準備金の取扱いの準用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/02/02_57_6.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/57-6-1.html
+
+[p1] 原子力保険又は地震保険に係る異常危険準備金の積立額の損金算入等については、57の5−5から57の5−7までの取扱いに準じて取り扱うものとする。（平15年課法2−7「四十八」により追加、令４年課法２−14「三十三」により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第57条の7 《関西国際空港用地整備準備金》関係
+[p4] 第57条の7 《関西国際空港用地整備準備金》関係

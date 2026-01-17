@@ -1,0 +1,8 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の6-2 / id: 66-6-2 / title: 直接及び間接に有する株式
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/14/14_66_6_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-6-2.html
+
+[p1] 措置法第66条の6第1項、第6項又は第8項の内国法人が直接及び間接に有する外国関係会社（同条第2項第1号に規定する外国関係会社をいう。以下66の9の2-1までにおいて同じ。）の株式には、その株式の払込金額等の全部又は一部について払込み等が行われていないものも含まれるものとする。（平29年課法2-22「二」により追加）
+[p2] （注） 名義株は、その実際の権利者が所有するものとして同条第1項、第6項又は第8項の規定を適用することに留意する。

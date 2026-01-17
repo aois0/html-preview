@@ -1,0 +1,11 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 3−3 / id: 3-3 / title: 国内に居住することとなった者等の住所の推定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/3-3.html
+
+[p1] 国内又は国外において事業を営み若しくは職業に従事するため国内又は国外に居住することとなった者は、その地における在留期間が契約等によりあらかじめ1年未満であることが明らかであると認められる場合を除き、それぞれ令第14条第1項第1号又は第15条第1項第1号の規定に該当するものとする。
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 〔法第7条《課税所得の範囲》関係〕
+[p4] 第2章 課税所得の範囲
+[p5] 〔法第7条《課税所得の範囲》関係〕

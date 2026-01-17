@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 70−7 / id: 70-7 / title: 登記登録の抹消費用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/15/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/70-7.html
+
+[p1] 災害により滅失した被災事業用資産又は損壊し若しくは価値が減少したことにより取壊し若しくは除去した被災事業用資産につき要する登記登録の抹消費用は、令第203条第1号に掲げる「その他の付随費用」に含まれるものとする。

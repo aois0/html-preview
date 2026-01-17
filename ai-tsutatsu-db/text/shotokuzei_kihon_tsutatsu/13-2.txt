@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 13−2 / id: 13-2 / title: 信託財産に帰せられる収益及び費用の帰属の時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/03/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/13-2.html
+
+[p1] 受益者等課税信託の信託財産に帰せられる収益及び費用は、当該信託行為に定める信託の計算期間にかかわらず、当該信託の受益者のその年分の各種所得の金額の計算上総収入金額又は必要経費に算入することに留意する。（平19課個2−11、課資3−1、課法9−5、課審4−26追加）

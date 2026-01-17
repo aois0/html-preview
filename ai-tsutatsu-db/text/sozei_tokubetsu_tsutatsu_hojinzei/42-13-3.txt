@@ -1,0 +1,8 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 42の13-3 / id: 42-13-3 / title: 常時使用する従業員の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/01/01_42_13.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/42-13-3.html
+
+[p1] 措置法第42条の13第５項第１号イ(1)の「常時使用する従業員の数」は、常用であると日々雇い入れるものであるとを問わず、事務所又は事業所に常時就労している職員、工員等（役員を除く。）の総数によって判定することに留意する。この場合において、法人が繁忙期に数か月程度の期間その労務に従事する者を使用するときは、当該従事する者の数を「常時使用する従業員の数」に含めるものとする。
+[p2] 同条第７項第３号に規定する「常時使用する従業員の数」についても、同様とする。（令４年課法２−14「十七」により追加）

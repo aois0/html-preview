@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 39−17 / id: 39-17 / title: 弁明の方法
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/02.htm#a-39_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/39-17.html
+
+[p1] 法第39条第32項に規定する「弁明」の方法は、口頭又は書面のいずれによるも差し支えないものとするが、口頭による場合においては後日の紛争を避ける等のため、聴取書を作成する等その事績を明らかにしておくものとする。（平4課資2−158・徴管5−6、平18徴管5−14改正）
+[p2] 第40条《延納申請に係る徴収猶予等》関係

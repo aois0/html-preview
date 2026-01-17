@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−8−8 / id: 5-8-8 / title: プラットフォーム事業者による国外事業者の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-8-8.html
+
+[p1] プラットフォーム事業者が法第15条の2第1項及び第2項《特定プラットフォーム事業者を介して行う電気通信利用役務の提供に関するこの法律の適用》の規定を適用するに当たって、その提供するデジタルプラットフォームを介して電気通信利用役務の提供（事業者向け電気通信利用役務の提供を除く。以下5―8―9において同じ。）を行う事業者が国外事業者かどうかについては、例えば、当該事業者がプラットフォームの利用契約等において申し出た本店所在地によるなど、客観的かつ合理的な基準に基づいて判定している場合にはこれを認める。（令6課消2−6により改正）

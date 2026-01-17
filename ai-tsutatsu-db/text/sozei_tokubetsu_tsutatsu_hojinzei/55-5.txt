@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 55-5 / id: 55-5 / title: 付随事業の例示
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/02/02_55_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/55-5.html
+
+[p1] 措置法第55条第2項第1号に規定する「これらの事業に付随して行われる事業」には、例えば、資源の探鉱、開発又は採取の事業を営む法人が行うその採油した石油の精製、幹線パイプラインの整備、出荷施設の建設又は採掘した鉱産物の精錬の事業が含まれる。(昭50年直法2-21「25」、昭51年直法2-39「19」、昭53年直法2-24「18」、昭55年直法2-15「九」、昭58年直法2-11「十二」、平2年直法2-1「十九」、平10年課法2-17「二十六」、平11年課法2-9「二十八」、平25年課法2-4「十六」により改正)

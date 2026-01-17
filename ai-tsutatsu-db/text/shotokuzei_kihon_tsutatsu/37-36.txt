@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 37-36 / id: 37-36 / title: 立木賦課金の額が明らかでない場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/10.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/37-36.html
+
+[p1] 受益者が賦課徴収される賦課金のうち、立木賦課金の額と林地賦課金の額との区分が明らかでないものについては、その賦課金の額の90%相当額を立木賦課金の額とし、その残額を林地賦課金の額とする。

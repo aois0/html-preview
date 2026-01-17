@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 51−3 / id: 51-3 / title: 原状回復のための費用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/09/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/51-3.html
+
+[p1] 法第51条第1項又は第4項に規定する資産が損壊した場合において、当該資産の修繕その他の原状回復のために支出した費用の額があるときは、その費用の額のうち、当該資産について令第142条又は第143条の規定を適用して計算した金額から当該損壊直後における当該資産の価額を控除した残額に相当する金額までの金額は資本的支出とし、残余の金額を当該支出をした日の属する年分の必要経費に算入するものとする。

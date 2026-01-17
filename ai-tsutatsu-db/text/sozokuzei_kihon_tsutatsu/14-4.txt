@@ -1,0 +1,9 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 14−4 / id: 14-4 / title: 消滅時効の完成した債務
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/03.htm#a-13_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/14-4.html
+
+[p1] 相続の開始の時において、既に消滅時効の完成した債務は、法第14条第1項に規定する確実と認められる債務に該当しないものとして取り扱うものとする。（平15課資2
+[p2] −
+[p3] 1改正）

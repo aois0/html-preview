@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 1−7−1 / id: 1-7-1 / title: 仮決算における損金経理の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/01/01_07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/1-7-1.html
+
+[p1] 法第72条第1項《仮決算をした場合の中間申告書の記載事項等》に規定する期間(当該内国法人が通算子法人である場合には、同条第５項第１号に規定する期間。17−２−４を除き、以下「中間期間」という。)に係る決算(以下「仮決算」という。)における損金経理とは、株主等に報告する当該期間に係る決算書(これに類する計算書類を含む。)及びその作成の基礎となった帳簿に費用又は損失として記載することをいう。(昭50年直法2−21「3」により追加、平14年課法2−1「六」、平20年課法2−5「五」、令４年課法2−14｢五」により改正)
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第8節 その他
+[p4] 第8節 その他

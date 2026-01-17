@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 11−2−5 / id: 11-2-5 / title: ゴルフクラブ等の入会金
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/11/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/11-2-5.html
+
+[p1] 事業者が支払う入会金のうち、ゴルフクラブ、宿泊施設、体育施設、遊戯施設その他レジャー施設の利用又は一定の割引率で商品等を販売するなど会員に対する役務の提供を目的とする団体の会員資格を得るためのもので脱退等に際し返還されないものについて、その支払は課税仕入れに該当する。（令５課消２−９により改正）

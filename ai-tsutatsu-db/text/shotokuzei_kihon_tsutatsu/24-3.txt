@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 24-3 / id: 24-3 / title: 
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/24-3.html
+
+[p1] 削除（昭46直審（所）19、平元直所3-14、直法6-9、直資3-8、平3直法6-1、直所3-3、平4課法8-5、課所4-3改正、平13課法8-6、課個2-17、課審3-89改正、平17課法8-2、課個2-19、課審4-89改正、平18課個2-18、課資3-10、課審4-114削除）

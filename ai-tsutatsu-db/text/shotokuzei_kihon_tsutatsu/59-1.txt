@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 59−1 / id: 59-1 / title: 財産の拠出
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/12/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/59-1.html
+
+[p1] 法第59条第1項第1号に規定する贈与には、一般財団法人の設立を目的とする財産の拠出を含むものとする。（平19課資3−5、課個2−15、課審6−9、平20課資3−4、課個2−33、課審6−18改正）

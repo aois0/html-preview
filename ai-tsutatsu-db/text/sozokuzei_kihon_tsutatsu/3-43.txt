@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 3−43 / id: 3-43 / title: 定期金給付契約の解除等があった場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/04.htm#a-3_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/3-43.html
+
+[p1] 定期金給付契約の解除、失効又は変更等により返還金又はこれに準ずるものの取得があった場合には、法第6条第2項の規定によりその受取人が掛金又は保険料の負担者からその負担した掛金又は保険料の金額のこれらの事由が発生した時までに払い込まれた掛金又は保険料の全額に対する割合に相当する部分を贈与によって取得したものとみなされるのであるから留意する。（平4課資2−158改正）

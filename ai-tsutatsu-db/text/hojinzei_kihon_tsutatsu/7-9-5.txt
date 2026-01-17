@@ -1,0 +1,11 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−9−5 / id: 7-9-5 / title: 少額な劣化資産の損金算入
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_09.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-9-5.html
+
+[p1] 一の設備に通常使用される劣化資産でその取得価額が少額（おおむね60万円未満）なものは、事業の用に供した都度損金の額に算入することができる。（昭55年直法2−8「二十七」、平元年直法2−7「六」により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第1節 繰延資産の意義及び範囲等
+[p4] 第8章 繰延資産の償却
+[p5] 第1節 繰延資産の意義及び範囲等

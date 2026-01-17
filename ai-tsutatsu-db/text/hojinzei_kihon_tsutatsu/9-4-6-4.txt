@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−4−6の4 / id: 9-4-6-4 / title: 自社製品等の被災者に対する提供
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_04_04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-4-6-4.html
+
+[p1] 法人が不特定又は多数の被災者を救援するために緊急に行う自社製品等の提供に要する費用の額は、寄附金の額に該当しないものとする。（平7年課法2−7「六」により追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第5款 その他
+[p4] 第5款 その他

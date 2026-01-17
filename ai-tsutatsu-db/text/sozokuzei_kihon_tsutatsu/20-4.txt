@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 20−4 / id: 20-4 / title: 第2次相続に係る被相続人の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/09.htm#a-20_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/20-4.html
+
+[p1] 法第20条の規定は、第2次相続に係る被相続人がその相続の開始前10年以内に開始した相続（被相続人からの相続人に対する遺贈を含む。）によって取得した財産(当該相続に係る被相続人からの贈与により取得した財産で相続時精算課税の適用を受けるものを含む。)につき課せられた相続税額について適用があるのであって、第2次相続に係る被相続人の被相続人が納付した相続税額については適用がないのであるから留意する。（平15課資2−1改正）
+[p2] 第20条の2《在外財産に対する相続税額の控除》関係

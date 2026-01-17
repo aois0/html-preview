@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−1−1の12 / id: 2-1-1-12 / title: 売上割戻しの計上時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_01_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-1-1-12.html
+
+[p1] 販売した棚卸資産に係る売上割戻しについて2−1−1の11の取扱いを適用しない場合には、当該売上割戻しの金額をその通知又は支払をした日の属する事業年度の収益の額から減額する。（平30年課法2−8「二」により追加）

@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−2−14 / id: 5-2-14 / title: 寄附金、祝金、見舞金等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-2-14.html
+
+[p1] 寄附金、祝金、見舞金等は原則として資産の譲渡等に係る対価に該当しないのであるが、例えば、資産の譲渡等を行った事業者がその譲渡等に係る対価を受領するとともに別
+[p2] 途寄附金等の名目で金銭を受領している場合において、当該寄附金等として受領した金銭が実質的に当該資産の譲渡等の対価を構成すべきものと認められるときは、その受領した金銭はその資産の譲渡等の対価に該当する。

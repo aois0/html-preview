@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 70−4 / id: 70-4 / title: 固定資産等の損失に関する取扱いの準用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/15/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/70-4.html
+
+[p1] 法第70条第３項の「第51条第１項又は第３項に規定する資産」の災害による損失の金額及び法第70条第３項かっこ内に規定する「その他これらに類するもの」については、51−２及び51−６の取扱いに準ずる。（令5課個2-25、課法12-11、課審5-9改正）

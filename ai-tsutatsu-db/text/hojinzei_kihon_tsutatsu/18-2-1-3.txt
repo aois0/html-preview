@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 18−2−1の3 / id: 18-2-1-3 / title: 特定費用の額又は特定資産の額に係る取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/18/18_02_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/18-2-1-3.html
+
+[p1] 令第155条の38第１項第１号又は第２号《国別グループ純所得の金額から控除する金額》に掲げる金額には、構成会社等（同項に規定する構成会社等をいう。以下18−２−１の３において同じ。）の特定費用（同項第１号に規定する特定費用をいう。）の額又は構成会社等が有する特定資産（同項第２号に規定する特定資産をいう。以下18−２−２の２において同じ。）の額の一部を含めないこととして差し支えない。（令6年課法2−21｢三」により追加）

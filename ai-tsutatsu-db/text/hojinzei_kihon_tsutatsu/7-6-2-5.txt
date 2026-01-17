@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−6の2−5 / id: 7-6-2-5 / title: 形式基準による専用機械装置等の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_06_01_1.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-6-2-5.html
+
+[p1] 機械装置等を対象とするリース取引が、当該リース取引に係るリース資産の耐用年数の100分の80に相当する年数（1年未満の端数がある場合には、その端数を切り捨てる。）以上の年数をリース期間とするものである場合は、当該リース取引は令第48条の2第5項第5号ハ《所有権移転外リース取引》に規定する「その使用可能期間中当該リース取引に係る賃借人によつてのみ使用されると見込まれるもの」には該当しないものとして取り扱うことができる。（平19年課法2−17「十五」により追加）

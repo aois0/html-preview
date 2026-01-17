@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 30−12 / id: 30-12 / title: 復職等に際し退職手当等を返還した場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/30-12.html
+
+[p1] 既往における退職に際し退職手当等の支払を受けた場合であっても、その後復職又は再就職に際し、その復職又は再就職のための条件として定められたところに従い、当該退職手当等の全額を当該退職手当等の支払者に返還したときは、令第69条第1項第1号ハに規定する「前に退職手当等の支払を受けたことがある場合」に該当しないものとする。（昭63直法6−1、直所3−1改正）

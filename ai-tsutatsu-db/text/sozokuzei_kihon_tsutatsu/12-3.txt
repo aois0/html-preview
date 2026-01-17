@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 12−3 / id: 12-3 / title: 「当該公益を目的とする事業の用に供することが確実なもの」の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/02.htm#a-12_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/12-3.html
+
+[p1] 法第12条第1項第3号に規定する「当該公益を目的とする事業の用に供することが確実なもの」とは、その財産について、相続開始の時において当該公益を目的とする事業の用に供することに関する具体的計画があり、かつ、当該公益を目的とする事業の用に供される状況にあるものをいうものとする。したがって、個人生活の用に供されるものは、これに該当しないことに留意する。

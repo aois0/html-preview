@@ -1,0 +1,10 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 57の9-5 / id: 57-9-5 / title: いわゆる製造問屋の繰入率
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/02/02_57_10.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/57-9-5.html
+
+[p1] 自己の計算において原材料等を購入し、これをあらかじめ指示した条件に従って下請加工させて完成品として販売するいわゆる製造問屋の事業は、措置法令第33条の7第4項の製造業に該当する。（平10年課法2-7「三」により追加、平19年課法2-3「三十四」、平25年課法2-4「十八」、平26年課法2-6「二十七」により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第57条の4 《特定原子力施設炉心等除去準備金》 関係
+[p4] 第57条の4 《特定原子力施設炉心等除去準備金》関係

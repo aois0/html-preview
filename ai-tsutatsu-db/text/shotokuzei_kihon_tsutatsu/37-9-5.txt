@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 37−9の5 / id: 37-9-5 / title: 負担金の必要経費算入時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/37-9-5.html
+
+[p1] 令第167条の2に規定する負担金を支出した場合における当該負担金の必要経費算入時期は、当該負担金を現実に支払った日（国税庁長官の指定前に支払ったものについては、その指定のあった日）の属する年分となることに留意する。（昭51直所3−1、直法6−1、直資3−1追加、昭52直所3−33、直法6−10、直資3−15改正）
+[p2] 1 当該負担金の支払のための手形の振出し（裏書譲渡を含む。）の日は、現実に支払った日には該当しない。
+[p3] 2 国税庁長官の指定前に支払ったものについては、当該指定の日までの間は、仮払金として処理することとなる。

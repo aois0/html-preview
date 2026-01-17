@@ -1,0 +1,11 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 9−1−4 / id: 9-1-4 / title: 船荷証券等の譲渡の時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/09/01/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/9-1-4.html
+
+[p1] 荷送人が運送品の譲渡について為替手形を振出し、その為替手形を金融機関において割引をする際に船荷証券又は複合運送証券（以下９−１−４において「船荷証券等」という。）を提供する場合の当該提供は、資産の譲渡等には該当しないが、荷受人が船荷証券等を他に譲渡した場合には、その引渡しの日に当該船荷証券等に係る資産の譲渡が行われたことになることに留意する。（平31課消2-9により改正）
+[p2] （注） 寄託者の行う倉荷証券の譲渡は、当該倉荷証券に係る資産の譲渡に該当する。
+[p3] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p4] 第2款 請負による譲渡等の時期
+[p5] 第2款 請負による譲渡等の時期

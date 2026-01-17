@@ -1,0 +1,10 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−30の5 / id: 49-30-5 / title: 専用機械装置等に該当しないもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/09.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-30-5.html
+
+[p1] 次に掲げる機械装置等を対象とするリース取引は、49−30の4の(2)に定めるリース取引には該当しないものとする。（平19課個2−31、課審4−44追加）
+[p2] (1) 一般に配付されているカタログに示された仕様に基づき製作された機械装置等
+[p3] (2) その主要部分が一般に配付されているカタログに示された仕様に基づき製作された機械装置等で、その附属部分が特別の仕様を有するもの
+[p4] (3) (1)及び(2)に掲げる機械装置等以外の機械装置等で、改造を要しないで、又は一部改造の上、容易に同業者等において実際に使用することができると認められるもの

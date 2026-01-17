@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 7−2−5 / id: 7-2-5 / title: 貨物輸送に係る国際輸送の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/07/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/7-2-5.html
+
+[p1] 国際輸送として行う貨物の輸送の一部に国内輸送が含まれている場合であっても、当該国内輸送が国際輸送の一環としてのものであることが国際輸送に係る契約において明らかにされているときは、当該国内輸送は国際輸送に該当するものとして取り扱う。

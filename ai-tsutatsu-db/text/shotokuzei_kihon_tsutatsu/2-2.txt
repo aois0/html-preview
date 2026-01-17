@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 2−2 / id: 2-2 / title: 再入国した場合の居住期間
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/2-2.html
+
+[p1] 国内に居所を有していた者が国外に赴き再び入国した場合において、国外に赴いていた期間（以下この項において「在外期間」という。）中、国内に、配偶者その他生計を一にする親族を残し、再入国後起居する予定の家屋若しくはホテルの一室等を保有し、又は生活用動産を預託している事実があるなど、明らかにその国外に赴いた目的が一時的なものであると認められるときは、当該在外期間中も引き続き国内に居所を有するものとして、法第2条第1項第3号及び第4号の規定を適用する。

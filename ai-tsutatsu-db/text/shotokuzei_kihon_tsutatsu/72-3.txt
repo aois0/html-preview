@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 72−3 / id: 72-3 / title: 原状回復のための支出と資本的支出との区分の特例
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/72-3.html
+
+[p1] 災害等により損壊した法第72条第1項に規定する資産について支出した金額で、その金額を当該資産の原状回復のための支出の部分の額とその他の部分の額とに区分することが困難なものについては、その金額の30%に相当する額を原状回復のための支出の部分の額とし、残余の額を資本的支出の部分の額とすることができる。（昭57直所3−1改正）
+[p2] (注) 上記により計算された原状回復のための支出の額であっても、令第206条第1項第2号ロかっこ書の規定により、法第72条第1項に規定する損失の金額に含まれないものがあることに留意する。

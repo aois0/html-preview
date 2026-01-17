@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 36−13 / id: 36-13 / title: 一時所得の総収入金額の収入すべき時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/36-13.html
+
+[p1] 一時所得の総収入金額の収入すべき時期は、その支払を受けた日によるものとする。ただし、その支払を受けるべき金額がその日前に支払者から通知されているものについては、当該通知を受けた日により、令第183条第2項《生命保険契約等に基づく一時金に係る一時所得の金額の計算》に規定する生命保険契約等に基づく一時金又は令第184条第4項《損害保険契約等に基づく満期返戻金等》に規定する損害保険契約等に基づく満期返戻金等のようなものについては、その支払を受けるべき事実が生じた日による。（平11課所4−1改正）

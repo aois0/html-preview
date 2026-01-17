@@ -1,0 +1,11 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 30−15 / id: 30-15 / title: 障害による退職に該当する場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/30-15.html
+
+[p1] 次に掲げる場合は、障害者に該当することとなったことに基づいて退職したものでないことが明らかな場合を除き、法第30条第6項第3号に掲げる場合に該当するものとする。（昭63直法6−1、直所3−1、平24課法9−6、課個2−44、課審5−40、令3課個2-10、課法11-28、課審5-4改正）
+[p2] （2） 障害者に該当することとなった後一応平常の勤務には復したが、その勤務に耐えられないで、その勤務に復した後おおむね2月以内に退職した場合
+[p3] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p4] 法第31条《退職手当等とみなす一時金》関係
+[p5] 法第31条《退職手当等とみなす一時金》関係

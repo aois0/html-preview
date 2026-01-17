@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 33-6の3 / id: 33-6-3 / title: ゴルフ場の利用権の譲渡に類似する株式等の譲渡による所得の所得区分
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/33-6-3.html
+
+[p1] 措置法令第25条の8第2項《一般株式等に係る譲渡所得等の課税の特例》の規定に規定する株式又は出資者の持分を譲渡（営利を目的として継続的に行われるものを除く。）したことによる所得は、譲渡所得に該当する。（平元直所3-14、直法6-9、直資3-8追加、平13課個2-30、課資3-3、課法8-9、平15課個2-23、課資3-7、課法8-11、課審4-37、平17課資3-7、課個2-25、課審6-13、平27課資3-4、課個2-19、課法10-5、課審7-13改正）

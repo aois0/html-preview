@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 14−2−1 / id: 14-2-1 / title: 取引を停止した時の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/14/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/14-2-1.html
+
+[p1] 規則第18条第3号イ《貸倒れの範囲》に規定する「取引を停止した時」とは、継続的な取引を行っていた債務者につきその資産の状況、支払能力等が悪化したためその取引を停止するに至った時をいうのであるから、例えば、不動産取引のようにたまたま取引を行った債務者に対して有する当該取引に係る債権について同号に規定する経理を行ったとしても、法第39条第1項《貸倒れに係る消費税額の控除等》の規定は適用されない。(平21課消1-10により改正)

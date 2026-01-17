@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−3−26 / id: 2-3-26 / title: 専担者売買有価証券の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_03_05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-3-26.html
+
+[p1] 令第119条の12第1号《売買目的有価証券の範囲》に規定する専担者売買有価証券とは、いわゆるトレーディング目的で取得した有価証券をいうのであるから、基本的には、法人が、特定の取引勘定を設けて当該有価証券の売買を行い、かつ、トレーディング業務を日常的に遂行し得る人材から構成された独立の専門部署（関係会社を含む。）により運用がされている場合の当該有価証券がこれに当たることに留意する。（平12年課法2−7「四」により追加）

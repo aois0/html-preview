@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 1−5−24 / id: 1-5-24 / title: 法第12条の4第1項に規定する高額特定資産の支払対価
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/01/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/1-5-24.html
+
+[p1] 資産が高額特定資産に該当するかどうかを判定する場合における令第25条の5第1項第1号《高額特定資産の範囲等》に規定する「課税仕入れに係る支払対価の額」とは当該資産に係る支払対価の額をいい、当該資産の購入のために要する引取運賃、荷役費等又は当該資産を事業の用に供するために必要な課税仕入れに係る支払対価の額は含まれないのであるから留意する。（平28課消1−57により追加）

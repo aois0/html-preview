@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 55−1 / id: 55-1 / title: 「民法の規定による相続分」の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/07/01.htm#a-49_2
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/55-1.html
+
+[p1] 法第55条本文に規定する「民法（第904条の2を除く。）の規定による相続分」とは、民法第900条から第902条まで及び第903条に規定する相続分をいうのであるから留意する。（昭57直資2−177、令元課資2−10改正）

@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−1 / id: 15-1-1 / title: 公益法人等の本来の事業が収益事業に該当する場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-1.html
+
+[p1] 公益法人等(人格のない社団等を含む。以下15−1−8を除き、この節において同じ。)が令第5条第1項各号《収益事業の範囲》に掲げる事業のいずれかに該当する事業を行う場合には、たとえその行う事業が当該公益法人等の本来の目的たる事業であるときであっても、当該事業から生ずる所得については法人税が課されることに留意する。(昭56年直法2−16「七」により追加、平5年課法2−1「十一」、平20年課法2−5「二十九」により改正)

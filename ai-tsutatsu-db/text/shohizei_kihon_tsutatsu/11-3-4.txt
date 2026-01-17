@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 11−3−4 / id: 11-3-4 / title: 繰延資産に係る課税仕入れ等の仕入税額控除
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/11/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/11-3-4.html
+
+[p1] 創立費、開業費又は開発費等の繰延資産に係る課税仕入れ等については、その課税仕入れ等を行った日の属する課税期間において法第30条《仕入れに係る消費税額の控除》の規定が適用されるのであるから留意する。（平19課消1−18により改正）

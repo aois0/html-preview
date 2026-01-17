@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−40の2 / id: 49-40-2 / title: 一括償却資産につき滅失等があった場合の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/12.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-40-2.html
+
+[p1] 令第139条第1項に規定する一括償却資産につき同項の規定の適用を受けている場合には、その一括償却資産を業務の用に供した年以後3年間の各年においてその全部又は一部につき滅失、除却等の事実が生じたときであっても、当該各年においてその一括償却資産につき必要経費に算入する金額は、同項の規定に従い計算される金額となることに留意する。（平11課所4−1追加）
+[p2] （注） 一括償却資産の全部又は一部を譲渡した場合についても、同様とする。

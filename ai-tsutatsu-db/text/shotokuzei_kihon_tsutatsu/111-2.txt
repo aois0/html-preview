@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 111−2 / id: 111-2 / title: 予定納税額を増額する通知をした場合の減額承認の申請の期限
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/18/02.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/111-2.html
+
+[p1] 当初の予定納税額に計算誤り等があったため、当初通知した予定納税額を増額する訂正通知をした場合には、その訂正通知がその年6月15日（特別農業所得者については、10月15日）までに発せられた場合を除き、その予定納税額の減額承認申請の期限は、その訂正通知が発せられた日から起算して1月を経過した日まで延期されるものとする。

@@ -1,0 +1,6 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 1−5−12 / id: 1-5-12 / title: 平13課消1−5により削除
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/01/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/1-5-12.html
+

@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−6−6 / id: 7-6-6 / title: 生産高比例法を定率法に変更した場合等の償却限度額の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_06_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-6-6.html
+
+[p1] 鉱業用減価償却資産（令第48条の2第1項第3号イ《鉱業用減価償却資産の償却の方法》に掲げる減価償却資産を除く。）の償却方法について、旧生産高比例法を旧定率法に変更した場合又は生産高比例法を定率法に変更した場合には、その後の償却限度額（令第61条第2項《減価償却資産の償却累積額による償却限度額の特例》の規定による償却限度額を除く。）は、7−4−3《定額法を定率法に変更した場合等の償却限度額の計算》に準じて計算する。（平19年課法2−7「六」、平28年課法2−11「五」により改正）

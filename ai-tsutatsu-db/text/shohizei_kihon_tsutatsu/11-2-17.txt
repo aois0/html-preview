@@ -1,0 +1,9 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 11−2−17 / id: 11-2-17 / title: 金銭以外の資産の贈与
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/11/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/11-2-17.html
+
+[p1] 事業者がした金銭による寄附は課税仕入れに該当しないが、金銭以外の資産を贈与した場合の当該資産の取得が課税仕入れ等に該当するときにおける個別
+[p2] 対応方式の適用に当たっては、当該課税仕入れ等は、原則として課税資産の譲渡等とその他の資産の譲渡等に共通
+[p3] して要するものに該当するものとして取り扱う。

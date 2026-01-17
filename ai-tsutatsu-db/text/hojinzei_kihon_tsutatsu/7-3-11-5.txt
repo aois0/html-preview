@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−3−11の5 / id: 7-3-11-5 / title: 私道を地方公共団体に寄附した場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_03_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-3-11-5.html
+
+[p1] 法人が専らその有する土地の利用のために設置されている私道を地方公共団体に寄附した場合には、当該私道の帳簿価額を当該土地の帳簿価額に振り替えるものとし、その寄附をしたことによる損失はないものとする。（昭55年直法2−8「二十一」により追加）

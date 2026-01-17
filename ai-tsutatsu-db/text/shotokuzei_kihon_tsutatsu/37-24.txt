@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 37−24 / id: 37-24 / title: 技能の習得又は研修等のために支出した費用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/09.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/37-24.html
+
+[p1] 業務を営む者又はその使用人（業務を営む者の親族でその業務に従事しているものを含む。）が当該業務の遂行に直接必要な技能又は知識の習得又は研修等を受けるために要する費用の額は、当該習得又は研修等のために通常必要とされるものに限り、必要経費に算入する。

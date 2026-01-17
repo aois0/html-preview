@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 32−1 / id: 32-1 / title: 「その他の事由により相続人に異動が生じたこと」の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/04/01.htm#a-27_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/32-1.html
+
+[p1] 法第32条第1項第2号に規定する「その他の事由により相続人に異動が生じたこと」とは、民法第774条((嫡出の否認))に規定する嫡出の否認、同法第886条に規定する胎児の出生、相続人に対する失踪の宣告又はその取消し等により相続人に異動を生じた場合をいうのであるから留意する。（昭39直審（資）30、昭57直資2−177、平17課資2−4、平25課資2−10、令6課資2−7改正）

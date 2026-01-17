@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−33 / id: 15-1-33 / title: 会報に準ずる出版物
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_13.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-33.html
+
+[p1] 令第5条第1項第12号《出版業》に規定する「これに準ずる出版物」とは、会報に代え、又は会報に準じて出版される出版物で主として会員だけに必要とされる特殊な記事を内容とする出版物をいう。したがって、会員名簿又は会員の消息その他これに準ずるものを記事の内容とするものは会報に準ずるものに該当するが、いわゆる単行本、月刊誌のような書店等において通常商品として販売されるものと同様な内容のものは、これに該当しないことに留意する。(昭56年直法2−16「七」により改正)

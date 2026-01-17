@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 38−5 / id: 38-5 / title: 連帯納付義務者の延納等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/01.htm#a-38_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/38-5.html
+
+[p1] 法第38条の相続税及び贈与税の延納の規定は、連帯納付の責めに任ずる者のその責めに任ずべき金額については適用がないのであるから留意する。
+[p2] また、期限後申告又は修正申告若しくは更正又は決定により納付すべき相続税額に併せて納付すべき延滞税又は加算税についても適用がないのであるから留意する。（平4課資2−158・徴管5−6、平7課資2−119・徴管5−5改正）

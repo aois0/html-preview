@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 2−16 / id: 2-16 / title: 現にか動していない資産
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/2-16.html
+
+[p1] 不動産所得、事業所得、山林所得又は雑所得を生ずべき業務の用に供される令第6条《減価償却資産の範囲》に規定する資産は、現にか動していない場合であっても、これらの業務の用に供するために維持補修が行われており、いつでもか動し得る状態にあるときは、減価償却資産に該当する。（昭55直所3−19、直法6−8改正）
+[p2] （注） 他の場所においてこれらの業務の用に供するために移設中の資産については、その移設期間がその移設のために通常要する期間であると認められる限り、減価償却を継続することができる。

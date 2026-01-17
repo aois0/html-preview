@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−3−22の3 / id: 2-3-22-3 / title: 帳簿価額から減算する金額のあん分
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_03_04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-3-22-3.html
+
+[p1] 法人が子会社株式簿価減額特例の適用を受ける場合において、当該法人が有する他の法人の株式（2−3−17《2以上の種類の株式の発行されている場合の銘柄の意義》の取扱いによりそれぞれ異なる銘柄として令第119条の2第1項《有価証券の一単位当たりの帳簿価額の算出の方法》の規定の適用を受けるものに限る。）の帳簿価額から減算する金額は、益金不算入相当額を対象配当等の額に係る基準時の直前におけるそれぞれの銘柄の帳簿価額の比によりあん分して計算した金額とする。（令2年課法2−17「三」により追加）

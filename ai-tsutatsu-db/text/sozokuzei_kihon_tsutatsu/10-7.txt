@@ -1,0 +1,11 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 10-7 / id: 10-7 / title: 特別寄与料の所在
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/10.htm#a-10_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/10-7.html
+
+[p1] 特別寄与料については、法第10条第１項各号に掲げる財産及び同条第２項に規定する財産のいずれにも該当しないことから、同条第３項の規定によりその所在を判定することに留意する。（令元課資2−10追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第10条関係
+[p4] 第4節 財産の所在
+[p5] 第10条関係

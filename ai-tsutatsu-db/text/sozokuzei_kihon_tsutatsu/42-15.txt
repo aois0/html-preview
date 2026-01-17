@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 42−15 / id: 42-15 / title: 物納の許可があったものとみなされた場合の収納手続等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/04.htm#a-42_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/42-15.html
+
+[p1] 法第42条第31項の規定により、物納の許可があったものとみなされた場合には、当該許可に係る物納財産の収納に必要な所有権移転等に関する手続を行うよう申請者に求め、みなし許可後速やかに収納手続を了するのであるから留意する。
+[p2] なお、当該収納に必要な手続が履行されず、物納財産の収納ができない場合には、当該物納許可を取り消すのであるから留意する。

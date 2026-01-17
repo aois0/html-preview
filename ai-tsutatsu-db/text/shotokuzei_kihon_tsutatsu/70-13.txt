@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 70−13 / id: 70-13 / title: 更正の請求による更正により純損失の金額があることとなった場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/15/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/70-13.html
+
+[p1] 法第70条第4項に規定する「純損失の金額が生じた年分の所得税につき確定申告書を提出し、」には、提出された確定申告書につき通則法第23条((更正の請求))に規定する更正の請求に基づく更正により新たに純損失の金額があることとなった場合も含まれることに留意する。（平23課個2−33、課法9−9、課審4−46改正）

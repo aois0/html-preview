@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 39−10 / id: 39-10 / title: 延長された変更期限までに変更担保提供関係書類の提出等がない場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/02.htm#a-39_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/39-10.html
+
+[p1] 法第39条第19項（同条第20項により読み替えて適用する場合を含む。）の規定により延長された変更担保提供関係書類の提出期限までに、当該申請者が変更担保提供関係書類の提出をしなかったときは、法第39条第2項の規定により延納の申請を却下するのであるから留意する。（平18徴管5−14追加）

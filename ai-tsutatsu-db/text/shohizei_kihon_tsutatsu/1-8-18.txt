@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 1−8−18 / id: 1-8-18 / title: 登録前に行った課税資産の譲渡等に係る対価の返還等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/01/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/1-8-18.html
+
+[p1] 適格請求書発行事業者が、適格請求書発行事業者の登録を受ける前に行った課税資産の譲渡等（当該事業者が免税事業者であった課税期間に行ったものを除く。）について、登録を受けた日以後に売上げに係る対価の返還等を行う場合には、当該対価の返還等についても法第38条第１項《売上げに係る対価の返還等をした場合の消費税額の控除》の規定の適用があるが、当該対価の返還等に係る法第57条の４第３項《適格返還請求書の交付義務》の規定の適用はないことに留意する。（令５課消２−９により追加）

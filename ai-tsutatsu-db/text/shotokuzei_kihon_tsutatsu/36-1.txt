@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 36−1 / id: 36-1 / title: 収入金額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/36-1.html
+
+[p1] 法第36条第1項に規定する「収入金額とすべき金額」又は「総収入金額に算入すべき金額」は、その収入の基因となった行為が適法であるかどうかを問わない。
+[p2] 〔収入金額の収入すべき時期〕

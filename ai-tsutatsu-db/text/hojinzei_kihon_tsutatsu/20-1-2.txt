@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 20−1−2 / id: 20-1-2 / title: 準備的な性格のものの意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/20a/20_01_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/20-1-2.html
+
+[p1] 令第4条の4第4項《恒久的施設の範囲》に規定する準備的な性格のものとは、外国法人としての活動の本質的かつ重要な部分を構成する活動の遂行を予定し当該活動に先行して行われる活動をいうことに留意する。（平30年課法2−28「六」により追加）
+[p2] (注) 本文の「先行して行われる活動」に該当するかどうかの判定は、その活動期間の長短によらないことに留意する。

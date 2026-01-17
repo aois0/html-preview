@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 1−1−3 / id: 1-1-3 / title: 人格のない社団等についての代表者又は管理人の定め
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/01/01_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/1-1-3.html
+
+[p1] 法人でない社団又は財団について代表者又は管理人の定めがあるとは、当該社団又は財団の定款、寄附行為、規約等によって代表者又は管理人が定められている場合のほか、当該社団又は財団の業務に係る契約を締結し、その金銭、物品等を管理する等の業務を主宰する者が事実上あることをいうものとする。したがって、法人でない社団又は財団で収益事業を行うものには、代表者又は管理人の定めのないものは通常あり得ないことに留意する。(昭56年直法2−16「二」、「六」により改正)

@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 9の4−2 / id: 9-4-2 / title: 受益者等が存しない信託の委託者が死亡した場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/09.htm#a-9-4_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/9-4-2.html
+
+[p1] 受益者等が存しない信託の委託者が死亡した場合には、法第9条の4第1項の規定の適用により当該信託の受託者が当該信託に関する権利を遺贈によって取得したものとみなされる場合を除き、当該信託に関する権利は当該死亡した委託者の相続税の課税財産を構成しないことに留意する。（平19課資2−5、課審6−3追加）

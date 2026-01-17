@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の5−16 / id: 66-5-16 / title: 自己資本の額を計算する場合の総資産の帳簿価額及び総負債の帳簿価額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/13/13_66_5.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-5-16.html
+
+[p1] 措置法令第39条の13第23項に規定する「総資産の帳簿価額」及び「総負債の帳簿価額」は、その会計帳簿に記載されているこれらの金額によるのであるから、税務計算上の否認金があっても、当該否認金の額は、これらの額に関係させないことに留意する。（平5年課法2−1「三十」により追加、平19年課法2−3「四十九」、平20年課法2−1「三十五」、平24年課法2−17「三十三」、平28年課法2−11「四十」により改正）

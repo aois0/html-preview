@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 1−3−3 / id: 1-3-3 / title: 生計を維持しているもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/01/01_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/1-3-3.html
+
+[p1] 令第4条第1項第4号《同族関係者の範囲》に規定する「株主等から受ける金銭その他の資産によつて生計を維持しているもの」とは、当該株主等から給付を受ける金銭その他の財産又は給付を受けた金銭その他の財産の運用によって生ずる収入を日常生活の資の主要部分としている者をいう。

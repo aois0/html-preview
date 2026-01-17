@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66−7 / id: 66-7 / title: 交換譲渡資産の交換に要した経費
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/10/10_66.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-7.html
+
+[p1] 交換譲渡資産に係る措置法第66条第2項第3号に規定する「交換に要した経費」には、交換に当たり支出した当該交換譲渡資産に係る仲介手数料その他その交換に要した経費の額のほか、土地の交換に関する契約の一環として、又は当該交換のために当該土地の上に存する建物等につき取壊し、除去、移転等（以下「取壊し等」という。）をした場合におけるその取壊し等により生じた損失の額（当該取壊し等に伴って生ずる発生資材の処分価額を除く。）及びその取壊し等に伴い借家人に対して支払った立退料の額が含まれる。（平19年課法2−3「四十七」により追加）

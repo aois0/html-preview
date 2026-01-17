@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 39−13 / id: 39-13 / title: 「当該申請に係る条件」の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/02.htm#a-39_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/39-13.html
+
+[p1] 法第39条第28項の規定により、延納の許可があったものとみなされた場合の、当該申請に係る条件とは、延納申請書に記載された延納期間、分納期限及び分納税額（不動産対応部分と動産等対応部分に区分した各税額）をいい、これらが法第38条の規定によっていなかった場合であっても当該申請書に記載された条件により許可したものとしてみなされるのであるから留意する。（平18徴管5−14追加）

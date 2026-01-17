@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 9−1−17の3 / id: 9-1-17-3 / title: 登録国債の譲渡の時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/09/01/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/9-1-17-3.html
+
+[p1] 令第1条第2項第3号《登録国債》に規定する登録国債の譲渡の時期は、名義変更の登録に必要な書類の引渡し等があった日とする。（平11課消2−8により追加、平20課消1−8により改正）

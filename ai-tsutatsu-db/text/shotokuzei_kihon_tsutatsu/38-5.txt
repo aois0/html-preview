@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 38−5 / id: 38-5 / title: 価値の減少に対する補償金等に係る取得費
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/18.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/38-5.html
+
+[p1] 令第95条《譲渡所得の収入金額とされる補償金等》に規定する譲渡所得の基因となる資産の価値が減少したことに伴い、当該価値の減少につき一時に受ける補償金その他これに類するものに係る譲渡所得の金額の計算上控除する取得費は、次に掲げる算式により計算する。

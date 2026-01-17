@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−7−12 / id: 5-7-12 / title: 貸付けに係る資産の所在場所が変わった場合の内外判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-7-12.html
+
+[p1] 資産の貸付けが国内取引に該当するかどうかについては、当該貸付けの時において当該資産が所在していた場所で判定するのであるが、賃貸借に関する契約において貸付けに係る資産（特許権等の無形資産を除く。以下5−7−12において同じ。）の使用場所が特定されている場合で、当該契約に係る当事者間の合意に基づき、当該資産の使用場所を変更した場合には、変更後の当該資産の使用場所が国内にあるかどうかにより当該資産の貸付けが国内において行われたかどうかを改めて判定することとなるのであるから留意する。

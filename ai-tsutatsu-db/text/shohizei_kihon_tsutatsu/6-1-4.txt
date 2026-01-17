@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 6−1−4 / id: 6-1-4 / title: 土地の貸付期間の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/06/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/6-1-4.html
+
+[p1] 令第8条《土地の貸付けから除外される場合》に規定する「土地の貸付けに係る期間が1月に満たない場合」に該当するかどうかは、当該土地の貸付けに係る契約において定められた貸付期間によって判定するものとする。

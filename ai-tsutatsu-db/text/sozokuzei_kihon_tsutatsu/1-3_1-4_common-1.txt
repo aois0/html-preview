@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 1の3・1の4共−1 / id: 1-3_1-4_common-1 / title: 「個人」の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/01.htm#a-1_1_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/1-3_1-4_common-1.html
+
+[p1] 法に規定する「個人」とは、自然人をいうものとする。(平15課資2−1改正)

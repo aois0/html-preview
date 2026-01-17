@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 196−5 / id: 196-5 / title: 旧個人年金保険契約等の特約に係る生命保険料の金額を証する書類等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/33/02.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/196-5.html
+
+[p1] 疾病又は身体の傷害その他これらに類する事由に基因して保険金、共済金その他の給付金を支払う旨の特約が付されている法第76条第3項に規定する「旧個人年金保険契約等」のうち、当該特約に係る保険料又は掛金については、令第319条第4号《保険料控除申告書に関する書類等の提出又は提示》の規定の適用があることに留意する。（平2直法6−5、直所3−6追加、平23課個2−33、課法9−9、課審4−46、平28課法10-5、課審5-15改正）

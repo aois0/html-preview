@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 18−1−57 / id: 18-1-57 / title: 時価評価調整加算額及び時価評価調整減算額における時価の例示
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/18/18_01_08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/18-1-57.html
+
+[p1] 令第155条の24第２項《資産等の時価評価損益に係る個別計算所得等の金額の計算の特例》の「時価」とは、例えば、時価算定会計基準第５項の時価をいう。（令5年課法2−17｢九」により追加）

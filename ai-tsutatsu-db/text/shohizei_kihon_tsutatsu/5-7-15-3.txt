@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−7−15の3 / id: 5-7-15-3 / title: 国外事業者の恒久的施設で行う特定仕入れに係る内外判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-7-15-3.html
+
+[p1] 国外事業者の恒久的施設（法第4条第4項ただし書《課税の対象》に規定する恒久的施設をいう。）で行う特定仕入れ（他の者から受けた事業者向け電気通信利用役務の提供に該当するものに限る。以下5−7−15の4までにおいて同じ。）について、当該特定仕入れが国内において行う資産の譲渡等及び国内以外の地域において行う資産の譲渡等に共通して要するものである場合には、国内において行われたものに該当するのであるから留意する。（平28課消1-57により追加)

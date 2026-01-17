@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 44-6 / id: 44-6 / title: 機械及び装置の取得価額の判定単位
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/01/01_44.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/44-6.html
+
+[p1] 措置法令第28条の4第2項に規定する機械及び装置（以下「機会及び装置」という。）の1台又は1基の取得価額が400万円以上であるかどうかについては、通常1単位として取引される単位ごとに判定するのであるが、個々の機械及び装置の本体と同時に設置する自動調整装置又は原動機のような附属機器で当該本体と一体となって使用するものがある場合には、これらの附属機器を含めたところによりその判定を行うことができるものとする。（昭63年直法2-1「六」により追加、平10年課法2-17「十一」、平26年課法2-6「十」、令元年課法2-10「十六」により改正）

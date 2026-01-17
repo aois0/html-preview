@@ -1,0 +1,6 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 9−1−25 / id: 9-1-25 / title: 
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/09/01/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/9-1-25.html
+

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 50−5 / id: 50-5 / title: 分割払の繰延資産
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/14.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/50-5.html
+
+[p1] 令第7条第1項第3号に掲げる繰延資産となるべき費用の額を分割して支払うこととしている場合には、たとえその総額が確定しているときであっても、その総額を未払金に計上して償却することはできないものとする。ただし、その分割して支払う期間が短期間（おおむね3年以内）である場合には、この限りでない。（昭51直所3−35、昭55直所3−19、直法6−8、平19課個2−11、課資3−1、課法9−5、課審4−26改正）

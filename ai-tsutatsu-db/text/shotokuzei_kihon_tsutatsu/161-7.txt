@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 161−7 / id: 161-7 / title: 発行済株式
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/22/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/161-7.html
+
+[p1] 令第１条の２第９項に規定する「発行済株式」には、その株式の払込み又は給付の金額（以下161―７の２において「払込金額等」という。）の全部又は一部について払込み又は給付（以下161―７の２において「払込み等」という。）が行われていないものも含まれるものとする（平30課個２‐29、課法12‐104、課審５‐８追加）。

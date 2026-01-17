@@ -1,0 +1,11 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 11-4 / id: 11-4 / title: 非課税申告書等の税務署長への送付等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/11-4.html
+
+[p1] 令第51条の4第1項に規定する「支払者」が非課税申告書を受理した場合には、その受理した日の属する月の翌月10日までに、当該申告書を同項に規定する所轄税務署長に送付するものとする。（昭63直法6-7、直所3-8追加、平13課法8-2、課個2-7改正、平13課法8-2、課個2-7、令３課個2-10、課法11-28、課審5-4改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 法第12条《実質所得者課税の原則》関係
+[p4] 第3章 所得の帰属に関する通則
+[p5] 法第12条《実質所得者課税の原則》関係

@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 5−2−9 / id: 5-2-9 / title: 低価法における低価の事実の判定の単位
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/05/05_02_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/5-2-9.html
+
+[p1] 低価法における低価の事実の判定は、棚卸資産の種類等の同じもの(棚卸資産を通常の差益の率の同じものごとに区分して売価還元法を選定している場合には、通常の差益の率の同じものとする。)について行うべきであるが、法人が事業の種類ごとに、かつ、令第29条第1項《棚卸資産の評価方法の選定単位》に規定する棚卸資産の区分ごとに一括して計算した場合には、これを認める。(平20年課法2−5「十一」、平23年課法2−17「十一」により改正)

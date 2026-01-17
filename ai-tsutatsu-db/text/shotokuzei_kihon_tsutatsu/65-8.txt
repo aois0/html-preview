@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 65−8 / id: 65-8 / title: 賦払金の支払遅延等により販売した資産を取り戻した場合の処理
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/14/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/65-8.html
+
+[p1] 相手方の代金の支払遅延等の理由により、リース期間の中途においてリース譲渡をしたリース資産を取り戻した場合には、そのリース資産を取り戻した日の属する年において、まだ支払の行われていないリース料の額の合計額から当該合計額のうちに含まれる利息に相当する金額を控除した金額をもってそのリース資産を取得したものとする。ただし、まだ支払の行われていないリース料の額の合計額又はそのリース資産を取り戻した時における処分見込価額をもって取得したものとして計算して差し支えない。（平11課所4−1、平19課個2−31、課審4−44、平30課個2−19、課審5−2改正）

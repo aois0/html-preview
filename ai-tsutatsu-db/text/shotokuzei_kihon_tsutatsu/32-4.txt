@@ -1,0 +1,10 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 32−4 / id: 32-4 / title: 山林所得の基因となる山林とその他の山林とがある場合の収入金額等の区分
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/32-4.html
+
+[p1] 伐採又は譲渡した山林のうちに、山林所得の基因となる山林とその他の山林とがある場合のそれぞれの山林の収入金額及び譲渡に要した費用の額は、33−11に準じて計算するものとする。
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 法第33条《譲渡所得》関係
+[p4] 法第33条《譲渡所得》関係

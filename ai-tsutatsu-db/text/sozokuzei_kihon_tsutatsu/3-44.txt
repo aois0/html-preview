@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 3−44 / id: 3-44 / title: 被相続人が負担した掛金又は保険料等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/04.htm#a-3_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/3-44.html
+
+[p1] 法第3条第1項第4号及び第5号に規定する「被相続人が負担した掛金又は保険料」及び「当該契約に係る掛金又は保険料で当該相続開始の時までに払い込まれたものの全額」の計算については、3−13及び3−14の取扱いに準ずるものとする。（昭57直資2−177、平4課資2−158改正）
+[p2] 〔保証期間付定期金に関する権利関係〕

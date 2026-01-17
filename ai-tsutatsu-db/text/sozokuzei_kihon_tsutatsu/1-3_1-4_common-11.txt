@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 1の3・1の4共−11 / id: 1-3_1-4_common-11 / title: 財産取得の時期の特例
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/01.htm#a-1_1_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/1-3_1-4_common-11.html
+
+[p1] 所有権等の移転の登記又は登録の目的となる財産について1の3・1の4共−8の(2)の取扱いにより贈与の時期を判定する場合において、その贈与の時期が明確でないときは、特に反証のない限りその登記又は登録があった時に贈与があったものとして取り扱うものとする。ただし、鉱業権の贈与については、鉱業原簿に登録した日に贈与があったものとして取り扱うものとする。(昭57直資2−177改正、平15課資2−1改正)
+[p2] 第2条《相続税の課税財産の範囲》及び第2条の2《贈与税の課税財産の範囲》共通関係

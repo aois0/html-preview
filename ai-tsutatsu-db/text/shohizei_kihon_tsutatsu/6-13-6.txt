@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 6−13−6 / id: 6-13-6 / title: 住宅の貸付けと役務の提供が混合した契約の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/06/13.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/6-13-6.html
+
+[p1] 一の契約で非課税となる住宅の貸付けと課税となる役務の提供を約している場合には、この契約に係る対価の額を住宅の貸付けに係る対価の額と役務の提供に係る対価の額に合理的に区分するものとする。
+[p2] (注) この契約に該当するものとして、例えば、有料老人ホーム、ケア付住宅、食事付の貸間、食事付の寄宿舎等がある。

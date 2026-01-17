@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 10−2−4 / id: 10-2-4 / title: 地方税の減免に代えて交付を受けた補助金等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/10/10_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/10-2-4.html
+
+[p1] 法人が都道府県又は市町村から工場誘致条例又はこれに準ずる条例に基づいて補助金、奨励金等の交付を受けた場合において、当該補助金、奨励金等が実質的に税の減免に代えて交付されたものであることが明らかであると認められるときは、当該補助金、奨励金等は、法第42条第1項《国庫補助金等で取得した固定資産等の圧縮額の損金算入》に規定する国庫補助金等には該当しない。

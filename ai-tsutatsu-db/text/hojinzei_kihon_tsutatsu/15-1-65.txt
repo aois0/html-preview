@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−65 / id: 15-1-65 / title: 災害等があった場合の特例
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_29.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-65.html
+
+[p1] 規則第6条第2号又は第4号イからハまで《非課税とされる福祉病院等》の要件に該当するかどうかを判定する場合において、災害その他特別の事情の発生により一時的にこれらの要件に該当しない期間が生じても、その後速やかに旧に復しているとき又は旧に復することが確実であると認められるときは、当該事業年度を通じてこれらの要件に該当しているものとする。(昭56年直法2−16「七」により改正)

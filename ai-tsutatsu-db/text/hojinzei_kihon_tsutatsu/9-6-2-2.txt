@@ -1,0 +1,12 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−6の2−2 / id: 9-6-2-2 / title: 注
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_06_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-6-2-2.html
+
+[p1] 令第136条《特定の損失等に充てるための負担金の損金算入》に規定する「その他の特定の損失又は費用を補てんするための業務」には、例えば次のようなものが含まれることに留意する。(昭50年直法2−21「26」により追加、平20年課法2−5「二十」、平23年課法2−17「二十」により改正)
+[p2] (1) 水産物又は配合飼料の価格の変動による損失の
+[p3] に係る業務
+[p4] (2) 行政指導等に基づき公益法人等又は一般社団法人若しくは一般財団法人が行う構造改善事業
+[p5] (3) 海面の油濁による損失の
+[p6] に係る業務

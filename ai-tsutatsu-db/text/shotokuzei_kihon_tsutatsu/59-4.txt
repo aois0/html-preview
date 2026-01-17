@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 59−4 / id: 59-4 / title: 一の契約により2以上の資産を譲渡した場合の低額譲渡の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/12/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/59-4.html
+
+[p1] 法人に対し一の契約により2以上の資産を譲渡した場合において、当該資産の譲渡が法第59条第1項第2号に掲げる低額譲渡に該当するかどうかを判定するときは、たとえ、当該契約において当該譲渡した個々の資産の全部又は一部について対価の額が定められている場合であっても、当該個々の資産ごとに判定するのではなく、当該契約ごとに当該契約により譲渡したすべての資産の対価の額の合計額を基として判定する。（昭50直資3−11、直所3−19追加）

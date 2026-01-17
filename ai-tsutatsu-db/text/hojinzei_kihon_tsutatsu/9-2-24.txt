@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−2−24 / id: 9-2-24 / title: 使用人兼務役員に対する経済的な利益
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_02_06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-2-24.html
+
+[p1] 法人が使用人兼務役員に対して供与した経済的な利益（住宅等の貸与をした場合の経済的な利益を除く。）が他の使用人に対して供与されている程度のものである場合には、その経済的な利益は使用人としての職務に係るものとする。（平19年課法2−3「二十二」により改正）

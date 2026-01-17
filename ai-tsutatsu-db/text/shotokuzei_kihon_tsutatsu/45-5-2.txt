@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 45−5の2 / id: 45-5-2 / title: 外国等が課する罰金又は科料に相当するもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/07/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/45-5-2.html
+
+[p1] 法第45条第1項第7号かっこ内に規定する「外国又はその地方公共団体が課する罰金又は科料に相当するもの」とは、裁判手続（刑事訴訟手続）を経て外国又はその地方公共団体により課されるものをいう。（平11課所4−1追加、平21課個2-29、課審4-52、令元課個2-22、課法11-3、課審5-12改正）
+[p2] （注） いわゆる司法取引により支払われたものも、裁判手続（刑事訴訟手続）を経て課された罰金又は科料に相当するものに該当することに留意する。
+[p3] 〔損害賠償金等（第8号関係）〕

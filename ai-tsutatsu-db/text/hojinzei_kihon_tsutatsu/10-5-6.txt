@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 10−5−6 / id: 10-5-6 / title: 2以上の種類の資産の滅失等により支出した共通経費
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/10/10_05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/10-5-6.html
+
+[p1] 例えば工場用建物と機械設備が滅失等をした場合のように2以上の所有固定資産が滅失等をした場合において、これらの資産の滅失等により支出した共通の経費があるときは、その共通の経費の額については、保険金等の額の比その他合理的な基準によりこれらの資産に配賦するものとする。(昭55年直法2−15「二十一」により追加、平14年課法2−1「二十五」により改正)

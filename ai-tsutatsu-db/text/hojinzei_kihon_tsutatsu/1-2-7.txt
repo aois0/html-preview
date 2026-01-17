@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 1−2−7 / id: 1-2-7 / title: 設立無効等の判決を受けた場合の清算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/01/01_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/1-2-7.html
+
+[p1] 法人が設立無効又は設立取消しの判決により会社法又は一般社団法人及び一般財団法人に関する法律(以下1−2−9において「一般法人法」という。）の規定に従って清算をする場合には、当該判決の確定の日において解散したものとする。（平14年課法2−1「二」、平19年課法2−3「三」、平20年課法2−5「三」により改正)

@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 63−2 / id: 63-2 / title: 被相続人の養子のうち一部の者が相続税の不当減少につながるものである場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/07/01.htm#a-49_2
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/63-2.html
+
+[p1] 被相続人の養子（法第15条第3項の規定により実子とみなされるものを除く。）のうちに法第63条の規定による相続税の負担を不当に減少させる結果となると認められる養子（以下63−2において「不当減少養子」という。）がある場合には、法第15条第2項に規定する相続人の数に算入する養子の数は、当該不当減少養子を除いた養子の数を基とするのであるから留意する。（平元直資2−207追加）
+[p2] 第66条の2《特定の一般社団法人等に対する課税》関係

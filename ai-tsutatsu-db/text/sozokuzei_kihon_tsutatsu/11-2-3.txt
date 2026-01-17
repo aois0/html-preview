@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 11の2−3 / id: 11-2-3 / title: 胎児が生まれる前における共同相続人の相続分
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/01.htm#a-11_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/11-2-3.html
+
+[p1] 相続人のうちに民法第886条((相続に関する胎児の権利能力))の規定により既に生まれたものとみなされる胎児がある場合で、相続税の申告書提出の時（更正又は決定をする時を含む。）においてまだその胎児が生まれていないときは、その胎児がいないものとした場合における各相続人の相続分によって課税価格を計算することに取り扱うものとする。(平17課資2-4改正)

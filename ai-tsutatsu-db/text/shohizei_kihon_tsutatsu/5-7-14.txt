@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−7−14 / id: 5-7-14 / title: 事務所の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-7-14.html
+
+[p1] 令第6条第1項第2号《船籍のない船舶の所在地》に規定する「譲渡又は貸付けを行う者の当該譲渡又は貸付けに係る事務所、事業所その他これらに準ずるもの」とは、当該譲渡又は貸付けを行う者に係る事務所等で、当該譲渡又は貸付けに係る契約の締結、資産の引渡し、代金の回収等の事業活動を行う施設をいい、自らの資産を保管するためにのみ使用する一定の場所又は自己のために契約を締結する権限のある者その他これに準ずる者に係る事務所等は、これに含まれない。

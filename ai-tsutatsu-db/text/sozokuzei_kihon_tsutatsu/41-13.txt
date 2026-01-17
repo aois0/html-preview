@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 41−13 / id: 41-13 / title: 「特別の事情」の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/03.htm#a-41_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/41-13.html
+
+[p1] 法第41条第4項及び同条第5項に規定する「特別の事情」とは、例えば、その財産を物納すれば居住し、又は営業を継続して通常の生活を維持するのに支障を生ずるような場合をいうのであるから留意する。（平16徴管5−13・課資2−10、平18徴管5−14改正）

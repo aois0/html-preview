@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 6−3−2 / id: 6-3-2 / title: 保険代理店報酬等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/06/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/6-3-2.html
+
+[p1] 保険料（令第10条第2項《事務費相当額を課税の対象とする保険契約等》に規定する契約に係る保険料のうち法別表第二第3号《利子を対価とする貸付金等》に規定する事務に要する費用の額に相当する部分を除く。）を対価とする役務の提供は非課税となるのであるが、保険代理店が収受する役務の提供に係る代理店手数料又は保険会社等の委託を受けて行う損害調査又は鑑定等の役務の提供に係る手数料は、課税資産の譲渡等の対価に該当することに留意する。（令５課消２−９により改正）

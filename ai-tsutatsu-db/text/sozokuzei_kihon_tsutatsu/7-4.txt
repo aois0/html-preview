@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 7−4 / id: 7-4 / title: 「資力を喪失して債務を弁済することが困難である場合」の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/05.htm#a-5_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/7-4.html
+
+[p1] 法第7条に規定する「資力を喪失して債務を弁済することが困難である場合」とは、その者の債務の金額が積極財産の価額を超えるときのように社会通念上債務の支払が不能（破産手続開始の原因となる程度に至らないものを含む。）と認められる場合をいうものとする。（昭57直資2−177、平18課資2−2改正）

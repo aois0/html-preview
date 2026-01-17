@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 8−2−1 / id: 8-2-1 / title: 効果の及ぶ期間の測定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/08/08_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/8-2-1.html
+
+[p1] 令第64条第1項第2号《繰延資産の償却限度額》に規定する「繰延資産となる費用の支出の効果の及ぶ期間」は、この節に別段の定めのあるもののほか、固定資産を利用するために支出した繰延資産については当該固定資産の耐用年数、一定の契約をするに当たり支出した繰延資産についてはその契約期間をそれぞれ基礎として適正に見積った期間による。

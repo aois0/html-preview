@@ -1,0 +1,11 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 43−4 / id: 43-4 / title: 分割不動産の収納価額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/05.htm#a-43_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/43-4.html
+
+[p1] 相続財産である不動産を分割し、分割不動産について物納を許可する場合における法第43条第1項に規定する収納価額は、原則として、次の算式により計算した金額によるものとする。（平7課資2−119・徴管5−5追加）
+[p2] （注） 算式中の符号は、次のとおりである。
+[p3] Kは、分割前の課税価格計算の基礎となった価額
+[p4] Aは、分割不動産について、相続開始時の評価基本通達の定めにより評価した価額
+[p5] Bは、分割前の不動産のうち、分割不動産部分以外の不動産について、相続開始時の評価基本通達の定めにより評価した価額

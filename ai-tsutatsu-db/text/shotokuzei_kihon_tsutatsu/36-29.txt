@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 36−29 / id: 36-29 / title: 課税しない経済的利益……用役の提供等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/36-29.html
+
+[p1] 使用者が役員若しくは使用人に対し自己の営む事業に属する用役を無償若しくは通常の対価の額に満たない対価で提供し、又は役員若しくは使用人の福利厚生のための施設の運営費等を負担することにより、当該用役の提供を受け又は当該施設を利用した役員又は使用人が受ける経済的利益については、当該経済的利益の額が著しく多額であると認められる場合又は役員だけを対象として供与される場合を除き、課税しなくて差し支えない。

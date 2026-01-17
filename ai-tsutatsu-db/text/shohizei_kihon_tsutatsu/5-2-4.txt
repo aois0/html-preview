@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−2−4 / id: 5-2-4 / title: 保険金、共済金等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-2-4.html
+
+[p1] 保険金又は共済金（これらに準ずるものを含む。）は、保険事故の発生に伴い受けるものであるから、資産の譲渡等の対価に該当しないことに留意する。

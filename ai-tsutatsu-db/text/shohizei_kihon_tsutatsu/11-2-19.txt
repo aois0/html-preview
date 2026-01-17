@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 11−2−19 / id: 11-2-19 / title: 共通用の課税仕入れ等を合理的な基準により区分した場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/11/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/11-2-19.html
+
+[p1] 課税資産の譲渡等とその他の資産の譲渡等に共通して要するものに該当する課税仕入れ等であっても、例えば、原材料、包装材料、倉庫料、電力料等のように生産実績その他の合理的な基準により課税資産の譲渡等にのみ要するものとその他の資産の譲渡等にのみ要するものとに区分することが可能なものについて当該合理的な基準により区分している場合には、当該区分したところにより個別対応方式を適用することとして差し支えない。

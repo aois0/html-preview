@@ -1,0 +1,12 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 4−4−5 / id: 4-4-5 / title: 信託事務を主宰する受託者の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/04/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/4-4-5.html
+
+[p1] 法第15条第12項《法人課税信託の受託者に関するこの法律の適用》に規定する「信託事務を主宰する受託者」とは、中心となって信託事務の全体を取りまとめる受託者をいう。
+[p2] この場合、全体を取りまとめているかは、信託契約に基づき、信託財産の受入れ事務、信託財産の管理又は処分に関する事務、収益計算の報告事務等の処理の実態を総合的に判定する。 （平19課消1−18により追加）
+[p3] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p4] 第1節 通則
+[p5] 第5章 課税範囲
+[p6] 第1節 通則

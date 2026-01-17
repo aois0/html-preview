@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 204−22の2 / id: 204-22-2 / title: 特約店等のセールスマン又は従業員等に取扱数量等に応じて支出する費用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/36/04.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/204-22-2.html
+
+[p1] 製造業者又は卸売業者等が、特約店等に専属するセールスマン又は専ら自己の製品等を取り扱う特約店等の従業員に対し、その取扱数量又は取扱金額に応じてあらかじめ定められているところにより交付する金員は、法第204条第1項第4号に規定する外交員の報酬に該当することに留意する。（昭63直法6−7、直所3−8追加）

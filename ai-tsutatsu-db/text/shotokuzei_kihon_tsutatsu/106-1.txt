@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 106−1 / id: 106-1 / title: 予定納税額等の通知の性格
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/18/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/106-1.html
+
+[p1] 法第106条第1項又は第2項の規定による予定納税額等の通知は、国税に関する法律に基づく処分ではないから、再調査の請求又は審査請求の対象とはならない。
+[p2] （注） 当該通知の額に違算その他の誤びゅうがあった場合には、納税者の請求等がなくても、訂正しなければならないことに留意する。

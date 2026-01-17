@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 13の2−2−1 / id: 13-2-2-1 / title: 前渡金、未収収益等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/13_2/13_2_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/13-2-2-1.html
+
+[p1] 外貨建取引に関して支払った前渡金又は収受した前受金で資産の売買代金に充てられるものは、外貨建債権債務に含まれない。ただし、外貨建取引に係る未収収益又は未払費用は、外貨建債権債務に該当するものとして取り扱う。(昭50年直法2−21「33」により追加、平6年課法2−1「六」、平8年課法2−6、平12年課法2−7「二十」により改正)

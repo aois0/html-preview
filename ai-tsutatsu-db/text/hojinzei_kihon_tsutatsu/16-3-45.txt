@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 16−3−45 / id: 16-3-45 / title: 備品の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/16/16_03_02a.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/16-3-45.html
+
+[p1] 令第145条の7第1項《国外業務に係る使用料等》に規定する器具及び備品には、美術工芸品、古代の遺物等のほか、観賞用、興行用その他これらに準ずる用に供される生物が含まれることに留意する。（平26年課法2−9「四」により追加）

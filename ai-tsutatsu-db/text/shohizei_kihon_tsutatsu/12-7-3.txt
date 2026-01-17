@@ -1,0 +1,10 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 12−7−3 / id: 12-7-3 / title: 製作等に係る棚卸資産の取得価額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/12/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/12-7-3.html
+
+[p1] 令第54条第1項第3号《製作等に係る棚卸資産の取得価額》に規定する自己の製作等に係る棚卸資産の取得価額の算出に当たり、当該製作等のための課税仕入れ等に係る次に掲げる費用については、その費用の額が少額であるものとしてその取得価額に含めないこととしているときは、それによる。（令2課消2-9により改正）
+[p2] (1) 製造等の後において要した検査、検定、整理、選別、手入れ等の費用の額
+[p3] (2) 製造場等から販売所等へ移管するために要した運賃、荷造費等の費用の額
+[p4] (3) 特別の時期に販売するなどのため、長期にわたって保管するために要した費用の額

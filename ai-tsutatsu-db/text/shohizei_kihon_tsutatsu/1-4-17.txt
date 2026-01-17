@@ -1,0 +1,10 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 1−4−17 / id: 1-4-17 / title: 「事情がやんだ後相当の期間内」の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/01/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/1-4-17.html
+
+[p1] 令第20条の2第3項《納税義務の免除の規定の適用を受けない旨の届出等に関する特例》に規定する「当該事情がやんだ後相当の期間内」とは、法第9条第9項《届出書の提出時期に係る特例》に規定する「やむを得ない事情」がやんだ日から2月以内の期間とする。（平10課消2−9により追加、平22課消1−9により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第5節 納税義務の免除の特例
+[p4] 第5節 納税義務の免除の特例

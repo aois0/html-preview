@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 30−4 / id: 30-4 / title: 決定通知書の送達中に期限後申告書の提出があった場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/04/01.htm#a-27_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/30-4.html
+
+[p1] 期限後申告書は、課税価格及び相続税額又は贈与税額の決定通知書が納税義務者に到達するまではいつでも提出することができるのであるから、当該通知書の発送後納税義務者に到達前に期限後申告書の提出があったときは、当該決定を取り消し、当該申告書に係る課税価格及び相続税額又は贈与税額の是認又は更正をするものとする。（平15課資2−1改正）
+[p2] 第31条《修正申告の特則》関係

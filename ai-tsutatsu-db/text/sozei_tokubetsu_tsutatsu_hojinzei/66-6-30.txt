@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の6-30 / id: 66-6-30 / title: 課税対象金額等に係る外国法人税額の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/14/14_66_6_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-6-30.html
+
+[p1] 措置法第66条の7第1項の規定を適用する場合における措置法令第39条の18第3項の規定による課税対象金額、同条第4項の規定による部分課税対象金額又は同条第5項の規定による金融子会社等部分課税対象金額に係る控除対象外国法人税の額の計算並びに同条第10項の規定による減額されたとみなされる控除対象外国法人税の額の計算は、その外国関係会社がその会計帳簿の作成に当たり使用する外国通貨表示の金額により行うものとし、その計算されたこれらの控除対象外国法人税の額の円換算については、66の6-4に準ずる。（平29年課法2-22「二」により追加、令元年課法2-6「一」により改正）

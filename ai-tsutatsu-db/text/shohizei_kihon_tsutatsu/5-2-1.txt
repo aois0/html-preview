@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−2−1 / id: 5-2-1 / title: 資産の譲渡の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-2-1.html
+
+[p1] 法第2条第1項第8号《資産の譲渡等の意義》に規定する「資産の譲渡」とは、資産につきその同一性を保持しつつ、他人に移転させることをいう。
+[p2] (注) 資産の交換は、資産の譲渡に該当する。

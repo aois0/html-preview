@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 11−2−18 / id: 11-2-18 / title: 個別対応方式の適用方法
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/11/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/11-2-18.html
+
+[p1] 個別対応方式により仕入れに係る消費税額を計算する場合には、その課税期間中において行った個々の課税仕入れ等について、必ず、課税資産の譲渡等にのみ要するもの、その他の資産の譲渡等にのみ要するもの及び課税資産の譲渡等とその他の資産の譲渡等に共通して要するものとに区分しなければならない。したがって、例えば、課税仕入れ等の中から課税資産の譲渡等にのみ要するものを抽出し、それ以外のものを全て課税資産の譲渡等とその他の資産の譲渡等に共通して要するものに該当するものとして区分することは認められないのであるから留意する。（平23課消1-35により改正）

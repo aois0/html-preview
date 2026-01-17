@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−2−2 / id: 5-2-2 / title: 保証債務等を履行するために行う資産の譲渡
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-2-2.html
+
+[p1] 法第2条第1項第8号《資産の譲渡等の意義》に規定する事業として対価を得て行われる資産の譲渡は、その原因を問わないのであるから、例えば、他の者の債務の保証を履行するために行う資産の譲渡又は強制換価手続により換価された場合の資産の譲渡は、同号に規定する事業として対価を得て行われる資産の譲渡に該当することに留意する。

@@ -1,0 +1,6 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 38−8の2 / id: 38-8-2 / title: 使用開始の日の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/18.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/38-8-2.html
+

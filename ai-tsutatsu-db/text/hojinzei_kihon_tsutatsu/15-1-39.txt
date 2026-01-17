@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−39 / id: 15-1-39 / title: 旅館業の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_16.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-39.html
+
+[p1] 令第5条第1項第15号《旅館業》の旅館業には、下宿営業のほか、旅館業法による旅館業の許可を受けないで宿泊させ、宿泊料(その実質が宿泊料であると認められるものを含む。以下15−1−42までにおいて同じ。)を受ける事業が含まれる。したがって、例えば宗教法人が宿泊施設を有し、信者又は参詣人を宿泊させて宿泊料を受けるような行為も、15−1−42に該当するものを除き、旅館業に該当する。(昭56年直法2−16「七」により改正)

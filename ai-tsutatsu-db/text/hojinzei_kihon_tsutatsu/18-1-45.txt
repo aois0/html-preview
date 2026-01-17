@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 18−1−45 / id: 18-1-45 / title: 定期的に継続して罰金等に処される場合に該当しないものの例示
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/18/18_01_08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/18-1-45.html
+
+[p1] 令第155条の18第2項第8号《個別計算所得等の金額の計算》の「定期的に継続して当該罰金等に処される場合」とは、同一の行為につき当該罰金等に処される場合をいうのであるから、例えば、同じ種類の反則行為に係る交通反則金に複数回処される場合はこれに該当しないことに留意する。（令5年課法2−17｢九」により追加）

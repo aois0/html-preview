@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 9−14 / id: 9-14 / title: 通常の給与に加算して受ける学資に充てるため給付される金品
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/04.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/9-14.html
+
+[p1] 法第9条第1項第15号の規定の適用において、学資に充てるため給付される金品（以下９−16までにおいて「学資金」という。）で、給与その他対価の性質を有するもののうち、給与所得を有する者がその使用者から受けるものについて非課税となるのは、通常の給与に加算して受けるものに限られるのであるから、同号イからニまでに掲げる場合に該当しない給付であっても、通常の給与に代えて給付されるものは、非課税とならないことに留意する。（平元直所3−14、直法6−9、直資3−8、平22課個2−16、課法9−1、課審4−30、平28課法10−1、課個2−6、課審5−7改正）

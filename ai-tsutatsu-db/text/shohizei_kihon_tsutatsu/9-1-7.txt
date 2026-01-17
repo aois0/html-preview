@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 9−1−7 / id: 9-1-7 / title: 値増金に係る資産の譲渡等の時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/09/01/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/9-1-7.html
+
+[p1] 事業者が請負った建設工事等に係る工事代金につき資材の値上り等に応じて一定の値増金を収入することが契約において定められている場合には、その収入すべき値増金の額はその建設工事等の引渡しの日の属する課税期間の課税標準額に算入するのであるが、相手方との協議によりその収入すべきことが確定する値増金については、その収入すべき金額が確定した日の属する課税期間の課税標準額に算入する。

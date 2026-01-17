@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 54−5 / id: 54-5 / title: 支給基準等が改正された場合の繰入限度額の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/10/04.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/54-5.html
+
+[p1] 退職給与の支給基準又は給与ベースの改正が行われた場合には令第154条第1項第1号ロの規定により計算される前年12月31日における退職給与の額（以下54-14までにおいて「前年末退職給与の要支給額」という。）は、その改正の効果が前年にさかのぼるかどうかを問わず改正前の支給基準又は給与ベースにより計算する。

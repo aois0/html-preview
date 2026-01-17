@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 18−1−40の2 / id: 18-1-40-2 / title: 本店配賦経費がある場合の恒久的施設等の作成されることとなる個別財務諸表
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/18/18_01_08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/18-1-40-2.html
+
+[p1] 令第155条の16第11項第３号《当期純損益金額》の「恒久的施設等に帰せられるべきものとされる所得に係る財産及び損益の状況を記載した個別財務諸表を作成するとしたならば作成されることとなる個別財務諸表」とは、例えば、構成会社等の同号に掲げる恒久的施設等を通じて行う事業とそれ以外の事業に共通する費用のうち当該恒久的施設等を通じて行う事業に係るもの（いわゆる本店配賦経費）がある場合には、これを含めて作成されることとなるものをいうことに留意する。（令6年課法2−21｢二」により追加）

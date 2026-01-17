@@ -1,0 +1,10 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 60の3−5 / id: 60-3-5 / title: 国外転出をする場合の譲渡所得等の特例に関する取扱いの準用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/12/03-3.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/60-3-5.html
+
+[p1] 法第60条の3の規定の適用に当たっては、60の2−2から60の2−8まで及び60の2−10から60の2−13までの取扱いを準用する。（平27課資3−2、課個2−7、課審7-6、徴管6-12追加、平28課資3-4、課個2-33、課審7-11、徴管6-24改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 法第60条の4《外国転出時課税の規定の適用を受けた場合の譲渡所得等の特例》関係
+[p4] 法第60条の4《外国転出時課税の規定の適用を受けた場合の譲渡所得等の特例》関係

@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 16−3の2−4 / id: 16-3-2-4 / title: 分配時調整外国税相当額の控除の適用を受けない場合の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/16/16_03_05b.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/16-3-2-4.html
+
+[p1] 内国法人が支払を受ける集団投資信託の収益の分配に係る分配時調整外国税相当額につき、法第69条の２《分配時調整外国税相当額の控除》の規定の適用を受けない場合には、その支払を受ける集団投資信託の収益の分配に係る分配時調整外国税相当額については、法第41条の２《分配時調整外国税相当額の損金不算入》の規定の適用はないことに留意する。（令元年課法2−33「四」により追加）

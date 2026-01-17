@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−3−69 / id: 2-3-69 / title: 合理的な方法による短期売買商品等の価額の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_03_11.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-3-69.html
+
+[p1] 令第118条の8第1項第1号《短期売買商品等の時価評価金額》に規定する合理的な方法による同号に掲げる短期売買商品等の当該事業年度終了の時の価額の計算に当たっては、2−3−32《合理的な方法による価額の計算》及び2−3−33《第三者から入手した価格》の取扱いを準用する。（令2年課法2−17「三」により追加）

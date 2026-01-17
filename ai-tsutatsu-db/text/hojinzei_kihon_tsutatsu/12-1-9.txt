@@ -1,0 +1,9 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 12−1−9 / id: 12-1-9 / title: 新たな事業の開始の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/12/12_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/12-1-9.html
+
+[p1] 法第57条第８項《欠損金の繰越し》に規定する「新たな事業を開始した」とは、同項の通算法人が当該通算法人において既に行っている事業とは異なる事業を開始したことをいうのであるから、例えば、既に行っている事業において次のような事実があっただけではこれに該当しない。（令４年課法2−14｢三十四」により追加）
+[p2] (1) 新たな製品を開発したこと。
+[p3] (2) その事業地域を拡大したこと。

@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 12−6 / id: 12-6 / title: 「当該財産を当該公益を目的とする事業の用に供していない場合」の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/02.htm#a-12_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/12-6.html
+
+[p1] 法第12条第2項（法第21条の3第2項の規定によりこの規定を準用する場合を含む。）に規定する「当該財産を当該公益を目的とする事業の用に供していない場合」とは、財産を取得した者が当該財産を現実に当該公益を目的とする事業の用に供している場合以外の場合をいうのであるから、当初当該財産を公益を目的とする事業の用に供していても2年を経過した日現在において、その用に供しなくなった場合をも含むことに留意する。

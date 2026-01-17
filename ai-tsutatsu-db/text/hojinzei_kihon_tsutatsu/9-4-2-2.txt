@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−4−2の2 / id: 9-4-2-2 / title: 個人の負担すべき寄附金
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_04_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-4-2-2.html
+
+[p1] 法人が損金として支出した寄附金で、その法人の役員等が個人として負担すべきものと認められるものは、その負担すべき者に対する給与とする。（昭55年直法2−8「三十三」により改正）

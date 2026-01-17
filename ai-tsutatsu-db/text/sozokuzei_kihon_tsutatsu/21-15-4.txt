@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 21の15-4 / id: 21-15-4 / title: 贈与税相当額の控除の順序
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/12.htm#a-21_11_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/21-15-4.html
+
+[p1] 法第21条の15第3項の規定による贈与税の税額に相当する金額の控除は、20の2-4の(1)から(6)までに掲げる控除を順次行った後に相続税額の残額がある場合に当該残額(同項の注書きに該当する場合には零となる。)から控除するのであるから留意する。（平15課資2-1追加）
+[p2] 第21条の16《相続時精算課税に係る相続税額》関係

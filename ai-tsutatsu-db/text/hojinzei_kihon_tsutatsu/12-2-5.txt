@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 12−2−5 / id: 12-2-5 / title: 災害損失特別勘定を設定した場合の災害損失の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/12/12_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/12-2-5.html
+
+[p1] 法第58条第1項《青色申告書を提出しなかった事業年度の災害による欠損金の特例》の欠損金額のうち災害損失金額（同項に規定する災害損失金額をいう。）に達するまでの金額に係る法第57条第１項《欠損金の繰越し》の規定の適用に当たり、被災事業年度において12−2−6《災害損失特別勘定の設定》により災害損失特別勘定に繰り入れた金額は、当該被災事業年度の災害損失の額に含まれることに留意する。(平29年課法2−2「三」により追加、令４年課法2−14｢三十五」により改正)

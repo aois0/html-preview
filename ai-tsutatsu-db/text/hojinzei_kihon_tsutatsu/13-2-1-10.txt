@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 13の2−1−10 / id: 13-2-1-10 / title: 外貨建てで購入した原材料の受入差額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/13_2/13_2_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/13-2-1-10.html
+
+[p1] 法人が、外貨建てで購入した原材料についての仕入金額の換算を社内レートによって行う等13の2−1−2及び13の2−1−4に定める方法によって行っていない場合には、13の2−1−2又は13の2−1−4に定める方法によって換算した金額と当該法人が計上した金額との差額は、原材料受入差額に該当する。（平12年課法2−7「十九」により追加）
+[p2] (注) 当該差額については5−3−8《原材料受入差額の処理の簡便計算方式》を適用することができる。

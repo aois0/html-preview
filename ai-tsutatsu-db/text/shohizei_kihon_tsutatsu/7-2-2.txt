@@ -1,0 +1,9 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 7−2−2 / id: 7-2-2 / title: 輸出物品の下請加工等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/07/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/7-2-2.html
+
+[p1] 法第7条第1項《輸出免税等》の規定による輸出免税の適用が受けられるのは、同項各号に掲げる取引及び令第17条各項《輸出取引等の範囲》に掲げる取引に限られるのであるから、例えば、次の取引については法第7条第1項の規定の適用はないことに留意する。
+[p2] (1) 輸出する物品の製造のための下請加工
+[p3] (2) 輸出取引を行う事業者に対して行う国内での資産の譲渡等

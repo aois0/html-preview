@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 48の2−2 / id: 48-2-2 / title: 暗号資産の種類
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/04-2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/48-2-2.html
+
+[p1] 令第119条の３第１項に規定する暗号資産の評価の方法の選定に当たっては、名称の異なる暗号資産は、それぞれ種類の異なる暗号資産として区分することに留意する。（令元課個2-22、課法11-3、課審5-12追加、令2課個2−12、課法11−3、課審5−6改正）

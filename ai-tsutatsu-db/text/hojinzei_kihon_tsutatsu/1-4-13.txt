@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 1−4−13 / id: 1-4-13 / title: 内部取引その他これに準ずるものの例示
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/01/01_04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/1-4-13.html
+
+[p1] 令第４条の３第12項《適格組織再編成における株式の保有関係等》に規定する「内部取引その他これに準ずるもの」には、例えば、内国法人の法第69条第４項第１号《外国税額の控除》に規定する国外事業所等と同号に規定する本店等との間で行われた事実であって、同条第７項の規定により同号に規定する内部取引に含まれないものとされる事実が含まれることに留意する。（平28年課法2−11「一」により追加、平29年課法2−17「四」、令６年課法2-14「一」により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第5節 資本金等の額及び資本等取引
+[p4] 第5節 資本金等の額及び資本等取引

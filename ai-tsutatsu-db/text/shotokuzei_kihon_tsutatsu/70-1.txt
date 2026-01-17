@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 70−1 / id: 70-1 / title: 被災事業用資産に含まれるもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/15/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/70-1.html
+
+[p1] 法第70条第3項に規定する棚卸資産には、不動産所得又は山林所得を生ずべき事業に係る令第81条第1号《譲渡所得の基因とされない棚卸資産に準ずる資産》に掲げる資産が含まれるものとする。（令４課個2-13、課法12-16、課審5-９改正）

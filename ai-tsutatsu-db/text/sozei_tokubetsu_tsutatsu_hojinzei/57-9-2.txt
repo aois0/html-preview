@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 57の9-2 / id: 57-9-2 / title: 実質的に債権とみられないものの簡便計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/02/02_57_10.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/57-9-2.html
+
+[p1] 措置法令第33条の7第3項の規定は、平成27年4月1日から平成29年3月31日までの期間内に開始した各事業年度において貸倒引当金を設けていたかどうかに関係なく適用があることに留意する。（平10年課法2-7「三」により追加、平14年課法2-1「四十」、平19年課法2-3「三十四」、平25年課法2-4「十八」、平26年課法2-6「二十七」、平27年課法2-8「十九」、令４年課法２−14「三十七」により改正）

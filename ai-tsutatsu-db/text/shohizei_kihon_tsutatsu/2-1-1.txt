@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 2−1−1 / id: 2-1-1 / title: 住所
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/02/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/2-1-1.html
+
+[p1] 法第20条《個人事業者の納税地》に規定する「住所」とは、各人の生活の本拠をいい、生活の本拠であるかどうかは客観的事実によって判定する。

@@ -1,0 +1,8 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 62の3 / id: 62-3 / title: 公益法人等に対する適用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/09/09_62_3_01a.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/62-3.html
+
+[p1] (1)−1
+[p2] 公益法人等又は人格のない社団等が行った措置法第62条の3第2項第1号イ及びロに掲げる行為については、当該行為が収益事業に該当する場合に限り、同条第1項又は第9項の規定の適用があることに留意する。（平3年課法2−4「十九」により追加、平5年課法2−1「二十二」、平7年課法2−7「二十九」、平29年課法2−17「二十五」により改正）

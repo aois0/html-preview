@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 19の3−3 / id: 19-3-3 / title: 胎児の未成年者控除
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/08.htm#a-19_3_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/19-3-3.html
+
+[p1] 民法第886条に規定する胎児が生きて生まれた場合におけるその者の未成年者控除額は、180万円（注）となるのであるから留意する。（昭50直資2−257、平元直資2−207、平26課資2-12、課審7-17、徴管6-25、令2課資2−10、令4課資2-6改正）
+[p2] （注） 令和４年３月31日以前に相続又は遺贈により財産を取得する者については、200万円。

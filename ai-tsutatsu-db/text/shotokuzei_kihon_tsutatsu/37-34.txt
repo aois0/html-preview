@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 37-34 / id: 37-34 / title: 立木賦課金
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/10.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/37-34.html
+
+[p1] 受益者が賦課徴収される賦課金のうち、その受益地に生立する山林の所有者に対しその所有する山林の価額に応じて賦課される金額（以下37-36までにおいて「立木賦課金」という。）は、当該賦課の対象となった山林の管理費に算入する（平16課資3-9、課個2-27、課審6-17、平20課資3-4、課個2-33、課審6-18改正）。

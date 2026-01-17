@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 2−48の2 / id: 2-48-2 / title: 青色事業専従者に該当する者で給与の支払を受けるもの及び事業専従者に該当するものの範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/07.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/2-48-2.html
+
+[p1] 法第2条第1項第34号かっこ内に規定する「第57条第1項に規定する青色事業専従者に該当するもので同項に規定する給与の支払を受けるもの及び同条第3項に規定する事業専従者に該当するもの」については、2−48の取扱いに準ずる。（平29課法10−13、課個2−22、課審5−8追加）

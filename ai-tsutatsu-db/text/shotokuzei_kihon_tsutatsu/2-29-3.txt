@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 2−29の3 / id: 2-29-3 / title: 出版権の設定の対価
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/2-29-3.html
+
+[p1] 著作権法第79条第1項《出版権の設定》に規定する出版権の設定の対価として支出した金額は、令第7条第1項第3号ホに掲げる費用に該当するものとする。（昭55直所3−19、直法6−8追加、平19課個2−11、課資3−1、課法9−5、課審4−26改正）
+[p2] （注） 例えば、漫画の主人公を商品のマーク等として使用する等他人の著作物を利用することについて著作権者等の許諾を得るために支出する一時金の費用は、出版権の設定の対価に準じて取り扱う。

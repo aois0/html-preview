@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 12−1−4 / id: 12-1-4 / title: 仕入割引
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/12/01/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/12-1-4.html
+
+[p1] 課税仕入れに係る対価をその支払期日よりも前に支払ったこと等を基因として支払いを受ける仕入割引は、仕入れに係る対価の返還等に該当する。

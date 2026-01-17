@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 18−2−2の2 / id: 18-2-2-2 / title: 構成会社等の所在地国における所在割合が50％を超える場合の特定資産の額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/18/18_02_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/18-2-2-2.html
+
+[p1] 構成会社等が特定資産を有する場合に、規則第38条の31第８項第１号《構成会社等に係る国別グループ純所得の金額から控除する金額》に掲げる期間が同項第２号に掲げる期間のうちに占める割合（以下18−２−２の２において「所在割合」という。）が50％を超えるときは、当該所在割合を考慮せず、当該特定資産の額の全額を基礎として令第155条の38第１項第２号《国別グループ純所得の金額から控除する金額》の「特定資産（……）の額（……）」の計算を行うことに留意する。（令6年課法2−21｢三」により追加）

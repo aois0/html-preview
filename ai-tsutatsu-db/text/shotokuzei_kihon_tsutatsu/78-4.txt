@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 78−4 / id: 78-4 / title: 国等に対する寄附金
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/78-4.html
+
+[p1] 法第78条第2項第1号に規定する国又は地方公共団体に対する寄附金とは、国又は地方公共団体（以下78―7までにおいて「国等」という。）において採納される寄附金をいうのであるが、国立又は公立の学校等の施設の建設又は拡張等の目的をもって設立された後援会等に関する寄附金であっても、その目的である施設が完成後遅滞なく国等に帰属することが明らかなものは、これに該当する。（平20課個2−17、課審4−186、課法9−3改正）

@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 90−8 / id: 90-8 / title: 前年分及び前前年分の変動所得の金額が異動した場合の処理
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/17/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/90-8.html
+
+[p1] その年分の変動所得につき法第90条第1項の規定の適用を受けている者の前年分又は前前年分の変動所得の金額に異動が生じた場合には、その年分につき、同条に規定する平均課税の適用の有無の再判定を行い、所得税の額を訂正することに留意する。（昭46直審（所）19改正）
+[p2] （注） 前年分又は前前年分の変動所得の金額の異動に伴いその年分の所得税の額が減少することとなる場合には、通則法第23条《更正の請求》に規定する期間を経過しているときでも、法第153条《前年分の所得税額等の更正等に伴う更正の請求の特例》の規定により更正の請求ができることに留意する。

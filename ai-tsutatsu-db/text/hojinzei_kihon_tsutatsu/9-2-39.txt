@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−2−39 / id: 9-2-39 / title: 個人事業当時の在職期間に対応する退職給与の損金算入
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_02_07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-2-39.html
+
+[p1] 個人事業を引き継いで設立された法人が個人事業当時から引き続き在職する使用人の退職により退職給与を支給した場合において、その退職が設立後相当期間経過後に行われたものであるときは、その支給した退職給与の額を損金の額に算入する。（平19年課法2−3「二十二」により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第8款 使用人給与
+[p4] 第8款 使用人給与

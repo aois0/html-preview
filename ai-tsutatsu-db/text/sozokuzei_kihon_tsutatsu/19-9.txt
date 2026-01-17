@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 19−9 / id: 19-9 / title: 相続開始の年の特定贈与財産に対する贈与税の課税
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/05.htm#a-16_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/19-9.html
+
+[p1] 相続の開始の年に当該相続に係る被相続人から贈与により取得した居住用不動産又は金銭で特定贈与財産に該当するものについては、法第21条の2第4項の規定の適用がなく、その財産の価額が相続の開始の日の属する年分の贈与税の課税価格に算入されるのであるから留意する。（平6課資2−114追加、平15課資2−1改正）
+[p2] （注） 法第19条第2項第2号の規定により特定贈与財産に該当することとなった居住用不動産又は金銭の価額については、贈与税の配偶者控除の適用がない場合であっても、相続税の課税価格に加算されないのであるから留意する。

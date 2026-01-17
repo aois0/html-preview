@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 54−3 / id: 54-3 / title: 最低限度の支給率が定められていない場合の不適用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/10/04.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/54-3.html
+
+[p1] 退職給与規程において、退職給与の支給率又は支給額について「何%以内を支給する」、「減額することができる」のように、その最低限度が定められていない場合には、法第54条の規定の適用はないことに留意する。
+[p2] 〔退職給与引当金勘定への繰入限度額（令第154条関係）〕

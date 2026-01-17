@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 7−4 / id: 7-4 / title: 国内において支払われたものの意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/7-4.html
+
+[p1] 法第7条第1項第2号に掲げる「国内において支払われ……たもの」とは、次に掲げるようなものをいう。（平29課個2−13、課資3−3、課審5−5改正）
+[p2] （1） その非永住者の国外にある営業所等と国外の顧客との間に行われた商取引の対価で、為替等によりその非永住者の国内にある営業所等に直接送付され、若しくは当該国内にある営業所等に係る債権と相殺され、又は当該国内にある営業所等の預金口座に直接振り込まれたもの
+[p3] （2） その非永住者の国外にある不動産等の貸付けによる賃貸料で、為替等によりその非永住者に直接送付され、又はその非永住者の国内にある預金口座に直接振り込まれたもの

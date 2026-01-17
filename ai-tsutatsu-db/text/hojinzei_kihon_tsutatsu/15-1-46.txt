@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−46 / id: 15-1-46 / title: 仲立業の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_20.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-46.html
+
+[p1] 令第5条第1項第19号《仲立業》の仲立業とは、他の者のために商行為の媒介を行う事業をいい、例えば商品売買、用船契約又は金融（手形割引を含む。）等の仲介又はあっせんを行う事業がこれに該当する。（昭56年直法2−16「七」により追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第21款 問屋業
+[p4] 第21款 問屋業

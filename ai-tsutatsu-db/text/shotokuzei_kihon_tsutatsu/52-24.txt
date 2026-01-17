@@ -1,0 +1,11 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 52−24 / id: 52-24 / title: 相続人の青色申告の承認の取消し等があった場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/10/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/52-24.html
+
+[p1] 令第147条第2号に規定する相続人が、準確定申告書の提出期限後に被相続人の死亡の日の属する年分の所得税につき青色申告の承認を取り消され、又は青色申告の承認申請を却下された場合であっても、被相続人についての法第52条第2項本文の規定の適用があり、当該相続人についての令第147条の規定の適用があることに留意する。（平11課所4−1改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 〔退職給与規程の範囲（令第153条関係）〕
+[p4] 法第54条《退職給与引当金》関係
+[p5] 〔退職給与規程の範囲（令第153条関係）〕

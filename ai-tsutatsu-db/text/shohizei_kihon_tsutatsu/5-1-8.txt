@@ -1,0 +1,9 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−1−8 / id: 5-1-8 / title: 事業に関して行う家事用資産の譲渡
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-1-8.html
+
+[p1] 個人事業者が行う資産の譲渡のうち、例えば、次に掲げるものは、事業のために行うものであっても、令第2条第3項《付随行為》に規定する「その性質上事業に付随して対価を得て行われる資産の譲渡」には含まれないのであるから留意する。
+[p2] (1) 事業用資金の取得のために行う家事用資産の譲渡
+[p3] (2) 事業用資産の仕入代金に係る債務又は事業用に借り入れた資金の代物弁済として行われる家事用資産の譲渡

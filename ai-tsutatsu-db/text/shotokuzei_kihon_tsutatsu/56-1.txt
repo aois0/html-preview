@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 56−1 / id: 56-1 / title: 親族の資産を無償で事業の用に供している場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/11/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/56-1.html
+
+[p1] 不動産所得、事業所得又は山林所得を生ずべき事業を営む居住者と生計を一にする配偶者その他の親族がその有する資産を無償で当該事業の用に供している場合には、その対価の授受があったものとしたならば法第56条の規定により当該居住者の営む当該事業に係る所得の金額の計算上必要経費に算入されることとなる金額を当該居住者の営む当該事業に係る所得の金額の計算上必要経費に算入するものとする。
+[p2] 法第57条《事業に専従する親族がある場合の必要経費の特例等》関係

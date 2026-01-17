@@ -1,0 +1,11 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−16 / id: 15-1-16 / title: 物品貸付業の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-16.html
+
+[p1] 例えば旅館における遊技用具の貸付け、ゴルフ練習場、スケート場等における用具の貸付け、遊園地における貸ボート等のように、旅館業、遊技所業等に係る施設内において使用される物品の貸付けは、それぞれの旅館業、遊技所業等の範囲に含まれ、令第5条第1項第4号《物品貸付業》の物品貸付業には含まれないことに留意する。（昭56年直法2−16「七」により追加、平24年課法2−17「六」、平30年課法2−8「二十」により改正）
+[p2] (注) 著作権、工業所有権、ノウハウ等は、同号括弧書の「通常物品といわないもの」に含まれない。
+[p3] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p4] 第6款 不動産貸付業
+[p5] 第6款 不動産貸付業

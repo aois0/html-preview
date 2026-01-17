@@ -1,0 +1,10 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 9-6の3 / id: 9-6-3 / title: 新幹線通勤の場合の非課税とされる通勤手当
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/02.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/9-6-3.html
+
+[p1] 令第20条の2に規定する「その者の通勤に係る運賃、時間、距離等の事情に照らし最も経済的かつ合理的と認められる通常の通勤の経路及び方法による運賃等の額」には、新幹線鉄道を利用した場合の運賃等の額も含まれるものとする。（平14課法8-5、課個2-7、課審3-142追加）
+[p2] （注） 「最も経済的かつ合理的と認められる通常の通勤の経路及び方法による運賃等の額」の中には、令第167条の3第1
+[p3] 項第1号に規定する「特別車両料金等」は含まれないことに留意する。
+[p4] 〔現物給与（第6号関係）〕

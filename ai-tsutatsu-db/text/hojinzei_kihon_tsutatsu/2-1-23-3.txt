@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−1−23の3 / id: 2-1-23-3 / title: 現渡しの方法による決済を行った場合の損益の計上時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_01_04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-1-23-3.html
+
+[p1] 法第61条の2第21項《信用取引等の譲渡利益額又は譲渡損失額》に規定する信用取引の方法により株式の売付けを行った場合において、いわゆる現渡しの方法による決済を行ったときは、当該取引に係る譲渡損益の額は、当該決済に係る約定が成立した日に計上する。（平12年課法2−7「二」により追加、平14年課法2−1「七」、平19年課法2−3「九」、平19年課法2−17「四」、平29年課法2−17「七」により改正）

@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 3-29 / id: 3-29 / title: 退職年金の継続受取人が取得する権利
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/03.htm#a-3_18
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/3-29.html
+
+[p1] 退職年金を受けている者の死亡により、その相続人その他の者が当該年金を継続して受けることとなった場合(これに係る一時金を受けることとなった場合を含む。)においては、当該年金の受給に関する権利は、その継続受取人となった者が法第3条第1項第6号の規定により相続又は遺贈により取得したものとみなされるのであるから留意する。(昭46直審(資)6追加)

@@ -1,0 +1,10 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 72−8 / id: 72-8 / title: 損失の生じた資産の取得費
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/72-8.html
+
+[p1] 災害等により法第72条第1項に規定する資産が損壊し、又はその価値が減少した場合において、当該事由が生じた直後における当該資産の価額が、当該事由が生じた直前において当該資産の譲渡又は消滅があったものとして計算した当該資産の取得費に相当する金額に満たないこととなったときは、当該満たない部分の金額は、次に掲げる資産の区分に応じ、それぞれ次によるものとする。（令2課個2−12、課法11−3、課審5−6改正）
+[p2] (1) 減価償却資産及び繰延資産 当該事由が生じた時において当該資産の償却費の額に算入された金額とする。
+[p3] (2) (1)以外の資産 当該資産の取得費から控除する。
+[p4] 法第73条《医療費控除》関係

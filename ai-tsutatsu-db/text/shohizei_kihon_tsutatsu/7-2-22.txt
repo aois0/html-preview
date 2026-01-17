@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 7−2−22 / id: 7-2-22 / title: 加工又は修繕のため輸出された課税物品に係る消費税の軽減
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/07/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/7-2-22.html
+
+[p1] 輸徴法第15条の2《加工又は修繕のため輸出された課税物品に係る消費税の軽減》の規定の取扱いについては、関税定率法基本通達の11−1から11−6《加工又は修繕のため輸出された貨物の減税等》の規定を準用するものとする。

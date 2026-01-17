@@ -1,0 +1,6 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 95−17 / id: 95-17 / title: 国外事業所等帰属所得を認識する場合の準用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/17/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/95-17.html
+

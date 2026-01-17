@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 36-44 / id: 36-44 / title: 住宅等の貸与による経済的利益の有無の判定上のプ-ル計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/36-44.html
+
+[p1] 使用者が住宅等を貸与した全ての役員(令第21条第4号《非課税とされる職務上必要な給付》に規定する者を除く。以下この項において同じ。)からその貸与した住宅等の状況に応じてバランスのとれた賃貸料を徴収している場合において、その徴収している賃貸料の額の合計額が役員に貸与した全ての住宅等につき36-40から36-43までにより計算した通常の賃貸料の額の合計額以上であるときは、これらの全ての役員につき住宅等の貸与による経済的利益はないものとする。（平23課個2-33、課法9-9、課審4-46改正）

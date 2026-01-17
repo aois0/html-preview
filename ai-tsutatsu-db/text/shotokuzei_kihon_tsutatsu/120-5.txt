@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 120-5 / id: 120-5 / title: 農業と農業以外の業務を営む場合の収支内訳書の作成
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/19/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/120-5.html
+
+[p1] 事業所得を生ずべき業務のうち農業と農業以外の業務を営む場合には、収支内訳書は各別に作成するものとする。（昭60直所3-21、直資3-5、令４課個2-13、課法12-16、課審5-９改正）
+[p2] （注） 不動産所得、事業所得、山林所得又は雑所得を生ずべき業務に係る収支内訳書は、各別に作成することに留意する。

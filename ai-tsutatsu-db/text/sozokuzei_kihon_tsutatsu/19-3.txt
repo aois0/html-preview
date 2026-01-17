@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 19−3 / id: 19-3 / title: 相続の放棄等をした者が当該相続の加算対象期間内に贈与を受けた財産
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/05.htm#a-16_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/19-3.html
+
+[p1] 加算対象期間内に被相続人からの贈与により財産を取得した者(当該被相続人を特定贈与者とする相続時精算課税適用者を除く。)が当該被相続人から相続又は遺贈により財産を取得しなかった場合においては、その者については、法第19条第１項の規定の適用がないことに留意する。
+[p2] なお、当該相続時精算課税適用者については、当該被相続人から相続又は遺贈により財産を取得しなかった場合であっても、同項の規定の適用があることに留意する。（平15課資2−1、令５課資２−21改正）

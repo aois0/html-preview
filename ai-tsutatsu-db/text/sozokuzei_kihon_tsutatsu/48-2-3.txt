@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 48の2−3 / id: 48-2-3 / title: 「物納財産ごと」の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/06.htm#a-44_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/48-2-3.html
+
+[p1] 法第48条の2第3項に規定する「物納財産ごとに当該申請に係る物納の許可をし、又は当該申請の却下をする。」については、42-5の取扱いに準ずる。（平18徴管5-14追加）

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 54−7 / id: 54-7 / title: 使用人の一部について就業規則による退職給与規程が適用される場合の繰入限度額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/10/04.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/54-7.html
+
+[p1] 使用人の一部については労働協約による退職給与規程の適用があり、他の使用人については就業規則による退職給与規程の適用がある場合においても、それぞれの退職給与規程の内容が同一のものであり、かつ、当該労働協約の適用がある使用人の数が、労働組合法第17条《一般的拘束力》に規定する一の工場、事業場に常時使用される同種の労働者の数の75%以上であるときは、就業規則による退職給与規程の適用がある使用人についても、労働協約による退職給与規程の適用があるものとして、令第154条の規定を適用することができるものとする。

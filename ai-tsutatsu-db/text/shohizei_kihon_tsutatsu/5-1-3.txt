@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−1−3 / id: 5-1-3 / title: 資産の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-1-3.html
+
+[p1] 法第2条第1項第8号及び第12号《資産の譲渡等の意義等》に規定する「資産」とは、取引の対象となる一切の資産をいうから、棚卸資産又は固定資産のような有形資産のほか、権利その他の無形資産が含まれることに留意する。（平27課消1-17により改正）

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 37−30 / id: 37-30 / title: 前納掛金等の必要経費算入
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/09.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/37-30.html
+
+[p1] 37−29の掛金等を前納した場合において、当該前納した掛金等のうちに翌年以後の期間分の掛金等があるときは、その前納した期間の属するそれぞれの年分の必要経費に算入する金額は、次の算式により計算した金額とする。

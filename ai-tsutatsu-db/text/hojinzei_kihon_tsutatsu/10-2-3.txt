@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 10−2−3 / id: 10-2-3 / title: 地方公共団体から土地等を時価に比して著しく低い価額で取得した場合の圧縮記帳
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/10/10_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/10-2-3.html
+
+[p1] 法人が工場誘致等のために都道府県又は市町村から土地その他の固定資産をその時価に比して著しく低い価額で取得し、当該価額（その取得に要した費用があるときは、当該費用の額を加算した金額）を帳簿価額とした場合には、当該資産については法第42条《国庫補助金等で取得した固定資産等の圧縮額の損金算入》の規定により圧縮記帳をしたものとして取り扱う。

@@ -1,0 +1,10 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−1−11 / id: 5-1-11 / title: 非居住者が行う取引
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-1-11.html
+
+[p1] 非居住者（外国為替及び外国貿易法第6条第1項第6号《定義》に規定する非居住者をいう。以下同じ。）が行う資産の譲渡及び貸付け並びに役務の提供であっても、それが事業として対価を得て行われるものであるときは、これらの行為は、資産の譲渡等に該当することに留意する。（平10課消2-9により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第2節 資産の譲渡の範囲
+[p4] 第2節 資産の譲渡の範囲

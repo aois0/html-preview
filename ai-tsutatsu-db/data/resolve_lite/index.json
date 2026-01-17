@@ -1,0 +1,69 @@
+{
+  "base_url": "https://jplawdb.github.io/html-preview/ai-tsutatsu-db",
+  "enhanced_base_url": "https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced",
+  "item_url_template": "enhanced/{doc_code}/{item_id}.html",
+  "text_url_template": "text/{doc_code}/{item_id}.txt",
+  "anchors": {
+    "paragraph": "#p{paragraph}",
+    "item": "#p{paragraph}-i{item_index}"
+  },
+  "doc_aliases": {
+    "法人税基本通達": "hojinzei_kihon_tsutatsu",
+    "法基通": "hojinzei_kihon_tsutatsu",
+    "所得税基本通達": "shotokuzei_kihon_tsutatsu",
+    "所基通": "shotokuzei_kihon_tsutatsu",
+    "消費税基本通達": "shohizei_kihon_tsutatsu",
+    "消基通": "shohizei_kihon_tsutatsu",
+    "相続税法基本通達": "sozokuzei_kihon_tsutatsu",
+    "相続税基本通達": "sozokuzei_kihon_tsutatsu",
+    "租税特別措置法関係通達（法人税編）": "sozei_tokubetsu_tsutatsu_hojinzei",
+    "措置法通達（法人税編）": "sozei_tokubetsu_tsutatsu_hojinzei",
+    "措置法通達": "sozei_tokubetsu_tsutatsu_hojinzei",
+    "国税通則法基本通達": "kokuzei_tsusoku_kihon_tsutatsu",
+    "通則法基本通達": "kokuzei_tsusoku_kihon_tsutatsu"
+  },
+  "docs": {
+    "hojinzei_kihon_tsutatsu": {
+      "title": "法人税基本通達",
+      "snapshot": "2025-06-28",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/index.html",
+      "items_count": 1343,
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-tsutatsu-db/data/resolve_lite/hojinzei_kihon_tsutatsu.json"
+    },
+    "shotokuzei_kihon_tsutatsu": {
+      "title": "所得税基本通達",
+      "snapshot": "2025-06-28",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/index.html",
+      "items_count": 1191,
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-tsutatsu-db/data/resolve_lite/shotokuzei_kihon_tsutatsu.json"
+    },
+    "shohizei_kihon_tsutatsu": {
+      "title": "消費税基本通達",
+      "snapshot": "2025-06-28",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/index.html",
+      "items_count": 659,
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-tsutatsu-db/data/resolve_lite/shohizei_kihon_tsutatsu.json"
+    },
+    "sozokuzei_kihon_tsutatsu": {
+      "title": "相続税法基本通達",
+      "snapshot": "2025-06-28",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/index.html",
+      "items_count": 444,
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-tsutatsu-db/data/resolve_lite/sozokuzei_kihon_tsutatsu.json"
+    },
+    "sozei_tokubetsu_tsutatsu_hojinzei": {
+      "title": "租税特別措置法関係通達（法人税編）",
+      "snapshot": "2025-06-28",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/index.html",
+      "items_count": 425,
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-tsutatsu-db/data/resolve_lite/sozei_tokubetsu_tsutatsu_hojinzei.json"
+    },
+    "kokuzei_tsusoku_kihon_tsutatsu": {
+      "title": "国税通則法基本通達",
+      "snapshot": "2025-06-28",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/kokuzei_tsusoku_kihon_tsutatsu/index.html",
+      "items_count": 22,
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-tsutatsu-db/data/resolve_lite/kokuzei_tsusoku_kihon_tsutatsu.json"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 3−37 / id: 3-37 / title: 保険契約者の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/04.htm#a-3_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/3-37.html
+
+[p1] 法第3条第1項第3号に規定する「生命保険契約の契約者」には、当該契約に関する権利を承継したものを含むものとする。

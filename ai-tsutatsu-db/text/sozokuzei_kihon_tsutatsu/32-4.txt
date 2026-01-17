@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 32−4 / id: 32-4 / title: 「判決があったこと」の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/04/01.htm#a-27_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/32-4.html
+
+[p1] 法施行令第8条第2項第1号に規定する「判決があったこと」とは、判決の確定をいい、19の2−11に準じて取り扱うものとする。（平15課資2−1追加、平20課資２−10改正）

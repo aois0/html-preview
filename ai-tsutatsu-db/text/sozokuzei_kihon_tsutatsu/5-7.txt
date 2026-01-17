@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 5−7 / id: 5-7 / title: 生命保険契約の転換があった場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/05.htm#a-5_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/5-7.html
+
+[p1] いわゆる契約転換制度により生命保険契約を転換前契約から転換後契約に転換した場合において、当該転換に際し転換前契約に係る契約者貸付金等の額が転換前契約に係る責任準備金（共済掛金積立金、剰余金、割戻金及び前納保険料を含む。）をもって精算されたときは、当該精算された契約者貸付金等の額に相当する金額は、転換前契約に係る契約者が取得した法第5条第2項に規定する「返還金その他これに準ずるもの」に該当するものとする。（昭57直資2−177追加）
+[p2] 第6条《贈与により取得したものとみなす定期金》関係

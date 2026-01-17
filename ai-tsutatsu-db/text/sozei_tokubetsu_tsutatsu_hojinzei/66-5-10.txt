@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の5−10 / id: 66-5-10 / title: 国外支配株主等及び資金供与者等に対する負債
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/13/13_66_5.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-5-10.html
+
+[p1] 措置法第66条の5第5項第4号に規定する「国外支配株主等及び資金供与者等に対する負債」は、負債の利子等の支払の基因となるものその他資金の調達に係るものに限られるのであるから、例えば、利子を付する預り敷金の額は、利子を付する期間に限り同号に規定する「国外支配株主等及び資金供与者等に対する負債」に含まれることに留意する。（平5年課法2−1「三十」により追加、平19年課法2−3「四十九」、平22年課法2−7「三十一」、平24年課法2−17「三十三」、平28年課法2−11「四十」、令3年課法2-21「二十六」により改正）

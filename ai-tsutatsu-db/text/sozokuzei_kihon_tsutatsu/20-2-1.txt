@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 20の2−1 / id: 20-2-1 / title: 邦貨換算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/09.htm#a-20_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/20-2-1.html
+
+[p1] 法第20条の2の規定による控除税額は、法施行地外にある財産について、その地の法令により課された相続税に相当する税額を、その納付すべき日における対顧客直物電信売相場により邦貨に換算した金額によるものとする。ただし、送金が著しく遅延して行われる場合を除き、国内から送金する日の対顧客直物電信売相場によることができるものとする。（昭57直資2−177、平11課資2−251、平15課資2−1改正）

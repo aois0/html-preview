@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 11−2−21 / id: 11-2-21 / title: 一括比例配分方式から個別対応方式への変更
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/11/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/11-2-21.html
+
+[p1] 一括比例配分方式を適用した事業者は、法第30条第5項《仕入控除方式の変更》の規定により一括比例配分方式を2年間以上継続した後でなければ、個別対応方式に変更できないのであるが、一括比例配分方式を適用した課税期間の翌課税期間以後の課税期間における課税売上高が5億円以下、かつ、課税売上割合が95％以上となり、同条第1項《仕入れに係る消費税額の控除》の規定が適用される場合も、一括比例配分方式を継続適用したこととなるのであるから留意する。（平24課消1−7により改正）

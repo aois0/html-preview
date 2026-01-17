@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 54−6 / id: 54-6 / title: 労働協約による退職給与規程と就業規則による退職給与規程とがある場合の繰入限度額の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/10/04.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/54-6.html
+
+[p1] 使用人の一部については労働協約による退職給与規程の適用があり、他の使用人については就業規則による退職給与規程の適用がある場合には、令第154条第1項第1号に規定する金額は、退職給与規程の適用の異なる使用人ごとにそれぞれの退職給与規程に基づいて計算する。この場合において、就業規則による退職給与規程の適用がある使用人については、同条第2項の規定を適用する。
+[p2] （注） 令第154条第2項の規定を適用する場合のその計算の基礎となる給与の総額は、就業規則による退職給与規程の適用がある使用人に係る給与の合計額に限られる。

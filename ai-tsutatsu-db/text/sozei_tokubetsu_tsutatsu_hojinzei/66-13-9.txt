@@ -1,0 +1,8 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の13−9 / id: 66-13-9 / title: 換算差損を計上した場合の特別勘定の取崩し
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/15/15_66_13.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-13-9.html
+
+[p1] 法人が特別勘定を設けている場合において、当該特別勘定に係る特定株式で外貨建てのものにつき当該事業年度終了の時において令第122条の３の規定により換算を行ったため換算差損が生じたときは、当該特別勘定の金額のうち、当該換算差損の金額に相当する金額を取り崩して益金の額に算入することに留意する。
+[p2] この場合において、当該換算差損の金額に相当する金額については、措置法令第39条の24の２第11項第１号の規定により計算することに留意する。（令2年課法2−17「三十」により追加、令5年課法2−8「二十二」により改正）

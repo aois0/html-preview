@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 46−2 / id: 46-2 / title: 相続税額を超える価額の財産による物納が許可された場合に還付された金銭の返納
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/06.htm#a-44_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/46-2.html
+
+[p1] 物納の撤回を承認する場合において、撤回を求めようとする不動産の物納を許可した際に、当該財産の収納価額と相続税額の差額相当額を金銭で還付していたときには、法第46条第10項に規定する「当該撤回に係る相続税のうちに金銭で一時に納付すべき相続税」の額の通知に併せて当該還付された金銭の返納を求めるものとする。（平18徴管5-14追加）
+[p2] 第47条((物納の撤回に係る延納申請))関係

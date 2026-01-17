@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 9−1−19の2 / id: 9-1-19-2 / title: 償還差益を対価とする資産の譲渡等の時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/09/01/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/9-1-19-2.html
+
+[p1] 令第10条第3項第6号《償還差益を対価とする資産の貸付け》に規定する償還差益を対価とする国債等の取得に係る資産の譲渡等の時期は、同号に規定する国債等の償還が行われた日とする。ただし、当該国債等が、法法令第139条の2第1項《償還有価証券の調整差益又は調整差益の益金又は損金算入》に規定する償還有価証券に該当する場合において、法人が消費税の計算上も同項の調整差益の額を各事業年度の償還差益の額としているときには、これを認める。（平12課消2−10により追加）

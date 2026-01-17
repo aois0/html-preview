@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 148−1 / id: 148-1 / title: 2以上の業務を営む場合の損益計算書及び貸借対照表の作成
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/20/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/148-1.html
+
+[p1] 不動産所得、事業所得若しくは山林所得を生ずべき業務のうち2以上の業務を営む場合又は事業所得を生ずべき業務のうち農業と農業以外の業務を営む場合には、損益計算書はそれぞれの業務に係るものの区分ごとに各別に作成し、貸借対照表は全ての業務に係るものを合併して作成するものとする。 （平23課個2−33、課法9−9、課審4−46改正）
+[p2] 法第150条《青色申告の承認の取消し》関係

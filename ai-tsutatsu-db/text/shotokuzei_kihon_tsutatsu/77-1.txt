@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 77−1 / id: 77-1 / title: 賦払の契約により購入した資産
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/77-1.html
+
+[p1] 賦払の契約により購入した資産で、その契約において代金完済後に所有権を移転する旨の特約が付されているものであっても、常時その居住の用又は日常の生活の用に供しているものは、その者が所有する資産として、法第77条第1項の規定を適用することができるものとする。

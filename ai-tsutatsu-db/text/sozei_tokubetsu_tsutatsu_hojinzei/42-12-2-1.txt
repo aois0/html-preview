@@ -1,0 +1,10 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 42の12の2-1 / id: 42-12-2-1 / title: 控除対象通算適用前欠損調整額等のうち控除されなかった金額を明らかにする書類
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/01/01_42_12_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/42-12-2-1.html
+
+[p1] 措置法令第27条の12の2第3項に規定する「当該金額を明らかにする書類」には、例えば、地方税法施行規則第六号様式別表二から第六号様式別表二の八まで又は第二十号様式別表二から第二十号様式別表二の八までの控えの写しが該当する。（平28年課法2−11「十一」により追加、令４年課法２−14「十二」により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第42条の12の4《中小企業者等が特定経営力向上設備等を取得した場合の特別償却又は法人税額の特別控除》関係
+[p4] 第42条の12の4《中小企業者等が特定経営力向上設備等を取得した場合の特別償却又は法人税額の特別控除》関係

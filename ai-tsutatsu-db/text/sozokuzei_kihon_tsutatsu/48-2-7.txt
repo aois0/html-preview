@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 48の2−7 / id: 48-2-7 / title: 「収納のときの現況により当該財産の収納価額を定める」の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/06.htm#a-44_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/48-2-7.html
+
+[p1] 法第48条の2第5項に規定する「収納の時の現況により当該財産の収納価額を定める」とは、その状況に著しい変化を生じた財産が、収納の時の状態で特定物納の申請をした時にあったものとして、その特定物納を申請した時における価額によって当該収納価額を定めるという趣旨であるから留意する。
+[p2] なお、「当該財産の状況に著しい変化を生じた」かどうかの判定は、原則として、許可の時における物納財産の現況によるのであるから留意する。（平18徴管5-14追加）

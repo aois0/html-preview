@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 11−7−3 / id: 11-7-3 / title: 合理的区分の方法
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/11/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/11-7-3.html
+
+[p1] 令第50条の2第1項《仕入れに係る消費税額の控除の対象外となる居住用賃貸建物の範囲》に規定する「住宅の貸付けの用に供しないことが明らかな部分がある居住用賃貸建物」とは、例えば、建物の一部が店舗用の構造等となっている居住用賃貸建物をいい、同項に規定する「合理的に区分している」とは、使用面積割合や使用面積に対する建設原価の割合など、その建物の実態に応じた合理的な基準により区分していることをいう。（令2課消2-9により追加）

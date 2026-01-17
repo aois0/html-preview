@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 70−14 / id: 70-14 / title: 更正により純損失の金額が増加した場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/15/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/70-14.html
+
+[p1] 純損失の金額が生じた年分の所得税につき確定申告書を提出した場合において、当該確定申告書に記載された純損失の金額又は法第70条第2項各号に掲げる損失の金額が過少であるため更正が行われたときは、その更正後の金額を基として同条第1項又は第2項の規定を適用することに留意する。（平23課個2−33、課法9−9、課審4−46改正）

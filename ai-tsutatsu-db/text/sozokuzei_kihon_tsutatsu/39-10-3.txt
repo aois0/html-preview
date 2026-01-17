@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 39−10の3 / id: 39-10-3 / title: 法施行令第16条の2第1項第2号の「不服申立て」
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/02.htm#a-39_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/39-10-3.html
+
+[p1] 法施行令第16条の2第1項第2号の「不服申立て」とは、法第39条第10項に規定する処分については、第12項に規定する期限までに行われた不服申立てに限られるのであるから留意する。
+[p2] （注） 法第39条第12項に規定する期限を経過した場合、延納申請は取り下げたものとみなされることに留意する。

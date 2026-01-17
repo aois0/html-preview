@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 90−7 / id: 90-7 / title: 前年分及び前前年分のいずれかの年分の変動所得が赤字である場合の平均額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/17/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/90-7.html
+
+[p1] 前年分又は前前年分のいずれかの年分の変動所得が赤字である場合における法第90条第1項又は第3項に規定する「前年分及び前前年分の変動所得の金額の合計額の2分の1に相当する金額」は、当該いずれかの年分の変動所得の赤字を他の年分の変動所得の金額と通算した後の黒字の金額の2分の1に相当する金額とする。

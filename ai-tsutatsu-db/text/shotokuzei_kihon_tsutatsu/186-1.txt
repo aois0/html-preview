@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 186−1 / id: 186-1 / title: 賞与から控除する源泉控除対象配偶者及び控除対象扶養親族に係る控除
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/31/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/186-1.html
+
+[p1] 法第186条第1項第1号イ及びロ又は同条第2項第1号に規定する「給与所得者の扶養控除等申告書に記載された主たる給与等に係る源泉控除対象配偶者及び控除対象扶養親族の有無及びその数」は、その賞与を支払うべき日の現況によることに留意する。（平22課個2−16、課法9−1、課審4−30、平29課法10−13、課個2−22、課審5−8改正）

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 37−4 / id: 37-4 / title: 酒税等の両建経理
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/37-4.html
+
+[p1] 酒税等は、消費者、利用者等から領収する金額を総収入金額に算入し、申告、更正若しくは決定又は賦課決定（以下37−6において「申告等」という。）により納付する金額を必要経費に算入する。（平元直所3−14、直法6−9、直資3−8、平13課個2−30、課資3−3、課法8−9改正）

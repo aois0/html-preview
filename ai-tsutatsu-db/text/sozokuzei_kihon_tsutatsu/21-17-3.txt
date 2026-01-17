@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 21の17-3 / id: 21-17-3 / title: 相続人が特定贈与者のみである場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/12.htm#a-21_11_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/21-17-3.html
+
+[p1] 相続時精算課税適用者の相続人が特定贈与者のみである場合には、相続時精算課税の適用に伴う権利義務は当該特定贈与者及び当該相続時精算課税適用者の民法第889条((直系尊属及び兄弟姉妹の相続権))の規定による後順位の相続人となる他の者には承継されないのであるから留意する。
+[p2] したがって、この場合には、当該特定贈与者の死亡に係る当該相続時精算課税適用者の相続税の申告は必要がないこととなる。（平15課資2-1追加、平17課資2-4改正）

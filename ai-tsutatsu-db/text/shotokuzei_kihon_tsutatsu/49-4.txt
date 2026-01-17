@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−4 / id: 49-4 / title: 減価償却資産の取得に際して支払う立退料等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-4.html
+
+[p1] 減価償却資産の取得に際し、当該減価償却資産を使用していた者に支払う立退料その他立ち退かせるために要した金額は、当該減価償却資産の取得価額に算入する。
+[p2] （注） 土地及び減価償却資産でない建物等の取得に際して支払う立退料については、38−11参照

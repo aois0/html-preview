@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 65の2-9 / id: 65-2-9 / title: 関連事業
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/10/10_65_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/65-2-9.html
+
+[p1] 土地収用法第16条に規定する関連事業は、本体事業から独立した別個の事業ではなく、本体事業に付随する事業として、本体事業とともに措置法第65条の2第3項第2号に規定する「一の収用換地等に係る事業」に該当することに留意する。

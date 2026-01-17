@@ -1,0 +1,9 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−5−1 / id: 2-5-1 / title: 仕入割戻しの計上時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-5-1.html
+
+[p1] 購入した棚卸資産に係る仕入割戻しの金額の計上の時期は、次の区分に応じ、次に掲げる事業年度とする。（昭55年直法2−8「九」、平12年課法2−7「六」、平30年課法2−8「六」により改正）
+[p2] (1) その算定基準が購入価額又は購入数量によっており、かつ、その算定基準が契約その他の方法により明示されている仕入割戻し 購入した日の属する事業年度
+[p3] (2) (1)に該当しない仕入割戻し その仕入割戻しの金額の通知を受けた日の属する事業年度

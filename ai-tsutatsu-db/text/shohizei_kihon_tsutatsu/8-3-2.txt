@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 8−3−2 / id: 8-3-2 / title: 購入記録情報の国税庁長官への提供の時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/08/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/8-3-2.html
+
+[p1] 購入記録情報の国税庁長官への提供は、令第18条第７項《購入記録情報の提供》の規定により、免税販売手続の際、遅滞なく行わなければならないため、原則として、免税対象物品の譲渡に係る免税販売手続の都度、購入記録情報を国税庁長官に提供しなければならないことに留意する。（令５課消２−３により改正）

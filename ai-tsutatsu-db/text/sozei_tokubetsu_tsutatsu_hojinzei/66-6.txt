@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66−6 / id: 66-6 / title: 2以上の交換取得資産を取得した場合における圧縮限度額の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/10/10_66.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-6.html
+
+[p1] 2以上の交換取得資産（措置法第66条第1項に規定する交換取得資産をいう。以下同じ。）を取得した場合における個々の交換取得資産に係る同項に規定する圧縮限度額は、交換譲渡資産（同項に規定する交換譲渡資産をいう。以下同じ。）の譲渡直前の帳簿価額に当該交換取得資産の取得価額の合計額のうちに占める個々の交換取得資産の取得価額の割合を乗じて計算した金額による。（平19年課法2−3「四十七」により追加）

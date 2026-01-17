@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 24-1 / id: 24-1 / title: 剰余金の配当、利益の配当又は剰余金の分配に含まれるもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/24-1.html
+
+[p1] 法第24条第1項に規定する「剰余金の配当」、「利益の配当」及び「剰余金の分配」には、剰余金又は利益の処分により配当又は分配をしたものだけでなく、法人が株主等に対しその株主等である地位に基づいて供与した経済的な利益が含まれる。（平13課法8-2、課個2-7改正、課法8-6、課個2-17、課審3-89、平18課個2-18、課資3-10、課審4-114、平19課個2-11、課資3-1、課法9-5、課審4-26改正）

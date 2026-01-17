@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 48−3 / id: 48-3 / title: 有価証券の購入のために要した費用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/48-3.html
+
+[p1] 令第109条第1項第5号に規定する「その他その有価証券の購入のために要した費用」とは、有価証券を購入するに当たって支出した謝礼金、交通費、通信費、名義書換料等をいう。（平18課個2−18、課資3−10、課審4−114追加、平28課個2-22、課審5-18改正）

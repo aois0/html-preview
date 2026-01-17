@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 174−8 / id: 174-8 / title: 一部解約の場合の課税関係等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/26/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/174-8.html
+
+[p1] 法第174条第8号に規定する解約返戻金には、保険契約等の一部を解約したことにより支払われる返戻金又は還付金が含まれるのであるが、この場合において、当該解約後において継続する保険契約等に係る一時払に準ずる払込方法の判定（174−5に規定する払込保険料等の割合の判定をいう。）に当たっては、当該解約部分に相当する保険料等の金額はないものとなることに留意する。（昭63直法6−7、直所3−8追加、平3直法6−1、直所3−3改正）

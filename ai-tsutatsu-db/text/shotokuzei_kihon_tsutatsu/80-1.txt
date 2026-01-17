@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 80−1 / id: 80-1 / title: 配偶者控除を受ける場合の寡婦控除
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/06.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/80-1.html
+
+[p1] 年の中途において夫と死別した妻でその年において寡婦に該当するものについては、たとえその者が死別した夫につき配偶者控除の規定の適用を受ける場合であっても、寡婦控除の規定の適用があることに留意する。（昭57直所3−1、令2課個2−12、課法11−3、課審5−6改正）
+[p2] 法第81条《ひとり親控除》関係

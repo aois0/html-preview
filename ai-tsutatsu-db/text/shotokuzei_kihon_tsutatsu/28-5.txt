@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 28−5 / id: 28-5 / title: 雇用契約等に基づいて支給される結婚祝金品等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/28-5.html
+
+[p1] 使用者から役員又は使用人に対し雇用契約等に基づいて支給される結婚、出産等の祝金品は、給与等とする。ただし、その金額が支給を受ける者の地位等に照らし、社会通念上相当と認められるものについては、課税しなくて差し支えない。

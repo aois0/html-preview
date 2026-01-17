@@ -1,0 +1,10 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 18−1−8 / id: 18-1-8 / title: 価格表示をしていない場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/18/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/18-1-8.html
+
+[p1] 総額表示の対象となるのは、あらかじめ課税資産の譲渡等に係る資産又は役務の価格を表示する場合であり、価格表示をしていない場合にまで表示を義務付けるものではないことに留意する。（令５課消２−９により追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第19章 消費税と地方消費税との関係
+[p4] 第19章 消費税と地方消費税との関係

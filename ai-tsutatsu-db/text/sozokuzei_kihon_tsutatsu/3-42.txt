@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 3−42 / id: 3-42 / title: 定期金給付事由の発生前に掛金又は保険料の負担者が死亡した場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/04.htm#a-3_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/3-42.html
+
+[p1] 定期金給付事由の発生前に掛金又は保険料の負担者が死亡した場合におけるその定期金給付契約に関する権利は、契約者と掛金又は保険料の負担者とが同一人でないときは法第3条第1項第4号の規定によって契約者が掛金又は保険料の負担者からその負担した掛金又は保険料の金額のその相続の開始の時までに払い込まれた掛金又は保険料の全額に対する割合に相当する部分を相続又は遺贈により取得したものとみなされ、契約者と掛金又は保険料の負担者が同一人であるときは当該掛金又は保険料の負担者の本来の相続財産となることに留意する。（平4課資2−158改正）

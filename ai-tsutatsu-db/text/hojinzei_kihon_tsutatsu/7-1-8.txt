@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−1−8 / id: 7-1-8 / title: 公共下水道施設の使用のための負担金
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_01_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-1-8.html
+
+[p1] 法人が、下水道法第2条第3号《公共下水道の定義》に規定する公共下水道を使用する排水設備を新設し、又は拡張する場合において、公共下水道管理者に対してその新設又は拡張により必要となる公共下水道の改築に要する費用を負担するときは、その負担金の額については、水道施設利用権に準じて取り扱う。

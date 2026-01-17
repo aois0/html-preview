@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 2−42 / id: 2-42 / title: 生死が明らかでない者の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/07.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/2-42.html
+
+[p1] 令第11条第3号又は第4号《寡婦の範囲》に規定する危難に遭遇した者で、同一の危難に遭遇した者について既に死亡が確認されているなど、当該危難の状況からみて生存していることが期待できないと認められるものについては、当該危難があった時からこれらの号に掲げる者に該当するものとして差し支えない。この場合において、後日その者の生存が確認されたときにおいても、その確認された日前の寡婦又はひとり親の判定については影響がないものとする。（昭49直所2−23、昭57直所3−1、令2課個2−12、課法11−3、課審5−6改正）
+[p2] 〔勤労学生（第32号関係）〕

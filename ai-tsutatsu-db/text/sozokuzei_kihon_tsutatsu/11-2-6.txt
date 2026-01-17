@@ -1,0 +1,9 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 11の2−6 / id: 11-2-6 / title: 譲渡担保
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/01.htm#a-11_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/11-2-6.html
+
+[p1] いわゆる譲渡担保（金銭消費貸借の担保として当該担保物の所有権を移転したもの又は債務金額によって買戻しする特約のあるものをいう。）については、原則として、次により取り扱うものとする。（昭57直資2−177改正）
+[p2] （1） 債権者については、債権金額に相当する金額を当該債権者の課税価格計算の基礎に算入し、当該譲渡担保の目的たる財産の価額に相当する金額は、これに算入しないこと。
+[p3] （2） 債務者については、当該譲渡担保の目的たる財産の価額に相当する金額を当該債務者の課税価格計算の基礎に算入し、債務金額に相当する金額は控除すること。

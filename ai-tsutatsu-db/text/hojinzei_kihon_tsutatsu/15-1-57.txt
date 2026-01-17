@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−57 / id: 15-1-57 / title: 日本赤十字社等が行う医療保健業
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_29.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-57.html
+
+[p1] 令第5条第1項第29号《非課税とされる医療保健業》に掲げる公益法人等(同号チからルまで及びカに掲げる公益法人等を除く。)については、その行う医療保健業の全てが収益事業とならないことに留意する。(昭56年直法2−16「七」により追加、昭59年直法2−3「九」、平6年課法2−1「九」、平6年課法2−5「九」、平19年課法2−17「二十九」、平20年課法2−5「二十九」、平23年課法2−17「三十二」、平26年課法2-6「五」により改正)

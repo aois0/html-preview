@@ -1,0 +1,9 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 12−1−10 / id: 12-1-10 / title: 仕入割戻しを受けた日
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/12/01/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/12-1-10.html
+
+[p1] 資産の譲渡等に係る仕入割戻しについては、次の区分に応じ、次に掲げる日に当該仕入割戻しを受けたものとする。
+[p2] (1) その算定基準が購入価額又は購入数量によっており、かつ、その算定基準が契約その他の方法により明示されている仕入割戻し 資産の譲渡等を受けた日
+[p3] (2) (1)に該当しない仕入割戻し その仕入割戻しの金額の通知を受けた日

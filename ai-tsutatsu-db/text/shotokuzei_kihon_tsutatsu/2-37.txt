@@ -1,0 +1,12 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 2−37 / id: 2-37 / title: 臨時所得に該当するもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/06.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/2-37.html
+
+[p1] 次に掲げるものに係る所得は、令第8条の臨時所得に該当する。（昭49直所2−23改正）
+[p2] （1） 3年以上の期間にわたる不動産の貸付けの対価の総額として一括して支払を受ける賃貸料で、その全額がその年分の不動産所得の総収入金額に算入されるべきもの
+[p3] （4） 金銭債権の債務者から受ける債務不履行に基づく損害賠償金及び通則法第58条第1項《還付加算金》又は地方税法第17条の4第1項《還付加算金》に規定する還付加算金で、その金額の計算の基礎とされた期間が3年以上であるもの
+[p4] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p5] 〔変動所得（第23号関係）〕
+[p6] 〔変動所得（第23号関係）〕

@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 37−5 / id: 37-5 / title: 固定資産税等の必要経費算入
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/37-5.html
+
+[p1] 業務の用に供される資産に係る固定資産税、登録免許税（登録に要する費用を含み、その資産の取得価額に算入されるものを除く。）、不動産取得税、地価税、特別土地保有税、事業所税、自動車取得税等は、当該業務に係る各種所得の金額の計算上必要経費に算入する。（昭51直所3−1、直法6−1、直資3−1、平5課所4−1、平17課個2−23、課資3−5、課法8−6、課審4−113改正）
+[p2] 1 上記の業務の用に供される資産には、相続、遺贈又は贈与により取得した資産を含むものとする。
+[p3] 2 その資産の取得価額に算入される登録免許税については、49−3参照

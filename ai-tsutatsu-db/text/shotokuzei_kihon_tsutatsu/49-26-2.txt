@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−26の2 / id: 49-26-2 / title: 工業所有権の実施権等の償却費の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/09.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-26-2.html
+
+[p1] 工業所有権の実施権又は使用権で、その存続期間が当該工業所有権の耐用年数より短いものについては、当該存続期間（1年未満の端数は切り捨てる。）を耐用年数として償却費を計算するものとする。（昭55直所3−19、直法6−8追加）
+[p2] 〔生物の償却〕

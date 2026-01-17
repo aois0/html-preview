@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 13−1−2 / id: 13-1-2 / title: 合併法人等が簡易課税制度を選択する場合の基準期間の課税売上高の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/13/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/13-1-2.html
+
+[p1] 吸収合併又は吸収分割があった場合において、当該吸収合併に係る合併法人又は当該吸収分割に係る分割承継法人の法第37条第1項《中小事業者の仕入れに係る消費税額の控除の特例》に規定する基準期間における課税売上高が5,000万円を超えるかどうかは、当該合併法人又は当該分割承継法人の基準期間における課税売上高のみによって判定するのであるから留意する。（平13課消1−5、平15課消1−37により改正）

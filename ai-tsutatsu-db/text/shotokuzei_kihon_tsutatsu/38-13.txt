@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 38−13 / id: 38-13 / title: 治山工事等の費用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/18.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/38-13.html
+
+[p1] 天然林を人工林に転換するために必要な地ごしらえ又は治山の工事のために支出した金額は、構築物の取得費に算入されるものを除き、林地の取得費に算入する。

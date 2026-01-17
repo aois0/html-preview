@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−55 / id: 15-1-55 / title: 遊覧所業の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_28.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-55.html
+
+[p1] 令第5条第1項第28号《遊覧所業》の遊覧所業とは、展望台、パノラマ、遊園地、庭園、動植物園、海中公園等のように、専ら不特定又は多数の者をして一定の場所を遊歩し、天然又は人工の物、景観等を観覧させる場合におけるその事業をいう。（昭56年直法2−16「七」により追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第29款 医療保健業
+[p4] 第29款 医療保健業

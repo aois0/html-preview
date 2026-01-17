@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 1−5−1 / id: 1-5-1 / title: 納税義務が免除されない相続人の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/01/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/1-5-1.html
+
+[p1] 法第10条第1項《相続があった場合の納税義務の免除の特例》に規定する「その年の基準期間における課税売上高が1,000万円以下である相続人」には、相続のあった日において現に事業を行っている相続人で当該相続のあった日の属する年の基準期間における課税売上高が1,000万円以下である者及び相続があった日の属する年の基準期間において事業を行っていない相続人が該当するのであるから留意する。（平15課消1−37により改正）

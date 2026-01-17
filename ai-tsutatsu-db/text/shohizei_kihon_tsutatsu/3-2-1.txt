@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 3−2−1 / id: 3-2-1 / title: 新たに設立された法人の最初の課税期間開始の日
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/03/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/3-2-1.html
+
+[p1] 新たに設立された法人の最初の課税期間の開始の日は、法人の設立の日となることに留意する。この場合において、設立の日は、設立の登記により成立する法人にあっては設立の登記をした日、行政官庁の認可又は許可によって成立する法人にあってはその認可又は許可の日をいう。（平9課消2−5、平13課消1−5、平14課消1−12により改正）

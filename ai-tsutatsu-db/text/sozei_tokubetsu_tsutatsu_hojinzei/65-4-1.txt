@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 65の4-1 / id: 65-4-1 / title: 
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/10/10_65_4.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/65-4-1.html
+
+[p1] 措置法第65条の4第1項第1号に規定する住宅の建設又は宅地の造成を行う者が同号に掲げる者であり、かつ、当該住宅の建設又は宅地の造成のために土地等の買取りをする者が同号に掲げる者である場合には、当該住宅の建設又は宅地の造成の事業施行者と当該買取りをする者とが異なっていても、同号の適用があることに留意する。（昭50年直法2-21「54」により改正）

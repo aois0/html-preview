@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 55-7 / id: 55-7 / title: 海外投資等損失準備金の経理
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/02/02_55_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/55-7.html
+
+[p1] 海外投資等損失準備金の金額は、原則として、その積立事業年度(措置法第55条第3項に規定する積立事業年度をいう。以下同じ。)の翌事業年度から5年間据え置き、5年を経過した事業年度から更に5年間で均分して取り崩すこととなるのであるから、積立事業年度別に海外投資等損失準備金の残額及び取崩しの状況を補助簿等において明確に経理するものとする。(平11年課法2-9「二十八」、平15年課法2-7「三十四」、令４年課法２−14「二十七」により改正)

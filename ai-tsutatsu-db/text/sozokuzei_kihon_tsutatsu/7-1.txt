@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 7−1 / id: 7-1 / title: 著しく低い価額の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/05.htm#a-5_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/7-1.html
+
+[p1] 法第7条に規定する「著しく低い価額」であるかどうかは、譲渡があった財産が2以上ある場合には、譲渡があった個々の財産ごとに判定するのではなく、財産の譲渡があった時ごとに譲渡があった財産を一括して判定するものとする。（昭57直資2−177改正）

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 24-10 / id: 24-10 / title: 負債の利子につき月数あん分を行う場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/24-10.html
+
+[p1] 令第59条第２項《配当所得の金額の計算上控除する負債の利子》の規定による負債の利子の月数あん分は、株式等を年の中途において取得し又は譲渡した場合で、当該株式等に係る負債の利子がその年１月１日から12月31日までの期間について計算されたものであるときに限り行うことに留意する。（平27課個2-11、課法10-16、課審5-7、令5課個2-25、課法12-11、課審5-9改正）

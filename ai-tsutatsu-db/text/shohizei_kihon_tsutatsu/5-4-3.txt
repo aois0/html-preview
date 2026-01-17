@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−4−3 / id: 5-4-3 / title: 借家保証金、権利金等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-4-3.html
+
+[p1] 建物又は土地等の賃貸借契約等の締結又は更改に当たって受ける保証金、権利金、敷金又は更改料（更新料を含む。）のうち賃貸借期間の経過その他当該賃貸借契約等の終了前における一定の事由の発生により返還しないこととなるものは、権利の設定の対価であるから資産の譲渡等の対価に該当するが、当該賃貸借契約の終了等に伴って返還することとされているものは、資産の譲渡等の対価に該当しないことに留意する。

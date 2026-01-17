@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 47−3 / id: 47-3 / title: 月別総平均法等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/47-3.html
+
+[p1] 1月ごとに総平均法又は移動平均法により計算した価額を当該月末における棚卸資産の取得価額とみなし、翌月においてこれを繰越価額として順次計算することによりその年12月31日における棚卸資産の取得価額を計算する方法は、それぞれ総平均法又は移動平均法に該当するものとする。（平21課個2-29、課審4-52改正）

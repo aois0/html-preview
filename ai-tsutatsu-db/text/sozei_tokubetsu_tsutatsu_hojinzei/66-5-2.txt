@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の5−2 / id: 66-5-2 / title: 
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/13/13_66_5.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-5-2.html
+
+[p1] 削除（平5年課法2−1「三十」により追加、平15年課法2−7「七十」、平19年課法2−3「四十九」、平22年課法2−7「三十一」、平24年課法2−17「三十三」により改正、平28年課法2−11「四十」により削除）

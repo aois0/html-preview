@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−12 / id: 49-12 / title: 未成熟の植物から収穫物があった場合等の取得価額の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-12.html
+
+[p1] 令第6条第9号ロ及びハ《減価償却資産の範囲》に掲げる植物につき、その植物が成熟するまでの間に次に掲げる事実が生じた場合には、その植物の取得価額の計算については、それぞれ次によるものとする。
+[p2] （1） 収穫物が収穫されたこと。 令第126条第1項第4号イに掲げる金額から当該収穫物の価額に相当する金額を控除して取得価額を計算する。
+[p3] （2） 災害等による損害が生じ、又はその損害を防止するための支出をしたこと。 当該損害を回復するために支出した費用（資本的支出に属する費用を除く。）及び当該損害を防止するために支出した費用を除いて取得価額を計算する。

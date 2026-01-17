@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−4−7 / id: 9-4-7 / title: 特定公益増進法人の主たる目的である業務に関連する寄附金であるかどうかの判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_04_05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-4-7.html
+
+[p1] 法第37条第4項《寄附金の損金不算入》に規定する「当該法人の主たる目的である業務に関連する寄附金」であるかどうかは、当該法人の募金趣意書、事業計画書、募金計画書の写し等を総合勘案して判定する。（昭63年直法2−14「四」、平10年課法2−7「十一」、平15年課法2−7「二十五」、平19年課法2−3「二十三」、令3年課法2−21「十」により改正）

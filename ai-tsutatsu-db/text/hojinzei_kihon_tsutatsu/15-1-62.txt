@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−62 / id: 15-1-62 / title: 地域医師等による利用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_29.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-62.html
+
+[p1] 規則第5条第3号《非課税とされるオープン病院等》の地域医師等による「利用」には、当該地域医師等が同号に規定する病院等で同条第1号に規定する医師会法人等(以下15−1−63において「医師会法人等」という。)の開設するもの(以下15−1−63において「医師会病院等」という。)へ患者を転院させるなどの方法により利用するものが含まれる。(昭56年直法2−16「七」により追加、昭57年直法2−11「十四」、平11年課法2−9「二十一」により改正)

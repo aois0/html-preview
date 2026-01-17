@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 164-2 / id: 164-2 / title: 恒久的施設を有する非住居者に対する課税の方法
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/23/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/164-2.html
+
+[p1] 恒久的施設を有する非住居者については、法第161条第1項第2号、第3号、第5号から第7号まで及び第17号（（国内源泉所得））に掲げる所得であっても、同項第1号に掲げる所得に該当するものは、同号に掲げる所得として、法第164条第1項の規定を適用することに留意する（平28課2−4、課法11−8、課審5−5追加）。

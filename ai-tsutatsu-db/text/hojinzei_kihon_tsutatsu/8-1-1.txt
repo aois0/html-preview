@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 8−1−1 / id: 8-1-1 / title: 定款記載を欠く設立費用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/08/08_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/8-1-1.html
+
+[p1] 法人がその設立のために通常必要と認められる費用を支出した場合において、当該費用を当該法人の負担とすべきことがその定款等で定められていないときであっても、当該費用は令第14条第1項第1号《創立費》に規定する「法人の設立のために支出する費用で、当該法人の負担に帰すべきもの」に該当するものとする。（昭55年直法2−8「二十八」により追加、平19年課法2−17「十六」により改正）

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 34−3 / id: 34-3 / title: 一時所得の収入を得るために支出した金額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/34-3.html
+
+[p1] 法第34条第2項に規定する「収入を得るために支出した金額」には、例えば、懸賞クイズ等の当選金品の一部を公益施設等に寄附する定めがある場合に当該定めに基づき寄附した金品又は当該当選金品に係る所得が国外源泉所得である場合に当該所得について外国において課された外国税額（法第95条((外国税額控除))又は第138条第1項((源泉徴収税額等の還付))の規定の適用を受けるものを除く。）も含まれる。（平20課個2−17、課審4−186、課法9−3改正）

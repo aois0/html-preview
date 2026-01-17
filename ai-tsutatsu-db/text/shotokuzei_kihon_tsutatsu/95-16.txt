@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 95−16 / id: 95-16 / title: 外国所得税額に増額があった場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/17/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/95-16.html
+
+[p1] 居住者が外国所得税の額につき法第95条第1項から第3項までの規定の適用を受けた場合において、その適用を受けた年分後の年分に当該外国所得税の額の増額があったときは、当該増額した外国所得税の額は、当該増額のあった日の属する年分において新たに生じたものとして同条の規定を適用する（平28課2−4、課法11−8、課審5−5追加）。

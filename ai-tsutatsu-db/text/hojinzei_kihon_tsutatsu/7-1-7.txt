@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−1−7 / id: 7-1-7 / title: 温泉利用権
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_01_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-1-7.html
+
+[p1] 法人が温泉を湧出する土地を取得した場合におけるその取得に要した金額から当該土地に隣接する温泉を湧出しない土地の価額に比準して計算した土地の価額を控除した金額又は温泉を利用する権利を取得するために要した金額については、水利権に準じて取り扱う。ただし、温泉を利用する権利だけを取得した場合において、その利用につき契約期間の定めがあるもの(契約期間を延長しない旨の明らかな定めのあるものに限る。)については、その契約期間を耐用年数として償却することができる。

@@ -1,0 +1,13 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 13−5 / id: 13-5 / title: 葬式費用でないもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/03.htm#a-13_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/13-5.html
+
+[p1] 次に掲げるような費用は、葬式費用として取り扱わないものとする。（昭和57直資2
+[p2] −
+[p3] 177改正）
+[p4] （1） 香典返戻費用
+[p5] （2） 墓碑及び墓地の買入費並びに墓地の借入料
+[p6] （3） 法会に要する費用
+[p7] （4） 医学上又は裁判上の特別の処置に要した費用

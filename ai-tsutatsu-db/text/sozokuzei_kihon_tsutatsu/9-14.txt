@@ -1,0 +1,10 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 9-14 / id: 9-14 / title: 法第7条の規定に関する取扱いの準用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/06.htm#a-9_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/9-14.html
+
+[p1] 法第9条に規定する「著しく低い価額」、「債務」、「資力を喪失して債務を弁済することが困難である場合」及び「債務を弁済することが困難である部分の金額」については、7-1及び7-3から7-5までの取扱いに準ずるものとする。(昭57直資2-177改正、平15課資2-1、平19課資2-5、課審6-3改正)
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第9条《その他の利益の享受》関係
+[p4] 第9条《その他の利益の享受》関係

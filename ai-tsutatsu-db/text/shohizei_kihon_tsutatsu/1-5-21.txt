@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 1−5−21 / id: 1-5-21 / title: 法第12条の2第2項の規定が適用される新設法人
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/01/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/1-5-21.html
+
+[p1] 法第12条の2第2項《基準期間がない課税期間中に調整対象固定資産を取得した新設法人の納税義務の免除の特例》の規定が適用される新設法人は、その基準期間がない事業年度開始の日における資本金の額又は出資の金額が1,000万円以上である同条第1項《新設法人の納税義務の免除の特例》に規定する新設法人をいうのであるから、同項の規定により法第9条第1項本文《小規模事業者に係る納税義務の免除》の規定が適用されない新設法人に限られないことに留意する。（平22課消1−9により追加、平25課消1−34により改正）

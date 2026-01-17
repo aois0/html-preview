@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 95−6 / id: 95-6 / title: 複数の国外事業所等を有する場合の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/17/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/95-6.html
+
+[p1] 居住者の国外事業所等（法第95条第4項第1号に規定する国外事業所等をいう。以下この項において同じ。）が複数ある場合には、当該国外事業所等ごとに国外事業所等帰属所得を認識し当該国外事業所等帰属所得に係る所得の金額の計算を行うことに留意する（平28課2−4、課法11−8、課審5−5追加）。
+[p2] （注） 一の外国に事業活動の拠点が複数ある場合には、当該一の外国の複数の事業活動の拠点全体を一の国外事業所等として本文の認識及び計算を行うことに留意する。

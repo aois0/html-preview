@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 37-32 / id: 37-32 / title: 間伐した山林に係る必要経費
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/10.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/37-32.html
+
+[p1] 間伐により譲渡した山林に係る山林所得の金額の計算上必要経費に算入する費用の額には、当該山林の伐採及び譲渡に要した費用の額のほか、当該山林に係る植林費、取得に要した費用、管理費及び育成費の額が含まれる。

@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 16−2−4 / id: 16-2-4 / title: 地方公営企業の減価償却費に充てるための補助金の使途の特定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/16/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/16-2-4.html
+
+[p1] 地方公営企業法第20条《計理の方法》の規定の適用を受ける地方公共団体の経営する企業が一般会計等から減価償却費を対象とする補助金を収受する場合の当該補助金は、令第75条《国、地方公共団体等の仕入れに係る消費税額の特例》に規定する特定支出のためにのみ使用することとされている収入に該当するものとして取り扱う。

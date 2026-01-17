@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 13の2−1−1 / id: 13-2-1-1 / title: いわゆる外貨建て円払いの取引
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/13_2/13_2_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/13-2-1-1.html
+
+[p1] 法第61条の8第1項《外貨建取引の換算》に規定する外貨建取引（以下この章において「外貨建取引」という。）は、その取引に係る支払が外国通貨で行われるべきこととされている取引をいうのであるから、例えば、債権債務の金額が外国通貨で表示されている場合であっても、その支払が本邦通貨により行われることとされているものは、ここでいう外貨建取引には該当しないことに留意する。（昭54年直法2−31「七」により追加、平6年課法2−1「六」、平8年課法2−6、平10年課法2−17「八」、平12年課法2−7「十九」により改正）

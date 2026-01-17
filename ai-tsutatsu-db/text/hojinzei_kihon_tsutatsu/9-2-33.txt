@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−2−33 / id: 9-2-33 / title: 被合併法人の役員に対する退職給与の損金算入
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_02_07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-2-33.html
+
+[p1] 合併に際し退職した当該合併に係る被合併法人の役員に支給する退職給与の額が合併承認総会等において確定されない場合において、被合併法人が退職給与として支給すべき金額を合理的に計算し、合併の日の前日の属する事業年度において未払金として損金経理したときは、これを認める。（平14年課法2−1「二十」により追加、平19年課法2−3「二十二」により改正）

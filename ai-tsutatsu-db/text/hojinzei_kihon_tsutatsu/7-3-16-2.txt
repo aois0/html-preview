@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−3−16の2 / id: 7-3-16-2 / title: 減価償却資産以外の固定資産の取得価額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_03_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-3-16-2.html
+
+[p1] 減価償却資産以外の固定資産の取得価額については、別に定めるもののほか、令第54条《減価償却資産の取得価額》の規定及びこれに関する取扱いの例による。
+[p2] なお、資本的支出に相当する金額は当該固定資産の取得価額に加算する。（昭55年直法2−8「二十一」により追加、平19年課法2−7「四」により改正）

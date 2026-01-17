@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 11−5−1 / id: 11-5-1 / title: 課税売上割合の計算単位
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/11/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/11-5-1.html
+
+[p1] 課税売上割合は、事業者が当該課税期間中に国内において行った資産の譲渡等の対価の額の合計額に占める課税資産の譲渡等の対価の額の合計額の割合をいうのであるから、課税売上割合の計算を事業所単位又は事業部単位等で行うことはできないことに留意する。

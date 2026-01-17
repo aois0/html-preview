@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 11−2−7 / id: 11-2-7 / title: 共同行事等に係る負担金
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/11/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/11-2-7.html
+
+[p1] 同業者団体等の構成員が共同して行う宣伝、販売促進、会議等に要した費用を賄うために当該同業者団体等が構成員から受ける負担金等について、当該費用の全額について構成員ごとの負担割合が予め定められ、かつ、当該同業者団体等において当該宣伝等をその負担割合に応じて構成員が実施したものとして取り扱っている場合は、それを支払う構成員において当該負担金等の費途ごとに、法第2条第1項第12号《課税仕入れの意義》の規定を適用することとなる。（令５課消２−９により改正）

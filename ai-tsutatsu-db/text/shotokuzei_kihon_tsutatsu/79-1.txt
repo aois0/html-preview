@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 79−1 / id: 79-1 / title: 障害者控除を受ける場合の配偶者控除等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/06.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/79-1.html
+
+[p1] 障害者である同一生計配偶者又は扶養親族が居住者の控除対象配偶者に該当し、かつ、他の居住者の控除対象扶養親族に該当する場合又は2以上の居住者の控除対象扶養親族に該当する場合において、当該障害者である控除対象配偶者又は控除対象扶養親族につき、一の居住者が配偶者控除又は扶養控除の規定の適用を受け、他の居住者が障害者控除の規定の適用を受けるようなことはできないことに留意する。（平22課個2−16、課法9−1、課審4−30、平29課法10−13、課個2−22、課審5−8改正）

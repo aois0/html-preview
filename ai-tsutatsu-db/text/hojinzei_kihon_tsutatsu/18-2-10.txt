@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 18−2−10 / id: 18-2-10 / title: 無国籍構成会社等に対する適用免除基準の不適用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/18/18_02_06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/18-2-10.html
+
+[p1] 無国籍構成会社等については、法第82条の2第７項及び第８項《国際最低課税額》の規定の適用はないことに留意する。（令5年課法2−17｢十」により追加、令6年課法2−21「三」により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第7款 国別グループ純所得の金額から控除する金額の特例
+[p4] 第7款 国別グループ純所得の金額から控除する金額の特例

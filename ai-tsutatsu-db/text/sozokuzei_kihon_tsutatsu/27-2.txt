@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 27−2 / id: 27-2 / title: 相続税の申告書の記載事項
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/04/01.htm#a-27_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/27-2.html
+
+[p1] 法施行規則第13条第1項第9号に規定する「法以外の法律の規定による相続税額の控除」には、遺産、相続及び贈与に対する租税に関する二重課税の回避及び脱税の防止のための日本国とアメリカ合衆国との間の条約の実施に伴う相続税法の特例等に関する法律（昭和29年法律第194号）による未成年者控除及び障害者控除があるのであるから留意する。（昭39直審（資）30追加、昭47直資2−130、昭50直資2−257、平15課資2−1、平20課資２−10改正）

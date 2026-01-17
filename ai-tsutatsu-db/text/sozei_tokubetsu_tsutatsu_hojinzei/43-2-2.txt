@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 43の２−2 / id: 43-2-2 / title: 床面積の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/01/01_43_3.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/43-2-2.html
+
+[p1] 措置法令第28条の3第1号に規定する床面積は、建築基準法施行令第2条第1項第3号に規定する床面積によるものとする。（平29年課法2-17「十四」により追加、令5年課法2−8「五」により改正）

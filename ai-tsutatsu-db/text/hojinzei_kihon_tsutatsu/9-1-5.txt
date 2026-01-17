@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−1−5 / id: 9-1-5 / title: 棚卸資産について評価損の計上ができる「準ずる特別の事実」の例示
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_01_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-1-5.html
+
+[p1] 令第68条第1項第1号ハ《棚卸資産の評価損の計上ができる事実》に規定する「イ又はロに準ずる特別の事実」には、例えば、破損、型崩れ、たなざらし、品質変化等により通常の方法によって販売することができないようになったことが含まれる。（平12年課法2−19「十三」、平17年課法2−14「九」、平19年課法2−3「二十一」、平21年課法2−5「七」により改正）

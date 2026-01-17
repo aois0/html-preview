@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 18−1−70 / id: 18-1-70 / title: 利益剰余金に係る繰延税金負債の例示
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/18/18_01_10.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/18-1-70.html
+
+[p1] 規則第38条の28第3項第1号ホ《調整後対象租税額の計算》の「利益剰余金に係る繰延税金負債」には、例えば、他の構成会社等又は他の共同支配会社等から受ける利益の配当の額を課税標準として源泉徴収の方法又は外国におけるこれに類する方法により課される対象租税（法第82条第29号《定義》に規定する対象租税をいう。以下この章において同じ。）について計上された繰延税金負債が該当することに留意する。（令5年課法2−17｢九」により追加）

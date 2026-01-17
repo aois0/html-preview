@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 65の4-12 / id: 65-4-12 / title: 休憩所等に類する施設の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/10/10_65_4.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/65-4-12.html
+
+[p1] 措置法規則第22条の5第6項に規定する休憩所、集会場、駐車場、アーケードその他これらに類する施設の「これらに類する施設」とは、例えば小公園、カラー舗装、街路灯などのように主として顧客その他の地域住民の利用に供される施設をいうのであるから、事業協同組合等の組合事務所及び事業協同組合等の組合員等が共同で使用する店舗、倉庫等のような施設はこれに含まれないことに留意する。（平3年課法2-4「二十五」により追加、平6年課法2-5「三十八」、平8年課法2-7「二十三」、平9年課法2-14「十九」、平10年課法2-17「三十六」、平11年課法2-9「四十六」、平24年課法2-17「三十」、令3年課法2-21「二十三」により改正）

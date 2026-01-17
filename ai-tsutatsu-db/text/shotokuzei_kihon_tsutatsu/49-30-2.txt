@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−30の2 / id: 49-30-2 / title: 所有権移転外リース取引に該当しないリース取引に準ずるものの意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/09.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-30-2.html
+
+[p1] 令第120条の2第2項第5号に規定する「これらに準ずるもの」として同号に規定する所有権移転外リース取引(以下49−30の11において同じ。)に該当しないものとは、例えば、次に掲げるものをいう。（平19課個2−31、課審4−44追加）
+[p2] (2) 賃貸人に対してそのリース取引に係るリース資産の取得資金の全部又は一部を貸し付けている金融機関等が、賃借人から資金を受け入れ、当該資金をして当該賃借人のリース料等の債務のうち当該賃貸人の借入金の元利に対応する部分の引受けをする構造になっているリース取引

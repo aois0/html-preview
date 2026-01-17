@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 19−5 / id: 19-5 / title: 債務の通算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/05.htm#a-16_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/19-5.html
+
+[p1] 加算対象贈与財産の価額を相続税の課税価格に加算した場合においても、その加算した財産の価額からは法第13条第1項、第2項又は第4項に規定する控除はしないことに留意する。（平15課資2−1、令元課資2−10、令５課資２−21改正）

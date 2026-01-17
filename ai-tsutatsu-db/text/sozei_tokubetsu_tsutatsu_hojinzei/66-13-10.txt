@@ -1,0 +1,10 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の13−10 / id: 66-13-10 / title: 取得の日から3年を経過した増資特定株式に係る特別勘定を取り崩した場合の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/15/15_66_13.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-13-10.html
+
+[p1] 措置法第66条の13第12項第１号に掲げる特別勘定の金額については、同条第2項から第９項まで及び第11項の規定の適用がないのであるから、その後、当該特別勘定の金額を取り崩した場合であっても、その取り崩した金額は益金の額に算入しないことに留意する。（令2年課法2−17「三十」により追加、令4年課法2−14「六十三」、令5年課法2−8「二十二」により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第67条 《社会保険診療報酬の所得の計算の特例》関係
+[p4] 第67条 《社会保険診療報酬の所得の計算の特例》関係

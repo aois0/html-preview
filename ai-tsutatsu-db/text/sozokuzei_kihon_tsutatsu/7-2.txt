@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 7−2 / id: 7-2 / title: 公開の市場等で著しく低い価額で財産を取得した場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/05.htm#a-5_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/7-2.html
+
+[p1] 不特定多数の者の競争により財産を取得する等公開された市場において財産を取得したような場合においては、たとえ、当該取得価額が当該財産と同種の財産に通常付けられるべき価額に比べて著しく低いと認められる価額であっても、課税上弊害があると認められる場合を除き、法第7条の規定を適用しないことに取り扱うものとする。

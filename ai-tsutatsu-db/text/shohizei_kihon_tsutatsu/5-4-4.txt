@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−4−4 / id: 5-4-4 / title: 福利厚生施設の利用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-4-4.html
+
+[p1] 事業者が、その有する宿舎、宿泊所、集会所、体育館、食堂その他の施設を、対価を得て役員又は使用人等に利用させる行為は、資産の譲渡等に該当することに留意する。

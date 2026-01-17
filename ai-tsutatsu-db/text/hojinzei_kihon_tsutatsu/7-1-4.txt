@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−1−4 / id: 7-1-4 / title: 建設中の資産
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_01_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-1-4.html
+
+[p1] 建設中の建物、機械及び装置等の資産は減価償却資産に該当しないのであるが、建設仮勘定として表示されている場合であっても、その完成した部分が事業の用に供されているときは、その部分は減価償却資産に該当するものとする。

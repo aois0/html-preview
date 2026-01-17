@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−4−7 / id: 2-4-7 / title: 支払期日前に受領した手形
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_04_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-4-7.html
+
+[p1] リース譲渡の賦払金のうち当該事業年度後に支払期日の到来するものについて法人が手形を受領した場合には、その受領した手形の金額は、令第124条第2項《賦払金割合》に規定する「支払を受けた金額」には含まれない。（昭48年直法2−81「2」、「6」、昭55年直法2−8「八」、平10年課法2−7「三」、平12年課法2−7「五」、平14年課法2−1「十」、平30年課法2−8「五」により改正）

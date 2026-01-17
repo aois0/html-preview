@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 42の12の4−6 / id: 42-12-4-6 / title: 主たる事業でない場合の適用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/01/01_42_12_4.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/42-12-4-6.html
+
+[p1] 法人の営む事業が措置法第42条の12の4第1項に規定する指定事業の用に係る事業（以下「指定事業」という。）に該当するかどうかは、当該法人が主たる事業としてその事業を営んでいるかどうかを問わないことに留意する。（平29年課法2-17「十」により追加、令3年課法2-21「十一」により改正）

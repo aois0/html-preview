@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 10-1 / id: 10-1 / title: 船籍のない船舶の所在
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/10.htm#a-10_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/10-1.html
+
+[p1] 法第10条第1項第1号に掲げる「船舶」とは、船籍に関する定めのある法令の適用のある船舶をいうのであるから、船籍のない船舶については、その所在により判定するものとする。

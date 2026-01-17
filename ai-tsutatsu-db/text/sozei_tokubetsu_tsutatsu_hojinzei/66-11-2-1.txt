@@ -1,0 +1,10 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の11の2−1 / id: 66-11-2-1 / title: 組合員集会等に類するものの範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/15/15_66_11_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-11-2-1.html
+
+[p1] 措置法令第39条の22の２第１項第２号の投資事業有限責任組合の組合員集会その他これに類するものには、例えば外国の法令に基づき組成された当該投資事業有限責任組合に類する事業体の投資家から構成される合議体が該当し、同号の投資事業有限責任組合の組合員その他これに類するものには、例えば当該投資家が該当する。（令４年課法２−14｢六十二」により追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第66条の13 《特定事業活動として特別新事業開拓事業者の株式の取得をした場合の課税の特例》関係
+[p4] 第66条の13 《特定事業活動として特別新事業開拓事業者の株式の取得をした場合の課税の特例》関係

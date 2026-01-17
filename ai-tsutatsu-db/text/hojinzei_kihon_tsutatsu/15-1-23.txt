@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−23 / id: 15-1-23 / title: 研究試作品等の販売
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-23.html
+
+[p1] 公益法人等がその研究の成果に基づいて製作した試作品等を他に譲渡する場合において、その譲渡が反復又は継続して行われるなど事業と認められる程度のものであるときは、その製作及び譲渡は、令第5条第1項第6号《製造業》の製造業に該当する。（昭56年直法2−16「七」により追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第8款 通信業
+[p4] 第8款 通信業

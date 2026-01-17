@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 90−3 / id: 90-3 / title: 変動所得に係る必要経費
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/17/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/90-3.html
+
+[p1] 変動所得に係る必要経費には、事業所得の金額又は雑所得の金額の計算上必要経費に算入される金額のうち、変動所得に係る貸倒引当金、退職給与引当金等の各勘定への繰入額及び資産損失の金額も含まれる。（平11課所4−1改正）

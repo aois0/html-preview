@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 24-5 / id: 24-5 / title: 株式等を取得するために要した負債の利子
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/24-5.html
+
+[p1] 法第24条第2項ただし書に規定する「株式その他配当所得を生ずべき元本を取得するために要した負債の利子」については、次のことに留意する。
+[p2] （1） 株式その他配当所得を生ずべき元本（以下24-10までにおいて「株式等」という。）を取得するために要した負債の利子で、その年中における当該株式等の所有期間に対応して計算された金額は、当該負債によって取得した株式等の配当等からだけでなく、他の株式等の配当等からも控除できること。
+[p3] （2） 負債によって取得した株式等を処分した場合には、その処分した時までの期間の利子に限り控除できること。

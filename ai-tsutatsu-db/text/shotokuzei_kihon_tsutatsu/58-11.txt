@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 58−11 / id: 58-11 / title: 借地権等の設定の対価として土地を取得した場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/12/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/58-11.html
+
+[p1] 自己の有する土地に借地権等の設定（その設定による所得が譲渡所得とされる場合に限る。）をし、その設定の対価として相手方から土地等を取得した場合には、法第58条第1項第1号に掲げる土地の交換があったものとして同条の規定を適用することができるものとする。（昭56直資3−2、直所3−3追加）

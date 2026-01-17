@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−3−11の4 / id: 7-3-11-4 / title: 埋蔵文化財の発掘費用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_03_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-3-11-4.html
+
+[p1] 法人が工場用地等の造成に伴い埋蔵文化財の発掘調査等をするために要した費用の額は、土地の取得価額に算入しないで、その支出をした日の属する事業年度の損金の額に算入することができる。ただし、文化財の埋蔵されている土地をその事情を考慮して通常の価額より低い価額で取得したと認められる場合における当該発掘調査等のために要した費用の額については、この限りでない。（昭55年直法2−8「二十一」により追加）

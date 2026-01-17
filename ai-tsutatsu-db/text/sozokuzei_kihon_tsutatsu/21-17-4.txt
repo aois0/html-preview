@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 21の17-4 / id: 21-17-4 / title: 限定承認をした場合の承継
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/12.htm#a-21_11_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/21-17-4.html
+
+[p1] 法第21条の17第2項は、特定贈与者の死亡に係る相続税額の計算において算出された相続時精算課税適用者の相続税額を当該相続時精算課税適用者の相続人が納付する場合のその限度額について規定しているものであり、当該相続時精算課税適用者に係る納付すべき相続税額の計算方法についての規定ではないことに留意する。（平15課資2-1追加）
+[p2] 第21条の18《相続時精算課税に係る相続税の納付義務の承継等》関係

@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 65の2-5 / id: 65-2-5 / title: 補償金の支払請求があった土地の上にある建物等の譲渡期間
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/10/10_65_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/65-2-5.html
+
+[p1] 土地収用法第46条の2第1項の規定により補償金の支払の請求ができる資産は、土地及び土地に関する所有権以外の権利に限られているが、これらの資産につき最初に買取り等の申出のあった日から6月を経過した日までに補償金の支払の請求があった場合には、これらの資産の上にある建物等の収用換地等による譲渡についても措置法第65条の2第3項第1号括弧書に規定する「補償金の支払の請求があった場合」に準じて取り扱う。（平19年課法2-3「四十一」、平23年課法2-17「三十四」により改正）

@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 1−8−13 / id: 1-8-13 / title: 公共交通機関特例の対象となる運賃及び料金の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/01/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/1-8-13.html
+
+[p1] 令第70条の９第２項第１号イからニまで《適格請求書の交付を免除する課税資産の譲渡等の範囲等》に掲げる旅客の運送には、旅客の運送に直接的に附帯するものとして収受する特別急行料金、急行料金、寝台料金等を対価とする役務の提供は含まれるが、旅客の運送に直接的に附帯するものではない入場料金、手回品料金、貨物留置料金等を対価とする役務の提供は、含まれないことに留意する。（令５課消２−９により追加）

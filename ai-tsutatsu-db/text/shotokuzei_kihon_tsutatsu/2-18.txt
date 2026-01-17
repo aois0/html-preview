@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 2−18 / id: 2-18 / title: 温泉利用権
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/2-18.html
+
+[p1] 温泉を利用する権利は、令第6条第8号ニに掲げる水利権に準ずる減価償却資産とする。
+[p2] （注） この権利の取得価額については49−9、償却費の計算については49−26参照

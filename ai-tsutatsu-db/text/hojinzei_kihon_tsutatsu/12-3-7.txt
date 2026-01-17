@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 12−3−7 / id: 12-3-7 / title: 残余財産がないと見込まれるかどうかの判定の時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/12/12_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/12-3-7.html
+
+[p1] 法第59条第４項《会社更生等による債務免除等があった場合の欠損金の損金算入》に規定する「残余財産がないと見込まれる」かどうかの判定は、法人の清算中に終了する各事業年度終了の時の現況による。(平22年課法2−1「二十六」により追加、令４年課法2−14｢三十六」により改正)

@@ -1,0 +1,10 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 37−22 / id: 37-22 / title: 事業の遂行上直接必要と認められない海外渡航の旅費の特例
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/37-22.html
+
+[p1] 事業を営む者又はその使用人の海外渡航が37−19に掲げる旅行に該当する場合であっても、その海外渡航の旅行期間内における旅行先、その仕事の内容等からみて、当該事業にとって直接関連があるものがあると認められるときは、その海外渡航に際し支出した費用又は支給した旅費のうち、当該事業に直接関連のある部分の旅行について直接要した部分の金額は、旅費として必要経費に算入する。
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 〔その他の共通費用〕
+[p4] 〔その他の共通費用〕

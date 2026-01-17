@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 165−3 / id: 165-3 / title: 複数の事業活動の拠点を有する場合の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/24/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/165-3.html
+
+[p1] 非居住者の事業活動の拠点が国内に複数ある場合には、複数の当該事業活動の拠点全体を一の恒久的施設として法第164条第1項第1号イ（（非居住者に対する課税の方法））に掲げる国内源泉所得(以下第165条関係において「恒久的施設帰属所得」という。)を認識し当該恒久的施設帰属所得に係る各種所得の金額の計算を行うことに留意する（平28課2−4、課法11−8、課審5−5追加）。

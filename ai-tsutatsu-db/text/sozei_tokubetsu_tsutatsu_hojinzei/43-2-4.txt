@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 43の２−4 / id: 43-2-4 / title: おおむね同程度以下の構築物の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/01/01_43_3.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/43-2-4.html
+
+[p1] 措置法令第28条の3第2号に規定する「おおむね同程度以下のもの」とは、法人が取得等をした構築物の規模が同号に規定する被災構築物の規模のおおむね1.3倍程度以下のものをいうものとする。（平29年課法2-17「十四」により追加、令5年課法2−8「五」により改正）

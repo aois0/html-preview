@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 144−1 / id: 144-1 / title: 業務を承継した相続人が提出する承認申請書の提出期限
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/20/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/144-1.html
+
+[p1] 青色申告書を提出することにつき税務署長の承認を受けていた被相続人の業務を相続したことにより新たに法第143条《青色申告》に規定する業務を開始した相続人が提出する法第144条に規定する申請書については、当該被相続人についての所得税の準確定申告書の提出期限（当該期限が法第147条《青色申告書の承認があったものとみなす場合》の規定により青色申告の承認があったとみなされる日後に到来するときは、その日）までに提出して差し支えない。
+[p2] 法第148条《青色申告者の帳簿書類》関係

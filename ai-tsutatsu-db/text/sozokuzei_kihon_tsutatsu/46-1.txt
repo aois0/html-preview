@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 46−1 / id: 46-1 / title: 公用又は公共の用に供されることが確実と見込まれる財産による還付及び物納の撤回
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/06.htm#a-44_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/46-1.html
+
+[p1] 法第46条第1項ただし書に規定する「公用若しくは公共の用に……供されることが確実と見込まれる」については、43-8の取扱いに準ずる。（平18徴管5-14追加）

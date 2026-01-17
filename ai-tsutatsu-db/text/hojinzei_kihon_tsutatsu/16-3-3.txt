@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 16−3−3 / id: 16-3-3 / title: 
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/16/16_03_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/16-3-3.html
+
+[p1] 削除（平2年直法2−1「十三」により追加、平24年課法2−17「七」により削除）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第2款 外国法人税の控除
+[p4] 第2款 外国法人税の控除

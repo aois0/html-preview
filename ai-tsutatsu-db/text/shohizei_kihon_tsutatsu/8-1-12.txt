@@ -1,0 +1,11 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 8−1−12 / id: 8-1-12 / title: 承認免税手続事業者が設置する免税手続カウンターにおける合算の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/08/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/8-1-12.html
+
+[p1] 令第18条の３第１項《免税手続カウンターにおける手続等の特例》の規定は、令第18条第14項《輸出物品販売場における輸出免税の最低限度額》に定める金額以上となるかどうかの判定にのみ適用されるものであることに留意する。（平27課消1−9により追加、平28課消1−57、令2課消2−9、令5課消2−3により改正）
+[p2] (注) 消耗品等の譲渡に係る対価の額の合計額が50万円を超えるかどうかの判定は、販売場ごとに行うこととなることに留意する。
+[p3] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p4] 第2節 輸出物品販売場の許可等
+[p5] 第2節 輸出物品販売場の許可等

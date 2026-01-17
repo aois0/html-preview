@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 2−26 / id: 2-26 / title: 簡易な施設の負担金の必要経費算入
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/2-26.html
+
+[p1] 国、地方公共団体、商店街等の行う街路の簡易舗装、街灯、がんぎ等の簡易な施設で主として一般公衆の便益に供されるもののために充てられる負担金は、これを繰延資産としないでその支出の日の属する年分の必要経費に算入することができる。

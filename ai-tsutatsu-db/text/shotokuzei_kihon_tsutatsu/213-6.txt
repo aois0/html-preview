@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 213−6 / id: 213-6 / title: 新旧年金の差額等に対する税額の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/37/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/213-6.html
+
+[p1] 年金について、改定、裁定等が既往にさかのぼって実施されたため、既往の期間に対応して支払われる年金に対する法第213条第1項第1号イの規定の適用に当たっては、203の3−2の取扱いに準ずる。（平2直法6−5、直所3−6追加）
+[p2] 法第214条《源泉徴収を要しない非居住者の国内源泉所得》関係

@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 16−3 / id: 16-3 / title: 相続税の総額を計算する場合の取得金額等の端数処理
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/05.htm#a-16_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/16-3.html
+
+[p1] 法第16条の規定により相続税の総額を計算する場合における同条に規定する「その各取得金額」に1,000円未満の端数があるとき若しくはその全額が1,000円未満であるとき又は相続税の総額に100円未満の端数があるときは、その端数金額又はその全額を切り捨てても差し支えないものとする。（昭42直審（資）5、昭47直資2−130、昭50直資2−257改正）
+[p2] 第17条《各相続人等の相続税額》関係

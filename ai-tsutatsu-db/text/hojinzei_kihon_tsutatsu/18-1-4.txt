@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 18−1−4 / id: 18-1-4 / title: 最終親会社が複数ある場合の企業グループ等の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/18/18_01_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/18-1-4.html
+
+[p1] 企業グループ等の判定に当たり、契約により、複数の最終親会社に係る企業集団につき法第82条第1号イ《定義》に掲げる計算書類（最終親会社の所在地国（同条第7号に規定する所在地国をいう。以下この章において同じ。）の法令に従って監査が行われるものに限る。）を作成している場合は、当該複数の最終親会社に係る企業集団を企業グループ等として、法の規定を適用する。（令5年課法2−17｢九」により追加）

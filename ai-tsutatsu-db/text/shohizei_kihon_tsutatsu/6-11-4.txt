@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 6−11−4 / id: 6-11-4 / title: 学校等が行う役務の提供で課税されるもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/06/11.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/6-11-4.html
+
+[p1] 学校等が行う役務の提供で非課税とされるのは、法別表第二第11号《教育に係る役務の提供の範囲》に規定する教育に関する役務の提供に限られるから、例えば、学校給食又は他の者からの委託による調査・研究等の役務の提供は、非課税とはならないのであるから留意する。（令５課消２−９により改正）

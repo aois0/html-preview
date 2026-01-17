@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 67の6-1 / id: 67-6-1 / title: 名義が異なる特定株式投資信託の収益の分配
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/15/15_67_6.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/67-6-1.html
+
+[p1] 基本通達3-1-1の取扱いは、措置法第67条の6第1項に規定する特定株式投資信託（以下「特定株式投資信託」という。）の収益の分配について準用する。（平7年課法2-7「三十六」により追加、平16年課法2-14「三十ニ」、平19年課法2-3「五十四」、平27年課法2-8「三十」により改正）

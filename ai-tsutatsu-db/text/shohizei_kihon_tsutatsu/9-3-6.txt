@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 9−3−6 / id: 9-3-6 / title: 資産を下取りした場合の対価の額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/09/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/9-3-6.html
+
+[p1] 事業者がリース譲渡を行うに当たり、頭金等として相手方の有する資産を下取りした場合において、当該資産の価額をその下取りをした時における価額を超える価額としているときは、その超える部分の金額については、当該下取りをした資産の譲受けに係る支払対価の額に含めないものとし、そのリース譲渡をした資産につき、値引きをしたものとして取り扱う。（平10課消2-9、平30課消2-5により改正）
+[p2] (注) 下取りに係る資産を有していた事業者におけるその下取りに係る資産の譲渡に係る対価の額は、当該頭金等とされた金額となる。

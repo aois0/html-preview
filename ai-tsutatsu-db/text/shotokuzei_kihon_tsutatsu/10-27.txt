@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 10-27 / id: 10-27 / title: 非課税貯蓄限度額の合計額が300万円を超えることとなる非課税貯蓄申告書等の効力
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/10-27.html
+
+[p1] 法第10条第7項の規定に反して提出された非課税貯蓄申告書又は非課税貯蓄限度額変更申告書（以下この項において「非課税貯蓄申告書等」という。）は、その効力を有しないことに留意する。この場合、その効力を有しない非課税貯蓄申告書等に記載された最高限度額は、非課税貯蓄廃止申告書を提出するまでもなく、非課税貯蓄限度額の合計額が300万円を超えることとなるかどうかの判定上除外する。（昭63直法6-7、直所3-8追加）

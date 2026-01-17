@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−63 / id: 15-1-63 / title: 地域医師等による継続診療
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_29.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-63.html
+
+[p1] 規則第5条第4号《非課税とされるオープン病院等》の「地域医師等の診療を受けた患者でその後引き続き主として当該地域医師等の診察を受けるもの」には、その医師会病院等において診療を受けた患者でその受診の時において当該医師会病院等を開設する医師会法人等の組織されている区域又は隣接地域に住所又は居所を有するものが含まれる。(昭56年直法2−16「七」により追加、昭57年直法2−11「十四」、平20年課法2−5「二十九」により改正)

@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 37−9の2 / id: 37-9-2 / title: 汚染負荷量賦課金等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/37-9-2.html
+
+[p1] 次に掲げる賦課金等で業務に係るものは、それぞれ次に定める日の属する年分の当該業務に係る所得の金額の計算上必要経費に算入する。（昭52直所3−33、直法6−10、直資3−15追加、昭63直法6−7、直所3−8、平15課個2−23、課資3−7、課法8−11、課審4−37改正）
+[p2] （2） 公害健康被害の補償等に関する法律第62条第1項《特定賦課金の徴収》に規定する特定賦課金 当該特定賦課金の額につき、決定の通知があった日

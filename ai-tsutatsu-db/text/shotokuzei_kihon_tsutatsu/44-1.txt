@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 44−1 / id: 44-1 / title: 資産の移転等の費用の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/06/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/44-1.html
+
+[p1] 法第44条の規定を適用する場合において、その交付を受けた金額を資産の移転等に際し通常行われる程度の腐朽又は損傷した部分の取替え又は修復に要する費用、通常行われる程度の模様替え又は造作の変更に要する費用その他これらに準ずる費用に充てたときは、その費用に充てた金額はその交付の目的に従って資産の移転等の費用に充てたものとする。

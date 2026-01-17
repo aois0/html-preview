@@ -1,0 +1,10 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 12−1−14 / id: 12-1-14 / title: 還付を受ける日の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/12/01/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/12-1-14.html
+
+[p1] 法第32条第4項本文《保税地域からの引取りに係る課税貨物に係る消費税額の還付を受ける場合の仕入れに係る消費税額の控除の特例》に規定する「還付を受ける日」とは、還付を受けることができる事実が発生した後において、当該事実について還付を受ける消費税額が確定した日をいうものとする。（平13課消1−5により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第2節 調整対象固定資産の範囲
+[p4] 第2節 調整対象固定資産の範囲

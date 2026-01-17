@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 13−1−3の5 / id: 13-1-3-5 / title: 恒久的施設の有無による国外事業者の簡易課税制度の適用関係
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/13/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/13-1-3-5.html
+
+[p1] その課税期間の初日において恒久的施設を有しない国外事業者には簡易課税制度は適用されないことから、例えば、簡易課税制度選択届出書を提出している恒久的施設を有する国外事業者が、当該恒久的施設を有しないこととなった場合には、その有しないこととなった日の属する課税期間の翌課税期間について簡易課税制度が適用されないこととなるのであるから留意する。（令6課消2−6により改正）

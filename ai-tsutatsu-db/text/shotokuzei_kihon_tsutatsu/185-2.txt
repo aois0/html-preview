@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 185−2 / id: 185-2 / title: 給与等の支給期が月の整数倍の期間ごとと定められている場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/31/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/185-2.html
+
+[p1] 法第185条第1項第1号ニ及び第2号ニに掲げる「給与等の支給期が月の整数倍の期間ごとと定められている場合」とは、支給期を年2回と定めて支払う場合のように、給与等を月の整数倍の期間が経過するごとに支払うことと定められている場合をいう。（昭63直法6−1、直所3−1改正）

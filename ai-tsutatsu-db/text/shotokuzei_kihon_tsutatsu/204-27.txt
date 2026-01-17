@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 204−27 / id: 204-27 / title: 芸能人の役務の提供に関する報酬又は料金に含まれるもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/36/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/204-27.html
+
+[p1] 法第204条第1項第5号に掲げる「芸能人の役務の提供を内容とする事業に係る当該役務の提供に関する報酬又は料金」には、芸能人の役務の提供を内容とする事業を営む者が自ら出演するとともに他の芸能人の役務を提供した場合に受ける報酬又は料金も含まれる。

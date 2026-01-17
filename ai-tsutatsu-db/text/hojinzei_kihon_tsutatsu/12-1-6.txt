@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 12−1−6 / id: 12-1-6 / title: 事業を移転しない適格分割等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/12/12_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/12-1-6.html
+
+[p1] 分割法人又は現物出資法人が分割承継法人又は被現物出資法人に対してその有する株式のみを移転する適格分割又は適格現物出資は、令第113条第5項《欠損金の制限措置の計算の特例》の「事業を移転しない適格分割若しくは適格現物出資」に該当する。(平22年課法2−1「二十四」により追加)

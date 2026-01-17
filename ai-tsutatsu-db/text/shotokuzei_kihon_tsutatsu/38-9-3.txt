@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 38−9の3 / id: 38-9-3 / title: 契約解除に伴い支出する違約金
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/18.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/38-9-3.html
+
+[p1] いったん締結した固定資産の取得に関する契約を解除して他の固定資産を取得することとした場合に支出する違約金の額は、各種所得の金額の計算上必要経費に算入されたものを除き、当該取得した固定資産の取得費又は取得価額に算入する。（昭56直資3−2、直所3−3追加、平19課資3−5、課個2−15、課審6−9改正）

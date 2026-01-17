@@ -1,0 +1,13 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 161−18 / id: 161-18 / title: 譲渡対価が1億円を超えるかどうかの判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/22/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/161-18.html
+
+[p1] 令第281条の3に規定する土地等の譲渡による対価の金額が1億円を超えるかどうかの判定に当たっては、例えば、当該土地等を居住の用と居住の用以外の用とに供するために譲り受けた個人から支払われるものである場合には、居住の用に供する部分に係る対価の金額及び居住の用以外の用に供する部分に係る対価の金額の合計額により判定することに留意する。（平2直法6−5、直所3−6追加、平17課法8−2、課個2−19、課審4−89改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 〔恒久的施設〕
+[p4] 第3編 非居住者及び法人の納税義務
+[p5] 第1章 国内源泉所得
+[p6] 法第161条《国内源泉所得》関係
+[p7] 〔恒久的施設〕

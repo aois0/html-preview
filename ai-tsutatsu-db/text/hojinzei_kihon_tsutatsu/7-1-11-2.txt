@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−1−11の2 / id: 7-1-11-2 / title: 一時的に貸付けの用に供した減価償却資産
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_01_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-1-11-2.html
+
+[p1] 令第133条《少額の減価償却資産の取得価額の損金算入》又は第133条の２《一括償却資産の損金算入》の規定の適用上、法人が減価償却資産を貸付けの用に供したかどうかはその減価償却資産の使用目的、使用状況等を総合勘案して判定されるものであるから、例えば、一時的に貸付けの用に供したような場合において、その貸付けの用に供した事実のみをもって、その減価償却資産がこれらの規定に規定する貸付けの用に供したものに該当するとはいえないことに留意する。（令４年課法2−14｢十六」により追加）

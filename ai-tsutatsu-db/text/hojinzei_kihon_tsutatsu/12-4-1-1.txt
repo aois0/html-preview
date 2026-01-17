@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 12の4−1−1 / id: 12-4-1-1 / title: 譲渡損益調整額の計算における「原価の額」の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/12_4/12_4_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/12-4-1-1.html
+
+[p1] 法第61条の11第1項《完全支配関係がある法人の間の取引の損益》に規定する「原価の額」とは、同項に規定する譲渡損益調整資産の譲渡直前の帳簿価額をいうのであるから、例えば、不動産売買又は有価証券の譲渡に係る手数料など譲渡に付随して発生する費用は、これに含まれないことに留意する。（平15年課法2−7「四十二」により追加、平15年課法2−12「七」、平22年課法2−1「三十二」、令４年課法２−14｢四十二」により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第2節 譲渡損益調整資産に係る譲渡損益額の調整
+[p4] 第2節 譲渡損益調整資産に係る譲渡損益額の調整

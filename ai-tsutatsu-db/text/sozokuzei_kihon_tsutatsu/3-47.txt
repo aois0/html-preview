@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 3−47 / id: 3-47 / title: 退職手当金等を定期金として支給する場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/04.htm#a-3_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/3-47.html
+
+[p1] 法第3条第1項第6号に規定する「（第2号に掲げる給与に該当するもの）」とは、定期金又はこれに準ずる方法で支給される退職手当金等をいうのであって、これらのものについては、法第3条第1項第2号に規定する退職手当金等として課税するのであるから留意する。
+[p2] 〔第2項関係〕

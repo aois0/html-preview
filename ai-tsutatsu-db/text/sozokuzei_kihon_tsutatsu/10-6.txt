@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 10-6 / id: 10-6 / title: 営業上の権利
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/10.htm#a-10_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/10-6.html
+
+[p1] 法第10条第1項第13号に掲げる「営業上の権利」には、売掛金等のほか、その営業又は事業に関する営業権、電話加入権等をも含むものとする。（平15課資2−1改正）

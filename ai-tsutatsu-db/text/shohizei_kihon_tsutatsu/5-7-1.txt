@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−7−1 / id: 5-7-1 / title: 国外と国外との間における取引の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-7-1.html
+
+[p1] 事業者が国外において購入した資産を国内に搬入することなく他へ譲渡した場合には、その経理処理のいかんを問わず、その譲渡は、法第4条第1項《課税の対象》に規定する「国内において事業者が行った資産の譲渡等」に該当しないのであるから留意する。

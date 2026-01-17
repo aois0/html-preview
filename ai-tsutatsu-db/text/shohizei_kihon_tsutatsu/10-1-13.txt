@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 10−1−13 / id: 10-1-13 / title: 源泉所得税がある場合の課税標準
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/10/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/10-1-13.html
+
+[p1] 事業者が課税資産の譲渡等に際して収受する金額が、源泉所得税に相当する金額を控除した残額である場合であっても、源泉徴収前の金額によって消費税の課税関係を判定するのであるから留意する。

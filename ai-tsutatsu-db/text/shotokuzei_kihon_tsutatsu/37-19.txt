@@ -1,0 +1,10 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 37−19 / id: 37-19 / title: 事業の遂行上直接必要な海外渡航の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/37-19.html
+
+[p1] 事業を営む者又はその使用人（事業を営む者と生計を一にする親族を含む。以下37−22までにおいて同じ。）の海外渡航が当該事業の遂行上直接必要なものであるかどうかは、その旅行の目的、旅行先、旅行経路、旅行期間等を総合勘案して実質的に判定するものとするが、次に掲げる旅行は、原則として、当該事業の遂行上直接必要な海外渡航に該当しないものとする。
+[p2] (1) 観光渡航の許可を得て行う旅行
+[p3] (2) 旅行あっせんを行う者等が行う団体旅行に応募してする旅行
+[p4] (3) 同業者団体その他これに準ずる団体が主催して行う団体旅行で主として観光目的と認められるもの

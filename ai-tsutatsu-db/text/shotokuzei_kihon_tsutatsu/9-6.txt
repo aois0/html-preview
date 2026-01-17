@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 9-6 / id: 9-6 / title: 災害地に派遣された職員に支給される災害派遣手当
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/02.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/9-6.html
+
+[p1] 災害対策基本法第31条《職員の派遣義務》の規定により災害地に派遣された職員に対し、その派遣を受けた都道府県又は市町村から同法第32条《派遣職員の身分取扱い》の規定により支給される災害派遣手当については、その職員が本来の勤務地を離れて災害地に滞在するために必要な宿泊等の費用を弁償するものであると認められる部分に限り、法第9条第1項第4号に掲げる金品に準じて課税しなくて差し支えない。
+[p2] 〔通勤手当（第5号関係）〕

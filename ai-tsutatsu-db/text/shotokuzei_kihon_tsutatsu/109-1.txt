@@ -1,0 +1,12 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 109−1 / id: 109-1 / title: 予定納税額等の通知
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/18/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/109-1.html
+
+[p1] 法第109条第1項又は第2項の規定による予定納税額等の通知については、106−1及び106−2の取扱いに準ずる。
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 法第104条《予定納税額の納付》関係
+[p4] 第3章 申告、納付及び還付
+[p5] 第1節 予定納税
+[p6] 法第104条《予定納税額の納付》関係

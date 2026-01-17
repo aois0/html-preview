@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−1−8の2 / id: 7-1-8-2 / title: 研究開発のためのソフトウエア
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_01_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-1-8-2.html
+
+[p1] 法人が、特定の研究開発にのみ使用するため取得又は製作をしたソフトウエア(研究開発のためのいわば材料となるものであることが明らかなものを除く。)であっても、当該ソフトウエアは減価償却資産に該当することに留意する。(平12年課法2−19「七」により追加、平20年課法2−5「十二」により改正)
+[p2] (注) 当該ソフトウエアが耐用年数省令第2条第2号に規定する開発研究の用に供されている場合には、耐用年数省令別表第六に掲げる耐用年数が適用されることに留意する。

@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 41−4 / id: 41-4 / title: 政令で定める額を超えて物納を許可する場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/03.htm#a-41_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/41-4.html
+
+[p1] 法第41条第1項の規定により、政令で定める額を超える価額の物納財産による物納を許可する場合において、当該財産の収納価額と当該許可に係る相続税額の差額は、金銭をもって還付するものとする。（平18徴管5−14追加）

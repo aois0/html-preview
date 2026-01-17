@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の13−6 / id: 66-13-6 / title: 特別勘定の金額が1,000万円未満のものであるかどうかの判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/15/15_66_13.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-13-6.html
+
+[p1] 措置法第66条の13第7項及び第8項の規定を適用する場合において、特別勘定の金額が1,000万円未満のものであるかどうかは、その特別勘定の対象となる特定株式のそれぞれの特別勘定の金額ごとに判定することに留意する。（令2年課法2−17「三十」により追加、令4年課法2−14「六十三」により改正）

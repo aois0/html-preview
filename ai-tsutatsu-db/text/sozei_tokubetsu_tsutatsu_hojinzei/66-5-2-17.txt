@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の5の2−17 / id: 66-5-2-17 / title: 控除対象受取利子等合計額に含まれる内部利子の額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/13/13_66_5_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-5-2-17.html
+
+[p1] 外国法人の措置法第66条の５の２第１項の規定の適用に係る同項に規定する控除対象受取利子等合計額を計算する場合において、法第138条第１項第１号に規定する内部取引において当該外国法人の恒久的施設が当該恒久的施設に係る同号に規定する本店等から受ける措置法第66条の５の２第２項第７号に規定する受取利子等に該当することとなる金額を含めて計算しているときは、これを認める。（令元年課法2-33「二」により追加）

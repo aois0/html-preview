@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 90−5 / id: 90-5 / title: 変動所得に係る必要経費の区分計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/17/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/90-5.html
+
+[p1] 事業所得又は雑所得に係る必要経費のうち、変動所得に係る部分とそれ以外の部分との区分が明らかでないものについては、それぞれの費用又は損失の種類、性質等に応じ、収入金額の比、差益金額の比、使用割合その他の適切な基準により、変動所得に係る部分の必要経費とそれ以外の部分の必要経費とに区分するものとする。

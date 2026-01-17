@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 4−1−1 / id: 4-1-1 / title: 資産の譲渡等に係る対価を享受する者の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/04/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/4-1-1.html
+
+[p1] 事業に係る事業者がだれであるかは、資産の譲渡等に係る対価を実質的に享受している者がだれであるかにより判定する。

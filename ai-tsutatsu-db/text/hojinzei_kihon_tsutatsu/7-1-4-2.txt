@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−1−4の2 / id: 7-1-4-2 / title: 常備する専用部品の償却
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_01_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-1-4-2.html
+
+[p1] 例えば航空機の予備エンジン、電気自動車の予備バッテリー等のように減価償却資産を事業の用に供するために必要不可欠なものとして常備され、繰り返して使用される専用の部品(通常他に転用できないものに限る。)は、当該減価償却資産と一体のものとして減価償却をすることができる。(昭55年直法2−8「十九」により追加)

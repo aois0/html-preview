@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 95−15 / id: 95-15 / title: 外国所得税が減額された場合の邦貨換算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/17/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/95-15.html
+
+[p1] 居住者が納付した外国所得税の額が減額されたため、これにつき令第226条の規定の適用を受ける場合におけるその減額に係る還付金の金額は、57の3−2に定めるところにより邦貨に換算した金額によることとする（平28課2−4、課法11−8、課審5−5追加）。

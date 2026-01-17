@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 65の4-7 / id: 65-4-7 / title: 公募手続開始前の譲渡
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/10/10_65_4.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/65-4-7.html
+
+[p1] 63（5）-6の取扱いは、公募手続開始前に土地等の譲渡をする場合における措置法第65条の4第1項第3号ハの規定の適用について準用する。（平6年課法2-5「三十八」により追加、平9年課法2-14「十九」、平11年課法2-9「四十六」、平24年課法2-17「三十」により改正）

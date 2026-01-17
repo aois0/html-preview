@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−26 / id: 49-26 / title: 温泉利用権の償却費の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/09.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-26.html
+
+[p1] 温泉を利用する権利（温泉をゆう出する土地の所有者のその土地からゆう出する温泉を利用する権利を除く。）でその温泉の利用につき定められた契約期間が水利権の耐用年数より短いもの（契約期間を延長しない旨の明らかな定めのあるものに限る。）については、当該契約期間を耐用年数として償却費を計算するものとする。
+[p2] 〔工業所有権の実施権等の償却〕

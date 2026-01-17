@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 12−1−6 / id: 12-1-6 / title: 課税仕入れとそれ以外の取引を一括して対象とする仕入割戻し
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/12/01/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/12-1-6.html
+
+[p1] 事業者が、一の取引先から課税資産の譲渡等（軽減対象課税資産の譲渡等を除く。）、軽減対象課税資産の譲渡等及びこれら以外の資産の譲渡等のうち異なる２以上の区分の資産の譲渡等を同時に受けた場合において、当該２以上の資産の譲渡等に係る取引につき、一括して仕入れに係る割戻しを受けたときは、割戻金額をそれぞれの取引に係る部分に合理的に区分したところにより法第32条《仕入れに係る対価の返還等を受けた場合の仕入れに係る消費税額の控除の特例》の規定を適用することとなるのであるから留意する。（令５課消２−９により改正）

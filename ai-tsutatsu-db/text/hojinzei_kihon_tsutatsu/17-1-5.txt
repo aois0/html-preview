@@ -1,0 +1,14 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 17−1−5 / id: 17-1-5 / title: 組織再編成に係る確定申告書の添付書類
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/17/17_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/17-1-5.html
+
+[p1] 規則第35条第１項第７号《確定申告書の添付書類》に規定する明細書は、付表の書式（これに準ずる書式を含む。)による。（平14年課法2−1「四十一」により追加、平16年課法2−14「十六」、平19年課法2−3「四十六」、平19年課法2−17「三十四」、平22年課法2−1「四十三」、平28年課法2−11「十二」、平29年課法2−17「二十四」、平30年課法2−12「七」、令元年課法2−10「十」、令3年課法2−21「十四」、令４年課法2−14｢六十二」、令5年課法2−8「十一」により改正）
+[p2] 組織再編成に係る主要な事項の明細書(PDFファイル／281KB)
+[p3] PDF形式のファイルをご覧いただく場合には、Adobe Readerが必要です。Adobe Readerをお持ちでない方は、
+[p4] Adobeのダウンロードサイト
+[p5] からダウンロードしてください。
+[p6] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p7] 第2節 還付
+[p8] 第2節 還付

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 51−15 / id: 51-15 / title: 更生債権者が更生会社の株式を取得する権利の割当てを受けた場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/09/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/51-15.html
+
+[p1] 更生債権者が更生計画の定めるところにより更生会社の株式を取得する権利の割当てを受けた場合において、払込みをしなかったとき又は当該株式を取得する権利の価額が当該割当ての基礎とされた更生債権の金額に満たないときは、それぞれ当該更生債権の金額又は当該更生債権の金額と当該株式を取得する権利の価額との差額を貸倒れとすることができる。（昭50直所3−4、平19課個2−11、課資3−1、課法9−5、課審4−26改正）

@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 16−2 / id: 16-2 / title: 課税価格の端数計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/05.htm#a-16_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/16-2.html
+
+[p1] 相続又は遺贈(当該相続に係る被相続人からの贈与により取得した財産で相続時精算課税の適用を受けるものに係る贈与を含む。)によつて財産を取得した者の相続税の課税価格(法第19条及び第21条の15の規定の適用がある場合には、これらの規定による加算後の相続税の課税価格)を計算する場合において、その額に1,000円未満の端数があるとき又はその全額が1,000円未満であるときは、その端数金額又はその全額を切り捨てるのであるから留意する。（昭42直審（資）5改正、平15課資2−1改正）

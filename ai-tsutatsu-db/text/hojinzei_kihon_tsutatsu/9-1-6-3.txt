@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−1−6の3 / id: 9-1-6-3 / title: 補修用部品在庫調整勘定の金額の益金算入
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_01_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-1-6-3.html
+
+[p1] 補修用部品在庫調整勘定の金額は、その繰入れをした事業年度の翌事業年度の益金の額に算入する。（昭55年直法2−8「三十一」により追加、平15年課法2−7「二十二」、令４年課法2−14｢二十三」により改正）

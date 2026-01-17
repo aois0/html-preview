@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 38−1 / id: 38-1 / title: 土地等と共に取得した建物等の取壊し費用等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/18.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/38-1.html
+
+[p1] 自己の有する土地の上に存する借地人の建物等を取得した場合又は建物等の存する土地（借地権を含む。以下この項において同じ。）をその建物等と共に取得した場合において、その取得後おおむね1年以内に当該建物等の取壊しに着手するなど、その取得が当初からその建物等を取壊して土地を利用する目的であることが明らかであると認められるときは、当該建物等の取得に要した金額及び取壊しに要した費用の額の合計額（発生資材がある場合には、その発生資材の価額を控除した残額）は、当該土地の取得費に算入する。

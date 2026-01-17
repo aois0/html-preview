@@ -1,0 +1,13 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 41−11 / id: 41-11 / title: 特別の法律により法人の発行する債券及び出資証券
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/03.htm#a-41_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/41-11.html
+
+[p1] 法第41条第2項に規定する「特別の法律により法人の発行する債券」、「特別の法律により法人の発行する出資証券」とは、例えば、次に掲げるような債券及び出資証券をいうのであるから留意する。（平7課資2−119・徴管5−5改正、平16徴管5−13・課資2−10、平18徴管5−14改正）
+[p2] （1） 債券
+[p3] イ 商工債又は農林債又は長期信用銀行債等の金融債
+[p4] ロ 放送債券
+[p5] ハ 都市基盤整備債券等の政府機関債
+[p6] （2） 出資証券
+[p7] 日本銀行出資証券

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 54−8 / id: 54-8 / title: 退職給与の支給の対象となる使用人の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/10/04.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/54-8.html
+
+[p1] 令第154条第2項に規定する使用人には、退職給与の支給の対象となる在職年限に達していないため退職給与の支給されない者も含まれる。

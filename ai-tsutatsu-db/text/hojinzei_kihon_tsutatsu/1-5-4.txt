@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 1−5−4 / id: 1-5-4 / title: 資本等取引に該当する利益等の分配
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/01/01_05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/1-5-4.html
+
+[p1] 法第22条第5項《資本等取引の意義》の規定により資本等取引に該当する利益又は剰余金の分配には、法人が剰余金又は利益の処分により配当又は分配をしたものだけでなく、株主等に対しその出資者たる地位に基づいて供与した一切の経済的利益を含むものとする。（平14年課法2−1「四」、平19年課法2−3「六」により改正）

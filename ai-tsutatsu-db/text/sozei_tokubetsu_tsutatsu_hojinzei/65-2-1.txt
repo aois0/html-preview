@@ -1,0 +1,8 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 65の2-1 / id: 65-2-1 / title: 収用等の場合の課税の特例相互間の適用関係
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/10/10_65_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/65-2-1.html
+
+[p1] 措置法の規定による収用等の場合の課税の特例には、圧縮記帳等の特例（措置法第64条から第65条まで）及び5,000万円損金算入の特例(措置法第65条の2の規定による5,000万円の損金算入の特例をいう。以下同じ。)があるが、これらの特例相互間の適用関係は次のとおりである。(昭50年直法2-21「48」、平2年直法2-1「二十八」、平3年課法2-4「二十三」、平15年課法2-7「六十一」、平16年課法2-14「二十一」、平27年課法2-8「二十五」、令3年課法2-31「十」により改正）
+[p2] （注） 措置法第65条第7項から第9項までの規定により換地処分等による譲渡があったものとみなされる資産を含む。

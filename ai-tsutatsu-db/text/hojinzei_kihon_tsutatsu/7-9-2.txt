@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−9−2 / id: 7-9-2 / title: 棚卸資産とする劣化資産
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_09.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-9-2.html
+
+[p1] 劣化資産のうち製造工程において生産の流れに参加し、かつ、中間生産物の物理的又は化学的組成となるものについては、法人がこれを棚卸資産として経理している場合には、これを認める。
+[p2] (注) 7−9−1の(注)の(5)又は(6)に掲げるものがこれに該当する。

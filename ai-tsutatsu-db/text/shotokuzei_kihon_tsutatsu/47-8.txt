@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 47−8 / id: 47-8 / title: 原価の率が100％を超える場合の売価還元法の適用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/47-8.html
+
+[p1] 売価還元法を適用する場合において、令第99条第1項第1号ヘに規定する原価の率が100％を超えることとなったときでも、その率により期末棚卸資産の評価額を計算することに留意する。（平21課個2-29、課審4-52改正）

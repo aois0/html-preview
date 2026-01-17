@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 9−1−24 / id: 9-1-24 / title: 先物取引に係る資産の譲渡等の時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/09/01/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/9-1-24.html
+
+[p1] 商品先物取引法の規定により商品の先物取引を行った場合で、一定の期日までに反対売買することにより差金の授受によって決済したときは、当該先物取引は資産の引渡しを伴わない取引であるから資産の譲渡等には該当しないのであるが、現物の引渡しを行う場合には、当該引渡しを行う日に資産の譲渡等が行われたことになるのであるから留意する。（平23課消1-35により改正）

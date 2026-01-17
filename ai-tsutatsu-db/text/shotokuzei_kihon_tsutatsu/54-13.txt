@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 54−13 / id: 54-13 / title: 退職給与を支給しない正当の理由の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/10/04.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/54-13.html
+
+[p1] 令第155条第1項第3号の「正当の理由」がある場合には、例えば、使用人に不正があったなどのため解雇した場合のように、社会通念上退職給与を支給しないことが相当であると認められる場合が該当する。

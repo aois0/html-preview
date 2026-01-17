@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 37-37 / id: 37-37 / title: 地方公共団体等が林道開設に伴い賦課する賦課金等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/10.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/37-37.html
+
+[p1] 地方公共団体、森林組合又は森林組合連合会が、林道の開設に伴いその開設費の全部又は一部を山林所有者又は林地所有者に賦課し、又は負担させた場合におけるその賦課金又は負担金については、37-33から37-36までの取扱いに準ずる。

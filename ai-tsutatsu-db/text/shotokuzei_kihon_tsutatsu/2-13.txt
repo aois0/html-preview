@@ -1,0 +1,16 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 2−13 / id: 2-13 / title: 棚卸資産に含まれるもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/03.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/2-13.html
+
+[p1] 令第3条第7号《棚卸資産の範囲》に掲げる「前各号に掲げる資産に準ずるもの」には、例えば、事業所得を生ずべき事業に係る次に掲げるような資産で一般に販売（家事消費を含む。）の目的で保有されるものが含まれる。（平23課個2−33、課法9−9、課審4−46改正）
+[p2] （1） 飼育又は養殖中の牛、馬、豚、家きん、魚介類等の動物
+[p3] （2） 定植前の苗木
+[p4] （3） 育成中の観賞用の植物
+[p5] （4） まだ収穫しない水陸稲、麦、野菜等の立毛及び果実
+[p6] （5） 養殖中ののり、わかめ等の水産植物でまだ採取されないもの
+[p7] （6） 仕入れ等に伴って取得した空き缶、空き箱、空き瓶等
+[p8] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p9] 〔公社債（第9号関係）〕
+[p10] 〔公社債（第9号関係）〕

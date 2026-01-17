@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−6−3 / id: 7-6-3 / title: 土石採取用土地等の償却
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_06_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-6-3.html
+
+[p1] 土石又は砂利を採取する目的で取得した土地については、法人がその取得価額のうち土石又は砂利に係る部分につき旧生産高比例法又は生産高比例法に準ずる方法により計算される金額以内の金額を損金の額に算入したときは、これを認める。（平19年課法2−7「六」により改正）

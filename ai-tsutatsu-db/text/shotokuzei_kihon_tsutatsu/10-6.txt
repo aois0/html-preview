@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 10-6 / id: 10-6 / title: 普通預金又は普通貯金に相当するもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/10-6.html
+
+[p1] 規則第6条の2第2項《障害者等に該当しないこととなった日以後に預入等をした預貯金等の利子等の計算等》に規定する「令第32条第2号又は第3号《金融機関等の範囲》に掲げる者が受入れをする預貯金で普通預金又は普通貯金に相当するもの」に該当するかどうかは、その預貯金の満期日の定めがあるかどうか、利息は毎日又は一定の日の残高を基に累積計算により算出され、毎年一定の時期に支払うこととされているかどうか等を勘案して判定するものとする。（昭63直法6-7、直所3-8追加、平17課法8-9、課個2-33、課審4-215改正、平19課法9-9、課個2-20、課審4-32）

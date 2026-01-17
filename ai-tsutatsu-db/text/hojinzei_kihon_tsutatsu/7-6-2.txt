@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−6−2 / id: 7-6-2 / title: 鉱業用土地の償却
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_06_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-6-2.html
+
+[p1] 石炭鉱業におけるぼた山の用に供する土地のように鉱業経営上直接必要な土地で鉱業の廃止により著しくその価値が減少するものについて、法人が、その取得価額から鉱業を廃止した場合において残存すると認められる価額を控除した金額につき当該土地に係る鉱業権について選定している償却の方法に準じて計算される金額以内の金額を損金の額に算入したときは、これを認める。

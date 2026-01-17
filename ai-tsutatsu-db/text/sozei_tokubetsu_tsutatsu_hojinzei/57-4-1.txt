@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 57の4−1 / id: 57-4-1 / title: 積立限度超過額の認容
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/02/02_57_4_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/57-4-1.html
+
+[p1] 法人が特定原子力施設炉心等除去準備金勘定の金額を取り崩して収益として計上した場合において、その収益として計上した金額が措置法第57条の４第２項又は第３項第１号若しくは第２号の規定により益金の額に算入すべき金額を超えるときは、その超える金額は同項第３号の任意の取崩額に該当することに留意する。この場合において、法人が計上していた特定原子力施設炉心等除去準備金勘定のうちに積立限度超過額があり、法人がその超える金額のうち既往の積立限度超過額に達するまでの金額について既往の積立限度超過額の取崩しとして確定申告書等において損失として計上したときは、その計算を認めるものとする。（令5年課法2−8「九」により追加）

@@ -1,0 +1,8 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 42の4 / id: 42-4 / title: 試験研究の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/01/01_42_04a.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/42-4.html
+
+[p1] （1）−1
+[p2] 措置法第42条の４第19項第１号イ(1)に規定する試験研究とは、事物、機能、現象などについて新たな知見を得るため又は利用可能な知見の新たな応用を考案するために行う創造的で体系的な調査、収集、分析その他の活動のうち自然科学に係るものをいい、新製品の製造又は新技術の改良、考案若しくは発明に係るものに限らず、現に生産中の製品の製造又は既存の技術の改良、考案若しくは発明に係るものも含まれる。（令３年課法２−21「四」により追加、令４年課法２−14「四」により改正）

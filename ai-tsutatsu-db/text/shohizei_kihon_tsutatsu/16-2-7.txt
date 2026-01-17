@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 16−2−7 / id: 16-2-7 / title: 取戻し対象特定収入の判定単位
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/16/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/16-2-7.html
+
+[p1] 令第75条第９項《取戻し対象特定収入の判定》に規定する「取戻し対象特定収入」（同条第８項《控除対象外仕入れに係る調整計算》に規定する「取戻し対象特定収入」をいう。以下16−2−9までにおいて同じ。）の判定は、課税仕入れ等に係る特定収入（同条第４項第１号イ《国、地方公共団体等の仕入れに係る消費税額の特例》に規定する「課税仕入れ等に係る特定収入」をいう。以下16−2−9までにおいて同じ。）ごとに、その課税仕入れ等に係る特定収入により支出された課税仕入れに係る支払対価の額の合計額を基礎として行うこととなる。（令５課消２−９により追加）

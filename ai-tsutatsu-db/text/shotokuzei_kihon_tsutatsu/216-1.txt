@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 216−1 / id: 216-1 / title: 常時10人未満であるかどうかの判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/38/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/216-1.html
+
+[p1] 法第216条かっこ内に規定する「給与等の支払を受ける者が常時10人未満である」かどうかは、給与等の支払を受ける者の数が平常の状態において10人未満であるかどうかにより判定するものとし、次のような場合には、それぞれ次による。
+[p2] (1) 繁忙期には臨時に使用した人数を含めると10人以上となるが、平常は10人未満である場合には、常時10人未満であるものとする。
+[p3] (2) 建設業者のように労務者を日々雇い入れることを常態とする場合には、たとえ常雇人の人数が10人未満であっても、日々雇い入れる者を含めると平常は10人以上となるときは、常時10人未満ではないものとする。

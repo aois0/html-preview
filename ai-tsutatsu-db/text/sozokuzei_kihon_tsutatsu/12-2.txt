@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 12−2 / id: 12-2 / title: 祭具等の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/02.htm#a-12_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/12-2.html
+
+[p1] 法第12条第1項第2号に規定する「これらに準ずるもの」とは、庭内神し、神たな、神体、神具、仏壇、位はい、仏像、仏具、古墳等で日常礼拝の用に供しているものをいうのであるが、商品、骨とう品又は投資の対象として所有するものはこれに含まれないものとする。
+[p2] 〔公益事業用財産関係〕

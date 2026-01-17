@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 143−1 / id: 143-1 / title: 業務を行う居住者
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/20/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/143-1.html
+
+[p1] 法第143条に規定する「不動産所得、事業所得又は山林所得を生ずべき業務を行なう居住者」とは、不動産所得の基因となる資産を貸付け（地上権の設定その他他人に当該資産を使用させることを含む。）、事業所得を生ずべき事業を経営し、又は山林を保有している居住者をいうことに留意する。
+[p2] 法第144条《青色申告の承認の申請》関係

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 58−8 / id: 58-8 / title: 取得資産を譲渡資産の譲渡直前の用途と同一の用途に供する時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/12/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/58-8.html
+
+[p1] 固定資産を交換した場合において、取得資産をその交換の日の属する年分の確定申告書の提出期限までに譲渡資産の譲渡直前の用途と同一の用途に供したとき（相続人が当該用途に供した場合を含む。）は、法第58条第1項の規定を適用することができるものとする。この場合において、取得資産を譲渡資産の譲渡直前の用途と同一の用途に供するには改造等を要するため、当該提出期限までに当該改造等に着手しているとき（相当期間内にその改造等を了する見込みであるときに限る。）は、当該提出期限までに同一の用途に供されたものとする。（昭56直資3−2、直所3−3改正）

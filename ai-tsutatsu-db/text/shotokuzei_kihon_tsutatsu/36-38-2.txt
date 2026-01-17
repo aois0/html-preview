@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 36-38の2 / id: 36-38-2 / title: 食事の支給による経済的利益はないものとする場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/36-38-2.html
+
+[p1] 使用者が役員又は使用人に対し支給した食事(36-24の食事を除く。)につき当該役員又は使用人から実際に徴収している対価の額が、36-38により評価した当該食事の価額の50%相当額以上である場合には、当該役員又は使用人が食事の支給により受ける経済的利益はないものとする。ただし、当該食事の価額からその実際に徴収している対価の額を控除した残額が月額3,500円を超えるときは、この限りでない。（昭50直法6-4、直所3-8追加、昭59直法6-4、直所3-7改正）

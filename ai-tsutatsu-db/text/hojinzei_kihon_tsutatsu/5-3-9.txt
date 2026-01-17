@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 5−3−9 / id: 5-3-9 / title: 申告調整できる貸方原価差額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/05/05_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/5-3-9.html
+
+[p1] 法人が棚卸資産につき算定した取得価額が令第32条第1項《棚卸資産の取得価額》に規定する取得価額を超える場合のその差額のうち、法又は措置法の規定により損金の額に算入されないため確定申告に際して自己否認した金額から成る部分の金額については、当該申告に係る申告書においてその調整を行うことができるものとする。（昭52年直法2−33「5」、昭55年直法2−15「七」、平16年課法2−14「四」により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第4節 棚卸しの手続
+[p4] 第4節 棚卸しの手続

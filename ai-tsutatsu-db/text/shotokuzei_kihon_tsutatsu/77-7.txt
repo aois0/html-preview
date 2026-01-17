@@ -1,0 +1,10 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 77−7 / id: 77-7 / title: 支払った地震保険料の金額等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/77-7.html
+
+[p1] 法第77条第1項に規定する支払った地震保険料の金額、使用者が負担した使用人等の負担すべき地震保険料及び同項かっこ内に規定する剰余金又は割戻金については、76−3から76−7までの取扱いに準ずる。（平2直所3−9、直法6−7、平18課個2−7、課資3−2、課審4−89改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 法第78条《寄附金控除》関係
+[p4] 法第78条《寄附金控除》関係

@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−3−16 / id: 7-3-16 / title: 電話加入権の取得価額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_03_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-3-16.html
+
+[p1] 電話加入権の取得価額には、電気通信事業者との加入電話契約に基づいて支出する工事負担金のほか、屋内配線工事に要した費用等電話機を設置するために支出する費用（当該費用の支出の目的となった資産を自己の所有とする場合のその設置のために支出するものを除く。）が含まれることに留意する。（昭49年直法2−71「9」、昭58年直法2−11「六」、昭60年直法2−11「二」、平16年課法2−14「六」により改正）

@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 2−46 / id: 2-46 / title: 配偶者
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/07.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/2-46.html
+
+[p1] 法に規定する配偶者とは、民法の規定による配偶者をいうのであるから、いわゆる内縁関係にある者は、たとえその者について家族手当等が支給されている場合であっても、これに該当しない。（平18課個2−18、課資3−10、課審4−114改正）
+[p2] （注） 外国人で民法の規定によれない者については、法の適用に関する通則法(平成18年法律第78号)の規定によることに留意する。

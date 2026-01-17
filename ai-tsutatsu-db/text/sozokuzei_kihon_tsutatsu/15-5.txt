@@ -1,0 +1,13 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 15−5 / id: 15-5 / title: 「当該被相続人に養子がある場合」の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/04.htm#a-15_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/15-5.html
+
+[p1] 被相続人の民法第5編第2章((相続人))の規定による相続人（相続の放棄があった場合には、その放棄がなかったものとした場合における相続人をいう。以下15
+[p2] −
+[p3] 5において同じ。）が兄弟姉妹である場合は、その相続人の中に当該被相続人の親と養子縁組をしたことにより相続人となった者があるときであっても、法第15条第2項に規定する「当該被相続人に養子がある場合」に該当しないのであるから留意する。（平元直資2
+[p4] −
+[p5] 207追加、平17課資2
+[p6] −
+[p7] 4改正）

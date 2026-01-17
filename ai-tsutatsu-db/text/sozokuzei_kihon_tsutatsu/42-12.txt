@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 42−12 / id: 42-12 / title: 「一年を越えない範囲内」の始期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/04.htm#a-42_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/42-12.html
+
+[p1] 法第42条第20項に規定する「一年を越えない範囲内」で期限を定める場合には、法第42条第20項の規定に基づく通知を発した日の翌日から起算するのであるから留意する。（平18徴管5−14追加）

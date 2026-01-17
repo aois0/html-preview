@@ -1,0 +1,12 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 16−1−8 / id: 16-1-8 / title: 留保金額の端数計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/16/16_01_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/16-1-8.html
+
+[p1] 法第67条《特定同族会社の特別税率》の規定を適用する場合における端数計算については、次による。（平19年課法2−3「四十三」により改正）
+[p2] (1) 課税の対象となる留保金額に1,000円未満の端数があるときは、これを切り捨てる。
+[p3] (2) 事業年度の期間が1年に満たない場合において、年1億円に相当する金額に1,000円未満の端数があるときは、これを切り捨てる。ただし、当該切り捨てられる端数の金額が(1)により切り捨てられる端数の金額より多いときは、これを切り上げる。
+[p4] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p5] 第2節 所得税額の控除
+[p6] 第2節 所得税額の控除

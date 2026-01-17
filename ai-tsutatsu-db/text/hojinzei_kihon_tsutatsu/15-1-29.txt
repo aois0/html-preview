@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−29 / id: 15-1-29 / title: 請負業と他の特掲事業との関係
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_11.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-29.html
+
+[p1] 公益法人等の行う事業が請負又は事務処理の受託としての性質を有するものである場合においても、その事業がその性格からみて令第5条第1項各号《収益事業の範囲》に掲げる事業のうち同項第10号以外の号に掲げるもの（以下15−1−29において「他の特掲事業」という。）に該当するかどうかにより収益事業の判定をなすべきものであるとき又は他の特掲事業と一体不可分のものとして課税すべきものであると認められるときは、その事業は、同項第10号《請負業》の請負業には該当しないものとする。（昭56年直法2−16「七」により追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第12款 印刷業
+[p4] 第12款 印刷業

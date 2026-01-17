@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 1−5−2 / id: 1-5-2 / title: 包括遺贈
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/01/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/1-5-2.html
+
+[p1] 法第2条第4項《相続等の範囲》に規定する「包括遺贈」とは、遺贈する財産を特定しないで、財産の全部又は財産の一定の割合として他人に遺贈することをいう。

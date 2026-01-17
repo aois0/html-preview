@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 194・195-1 / id: 194_195-1 / title: 給与所得者の扶養控除等申告書等の期限後提出
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/33/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/194_195-1.html
+
+[p1] 給与所得者の扶養控除等申告書又は従たる給与についての扶養控除等申告書が所定の期日後に提出された場合には、その提出後最初に支払う給与等から、これらの申告書に記載されたところにより徴収税額を計算する。（平27課個2-11、課法10-16、課審5-7、令6課個2−12、課法12−27、課審5−3改正）
+[p2] （注） これらの申告書に法第194条第1項第7号又は第195条第1項第4号に規定する非居住者である親族の記載がある場合において、法第194条第５項又は第195条第５項に規定する書類の提出又は提示が所定の期日後にされたときは、上記に準じて徴収税額を計算する。

@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 105−2 / id: 105-2 / title: 居住者でなくなった場合の予定納税の義務
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/18/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/105-2.html
+
+[p1] 法第104条（（予定納税額の納付））の規定を適用する場合には、居住者であるかどうかはその年6月30日を経過する時の現況により判定すべきものであるから、当該時の現況において居住者に該当しない次に掲げる者は、たとえ予定納税額等の通知がされている場合であっても、予定納税額を納付する義務はないことに留意する（平28課2−4、課法11−8、課審5−5改正）。
+[p2] （1） 当該時までに死亡した者

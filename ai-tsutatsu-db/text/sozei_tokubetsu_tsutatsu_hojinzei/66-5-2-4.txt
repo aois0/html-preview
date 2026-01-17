@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の5の2−4 / id: 66-5-2-4 / title: 金銭債務の償還差損等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/13/13_66_5_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-5-2-4.html
+
+[p1] 措置法令第39条の13の２第２項に規定する「法人税法施行令第136条の２第１項に規定する満たない部分の金額」のうち、同項の規定により損金の額に算入した額が、支払利子等の額に含まれることに留意する。（令元年課法2-33「二」により追加）

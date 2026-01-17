@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−19 / id: 15-1-19 / title: 非課税とされる国等に対する不動産の貸付け
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-19.html
+
+[p1] 令第5条第1項第5号ホ《非課税とされる国等に対する不動産の貸付業》の規定により収益事業とされない国又は地方公共団体（以下この節において「国等」という。）に対する不動産の貸付けは、国等によって直接使用されることを目的として当該国等に対して直接貸付けられるものに限られるのであるから、公益法人等が国等に対して不動産の貸付けを行った場合においても、当該不動産が国等以外の者に転貸されているときは、当該不動産の貸付けはこれに該当しない。（昭46年直審（法）21「8」、昭56年直法2−16「七」により改正）

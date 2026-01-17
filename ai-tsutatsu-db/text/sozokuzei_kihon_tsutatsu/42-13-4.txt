@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 42−13の4 / id: 42-13-4 / title: 処分があった日
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/04.htm#a-42_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/42-13-4.html
+
+[p1] 法施行令第19条の4第3項第2号の「処分があった日」については、39−10の4の取扱いに準ずるものとする。

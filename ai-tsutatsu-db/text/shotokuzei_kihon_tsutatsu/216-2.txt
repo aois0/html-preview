@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 216−2 / id: 216-2 / title: 納期の特例の承認の効果
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/38/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/216-2.html
+
+[p1] 法第216条の規定は、法第217条第4項《納期の特例に関する承認の申請等》の規定による承認の通知が到達した日又は同条第5項の規定により承認があったものとみなされる日以後に法定納期限が到来する源泉徴収に係る所得税から適用する。（昭49直所2−23改正）
+[p2] 法第219条《承認の取消し等があった場合の納期の特例》関係

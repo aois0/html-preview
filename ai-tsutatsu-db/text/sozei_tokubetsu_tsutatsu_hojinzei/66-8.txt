@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66−8 / id: 66-8 / title: 2以上の資産の交換をした場合の経費の額の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/10/10_66.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-8.html
+
+[p1] 措置法第66条第2項第3号の規定により交換譲渡資産の帳簿価額に加算すべき交換に要した経費の額を計算する場合において、同時に交換をされた所有隣接土地等が2以上あるときは、当該交換に要した経費の額は、原則として個々の所有隣接土地等につきその交換に要した経費の額を区分して計算するのであるが、個々の所有隣接土地等ごとの区分計算が困難であるときは、個々の所有隣接土地等の価額の比等の合理的な基準によりあん分して計算した金額によることができる。（平19年課法2−3「四十七」により追加）

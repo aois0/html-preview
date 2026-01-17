@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−2−51 / id: 9-2-51 / title: 出向者に係る適格退職年金契約の掛金等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_02_09.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-2-51.html
+
+[p1] 出向元法人が適格退職年金契約を締結している場合において、出向先法人があらかじめ定めた負担区分に基づきその出向者に係る掛金又は保険料（過去勤務債務等に係る掛金又は保険料を含む。）の額を出向元法人に支出したときは、その支出した金額は、その支出をした日の属する事業年度の損金の額に算入する。（昭55年直法2−8「三十二」、平10年課法2−7「十」、平19年課法2−3「二十二」により改正）

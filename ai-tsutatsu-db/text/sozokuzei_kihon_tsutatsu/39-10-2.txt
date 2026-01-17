@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 39−10の2 / id: 39-10-2 / title: 延納の許可の申請に係る手続を行う者
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/02.htm#a-39_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/39-10-2.html
+
+[p1] 法施行令第16条の2第1項第1号に規定する「延納の許可の申請に係る手続を行う者」とは、法第39条第1項の規定による延納の許可の申請を行った者（納税義務者）をいい、当該申請を行った者が死亡したことにより当該申請者としての地位を承継した者を含むものであることに留意する。

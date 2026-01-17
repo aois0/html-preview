@@ -1,0 +1,11 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 6−4−2 / id: 6-4-2 / title: 郵便切手類の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/06/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/6-4-2.html
+
+[p1] 法別表第二第4号イ《郵便切手類等の譲渡》の規定により非課税となる「郵便切手類」とは次のものをいい、郵便切手類販売所等に関する法律第1条《定義》に規定する郵便切手を保存用の冊子に収めたものその他郵便に関する料金を示す証票に関し周知し、又は啓発を図るための物は、これに含まれないのであるから留意する。（平15課消1-13、平20課消1-8、令５課消２−９により改正）
+[p2] (1) 郵便切手
+[p3] (2) 郵便葉書
+[p4] (3) 郵便書簡
+[p5] (4) 特定封筒

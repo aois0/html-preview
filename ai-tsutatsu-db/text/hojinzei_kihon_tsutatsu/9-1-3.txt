@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−1−3 / id: 9-1-3 / title: 時価
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_01_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-1-3.html
+
+[p1] 法第33条第2項《資産の評価換えによる評価損の損金算入》の規定を適用する場合における「評価換えをした日の属する事業年度終了の時における当該資産の価額」は、当該資産が使用収益されるものとしてその時において譲渡される場合に通常付される価額による。
+[p2] 同条第4項《資産評定による評価損の損金算入》に係る令第68条の2第4項第1号《再生計画認可の決定等の事実が生じた場合の評価損の額》に規定する「当該再生計画認可の決定があった時の価額」についても、同様とする。（平17年課法2−14「九」、平19年課法2−3「二十一」、平21年課法2−5「七」により改正）

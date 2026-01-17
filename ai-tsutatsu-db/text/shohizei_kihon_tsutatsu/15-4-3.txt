@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 15−4−3 / id: 15-4-3 / title: 郵便により外国貨物を受け取る場合の課税標準額等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/15/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/15-4-3.html
+
+[p1] 郵便物として引き取ろうとする課税貨物について課税標準額及び税額の決定をする場合には、15−4−2に準じて取り扱って差し支えない。

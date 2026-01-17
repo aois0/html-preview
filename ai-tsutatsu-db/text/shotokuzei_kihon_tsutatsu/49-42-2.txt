@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−42の2 / id: 49-42-2 / title: 総合償却資産の償却費の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/12.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-42-2.html
+
+[p1] 旧定額法、旧生産高比例法、定額法又は生産高比例法により総合償却資産の償却費の額を計算している場合には、その総合償却資産につき計算された償却費の額を合理的基準により個々の資産に配賦するものとし、その者が合理的基準により配賦をしていないときは、その総合償却資産につき適用される耐用年数を基礎として、個々の資産ごとに償却費の額を計算するものとする。（昭46直審（所）19追加、平19課個2−11、課資3−1、課法9−5、課審4−26改正）

@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 43−2 / id: 43-2 / title: 許可後の財産の状況の変化
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/05.htm#a-43_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/43-2.html
+
+[p1] 物納の許可を通知した後であっても、当該許可に係る物納財産の引渡し、所有権移転の登記その他法令により第三者に対抗することのできる要件を充足するまでの間において、納税義務者の責めに帰すべき事由により当該財産の状況に著しい変化を生じたときは、法第43条第1項ただし書の規定を適用することができるのであるから留意する。（平7課資2−119・徴管5−5改正）

@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 20−2−1 / id: 20-2-1 / title: 
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/16/16_03_02a.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/20-2-1.html
+
+[p1] 《恒久的施設帰属所得の認識に当たり勘案されるその他の状況》から20−2−4《恒久的施設において使用する資産の範囲》までの取扱いは、国外事業所等帰属所得を認識する場合について準用する。（平26年課法2−9「四」により追加）

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 120-6 / id: 120-6 / title: 学術、技芸の習得のため国外に居住することとなった親族が国外居住親族に該当するかどうかの判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/19/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/120-6.html
+
+[p1] 学術、技芸の習得のため国外に居住することとなった親族が、法第120条第3項第2号又は第３号（（確定所得申告））に規定する非居住者である親族に該当するかどうかについては、3-2（（学術、技芸を習得する者の住所の判定））により判定することに留意する。（平27課個2-11、課法10-16、課審5-7追加、令４課個2-13、課法12-16、課審5-９改正）

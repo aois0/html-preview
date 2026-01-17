@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 21の3-4 / id: 21-3-4 / title: 「教育費」の意義」
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/10.htm#a-21_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/21-3-4.html
+
+[p1] 法第21条の3第1項第2号に規定する「教育費」とは、被扶養者の教育上通常必要と認められる学資、教材費、文具費等をいい、義務教育費に限らないのであるから留意する。（平15課資2-1改正）

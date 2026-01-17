@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 1−8−9 / id: 1-8-9 / title: 媒介者等を介して国内において課税資産の譲渡等を行う場合の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/01/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/1-8-9.html
+
+[p1] 令第70条の12第１項《媒介者等による適格請求書等の交付の特例》に規定する「媒介者等を介して国内において課税資産の譲渡等を行う場合」には、委託販売のように課税資産の譲渡等を第三者に委託している場合のほか、課税資産の譲渡等に関する代金の精算や請求書等の交付を第三者に委託している場合もこれに含まれることに留意する。（令５課消２−９により追加）

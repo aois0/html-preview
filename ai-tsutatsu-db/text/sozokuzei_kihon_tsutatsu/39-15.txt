@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 39−15 / id: 39-15 / title: 延納条件の変更と担保
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/02.htm#a-39_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/39-15.html
+
+[p1] 法第39条第30項の規定により延納の条件を変更する場合において、提供されている担保物の価額が条件変更後の延納税額を担保するのに不十分であると認められるときは、通則法第51条第1項（担保の変更等）の規定による増担保の提供等の命令を行うものであるから留意する。（平7課資2−119・徴管5−5追加、平18徴管5−14改正）

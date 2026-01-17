@@ -1,0 +1,11 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 10−6−10 / id: 10-6-10 / title: 交換により取得した資産の圧縮記帳の経理の特例
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/10/10_06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/10-6-10.html
+
+[p1] 法第50条第1項《交換により取得した資産の圧縮額の損金算入》の規定を適用する場合において、法人が同項に規定する取得資産につき、その帳簿価額を損金経理により減額しないで、同項に規定する譲渡資産の令第92条《交換により生じた差益金の額》に規定する譲渡直前の帳簿価額とその取得資産の取得のために要した経費との合計額に相当する金額を下らない金額をその取得価額としたときは、これを認める。この場合においても、法第50条第3項の規定の適用があることに留意する。
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第1節 通則
+[p4] 第11章 引当金
+[p5] 第1節 通則

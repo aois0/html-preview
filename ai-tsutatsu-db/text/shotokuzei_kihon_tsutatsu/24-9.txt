@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 24-9 / id: 24-9 / title: 負債により取得した株式等を買い換えた場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/24-9.html
+
+[p1] 負債により取得した株式等の全部又は一部を譲渡し、更に他の株式等を取得した場合には、当該他の株式等を取得するために要した負債の額は、当該譲渡した株式等を取得するために要した負債の残存額（その額が当該譲渡した株式等の譲渡代金を超える場合には、当該超える部分の金額を除く。）と当該他の株式等を取得するに際し新たに借り入れた負債の額との合計額（当該合計額が当該他の株式等を取得するために要した金額を超える場合には、当該超える部分の金額を除く。）とする。

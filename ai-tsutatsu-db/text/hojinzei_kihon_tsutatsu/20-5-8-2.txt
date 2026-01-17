@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 20−5−8の2 / id: 20-5-8-2 / title: 事業税及び特別法人事業税の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/20a/20_05_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/20-5-8-2.html
+
+[p1] 恒久的施設を有する外国法人の事業税の額及び特別法人事業税の額については、これらの金額のうち恒久的施設帰属所得に係る所得の金額に対応する部分の金額として合理的に計算された金額が、恒久的施設帰属所得に係る所得の金額の計算上損金の額に算入されることに留意する。（平27年課法2−26「二」により追加、令元年課法2−10「十二」により改正）

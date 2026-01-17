@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 1−8−16 / id: 1-8-16 / title: 外貨建取引における適格請求書に記載すべき消費税額等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/01/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/1-8-16.html
+
+[p1] 外貨建ての取引における適格請求書に記載すべき消費税額等（法第57条の４第１項第５号《適格請求書の交付義務》に掲げる「消費税額等」をいう。）は円換算した金額を記載することとなるが、円換算の方法については、10−1−7に準ずる方法のほか、例えば、適格請求書を交付する日における対顧客直物電信売相場と対顧客直物電信買相場の仲値を継続的に使用するなど、合理的な方法によることでも差し支えない。（令５課消２−９により追加）

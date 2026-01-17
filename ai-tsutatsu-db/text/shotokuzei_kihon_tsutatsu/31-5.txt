@@ -1,0 +1,10 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 31−5 / id: 31-5 / title: 退職給付金支給事業とその他の事業とを併せて行う団体に対して支出した掛金
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/31-5.html
+
+[p1] 令第65条の規定の適用に当たり、事業主が同条各号に規定する契約に基づき退職給付金を支給する事業（以下この項において「退職給付金支給事業」という。）とその他の事業とを併せて行う団体に対して、被共済者又はこれに類する者のために支出した掛金で損金の額又は必要経費に算入される金額は、退職給付金支給事業以外の事業に充てられる部分の金額が明らかに区分されている場合を除き、その全額を被共済者又はこれに類する者に対する給与等とする。（昭63直法6−1、直所3−1改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 法第32条《山林所得》関係
+[p4] 法第32条《山林所得》関係

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 67−5 / id: 67-5 / title: 業務を承継した相続人が提出する届出書の提出期限の特例
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/14/02.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/67-5.html
+
+[p1] 法第67条第１項の規定の適用を受けていた被相続人の不動産所得を生ずべき業務又は事業所得を生ずべき業務を承継したことにより、新たに同条に規定する業務を開始した相続人が提出する令第197条第1項に規定する届出書については、当該被相続人についての所得税の準確定申告書の提出期限（当該期限が法第147条《青色申告の承認があったものとみなす場合》の規定により青色申告の承認があったとみなされる日後に到来するときは、その日）までに提出して差し支えない。（平11課所4−1、令４課個2-13、課法12-16、課審5-９改正）

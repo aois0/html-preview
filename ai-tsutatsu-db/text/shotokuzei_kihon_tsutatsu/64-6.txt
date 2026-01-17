@@ -1,0 +1,11 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 64-6 / id: 64-6 / title: 確定している総所得金額等の意義及び税額の改算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/13/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/64-6.html
+
+[p1] 令第180条第2項第1号に規定する「確定している法第64条第1項に規定する年分の総所得金額、退職所得金額及び山林所得金額」の意義及び法第64条の規定を適用した場合における所得税の額の改算については、63-2及び63-3の取扱いに準ずる。
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 法第63条《事業を廃止した場合の必要経費の特例》関係
+[p4] 第6款 事業を廃止した場合等の所得計算の特例
+[p5] 法第63条《事業を廃止した場合の必要経費の特例》関係

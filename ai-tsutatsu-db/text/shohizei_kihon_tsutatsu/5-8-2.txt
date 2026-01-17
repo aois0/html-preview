@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−8−2 / id: 5-8-2 / title: 特定資産の譲渡等の表示義務
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-8-2.html
+
+[p1] 特定資産の譲渡等（国内において他の者が行う特定課税仕入れに該当するものに限る。以下5−8−2において同じ。）を行う国外事業者は、当該国外事業者が課税事業者であるかどうかにかかわらず、当該特定資産の譲渡等に係る特定課税仕入れを行う事業者が法第5条第1項《納税義務者》の規定により消費税を納める義務がある旨を表示しなければならないことに留意する。（平27課消1-17により追加、平28課消1-57により改正）
+[p2] (注) 当該表示義務の履行の有無は、当該特定資産の譲渡等を受ける事業者の納税義務には影響しない。

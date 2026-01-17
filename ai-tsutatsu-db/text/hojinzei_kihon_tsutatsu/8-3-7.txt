@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 8−3−7 / id: 8-3-7 / title: 繰延資産の償却額の計算単位
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/08/08_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/8-3-7.html
+
+[p1] 繰延資産の償却限度額は、費目の異なるごとに、かつ、その償却期間の異なるごとに計算する。（昭55年直法2−8「三十」により改正）
+[p2] (注) 法人が継続して8−2−3の表の種類及び細目欄の区分ごとに、かつ、その償却期間の異なるごとに繰延資産を区分してその償却限度額を計算している場合には、これを認める。

@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 9−16 / id: 9-16 / title: 特別の関係がある者が使用人である場合の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/04.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/9-16.html
+
+[p1] 学資金の給付を受ける者が、法第9条第1項第15号ロ又はニに規定する特別の関係がある者であり、かつ、当該給付をする者の使用人（同号イに規定する役員又は同号ハに規定する親族を除く。）である場合には、当該給付が当該特別の関係がある者のみを対象としているときを除き、当該給付は同号ロ又はニに規定する給付には該当しないものとして取り扱って差し支えない。（昭51直所3−1、直法6−1、直資3−1追加、平元直所3−14、直法6−9、直資3−8、平28課法10−1、課個2−6、課審5−7改正）
+[p2] 〔国等の子育て支援金等の助成(第16号関係)〕

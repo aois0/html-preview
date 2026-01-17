@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 213−4 / id: 213-4 / title: 居住者等に支払う場合の準用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/37/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/213-4.html
+
+[p1] 居住者又は内国法人に支払う源泉徴収の対象となる所得で、その支払うべき金額が外貨で表示されているものに係る邦貨換算については、213−1から213−3までの取扱いに準ずる。（昭51直所3−1、直法6−1、直資3−1追加）

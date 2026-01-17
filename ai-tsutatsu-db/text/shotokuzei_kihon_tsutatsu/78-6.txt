@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 78−6 / id: 78-6 / title: 最終的に国等に帰属しない寄附金
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/78-6.html
+
+[p1] 国等に対して採納の手続を経て支出した寄附金であっても、その寄附金が特定の団体に交付されることが明らかであるなど最終的に国等に帰属しないと認められるものは、国等に対する寄附金には該当しないことに留意する。（平20課個2−17、課審4−186、課法9−3改正）

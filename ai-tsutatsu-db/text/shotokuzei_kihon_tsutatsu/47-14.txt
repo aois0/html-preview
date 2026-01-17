@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 47−14 / id: 47-14 / title: 前年末において低価法により評価している場合の棚卸資産の取得価額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/47-14.html
+
+[p1] その年の前年12月31日における棚卸資産につき低価法により評価していた場合のその年12月31日における棚卸資産の評価額の計算の基礎となるその棚卸資産の取得価額は、当該低価法による評価額ではなく、当該低価法の基礎として選定している原価法により評価した価額によることに留意する。

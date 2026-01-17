@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−3−44 / id: 2-3-44 / title: デリバティブ取引の手仕舞約定等に係る損益の計上
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_03_06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-3-44.html
+
+[p1] デリバティブ取引の手仕舞約定等に係る損益の額は、当該手仕舞約定等が成立した日の属する事業年度の益金の額又は損金の額に算入する。(平12年課法2−7「四」により追加)
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第7款 ヘッジ処理による損益
+[p4] 第7款 ヘッジ処理による損益

@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 9の4−3 / id: 9-4-3 / title: 受益者等が存しない信託の受益者等となる者
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/09.htm#a-9-4_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/9-4-3.html
+
+[p1] 法第9条の4第1項に規定する「当該信託の受益者等となる者」又は第2項に規定する「当該受益者等の次に受益者等となる者」が複数名存する場合で、そのうちに1人でも当該信託の委託者（同項の次に受益者等となる者の前の受益者等を含む。）の親族（令第1条の9に規定する者をいう。以下9の5−1において同じ。）が存するときは、法第9条の4第1項又は第2項の規定の適用があることに留意する。（平19課資2−5、課審6−3追加）

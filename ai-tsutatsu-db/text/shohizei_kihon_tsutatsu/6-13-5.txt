@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 6−13−5 / id: 6-13-5 / title: 店舗等併設住宅の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/06/13.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/6-13-5.html
+
+[p1] 住宅と店舗又は事務所等の事業用施設が併設されている建物を一括して貸し付ける場合には、住宅として貸し付けた部分のみが非課税となるのであるから留意する。
+[p2] (注) この場合は、建物の貸付けに係る対価の額を住宅の貸付けに係る対価の額と事業用の施設の貸付けに係る対価の額とに合理的に区分することとなる。

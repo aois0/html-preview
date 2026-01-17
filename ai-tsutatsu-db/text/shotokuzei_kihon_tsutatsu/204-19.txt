@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 204−19 / id: 204-19 / title: 診療報酬の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/36/04.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/204-19.html
+
+[p1] 法第204条第1項第3号に掲げる「社会保険診療報酬支払基金法の規定により支払われる診療報酬」とは、同法の規定により社会保険診療報酬支払基金が支払う診療報酬をいうのであるから、当該基金が支払う診療報酬である限り、同法第15条第2項《業務》の規定により委託を受けて支払うものもこれに該当するが、いわゆる社会保険制度に基づく診療報酬であっても、健康保険組合、国民健康保険を行う市町村又は国民健康保険組合が直接支払う診療報酬は、これに該当しないことに留意する。（平16課法8−3改正）
+[p2] 〔職業野球の選手等の業務に関する報酬又は料金（第4号関係〕

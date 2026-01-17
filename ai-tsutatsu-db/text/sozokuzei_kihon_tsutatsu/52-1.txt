@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 52−1 / id: 52-1 / title: 分納税額の納期限が延長された場合の第2回目以後の利子税の計算始期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/07/01.htm#a-49_2
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/52-1.html
+
+[p1] 法第52条第1項第2号に規定する「前回の分納税額の納期限」には、通則法第11条の規定により延長された期限は含まれないことに留意する。（昭57直資2−177追加）

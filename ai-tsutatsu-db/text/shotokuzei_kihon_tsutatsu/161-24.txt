@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 161−24 / id: 161-24 / title: 人的役務の提供に係る対価に含まれるもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/22/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/161-24.html
+
+[p1] 令第282条各号に掲げる事業を行う者が受ける法第161条第１項第６号に規定する人的役務の提供に係る対価には、国内において当該事業を行う者が当該人的役務の提供に関して支払を受ける全ての対価が含まれることに留意する。したがって、例えば、職業運動家の役務の提供を受けるため、その職業運動家の所属していた法人その他の者に支払われる対価は、移籍料、仲介料、レンタル料、保有権の譲渡対価又は賃貸料等その名称のいかんにかかわらず同号に規定する人的役務の提供に係る対価に該当することとなる（平28課2−4、課法11−8、課審5−5追加）。

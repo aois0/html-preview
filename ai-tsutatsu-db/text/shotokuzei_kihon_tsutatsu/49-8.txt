@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−8 / id: 49-8 / title: 譲渡を受けた出願権に基づき取得した工業所有権の取得価額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-8.html
+
+[p1] 他から譲渡を受けた出願権（工業所有権に関し特許又は登録を受ける権利をいう。）に基づき取得した工業所有権の取得価額は、その出願権の取得のために要した金額のうち、その工業所有権を取得した年の前年以前において償却費の額に算入されなかった部分の金額と当該工業所有権を取得するために直接要した費用の額との合計額とする。（昭46直審（所）19改正）
+[p2] （注） 他から譲渡を受けた出願権に係る発明等を業務の用に供した場合には、その出願権は、無形固定資産に準じその出願権の目的たる工業所有権の耐用年数により償却することができる。

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 164-3 / id: 164-3 / title: 総合課税の対象となる非居住者の国内源泉所得
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/23/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/164-3.html
+
+[p1] 法第164条第1項の規定により総合課税をされる同項各号に定める国内源泉所得は、その者のその年において当該各号に掲げる非居住者であった期間内に生じたものに限られることに留意する（平28課2−4、課法11−8、課審5−5改正）。

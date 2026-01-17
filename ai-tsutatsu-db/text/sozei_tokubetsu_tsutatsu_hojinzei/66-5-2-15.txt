@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の5の2−15 / id: 66-5-2-15 / title: 名義株がある場合の直接又は間接保有の株式
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/13/13_66_5_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-5-2-15.html
+
+[p1] 措置法第66条の５の２第２項第４号に規定する特殊の関係の有無の判定において、名義株は、その実際の権利者が保有するものとしてその判定を行うことに留意する。（令元年課法2-33「二」により追加）

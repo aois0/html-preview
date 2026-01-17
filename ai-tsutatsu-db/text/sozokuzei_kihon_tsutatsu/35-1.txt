@@ -1,0 +1,9 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 35−1 / id: 35-1 / title: 法第35条第3項の適用対象者
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/05/01.htm#a-35_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/35-1.html
+
+[p1] 法第32条第1項第1号から第6号までに掲げる事由による更正の請求に基づき更正をした場合において、当該請求をした者の被相続人から相続又は遺贈により財産を取得した他の者(当該被相続人から相続時精算課税の適用を受ける財産を贈与により取得した者を含む。)
+[p2] については、法第35条第3項の規定の適用があるのであるから留意する。（平15課資2−1追加、平18課資2−2、平25課資2−10改正）
+[p3] 第36条《相続税についての更正、決定等の期間制限の特則》関係

@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 12の7−3−4 / id: 12-7-3-4 / title: 時価評価資産から除かれる資産の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/12_7/12_7_03_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/12-7-3-4.html
+
+[p1] 令第131条の15第１項第１号《通算制度の開始に伴う資産の時価評価損益》の規定の適用上、同号ハに掲げる規定の適用を受けた減価償却資産には、10−３−３の後段《工事負担金を受けた事業年度において固定資産が取得できない場合の仮受経理等》の取扱いにより圧縮記帳をした減価償却資産が含まれる。（令４年課法2−14｢五十」により追加）

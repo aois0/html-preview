@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 42−5 / id: 42-5 / title: 「物納財産ごと」の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/04.htm#a-42_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/42-5.html
+
+[p1] 法第42条第2項に規定する「物納財産ごと」とは、物納の許可をする物納財産の収納価額ごとに又は物納申請の却下をする財産の価額ごとにそれぞれ区分して、物納の許可をし、又は当該申請の却下をすることをいうのであるから留意する。 （平18徴管5−14追加）
+[p2] ただし、他の不動産と併せて物納申請することにより、管理処分不適格財産に該当しないこととなる不動産については、当該他の不動産と併せて物納の許可をすることをいうのであるから留意する。（平26徴管6-17追加）

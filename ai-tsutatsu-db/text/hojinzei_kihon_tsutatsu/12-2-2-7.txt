@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 12の2−2−7 / id: 12-2-2-7 / title: 事業を移転しない適格分割等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/12_2/12_2_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/12-2-2-7.html
+
+[p1] 分割法人又は現物出資法人が分割承継法人又は被現物出資法人に対してその有する株式のみを移転する適格分割又は適格現物出資は、令第123条の９第10項《特定資産譲渡等損失額から控除することができる金額等》の「事業を移転しない適格分割若しくは適格現物出資」に該当する。(平22年課法2−1「二十九」により追加、平25年課法2−4「四」、令４年課法２−14｢三十八」により改正)
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第3節 非適格株式交換等に係る株式交換完全子法人等の時価評価損益
+[p4] 第3節 非適格株式交換等に係る株式交換完全子法人等の時価評価損益

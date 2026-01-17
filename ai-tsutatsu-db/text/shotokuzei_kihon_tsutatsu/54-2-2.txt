@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 54−2の2 / id: 54-2-2 / title: 退職給与規程に係る書面の提出
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/10/04.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/54-2-2.html
+
+[p1] 令第158条第2項の規定により同項に規定する書類を提出する場合において、令第154条第2項《退職給与引当金勘定への繰入限度額》かっこ書の規定の適用を受けようとするときは、同項かっこ書に規定する書面を当該書類に添付する必要があるのであるが、当該書面を当該書類の提出後に提出した場合には、当該書面の提出後最初に到来する確定申告書の提出期限に係る年分以後の各年分につき同項かっこ書の規定を適用する。（昭51直所3−1、直法6−1、直資3−1追加）

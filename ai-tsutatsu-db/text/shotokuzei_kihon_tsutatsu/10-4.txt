@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 10-4 / id: 10-4 / title: 本邦通貨で表示されたものの意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/10-4.html
+
+[p1] 令第33条第4項本文《利子所得等について非課税とされる預貯金等の範囲》に規定する「本邦通貨で表示されたもの」には、本邦通貨で表示され、確定換算率により外国通貨で支払を行うべき旨の特約がある債券は、含まれないことに留意する。（昭63直法6-7、直所3-8追加、平14課法8-5、課個2-7、課審3-142改正）

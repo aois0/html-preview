@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−1−3の2 / id: 9-1-3-2 / title: 評価換えの対象となる資産の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_01_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-1-3-2.html
+
+[p1] 法人の有する金銭債権は、法第33条第2項《資産の評価換えによる評価損の損金算入》の評価換えの対象とならないことに留意する。
+[p2] (注) 令第68条第1項《資産の評価損の計上ができる事実》に規定する「法的整理の事実」が生じた場合において、法人の有する金銭債権の帳簿価額を損金経理により減額したときは、その減額した金額に相当する金額については、法第52条《貸倒引当金》の貸倒引当金勘定に繰り入れた金額として取り扱う。（平21年課法2−5「七」により追加）

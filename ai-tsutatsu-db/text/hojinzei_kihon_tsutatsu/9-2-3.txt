@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−2−3 / id: 9-2-3 / title: 代表権を有しない取締役
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_02_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-2-3.html
+
+[p1] 会社法第2条第7号《定義》に規定する取締役会設置会社以外の株式会社の取締役が定款、定款の定めに基づく取締役の互選又は株主総会の決議によって、取締役の中から代表取締役を定めたことにより代表権を有しないこととされている場合には、当該取締役は令第71条第1項各号《使用人兼務役員とされない役員》に掲げる役員のうち同項第1号に掲げる者には該当しないことに留意する。
+[p2] 株式会社以外の法人の理事等で同様の事情にある者についても、同様とする。(昭55年直法2−8「三十二」により追加、平19年課法2−3「二十二」、平20年課法2−5「十七」により改正)

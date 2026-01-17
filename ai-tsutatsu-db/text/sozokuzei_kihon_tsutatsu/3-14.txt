@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 3-14 / id: 3-14 / title: 保険料の全額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/02.htm#a-3_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/3-14.html
+
+[p1] 法第3条第1項第1号に規定する「当該契約に係る保険料で被相続人の死亡の時まで払い込まれたものの全額」並びに同項第3号及び第5号に規定する「当該契約に係る保険料で当該相続開始の時までに払い込まれたものの全額」の計算については、3-13の取扱いに準ずるものとする。(昭57直資2-177追加)

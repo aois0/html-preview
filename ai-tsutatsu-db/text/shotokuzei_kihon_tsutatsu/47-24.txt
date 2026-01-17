@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 47−24 / id: 47-24 / title: 棚卸資産について取得価額の特例を適用できない場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/03.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/47-24.html
+
+[p1] 棚卸資産の価額が単に物価変動、過剰生産、建値の変更等の事情によって低下しただけでは、令第104条各号に掲げる事実に該当しないことに留意する。
+[p2] 〔棚卸しの手続〕

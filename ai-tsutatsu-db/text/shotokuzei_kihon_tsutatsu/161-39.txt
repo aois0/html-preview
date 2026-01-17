@@ -1,0 +1,10 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 161−39 / id: 161-39 / title: 備品の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/22/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/161-39.html
+
+[p1] 令第284条第1項（（国内業務に係る使用料等））に規定する器具及び備品には、美術工芸品、古代の遺物等のほか、観賞用、興行用その他これらに準ずる用に供される生物が含まれることに留意する（平28課2−4、課法11−8、課審5−5追加）。
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 〔給与、報酬又は年金（第12号関係）〕
+[p4] 〔給与、報酬又は年金（第12号関係）〕

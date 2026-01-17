@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−17 / id: 49-17 / title: 耐用年数短縮の承認があった後に取得した資産の耐用年数
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-17.html
+
+[p1] 令第130条第1項の規定による耐用年数の短縮の承認に係る減価償却資産が規則第30条第2号に掲げる事由又はこれに準ずる事由に該当するものである場合において、その後その承認の対象となった資産と種類を同じくする資産を取得したときは、その取得した資産についても承認に係る耐用年数を適用する。

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 10-1 / id: 10-1 / title: 委託者と受益者とが異なる合同運用信託についての非課税規定の適用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/10-1.html
+
+[p1] 法第10条第1項に規定する合同運用信託については、委託者以外の者が受益者となっている場合であっても、その委託者が同項に規定する預入等（以下10-24までにおいて「預入等」という。）をしたものとして、同項の規定を適用する。（昭60直法6-8、直所3-12、昭63直法6-7、直所3-8改正）

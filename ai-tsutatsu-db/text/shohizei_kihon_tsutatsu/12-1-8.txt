@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 12−1−8 / id: 12-1-8 / title: 免税事業者であった課税期間において行った課税仕入れについて対価の返還等を受けた場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/12/01/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/12-1-8.html
+
+[p1] 免税事業者であった課税期間において行った課税仕入れについて、課税事業者となった課税期間において仕入れに係る対価の返還等を受けた場合には、当該対価の返還等の金額について法第32条《仕入れに係る対価の返還等を受けた場合の仕入れに係る消費税額の控除の特例》の規定の適用はないことに留意する。
+[p2] ただし、法第36条《納税義務の免除を受けないこととなった場合等の棚卸資産に係る消費税額の調整》の規定の適用を受けた棚卸資産の課税仕入れについてはこの限りではない。

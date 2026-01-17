@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 205−4 / id: 205-4 / title: 同一人に対しその月中に支払われる金額の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/36/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/205-4.html
+
+[p1] 令第322条の表に規定する「同一人に対しその月中に支払われる金額」とは、同一人に対しその月中に支払われるべき金額をいう。ただし、その金額の計算の基礎となった期間が1月を超え、かつ、その期間が明示されている場合には、当該計算の基礎となった期間に応じ各月分ごとに区分した金額を、それぞれの月中に支払われる金額として差し支えない。

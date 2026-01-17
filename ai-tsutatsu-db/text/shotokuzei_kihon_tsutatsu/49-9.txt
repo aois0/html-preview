@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−9 / id: 49-9 / title: 温泉をゆう出する土地を取得した場合の温泉利用権の取得価額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-9.html
+
+[p1] 温泉を利用する権利を取得するために、温泉をゆう出する土地を取得した場合における当該温泉を利用する権利の取得価額は、当該土地の取得に要した金額から当該土地に隣接する温泉をゆう出しない土地の価額に比準して計算した当該土地の価額を控除した金額とする。

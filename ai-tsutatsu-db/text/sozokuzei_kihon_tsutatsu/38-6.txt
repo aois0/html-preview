@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 38−6 / id: 38-6 / title: 延納期間の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/01.htm#a-38_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/38-6.html
+
+[p1] 法第38条第1項又は第3項の規定による延納期間は、法第33条又は通則法第35条第2項に規定する納期限の翌日から暦に従って計算するのであるから留意する。（昭46直審（資）6、平18徴管5−14改正）

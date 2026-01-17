@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−48 / id: 49-48 / title: 償却累積額による償却限度額の特例の償却を行う減価償却資産に資本的支出をした場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/13.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-48.html
+
+[p1] 令第134条第2項の規定の適用を受けた減価償却資産について資本的支出をし、令第127条第2項の規定を適用した場合には、その適用した後の取得価額及び未償却残額を基礎として減価償却を行うのであるから留意する。（昭55直所3−19、直法6−8追加、平19課個2−11、課資3−1、課法9−5、課審4−26改正）
+[p2] (注) 令第127条第2項の規定を適用した後の未償却残額が、その適用した後の取得価額の5％相当額を超える場合には、令第134条第2項の規定の適用を受けることができないことに留意する。

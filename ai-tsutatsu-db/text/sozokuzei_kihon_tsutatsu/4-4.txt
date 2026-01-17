@@ -1,0 +1,10 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 4-4 / id: 4-4 / title: 分与財産等に加算する贈与財産
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/04.htm#a-3_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/4-4.html
+
+[p1] 民法第958条の2の規定により相続財産の分与を受けた者又は同法第1050条の規定による支払いを受けるべき特別寄与料の額が確定した特別寄与者が、19ー２((法第19条第１項の規定の適用を受ける贈与))に定める加算対象期間内に被相続人から贈与により財産を取得したことがある場合においては、法第19条第１項の規定の適用があることに留意する。（昭39直審（資）30追加、平19課資2−5、課審6−3、令元課資2−10、令5課資2-12、令５課資２−21改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 〔生命保険契約に関する権利関係〕
+[p4] 〔生命保険契約に関する権利関係〕

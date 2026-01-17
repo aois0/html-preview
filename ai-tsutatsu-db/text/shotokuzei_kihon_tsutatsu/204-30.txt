@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 204-30 / id: 204-30 / title: 契約金の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/36/06.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/204-30.html
+
+[p1] 法第204条第1項第7号に掲げる契約金には、一定の者のために役務を提供し又はそれ以外の者のために役務を提供しないことを約することにより一時に支払を受ける契約金、支度金、移転料等の全てのものが含まれる。ただし、その役務の提供の対価が給与等とされる者の就職に伴う転居のための費用で、他の契約金と明確に区分して支払われ、かつ、法第9条第1項第4号に掲げる金品に該当すると認められるものについては、この限りではない。（平23課個2-33、課法9-9、課審4-46改正）
+[p2] 〔広告宣伝のための賞金（第8号関係）〕

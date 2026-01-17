@@ -1,0 +1,10 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 9の5−1 / id: 9-5-1 / title: 法第9条の5の規定の適用がある場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/09.htm#a-9-4_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/9-5-1.html
+
+[p1] 受益者等が存しない信託については、法第9条の4第1項又は第2項の規定の適用の有無にかかわらず、当該信託について受益者等（同条第1項又は第2項の信託の残余財産の給付を受けることとなる者及び同項の次に受益者等となる者を含む。）が存することとなり、かつ、当該受益者等が、当該信託の契約締結時（令第1条の11各号に規定する時をいう。）における委託者の親族であるときは、法第9条の5の規定の適用があることに留意する。（平19課資2−5、課審6−3追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第9条の4《受益者等が存しない信託等の特例》関係
+[p4] 第9条の4《受益者等が存しない信託等の特例》関係

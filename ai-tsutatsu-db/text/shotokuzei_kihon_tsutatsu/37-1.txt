@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 37−1 / id: 37-1 / title: 売上原価等の費用の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/37-1.html
+
+[p1] 法第37条第1項に規定する「売上原価その他当該総収入金額を得るため直接に要した費用」は、別段の定めのあるものを除き、その年において債務の確定しているものに限るものとする。

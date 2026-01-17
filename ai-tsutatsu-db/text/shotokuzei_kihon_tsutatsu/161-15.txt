@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 161−15 / id: 161-15 / title: 特殊関係株主等が譲渡した発行済株式又は出資の総数又は総額に占める割合の判定時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/22/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/161-15.html
+
+[p1] 令第281条第6項第2号に規定する特殊関係株主等の譲渡した株式又は出資の総数又は総額が同号の内国法人の発行済株式又は出資の総数又は総額の5％以上になるかどうかは、同号に規定する譲渡年の中途において当該内国法人が行った増資等により当該発行済株式又は出資の総数又は総額に異動があった場合においても、当該譲渡年において最初に当該株式又は出資を譲渡した直前の当該発行済株式又は出資の総数又は総額に基づいて計算することに留意する（平28課2−4、課法11−8、課審5−5追加）。
+[p2] 〔国内にある土地等の譲渡による所得（第5号関係）〕

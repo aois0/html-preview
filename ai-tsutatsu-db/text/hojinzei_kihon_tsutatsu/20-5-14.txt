@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 20−5−14 / id: 20-5-14 / title: 外国保険会社等の投資資産の額の円換算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/20a/20_05_04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/20-5-14.html
+
+[p1] 令第187条第1項《保険会社の投資資産及び投資収益》に規定する「外国法人の当該事業年度の投資資産（……）の額」は、当該事業年度終了の時における貸借対照表に計上されている外国通貨表示の金額を当該事業年度終了の日の電信売買相場の仲値により換算した円換算額による。
+[p2] 同項第2号に規定する「責任準備金に相当するものとして積み立てられている金額」及び「支払備金に相当するものとして積み立てられている金額」についても、同様とする。（平26年課法2−9「九」により追加）

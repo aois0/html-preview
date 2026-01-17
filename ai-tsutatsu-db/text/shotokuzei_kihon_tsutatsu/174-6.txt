@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 174−6 / id: 174-6 / title: 保障倍率の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/26/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/174-6.html
+
+[p1] 令第298条第6項第1号に規定する「財務省令で定める金額の満期保険金又は満期共済金の額に対する割合」若しくは「財務省令で定める死亡保険金以外の死亡保険金又はこれに類する共済金の額の満期保険金又は満期共済金の額に対する割合」又は同項第2号に規定する「財務省令で定める金額の満期返戻金又は満期共済金の額に対する割合」（以下この項においてこれらの割合を「保障倍率」という。）が、これらの規定に規定する5未満又は1以下であるかどうかは、保険期間等の初日から満了の日までを通じた保障倍率に基づいて判定するものとする。（昭63直法6−7、直所3−8追加、平12官総8−3ほか10課共同改正）

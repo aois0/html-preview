@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 205−2 / id: 205-2 / title: 同一人に対し1回に支払われるべき金額の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/36/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/205-2.html
+
+[p1] 令第322条の表に規定する司法書士、土地家屋調査士若しくは海事代理士の業務に関する報酬若しくは料金又は馬主が受ける競馬の賞金に係る205−1の「同一人に対し1回に支払われるべき金額」とは、それぞれ次に掲げる金額をいう。
+[p2] (1) 司法書士、土地家屋調査士又は海事代理士の業務に関する報酬又は料金 一の委託契約ごとに支払われる金額。ただし、一定期間ごとにその期間中の委託契約に基づく報酬又は料金がまとめて支払われる契約となっている場合には、そのまとめて支払われる金額
+[p3] (2) 馬主が受ける競馬の賞金 1回の競走ごとに、かつ、出走馬1頭ごとに支払われる金額

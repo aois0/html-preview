@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 60−5 / id: 60-5 / title: 配偶者居住権等の取得費
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/12/03.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/60-5.html
+
+[p1] 配偶者居住権又は当該配偶者居住権の目的となっている建物の敷地の用に供される土地を当該配偶者居住権に基づき使用する権利（以下60−10までにおいて「配偶者居住権等」という。）が消滅した場合における譲渡所得の金額の計算上収入金額から控除する取得費は、法第60条第３項の規定により計算した金額となるのであるが、当該収入金額の100分の５に相当する金額を取得費として譲渡所得の金額を計算しているときは、これを認めて差し支えないものとする。（令２課資３−７、課個２−18、課法11−４、課審７−９追加）

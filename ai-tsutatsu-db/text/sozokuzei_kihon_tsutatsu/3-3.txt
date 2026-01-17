@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 3-3 / id: 3-3 / title: 相続を放棄した者の財産の取得
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/02.htm#a-3_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/3-3.html
+
+[p1] 相続を放棄した者が法第3条第1項各号に掲げる財産を取得した場合においては、当該財産は遺贈により取得したものとみなされるのであるから留意する。

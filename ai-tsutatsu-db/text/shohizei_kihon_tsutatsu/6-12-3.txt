@@ -1,0 +1,10 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 6−12−3 / id: 6-12-3 / title: 補助教材の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/06/12.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/6-12-3.html
+
+[p1] 参考書又は問題集等で学校における教育を補助するためのいわゆる補助教材の譲渡については、当該補助教材を学校が指定した場合であっても非課税とはならないのであるから留意する。
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第13節 住宅の貸付け関係
+[p4] 第13節 住宅の貸付け関係

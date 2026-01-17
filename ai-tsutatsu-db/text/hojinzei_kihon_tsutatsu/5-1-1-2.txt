@@ -1,0 +1,13 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 5−1−1の2 / id: 5-1-1-2 / title: 棚卸資産の取得価額に算入しないことができる費用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/05/05_01_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/5-1-1-2.html
+
+[p1] 次に掲げるような費用の額は、たとえ棚卸資産の取得又は保有に関連して支出するものであっても、その取得価額に算入しないことができる。（昭55年直法2−15「五」、平5年課法2−1「四」、平15年課法2−7により改正）
+[p2] (1) 不動産取得税の額
+[p3] (2) 地価税の額
+[p4] (3) 固定資産税及び都市計画税の額
+[p5] (4) 特別土地保有税の額
+[p6] (5) 登録免許税その他登記又は登録のために要する費用の額
+[p7] (6) 借入金の利子の額

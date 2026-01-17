@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 9-1 / id: 9-1 / title: 労働基準法による遺族補償及び葬祭料
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/02.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/9-1.html
+
+[p1] 労働基準法第8章《災害補償》の規定により受ける補償のうち、同法第79条《遺族補償》及び第80条《葬祭料》の規定により受ける遺族補償（同法第82条《分割補償》に規定する分割補償のうち遺族補償に係る部分を含む。）及び葬祭料は、令第30条《非課税とされる保険金、損害賠償金等》に規定する非課税所得に該当する。

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 45−1 / id: 45-1 / title: 主たる部分等の判定等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/07/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/45-1.html
+
+[p1] 令第96条第1号《家事関連費》に規定する「主たる部分」又は同条第2号に規定する「業務の遂行上直接必要であったことが明らかにされる部分」は、業務の内容、経費の内容、家族及び使用人の構成、店舗併用の家屋その他の資産の利用状況等を総合勘案して判定する。

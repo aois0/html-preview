@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 54−14 / id: 54-14 / title: 要支給額を超えて退職給与引当金を取崩した場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/10/04.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/54-14.html
+
+[p1] 使用人の退職に伴い、その退職した使用人に係る前年末退職給与の要支給額を超えて退職給与引当金勘定の金額を取崩した場合であっても、その取崩した金額が実際に支給した退職給与の額に相当する金額以下であるときは、その取崩しは令第155条第1項第7号に規定する取崩しには該当しないものとする。
+[p2] 〔死亡の場合の退職給与引当金勘定の金額の処理（令第157条関係）〕

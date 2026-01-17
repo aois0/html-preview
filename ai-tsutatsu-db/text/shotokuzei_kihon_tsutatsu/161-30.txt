@@ -1,0 +1,15 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 161−30 / id: 161-30 / title: 貸付金に準ずるもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/22/03.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/161-30.html
+
+[p1] 法第161条第1項第10号に規定する「国内において業務を行う者に対する貸付金」に準ずるものには、国内において業務を行う者に対する債権で次に掲げるようなものが含まれることに留意する（平28課2−4、課法11−8、課審5−5追加）。
+[p2] （1） 預け金のうち同項第8号ハに掲げる預貯金以外のもの
+[p3] （2） 保証金、敷金その他これらに類する債権
+[p4] （3） 前渡金その他これに類する債権
+[p5] （4） 他人のために立替払をした場合の立替金
+[p6] （5） 取引の対価に係る延払債権
+[p7] （6） 保証債務を履行したことに伴って取得した求償権
+[p8] （7） 損害賠償金に係る延払債権
+[p9] （8） 当座貸越に係る債権

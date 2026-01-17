@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 44の2-3 / id: 44-2-3 / title: 取得価額の判定単位
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/01/01_44_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/44-2-3.html
+
+[p1] 措置法令第28条の5第2項に規定する機械及び装置又は器具及び備品の1台又は1基の取得価額が100万円以上又は30万円以上であるかどうかについては、通常一単位として取引される単位ごとに判定するのであるが、個々の機械及び装置の本体と同時に設置する自動調整装置又は原動機のような附属機器で当該本体と一体になって使用するものがある場合には、これらの附属機器を含めたところによりその判定を行うことができるものとする。（令元年課法2-27「三」により追加）

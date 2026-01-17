@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 10−1−11 / id: 10-1-11 / title: 個別消費税の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/10/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/10-1-11.html
+
+[p1] 法第28条第1項《課税標準》に規定する課税資産の譲渡等の対価の額には、酒税、たばこ税、揮発油税、石油石炭税、石油ガス税等が含まれるが、軽油引取税、ゴルフ場利用税及び入湯税は、利用者等が納税義務者となっているのであるから対価の額に含まれないことに留意する。ただし、その税額に相当する金額について明確に区分されていない場合は、対価の額に含むものとする。（平12課消2−10、平15課消1−37により改正）

@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−1−10 / id: 7-1-10 / title: 社歌、コマーシャルソング等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_01_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-1-10.html
+
+[p1] 社歌、コマーシャルソング等の制作のために要した費用の額は、その支出をした日の属する事業年度の損金の額に算入することができる。(昭55年直法2−8「十九」により追加、昭60年直法2−11「一」により改正)
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第2款 少額の減価償却資産等
+[p4] 第2款 少額の減価償却資産等

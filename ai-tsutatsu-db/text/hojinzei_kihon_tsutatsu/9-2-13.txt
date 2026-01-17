@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−2−13 / id: 9-2-13 / title: 経営の状況の著しい悪化に類する理由
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_02_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-2-13.html
+
+[p1] 令第69条第1項第1号ハ《定期同額給与の範囲等》に規定する「経営の状況が著しく悪化したことその他これに類する理由」とは、経営状況が著しく悪化したことなどやむを得ず役員給与を減額せざるを得ない事情があることをいうのであるから、法人の一時的な資金繰りの都合や単に業績目標値に達しなかったことなどはこれに含まれないことに留意する。（平19年課法2−3「二十二」により追加、平19年課法2−17「二十」により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第4款 事前確定届出給与
+[p4] 第4款 事前確定届出給与

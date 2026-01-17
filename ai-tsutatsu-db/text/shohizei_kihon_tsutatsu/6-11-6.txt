@@ -1,0 +1,10 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 6−11−6 / id: 6-11-6 / title: 公開模擬学力試験に係る検定料
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/06/11.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/6-11-6.html
+
+[p1] 入学者（入園者）を選抜するための学力試験に備えるため広く一般に参加者を募集し、その学力試験にその内容及び方法を擬して行われる、いわゆる公開模擬学力試験に係る検定料を対価とする役務の提供は、課税資産の譲渡等に該当する。
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第12節 教科用図書の譲渡関係
+[p4] 第12節 教科用図書の譲渡関係

@@ -1,0 +1,11 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 42の10-5 / id: 42-10-5 / title: 開発研究の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/01/01_42_10.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/42-10-5.html
+
+[p1] 措置法第42条の10第1項に規定する開発研究（以下「開発研究」という。）とは、次に掲げる試験研究をいう。（平26年課法2-6「六」により追加、平30年課法2-12「六」により改正）
+[p2] （1） 新規原理の発見又は新規製品の発明のための研究
+[p3] （2） 新規製品の製造、製造工程の創設又は未利用資源の活用方法の研究
+[p4] （3） （1）又は（2）の研究を基礎とし、これらの研究の成果を企業化するためのデ-タの収集
+[p5] （4） 現に企業化されている製造方法その他の生産技術の著しい改善のための研究

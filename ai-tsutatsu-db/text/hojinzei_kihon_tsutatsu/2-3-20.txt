@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−3−20 / id: 2-3-20 / title: その他これに準ずる関係のある者の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_03_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-3-20.html
+
+[p1] 令第119条の2第2項第2号《企業支配株式等の意義》に規定する「その他これに準ずる関係のある者」には、会社以外の法人で令第4条第2項各号及び第4項《特殊関係法人》に規定する特殊の関係のある者が含まれる。したがって、例えば、株主の1人及びこれと令第4条に規定する特殊の関係のある個人又は法人が有する会社以外の法人の出資の金額が当該法人の出資の総額の50%を超える金額に相当する場合における当該会社以外の法人はこれに該当する。（平12年課法2−7「四」により追加、平15年課法2−22「四」、平19年課法2−3「十」により改正）

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 185−7 / id: 185-7 / title: 兼務庁が支払う超過勤務手当に対する税額の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/31/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/185-7.html
+
+[p1] 国家公務員等に対し、基本給は本務庁が支払い、超過勤務手当は兼務庁が支払うような場合における超過勤務手当に対しては、本務庁が支払う給与等に上積みして源泉徴収税額を計算する。ただし、これを困難とするときは、法別表第2又は第3の乙欄を適用して源泉徴収税額を計算して差し支えない。（昭49直所2−23、平元直所3−14、直法6−9、直資3−8、平19課法9−9、課個2−20、課審4−32改正）

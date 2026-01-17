@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 76−2 / id: 76-2 / title: 旧個人年金保険契約等の特約に係る保険料等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/76-2.html
+
+[p1] 疾病又は身体の傷害その他これらに類する事由に基因して保険金等(法第76条第1項に規定する保険金等をいう。)を支払う旨の特約(76−6において「疾病等に係る特約」という。)が付されている旧個人年金保険契約等(法第76条第9項に規定する「旧個人年金保険契約等」をいう。76−3、76−6及び76−8において同じ。)に係る保険料又は掛金のうち、当該特約に係る保険料又は掛金は、旧生命保険料に該当することに留意する。（平2直法6−5、直所3−6追加、平23課個2−33、課法9−9、課審4−46改正）

@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 7−3−3 / id: 7-3-3 / title: 外航船等に積み込む物品の譲渡等に係る免税の手続
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/07/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/7-3-3.html
+
+[p1] 租特法第85条第1項《外航船等に積み込む物品等に係る免税》に規定する消費税の免除の手続等については、関税法基本通達23−1−1から23−17まで《船用品又は機用品の積込みの手続き等》の規定を準用するものとする。（平18課消1-1により改正）
+[p2] (注) この場合の輸出証明については、7−2−23に規定するところにより行うこととなるのであるが、外航船等に積み込む指定物品が酒類又は製造たばこである場合において、酒税法又はたばこ税法の証明手続によって積込承認書を製造場の所轄税務署長に提出しているときは、消費税の証明要件も満たしているものとして取り扱う。

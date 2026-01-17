@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の5−5 / id: 66-5-5 / title: 金銭債務の償還差損等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/13/13_66_5.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-5-5.html
+
+[p1] 内国法人が、その発行した社債のうち措置法第66条の5第5項第1号に規定する国外支配株主等（以下「国外支配株主等」という。）又は同項第2号に規定する資金供与者等（以下「資金供与者等」という。）の有するものにつき、法人税法施行令第136条の2第1項に規定する満たない部分の金額につき損金の額に算入した額は、措置法第66条の5第1項に規定する「当該事業年度において当該国外支配株主等及び資金供与者等に支払う負債の利子等の額」に含まれることに留意する。（平5年課法2−1「三十」により追加、平15年課法2−7「七十」、平19年課法2−3「四十九」、平22年課法2−7「三十一」、平24年課法2−17「三十三」、平28年課法2−11「四十」により改正）

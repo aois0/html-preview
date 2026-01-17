@@ -1,0 +1,10 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66−10 / id: 66-10 / title: 譲渡対価の額等の計算に誤りがあった場合の損金算入額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/10/10_66.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-10.html
+
+[p1] 措置法第66条第1項又は第4項の規定を適用する場合において、圧縮限度額が法人の申告に係る金額と異なることとなったときにおいても、交換取得資産に係る損金算入額は、法人が確定申告書等又は同条第6項に規定する書類に記載した交換取得資産につき損金の額に算入した金額を限度とすることに留意する。（平19年課法2−3「四十七」により追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第66条の2 《株式等を対価とする株式の譲渡に係る所得の計算の特例》関係
+[p4] 第66条の2 《株式等を対価とする株式の譲渡に係る所得の計算の特例》関係

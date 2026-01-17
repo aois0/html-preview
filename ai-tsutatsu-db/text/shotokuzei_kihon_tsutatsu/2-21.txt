@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 2−21 / id: 2-21 / title: 公共下水道施設の使用のための負担金
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/2-21.html
+
+[p1] 下水道法第2条第3号《公共下水道の定義》に規定する公共下水道を使用する排水設備の新設又は拡張をする者が、その新設又は拡張により必要となる公共下水道の改築に要する費用を負担して取得する当該公共下水道を使用する権利は、令第6条第8号タに掲げる水道施設利用権に準ずる減価償却資産とする。（昭49直所2−23、平11課所4−1、平12課所4−30改正）

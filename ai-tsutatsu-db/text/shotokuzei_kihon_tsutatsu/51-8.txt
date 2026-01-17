@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 51−8 / id: 51-8 / title: 盗難品等の返還を受けた場合のそ及訂正
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/09/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/51-8.html
+
+[p1] 法第51条第1項、第3項又は第4項に規定する資産について盗難又は横領による損失が生じた場合において、当該盗難又は横領に係る資産の返還を受けたときは、そ及して各種所得の金額を訂正する。

@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の6-9 / id: 66-6-9 / title: 特定保険協議者又は特定保険受託者の管理支配基準の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/14/14_66_6_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-6-9.html
+
+[p1] 措置法令第39条の14の3第4項及び第26項の特定保険協議者又は特定保険受託者がその本店所在地国においてその事業の管理、支配及び運営を自ら行っているかどうかの判定は、66の6-7及び66の6-8の取扱いにより行うことに留意する。（平29年課法2-22「二」により追加、平30年課法2-12「二十九」、令元年課法2-6「一」により改正）

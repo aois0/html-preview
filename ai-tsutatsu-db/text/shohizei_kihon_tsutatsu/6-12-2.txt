@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 6−12−2 / id: 6-12-2 / title: 教科用図書の供給手数料の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/06/12.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/6-12-2.html
+
+[p1] 教科用図書の供給業者等が教科用図書の配送等の対価として収受する手数料については、非課税とはならないのであるから留意する。

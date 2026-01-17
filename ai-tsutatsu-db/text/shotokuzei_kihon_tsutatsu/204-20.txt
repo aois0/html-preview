@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 204−20 / id: 204-20 / title: 職業野球の選手の業務に関する報酬又は料金
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/36/04.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/204-20.html
+
+[p1] 法第204条第1項第4号に掲げる「職業野球の選手の業務に関する報酬又は料金」には、職業野球の選手、監督、コーチャー、トレーナー又はマネージャーに対し、選手契約に定めるところにより支払われる全ての手当、賞金品が含まれる。（平23課個2−33、課法9−9、課審4−46改正）

@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 5−3−8 / id: 5-3-8 / title: 原材料受入差額の処理の簡便計算方式
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/05/05_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/5-3-8.html
+
+[p1] 法人が原材料の受入れについて見積原価等を採用している場合に生ずる原材料受入差額について、当期原材料払出高と期末原材料棚卸高とに適正に配賦し、期末原材料棚卸高に対応する部分の金額を個々の資産に配賦しないで一括して処理しているときは、これを認める。
+[p2] (注) 当期原材料払出高に対応する原材料受入差額は当期の原価差額に、期末原材料棚卸高に対応する原材料受入差額は翌期の製造原価に含めることに留意する。

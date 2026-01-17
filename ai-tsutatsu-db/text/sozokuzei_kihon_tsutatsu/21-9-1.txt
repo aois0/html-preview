@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 21の9-1 / id: 21-9-1 / title: 推定相続人の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/12.htm#a-21_11_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/21-9-1.html
+
+[p1] 法第21条の9第1項に規定する「贈与をした者の推定相続人」とは、当該贈与をした日現在においてその贈与をした者の最先順位の相続権(代襲相続権を含む。)を有する者をいい、推定相続人であるかどうかの判定は、当該贈与の日において行うのであるから留意する。（平15課資2-1追加）

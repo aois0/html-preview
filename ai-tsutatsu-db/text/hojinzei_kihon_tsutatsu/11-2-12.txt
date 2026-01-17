@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 11−2−12 / id: 11-2-12 / title: 国外にある債務者
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/11/11_02_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/11-2-12.html
+
+[p1] 国外にある債務者について、令第96条第1項第1号又は第3号《貸倒引当金勘定への繰入限度額》に掲げる事由に類する事由が生じた場合には、これらの規定の適用があることに留意する。（平10年課法2−7「十五」により追加、平14年課法2−1「二十六」により改正）

@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 42の12の5-1の2 / id: 42-12-5-1-2 / title: 公益法人等の従業員の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/01/01_42_12_5.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/42-12-5-1-2.html
+
+[p1] 公益法人等について、措置法第42条の12の５第１項若しくは第２項の規定により常時使用する従業員の数が1,000人以上であるかどうかを判定する場合、同条第１項の規定により常時使用する従業員の数が2,000人を超えるかどうかを判定する場合又は同条第５項第10号の規定により常時使用する従業員の数が2,000人以下であるかどうか若しくは常時使用する従業員の数の合計数が10,000人を超えるかどうかを判定する場合には、収益事業に従事する従業員数だけでなくその全部の従業員数によって行うものとする。（令４年課法２−14「十四」により追加、令6年課法2-14「五」により改正）

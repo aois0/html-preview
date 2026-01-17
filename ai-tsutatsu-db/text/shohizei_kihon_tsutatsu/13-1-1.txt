@@ -1,0 +1,6 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 13−1−1 / id: 13-1-1 / title: 仕入税額控除の特例の適用がない分割に係る課税期間
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/13/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/13-1-1.html
+

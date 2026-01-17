@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 45−11 / id: 45-11 / title: 帳簿書類その他の物件の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/07/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/45-11.html
+
+[p1] 法第45条第３項第１号イ又はロに掲げる帳簿書類その他の物件とは、同項各号の取引が行われたことを明らかにする、又は推測させる一切の帳簿書類その他の物件で居住者が保存しているものをいうことに留意する。（令４課個2-13、課法12-16、課審5-９追加）

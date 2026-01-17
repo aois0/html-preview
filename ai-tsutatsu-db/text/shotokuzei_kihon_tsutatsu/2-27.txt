@@ -1,0 +1,10 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 2−27 / id: 2-27 / title: 資産を賃借するための権利金等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/2-27.html
+
+[p1] 令第7条第1項第3号ロ《資産を賃借するための権利金等》に掲げる費用には、次のようなものが含まれる。（昭55直所3−19、直法6−8、平19課個2−11、課資3−1、課法9−5、課審4−26改正）
+[p2] （1） 建物を賃借するために支出する権利金、立退料その他の費用
+[p3] （注） 建物の賃借に際して支払った仲介手数料の額は、その支払った日の属する年分の必要経費に算入することができる。
+[p4] （2） 電子計算機その他の機器の賃借に伴って支出する引取運賃、関税、据付費その他の費用

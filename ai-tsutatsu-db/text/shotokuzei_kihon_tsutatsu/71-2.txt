@@ -1,0 +1,12 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 71−2 / id: 71-2 / title: 更正により雑損失の金額が増加した場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/15/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/71-2.html
+
+[p1] 雑損失の金額が生じた年分の所得税につき確定申告書を提出した場合において、当該確定申告書に記載された雑損失の金額が過少であるため更正が行われたときは、その更正後の金額を基として法第71条第1項の規定を適用することに留意する。（昭57直所3−15、直法6−13、直資3−8追加、平23課個2−33、課法9−9、課審4−46改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 〔被災事業用資産の損失の金額の計算等〕
+[p4] 第2節 損失の繰越控除
+[p5] 法第70条《純損失の繰越控除》関係
+[p6] 〔被災事業用資産の損失の金額の計算等〕

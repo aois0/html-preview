@@ -1,0 +1,10 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 205−13 / id: 205-13 / title: 受賞者が2人以上の1組である場合の賞品に対する税額の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/36/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/205-13.html
+
+[p1] 2人以上の者が1組となって応募したことにより受けるクイズ放送等の賞金品で各人ごとの支払金額が区分されていないものに対する源泉徴収税額は、当該支払金額の総額から、50万円にその支払を受ける者の人数を乗じて計算した金額を控除した残額に税率を適用して計算するものとする。（昭51直所3−1、直法6−1、直資3−1改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 法第206条《源泉徴収を要しない報酬又は料金》関係
+[p4] 法第206条《源泉徴収を要しない報酬又は料金》関係

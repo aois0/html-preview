@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 10−1−14 / id: 10-1-14 / title: 資産の貸付けに伴う共益費
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/10/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/10-1-14.html
+
+[p1] 建物等の資産の貸付けに際し賃貸人がその賃借人から収受する電気、ガス、水道料等の実費に相当するいわゆる共益費は、建物等の資産の貸付けに係る対価に含まれる。

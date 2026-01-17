@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−30の9 / id: 49-30-9 / title: 税負担を著しく軽減することになると認められないもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/09.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-30-9.html
+
+[p1] リース取引について、賃借人におけるそのリース資産と同一種類のリース資産に係る既往のリース取引の状況、当該リース資産の性質その他の状況からみて、リース期間の終了後に当該リース資産が賃貸人に返還されることが明らかなものは、令第120条の2第2項第5号ニに規定する「当該リース取引に係る賃借人の所得税の負担を著しく軽減することになると認められるもの」には該当しないことに留意する。（平19課個2−31、課審4−44追加）
+[p2] ＜賃借人の処理＞

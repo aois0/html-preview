@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 203−2 / id: 203-2 / title: 簡易な方式による退職所得の受給に関する申告
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/34/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/203-2.html
+
+[p1] 法第201条第1項第1号《徴収税額》に規定する「支払済みの他の退職手当等」を受けたことがなく、かつ、法第30条第6項第1号《退職所得》に掲げる場合に該当しない者が提出する退職所得の受給に関する申告書は、連記式その他の簡易な方法により提出することができる。（平24課法9−6、課個2−44、課審5−40、令3課個2-10、課法11-28、課審5-4改正）

@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 20−３−２ / id: 20-3-2 / title: 
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/01/01_04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/20-3-2.html
+
+[p1] 《工業所有権等の意義》の取扱いは、令第４条の３第10項第１号《適格組織再編成における株式の保有関係等》に規定する「工業所有権その他の技術に関する権利、特別の技術による生産方式又はこれらに準ずるもの」の意義について準用する。（令６年課法２−14「一」により追加）

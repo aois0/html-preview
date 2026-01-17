@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 9の2−5 / id: 9-2-5 / title: 信託が終了した場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/07.htm#a-9-2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/9-2-5.html
+
+[p1] 法第9条の2第4項の規定の適用を受ける者とは、信託の残余財産受益者等に限らず、当該信託の終了により適正な対価を負担せずに当該信託の残余財産（当該信託の終了直前においてその者が当該信託の受益者等であった場合には、当該受益者等として有していた信託に関する権利に相当するものを除く。）の給付を受けるべき又は帰属すべき者となる者をいうことに留意する。（平19課資2−5、課審6−3追加）

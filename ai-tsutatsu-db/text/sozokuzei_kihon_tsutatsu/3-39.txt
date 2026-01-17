@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 3−39 / id: 3-39 / title: 「返還金その他これに準ずるもの」の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/04.htm#a-3_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/3-39.html
+
+[p1] 法第3条第1項第3号に規定する「返還金その他これに準ずるもの」とは、生命保険契約の定めるところにより生命保険契約の解除（保険金の減額の場合を含む。）又は失効によって支払を受ける金額又は一定の事由（被保険者の自殺等）に基づき保険金の支払をしない場合において支払を受ける払戻金等をいうものとする。（昭46直審（資）6改正）
+[p2] 〔定期金に関する権利関係〕

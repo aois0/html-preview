@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 42の9−1の2 / id: 42-9-1-2 / title: 一の設備等の取得価額基準の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/01/01_42_09.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/42-9-1-2.html
+
+[p1] 措置法令第27条の９第２項第１号の一の設備又は同項第２号若しくは第３号の一の生産等設備で、これを構成する減価償却資産の取得価額の合計額が措置法第42条の９第１項に規定する政令で定める規模に該当するかどうかについては、当該一の設備又は一の生産等設備を構成する減価償却資産のうちに他の特別償却等の規定（当該他の特別償却等の規定に係る措置法第52条の３の規定を含む。以下同じ。）の適用を受けるものがある場合であっても、当該他の特別償却等の規定の適用を受けるものの取得価額を含めたところにより判定することに留意する。（令４年課法２−14「七」により追加）

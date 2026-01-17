@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 4−1−2 / id: 4-1-2 / title: 親子間、親族間における事業主の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/04/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/4-1-2.html
+
+[p1] 生計を一にしている親族間における事業に係る事業者がだれであるかの判定をする場合には、その事業の経営方針の決定につき支配的影響力を有すると認められる者が当該事業の事業主に該当するものと推定する。

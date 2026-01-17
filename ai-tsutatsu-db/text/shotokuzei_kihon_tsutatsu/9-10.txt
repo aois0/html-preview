@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 9-10 / id: 9-10 / title: 公邸
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/02.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/9-10.html
+
+[p1] 国家公務員宿舎法第10条《公邸》の規定により無料で公邸の貸与を受けることによる利益については、令第21条第4号に掲げる利益に準じて課税しなくて差し支えない。
+[p2] 〔外国公務員等の給与等（第8号関係）〕

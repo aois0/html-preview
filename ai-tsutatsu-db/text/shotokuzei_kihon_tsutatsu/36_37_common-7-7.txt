@@ -1,0 +1,11 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 36・37共−7の7 / id: 36_37_common-7-7 / title: 被災資産の修繕費用等の見積りの方法
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/19.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/36_37_common-7-7.html
+
+[p1] 36・37共−7の6の修繕費用等の見積額は、その修繕等を行うことが確実な被災資産につき、例えば、次の額によるなど合理的に見積もるものとする。（平29課個2−13、課資3−3、課審5−5追加）
+[p2] (1) 建設業者、製造業者等による当該被災資産に係る修繕費用等の見積額
+[p3] (2) 相当部分が損壊等をした当該被災資産につき、次のイからロを控除した金額
+[p4] イ 再取得価額又は国土交通省建築物着工統計の工事費予定額から算定した建築価額等を基礎として、当該被災資産の取得の時から被災年の12月31日まで償却を行ったものとした場合に計算される未償却残額
+[p5] ロ 被災年の12月31日における価額

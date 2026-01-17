@@ -1,0 +1,12 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 78−9 / id: 78-9 / title: 出資に関する業務に充てられることが明らかな寄附金
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/78-9.html
+
+[p1] 法第78条第２項第３号に規定する「出資に関する業務に充てられることが明らかなもの」とは、例えば、次のようなものが該当する。（令3課個2-10、課法11-28、課審5-4追加）
+[p2] (1) 寄附金の使途を出資業務に限定して募集されたもの
+[p3] (2) 出資業務に使途を指定して行われたもの
+[p4] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p5] 法第79条《障害者控除》関係
+[p6] 法第79条《障害者控除》関係

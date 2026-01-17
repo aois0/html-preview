@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の13−3 / id: 66-13-3 / title: 特別勘定繰入限度超過額の区分計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/15/15_66_13.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-13-3.html
+
+[p1] 法人が同一事業年度において、措置法第66条の13第１項の規定の適用を受け、特定株式のいずれについても同項に規定する特別勘定（以下「特別勘定」という。）として経理した金額がある場合において、同項に規定する所得基準額を超えることにより損金の額に算入されない金額（以下「特別勘定繰入限度超過額」という。）があるときは、当該特別勘定繰入限度超過額がいずれの特定株式について生じたものとするかは、法人の計算によるものとする。（令2年課法2−17「三十」により追加）

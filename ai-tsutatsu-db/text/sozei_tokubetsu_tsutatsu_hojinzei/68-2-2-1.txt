@@ -1,0 +1,11 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 68の2の2−1 / id: 68-2-2-1 / title: 認定株式分配の場合の適格株式分配の要件に係る従業者の範囲等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/15/15_68_2_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/68-2-2-1.html
+
+[p1] 措置法第68条の２の２第１項の規定により読み替えて適用する法第２条第12号の15の３に規定する「政令で定める要件」に該当するかどうかの判定に当たり、措置法令第39条の34の３第１項第４号の「従業者」及び同項第５号の「主要な事業」については、基本通達１−４−４及び１−４−５の取扱いを準用する。（令5年課法2−8「二十三」により追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第68条の2の3((適格合併等の範囲等に関する特例))関係
+[p4] 第68条の2の3《適格合併等の範囲等に関する特例》関係
+[p5] 第1款 合併法人等

@@ -1,0 +1,11 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−5−5 / id: 9-5-5 / title: 内国法人に帰せられるものとして計算される金額を課税標準として当該内国法人に対して課せられる外国法人税
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_05_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-5-5.html
+
+[p1] 令第78条の3第1項及び第2項《外国子会社から受ける配当等に係る外国源泉税等》に規定する外国法人税には、その所在地国でいわゆるパス・スルー課税が適用される事業体で、我が国においては外国法人に該当するものの所得のうち、その所在地国において構成員である内国法人に帰せられるものとして計算される金額に対して課される外国法人税が含まれる。（平21年課法2−5「八」により追加、令元年課法2−10「八」により改正
+[p2] ）
+[p3] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p4] 第3款 第二次納税義務による納付税額
+[p5] 第3款 第二次納税義務による納付税額

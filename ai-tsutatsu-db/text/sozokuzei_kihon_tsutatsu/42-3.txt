@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 42−3 / id: 42-3 / title: 物納の許可
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/04.htm#a-42_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/42-3.html
+
+[p1] 物納の許可は、その申請に係る税額のうち物納を許可する時において収納未済となっている税額の範囲内において許可するものとする。

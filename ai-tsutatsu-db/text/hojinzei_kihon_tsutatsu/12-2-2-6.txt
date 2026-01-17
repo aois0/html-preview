@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 12の2−2−6 / id: 12-2-2-6 / title: 新たな資産の取得とされる資本的支出がある場合の帳簿価額又は取得価額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/12_2/12_2_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/12-2-2-6.html
+
+[p1] 令第123条の８第２項第４号《特定資産に係る譲渡等損失額の損金不算入》の取得価額については、7−8−4《形式基準による修繕費の判定》の(2)の(注)による。（平19年課法2−7「十」により追加、平22年課法2−1「二十九」、令４年課法２−14｢三十八」により改正）

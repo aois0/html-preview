@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 6−3 / id: 6-3 / title: 定期金受取人が掛金又は保険料の負担者である場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/05.htm#a-5_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/6-3.html
+
+[p1] 定期金給付契約（生命保険契約を除く。）の定期金の給付事由が発生した場合においても、その定期金受取人が取得した定期金給付契約に関する権利のうち、その者が法第3条第1項第4号の規定により相続又は遺贈によって取得したとみなされた部分及び自ら負担した掛金又は保険料の金額のその給付事由の発生した時までに払い込まれた掛金又は保険料の全額に対する割合に相当する部分については、相続税及び贈与税の課税関係は生じないのであるから留意する。（昭46直審（資）6、昭57直資2−177、平4課資2−158改正）
+[p2] 第7条《贈与又は遺贈により取得したものとみなす場合》関係

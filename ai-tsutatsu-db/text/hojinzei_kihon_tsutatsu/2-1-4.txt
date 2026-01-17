@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−1−4 / id: 2-1-4 / title: 検針日による収益の帰属の時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_01_01_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-1-4.html
+
+[p1] ガス、水道、電気等の販売をする場合において、週、旬、月を単位とする規則的な検針に基づき料金の算定が行われ、法人が継続してその検針が行われた日において収益計上を行っているときは、当該検針が行われた日は、その引渡しの日に近接する日に該当するものとして、法第22条の2第2項《収益の額》の規定を適用する。（昭55年直法2−8「六」により追加、平15年課法2−7「六」、平30年課法2−8「二」により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第2款 固定資産の譲渡等に係る収益
+[p4] 第2款 固定資産の譲渡等に係る収益

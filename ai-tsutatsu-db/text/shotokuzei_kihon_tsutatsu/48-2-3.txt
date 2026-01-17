@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 48の2−3 / id: 48-2-3 / title: 評価方法の変更申請があった場合の「相当期間」
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/04-2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/48-2-3.html
+
+[p1] 47−16の２の取扱いは、暗号資産の評価の方法について変更承認申請書の提出があった場合における令第119条の４第２項の規定の適用について準用する。（令元課個2-22、課法11-3、課審5-12追加、令2課個2−12、課法11−3、課審5−6改正）

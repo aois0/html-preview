@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−5−2 / id: 2-5-2 / title: 一定期間支払を受けない仕入割戻しの計上時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-5-2.html
+
+[p1] 2−1−1の13の適用がある売上割戻しに対応する仕入割戻しについては、2−5−1にかかわらず、現実に支払（買掛金等への充当を含む。）を受けた日（その日前に2−1−1の14により実質的にその利益を享受することとなった場合には、その享受することとなった日）の属する事業年度の仕入割戻しとして取り扱う。ただし、法人が棚卸資産を購入した日の属する事業年度又は相手方から通知を受けた日の属する事業年度の仕入割戻しとして経理している場合には、これを認める。（昭55年直法2−8「九」、平12年課法2−7「六」、平30年課法2−8「六」により改正）

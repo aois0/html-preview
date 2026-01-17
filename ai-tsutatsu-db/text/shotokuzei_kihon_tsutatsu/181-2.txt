@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 181−2 / id: 181-2 / title: 株式の配当、投資信託等の収益の分配に対する税額の簡易計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/29/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/181-2.html
+
+[p1] 次に掲げる配当又は収益の分配に対する源泉徴収税額は、次に掲げる区分に応じ、それぞれ次に掲げる単位当たりの税額にその配当又は収益の分配の基礎となる株数又は口数（公社債投資信託の場合にあっては、1万口を1口とした口数）を乗じて計算することができるものとする。（平13課法8−2、課個2−7、平19課法9−9、課個2−20、課審4−32改正）

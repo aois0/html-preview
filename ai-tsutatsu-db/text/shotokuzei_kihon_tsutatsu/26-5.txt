@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 26−5 / id: 26-5 / title: 広告等のため土地等を使用させる場合の所得
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/02.htm#a-02
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/26-5.html
+
+[p1] 広告等のため、土地、家屋の屋上又は側面、塀等を使用させる場合の所得は、不動産所得に該当する。

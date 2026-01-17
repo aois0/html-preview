@@ -1,0 +1,6 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 9-5 / id: 9-5 / title: 贈与により取得したものとする募集株式引受権数の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/06.htm#a-9_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/9-5.html
+

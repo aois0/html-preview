@@ -1,0 +1,17 @@
+{
+  "aliases": {
+    "法人税基本通達": "hojinzei_kihon_tsutatsu",
+    "法基通": "hojinzei_kihon_tsutatsu",
+    "所得税基本通達": "shotokuzei_kihon_tsutatsu",
+    "所基通": "shotokuzei_kihon_tsutatsu",
+    "消費税基本通達": "shohizei_kihon_tsutatsu",
+    "消基通": "shohizei_kihon_tsutatsu",
+    "相続税法基本通達": "sozokuzei_kihon_tsutatsu",
+    "相続税基本通達": "sozokuzei_kihon_tsutatsu",
+    "租税特別措置法関係通達（法人税編）": "sozei_tokubetsu_tsutatsu_hojinzei",
+    "措置法通達（法人税編）": "sozei_tokubetsu_tsutatsu_hojinzei",
+    "措置法通達": "sozei_tokubetsu_tsutatsu_hojinzei",
+    "国税通則法基本通達": "kokuzei_tsusoku_kihon_tsutatsu",
+    "通則法基本通達": "kokuzei_tsusoku_kihon_tsutatsu"
+  }
+}

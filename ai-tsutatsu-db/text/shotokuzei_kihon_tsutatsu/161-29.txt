@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 161−29 / id: 161-29 / title: 当該業務に係るものの利子の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/22/03.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/161-29.html
+
+[p1] 法第161条第1項第10号に掲げる「当該業務に係るものの利子」とは、国内において業務を行う者に対する同号に規定する貸付金のうち、当該国内において行う業務の用に供されている部分の貸付金に対応するものをいう（平28課2−4、課法11−8、課審5−5改正）。

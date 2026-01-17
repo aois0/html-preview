@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 10−6−1の2 / id: 10-6-1-2 / title: 建設中の期間
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/10/10_06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/10-6-1-2.html
+
+[p1] 法第50条第1項又は第5項《交換により取得した資産の圧縮額の損金算入》の規定を適用する場合において、その交換の対象となった資産を1年以上有していたかどうかの判定については、建物等の建設中の期間はその所有期間に含めない。(昭55年直法2−15「二十二」、平14年課法2−1「二十五」により改正)

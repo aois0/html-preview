@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 161−8 / id: 161-8 / title: 
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/17/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/161-8.html
+
+[p1] から161−11までの取扱いは、国外事業所等帰属所得を認識する場合について準用する（平28課2−4、課法11−8、課審5−5追加）。

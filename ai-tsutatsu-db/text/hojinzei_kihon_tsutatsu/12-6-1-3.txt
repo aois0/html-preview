@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 12の6−1−3 / id: 12-6-1-3 / title: 法人の事業の全部又は重要な一部の信託
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/12_6/12_6_01a.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/12-6-1-3.html
+
+[p1] 法第2条第29号の2ハ(1)《法人課税信託》の株主総会の決議を要するものとは、法人の事業の全部又は重要な一部の譲渡を行う場合において、当該法人の株主総会の決議(これに準ずるものを含む。)によって、当該譲渡に係る契約の承認を受けなければならないこととされる行為をいうのであるから、現にその決議が行われたかどうかは問わないことに留意する。（平19年課法2−5「六」により追加）

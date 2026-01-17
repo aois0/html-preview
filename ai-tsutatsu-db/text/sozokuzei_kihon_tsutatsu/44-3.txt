@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 44−3 / id: 44-3 / title: 法第44条第1項に規定する延納申請期限の延長
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/06.htm#a-44_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/44-3.html
+
+[p1] 法第44条第1項に規定する延納申請期限については、通則法第11条の規定の適用があることに留意する。
+[p2] また、法施行令第25条の2第4項により読み替える「第39条第22項第2号に規定する政令で定める期間」における法施行令第16条の2第1項第2号の「不服申立て」とは、法第44条第1項に規定する延納申請期限までに行われた不服申立てに限られるのであるから留意する。

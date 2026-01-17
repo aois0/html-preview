@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 8−3−5 / id: 8-3-5 / title: 固定資産を利用するための繰延資産の償却の開始の時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/08/08_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/8-3-5.html
+
+[p1] 法人が繰延資産となるべき費用を支出した場合において、当該費用が固定資産を利用するためのものであり、かつ、当該固定資産の建設等に着手されていないときは、その固定資産の建設等に着手した時から償却する。（昭55年直法2−8「三十」により改正）

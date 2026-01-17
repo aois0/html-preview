@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 9−1−26 / id: 9-1-26 / title: 強制換価手続による換価による資産の譲渡等の時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/09/01/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/9-1-26.html
+
+[p1] 事業者が所有する資産が強制換価手続により換価された場合には、当該換価により買受代金が納入された時に当該事業者が資産の譲渡等を行ったものとする。

@@ -1,0 +1,11 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 39−11 / id: 39-11 / title: 調査に3月を超える期間を要すると認めるとき
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/02.htm#a-39_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/39-11.html
+
+[p1] 法第39条第23項に規定する「当該調査に三月を超える期間を要すると認めるとき」とは、次のようなものをいうのであるから留意する。（平18徴管5−14追加）
+[p2] 担保財産が多数ある場合
+[p3] 担保財産が遠隔地にある場合
+[p4] 非上場株式や保証人の保証など担保財産の評価に相当の期間を要する場合
+[p5] 自然災害等により担保財産の確認等が困難な場合（当該自然災害について法第39条第24項の規定の適用がある場合を除く。）

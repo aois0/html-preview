@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 72−2 / id: 72-2 / title: 資産について受けた損失の金額の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/72-2.html
+
+[p1] 令第206条第3項各号に掲げる資産について受けた損失の金額は、個々の資産ごとに、次に掲げる金額のいずれかを基礎として計算することに留意する。(平26課個2−9、課審5−14追加、令2課個2−12、課法11−3、課審5−6改正)
+[p2] (1) 損失を生じた時の直前におけるその資産の価額
+[p3] (2) 令第206条第３項各号に定めるその資産の取得費とされる金額に相当する金額

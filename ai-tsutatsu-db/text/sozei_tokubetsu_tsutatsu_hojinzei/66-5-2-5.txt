@@ -1,0 +1,8 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の5の2−5 / id: 66-5-2-5 / title: 経済的な性質が利子に準ずるもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/13/13_66_5_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-5-2-5.html
+
+[p1] 措置法令第39条の13の２第２項に規定する「経済的な性質が支払う利子に準ずるもの」には、金銭債権をその債権金額を超える価額で取得した場合において、損金の額に算入される調整差額（基本通達２−１−34の調整差額で損金の額に算入される金額をいう。）が含まれることに留意する。
+[p2] また、同条第25項に規定する「経済的な性質が支払を受ける利子に準ずるもの」には、金銭債権をその債権金額に満たない価額で取得した場合において、益金の額に算入される調整差額（同通達の調整差額で益金の額に算入される金額をいう。）が含まれることに留意する。（令元年課法2-33「二」により追加、令3年課法2-21「二十七」により改正）

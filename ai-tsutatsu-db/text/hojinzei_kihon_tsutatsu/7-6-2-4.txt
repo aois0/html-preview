@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−6の2−4 / id: 7-6-2-4 / title: 専用機械装置等に該当しないもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_06_01_1.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-6-2-4.html
+
+[p1] 次に掲げる機械装置等を対象とするリース取引は、7−6の2−3の(2)に定めるリース取引には該当しないものとする。（平19年課法2−17「十五」により追加）
+[p2] (1) 一般に配付されているカタログに示された仕様に基づき製作された機械装置等
+[p3] (2) その主要部分が一般に配付されているカタログに示された仕様に基づき製作された機械装置等で、その附属部分が特別の仕様を有するもの
+[p4] (3) (1)及び(2)に掲げる機械装置等以外の機械装置等で、改造を要しないで、又は一部改造の上、容易に同業者等において実際に使用することができると認められるもの

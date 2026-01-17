@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 21の8-1 / id: 21-8-1 / title: 邦貨換算の取扱いの準用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/11.htm#a-21_6_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/21-8-1.html
+
+[p1] 法第21条の8の規定による控除税額を計算する場合におけるその地の法令により課された贈与税に相当する税の邦貨換算については、20の2-1の取扱いに準ずるものとする。（昭57直資2-177改正、平15課資2-1改正）

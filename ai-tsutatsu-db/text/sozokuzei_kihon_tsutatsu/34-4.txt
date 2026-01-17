@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 34−4 / id: 34-4 / title: 相続税の一部について延納の許可を受けた又は納税猶予がされた場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/04/01.htm#a-27_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/34-4.html
+
+[p1] 相続税の一部について延納の許可を受けた又は納税猶予（措置法第70条の6第1項、第70条の6の6第1項、第70条の6の7第1項、第70条の6の10第1項、第70条の7の2第1項、第70条の7の4第1項、第70条の7の6第1項、第70条の7の8第1項又は第70条の7の12第1項）がされた場合においては、延納の許可を受けた又は納税猶予がされた相続税額以外の相続税については、法第34条第1項第1号に該当する場合を除き、同項による連帯納付の責めの対象となることに留意する。（平24徴管6−11追加、令元課資2−10改正）

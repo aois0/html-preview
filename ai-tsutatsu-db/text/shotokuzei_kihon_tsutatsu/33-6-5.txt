@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 33-6の5 / id: 33-6-5 / title: 土石等の譲渡による所得
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/33-6-5.html
+
+[p1] 土地の所有者が、その土地の地表又は地中の土石、砂利等（以下38-13の2において「土石等」という。）を譲渡（営利を目的として継続的に行われるものを除く。）したことによる所得は、譲渡所得に該当する。（昭56直資3-2、直所3-3追加、平元直所3-14、直法6-9、直資3-8改正）
+[p2] （注） 譲渡所得の金額の計算上控除する土石等の取得費については、38-13の2参照

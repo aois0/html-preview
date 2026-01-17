@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の5の2−8 / id: 66-5-2-8 / title: 除外対象特定債券現先取引等に係る平均負債残高の計算方法
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/13/13_66_5_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-5-2-8.html
+
+[p1] 除外対象特定債券現先取引等に係る負債に係る平均負債残高（措置法令第39条の13の２第９項に規定する平均負債残高をいう。以下同じ。）は、例えば、同一銘柄ごとに債券を区分し、債券現先取引及び現金担保付債券貸借取引（措置法第66条の５第５項第８号に規定する債券現先取引及び現金担保付債券貸借取引をいう。以下同じ。）に係る借入金又は貸付金の月末残高のうちいずれか少ない金額をもって除外対象特定債券現先取引等に係る負債の月末残高とし、当該事業年度における平均残高を除外対象特定債券現先取引等に係る負債に係る平均負債残高としても差し支えないものとする。（令元年課法2-33「二」により追加）

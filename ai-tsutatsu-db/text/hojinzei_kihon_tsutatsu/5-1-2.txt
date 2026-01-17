@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 5−1−2 / id: 5-1-2 / title: 取得後の事業年度において購入代価が確定した場合の調整
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/05/05_01_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/5-1-2.html
+
+[p1] 棚卸資産を取得した日の属する事業年度においてその購入の代価が確定していないため見積価額で棚卸資産の取得価額を計算している場合において、その後の事業年度において購入の代価が確定したときは、その確定した金額と見積価額との差額に相当する金額は、その確定した日の属する事業年度の益金の額又は損金の額に算入する。ただし、その差額が多額である場合には、その差額については、原価差額の調整方法に準じて調整する。（平15年課法2−7「十三」、令４年課法2−14｢十四」により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第2款 製造等に係る棚卸資産
+[p4] 第2款 製造等に係る棚卸資産

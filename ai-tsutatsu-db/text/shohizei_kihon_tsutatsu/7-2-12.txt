@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 7−2−12 / id: 7-2-12 / title: 外国貨物の荷役等に類する役務の提供
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/07/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/7-2-12.html
+
+[p1] 令第17条第2項第4号《輸出取引等の範囲》に規定する「その他これらに類する外国貨物に係る役務の提供」には、例えば、外国貨物に係る検量若しくは港湾運送関連事業に係る業務又は輸入貨物に係る通関手続若しくは青果物に係るくんじょう等の役務の提供が含まれる。

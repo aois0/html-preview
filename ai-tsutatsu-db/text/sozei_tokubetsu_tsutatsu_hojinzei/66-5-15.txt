@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の5−15 / id: 66-5-15 / title: 保険会社の総負債
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/13/13_66_5.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-5-15.html
+
+[p1] 保険会社に係る措置法令第39条の13第23項第2号に規定する総負債の額には、支払備金、責任準備金及び配当準備金（相互会社にあっては社員配当準備金、株式会社にあっては契約者配当準備金をいう。）の額は含まれるが、価格変動準備金は含まれないものとする。（平5年課法2−1「三十」により追加、平8年課法2−7「二十五」、平19年課法2−3「四十九」、平20年課法2−1「三十五」、平24年課法2−17「三十三」、平28年課法2−11「四十」により改正）

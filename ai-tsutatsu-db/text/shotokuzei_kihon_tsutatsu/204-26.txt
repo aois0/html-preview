@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 204−26 / id: 204-26 / title: 映画、演劇に係る製作又は編集の報酬又は料金に含まれるもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/36/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/204-26.html
+
+[p1] 令第320条第4項に規定する「映画若しくは演劇の製作、……編集」の報酬又は料金には、映画又は演劇関係の監修料（カット料）又は選曲料も含まれる。

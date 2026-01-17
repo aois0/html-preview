@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 6−13−8 / id: 6-13-8 / title: 用途変更の場合の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/06/13.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/6-13-8.html
+
+[p1] 貸付けに係る契約において住宅として貸し付けられた建物について、契約当事者間で住宅以外の用途に変更することについて契約変更した場合には、契約変更後の当該建物の貸付けは、課税資産の譲渡等に該当することとなる。
+[p2] (注) 貸付けに係る契約において住宅として借り受けている建物を賃借人が賃貸人との契約変更を行わずに、当該賃借人において事業の用に供したとしても、当該建物の借受けは、当該賃借人の課税仕入れに該当しないのであるから留意する。

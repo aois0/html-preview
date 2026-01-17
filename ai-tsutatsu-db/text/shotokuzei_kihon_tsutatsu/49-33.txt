@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−33 / id: 49-33 / title: 増加償却の適用単位
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/10.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-33.html
+
+[p1] 令第133条の規定は、機械及び装置につき旧耐用年数省令に定める設備の種類の区分（細目の定めのあるものは、細目の区分）ごとに適用する。ただし、2以上の工場に同一の設備の種類に属する設備を有する場合には、工場ごとに適用することができる。（平20課個2−17、課審4−186、課法9−3改正）
+[p2] （注） 上記ただし書の「2以上の工場に同一の設備の種類に属する設備を有する場合」については、49―14の（1）の（注）1参照

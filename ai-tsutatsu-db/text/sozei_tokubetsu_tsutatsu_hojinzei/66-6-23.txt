@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の6-23 / id: 66-6-23 / title: 課税標準の計算がコストプラス方式による場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/14/14_66_6_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-6-23.html
+
+[p1] 外国関係会社の本店所在地国の法令の規定により、当該外国関係会社の当該事業年度の決算に基づく所得の金額及び課税標準を算出することに代えて、当該外国関係会社の支出経費に一定率を乗じて計算した金額をもって課税標準とする、いわゆるコストプラス方式により計算することができることとされている場合であっても、措置法令第39条の17の2第2項第1号イに規定する所得の金額は、当該外国関係会社の当該事業年度の決算に基づく所得の金額につき当該本店所在地国の法令の規定を適用して算出することに留意する。（平29年課法2-22「二」により追加、平30年課法2-12「二十九」により改正）

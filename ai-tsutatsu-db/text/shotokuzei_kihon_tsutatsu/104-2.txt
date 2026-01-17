@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 104−2 / id: 104-2 / title: 第2期の予定納税額がないものとされた場合の第1期の予定納税額の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/18/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/104-2.html
+
+[p1] 法第104条第2項に規定する期限延長により、第2期において納付すべき予定納税額の納期限がその年12月31日後となる場合(第1期において納付すべき予定納税額(以下この項及び114−1において「第1期予定納税額」という。)の納期限がその年12月31日後となる場合を除く。)には、第1期予定納税額はないものとされないことに留意する。(平26課個2−9、課審5−14追加)
+[p2] 法第105条《予定納税基準額の計算の基準日等》関係

@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 7−3 / id: 7-3 / title: 債務の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/05.htm#a-5_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/7-3.html
+
+[p1] 法第7条に規定する「債務」には、公租公課を含むものとして取り扱うものとする。（昭57直資2−177改正）

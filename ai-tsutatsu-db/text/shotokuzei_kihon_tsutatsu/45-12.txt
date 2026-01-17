@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 45−12 / id: 45-12 / title: 取引が行われたことが推測される場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/07/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/45-12.html
+
+[p1] 法第45条第３項第２号の取引が行われたことが推測される場合とは、居住者が保存する帳簿書類その他の物件により、その取引が行われたことが推測される場合をいうのであるが、例えば、居住者の所得税に関する調査において、当該居住者が帳簿書類その他の物件の提示又は提出をした場合に、当該帳簿書類その他の物件に、取引の年月日や具体的な内容は記載されているが金額が記載されていないときその他その取引が存在すると見込まれるような事実の記載があるときは、同号の取引が行われたことが推測される場合に該当することに留意する。（令４課個2-13、課法12-16、課審5-９追加）

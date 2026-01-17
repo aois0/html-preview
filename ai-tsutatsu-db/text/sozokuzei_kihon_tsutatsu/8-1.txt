@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 8−1 / id: 8-1 / title: 債務の免除
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/05.htm#a-5_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/8-1.html
+
+[p1] 法第8条第1号に掲げる場合に該当する「債務の免除」には、その債務者の扶養義務者以外の者によってされた免除をも含むのであるから留意する。

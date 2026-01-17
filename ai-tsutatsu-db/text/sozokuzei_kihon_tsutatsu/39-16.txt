@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 39−16 / id: 39-16 / title: 延納期間の短縮等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/02.htm#a-39_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/39-16.html
+
+[p1] 法第39条第32項の規定は、税務署長が延納の許可を受けた者から資力の状況の変化等について弁明を聴いた上で、その弁明に係る事情を考慮して、延納許可の取消し又は延納条件の変更の処分をする必要があると認める場合においてだけ当該処分をすることができるという趣旨であるから留意する。
+[p2] なお、延納の許可を受けた者に対して期限を定めて弁明を求めた場合において、当該期限までに正当な理由がなく弁明をしないときは、弁明を聴くことなく当該処分をするものとする。（昭57直資2−177、平4課資2−158・徴管5−6、平18徴管5−14改正）

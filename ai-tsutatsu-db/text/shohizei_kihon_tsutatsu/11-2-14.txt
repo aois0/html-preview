@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 11−2−14 / id: 11-2-14 / title: 試供品、試作品等に係る仕入税額控除
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/11/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/11-2-14.html
+
+[p1] 課税資産の譲渡等に係る販売促進等のために得意先等に配布される試供品、試作品等に係る課税仕入れ等は、課税資産の譲渡等にのみ要するものに該当する。

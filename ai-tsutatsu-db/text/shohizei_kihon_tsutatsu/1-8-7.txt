@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 1−8−7 / id: 1-8-7 / title: 共有物の譲渡等における適格請求書に記載すべき課税資産の譲渡等の対価の額等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/01/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/1-8-7.html
+
+[p1] 適格請求書発行事業者が、適格請求書発行事業者以外の者である他の者と共同で所有する資産（以下「共有物」という。）の譲渡又は貸付けを行う場合には、当該共有物に係る資産の譲渡等の金額を所有者ごとに合理的に区分するものとし、適格請求書に記載する法第57条の４第１項第４号《適格請求書の交付義務》に掲げる「課税資産の譲渡等に係る税抜価額又は税込価額を税率の異なるごとに区分して合計した金額」及び同項第５号に掲げる「消費税額等」は、自己の部分に係る資産の譲渡等の金額に基づき算出することとなることに留意する。（令５課消２−９により追加）

@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 12の7−1−2 / id: 12-7-1-2 / title: 期限内申告書を提出しなかった法人に係る損益通算の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/12_7/12_7_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/12-7-1-2.html
+
+[p1] 法第64条の５第５項《損益通算》に規定する「第74条第１項（確定申告）の規定による申告書」とは、期限内申告書をいい、期限後申告書は含まれないのであるから、通算法人のうち期限内申告書を提出しなかったものに係る法第64条の５第１項に規定する通算前所得金額及び同条第３項に規定する通算前欠損金額は零となり、同条第１項又は第３項の規定により当該通算法人の損金の額又は益金の額に算入される金額は、同条第８項の規定が適用される場合を除き、ないこととなることに留意する。（令４年課法２−14｢四十八」により追加）

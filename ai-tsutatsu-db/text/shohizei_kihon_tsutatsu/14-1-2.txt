@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 14−1−2 / id: 14-1-2 / title: 事業者が支払う販売奨励金等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/14/01/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/14-1-2.html
+
+[p1] 事業者が販売促進の目的で販売奨励金等の対象とされる課税資産の販売数量、販売高等に応じて取引先（課税資産の販売の直接の相手方としての卸売業者等のほかその販売先である小売業者等の取引関係者を含む。）に対して金銭により支払う販売奨励金等は、売上げに係る対価の返還等に該当する。

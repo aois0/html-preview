@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 36・37共−16 / id: 36_37_common-16 / title: 金品引換費用の未払金の総収入金額算入
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/14.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/36_37_common-16.html
+
+[p1] により必要経費に算入した未払金の額は、その年の翌年分の事業所得の金額の計算上総収入金額に算入する。
+[p2] 36
+[p3] ・37共−18

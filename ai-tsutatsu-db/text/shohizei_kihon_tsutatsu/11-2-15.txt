@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 11−2−15 / id: 11-2-15 / title: 課税資産の譲渡等以外の資産の譲渡等にのみ要するものの意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/11/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/11-2-15.html
+
+[p1] 法第30条第2項第1号《個別対応方式による仕入税額控除》に規定する課税資産の譲渡等以外の資産の譲渡等にのみ要するもの（以下「その他の資産の譲渡等にのみ要するもの」という。）とは、非課税資産の譲渡等を行うためにのみ必要な課税仕入れ等をいい、例えば、販売用の土地の造成に係る課税仕入れ、賃貸用住宅の建築に係る課税仕入れがこれに該当する。（令５課消２−９により改正）

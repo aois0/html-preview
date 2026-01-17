@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 9-8 / id: 9-8 / title: 制服に準ずる事務服、作業服等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/02.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/9-8.html
+
+[p1] 専ら勤務場所のみにおいて着用する事務服、作業服等については、令第21条第2号及び第3号に規定する制服に準じて取り扱って差し支えない。

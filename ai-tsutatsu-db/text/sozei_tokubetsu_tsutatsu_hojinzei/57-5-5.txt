@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 57の5−5 / id: 57-5-5 / title: 損金の額に算入されなかった異常危険準備金
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/02/02_57_5.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/57-5-5.html
+
+[p1] 損害保険会社の各事業年度における異常危険準備金の積立額が限度額を超えているために損金の額に算入されなかった金額は、当該事業年度後の各事業年度における異常危険準備金の積立額が限度額に達しない場合においても、これを損金の額に算入しない。（昭53年直法2−24「50」、昭58年直法2−11「十四」、平2年直法2−6「二十五」、平11年課法2−9「三十六」、平15年課法2−7「四十七」、令４年課法２−14「三十二」により改正）

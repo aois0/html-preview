@@ -1,0 +1,10 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 62−2 / id: 62-2 / title: 固定資産等の損失に関する取扱いの準用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/12/03.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/62-2.html
+
+[p1] 法第62条第1項の規定により譲渡所得の金額の計算上控除すべき損失の金額等については、51−2及び51−6から51−9までの取扱いに準ずる。
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 法第62条《生活に通常必要でない資産の災害による損失》関係
+[p4] 法第62条《生活に通常必要でない資産の災害による損失》関係

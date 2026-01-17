@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 9−3−6の3 / id: 9-3-6-3 / title: 債務不履行に伴うリース譲渡に係る資産の取戻し
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/09/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/9-3-6-3.html
+
+[p1] 事業者がリース譲渡をした後において、相手方の代金の支払遅延等の理由により契約を解除し、リース期間の中途において当該リース譲渡をした資産を取り戻した場合には、その取戻しは、その取戻しをした時における当該資産の価額を支払対価とする課税仕入れを行ったことになるのであるから留意する。（平10課消2−9により追加、平20課消1-8、平30課消2-5により改正）
+[p2] (注) 当該相手方は、当該資産につき代物弁済による資産の譲渡を行ったことになる。

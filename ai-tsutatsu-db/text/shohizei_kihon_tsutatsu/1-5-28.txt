@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 1−5−28 / id: 1-5-28 / title: 保有する棚卸資産を自己建設資産の原材料として使用した場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/01/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/1-5-28.html
+
+[p1] 自己が保有する建設資材等の棚卸資産を自己建設資産の原材料として使用した場合には、当該棚卸資産の仕入れに係る支払対価の額は、当該自己建設資産の建設等に要した仕入れ等に係る支払対価の額に含まれることに留意する。（平28課消1−57により追加）

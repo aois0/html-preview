@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 205−10 / id: 205-10 / title: 金銭以外のものと金銭とのいずれかを選択することができる場合の意義等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/36/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/205-10.html
+
+[p1] 令第321条に規定する「金銭以外のものと金銭とのいずれかを選択することができる場合」とは、あらかじめ公表されている懸賞等の募集要綱等に選択できる金銭の額が定められている場合をいう。
+[p2] (注) あらかじめ選択できる金銭の額が定められていない場合において、受賞者の希望その他の事情により金銭を支払うときは、その金銭の支払を受けた受賞者に限りその金額の支払を受けたものとする。

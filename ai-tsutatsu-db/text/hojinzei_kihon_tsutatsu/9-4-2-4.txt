@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−4−2の4 / id: 9-4-2-4 / title: 手形で支払った寄附金
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_04_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-4-2-4.html
+
+[p1] 令第78条《支出した寄附金の額》に規定する「支払」とは、法人がその寄附金を現実に支払ったことをいうのであるから、当該寄附金の支払のための手形の振出し（裏書譲渡を含む。）は、現実の支払には該当しないことに留意する。（昭50年直法2−21「24」により追加、昭55年直法2−8「三十三」、平15年課法2−7「二十五」、平22年課法2−1「十九」により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第2款 完全支配関係がある法人間の寄附金
+[p4] 第2款 完全支配関係がある法人間の寄附金

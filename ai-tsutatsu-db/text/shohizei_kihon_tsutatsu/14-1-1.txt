@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 14−1−1 / id: 14-1-1 / title: 海上運送事業者が支払う船舶の早出料
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/14/01/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/14-1-1.html
+
+[p1] 海上運送事業を営む事業者が船舶による運送に関連して支払う早出料は、売上げに係る対価の返還等に該当する。

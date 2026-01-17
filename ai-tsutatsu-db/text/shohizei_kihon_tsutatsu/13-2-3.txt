@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 13−2−3 / id: 13-2-3 / title: 食料品小売店舗において行う販売商品の加工等の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/13/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/13-2-3.html
+
+[p1] 事業者が他から購入した食料品を、その性質及び形状を変更しないで専ら消費者に販売する店舗において、当該販売に供される商品に軽微な加工をして販売する場合で、当該加工が当該加工前の食料品を販売している店舗において一般的に行われると認められるもので、当該加工後の商品が当該加工前の商品と同一の店舗において販売されるものであるときの当該加工後の商品の譲渡を行う事業は、第二種事業に該当するものとして取り扱って差し支えない。

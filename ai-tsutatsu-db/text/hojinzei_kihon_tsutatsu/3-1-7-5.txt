@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 3−1−7の5 / id: 3-1-7-5 / title: 金銭以外の資産による配当等の額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/03/03_01_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/3-1-7-5.html
+
+[p1] 法人が金銭以外の資産により剰余金の配当又は利益の配当を受ける場合には、法第23条《受取配当等の益金不算入》の規定の適用がある配当等の額は、原則として、当該剰余金の配当又は利益の配当の額の支払に係る効力が生ずる日における当該金銭以外の資産の価額によることに留意する。（平19年課法2−3「十三」により追加、平27年課法2−8「五」により改正）

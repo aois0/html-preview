@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−3−11の3 / id: 7-3-11-3 / title: 土地の取得に当たり支出する負担金等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_03_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-3-11-3.html
+
+[p1] 法人が地方公共団体等が造成した土地を取得するに当たり土地の購入の代価のほかに7−3−11の2に定める負担金等の性質を有する金額でその内容が具体的に明らかにされているものを支出した場合には、7−3−11の2に準じて取り扱うことができるものとする。（昭55年直法2−8「二十一」により追加）

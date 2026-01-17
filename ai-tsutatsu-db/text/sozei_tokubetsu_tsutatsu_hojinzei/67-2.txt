@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 67-2 / id: 67-2 / title: 社会保険類似の診療報酬についての不適用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/15/15_67.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/67-2.html
+
+[p1] 措置法第67条の規定は、措置法第26条第2項各号に掲げる給付等につき支払を受けるべき金額(以下「社会保険診療報酬」という。)がある場合に適用されるのであって、医療法人が事業者その他の団体等との任意の契約等に基づいて行っている社会保険類似の行為に対して支払を受ける金額については、措置法第67条の規定の適用はないことに留意する。(昭57年直法2-11「二十一」、平14年課法2-1「六十一」により改正)

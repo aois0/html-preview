@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 17−1−2 / id: 17-1-2 / title: 申告書の提出期限の延長の再承認
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/17/17_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/17-1-2.html
+
+[p1] 確定申告書の提出期限の延長の承認を受けた法人が指定された提出期限までに決算が確定しないため確定申告書を提出できない場合には、法人の申請によりその指定の日を変更することができる。

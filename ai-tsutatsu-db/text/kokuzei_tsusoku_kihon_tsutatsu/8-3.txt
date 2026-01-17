@@ -1,0 +1,13 @@
+doc: 国税通則法基本通達 (kokuzei_tsusoku_kihon_tsutatsu)
+item: 8-3 / id: 8-3 / title: 
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/mokuji.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/kokuzei_tsusoku_kihon_tsutatsu/8-3.html
+
+[p1] その他の災害
+[p2] 9
+[p3] 生計を一にする
+[p4] 10
+[p5] 親族
+[p6] 11
+[p7] 事業の休廃止

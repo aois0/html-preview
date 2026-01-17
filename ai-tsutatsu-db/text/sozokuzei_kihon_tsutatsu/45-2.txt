@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 45−2 / id: 45-2 / title: 物納の許可の申請に係る手続を行う者
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/06.htm#a-44_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/45-2.html
+
+[p1] 法第45条第2項により法第42条を準用する場合における法施行令第19条の4第1項第1号の「物納の許可の申請に係る手続を行う者」とは、法第45条第2項の規定により物納の許可の再申請を行おうとする者（納税義務者）をいい、当該申請を行おうとする者が死亡したことにより当該申請者としての地位を承継した者を含むものであることに留意する。

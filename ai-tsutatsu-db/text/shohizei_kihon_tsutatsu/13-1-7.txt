@@ -1,0 +1,10 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 13−1−7 / id: 13-1-7 / title: 災害その他やむを得ない理由の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/13/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/13-1-7.html
+
+[p1] 法第37条の2第1項又は第6項《災害等があった場合の中小事業者の仕入れに係る消費税額の控除の特例の届出に関する特例》に規定する「災害その他やむを得ない理由」とは、おおむね次に掲げるところによる。（平18課消1−11により追加）
+[p2] (1) 地震、暴風、豪雨、豪雪、津波、落雷、地すべりその他の自然現象の異変による災害
+[p3] (2) 火災、火薬類の爆発、ガス爆発、その他の人為による異常な災害
+[p4] (3) (1)又は(2)に掲げる災害に準ずる自己の責めに帰さないやむを得ない事実

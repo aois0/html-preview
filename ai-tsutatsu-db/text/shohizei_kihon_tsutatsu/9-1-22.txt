@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 9−1−22 / id: 9-1-22 / title: 物品切手等と引換給付する場合の譲渡等の時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/09/01/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/9-1-22.html
+
+[p1] 物品切手等と引換えに物品の給付若しくは貸付け又は役務の提供（以下9−1−22及び10−1−9において「物品の給付等」という。）を行う場合には、当該物品切手等が自ら発行したものであるか他の者が発行したものであるかにかかわらず、当該物品の給付等を行う時に当該物品の給付等に係る資産の譲渡等を行ったこととなるのであるから留意する。（令5課消2−9により改正）

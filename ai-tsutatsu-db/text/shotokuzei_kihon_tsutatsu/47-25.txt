@@ -1,0 +1,10 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 47−25 / id: 47-25 / title: 棚卸しの手続
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/03.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/47-25.html
+
+[p1] 棚卸資産については各年の12月31日において実地棚卸しをしなければならないのであるが、その者が、その業種、業態及び棚卸資産の性質等に応じ、その実地棚卸しに代えて部分計画棚卸しその他合理的な方法によりその年12月31日における棚卸資産の在高等を算定することとしている場合には、継続適用を条件としてこれを認める。（昭57直所3−1追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 〔棚卸資産の取得価額の特例（令第104条関係）〕
+[p4] 〔棚卸資産の取得価額の特例（令第104条関係）〕

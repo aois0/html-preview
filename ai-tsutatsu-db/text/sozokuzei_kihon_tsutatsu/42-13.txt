@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 42−13 / id: 42-13 / title: 延長された措置期限までに収納関係の措置がとられない場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/04.htm#a-42_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/42-13.html
+
+[p1] 法第42条第24項（同条第25項により読み替えて適用する場合を含む。）の規定により延長された収納関係措置期限までに、当該申請者が同条第20項の措置をとらなかった場合は、法第42条第2項の規定により物納の申請を却下するのであるから留意する。（平18徴管5−14追加）

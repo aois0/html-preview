@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 165−6 / id: 165-6 / title: 国際海上運輸業における運送原価の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/24/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/165-6.html
+
+[p1] 95−13の取扱いは、国内及び国外にわたって船舶による運送の事業を営む非居住者のその年分の恒久的施設帰属所得に係る事業所得又は雑所得の金額の計算上必要経費の額に算入される運送の原価の額の計算について準用する（平28課2−4、課法11−8、課審5−5追加）。

@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 11−2−1 / id: 11-2-1 / title: 取立不能見込額として表示した貸倒引当金
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/11/11_02_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/11-2-1.html
+
+[p1] 法人が貸倒引当金勘定への繰入れの表示に代えて取立不能見込額として表示した場合においても、当該取立不能見込額の表示が財務諸表の注記等により確認でき、かつ、貸倒引当金勘定への繰入れであることが総勘定元帳及び確定申告書において明らかにされているときは、当該取立不能見込額は、貸倒引当金勘定への繰入額として取り扱う。（平10年課法2−7「十五」により追加、平12年課法2−7「十八」により改正）

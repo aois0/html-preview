@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 21の3-6 / id: 21-3-6 / title: 生活費等で通常必要と認められるもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/10.htm#a-21_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/21-3-6.html
+
+[p1] 法第21条の3第1項第2号に規定する「通常必要と認められるもの」は、被扶養者の需要と扶養者の資力その他一切の事情を勘案して社会通念上適当と認められる範囲の財産をいうものとする。（平15課資2-1改正）

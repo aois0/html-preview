@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−21 / id: 49-21 / title: 鉱業用土地の償却
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/08.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-21.html
+
+[p1] 石炭鉱業におけるぼた山の用に供される土地のように鉱業経営上直接必要な土地で鉱業の廃止により著しくその価値が減少するものの取得価額のうち、鉱業を廃止した場合において残存すると認められるその土地の価額を超える部分の金額については、当該土地に係る鉱業権について採用している償却方法に準じて計算される金額を必要経費に算入することができるものとする。

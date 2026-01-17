@@ -1,0 +1,11 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 11−1−1 / id: 11-1-1 / title: 貸倒引当金の差額繰入れ等の特例
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/11/11_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/11-1-1.html
+
+[p1] 法人が貸倒引当金につき当該事業年度の取崩額と当該事業年度の繰入額との差額を損金経理により繰り入れ又は取り崩して益金の額に算入している場合においても、確定申告書に添付する明細書にその相殺前の金額に基づく繰入れ等であることを明らかにしているときは、その相殺前の金額によりその繰入れ及び取崩しがあったものとして取り扱う。（平30年課法2−8「十一」により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第1款 通則
+[p4] 第2節 貸倒引当金
+[p5] 第1款 通則

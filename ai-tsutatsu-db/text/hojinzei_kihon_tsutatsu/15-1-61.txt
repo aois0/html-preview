@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−61 / id: 15-1-61 / title: 臨床検査センター
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_29.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-61.html
+
+[p1] 規則第5条第3号《非課税とされるオープン病院等》括弧書の「専ら臨床検査をその業務とするもの」には、たん、血液、尿等の検体を集中的に検査することを業務とするいわゆる臨床検査センターが含まれることに留意する。(昭56年直法2−16「七」、平24年課法2−17「六」により改正)

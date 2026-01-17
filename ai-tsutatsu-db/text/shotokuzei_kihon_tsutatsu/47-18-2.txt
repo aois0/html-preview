@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 47−18の2 / id: 47-18-2 / title: 棚卸資産の取得価額に算入しないことができる費用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/02.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/47-18-2.html
+
+[p1] 棚卸資産の取得又は保有に関連して支出する固定資産税、都市計画税、登録免許税（登録に要する費用を含む。）、不動産取得税、地価税、特別土地保有税等は、その取得価額に算入しないことができる。（昭57直所3−1追加、平5課所4−1改正）

@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−6の2−6 / id: 7-6-2-6 / title: 識別困難なリース資産
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_06_01_1.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-6-2-6.html
+
+[p1] 令第48条の2第5項第5号ハ《所有権移転外リース取引》に規定する「当該目的資産の識別が困難であると認められるもの」かどうかは、賃貸人及び賃借人において、そのリース資産の性質及び使用条件等に適合した合理的な管理方法によりリース資産が特定できるように管理されているかどうかにより判定するものとする。（平19年課法2−17「十五」により追加）

@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 14−2 / id: 14-2 / title: 公租公課の異動の場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/03.htm#a-13_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/14-2.html
+
+[p1] 課税価格又は相続税額の申告、更正又は決定があった後、法第13条及び第14条の規定により控除すべき公租公課に異動が生じたときは、当該課税価格及び相続税額について、更正を要するのであるから留意する。（昭46直審（資）6、昭47直資2−130改正、平15課資2−1改正）

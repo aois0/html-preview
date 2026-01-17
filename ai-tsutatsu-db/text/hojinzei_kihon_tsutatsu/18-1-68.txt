@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 18−1−68 / id: 18-1-68 / title: 恒久的施設等の欠損の金額に係る繰延税金資産
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/18/18_01_10.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/18-1-68.html
+
+[p1] 令第155条の30第1項第2号《恒久的施設等を有する構成会社等に係る個別計算所得等の金額の計算の特例》の規定の適用を受ける恒久的施設等の欠損の金額に係る規則第38条の28第３項第1号イ《調整後対象租税額の計算》に規定する繰延税金資産は、同号ハの規定により、当該恒久的施設等の調整後法人税等調整額に含まれないことに留意する。（令5年課法2−17｢九」により追加）

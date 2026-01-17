@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 58−15 / id: 58-15 / title: 適格合併等により引継ぎを受けた探鉱準備金等の取崩し
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/04/04_58.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/58-15.html
+
+[p1] 適格合併、適格分割又は適格現物出資により引継ぎを受けた探鉱準備金又は海外探鉱準備金の措置法第58条第4項の規定による取崩しについては、55−7の2の取扱いに準じて取り扱うものとする。（平15年課法2−22「二十七」、平22年課法2−7「十九」、令４年課法２−14「三十八」により改正）

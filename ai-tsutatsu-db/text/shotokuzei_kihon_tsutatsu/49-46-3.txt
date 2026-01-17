@@ -1,0 +1,10 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−46の3 / id: 49-46-3 / title: 追加償却資産に係る除却価額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/12.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-46-3.html
+
+[p1] 令第127条第5項の規定の適用を受けた一の減価償却資産を構成する各追加償却資産の一部に除却等があった場合には、当該除却等に係る追加償却資産を一の資産として、その除却等に係る資産の当該除却等の時における未償却残額を計算することに留意する。この場合において、その未償却残額は、49−18の2の(1)又は(2)の取扱いに準じて計算した金額による。（平19課個2−11、課資3−1、課法9−5、課審4−26追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 〔少額の減価償却資産及び一括償却資産（令第138条及び第139条関係）〕
+[p4] 〔少額の減価償却資産及び一括償却資産（令第138条及び第139条関係）〕

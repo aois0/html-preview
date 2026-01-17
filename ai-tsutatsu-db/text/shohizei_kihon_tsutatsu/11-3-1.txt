@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 11−3−1 / id: 11-3-1 / title: 課税仕入れを行った日の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/11/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/11-3-1.html
+
+[p1] 法第30条第1項第1号《仕入れに係る消費税額の控除》に規定する「課税仕入れを行った日」及び同項第2号に規定する「特定課税仕入れを行った日」とは、課税仕入れに該当することとされる資産の譲受け若しくは借受けをした日又は役務の提供を受けた日をいうのであるが、これらの日がいつであるかについては、別に定めるものを除き、第9章《資産の譲渡等の時期》の取扱いに準ずる。（平13課消1−5、平27課消1-17により改正）

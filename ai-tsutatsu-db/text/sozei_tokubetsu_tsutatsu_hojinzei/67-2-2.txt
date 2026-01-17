@@ -1,0 +1,14 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 67-2の2 / id: 67-2-2 / title: 総収入金額の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/15/15_67.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/67-2-2.html
+
+[p1] 措置法第67条第1項に規定する総収入金額とは、医療法人の営む医業活動から生ずる収益の額をいうのであるから、例えば、次の金額は含まれないことに留意する。(平25年課法2-4「三十」により追加)
+[p2] (1) 国庫補助金、補償金、保険金その他これらに準ずるものの収入金額
+[p3] (2) 固定資産又は有価証券の譲渡に係る収益の額
+[p4] (3) 受取配当金、受取利子、固定資産の賃貸料等営業外収益の額
+[p5] (4) 貸与寝具、貸与テレビ、洗濯代等の収入金額
+[p6] (5) 医薬品の仕入れ割戻しの金額
+[p7] (6) 電話使用料、自動販売機等の手数料に係る収入金額
+[p8] (7) マスク、歯ブラシ等の物品販売収入の額

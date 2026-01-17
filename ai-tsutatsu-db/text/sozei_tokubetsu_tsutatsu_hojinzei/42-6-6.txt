@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 42の6−6 / id: 42-6-6 / title: その他これらに類する事業に含まれないもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/01/01_42_06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/42-6-6.html
+
+[p1] 措置法規則第20条の3第８項第2号括弧書の料亭、バー、キャバレー、ナイトクラブに類する事業には、例えば大衆酒場及びビヤホールのように一般大衆が日常利用する飲食店は含まないものとする。(平15年課法2-22「四」により追加、平19年課法2-3「五」、平23年課法2-17「五」、平24年課法2-17「六」、平29年課法2-17「五」、令5年課法2−8「三」により改正)

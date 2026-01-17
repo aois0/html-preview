@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 47-2 / id: 47-2 / title: 特定都市再生建築物に該当する建物附属設備の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/01/01_47_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/47-2.html
+
+[p1] 措置法第47条第3項に規定する建物附属設備は、その特定都市再生建築物に係る事業計画に基づいて設置される建物附属設備に限られる。（平14年課法2-1「二十七」により追加、平27年課法2-8「十八」、令元年課法2-10「十九」、令2年課法2-17「九」により改正）

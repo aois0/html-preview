@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 161−19 / id: 161-19 / title: 旅費、滞在費等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/22/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/161-19.html
+
+[p1] 法第161条第1項第6号に掲げる対価には、非居住者が同号に規定する人的役務を提供するために要する往復の旅費、国内滞在費等の全部又は一部を当該対価の支払者が負担する場合におけるその負担する費用が含まれることに留意する。ただし、その費用として支出する金銭等が、当該人的役務を提供する者に対して交付されるものでなく、当該対価の支払者から航空会社、ホテル、旅館等に直接支払われ、かつ、その金額がその費用として通常必要であると認められる範囲内のものであるときは、この限りでない（平28課2−4、課法11−8、課審5−5追加）。

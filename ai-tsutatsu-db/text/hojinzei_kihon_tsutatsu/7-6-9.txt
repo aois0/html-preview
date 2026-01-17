@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−6−9 / id: 7-6-9 / title: 残存価額となった取替資産
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_06_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-6-9.html
+
+[p1] 取替資産の償却限度額の計算につき取替法を採用している場合において、当該資産に係る令第49条第2項第1号《取替法》の金額の累計額がその資産の取得価額の50%相当額に達したかどうかは、規則第10条各号《取替資産の範囲》に掲げる資産の区分ごと（その規模の拡張があった場合には、更にその拡張ごと）に判定する。

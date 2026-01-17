@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−3−28 / id: 2-3-28 / title: 金銭の信託に属する有価証券
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_03_05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-3-28.html
+
+[p1] 令第119条の12第2号《売買目的有価証券の範囲》の規定に基づく信託財産として短期売買目的の有価証券を取得する旨の帳簿書類への記載は、信託に係る契約を単位として行うことに留意する。（平12年課法2−7「四」により追加）
+[p2] (注) その信託財産に属する有価証券を短期的に売買し、又は大量に売買していると認められる金銭の信託の信託財産に属する当該有価証券であっても、同号の規定に基づく帳簿書類への記載をしていない金銭の信託の信託財産に属する有価証券は、同号に掲げる売買目的有価証券に該当しない。

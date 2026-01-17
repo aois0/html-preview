@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 5−3−2 / id: 5-3-2 / title: 原価差額の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/05/05_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/5-3-2.html
+
+[p1] 原価差額には、材料費差額、労務費差額、経費差額等のほか、内部振替差額を含むことに留意する。

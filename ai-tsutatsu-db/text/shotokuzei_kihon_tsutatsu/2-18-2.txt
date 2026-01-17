@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 2−18の2 / id: 2-18-2 / title: 工業所有権の実施権等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/2-18-2.html
+
+[p1] 他の者の有する工業所有権（特許権、実用新案権、意匠権及び商標権をいう。以下同じ。）について実施権又は使用権を取得した場合におけるその取得のために要した金額については、当該工業所有権に準じて取り扱う。（昭55直所3−19、直法6−8追加）
+[p2] （注） 償却費の計算については、49−26の2参照

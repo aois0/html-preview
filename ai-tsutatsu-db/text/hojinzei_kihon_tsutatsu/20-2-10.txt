@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 20−2−10 / id: 20-2-10 / title: 旅費、滞在費等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/20a/20_02_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/20-2-10.html
+
+[p1] 法第138条第1項第4号《人的役務提供事業の所得》に掲げる対価には、外国法人が同号に規定する人的役務の提供をするために要する往復の旅費、国内滞在費等の全部又は一部を当該対価の支払者が負担する場合におけるその負担する金額が含まれることに留意する。（平26年課法2−9「六」により追加）

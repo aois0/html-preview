@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 33-6の2 / id: 33-6-2 / title: ゴルフ会員権の譲渡による所得
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/33-6-2.html
+
+[p1] ゴルフクラブ（ゴルフ場の所有又は経営に係る法人の株式又は出資を有することが会員となる資格の要件とされているゴルフクラブを除く。）の会員である個人が、その会員である地位（いわゆる会員権）を譲渡（営利を目的として継続的に行われるものを除く。）したことによる所得は、譲渡所得に該当する。（昭56直資3-2、直所3-3追加、平元直所3-14、直法6-9、直資3-8改正）

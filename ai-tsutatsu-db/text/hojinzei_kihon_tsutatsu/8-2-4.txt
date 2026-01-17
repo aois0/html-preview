@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 8−2−4 / id: 8-2-4 / title: 港湾しゅんせつ負担金等の償却期間の特例
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/08/08_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/8-2-4.html
+
+[p1] 公共的施設の設置又は改良のために支出する費用のうち、企業合理化促進法（昭和27年法律第5号）第8条《産業関連施設の整備》の規定に基づき負担する港湾しゅんせつに伴う受益者負担金及び共同的施設の設置又は改良のために支出する費用のうち負担者又は構成員の属する協会等の本来の用に供される会館等の建設又は改良のために負担する負担金については、8−2−3に定める償却期間が10年を超える場合には、当分の間、8−2−3にかかわらず、その償却期間を10年とするものとする。（平5年課法2−1「六」により改正）

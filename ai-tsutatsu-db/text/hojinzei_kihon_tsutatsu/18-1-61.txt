@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 18−1−61 / id: 18-1-61 / title: 債務者における資産の時価の例示
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/18/18_01_08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/18-1-61.html
+
+[p1] 規則第38条の22第2項《債務免除等を受けた場合の個別計算所得等の金額の計算の特例》の「時価」とは、例えば、時価算定会計基準第５項の時価をいう。（令５年課法２−17｢九」により追加）

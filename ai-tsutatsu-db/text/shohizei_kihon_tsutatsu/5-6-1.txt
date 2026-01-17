@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−6−1 / id: 5-6-1 / title: 保税地域から引き取られる外国貨物の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-6-1.html
+
+[p1] 法第4条第2項《課税の対象》に規定する「保税地域から引き取られる外国貨物」には、輸徴法第5条《保税地域からの引取り等とみなす場合》の規定により保税地域からの引取りとみなされる貨物も含まれることに留意する。

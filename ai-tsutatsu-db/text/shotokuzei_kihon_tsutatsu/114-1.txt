@@ -1,0 +1,10 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 114−1 / id: 114-1 / title: 第2期の予定納税額の減額の承認があった場合の第1期の予定納税額の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/18/02.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/114-1.html
+
+[p1] 法第111条第２項((予定納税額の減額の承認の申請))の規定による予定納税額の減額の承認の申請をした同項第１号に掲げる者がその承認を受けた場合には、第１期予定納税額にはその影響がないものであるから、たとえその承認に係る申告納税見積額が第１期予定納税額に満たないこととなったときであっても、第１期予定納税額は減額されないことに留意する。(平26課個2−9、課審5−14改正)
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 法第111条《予定納税額の減額の承認の申請》関係
+[p4] 法第111条《予定納税額の減額の承認の申請》関係

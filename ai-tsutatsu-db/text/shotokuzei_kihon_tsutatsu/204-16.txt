@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 204−16 / id: 204-16 / title: 火災損害鑑定人又は自動車等損害鑑定人の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/36/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/204-16.html
+
+[p1] 令第320条第2項に規定する火災損害鑑定人とは、社団法人日本損害保険協会に登録されている火災損害登録鑑定人及び火災損害登録鑑定人補をいい、同項に規定する自動車等損害鑑定人とは同協会に登録されているアジャスターをいうことに留意する。（昭52直所3−33、直法6−10、直資3−15改正）

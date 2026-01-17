@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 6−13−10 / id: 6-13-10 / title: 貸付けに係る用途が明らかにされていない場合の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/06/13.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/6-13-10.html
+
+[p1] 法別表第二第13号《住宅の貸付け》に規定する「当該契約において当該貸付けに係る用途が明らかにされていない場合」には、例えば、住宅の貸付けに係る契約において、住宅を居住用又は事業用どちらでも使用することができることとされている場合が含まれるのであるから留意する。（令2課消2-9により追加、令５課消２−９により改正）

@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の5の2−1 / id: 66-5-2-1 / title: 原価に算入した支払利子等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/13/13_66_5_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-5-2-1.html
+
+[p1] 法人が支払利子等（措置法第66条の５の２第２項第２号に定める支払利子等をいう。以下66の５の２−10までにおいて同じ。）の額につき固定資産その他の資産の取得価額に算入した場合又は繰延資産として経理した場合であっても、当該事業年度において支払うものは、支払利子等の額に含まれることに留意する。（令元年課法2-33「二」により追加）

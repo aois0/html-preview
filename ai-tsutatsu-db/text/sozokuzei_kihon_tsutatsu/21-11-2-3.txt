@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 21の11の２−３ / id: 21-11-2-3 / title: 特定贈与者からの贈与により取得した財産に係る贈与税の課税価格に異動があった場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/12.htm#a-21_11_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/21-11-2-3.html
+
+[p1] 相続時精算課税適用者が同一年中に２人以上の特定贈与者からの贈与により財産を取得している場合において、当該贈与に係るその年分の贈与税の申告書の提出期限の経過後に、当該年分の贈与税の課税価格に異動が生じたときにおける特定贈与者ごとの相続時精算課税に係る基礎控除の額は、当該異動後の贈与税の課税価格を基礎として計算した金額となることに留意する。（令５課資２−21追加）
+[p2] 第21条の12《相続時精算課税に係る贈与税の特別控除》関係

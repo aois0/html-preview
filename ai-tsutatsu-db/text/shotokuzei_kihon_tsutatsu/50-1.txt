@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 50−1 / id: 50-1 / title: 効果の及ぶ期間の測定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/14.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/50-1.html
+
+[p1] 令第137条第1項第2号に規定する「繰延資産となる費用の支出の効果の及ぶ期間」（以下50−4までにおいて「償却期間」という。）は、50−4までに定めるもののほか、固定資産を利用するために支出した繰延資産については当該固定資産の耐用年数を、一定の契約をするに当たり支出した繰延資産についてはその契約期間をそれぞれ基礎として適正に見積もった期間による。

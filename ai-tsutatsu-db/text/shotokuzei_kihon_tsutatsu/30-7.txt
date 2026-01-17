@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 30−7 / id: 30-7 / title: 長期欠勤又は休職中の期間
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/30-7.html
+
+[p1] 令第69条第1項第1号に規定する勤務した期間には、長期欠勤又は休職（他に勤務するためのものを除く。）の期間も含まれる。（昭63直法6−1、直所3−1改正）

@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 8−3−6 / id: 8-3-6 / title: 繰延資産の支出の対象となった資産が滅失した場合等の未償却残額の損金算入
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/08/08_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/8-3-6.html
+
+[p1] 繰延資産とされた費用の支出の対象となった固定資産又は契約について滅失又は解約等があった場合には、その滅失又は解約等があった日の属する事業年度において当該繰延資産の未償却残額を損金の額に算入する。（昭55年直法2−8「三十」により改正）

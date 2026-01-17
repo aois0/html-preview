@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 2−40 / id: 2-40 / title: 寡婦の要件としての扶養親族の有無
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/07.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/2-40.html
+
+[p1] 法第2条第1項第30号イ(1)に掲げる要件については、その者が扶養控除の規定の適用を受ける控除対象扶養親族又はその者の控除対象扶養親族以外の扶養親族(法第85条第5項の規定の適用がある場合には、同項の規定によりその者の扶養親族に該当する者に限る。)を有することをいうのであるから留意する。（昭49直所2−23、平16課個2−23、課資3−7、課法8−8、課審4−33、平22課個2−16、課法9−1、課審4−30、令2課個2−12、課法11−3、課審5−6改正）

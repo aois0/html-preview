@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−3 / id: 15-1-3 / title: 共済事業
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-3.html
+
+[p1] 公益法人等がいわゆる共済事業として行う事業についても、当該事業の内容に応じてその全部又は一部が収益事業に該当するかどうかの判定を行うことに留意する。(昭56年直法2−16「七」により追加)

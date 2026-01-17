@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 8−1−10 / id: 8-1-10 / title: 出版権の設定の対価
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/08/08_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/8-1-10.html
+
+[p1] 著作権法第79条第1項《出版権の設定》に規定する出版権の設定の対価として支出した金額は、令第14条第1項第6号ホ《その他自己が便益を受けるための費用》に規定する繰延資産に該当するものとする。（昭55年直法2−8「二十八」により追加、平19年課法2−3「十八」、平19年課法2−17「十六」により改正）
+[p2] (注) 例えば漫画の主人公を商品のマーク等として使用する等他人の著作物を利用することについて著作権者等の許諾を得るために支出する一時金の費用は、出版権の設定の対価に準じて取り扱う。

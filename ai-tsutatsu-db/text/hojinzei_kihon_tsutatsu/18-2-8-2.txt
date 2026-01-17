@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 18−2−8の2 / id: 18-2-8-2 / title: 所在地国等財務諸表が作成されていない場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/18/18_02_06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/18-2-8-2.html
+
+[p1] 令第155条の54第１項第２号イ《自国内最低課税額に係る税に関する適用免除基準》に掲げる要件の判定に当たり、同号イの「構成会社等の所在地国等財務諸表が作成されていない場合」には、特定多国籍企業グループ等に属する構成会社等の同条第２項第２号に規定する所在地国等財務諸表で、その作成に係る期間が当該特定多国籍企業グループ等の対象会計年度と同一でないものが作成されている場合が含まれることに留意する。
+[p2] 同条第１項第２号ロに掲げる要件の判定に当たっても、同様とする。（令6年課法2−21｢三」により追加）

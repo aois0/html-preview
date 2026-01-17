@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 18−1−36 / id: 18-1-36 / title: 独立企業間価格相当額の算定の基礎となる取引が複数ある場合の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/18/18_01_08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/18-1-36.html
+
+[p1] 令第155条の16第４項《当期純損益金額》の取引に係る金額について、独立企業間価格相当額（同項に規定する独立企業間価格相当額をいう。以下18−1−67までにおいて同じ。）の算定の基礎となる取引が複数存在し、独立企業間価格相当額が一定の幅を形成している場合において、当該幅の中に当該取引に係る金額があるときは、当該取引については同項の規定の適用はないことに留意する。（令5年課法2−17｢九」により追加）

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 33-13 / id: 33-13 / title: 借地権に係る土地を他人に使用させる行為等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/33-13.html
+
+[p1] 令第79条第1項かっこ内に規定する「その他他人に当該土地を使用させる行為」には、例えば、借地権に係る土地の地下に地下鉄等の構築物を建設させるためその土地の地下を使用させる行為又は特別高圧架空電線の架設等をさせるためその土地の上の空間を使用させる行為が該当し、同条第2項に規定する「その土地の所有者及びその借地権者がともにその土地の利用を制限されることとなるとき」には、例えば、これらの行為をさせることにより、その土地の上に建設する建造物の重量若しくは高さが制限されることとなる場合又は建造物の設置が制限されることとなる場合が該当する。

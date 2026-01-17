@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の13−8 / id: 66-13-8 / title: 特定株式の評価減を否認した場合の特別勘定の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/15/15_66_13.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-13-8.html
+
+[p1] 法人が、特別勘定に係る特定株式についてその帳簿価額を減額したため、措置法第66条の13第11項第6号の規定により当該特別勘定の金額を取り崩して益金の額に算入した場合において、当該特定株式に係る当該減額後の帳簿価額が時価を下回るため当該減額が認められないこととなる金額があり、かつ、その取り崩した金額が帳簿価額の減額が認められた金額を基礎として同号の規定により取り崩すべきこととなる金額を超えるときは、その超える部分の金額は、同項第９号の規定により取り崩した金額に該当することに留意する。（令2年課法2−17「三十」により追加、令4年課法2−14「六十三」、令5年課法2−8「二十二」により改正）

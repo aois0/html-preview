@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 16−5−2 / id: 16-5-2 / title: 資本金の額等の円換算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/16/16_05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/16-5-2.html
+
+[p1] 普通法人が法第66条第５項第２号《各事業年度の所得に対する法人税の税率》に掲げる普通法人に該当するかどうかを判定する場合において、当該普通法人との間に完全支配関係がある法人が外国法人であるときは、当該外国法人が同号イに規定する「資本金の額又は出資金の額が5億円以上である法人」に該当するかどうかは、当該普通法人の当該事業年度終了の時における当該外国法人の資本金の額又は出資金の額について、当該事業年度終了の日の電信売買相場の仲値により換算した円換算額により判定する。(平22年課法2−1「四十二」により追加、令４年課法2−14｢六十一」により改正)

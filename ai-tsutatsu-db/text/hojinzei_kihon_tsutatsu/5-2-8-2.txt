@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 5−2−8の2 / id: 5-2-8-2 / title: 未着品の評価
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/05/05_02_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/5-2-8-2.html
+
+[p1] 未着品（購入した棚卸資産で運送の途中にあるものをいう。）につきその取得のために通常要する引取運賃、荷役費その他の付随費用のうち当該事業年度終了の時までに支出がされていないためその取得価額に算入されていないものがある場合には、当該未着品については、これと種類等を同じくする棚卸資産があるときであっても、当該棚卸資産とは種類等が異なるものとして令第28条《棚卸資産の評価の方法》の規定を適用する。（昭55年直法2−15「六」により追加、平16年課法2−14「三」、平19年課法2−17「十一」により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第2款 低価法
+[p4] 第2款 低価法

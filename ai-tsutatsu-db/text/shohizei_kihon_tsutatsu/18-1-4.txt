@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 18−1−4 / id: 18-1-4 / title: 単価、手数料率等の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/18/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/18-1-4.html
+
+[p1] 総額表示の対象となる価格表示には、資産又は役務の単価、手数料率等を表示する場合など、最終的な取引価格そのものは表示されないが、事実上、価格を表示しているに等しい表示についても総額表示が義務付けられることに留意する。（令５課消２−９により追加）

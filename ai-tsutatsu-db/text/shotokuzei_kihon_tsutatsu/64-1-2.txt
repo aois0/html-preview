@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 64-1の2 / id: 64-1-2 / title: 収入金額の返還の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/13/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/64-1-2.html
+
+[p1] 法第64条第1項に規定する返還とは、退職金等をその支給した者に返還する場合をいうのであるから、子会社に再就職する際、親会社から受けた退職金をその子会社に提供したような場合は、これに当たらない。（昭48直資4-6、直所2-22改正）
+[p2] （注） 退職金等をその支給者以外の者に提供したことにより、その後その提供先から支給を受ける退職金等の金額がその提供した金額を含めて計算されている場合における当該退職金等に係る所得の収入金額は、その支給を受けた退職金等の金額からその提供した退職金等の金額を控除して計算する。

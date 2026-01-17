@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 41−5 / id: 41-5 / title: 法第19条第１項の規定の適用がある贈与財産による物納
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/03.htm#a-41_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/41-5.html
+
+[p1] 法第41条第2項に規定する「課税価格計算の基礎となった財産」には、加算対象贈与財産（19−１(2)の財産の価額が零となる場合における当該財産を除く。）を含むことに留意する。（平18徴管5−14、令５課資２−21・徴管６−30改正）

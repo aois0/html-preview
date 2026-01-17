@@ -1,0 +1,9 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−8−7 / id: 5-8-7 / title: 特定役務の提供を行う者の仲介等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-8-7.html
+
+[p1] 特定役務の提供は、令第2条の2《特定役務の提供の範囲》に規定する役務の提供が該当するのであるから、例えば、次に掲げるものは特定役務の提供には該当しないことに留意する。（平27課消1-17により追加）
+[p2] (1) 特定役務の提供を受ける者が、特定役務の提供を行う者との契約の締結等のために、特定役務の提供を行う者以外の者に依頼する仲介等
+[p3] (2) 特定役務の提供を受ける者が、特定役務の提供を行う者の所属していた法人その他の者に支払う移籍料等と称するものを対価とする取引で、権利の譲渡又は貸付けに該当するもの

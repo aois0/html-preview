@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 18−1−22 / id: 18-1-22 / title: 出資不動産の運用の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/18/18_01_07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/18-1-22.html
+
+[p1] 令第155条の13第2項第1号から第4号まで《各種投資会社等の範囲》の運用には、例えば、出資不動産（同項第1号に規定する出資不動産をいう。）を信託財産として信託する場合も含まれることに留意する。（令5年課法2−17｢九」により追加）

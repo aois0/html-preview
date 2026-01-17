@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 41−12 / id: 41-12 / title: 相続人が居住等の用に供している土地（底地）の物納
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/03.htm#a-41_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/41-12.html
+
+[p1] 法施行令第19条第4号のかっこ書の規定は、相続人が居住の用又は事業の用に供している建物とその敷地が併せて物納申請された場合をいうものであり、その土地（底地）のみが物納申請された場合には適用がなく、当該土地（底地）は劣後財産となるのであるから留意する。（平18徴管5−14追加）

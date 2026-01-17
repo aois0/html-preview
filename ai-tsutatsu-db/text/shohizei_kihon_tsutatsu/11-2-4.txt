@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 11−2−4 / id: 11-2-4 / title: 会費、組合費等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/11/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/11-2-4.html
+
+[p1] 事業者がその同業者団体、組合等に対して支払った会費又は組合費等（以下11−2−4において「会費等」という。）について、当該同業者団体、組合等において、5−5−3《会費、組合費等》により、団体としての通常の業務運営のために経常的に要する費用を賄い、それによって団体の存立を図るものとして資産の譲渡等の対価に該当しないとしているときは、当該会費等の支払は課税仕入れに該当しないのであるから留意する。

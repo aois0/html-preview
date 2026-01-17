@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 66−1 / id: 66-1 / title: 工事の請負の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/14/02.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/66-1.html
+
+[p1] 法第66条第１項に規定する工事(以下66―9までにおいて「工事」という。)の請負には、設計、監理等の役務の提供のみの請負は含まれないのであるが、工事の請負と一体として請け負ったと認められるこれらの役務の提供の請負については、当該工事の請負に含まれることに留意する。（平11課所4−1追加、平20課個2−17、課審4−186、課法9−3改正）

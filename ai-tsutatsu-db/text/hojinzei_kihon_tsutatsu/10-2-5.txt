@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 10−2−5 / id: 10-2-5 / title: 山林の取得等に充てるために交付を受けた国庫補助金等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/10/10_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/10-2-5.html
+
+[p1] 法人が山林の取得又は改良に充てるため、国又は地方公共団体から交付を受けた補助金は、法第42条第1項《国庫補助金等で取得した固定資産等の圧縮額の損金算入》に規定する国庫補助金等に該当するものとする。（昭49年直法2−71「16」により追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第3節 工事負担金で取得した資産の圧縮記帳
+[p4] 第3節 工事負担金で取得した資産の圧縮記帳

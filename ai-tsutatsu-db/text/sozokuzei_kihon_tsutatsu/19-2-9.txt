@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 19の2−9 / id: 19-2-9 / title: 相続又は遺贈に関する訴え
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/06.htm#a-19_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/19-2-9.html
+
+[p1] 法施行令第4条の2第1項第1号及び第2号の規定による相続又は遺贈に関する訴え、和解、調停又は審判とは、当該相続に係る被相続人の財産又は債務、相続人の身分、遺言及び遺産分割に関する訴え、和解、調停又は審判のほか当該相続の前の相続に係るこれらの訴え、和解、調停又は審判をも含むのであるから留意する。（昭47直資2−130、昭50直資2−257、昭57直資2−177、平6課資2−114改正）

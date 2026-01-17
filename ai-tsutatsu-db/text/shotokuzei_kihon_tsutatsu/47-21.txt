@@ -1,0 +1,10 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 47−21 / id: 47-21 / title: 棚卸資産の取得のために要した借入金の利子
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/02.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/47-21.html
+
+[p1] 棚卸資産の取得のために要した借入金の利子は、棚卸資産の取得価額に算入することができる。（昭49直所2−23改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 〔棚卸資産の評価の方法の選定（令第100条関係）〕
+[p4] 〔棚卸資産の評価の方法の選定（令第100条関係）〕

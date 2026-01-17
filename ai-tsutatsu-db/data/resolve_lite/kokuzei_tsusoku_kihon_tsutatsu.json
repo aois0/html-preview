@@ -1,0 +1,38 @@
+{
+  "snapshot": "2025-06-28",
+  "base_url": "https://jplawdb.github.io/html-preview/ai-tsutatsu-db",
+  "enhanced_base_url": "https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced",
+  "doc_code": "kokuzei_tsusoku_kihon_tsutatsu",
+  "doc_title": "国税通則法基本通達",
+  "index_url": "https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/kokuzei_tsusoku_kihon_tsutatsu/index.html",
+  "item_url_template": "enhanced/{doc_code}/{item_id}.html",
+  "text_url_template": "text/{doc_code}/{item_id}.txt",
+  "anchors": {
+    "paragraph": "#p{paragraph}",
+    "item": "#p{paragraph}-i{item_index}"
+  },
+  "items": [
+    "1-2",
+    "1-3",
+    "1-4",
+    "1-5",
+    "2-2",
+    "3-2",
+    "5-2",
+    "6-2",
+    "7-2",
+    "8-2",
+    "8-3",
+    "10-2",
+    "10-3",
+    "11-2",
+    "12-2",
+    "12-3",
+    "13-2",
+    "13-3",
+    "13-4",
+    "13-5",
+    "13-6",
+    "13-7"
+  ]
+}

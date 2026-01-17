@@ -1,0 +1,8 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の6-1 / id: 66-6-1 / title: 発行済株式
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/14/14_66_6_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-6-1.html
+
+[p1] 措置法第66条の6第1項第1号イの「発行済株式」には、その株式の払込み又は給付の金額（以下66の6-2において「払込金額等」という。）の全部又は一部について払込み又は給付（以下66の6-2において「払込み等」という。）が行われていないものも含まれるものとする。（平29年課法2-22「二」により追加）
+[p2] （注） 例えば寄附金の損金算入限度額を計算する場合のように、いわゆる資本金基準額を計算する場合の資本金の額又は出資金の額は、払込済の金額による。

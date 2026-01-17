@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 16−3−5 / id: 16-3-5 / title: 外国税額控除の適用時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/16/16_03_02a.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/16-3-5.html
+
+[p1] 法第69条第1項又は第2項《外国税額の控除》の規定による外国税額の控除は、外国法人税を納付することとなる日の属する事業年度において適用があるのであるが、内国法人が継続してその納付することが確定した外国法人税の額を費用として計上した日（その計上した日が外国法人税を納付した日その他の税務上認められる合理的な基準に該当する場合に限る。）の属する事業年度においてこれらの項の規定を適用している場合には、その計算を認める。（昭58年直法2−3「六」により追加、平2年直法2−1「十三」により改正）

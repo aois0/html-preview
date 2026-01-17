@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 90−9 / id: 90-9 / title: 端数計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/17/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/90-9.html
+
+[p1] 法第90条第1項の規定を適用する場合における通則法第118条第1項《国税の課税標準の端数計算等》の規定の適用については、課税総所得金額及び調整所得金額のそれぞれを同項に規定する課税標準とするものとする。
+[p2] （注） したがって、まず課税総所得金額の1,000円未満の端数を切り捨て、次に調整所得金額の1,000円未満の端数を切り捨てることに留意する。

@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 4−2−5 / id: 4-2-5 / title: 益金不算入とされない受贈益の額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/04/04_02_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/4-2-5.html
+
+[p1] 内国法人が当該内国法人との間に完全支配関係がある他の内国法人から受けた受贈益の額が、当該他の内国法人が当該内国法人に対して行った損失負担又は債権放棄等により供与する経済的利益の額に相当するものである場合において、その経済的利益の額が9−4−1又は9−4−2により当該他の内国法人において法第37条第7項《寄附金の損金不算入》に規定する寄附金の額に該当しないときには、当該受贈益の額は当該内国法人において法第25条の2第1項《完全支配関係のある法人間の受贈益の益金不算入》の規定の適用がないことに留意する。(平22年課法2−1「十四」により追加)

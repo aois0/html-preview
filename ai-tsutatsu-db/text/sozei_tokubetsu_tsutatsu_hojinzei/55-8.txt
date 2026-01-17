@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 55-8 / id: 55-8 / title: 特定法人が2以上ある場合の海外投資等損失準備金の取崩しの計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/02/02_55_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/55-8.html
+
+[p1] 法人が海外投資等損失準備金への積立てを2以上の特定法人の株式等について行っている場合には、当該準備金の金額は、それぞれの特定法人について設けられているのであるから、措置法第55条第3項又は第4項第1号から第5号までの規定による益金算入額は各特定法人ごとに計算することに留意する。(昭51年直法2-39「19」、昭53年直法2-24「19」、昭55年直法2-15「九」、平2年直法2-1「十九」、平10年課法2-17「二十六」、平11年課法2-9「二十八」、平14年課法2-1「三十一」、平17年課法2-14「十七」により改正)

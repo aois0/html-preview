@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 6−2 / id: 6-2 / title: 定期金受取人以外の者が負担した掛金又は保険料
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/05.htm#a-5_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/6-2.html
+
+[p1] 法第6条第1項に規定する「定期金受取人以外の者が負担した掛金又は保険料」及び同条第3項に規定する「当該第三者が負担した掛金又は保険料」の金額の計算については、3−13の取扱いに準ずるものとする。（昭46直審（資）6、昭57直資2−177、平4課資2−158改正）

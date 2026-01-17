@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 65−6 / id: 65-6 / title: 時価以上の価額で資産を下取りした場合の対価の額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/14/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/65-6.html
+
+[p1] リース譲渡を行うに当たり、頭金等として相手方の有する資産をその時における価額を超える価額をもって下取りした場合には、その超える部分の金額は、取得した資産の取得価額に含めないで値引きをしてリース譲渡を行ったものとする。（平11課所4−1、平30課個2−19、課審5−2改正）

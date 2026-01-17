@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 15−1−5 / id: 15-1-5 / title: 仮決算において控除不足額（還付額）が生じた場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/15/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/15-1-5.html
+
+[p1] 事業者が法第43条第1項《仮決算をした場合の中間申告》の規定により仮決算をして中間申告書を提出する場合において、同項第2号《課税標準額に対する消費税額》に掲げる金額から同項第3号《控除されるべき消費税額》に掲げる金額を控除して控除不足額が生じるとしても、当該控除不足額につき還付を受けることはできないことに留意する。
+[p2] (注) 控除不足額が生じた場合の中間納付額は、零円となる。

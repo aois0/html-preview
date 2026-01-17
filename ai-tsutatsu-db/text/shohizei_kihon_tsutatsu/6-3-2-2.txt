@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 6−3−2の2 / id: 6-3-2-2 / title: 償還有価証券に係る償還差益
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/06/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/6-3-2-2.html
+
+[p1] 令第10条第3項第6号《償還差益を対価とする資産の貸付け》に規定する償還差益を対価とする国債等の取得は非課税となるのであるが、当該国債等が法法令第139条の2第1項《償還有価証券の調整差益又は調整差損の益金又は損金算入》に規定する償還有価証券に該当する場合の償還差益には、当該償還有価証券を取得した日の属する事業年度から償還の日の属する事業年度の前事業年度までの各事業年度における法人の所得の金額の計算において、益金の額に算入した同項の調整差益の全てが含まれるのであるから留意する。（平12課消2−10により追加、平23課消1-35により改正）

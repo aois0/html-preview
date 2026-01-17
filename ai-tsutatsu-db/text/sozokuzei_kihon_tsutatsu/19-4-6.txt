@@ -1,0 +1,10 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 19の4−6 / id: 19-4-6 / title: 死亡している相続時精算課税適用者の障害者控除
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/08.htm#a-19_3_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/19-4-6.html
+
+[p1] 被相続人である特定贈与者よりも先に相続が開始した相続時精算課税適用者については、法第19条の4第1項及び同条第3項の規定により準用される法第19条の3第2項の規定の適用はないのであるから留意する。（平15課資2−1追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第19条の3《未成年者控除》関係
+[p4] 第19条の3《未成年者控除》関係

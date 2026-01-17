@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 10-2 / id: 10-2 / title: 生命保険契約及び損害保険契約の所在
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/10.htm#a-10_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/10-2.html
+
+[p1] 法第3条第1項第1号に規定する生命保険契約及び損害保険契約の所在については、法第10条第1項第5号の規定に準ずるものとする。（平15課資2−1追加）

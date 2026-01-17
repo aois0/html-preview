@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 10−3−1 / id: 10-3-1 / title: 受益者の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/10/10_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/10-3-1.html
+
+[p1] 法第45条第1項《工事負担金で取得した固定資産等の圧縮額の損金算入》に規定する「受益者」には、例えば不動産業者等が、その開発した団地に必要な施設で同項に規定するものに係る工事負担金を同項各号に掲げる事業を営む法人に交付し、当該工事負担金に相当する金額を当該団地に係る土地等の購入者に負担させることとしている場合における当該不動産業者等が含まれる。（昭55年直法2−15「十九」により追加）

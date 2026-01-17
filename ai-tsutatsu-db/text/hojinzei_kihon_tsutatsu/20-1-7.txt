@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 20−1−7 / id: 20-1-7 / title: 反復して外国法人に代わって行動する者の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/20a/20_01_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/20-1-7.html
+
+[p1] 令第4条の4第7項《恒久的施設の範囲》に規定する契約締結代理人等には、長期の代理契約に基づいて外国法人に代わって行動する者のほか、個々の代理契約は短期的であるが、2以上の代理契約に基づいて反復して一の外国法人に代わって行動する者が含まれる。(平30年課法2−28「六」により追加）
+[p2] (注) 本文の「一の外国法人に代わって行動する者」は、特定の外国法人のみに代わって行動する者に限られないことに留意する。

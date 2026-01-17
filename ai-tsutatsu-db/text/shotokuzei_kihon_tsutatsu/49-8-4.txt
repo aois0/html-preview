@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−8の4 / id: 49-8-4 / title: 資本的支出の取得価額の特例の適用関係
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-8-4.html
+
+[p1] 資本的支出につき、令第127条第2項、第4項又は第5項の規定を適用した場合には、当該適用した年の翌年以後において、49−18の2による場合を除き、これらの資本的支出を分離して別々に償却することはできないことに留意する。（平19課個2−11、課資3−1、課法9−5、課審4−26追加）

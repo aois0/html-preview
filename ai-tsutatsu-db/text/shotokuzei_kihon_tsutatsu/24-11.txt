@@ -1,0 +1,14 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 24-11 / id: 24-11 / title: 
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/24-11.html
+
+[p1] 削除（昭49直所2-23追加、平15課個2-23、課資3-7、課法8-11、課審4-37改正、平18課個2-18、課資3-10、課審4-114削除）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 法第23条《利子所得》関係
+[p4] 第2編 居住者の納税義務
+[p5] 第1章 課税標準及びその計算並びに所得控除
+[p6] 第1節 各種所得の金額の計算
+[p7] 第1款 所得の種類及び各種所得の金額
+[p8] 法第23条《利子所得》関係

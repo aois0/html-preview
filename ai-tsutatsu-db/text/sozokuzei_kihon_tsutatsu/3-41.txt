@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 3−41 / id: 3-41 / title: 定期金給付事由の発生前に契約者が死亡した場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/04.htm#a-3_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/3-41.html
+
+[p1] 定期金給付契約の契約者が死亡した時において、まだ給付事由の発生していない定期金給付契約で当該契約者が掛金又は保険料の負担者でないものについては、当該契約者の死亡した時においては当該定期金給付契約に関する権利については、課税しないものとする。ただし、法第3条第1項第4号の規定により当該契約者が掛金又は保険料の負担者から当該定期金給付契約に関する権利を相続又は遺贈によって取得したものとみなされた場合におけるそのみなされた部分については、この限りでない。（平4課資2−158改正）

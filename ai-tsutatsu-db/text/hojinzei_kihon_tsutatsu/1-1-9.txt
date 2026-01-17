@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 1−1−9 / id: 1-1-9 / title: 特別の利益に係る要件を欠くこととなった場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/01/01_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/1-1-9.html
+
+[p1] 令第3条第1項第3号《非営利型法人の範囲》に規定する要件を欠くことにより普通法人に該当することとなった一般社団法人又は一般財団法人は、その該当することとなった日の属する事業年度以後の事業年度において同号の要件を満たすことはないことから、再び同項に規定する非営利型法人に該当することはないことに留意する。
+[p2] 同条第2項第6号に規定する要件を欠くことにより普通法人に該当することとなった一般社団法人又は一般財団法人についても、同様とする。(平20年課法2−5｢二」により追加、平21年課法2−5「二」により改正)

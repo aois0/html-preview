@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 18−2−2 / id: 18-2-2 / title: 有形固定資産及び天然資源の例示
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/18/18_02_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/18-2-2.html
+
+[p1] 規則第38条の31第4項第1号《構成会社等に係る国別グループ純所得の金額から控除する金額》の「有形固定資産」には、例えば、財務諸表等の用語、様式及び作成方法に関する規則第22条各号《有形固定資産の範囲》に掲げる資産が該当し、同項第2号に掲げる天然資源には、例えば、油田、ガス田、山林及び鉱床が該当することに留意する。（令5年課法2−17｢十」により追加、令6年課法2−21「三」により改正）

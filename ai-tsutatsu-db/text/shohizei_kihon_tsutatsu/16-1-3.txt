@@ -1,0 +1,10 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 16−1−3 / id: 16-1-3 / title: 特別の法律により設立された法人の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/16/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/16-1-3.html
+
+[p1] 令第75条第１項第６号《国、地方公共団体等の仕入れに係る消費税額の特例》に規定する「特別の法律により設立された法人」とは、総務省設置法第４条第８号《所掌事務》に規定する「法律により直接に設立される法人又は特別の法律により特別の設立行為をもって設立すべきものとされる法人」をいうものとする。
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第2節 特定収入の取扱い
+[p4] 第2節 特定収入の取扱い

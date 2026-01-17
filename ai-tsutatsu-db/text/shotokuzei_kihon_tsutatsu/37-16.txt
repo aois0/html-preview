@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 37−16 / id: 37-16 / title: 事業を営む者等の海外渡航費
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/37-16.html
+
+[p1] 事業を営む者が自己の海外渡航に際して支出する費用は、その海外渡航が当該事業の遂行上直接必要であると認められる場合に限り、その海外渡航のための交通機関の利用、宿泊等の費用（家事上の経費に属するものを除く。）に充てられたと認められる部分の金額を必要経費に算入するものとする。
+[p2] なお、事業を営む者と生計を一にする親族で法第57条第1項又は第3項《事業に専従する親族がある場合の必要経費の特例等》の規定の適用を受けないものの海外渡航のために事業を営む者が支出した費用又は支給した旅費についても、これに準ずる。

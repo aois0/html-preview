@@ -1,0 +1,9 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 13−10 / id: 13-10 / title: 死亡した相続時精算課税適用者に係る債務控除
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/03.htm#a-13_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/13-10.html
+
+[p1] 特定贈与者の死亡に係る相続税額の計算において、当該特定贈与者の死亡前に死亡している相続時精算課税適用者については、法第13条の規定の適用はないのであるから留意する。（平15課資2−1追加）
+[p2] (注) 特定贈与者の死亡に係る相続税額の計算上、当該特定贈与者の債務及び当該特定贈与者に係る葬式費用については、当該特定贈与者の相続人又は包括受遺者の課税価格から控除するのであるから留意する。
+[p3] 第14条《控除すべき債務》関係

@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 31−1 / id: 31-1 / title: 期限内申告書の修正
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/04/01.htm#a-27_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/31-1.html
+
+[p1] 期限内申告書を提出した者が、当該申告書の提出期限内にその申告に係る課税価格、相続税額又は贈与税額を修正した申告書を提出した場合においては、当該修正した申告書は通則法第19条第1項の規定による修正申告書とはしないで期限内申告書として取り扱うものとする。（昭57直資2−177改正）
+[p2] 第32条《更正の請求の特則》関係

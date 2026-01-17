@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 35-4の2 / id: 35-4-2 / title: 年金の種類の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/09.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/35-4-2.html
+
+[p1] 令第185条の規定の適用において、その年に支払を受ける生命保険契約等に基づく年金が同条に規定する確定年金、終身年金、有期年金、特定終身年金又は特定有期年金であるかどうかは、当該年金の支払を受ける者の当該年金の令第185条第1項第1号に規定する支払開始日の現況において判定することに留意する。
+[p2] 令第186条の規定の適用において、その年に支払を受ける損害保険契約等に基づく年金が同条に規定する確定型年金又は特定有期型年金であるかどうかの判定も同様であることに留意する。（平22課個2-25、課審4-45追加）

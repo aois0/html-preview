@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 27−3 / id: 27-3 / title: バンガロー等の貸付けによる所得
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/02.htm#a-02
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/27-3.html
+
+[p1] 観光地、景勝地、海水浴場等におけるバンガロー等で季節の終了とともに解体、移設又は格納することができるような簡易な施設の貸付けによる所得は、事業所得又は雑所得に該当する。

@@ -1,0 +1,10 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 39−7の2 / id: 39-7-2 / title: 担保提供関係書類提出期限延長期限等の最大延長可能日
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/02.htm#a-39_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/39-7-2.html
+
+[p1] 法第39条第22項第2号の適用における同条第8項ただし書、第15項ただし書又は第20項ただし書の規定による担保提供関係書類の訂正又は提出の期限は、次に掲げる日の翌日から起算して6月に同条第22項第2号に規定する期間を加算した期間を経過する日までとなることに留意する。
+[p2] 法第39条第8項ただし書・・・同条第1項の申請書の提出期限
+[p3] 法第39条第15項ただし書・・・同条第11項の規定による通知を受けた日
+[p4] 法第39条第20項ただし書・・・同条第4項の規定による通知を受けた日

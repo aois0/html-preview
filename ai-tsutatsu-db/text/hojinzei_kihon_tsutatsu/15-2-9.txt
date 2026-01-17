@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−2−9 / id: 15-2-9 / title: 低廉譲渡等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-2-9.html
+
+[p1] 公益法人等又は人格のない社団等が通常の対価の額に満たない対価による資産の譲渡又は役務の提供を行った場合においても、その資産の譲渡等が当該公益法人等又は人格のない社団等の本来の目的たる事業の範囲内で行われるものである限り、その資産の譲渡等については法第37条第8項《低廉譲渡等》の規定の適用はないものとする。(昭56年直法2−16「八」により追加、昭63年直法2−1「三」、平15年課法2−7「五十四」により改正)

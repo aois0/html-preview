@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−6−1の2 / id: 7-6-1-2 / title: 採掘権の取得価額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_06_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-6-1-2.html
+
+[p1] 法人がその有する試掘権の目的となっている鉱物に係る鉱区につき採掘権を取得した場合には、当該試掘権の未償却残額に相当する金額と当該採掘権の出願料、登録免許税その他その取得のために直接要した費用の額の合計額を当該採掘権の取得価額とする。（昭55年直法2−8「二十四」により改正）

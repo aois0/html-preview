@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 47-1 / id: 47-1 / title: 特定都市再生建築物の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/01/01_47_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/47-1.html
+
+[p1] 措置法第47条第1項の規定の適用を受けることができる同項に規定する特定都市再生建築物（以下「特定都市再生建築物」という。）は、同項に定める期間内に新築されたもので、かつ、新築後使用されたことのないものに限られるのであるから、当該期間内に新築されたものであっても、新築後他の用に使用されていたもの又は他から取得した中古建築物については適用がないことに留意する。（平14年課法2-1「二十七」により追加、平15年課法2-7「二十八」、平27年課法2-8「十八」、令元年課法2-10「十九」、令2年課法2-17「九」により改正）

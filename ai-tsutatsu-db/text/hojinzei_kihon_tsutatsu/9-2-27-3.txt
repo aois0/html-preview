@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−2−27の3 / id: 9-2-27-3 / title: 業績連動給与に該当しない退職給与
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_02_07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-2-27-3.html
+
+[p1] いわゆる功績倍率法に基づいて支給する退職給与は、法第34条第5項《役員給与の損金不算入》に規定する業績連動給与に該当しないのであるから、同条第1項の規定の適用はないことに留意する。（平29年課法2−17「十二」により追加、令3年課法2−21「九」により改正）
+[p2] (注) 本文の功績倍率法とは、役員の退職の直前に支給した給与の額を基礎として、役員の法人の業務に従事した期間及び役員の職責に応じた倍率を乗ずる方法により支給する金額が算定される方法をいう。

@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 10−5−5 / id: 10-5-5 / title: 滅失等により支出した経費の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/10/10_05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/10-5-5.html
+
+[p1] 令第85条第1項第1号《保険金等の額》に規定する「所有固定資産の滅失又は損壊により支出する経費」には、その滅失等があった所有固定資産の取壊費、焼跡の整理費、消防費等のように当該所有固定資産の滅失等に直接関連して支出される経費が含まれるが、類焼者に対する賠償金、けが人への見舞金、被災者への弔慰金等のように当該所有固定資産の滅失等に直接関連しない経費はこれに含まれないものとする。(昭55年直法2−15「二十一」、平14年課法2−1「二十五」により改正)

@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 6−13−3 / id: 6-13-3 / title: 駐車場付き住宅の貸付け
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/06/13.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/6-13-3.html
+
+[p1] 駐車場付き住宅としてその全体が住宅の貸付けとされる駐車場には、一戸建住宅に係る駐車場のほか、集合住宅に係る駐車場で入居者について1戸当たり1台分以上の駐車スペースが確保されており、かつ、自動車の保有の有無にかかわらず割り当てられる等の場合で、住宅の貸付けの対価とは別に駐車場使用料等を収受していないものが該当する。

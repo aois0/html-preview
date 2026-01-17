@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 20−2−14 / id: 20-2-14 / title: 船舶等の貸付けに伴う技術指導等の対価
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/20a/20_02_04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/20-2-14.html
+
+[p1] 外国法人が法第138条第1項第5号《船舶等の貸付けによる所得》に規定する船舶又は航空機の貸付けをしたことに伴い、当該船舶又は航空機の運航又は整備に必要な技術指導をするための役務の提供を行った場合には、当該貸付けに係る契約書等において当該貸付けに係る対価の額と当該役務の提供に係る対価の額とが明確に区分されているときを除き、その対価の額の全部が船舶又は航空機の貸付けによる対価の額に該当するものとする。（平26年課法2−9「六」により追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第5款 その他
+[p4] 第5款 その他

@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 20−1−1 / id: 20-1-1 / title: その他事業を行う一定の場所
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/20a/20_01_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/20-1-1.html
+
+[p1] 令第4条の4第1項第3号《恒久的施設の範囲》に掲げる「その他事業を行う一定の場所」には、倉庫、サーバー、農園、養殖場、植林地、貸ビル等のほか、外国法人が国内においてその事業活動の拠点としているホテルの一室、展示即売場その他これらに類する場所が含まれる。（平26年課法2−9「五」により追加、平30年課法2−28「六」により改正）

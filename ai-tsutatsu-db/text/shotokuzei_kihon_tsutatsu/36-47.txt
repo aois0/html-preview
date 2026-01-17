@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 36-47 / id: 36-47 / title: 徴収している賃貸料の額が通常の賃貸料の額の50％相当額以上である場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/36-47.html
+
+[p1] 使用者が使用人に対して貸与した住宅等につき当該使用人から実際に徴収している賃貸料の額が、当該住宅等につき36-45により計算した通常の賃貸料の額の50％相当額以上である場合には、当該使用人が住宅等の貸与により受ける経済的利益はないものとする。

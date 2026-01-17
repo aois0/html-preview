@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 13−6 / id: 13-6 / title: 墓碑の買入代金
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/03.htm#a-13_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/13-6.html
+
+[p1] 被相続人の生存中に墓碑を買い入れ、その代金が未払であるような場合には、法第13条第3項本文の規定により、当該未払代金は債務として控除しないのであるから留意する。

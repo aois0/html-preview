@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 46-1 / id: 46-1 / title: 特別償却の対象となる建物の附属設備
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/01/01_46_2_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/46-1.html
+
+[p1] 措置法第46条第１項に規定する建物の附属設備は、当該建物とともに取得又は建設をする場合における建物附属設備に限られることに留意する。（令４年課法２−14「二十四」により追加、令6年課法2-14「十」により改正）

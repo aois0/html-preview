@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 12−1−7 / id: 12-1-7 / title: 共同事業に係る要件の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/12/12_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/12-1-7.html
+
+[p1] 法第57条第８項《欠損金の繰越し》に規定する「共同で事業を行う場合として政令で定める場合」に該当するかどうかの判定（以下12−１−８において「共同事業に係る要件の判定」という。）に当たっては、１−４−４《従業者の範囲》から１−４−７《特定役員の範囲》までの取扱いを準用する。（令４年課法2−14｢三十四」により追加）

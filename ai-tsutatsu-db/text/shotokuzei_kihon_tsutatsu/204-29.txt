@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 204-29 / id: 204-29 / title: 役務の提供の対価が給与等とされる者の受ける契約金
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/36/06.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/204-29.html
+
+[p1] 法第204条第1項第7号に掲げる契約金には、役務の提供の対価が給与等とされる者が当該役務の提供契約を締結するに際して支払を受ける契約金も含まれる。（平27課個2-11、課法10-16、課審5-7改正）
+[p2] （注） 上記の契約金は、雑所得（35-1の（9）参照）となり、法第2条第1項第24号《定義》に規定する臨時所得に該当する場合があることに留意する。

@@ -1,0 +1,10 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 48の3−1 / id: 48-3-1 / title: 延納又は物納に関する事務の引継ぎ
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/06.htm#a-44_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/48-3-1.html
+
+[p1] 法第48条の3に規定する「延納又は物納に関する事務の引継ぎ」を行う場合における通則法第43条第3項にいう「必要があると認めるとき」とは、例えば、納税義務者の延納又は物納の申請に係る相続税額が多額であるとき、物納申請に係る財産が納税地の管轄区域外に所在するときその他国税局長が必要があると認めるときをいうものとする。（平18徴管5-14追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第44条《物納申請の全部又は一部の却下に係る延納》関係
+[p4] 第44条《物納申請の全部又は一部の却下に係る延納》関係

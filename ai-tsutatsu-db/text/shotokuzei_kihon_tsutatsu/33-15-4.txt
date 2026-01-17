@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 33-15の4 / id: 33-15-4 / title: 大深度事業認可前の借地権の設定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/33-15-4.html
+
+[p1] 資産の譲渡とみなされる行為とされる令第79条第1項第3号の規定は、認可事業と一体的に施行される事業に限り適用されるものであるから、その認可事業について大深度地下法第16条の使用の認可を受ける前に、施設又は工作物の全部の所有を目的とする地下について上下の範囲を定めた借地権を設定した場合には、同号の規定の適用はないことに留意する。（平27課資3-4、課個2-19、課法10-5、課審7-13追加）

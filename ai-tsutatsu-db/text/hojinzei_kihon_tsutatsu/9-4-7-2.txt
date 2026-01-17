@@ -1,0 +1,9 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−4−7の2 / id: 9-4-7-2 / title: 出資に関する業務に充てられることが明らかな寄附金
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_04_05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-4-7-2.html
+
+[p1] 法第37条第４項《寄附金の損金不算入》に規定する「出資に関する業務に充てられることが明らかなもの」とは、例えば次のようなものが該当する。（令3年課法2−21「十」により追加）
+[p2] (1) 寄附金の使途を出資業務に限定して募集されたもの
+[p3] (2) 出資業務に使途を指定して行われたもの

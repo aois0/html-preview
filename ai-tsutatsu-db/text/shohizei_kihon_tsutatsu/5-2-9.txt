@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−2−9 / id: 5-2-9 / title: 自己株式の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-2-9.html
+
+[p1] 法人が自己株式を取得する場合（証券市場での買入れによる取得を除く。）における株主から当該法人への株式の引渡し及び法人が自己株式を処分する場合における他の者への株式の引渡しは、いずれも資産の譲渡等に該当しない。（平18課消1−16により改正）

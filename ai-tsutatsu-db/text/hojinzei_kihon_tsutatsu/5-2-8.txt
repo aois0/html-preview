@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 5−2−8 / id: 5-2-8 / title: 原価の率が100％を超える場合の売価還元法の適用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/05/05_02_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/5-2-8.html
+
+[p1] 売価還元法を適用する場合において、令第28条第1項第1号ヘ《売価還元法》に規定する原価の率が100％を超えることとなったときでも、その率により期末棚卸資産の評価額を計算することに留意する。（平21年課法2−5「六」により改正）

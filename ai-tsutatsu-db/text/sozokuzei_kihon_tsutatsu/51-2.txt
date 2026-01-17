@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 51−2 / id: 51-2 / title: 法施行地に住所及び居所を有しなくなる者の延滞税の額の計算の起算日
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/07/01.htm#a-49_2
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/51-2.html
+
+[p1] 法施行地に住所又は居所を有し、かつ、期限内申告書の提出義務がある者が、通則法第117条第2項の規定による納税管理人の届出をしないで、法施行地に住所及び居所を有しないこととなる場合において、当該住所及び居所を有しないこととなる日までに相続税若しくは贈与税の申告書を提出しなかったとき又は相続税若しくは贈与税の納付をしなかったときの延滞税の額の計算の起算日は、住所及び居所を有しないこととなるために提出すべき当該申告書の提出期限の翌日であるから留意する。（昭46直審（資）6改正、平15課資2−1改正）

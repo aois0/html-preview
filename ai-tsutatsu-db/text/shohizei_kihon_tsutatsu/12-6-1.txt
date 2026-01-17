@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 12−6−1 / id: 12-6-1 / title: 課税賃貸用の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/12/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/12-6-1.html
+
+[p1] 法第35条の2第1項《居住用賃貸建物を課税賃貸用に供した場合等の仕入れに係る消費税額の調整》の規定は、居住用賃貸建物の全部又は一部を住宅の貸付け（法別表第二第13号《住宅の貸付け》に掲げる住宅の貸付けをいう。以下12−6−1において同じ。）以外の貸付けの用に供した場合にのみ適用されるのであるから、当該建物に関連する資産の譲渡等が別にあったとしても、当該建物の全部又は一部を住宅の貸付け以外の貸付けの用に供しない限り、当該規定は適用されないのであるから留意する。（令2課消2-9、令５課消２−９により追加）

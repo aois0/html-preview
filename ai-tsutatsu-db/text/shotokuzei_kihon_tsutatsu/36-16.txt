@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 36−16 / id: 36-16 / title: 経済的利益の額を収入金額等に算入する時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/36-16.html
+
+[p1] 次に掲げる経済的利益の額を収入金額又は総収入金額に算入する時期は、当該経済的利益の額が令第80条《特別の経済的な利益で借地権の設定等による対価とされるもの》の規定により譲渡所得に係る総収入金額に算入されるものである場合を除き、おおむね次に掲げる日によるものとする。
+[p2] (1) 36−15の(2)に掲げる利益でその月中に受けるもの 各月ごとにその月の末日
+[p3] (2) 36−15の(3)又は(4)に掲げる利益でその月中に受けるもの 各月ごとにその月の末日又は1年を超えない一定期間ごとにその期間の末日

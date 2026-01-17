@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 7−5 / id: 7-5 / title: 弁済することが困難である部分の金額の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/05.htm#a-5_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/7-5.html
+
+[p1] 法第7条に規定する「債務を弁済することが困難である部分の金額」は、債務超過の部分の金額から、債務者の信用による債務の借換え、労務の提供等の手段により近い将来において当該債務の弁済に充てることができる金額を控除した金額をいうものとするのであるが、特に支障がないと認められる場合においては、債務超過の部分の金額を「債務を弁済することが困難である部分の金額」として取り扱っても妨げないものとする。（昭57直資2−177改正）
+[p2] 第8条《免除等を受けた債務》関係

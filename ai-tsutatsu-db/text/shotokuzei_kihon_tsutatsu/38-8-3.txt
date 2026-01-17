@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 38−8の3 / id: 38-8-3 / title: 借入金により取得した固定資産を使用開始後に譲渡した場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/18.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/38-8-3.html
+
+[p1] 借入金により取得した固定資産を使用した後に譲渡した場合には、当該固定資産の使用開始があった日後譲渡の日までの間に使用しなかった期間があるときであっても、当該使用開始があった日後譲渡の日までの期間に対応する借入金の利子については当該固定資産の取得費又は取得価額に算入しない。（昭56直資3−2、直所3−3追加）

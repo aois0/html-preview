@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−4−12 / id: 2-4-12 / title: 工事の請負の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_04_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-4-12.html
+
+[p1] 法第64条第1項《長期大規模工事の請負に係る収益及び費用の帰属事業年度》に規定する工事(以下この款において「工事」という。)の請負には、設計・監理等の役務の提供のみの請負は含まれないのであるが、工事の請負と一体として請け負ったと認められるこれらの役務の提供の請負については、当該工事の請負に含まれることに留意する。(平10年課法2−7「三」により追加、平12年課法2−7「五」、平14年課法2−1「十」、平20年課法2−5「九」により改正)

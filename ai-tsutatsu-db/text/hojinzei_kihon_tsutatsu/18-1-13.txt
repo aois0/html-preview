@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 18−1−13 / id: 18-1-13 / title: 恒久的施設等を有する会社等の除外会社等の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/18/18_01_05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/18-1-13.html
+
+[p1] 会社等が恒久的施設等を有する場合には、当該会社等が規則第38条の10第5項各号《除外会社等の範囲》に掲げる会社等に該当するかどうかの判定は、当該恒久的施設等を含めて行うことに留意する。（令5年課法2−17｢九」により追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第6款 共同支配会社等
+[p4] 第6款 共同支配会社等

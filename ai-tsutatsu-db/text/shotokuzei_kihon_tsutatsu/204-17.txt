@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 204−17 / id: 204-17 / title: 火災損害鑑定人又は自動車等損害鑑定人の業務に関する報酬又は料金で源泉徴収を要しないもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/36/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/204-17.html
+
+[p1] 令第320条第2項に規定する火災損害鑑定人又は自動車等損害鑑定人の業務に関する報酬又は料金で、損害保険会社（損害保険に類する共済の事業を行う法人を含む。）以外の者が支払うものについては、源泉徴収をしなくて差し支えない。（昭52直所3−33、直法6−10、直資3−15改正）

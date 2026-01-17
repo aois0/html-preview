@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−2−16 / id: 9-2-16 / title: 職務の執行の開始の日
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_02_04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-2-16.html
+
+[p1] 令第69条第3項第1号及び第4項第1号《事前確定届出給与》の「職務の執行の開始の日」とは、その役員がいつから就任するかなど個々の事情によるのであるが、例えば、定時株主総会において役員に選任された者で、その日に就任した者及び役員に再任された者にあっては、当該定時株主総会の開催日となる。（平19年課法2−3「二十二」より追加、平19年課法2−17「二十」、平28年課法2−11「六」、平29年課法2−17「十二」により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第5款 損金の額に算入される業績連動給与
+[p4] 第5款 損金の額に算入される業績連動給与

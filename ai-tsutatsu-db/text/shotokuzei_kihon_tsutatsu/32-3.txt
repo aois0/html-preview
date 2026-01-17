@@ -1,0 +1,10 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 32−3 / id: 32-3 / title: 山林の取得の日
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/32-3.html
+
+[p1] 法第32条第2項に規定する取得の日は、次による。
+[p2] （1） 他から取得した山林については36−12に準じて判定した日とする。
+[p3] （2） 自ら植林した山林については、当該植林の完了した日とし、他に請け負わせて植林した山林については当該山林の引渡しを受けた日とする。この場合において、植林の完了した日又は引渡しを受けた日の判定は、当該植林した山林の林分ごとに行う。
+[p4] （注） 林分とは、林相が一様で周囲のものと区分できる山林経営上の単位となる立木の集団をいう。

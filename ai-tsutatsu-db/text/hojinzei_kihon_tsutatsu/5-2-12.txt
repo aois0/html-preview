@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 5−2−12 / id: 5-2-12 / title: 評価方法の選定単位の細分
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/05/05_02_04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/5-2-12.html
+
+[p1] 法人は、棚卸資産の評価の方法につき、事業所別に、又は令第29条第1項《棚卸資産の評価の方法の選定単位》に定める棚卸資産の区分を更にその種類の異なるごとその他合理的な区分ごとに細分してそれぞれ異なる評価の方法を選定することができる。(昭55年直法2−15「六」、平19年課法2−17「十一」、平20年課法2−5「十一」により改正)
+[p2] (注) 同項に定める棚卸資産の区分又はその種類を同じくする棚卸資産のうちに個別法を選定することができるものがある場合には、これを区分して個別法を選定することができる。

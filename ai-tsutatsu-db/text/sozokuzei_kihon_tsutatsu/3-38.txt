@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 3−38 / id: 3-38 / title: 保険金受取人が取得した保険金で課税関係の生じない場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/04.htm#a-3_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/3-38.html
+
+[p1] 保険金受取人の取得した保険金の額のうち、法第3条第1項第3号の規定により当該保険金受取人が相続又は遺贈により取得したものとみなされた部分に対応する金額又は自己の負担した保険料の金額に対応する部分の金額については、相続又は遺贈によって取得する財産とはならないのであるから留意する。

@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 11−2−3 / id: 11-2-3 / title: 外交員等の報酬
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/11/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/11-2-3.html
+
+[p1] 外交員、集金人、電力量計等の検針人その他これらに類する者に対する報酬又は料金の支払のうち、所法第28条第1項《給与所得》に規定する給与所得に該当する部分については、課税仕入れには該当しないのであるから留意する。（令５課消２−９により改正）
+[p2] (注) この場合において、給与所得に該当する部分とその他の部分との区分は、所基通204−22《外交員又は集金人の業務に関する報酬又は料金》の例による。

@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−22 / id: 15-1-22 / title: 製造業の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-22.html
+
+[p1] 公益法人等が、製造場、作業場等の施設を設け、自己の栽培等により取得した農産物等につき出荷のために最小限必要とされる簡易な加工の程度を超える加工を加え、又はこれを原材料として物品を製造して卸売する行為は、令第5条第1項第6号《製造業》の製造業に該当する。（昭56年直法2−16「七」により追加）

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 73−2 / id: 73-2 / title: 支払った医療費の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/73-2.html
+
+[p1] 法第73条第1項に規定する「その年中に支払った当該医療費」とは、その年中に現実に支払った医療費をいうのであるから、未払となっている医療費は現実に支払われるまでは控除の対象とならないことに留意する。

@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 3-12 / id: 3-12 / title: 保険金受取人の実質判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/02.htm#a-3_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/3-12.html
+
+[p1] 保険契約上の保険金受取人以外の者が現実に保険金を取得している場合において、保険金受取人の変更の手続がなされていなかったことにつきやむを得ない事情があると認められる場合など、現実に保険金を取得した者がその保険金を取得することについて相当な理由があると認められるときは、3-11にかかわらず、その者を法第3条第1項第1号に規定する保険金受取人とするものとする。(昭57直資2-177追加)

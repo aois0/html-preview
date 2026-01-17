@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 51−18 / id: 51-18 / title: 返品により減少した収入金額の処理
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/09/03.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/51-18.html
+
+[p1] 令第141条第1号《必要経費に算入される損失の生ずる事由》に規定する販売した商品の返戻により減少することとなる収入金額は、その商品の返戻につき、その発送をした旨の通知を受けた日（その商品の返戻について承諾を必要とする場合には、その承諾をした日）の属する年分の総売上高から控除する。ただし、その者が継続して同一の経理を行うときは、その商品を受け取った日の属する年分の総売上高から控除して差し支えない。（平11課所4−1改正）

@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 9−3−6の2 / id: 9-3-6-2 / title: 支払期日前に受領した手形
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/09/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/9-3-6-2.html
+
+[p1] リース譲渡に係る賦払金のうち当該課税期間において支払期日が到来しないものについて事業者が手形を受領した場合には、その受領した手形の金額は、法第16条第1項括弧書《リース譲渡に係る資産の譲渡等の時期の特例》に規定する当該課税期間において支払を受けたものには含まれない。（平10課消2-9、平30課消2-5により追加）

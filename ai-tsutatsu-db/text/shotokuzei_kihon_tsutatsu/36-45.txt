@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 36-45 / id: 36-45 / title: 使用人に貸与した住宅等に係る通常の賃貸料の額の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/36-45.html
+
+[p1] 使用者が使用人(公共法人等の役員を含む。以下36-48までにおいて同じ。)に対して貸与した住宅等(当該使用人の居住の用に供する家屋又はその敷地の用に供する土地若しくは土地の上に存する権利をいう。以下36-48までにおいて同じ。)に係る通常の賃貸料の額は、36-41に掲げる算式により計算した金額とする。この場合において、その計算に関する細目については、36-46に該当する場合を除き、36-42の取扱いに準ずるものとする。

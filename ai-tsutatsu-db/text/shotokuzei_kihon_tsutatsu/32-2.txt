@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 32−2 / id: 32-2 / title: 山林とともに土地を譲渡した場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/32-2.html
+
+[p1] 山林をその生立する土地とともに譲渡した場合における当該土地の譲渡から生ずる所得は、山林所得に該当しない。

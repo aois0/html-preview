@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 52-2 / id: 52-2 / title: 裏書譲渡をした受取手形
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/10/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/52-2.html
+
+[p1] 事業の遂行上生じた売掛金、貸付金等について取得した受取手形で当該売掛金、貸付金等に係る債務者が振り出し、又は引き受けたものを裏書譲渡（割引を含む。以下52-16において同じ。）した場合には、当該受取手形に係る売掛金、貸付金等の金銭債権（以下52-16において「既存債権」という。）を法第52条第1項に規定する貸金等（以下52-15までにおいて「貸金等」という。）に該当するものとして取り扱う。（平11課所4-1追加）

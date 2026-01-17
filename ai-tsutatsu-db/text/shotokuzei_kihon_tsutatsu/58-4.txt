@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 58−4 / id: 58-4 / title: 2以上の種類の資産を交換した場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/12/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/58-4.html
+
+[p1] 2以上の種類の固定資産を同時に交換した場合、例えば、土地及び建物と土地及び建物とを交換した場合には、法第58条第2項の規定の適用については、土地は土地と、建物は建物とそれぞれ交換したものとする。この場合において、これらの資産は全体としては等価であるが土地と土地、建物と建物との価額がそれぞれ異なっているときは、それぞれの価額の差額は同項に規定する差額に該当することに留意する。

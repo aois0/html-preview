@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 95−18 / id: 95-18 / title: 振替公社債等の運用又は保有
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/17/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/95-18.html
+
+[p1] 161−13の取扱いは、令第225条の3第１項第1号((国外にある資産の運用又は保有により生ずる所得))に掲げる債券の範囲について準用する（平28課2−4、課法11−8、課審5−5追加、令４課個2-13、課法12-16、課審5-９改正）。

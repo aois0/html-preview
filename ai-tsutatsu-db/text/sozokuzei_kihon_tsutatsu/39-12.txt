@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 39−12 / id: 39-12 / title: 延納の許可があったものとみなされた場合の担保権の設定手続き等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/02.htm#a-39_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/39-12.html
+
+[p1] 法第39条第28項の規定により、延納の許可があったものとみなされた場合において、申請者が当該許可に係る担保権の設定に必要な手続を了しているときは速やかに担保権の設定を行うのであるから留意する。
+[p2] なお、延納申請書に記載された担保に係る担保提供関係書類が提出されていない場合には、申請者にその提出を求め、当該担保提供関係書類の提出が行われない場合には、法第40条第2項の規定によりあらかじめその申請者から弁明を聴いた上で当該延納許可を取り消すことができるのであるから留意する。（平18徴管5−14追加）

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 2−29の4 / id: 2-29-4 / title: 同業者団体等の加入金
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/2-29-4.html
+
+[p1] 同業者団体等（社交団体を除く。）に対して支出した加入金（その構成員としての地位を他に譲渡することができることとなっている場合における加入金及び出資の性質を有する加入金を除く。）は、令第7条第1項第3号ホに掲げる費用に該当するものとする。（昭55直所3−19、直法6−8追加、平19課個2−11、課資3−1、課法9−5、課審4−26改正）

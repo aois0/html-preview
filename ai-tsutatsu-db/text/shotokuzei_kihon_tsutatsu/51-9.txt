@@ -1,0 +1,13 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 51−9 / id: 51-9 / title: 損失が生じた資産の取得費等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/09/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/51-9.html
+
+[p1] 資産につき法第51条第1項、第3項又は第4項に規定する損失が生じた場合には、当該資産について令第142条又は第143条の規定を適用して計算した金額から当該損失が発生した直後における当該資産の価額を控除した残額に相当する金額は、次に掲げる資産の区分に応じ、それぞれ次に掲げるところによるものとする。
+[p2] （1） 減価償却資産及び繰延資産 当該損失が生じた時において当該資産の償却費の額に算入された金額とする。
+[p3] （2） 固定資産（減価償却資産を除く。） 当該資産の取得費から控除する。
+[p4] （3） 山林 当該山林の法第37条第2項《必要経費》に規定する費用の額から控除する。
+[p5] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p6] 〔貸倒損失〕
+[p7] 〔貸倒損失〕

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 33-3 / id: 33-3 / title: 極めて長期間保有していた不動産の譲渡による所得
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/33-3.html
+
+[p1] 固定資産である不動産の譲渡による所得であっても、当該不動産を相当の期間にわたり継続して譲渡している者の当該不動産の譲渡による所得は、法第33条第2項第1号に掲げる所得に該当し、譲渡所得には含まれないが、極めて長期間（おおむね10年以上をいう。以下33-5において同じ。）引き続き所有していた不動産（販売の目的で取得したものを除く。）の譲渡による所得は、譲渡所得に該当するものとする。

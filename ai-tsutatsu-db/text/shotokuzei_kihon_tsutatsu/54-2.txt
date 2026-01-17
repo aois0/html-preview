@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 54−2 / id: 54-2 / title: 税務署長に届け出た退職給与規程の改正の効力
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/10/04.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/54-2.html
+
+[p1] 税務署長にあらかじめ届け出た退職給与の支給に関する規程による退職給与引当金勘定を設けている者が、当該規程を改正したことによりその改正に係る令第158条第2項《改正等があった場合の退職給与規程に関する書類の提出》に規定する書類を税務署長に提出する場合において、当該書類をその提出の基因となる事実の生じた年分に係る確定申告書の提出期限までに提出したときは、その提出期限に係る年分以後の各年分における繰入限度額は、その提出した書類に記載されたところにより計算する。（昭51直所3−1、直法6−1、直資3−1改正）

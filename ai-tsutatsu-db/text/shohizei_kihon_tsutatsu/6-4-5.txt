@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 6−4−5 / id: 6-4-5 / title: 物品切手等の発行
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/06/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/6-4-5.html
+
+[p1] 事業者が、法別表第二第4号ハ《物品切手等の譲渡》に規定する物品切手等を発行し、交付した場合において、その交付に係る相手先から収受する金品は、資産の譲渡等の対価に該当しない。（令５課消２−９により改正）

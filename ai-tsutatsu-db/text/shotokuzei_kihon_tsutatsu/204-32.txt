@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 204-32 / id: 204-32 / title: 素人のクイズ放送等の出演者に対する賞金品等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/36/06.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/204-32.html
+
+[p1] いわゆる素人のクイズ放送又はのど自慢放送の出演者に対する賞金品等は、法第204条第1項第1号に掲げる放送謝金及び同項第5号に規定する「ラジオ放送若しくはテレビジョン放送に係る出演」の報酬又は料金には該当しないで、同項第8号に掲げる広告宣伝のための賞金に該当することに留意する。

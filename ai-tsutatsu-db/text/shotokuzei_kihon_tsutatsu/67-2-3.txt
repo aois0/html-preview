@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 67の2−3 / id: 67-2-3 / title: これらに準ずるものの意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/14/02.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/67-2-3.html
+
+[p1] 令第197条の2第1項に規定する「これらに準ずるもの」として同項第1号及び第2号に掲げる要件に準ずる土地の賃貸借とは、例えば、次に掲げるものをいう。（平19課個2−31、課審4−44追加）
+[p2] (2) 賃貸人に対してその賃貸借に係る土地の取得資金の全部又は一部を貸し付けている金融機関等が、賃借人から資金を受け入れ、当該資金をして当該賃借人の賃借料等の債務のうち当該賃貸人の借入金の元利に対応する部分の引受けをする構造になっている賃貸借
+[p3] ＜金銭の貸借とされるリース取引＞

@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−4−7 / id: 7-4-7 / title: 貸与を受けている機械及び装置がある場合の増加償却
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_04_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-4-7.html
+
+[p1] 法人の有する機械及び装置につき1日当たりの超過使用時間を計算する場合において、一の設備を構成する機械及び装置の中に他から貸与を受けている資産が含まれているときは、当該資産の使用時間を除いたところによりその計算を行う。(昭55年直法2−8「二十二」により追加、平10年課法2−7「七」により改正)
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第4款 償却累積額による償却限度額の特例の適用を受ける資産
+[p4] 第4款 償却累積額による償却限度額の特例の適用を受ける資産

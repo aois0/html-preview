@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 58−8 / id: 58-8 / title: 鉱業に係る損金の額の区分
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/04/04_58.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/58-8.html
+
+[p1] 採掘所得金額を計算する場合の損金の額（支払利子を除く。）で鉱業に係るものの区分は、鉱業に係ることが明らかであるものについてはその区分によるが、鉱業と鉱業以外の業とに共通するもの又はその区分が明らかでないものについては、その損金の性質に応じ、収入金額、売上原価その他合理的と認められるものの割合によって区分する。（平15年課法2−22「二十七」により改正）

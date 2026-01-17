@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66−3 / id: 66-3 / title: 特定普通財産の上に存する権利
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/10/10_66.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-3.html
+
+[p1] 措置法第66条第1項に規定する「特定普通財産の上に存する権利」とは、地上権、永小作権、地役権又は土地の賃借権をいい、租鉱権、採石権等のように土地に附帯するものであっても土地そのものを利用することを目的としない権利は含まれないことに留意する。（平19年課法2−3「四十七」により追加）

@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 95−19 / id: 95-19 / title: 機械設備の販売等に付随して行う技術役務の提供
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/17/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/95-19.html
+
+[p1] 161−25の取扱いは、令第225条の5
+[p2] 第3号((人的役務の提供を主たる内容とする事業の範囲))に掲げる「科学技術、経営管理その他の分野に関する専門的知識又は特別の技能を有する者の当該知識又は技能を活用して行う役務の提供を主たる内容とする事業」から除かれる「機械設備の販売その他事業を行う者の主たる業務に付随して行われる場合における当該事業」の範囲について準用する（平28課2−4、課法11−8、課審5−5追加、令４課個2-13、課法12-16、課審5-９改正）。

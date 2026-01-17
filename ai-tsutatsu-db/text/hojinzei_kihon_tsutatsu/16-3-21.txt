@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 16−3−21 / id: 16-3-21 / title: 外国法人税を課さないことの意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/16/16_03_02a.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/16-3-21.html
+
+[p1] 令第142条第4項各号《外国法人税が課されない国外源泉所得》に規定する「外国法人税を課さないこととしていること」には、令第142条の2第3項《外国税額控除の対象とならない外国法人税の額》に規定するみなし納付外国法人税の額がある場合を除き、租税条約等の規定により外国法人税が課されないこととされている場合が含まれることに留意する。（平2年直法2−1「十三」により追加、平21年課法2−5「十七」、平24年課法2−17「七」、平26年課法2−9「四」により改正）

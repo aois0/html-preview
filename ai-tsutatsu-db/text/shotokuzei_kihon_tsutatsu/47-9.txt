@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 47−9 / id: 47-9 / title: 低価法における低価の事実の判定の単位
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/47-9.html
+
+[p1] 低価法における低価の事実の判定は、棚卸資産の種類等を同じくするもの(棚卸資産を通常の差益の率の同じものごとに区分して売価還元法を選定している場合には、通常の差益の率の同じものとする。)について行うべきであるが、事業の種類ごとに、かつ、令第100条第１項((たな卸資産の評価の方法の選定))に規定する棚卸資産の区分ごとに一括して計算することができるものとする。（平19課個2−31、課審4−44改正）

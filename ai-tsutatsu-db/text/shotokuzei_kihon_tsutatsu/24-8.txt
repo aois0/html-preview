@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 24-8 / id: 24-8 / title: 負債により取得した株式等の一部を譲渡した場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/24-8.html
+
+[p1] 負債により取得した株式等の一部を譲渡した場合には、その譲渡後の残余の株式等に係る負債の額は、その負債によって取得した株式等の銘柄ごとに次の算式により計算した金額とするものとする。
+[p2] （注） その譲渡後その負債の一部を弁済したときは、その弁済はその譲渡した株式等に係る負債から順次行われたものとする。

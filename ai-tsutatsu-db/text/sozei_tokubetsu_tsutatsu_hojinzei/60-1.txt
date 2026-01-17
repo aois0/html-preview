@@ -1,0 +1,8 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 60−1 / id: 60-1 / title: 実質的に同一であると認められる者の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/05/05_60.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/60-1.html
+
+[p1] 措置法規則第21条の17の2第1項第3号又は第4号に規定する「対象内国法人と実質的に同一であると認められる者」とは、例えば、支店形態で営業開始の後に別法人を設立した場合の当該支店や個人事業者がいわゆる法人成りをした場合の当該個人事業者をいう。
+[p2] 同条第２項第２号に規定する「特例対象内国法人と実質的に同一であると認められる者」についても、同様とする。（平15年課法2-7「五十三」により追加、平16年課法2-3、平21年課法2-5「十七」、平26年課法2-6「二十九」、平29年課法2-17「二十四」、令４年課法２−14「三十九」により改正）

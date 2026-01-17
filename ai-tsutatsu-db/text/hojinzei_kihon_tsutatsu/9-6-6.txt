@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−6−6 / id: 9-6-6 / title: 返品債権特別勘定の金額の益金算入
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_06_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-6-6.html
+
+[p1] 返品債権特別勘定の金額は、その繰り入れた事業年度の翌事業年度の益金の額に算入する。（平10年課法2−7「十三」、平15年課法2−7「二十七」、令４年課法2−14｢二十七」により改正）

@@ -1,0 +1,10 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 42−6の2 / id: 42-6-2 / title: 物納手続関係書類提出期限延長等に係る提出の期限等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/04.htm#a-42_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/42-6-2.html
+
+[p1] 法第42条第28項第2号の適用における同条第6項ただし書、第13項ただし書又は第25項ただし書の規定による物納手続関係書類の訂正若しくは提出の期限又は同条第20項の期限は、次に掲げる日の翌日から起算して1年に同条第28項第2号に規定する期間を加算した期間を経過する日までとなることに留意する。
+[p2] 法第42条第6項ただし書・・・同条第1項の申請書の提出期限
+[p3] 法第42条第13項ただし書・・・同条第9項の規定による通知を受けた日
+[p4] 法第42条第25項ただし書・・・同条第21項の規定による通知を受けた日

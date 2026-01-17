@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 8−1−5 / id: 8-1-5 / title: 免税購入した消耗品等を国内において生活の用に供した場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/08/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/8-1-5.html
+
+[p1] 輸出物品販売場において、令第18条第３項《購入手続》に規定する方法により消耗品等を購入した免税購入対象者が、当該消耗品等を国内において消費等生活の用に供した場合には、法第８条第３項《輸出免税物品を輸出しない場合の消費税の即時徴収》に規定する「当該物品を輸出しないとき」に該当することに留意する。（平26課消1−8により追加、平30課消2−5、令2課消2−9、令5課消2−3により改正）

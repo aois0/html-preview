@@ -1,0 +1,9 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 8−1−4 / id: 8-1-4 / title: 災害その他やむを得ない事情の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/08/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/8-1-4.html
+
+[p1] 法第8条第2項ただし書《輸出物品販売場免税の不適用の規定を適用しない場合等》に規定する「災害その他やむを得ない事情」の意義は、次の各号に掲げるところによる。（令2課消2−9により改正）
+[p2] (1) 「災害」とは、震災、風水害、雪害、凍害、落雷、雪崩、がけ崩れ、地滑り、火山の噴火等の天災又は火災その他の人為的災害で自己の責任によらないものに基因する災害をいう。
+[p3] (2) 「やむを得ない事情」とは、前号に規定する災害に準ずるような状況又は当該事業者の責めに帰することができない状況にある事態をいう。

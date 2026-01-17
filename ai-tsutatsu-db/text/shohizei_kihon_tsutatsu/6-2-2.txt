@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 6−2−2 / id: 6-2-2 / title: 船荷証券等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/06/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/6-2-2.html
+
+[p1] 法別表第二第２号《有価証券等の譲渡》に規定する有価証券等には、船荷証券、倉荷証券、複合運送証券又は株式、出資若しくは預託の形態によるゴルフ会員権等は含まれないことに留意する。（平31課消2-9、令５課消２−９により改正）

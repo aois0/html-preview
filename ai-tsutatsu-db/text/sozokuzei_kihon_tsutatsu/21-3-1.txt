@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 21の3-1 / id: 21-3-1 / title: 法人の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/10.htm#a-21_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/21-3-1.html
+
+[p1] 法第21条の3第1項第1号に規定する「法人」には、国、地方公共団体のほか、外国法人をも含むのであるから留意する。

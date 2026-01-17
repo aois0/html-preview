@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 12の6−1−8 / id: 12-6-1-8 / title: 信託事務を主宰する受託者の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/12_6/12_6_01a.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/12-6-1-8.html
+
+[p1] 法第4条の4第2項《受託者が二以上ある法人課税信託》の「信託事務を主宰する受託者」とは、中心となって信託事務の全体を取りまとめる受託者をいう。この場合、全体を取りまとめているかは、信託契約に基づき、信託財産の受入れ事務、信託財産の管理又は処分に関する事務、収益計算の報告事務等の処理の実態を総合的に判定する。（平19年課法2−5「六」により追加、令４年課法2−14｢四十六」により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第2節 法人課税信託に係る所得の金額の計算
+[p4] 第2節 法人課税信託に係る所得の金額の計算

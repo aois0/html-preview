@@ -1,0 +1,10 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 51−6 / id: 51-6 / title: 保険金、損害賠償金に類するものの範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/09/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/51-6.html
+
+[p1] 法第51条第1項、第3項又は第4項に規定する「その他これらに類するもの」には、次に掲げるようなものが含まれる。（平23課個2−33、課法9−9、課審4−46改正）
+[p2] （1） 損害保険契約又は火災共済契約に基づき被災者が支払を受ける見舞金
+[p3] （2） 資産の損害の
+[p4] を目的とする任意の互助組織から支払を受ける災害見舞金

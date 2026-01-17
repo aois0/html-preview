@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 52−2 / id: 52-2 / title: 繰上納付があった場合の第2回目以降の利子税の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/07/01.htm#a-49_2
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/52-2.html
+
+[p1] 法第52条第1項第2号の規定に基づき、第2回目以降の利子税の計算を行う場合には、延納税額を分納期限前に繰り上げて納付したことにより、延納税額から前回までの分納税額の合計額を控除した残額よりも、延納税額の残額が少ない場合は、当該延納税額の残額を基礎とするのであるから留意する。（平18徴管5−14追加）

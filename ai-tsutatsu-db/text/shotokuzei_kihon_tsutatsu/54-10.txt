@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 54−10 / id: 54-10 / title: 給与総額に算入する外交員等の報酬等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/10/04.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/54-10.html
+
+[p1] 使用人である外交員、集金人等で固定給と歩合給の支払を受ける者に対し退職給与を支給することとしている場合において、退職給与引当金勘定への繰入限度額の計算上当該外交員等と他の使用人とを区分してそれぞれにつき令第154条第1項第1号及び第2項の規定を適用するときは、当該外交員等に係る同項の金額は、法第204条第1項第4号《源泉徴収義務》に掲げる報酬等とされる金額を給与の額に含めて計算することができる。（昭60直所3−1、直法6−1、直資3−1改正）
+[p2] 〔退職給与引当金勘定の金額の取崩し（令第155条関係）〕

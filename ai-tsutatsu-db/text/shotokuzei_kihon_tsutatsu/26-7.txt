@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 26−7 / id: 26-7 / title: 不動産業者が販売の目的で取得した不動産を一時的に貸し付けた場合の所得
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/02.htm#a-02
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/26-7.html
+
+[p1] 不動産業者が販売の目的で取得した土地、建物等の不動産を一時的に貸し付けた場合における当該貸付けによる所得は、不動産業から生ずる事業所得に該当する。この場合において、その貸し付けた不動産が建物その他使用又は時の経過により減価する資産であるときは、当該資産につき減価償却資産に準じて計算した償却費の額に相当する金額を当該事業所得の金額の計算上必要経費に算入することができるものとする。

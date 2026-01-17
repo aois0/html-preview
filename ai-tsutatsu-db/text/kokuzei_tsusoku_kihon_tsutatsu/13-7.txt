@@ -1,0 +1,37 @@
+doc: 国税通則法基本通達 (kokuzei_tsusoku_kihon_tsutatsu)
+item: 13-7 / id: 13-7 / title: 
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/mokuji.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/kokuzei_tsusoku_kihon_tsutatsu/13-7.html
+
+[p1] 猶予に係る税額
+[p2] 14
+[p3] 担保を徴することができない特別の事情
+[p4] 15
+[p5] 差押財産の価額
+[p6] 猶予期間の延長
+[p7] 16
+[p8] 猶予期間内に完納することができないやむを得ない理由
+[p9] 分割納付計画の変更
+[p10] 17
+[p11] 分割納付計画の変更の方法
+[p12] 18
+[p13] 分割納付計画を変更するやむを得ない理由
+[p14] 19
+[p15] 猶予期間内の変更
+[p16] 第46条の２関係 納税の猶予の申請手続等
+[p17] 添付書類
+[p18] 1
+[p19] 事実を証するに足りる書類
+[p20] 2
+[p21] 添付書類の提出が困難な場合
+[p22] 申請書等の補正
+[p23] 3
+[p24] 申請書等の記載の不備
+[p25] 4
+[p26] 添付書類の不提出
+[p27] 5
+[p28] みなし取下げの通知に対する不服申立て
+[p29] 猶予の不許可
+[p30] 6
+[p31] 忌避等

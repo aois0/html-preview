@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 60の2-8 / id: 60-2-8 / title: 外貨建ての対象資産の円換算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/12/03-2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/60-2-8.html
+
+[p1] 法第60条の2第1項から第3項までの規定により対象資産の譲渡又は決済をしたものとみなされた場合における譲渡所得等の金額の計算に当たり、外貨建てによる対象資産の国外転出時の価額又は利益の額若しくは損失の額（以下60の2-12までにおいて「国外転出時の価額等」という。）を算定する場合における円換算については、57の3-2に準じて計算するものとする。（平27課資3-2、課個2-7、課審7-6、徴管6-12追加、平28課資3-4、課個2-33、課審7-11、徴管6-24改正）

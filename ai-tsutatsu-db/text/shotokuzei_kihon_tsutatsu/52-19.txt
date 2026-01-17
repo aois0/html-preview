@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 52−19 / id: 52-19 / title: 実質的に債権とみられないものの簡便計算を適用できる場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/10/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/52-19.html
+
+[p1] 令第145条第2項の規定は、平成27年及び平成28年の各年分の所得税につき青色申告書の提出の承認を受けていたかどうか、又は貸倒引当金勘定を設けていたかどうかに関係なく適用があることに留意する。（平11課所4−25改正、平27課個2−11、課法10−16、課審5−7、平30課個2−19、課審5−2改正）

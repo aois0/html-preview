@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 65の2-8 / id: 65-2-8 / title: 一の収用換地等に係る事業につき譲渡した資産のうちに権利取得裁決による譲渡資産と明渡裁決による譲渡資産とがある場合の譲渡の時期の特例
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/10/10_65_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/65-2-8.html
+
+[p1] 一の収用換地等に係る事業につき譲渡した資産のうちに土地（土地に関する所有権以外の権利を含む。以下65の2-8において同じ。）とその土地の上にある建物等とがあり、その土地の譲渡は権利取得裁決により、その建物等の譲渡は明渡裁決により行われたため、これらの資産の譲渡が2以上の年にわたった場合において、その建物等につき権利取得裁決前に明渡裁決の申立てをしており、かつ、その土地の譲渡があった年にその建物等の譲渡があったものとして申告したときは、その建物等はその年において収用等による譲渡があったものとして取り扱う。

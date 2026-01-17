@@ -1,0 +1,10 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 41−16 / id: 41-16 / title: 「請求を行うことができる日が1月につき1日以上である旨が定められているもの」の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/03.htm#a-41_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/41-16.html
+
+[p1] 法施行規則第21条の2第1項及び同条第2項第2号に規定する「請求を行うことができる日が1月につき1日以上である旨が定められているもの」とは、当該目論見書等に「請求を行うことができる日が1月につき1日以上である」と明記されているもののほか、請求等に係る記載内容から「請求を行うことができる日が1月につき1日以上である」ことが確認できるものを含むのであるから留意する。（平29課資2−14追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第41条《物納の要件》関係
+[p4] 第41条《物納の要件》関係

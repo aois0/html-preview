@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 18−1−42 / id: 18-1-42 / title: 第三通貨と税務機能通貨との間の為替相場の変動による利益の額又は損失の額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/18/18_01_08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/18-1-42.html
+
+[p1] 令第155条の18 《個別計算所得等の金額の計算》の規定の適用に当たり、同条第2項第6号ニの利益の額又は同条第３項第７号ニの損失の額には、課税所得の金額（同条第2項第6号に規定する課税所得の金額をいう。以下18−1−72までにおいて同じ。）に係る利益の額又は損失の額とされているものだけでなく、これらの額とされていないものもこれに該当することに留意する。（令5年課法2−17｢九」により追加）

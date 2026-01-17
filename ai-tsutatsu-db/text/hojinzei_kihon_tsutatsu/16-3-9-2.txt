@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 16−3−9の2 / id: 16-3-9-2 / title: 複数の国外事業所等を有する場合の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/16/16_03_02a.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/16-3-9-2.html
+
+[p1] 内国法人の国外事業所等が複数ある場合には、当該国外事業所等ごとに国外事業所等帰属所得を認識し当該国外事業所等帰属所得に係る所得の金額の計算を行うことに留意する。（平26年課法2−9「四」により追加、平27年課法2−26「一」により改正）
+[p2] （注） 一の外国に事業活動の拠点が複数ある場合には、当該一の外国の複数の事業活動の拠点全体を一の国外事業所等として本文の認識及び計算を行うことに留意する。

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−46 / id: 49-46 / title: 除却数量が明らかでない貸与資産の除却数量の推定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/12.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-46.html
+
+[p1] 著しく多量に保有され、かつ、その相当部分が貸与されている資産で、その貸与されているものの実在、除却等の状況を個別に管理することができないためその年において除却等のあったものの全部を確認することができないものについては、過去における除却等の実績を基にするなど、合理的な方法により、その年において除却等のあった数量を推計することができるものとする。

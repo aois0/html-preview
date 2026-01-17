@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 72−7 / id: 72-7 / title: 保険金等及び災害等関連支出の範囲等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/72-7.html
+
+[p1] 法第72条第1項に規定する「保険金、損害賠償金その他これらに類するもの」の範囲等、盗難品等の返還を受けた場合の処理及び令第206条第1項各号に掲げる支出の範囲等については、37−15の3、51−6から51−8まで及び70−6から70−12までの取扱いに準ずる。（平30課個2−19、課審5−2改正）

@@ -1,0 +1,11 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 150−1 / id: 150-1 / title: 青色申告の承認を取り消した場合の事業専従者控除
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/20/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/150-1.html
+
+[p1] 既に確定申告書の提出又は通則法第25条《決定》の規定による決定のあった年分につき青色申告書の提出の承認を取り消した場合には、当該年分の不動産所得の金額、事業所得の金額又は山林所得の金額の計算上法第57条第1項《事業に専従する親族がある場合の必要経費の特例等》の規定の適用を受けていた親族で同条第3項に規定する事業専従者に該当する者については、同条第6項に規定する「やむを得ない事情がある」ものとして同条第3項に規定する事業専従者控除を認めるものとする。
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 法第143条《青色申告》関係
+[p4] 第3節 青色申告
+[p5] 法第143条《青色申告》関係

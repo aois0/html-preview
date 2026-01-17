@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 47−8の2 / id: 47-8-2 / title: 未着品の評価
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/47-8-2.html
+
+[p1] 未着品(購入した棚卸資産で運送の途中にあるものをいう。以下この項において同じ。)につきその取得のために通常要する引取運賃、荷役費その他の付随費用のうちその年12月31日までに支出がされていないためその取得価額に算入されていないものがある場合には、当該未着品については、これと種類、品質及び型(以下この項、47−9及び47−17において「種類等」という。)を同じくする棚卸資産があるときであっても、当該棚卸資産とは種類等が異なるものとして令第99条の規定を適用する。（昭57直所3−1追加、平19課個2−31、課審4−44改正）

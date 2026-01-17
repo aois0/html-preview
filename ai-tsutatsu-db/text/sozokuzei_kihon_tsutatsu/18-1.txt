@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 18−1 / id: 18-1 / title: 遺贈により財産を取得した一親等の血族
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/05.htm#a-16_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/18-1.html
+
+[p1] 相続の放棄をした者又は欠格若しくは廃除の事由により相続権を失つた者が遺贈により財産を取得した場合において、その者が当該遺贈に係る被相続人の一親等の血族(法第18条第1項に規定する一親等の血族に限る。)であるときは、その者については、法第18条の相続税額の加算の規定の適用がないのであるから留意する。（昭42直審（資）5、平15課資2−1改正）

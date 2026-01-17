@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−7−1 / id: 9-7-1 / title: 抽選券付販売に要する景品等の費用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_07_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-7-1.html
+
+[p1] 法人が商品等の抽選券付販売により当選者に金銭若しくは景品を交付し、又は旅行、観劇等に招待することとしている場合（2−1−1の7又は2−1−1の16の適用を受ける場合を除く。）には、これらに要する費用の額は、当選者から抽選券の引換えの請求があった日又は旅行等を実施した日の属する事業年度の損金の額に算入する。ただし、当選者からの請求を待たないで、法人が金銭又は景品を送付することとしている場合には、抽選の日の属する事業年度の損金の額に算入することができる。（平30年課法2−8「十」により改正）

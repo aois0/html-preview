@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−5−9 / id: 9-5-9 / title: 帳簿書類その他の物件の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_05_05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-5-9.html
+
+[p1] 法法第55条第３項第１号イ又はロ((不正行為等に係る費用等の損金不算入))に掲げる帳簿書類その他の物件とは、同項各号の取引が行われたことを明らかにする、又は推測させる一切の帳簿書類その他の物件で同項の内国法人が保存しているものをいうことに留意する。（令４年課法2−14｢二十六」により追加）

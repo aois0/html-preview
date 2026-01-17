@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 151の6-2 / id: 151-6-2 / title: 「その他の事由により相続人に異動が生じたこと」の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/20/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/151-6-2.html
+
+[p1] 法第151条の6第1項第2号に規定する「その他の事由により相続人に異動が生じたこと」とは、民法第886条《相続に関する胎児の権利能力》に規定する胎児の出生、相続人に対する失踪の宣告又はその取消し等により相続人に異動を生じた場合をいうことに留意する。（平28課資3-4、課個2-33、課審7-11、徴管6-24追加）

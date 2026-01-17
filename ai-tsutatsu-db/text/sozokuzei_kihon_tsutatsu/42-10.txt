@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 42−10 / id: 42-10 / title: その他これに準ずる事由
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/04.htm#a-42_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/42-10.html
+
+[p1] 法第42条第17項に規定される「その他これに準ずる事由」とは、例えば、風水害等の自然災害により、物納財産の確認調査等が事実上不能な期間が継続するなど、特に調査に期間を要すると認められる場合（法第42条第18項の規定の適用がある場合を除く。）をいうのであるから留意する。（平18徴管5−14追加）

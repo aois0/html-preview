@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−1−4 / id: 5-1-4 / title: 代物弁済の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-1-4.html
+
+[p1] 法第2条第1項第8号《資産の譲渡等の意義》に規定する「代物弁済による資産の譲渡」とは、債務者が債権者の承諾を得て、約定されていた弁済の手段に代えて他の給付をもって弁済する場合の資産の譲渡をいうのであるから、例えば、いわゆる現物給与とされる現物による給付であっても、その現物の給付が給与の支払に代えて行われるものではなく、単に現物を給付することとする場合のその現物の給付は、代物弁済に該当しないことに留意する。

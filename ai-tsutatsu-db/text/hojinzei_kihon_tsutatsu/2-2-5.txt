@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−2−5 / id: 2-2-5 / title: 請負収益に対応する原価の額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_02_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-2-5.html
+
+[p1] 請負による収益に対応する原価の額には、その請負の目的となった物の完成又は役務の履行のために要した材料費、労務費、外注費及び経費の額の合計額のほか、その受注又は引渡しをするために直接要した全ての費用の額が含まれることに留意する。（昭55年直法2−8「七」により追加、平23年課法2−17「五」により改正）
+[p2] (注) 建設業を営む法人が建設工事等の受注に当たり前渡金保証会社に対して支払う保証料の額は、前渡金を受領するために要する費用であるから、当該建設工事等に係る工事原価の額に算入しないことができる。

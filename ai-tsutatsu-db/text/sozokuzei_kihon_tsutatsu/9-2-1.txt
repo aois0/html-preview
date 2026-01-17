@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 9の2−1 / id: 9-2-1 / title: 受益者としての権利を現に有する者
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/07.htm#a-9-2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/9-2-1.html
+
+[p1] 法第9条の2第1項に規定する「受益者としての権利を現に有する者」には、原則として例えば、信託法第182条第1項第1号((残余財産の帰属))に規定する残余財産受益者は含まれるが、停止条件が付された信託財産の給付を受ける権利を有する者、信託法第90条第1項各号((委託者の死亡の時に受益権を取得する旨の定めのある信託等の特例))に規定する委託者死亡前の受益者及び同法第182条第1項第2号に規定する帰属権利者(以下9の2−2において「帰属権利者」という。）は含まれないことに留意する。（平19課資2−5、課審6−3追加）

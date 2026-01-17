@@ -1,0 +1,10 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 161−32 / id: 161-32 / title: 資産の譲渡又は役務の提供の対価に係る債権等の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/22/03.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/161-32.html
+
+[p1] 令第283条第1項第1号に掲げる「資産の譲渡又は役務の提供の対価に係る債権」には、商品の輸入代金についてのシッパーズユーザンスに係る債権又は商品の輸入代金、出演料、工業所有権若しくは機械、装置等の使用料に係る延払債権のようなものが該当し、同項第2号に掲げる債権には、銀行による輸入ユーザンスに係る債権のようなものが該当する（平28課2−4、課法11−8、課審5−5改正）。
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 〔不動産の賃貸料等（第7号関係）〕
+[p4] 〔不動産等の貸付けによる所得（第7号関係）〕

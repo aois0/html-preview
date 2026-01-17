@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−15 / id: 49-15 / title: 機械及び装置以外の減価償却資産の使用可能期間の算定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-15.html
+
+[p1] 機械及び装置以外の減価償却資産に係る令第130条第1項に規定する「使用可能期間」は、同項各号に掲げる事由に該当することとなった減価償却資産の取得後の経過年数とこれらの事由に該当することとなった後の見積年数との合計年数（1年未満の端数は切り捨てる。）とする。この場合における見積年数は、当該減価償却資産につき使用可能期間を算定しようとする時から通常の維持補修を加え、通常の使用条件で使用するものとした場合において、通常予定される効果をあげることができなくなり更新又は廃棄されると見込まれる時期までの年数による。(平24課個2−11、課審4−8改正)

@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 3-1 / id: 3-1 / title: 「相続を放棄した者」の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/02.htm#a-3_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/3-1.html
+
+[p1] 法第3条第1項に規定する「相続を放棄した者」とは、民法第915条((相続の承認又は放棄をすべき期間))から第917条までに規定する期間内に同法第938条((相続の放棄の方式))の規定により家庭裁判所に申述して相続の放棄をした者(同法第919条第2項((相続の承認及び放棄の撤回及び取消し))の規定により放棄の取消しをした者を除く。)だけをいうのであって、正式に放棄の手続をとらないで事実上相続により財産を取得しなかったにとどまる者はこれに含まれないのであるから留意する。(昭39直審(資)30、平17課資2-4改正)

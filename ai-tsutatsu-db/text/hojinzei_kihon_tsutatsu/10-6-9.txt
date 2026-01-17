@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 10−6−9 / id: 10-6-9 / title: 譲渡資産の譲渡に要した経費
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/10/10_06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/10-6-9.html
+
+[p1] 令第92条第1項《交換により生じた差益金の額》の「譲渡資産の譲渡に要した経費の額」には、交換に当たり支出した譲渡資産に係る仲介手数料、取外費、荷役費、運送保険料その他その譲渡に要した経費の額のほか、土地の交換に関する契約の一環として、又は当該交換のために当該土地の上に存する建物等につき取壊しをした場合におけるその取壊しにより生じた損失の額(その取壊しに伴い借家人に対して支払った立退料の額を含む。)が含まれる。(昭55年直法2−15「二十二」により改正)

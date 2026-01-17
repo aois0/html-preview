@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 1−5−21の3 / id: 1-5-21-3 / title: 
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/01/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/1-5-21-3.html
+
+[p1] 令第25条の４第２項《特定新規設立法人の納税義務の免除の特例》の「売上金額、収入金額その他の収益の額の合計額」には、国内において行われる資産の譲渡等の対価に限らず、国外において行われる資産の譲渡等の対価や資産の譲渡等の対価以外の収入も含まれる。
+[p2] したがって、当該合計額には、例えば、損益計算書上の売上高、受取利息、有価証券利息、受取配当金、有価証券売却益、為替差益、貸倒引当金戻入益、固定資産売却益、負ののれん発生益などの全ての収益の額が含まれることに留意する。（令6課消2−6により追加）

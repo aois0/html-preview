@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 3−1 / id: 3-1 / title: 船舶、航空機の乗組員の住所の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/3-1.html
+
+[p1] 船舶又は航空機の乗組員の住所が国内にあるかどうかは、その者の配偶者その他生計を一にする親族の居住している地又はその者の勤務外の期間中通常滞在する地が国内にあるかどうかにより判定するものとする。

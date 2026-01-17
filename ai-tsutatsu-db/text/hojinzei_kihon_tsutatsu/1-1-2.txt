@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 1−1−2 / id: 1-1-2 / title: 法人でない財団の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/01/01_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/1-1-2.html
+
+[p1] 法第2条第8号《人格のない社団等の意義》に規定する「法人でない財団」とは、一定の目的を達成するために出えんされた財産の集合体で特定の個人又は法人の所有に属さないで、一定の組織による統一された意志の下にその出えん者の意図を実現すべく独立して活動を行うもののうち法人格のないものをいう。(昭56年直法2−16「二」、「六」により改正)

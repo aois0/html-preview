@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−8−6 / id: 5-8-6 / title: 特定役務の提供から除かれるもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-8-6.html
+
+[p1] 特定役務の提供は、国外事業者が他の事業者に対して行う役務の提供であっても不特定かつ多数の者に対して行うものは除かれるのであるから、例えば、国外事業者である音楽家自身が国内で演奏会等を主催し、不特定かつ多数の者に役務の提供を行う場合において、それらの者の中に事業者が含まれていたとしても、当該役務の提供は特定役務の提供には該当しないことに留意する。（平27課消1-17により追加）

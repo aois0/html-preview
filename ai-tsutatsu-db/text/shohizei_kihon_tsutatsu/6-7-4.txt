@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 6−7−4 / id: 6-7-4 / title: 介護サービスの委託に係る取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/06/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/6-7-4.html
+
+[p1] 介護保険法に規定する居宅サービス事業者、居宅介護支援事業者又は介護保険施設等（以下6−7−4において「居宅サービス事業者等」という。）からの委託により、他の事業者が、法別表第二第7号イ《非課税となる介護保険に係る資産の譲渡等》に規定する資産の譲渡等に係る業務の一部（以下6−7−4において「委託業務」という。）を行う場合における当該委託業務は、居宅サービス事業者等に対して行われるものであるから、同号に規定する資産の譲渡等に該当しないことに留意する。（平12課消2−10、令５課消２−９により追加）

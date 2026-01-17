@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 13−2−8の3 / id: 13-2-8-3 / title: 第四種事業に該当する事業
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/13/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/13-2-8-3.html
+
+[p1] 令第57条第5項第6号《第四種事業の種類》に規定する第四種事業には、例えば、同項第3号《第三種事業の種類》の規定により第三種事業から除かれる加工賃その他これに類する料金を対価とする役務の提供を行う事業及び同項第4号《第五種事業の種類》の規定により第五種事業のサービス業から除かれる飲食店業に該当する事業が含まれることとなる。（平10課消2−9により追加、平20課消1-8、平26課消1−8により改正）

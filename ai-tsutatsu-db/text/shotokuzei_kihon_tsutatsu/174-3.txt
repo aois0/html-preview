@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 174−3 / id: 174-3 / title: 中途解約等が行われた場合の本邦通貨に換算した金額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/26/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/174-3.html
+
+[p1] 法第174条第7号に規定する「預貯金」の中途解約等が行われた場合における令第298条第4項に規定する「あらかじめ約定した率により本邦通貨に換算した金額」は、次に掲げる場合の区分に応じ、それぞれ次に掲げる金額によることに留意する。（昭63直法6−7、直所3−8追加）
+[p2] （1） 解約等により、「あらかじめ約定した率」を変更することとされている場合 変更後の率により邦貨に換算した金額
+[p3] （2） 解約等により生ずる為替差損又は為替差益の金額を、「あらかじめ約定した率により本邦通貨に換算した金額」から減額し又は増額して支払うこととされている場合 当該減額又は増額後の金額

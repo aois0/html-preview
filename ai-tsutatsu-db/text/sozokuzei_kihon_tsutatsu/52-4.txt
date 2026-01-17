@@ -1,0 +1,9 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 52―4 / id: 52-4 / title: 災害等により申請に係る分納期限後に延納を許可した後、分納期限の延長等を行った場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/07/01.htm#a-49_2
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/52-4.html
+
+[p1] 法第52条第5項の規定の適用がある場合において、延納の許可を受けた分納税額の納期限（39―4による納期限をいう。）を延長又は再延長した場合においては、延納の許可をした税額の納期限の翌日から延長又は再延長した分納期限までの期間については利子税を計算することに留意する。
+[p2] (注) 法第52条第5項の規定の適用がある場合における分納期限の延長について図示すると次のとおりである。
+[p3] 第53条《物納等に係る利子税》関係

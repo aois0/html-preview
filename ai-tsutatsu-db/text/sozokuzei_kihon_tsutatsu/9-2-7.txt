@@ -1,0 +1,11 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 9の2−7 / id: 9-2-7 / title: 生命保険信託
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/07.htm#a-9-2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/9-2-7.html
+
+[p1] いわゆる生命保険信託に関する権利については、生命保険契約に関する規定（法第3条及び第5条）の適用があることに留意する。（平19課資2−5、課審6−3追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第9条の2《贈与又は遺贈により取得したものとみなす信託に関する権利》関係
+[p4] 第3節 信託に関する特例
+[p5] 第9条の2《贈与又は遺贈により取得したものとみなす信託に関する権利》関係

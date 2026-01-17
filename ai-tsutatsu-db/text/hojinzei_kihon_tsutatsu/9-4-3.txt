@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9−4−3 / id: 9-4-3 / title: 国等に対する寄附金
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_04_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-4-3.html
+
+[p1] 法第37条第3項第1号《国等に対する寄附金》の国又は地方公共団体に対する寄附金とは、国又は地方公共団体(以下この款において「国等」という。)において採納されるものをいうのであるが、国立又は公立の学校等の施設の建設又は拡張等の目的をもって設立された後援会等に対する寄附金であっても、その目的である施設が完成後遅滞なく国等に帰属することが明らかなものは、これに該当する。(平10年課法2−7「十一」、平15年課法2−7「二十五」、平19年課法2−3「二十三」により改正)

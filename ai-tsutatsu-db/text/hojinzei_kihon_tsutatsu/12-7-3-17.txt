@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 12の7−3−17 / id: 12-7-3-17 / title: 通算制度の開始に伴う資産の時価評価損益等に係る取扱いの準用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/12_7/12_7_03_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/12-7-3-17.html
+
+[p1] 法第64条の13《通算制度からの離脱等に伴う資産の時価評価損益》の規定の適用に当たっては、12の７−３−１《通算制度の開始に伴う時価評価資産等に係る時価の意義》及び12の７−３−４《時価評価資産から除かれる資産の範囲》から12の７−３−６《時価評価時に時価評価資産から除かれる資産を判定する場合の資本金等の額》まで並びに12の７−３−９《支配関係がある場合の時価評価除外法人となる要件に係る従業者の範囲及び主要な事業の判定》の取扱いを準用する。（令４年課法2−14｢五十」により追加）

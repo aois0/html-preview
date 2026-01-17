@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 19−1−1 / id: 19-1-1 / title: 財産計算時
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/19/19.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/19-1-1.html
+
+[p1] 令第156条の4第1項第1号《厚生年金基金契約に係る退職年金等積立金額の計算》に規定する財産計算時とは、年金信託契約書に定められている収益計算期をいう。（平15年課法2−7「五十九」、平27年課法2−8「十二」、令５年課法２−17「十一」により改正）

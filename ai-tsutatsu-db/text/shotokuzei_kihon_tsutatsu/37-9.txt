@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 37−9 / id: 37-9 / title: 農業協同組合等の賦課金
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/37-9.html
+
+[p1] 農業協同組合、水産加工業協同組合、中小企業協同組合、商工会議所、医師会等の組合員又は会員が法令又は定款その他これに類するものの規定に基づき業務に関連して賦課される費用は、繰延資産に該当する部分の金額を除き、その支出の日の属する年分の当該業務に係る所得の金額の計算上必要経費に算入する。

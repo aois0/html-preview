@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 16−3−35 / id: 16-3-35 / title: 棚卸資産の販売以外の事業に係る収入金額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/16/16_03_02a.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/16-3-35.html
+
+[p1] 規則第29条第3項括弧書《外国税額控除の対象とならない外国法人税の額の計算に係る売上総利益の額》に規定する「当該事業に係る収入金額」は、同項に規定する売上総利益の額の計算の基礎となる収入金額に限られるのであるから、営業外損益及び特別損益に属する収入金額は、これに含まれない。（平2年直法2−1「十三」により追加、平15年課法2−7「五十七」、平21年課法2−5「十七」、平23年課法2−17「三十五」により改正）

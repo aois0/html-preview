@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−2−10 / id: 2-2-10 / title: 運送収入に対応する原価の額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_02_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-2-10.html
+
+[p1] 運送業の運送収入に対応する原価の額は、当該運送収入の額を益金の額に算入する事業年度の損金の額に算入するのであるが、法人が継続してその行う運送のために要する費用（海上運送のために要する費用のうち貨物費、燃料費、港費その他その運送のために直接要するものを除く。）の額をその支出の日の属する事業年度の損金の額に算入している場合には、これを認める。（昭55年直法2−8「七」により追加）

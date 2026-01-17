@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 161−27 / id: 161-27 / title: 船舶等の貸付けに伴う技術指導等の対価
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/22/03.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/161-27.html
+
+[p1] 非居住者又は外国法人が法第161条第1項第7号に規定する船舶又は航空機の貸付けをしたことに伴い、当該船舶又は航空機の運航又は整備に必要な技術指導をするための役務の提供をした場合には、当該貸付けに係る契約書等において当該貸付けに係る対価の額と当該役務の提供に係る対価の額とが明確に区分されているときを除き、その対価の額の全部が船舶又は航空機の貸付けによる対価の額に該当するものとする（平28課2−4、課法11−8、課審5−5追加）。
+[p2] 〔債券の利子等（第8号関係）〕

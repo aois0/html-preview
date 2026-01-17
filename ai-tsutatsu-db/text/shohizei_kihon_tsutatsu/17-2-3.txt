@@ -1,0 +1,10 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 17−2−3 / id: 17-2-3 / title: 被相続人又は被合併法人に係る還付を受けるための申告
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/17/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/17-2-3.html
+
+[p1] 相続人又は合併法人は、法第59条《申告義務等の承継》の規定により被相続人又は被合併法人の申告義務等を承継するのであるから、被相続人の死亡した年分又は被合併法人の合併事業年度における消費税について法第46条第1項《還付を受けるための申告》の規定による還付請求申告書を提出することができることに留意する。
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第3節 帳簿等
+[p4] 第3節 帳簿等

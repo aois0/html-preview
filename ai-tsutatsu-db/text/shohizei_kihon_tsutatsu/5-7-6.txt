@@ -1,0 +1,10 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−7−6 / id: 5-7-6 / title: 著作権等の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-7-6.html
+
+[p1] 令第6条第1項第7号《著作権等の所在地》に規定する「著作権」、「出版権」又は「著作隣接権」とは、次のものをいう（外国におけるこれらの権利を含む。）。（平23課消1-35により改正）
+[p2] (1) 著作権 著作権法の規定に基づき著作者が著作物に対して有する権利をいう。
+[p3] (2) 出版権 著作権法第3章《出版権》に規定する出版権をいう。
+[p4] (3) 著作隣接権 著作権法第89条《著作隣接権》に規定する著作隣接権をいう。

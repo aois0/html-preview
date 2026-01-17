@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 2−4 / id: 2-4 / title: 居住期間の計算の起算日
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/2-4.html
+
+[p1] 法第2条第1項第3号に規定する「1年以上」の期間の計算の起算日は、入国の日の翌日となることに留意する。（平18課個2−7、課資3−2、課審4−89改正）

@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 73−7 / id: 73-7 / title: 助産師による分べんの介助
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/73-7.html
+
+[p1] 令第207条第6号に掲げる「助産師による分べんの介助」には、助産師が行う保健師助産師看護師法第3条《助産師》に規定する妊婦、じょく婦又は新生児の保健指導も含まれるものとする。（平14課個2−22、課資3−5、課法8−10、課審3−197改正）
+[p2] （医療費を
+[p3] する保険金等）

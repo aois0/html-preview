@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 161−46 / id: 161-46 / title: 損害賠償金等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/22/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/161-46.html
+
+[p1] 法第161条第1項第4号から第16号までに掲げる対価、使用料、給与、報酬等（以下この項においてこれらを「対価等」という。）には、当該対価等として支払われるものばかりでなく、当該対価等に代わる性質を有する損害賠償金その他これに類するものも含まれる（平28課2−4、課法11−8、課審5−5追加）。
+[p2] （注） 「その他これに類するもの」には、和解金、解決金のほか、対価等の支払が遅延したことに基づき支払われる遅延利息とされる金員で、当該対価等に代わる性質を有するものが含まれることに留意する。
+[p3] 法第162条《租税条約に異なる定めがある場合の国内源泉所得》関係

@@ -1,0 +1,10 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 4−2−2 / id: 4-2-2 / title: 集団投資信託等の信託財産に係る取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/04/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/4-2-2.html
+
+[p1] 法第14条第1項ただし書《信託財産に係る資産の譲渡等》に規定する集団投資信託、法人課税信託、退職年金等信託又は特定公益信託等（以下9−1−30において「集団投資信託等」という。）の信託財産に属する資産及び当該信託財産に係る資産等取引については、受託者が当該信託財産に属する資産を有し、かつ、資産等取引を行ったものとなるのであるから留意する。（平19課消1−18により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第3節 受益者等課税信託に関する取扱い
+[p4] 第3節 受益者等課税信託に関する取扱い

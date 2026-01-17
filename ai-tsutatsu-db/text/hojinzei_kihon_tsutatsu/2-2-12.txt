@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−2−12 / id: 2-2-12 / title: 債務の確定の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_02_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-2-12.html
+
+[p1] 法第22条第3項第2号《損金の額に算入される販売費等》の償却費以外の費用で当該事業年度終了の日までに債務が確定しているものとは、別に定めるものを除き、次に掲げる要件の全てに該当するものとする。（昭55年直法2−8「七」、平23年課法2−17「五」により改正）
+[p2] (1) 当該事業年度終了の日までに当該費用に係る債務が成立していること。
+[p3] (2) 当該事業年度終了の日までに当該債務に基づいて具体的な給付をすべき原因となる事実が発生していること。
+[p4] (3) 当該事業年度終了の日までにその金額を合理的に算定することができるものであること。

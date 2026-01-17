@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 58−5 / id: 58-5 / title: 交換により取得した2以上の同種類の資産のうちに同一の用途に供さないものがある場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/12/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/58-5.html
+
+[p1] 交換により種類を同じくする2以上の資産を取得した場合において、その取得した資産のうちに譲渡直前の用途と同一の用途に供さなかったものがあるときは、法第58条の規定の適用については、当該用途に供さなかった資産は同条の規定の適用がある取得資産には該当せず、当該資産は交換差金等となる。

@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 45−7 / id: 45-7 / title: 損害賠償金に類するもの
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/07/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/45-7.html
+
+[p1] 法第45条第1項第8号かっこ内に規定する「これに類するもの」には、慰謝料、示談金、見舞金等の名目のいかんを問わず、他人に与えた損害を
+[p2] するために支出する一切の費用が含まれる。（平23課個2−33、課法9−9、課審4−46、令元課個2−22、課法11−3、課審5−12改正）

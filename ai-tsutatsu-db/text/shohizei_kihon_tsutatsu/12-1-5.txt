@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 12−1−5 / id: 12-1-5 / title: 輸入品に係る仕入割戻し
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/12/01/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/12-1-5.html
+
+[p1] 保税地域からの引取りに係る課税貨物について、当該課税貨物の購入先から当該課税貨物の購入に係る割戻しを受けた場合の当該割戻しは、仕入れに係る対価の返還等に該当しない。（平13課消1−5により改正）

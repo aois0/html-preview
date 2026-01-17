@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−1−19 / id: 2-1-19 / title: 共有地の分割
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_01_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-1-19.html
+
+[p1] 法人が他の者と土地を共有している場合において、その共有に係る土地をその持分に応じて分割したときは、その分割による土地の譲渡はなかったものとして取り扱う。（昭55年直法2−8「六」により追加）
+[p2] (注) その分割に要した費用の額は、その支出をした日の属する事業年度の損金の額に算入することができる。

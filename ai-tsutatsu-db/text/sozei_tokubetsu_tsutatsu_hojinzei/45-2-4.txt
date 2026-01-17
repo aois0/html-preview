@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 45の2-4 / id: 45-2-4 / title: 事業の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/01/01_45_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/45-2-4.html
+
+[p1] 法人の営む事業が措置法第45条の2第1項から第3項までに規定する医療保健業に該当するかどうかは、おおむね日本標準産業分類（総務省）の分類を基準として判定する。（平14年課法2-1「二十三」により追加、平15年課法2-7「二十三」、平15年課法2-22「二十」、平17年課法2-14「十一」、平20年課法2-1「十七」、平23年課法2-17「十八」、令元年課法2-10「十八」により改正）

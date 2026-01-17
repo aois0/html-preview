@@ -1,0 +1,11 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 95−14 / id: 95-14 / title: 
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/17/02-2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/95-14.html
+
+[p1] から95−16まで、95−28及び95−30の取扱いは、法第95条の2の規定により法第95条《外国税額控除》の規定を適用する場合にも適用があることに留意する。（平27課資3−2、課個2−7、課審7-6、徴管6-12追加、平28課2−4、課法11−8、課審5−5改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 法第95条《外国税額控除》関係
+[p4] 法第95条《外国税額控除》関係
+[p5] (外国所得税の一部につき控除申告をした場合の取扱い）

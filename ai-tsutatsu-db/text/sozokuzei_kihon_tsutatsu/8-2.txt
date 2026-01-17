@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 8−2 / id: 8-2 / title: 事業所得の総収入金額に算入される債務免除益
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/05.htm#a-5_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/8-2.html
+
+[p1] 所得税法（昭和40年法律第33号）の規定により事業所得の総収入金額に算入される割引又は割戻しによる利益については、法第8条の規定は適用しないものとして取り扱うものとする。（昭46直審（資）6改正）

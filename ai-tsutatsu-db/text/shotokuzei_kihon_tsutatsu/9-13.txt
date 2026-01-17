@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 9−13 / id: 9-13 / title: 収益調整金の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/04.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/9-13.html
+
+[p1] 令第27条《オープン型の証券投資信託の収益の分配のうち非課税とされるもの》に規定する収益調整金とは、オープン型の証券投資信託の追加信託が行われる際に、黒字の収益調整金として経理された金額をいう。（平元直所3−14、直法6−9、直資3−8改正）
+[p2] （注） オープン型の証券投資信託の経理処理においては、元本固定方式がとられているため、場合によっては赤字の収益調整金を生ずることもあるが、赤字の収益調整金は、実際に信託された金額が元本額及び黒字の収益調整金として経理した金額の合計額に対して不足していること、すなわち、実際には信託されなかった金額があることを示すものである。
+[p3] 〔学資金(第15号関係)〕

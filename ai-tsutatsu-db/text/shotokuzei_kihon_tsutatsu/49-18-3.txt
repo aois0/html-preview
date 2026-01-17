@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−18の3 / id: 49-18-3 / title: 部分的に用途を異にする建物の償却
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/08.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-18-3.html
+
+[p1] 一の建物が部分的にその用途を異にしている場合において、その用途を異にする部分がそれぞれ相当の規模のものであり、かつ、その用途の別に応じて償却することが合理的であると認められる事情があるときは、当該建物につきそれぞれその用途を異にする部分ごとに異なる償却の方法を選定することができるものとする。（昭55直所3−19、直法6−8追加、平19課個2−11、課資3−1、課法9−5、課審4−26改正）

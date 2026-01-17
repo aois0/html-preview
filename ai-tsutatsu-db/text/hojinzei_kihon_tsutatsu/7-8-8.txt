@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−8−8 / id: 7-8-8 / title: 地盤沈下による防潮堤、防波堤等の積上げ費
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-8-8.html
+
+[p1] 法人が地盤沈下に起因して防潮堤、防波堤、防水堤等の積上げ工事を行った場合において、数年内に再び積上げ工事を行わなければならないものであると認められるときは、その積上げ工事に要した費用を一の減価償却資産として償却することができる。（昭55年直法2−8「二十六」により改正）

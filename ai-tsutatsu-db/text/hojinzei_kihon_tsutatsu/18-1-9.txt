@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 18−1−9 / id: 18-1-9 / title: 事業が行われる場所とみなされるものの例示
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/18/18_01_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/18-1-9.html
+
+[p1] 法第82条第6号イ、ロ又はニ《定義》の「事業が行われる場所とみなされるもの」には、例えば、同号イの条約等、同号ロの他方の国の租税に関する法令又は同号ニの所在地国の租税に関する法令において、恒久的施設又は恒久的施設に相当するものとして取り扱われる代理人がこれに該当することに留意する。（令5年課法2−17｢九」により追加）

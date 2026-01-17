@@ -1,0 +1,10 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 3−1−2 / id: 3-1-2 / title: 事業を廃止した場合の課税期間
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/03/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/3-1-2.html
+
+[p1] 個人事業者が年の中途で事業を廃止した場合の課税期間は、その事業を廃止した日の属する年の1月1日から12月31日までの期間（当該個人事業者が法第19条第1項第3号又は第3号の2《課税期間の特例》の規定の適用を受けている場合には、その事業を廃止した日を含むこれらの規定に規定する課税期間の開始の日からその末日までの期間）となることに留意する。（平15課消1−37により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第2節 法人の課税期間
+[p4] 第2節 法人の課税期間

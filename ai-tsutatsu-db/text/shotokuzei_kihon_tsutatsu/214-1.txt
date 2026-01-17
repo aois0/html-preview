@@ -1,0 +1,11 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 214−1 / id: 214-1 / title: 届出書を提出していない非居住者
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/37/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/214-1.html
+
+[p1] 非居住者で既に過去数年分にわたり引き続き確定申告書を提出しているものについては、法第229条《開業等の届出》の規定による届出書を提出していない場合であっても、令第330条第1号《非居住者が源泉徴収の免除を受けるための要件》に掲げる要件を満たしているものとして差し支えない。
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 法第212条《源泉徴収義務》関係
+[p4] 第7章 非居住者又は法人の所得に係る源泉徴収
+[p5] 法第212条《源泉徴収義務》関係

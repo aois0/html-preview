@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 48−6の2 / id: 48-6-2 / title: 新株予約権の行使により取得した株式の取得価額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/48-6-2.html
+
+[p1] 新株予約権の行使により取得した株式（発行法人から与えられた令第84条第3項第1号又は第2号に掲げる新株予約権で同項の規定の適用を受けるものの行使により取得したものを除く。)1株当たりの取得価額は、次の算式により計算した金額によるものとする。（平14課個2-5、課資3-3、課法8-3、課審3-118追加、平18課個2−18、課資3−10、課審4−114、平18課個2−18、課資3−10、課審4−114、平28課個2−22、課審5−18、令元課個2−22、課法11−3、課審5−12、令2課個2−12、課法11−3、課審5−6改正）

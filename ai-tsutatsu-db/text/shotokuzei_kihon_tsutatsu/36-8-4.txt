@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 36−8の4 / id: 36-8-4 / title: 機械設備等の販売に伴い据付工事を行った場合の収入すべき時期の特例
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/36-8-4.html
+
+[p1] 機械設備等を販売したことに伴いその据付工事を行った場合において、その据付工事が相当の規模のものであり、その据付工事に係る対価の額を契約その他に基づいて合理的に区分することができるときは、機械設備等に係る販売代金の額と据付工事に係る対価の額とを区分して、それぞれにつき36−8の(1)又は36−8の(4)により収入金額に計上することができるものとする。（昭55直所3−19、直法6−8追加）
+[p2] （注） その者がこの取扱いによらない場合には、据付工事に係る対価の額を含む全体の販売代金の額について36−8の(1)による。

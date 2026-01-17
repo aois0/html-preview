@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 58−9 / id: 58-9 / title: 災害損失の区分の特例
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/04/04_58.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/58-9.html
+
+[p1] 鉱業に専属して使用される減価償却資産の滅失損その他の鉱業に係る損失の額で災害その他やむを得ない事由により生じた臨時巨額なものについては、鉱業と鉱業以外の業の収入金額、所得金額その他合理的と認められる割合により区分した金額を鉱業に係る損金の額として計算することができるものとする。

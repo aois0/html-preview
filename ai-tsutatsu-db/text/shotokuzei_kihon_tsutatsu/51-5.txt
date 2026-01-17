@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 51−5 / id: 51-5 / title: 親族の有する固定資産について生じた損失
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/09/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/51-5.html
+
+[p1] 不動産所得、事業所得又は山林所得を生ずべき事業を営む者が自己と生計を一にする配偶者その他の親族の有する固定資産又は繰延資産を当該事業の用に供している場合には、当該事業を営む者が当該資産を所有しているものとみなして法第51条第1項の規定を適用することができるものとする。ただし、自己又は自己と生計を一にする配偶者その他の親族が法第72条第1項《雑損控除》の規定の適用を受ける場合は、この限りでない。

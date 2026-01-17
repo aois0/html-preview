@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−11 / id: 15-1-11 / title: 
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-11.html
+
+[p1] 削除（昭56年直法2−16「七」、昭57年直法2−11「十四」、昭63年直法2−1「三」、平12年課法1−49、平15課法2−22「十四」により改正、平19年課法2−3「四十一」により削除）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第3款 不動産販売業
+[p4] 第3款 不動産販売業

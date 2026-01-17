@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 12−2−3 / id: 12-2-3 / title: 一の取引の判定単位
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/12/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/12-2-3.html
+
+[p1] 令第5条《調整対象固定資産の範囲》に規定する「一の取引の単位（通常一組又は一式をもって取引の単位とされるものにあっては一組又は一式とする。）」であるかどうかは、例えば、機械及び装置にあっては1台又は1基、工具、器具及び備品にあっては1個、1組又は1そろい、構築物のうち例えば枕木、電柱等単体では機能を発揮できないものにあっては社会通念上一の効果を有すると認められる単位ごとに判定する。
+[p2] (注) この場合において、同条各号に規定する資産に係る課税仕入れであれば、課税仕入れを行った時において同号に掲げる資産として完成されているかどうかを問わないのであるから留意する。

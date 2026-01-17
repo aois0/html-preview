@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 36-49 / id: 36-49 / title: 利息相当額の評価
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/36-49.html
+
+[p1] 使用者が役員又は使用人に貸し付けた金銭の利息相当額については、当該金銭が使用者において他から借り入れて貸し付けたものであることが明らかな場合には、その借入金の利率により、その他の場合には、貸付けを行った日の属する年の租税特別措置法第93条第2項《利子税の割合の特例》に規定する利子税特例基準割合による利率により評価する。（平19課法9-9、課個2-20、課審4-32、平25課法9-7、課個2-16、課審5-32、令2課法11-7、課審5-30改正）

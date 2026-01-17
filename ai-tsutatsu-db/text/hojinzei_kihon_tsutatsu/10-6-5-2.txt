@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 10−6−5の2 / id: 10-6-5-2 / title: 交換資産の時価
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/10/10_06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/10-6-5-2.html
+
+[p1] 例えば交換の当事者が通常の取引価額が異なる2以上の固定資産を相互に等価であるものとして交換した場合においても、その交換がその交換をするに至った事情に照らし正常な取引条件に従って行われたものであると認められるときは、法第50条《交換により取得した資産の圧縮額の損金算入》の規定の適用上、これらの資産の価額は当該当事者間において合意されたところによるものとする。(昭55年直法2−15「二十二」により追加)

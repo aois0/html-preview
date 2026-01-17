@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 6−13−9 / id: 6-13-9 / title: 家賃の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/06/13.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/6-13-9.html
+
+[p1] 家賃には、月決め等の家賃のほか、敷金、保証金、一時金等のうち返還しない部分及び共同住宅における共用部分に係る費用を入居者が応分に負担するいわゆる共益費（6−13−1、6−13−2又は6−13−3の規定により住宅の貸付けに含まれないこととされる施設等に係る費用部分を除く。）も含まれることに留意する。

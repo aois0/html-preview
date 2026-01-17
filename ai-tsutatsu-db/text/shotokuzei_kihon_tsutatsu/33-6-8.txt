@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 33-6の8 / id: 33-6-8 / title: 配偶者居住権等の消滅による所得
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/33-6-8.html
+
+[p1] 配偶者居住権又は当該配偶者居住権の目的となっている建物の敷地の用に供される土地（土地の上に存する権利を含む。）を当該配偶者居住権に基づき使用する権利の消滅につき対価の支払を受ける場合における当該対価の額は、令第95条に規定する譲渡所得に係る収入金額に該当することに留意する。（令2課資3−7、課個2−18、課法11−4、課審7−9追加）

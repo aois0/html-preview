@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−8−5 / id: 5-8-5 / title: 職業運動家の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-8-5.html
+
+[p1] 令第2条の2《特定役務の提供の範囲》に規定する「職業運動家」には、運動家のうち、いわゆるアマチュア、ノンプロ等と称される者であっても、競技等の役務の提供を行うことにより報酬・賞金を受ける場合には、これに含まれることに留意する。（平27課消1-17により追加）
+[p2] (注) 運動家には、陸上競技などの選手に限られず、騎手、レーサーのほか、大会などで競技する囲碁、チェス等の競技者等が含まれることに留意する。

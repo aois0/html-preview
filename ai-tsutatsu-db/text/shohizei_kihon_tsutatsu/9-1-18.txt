@@ -1,0 +1,10 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 9−1−18 / id: 9-1-18 / title: 株式の信用取引等をした場合の譲渡の時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/09/01/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/9-1-18.html
+
+[p1] 事業者が金融商品取引法第161条の2第1項《信用取引等における金銭の預託》の規定による信用取引又は発行日取引の方法により株式の売付けを行った場合におけるその売付けに係る株式の譲渡の時期は、当該売付けに係る取引の決済を行った日とする。（平11課消2−5、平19課消1−18により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第5款 利子、使用料等を対価とする資産の譲渡等の時期
+[p4] 第5款 利子、使用料等を対価とする資産の譲渡等の時期

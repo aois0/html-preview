@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 65−7 / id: 65-7 / title: 支払期日前に受領した手形
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/14/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/65-7.html
+
+[p1] リース譲渡に係る賦払金のうちその年の翌年以後に支払期日の到来するものについて手形を受領した場合には、その受領した手形の金額は、令第188条第1項第1号に規定する支払を受けた金額には含まれない。（昭49直所2−23、平11課所4−1、平19課個2−31、課審4−44、平30課個2−19、課審5−2改正）

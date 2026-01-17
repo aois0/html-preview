@@ -1,0 +1,10 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 51−17 / id: 51-17 / title: 金銭債権の譲渡損失
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/09/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/51-17.html
+
+[p1] 金銭債権を譲渡したことにより生じた損失の金額については、当該損失が当該譲渡により実質的に贈与したと認められる場合に生じたものである場合を除き、当該損失の金額に相当する金額の貸倒れによる損失が生じたものとして、法第51条第2項若しくは第4項、第63条《事業を廃止した場合の必要経費の特例》又は第64条《資産の譲渡代金が回収不能となった場合等の所得計算の特例》の規定を適用する。
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 〔返品〕
+[p4] 〔返品〕

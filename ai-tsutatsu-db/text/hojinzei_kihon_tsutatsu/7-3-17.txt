@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−3−17 / id: 7-3-17 / title: 固定資産の原価差額の調整
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_03_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-3-17.html
+
+[p1] 法人が棚卸資産に係る原価差額の調整を要する場合において、原材料等の棚卸資産を固定資産の製作又は建設（改良を含む。）のために供したとき又は自己生産に係る製品を固定資産として使用したときは、当該固定資産に係る原価差額は、その取得価額に配賦するものとする。

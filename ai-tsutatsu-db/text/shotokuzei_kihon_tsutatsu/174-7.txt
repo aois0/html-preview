@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 174−7 / id: 174-7 / title: 高度の傷害の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/26/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/174-7.html
+
+[p1] 規則第72条第1項《死亡保険金額等》に規定する「高度の障害」とは、保険契約等において保険金又は共済金の支払事由とされる「高度の障害状態となったこと」をいうのであるから、同項に規定する災害、不慮の事故、感染症の予防及び感染症の患者に対する医療に関する法律第6条第2項から第4項《感染症の定義》に規定する感染症又は悪性新生物以外の原因によって高度の障害状態となった場合も含まれることに留意する。（昭63直法6−7、直所3−8追加、平13課法8−2、課個2−7改正）

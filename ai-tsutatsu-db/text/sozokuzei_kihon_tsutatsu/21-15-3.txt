@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 21の15-3 / id: 21-15-3 / title: 「課せられた贈与税」の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/12.htm#a-21_11_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/21-15-3.html
+
+[p1] 法第21条の15第3項に規定する「課せられた贈与税」には、相続時精算課税の適用を受ける贈与財産に対して課されるべき贈与税(法第37条第1項及び第2項の規定による更正又は決定をすることができなくなった贈与税を除く。)も含まれるものとして取り扱うものとする。この場合において、当該贈与税については、速やかに課税手続をとることに留意する。（平15課資2-1追加、令5課資2-12改正）

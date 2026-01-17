@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 36-45の2 / id: 36-45-2 / title: 無償返還の届出がある場合の通常の賃貸料の額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/36-45-2.html
+
+[p1] 使用者が役員等に対しこれらの者の居住の用に供する家屋の敷地を貸与した場合において、法人税基本通達13-1-7の規定により当該敷地を将来当該役員等が無償で返還することとしているときは、その土地に係る通常の賃貸料の額は、36-40、36-41、36-43及び36-45にかかわらず、法人税基本通達13-1-2に定める相当の地代の額とする。（昭63直法6-7、直所3-8追加）

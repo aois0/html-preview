@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 12−3−8 / id: 12-3-8 / title: 残余財産がないと見込まれることの意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/12/12_03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/12-3-8.html
+
+[p1] 解散した法人が当該事業年度終了の時において債務超過の状態にあるときは、法第59条第４項《会社更生等による債務免除等があった場合の欠損金の損金算入》に規定する「残余財産がないと見込まれるとき」に該当するのであるから留意する。(平22年課法2−1「二十六」により追加、令４年課法2−14｢三十六」により改正)

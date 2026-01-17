@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 1−2−8 / id: 1-2-8 / title: 人格のない社団等が財産の全部を分配等した場合の残余財産の確定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/01/01_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/1-2-8.html
+
+[p1] 人格のない社団等が事業年度の中途においてその事業を行わないこととしてその有する財産の全部を分配し又は引き渡した場合には、当該人格のない社団等については、その分配又は引渡しをした日に解散し残余財産の確定があったものとする。(平14年課法2−1「二」、平20年課法2−5「三」により改正)

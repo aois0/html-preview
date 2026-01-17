@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 37−8 / id: 37-8 / title: 受益者負担金の必要経費算入
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/37-8.html
+
+[p1] 土地改良法、道路法、都市計画法、河川法、港湾法、水防法等の規定により賦課される受益者負担金で業務に係るものは、繰延資産に該当する部分の金額又は土地の価額の増加その他改良費に属する部分の金額を除き、その支出の日の属する年分の当該業務に係る所得の金額の計算上必要経費に算入する。

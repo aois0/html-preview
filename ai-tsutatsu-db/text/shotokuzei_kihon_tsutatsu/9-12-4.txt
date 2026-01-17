@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 9−12の4 / id: 9-12-4 / title: 譲渡対価が債務の弁済に充てられたかどうかの判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/9-12-4.html
+
+[p1] 令第26条に規定する「その譲渡に係る対価が当該債務の弁済に充てられた」かどうかは、同条に規定する資産の譲渡の対価（当該資産の譲渡に要した費用がある場合には、当該費用に相当する部分を除く。）の全部が当該譲渡の時において有する債務の弁済に充てられたかどうかにより判定する。（昭50直資3−11、直所3−19追加、平元直所3−14、直法6−9、直資3−8改正）

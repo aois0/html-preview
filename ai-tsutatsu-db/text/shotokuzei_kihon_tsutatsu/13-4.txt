@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 13−4 / id: 13-4 / title: 権利の内容に応ずることの例示
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/03/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/13-4.html
+
+[p1] 令第52条第4項《信託財産に属する資産及び負債並びに信託財産に帰せられる収益及び費用の帰属》の規定の適用に当たって、受益者等課税信託の信託財産に属する資産が、その構造上区分された数個の部分を独立して住居、店舗、事務所又は倉庫その他建物としての用途に供することができるものである場合において、その各部分の全部又は一部が2以上の受益者の有する権利の目的となっているときは、当該目的となっている部分については、当該各受益者が、各自の有する権利の割合に応じて有しているものとして同項の規定を適用することに留意する。（平19課個2−11、課資3−1、課法9−5、課審4−26追加）

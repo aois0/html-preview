@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 36−29の2 / id: 36-29-2 / title: 課税しない経済的利益……使用人等に対し技術の習得等をさせるために支給する金品
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/36-29-2.html
+
+[p1] 使用者が自己の業務遂行上の必要に基づき、役員又は使用人に当該役員又は使用人としての職務に直接必要な技術若しくは知識を習得させ、又は免許若しくは資格を取得させるための研修会、講習会等の出席費用又は大学等における聴講費用に充てるものとして支給する金品については、これらの費用として適正なものに限り、課税しなくて差し支えない。（平28課法10−1、課個2−6、課審5−7追加）

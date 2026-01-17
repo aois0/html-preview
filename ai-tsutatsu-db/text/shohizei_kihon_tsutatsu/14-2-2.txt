@@ -1,0 +1,6 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 14−2−2 / id: 14-2-2 / title: 債権償却特別勘定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/14/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/14-2-2.html
+

@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 49−11 / id: 49-11 / title: 
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/49-11.html
+
+[p1] 削除（昭55直所3−1、直法6−1、直資3−1、昭60直所3−1、直法6−1、直資3−1、昭60直所3−21、直資3−5改正）

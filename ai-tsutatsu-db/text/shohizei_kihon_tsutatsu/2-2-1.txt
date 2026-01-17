@@ -1,0 +1,9 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 2−2−1 / id: 2-2-1 / title: 人格のない社団等の本店又は主たる事務所の所在地
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/02/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/2-2-1.html
+
+[p1] 人格のない社団等の本店又は主たる事務所の所在地は、次に掲げる場合の区分に応じ、次による。
+[p2] (1) 定款、寄附行為、規則、規約等（以下2−2−1において「定款等」という。）に本店又は主たる事務所の所在地の定めがある場合 その定款等に定められている所在地
+[p3] (2) (1)以外の場合 その事業の本拠として代表者又は管理人が駐在し、当該人格のない社団等の行う業務が企画されている場所（当該場所が転々と移転する場合には、代表者又は管理人の住所）

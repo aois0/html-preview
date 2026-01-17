@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 90−2 / id: 90-2 / title: 変動所得の金額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/17/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/90-2.html
+
+[p1] 法第90条第1項及び第3項に規定する変動所得の金額は、各種所得の区分にかかわらず、漁獲又はのりの採取から生ずる所得、はまち、まだい、ひらめ、かき、うなぎ、ほたて貝又は真珠（真珠貝を含む。）の養殖から生ずる所得、原稿又は作曲の報酬に係る所得及び著作権の使用料に係る所得の金額の合計額をいい、これらの所得のうちに損失を生じているものがあるときは、これらの所得間においてだけ通算を行った後の金額をいう。（昭50直所3−4、昭57直所3−15、直法6−13、直資3−8、平5課所4−1改正）

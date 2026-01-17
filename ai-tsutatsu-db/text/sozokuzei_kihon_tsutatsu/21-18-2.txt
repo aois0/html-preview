@@ -1,0 +1,11 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 21の18-2 / id: 21-18-2 / title: 相続人が2人以上いる場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/02/12.htm#a-21_11_2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/21-18-2.html
+
+[p1] 法第21条の18第1項の規定による相続時精算課税選択届出書を提出しようとする相続人(贈与者を除く。以下21の18-2において同じ。)が2人以上いる場合の当該相続時精算課税選択届出書の提出は、一の相続時精算課税選択届出書に当該相続人全員が連署して行うのであるが、当該相続人のうち1人でも欠けた場合には、相続時精算課税の適用を受けることはできないのであるから留意する。（平15課資2-1追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第21条の9 《相続時精算課税の選択》関係
+[p4] 第3節 相続時精算課税
+[p5] 第21条の9《相続時精算課税の選択》関係

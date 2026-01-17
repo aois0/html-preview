@@ -1,0 +1,11 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 42−11 / id: 42-11 / title: 収納するために必要な措置
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/04.htm#a-42_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/42-11.html
+
+[p1] 法第42条第20項に規定する「収納するために必要な措置」とは、次のようなものをいうのであるから留意する。（平18徴管5−14追加）
+[p2] 現状を維持するために必要な土留め、崩落防止措置
+[p3] 越境樹木の枝打ち、倒木等の撤去
+[p4] 地下埋設物、土壌汚染物質等の除去
+[p5] ゴミその他の投棄物の撤去

@@ -1,0 +1,11 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 9−6−2 / id: 9-6-2 / title: 資産の譲渡等の時期の別段の定め
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/09/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/9-6-2.html
+
+[p1] 資産の譲渡等の時期について、所得税又は法人税の課税所得金額の計算における総収入金額又は益金の額に算入すべき時期に関し、別に定めがある場合には、それによることができるものとする。
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第1節 課税資産の譲渡等
+[p4] 第10章 課税標準及び税率
+[p5] 第1節 課税資産の譲渡等

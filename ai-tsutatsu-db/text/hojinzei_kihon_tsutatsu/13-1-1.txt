@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 13−1−1 / id: 13-1-1 / title: 他人に借地権に係る土地を使用させる行為の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/13/13.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/13-1-1.html
+
+[p1] 令第137条《土地の使用に伴う対価についての所得の計算》に規定する「他人に借地権に係る土地を使用させる行為」には、例えば、借地権に係る土地の地下に地下鉄等の構築物の建設をさせるためその土地の地下を使用させる行為又は特別高圧架空電線の架設等をさせるためその土地の上の空間を使用させる行為が該当する。

@@ -1,0 +1,7 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 6−1 / id: 6-1 / title: 「定期金受取人」等の意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/05.htm#a-5_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/6-1.html
+
+[p1] 法第6条第3項に規定する「定期金受取人」とは定期金の継続受取人をいい、「被相続人」とは、法第3条第1項第5号に規定する定期金受取人たる被相続人をいうのであるから留意する。

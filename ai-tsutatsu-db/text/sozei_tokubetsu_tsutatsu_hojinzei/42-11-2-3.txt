@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 42の11の2−3 / id: 42-11-2-3 / title: 特別償却等の対象となる建物の附属設備
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/01/01_42_11_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/42-11-2-3.html
+
+[p1] 措置法第42条の11の2第1項に規定する建物の附属設備は、当該建物とともに取得又は建設をする場合における建物附属設備に限られることに留意する。（平29年課法2-17「七」により追加）

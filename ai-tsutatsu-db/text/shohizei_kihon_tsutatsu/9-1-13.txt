@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 9−1−13 / id: 9-1-13 / title: 固定資産の譲渡の時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/09/01/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/9-1-13.html
+
+[p1] 固定資産の譲渡の時期は、別に定めるものを除き、その引渡しがあった日とする。ただし、その固定資産が土地、建物その他これらに類する資産である場合において、事業者が当該固定資産の譲渡に関する契約の効力発生の日を資産の譲渡の時期としているときは、これを認める。
+[p2] （注） 本文の取扱いによる場合において、固定資産の引渡しの日がいつであるかについては、9−1−2の例による。

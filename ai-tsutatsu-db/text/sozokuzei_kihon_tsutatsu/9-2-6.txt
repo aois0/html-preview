@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 9の2−6 / id: 9-2-6 / title: 公益信託の委託者の地位が異動した場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/07.htm#a-9-2_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/9-2-6.html
+
+[p1] 公益信託の委託者の地位が異動した場合には、それに伴い当該公益信託に関する権利も異動するのであるが、相続税又は贈与税の課税上、当該公益信託のうち所得税法施行令（昭和40年政令第96号）第217条の2第1項各号に掲げる要件を満たすものに関する権利の価額は零として取り扱うものとする。（平19課資2−5、課審6−3追加）
+[p2] （注） 9の4−2参照

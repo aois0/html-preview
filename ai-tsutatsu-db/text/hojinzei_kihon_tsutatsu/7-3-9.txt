@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−3−9 / id: 7-3-9 / title: 治山工事等の費用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_03_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-3-9.html
+
+[p1] 天然林を人工林に転換するために必要な地ごしらえ又は治山の工事のために支出した金額（構築物の取得価額に算入されるものを除く。）は、林地の取得価額に算入する。

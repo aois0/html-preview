@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 4−1−2 / id: 4-1-2 / title: 時価を超える評価益の益金不算入
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/04/04_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/4-1-2.html
+
+[p1] 法人がその有する資産の評価換えをしてその帳簿価額を増額した場合において、その評価換えが法第25条第2項《資産の評価換えによる評価益の益金算入》に規定する評価換えに該当するときにおいても、その評価換え後の資産の帳簿価額が評価換えをした時における当該資産の価額を超えるときは、その超える金額に相当する金額は益金の額に算入しないのであるから、当該資産の帳簿価額は、その超える部分の金額の増額がなされなかったことに留意する。（平17年課法2−14「七」により追加）

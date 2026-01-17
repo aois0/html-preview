@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 186−2 / id: 186-2 / title: 賞与の計算の基礎となった期間
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/31/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/186-2.html
+
+[p1] 法第186条第1項第1号ロに規定する賞与の金額の「計算の基礎となった期間」とは、当該賞与の金額を定めることにつき基準となった勤務の期間をいい、当該期間が明らかでない賞与については、当該賞与と同性質の給与等の直前の支給期から当該賞与の支給期までの期間によるものとする。ただし、当該期間の中途で就職又は退職をした者に支払う賞与については、当該期間のうちそれぞれ就職の時以後の期間又は退職の時までの期間によるものとする。

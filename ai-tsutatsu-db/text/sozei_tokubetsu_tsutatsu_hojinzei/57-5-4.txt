@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 57の5−4 / id: 57-5-4 / title: 異常危険準備金の計算方法
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/02/02_57_5.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/57-5-4.html
+
+[p1] 異常危険準備金は、保険の種類ごとに計算されるのであるから、一の種類の保険について積立不足となり、他の種類の保険について積立超過となる場合においても、その積立不足に係る金額と積立超過に係る金額とを通算することはできないことに留意する。（昭53年直法2−24「50」、昭58年直法2−11「十四」、平2年直法2−6「二十五」、平6年課法2−5「二十九」、平11年課法2−9「三十六」、平15年課法2−7「四十七」により改正）

@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 204−3 / id: 204-3 / title: 報酬、料金等の性質を有する経済的利益
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/36/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/204-3.html
+
+[p1] 法第204条第1項第1号、第2号及び第4号から第7号までに掲げる報酬、料金又は契約金の性質を有する経済的利益（金銭以外の物又は権利その他経済的な利益をいう。以下この項において同じ。）については、次によるものとする。
+[p2] (1) 職業野球の選手、外交員、集金人、ホステス等のように一定の者に専属して役務を提供する者がその役務の提供先から受ける経済的利益については、給与等とされる経済的利益の取扱いに準ずる。
+[p3] (2) (1)以外の経済的利益については、令第321条《金銭以外のもので支払われる賞金の価額》の規定に準じて評価し、その評価した金額が少額なものについては、源泉徴収をしなくて差し支えない。

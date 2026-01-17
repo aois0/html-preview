@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−70 / id: 15-1-70 / title: 労働者派遣業の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_33.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-70.html
+
+[p1] 令第5条第1項第34号《労働者派遣業》の労働者派遣業には、労働者派遣事業の適正な運営の確保及び派遣労働者の保護等に関する法律第2条第3号《用語の意義》に規定する労働者派遣事業のほか、自己と雇用関係のない者を、他の者の指揮命令(他の者との雇用関係に基づく指揮命令に限らない。)を受けて、当該他の者の行う事業に従事させる事業等が含まれることに留意する。(平20年課法2−5「二十九」により追加、平25年課法2−4「八」により改正)
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第34款 その他
+[p4] 第34款 その他

@@ -1,0 +1,10 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 45の2-5 / id: 45-2-5 / title: 特別償却の対象となる建物の附属設備
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/01/01_45_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/45-2-5.html
+
+[p1] 措置法第45条の2第3項に規定する建物の附属設備は、当該建物とともに取得等（同項に規定する「取得等」をいう。）をする場合における建物附属設備に限られることに留意する。（令元年課法2-10「十八」により追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第46条 《輸出事業用資産の割増償却》関係
+[p4] 第46条 《輸出事業用資産の割増償却》関係

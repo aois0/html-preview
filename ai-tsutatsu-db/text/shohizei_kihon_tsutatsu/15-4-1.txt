@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 15−4−1 / id: 15-4-1 / title: 引取りに係る課税貨物についての申告
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/15/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/15-4-1.html
+
+[p1] 法第47条第1項及び第2項《引取りに係る課税貨物についての申告等》に規定する引取りに係る課税貨物についての申告は、関税法第67条《輸出又は輸入の許可》に規定する輸入申告に併せて行うことになる。
+[p2] ただし、法第47条第1項に規定する者が、その引取りに係る課税貨物について関税法第7条の2第2項《特例申告》に規定する特例申告を行う場合には、法第47条第1項に規定する申告は、当該特例申告と併せて当該課税貨物の引取りの日の属する月の翌月末日までに行うことになる。 （平13課消1−5により改正）

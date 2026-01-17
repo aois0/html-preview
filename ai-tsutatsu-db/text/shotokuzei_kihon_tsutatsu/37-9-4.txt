@@ -1,0 +1,12 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 37−9の4 / id: 37-9-4 / title: 注
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/37-9-4.html
+
+[p1] 令第167条の2に規定する「その他の特定の損失又は費用を補てんするための業務」には、例えば次のようなものが含まれることに留意する。（昭51直所3−1、直法6−1、直資3−1追加、昭52直所3−33、直法6−10、直資3−15、平20課個2−17、課審4−186、課法9−3、平23課個2−33、課法9−9、課審4−46改正）
+[p2] （1） 水産物又は配合飼料の価格の変動による損失の
+[p3] に係る業務
+[p4] （2） 行政指導等に基づき公益法人等又は一般社団法人若しくは一般財団法人が行う構造改善事業
+[p5] （3） 海面の油濁による損失の
+[p6] に係る業務

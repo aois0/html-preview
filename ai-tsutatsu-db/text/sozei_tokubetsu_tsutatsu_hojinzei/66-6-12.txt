@@ -1,0 +1,8 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の6-12 / id: 66-6-12 / title: 被統括会社に該当する外国関係会社の経済活動基準の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/14/14_66_6_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-6-12.html
+
+[p1] 被統括会社に該当する外国関係会社（特定外国関係会社に該当するものを除く。）が措置法第66条の6第2項第3号に掲げる要件のいずれにも該当する場合には、当該被統括会社は対象外国関係会社に該当せず、同条第1項の規定の適用はないことに留意する。（平29年課法2-22「二」により追加）
+[p2] （注） 当該被統括会社が本店所在地国においてその事業の管理、支配及び運営を自ら行っているかどうかの判定は、66の6-7及び66の6-8の取扱いにより行う。

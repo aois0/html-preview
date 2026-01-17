@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 2−17 / id: 2-17 / title: 建設又は製作中の資産
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/2-17.html
+
+[p1] 建設又は製作中の建物、機械及び装置等の資産は、減価償却資産に該当しないのであるが、その完成した部分が不動産所得、事業所得、山林所得又は雑所得を生ずべき業務の用に供されている場合には、その部分は減価償却資産に該当する。

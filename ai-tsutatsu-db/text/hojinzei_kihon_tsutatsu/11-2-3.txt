@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 11−2−3 / id: 11-2-3 / title: 貸倒れに類する事由
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/11/11_02_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/11-2-3.html
+
+[p1] 法第52条第1項《貸倒引当金》に規定する「貸倒れその他これに類する事由」には、売掛金、貸付金その他これらに類する金銭債権の貸倒れのほか、例えば、保証金や前渡金等について返還請求を行った場合における当該返還請求債権が回収不能となったときがこれに含まれる。（平10年課法2−7「十五」により追加、平14年課法2−1「二十六」により改正）

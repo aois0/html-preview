@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 61-5 / id: 61-5 / title: 共通費用の額の配分基準の継続
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/05/05_60_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/61-5.html
+
+[p1] 措置法令第37条第8項に規定する共通費用の額について適用した同項に規定する合理的と認められる基準は、その後の事業年度においても継続して適用しなければならないものとする。（平28年課法2-11「二十九」により追加、令４年課法２−14「四十」により改正）

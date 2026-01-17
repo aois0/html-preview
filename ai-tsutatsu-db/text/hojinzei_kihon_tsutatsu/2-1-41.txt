@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−1−41 / id: 2-1-41 / title: 保証金等のうち返還しないものの額の帰属の時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_01_06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-1-41.html
+
+[p1] 資産の賃貸借契約等に基づいて保証金、敷金等として受け入れた金額（賃貸借の開始当初から返還が不要なものを除く。）であっても、期間の経過その他当該賃貸借契約等の終了前における一定の事由の発生により返還しないこととなる部分の金額は、その返還しないこととなった日の属する事業年度の益金の額に算入するのであるから留意する。（昭55年直法2−8「六」により追加、平12年課法2−7「二」、平30年課法2−8「二」により改正）

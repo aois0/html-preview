@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 21−1−6 / id: 21-1-6 / title: 請求書等の保存を要しない課税仕入れに関する経過措置における１万円未満の判定単位
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/21/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/21-1-6.html
+
+[p1] 消費税法施行令等の一部を改正する政令（平成30年政令第135号）附則第24条の２第１項《請求書等の保存を要しない課税仕入れの範囲等》に規定する「課税仕入れに係る支払対価の額が１万円未満である場合」に該当するか否かは、一回の取引の課税仕入れに係る税込みの金額が１万円未満かどうかで判定するのであるから、課税仕入れに係る一の商品（役務）ごとの税込みの金額によるものではないことに留意する。（令５課消２−９により追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）

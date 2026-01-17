@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−7−7 / id: 5-7-7 / title: 特別の技術による生産方式の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-7-7.html
+
+[p1] 令第6条第1項第7号《著作権の所在地》に規定する「特別の技術による生産方式」とは、特許に至らない技術、技術に関する附帯情報等をいい、いわゆるノウハウと称されるものがこれに該当する。（平23課消1-35により改正）

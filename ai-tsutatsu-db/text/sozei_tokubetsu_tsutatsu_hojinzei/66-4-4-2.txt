@@ -1,0 +1,7 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 66の4の4−2 / id: 66-4-4-2 / title: 総収入金額の円換算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/12/12_66_4_4.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/66-4-4-2.html
+
+[p1] 多国籍企業グループの連結財務諸表が外国通貨で表示される場合の措置法第66条の4の4第4項第3号に規定する直前の最終親会計年度における多国籍企業グループの総収入金額として財務省令で定める金額については、当該直前の最終親会計年度終了の日の電信売買相場の仲値（基本通達13の2−1−2に定める電信売買相場の仲値をいう。）により円換算を行うものとする。（平28年課法2−11「三十九」により追加）

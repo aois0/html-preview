@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 15−1−3 / id: 15-1-3 / title: 中間申告における簡易課税制度の適用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/15/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/15-1-3.html
+
+[p1] 簡易課税制度を適用すべき事業者が法第43条第1項《仮決算をした場合の中間申告書の記載事項等》の規定により、同項に規定する中間申告対象期間について仮決算をして中間申告書を提出する場合には、簡易課税制度を適用して納付すべき消費税額を計算するのであるから留意する。（平15課消1−37により改正）

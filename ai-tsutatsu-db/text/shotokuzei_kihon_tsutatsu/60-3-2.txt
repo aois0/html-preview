@@ -1,0 +1,11 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 60の3−2 / id: 60-3-2 / title: 贈与等の時に有している対象資産の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/12/03-3.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/60-3-2.html
+
+[p1] 法第60条の3第5項に規定する贈与等の時に有している対象資産とは、次に掲げる場合の区分に応じそれぞれ次に掲げるものをいうことに留意する。（平27課資3−2、課個2−7、課審7-6、徴管6-12追加）
+[p2] (1) 贈与（死因贈与を除く。）の場合
+[p3] 当該贈与の時において贈与者が所有していた対象資産（当該贈与により非居住者に移転した対象資産を含む。）
+[p4] (2) 相続又は遺贈（死因贈与を含む。）の場合
+[p5] 当該相続又は遺贈に係る相続開始の時において被相続人が所有していた対象資産

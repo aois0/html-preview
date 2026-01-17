@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 18−1−46の3 / id: 18-1-46-3 / title: 会社等の持分
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/18/18_01_08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/18-1-46-3.html
+
+[p1] 規則第38条の16第11項第１号イ《個別計算所得等の金額の計算》の「持分（自己が有する自己の持分を除く。）」には、株式の払込金額等の全部又は一部について払込み等が行われていないものも含まれるものとする。（令6年課法2−21｢二」により追加）

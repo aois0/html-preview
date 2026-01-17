@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 2−11 / id: 2-11 / title: 社債の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/03.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/2-11.html
+
+[p1] 法第2条第1項第9号に規定する社債とは、会社が会社法(平成17年法律第86号)その他の法律の規定により発行する債券及び会社以外の内国法人が特別の法律により発行する債券並びに外国法人が発行する債券でこれらに準ずるものをいうのであるから、債券の発行につき法律の規定をもたない会社以外の内国法人が発行するいわゆる学校債又は組合債のようなものは、これに該当しない。（平18課個2−18、課資3−10、課審4−114、平22課個2−16、課法9−1、課審4−30改正）
+[p2] (注) いわゆる学校債、組合債等の利子は、雑所得に該当する。
+[p3] 〔預貯金（第10号関係）〕

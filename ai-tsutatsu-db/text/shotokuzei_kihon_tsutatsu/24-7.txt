@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 24-7 / id: 24-7 / title: 負債を借り換えた場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/24-7.html
+
+[p1] 株式等を取得するために要した負債を借り換えた場合には、借換え前の負債の額と借換え後の負債の額とのうち、いずれか少ない金額を借換え後の当該株式等を取得するために要した負債の額とする。

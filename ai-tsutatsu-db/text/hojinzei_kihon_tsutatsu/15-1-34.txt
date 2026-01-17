@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−34 / id: 15-1-34 / title: 出版物を主として会員に配布すること
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_13.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-34.html
+
+[p1] 令第5条第1項第12号《出版業》に規定する「主として会員に配布する」こととは、会報その他これに準ずる出版物を会員に配布することを目的として刷成し、その部数の大部分(8割程度)を会員に配布していることをいう。この場合において、会員でない者でその会に特別の関係を有する者に対して対価を受けないで配布した部数は、会員に配布したものとして取り扱う。(昭56年直法2−16「七」により改正)

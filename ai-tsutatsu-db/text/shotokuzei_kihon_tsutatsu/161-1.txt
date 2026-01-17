@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 161−1 / id: 161-1 / title: その他事業を行う一定の場所
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/22/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/161-1.html
+
+[p1] 令第1条の2第1項第3号((恒久的施設の範囲))に掲げる「その他事業を行う一定の場所」には、倉庫、サーバー、農園、養殖場、植林地、貸ビル等のほか、非居住者又は外国法人が国内においてその事業活動の拠点としているホテルの一室、展示即売場その他これらに類する場所が含まれる（平28課2−4、課法11−8、課審5−5追加、平30課個２‐29、課法12‐104、課審５‐８改正）。

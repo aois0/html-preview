@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 1−5−25 / id: 1-5-25 / title: 共有に係る高額特定資産
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/01/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/1-5-25.html
+
+[p1] 事業者が他の者と共同で購入した資産（以下1−5−25及び12−2−4において「共有物」という。）が高額特定資産に該当するかどうかを判定する場合において、令第25条の5第1項《高額特定資産の範囲等》に規定する金額が1,000万円以上であるかどうかは、当該事業者の共有物に係る持分割合に応じて判定する。（平28課消1−57により追加）

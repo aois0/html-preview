@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 165−4 / id: 165-4 / title: 内部取引から生ずる恒久的施設帰属所得に係る各種所得の金額の計算
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/24/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/165-4.html
+
+[p1] 法第165条第2項第1号に規定する内部取引（以下第165条関係において「内部取引」という。）から生ずる恒久的施設帰属所得に係る各種所得の金額の計算については、37−2、46−1、52−1から52−24まで及び60の4−1の取扱いを除き、前編第1章第1節第1款から第5款まで及び第7款の取扱いを準用する（平28課2−4、課法11−8、課審5−5追加）。

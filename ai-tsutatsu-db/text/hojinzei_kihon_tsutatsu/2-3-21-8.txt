@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2−3−21の8 / id: 2-3-21-8 / title: 資産調整勘定対応金額等の計算の基礎となる対象株式の取得価額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/02/02_03_04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2-3-21-8.html
+
+[p1] 資産調整勘定対応金額又は負債調整勘定対応金額の計算の基礎となる対象株式（令第119条第１項第１号《有価証券の取得価額》に掲げる有価証券に限る。）の取得価額は、同号の規定により計算することに留意する。この場合において、当該対象株式の取得の時期が古いなどの理由により、購入手数料その他当該対象株式の購入のために要した費用の把握が困難であると認められるときには、その購入の代価を当該対象株式の取得価額として資産調整勘定対応金額又は負債調整勘定対応金額を計算することができる。（令４年課法2−14｢九」により追加）

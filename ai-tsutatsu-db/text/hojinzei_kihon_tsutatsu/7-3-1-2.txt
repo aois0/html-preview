@@ -1,0 +1,8 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 7−3−1の2 / id: 7-3-1-2 / title: 借入金の利子
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/07/07_03_01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/7-3-1-2.html
+
+[p1] 固定資産を取得するために借り入れた借入金の利子の額は、たとえ当該固定資産の使用開始前の期間に係るものであっても、これを当該固定資産の取得価額に算入しないことができるものとする。（昭55年直法2−8「二十一」により追加）
+[p2] (注) 借入金の利子の額を建設中の固定資産に係る建設仮勘定に含めたときは、当該利子の額は固定資産の取得価額に算入されたことになる。

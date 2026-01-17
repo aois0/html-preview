@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 137の2−8 / id: 137-2-8 / title: 非上場株式等が担保提供された場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/19/02-2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/137-2-8.html
+
+[p1] 非上場株式等を担保として提供を受け質権を設定した場合には、納税猶予期間中においては、当該非上場株式等から生じる配当その他の利益処分については、税務署長はその支払又は引渡し等を受けないことに留意する。（令5課資3-5、課法10-37、課審7-5、徴管6-27追加）

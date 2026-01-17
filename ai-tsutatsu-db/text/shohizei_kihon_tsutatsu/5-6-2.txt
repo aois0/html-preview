@@ -1,0 +1,7 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−6−2 / id: 5-6-2 / title: 無償による貨物の輸入等
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-6-2.html
+
+[p1] 保税地域から引き取られる外国貨物については、国内において事業者が行った資産の譲渡等の場合のように、「事業として対価を得て行われる」ものには限られないのであるから、保税地域から引き取られる外国貨物に係る対価が無償の場合又は保税地域からの外国貨物の引取りが事業として行われるものではない場合のいずれについても法第4条第2項《外国貨物に対する消費税の課税》の規定が適用されるのであるから留意する。

@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 7−2−19 / id: 7-2-19 / title: 合衆国軍隊の調達機関を通じて輸出される物品の輸出免税
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/07/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/7-2-19.html
+
+[p1] 本邦にあるアメリカ合衆国軍隊の公認調達機関に納入する物品で、当該公認調達機関により、本法施行地外にあるアメリカ合衆国が公認し、かつ、規制する海軍販売所及びピー・エックスに輸出されるものについては、当該物品を納入する事業者が、当該物品を当該公認調達機関に納入した時に輸出したものとして、法第7条《輸出免税等》の規定を適用するものとする。
+[p2] (注) 本法施行地内にある海軍販売所及びピー・エックスに対する物品の譲渡については、租特法第86条の2《海軍販売所等に対する物品の譲渡に係る免税》の規定が適用されることに留意する。

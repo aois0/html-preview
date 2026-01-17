@@ -1,0 +1,10 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 15−3−1 / id: 15-3-1 / title: 還付を受けるための申告書に係る更正の請求
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/15/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/15-3-1.html
+
+[p1] 法第46条《還付を受けるための申告》に規定する申告書についても、通則法第23条《更正の請求》の規定の適用があることに留意する。この場合において、同条第1項に規定する「当該申告書に係る国税の法定申告期限」とあるのは、「当該申告書を提出した日」と読み替えるものとする。
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第4節 引取りに係る課税貨物についての申告及び納期限
+[p4] 第4節 引取りに係る課税貨物についての申告及び納期限

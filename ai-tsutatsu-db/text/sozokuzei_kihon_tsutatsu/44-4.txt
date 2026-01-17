@@ -1,0 +1,8 @@
+doc: 相続税法基本通達 (sozokuzei_kihon_tsutatsu)
+item: 44−4 / id: 44-4 / title: 処分があった日
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/06.htm#a-44_1
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/44-4.html
+
+[p1] 法第44条第2項により法第39条を準用する場合における法施行令第16条の2第3項第2号に規定する「処分があった日」とは、申請者が物納申請の却下通知を受け取った日をいうことに留意する。
+[p2] 第45条《物納申請の却下に係る再申請》関係

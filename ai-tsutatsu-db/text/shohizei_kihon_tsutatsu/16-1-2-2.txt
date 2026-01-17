@@ -1,0 +1,8 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 16−1−2の2 / id: 16-1-2-2 / title: 「国又は地方公共団体の会計の処理に準ずるもの」の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/16/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/16-1-2-2.html
+
+[p1] 令第74条第1項《国又は地方公共団体に準ずる法人の資産の譲渡等の時期の特例》に規定する「会計の処理の方法が国又は地方公共団体の会計の処理の方法に準ずるもの」とは、国又は地方公共団体の会計の処理の方法に準じて、収入・支出の所属会計年度について発生主義以外の特別な会計処理により行うこととされている場合の当該会計の処理の方法をいう。（平10課消2−9により追加）
+[p2] (注) 社団法人、財団法人等のように発生主義により経理することとされている法人は、本特例の対象にはならないことに留意する。

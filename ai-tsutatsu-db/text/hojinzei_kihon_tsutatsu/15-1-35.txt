@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−35 / id: 15-1-35 / title: 会報を専らその会員に配布すること
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_13.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-35.html
+
+[p1] 令第5条第1項第12号《出版業》に規定する「会報を専らその会員に配布する」こととは、会報を会員だけに配布することをいう。この場合において、会員でない者でその会に特別の関係を有する者に対して対価を受けないで配布しているものは会員に配布したものとして取り扱う。(昭56年直法2−16「七」、平20年課法2−5「二十九」により改正)

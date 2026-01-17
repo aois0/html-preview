@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 9−15 / id: 9-15 / title: 使用人等に給付される学資金
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/04.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/9-15.html
+
+[p1] 学資金のうち、法第9条第1項第15号イからニまでに規定する給付（同号ロ及びニに規定する給付にあっては、それぞれ同号ロ及びニに規定する特別の関係がある者に直接支払われるものを含む。）は、原則として、給与所得を有する者に対する給与に該当するのであるから、当該給与所得を有する者に対する給与等（法第28条第1項《給与所得》に規定する給与等をいう。9−17において同じ。）として課税することに留意する。（平元直所3−14、直法6−9、直資3−8、平28課法10−1、課個2−6、課審5−7改正）

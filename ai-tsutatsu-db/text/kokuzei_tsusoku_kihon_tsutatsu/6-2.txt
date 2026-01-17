@@ -1,0 +1,16 @@
+doc: 国税通則法基本通達 (kokuzei_tsusoku_kihon_tsutatsu)
+item: 6-2 / id: 6-2 / title: 
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/mokuji.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/kokuzei_tsusoku_kihon_tsutatsu/6-2.html
+
+[p1] 偽りの答弁
+[p2] 7
+[p3] 不誠実な申請
+[p4] 質問、検査及び物件の提示又は提出の要求等
+[p5] 8
+[p6] 質問、検査及び物件の提示又は提出の要求をすることができる場合
+[p7] 9
+[p8] 質問等
+[p9] 10
+[p10] 帳簿書類その他の物件

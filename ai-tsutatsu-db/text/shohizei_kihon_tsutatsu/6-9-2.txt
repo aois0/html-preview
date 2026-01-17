@@ -1,0 +1,10 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 6−9−2 / id: 6-9-2 / title: 改葬の取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/06/09.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/6-9-2.html
+
+[p1] 埋葬又は火葬には、墓地、埋葬等に関する法律第2条第3項《定義》に規定する改葬の際に行われる埋葬又は火葬を含むのであるから留意する。
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第10節 身体障害者用物品の譲渡等関係
+[p4] 第10節 身体障害者用物品の譲渡等関係

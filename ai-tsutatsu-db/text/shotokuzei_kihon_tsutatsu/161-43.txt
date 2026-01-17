@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 161−43 / id: 161-43 / title: 内国法人の役員が国外にあるその法人の子会社に常時勤務する場合
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/22/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/161-43.html
+
+[p1] 内国法人の役員が国外にあるその法人の子会社に常時勤務する場合において、次に掲げる要件のいずれをも備えているときは、その者の勤務は、令第285条第1項第1号かっこ内に規定する内国法人の役員としての勤務に該当するものとする。
+[p2] （1） その子会社の設置が現地の特殊事情に基づくものであって、その子会社の実態が内国法人の支店、出張所と異ならないものであること。
+[p3] （2） その役員の子会社における勤務が内国法人の命令に基づくものであって、その内国法人の使用人としての勤務であると認められること。

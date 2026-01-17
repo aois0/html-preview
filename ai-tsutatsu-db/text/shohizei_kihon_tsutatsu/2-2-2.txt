@@ -1,0 +1,11 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 2−2−2 / id: 2-2-2 / title: 被合併法人の消費税に係る納税地
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/02/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/2-2-2.html
+
+[p1] 法人が合併した場合において、当該合併に係る被合併法人のその合併の日後における消費税の納税地は、当該合併に係る合併法人の納税地によるのであるから留意する。
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第1節 個人事業者の課税期間
+[p4] 第3章 課税期間
+[p5] 第1節 個人事業者の課税期間

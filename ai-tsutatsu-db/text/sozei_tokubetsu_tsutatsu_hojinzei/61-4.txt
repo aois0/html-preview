@@ -1,0 +1,9 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 61-4 / id: 61-4 / title: 支払利子の区分の特例
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/05/05_60_2.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/61-4.html
+
+[p1] 支払利子の額で特定事業等に係るものの金額は、措置法令第37条第８項の規定により合理的と認められる基準により配分するのであるが、各事業年度における支払利子の額のうちに次に掲げる金額があるときは、当該金額は支払利子の額に含めないことができるものとする。（平28年課法2-11「二十九」により追加、令４年課法２−14「四十」により改正）
+[p2] （1） 受取配当金の益金不算入額の計算上益金不算入額から控除した支払利子の額として合理的に計算した金額
+[p3] （2） 子会社等のために借り入れて子会社等へひも付融資をしている負債の支払利子の額で子会社等からの受取利子の額に相当する金額

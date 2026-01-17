@@ -1,0 +1,10 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 15−1−72 / id: 15-1-72 / title: 神前結婚等の場合の収益事業の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_34.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-72.html
+
+[p1] 宗教法人が神前結婚、仏前結婚等の挙式を行う行為で本来の宗教活動の一部と認められるものは収益事業に該当しないが、挙式後の披露宴における飲食物の提供、挙式のための衣装その他の物品の貸付け、記念写真の撮影及びこれらの行為のあっせん並びにこれらの用に供するための不動産貸付け及び席貸しの事業は、収益事業に該当することに留意する。(昭56年直法2−16「七」、平20年課法2−5「二十九」により改正)
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第2節 収益事業に係る所得の計算等
+[p4] 第2節 収益事業に係る所得の計算等

@@ -1,0 +1,9 @@
+doc: 消費税基本通達 (shohizei_kihon_tsutatsu)
+item: 5−1−1 / id: 5-1-1 / title: 事業としての意義
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/05/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/5-1-1.html
+
+[p1] 法第2条第1項第8号《資産の譲渡等の意義》に規定する「事業として」とは、対価を得て行われる資産の譲渡及び貸付け並びに役務の提供が反復、継続、独立して行われることをいう。（平23課消1-35により改正）
+[p2] 1 個人事業者が生活の用に供している資産を譲渡する場合の当該譲渡は、「事業として」には該当しない。
+[p3] 2 法人が行う資産の譲渡及び貸付け並びに役務の提供は、その全てが、「事業として」に該当する。
