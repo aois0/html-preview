@@ -9,11 +9,11 @@
 
 ## サイト構造
 
-- /ai-law-db/index.html : 入口（法令一覧）
-- /ai-law-db/enhanced/{law_code}/index.html : 法令ごとの目次（条文一覧）
-- /ai-law-db/enhanced/{law_code}/{article}.html : 個別条文（例: 57-8.html）
-- /ai-law-db/data/laws.json : 利用可能な法令メタデータ（機械処理向け）
-- /ai-law-db/sitemap.xml : サイトマップ
+- index.html : 入口（法令一覧）
+- enhanced/{law_code}/index.html : 法令ごとの目次（条文一覧）
+- enhanced/{law_code}/{article}.html : 個別条文（例: 57-8.html）
+- data/laws.json : 利用可能な法令メタデータ（機械処理向け）
+- sitemap.xml : サイトマップ
 
 ## HTMLの構造（AI向け）
 
