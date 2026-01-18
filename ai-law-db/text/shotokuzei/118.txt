@@ -1,0 +1,6 @@
+law: 所得税法 (shotokuzei)
+law_type: act / law_num: 昭和四十年法律第三十三号 / egov_id: 340AC0000000033 / as_of: 2025-12-27
+article: 118 / title: 第百十八条（予定納税額の徴収猶予）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei/118.html
+
+[p1] 1 税務署長は、第百十二条第一項（予定納税額の減額の承認の申請手続）の申請書の提出があつた場合において、相当の理由があると認めるときは、その申請に係る予定納税額の全部又は一部の徴収を猶予することができる。

@@ -1,0 +1,7 @@
+law: 相続税法 (sozokuzei)
+law_type:  / law_num:  / egov_id:  / as_of: 
+article: 2-2 / title: 第二条の二（贈与税の課税財産の範囲）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/2-2.html
+
+[p1] 1 第一条の四第一項第一号又は第二号の規定に該当する者については、その者が贈与により取得した財産の全部に対し、贈与税を課する。
+[p2] 2 第一条の四第一項第三号又は第四号の規定に該当する者については、その者が贈与により取得した財産でこの法律の施行地にあるものに対し、贈与税を課する。

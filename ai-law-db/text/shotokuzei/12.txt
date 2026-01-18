@@ -1,0 +1,6 @@
+law: 所得税法 (shotokuzei)
+law_type: act / law_num: 昭和四十年法律第三十三号 / egov_id: 340AC0000000033 / as_of: 2025-12-27
+article: 12 / title: 第十二条（実質所得者課税の原則）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei/12.html
+
+[p1] 1 資産又は事業から生ずる収益の法律上帰属するとみられる者が単なる名義人であつて、その収益を享受せず、その者以外の者がその収益を享受する場合には、その収益は、これを享受する者に帰属するものとして、この法律の規定を適用する。

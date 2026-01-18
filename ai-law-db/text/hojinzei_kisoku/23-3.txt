@@ -1,0 +1,6 @@
+law: 法人税法施行規則 (hojinzei_kisoku)
+law_type: rule / law_num: 昭和四十年大蔵省令第十二号 / egov_id:  / as_of: 2025-12-27
+article: 23-3 / title: 第二十三条の三（特定公益増進法人に対する寄附金の特別損金算入限度額の計算上公益法人等から除かれる法人）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_kisoku/23-3.html
+
+[p1] 1 令第七十七条の二第一項第二号（特定公益増進法人に対する寄附金の特別損金算入限度額）に規定する財務省令で定める法人は、第二十二条の四各号（一般寄附金の損金算入限度額の計算上公益法人等から除かれる法人）に掲げる法人とする。

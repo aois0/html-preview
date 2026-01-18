@@ -1,0 +1,6 @@
+law: 国税通則法 (kokuzei_tsusoku)
+law_type: act / law_num: 昭和三十七年法律第六十六号 / egov_id: 337AC0000000066 / as_of: 2025-12-27
+article: 26 / title: 第二十六条（再更正）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kokuzei_tsusoku/26.html
+
+[p1] 1 税務署長は、前二条又はこの条の規定による更正又は決定をした後、その更正又は決定をした課税標準等又は税額等が過大又は過少であることを知つたときは、その調査により、当該更正又は決定に係る課税標準等又は税額等を更正する。

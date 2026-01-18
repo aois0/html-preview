@@ -24,6 +24,7 @@ from dataclasses import dataclass
 from pathlib import Path
 import json
 import re
+import shutil
 from typing import Any, Iterable
 
 from bs4 import BeautifulSoup
@@ -33,6 +34,17 @@ SITE_BASE_URL = "https://jplawdb.github.io/html-preview/ai-law-db"
 SITE_ENHANCED_BASE_URL = f"{SITE_BASE_URL}/enhanced"
 RESOLVE_LITE_DIR_NAME = "resolve_lite"
 RESOLVE_META_DIR_NAME = "resolve_meta"
+RESOLVE_META_CORP_DIR_NAME = "resolve_meta_corp"
+
+# 法人税編でよく参照される法令（条文タイトル辞書を分割して提供）
+CORP_LAW_CODES = {
+    "hojinzei",
+    "hojinzei_seirei",
+    "hojinzei_kisoku",
+    "sozei_tokubetsu",
+    "sozei_tokubetsu_seirei",
+    "sozei_tokubetsu_kisoku",
+}
 
 
 def sort_article_key(num: str):
@@ -48,6 +60,20 @@ def sort_article_key(num: str):
 
 def clean_ws(text: str) -> str:
     return re.sub(r"\s+", " ", text or "").strip()
+
+
+def bucket_for_article(article: str) -> str:
+    """
+    Buckets article keys by their leading number, e.g.
+      39-14 -> "39"
+      2-4-2 -> "2"
+    """
+    m = re.match(r"^\d+", article or "")
+    return m.group(0) if m else "misc"
+
+
+def sort_bucket_key(bucket: str):
+    return (0, int(bucket)) if bucket.isdigit() else (1, bucket)
 
 
 def extract_subject_title(heading: str) -> str:
@@ -375,6 +401,10 @@ def main() -> None:
 
     resolve_meta_dir = data_dir / RESOLVE_META_DIR_NAME
     resolve_meta_dir.mkdir(parents=True, exist_ok=True)
+    resolve_meta_corp_dir = data_dir / RESOLVE_META_CORP_DIR_NAME
+    if resolve_meta_corp_dir.exists():
+        shutil.rmtree(resolve_meta_corp_dir)
+    resolve_meta_corp_dir.mkdir(parents=True, exist_ok=True)
 
     # Per-law resolver-lite: much smaller download when the law_code is known.
     # Typical flow:
@@ -400,6 +430,10 @@ def main() -> None:
             "articles": sorted(articles, key=sort_article_key),
             "resolve_meta_url": f"{SITE_BASE_URL}/data/{RESOLVE_META_DIR_NAME}/{law_code}.json",
         }
+        if law_code in CORP_LAW_CODES:
+            per_law["resolve_meta_corp_index_url"] = (
+                f"{SITE_BASE_URL}/data/{RESOLVE_META_CORP_DIR_NAME}/{law_code}/index.json"
+            )
         (resolve_lite_dir / f"{law_code}.json").write_text(
             json.dumps(per_law, ensure_ascii=False, indent=2) + "\n",
             encoding="utf-8",
@@ -424,6 +458,50 @@ def main() -> None:
             json.dumps(per_law_meta, ensure_ascii=False, indent=2) + "\n",
             encoding="utf-8",
         )
+
+        # 法人税編向け（分割）: resolve_meta_corp/{law_code}/{bucket}.json
+        if law_code in CORP_LAW_CODES:
+            law_out_dir = resolve_meta_corp_dir / law_code
+            law_out_dir.mkdir(parents=True, exist_ok=True)
+
+            buckets: dict[str, dict[str, Any]] = {}
+            for article in sorted(articles, key=sort_article_key):
+                meta = articles_obj.get(article) or {}
+                title = extract_subject_title(meta.get("title") or "")
+                b = bucket_for_article(article)
+                buckets.setdefault(b, {})[article] = {"title": title}
+
+            # bucket files (title only; no wrapper to keep it small)
+            for b in sorted(buckets.keys(), key=sort_bucket_key):
+                bucket_articles = buckets[b]
+                ordered = {a: bucket_articles[a] for a in sorted(bucket_articles.keys(), key=sort_article_key)}
+                (law_out_dir / f"{b}.json").write_text(
+                    # Minified: token budget matters more than human readability here.
+                    json.dumps(ordered, ensure_ascii=False, separators=(",", ":")) + "\n",
+                    encoding="utf-8",
+                )
+
+            # per-law bucket index (keep it tiny: counts only)
+            buckets_index: dict[str, int] = {}
+            for b in sorted(buckets.keys(), key=sort_bucket_key):
+                buckets_index[b] = len(buckets[b])
+            (law_out_dir / "index.json").write_text(
+                json.dumps(
+                    {
+                        "as_of": law.get("as_of"),
+                        "base_url": SITE_BASE_URL,
+                        "law_code": law_code,
+                        "law_title": law.get("title"),
+                        "index_url": law.get("index_url"),
+                        "bucket_url_template": f"{SITE_BASE_URL}/data/{RESOLVE_META_CORP_DIR_NAME}/{law_code}/{{bucket}}.json",
+                        "buckets": buckets_index,
+                    },
+                    ensure_ascii=False,
+                    indent=2,
+                )
+                + "\n",
+                encoding="utf-8",
+            )
 
     # Directory index (lightweight) for discovery.
     index_laws: dict[str, Any] = {}
@@ -473,6 +551,33 @@ def main() -> None:
     }
     (resolve_meta_dir / "index.json").write_text(
         json.dumps(resolve_meta_index, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+    # resolve_meta_corp directory index (法人税編)
+    corp_index_laws: dict[str, Any] = {}
+    for law_code in sorted(CORP_LAW_CODES):
+        law = laws.get(law_code)
+        if not law:
+            continue
+        corp_index_laws[law_code] = {
+            "title": law.get("title"),
+            "as_of": law.get("as_of"),
+            "index_url": law.get("index_url"),
+            "bucket_index_url": f"{SITE_BASE_URL}/data/{RESOLVE_META_CORP_DIR_NAME}/{law_code}/index.json",
+        }
+    (resolve_meta_corp_dir / "index.json").write_text(
+        json.dumps(
+            {
+                "as_of": resolve.get("as_of"),
+                "base_url": SITE_BASE_URL,
+                "bucket_index_url_template": f"{SITE_BASE_URL}/data/{RESOLVE_META_CORP_DIR_NAME}/{{law_code}}/index.json",
+                "laws": corp_index_laws,
+            },
+            ensure_ascii=False,
+            indent=2,
+        )
+        + "\n",
         encoding="utf-8",
     )
 

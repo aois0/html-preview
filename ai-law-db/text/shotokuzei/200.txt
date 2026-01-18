@@ -1,0 +1,6 @@
+law: 所得税法 (shotokuzei)
+law_type: act / law_num: 昭和四十年法律第三十三号 / egov_id: 340AC0000000033 / as_of: 2025-12-27
+article: 200 / title: 第二百条（源泉徴収を要しない退職手当等の支払者）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei/200.html
+
+[p1] 1 常時二人以下の家事使用人のみに対し第二十八条第一項（給与所得）に規定する給与等の支払をする者は、前条の規定にかかわらず、その支払う退職手当等について所得税を徴収して納付することを要しない。

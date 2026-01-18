@@ -1,0 +1,6 @@
+law: 国税通則法 (kokuzei_tsusoku)
+law_type: act / law_num: 昭和三十七年法律第六十六号 / egov_id: 337AC0000000066 / as_of: 2025-12-27
+article: 138 / title: 第百三十八条（処分を受ける者に対する協力要請）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kokuzei_tsusoku/138.html
+
+[p1] 1 臨検すべき物件又は差し押さえるべき物件が電磁的記録に係る記録媒体であるときは、当該職員は、臨検又は捜索若しくは差押えを受ける者に対し、電子計算機の操作その他の必要な協力を求めることができる。

@@ -1,0 +1,7 @@
+law: 国税通則法 (kokuzei_tsusoku)
+law_type: act / law_num: 昭和三十七年法律第六十六号 / egov_id: 337AC0000000066 / as_of: 2025-12-27
+article: 17 / title: 第十七条（期限内申告）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kokuzei_tsusoku/17.html
+
+[p1] 1 申告納税方式による国税の納税者は、国税に関する法律の定めるところにより、納税申告書を法定申告期限までに税務署長に提出しなければならない。
+[p2] 2 前項の規定により提出する納税申告書は、期限内申告書という。

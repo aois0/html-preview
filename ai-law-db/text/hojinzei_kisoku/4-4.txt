@@ -1,0 +1,6 @@
+law: 法人税法施行規則 (hojinzei_kisoku)
+law_type: rule / law_num: 昭和四十年大蔵省令第十二号 / egov_id:  / as_of: 2025-12-27
+article: 4-4 / title: 第四条の四（学術の研究に付随した医療保健業を行う法人の要件）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_kisoku/4-4.html
+
+[p1] 1 令第五条第一項第二十九号ル（収益事業の範囲）に規定する財務省令で定めるものは、専ら学術の研究を行い、かつ、当該研究を円滑に行うための体制が整備されているものとして文部科学大臣の定める基準に該当することにつき文部科学大臣の証明を受けた法人とする。

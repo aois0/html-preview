@@ -1,0 +1,6 @@
+law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
+law_type: order / law_num: 昭和三十二年政令第四十三号 / egov_id:  / as_of: 2025-12-27
+article: 2-17-2 / title: 第二条の十七の二（財産形成非課税住宅貯蓄申告書）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/2-17-2.html
+
+[p1] 1 財産形成非課税住宅貯蓄申告書を受理した勤務先等の長及び金融機関の営業所等の長は、当該財産形成非課税住宅貯蓄申告書に、当該勤務先等に係る賃金の支払者若しくは事務代行団体又は当該金融機関の営業所等に係る金融機関等の法人番号を付記するものとする。

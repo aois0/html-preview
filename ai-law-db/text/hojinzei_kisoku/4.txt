@@ -1,0 +1,6 @@
+law: 法人税法施行規則 (hojinzei_kisoku)
+law_type: rule / law_num: 昭和四十年大蔵省令第十二号 / egov_id:  / as_of: 2025-12-27
+article: 4 / title: 第四条（住宅用土地の貸付業で収益事業に該当しないものの要件）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_kisoku/4.html
+
+[p1] 1 令第五条第一項第五号ヘ（不動産貸付業）に規定する財務省令で定める要件は、同号ヘに規定する貸付業の貸付けの対価の額のうち、当該事業年度の貸付期間に係る収入金額の合計額が、当該貸付けに係る土地に課される固定資産税額及び都市計画税額で当該貸付期間に係るものの合計額に三を乗じて計算した金額以下であることとする。

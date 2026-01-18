@@ -18,6 +18,9 @@
 - data/resolve_lite/index.json : resolve_lite ディレクトリの目次（軽量）
 - data/resolve_meta/{law_code}.json : 条文タイトル（短縮）辞書（法令別・軽量）
 - data/resolve_meta/index.json : resolve_meta ディレクトリの目次（軽量）
+- data/resolve_meta_corp/index.json : 条文タイトル（法人税編・分割）目次（軽量）
+- data/resolve_meta_corp/{law_code}/index.json : 法人税編の条文タイトル（分割）目次（法令別）
+- data/resolve_meta_corp/{law_code}/{bucket}.json : 条文タイトル（分割; 例: 39-14 など）
 - data/resolve_lite.json : 省サイズのURL解決（全法令まとめ・やや重い）
 - data/resolve.min.json : resolve.json の省サイズ版（JSONをそのまま/高速）
 - data/resolve.json : 略称・法令/条文の解決（URL解決用）
@@ -47,6 +50,7 @@
 1) URL解決（最軽量）: `data/law_aliases.json` → `data/resolve_lite/{law_code}.json` で `enhanced/...#anchor` を確定  
    - 目次が必要なら `data/resolve_lite/index.json`  
    - 条名（短縮）だけでよければ `data/resolve_meta/{law_code}.json`（軽量）  
+   - それでも大きい場合（例: 施行令など）: `data/resolve_meta_corp/{law_code}/index.json` → 必要な `bucket.json`（分割）  
    - 条名/参照キーも必要なら `data/resolve.min.json`（または `data/resolve.json`）  
 2) 本文抽出: まず `text/...` を読む（軽量で安定）  
 3) 根拠提示: 必要に応じて `enhanced/...#pX` / `#pX-iY` を引用URLとして提示  

@@ -1,0 +1,6 @@
+law: 消費税法 (shohizei)
+law_type: act / law_num: 昭和六十三年法律第百八号 / egov_id: 363AC0000000108 / as_of: 2025-12-27
+article: 25 / title: 第二十五条（法人の納税地の異動の届出）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shohizei/25.html
+
+[p1] 1 法人は、その資産の譲渡等及び特定仕入れに係る消費税の納税地に異動があつた場合（第二十三条第一項の指定により資産の譲渡等及び特定仕入れに係る消費税の納税地の異動があつた場合を除く。）には、遅滞なく、その異動前の納税地を所轄する税務署長に書面によりその旨を届け出なければならない。

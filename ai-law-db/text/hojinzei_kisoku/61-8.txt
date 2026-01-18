@@ -1,0 +1,8 @@
+law: 法人税法施行規則 (hojinzei_kisoku)
+law_type: rule / law_num: 昭和四十年大蔵省令第十二号 / egov_id:  / as_of: 2025-12-27
+article: 61-8 / title: 第六十一条の八
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_kisoku/61-8.html
+
+[p1] 1 法第百四十四条の十三第十二項（欠損金の繰戻しによる還付）に規定する財務省令で定める事項は、次の各号に掲げる外国法人の区分に応じ当該各号に定める事項とする。
+[p1-i1] 一 恒久的施設を有する外国法人 次に掲げる事項
+[p1-i2] 二 恒久的施設を有しない外国法人 次に掲げる事項

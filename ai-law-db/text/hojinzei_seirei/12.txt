@@ -1,0 +1,10 @@
+law: 法人税法施行令 (hojinzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十七号 / egov_id:  / as_of: 2025-12-27
+article: 12 / title: 第十二条（固定資産の範囲）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_seirei/12.html
+
+[p1] 1 法第二条第二十二号（定義）に規定する政令で定める資産は、棚卸資産、有価証券、資金決済に関する法律第二条第十四項（定義）に規定する暗号資産及び繰延資産以外の資産のうち次に掲げるものとする。
+[p1-i1] 一 土地（土地の上に存する権利を含む。）
+[p1-i2] 二 次条各号に掲げる資産
+[p1-i3] 三 電話加入権
+[p1-i4] 四 前三号に掲げる資産に準ずるもの

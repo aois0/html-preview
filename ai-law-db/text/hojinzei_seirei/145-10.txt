@@ -1,0 +1,6 @@
+law: 法人税法施行令 (hojinzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十七号 / egov_id:  / as_of: 2025-12-27
+article: 145-10 / title: 第百四十五条の十（匿名組合契約に準ずる契約の範囲）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_seirei/145-10.html
+
+[p1] 1 法第六十九条第四項第十三号（外国税額の控除）に規定する政令で定める契約は、当事者の一方が相手方の事業のために出資をし、相手方がその事業から生ずる利益を分配することを約する契約とする。

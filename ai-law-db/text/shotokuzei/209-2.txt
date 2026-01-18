@@ -1,0 +1,6 @@
+law: 所得税法 (shotokuzei)
+law_type: act / law_num: 昭和四十年法律第三十三号 / egov_id: 340AC0000000033 / as_of: 2025-12-27
+article: 209-2 / title: 第二百九条の二（源泉徴収義務）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei/209-2.html
+
+[p1] 1 居住者に対し国内において第百七十四条第三号から第八号まで（内国法人に係る所得税の課税標準）に掲げる給付補てん金、利息、利益又は差益の支払をする者は、その支払の際、その給付補てん金、利息、利益又は差益について所得税を徴収し、その徴収の日の属する月の翌月十日までに、これを国に納付しなければならない。

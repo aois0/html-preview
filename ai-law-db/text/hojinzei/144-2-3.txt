@@ -1,0 +1,6 @@
+law: 法人税法 (hojinzei)
+law_type: act / law_num: 昭和四十年法律第三十四号 / egov_id: 340AC0000000034 / as_of: 2025-12-27
+article: 144-2-3 / title: 第百四十四条の二の三（税額控除の順序）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei/144-2-3.html
+
+[p1] 1 前三条の規定による法人税の額からの控除については、まず前条の規定による控除をした後において、第百四十四条（外国法人に係る所得税額の控除）において準用する第六十八条（所得税額の控除）の規定及び第百四十四条の二（外国法人に係る外国税額の控除）の規定による控除をするものとする。

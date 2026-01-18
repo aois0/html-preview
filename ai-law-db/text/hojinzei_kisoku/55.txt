@@ -1,0 +1,7 @@
+law: 法人税法施行規則 (hojinzei_kisoku)
+law_type: rule / law_num: 昭和四十年大蔵省令第十二号 / egov_id:  / as_of: 2025-12-27
+article: 55 / title: 第五十五条（仕訳帳及び総勘定元帳の記載方法）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_kisoku/55.html
+
+[p1] 1 青色申告法人は、仕訳帳には、取引の発生順に、取引の年月日、内容、勘定科目及び金額を記載しなければならない。
+[p2] 2 青色申告法人は、総勘定元帳には、その勘定ごとに記載の年月日、相手方勘定科目及び金額を記載しなければならない。

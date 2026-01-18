@@ -1,0 +1,6 @@
+law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
+law_type: order / law_num: 昭和三十二年政令第四十三号 / egov_id:  / as_of: 2025-12-27
+article: 45-3-2 / title: 第四十五条の三の二（申告書の提出先の特例を適用しない物品の指定）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/45-3-2.html
+
+[p1] 1 法第八十五条第三項（法第八十七条の五第二項及び第八十八条の三第二項において準用する場合を含む。）に規定する政令で定める物品は、日本国とアメリカ合衆国との間の相互防衛援助協定第六条１ｂに規定する資材、需品又は装備とする。

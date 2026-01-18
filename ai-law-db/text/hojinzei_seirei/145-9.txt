@@ -1,0 +1,6 @@
+law: 法人税法施行令 (hojinzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十七号 / egov_id:  / as_of: 2025-12-27
+article: 145-9 / title: 第百四十五条の九（年金に係る契約の範囲）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_seirei/145-9.html
+
+[p1] 1 法第六十九条第四項第十一号（外国税額の控除）に規定する政令で定める契約は、保険業法第二条第六項（定義）に規定する外国保険業者、同条第三項に規定する生命保険会社若しくは同条第四項に規定する損害保険会社の締結する保険契約又はこれに類する共済に係る契約であつて、年金を給付する定めのあるものとする。

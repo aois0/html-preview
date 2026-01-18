@@ -1,0 +1,6 @@
+law: 法人税法 (hojinzei)
+law_type: act / law_num: 昭和四十年法律第三十四号 / egov_id: 340AC0000000034 / as_of: 2025-12-27
+article: 145-2 / title: 第百四十五条の二（外国法人に係る退職年金等積立金に対する法人税の課税標準）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei/145-2.html
+
+[p1] 1 外国法人に対して課する退職年金等積立金に対する法人税の課税標準は、各事業年度の退職年金等積立金の額とする。

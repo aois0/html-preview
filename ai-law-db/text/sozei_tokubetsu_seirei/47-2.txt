@@ -1,0 +1,9 @@
+law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
+law_type:  / law_num:  / egov_id:  / as_of: 
+article: 47-2 / title: 第四十七条の二（揮発油を消費して製造した製品の製造に関する書類）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/47-2.html
+
+[p1] 1 法第八十九条の二第二項に規定する政令で定める事項は、次に掲げる事項とする。
+[p1-i1] 一 当該製品の製造者の住所及び氏名又は名称
+[p1-i2] 二 当該製品の製造場の所在地及び名称
+[p1-i3] 三 当該製品の種類、当該種類ごとの数量その他参考となるべき事項

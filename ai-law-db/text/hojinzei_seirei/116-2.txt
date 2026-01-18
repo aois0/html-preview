@@ -1,0 +1,6 @@
+law: 法人税法施行令 (hojinzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十七号 / egov_id:  / as_of: 2025-12-27
+article: 116-2 / title: 第百十六条の二（会社更生等の場合の欠損金額の範囲）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_seirei/116-2.html
+
+[p1] 1 法第五十九条第一項（会社更生等による債務免除等があつた場合の欠損金の損金算入）に規定する欠損金額で政令で定めるものは、同項に規定する適用年度終了の時における前事業年度以前の事業年度から繰り越された欠損金額の合計額とする。

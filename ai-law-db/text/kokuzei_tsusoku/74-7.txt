@@ -1,0 +1,6 @@
+law: 国税通則法 (kokuzei_tsusoku)
+law_type: act / law_num: 昭和三十七年法律第六十六号 / egov_id: 337AC0000000066 / as_of: 2025-12-27
+article: 74-7 / title: 第七十四条の七（提出物件の留置き）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kokuzei_tsusoku/74-7.html
+
+[p1] 1 国税庁等又は税関の当該職員は、国税の調査について必要があるときは、当該調査において提出された物件を留め置くことができる。

@@ -1,0 +1,6 @@
+law: 消費税法 (shohizei)
+law_type: act / law_num: 昭和六十三年法律第百八号 / egov_id: 363AC0000000108 / as_of: 2025-12-27
+article: 62 / title: 第六十二条（特定資産の譲渡等を行う事業者の義務）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shohizei/62.html
+
+[p1] 1 特定資産の譲渡等（国内において他の者が行う特定課税仕入れに該当するものに限る。）を行う事業者は、当該特定資産の譲渡等に際し、あらかじめ、当該特定課税仕入れを行う事業者が第五条第一項の規定により消費税を納める義務がある旨を表示しなければならない。

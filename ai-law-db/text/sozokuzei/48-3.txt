@@ -1,0 +1,6 @@
+law: 相続税法 (sozokuzei)
+law_type:  / law_num:  / egov_id:  / as_of: 
+article: 48-3 / title: 第四十八条の三（延納又は物納に関する事務の引継ぎ）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/48-3.html
+
+[p1] 1 国税通則法第四十三条第三項（国税の徴収の所轄庁）の規定により国税局長が延納又は物納に関する事務の引継ぎを受けた場合におけるこの章の規定の適用については、同章中「税務署長」とあるのは、「国税局長」とする。

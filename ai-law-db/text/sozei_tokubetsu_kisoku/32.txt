@@ -1,0 +1,6 @@
+law: 租税特別措置法施行規則 (sozei_tokubetsu_kisoku)
+law_type: rule / law_num: 昭和三十二年大蔵省令第十五号 / egov_id:  / as_of: 2025-12-27
+article: 32 / title: 第三十二条（遠洋漁業船等の範囲）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/32.html
+
+[p1] 1 施行令第四十五条第二項に規定する財務省令で定める船舶は、東経百十八度及び東経百五十九度の線並びに北緯二十度及び北緯四十五度の線で囲まれた海域を除く海域において行う漁業の許可及び取締り等に関する省令（昭和三十八年農林省令第五号）第二条第九号に規定する母船式捕鯨業に従事する母船、独航船、運搬船及び補給船とする。

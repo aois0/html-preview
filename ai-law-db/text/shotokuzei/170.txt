@@ -1,0 +1,6 @@
+law: 所得税法 (shotokuzei)
+law_type: act / law_num: 昭和四十年法律第三十三号 / egov_id: 340AC0000000033 / as_of: 2025-12-27
+article: 170 / title: 第百七十条（分離課税に係る所得税の税率）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei/170.html
+
+[p1] 1 前条に規定する所得税の額は、同条に規定する国内源泉所得の金額に百分の二十（当該国内源泉所得の金額のうち第百六十一条第一項第八号及び第十五号（国内源泉所得）に掲げる国内源泉所得に係るものについては、百分の十五）の税率を乗じて計算した金額とする。

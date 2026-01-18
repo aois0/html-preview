@@ -279,5 +279,6 @@
     "69",
     "70"
   ],
-  "resolve_meta_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta/hojinzei_kisoku.json"
+  "resolve_meta_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta/hojinzei_kisoku.json",
+  "resolve_meta_corp_index_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta_corp/hojinzei_kisoku/index.json"
 }

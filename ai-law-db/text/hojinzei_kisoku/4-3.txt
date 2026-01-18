@@ -1,0 +1,6 @@
+law: 法人税法施行規則 (hojinzei_kisoku)
+law_type: rule / law_num: 昭和四十年大蔵省令第十二号 / egov_id:  / as_of: 2025-12-27
+article: 4-3 / title: 第四条の三（血液事業の範囲）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_kisoku/4-3.html
+
+[p1] 1 令第五条第一項第二十九号（収益事業の範囲）に規定する財務省令で定める血液事業は、献血により血液を採取し、その採取した血液（その血液から生成される安全な血液製剤の安定供給の確保等に関する法律（昭和三十一年法律第百六十号）第二条第一項（定義）に規定する血液製剤を含む。）を供給する事業とする。

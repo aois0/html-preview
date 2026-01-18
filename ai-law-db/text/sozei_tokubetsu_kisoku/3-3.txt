@@ -1,0 +1,6 @@
+law: 租税特別措置法施行規則 (sozei_tokubetsu_kisoku)
+law_type: rule / law_num: 昭和三十二年大蔵省令第十五号 / egov_id:  / as_of: 2025-12-27
+article: 3-3 / title: 第三条の三（財産形成住宅貯蓄の利子所得等が非課税とされない場合から除かれる利子所得等）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/3-3.html
+
+[p1] 1 施行令第二条の八第一号に規定する財務省令で定める場合は、第三条の八に定める預託金につき法第四条の二第一項に規定する財産形成非課税住宅貯蓄申込書の提出をしなかつた場合とする。

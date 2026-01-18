@@ -1,0 +1,6 @@
+law: 租税特別措置法施行規則 (sozei_tokubetsu_kisoku)
+law_type: rule / law_num: 昭和三十二年大蔵省令第十五号 / egov_id:  / as_of: 2025-12-27
+article: 41 / title: 第四十一条（都道府県が学資としての資金の貸付けを行う法人に対してする資金の提供の範囲）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/41.html
+
+[p1] 1 施行令第五十二条の二第一項に規定する財務省令で定めるものは、都道府県が、同項に規定する学資としての資金の貸付けに係る事業の費用に充てるための資金の提供を行うに当たり、当該資金の貸付けの条件を当該都道府県が承認するものをいう。

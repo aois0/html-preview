@@ -1,0 +1,6 @@
+law: 法人税法施行令 (hojinzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十七号 / egov_id:  / as_of: 2025-12-27
+article: 123-4 / title: 第百二十三条の四（適格分社型分割における分割承継法人の資産及び負債の取得価額）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_seirei/123-4.html
+
+[p1] 1 内国法人が適格分社型分割により分割法人から資産又は負債の移転を受けた場合には、当該移転を受けた資産及び負債の取得価額は、法第六十二条の三第一項（適格分社型分割による資産等の帳簿価額による譲渡）に規定する帳簿価額に相当する金額（その取得のために要した費用がある場合には、その費用の額を加算した金額）とする。

@@ -1,0 +1,6 @@
+law: 法人税法施行令 (hojinzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十七号 / egov_id:  / as_of: 2025-12-27
+article: 83 / title: 第八十三条（工事負担金で取得した固定資産等についての圧縮記帳に代わる経理方法）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_seirei/83.html
+
+[p1] 1 法第四十五条第一項及び第二項（工事負担金で取得した固定資産等の圧縮額の損金算入）に規定する政令で定める方法は、これらの規定に規定する決算の確定の日までに剰余金の処分により積立金として積み立てる方法とする。

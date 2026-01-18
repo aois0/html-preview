@@ -1,0 +1,6 @@
+law: 法人税法施行令 (hojinzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十七号 / egov_id:  / as_of: 2025-12-27
+article: 84-2 / title: 第八十四条の二（所有権が移転しないリース取引の範囲）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_seirei/84-2.html
+
+[p1] 1 法第四十七条第一項（保険金等で取得した固定資産等の圧縮額の損金算入）に規定する政令で定めるリース取引は、第四十八条の二第五項第五号（減価償却資産の償却の方法）に規定する所有権移転外リース取引とする。

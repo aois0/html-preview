@@ -1,0 +1,6 @@
+law: 相続税法 (sozokuzei)
+law_type:  / law_num:  / egov_id:  / as_of: 
+article: 21-14 / title: 第二十一条の十四（相続時精算課税に係る相続税額）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/21-14.html
+
+[p1] 1 特定贈与者から相続又は遺贈により財産を取得した者及び当該特定贈与者に係る相続時精算課税適用者の相続税の計算についての第十五条の規定の適用については、同条第一項中「（第十九条」とあるのは「（第十九条、第二十一条の十五又は第二十一条の十六」と、「同条」とあるのは「これら」とする。

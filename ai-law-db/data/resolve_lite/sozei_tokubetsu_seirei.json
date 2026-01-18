@@ -555,5 +555,6 @@
     "54",
     "55"
   ],
-  "resolve_meta_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta/sozei_tokubetsu_seirei.json"
+  "resolve_meta_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta/sozei_tokubetsu_seirei.json",
+  "resolve_meta_corp_index_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta_corp/sozei_tokubetsu_seirei/index.json"
 }

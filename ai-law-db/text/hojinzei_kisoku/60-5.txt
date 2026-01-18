@@ -1,0 +1,6 @@
+law: 法人税法施行規則 (hojinzei_kisoku)
+law_type: rule / law_num: 昭和四十年大蔵省令第十二号 / egov_id:  / as_of: 2025-12-27
+article: 60-5 / title: 第六十条の五（保険会社の投資資産の範囲）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_kisoku/60-5.html
+
+[p1] 1 法第百四十二条の三第一項（保険会社の投資資産及び投資収益）に規定する運用資産として財務省令で定めるものは、保険業法施行規則（平成八年大蔵省令第五号）第四十七条各号（資産の運用方法の制限）に掲げる方法により運用を行う資産とする。

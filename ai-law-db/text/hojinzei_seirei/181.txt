@@ -1,0 +1,6 @@
+law: 法人税法施行令 (hojinzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十七号 / egov_id:  / as_of: 2025-12-27
+article: 181 / title: 第百八十一条（債務の保証等に類する取引）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_seirei/181.html
+
+[p1] 1 法第百三十八条第二項（国内源泉所得）に規定する政令で定める取引は、資金の借入れその他の取引に係る債務の保証（債務を負担する行為であつて債務の保証に準ずるものを含む。）とする。

@@ -1,0 +1,6 @@
+law: 法人税法施行令 (hojinzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十七号 / egov_id:  / as_of: 2025-12-27
+article: 208 / title: 第二百八条（事業の主宰者の特殊関係者の範囲）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_seirei/208.html
+
+[p1] 1 第百七十三条（事業の主宰者の特殊関係者の範囲）の規定は、法第百四十七条（更正及び決定）において準用する法第百三十二条第一項第二号ロ（同族会社等の行為又は計算の否認）に規定する主宰者と政令で定める特殊の関係のある個人について準用する。

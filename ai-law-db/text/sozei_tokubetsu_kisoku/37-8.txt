@@ -1,0 +1,7 @@
+law: 租税特別措置法施行規則 (sozei_tokubetsu_kisoku)
+law_type: rule / law_num: 昭和三十二年大蔵省令第十五号 / egov_id:  / as_of: 2025-12-27
+article: 37-8 / title: 第三十七条の八（揮発油の平均小売価格の算出等）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/37-8.html
+
+[p1] 1 法第八十九条第三項に規定する財務省令で定める基幹統計調査は、小売物価統計調査規則（昭和五十七年総理府令第六号）第一条に規定する小売物価統計調査とする。
+[p2] 2 法第八十九条第三項に規定する揮発油の平均小売価格は、前項に規定する小売物価統計調査の結果として公表された自動車ガソリンの都市別の小売価格を合計したものを当該都市の数で除して得た額とする。

@@ -1,0 +1,6 @@
+law: 租税特別措置法施行規則 (sozei_tokubetsu_kisoku)
+law_type: rule / law_num: 昭和三十二年大蔵省令第十五号 / egov_id:  / as_of: 2025-12-27
+article: 35 / title: 第三十五条（外航船等への積込みにつき承認を受けた事実を証する書類の写しの交付）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/35.html
+
+[p1] 1 法第八十五条第一項若しくは第二項、第八十七条の五第一項又は第八十八条の三第一項の承認を受けた者が当該承認に係る酒類、製造たばこ又は特定物品を外航船等に積み込む場合には、当該承認を受けた者は、当該承認を受けた事実を証する書類の写しを当該外航船等の船長又は機長に交付しなければならない。

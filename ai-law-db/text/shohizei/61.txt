@@ -1,0 +1,6 @@
+law: 消費税法 (shohizei)
+law_type: act / law_num: 昭和六十三年法律第百八号 / egov_id: 363AC0000000108 / as_of: 2025-12-27
+article: 61 / title: 第六十一条（財務省令への委任）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shohizei/61.html
+
+[p1] 1 この法律に定めるもののほか、この法律の規定による許可若しくは承認に関する申請、担保の提供に関する手続又は書類の記載事項若しくは提出の手続その他この法律を実施するため必要な事項は、財務省令で定める。

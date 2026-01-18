@@ -1,0 +1,6 @@
+law: 国税通則法 (kokuzei_tsusoku)
+law_type: act / law_num: 昭和三十七年法律第六十六号 / egov_id: 337AC0000000066 / as_of: 2025-12-27
+article: 42 / title: 第四十二条（債権者代位権及び詐害行為取消権）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kokuzei_tsusoku/42.html
+
+[p1] 1 民法第三編第一章第二節第二款（債権者代位権）及び第三款（詐害行為取消権）の規定は、国税の徴収に関して準用する。

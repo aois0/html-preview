@@ -1,0 +1,7 @@
+law: 国税通則法 (kokuzei_tsusoku)
+law_type: act / law_num: 昭和三十七年法律第六十六号 / egov_id: 337AC0000000066 / as_of: 2025-12-27
+article: 56 / title: 第五十六条（還付）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kokuzei_tsusoku/56.html
+
+[p1] 1 国税局長、税務署長又は税関長は、還付金又は国税に係る過誤納金（以下「還付金等」という。）があるときは、遅滞なく、金銭で還付しなければならない。
+[p2] 2 国税局長は、必要があると認めるときは、その管轄区域内の地域を所轄する税務署長からその還付すべき還付金等について還付の引継ぎを受けることができる。

@@ -1,0 +1,6 @@
+law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
+law_type: order / law_num: 昭和三十二年政令第四十三号 / egov_id:  / as_of: 2025-12-27
+article: 26-9-3 / title: 第二十六条の九の三（特別割引債に係る民間都市開発推進機構の範囲）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/26-9-3.html
+
+[p1] 1 法第四十一条の十二第一項に規定する政令で定める民間都市開発推進機構は、公益財団法人であるものとする。

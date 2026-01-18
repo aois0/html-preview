@@ -1,0 +1,7 @@
+law: 相続税法 (sozokuzei)
+law_type: act / law_num: 昭和二十五年法律第七十三号 / egov_id: 325AC0000000073 / as_of: 2025-12-27
+article: 2 / title: 第二条（相続税の課税財産の範囲）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/2.html
+
+[p1] 1 第一条の三第一項第一号又は第二号の規定に該当する者については、その者が相続又は遺贈により取得した財産の全部に対し、相続税を課する。
+[p2] 2 第一条の三第一項第三号又は第四号の規定に該当する者については、その者が相続又は遺贈により取得した財産でこの法律の施行地にあるものに対し、相続税を課する。

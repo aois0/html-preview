@@ -1,0 +1,6 @@
+law: 法人税法施行令 (hojinzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十七号 / egov_id:  / as_of: 2025-12-27
+article: 195-2 / title: 第百九十五条の二（地方法人税控除限度額）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_seirei/195-2.html
+
+[p1] 1 法第百四十四条の二第二項（外国法人に係る外国税額の控除）に規定する地方法人税控除限度額として政令で定める金額は、地方法人税法施行令（平成二十六年政令第百三十九号）第三条第三項（外国税額の控除限度額の計算）の規定により計算した金額（第百九十七条第五項及び第六項（繰越控除限度額）において「地方法人税の控除限度額」という。）とする。

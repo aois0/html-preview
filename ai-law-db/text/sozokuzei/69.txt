@@ -1,0 +1,6 @@
+law: 相続税法 (sozokuzei)
+law_type: act / law_num: 昭和二十五年法律第七十三号 / egov_id: 325AC0000000073 / as_of: 2025-12-27
+article: 69 / title: 第六十九条
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/69.html
+
+[p1] 1 正当な理由がなくて期限内申告書又は第三十一条第二項の規定による修正申告書をこれらの申告書の提出期限までに提出しなかつた者は、一年以下の拘禁刑又は五十万円以下の罰金に処する。 ただし、情状により、その刑を免除することができる。

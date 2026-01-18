@@ -1,0 +1,6 @@
+law: 租税特別措置法施行規則 (sozei_tokubetsu_kisoku)
+law_type: rule / law_num: 昭和三十二年大蔵省令第十五号 / egov_id:  / as_of: 2025-12-27
+article: 37-5-2 / title: 第三十七条の五の二（カーボンリサイクルエタノールの範囲）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/37-5-2.html
+
+[p1] 1 法第八十八条の七第一項第二号に規定する財務省令で定めるアルコールは、エネルギー源の環境適合利用に関する石油精製業者の判断の基準（令和五年経済産業省告示第三十二号）に規定するカーボンリサイクル技術を用いて製造されたものとする。

@@ -1,0 +1,7 @@
+law: 法人税法施行令 (hojinzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十七号 / egov_id:  / as_of: 2025-12-27
+article: 123-6 / title: 第百二十三条の六（適格現物分配における被現物分配法人の資産の取得価額）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_seirei/123-6.html
+
+[p1] 1 内国法人が適格現物分配により現物分配法人から資産の移転を受けた場合には、当該資産の取得価額は、法第六十二条の五第三項（現物分配による資産の譲渡）に規定する帳簿価額に相当する金額とする。
+[p2] 2 適格現物分配（残余財産の全部の分配に限る。）は、当該残余財産の確定の日の翌日に行われたものとして、法の規定を適用する。

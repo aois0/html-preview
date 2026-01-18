@@ -1,0 +1,6 @@
+law: 法人税法施行令 (hojinzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十七号 / egov_id:  / as_of: 2025-12-27
+article: 140 / title: 第百四十条（基準日等にしたものとされない剰余金の配当又は利益の配当）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_seirei/140.html
+
+[p1] 1 法第六十七条第四項（特定同族会社の特別税率）に規定する政令で定めるものは、同項に規定する基準日等に同条第一項に規定する特定同族会社との間に通算完全支配関係がある内国法人に対する剰余金の配当又は利益の配当とする。

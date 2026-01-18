@@ -1,0 +1,8 @@
+law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
+law_type: order / law_num: 昭和三十二年政令第四十三号 / egov_id:  / as_of: 2025-12-27
+article: 19-2 / title: 第十九条の二（令和九年に開催される二千二十七年国際園芸博覧会の公式参加者に勤務する非居住者等の給与の非課税）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/19-2.html
+
+[p1] 1 法第二十九条第三号に規定する政令で定める任務は、次に掲げるものとする。
+[p1-i1] 一 法第二十九条第一号に規定する公式参加者の令和九年に開催される二千二十七年国際園芸博覧会の会場における展示について責任を有すること。
+[p1-i2] 二 前号の展示の内容を二千二十七年国際園芸博覧会政府委員に通知すること。

@@ -1,0 +1,7 @@
+law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
+law_type: order / law_num: 昭和三十二年政令第四十三号 / egov_id:  / as_of: 2025-12-27
+article: 42-2-3 / title: 第四十二条の二の三（抵当権の設定登記の税率が軽減される建築後使用されたことのある住宅用家屋の範囲）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/42-2-3.html
+
+[p1] 1 法第七十五条に規定する建築後使用されたことのある住宅用家屋のうち政令で定めるものは、第四十二条第一項に規定する家屋とする。
+[p2] 2 第四十二条第二項の規定は、前項の規定の適用について準用する。

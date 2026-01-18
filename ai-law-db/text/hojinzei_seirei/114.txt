@@ -1,0 +1,6 @@
+law: 法人税法施行令 (hojinzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十七号 / egov_id:  / as_of: 2025-12-27
+article: 114 / title: 第百十四条（固定資産に準ずる繰延資産）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_seirei/114.html
+
+[p1] 1 法第五十八条第一項（青色申告書を提出しなかつた事業年度の災害による損失金の繰越し）に規定する政令で定める繰延資産は、第十四条第一項第六号（繰延資産の範囲）に掲げる繰延資産のうち他の者の有する固定資産を利用するために支出されたものとする。

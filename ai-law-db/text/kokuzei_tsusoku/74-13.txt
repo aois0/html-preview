@@ -1,0 +1,6 @@
+law: 国税通則法 (kokuzei_tsusoku)
+law_type: act / law_num: 昭和三十七年法律第六十六号 / egov_id: 337AC0000000066 / as_of: 2025-12-27
+article: 74-13 / title: 第七十四条の十三（身分証明書の携帯等）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kokuzei_tsusoku/74-13.html
+
+[p1] 1 国税庁等又は税関の当該職員は、第七十四条の二から第七十四条の六まで（当該職員の質問検査権）の規定による質問、検査、提示若しくは提出の要求、閲覧の要求、採取、移動の禁止若しくは封かんの実施をする場合又は前条の職務を執行する場合には、その身分を示す証明書を携帯し、関係人の請求があつたときは、これを提示しなければならない。

@@ -1,0 +1,6 @@
+law: 租税特別措置法施行規則 (sozei_tokubetsu_kisoku)
+law_type: rule / law_num: 昭和三十二年大蔵省令第十五号 / egov_id:  / as_of: 2025-12-27
+article: 22-18-3 / title: 第二十二条の十八の三
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/22-18-3.html
+
+[p1] 1 施行令第三十九条の三十二第八項に規定する財務省令で定める承継は、法第六十七条の十三第一項に規定する有限責任事業組合契約を締結している組合員と当該有限責任事業組合契約を締結している他の組合員との間で行うその地位の承継とする。

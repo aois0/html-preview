@@ -1,0 +1,7 @@
+law: 租税特別措置法施行規則 (sozei_tokubetsu_kisoku)
+law_type: rule / law_num: 昭和三十二年大蔵省令第十五号 / egov_id:  / as_of: 2025-12-27
+article: 12 / title: 第十二条（山林所得の概算経費控除）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/12.html
+
+[p1] 1 法第三十条第一項に規定する財務省令で定める費用は、山林の伐採又は譲渡に関して要した伐採費、運搬費のほか、当該伐採又は譲渡に関して要した仲介手数料その他の費用とする。
+[p2] 2 法第三十条第四項に規定する割合は、百分の五十とする。

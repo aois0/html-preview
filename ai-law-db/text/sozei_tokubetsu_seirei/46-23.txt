@@ -1,0 +1,6 @@
+law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
+law_type: order / law_num: 昭和三十二年政令第四十三号 / egov_id:  / as_of: 2025-12-27
+article: 46-23 / title: 第四十六条の二十三（所持数量等届出書の記載事項）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/46-23.html
+
+[p1] 1 法第八十九条第九項に規定する政令で定める事項は、第四十六条の十八各号に掲げる事項とする。

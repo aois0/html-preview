@@ -1,0 +1,6 @@
+law: 法人税法 (hojinzei)
+law_type: act / law_num: 昭和四十年法律第三十四号 / egov_id: 340AC0000000034 / as_of: 2025-12-27
+article: 6 / title: 第六条（内国公益法人等の非収益事業所得等の非課税）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei/6.html
+
+[p1] 1 内国法人である公益法人等又は人格のない社団等の各事業年度の所得のうち収益事業から生じた所得以外の所得については、前条の規定にかかわらず、各事業年度の所得に対する法人税を課さない。

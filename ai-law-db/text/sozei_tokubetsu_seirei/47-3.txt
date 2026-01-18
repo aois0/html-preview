@@ -1,0 +1,9 @@
+law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
+law_type:  / law_num:  / egov_id:  / as_of: 
+article: 47-3 / title: 第四十七条の三（記帳等の命令）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/47-3.html
+
+[p1] 1 法第八十九条の二第三項の命令をする場合には、その内容を記載した書類を交付するものとする。
+[p2] 2 法第八十九条の二第三項の規定により帳簿に記載すべきことを命ずる事項は、次に掲げる事項とする。
+[p2-i1] 一 当該揮発油の受入数量、消費数量及び貯蔵数量並びに受入れ及び消費の年月日
+[p2-i2] 二 当該揮発油を消費して製造した石油化学製品の種類、種類ごとの数量、製造の年月日、販売数量、販売の年月日その他参考となるべき事項

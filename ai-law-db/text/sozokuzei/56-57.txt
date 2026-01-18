@@ -1,0 +1,6 @@
+law: 相続税法 (sozokuzei)
+law_type:  / law_num:  / egov_id:  / as_of: 
+article: 56-57 / title: 第五十六条及び第五十七条
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/56-57.html
+
+[p1] 1 削除

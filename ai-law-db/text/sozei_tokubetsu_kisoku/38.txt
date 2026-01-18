@@ -1,0 +1,7 @@
+law: 租税特別措置法施行規則 (sozei_tokubetsu_kisoku)
+law_type: rule / law_num: 昭和三十二年大蔵省令第十五号 / egov_id:  / as_of: 2025-12-27
+article: 38 / title: 第三十八条（装置の指定）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/38.html
+
+[p1] 1 施行令第四十七条第九号又は第十号に規定する財務省令で定める装置は、金属性反応管による原料分解装置とする。
+[p2] 2 施行令第四十七条第十一号に規定する財務省令で定める装置は、金属性反応管による原料分解装置又は金属性触媒を使用する断続式原料分解装置とする。

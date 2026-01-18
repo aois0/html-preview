@@ -1,0 +1,6 @@
+law: 法人税法施行規則 (hojinzei_kisoku)
+law_type: rule / law_num: 昭和四十年大蔵省令第十二号 / egov_id:  / as_of: 2025-12-27
+article: 53 / title: 第五十三条（青色申告法人の決算）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_kisoku/53.html
+
+[p1] 1 法第百二十一条第一項（青色申告）の承認を受けている法人（以下この章において「青色申告法人」という。）は、その資産、負債及び資本に影響を及ぼす一切の取引につき、複式簿記の原則に従い、整然と、かつ、明りように記録し、その記録に基づいて決算を行なわなければならない。

@@ -1,0 +1,6 @@
+law: 相続税法 (sozokuzei)
+law_type: act / law_num: 昭和二十五年法律第七十三号 / egov_id: 325AC0000000073 / as_of: 2025-12-27
+article: 70 / title: 第七十条
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/70.html
+
+[p1] 1 第五十九条の規定による調書を提出せず、又はその調書に虚偽の記載若しくは記録をして提出した者は、一年以下の拘禁刑又は五十万円以下の罰金に処する。

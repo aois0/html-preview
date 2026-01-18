@@ -1,0 +1,6 @@
+law: 法人税法施行令 (hojinzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十七号 / egov_id:  / as_of: 2025-12-27
+article: 169 / title: 第百六十九条（確定給付年金基金資産運用契約の範囲）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_seirei/169.html
+
+[p1] 1 法第八十四条第三項（退職年金等積立金の額の計算）に規定する政令で定める契約は、存続連合会確定給付年金積立金運用契約とする。

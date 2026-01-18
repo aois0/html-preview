@@ -1,0 +1,6 @@
+law: 法人税法施行令 (hojinzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十七号 / egov_id:  / as_of: 2025-12-27
+article: 93 / title: 第九十三条（圧縮記帳をした資産の帳簿価額）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_seirei/93.html
+
+[p1] 1 法第四十二条、第四十四条から第四十七条まで、第四十九条又は第五十条（圧縮記帳）の規定の適用を受ける資産については、これらの規定の適用によりその帳簿価額が一円未満となるべき場合においても、その帳簿価額として一円以上の金額を付するものとする。

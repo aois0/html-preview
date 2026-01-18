@@ -1,0 +1,6 @@
+law: 租税特別措置法施行規則 (sozei_tokubetsu_kisoku)
+law_type: rule / law_num: 昭和三十二年大蔵省令第十五号 / egov_id:  / as_of: 2025-12-27
+article: 37-11 / title: 第三十七条の十一（控除対象揮発油の数量を証する書類等の作成方法）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/37-11.html
+
+[p1] 1 法第八十九条第四項に規定する控除対象揮発油所持販売業者等は、同項に規定する控除対象揮発油の数量を証する書類と同条第九項に規定する届出書を複写する方法により作成するものとする。

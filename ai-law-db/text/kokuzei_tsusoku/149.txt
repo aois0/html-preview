@@ -1,0 +1,6 @@
+law: 国税通則法 (kokuzei_tsusoku)
+law_type: act / law_num: 昭和三十七年法律第六十六号 / egov_id: 337AC0000000066 / as_of: 2025-12-27
+article: 149 / title: 第百四十九条（処分中の出入りの禁止）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kokuzei_tsusoku/149.html
+
+[p1] 1 当該職員は、この節の規定により質問、検査、領置、臨検、捜索、差押え又は記録命令付差押えをする間は、何人に対しても、許可を受けないでその場所に出入りすることを禁止することができる。

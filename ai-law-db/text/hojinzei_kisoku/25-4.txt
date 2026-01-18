@@ -1,0 +1,8 @@
+law: 法人税法施行規則 (hojinzei_kisoku)
+law_type: rule / law_num: 昭和四十年大蔵省令第十二号 / egov_id:  / as_of: 2025-12-27
+article: 25-4 / title: 第二十五条の四（保存書類）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_kisoku/25-4.html
+
+[p1] 1 令第九十六条第二項（貸倒引当金勘定への繰入限度額）に規定する財務省令で定める書類は、次に掲げる書類とする。
+[p1-i1] 一 令第九十六条第一項各号に掲げる事実が生じていることを証する書類
+[p1-i2] 二 担保権の実行、保証債務の履行その他により取立て又は弁済の見込みがあると認められる部分の金額がある場合には、その金額を明らかにする書類

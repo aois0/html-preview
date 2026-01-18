@@ -1,0 +1,6 @@
+law: 法人税法施行令 (hojinzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十七号 / egov_id:  / as_of: 2025-12-27
+article: 24 / title: 第二十四条（資産の評価益の計上ができる評価換え）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_seirei/24.html
+
+[p1] 1 法第二十五条第二項（資産の評価益の益金不算入等）に規定する政令で定める評価換えは、保険会社が保険業法第百十二条（株式の評価の特例）の規定に基づいて行う株式の評価換えとする。

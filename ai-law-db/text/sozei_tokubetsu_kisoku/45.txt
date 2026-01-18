@@ -1,0 +1,6 @@
+law: 租税特別措置法施行規則 (sozei_tokubetsu_kisoku)
+law_type: rule / law_num: 昭和三十二年大蔵省令第十五号 / egov_id:  / as_of: 2025-12-27
+article: 45 / title: 第四十五条（電子申請等証明書等の書式）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/45.html
+
+[p1] 1 施行令第五十四条第四項に規定する請求書及び法第九十七条に規定する証明書の書式は、それぞれ別表第十四（一）及び別表第十四（二）による。

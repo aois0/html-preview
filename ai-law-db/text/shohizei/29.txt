@@ -1,0 +1,8 @@
+law: 消費税法 (shohizei)
+law_type: act / law_num: 昭和六十三年法律第百八号 / egov_id: 363AC0000000108 / as_of: 2025-12-27
+article: 29 / title: 第二十九条（税率）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shohizei/29.html
+
+[p1] 1 消費税の税率は、次の各号に掲げる区分に応じ当該各号に定める率とする。
+[p1-i1] 一 課税資産の譲渡等（軽減対象課税資産の譲渡等を除く。）、特定課税仕入れ及び保税地域から引き取られる課税貨物（軽減対象課税貨物を除く。） 百分の七・八
+[p1-i2] 二 軽減対象課税資産の譲渡等及び保税地域から引き取られる軽減対象課税貨物 百分の六・二四

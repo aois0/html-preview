@@ -1,0 +1,6 @@
+law: 法人税法施行令 (hojinzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十七号 / egov_id:  / as_of: 2025-12-27
+article: 145-8 / title: 第百四十五条の八（事業の広告宣伝のための賞金）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_seirei/145-8.html
+
+[p1] 1 法第六十九条第四項第十号（外国税額の控除）に規定する政令で定める賞金は、国外において事業を行う者から当該事業の広告宣伝のために賞として支払を受ける金品その他の経済的な利益とする。

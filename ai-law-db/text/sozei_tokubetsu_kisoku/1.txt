@@ -1,0 +1,8 @@
+law: 租税特別措置法施行規則 (sozei_tokubetsu_kisoku)
+law_type: rule / law_num: 昭和三十二年大蔵省令第十五号 / egov_id:  / as_of: 2025-12-27
+article: 1 / title: 第一条（用語の意義）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/1.html
+
+[p1] 1 第二章において、租税特別措置法（以下「法」という。）第二条第一項各号に掲げる用語の意義は、当該各号に定めるところによる。
+[p2] 2 第三章において、法第二条第二項各号に掲げる用語の意義は、当該各号に定めるところによる。
+[p3] 3 第六章において、法第二条第四項各号に掲げる用語及び法第八十八条の五に規定する用語の意義は、法第二条第四項各号及び法第八十八条の五に定めるところによる。

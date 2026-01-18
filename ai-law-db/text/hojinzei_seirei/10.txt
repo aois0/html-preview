@@ -1,0 +1,13 @@
+law: 法人税法施行令 (hojinzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十七号 / egov_id:  / as_of: 2025-12-27
+article: 10 / title: 第十条（棚卸資産の範囲）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_seirei/10.html
+
+[p1] 1 法第二条第二十号（棚卸資産の意義）に規定する政令で定める資産は、次に掲げる資産とする。
+[p1-i1] 一 商品又は製品（副産物及び作業くずを含む。）
+[p1-i2] 二 半製品
+[p1-i3] 三 仕掛品（半成工事を含む。）
+[p1-i4] 四 主要原材料
+[p1-i5] 五 補助原材料
+[p1-i6] 六 消耗品で貯蔵中のもの
+[p1-i7] 七 前各号に掲げる資産に準ずるもの

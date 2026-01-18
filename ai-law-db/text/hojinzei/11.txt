@@ -1,0 +1,6 @@
+law: 法人税法 (hojinzei)
+law_type: act / law_num: 昭和四十年法律第三十四号 / egov_id: 340AC0000000034 / as_of: 2025-12-27
+article: 11 / title: 第十一条（実質所得者課税の原則）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei/11.html
+
+[p1] 1 資産又は事業から生ずる収益の法律上帰属するとみられる者が単なる名義人であつて、その収益を享受せず、その者以外の法人がその収益を享受する場合には、その収益は、これを享受する法人に帰属するものとして、この法律の規定を適用する。

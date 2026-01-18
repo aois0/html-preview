@@ -1,0 +1,6 @@
+law: 所得税法 (shotokuzei)
+law_type: act / law_num: 昭和四十年法律第三十三号 / egov_id: 340AC0000000033 / as_of: 2025-12-27
+article: 237 / title: 第二百三十七条（附加税の禁止）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei/237.html
+
+[p1] 1 地方公共団体は、所得税の附加税を課することができない。

@@ -1,0 +1,6 @@
+law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
+law_type:  / law_num:  / egov_id:  / as_of: 
+article: 5-4 / title: 第五条の四
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/5-4.html
+
+[p1] 1 削除

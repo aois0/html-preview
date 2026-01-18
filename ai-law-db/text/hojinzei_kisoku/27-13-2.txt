@@ -1,0 +1,6 @@
+law: 法人税法施行規則 (hojinzei_kisoku)
+law_type: rule / law_num: 昭和四十年大蔵省令第十二号 / egov_id:  / as_of: 2025-12-27
+article: 27-13-2 / title: 第二十七条の十三の二
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_kisoku/27-13-2.html
+
+[p1] 1 令第百二十二条の十二第一項第三号（完全支配関係がある法人の間の取引の損益）に規定する財務省令で定める単位は、第二十七条の十五第一項各号（特定資産に係る譲渡等損失額の損金不算入）に掲げる資産の区分に応じ当該各号に定めるところにより区分した後の単位とする。

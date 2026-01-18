@@ -1,0 +1,43 @@
+{
+  "as_of": "2025-12-27",
+  "base_url": "https://jplawdb.github.io/html-preview/ai-law-db",
+  "bucket_index_url_template": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta_corp/{law_code}/index.json",
+  "laws": {
+    "hojinzei": {
+      "title": "法人税法",
+      "as_of": "2025-12-27",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei/index.html",
+      "bucket_index_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta_corp/hojinzei/index.json"
+    },
+    "hojinzei_kisoku": {
+      "title": "法人税法施行規則",
+      "as_of": "2025-12-27",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_kisoku/index.html",
+      "bucket_index_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta_corp/hojinzei_kisoku/index.json"
+    },
+    "hojinzei_seirei": {
+      "title": "法人税法施行令",
+      "as_of": "2025-12-27",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_seirei/index.html",
+      "bucket_index_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta_corp/hojinzei_seirei/index.json"
+    },
+    "sozei_tokubetsu": {
+      "title": "租税特別措置法",
+      "as_of": "2025-12-27",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu/index.html",
+      "bucket_index_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta_corp/sozei_tokubetsu/index.json"
+    },
+    "sozei_tokubetsu_kisoku": {
+      "title": "租税特別措置法施行規則",
+      "as_of": "2025-12-27",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/index.html",
+      "bucket_index_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta_corp/sozei_tokubetsu_kisoku/index.json"
+    },
+    "sozei_tokubetsu_seirei": {
+      "title": "租税特別措置法施行令",
+      "as_of": "2025-12-27",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/index.html",
+      "bucket_index_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta_corp/sozei_tokubetsu_seirei/index.json"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+law: 租税特別措置法施行規則 (sozei_tokubetsu_kisoku)
+law_type: rule / law_num: 昭和三十二年大蔵省令第十五号 / egov_id:  / as_of: 2025-12-27
+article: 37-4-9 / title: 第三十七条の四の九（輸出酒類販売場で購入した酒類の譲渡等の手続）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/37-4-9.html
+
+[p1] 1 法第八十七条の六第四項ただし書の承認を受けようとする者は、消費税法施行規則第九条に規定する申請書で、当該酒類の税率の適用区分及び当該区分ごとの数量を付記したものに申請者の旅券等の写しを添付して、これを同項ただし書に規定する税務署長に提出しなければならない。

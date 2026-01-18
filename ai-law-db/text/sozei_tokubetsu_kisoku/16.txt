@@ -1,0 +1,6 @@
+law: 租税特別措置法施行規則 (sozei_tokubetsu_kisoku)
+law_type: rule / law_num: 昭和三十二年大蔵省令第十五号 / egov_id:  / as_of: 2025-12-27
+article: 16 / title: 第十六条（収用交換等により取得した代替資産等の取得価額の計算）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/16.html
+
+[p1] 1 法第三十三条の六第一項の規定により同項に規定する代替資産等の取得価額を計算する場合において、同項に規定する当該譲渡資産に係る当該代替資産等が二以上あるときは、これらの代替資産等の取得価額は、同項の規定により計算した取得価額とされる金額をこれらの代替資産の価額にあん分して計算した金額とする。

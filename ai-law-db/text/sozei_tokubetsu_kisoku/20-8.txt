@@ -1,0 +1,6 @@
+law: 租税特別措置法施行規則 (sozei_tokubetsu_kisoku)
+law_type: rule / law_num: 昭和三十二年大蔵省令第十五号 / egov_id:  / as_of: 2025-12-27
+article: 20-8 / title: 第二十条の八（認定地方公共団体の寄附活用事業に関連する寄附をした場合の法人税額の特別控除）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/20-8.html
+
+[p1] 1 法第四十二条の十二の二第二項に規定する財務省令で定める書類は、同条第一項の法人が支出した寄附金を受けた同項に規定する認定地方公共団体が当該寄附金の受領について地域再生法施行規則第十四条第一項の規定により交付する書類とする。

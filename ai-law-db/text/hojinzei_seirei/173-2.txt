@@ -1,0 +1,6 @@
+law: 法人税法施行令 (hojinzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十七号 / egov_id:  / as_of: 2025-12-27
+article: 173-2 / title: 第百七十三条の二（更正等により還付すべき所得税額等の充当の順序）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_seirei/173-2.html
+
+[p1] 1 第百五十二条（還付すべき所得税額等の充当の順序）の規定は、法第百三十三条第一項（更正等による所得税額等の還付）の規定による還付金（これに係る還付加算金を含む。）を未納の国税及び滞納処分費に充当する場合について準用する。

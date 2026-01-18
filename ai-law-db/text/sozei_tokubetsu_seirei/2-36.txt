@@ -1,0 +1,6 @@
+law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
+law_type: order / law_num: 昭和三十二年政令第四十三号 / egov_id:  / as_of: 2025-12-27
+article: 2-36 / title: 第二条の三十六（納税準備預金に係る金融機関の範囲）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/2-36.html
+
+[p1] 1 法第五条第二項に規定する政令で定める金融機関は、銀行、信用金庫、労働金庫、信用協同組合、農業協同組合、農業協同組合連合会、漁業協同組合、漁業協同組合連合会、水産加工業協同組合、水産加工業協同組合連合会及び株式会社商工組合中央金庫とする。

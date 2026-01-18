@@ -1,0 +1,6 @@
+law: 所得税法 (shotokuzei)
+law_type: act / law_num: 昭和四十年法律第三十三号 / egov_id: 340AC0000000033 / as_of: 2025-12-27
+article: 146 / title: 第百四十六条（青色申告の承認等の通知）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei/146.html
+
+[p1] 1 税務署長は、第百四十四条（青色申告の承認の申請）の申請書の提出があつた場合において、その申請につき承認又は却下の処分をするときは、その申請をした居住者に対し、書面によりその旨を通知する。

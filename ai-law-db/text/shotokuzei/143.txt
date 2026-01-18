@@ -1,0 +1,6 @@
+law: 所得税法 (shotokuzei)
+law_type: act / law_num: 昭和四十年法律第三十三号 / egov_id: 340AC0000000033 / as_of: 2025-12-27
+article: 143 / title: 第百四十三条（青色申告）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei/143.html
+
+[p1] 1 不動産所得、事業所得又は山林所得を生ずべき業務を行なう居住者は、納税地の所轄税務署長の承認を受けた場合には、確定申告書及び当該申告書に係る修正申告書を青色の申告書により提出することができる。

@@ -1,0 +1,6 @@
+law: 法人税法施行規則 (hojinzei_kisoku)
+law_type: rule / law_num: 昭和四十年大蔵省令第十二号 / egov_id:  / as_of: 2025-12-27
+article: 54 / title: 第五十四条（取引に関する帳簿及び記載事項）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_kisoku/54.html
+
+[p1] 1 青色申告法人は、全ての取引を借方及び貸方に仕訳する帳簿（次条において「仕訳帳」という。）、全ての取引を勘定科目の種類別に分類して整理計算する帳簿（次条において「総勘定元帳」という。）その他必要な帳簿を備え、別表二十二に定めるところにより、取引に関する事項を記載しなければならない。

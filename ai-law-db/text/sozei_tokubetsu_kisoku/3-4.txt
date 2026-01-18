@@ -1,0 +1,6 @@
+law: 租税特別措置法施行規則 (sozei_tokubetsu_kisoku)
+law_type: rule / law_num: 昭和三十二年大蔵省令第十五号 / egov_id:  / as_of: 2025-12-27
+article: 3-4 / title: 第三条の四（生存給付金等の範囲）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/3-4.html
+
+[p1] 1 施行令第二条の十一第二項第一号に規定する財務省令で定めるものは、勤労者財産形成促進法第六条第四項第二号に掲げる生命保険契約等の内容を変更したことにより支払われることとなる返戻金とする。

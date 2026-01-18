@@ -1,0 +1,6 @@
+law: 法人税法施行令 (hojinzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十七号 / egov_id:  / as_of: 2025-12-27
+article: 122-13 / title: 第百二十二条の十三（対価の交付が省略されたと認められる分割型分割）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_seirei/122-13.html
+
+[p1] 1 法第六十二条第一項（合併及び分割による資産等の時価による譲渡）に規定する政令で定めるものは、第四条の三第六項第二号イ（２）（適格組織再編成における株式の保有関係等）に掲げる関係がある分割型分割とする。

@@ -1,0 +1,8 @@
+law: 租税特別措置法施行規則 (sozei_tokubetsu_kisoku)
+law_type: rule / law_num: 昭和三十二年大蔵省令第十五号 / egov_id:  / as_of: 2025-12-27
+article: 24-14 / title: 第二十四条の十四（農業協同組合等が合併した場合の課税の特例）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/24-14.html
+
+[p1] 1 法第七十一条の十七第二項に規定する財務省令で定める書類は、次に掲げる事項を記載した書類及び同条第一項第二号の合併に係る同項に規定する合併経営計画又は合併及び事業経営計画の認定に係る書類の写しとする。
+[p1-i1] 一 当該合併の年月日
+[p1-i2] 二 当該合併に係る合併前の法第七十一条の十七第一項に規定する農業協同組合等が当該合併の直前において有していた土地等の地目、面積、所在地及び価額

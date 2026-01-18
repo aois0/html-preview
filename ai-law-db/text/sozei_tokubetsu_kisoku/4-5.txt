@@ -1,0 +1,6 @@
+law: 租税特別措置法施行規則 (sozei_tokubetsu_kisoku)
+law_type: rule / law_num: 昭和三十二年大蔵省令第十五号 / egov_id:  / as_of: 2025-12-27
+article: 4-5 / title: 第四条の五（確定申告を要しない配当所得等）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/4-5.html
+
+[p1] 1 施行令第四条の三第三項第二号に規定する財務省令で定める規定は、所得税法施行規則第八十二条第二項（同項第三号に係る部分に限る。）、第八十三条第二項（同項第一号から第三号までに係る部分に限る。）及び第九十七条第二項の規定とする。

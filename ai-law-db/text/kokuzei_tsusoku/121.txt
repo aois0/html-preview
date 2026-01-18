@@ -1,0 +1,6 @@
+law: 国税通則法 (kokuzei_tsusoku)
+law_type: act / law_num: 昭和三十七年法律第六十六号 / egov_id: 337AC0000000066 / as_of: 2025-12-27
+article: 121 / title: 第百二十一条（供託）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kokuzei_tsusoku/121.html
+
+[p1] 1 民法第四百九十四条（供託）並びに第四百九十五条第一項及び第三項（供託の方法）の規定は、国税に関する法律の規定により納税者その他の者に金銭その他の物件を交付し、又は引き渡すべき場合について準用する。

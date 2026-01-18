@@ -1,0 +1,6 @@
+law: 租税特別措置法施行規則 (sozei_tokubetsu_kisoku)
+law_type: rule / law_num: 昭和三十二年大蔵省令第十五号 / egov_id:  / as_of: 2025-12-27
+article: 23-15 / title: 第二十三条の十五（特別緑地保全地区等内の土地に係る相続税の延納に伴う利子税の特例）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/23-15.html
+
+[p1] 1 法第七十条の九第三項に規定する財務省令で定める書類は、同条第一項に規定する土地が同項に規定する地区内にあることについての当該土地の所在地の都道府県知事の証明書とする。

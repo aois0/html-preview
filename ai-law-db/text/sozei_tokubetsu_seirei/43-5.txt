@@ -1,0 +1,7 @@
+law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
+law_type: order / law_num: 昭和三十二年政令第四十三号 / egov_id:  / as_of: 2025-12-27
+article: 43-5 / title: 第四十三条の五（登記の免税を受ける建設線の範囲）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/43-5.html
+
+[p1] 1 法第八十四条に規定する建設線のうち政令で定めるものは、同条に規定する建設線のうち国土交通大臣が財務大臣と協議して定めるものとする。
+[p2] 2 国土交通大臣は、前項の規定により同項の建設線を定めたときは、これを告示する。

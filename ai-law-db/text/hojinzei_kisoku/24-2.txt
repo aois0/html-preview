@@ -1,0 +1,6 @@
+law: 法人税法施行規則 (hojinzei_kisoku)
+law_type: rule / law_num: 昭和四十年大蔵省令第十二号 / egov_id:  / as_of: 2025-12-27
+article: 24-2 / title: 第二十四条の二（国庫補助金等の対象となる助成金の使途）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_kisoku/24-2.html
+
+[p1] 1 令第七十九条第八号（国庫補助金等の範囲）に規定する財務省令で定める使途は、日本国有鉄道清算事業団の債務等の処理に関する法律施行規則（平成十年運輸省令第七十号）附則第五条第一項第一号ロ（１）（機構の行う会社等への助成金の交付等の認可）に掲げる鉄道施設等の整備とする。

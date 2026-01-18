@@ -1,0 +1,6 @@
+law: 所得税法 (shotokuzei)
+law_type: act / law_num: 昭和四十年法律第三十三号 / egov_id: 340AC0000000033 / as_of: 2025-12-27
+article: 144 / title: 第百四十四条（青色申告の承認の申請）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei/144.html
+
+[p1] 1 その年分以後の各年分の所得税につき前条の承認を受けようとする居住者は、その年三月十五日まで（その年一月十六日以後新たに同条に規定する業務を開始した場合には、その業務を開始した日から二月以内）に、当該業務に係る所得の種類その他財務省令で定める事項を記載した申請書を納税地の所轄税務署長に提出しなければならない。

@@ -1,0 +1,6 @@
+law: 国税通則法 (kokuzei_tsusoku)
+law_type: act / law_num: 昭和三十七年法律第六十六号 / egov_id: 337AC0000000066 / as_of: 2025-12-27
+article: 20 / title: 第二十条（修正申告の効力）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kokuzei_tsusoku/20.html
+
+[p1] 1 修正申告書で既に確定した納付すべき税額を増加させるものの提出は、既に確定した納付すべき税額に係る部分の国税についての納税義務に影響を及ぼさない。

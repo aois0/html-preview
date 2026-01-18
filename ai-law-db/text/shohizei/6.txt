@@ -1,0 +1,7 @@
+law: 消費税法 (shohizei)
+law_type: act / law_num: 昭和六十三年法律第百八号 / egov_id: 363AC0000000108 / as_of: 2025-12-27
+article: 6 / title: 第六条（非課税）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shohizei/6.html
+
+[p1] 1 国内において行われる資産の譲渡等のうち、別表第二に掲げるものには、消費税を課さない。
+[p2] 2 保税地域から引き取られる外国貨物のうち、別表第二の二に掲げるものには、消費税を課さない。

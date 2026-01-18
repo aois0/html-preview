@@ -512,5 +512,6 @@
     "97",
     "98"
   ],
-  "resolve_meta_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta/sozei_tokubetsu.json"
+  "resolve_meta_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta/sozei_tokubetsu.json",
+  "resolve_meta_corp_index_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta_corp/sozei_tokubetsu/index.json"
 }

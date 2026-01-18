@@ -1,0 +1,7 @@
+law: 所得税法 (shotokuzei)
+law_type: act / law_num: 昭和四十年法律第三十三号 / egov_id: 340AC0000000033 / as_of: 2025-12-27
+article: 80 / title: 第八十条（寡婦控除）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei/80.html
+
+[p1] 1 居住者が寡婦である場合には、その者のその年分の総所得金額、退職所得金額又は山林所得金額から二十七万円を控除する。
+[p2] 2 前項の規定による控除は、寡婦控除という。

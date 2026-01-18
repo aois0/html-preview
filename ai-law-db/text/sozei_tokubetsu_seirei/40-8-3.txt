@@ -1,0 +1,6 @@
+law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
+law_type: order / law_num: 昭和三十二年政令第四十三号 / egov_id:  / as_of: 2025-12-27
+article: 40-8-3 / title: 第四十条の八の三（非上場株式等の贈与者が死亡した場合の相続税の課税の特例）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/40-8-3.html
+
+[p1] 1 法第七十条の七の三第二項の規定により読み替えて適用する同条第一項に規定する政令で定める者は、第四十条の八第五項各号に掲げる場合の区分に応じ当該各号に定める者とする。

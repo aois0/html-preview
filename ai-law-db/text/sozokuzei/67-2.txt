@@ -1,0 +1,6 @@
+law: 相続税法 (sozokuzei)
+law_type:  / law_num:  / egov_id:  / as_of: 
+article: 67-2 / title: 第六十七条の二（政令への委任）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/67-2.html
+
+[p1] 1 この法律に定めるもののほか、相続時精算課税に係る納税に係る権利又は義務の承継その他相続税及び贈与税の適用に関し必要な事項は、政令で定める。

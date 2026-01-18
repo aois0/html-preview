@@ -1,0 +1,6 @@
+law: 相続税法 (sozokuzei)
+law_type:  / law_num:  / egov_id:  / as_of: 
+article: 9-6 / title: 第九条の六（政令への委任）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/9-6.html
+
+[p1] 1 受益者等の有する信託に関する権利が当該信託に関する権利の全部でない場合における第九条の二第一項の規定の適用、同条第五項に規定する信託財産の給付を受けることとされている者に該当するか否かの判定その他この節の規定の適用に関し必要な事項は、政令で定める。

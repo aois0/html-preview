@@ -1,0 +1,6 @@
+law: 法人税法施行規則 (hojinzei_kisoku)
+law_type: rule / law_num: 昭和四十年大蔵省令第十二号 / egov_id:  / as_of: 2025-12-27
+article: 62 / title: 第六十二条（青色申告）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_kisoku/62.html
+
+[p1] 1 法第百四十六条第一項（青色申告）において準用する法第二編第四章（青色申告）の規定の適用に係る事項については、前編第四章（青色申告）の規定を準用する。 この場合において、次の表の上欄に掲げる規定中同表の中欄に掲げる字句は、それぞれ同表の下欄に掲げる字句に読み替えるものとする。

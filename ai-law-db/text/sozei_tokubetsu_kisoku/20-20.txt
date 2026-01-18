@@ -1,0 +1,6 @@
+law: 租税特別措置法施行規則 (sozei_tokubetsu_kisoku)
+law_type: rule / law_num: 昭和三十二年大蔵省令第十五号 / egov_id:  / as_of: 2025-12-27
+article: 20-20 / title: 第二十条の二十（輸出事業用資産の割増償却）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/20-20.html
+
+[p1] 1 法第四十六条第一項に規定する財務省令で定めるところにより証明がされた事業年度は、同項に規定する輸出事業用資産につき同項の規定の適用を受けようとする事業年度の当該輸出事業用資産に係る農林水産省関係農林水産物及び食品の輸出の促進に関する法律施行規則第八条第一項の証明書の写しを当該事業年度の確定申告書等に添付することにより証明がされた当該事業年度とする。

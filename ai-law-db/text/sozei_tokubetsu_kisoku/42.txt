@@ -1,0 +1,6 @@
+law: 租税特別措置法施行規則 (sozei_tokubetsu_kisoku)
+law_type: rule / law_num: 昭和三十二年大蔵省令第十五号 / egov_id:  / as_of: 2025-12-27
+article: 42 / title: 第四十二条（消費貸借契約書への表示）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/42.html
+
+[p1] 1 法第九十一条の三第二項に規定する財務省令で定める表示は、同項の規定の適用により印紙税が課されない旨の表示とする。

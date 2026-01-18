@@ -1,0 +1,6 @@
+law: 国税通則法 (kokuzei_tsusoku)
+law_type: act / law_num: 昭和三十七年法律第六十六号 / egov_id: 337AC0000000066 / as_of: 2025-12-27
+article: 8 / title: 第八条（国税の連帯納付義務についての民法の準用）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kokuzei_tsusoku/8.html
+
+[p1] 1 国税に関する法律の規定により国税を連帯して納付する義務については、民法第四百三十六条、第四百三十七条及び第四百四十一条から第四百四十五条まで（連帯債務の効力等）の規定を準用する。

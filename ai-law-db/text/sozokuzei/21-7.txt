@@ -1,0 +1,6 @@
+law: 相続税法 (sozokuzei)
+law_type:  / law_num:  / egov_id:  / as_of: 
+article: 21-7 / title: 第二十一条の七（贈与税の税率）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/21-7.html
+
+[p1] 1 贈与税の額は、前二条の規定による控除後の課税価格を次の表の上欄に掲げる金額に区分してそれぞれの金額に同表の下欄に掲げる税率を乗じて計算した金額を合計した金額とする。

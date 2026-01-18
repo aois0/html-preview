@@ -1,0 +1,6 @@
+law: 租税特別措置法施行規則 (sozei_tokubetsu_kisoku)
+law_type: rule / law_num: 昭和三十二年大蔵省令第十五号 / egov_id:  / as_of: 2025-12-27
+article: 22-14 / title: 第二十二条の十四（社会保険診療報酬の所得の計算の特例）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/22-14.html
+
+[p1] 1 医療法人が法第六十七条第一項の規定の適用を受ける場合における第九条の七の規定の適用については、同条中「法第二十六条第一項」とあるのは「法第六十七条第一項」と、「年分の確定申告書」とあるのは「事業年度の確定申告書等」とする。

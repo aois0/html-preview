@@ -1,0 +1,10 @@
+law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
+law_type: order / law_num: 昭和三十二年政令第四十三号 / egov_id:  / as_of: 2025-12-27
+article: 46-14 / title: 第四十六条の十四（バイオエタノール等揮発油に係る報告事項等）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/46-14.html
+
+[p1] 1 法第八十八条の七第七項に規定する政令で定める事項は、次に掲げる事項とする。
+[p1-i1] 一 バイオエタノール等揮発油の戻入れ又は移入の数量
+[p1-i2] 二 バイオエタノール等の製造、移出、消費、戻入れ又は移入の数量
+[p1-i3] 三 バイオエタノール等揮発油の製造見込数量
+[p1-i4] 四 その他財務省令で定める事項

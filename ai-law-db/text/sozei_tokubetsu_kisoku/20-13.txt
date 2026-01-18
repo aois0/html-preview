@@ -1,0 +1,6 @@
+law: 租税特別措置法施行規則 (sozei_tokubetsu_kisoku)
+law_type: rule / law_num: 昭和三十二年大蔵省令第十五号 / egov_id:  / as_of: 2025-12-27
+article: 20-13 / title: 第二十条の十三（再資源化事業等高度化設備の特別償却）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/20-13.html
+
+[p1] 1 施行令第二十八条の八の二第三項に規定する財務省令で定める書類は、環境大臣の法第四十四条の六第一項の規定の適用を受けようとする機械及び装置並びに器具及び備品が同項に規定する再資源化事業等高度化設備に該当するものであることを証する書類とする。

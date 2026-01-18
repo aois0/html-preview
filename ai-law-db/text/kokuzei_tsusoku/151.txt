@@ -1,0 +1,6 @@
+law: 国税通則法 (kokuzei_tsusoku)
+law_type: act / law_num: 昭和三十七年法律第六十六号 / egov_id: 337AC0000000066 / as_of: 2025-12-27
+article: 151 / title: 第百五十一条（捜索証明書の交付）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kokuzei_tsusoku/151.html
+
+[p1] 1 捜索をした場合において、証拠物又は没収すべき物件がないときは、捜索を受けた者の請求により、その旨の証明書を交付しなければならない。

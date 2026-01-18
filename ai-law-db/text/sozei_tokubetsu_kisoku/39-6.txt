@@ -1,0 +1,6 @@
+law: 租税特別措置法施行規則 (sozei_tokubetsu_kisoku)
+law_type: rule / law_num: 昭和三十二年大蔵省令第十五号 / egov_id:  / as_of: 2025-12-27
+article: 39-6 / title: 第三十九条の六（還付の申請に係る場所の特例の承認の申請等）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/39-6.html
+
+[p1] 1 第三十九条の四の規定は、施行令第四十九条第三項又は第五十条第二項の規定による承認について準用する。
