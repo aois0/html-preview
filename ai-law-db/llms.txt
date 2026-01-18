@@ -12,24 +12,38 @@
 - index.html : 入口（法令一覧）
 - enhanced/{law_code}/index.html : 法令ごとの目次（条文一覧）
 - enhanced/{law_code}/{article}.html : 個別条文（例: 57-8.html）
+- text/{law_code}/{article}.txt : プレーンテキスト（抽出・RAG前処理向け）
 - data/laws.json : 利用可能な法令メタデータ（機械処理向け）
+- data/resolve_lite.json : 省サイズのURL解決（law_code→条文一覧）
+- data/resolve.min.json : resolve.json の省サイズ版（JSONをそのまま/高速）
+- data/resolve.json : 略称・法令/条文の解決（URL解決用）
+- data/law_aliases.json : 法令略称→law_code 辞書
+- data/chunks/{law_code}.jsonl : 項/号ごとのJSONL（RAG投入用）
 - sitemap.xml : サイトマップ
 
 ## HTMLの構造（AI向け）
 
 - 条（Article）
-  - `<article data-law="法令名" data-article="57-8">`
+  - `<article data-law="法令名" data-law-code="sozei_tokubetsu" data-article="57-8">`
+  - `data-cite` / `data-cite-id` に正規化済み参照キーを付与
   - 見出し: `<h2 id="article-57-8">...`
 
 - 項（Paragraph）
-  - `<div data-paragraph="1" id="p1">...`
+  - `<div data-paragraph="1" id="p1" data-cite="...第1項" data-cite-id="...:p1">...`
 
 - 号（Item）
-  - `<p class="item" data-item="一" id="p2-i1">...`
+  - `<p class="item" data-item="一" data-item-index="1" id="p2-i1" data-cite="...第1号" data-cite-id="...:i1">...`
 
 フラグメント例:
 - 第2項へ: `.../57-8.html#p2`
 - 第2項第1号へ: `.../57-8.html#p2-i1`
+
+## 推奨の参照フロー（高速）
+
+1) URL解決（最速）: `data/law_aliases.json` + `data/resolve_lite.json` で `enhanced/...#anchor` を確定  
+   - 条名/参照キーも必要なら `data/resolve.min.json`（または `data/resolve.json`）  
+2) 本文抽出: まず `text/...` を読む（軽量で安定）  
+3) 根拠提示: 必要に応じて `enhanced/...#pX` / `#pX-iY` を引用URLとして提示  
 
 ## 利用可能な法令（law_code）
 

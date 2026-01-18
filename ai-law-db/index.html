@@ -21,6 +21,10 @@
   <ul>
     <li><a href="llms.txt">/ai-law-db/llms.txt</a>（AI向けサイトマップ）</li>
     <li><a href="data/laws.json">/ai-law-db/data/laws.json</a>（機械処理向けメタデータ）</li>
+    <li><a href="data/resolve.json">/ai-law-db/data/resolve.json</a>（略称・条文URL解決）</li>
+    <li><a href="data/resolve.min.json">/ai-law-db/data/resolve.min.json</a>（resolve.json 省サイズ版）</li>
+    <li><a href="data/resolve_lite.json">/ai-law-db/data/resolve_lite.json</a>（law_code→条文一覧・最速解決）</li>
+    <li><a href="data/law_aliases.json">/ai-law-db/data/law_aliases.json</a>（略称辞書）</li>
   </ul>
 
   <h2>法令一覧（enhanced）</h2>
@@ -40,6 +44,8 @@
   <h2>URLパターン</h2>
   <ul>
     <li>条文: <code>/ai-law-db/enhanced/{law_code}/{article}.html</code></li>
+    <li>プレーンテキスト: <code>/ai-law-db/text/{law_code}/{article}.txt</code></li>
+    <li>RAG投入用chunks: <code>/ai-law-db/data/chunks/{law_code}.jsonl</code></li>
     <li>項アンカー: <code>#p1</code>（例: <code>#p2</code>）</li>
     <li>号アンカー: <code>#p2-i1</code>（例: 第2項第1号）</li>
   </ul>
