@@ -1,5 +1,6 @@
 # Site entry for LLMs
 
 - Tax law dataset: /html-preview/ai-law-db/llms.txt
+- Fast law article titles (resolve_meta): /html-preview/ai-law-db/data/resolve_meta/index.json
 - Tax circular dataset: /html-preview/ai-tsutatsu-db/llms.txt
 - Repository-level info: /html-preview/llms.txt
