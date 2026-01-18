@@ -21,6 +21,8 @@
 - data/resolve_meta_corp/index.json : 条文タイトル（法人税編・分割）目次（軽量）
 - data/resolve_meta_corp/{law_code}/index.json : 法人税編の条文タイトル（分割）目次（法令別）
 - data/resolve_meta_corp/{law_code}/{bucket}.json : 条文タイトル（分割; 例: 39-14 など）
+
+※bucket は「条文キー先頭の数字」です（例: 39-14→39 / 2-4-2→2）
 - data/resolve_lite.json : 省サイズのURL解決（全法令まとめ・やや重い）
 - data/resolve.min.json : resolve.json の省サイズ版（JSONをそのまま/高速）
 - data/resolve.json : 略称・法令/条文の解決（URL解決用）
