@@ -32,6 +32,7 @@ from bs4 import BeautifulSoup
 SITE_BASE_URL = "https://jplawdb.github.io/html-preview/ai-law-db"
 SITE_ENHANCED_BASE_URL = f"{SITE_BASE_URL}/enhanced"
 RESOLVE_LITE_DIR_NAME = "resolve_lite"
+RESOLVE_META_DIR_NAME = "resolve_meta"
 
 
 def sort_article_key(num: str):
@@ -47,6 +48,21 @@ def sort_article_key(num: str):
 
 def clean_ws(text: str) -> str:
     return re.sub(r"\s+", " ", text or "").strip()
+
+
+def extract_subject_title(heading: str) -> str:
+    """
+    Extracts the short subject title from headings like:
+      "第三十九条の十四（課税対象金額の計算等）" -> "課税対象金額の計算等"
+    Falls back to the full heading when no parenthesized subject exists.
+    """
+    h = clean_ws(heading)
+    if not h:
+        return ""
+    m = re.search(r"[（(]([^）)]+)[）)]\s*$", h)
+    if m:
+        return clean_ws(m.group(1))
+    return h
 
 
 def iter_article_files(law_dir: Path) -> list[Path]:
@@ -357,13 +373,17 @@ def main() -> None:
     resolve_lite_dir = data_dir / RESOLVE_LITE_DIR_NAME
     resolve_lite_dir.mkdir(parents=True, exist_ok=True)
 
+    resolve_meta_dir = data_dir / RESOLVE_META_DIR_NAME
+    resolve_meta_dir.mkdir(parents=True, exist_ok=True)
+
     # Per-law resolver-lite: much smaller download when the law_code is known.
     # Typical flow:
     #   1) data/law_aliases.json => law_code
     #   2) data/resolve_lite/{law_code}.json => available articles
     #   3) text/{law_code}/{article}.txt => content
     for law_code, law in laws.items():
-        articles = list((law.get("articles") or {}).keys())
+        articles_obj = law.get("articles") or {}
+        articles = list(articles_obj.keys())
         per_law = {
             "as_of": law.get("as_of"),
             "base_url": SITE_BASE_URL,
@@ -378,14 +398,36 @@ def main() -> None:
             "text_url_template": "text/{law_code}/{article}.txt",
             "anchors": resolve.get("anchors"),
             "articles": sorted(articles, key=sort_article_key),
+            "resolve_meta_url": f"{SITE_BASE_URL}/data/{RESOLVE_META_DIR_NAME}/{law_code}.json",
         }
         (resolve_lite_dir / f"{law_code}.json").write_text(
             json.dumps(per_law, ensure_ascii=False, indent=2) + "\n",
             encoding="utf-8",
         )
 
+        # Per-law article metadata (title-only): smaller alternative to resolve.min.json.
+        # Provides deterministic lookups like: articles["39-14"].title
+        per_law_meta_articles: dict[str, Any] = {}
+        for article in sorted(articles, key=sort_article_key):
+            meta = articles_obj.get(article) or {}
+            per_law_meta_articles[article] = {"title": extract_subject_title(meta.get("title") or "")}
+
+        per_law_meta = {
+            "as_of": law.get("as_of"),
+            "base_url": SITE_BASE_URL,
+            "law_code": law_code,
+            "law_title": law.get("title"),
+            "index_url": law.get("index_url"),
+            "articles": per_law_meta_articles,
+        }
+        (resolve_meta_dir / f"{law_code}.json").write_text(
+            json.dumps(per_law_meta, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+
     # Directory index (lightweight) for discovery.
     index_laws: dict[str, Any] = {}
+    index_meta: dict[str, Any] = {}
     for law_code, law in laws.items():
         articles = list((law.get("articles") or {}).keys())
         index_laws[law_code] = {
@@ -397,6 +439,13 @@ def main() -> None:
             "index_url": law.get("index_url"),
             "articles_count": len(articles),
             "resolve_lite_url": f"{SITE_BASE_URL}/data/{RESOLVE_LITE_DIR_NAME}/{law_code}.json",
+        }
+        index_meta[law_code] = {
+            "title": law.get("title"),
+            "as_of": law.get("as_of"),
+            "index_url": law.get("index_url"),
+            "articles_count": len(articles),
+            "resolve_meta_url": f"{SITE_BASE_URL}/data/{RESOLVE_META_DIR_NAME}/{law_code}.json",
         }
 
     resolve_lite_index = {
@@ -412,6 +461,18 @@ def main() -> None:
 
     (resolve_lite_dir / "index.json").write_text(
         json.dumps(resolve_lite_index, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+    # resolve_meta directory index
+    resolve_meta_index = {
+        "as_of": resolve.get("as_of"),
+        "base_url": SITE_BASE_URL,
+        "resolve_meta_url_template": f"{SITE_BASE_URL}/data/{RESOLVE_META_DIR_NAME}/{{law_code}}.json",
+        "laws": index_meta,
+    }
+    (resolve_meta_dir / "index.json").write_text(
+        json.dumps(resolve_meta_index, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
 
