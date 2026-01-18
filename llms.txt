@@ -8,8 +8,8 @@
 2) AI向け 日本税法（主要税法）
 - /html-preview/ai-law-db/index.html
 - /html-preview/ai-law-db/llms.txt  （AI向けサイトマップ）
+- /html-preview/ai-law-db/data/resolve_meta_corp/index.json （条文タイトル辞書・法人税編（分割）・最優先）
 - /html-preview/ai-law-db/data/resolve_meta/index.json （条文タイトル辞書・法令別）
-- /html-preview/ai-law-db/data/resolve_meta_corp/index.json （条文タイトル辞書・法人税編（分割））
 
 3) AI向け 日本税務通達（基本通達ほか）
 - /html-preview/ai-tsutatsu-db/index.html
