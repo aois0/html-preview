@@ -1,0 +1,8 @@
+law: 国税通則法施行規則 (kokuzei_tsusoku_kisoku)
+law_type: rule / law_num: 昭和三十七年大蔵省令第二十八号 / egov_id:  / as_of: 2025-12-27
+article: 8 / title: 第八条（納付受託者の報告）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kokuzei_tsusoku_kisoku/8.html
+
+[p1] 1 納付受託者は、法第三十四条の五第二項（納付受託者の納付）の規定により、次に掲げる事項を国税庁長官又は財務大臣に報告しなければならない。
+[p1-i1] 一 報告の対象となつた期間並びに当該期間において法第三十四条の三第一項（納付受託者に対する納付の委託）の規定により国税を納付しようとする者の委託を受けた件数、合計額及び納付年月日
+[p1-i2] 二 前号の期間において受けた同号の委託に係る次に掲げる事項

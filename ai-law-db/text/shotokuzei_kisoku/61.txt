@@ -1,0 +1,7 @@
+law: 所得税法施行規則 (shotokuzei_kisoku)
+law_type: rule / law_num: 昭和四十年大蔵省令第十一号 / egov_id:  / as_of: 2025-12-27
+article: 61 / title: 第六十一条（貸借対照表及び損益計算書）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei_kisoku/61.html
+
+[p1] 1 前条第一項に規定する青色申告者は、毎年十二月三十一日において、財務大臣の定める科目に従い、貸借対照表及び損益計算書を作成しなければならない。
+[p2] 2 財務大臣は、前項の定めをしたときは、これを告示する。

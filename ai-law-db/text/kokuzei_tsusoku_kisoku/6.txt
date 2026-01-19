@@ -1,0 +1,6 @@
+law: 国税通則法施行規則 (kokuzei_tsusoku_kisoku)
+law_type: rule / law_num: 昭和三十七年大蔵省令第二十八号 / egov_id:  / as_of: 2025-12-27
+article: 6 / title: 第六条（納付受託者の名称等の変更の届出）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kokuzei_tsusoku_kisoku/6.html
+
+[p1] 1 納付受託者（法第三十四条の四第一項（納付受託者）に規定する納付受託者をいう。以下同じ。）は、その名称、住所又は事務所の所在地を変更しようとするときは、同条第三項の規定により、変更しようとする日の前日から起算して六十日前の日又はその変更を決定した日の翌日から起算して十四日後の日のいずれか早い日までに、その旨を記載した届出書を国税庁長官又は財務大臣に提出しなければならない。

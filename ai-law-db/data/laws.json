@@ -3,14 +3,22 @@
   "source": "e-Gov法令検索（法令XML相当）を基に生成",
   "laws": [
     {"code":"shotokuzei","title":"所得税法","egov_id":"340AC0000000033","type":"act"},
+    {"code":"shotokuzei_seirei","title":"所得税法施行令","egov_id":"340CO0000000096","type":"order"},
+    {"code":"shotokuzei_kisoku","title":"所得税法施行規則","egov_id":"340M50000040011","type":"rule"},
     {"code":"hojinzei","title":"法人税法","egov_id":"340AC0000000034","type":"act"},
-    {"code":"hojinzei_seirei","title":"法人税法施行令","type":"order"},
-    {"code":"hojinzei_kisoku","title":"法人税法施行規則","type":"rule"},
+    {"code":"hojinzei_seirei","title":"法人税法施行令","egov_id":"340CO0000000097","type":"order"},
+    {"code":"hojinzei_kisoku","title":"法人税法施行規則","egov_id":"340M50000040012","type":"rule"},
     {"code":"shohizei","title":"消費税法","egov_id":"363AC0000000108","type":"act"},
+    {"code":"shohizei_seirei","title":"消費税法施行令","egov_id":"363CO0000000360","type":"order"},
+    {"code":"shohizei_kisoku","title":"消費税法施行規則","egov_id":"363M50000040053","type":"rule"},
     {"code":"sozokuzei","title":"相続税法","egov_id":"325AC0000000073","type":"act"},
+    {"code":"sozokuzei_seirei","title":"相続税法施行令","egov_id":"325CO0000000071","type":"order"},
+    {"code":"sozokuzei_kisoku","title":"相続税法施行規則","egov_id":"325M50000040017","type":"rule"},
     {"code":"kokuzei_tsusoku","title":"国税通則法","egov_id":"337AC0000000066","type":"act"},
+    {"code":"kokuzei_tsusoku_seirei","title":"国税通則法施行令","egov_id":"337CO0000000135","type":"order"},
+    {"code":"kokuzei_tsusoku_kisoku","title":"国税通則法施行規則","egov_id":"337M50000040028","type":"rule"},
     {"code":"sozei_tokubetsu","title":"租税特別措置法","egov_id":"332AC0000000026","type":"act"},
-    {"code":"sozei_tokubetsu_seirei","title":"租税特別措置法施行令","type":"order"},
-    {"code":"sozei_tokubetsu_kisoku","title":"租税特別措置法施行規則","type":"rule"}
+    {"code":"sozei_tokubetsu_seirei","title":"租税特別措置法施行令","egov_id":"332CO0000000043","type":"order"},
+    {"code":"sozei_tokubetsu_kisoku","title":"租税特別措置法施行規則","egov_id":"332M50000040015","type":"rule"}
   ]
 }

@@ -1,0 +1,6 @@
+law: 所得税法施行令 (shotokuzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十六号 / egov_id:  / as_of: 2025-12-27
+article: 322 / title: 第三百二十二条（支払金額から控除する金額）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei_seirei/322.html
+
+[p1] 1 法第二百五条第二号（報酬又は料金等に係る徴収税額）に規定する政令で定める金額は、次の表の上欄に掲げる報酬又は料金の区分に応じ、同表の中欄に掲げる金額につき同表の下欄に掲げる金額とする。

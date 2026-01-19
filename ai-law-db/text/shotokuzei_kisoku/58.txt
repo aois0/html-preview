@@ -1,0 +1,7 @@
+law: 所得税法施行規則 (shotokuzei_kisoku)
+law_type: rule / law_num: 昭和四十年大蔵省令第十一号 / egov_id:  / as_of: 2025-12-27
+article: 58 / title: 第五十八条（取引に関する帳簿及び記載事項）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei_kisoku/58.html
+
+[p1] 1 青色申告者は、すべての取引を借方及び貸方に仕訳する帳簿（次条において「仕訳帳」という。）、すべての取引を勘定科目の種類別に分類して整理計算する帳簿（次条において「総勘定元帳」という。）その他必要な帳簿を備え、財務大臣の定める取引に関する事項を記載しなければならない。
+[p2] 2 財務大臣は、前項の定めをしたときは、これを告示する。

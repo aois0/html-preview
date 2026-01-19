@@ -1,0 +1,6 @@
+law: 相続税法施行規則 (sozokuzei_kisoku)
+law_type: rule / law_num: 昭和二十五年大蔵省令第十七号 / egov_id:  / as_of: 2025-12-27
+article: 12-4 / title: 第十二条の四（法定利率による複利の計算で現価を算出するための割合）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei_kisoku/12-4.html
+
+[p1] 1 法第二十三条の二第一項第三号に規定する財務省令で定める割合は、法定利率に一を加えた数を同項第二号イに規定する配偶者居住権の存続年数で累乗して得た数をもつて一を除して得た割合（当該割合に小数点以下三位未満の端数があるときは、これを四捨五入する。）とする。

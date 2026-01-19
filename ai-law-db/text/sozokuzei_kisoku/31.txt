@@ -1,0 +1,6 @@
+law: 相続税法施行規則 (sozokuzei_kisoku)
+law_type: rule / law_num: 昭和二十五年大蔵省令第十七号 / egov_id:  / as_of: 2025-12-27
+article: 31 / title: 第三十一条（調書の書式）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei_kisoku/31.html
+
+[p1] 1 法第五十九条第一項第一号の調書は第五号書式又は第六号書式により、同項第二号の調書は第七号書式により、同条第二項の調書は第八号書式により、同条第三項の調書は第九号書式による。

@@ -1,0 +1,6 @@
+law: 消費税法施行規則 (shohizei_kisoku)
+law_type: rule / law_num: 昭和六十三年大蔵省令第五十三号 / egov_id:  / as_of: 2025-12-27
+article: 2 / title: 第二条（生産設備等の範囲）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shohizei_kisoku/2.html
+
+[p1] 1 令第六条第二項第五号ハに規定する財務省令で定めるものは、蓄電、変電及び配電施設、ガス貯蔵及び供給施設、石油貯蔵施設、通信施設、放送施設、工業用水道施設、上水道施設、下水道施設、汚水処理施設、農業生産施設、林業生産施設、ヒートポンプ施設、ばい煙処理施設、窒素酸化物抑制施設、粉じん処理施設、廃棄物処理施設、船舶、鉄道用車両又は航空機とする。

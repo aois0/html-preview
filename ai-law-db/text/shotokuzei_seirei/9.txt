@@ -1,0 +1,6 @@
+law: 所得税法施行令 (shotokuzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十六号 / egov_id:  / as_of: 2025-12-27
+article: 9 / title: 第九条（災害の範囲）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei_seirei/9.html
+
+[p1] 1 法第二条第一項第二十七号（災害の意義）に規定する政令で定める災害は、冷害、雪害、干害、落雷、噴火その他の自然現象の異変による災害及び鉱害、火薬類の爆発その他の人為による異常な災害並びに害虫、害獣その他の生物による異常な災害とする。

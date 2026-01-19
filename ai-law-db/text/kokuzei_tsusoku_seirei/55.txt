@@ -1,0 +1,6 @@
+law: 国税通則法施行令 (kokuzei_tsusoku_seirei)
+law_type: order / law_num: 昭和三十七年政令第百三十五号 / egov_id:  / as_of: 2025-12-27
+article: 55 / title: 第五十五条（犯則の心証を得ない場合の供託書の交付）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kokuzei_tsusoku_seirei/55.html
+
+[p1] 1 国税局長又は税務署長は、法第百六十条（犯則の心証を得ない場合の通知等）の規定により犯則の心証を得ない旨を犯則嫌疑者に通知する場合において、法第百四十四条第二項（領置物件等の処置）の規定により供託した金銭があるときは、供託書の正本に供託金を受け取るべき事由を証する書面を添付し、これを領置又は差押えの際における領置物件等の所持者に交付しなければならない。

@@ -1,0 +1,6 @@
+law: 国税通則法施行令 (kokuzei_tsusoku_seirei)
+law_type: order / law_num: 昭和三十七年政令第百三十五号 / egov_id:  / as_of: 2025-12-27
+article: 43 / title: 第四十三条（財務省令への委任）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kokuzei_tsusoku_seirei/43.html
+
+[p1] 1 この政令に定めるもののほか、法及びこの政令の実施のための手続その他これらの執行に関し必要な細則は、財務省令で定める。

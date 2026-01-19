@@ -1,0 +1,6 @@
+law: 所得税法施行令 (shotokuzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十六号 / egov_id:  / as_of: 2025-12-27
+article: 7-2 / title: 第七条の二（変動所得の範囲）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei_seirei/7-2.html
+
+[p1] 1 法第二条第一項第二十三号（変動所得の意義）に規定する政令で定める所得は、漁獲若しくはのりの採取から生ずる所得、はまち、まだい、ひらめ、かき、うなぎ、ほたて貝若しくは真珠（真珠貝を含む。）の養殖から生ずる所得、原稿若しくは作曲の報酬に係る所得又は著作権の使用料に係る所得とする。

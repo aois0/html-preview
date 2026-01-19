@@ -1,0 +1,6 @@
+law: 相続税法施行令 (sozokuzei_seirei)
+law_type: order / law_num: 昭和二十五年政令第七十一号 / egov_id:  / as_of: 2025-12-27
+article: 1-5 / title: 第一条の五（返還金等が課税される損害保険契約）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei_seirei/1-5.html
+
+[p1] 1 法第五条第二項に規定する政令で定める損害保険契約は、前条に規定する損害賠償責任に関する保険若しくは共済に係る契約以外の損害保険契約で傷害を保険事故とするもの又は共済に係る契約で第一条の二第二項第二号イからヘまでに掲げるものとする。

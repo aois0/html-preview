@@ -1,0 +1,6 @@
+law: 所得税法施行規則 (shotokuzei_kisoku)
+law_type: rule / law_num: 昭和四十年大蔵省令第十一号 / egov_id:  / as_of: 2025-12-27
+article: 81-37 / title: 第八十一条の三十七（金地金等の譲渡の対価の受領者が国内に住所を有しない場合の告知すべき居所地等）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei_kisoku/81-37.html
+
+[p1] 1 第八十一条（国内に住所を有しない者の告知すべき居所地等）の規定は、法第二百二十四条の六（金地金等の譲渡の対価の受領者の告知）に規定する財務省令で定める場所について準用する。

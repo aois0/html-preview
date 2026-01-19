@@ -1,0 +1,10 @@
+law: 相続税法施行規則 (sozokuzei_kisoku)
+law_type: rule / law_num: 昭和二十五年大蔵省令第十七号 / egov_id:  / as_of: 2025-12-27
+article: 18-2 / title: 第十八条の二（連帯納付義務者に通知すべき事項）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei_kisoku/18-2.html
+
+[p1] 1 法第三十四条第五項に規定する財務省令で定める事項は、同項の納税義務者の相続税に係る次に掲げる事項とする。
+[p1-i1] 一 当該相続税が完納されていない旨
+[p1-i2] 二 当該相続税について法第三十四条第五項の規定による通知を受ける同項に規定する連帯納付義務者に同条第一項本文の規定の適用がある旨
+[p1-i3] 三 当該相続税に係る被相続人の氏名
+[p1-i4] 四 その他必要な事項

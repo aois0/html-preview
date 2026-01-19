@@ -1,0 +1,6 @@
+law: 相続税法施行規則 (sozokuzei_kisoku)
+law_type: rule / law_num: 昭和二十五年大蔵省令第十七号 / egov_id:  / as_of: 2025-12-27
+article: 12-2 / title: 第十二条の二（耐用年数）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei_kisoku/12-2.html
+
+[p1] 1 施行令第五条の七第二項に規定する財務省令で定める耐用年数は、配偶者居住権の目的となつている建物の全部が住宅用であるものとした場合における当該建物に係る減価償却資産の耐用年数等に関する省令（昭和四十年大蔵省令第十五号）に定める耐用年数とする。

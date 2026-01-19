@@ -1,0 +1,6 @@
+law: 所得税法施行令 (shotokuzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十六号 / egov_id:  / as_of: 2025-12-27
+article: 56 / title: 第五十六条（納税地の指定）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei_seirei/56.html
+
+[p1] 1 法第十八条第一項（納税地の指定）に規定する政令で定める場合は、同条の規定により指定されるべき納税地が法第十五条から第十七条まで（納税地）の規定による納税地（既に法第十八条の規定により納税地の指定がされている場合には、その指定をされている納税地）の所轄国税局長の管轄区域以外の地域にある場合とする。

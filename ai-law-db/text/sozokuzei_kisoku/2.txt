@@ -1,0 +1,8 @@
+law: 相続税法施行規則 (sozokuzei_kisoku)
+law_type: rule / law_num: 昭和二十五年大蔵省令第十七号 / egov_id:  / as_of: 2025-12-27
+article: 2 / title: 第二条（障害者非課税信託申告書の添付書類）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei_kisoku/2.html
+
+[p1] 1 施行令第四条の十第一項に規定する財務省令で定める書類は、次に掲げる書類とする。
+[p1-i1] 一 法第二十一条の四第一項の規定の適用を受けようとする同項に規定する特定障害者（以下「特定障害者」という。）のイからヘまでに掲げる区分に応じイからヘまでに定める書類
+[p1-i2] 二 施行令第四条の十第一項第四号に規定する信託受益権の価額の計算の明細書

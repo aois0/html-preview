@@ -1,0 +1,6 @@
+law: 消費税法施行規則 (shohizei_kisoku)
+law_type: rule / law_num: 昭和六十三年大蔵省令第五十三号 / egov_id:  / as_of: 2025-12-27
+article: 3-2 / title: 第三条の二（独立行政法人等の情報の公開に係る役務の提供に類するものの範囲）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shohizei_kisoku/3-2.html
+
+[p1] 1 令第十二条第二項第四号に規定する財務省令で定めるものは、個人情報の保護に関する法律（平成十五年法律第五十七号）第八十九条第四項（手数料）に規定する手数料又は同法第百十九条第五項（手数料）に規定する利用料を対価とする役務の提供とする。

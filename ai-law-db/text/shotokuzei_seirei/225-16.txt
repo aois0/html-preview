@@ -1,0 +1,9 @@
+law: 所得税法施行令 (shotokuzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十六号 / egov_id:  / as_of: 2025-12-27
+article: 225-16 / title: 第二百二十五条の十六（内部取引に含まれない事実の範囲等）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei_seirei/225-16.html
+
+[p1] 1 法第九十五条第七項（外国税額控除）に規定する利子に準ずるものとして政令で定めるものは、手形の割引料その他経済的な性質が利子に準ずるものとする。
+[p2] 2 法第九十五条第七項に規定する政令で定める事実は、次に掲げる事実とする。
+[p2-i1] 一 次に掲げるものの使用料の支払に相当する事実
+[p2-i2] 二 前号イからハまでに掲げるものの譲渡又は取得に相当する事実

@@ -1,0 +1,7 @@
+law: 国税通則法施行令 (kokuzei_tsusoku_seirei)
+law_type: order / law_num: 昭和三十七年政令第百三十五号 / egov_id:  / as_of: 2025-12-27
+article: 32-3 / title: 第三十二条の三（答弁書の提出）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kokuzei_tsusoku_seirei/32-3.html
+
+[p1] 1 答弁書は、正本並びに当該答弁書を送付すべき審査請求人及び参加人の数に相当する通数の副本を提出しなければならない。
+[p2] 2 法第九十三条第三項（答弁書の提出等）の規定による答弁書の送付は、答弁書の副本によつてする。

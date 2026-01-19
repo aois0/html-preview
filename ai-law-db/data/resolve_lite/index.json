@@ -11,6 +11,10 @@
   "law_aliases": {
     "所得税法": "shotokuzei",
     "所法": "shotokuzei",
+    "所得税法施行令": "shotokuzei_seirei",
+    "所法令": "shotokuzei_seirei",
+    "所得税法施行規則": "shotokuzei_kisoku",
+    "所法規則": "shotokuzei_kisoku",
     "法人税法": "hojinzei",
     "法法": "hojinzei",
     "法人税法施行令": "hojinzei_seirei",
@@ -19,11 +23,25 @@
     "法法規則": "hojinzei_kisoku",
     "消費税法": "shohizei",
     "消法": "shohizei",
+    "消費税法施行令": "shohizei_seirei",
+    "消法令": "shohizei_seirei",
+    "消費税法施行規則": "shohizei_kisoku",
+    "消法規則": "shohizei_kisoku",
     "相続税法": "sozokuzei",
     "相法": "sozokuzei",
+    "相続税法施行令": "sozokuzei_seirei",
+    "相法令": "sozokuzei_seirei",
+    "相続税法施行規則": "sozokuzei_kisoku",
+    "相法規則": "sozokuzei_kisoku",
     "国税通則法": "kokuzei_tsusoku",
     "国通法": "kokuzei_tsusoku",
     "通則法": "kokuzei_tsusoku",
+    "国税通則法施行令": "kokuzei_tsusoku_seirei",
+    "国通法令": "kokuzei_tsusoku_seirei",
+    "通則法令": "kokuzei_tsusoku_seirei",
+    "国税通則法施行規則": "kokuzei_tsusoku_kisoku",
+    "国通法規則": "kokuzei_tsusoku_kisoku",
+    "通則法規則": "kokuzei_tsusoku_kisoku",
     "租税特別措置法": "sozei_tokubetsu",
     "租特法": "sozei_tokubetsu",
     "租特": "sozei_tokubetsu",
@@ -77,6 +95,26 @@
       "articles_count": 194,
       "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_lite/kokuzei_tsusoku.json"
     },
+    "kokuzei_tsusoku_kisoku": {
+      "title": "国税通則法施行規則",
+      "type": "rule",
+      "law_num": "昭和三十七年大蔵省令第二十八号",
+      "egov_id": null,
+      "as_of": "2025-12-27",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kokuzei_tsusoku_kisoku/index.html",
+      "articles_count": 30,
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_lite/kokuzei_tsusoku_kisoku.json"
+    },
+    "kokuzei_tsusoku_seirei": {
+      "title": "国税通則法施行令",
+      "type": "order",
+      "law_num": "昭和三十七年政令第百三十五号",
+      "egov_id": null,
+      "as_of": "2025-12-27",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kokuzei_tsusoku_seirei/index.html",
+      "articles_count": 82,
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_lite/kokuzei_tsusoku_seirei.json"
+    },
     "shohizei": {
       "title": "消費税法",
       "type": "act",
@@ -87,6 +125,26 @@
       "articles_count": 85,
       "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_lite/shohizei.json"
     },
+    "shohizei_kisoku": {
+      "title": "消費税法施行規則",
+      "type": "rule",
+      "law_num": "昭和六十三年大蔵省令第五十三号",
+      "egov_id": null,
+      "as_of": "2025-12-27",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shohizei_kisoku/index.html",
+      "articles_count": 71,
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_lite/shohizei_kisoku.json"
+    },
+    "shohizei_seirei": {
+      "title": "消費税法施行令",
+      "type": "order",
+      "law_num": "昭和六十三年政令第三百六十号",
+      "egov_id": null,
+      "as_of": "2025-12-27",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shohizei_seirei/index.html",
+      "articles_count": 127,
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_lite/shohizei_seirei.json"
+    },
     "shotokuzei": {
       "title": "所得税法",
       "type": "act",
@@ -96,6 +154,26 @@
       "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei/index.html",
       "articles_count": 300,
       "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_lite/shotokuzei.json"
+    },
+    "shotokuzei_kisoku": {
+      "title": "所得税法施行規則",
+      "type": "rule",
+      "law_num": "昭和四十年大蔵省令第十一号",
+      "egov_id": null,
+      "as_of": "2025-12-27",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei_kisoku/index.html",
+      "articles_count": 251,
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_lite/shotokuzei_kisoku.json"
+    },
+    "shotokuzei_seirei": {
+      "title": "所得税法施行令",
+      "type": "order",
+      "law_num": "昭和四十年政令第九十六号",
+      "egov_id": null,
+      "as_of": "2025-12-27",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei_seirei/index.html",
+      "articles_count": 463,
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_lite/shotokuzei_seirei.json"
     },
     "sozei_tokubetsu": {
       "title": "租税特別措置法",
@@ -124,7 +202,7 @@
       "egov_id": null,
       "as_of": "2025-12-27",
       "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/index.html",
-      "articles_count": 539,
+      "articles_count": 538,
       "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_lite/sozei_tokubetsu_seirei.json"
     },
     "sozokuzei": {
@@ -136,6 +214,26 @@
       "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/index.html",
       "articles_count": 110,
       "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_lite/sozokuzei.json"
+    },
+    "sozokuzei_kisoku": {
+      "title": "相続税法施行規則",
+      "type": "rule",
+      "law_num": "昭和二十五年大蔵省令第十七号",
+      "egov_id": null,
+      "as_of": "2025-12-27",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei_kisoku/index.html",
+      "articles_count": 47,
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_lite/sozokuzei_kisoku.json"
+    },
+    "sozokuzei_seirei": {
+      "title": "相続税法施行令",
+      "type": "order",
+      "law_num": "昭和二十五年政令第七十一号",
+      "egov_id": null,
+      "as_of": "2025-12-27",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei_seirei/index.html",
+      "articles_count": 91,
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_lite/sozokuzei_seirei.json"
     }
   }
 }

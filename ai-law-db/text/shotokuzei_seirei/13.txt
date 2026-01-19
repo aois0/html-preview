@@ -1,0 +1,6 @@
+law: 所得税法施行令 (shotokuzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十六号 / egov_id:  / as_of: 2025-12-27
+article: 13 / title: 第十三条（国内に住所を有するものとみなされる公務員から除かれる者）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei_seirei/13.html
+
+[p1] 1 法第三条第一項（居住者及び非居住者の区分）に規定する政令で定める者は、日本の国籍を有する者で、現に国外に居住し、かつ、その地に永住すると認められるものとする。

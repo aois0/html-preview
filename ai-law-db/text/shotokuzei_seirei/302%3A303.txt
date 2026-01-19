@@ -1,0 +1,6 @@
+law: 所得税法施行令 (shotokuzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十六号 / egov_id:  / as_of: 2025-12-27
+article: 302:303 / title: 第三百二条及び第三百三条
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei_seirei/302:303.html
+
+[p1] 1 削除

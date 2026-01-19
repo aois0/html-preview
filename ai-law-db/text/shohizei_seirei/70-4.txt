@@ -1,0 +1,6 @@
+law: 消費税法施行令 (shohizei_seirei)
+law_type: order / law_num: 昭和六十三年政令第三百六十号 / egov_id:  / as_of: 2025-12-27
+article: 70-4 / title: 第七十条の四（登録の時期等に関する特例）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shohizei_seirei/70-4.html
+
+[p1] 1 登録を受けようとする事業者が、事業を開始した日の属する課税期間その他の財務省令で定める課税期間の初日から登録を受けようとする旨を記載した法第五十七条の二第二項の申請書を当該課税期間の末日までに提出した場合において、同条第三項の規定による登録がされたときは、当該課税期間の初日から登録を受けたものとみなす。

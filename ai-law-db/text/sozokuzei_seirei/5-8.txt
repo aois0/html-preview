@@ -1,0 +1,6 @@
+law: 相続税法施行令 (sozokuzei_seirei)
+law_type: order / law_num: 昭和二十五年政令第七十一号 / egov_id:  / as_of: 2025-12-27
+article: 5-8 / title: 第五条の八（定期金給付契約の目的とされた者に係る余命年数）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei_seirei/5-8.html
+
+[p1] 1 法第二十四条第一項第三号ハに規定する余命年数として政令で定める年数は、同号の終身定期金に係る定期金給付契約の目的とされた者の年齢及び性別に応じた厚生労働省の作成に係る生命表を勘案して財務省令で定める平均余命とする。

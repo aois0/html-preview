@@ -1,0 +1,6 @@
+law: 所得税法施行規則 (shotokuzei_kisoku)
+law_type: rule / law_num: 昭和四十年大蔵省令第十一号 / egov_id:  / as_of: 2025-12-27
+article: 66-7-2 / title: 第六十六条の七の二（非居住者に係る分配時調整外国税相当額の控除を受けるための添付書類）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei_kisoku/66-7-2.html
+
+[p1] 1 第四十条の十の二（分配時調整外国税相当額控除を受けるための添付書類）の規定は、法第百六十五条の五の三第二項（非居住者に係る分配時調整外国税相当額の控除）において法第九十三条第二項（分配時調整外国税相当額控除）の規定を準用する場合について準用する。

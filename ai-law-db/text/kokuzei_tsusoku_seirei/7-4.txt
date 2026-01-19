@@ -1,0 +1,6 @@
+law: 国税通則法施行令 (kokuzei_tsusoku_seirei)
+law_type: order / law_num: 昭和三十七年政令第百三十五号 / egov_id:  / as_of: 2025-12-27
+article: 7-4 / title: 第七条の四（権限の委任）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kokuzei_tsusoku_seirei/7-4.html
+
+[p1] 1 法第三十四条の六第三項（納付受託者の帳簿保存等の義務）の規定による権限は、納付受託者の住所又は事務所の所在地を管轄する国税局長に委任するものとする。 ただし、国税庁長官が自らその権限を行うことを妨げない。

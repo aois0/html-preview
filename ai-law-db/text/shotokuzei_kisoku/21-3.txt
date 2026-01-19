@@ -1,0 +1,6 @@
+law: 所得税法施行規則 (shotokuzei_kisoku)
+law_type: rule / law_num: 昭和四十年大蔵省令第十一号 / egov_id:  / as_of: 2025-12-27
+article: 21-3 / title: 第二十一条の三
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei_kisoku/21-3.html
+
+[p1] 1 法第四十五条第三項第一号ロ（家事関連費等の必要経費不算入等）に規定する財務省令で定める場所は、同号ロの居住者の住所地若しくは居所地又はその営む事業に係る事務所若しくは事業所、雑所得を生ずべき業務を行う場所その他これらに準ずるものの所在地とする。

@@ -20,9 +20,17 @@
 # - hojinzei_seirei : 法人税法施行令
 # - hojinzei_kisoku : 法人税法施行規則
 # - shotokuzei : 所得税法
+# - shotokuzei_seirei : 所得税法施行令
+# - shotokuzei_kisoku : 所得税法施行規則
 # - shohizei : 消費税法
+# - shohizei_seirei : 消費税法施行令
+# - shohizei_kisoku : 消費税法施行規則
 # - sozokuzei : 相続税法
+# - sozokuzei_seirei : 相続税法施行令
+# - sozokuzei_kisoku : 相続税法施行規則
 # - kokuzei_tsusoku : 国税通則法
+# - kokuzei_tsusoku_seirei : 国税通則法施行令
+# - kokuzei_tsusoku_kisoku : 国税通則法施行規則
 # - sozei_tokubetsu : 租税特別措置法（措置法）
 # - sozei_tokubetsu_seirei : 租税特別措置法施行令（措置令）
 # - sozei_tokubetsu_kisoku : 租税特別措置法施行規則（措置規則）

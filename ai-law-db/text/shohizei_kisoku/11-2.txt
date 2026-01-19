@@ -1,0 +1,6 @@
+law: 消費税法施行規則 (shohizei_kisoku)
+law_type: rule / law_num: 昭和六十三年大蔵省令第五十三号 / egov_id:  / as_of: 2025-12-27
+article: 11-2 / title: 第十一条の二（特定期間における給与等の金額）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shohizei_kisoku/11-2.html
+
+[p1] 1 法第九条の二第三項に規定する給与等の金額に相当するものとして財務省令で定めるものは、所得税法施行規則（昭和四十年大蔵省令第十一号）第百条第一項第一号（給与等、退職手当等又は公的年金等の支払明細書）に規定する給与等の金額とする。

@@ -1,0 +1,10 @@
+law: 所得税法施行令 (shotokuzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十六号 / egov_id:  / as_of: 2025-12-27
+article: 51-2 / title: 第五十一条の二（公社債等の範囲）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei_seirei/51-2.html
+
+[p1] 1 法第十一条第三項（公共法人等及び公益信託等に係る非課税）に規定する政令で定める受益権は、次に掲げる受益権とする。
+[p1-i1] 一 貸付信託の受益権
+[p1-i2] 二 公社債投資信託の受益権
+[p1-i3] 三 公社債等運用投資信託の受益権
+[p1-i4] 四 法第六条の三第四号（受託法人等に関するこの法律の適用）に規定する社債的受益権

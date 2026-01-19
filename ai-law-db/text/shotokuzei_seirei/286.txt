@@ -1,0 +1,6 @@
+law: 所得税法施行令 (shotokuzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十六号 / egov_id:  / as_of: 2025-12-27
+article: 286 / title: 第二百八十六条（事業の広告宣伝のための賞金）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei_seirei/286.html
+
+[p1] 1 法第百六十一条第一項第十三号（国内源泉所得）に規定する政令で定める賞金は、国内において事業を行う者から当該事業の広告宣伝のために賞として支払を受ける金品その他の経済的な利益（旅行その他の役務の提供を内容とするもので、金品との選択をすることができないものとされているものを除く。）とする。

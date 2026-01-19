@@ -1,0 +1,7 @@
+law: 相続税法施行令 (sozokuzei_seirei)
+law_type: order / law_num: 昭和二十五年政令第七十一号 / egov_id:  / as_of: 2025-12-27
+article: 1-15 / title: 第一条の十五（有価証券）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei_seirei/1-15.html
+
+[p1] 1 法第十条第一項第八号に規定する政令で定める有価証券は、外国預託証券（株主との間に締結した契約に基づき株券の預託を受けた者が外国において発行する有価証券で、その株式に係る権利を表示するものをいう。）とする。
+[p2] 2 法第十条第一項第八号に規定する政令で定める法人は、前項の外国預託証券に係る株式の発行法人とする。

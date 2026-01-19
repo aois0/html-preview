@@ -1,0 +1,10 @@
+law: 消費税法施行令 (shohizei_seirei)
+law_type: order / law_num: 昭和六十三年政令第三百六十号 / egov_id:  / as_of: 2025-12-27
+article: 59 / title: 第五十九条（貸倒れの範囲等）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shohizei_seirei/59.html
+
+[p1] 1 法第三十九条第一項に規定する政令で定める事実は、次に掲げる事実とする。
+[p1-i1] 一 再生計画認可の決定により債権の切捨てがあつたこと。
+[p1-i2] 二 特別清算に係る協定の認可の決定により債権の切捨てがあつたこと。
+[p1-i3] 三 債権に係る債務者の財産の状況、支払能力等からみて当該債務者が債務の全額を弁済できないことが明らかであること。
+[p1-i4] 四 前三号に掲げる事実に準ずるものとして財務省令で定める事実

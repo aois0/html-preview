@@ -1,0 +1,6 @@
+law: 所得税法施行規則 (shotokuzei_kisoku)
+law_type: rule / law_num: 昭和四十年大蔵省令第十一号 / egov_id:  / as_of: 2025-12-27
+article: 62 / title: 第六十二条（親族の労務に従事した期間等の記帳）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei_kisoku/62.html
+
+[p1] 1 税務署長が必要があると認める場合には、青色申告者でその者と生計を一にする親族に給与の支払をする者に対し、帳簿を備え、その親族の労務に従事した期間、労務の性質その他その労務の事績を明らかにする事項の記載を命ずることができる。

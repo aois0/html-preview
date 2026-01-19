@@ -1,0 +1,6 @@
+law: 所得税法施行規則 (shotokuzei_kisoku)
+law_type: rule / law_num: 昭和四十年大蔵省令第十一号 / egov_id:  / as_of: 2025-12-27
+article: 104 / title: 第百四条（計算書等の書式の特例）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei_kisoku/104.html
+
+[p1] 1 国税庁長官は、別表第三（一）から別表第三（六）まで、別表第五（一）から別表第五（十五）まで及び別表第五（十七）から別表第九（三）までの各表の書式について必要があるときは、所要の事項を付記すること又は一部の事項を削ることができる。

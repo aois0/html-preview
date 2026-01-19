@@ -1,0 +1,8 @@
+law: 消費税法施行規則 (shohizei_kisoku)
+law_type: rule / law_num: 昭和六十三年大蔵省令第五十三号 / egov_id:  / as_of: 2025-12-27
+article: 11-3 / title: 第十一条の三（金又は白金の地金に類するものの範囲）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shohizei_kisoku/11-3.html
+
+[p1] 1 法第十二条の四第三項に規定する財務省令で定める資産は、次に掲げる資産とする。
+[p1-i1] 一 金貨又は白金貨
+[p1-i2] 二 金製品又は白金製品（金又は白金の重量当たりの単価に重量を乗じて得た価額により取引されるものに限るものとし、当該事業者が製造する製品の原材料として使用されることが明らかなものを除く。）

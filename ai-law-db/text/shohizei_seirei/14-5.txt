@@ -1,0 +1,11 @@
+law: 消費税法施行令 (shohizei_seirei)
+law_type: order / law_num: 昭和六十三年政令第三百六十号 / egov_id:  / as_of: 2025-12-27
+article: 14-5 / title: 第十四条の五（教育に係る役務の提供の範囲）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shohizei_seirei/14-5.html
+
+[p1] 1 法別表第二第十一号に規定する政令で定める料金は、次に掲げる料金とする。
+[p1-i1] 一 授業料
+[p1-i2] 二 入学金及び入園料
+[p1-i3] 三 施設設備費
+[p1-i4] 四 入学又は入園のための試験に係る検定料
+[p1-i5] 五 在学証明、成績証明その他学生、生徒、児童又は幼児の記録に係る証明に係る手数料及びこれに類する手数料

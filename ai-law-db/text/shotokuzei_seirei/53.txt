@@ -1,0 +1,9 @@
+law: 所得税法施行令 (shotokuzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十六号 / egov_id:  / as_of: 2025-12-27
+article: 53 / title: 第五十三条（納税地の判定に係る特殊関係者）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei_seirei/53.html
+
+[p1] 1 法第十五条第四号（納税地）に規定する政令で定める者は、次に掲げる者及びこれらの者であつた者とする。
+[p1-i1] 一 納税義務者とまだ婚姻の届出をしないが事実上婚姻関係と同様の事情にある者
+[p1-i2] 二 納税義務者の使用人
+[p1-i3] 三 前二号に掲げる者及び納税義務者の親族以外の者で納税義務者から受ける金銭その他の資産によつて生計を維持しているもの

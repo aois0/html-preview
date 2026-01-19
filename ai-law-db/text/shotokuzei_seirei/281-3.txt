@@ -1,0 +1,6 @@
+law: 所得税法施行令 (shotokuzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十六号 / egov_id:  / as_of: 2025-12-27
+article: 281-3 / title: 第二百八十一条の三（国内にある土地等の譲渡による対価）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei_seirei/281-3.html
+
+[p1] 1 法第百六十一条第一項第五号（国内源泉所得）に規定する政令で定める対価は、土地等（国内にある土地若しくは土地の上に存する権利又は建物及びその附属設備若しくは構築物をいう。以下この条において同じ。）の譲渡による対価（その金額が一億円を超えるものを除く。）で、当該土地等を自己又はその親族の居住の用に供するために譲り受けた個人から支払われるものとする。

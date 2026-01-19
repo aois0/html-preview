@@ -31,6 +31,20 @@
       "articles_count": 194,
       "resolve_meta_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta/kokuzei_tsusoku.json"
     },
+    "kokuzei_tsusoku_kisoku": {
+      "title": "国税通則法施行規則",
+      "as_of": "2025-12-27",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kokuzei_tsusoku_kisoku/index.html",
+      "articles_count": 30,
+      "resolve_meta_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta/kokuzei_tsusoku_kisoku.json"
+    },
+    "kokuzei_tsusoku_seirei": {
+      "title": "国税通則法施行令",
+      "as_of": "2025-12-27",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kokuzei_tsusoku_seirei/index.html",
+      "articles_count": 82,
+      "resolve_meta_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta/kokuzei_tsusoku_seirei.json"
+    },
     "shohizei": {
       "title": "消費税法",
       "as_of": "2025-12-27",
@@ -38,12 +52,40 @@
       "articles_count": 85,
       "resolve_meta_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta/shohizei.json"
     },
+    "shohizei_kisoku": {
+      "title": "消費税法施行規則",
+      "as_of": "2025-12-27",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shohizei_kisoku/index.html",
+      "articles_count": 71,
+      "resolve_meta_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta/shohizei_kisoku.json"
+    },
+    "shohizei_seirei": {
+      "title": "消費税法施行令",
+      "as_of": "2025-12-27",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shohizei_seirei/index.html",
+      "articles_count": 127,
+      "resolve_meta_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta/shohizei_seirei.json"
+    },
     "shotokuzei": {
       "title": "所得税法",
       "as_of": "2025-12-27",
       "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei/index.html",
       "articles_count": 300,
       "resolve_meta_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta/shotokuzei.json"
+    },
+    "shotokuzei_kisoku": {
+      "title": "所得税法施行規則",
+      "as_of": "2025-12-27",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei_kisoku/index.html",
+      "articles_count": 251,
+      "resolve_meta_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta/shotokuzei_kisoku.json"
+    },
+    "shotokuzei_seirei": {
+      "title": "所得税法施行令",
+      "as_of": "2025-12-27",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei_seirei/index.html",
+      "articles_count": 463,
+      "resolve_meta_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta/shotokuzei_seirei.json"
     },
     "sozei_tokubetsu": {
       "title": "租税特別措置法",
@@ -63,7 +105,7 @@
       "title": "租税特別措置法施行令",
       "as_of": "2025-12-27",
       "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/index.html",
-      "articles_count": 539,
+      "articles_count": 538,
       "resolve_meta_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta/sozei_tokubetsu_seirei.json"
     },
     "sozokuzei": {
@@ -72,6 +114,20 @@
       "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/index.html",
       "articles_count": 110,
       "resolve_meta_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta/sozokuzei.json"
+    },
+    "sozokuzei_kisoku": {
+      "title": "相続税法施行規則",
+      "as_of": "2025-12-27",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei_kisoku/index.html",
+      "articles_count": 47,
+      "resolve_meta_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta/sozokuzei_kisoku.json"
+    },
+    "sozokuzei_seirei": {
+      "title": "相続税法施行令",
+      "as_of": "2025-12-27",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei_seirei/index.html",
+      "articles_count": 91,
+      "resolve_meta_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta/sozokuzei_seirei.json"
     }
   }
 }

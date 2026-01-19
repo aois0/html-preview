@@ -1,0 +1,12 @@
+law: 国税通則法施行令 (kokuzei_tsusoku_seirei)
+law_type: order / law_num: 昭和三十七年政令第百三十五号 / egov_id:  / as_of: 2025-12-27
+article: 50 / title: 第五十条（鑑定に係る許可状請求書の記載事項）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kokuzei_tsusoku_seirei/50.html
+
+[p1] 1 法第百四十七条第四項（鑑定等の嘱託）に規定する許可状（第六号において「許可状」という。）の請求は、次に掲げる事項を記載した書面でしなければならない。
+[p1-i1] 一 犯則嫌疑者の氏名
+[p1-i2] 二 罪名及び犯則事実の要旨
+[p1-i3] 三 破壊すべき物件
+[p1-i4] 四 鑑定人の氏名及び職業
+[p1-i5] 五 請求者の官職氏名
+[p1-i6] 六 許可状が七日を超える有効期間を必要とするときは、その旨及び事由

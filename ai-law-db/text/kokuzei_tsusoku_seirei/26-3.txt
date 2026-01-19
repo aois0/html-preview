@@ -1,0 +1,6 @@
+law: 国税通則法施行令 (kokuzei_tsusoku_seirei)
+law_type: order / law_num: 昭和三十七年政令第百三十五号 / egov_id:  / as_of: 2025-12-27
+article: 26-3 / title: 第二十六条の三（利子税の額の計算の基礎となる期間に係る延滞税に関する規定の準用）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kokuzei_tsusoku_seirei/26-3.html
+
+[p1] 1 第二十六条（還付請求申告書等）の規定は、法第六十四条第三項（利子税）において法第六十一条第二項（延滞税の額の計算の基礎となる期間の特例）の規定を準用する場合について準用する。

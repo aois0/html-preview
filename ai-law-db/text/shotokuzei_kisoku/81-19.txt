@@ -1,0 +1,6 @@
+law: 所得税法施行規則 (shotokuzei_kisoku)
+law_type: rule / law_num: 昭和四十年大蔵省令第十一号 / egov_id:  / as_of: 2025-12-27
+article: 81-19 / title: 第八十一条の十九（株式等の譲渡の対価の受領者の告知に係る発行日取引の範囲）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei_kisoku/81-19.html
+
+[p1] 1 施行令第三百四十二条第二項第四号（株式等の譲渡の対価の受領者の告知）に規定する有価証券が発行される前にその有価証券の売買を行う取引であつて財務省令で定める取引は、金融商品取引法第百六十一条の二に規定する取引及びその保証金に関する内閣府令第一条第二項（定義）に規定する発行日取引とする。

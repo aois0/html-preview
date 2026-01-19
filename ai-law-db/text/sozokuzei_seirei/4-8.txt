@@ -1,0 +1,8 @@
+law: 相続税法施行令 (sozokuzei_seirei)
+law_type: order / law_num: 昭和二十五年政令第七十一号 / egov_id:  / as_of: 2025-12-27
+article: 4-8 / title: 第四条の八（特別障害者以外の特定障害者の範囲）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei_seirei/4-8.html
+
+[p1] 1 法第二十一条の四第一項に規定する精神に障害のある者として政令で定めるものは、次に掲げる者とする。
+[p1-i1] 一 所得税法施行令第十条第一項第一号及び第二号（障害者及び特別障害者の範囲）に掲げる者
+[p1-i2] 二 所得税法施行令第十条第一項第七号に掲げる者のうち、その障害の程度が同項第一号に掲げる者に準ずるものとして同項第七号に規定する市町村長等の認定を受けている者

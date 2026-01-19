@@ -1,0 +1,6 @@
+law: 相続税法施行規則 (sozokuzei_kisoku)
+law_type: rule / law_num: 昭和二十五年大蔵省令第十七号 / egov_id:  / as_of: 2025-12-27
+article: 8 / title: 第八条（障害者非課税信託申告書等の書式）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei_kisoku/8.html
+
+[p1] 1 障害者非課税信託申告書、障害者非課税信託取消申告書、障害者非課税信託廃止申告書及び障害者非課税信託に関する異動申告書の書式は、それぞれ第一号書式から第四号書式までによる。

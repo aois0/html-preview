@@ -1,0 +1,6 @@
+law: 所得税法施行令 (shotokuzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十六号 / egov_id:  / as_of: 2025-12-27
+article: 225-11 / title: 第二百二十五条の十一（匿名組合契約に準ずる契約の範囲）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei_seirei/225-11.html
+
+[p1] 1 法第九十五条第四項第十四号（外国税額控除）に規定する政令で定める契約は、当事者の一方が相手方の事業のために出資をし、相手方がその事業から生ずる利益を分配することを約する契約とする。

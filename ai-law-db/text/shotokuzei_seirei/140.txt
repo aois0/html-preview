@@ -1,0 +1,6 @@
+law: 所得税法施行令 (shotokuzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十六号 / egov_id:  / as_of: 2025-12-27
+article: 140 / title: 第百四十条（固定資産に準ずる資産の範囲）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei_seirei/140.html
+
+[p1] 1 法第五十一条第一項（資産損失の必要経費算入）に規定する政令で定める資産は、不動産所得、事業所得又は山林所得を生ずべき事業に係る繰延資産のうちまだ必要経費に算入されていない部分とする。

@@ -1,0 +1,6 @@
+law: 国税通則法施行令 (kokuzei_tsusoku_seirei)
+law_type: order / law_num: 昭和三十七年政令第百三十五号 / egov_id:  / as_of: 2025-12-27
+article: 20 / title: 第二十条（国税庁長官等が徴した担保の処分庁）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kokuzei_tsusoku_seirei/20.html
+
+[p1] 1 法第五十三条（国税庁長官等が徴した担保の処分）に規定する政令で定める税務署長は、同条の担保として提供された財産の所在地の所轄税務署長その他国税庁長官又は国税局長が徴した担保の処分につき便宜を有する税務署長とする。

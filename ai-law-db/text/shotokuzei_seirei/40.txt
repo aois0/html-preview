@@ -1,0 +1,6 @@
+law: 所得税法施行令 (shotokuzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十六号 / egov_id:  / as_of: 2025-12-27
+article: 40 / title: 第四十条（非課税貯蓄申告書）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei_seirei/40.html
+
+[p1] 1 国内に住所を有する個人が非課税貯蓄申告書を提出する場合には、当該申告書に記載する法第十条第三項第三号（非課税貯蓄申告書の記載事項）に掲げる最高限度額は、一万円に整数を乗じた金額で、かつ、三百万円（当該申告書に記載すべき同項第四号に掲げる最高限度額がある場合には、三百万円から当該最高限度額の合計額を控除した残額）以下の金額としなければならない。

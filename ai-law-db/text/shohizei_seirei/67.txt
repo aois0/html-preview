@@ -1,0 +1,6 @@
+law: 消費税法施行令 (shohizei_seirei)
+law_type: order / law_num: 昭和六十三年政令第三百六十号 / egov_id:  / as_of: 2025-12-27
+article: 67 / title: 第六十七条（中間納付額の控除不足額の還付の手続）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shohizei_seirei/67.html
+
+[p1] 1 税務署長は、法第四十五条第一項第七号に掲げる不足額の記載がある確定申告書等の提出があつた場合には、当該不足額が過大であると認められる事由がある場合を除き、遅滞なく、法第五十三条第一項又は第二項の規定による還付又は充当の手続をしなければならない。

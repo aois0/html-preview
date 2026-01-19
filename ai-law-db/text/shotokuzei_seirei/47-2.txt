@@ -1,0 +1,6 @@
+law: 所得税法施行令 (shotokuzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十六号 / egov_id:  / as_of: 2025-12-27
+article: 47-2 / title: 第四十七条の二（金融機関の営業所等の非課税貯蓄申告書の税務署長への送付等）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei_seirei/47-2.html
+
+[p1] 1 金融機関の営業所等の長は、非課税貯蓄申告書、非課税貯蓄限度額変更申告書、非課税貯蓄に関する異動申告書又は非課税貯蓄廃止申告書を受理した場合には、その受理した日の属する月の翌月十日までに、これらの申告書を当該金融機関の営業所等の所在地の所轄税務署長に送付しなければならない。

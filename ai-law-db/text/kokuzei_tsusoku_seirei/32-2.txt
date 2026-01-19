@@ -1,0 +1,6 @@
+law: 国税通則法施行令 (kokuzei_tsusoku_seirei)
+law_type: order / law_num: 昭和三十七年政令第百三十五号 / egov_id:  / as_of: 2025-12-27
+article: 32-2 / title: 第三十二条の二（審査請求書の送付）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kokuzei_tsusoku_seirei/32-2.html
+
+[p1] 1 法第九十三条第一項後段（答弁書の提出等）の規定による審査請求書の送付は、審査請求書の副本（法第百十二条第三項（誤つた教示をした場合の救済）の規定の適用がある場合にあつては、審査請求書の写し）によつてする。

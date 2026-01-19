@@ -1,0 +1,6 @@
+law: 所得税法施行規則 (shotokuzei_kisoku)
+law_type: rule / law_num: 昭和四十年大蔵省令第十一号 / egov_id:  / as_of: 2025-12-27
+article: 23-2 / title: 第二十三条の二（合併により取得した株式等の取得価額）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei_kisoku/23-2.html
+
+[p1] 1 令第百十二条第一項（合併により取得した株式等の取得価額）に規定する財務省令で定める関係は、合併の直前に当該合併に係る法人税法第二条第十二号（定義）に規定する合併法人と当該合併法人以外の法人との間に当該法人による完全支配関係（同条第十二号の七の六に規定する完全支配関係をいう。以下この条及び次条において同じ。）がある場合の当該完全支配関係とする。

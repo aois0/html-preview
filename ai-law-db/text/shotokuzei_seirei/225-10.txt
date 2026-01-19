@@ -1,0 +1,6 @@
+law: 所得税法施行令 (shotokuzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十六号 / egov_id:  / as_of: 2025-12-27
+article: 225-10 / title: 第二百二十五条の十（年金に係る契約の範囲）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei_seirei/225-10.html
+
+[p1] 1 法第九十五条第四項第十二号（外国税額控除）に規定する政令で定める契約は、保険業法第二条第六項（定義）に規定する外国保険業者、同条第三項に規定する生命保険会社若しくは同条第四項に規定する損害保険会社の締結する保険契約又はこれに類する共済に係る契約であつて、年金を給付する定めのあるものとする。

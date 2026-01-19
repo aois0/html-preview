@@ -1,0 +1,6 @@
+law: 所得税法施行令 (shotokuzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十六号 / egov_id:  / as_of: 2025-12-27
+article: 350-2 / title: 第三百五十条の二（先物取引の差金等決済に係る告知義務のない者の範囲）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei_seirei/350-2.html
+
+[p1] 1 法第二百二十四条の五第一項（先物取引の差金等決済をする者の告知）に規定する法人税法別表第一（公共法人の表）に掲げる法人その他の政令で定めるものは、公共法人等とする。

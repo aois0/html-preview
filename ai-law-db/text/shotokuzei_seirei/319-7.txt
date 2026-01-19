@@ -1,0 +1,7 @@
+law: 所得税法施行令 (shotokuzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十六号 / egov_id:  / as_of: 2025-12-27
+article: 319-7 / title: 第三百十九条の七（公的年金等の月割額等の端数計算）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei_seirei/319-7.html
+
+[p1] 1 第三百十九条の五（公的年金等の月割額）の規定により計算した金額が四円の整数倍でないときは、当該金額を超える四円の整数倍である金額のうち最も少ない金額を当該計算した金額とする。
+[p2] 2 法第二百三条の三第七号（徴収税額）に定める金額に一円未満の端数があるときは、これを一円に切り上げるものとする。

@@ -1,0 +1,8 @@
+law: 国税通則法施行令 (kokuzei_tsusoku_seirei)
+law_type: order / law_num: 昭和三十七年政令第百三十五号 / egov_id:  / as_of: 2025-12-27
+article: 9 / title: 第九条（繰上保全差押に係る通知）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kokuzei_tsusoku_seirei/9.html
+
+[p1] 1 法第三十八条第四項（繰上保全差押）において準用する国税徴収法第百五十九条第三項（保全差押に係る通知）の書面には、次に掲げる事項を記載しなければならない。
+[p1-i1] 一 法第三十八条第三項の規定により決定した金額
+[p1-i2] 二 前号の金額の決定の基因となつた国税の年度及び税目

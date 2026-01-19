@@ -1,0 +1,6 @@
+law: 消費税法施行規則 (shohizei_kisoku)
+law_type: rule / law_num: 昭和六十三年大蔵省令第五十三号 / egov_id:  / as_of: 2025-12-27
+article: 11-4 / title: 第十一条の四（法人課税信託の受託者に関する特例）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shohizei_kisoku/11-4.html
+
+[p1] 1 法第十五条第三項に規定する受託事業者は、法第四十六条の二第二項に規定する特定法人に該当しないものとする。

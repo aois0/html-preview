@@ -1,0 +1,13 @@
+law: 国税通則法施行令 (kokuzei_tsusoku_seirei)
+law_type: order / law_num: 昭和三十七年政令第百三十五号 / egov_id:  / as_of: 2025-12-27
+article: 46 / title: 第四十六条（間接国税の範囲）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kokuzei_tsusoku_seirei/46.html
+
+[p1] 1 法第百三十五条第一項（現行犯事件の臨検、捜索又は差押え）に規定する政令で定める国税は、次に掲げる国税とする。
+[p1-i1] 一 消費税法第四十七条第二項（引取りに係る課税貨物についての課税標準額及び税額の申告等）に規定する課税貨物に課される消費税
+[p1-i2] 二 酒税
+[p1-i3] 三 たばこ税
+[p1-i4] 四 揮発油税
+[p1-i5] 五 地方揮発油税
+[p1-i6] 六 石油ガス税
+[p1-i7] 七 石油石炭税

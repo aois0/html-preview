@@ -1,0 +1,8 @@
+law: 消費税法施行規則 (shohizei_kisoku)
+law_type: rule / law_num: 昭和六十三年大蔵省令第五十三号 / egov_id:  / as_of: 2025-12-27
+article: 26-3 / title: 第二十六条の三（特定国外事業者に係る適格請求書発行事業者の登録申請書の添付書類）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shohizei_kisoku/26-3.html
+
+[p1] 1 令第七十条の三に規定する財務省令で定める書類は、次に掲げる書類とする。
+[p1-i1] 一 税務代理人が申請者の消費税に関する税務代理（法第五十七条の二第五項第二号イに規定する税務代理をいう。）の権限を有することを証する書面（同条第六項第二号ハに規定する書面をいう。）
+[p1-i2] 二 その他参考となるべき書類

@@ -1,0 +1,6 @@
+law: 国税通則法施行令 (kokuzei_tsusoku_seirei)
+law_type: order / law_num: 昭和三十七年政令第百三十五号 / egov_id:  / as_of: 2025-12-27
+article: 36 / title: 第三十六条（議決）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kokuzei_tsusoku_seirei/36.html
+
+[p1] 1 法第九十八条第四項（裁決）の担当審判官及び参加審判官の議決は、これらの者の過半数の意見による。

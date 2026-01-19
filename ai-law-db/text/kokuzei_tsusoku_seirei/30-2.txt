@@ -1,0 +1,10 @@
+law: 国税通則法施行令 (kokuzei_tsusoku_seirei)
+law_type: order / law_num: 昭和三十七年政令第百三十五号 / egov_id:  / as_of: 2025-12-27
+article: 30-2 / title: 第三十条の二（蒸留機等の封を施す箇所）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kokuzei_tsusoku_seirei/30-2.html
+
+[p1] 1 法第七十四条の四第五項ただし書（当該職員の酒税に関する調査等に係る質問検査権）の規定により蒸留機（配管装置を含む。）及び酒類の輸送管（流量計を含む。）につき封を施すことができる箇所は、次に掲げる箇所とする。
+[p1-i1] 一 各部の接続部分
+[p1-i2] 二 留出液のたれ口
+[p1-i3] 三 留出液の試験採取口
+[p1-i4] 四 前三号に掲げるもののほか、蒸留物を取り出すことができる箇所

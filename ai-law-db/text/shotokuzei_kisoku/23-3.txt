@@ -1,0 +1,6 @@
+law: 所得税法施行規則 (shotokuzei_kisoku)
+law_type: rule / law_num: 昭和四十年大蔵省令第十一号 / egov_id:  / as_of: 2025-12-27
+article: 23-3 / title: 第二十三条の三（分割型分割により取得した株式等の取得価額）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei_kisoku/23-3.html
+
+[p1] 1 令第百十三条第一項（分割型分割により取得した株式等の取得価額）に規定する財務省令で定める関係は、法人税法第二条第十二号の九（定義）に規定する分割型分割の直前に当該分割型分割に係る同条第十二号の三に規定する分割承継法人と当該分割承継法人以外の法人との間に当該法人による完全支配関係がある場合の当該完全支配関係とする。

@@ -1,0 +1,6 @@
+law: 所得税法施行規則 (shotokuzei_kisoku)
+law_type: rule / law_num: 昭和四十年大蔵省令第十一号 / egov_id:  / as_of: 2025-12-27
+article: 91 / title: 第九十一条（支払調書の書式）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei_kisoku/91.html
+
+[p1] 1 第八十二条から前条まで（支払調書）に規定する調書の書式は、別表第五（一）から別表第五（三十二）までによる。

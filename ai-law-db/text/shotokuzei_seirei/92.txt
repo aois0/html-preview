@@ -1,0 +1,6 @@
+law: 所得税法施行令 (shotokuzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十六号 / egov_id:  / as_of: 2025-12-27
+article: 92 / title: 第九十二条（資産の移転等に含まれない行為）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei_seirei/92.html
+
+[p1] 1 法第四十四条（移転等の支出に充てるための交付金の総収入金額不算入）に規定する政令で定める行為は、第百八十一条（資本的支出）に規定する支出に係る行為とする。

@@ -1,0 +1,6 @@
+law: 所得税法施行令 (shotokuzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十六号 / egov_id:  / as_of: 2025-12-27
+article: 321 / title: 第三百二十一条（金銭以外のもので支払われる賞金の価額）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei_seirei/321.html
+
+[p1] 1 法第二百五条第二号（報酬又は料金等に係る徴収税額）に規定する政令で定めるところにより計算した金額は、同号に規定する金銭以外のものの支払を受ける者がその受けることとなつた日において当該金銭以外のものを譲渡するものとした場合にその対価として通常受けるべき価額に相当する金額（当該金銭以外のものと金銭とのいずれかを選択することができる場合には、当該金銭の額）とする。

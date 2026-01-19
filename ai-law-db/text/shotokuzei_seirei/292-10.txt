@@ -1,0 +1,6 @@
+law: 所得税法施行令 (shotokuzei_seirei)
+law_type: order / law_num: 昭和四十年政令第九十六号 / egov_id:  / as_of: 2025-12-27
+article: 292-10 / title: 第二百九十二条の十（地方税控除限度額）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei_seirei/292-10.html
+
+[p1] 1 法第百六十五条の六第二項（非居住者に係る外国税額の控除）に規定する地方税控除限度額として政令で定める金額は、地方税法施行令第七条の十九第三項（道府県民税からの外国所得税額の控除）の規定による限度額と同令第四十八条の九の二第四項（市町村民税からの外国所得税額の控除）の規定による限度額との合計額とする。

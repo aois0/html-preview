@@ -1,0 +1,6 @@
+law: 国税通則法施行令 (kokuzei_tsusoku_seirei)
+law_type: order / law_num: 昭和三十七年政令第百三十五号 / egov_id:  / as_of: 2025-12-27
+article: 35 / title: 第三十五条（通話者等の確認）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kokuzei_tsusoku_seirei/35.html
+
+[p1] 1 担当審判官は、法第九十七条の二第二項（審理手続の計画的遂行）の規定による意見の聴取を行う場合には、通話者及び通話先の場所の確認をしなければならない。

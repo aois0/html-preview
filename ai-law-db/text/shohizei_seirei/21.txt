@@ -1,0 +1,6 @@
+law: 消費税法施行令 (shohizei_seirei)
+law_type: order / law_num: 昭和六十三年政令第三百六十号 / egov_id:  / as_of: 2025-12-27
+article: 21 / title: 第二十一条（相続があつた場合の納税義務の免除の特例）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shohizei_seirei/21.html
+
+[p1] 1 相続により、二以上の事業場を有する被相続人の事業を二以上の相続人が当該二以上の事業場を事業場ごとに分割して承継した場合における法第十条第一項又は第二項の規定の適用については、これらの規定に規定する被相続人の基準期間における課税売上高は、当該被相続人の当該基準期間における課税売上高のうち当該相続人が相続した事業場に係る部分の金額とする。

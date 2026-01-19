@@ -1,0 +1,6 @@
+law: 消費税法施行令 (shohizei_seirei)
+law_type: order / law_num: 昭和六十三年政令第三百六十号 / egov_id:  / as_of: 2025-12-27
+article: 8 / title: 第八条（土地の貸付けから除外される場合）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shohizei_seirei/8.html
+
+[p1] 1 法別表第二第一号に規定する政令で定める場合は、同号に規定する土地の貸付けに係る期間が一月に満たない場合及び駐車場その他の施設の利用に伴つて土地が使用される場合とする。

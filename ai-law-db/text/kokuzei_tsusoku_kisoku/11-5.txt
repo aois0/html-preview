@@ -1,0 +1,6 @@
+law: 国税通則法施行規則 (kokuzei_tsusoku_kisoku)
+law_type: rule / law_num: 昭和三十七年大蔵省令第二十八号 / egov_id:  / as_of: 2025-12-27
+article: 11-5 / title: 第十一条の五（預貯金等の内容に関する事項）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kokuzei_tsusoku_kisoku/11-5.html
+
+[p1] 1 法第七十四条の十三の二（預貯金者等情報の管理）に規定する財務省令で定める事項は、同条に規定する預貯金者等の顧客番号並びに同条に規定する預貯金等の口座番号、口座開設日、種目、元本の額、利率、預入日及び満期日とする。
