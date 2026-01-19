@@ -1,58 +1,32 @@
-# Quickstart (AI/crawler)
+# AI向けクイックスタート（最短で条文本文を取る）
 #
-# Goal: fetch statute text fast with minimal crawling.
-# If you already know the article number, skip all JSON and fetch the text directly.
+# 方針:
+# - 条番号が分かるなら、このDBは「本文取得」にだけ使う（最短で直叩き）
+# - 条番号が分からないなら、まず普通にWeb検索（ググる）して条番号を特定してから戻る
 #
-# Base:
-# https://jplawdb.github.io/html-preview/ai-law-db/
+# 1) 本文（最短）
+#   https://jplawdb.github.io/html-preview/ai-law-db/text/{law_code}/{article}.txt
 #
+# 例:
+# - 措置法66条の7 → .../text/sozei_tokubetsu/66-7.txt
+# - 措置令39条の14 → .../text/sozei_tokubetsu_seirei/39-14.txt
 #
-# 1) Fastest path: direct text fetch
+# 表記:
+# - 「第66条の7」→ "66-7"（「の」= "-"）
+# - 「第39条の十四」→ "39-14"
 #
-# URL pattern:
-#   text/{law_code}/{article}.txt
-#
-# Examples:
-# - 措置法66条の7 → text/sozei_tokubetsu/66-7.txt
-# - 措置法施行令39条の14 → text/sozei_tokubetsu_seirei/39-14.txt
-# - 法人税法57条の8 → text/hojinzei/57-8.txt
-#
-# Notes:
-# - “第66条の7” is represented as "66-7"
-# - “第39条の十四” is represented as "39-14"
-#
-#
-# 2) law_code mapping (memorize these)
-#
-# - shotokuzei : 所得税法
+# 2) law_code（これだけ覚えればOK）
 # - hojinzei : 法人税法
 # - hojinzei_seirei : 法人税法施行令
 # - hojinzei_kisoku : 法人税法施行規則
+# - shotokuzei : 所得税法
 # - shohizei : 消費税法
 # - sozokuzei : 相続税法
 # - kokuzei_tsusoku : 国税通則法
 # - sozei_tokubetsu : 租税特別措置法（措置法）
-# - sozei_tokubetsu_seirei : 租税特別措置法施行令（措置法施行令）
-# - sozei_tokubetsu_kisoku : 租税特別措置法施行規則（措置法施行規則）
+# - sozei_tokubetsu_seirei : 租税特別措置法施行令（措置令）
+# - sozei_tokubetsu_kisoku : 租税特別措置法施行規則（措置規則）
 #
-#
-# 3) When you need a citation URL / anchors (optional)
-#
-# - HTML article:
-#   enhanced/{law_code}/{article}.html
-# - Paragraph anchor: #p{paragraph}  (e.g. #p2)
-# - Item anchor:      #p{paragraph}-i{item_index} (e.g. #p2-i1)
-#
-#
-# 4) When the article number is unknown (optional helpers)
-#
-# - Use normal web search to identify the likely article number, then go back to (1).
-#
-# - If you want to search by article titles (mainly corporate-tax/CFC flows):
-#   data/resolve_meta_corp/{law_code}/{bucket}.json
-#   where bucket = leading digits of the article key (e.g. 39-14 → 39).
-#   Start at:
-#   data/resolve_meta_corp/index.json
-#
-# - If user input uses abbreviations and you need alias→law_code:
-#   data/law_aliases.json
+# 3) 根拠リンクが必要なときだけ（任意）
+#   https://jplawdb.github.io/html-preview/ai-law-db/enhanced/{law_code}/{article}.html
+#   - 項: #p2 / 号: #p2-i1
