@@ -12,7 +12,7 @@
 - index.html : 入口（法令一覧）
 - enhanced/{law_code}/index.html : 法令ごとの目次（条文一覧）
 - enhanced/{law_code}/{article}.html : 個別条文（例: 57-8.html）
-- text/{law_code}/{article}.txt : プレーンテキスト（抽出・RAG前処理向け）
+- text/{law_code}/{article}.txt : プレーンテキスト（抽出・RAG前処理向け / 条番号が分かるなら直叩き推奨）
 - data/laws.json : 利用可能な法令メタデータ（機械処理向け）
 - data/resolve_lite/{law_code}.json : 最軽量のURL解決（法令別・条文一覧）
 - data/resolve_lite/index.json : resolve_lite ディレクトリの目次（軽量）
@@ -48,10 +48,12 @@
 
 ## 推奨の参照フロー（高速）
 
-1) （最優先）条名の発見（法人税編）: `data/resolve_meta_corp/index.json` → `.../{law_code}/index.json` → 必要な `{bucket}.json`  
-2) URL解決（最軽量）: `data/law_aliases.json` → `data/resolve_lite/{law_code}.json` で `enhanced/...#anchor` を確定  
-3) 本文抽出: まず `text/...` を読む（軽量で安定）  
-4) 根拠提示: 必要に応じて `enhanced/...#pX` / `#pX-iY` を引用URLとして提示  
+0) 条番号が分かるなら本文を直叩き（最短）: `text/{law_code}/{article}.txt`  
+   - 例: 措置法66条の7 → `text/sozei_tokubetsu/66-7.txt`
+1) 条名の発見（条番号が曖昧/条名から探したい場合）: `data/resolve_meta_corp/index.json` → 必要な `{bucket}.json`  
+   - bucket は「条文キー先頭の数字」なので、条番号が分かるなら `.../{law_code}/index.json` を見なくても `{bucket}.json` を直接取得できます  
+2) `law_code` が不明/略称入力のときだけ: `data/law_aliases.json` で `law_code` を確定  
+3) 根拠URLが必要なとき: `enhanced/{law_code}/{article}.html#pX` / `#pX-iY` を提示  
 
 ※ `resolve.json` / `resolve.min.json` / `resolve_lite.json` は互換・全体検索向けで、トークン制約が厳しい場合は後回し推奨です。
 
