@@ -1,5 +1,6 @@
 # Site entry for LLMs
 
+- Tax law quickstart (recommended first): /html-preview/ai-law-db/quickstart.txt
 - Tax law dataset: /html-preview/ai-law-db/llms.txt
 - Corporate-tax article titles (resolve_meta_corp): /html-preview/ai-law-db/data/resolve_meta_corp/index.json
 - Fast law article titles (resolve_meta): /html-preview/ai-law-db/data/resolve_meta/index.json

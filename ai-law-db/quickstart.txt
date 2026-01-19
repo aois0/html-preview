@@ -1,0 +1,58 @@
+# Quickstart (AI/crawler)
+#
+# Goal: fetch statute text fast with minimal crawling.
+# If you already know the article number, skip all JSON and fetch the text directly.
+#
+# Base:
+# https://jplawdb.github.io/html-preview/ai-law-db/
+#
+#
+# 1) Fastest path: direct text fetch
+#
+# URL pattern:
+#   text/{law_code}/{article}.txt
+#
+# Examples:
+# - 措置法66条の7 → text/sozei_tokubetsu/66-7.txt
+# - 措置法施行令39条の14 → text/sozei_tokubetsu_seirei/39-14.txt
+# - 法人税法57条の8 → text/hojinzei/57-8.txt
+#
+# Notes:
+# - “第66条の7” is represented as "66-7"
+# - “第39条の十四” is represented as "39-14"
+#
+#
+# 2) law_code mapping (memorize these)
+#
+# - shotokuzei : 所得税法
+# - hojinzei : 法人税法
+# - hojinzei_seirei : 法人税法施行令
+# - hojinzei_kisoku : 法人税法施行規則
+# - shohizei : 消費税法
+# - sozokuzei : 相続税法
+# - kokuzei_tsusoku : 国税通則法
+# - sozei_tokubetsu : 租税特別措置法（措置法）
+# - sozei_tokubetsu_seirei : 租税特別措置法施行令（措置法施行令）
+# - sozei_tokubetsu_kisoku : 租税特別措置法施行規則（措置法施行規則）
+#
+#
+# 3) When you need a citation URL / anchors (optional)
+#
+# - HTML article:
+#   enhanced/{law_code}/{article}.html
+# - Paragraph anchor: #p{paragraph}  (e.g. #p2)
+# - Item anchor:      #p{paragraph}-i{item_index} (e.g. #p2-i1)
+#
+#
+# 4) When the article number is unknown (optional helpers)
+#
+# - Use normal web search to identify the likely article number, then go back to (1).
+#
+# - If you want to search by article titles (mainly corporate-tax/CFC flows):
+#   data/resolve_meta_corp/{law_code}/{bucket}.json
+#   where bucket = leading digits of the article key (e.g. 39-14 → 39).
+#   Start at:
+#   data/resolve_meta_corp/index.json
+#
+# - If user input uses abbreviations and you need alias→law_code:
+#   data/law_aliases.json
