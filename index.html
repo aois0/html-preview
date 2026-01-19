@@ -196,6 +196,7 @@
       const [toast, setToast] = useState({ show: false, message: '', type: 'default' }); // トースト通知
       const [textSelection, setTextSelection] = useState(null); // テキスト選択情報
       const [showHighlightMenu, setShowHighlightMenu] = useState(false); // ハイライトメニュー表示
+      const [tappedHighlight, setTappedHighlight] = useState(null); // タップされたハイライト { highlightId, color, rect }
       const [theme, setTheme] = useState(() => {
         return localStorage.getItem('html-preview-theme') || 'dark';
       }); // テーマ（dark/light）
@@ -701,6 +702,13 @@
         }, 300); // iframeロード完了を待つ
       }, []);
 
+      // ハイライトを削除
+      const removeHighlight = useCallback((highlightId) => {
+        document.querySelectorAll('iframe').forEach(iframe => {
+          iframe.contentWindow?.postMessage({ type: 'remove-highlight', highlightId }, '*');
+        });
+      }, []);
+
       const dismissToast = useCallback(() => {
         if (toastTimerRef.current) {
           clearTimeout(toastTimerRef.current);
@@ -844,6 +852,26 @@
               updated[currentIdx] = {
                 ...updated[currentIdx],
                 highlights: [...(updated[currentIdx].highlights || []), e.data.highlight]
+              };
+              setSavedItems(updated);
+              saveToIndexedDB(updated);
+            }
+          }
+          // ハイライトがタップされた
+          if (e.data && e.data.type === 'highlight-tapped') {
+            setTappedHighlight(e.data);
+            setShowHighlightMenu(false); // 選択メニューは閉じる
+          }
+          // ハイライト削除完了
+          if (e.data && e.data.type === 'highlight-removed') {
+            setTappedHighlight(null);
+            // savedItemsからハイライトを削除
+            const currentIdx = savedItems.findIndex(item => item.code === code);
+            if (currentIdx !== -1) {
+              const updated = [...savedItems];
+              updated[currentIdx] = {
+                ...updated[currentIdx],
+                highlights: (updated[currentIdx].highlights || []).filter(h => h.id !== e.data.highlightId)
               };
               setSavedItems(updated);
               saveToIndexedDB(updated);
@@ -1557,6 +1585,16 @@ ${svgCode}
             return null;
           }
 
+          // markにクリックイベントを追加（タップで削除メニュー表示用）
+          function addMarkClickHandler(mark){
+            mark.style.cursor='pointer';
+            mark.addEventListener('click',function(ev){
+              ev.stopPropagation();
+              var rect=this.getBoundingClientRect();
+              window.parent.postMessage({type:'highlight-tapped',highlightId:this.dataset.highlightId,color:this.style.backgroundColor,rect:{top:rect.top,left:rect.left,bottom:rect.bottom,right:rect.right,width:rect.width,height:rect.height}},'*');
+            });
+          }
+
           window.addEventListener('message',function(e){
             if(e.data&&e.data.type==='scroll-to'){
               if(e.data.position==='top'){window.scrollTo(0,0)}
@@ -1582,6 +1620,7 @@ ${svgCode}
                   mark.appendChild(contents);
                   range.insertNode(mark);
                 }
+                addMarkClickHandler(mark);
                 sel.removeAllRanges();
                 window.parent.postMessage({type:'highlight-applied',success:true,highlight:{id:hlId,color:e.data.color,text:mark.textContent,startOffset:startOffset,endOffset:endOffset}},'*');
               }
@@ -1602,9 +1641,21 @@ ${svgCode}
                     mark.style.borderRadius='2px';
                     mark.dataset.highlightId=hl.id;
                     range.surroundContents(mark);
+                    addMarkClickHandler(mark);
                   }catch(ex){}
                 }
               });
+            }
+            // ハイライト削除
+            if(e.data&&e.data.type==='remove-highlight'){
+              var mark=document.querySelector('[data-highlight-id="'+e.data.highlightId+'"]');
+              if(mark){
+                var parent=mark.parentNode;
+                while(mark.firstChild){parent.insertBefore(mark.firstChild,mark);}
+                parent.removeChild(mark);
+                parent.normalize();
+                window.parent.postMessage({type:'highlight-removed',highlightId:e.data.highlightId},'*');
+              }
             }
           });
         })();</scr` + `ipt>`;
@@ -2287,6 +2338,44 @@ ${content}
                     <button
                       onClick={() => { setShowHighlightMenu(false); setTextSelection(null); }}
                       onTouchStart={(e) => { e.preventDefault(); setShowHighlightMenu(false); setTextSelection(null); }}
+                      className="w-7 h-7 rounded-full flex items-center justify-center active:scale-90"
+                      style={{ backgroundColor: 'rgba(255,255,255,0.2)', color: 'white', touchAction: 'manipulation' }}
+                      title="閉じる"
+                    >
+                      <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                      </svg>
+                    </button>
+                  </div>
+                )}
+                {/* ハイライト削除メニュー（ハイライトタップ時に表示） */}
+                {tappedHighlight && tappedHighlight.rect && (
+                  <div
+                    className="fixed z-50 flex items-center gap-1.5 px-2 py-1.5 rounded-full backdrop-blur-md shadow-lg"
+                    style={{
+                      top: Math.max(8, tappedHighlight.rect.top * (zoomLevel / 100) - 48),
+                      left: Math.max(8, Math.min(
+                        window.innerWidth - 100,
+                        tappedHighlight.rect.left * (zoomLevel / 100) + (tappedHighlight.rect.width * (zoomLevel / 100)) / 2 - 50
+                      )),
+                      backgroundColor: 'rgba(0, 0, 0, 0.75)',
+                    }}
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    <button
+                      onClick={() => removeHighlight(tappedHighlight.highlightId)}
+                      onTouchStart={(e) => { e.preventDefault(); removeHighlight(tappedHighlight.highlightId); }}
+                      className="flex items-center gap-1 px-2 py-1 rounded-full active:scale-90"
+                      style={{ backgroundColor: 'rgba(239, 68, 68, 0.8)', color: 'white', touchAction: 'manipulation' }}
+                    >
+                      <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                      </svg>
+                      <span className="text-sm font-medium">削除</span>
+                    </button>
+                    <button
+                      onClick={() => setTappedHighlight(null)}
+                      onTouchStart={(e) => { e.preventDefault(); setTappedHighlight(null); }}
                       className="w-7 h-7 rounded-full flex items-center justify-center active:scale-90"
                       style={{ backgroundColor: 'rgba(255,255,255,0.2)', color: 'white', touchAction: 'manipulation' }}
                       title="閉じる"
