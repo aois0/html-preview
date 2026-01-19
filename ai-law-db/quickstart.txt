@@ -1,4 +1,4 @@
-# AI向けクイックスタート（最短で条文本文を取る）
+# AI向けクイックスタート（最短で条文/通達本文を取る）
 #
 # 方針:
 # - 条番号が分かるなら、このDBは「本文取得」にだけ使う（最短で直叩き）
@@ -30,3 +30,30 @@
 # 3) 根拠リンクが必要なときだけ（任意）
 #   https://jplawdb.github.io/html-preview/ai-law-db/enhanced/{law_code}/{article}.html
 #   - 項: #p2 / 号: #p2-i1
+
+#
+# --- 通達（ai-tsutatsu-db）---
+#
+# 4) 本文（最短）
+#   https://jplawdb.github.io/html-preview/ai-tsutatsu-db/text/{doc_code}/{item_id}.txt
+#
+# 例:
+# - 法人税基本通達 1-1-1 → .../ai-tsutatsu-db/text/hojinzei_kihon_tsutatsu/1-1-1.txt
+# - 措置法通達（法人税編）66-7 → .../ai-tsutatsu-db/text/sozei_tokubetsu_tsutatsu_hojinzei/66-7.txt
+#
+# doc_code（通達）
+# - hojinzei_kihon_tsutatsu : 法人税基本通達
+# - shotokuzei_kihon_tsutatsu : 所得税基本通達
+# - shohizei_kihon_tsutatsu : 消費税基本通達
+# - sozokuzei_kihon_tsutatsu : 相続税法基本通達
+# - sozei_tokubetsu_tsutatsu_hojinzei : 租税特別措置法関係通達（法人税編）
+# - kokuzei_tsusoku_kihon_tsutatsu : 国税通則法基本通達
+#
+# 注意:
+# - item_id の区切りは半角ハイフン「-」固定（"−" / "－" 等は「-」に正規化）
+# - "_" や "common" を含む item_id もあるため、迷うときは一覧で確認:
+#   https://jplawdb.github.io/html-preview/ai-tsutatsu-db/data/resolve_lite/{doc_code}.json
+#
+# 5) 根拠リンクが必要なときだけ（任意）
+#   https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/{doc_code}/{item_id}.html
+#   - 段落: #p1（例: #p2）
