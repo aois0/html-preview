@@ -1,59 +1,32 @@
-# AI向け 日本税法（主要税法）データセット
+# AI向け 日本税法（主要税法）データセット（最小導線）
 
-> 主要税法の条文を、AIが読みやすい最小HTML（1条=1ページ）で提供します。
+最優先は「軽いJSON/テキストだけで完結」させることです（ChatGPT等のトークン制約対策）。
 
-## 目的
+## ★★★ まずはこの3つだけで回す（推奨）
 
-- LLM/AIエージェントが「条文そのもの」に素早くアクセスできること
-- URLが安定していて、条・項・号の引用位置をフラグメントで特定できること
+1) `llms.txt`（このファイル）
+  - 対応 `law_code` 一覧
+2) `data/resolve_meta_corp/{law_code}/{bucket}.json`
+  - 条文番号 → 条文タイトル（短縮）
+  - 形式: `{ "39-14": {"title":"..."}, ... }`
+3) `text/{law_code}/{article}.txt`
+  - 条文本文（引用は基本これでOK）
 
-## サイト構造
+bucket ルール: **条文キー先頭の数字**（例: `39-14→39` / `2-4-2→2`）
 
-- index.html : 入口（法令一覧）
-- enhanced/{law_code}/index.html : 法令ごとの目次（条文一覧）
-- enhanced/{law_code}/{article}.html : 個別条文（例: 57-8.html）
-- text/{law_code}/{article}.txt : プレーンテキスト（抽出・RAG前処理向け）
-- data/laws.json : 利用可能な法令メタデータ（機械処理向け）
-- data/resolve_lite/{law_code}.json : 最軽量のURL解決（法令別・条文一覧）
-- data/resolve_lite/index.json : resolve_lite ディレクトリの目次（軽量）
-- data/resolve_meta_corp/index.json : 条文タイトル（法人税編・分割）目次（最優先・軽量）
-- data/resolve_meta_corp/{law_code}/index.json : 法人税編の条文タイトル（分割）目次（法令別）
-- data/resolve_meta_corp/{law_code}/{bucket}.json : 条文タイトル（分割; 例: 39-14 など）
-※bucket は「条文キー先頭の数字」です（例: 39-14→39 / 2-4-2→2）
-- data/resolve_meta/{law_code}.json : 条文タイトル（短縮）辞書（法令別・軽量）
-- data/resolve_meta/index.json : resolve_meta ディレクトリの目次（軽量）
-- data/resolve_lite.json : 省サイズのURL解決（全法令まとめ・やや重い）
-- data/resolve.min.json : resolve.json の省サイズ版（JSONをそのまま/高速）
-- data/resolve.json : 略称・法令/条文の解決（URL解決用）
-- data/law_aliases.json : 法令略称→law_code 辞書
-- data/chunks/{law_code}.jsonl : 項/号ごとのJSONL（RAG投入用）
-- sitemap.xml : サイトマップ
+## 例（最短）
 
-## HTMLの構造（AI向け）
+「措置法施行令39条の14を調べて」
+- `law_code`: `sozei_tokubetsu_seirei`
+- `article`: `39-14` / `bucket`: `39`
+- タイトル: `data/resolve_meta_corp/sozei_tokubetsu_seirei/39.json`
+- 本文: `text/sozei_tokubetsu_seirei/39-14.txt`
 
-- 条（Article）
-  - `<article data-law="法令名" data-law-code="sozei_tokubetsu" data-article="57-8">`
-  - `data-cite` / `data-cite-id` に正規化済み参照キーを付与
-  - 見出し: `<h2 id="article-57-8">...`
+## ★★☆ 必要なときだけ使う（補助）
 
-- 項（Paragraph）
-  - `<div data-paragraph="1" id="p1" data-cite="...第1項" data-cite-id="...:p1">...`
-
-- 号（Item）
-  - `<p class="item" data-item="一" data-item-index="1" id="p2-i1" data-cite="...第1号" data-cite-id="...:i1">...`
-
-フラグメント例:
-- 第2項へ: `.../57-8.html#p2`
-- 第2項第1号へ: `.../57-8.html#p2-i1`
-
-## 推奨の参照フロー（高速）
-
-1) （最優先）条名の発見（法人税編）: `data/resolve_meta_corp/index.json` → `.../{law_code}/index.json` → 必要な `{bucket}.json`  
-2) URL解決（最軽量）: `data/law_aliases.json` → `data/resolve_lite/{law_code}.json` で `enhanced/...#anchor` を確定  
-3) 本文抽出: まず `text/...` を読む（軽量で安定）  
-4) 根拠提示: 必要に応じて `enhanced/...#pX` / `#pX-iY` を引用URLとして提示  
-
-※ `resolve.json` / `resolve.min.json` / `resolve_lite.json` は互換・全体検索向けで、トークン制約が厳しい場合は後回し推奨です。
+- `data/law_aliases.json`（略称→`law_code` 変換が必要なとき）
+- `data/resolve_meta_corp/{law_code}/index.json`（その法令の bucket 一覧が必要なとき）
+- `enhanced/{law_code}/{article}.html#pX` / `#pX-iY`（根拠URL・アンカーが必要なとき）
 
 ## 利用可能な法令（law_code）
 
