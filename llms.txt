@@ -16,4 +16,11 @@
 - /html-preview/ai-tsutatsu-db/index.html
 - /html-preview/ai-tsutatsu-db/llms.txt （AI向けサイトマップ）
 
-AI/LLMで税法条文を参照する場合は `ai-law-db/llms.txt`、通達を参照する場合は `ai-tsutatsu-db/llms.txt` から辿ってください。
+4) AI向け 日本税務判決データベース（判決・裁決）
+- /html-preview/ai-hanketsu-db/index.html
+- /html-preview/ai-hanketsu-db/llms.txt （AI向けサイトマップ）
+- /html-preview/ai-hanketsu-db/quickstart.txt （検索ガイド）
+- /html-preview/ai-hanketsu-db/core/{case_id}.txt （判決要約・直接取得）
+- /html-preview/ai-hanketsu-db/data/shards_index.json （索引一覧）
+
+AI/LLMで税法条文を参照する場合は `ai-law-db/llms.txt`、通達を参照する場合は `ai-tsutatsu-db/llms.txt`、判決を参照する場合は `ai-hanketsu-db/llms.txt` から辿ってください。

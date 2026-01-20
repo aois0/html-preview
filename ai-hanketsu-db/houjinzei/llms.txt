@@ -1,0 +1,49 @@
+# 法人税判例データベース（AI検索最適化版）
+# Japanese Corporate Tax Court Cases Database
+
+> 日本の法人税関連判決990件のメタデータと要約を提供
+> For AI/LLM consumption - optimized for ChatGPT, Claude, etc.
+
+## Quick Start
+
+1. **Search**: Open a shard to find relevant cases by keywords
+2. **Detail**: Read core/{case_id}.txt for case summary
+3. **Full text**: Available in source repository
+
+## Endpoints
+
+### Index (start here)
+- data/shards_index.json - List of all shards with keywords
+
+### Shards (100 cases each, ~8K tokens)
+- data/shards/shard-00.json ... shard-09.json
+
+### Summaries (2-4K tokens each)
+- core/{case_id}.txt
+
+## Sample Keywords by Shard
+
+| Shard | Range | Key Topics |
+|-------|-------|------------|
+| shard-08 | 13397-13658 | 措置法66条の6, CFC, タックスヘイブン |
+| shard-09 | 13659-13917 | 特定外国子会社, 実体基準, 国外関連取引 |
+| shard-00 | 10860-11125 | 損金算入, 益金算入, 租税回避 |
+
+## Data Format
+
+### Shard Entry
+```json
+{
+  "id": "12345",
+  "date": "2020-01-15",
+  "court": "東京地方裁判所",
+  "title": "法人税更正処分取消請求事件",
+  "result": "棄却",
+  "keywords": ["損金算入", "寄附金"],
+  "laws": ["法人税法37条"]
+}
+```
+
+## Source
+Original data: ai-law-db (private repository)
+Public endpoint: https://jplawdb.github.io/html-preview/ai-hanketsu-db/houjinzei/

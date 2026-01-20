@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>法人税判例DB - AI検索最適化版</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 900px; margin: 0 auto; padding: 20px; line-height: 1.6; }
+    h1 { border-bottom: 2px solid #333; padding-bottom: 10px; }
+    .stats { background: #f5f5f5; padding: 15px; border-radius: 8px; margin: 20px 0; }
+    .shard-list { display: grid; gap: 10px; }
+    .shard { background: #fff; border: 1px solid #ddd; padding: 12px; border-radius: 6px; }
+    .shard:hover { border-color: #007bff; }
+    .shard a { text-decoration: none; color: #007bff; font-weight: bold; }
+    .keywords { font-size: 0.85em; color: #666; margin-top: 5px; }
+    code { background: #f0f0f0; padding: 2px 6px; border-radius: 3px; }
+    .api-section { margin-top: 30px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+    th { background: #f5f5f5; }
+  </style>
+</head>
+<body>
+  <h1>法人税判例DB</h1>
+  <p>AI/LLM検索に最適化された日本の法人税関連判決データベース</p>
+
+  <div class="stats">
+    <strong>収録件数:</strong> 990件<br>
+    <strong>分割:</strong> 10 shards（各100件）<br>
+    <strong>対象:</strong> 法人税関連判決
+  </div>
+
+  <h2>🔍 AI向けエンドポイント</h2>
+  <table>
+    <tr><th>ファイル</th><th>用途</th><th>サイズ目安</th></tr>
+    <tr><td><a href="llms.txt">llms.txt</a></td><td>AI向け説明</td><td>~1K tokens</td></tr>
+    <tr><td><a href="data/shards_index.json">shards_index.json</a></td><td>全shardの一覧</td><td>~2K tokens</td></tr>
+    <tr><td><a href="data/shards/">shards/*.json</a></td><td>メタデータ検索</td><td>~8K tokens/shard</td></tr>
+    <tr><td>core/{id}.txt</td><td>判決要約</td><td>~3K tokens/件</td></tr>
+  </table>
+
+  <h2>📁 Shards一覧</h2>
+  <div class="shard-list">
+    <div class="shard">
+      <a href="data/shards/shard-00.json">shard-00.json</a> (10860-11125, 100件)
+      <div class="keywords">損金算入, 益金算入, 租税回避, 青色申告</div>
+    </div>
+    <div class="shard">
+      <a href="data/shards/shard-01.json">shard-01.json</a> (11127-11381, 100件)
+      <div class="keywords">推計課税, 損金算入, 青色申告</div>
+    </div>
+    <div class="shard">
+      <a href="data/shards/shard-02.json">shard-02.json</a> (11392-11687, 100件)
+      <div class="keywords">租税回避, 推計課税, 損金算入</div>
+    </div>
+    <div class="shard">
+      <a href="data/shards/shard-03.json">shard-03.json</a> (11690-12092, 100件)
+      <div class="keywords">租税回避, 推計課税, 青色申告</div>
+    </div>
+    <div class="shard">
+      <a href="data/shards/shard-04.json">shard-04.json</a> (12097-12414, 100件)
+      <div class="keywords">租税回避, 推計課税, 青色申告</div>
+    </div>
+    <div class="shard">
+      <a href="data/shards/shard-05.json">shard-05.json</a> (12416-12751, 100件)
+      <div class="keywords">租税回避, 損金算入, 益金算入</div>
+    </div>
+    <div class="shard">
+      <a href="data/shards/shard-06.json">shard-06.json</a> (12753-13088, 100件)
+      <div class="keywords">租税回避, 財産評価, 損金算入</div>
+    </div>
+    <div class="shard">
+      <a href="data/shards/shard-07.json">shard-07.json</a> (13090-13395, 100件)
+      <div class="keywords">租税回避, 財産評価, 青色申告</div>
+    </div>
+    <div class="shard" style="border-color: #28a745; background: #f0fff0;">
+      <a href="data/shards/shard-08.json">shard-08.json</a> (13397-13658, 100件) ⭐CFC関連
+      <div class="keywords"><strong>措置法66条の6</strong>, 賦課決定, 更正の請求</div>
+    </div>
+    <div class="shard" style="border-color: #28a745; background: #f0fff0;">
+      <a href="data/shards/shard-09.json">shard-09.json</a> (13659-13917, 90件) ⭐CFC関連
+      <div class="keywords"><strong>特定外国子会社, 実体基準, 国外関連取引</strong></div>
+    </div>
+  </div>
+
+  <h2>💡 使い方（AI向け）</h2>
+  <ol>
+    <li><code>shards_index.json</code> で関連shardを特定</li>
+    <li><code>shard-XX.json</code> でキーワード検索</li>
+    <li><code>core/{id}.txt</code> で詳細要約を取得</li>
+  </ol>
+
+  <hr>
+  <p><small>Source: ai-law-db | Generated: 2026-01-20</small></p>
+</body>
+</html>
