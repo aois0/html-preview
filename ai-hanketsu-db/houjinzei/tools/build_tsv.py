@@ -2,9 +2,11 @@
 """
 法人税判決のTSV shardsを生成
 JSON比で約50%のトークン削減
+v2: topics追加、略称化、不要語削除
 """
 
 import json
+import re
 from pathlib import Path
 
 SOURCE_DIR = Path("/home/user/ai-law-db/simple/hanketsu")
@@ -12,9 +14,52 @@ LIST_FILE = Path("/tmp/houjinzei_list.txt")
 OUTPUT_DIR = Path("/mnt/c/Users/PC/html-preview/ai-hanketsu-db/houjinzei/data/shards")
 SHARD_SIZE = 100
 
+# 裁判所略称マッピング
+COURT_ABBREV = {
+    '東京地方裁判所': '東京地裁',
+    '東京高等裁判所': '東京高裁',
+    '大阪地方裁判所': '大阪地裁',
+    '大阪高等裁判所': '大阪高裁',
+    '名古屋地方裁判所': '名古屋地裁',
+    '名古屋高等裁判所': '名古屋高裁',
+    '福岡地方裁判所': '福岡地裁',
+    '福岡高等裁判所': '福岡高裁',
+    '最高裁判所': '最高裁',
+}
+
+# title削除対象
+TITLE_REMOVE = ['更正処分', '決定処分', '等', '取消請求', '控訴', '上告', '事件']
+
+# keywords削除対象
+KEYWORD_REMOVE = {'更正処分', '課税処分', '決定処分'}
+
+
+def shorten_court(court: str) -> str:
+    """裁判所名を略称化"""
+    if court in COURT_ABBREV:
+        return COURT_ABBREV[court]
+    # その他: 正規表現で置換
+    court = re.sub(r'地方裁判所', '地裁', court)
+    court = re.sub(r'高等裁判所', '高裁', court)
+    return court
+
+
+def clean_title(title: str) -> str:
+    """titleから不要語を削除"""
+    for word in TITLE_REMOVE:
+        title = title.replace(word, '')
+    return title.strip()
+
+
+def clean_keywords(keywords: list) -> list:
+    """keywordsから不要語を削除"""
+    return [kw for kw in keywords if kw not in KEYWORD_REMOVE]
+
+
 def load_case_ids():
     with open(LIST_FILE, 'r') as f:
         return [line.strip() for line in f if line.strip()]
+
 
 def extract_row(case_id):
     json_path = SOURCE_DIR / f"{case_id}.json"
@@ -22,17 +67,30 @@ def extract_row(case_id):
         with open(json_path, 'r', encoding='utf-8') as f:
             d = json.load(f)
 
-        kw = ','.join(d.get('keywords', [])[:5])
-        laws = ','.join(d.get('laws', [])[:3])
-        title = d.get('title', '')[:50].replace('\t', ' ')
+        # topics（カンマ区切り）
+        topics = ','.join(d.get('topics', []))
 
-        return f"{case_id}\t{d.get('date_iso', '')}\t{d.get('court', '')}\t{title}\t{kw}\t{laws}"
+        # keywords（不要語削除、最大5個）
+        kw_list = clean_keywords(d.get('keywords', []))[:5]
+        kw = ','.join(kw_list)
+
+        # laws（最大5個に緩和）
+        laws = ','.join(d.get('laws', [])[:5])
+
+        # title（簡略化）
+        title = clean_title(d.get('title', ''))[:50].replace('\t', ' ')
+
+        # court（略称化）
+        court = shorten_court(d.get('court', ''))
+
+        return f"{case_id}\t{d.get('date_iso', '')}\t{court}\t{title}\t{topics}\t{kw}\t{laws}"
     except:
         return None
 
+
 def build_shards(case_ids):
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    header = "id\tdate\tcourt\ttitle\tkeywords\tlaws"
+    header = "id\tdate\tcourt\ttitle\ttopics\tkeywords\tlaws"
 
     index_lines = ["# 法人税判例 shards index", f"# total: {len(case_ids)}", ""]
 
@@ -60,6 +118,7 @@ def build_shards(case_ids):
         f.write('\n'.join(index_lines))
 
     print(f"\nshards_index.txt created")
+
 
 if __name__ == "__main__":
     case_ids = load_case_ids()

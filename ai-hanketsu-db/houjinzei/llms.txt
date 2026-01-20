@@ -33,9 +33,14 @@
 
 ### Shard Entry
 ```
-id	date	court	title	keywords	laws
-12345	2020-01-15	東京地方裁判所	法人税更正処分取消請求事件	損金算入,寄附金	法人税法37条
+id	date	court	title	topics	keywords	laws
+13883	2023-09-13	東京高裁	法人税	法人税,CFC	外国子会社合算税制,措置法66条の6,特定外国子会社	法人税法,措置法66条の6
 ```
+
+### Field Notes
+- court: 略称（東京地裁、大阪高裁、最高裁等）
+- title: 簡略化（「更正処分取消請求事件」等を削除）
+- topics: 税目・テーマ（法人税,CFC 等）
 
 ## Source
 Original data: ai-law-db (private repository)
