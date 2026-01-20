@@ -26,13 +26,13 @@ def extract_row(case_id):
         laws = ','.join(d.get('laws', [])[:3])
         title = d.get('title', '')[:50].replace('\t', ' ')
 
-        return f"{case_id}\t{d.get('date_iso', '')}\t{d.get('court', '')}\t{title}\t{d.get('result', '')}\t{kw}\t{laws}"
+        return f"{case_id}\t{d.get('date_iso', '')}\t{d.get('court', '')}\t{title}\t{kw}\t{laws}"
     except:
         return None
 
 def build_shards(case_ids):
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    header = "id\tdate\tcourt\ttitle\tresult\tkeywords\tlaws"
+    header = "id\tdate\tcourt\ttitle\tkeywords\tlaws"
 
     index_lines = ["# 法人税判例 shards index", f"# total: {len(case_ids)}", ""]
 
