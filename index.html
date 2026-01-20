@@ -848,11 +848,39 @@
             // ライブラリアイテムにハイライト情報を保存
             const currentIdx = savedItems.findIndex(item => item.code === code);
             if (currentIdx !== -1) {
+              // 既存アイテムを更新
               const updated = [...savedItems];
               updated[currentIdx] = {
                 ...updated[currentIdx],
                 highlights: [...(updated[currentIdx].highlights || []), e.data.highlight]
               };
+              setSavedItems(updated);
+              saveToIndexedDB(updated);
+            } else if (code) {
+              // 未登録の場合は自動登録
+              const trimmed = code.trim();
+              const hasHtmlDoc = /<!DOCTYPE\s+html/i.test(trimmed) || /<html[\s>]/i.test(trimmed);
+              const hasSvg = /<svg[\s>]/i.test(trimmed);
+              const isSvg = hasSvg && !hasHtmlDoc;
+              const hasHtmlTag = /<([a-zA-Z][\w:-]*)(\s[^>]*)?>/.test(trimmed);
+              const type = hasHtmlDoc ? 'HTML' : isSvg ? 'SVG' : hasHtmlTag ? 'HTML' : 'TEXT';
+              let title = '';
+              if (type === 'HTML') {
+                const titleMatch = code.match(/<title[^>]*>([^<]+)<\/title>/i);
+                if (titleMatch) title = titleMatch[1].trim();
+              } else if (type === 'TEXT') {
+                title = code.trim().split('\n')[0];
+              }
+              title = (title || '').slice(0, 50).replace(/[\/\\:*?"<>|\n\r]/g, '').trim() || type;
+              const newItem = {
+                id: Date.now(),
+                title,
+                type,
+                code,
+                createdAt: new Date().toISOString(),
+                highlights: [e.data.highlight]
+              };
+              const updated = [newItem, ...savedItems];
               setSavedItems(updated);
               saveToIndexedDB(updated);
             }
