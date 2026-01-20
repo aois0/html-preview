@@ -15,9 +15,8 @@
 ### Index (start here)
 - data/shards_index.json - List of all shards with keywords
 
-### Shards (100 cases each)
-- **TSV format (recommended)**: data/shards/shard-00.txt ... shard-09.txt (~4K tokens each)
-- JSON format: data/shards/shard-00.json ... shard-09.json (~8K tokens each)
+### Shards (100 cases each, ~4K tokens)
+- data/shards/shard-00.txt ... shard-09.txt
 
 ### Summaries (2-4K tokens each)
 - core/{case_id}.txt
