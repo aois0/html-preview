@@ -1,0 +1,13 @@
+# 法人税判例 shards index
+# total: 990
+
+shard-00.txt	10860-11125	100
+shard-01.txt	11127-11381	100
+shard-02.txt	11392-11687	100
+shard-03.txt	11690-12092	100
+shard-04.txt	12097-12414	100
+shard-05.txt	12416-12751	100
+shard-06.txt	12753-13088	100
+shard-07.txt	13090-13395	100
+shard-08.txt	13397-13658	100
+shard-09.txt	13659-13917	90

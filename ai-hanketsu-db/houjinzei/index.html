@@ -35,50 +35,52 @@
     <tr><th>ファイル</th><th>用途</th><th>サイズ目安</th></tr>
     <tr><td><a href="llms.txt">llms.txt</a></td><td>AI向け説明</td><td>~1K tokens</td></tr>
     <tr><td><a href="data/shards_index.json">shards_index.json</a></td><td>全shardの一覧</td><td>~2K tokens</td></tr>
-    <tr><td><a href="data/shards/">shards/*.json</a></td><td>メタデータ検索</td><td>~8K tokens/shard</td></tr>
+    <tr><td><a href="data/shards/">shards/*.txt</a></td><td>メタデータ検索（TSV推奨）</td><td>~4K tokens/shard</td></tr>
+    <tr><td><a href="data/shards/">shards/*.json</a></td><td>メタデータ検索（JSON）</td><td>~8K tokens/shard</td></tr>
     <tr><td>core/{id}.txt</td><td>判決要約</td><td>~3K tokens/件</td></tr>
   </table>
 
   <h2>📁 Shards一覧</h2>
+  <p><strong>推奨</strong>: TSV形式（トークン効率50%向上）</p>
   <div class="shard-list">
     <div class="shard">
-      <a href="data/shards/shard-00.json">shard-00.json</a> (10860-11125, 100件)
+      <a href="data/shards/shard-00.txt">shard-00.txt</a> | <a href="data/shards/shard-00.json">.json</a> (10860-11125, 100件)
       <div class="keywords">損金算入, 益金算入, 租税回避, 青色申告</div>
     </div>
     <div class="shard">
-      <a href="data/shards/shard-01.json">shard-01.json</a> (11127-11381, 100件)
+      <a href="data/shards/shard-01.txt">shard-01.txt</a> | <a href="data/shards/shard-01.json">.json</a> (11127-11381, 100件)
       <div class="keywords">推計課税, 損金算入, 青色申告</div>
     </div>
     <div class="shard">
-      <a href="data/shards/shard-02.json">shard-02.json</a> (11392-11687, 100件)
+      <a href="data/shards/shard-02.txt">shard-02.txt</a> | <a href="data/shards/shard-02.json">.json</a> (11392-11687, 100件)
       <div class="keywords">租税回避, 推計課税, 損金算入</div>
     </div>
     <div class="shard">
-      <a href="data/shards/shard-03.json">shard-03.json</a> (11690-12092, 100件)
+      <a href="data/shards/shard-03.txt">shard-03.txt</a> | <a href="data/shards/shard-03.json">.json</a> (11690-12092, 100件)
       <div class="keywords">租税回避, 推計課税, 青色申告</div>
     </div>
     <div class="shard">
-      <a href="data/shards/shard-04.json">shard-04.json</a> (12097-12414, 100件)
+      <a href="data/shards/shard-04.txt">shard-04.txt</a> | <a href="data/shards/shard-04.json">.json</a> (12097-12414, 100件)
       <div class="keywords">租税回避, 推計課税, 青色申告</div>
     </div>
     <div class="shard">
-      <a href="data/shards/shard-05.json">shard-05.json</a> (12416-12751, 100件)
+      <a href="data/shards/shard-05.txt">shard-05.txt</a> | <a href="data/shards/shard-05.json">.json</a> (12416-12751, 100件)
       <div class="keywords">租税回避, 損金算入, 益金算入</div>
     </div>
     <div class="shard">
-      <a href="data/shards/shard-06.json">shard-06.json</a> (12753-13088, 100件)
+      <a href="data/shards/shard-06.txt">shard-06.txt</a> | <a href="data/shards/shard-06.json">.json</a> (12753-13088, 100件)
       <div class="keywords">租税回避, 財産評価, 損金算入</div>
     </div>
     <div class="shard">
-      <a href="data/shards/shard-07.json">shard-07.json</a> (13090-13395, 100件)
+      <a href="data/shards/shard-07.txt">shard-07.txt</a> | <a href="data/shards/shard-07.json">.json</a> (13090-13395, 100件)
       <div class="keywords">租税回避, 財産評価, 青色申告</div>
     </div>
     <div class="shard" style="border-color: #28a745; background: #f0fff0;">
-      <a href="data/shards/shard-08.json">shard-08.json</a> (13397-13658, 100件) ⭐CFC関連
+      <a href="data/shards/shard-08.txt">shard-08.txt</a> | <a href="data/shards/shard-08.json">.json</a> (13397-13658, 100件) ⭐CFC関連
       <div class="keywords"><strong>措置法66条の6</strong>, 賦課決定, 更正の請求</div>
     </div>
     <div class="shard" style="border-color: #28a745; background: #f0fff0;">
-      <a href="data/shards/shard-09.json">shard-09.json</a> (13659-13917, 90件) ⭐CFC関連
+      <a href="data/shards/shard-09.txt">shard-09.txt</a> | <a href="data/shards/shard-09.json">.json</a> (13659-13917, 90件) ⭐CFC関連
       <div class="keywords"><strong>特定外国子会社, 実体基準, 国外関連取引</strong></div>
     </div>
   </div>
