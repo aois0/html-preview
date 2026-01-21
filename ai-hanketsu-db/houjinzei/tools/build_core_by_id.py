@@ -7,6 +7,7 @@ Generate per-case core/{id}.txt for the Corporate Tax (法人税) case set.
 - Output: core/{id}.txt (YAML frontmatter + summary/placeholder)
 """
 
+import argparse
 import json
 import re
 import subprocess
@@ -21,6 +22,7 @@ LIST_FILE = Path("/tmp/houjinzei_list.txt")
 BASE_DIR = Path(__file__).parent.parent
 CORE_DIR = BASE_DIR / "core"
 REPO_ROOT = BASE_DIR.parent.parent
+SHARDS_DIR = BASE_DIR / "data" / "shards"
 
 
 CASE_HEADER_RE = re.compile(r"^##\s+(\d+):", re.MULTILINE)
@@ -32,9 +34,63 @@ JIKAN_RE = re.compile(r"事案の概要")
 DAI_HEADING_RE = re.compile(r"^\s*第[０-９0-9一二三四五六七八九十]+", re.MULTILINE)
 BETSU_RE = re.compile(r"^\s*別紙", re.MULTILINE)
 
+SENTENCE_SPLIT_RE = re.compile(r"(?<=。)")
+
+
+DECISION_PHRASES = (
+    ("解するのが相当", 6),
+    ("というべき", 5),
+    ("認められる", 4),
+    ("判断する", 4),
+    ("したがって", 4),
+    ("よって", 4),
+    ("違法", 4),
+    ("適法", 4),
+    ("棄却", 3),
+    ("取消", 3),
+    ("理由がない", 3),
+    ("本件", 1),
+)
+
 
 def load_case_ids() -> list[str]:
     return [line.strip() for line in LIST_FILE.read_text(encoding="utf-8").splitlines() if line.strip()]
+
+def load_case_ids_from_shards(shards: list[str]) -> list[str]:
+    """
+    Load case_ids from shard TSVs (data/shards/shard-XX.txt).
+    """
+    case_ids: list[str] = []
+
+    for shard in shards:
+        s = shard.strip()
+        if not s:
+            continue
+        if s.isdigit():
+            shard_file = SHARDS_DIR / f"shard-{int(s):02d}.txt"
+        else:
+            name = s
+            if not name.endswith(".txt"):
+                name += ".txt"
+            shard_file = SHARDS_DIR / name
+
+        lines = shard_file.read_text(encoding="utf-8", errors="replace").splitlines()
+        for line in lines[1:]:
+            if not line.strip():
+                continue
+            cid = line.split("\t", 1)[0].strip()
+            if cid:
+                case_ids.append(cid)
+
+    # de-duplicate (preserve order)
+    seen: set[str] = set()
+    uniq: list[str] = []
+    for cid in case_ids:
+        if cid in seen:
+            continue
+        seen.add(cid)
+        uniq.append(cid)
+    return uniq
 
 
 def extract_segments_from_batches() -> tuple[dict[str, str], dict[str, str]]:
@@ -165,17 +221,204 @@ def _extract_after_phrase(text: str, phrase_re: re.Pattern, max_chars: int) -> s
     return _clip(text[start:end], max_chars=max_chars)
 
 
+def _extract_after_phrase_next_line(text: str, phrase_re: re.Pattern, max_chars: int) -> str:
+    """
+    Like _extract_after_phrase, but if the phrase appears in a heading line,
+    start from the next line to avoid clipped fragments (e.g., "事案の概要等").
+    """
+    m = phrase_re.search(text)
+    if not m:
+        return ""
+    start = m.end()
+    nl = text.find("\n", start)
+    if nl != -1 and nl - start <= 40:
+        start = nl + 1
+    end = len(text)
+    m2 = BETSU_RE.search(text, start)
+    if m2:
+        end = min(end, m2.start())
+    return _clip(text[start:end], max_chars=max_chars)
+
+
+def _normalize_for_sentences(text: str) -> str:
+    t = text.replace("\r\n", "\n").replace("\r", "\n")
+    t = re.sub(r"[ \t]+", " ", t)
+    t = re.sub(r"\n{3,}", "\n\n", t)
+    return t.strip()
+
+
+def _split_sentences(text: str) -> list[str]:
+    t = _normalize_for_sentences(text)
+    if not t:
+        return []
+    t = t.replace("\n", " ")
+    t = re.sub(r"\s+", " ", t).strip()
+    if not t:
+        return []
+    parts = SENTENCE_SPLIT_RE.split(t)
+    out: list[str] = []
+    for part in parts:
+        s = part.strip()
+        if not s:
+            continue
+        out.append(s)
+
+    # Heuristic merge: avoid splitting inside parenthetical phrases like "…という。）が…"
+    merged: list[str] = []
+    for s in out:
+        if not merged:
+            merged.append(s)
+            continue
+        cur = s
+        prev = merged[-1]
+        if cur.startswith(("）", ")", "】", "]")) and (prev.endswith("。") or "以下" in prev):
+            merged[-1] = prev + cur
+            continue
+        if cur[:1] in ("が", "を", "に", "へ", "と", "は", "の") and prev.endswith("。") and ("という" in prev or "以下" in prev):
+            merged[-1] = prev + cur
+            continue
+        merged.append(cur)
+
+    return merged
+
+
+def _score_sentence(sentence: str, keywords: list[str], laws: list[str]) -> int:
+    score = 0
+    for phrase, weight in DECISION_PHRASES:
+        if phrase in sentence:
+            score += weight
+    for kw in keywords[:12]:
+        if kw and kw in sentence:
+            score += 2
+    # Laws in raw text may be full-width; treat laws list as hints only.
+    for law in laws[:12]:
+        if not law:
+            continue
+        head = re.split(r"\d", law, maxsplit=1)[0]
+        head = head.strip()
+        if head and head in sentence:
+            score += 1
+    # Prefer sentences that mention条/項/号 (often legal holding)
+    if "条" in sentence:
+        score += 1
+    if "項" in sentence:
+        score += 1
+    if "号" in sentence:
+        score += 1
+    return score
+
+
+def _clean_sentence(sentence: str) -> str:
+    s = sentence.strip()
+    s = re.sub(r"^[)）】\]＞>]+", "", s).strip()
+    s = re.sub(r"^[,、]+", "", s).strip()
+    return s
+
+
+def _pick_sentences(
+    text: str,
+    *,
+    keywords: list[str],
+    laws: list[str],
+    max_items: int,
+    max_total_chars: int,
+    min_chars: int = 25,
+    max_chars: int = 220,
+) -> list[str]:
+    sents = _split_sentences(text)
+    if not sents:
+        return []
+
+    scored: list[tuple[int, int, str]] = []
+    for idx, s in enumerate(sents):
+        s2 = _clean_sentence(s)
+        if len(s2) < min_chars:
+            continue
+        if len(s2) > max_chars * 2:
+            s2 = _clip(s2, max_chars)
+        scored.append((_score_sentence(s2, keywords, laws), idx, s2))
+
+    if not scored:
+        return []
+
+    scored.sort(key=lambda x: (x[0], len(x[2])), reverse=True)
+    picked: list[tuple[int, str]] = []
+    total = 0
+    seen_prefix: set[str] = set()
+
+    for score, idx, s in scored:
+        if score <= 0:
+            continue
+        if total + len(s) > max_total_chars:
+            continue
+        prefix = re.sub(r"\s+", "", s)[:40]
+        if prefix and prefix in seen_prefix:
+            continue
+        seen_prefix.add(prefix)
+        picked.append((idx, s))
+        total += len(s)
+        if len(picked) >= max_items:
+            break
+
+    if not picked:
+        # fallback: take first N sentences
+        out: list[str] = []
+        total = 0
+        for s in sents:
+            s2 = s.strip()
+            if len(s2) < min_chars:
+                continue
+            if len(s2) > max_chars * 2:
+                s2 = _clip(s2, max_chars)
+            if total + len(s2) > max_total_chars:
+                break
+            out.append(s2)
+            total += len(s2)
+            if len(out) >= max_items:
+                break
+        return out
+
+    picked.sort(key=lambda x: x[0])
+    return [s for _, s in picked]
+
+
+def _pick_first_sentences(
+    text: str,
+    *,
+    max_items: int,
+    max_total_chars: int,
+    min_chars: int = 25,
+    max_chars: int = 220,
+) -> list[str]:
+    sents = _split_sentences(text)
+    out: list[str] = []
+    total = 0
+    for s in sents:
+        s2 = _clean_sentence(s)
+        if len(s2) < min_chars:
+            continue
+        if len(s2) > max_chars * 2:
+            s2 = _clip(s2, max_chars)
+        if total + len(s2) > max_total_chars:
+            break
+        out.append(s2)
+        total += len(s2)
+        if len(out) >= max_items:
+            break
+    return out
+
+
 def build_auto_segment(case_id: str, meta: dict) -> tuple[str, str] | tuple[None, None]:
     raw = str(meta.get("text") or "")
     title = str(meta.get("title") or "").strip()
     court = str(meta.get("court") or "").strip()
     date = str(meta.get("date_iso") or meta.get("date") or "").strip()
+    result = str(meta.get("result") or "").strip()
 
     if not raw.strip():
         topics = meta.get("topics") or []
         keywords = meta.get("keywords") or []
         laws = meta.get("laws") or []
-        result = str(meta.get("result") or "").strip()
 
         lines: list[str] = []
         header = f"## {case_id}: {title}".rstrip()
@@ -193,18 +436,56 @@ def build_auto_segment(case_id: str, meta: dict) -> tuple[str, str] | tuple[None
         lines.append("（注）原文テキストがデータソースに未収録のため、本文抜粋はありません。")
         return "\n".join(lines).strip(), "meta_only_v1"
 
-    shubun = _extract_section(raw, SHUBUN_RE, max_chars=800)
-    jikan = _extract_after_phrase(raw, JIKAN_RE, max_chars=1800)
-    souten = _extract_section(raw, SOUTEN_RE, max_chars=1200)
-    handan = _extract_after_phrase(raw, DANIN_RE, max_chars=4200)
+    topics = meta.get("topics") or []
+    keywords = meta.get("keywords") or []
+    laws = meta.get("laws") or []
+
+    shubun = _extract_section(raw, SHUBUN_RE, max_chars=1500)
+    jikan = _extract_after_phrase_next_line(raw, JIKAN_RE, max_chars=9000)
+    souten = _extract_section(raw, SOUTEN_RE, max_chars=9000)
+    handan = _extract_after_phrase_next_line(raw, DANIN_RE, max_chars=22000)
 
     points: list[str] = []
+    if result:
+        points.append(f"- 結果: {result}")
     if shubun:
         points.append(f"- 主文: {_first_sentence(shubun)}")
-    if souten:
-        points.append(f"- 争点: {_first_sentence(souten)}")
-    if handan:
-        points.append(f"- 判断: {_first_sentence(handan)}")
+
+    # Pick key sentences (structured, but still extractive)
+    handan_points = _pick_sentences(
+        handan or raw,
+        keywords=keywords,
+        laws=laws,
+        max_items=10,
+        max_total_chars=1600,
+        min_chars=28,
+        max_chars=240,
+    )
+    jikan_points = _pick_first_sentences(
+        jikan or raw,
+        max_items=6,
+        max_total_chars=900,
+        min_chars=28,
+        max_chars=220,
+    )
+    souten_points = _pick_sentences(
+        souten or raw,
+        keywords=keywords,
+        laws=laws,
+        max_items=6,
+        max_total_chars=900,
+        min_chars=24,
+        max_chars=220,
+    )
+    quotes = _pick_sentences(
+        handan or raw,
+        keywords=keywords,
+        laws=laws,
+        max_items=6,
+        max_total_chars=1400,
+        min_chars=30,
+        max_chars=260,
+    )
 
     lines: list[str] = []
     header = f"## {case_id}: {title}".rstrip()
@@ -215,33 +496,47 @@ def build_auto_segment(case_id: str, meta: dict) -> tuple[str, str] | tuple[None
 
     lines.append(header)
     lines.append("")
-    lines.append("### 要点（自動抽出・要約補助）")
+    lines.append("### 結論（先出し）")
     if points:
         lines.extend(points)
     else:
-        lines.append("- （要点抽出に失敗）")
+        lines.append("- （結論抽出に失敗）")
 
     lines.append("")
-    if shubun:
-        lines.append("### 主文（抜粋）")
-        lines.append(shubun)
-        lines.append("")
-    if jikan:
-        lines.append("### 事案の概要（抜粋）")
-        lines.append(jikan)
-        lines.append("")
-    if souten:
-        lines.append("### 争点（抜粋）")
-        lines.append(souten)
-        lines.append("")
-    if handan:
-        lines.append("### 当裁判所の判断（抜粋）")
-        lines.append(handan)
-        lines.append("")
+    lines.append("### 何が争われたか（争点の手掛かり）")
+    if keywords:
+        lines.append(f"- keywords: {', '.join(keywords[:12])}")
+    if laws:
+        lines.append(f"- laws: {', '.join(laws[:12])}")
+    if souten_points:
+        lines.append("- 争点（抜粋）:")
+        for s in souten_points:
+            lines.append(f"  - {s}")
 
-    lines.append("（注）本ファイルはAI検索用に、判決文から要点・抜粋を機械的に切り出したものです。厳密な引用・要件判定は原文で確認してください。")
+    lines.append("")
+    lines.append("### 裁判所の判断（要旨・抜粋）")
+    if handan_points:
+        for s in handan_points:
+            lines.append(f"- {s}")
+    else:
+        lines.append("- （判断部分の抽出に失敗）")
 
-    return "\n".join(lines).strip(), "auto_extract_v1"
+    if quotes:
+        lines.append("")
+        lines.append("### 重要判示（引用）")
+        for q in quotes[:5]:
+            lines.append(f"> {q}")
+
+    if jikan_points:
+        lines.append("")
+        lines.append("### 事案の概要（要旨）")
+        for s in jikan_points:
+            lines.append(f"- {s}")
+
+    lines.append("")
+    lines.append("（注）本ファイルはAI検索用に、判決文から要点・抜粋を機械的に抽出・整形したものです。厳密な引用・要件判定は原文で確認してください。")
+
+    return "\n".join(lines).strip(), "auto_structured_v2"
 
 
 def write_core_file(case_id: str, meta: dict, segment: str | None, segment_source: str | None) -> None:
@@ -291,8 +586,16 @@ def write_core_file(case_id: str, meta: dict, segment: str | None, segment_sourc
 def main() -> None:
     CORE_DIR.mkdir(parents=True, exist_ok=True)
 
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--shards",
+        nargs="*",
+        help="Regenerate only specified shards (e.g. 06 07 or shard-06 shard-07).",
+    )
+    args = parser.parse_args()
+
     segments, sources = extract_segments_from_batches()
-    case_ids = load_case_ids()
+    case_ids = load_case_ids_from_shards(args.shards) if args.shards else load_case_ids()
 
     ok = 0
     missing_meta = 0
