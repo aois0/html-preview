@@ -14,21 +14,23 @@ keywords:
 - 賦課決定
 laws: []
 result: 取消
-summary_status: missing
-summary_source: ''
+summary_status: available
+summary_source: meta_only_v1
 source:
   origin: aois0/ai-law-db simple/hanketsu/13825.json
 ---
 
 # 判決要約
 
-（要約未生成）
+## 13825: 印紙税過怠税賦課処分取消請求事件（東京地方裁判所 2023-03-08）
 
-## 手掛かり（メタデータ）
+### 要点（メタデータのみ）
 - topics: 法人税, 消費税
 - keywords: 損害賠償, 決定処分, 法人税, 消費税, 賦課決定
 - laws: 
 - result: 取消
+
+（注）原文テキストがデータソースに未収録のため、本文抜粋はありません。
 
 ---
 *このファイルはAI検索用です。正確な内容は原文を参照してください。*

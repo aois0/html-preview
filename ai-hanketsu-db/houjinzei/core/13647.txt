@@ -17,21 +17,23 @@ keywords:
 - 源泉所得税
 laws: []
 result: 棄却
-summary_status: missing
-summary_source: ''
+summary_status: available
+summary_source: meta_only_v1
 source:
   origin: aois0/ai-law-db simple/hanketsu/13647.json
 ---
 
 # 判決要約
 
-（要約未生成）
+## 13647: 課税された納付済源泉所得税の還付請求控訴事件（東京高等裁判所 2021-12-22）
 
-## 手掛かり（メタデータ）
+### 要点（メタデータのみ）
 - topics: 法人税, 所得税, 消費税
 - keywords: 地方消費税, 復興特別所得税, 所得税, 更正処分, 法人税, 消費税, 源泉所得税
 - laws: 
 - result: 棄却
+
+（注）原文テキストがデータソースに未収録のため、本文抜粋はありません。
 
 ---
 *このファイルはAI検索用です。正確な内容は原文を参照してください。*

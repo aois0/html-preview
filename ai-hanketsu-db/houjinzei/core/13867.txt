@@ -13,21 +13,23 @@ keywords:
 - 消費税
 laws: []
 result: 取消
-summary_status: missing
-summary_source: ''
+summary_status: available
+summary_source: meta_only_v1
 source:
   origin: aois0/ai-law-db simple/hanketsu/13867.json
 ---
 
 # 判決要約
 
-（要約未生成）
+## 13867: 法人事業に係る処分取消請求控訴事件（大阪高等裁判所 2023-07-27）
 
-## 手掛かり（メタデータ）
+### 要点（メタデータのみ）
 - topics: 法人税, 消費税
 - keywords: 地方法人税, 更正処分, 法人税, 消費税
 - laws: 
 - result: 取消
+
+（注）原文テキストがデータソースに未収録のため、本文抜粋はありません。
 
 ---
 *このファイルはAI検索用です。正確な内容は原文を参照してください。*

@@ -17,21 +17,23 @@ keywords:
 - 相続税
 laws: []
 result: 取消
-summary_status: missing
-summary_source: ''
+summary_status: available
+summary_source: meta_only_v1
 source:
   origin: aois0/ai-law-db simple/hanketsu/13659.json
 ---
 
 # 判決要約
 
-（要約未生成）
+## 13659: 更正すべき理由がない旨の通知処分取消請求事件（東京地方裁判所 2022-01-14）
 
-## 手掛かり（メタデータ）
+### 要点（メタデータのみ）
 - topics: 法人税, 所得税, 相続税
 - keywords: 復興特別所得税, 所得税, 損害賠償, 更正の請求, 更正処分, 法人税, 相続税
 - laws: 
 - result: 取消
+
+（注）原文テキストがデータソースに未収録のため、本文抜粋はありません。
 
 ---
 *このファイルはAI検索用です。正確な内容は原文を参照してください。*

@@ -29,21 +29,23 @@ keywords:
 - 非関連者基準
 laws: []
 result: 取消
-summary_status: missing
-summary_source: ''
+summary_status: available
+summary_source: meta_only_v1
 source:
   origin: aois0/ai-law-db simple/hanketsu/13680.json
 ---
 
 # 判決要約
 
-（要約未生成）
+## 13680: 法人税更正処分等取消請求事件（2022-03-02）
 
-## 手掛かり（メタデータ）
+### 要点（メタデータのみ）
 - topics: 法人税, 所得税, CFC, 移転価格
 - keywords: 国外関連者, 外国子会社合算税制, 実体基準, 復興特別所得税, 復興特別法人税, 所在地国基準, 所得税, 措置法６６条の６, 更正の請求, 更正処分
 - laws: 
 - result: 取消
+
+（注）原文テキストがデータソースに未収録のため、本文抜粋はありません。
 
 ---
 *このファイルはAI検索用です。正確な内容は原文を参照してください。*

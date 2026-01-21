@@ -14,21 +14,23 @@ keywords:
 - 源泉所得税
 laws: []
 result: 取消
-summary_status: missing
-summary_source: ''
+summary_status: available
+summary_source: meta_only_v1
 source:
   origin: aois0/ai-law-db simple/hanketsu/13504.json
 ---
 
 # 判決要約
 
-（要約未生成）
+## 13504: 法人税更正請求に対する更正すべき理由がない旨の通知処分取消等請求控訴事件（福岡高等裁判所 2021-01-13）
 
-## 手掛かり（メタデータ）
+### 要点（メタデータのみ）
 - topics: 法人税, 所得税
 - keywords: 所得税, 更正の請求, 更正処分, 法人税, 源泉所得税
 - laws: 
 - result: 取消
+
+（注）原文テキストがデータソースに未収録のため、本文抜粋はありません。
 
 ---
 *このファイルはAI検索用です。正確な内容は原文を参照してください。*

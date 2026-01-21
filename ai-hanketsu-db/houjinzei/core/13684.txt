@@ -22,21 +22,23 @@ keywords:
 - 過少申告加算税
 laws: []
 result: 取消
-summary_status: missing
-summary_source: ''
+summary_status: available
+summary_source: meta_only_v1
 source:
   origin: aois0/ai-law-db simple/hanketsu/13684.json
 ---
 
 # 判決要約
 
-（要約未生成）
+## 13684: 法人税更正処分等取消請求事件（東京地方裁判所 2022-03-10）
 
-## 手掛かり（メタデータ）
+### 要点（メタデータのみ）
 - topics: 法人税, 所得税, CFC
 - keywords: 地方法人税, 外国子会社合算税制, 復興特別所得税, 復興特別法人税, 所得税, 措置法６６条の６, 更正処分, 決定処分, 法人税, 特定外国子会社
 - laws: 
 - result: 取消
+
+（注）原文テキストがデータソースに未収録のため、本文抜粋はありません。
 
 ---
 *このファイルはAI検索用です。正確な内容は原文を参照してください。*

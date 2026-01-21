@@ -24,21 +24,23 @@ keywords:
 - 非関連者基準
 laws: []
 result: 取消
-summary_status: missing
-summary_source: ''
+summary_status: available
+summary_source: meta_only_v1
 source:
   origin: aois0/ai-law-db simple/hanketsu/13592.json
 ---
 
 # 判決要約
 
-（要約未生成）
+## 13592: 所得税更正処分等取消請求事件（東京地方裁判所 2021-07-20）
 
-## 手掛かり（メタデータ）
+### 要点（メタデータのみ）
 - topics: 法人税, 所得税, CFC, 移転価格
 - keywords: 復興特別所得税, 所在地国基準, 所得税, 損害賠償, 更正処分, 決定処分, 法人税, 特定外国子会社, 独立企業間価格, 管理支配基準
 - laws: 
 - result: 取消
+
+（注）原文テキストがデータソースに未収録のため、本文抜粋はありません。
 
 ---
 *このファイルはAI検索用です。正確な内容は原文を参照してください。*

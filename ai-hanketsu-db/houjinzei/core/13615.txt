@@ -20,21 +20,23 @@ keywords:
 - 青色申告
 laws: []
 result: 棄却
-summary_status: missing
-summary_source: ''
+summary_status: available
+summary_source: meta_only_v1
 source:
   origin: aois0/ai-law-db simple/hanketsu/13615.json
 ---
 
 # 判決要約
 
-（要約未生成）
+## 13615: 過誤納金返還請求訴訟事件（東京地方裁判所 2021-10-07）
 
-## 手掛かり（メタデータ）
+### 要点（メタデータのみ）
 - topics: 法人税, 所得税
 - keywords: 延滞税, 復興特別所得税, 復興特別法人税, 所得税, 更正処分, 決定処分, 法人税, 賦課決定, 過少申告加算税, 重加算税
 - laws: 
 - result: 棄却
+
+（注）原文テキストがデータソースに未収録のため、本文抜粋はありません。
 
 ---
 *このファイルはAI検索用です。正確な内容は原文を参照してください。*

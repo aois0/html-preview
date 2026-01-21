@@ -12,21 +12,23 @@ keywords:
 - 消費税
 laws: []
 result: 取消
-summary_status: missing
-summary_source: ''
+summary_status: available
+summary_source: meta_only_v1
 source:
   origin: aois0/ai-law-db simple/hanketsu/13786.json
 ---
 
 # 判決要約
 
-（要約未生成）
+## 13786: 法人税および消費税等更正処分取消請求上告及び上告受理事件（最高裁判所 2022-12-09）
 
-## 手掛かり（メタデータ）
+### 要点（メタデータのみ）
 - topics: 法人税, 消費税
 - keywords: 更正処分, 法人税, 消費税
 - laws: 
 - result: 取消
+
+（注）原文テキストがデータソースに未収録のため、本文抜粋はありません。
 
 ---
 *このファイルはAI検索用です。正確な内容は原文を参照してください。*

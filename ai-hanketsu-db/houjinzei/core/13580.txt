@@ -15,21 +15,23 @@ keywords:
 - 相続税
 laws: []
 result: 取消
-summary_status: missing
-summary_source: ''
+summary_status: available
+summary_source: meta_only_v1
 source:
   origin: aois0/ai-law-db simple/hanketsu/13580.json
 ---
 
 # 判決要約
 
-（要約未生成）
+## 13580: 相続税更正処分等取消請求上告事件（最高裁判所 2021-06-24）
 
-## 手掛かり（メタデータ）
+### 要点（メタデータのみ）
 - topics: 法人税, 所得税, 相続税
 - keywords: 所得税, 更正の請求, 更正処分, 法人税, 相続税
 - laws: 
 - result: 取消
+
+（注）原文テキストがデータソースに未収録のため、本文抜粋はありません。
 
 ---
 *このファイルはAI検索用です。正確な内容は原文を参照してください。*

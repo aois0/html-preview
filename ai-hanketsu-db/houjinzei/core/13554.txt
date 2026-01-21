@@ -12,21 +12,23 @@ keywords:
 - 法人税
 laws: []
 result: 却下
-summary_status: missing
-summary_source: ''
+summary_status: available
+summary_source: meta_only_v1
 source:
   origin: aois0/ai-law-db simple/hanketsu/13554.json
 ---
 
 # 判決要約
 
-（要約未生成）
+## 13554: 過誤納金返還請求事件（東京地方裁判所 2021-04-22）
 
-## 手掛かり（メタデータ）
+### 要点（メタデータのみ）
 - topics: 法人税
 - keywords: 地方法人税, 更正の請求, 更正処分, 法人税
 - laws: 
 - result: 却下
+
+（注）原文テキストがデータソースに未収録のため、本文抜粋はありません。
 
 ---
 *このファイルはAI検索用です。正確な内容は原文を参照してください。*

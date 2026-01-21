@@ -23,21 +23,23 @@ keywords:
 - 重加算税
 laws: []
 result: 取消
-summary_status: missing
-summary_source: ''
+summary_status: available
+summary_source: meta_only_v1
 source:
   origin: aois0/ai-law-db simple/hanketsu/13618.json
 ---
 
 # 判決要約
 
-（要約未生成）
+## 13618: 更正処分取消及び不法行為に基づく慰謝料請求事件（新潟地方裁判所 2021-10-14）
 
-## 手掛かり（メタデータ）
+### 要点（メタデータのみ）
 - topics: 法人税, 所得税, 消費税
 - keywords: 国家賠償, 地方消費税, 延滞税, 所得税, 更正の請求, 更正処分, 決定処分, 法人税, 消費税, 源泉所得税
 - laws: 
 - result: 取消
+
+（注）原文テキストがデータソースに未収録のため、本文抜粋はありません。
 
 ---
 *このファイルはAI検索用です。正確な内容は原文を参照してください。*

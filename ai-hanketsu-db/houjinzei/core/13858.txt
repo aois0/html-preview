@@ -25,21 +25,23 @@ keywords:
 - 過少申告加算税
 laws: []
 result: 取消
-summary_status: missing
-summary_source: ''
+summary_status: available
+summary_source: meta_only_v1
 source:
   origin: aois0/ai-law-db simple/hanketsu/13858.json
 ---
 
 # 判決要約
 
-（要約未生成）
+## 13858: 所得税等更正処分の一部取消請求事件（熊本地方裁判所 2023-06-09）
 
-## 手掛かり（メタデータ）
+### 要点（メタデータのみ）
 - topics: 法人税, 所得税, 相続税, 贈与税, 消費税
 - keywords: 国家賠償, 地方法人税, 復興特別所得税, 所得税, 更正の請求, 更正処分, 決定処分, 法人税, 消費税, 相続税
 - laws: 
 - result: 取消
+
+（注）原文テキストがデータソースに未収録のため、本文抜粋はありません。
 
 ---
 *このファイルはAI検索用です。正確な内容は原文を参照してください。*

@@ -18,21 +18,23 @@ keywords:
 - 重加算税
 laws: []
 result: 取消
-summary_status: missing
-summary_source: ''
+summary_status: available
+summary_source: meta_only_v1
 source:
   origin: aois0/ai-law-db simple/hanketsu/13574.json
 ---
 
 # 判決要約
 
-（要約未生成）
+## 13574: 法人税更正処分取消等請求控訴事件（札幌高等裁判所 2021-06-04）
 
-## 手掛かり（メタデータ）
+### 要点（メタデータのみ）
 - topics: 法人税, 消費税
 - keywords: 地方消費税, 復興特別法人税, 更正処分, 決定処分, 法人税, 消費税, 賦課決定, 過少申告加算税, 重加算税
 - laws: 
 - result: 取消
+
+（注）原文テキストがデータソースに未収録のため、本文抜粋はありません。
 
 ---
 *このファイルはAI検索用です。正確な内容は原文を参照してください。*
