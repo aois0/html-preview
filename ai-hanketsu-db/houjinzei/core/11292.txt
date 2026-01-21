@@ -1,0 +1,32 @@
+---
+id: '11292'
+date: '2009-10-15'
+court: 仙台高等裁判所
+title: 無申告加算税の決定処分等取消請求控訴事件
+topics:
+- 法人税
+- 所得税
+keywords:
+- 無申告加算税
+- 配偶者控除
+laws:
+- 所得税法35条
+result: 取消
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/11292.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税, 所得税
+- keywords: 無申告加算税, 配偶者控除
+- laws: 所得税法35条
+- result: 取消
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

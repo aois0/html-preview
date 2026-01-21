@@ -1,0 +1,30 @@
+---
+id: '10922'
+date: '2008-03-18'
+court: 大分地方裁判所
+title: 文書提出命令申立事件
+topics:
+- 法人税
+keywords:
+- 更正処分
+- 信義則
+laws: []
+result: 却下
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/10922.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税
+- keywords: 更正処分, 信義則
+- laws: 
+- result: 却下
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

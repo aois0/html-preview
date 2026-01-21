@@ -1,0 +1,36 @@
+---
+id: '11852'
+date: '2012-01-12'
+court: 大阪地方裁判所
+title: 所得税納税告知処分取消等請求事件
+topics:
+- 法人税
+- 所得税
+- 消費税
+keywords:
+- 重加算税
+- 仕入税額控除
+laws:
+- 国税通則法68条
+- 消費税法2条
+- 消費税法30条
+- 消費税法4条
+result: 取消
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/11852.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税, 所得税, 消費税
+- keywords: 重加算税, 仕入税額控除
+- laws: 国税通則法68条, 消費税法2条, 消費税法30条, 消費税法4条
+- result: 取消
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

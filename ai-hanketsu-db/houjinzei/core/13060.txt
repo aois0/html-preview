@@ -1,0 +1,36 @@
+---
+id: '13060'
+date: '2017-09-14'
+court: 宇都宮地方裁判所
+title: 相続税更正処分等取消請求事件
+topics:
+- 法人税
+- 相続税
+- 消費税
+keywords:
+- 更正処分
+- 過少申告加算税
+- 財産評価
+laws:
+- 国税通則法65条
+- 相続税法22条
+- 租税特別措置法69条の4
+result: 取消
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/13060.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税, 相続税, 消費税
+- keywords: 更正処分, 過少申告加算税, 財産評価
+- laws: 国税通則法65条, 相続税法22条, 租税特別措置法69条の4
+- result: 取消
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

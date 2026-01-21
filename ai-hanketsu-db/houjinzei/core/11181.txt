@@ -1,0 +1,35 @@
+---
+id: '11181'
+date: '2009-04-16'
+court: 大阪地方裁判所
+title: 所得税更正処分取消等請求事件
+topics:
+- 法人税
+- 所得税
+keywords:
+- 更正処分
+- 課税処分
+- 過少申告加算税
+laws:
+- 国税通則法65条
+- 国税通則法70条
+- 所得税法33条
+result: 取消
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/11181.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税, 所得税
+- keywords: 更正処分, 課税処分, 過少申告加算税
+- laws: 国税通則法65条, 国税通則法70条, 所得税法33条
+- result: 取消
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

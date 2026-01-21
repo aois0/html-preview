@@ -1,0 +1,33 @@
+---
+id: '10907'
+date: '2008-02-28'
+court: 東京地方裁判所
+title: 不当利得返還請求事件
+topics:
+- 法人税
+- 消費税
+keywords:
+- 更正処分
+- 重加算税
+- 過少申告加算税
+- 不当利得
+laws: []
+result: 棄却
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/10907.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税, 消費税
+- keywords: 更正処分, 重加算税, 過少申告加算税, 不当利得
+- laws: 
+- result: 棄却
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

@@ -1,0 +1,35 @@
+---
+id: '13707'
+date: '2022-04-21'
+court: 最高裁判所
+title: 法人税更正処分等取消請求上告受理事件
+topics:
+- 法人税
+- 所得税
+keywords:
+- 所得税
+- 更正処分
+- 決定処分
+- 法人税
+- 賦課決定
+- 過少申告加算税
+laws: []
+result: 取消
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/13707.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税, 所得税
+- keywords: 所得税, 更正処分, 決定処分, 法人税, 賦課決定, 過少申告加算税
+- laws: 
+- result: 取消
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

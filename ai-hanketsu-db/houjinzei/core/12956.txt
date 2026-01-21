@@ -1,0 +1,30 @@
+---
+id: '12956'
+date: '2017-01-18'
+court: 東京地方裁判所
+title: 法人税額等更正処分等取消請求事件
+topics:
+- 法人税
+keywords:
+- 更正処分
+- 過少申告加算税
+laws: []
+result: 取消
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/12956.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税
+- keywords: 更正処分, 過少申告加算税
+- laws: 
+- result: 取消
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

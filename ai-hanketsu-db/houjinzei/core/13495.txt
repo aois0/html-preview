@@ -1,0 +1,32 @@
+---
+id: '13495'
+date: '2020-12-10'
+court: 金沢地方裁判所
+title: 確認等請求事件
+topics:
+- 法人税
+- 所得税
+keywords:
+- 信義則
+- 国家賠償
+laws:
+- 国税通則法23条
+result: 却下
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/13495.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税, 所得税
+- keywords: 信義則, 国家賠償
+- laws: 国税通則法23条
+- result: 却下
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

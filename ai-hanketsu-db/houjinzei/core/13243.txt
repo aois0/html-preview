@@ -1,0 +1,32 @@
+---
+id: '13243'
+date: '2019-02-20'
+court: 神戸地方裁判所
+title: 追徴課税処分法令違反税返還請求事件
+topics:
+- 法人税
+- 所得税
+keywords:
+- 更正処分
+- 課税処分
+laws:
+- 行政事件訴訟法14条
+result: 棄却
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/13243.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税, 所得税
+- keywords: 更正処分, 課税処分
+- laws: 行政事件訴訟法14条
+- result: 棄却
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

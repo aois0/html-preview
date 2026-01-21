@@ -1,0 +1,36 @@
+---
+id: '13845'
+date: '2023-04-26'
+court: 東京高等裁判所
+title: 源泉所得税納税告知処分取消等請求控訴事件
+topics:
+- 法人税
+- 所得税
+keywords:
+- 復興特別所得税
+- 所得税
+- 決定処分
+- 法人税
+- 源泉所得税
+- 納税告知
+- 賦課決定
+laws: []
+result: 取消
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/13845.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税, 所得税
+- keywords: 復興特別所得税, 所得税, 決定処分, 法人税, 源泉所得税, 納税告知, 賦課決定
+- laws: 
+- result: 取消
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

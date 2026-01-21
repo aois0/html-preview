@@ -1,0 +1,32 @@
+---
+id: '13143'
+date: '2018-04-18'
+court: 東京高等裁判所
+title: 重加算税賦課決定処分取消等請求控訴事件
+topics:
+- 法人税
+- 消費税
+keywords:
+- 課税処分
+- 重加算税
+- 過少申告加算税
+laws: []
+result: 取消
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/13143.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税, 消費税
+- keywords: 課税処分, 重加算税, 過少申告加算税
+- laws: 
+- result: 取消
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

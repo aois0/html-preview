@@ -1,0 +1,29 @@
+---
+id: '10997'
+date: '2008-07-24'
+court: 大阪地方裁判所
+title: 所得税納税告知処分取消等請求事件
+topics:
+- 法人税
+- 所得税
+keywords: []
+laws: []
+result: 取消
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/10997.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税, 所得税
+- keywords: 
+- laws: 
+- result: 取消
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

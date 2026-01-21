@@ -1,0 +1,36 @@
+---
+id: '13533'
+date: '2021-03-02'
+court: 大阪高等裁判所
+title: 通知処分取消等請求控訴事件
+topics:
+- 法人税
+- 所得税
+- 消費税
+keywords:
+- 国家賠償
+- 地方消費税
+- 所得税
+- 更正の請求
+- 法人税
+- 消費税
+laws: []
+result: 取消
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/13533.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税, 所得税, 消費税
+- keywords: 国家賠償, 地方消費税, 所得税, 更正の請求, 法人税, 消費税
+- laws: 
+- result: 取消
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

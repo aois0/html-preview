@@ -1,0 +1,33 @@
+---
+id: '13699'
+date: '2022-04-12'
+court: 東京地方裁判所
+title: 損害賠償等請求事件
+topics:
+- 法人税
+- 所得税
+keywords:
+- 国家賠償
+- 所得税
+- 損害賠償
+- 法人税
+laws: []
+result: 棄却
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/13699.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税, 所得税
+- keywords: 国家賠償, 所得税, 損害賠償, 法人税
+- laws: 
+- result: 棄却
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

@@ -1,0 +1,36 @@
+---
+id: '12843'
+date: '2016-04-15'
+court: 札幌地方裁判所
+title: 損害賠償請求事件
+topics:
+- 法人税
+- 消費税
+keywords:
+- 更正処分
+- 重加算税
+- 過少申告加算税
+- 役員報酬
+- 国家賠償
+- 損害賠償
+laws:
+- 法人税法34条
+result: 棄却
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/12843.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税, 消費税
+- keywords: 更正処分, 重加算税, 過少申告加算税, 役員報酬, 国家賠償, 損害賠償
+- laws: 法人税法34条
+- result: 棄却
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

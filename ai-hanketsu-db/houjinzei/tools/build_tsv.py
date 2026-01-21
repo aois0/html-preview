@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
-法人税判決のTSV shardsを生成
-JSON比で約50%のトークン削減
-v2: topics追加、略称化、不要語削除
+法人税判決のTSV shardsを生成（AI検索向け）
+JSON比でトークン削減（TSV + 不要語削除 + 裁判所略称）
 """
 
 import json
 import re
+from collections import Counter
 from pathlib import Path
 
 SOURCE_DIR = Path("/home/user/ai-law-db/simple/hanketsu")
@@ -83,7 +83,8 @@ def extract_row(case_id):
         # court（略称化）
         court = shorten_court(d.get('court', ''))
 
-        return f"{case_id}\t{d.get('date_iso', '')}\t{court}\t{title}\t{topics}\t{kw}\t{laws}"
+        tsv = f"{case_id}\t{d.get('date_iso', '')}\t{court}\t{title}\t{topics}\t{kw}\t{laws}"
+        return tsv, kw_list
     except:
         return None
 
@@ -93,16 +94,21 @@ def build_shards(case_ids):
     header = "id\tdate\tcourt\ttitle\ttopics\tkeywords\tlaws"
 
     index_lines = ["# 法人税判例 shards index", f"# total: {len(case_ids)}", ""]
+    shards_index_json = []
 
     for i in range(0, len(case_ids), SHARD_SIZE):
         shard_num = i // SHARD_SIZE
         shard_ids = case_ids[i:i + SHARD_SIZE]
 
         rows = [header]
+        kw_counter = Counter()
         for cid in shard_ids:
-            row = extract_row(cid)
-            if row:
-                rows.append(row)
+            res = extract_row(cid)
+            if not res:
+                continue
+            row, kw_list = res
+            rows.append(row)
+            kw_counter.update(kw_list)
 
         # TSV保存
         shard_file = OUTPUT_DIR / f"shard-{shard_num:02d}.txt"
@@ -112,10 +118,28 @@ def build_shards(case_ids):
         print(f"shard-{shard_num:02d}.txt: {len(rows)-1} entries")
         index_lines.append(f"shard-{shard_num:02d}.txt\t{shard_ids[0]}-{shard_ids[-1]}\t{len(rows)-1}")
 
+        shards_index_json.append({
+            "file": f"data/shards/shard-{shard_num:02d}.txt",
+            "range": f"{shard_ids[0]}-{shard_ids[-1]}",
+            "count": len(rows) - 1,
+            "sample_keywords": [kw for kw, _ in kw_counter.most_common(10)],
+        })
+
     # index保存
     index_file = OUTPUT_DIR.parent / "shards_index.txt"
     with open(index_file, 'w', encoding='utf-8') as f:
         f.write('\n'.join(index_lines))
+
+    # JSON index保存（AI向け）
+    json_index_file = OUTPUT_DIR.parent / "shards_index.json"
+    with open(json_index_file, 'w', encoding='utf-8') as f:
+        json.dump({
+            "total": len(case_ids),
+            "shard_size": SHARD_SIZE,
+            "format": "tsv",
+            "fields": ["id", "date", "court", "title", "topics", "keywords", "laws"],
+            "shards": shards_index_json,
+        }, f, ensure_ascii=False, indent=2)
 
     print(f"\nshards_index.txt created")
 

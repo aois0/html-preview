@@ -1,0 +1,35 @@
+---
+id: '13539'
+date: '2021-03-10'
+court: 福岡地方裁判所
+title: 更正処分等取消請求事件
+topics:
+- 法人税
+- 所得税
+keywords:
+- 復興特別所得税
+- 所得税
+- 更正処分
+- 法人税
+- 賦課決定
+- 過少申告加算税
+laws: []
+result: 取消
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/13539.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税, 所得税
+- keywords: 復興特別所得税, 所得税, 更正処分, 法人税, 賦課決定, 過少申告加算税
+- laws: 
+- result: 取消
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

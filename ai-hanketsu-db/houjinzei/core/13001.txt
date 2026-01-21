@@ -1,0 +1,35 @@
+---
+id: '13001'
+date: '2017-03-23'
+court: 名古屋地方裁判所
+title: 所得税決定処分等取消請求事件
+topics:
+- 法人税
+- 所得税
+- 消費税
+keywords:
+- 更正処分
+- 無申告加算税
+- 青色申告
+laws:
+- 消費税法2条
+- 消費税法6条
+result: 取消
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/13001.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税, 所得税, 消費税
+- keywords: 更正処分, 無申告加算税, 青色申告
+- laws: 消費税法2条, 消費税法6条
+- result: 取消
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

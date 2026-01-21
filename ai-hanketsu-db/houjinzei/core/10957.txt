@@ -1,0 +1,33 @@
+---
+id: '10957'
+date: '2008-05-09'
+court: 高松高等裁判所
+title: 法人税更正処分取消請求各控訴事件
+topics:
+- 法人税
+- CFC
+keywords:
+- 更正処分
+- 信義則
+- 租税回避
+laws:
+- 租税特別措置法66条の6
+result: 取消
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/10957.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税, CFC
+- keywords: 更正処分, 信義則, 租税回避
+- laws: 租税特別措置法66条の6
+- result: 取消
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

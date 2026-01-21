@@ -1,0 +1,34 @@
+---
+id: '13671'
+date: '2022-02-17'
+court: 東京地方裁判所
+title: 税務訴訟資料 第２７２号（順号１３６７１） 東京地方裁判所 令和●●年（○○）第●●号 還付金（過誤納金）返還請求事件 国側当事者・国 令和４年２月１７日認容・控訴
+  判 決
+topics:
+- 法人税
+- 所得税
+keywords:
+- 復興特別所得税
+- 所得税
+- 法人税
+- 源泉所得税
+laws: []
+result: 認容
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/13671.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税, 所得税
+- keywords: 復興特別所得税, 所得税, 法人税, 源泉所得税
+- laws: 
+- result: 認容
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

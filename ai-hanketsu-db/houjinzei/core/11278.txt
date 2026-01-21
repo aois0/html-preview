@@ -1,0 +1,33 @@
+---
+id: '11278'
+date: '2009-09-29'
+court: 東京高等裁判所
+title: 納税義務告知処分取消請求控訴事件
+topics:
+- 法人税
+- 所得税
+- 消費税
+keywords:
+- 更正処分
+- 過少申告加算税
+laws:
+- 国税徴収法39条
+result: 取消
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/11278.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税, 所得税, 消費税
+- keywords: 更正処分, 過少申告加算税
+- laws: 国税徴収法39条
+- result: 取消
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

@@ -1,0 +1,34 @@
+---
+id: '12654'
+date: '2015-04-22'
+court: 東京高等裁判所
+title: 各贈与税決定処分取消等請求控訴事件
+topics:
+- 法人税
+- 相続税
+- 贈与税
+keywords:
+- 更正処分
+- 過少申告加算税
+- 無申告加算税
+- 租税回避
+laws: []
+result: 取消
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/12654.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税, 相続税, 贈与税
+- keywords: 更正処分, 過少申告加算税, 無申告加算税, 租税回避
+- laws: 
+- result: 取消
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

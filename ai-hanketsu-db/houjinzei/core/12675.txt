@@ -1,0 +1,34 @@
+---
+id: '12675'
+date: '2015-06-09'
+court: 松山地方裁判所
+title: 消費税及び地方消費税更正処分等取消請求事件
+topics:
+- 法人税
+- 消費税
+keywords:
+- 更正処分
+- 仕入税額控除
+- 損金算入
+- 青色申告
+laws:
+- 消費税法2条
+result: 取消
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/12675.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税, 消費税
+- keywords: 更正処分, 仕入税額控除, 損金算入, 青色申告
+- laws: 消費税法2条
+- result: 取消
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

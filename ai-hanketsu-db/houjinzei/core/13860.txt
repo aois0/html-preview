@@ -1,0 +1,39 @@
+---
+id: '13860'
+date: '2023-06-22'
+court: 大阪地方裁判所
+title: 課税処分の取消請求事件
+topics:
+- 法人税
+- 所得税
+- 消費税
+keywords:
+- 地方法人税
+- 地方消費税
+- 差押
+- 延滞税
+- 所得税
+- 決定処分
+- 法人税
+- 消費税
+- 滞納処分
+laws: []
+result: 取消
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/13860.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税, 所得税, 消費税
+- keywords: 地方法人税, 地方消費税, 差押, 延滞税, 所得税, 決定処分, 法人税, 消費税, 滞納処分
+- laws: 
+- result: 取消
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

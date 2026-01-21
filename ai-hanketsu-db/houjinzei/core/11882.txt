@@ -1,0 +1,30 @@
+---
+id: '11882'
+date: '2012-02-16'
+court: 大阪高等裁判所
+title: 所得税納税告知処分取消等請求控訴事件
+topics:
+- 法人税
+- 所得税
+keywords: []
+laws:
+- 所得税法33条
+result: 取消
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/11882.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税, 所得税
+- keywords: 
+- laws: 所得税法33条
+- result: 取消
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

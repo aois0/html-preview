@@ -1,0 +1,33 @@
+---
+id: '12835'
+date: '2016-03-29'
+court: 東京地方裁判所
+title: 法人税決定処分等取消請求事件
+topics:
+- 法人税
+- 消費税
+keywords:
+- 無申告加算税
+laws:
+- 消費税法28条
+- 消費税法2条
+- 消費税法30条
+result: 取消
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/12835.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税, 消費税
+- keywords: 無申告加算税
+- laws: 消費税法28条, 消費税法2条, 消費税法30条
+- result: 取消
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

@@ -1,0 +1,35 @@
+---
+id: '11302'
+date: '2009-10-29'
+court: 最高裁判所
+title: 法人税更正処分取消等請求上告受理申立て事件
+topics:
+- 法人税
+- 所得税
+- CFC
+keywords:
+- 更正処分
+- 過少申告加算税
+laws:
+- 法人税法22条
+- 租税特別措置法40条の4
+- 租税特別措置法66条の6
+result: 取消
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/11302.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税, 所得税, CFC
+- keywords: 更正処分, 過少申告加算税
+- laws: 法人税法22条, 租税特別措置法40条の4, 租税特別措置法66条の6
+- result: 取消
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

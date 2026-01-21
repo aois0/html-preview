@@ -1,0 +1,34 @@
+---
+id: '13789'
+date: '2022-12-14'
+court: 福岡地方裁判所
+title: 法人税青色申告承認取消処分取消請求事件
+topics:
+- 法人税
+- 所得税
+keywords:
+- 延滞税
+- 所得税
+- 更正処分
+- 法人税
+- 青色申告
+laws: []
+result: 取消
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/13789.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税, 所得税
+- keywords: 延滞税, 所得税, 更正処分, 法人税, 青色申告
+- laws: 
+- result: 取消
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

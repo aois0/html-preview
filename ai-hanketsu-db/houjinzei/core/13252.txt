@@ -1,0 +1,30 @@
+---
+id: '13252'
+date: '2019-03-14'
+court: 東京高等裁判所
+title: 原処分取消損害賠償請求控訴事件
+topics:
+- 法人税
+keywords:
+- 青色申告
+- 損害賠償
+laws: []
+result: 取消
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/13252.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税
+- keywords: 青色申告, 損害賠償
+- laws: 
+- result: 取消
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

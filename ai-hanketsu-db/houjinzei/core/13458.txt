@@ -1,0 +1,34 @@
+---
+id: '13458'
+date: '2020-10-01'
+court: 東京地方裁判所
+title: 贈与税決定処分取消等請求事件
+topics:
+- 法人税
+- 相続税
+- 贈与税
+keywords:
+- 無申告加算税
+- 財産評価
+laws:
+- 相続税法21条
+- 相続税法22条
+result: 取消
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/13458.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税, 相続税, 贈与税
+- keywords: 無申告加算税, 財産評価
+- laws: 相続税法21条, 相続税法22条
+- result: 取消
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

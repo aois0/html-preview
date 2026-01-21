@@ -36,7 +36,7 @@
     <tr><td><a href="llms.txt">llms.txt</a></td><td>AI向け説明</td><td>~1K tokens</td></tr>
     <tr><td><a href="data/shards_index.json">shards_index.json</a></td><td>全shardの一覧</td><td>~2K tokens</td></tr>
     <tr><td><a href="data/shards/">shards/*.txt</a></td><td>メタデータ検索（TSV）</td><td>~4K tokens/shard</td></tr>
-    <tr><td>core/{id}.txt</td><td>判決要約</td><td>~3K tokens/件</td></tr>
+    <tr><td>core/{id}.txt</td><td>判決要約（要約未生成のものはメタデータのみ）</td><td>~1-10K tokens/件</td></tr>
   </table>
 
   <h2>📁 Shards一覧</h2>
@@ -86,8 +86,8 @@
   <h2>💡 使い方（AI向け）</h2>
   <ol>
     <li><code>shards_index.json</code> で関連shardを特定</li>
-    <li><code>shard-XX.json</code> でキーワード検索</li>
-    <li><code>core/{id}.txt</code> で詳細要約を取得</li>
+    <li><code>data/shards/shard-XX.txt</code>（TSV）でキーワード検索し、対象の <code>id</code> を見つける</li>
+    <li><code>core/{id}.txt</code> を開いて要約を読む（要約未生成なら「要約未生成」と表示）</li>
   </ol>
 
   <hr>

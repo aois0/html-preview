@@ -1,0 +1,32 @@
+---
+id: '10903'
+date: '2008-02-27'
+court: 東京高等裁判所
+title: 法人税更正決定義務付け等請求控訴事件
+topics:
+- 法人税
+- 所得税
+keywords:
+- 更正処分
+- 損金算入
+laws:
+- 国税通則法23条
+result: 棄却
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/10903.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税, 所得税
+- keywords: 更正処分, 損金算入
+- laws: 国税通則法23条
+- result: 棄却
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

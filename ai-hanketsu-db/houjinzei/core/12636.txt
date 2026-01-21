@@ -1,0 +1,37 @@
+---
+id: '12636'
+date: '2015-03-24'
+court: 広島地方裁判所
+title: 法人税更正処分取消等請求事件
+topics:
+- 法人税
+- 所得税
+- 消費税
+keywords:
+- 更正処分
+- 重加算税
+- 過少申告加算税
+- 青色申告
+laws:
+- 国税通則法68条
+- 国税通則法70条
+- 法人税法22条
+result: 取消
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/12636.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税, 所得税, 消費税
+- keywords: 更正処分, 重加算税, 過少申告加算税, 青色申告
+- laws: 国税通則法68条, 国税通則法70条, 法人税法22条
+- result: 取消
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

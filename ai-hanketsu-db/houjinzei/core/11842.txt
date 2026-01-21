@@ -1,0 +1,33 @@
+---
+id: '11842'
+date: '2011-12-22'
+court: 広島高等裁判所
+title: 税務訴訟資料 第２６１号－２５２（順号１１８４２） 広島高等裁判所岡山支部 平成●●年（○○）第●●号 課税処分等取消（甲事件）、同（乙事件） 請求控訴事件
+  国側当事者・岡山東税務署長 平成２３年１２
+topics:
+- 法人税
+- 消費税
+keywords:
+- 更正処分
+- 課税処分
+- 重加算税
+laws: []
+result: 取消
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/11842.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税, 消費税
+- keywords: 更正処分, 課税処分, 重加算税
+- laws: 
+- result: 取消
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

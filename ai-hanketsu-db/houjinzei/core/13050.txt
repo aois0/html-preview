@@ -1,0 +1,33 @@
+---
+id: '13050'
+date: '2017-09-06'
+court: 東京高等裁判所
+title: 所得税決定処分等取消請求控訴事件
+topics:
+- 法人税
+- 所得税
+- CFC
+keywords:
+- 無申告加算税
+- 損金算入
+laws:
+- 租税特別措置法40条の4
+result: 取消
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/13050.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税, 所得税, CFC
+- keywords: 無申告加算税, 損金算入
+- laws: 租税特別措置法40条の4
+- result: 取消
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

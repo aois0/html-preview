@@ -1,46 +1,49 @@
 # 法人税判例データベース（AI検索最適化版）
-# Japanese Corporate Tax Court Cases Database
+# Japanese Corporate Tax Court Cases Database (Corporate Tax)
 
-> 日本の法人税関連判決990件のメタデータと要約を提供
+> 日本の法人税関連判決 990件のメタデータと要約（要約未生成のものはメタデータのみ）を提供します。
 > For AI/LLM consumption - optimized for ChatGPT, Claude, etc.
 
-## Quick Start
+## Quick Start (minimal)
 
-1. **Search**: Open a shard to find relevant cases by keywords
-2. **Detail**: Read core/{case_id}.txt for case summary
-3. **Full text**: Available in source repository
+1) Search: `data/shards_index.json`
+2) Open 1–3 shards: `data/shards/shard-XX.txt` (TSV)
+3) Read summary: `core/{id}.txt`
 
 ## Endpoints
 
 ### Index (start here)
-- data/shards_index.json - List of all shards with keywords
+- data/shards_index.json
 
-### Shards (100 cases each, ~4K tokens)
+### Shards (TSV; ~100 cases each)
 - data/shards/shard-00.txt ... shard-09.txt
 
-### Summaries (2-4K tokens each)
-- core/{case_id}.txt
+### Summaries
+- core/{id}.txt
+  - If summary is not yet generated, the file contains metadata + "要約未生成".
 
-## Sample Keywords by Shard
+## URL Patterns
 
-| Shard | Range | Key Topics |
-|-------|-------|------------|
-| shard-08 | 13397-13658 | 措置法66条の6, CFC, タックスヘイブン |
-| shard-09 | 13659-13917 | 特定外国子会社, 実体基準, 国外関連取引 |
-| shard-00 | 10860-11125 | 損金算入, 益金算入, 租税回避 |
+| Purpose | Pattern | Example |
+|---------|---------|---------|
+| Shard Index | data/shards_index.json | data/shards_index.json |
+| Shard TSV | data/shards/shard-XX.txt | data/shards/shard-00.txt |
+| Case Summary | core/{id}.txt | core/10861.txt |
 
 ## Data Format (TSV)
 
 ### Shard Entry
 ```
 id	date	court	title	topics	keywords	laws
-13883	2023-09-13	東京高裁	法人税	法人税,CFC	外国子会社合算税制,措置法66条の6,特定外国子会社	法人税法,措置法66条の6
+10861	2008-01-16	東京地裁	法人税	法人税	過少申告加算税,損金算入	国税通則法23条,国税通則法65条,行政事件訴訟法14条
 ```
 
 ### Field Notes
 - court: 略称（東京地裁、大阪高裁、最高裁等）
-- title: 簡略化（「更正処分取消請求事件」等を削除）
+- title: 簡略化（不要語を削除）
 - topics: 税目・テーマ（法人税,CFC 等）
+- keywords: 争点/論点の検索語（最大5つ）
+- laws: 出現法令（最大5つ）
 
 ## Source
 Original data: ai-law-db (private repository)

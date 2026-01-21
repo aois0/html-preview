@@ -1,0 +1,36 @@
+---
+id: '12706'
+date: '2015-07-30'
+court: 東京地方裁判所
+title: 相続税更正処分取消等請求事件
+topics:
+- 法人税
+- 相続税
+keywords:
+- 更正処分
+- 過少申告加算税
+- 財産評価
+laws:
+- 国税通則法65条
+- 相続税法19条
+- 相続税法22条
+- 租税特別措置法69条の4
+result: 取消
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/12706.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税, 相続税
+- keywords: 更正処分, 過少申告加算税, 財産評価
+- laws: 国税通則法65条, 相続税法19条, 相続税法22条, 租税特別措置法69条の4
+- result: 取消
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

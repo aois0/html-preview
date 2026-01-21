@@ -1,0 +1,36 @@
+---
+id: '13408'
+date: '2020-05-22'
+court: 大阪高等裁判所
+title: 所得税更正処分取消等請求控訴事件
+topics:
+- 法人税
+- 所得税
+keywords:
+- 更正処分
+- 過少申告加算税
+- 必要経費
+- 青色申告
+laws:
+- 所得税法37条
+- 所得税法45条
+- 所得税法57条
+result: 取消
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/13408.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税, 所得税
+- keywords: 更正処分, 過少申告加算税, 必要経費, 青色申告
+- laws: 所得税法37条, 所得税法45条, 所得税法57条
+- result: 取消
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

@@ -1,0 +1,32 @@
+---
+id: '13429'
+date: '2020-07-13'
+court: 東京地方裁判所
+title: 国家賠償請求事件
+topics:
+- 法人税
+keywords:
+- 更正処分
+- 損金算入
+- 国家賠償
+- 損害賠償
+laws: []
+result: 棄却
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/13429.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税
+- keywords: 更正処分, 損金算入, 国家賠償, 損害賠償
+- laws: 
+- result: 棄却
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

@@ -1,0 +1,30 @@
+---
+id: '13295'
+date: '2019-02-05'
+court: 東京高等裁判所
+title: 過誤納金返還請求控訴事件
+topics:
+- 法人税
+- 所得税
+- 相続税
+keywords: []
+laws: []
+result: 棄却
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/13295.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税, 所得税, 相続税
+- keywords: 
+- laws: 
+- result: 棄却
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

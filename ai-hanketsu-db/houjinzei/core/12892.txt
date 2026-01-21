@@ -1,0 +1,30 @@
+---
+id: '12892'
+date: '2016-07-28'
+court: 東京地方裁判所
+title: 税務訴訟資料 第２６６号－１１４（順号１２８９２） 東京地方裁判所 平成●●年（○○）第●●号 事件名不詳 国側当事者・国 平成２８年７月２８日棄却・確定
+  判 決
+topics:
+- 法人税
+keywords:
+- 国家賠償
+laws: []
+result: 棄却
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/12892.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税
+- keywords: 国家賠償
+- laws: 
+- result: 棄却
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

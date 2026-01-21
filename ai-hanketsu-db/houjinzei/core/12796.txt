@@ -1,0 +1,31 @@
+---
+id: '12796'
+date: '2016-02-08'
+court: 東京地方裁判所
+title: 国税不服審判所の棄却処分裁決の無効確認請求事件
+topics:
+- 法人税
+- 消費税
+keywords:
+- 課税処分
+- 無申告加算税
+laws: []
+result: 棄却
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/12796.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税, 消費税
+- keywords: 課税処分, 無申告加算税
+- laws: 
+- result: 棄却
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

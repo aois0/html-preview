@@ -1,0 +1,36 @@
+---
+id: '12542'
+date: '2014-10-15'
+court: 東京高等裁判所
+title: 処分取消請求控訴事件
+topics:
+- 法人税
+- 消費税
+keywords:
+- 更正処分
+- 重加算税
+- 過少申告加算税
+- 寄附金
+- 役員給与
+- 青色申告
+laws:
+- 法人税法37条
+result: 取消
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/12542.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税, 消費税
+- keywords: 更正処分, 重加算税, 過少申告加算税, 寄附金, 役員給与, 青色申告
+- laws: 法人税法37条
+- result: 取消
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*

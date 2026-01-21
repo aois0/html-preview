@@ -1,0 +1,31 @@
+---
+id: '11174'
+date: '2009-03-27'
+court: 東京地方裁判所
+title: 青色申告の承認取消請求事件
+topics:
+- 法人税
+- 所得税
+keywords:
+- 更正処分
+- 青色申告
+laws: []
+result: 取消
+summary_status: missing
+summary_source: ''
+source:
+  origin: aois0/ai-law-db simple/hanketsu/11174.json
+---
+
+# 判決要約
+
+（要約未生成）
+
+## 手掛かり（メタデータ）
+- topics: 法人税, 所得税
+- keywords: 更正処分, 青色申告
+- laws: 
+- result: 取消
+
+---
+*このファイルはAI検索用です。正確な内容は原文を参照してください。*
