@@ -1,0 +1,14 @@
+# AI判決DB クイックスタート（最短）
+
+## 推奨: 法人税（CFC含む）
+1) 入口: `houjinzei/llms.txt`
+2) shard一覧: `houjinzei/data/shards_index.json`
+3) shard（TSV）: `houjinzei/data/shards/shard-XX.txt`
+4) 要約: `houjinzei/core/{id}.txt`
+
+## case_id / id が分かっている場合
+- `houjinzei/core/{id}.txt` を直接開く
+  - 例: `houjinzei/core/13436.txt`
+
+## 読み方（core/{id}.txt）
+- YAML（メタデータ）→ 判決要約 → 注意書き、の順です。

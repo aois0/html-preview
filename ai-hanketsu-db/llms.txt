@@ -1,0 +1,17 @@
+# AI判決データベース（入口 / AI検索向け）
+# Base URL: https://jplawdb.github.io/html-preview/ai-hanketsu-db/
+
+AIで最短・確実に辿るなら、まず税目別ディレクトリの `llms.txt` を開いてください。
+
+## 入口（法人税・CFC等）
+- `houjinzei/llms.txt`
+
+## URLパターン（法人税DB）
+- Index: `houjinzei/llms.txt`
+- Shard index: `houjinzei/data/shards_index.json`
+- Shard TSV: `houjinzei/data/shards/shard-XX.txt`
+- Case summary: `houjinzei/core/{id}.txt`
+
+## 関連DB
+- 条文: `../ai-law-db/`
+- 通達: `../ai-tsutatsu-db/`

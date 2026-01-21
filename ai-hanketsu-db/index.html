@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI判決データベース - AI-Optimized Japanese Court Decision Database</title>
+<style>
+body { font-family: system-ui, sans-serif; max-width: 800px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; }
+h1 { color: #1a365d; }
+h2 { color: #2c5282; border-bottom: 2px solid #3182ce; padding-bottom: 0.5rem; }
+code { background: #f7fafc; padding: 0.2rem 0.4rem; border-radius: 4px; }
+pre { background: #f7fafc; padding: 1rem; border-radius: 8px; overflow-x: auto; }
+a { color: #3182ce; }
+.card { background: #f7fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; margin: 1rem 0; }
+.stats { display: flex; gap: 2rem; flex-wrap: wrap; }
+.stat { text-align: center; }
+.stat-num { font-size: 2rem; font-weight: bold; color: #1a365d; }
+</style>
+</head>
+<body>
+<h1>AI判決データベース</h1>
+<p>AI-Optimized Japanese Court Decision Database</p>
+
+<div class="card">
+<h2>For AI Agents (ChatGPT, Claude, etc.)</h2>
+<p>Start here:</p>
+<ul>
+<li><a href="llms.txt">llms.txt</a> - AI-readable index and URL patterns</li>
+<li><a href="quickstart.txt">quickstart.txt</a> - Quick navigation guide</li>
+</ul>
+</div>
+
+<h2>Recommended (法人税 / CFC)</h2>
+<div class="card">
+  <p>高品質な要約＋軽量インデックス（TSV shards）:</p>
+  <ul>
+    <li><a href="houjinzei/">houjinzei/</a> - 法人税判例DB（入口: <a href="houjinzei/llms.txt">houjinzei/llms.txt</a>）</li>
+  </ul>
+</div>
+
+<h2>Direct Access (id known)</h2>
+<pre>
+houjinzei/core/{id}.txt
+</pre>
+<p>Example: <a href="houjinzei/core/13436.txt">houjinzei/core/13436.txt</a></p>
+
+<h2>Search (case_id unknown)</h2>
+<pre>
+houjinzei/data/shards_index.json - Shard list (recommended)
+houjinzei/data/shards/shard-00.txt - Case index (TSV)
+</pre>
+
+<h2>Structure</h2>
+<pre>
+ai-hanketsu-db/
+├── houjinzei/      # Corporate tax case DB (recommended)
+│   ├── core/{id}.txt
+│   └── data/shards/shard-XX.txt
+├── llms.txt
+├── quickstart.txt
+└── index.html
+</pre>
+
+<h2>Related Databases</h2>
+<ul>
+<li><a href="../ai-law-db/">ai-law-db</a> - Japanese Laws (条文)</li>
+<li><a href="../ai-tsutatsu-db/">ai-tsutatsu-db</a> - Tax Circulars (通達)</li>
+</ul>
+
+<footer style="margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #e2e8f0; color: #718096; font-size: 0.9rem;">
+<p>Source: Japanese court decisions (判決・裁決)</p>
+</footer>
+</body>
+</html>
