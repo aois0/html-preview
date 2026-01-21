@@ -9,6 +9,7 @@ Generate per-case core/{id}.txt for the Corporate Tax (法人税) case set.
 
 import json
 import re
+import subprocess
 from pathlib import Path
 
 import yaml
@@ -19,6 +20,7 @@ LIST_FILE = Path("/tmp/houjinzei_list.txt")
 
 BASE_DIR = Path(__file__).parent.parent
 CORE_DIR = BASE_DIR / "core"
+REPO_ROOT = BASE_DIR.parent.parent
 
 
 CASE_HEADER_RE = re.compile(r"^##\s+(\d+):", re.MULTILINE)
@@ -37,7 +39,10 @@ def extract_segments_from_batches() -> tuple[dict[str, str], dict[str, str]]:
     segments: dict[str, str] = {}
     sources: dict[str, str] = {}
 
+    tracked_batches = load_tracked_batch_paths()
     for batch_path in sorted(CORE_DIR.glob("batch-*.txt")):
+        if tracked_batches is not None and batch_path not in tracked_batches:
+            continue
         text = batch_path.read_text(encoding="utf-8", errors="replace")
         matches = list(CASE_HEADER_RE.finditer(text))
         if not matches:
@@ -56,6 +61,43 @@ def extract_segments_from_batches() -> tuple[dict[str, str], dict[str, str]]:
             sources[case_id] = batch_path.name
 
     return segments, sources
+
+
+def load_tracked_batch_paths() -> set[Path] | None:
+    """
+    Returns a set of tracked-or-staged batch files (absolute Paths).
+
+    Rationale: during iterative authoring, it's common to have untracked draft batch files in CORE_DIR.
+    Those should not affect the generated per-case core/*.txt outputs unless they are explicitly added
+    to git (tracked or staged).
+    """
+    try:
+        rel_pathspec = str((CORE_DIR / "batch-*.txt").relative_to(REPO_ROOT))
+    except ValueError:
+        return None
+
+    try:
+        proc = subprocess.run(
+            ["git", "ls-files", "--", rel_pathspec],
+            cwd=REPO_ROOT,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.DEVNULL,
+            text=True,
+            check=False,
+        )
+    except FileNotFoundError:
+        return None
+
+    if proc.returncode != 0:
+        return None
+
+    paths: set[Path] = set()
+    for line in proc.stdout.splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        paths.add(REPO_ROOT / line)
+    return paths
 
 
 def load_metadata(case_id: str) -> dict:
@@ -137,4 +179,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
