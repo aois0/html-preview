@@ -15,7 +15,7 @@ laws:
 - 租税特別措置法66条の4
 result: 取消
 summary_status: available
-summary_source: batch-1999.txt
+summary_source: batch-1999-003.txt
 source:
   origin: aois0/ai-law-db simple/hanketsu/13486.json
 ---

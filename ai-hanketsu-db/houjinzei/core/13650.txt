@@ -23,7 +23,7 @@ keywords:
 laws: []
 result: 取消
 summary_status: available
-summary_source: batch-1999.txt
+summary_source: batch-1999-025.txt
 source:
   origin: aois0/ai-law-db simple/hanketsu/13650.json
 ---
