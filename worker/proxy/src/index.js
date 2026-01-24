@@ -73,8 +73,37 @@ export default {
         );
       }
 
-      // HTML処理
-      const html = await response.text();
+      // HTML処理（charset対応）
+      const buffer = await response.arrayBuffer();
+      const bytes = new Uint8Array(buffer);
+
+      // charset検出: 1. Content-Typeヘッダー
+      let charset = 'utf-8';
+      const charsetMatch = contentType.match(/charset=([^;]+)/i);
+      if (charsetMatch) {
+        charset = charsetMatch[1].trim().toLowerCase();
+      }
+
+      // charset検出: 2. HTMLのmetaタグ（ヘッダーになければ）
+      if (charset === 'utf-8') {
+        const preview = new TextDecoder('utf-8', { fatal: false }).decode(bytes.slice(0, 2048));
+        const metaMatch = preview.match(/charset=["']?([^"'\s>]+)/i);
+        if (metaMatch) {
+          charset = metaMatch[1].toLowerCase();
+        }
+      }
+
+      // charset正規化
+      if (charset === 'shift_jis' || charset === 'sjis' || charset === 'x-sjis') {
+        charset = 'shift-jis';
+      }
+      if (charset === 'euc-jp' || charset === 'eucjp') {
+        charset = 'euc-jp';
+      }
+
+      // TextDecoderでデコード
+      const decoder = new TextDecoder(charset, { fatal: false });
+      const html = decoder.decode(bytes);
 
       // タイトルを抽出
       const titleMatch = html.match(/<title[^>]*>([^<]+)<\/title>/i);
