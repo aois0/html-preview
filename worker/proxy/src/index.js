@@ -48,6 +48,32 @@ export default {
         throw new Error(`HTTP ${response.status}`);
       }
 
+      // Content-TypeまたはURL拡張子でPDF判定
+      const contentType = response.headers.get('content-type') || '';
+      const isPdf = contentType.includes('application/pdf') || targetUrl.toLowerCase().endsWith('.pdf');
+
+      if (isPdf) {
+        // PDFはbase64で返す
+        const buffer = await response.arrayBuffer();
+        const bytes = new Uint8Array(buffer);
+        let binary = '';
+        for (let i = 0; i < bytes.length; i++) {
+          binary += String.fromCharCode(bytes[i]);
+        }
+        const base64 = btoa(binary);
+
+        return new Response(
+          JSON.stringify({
+            type: 'pdf',
+            data: base64,
+            url: response.url,
+            size: buffer.byteLength
+          }),
+          { headers: { ...corsHeaders, 'Content-Type': 'application/json' } }
+        );
+      }
+
+      // HTML処理
       const html = await response.text();
 
       // タイトルを抽出
@@ -56,9 +82,10 @@ export default {
 
       return new Response(
         JSON.stringify({
+          type: 'html',
           html,
           title,
-          url: response.url, // リダイレクト後の最終URL
+          url: response.url,
           size: html.length
         }),
         { headers: { ...corsHeaders, 'Content-Type': 'application/json' } }
