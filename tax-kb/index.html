@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tax Law KB Prototype</title>
+  <style>
+    :root {
+      --bg: #f7f6f3;
+      --panel: #ffffff;
+      --text: #1c1c1c;
+      --muted: #666;
+      --accent: #9b6a2f;
+      --border: #e2ddd6;
+    }
+    body {
+      margin: 0;
+      font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+    header {
+      padding: 28px 20px;
+      background: linear-gradient(135deg, #f0eadf, #f9f7f2);
+      border-bottom: 1px solid var(--border);
+    }
+    header h1 {
+      margin: 0 0 8px 0;
+      font-size: 24px;
+      letter-spacing: 0.02em;
+    }
+    header p {
+      margin: 0;
+      color: var(--muted);
+    }
+    main {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 24px 20px 60px;
+    }
+    section {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px 20px;
+      margin: 16px 0;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+    }
+    h2 {
+      font-size: 18px;
+      margin: 0 0 8px 0;
+      color: var(--accent);
+    }
+    ul { padding-left: 20px; }
+    code, pre {
+      background: #f3f1ed;
+      border: 1px solid #e7e1d7;
+      border-radius: 8px;
+    }
+    code { padding: 0 6px; }
+    pre {
+      padding: 12px 14px;
+      overflow-x: auto;
+      font-size: 13px;
+      white-space: pre-wrap;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 12px;
+    }
+    .note {
+      color: var(--muted);
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tax Law KB Prototype</h1>
+    <p>PageIndex発想の「文書内ツリー＋俯瞰＋横断リンク」型RAGデータ基盤（租税法）</p>
+  </header>
+  <main>
+    <section>
+      <h2>目的</h2>
+      <ul>
+        <li>博士論文執筆のための知識ベース構築</li>
+        <li>俯瞰 → 深掘り → 根拠提示 → 段落比較を可能にする</li>
+      </ul>
+      <p class="note">現在は論文5本のプロトタイプ構築まで完了。判決は追加予定。</p>
+    </section>
+
+    <section>
+      <h2>構造（4層）</h2>
+      <ul>
+        <li>文書内ツリー（章→節→段落）</li>
+        <li>段落アンカー（ページ必須）</li>
+        <li>俯瞰カテゴリ（概念マップ）</li>
+        <li>文書横断リンク（比較・統合）</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>保存構造</h2>
+      <pre>
+kb/
+  corpus/
+    doc_0001/
+      raw.txt
+      nodes.jsonl
+      anchors.jsonl
+      meta.json
+  concepts/
+    concepts.jsonl
+  links/
+    links.jsonl
+  claims/
+    claims.jsonl
+  index/
+    doc_index.jsonl
+    concept_index.jsonl
+    statute_index.jsonl
+      </pre>
+    </section>
+
+    <section>
+      <h2>基本フロー</h2>
+      <ol>
+        <li>PDF → ページマーカー付きテキスト生成</li>
+        <li>段落アンカー生成</li>
+        <li>見出し抽出→ツリー化</li>
+        <li>要約＋概念タグ付け</li>
+        <li>横断リンク生成</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>簡易検索（CLI）</h2>
+      <pre>
+python3 tools/query_kb.py "CFC 税制"
+python3 tools/query_kb.py "租税回避の定義" --topk 8 --anchors 3
+      </pre>
+      <p class="note">検索結果はノード要約＋ページ根拠付き段落を返す。</p>
+    </section>
+
+    <section>
+      <h2>AI運用プロンプト（そのまま使える）</h2>
+      <pre>
+あなたは租税法研究のための知識ベース（KB）を読むAIです。回答は日本語のみ。思考プロセスの生の出力は不要。結論の根拠・理由は日本語で要点説明すること。
+このKBは「文書内ツリー＋段落アンカー＋俯瞰概念＋横断リンク」構造です。必ずページ付き根拠を示して回答すること。
+
+## 目的
+- 俯瞰→深掘り→根拠提示→比較（段落レベル）を行う。
+- 出力には必ず根拠アンカー（anchor_id + page）を含める。
+
+## KBの構造
+- 文書一覧: kb/index/doc_index.jsonl
+- 概念索引: kb/index/concept_index.jsonl
+- 条文索引: kb/index/statute_index.jsonl
+- 横断リンク: kb/links/links.jsonl
+- 各文書: kb/corpus/doc_XXXX/
+  - nodes.jsonl（見出しツリー＋要約＋概念タグ）
+  - anchors.jsonl（段落本文＋ページ）
+  - raw.txt（ページマーカー付き全文）
+
+## 基本フロー
+1) 索引で対象を絞る
+2) nodes.jsonl の summary で読むべき節を選ぶ
+3) anchors.jsonl で anchor_id の本文を取得
+4) 統合・比較し、根拠付きで回答
+
+## 比較のやり方
+- kb/links/links.jsonl で関連ノードを探し、src/dst を比較
+- anchor を根拠として提示
+
+## 出力ルール
+- 必ず「主張 → 根拠（anchor_id + page）」の形式を入れる
+- 不確実な場合は「未確認」と明記する
+- 参考文献・脚注だけの段落は主張の根拠にしない
+      </pre>
+    </section>
+
+    <section>
+      <h2>現状の取り込み状況</h2>
+      <ul>
+        <li>doc_0001 匿名組合をめぐる国際課税問題</li>
+        <li>doc_0002 鍋谷論文</li>
+        <li>doc_0003 羽島論文</li>
+        <li>doc_0004 石井論文</li>
+        <li>doc_0005 本庄</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>判決を追加する手順</h2>
+      <pre>
+# 判決PDFを kb/incoming/judgments/ に配置
+python3 tools/pdf_to_marked_text.py --type judgment <判決PDF...>
+python3 tools/run_pipeline.py
+      </pre>
+    </section>
+  </main>
+</body>
+</html>
