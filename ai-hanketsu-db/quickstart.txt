@@ -6,6 +6,12 @@
 3) shard（TSV）: `houjinzei/data/shards/shard-XX.txt`
 4) 要約（正規ルート）: `houjinzei/core/{id}.txt`
 
+## 裁決: 法人税裁決DB
+1) 入口: `saiketsu-houjinzei/llms.txt`
+2) shard一覧: `saiketsu-houjinzei/data/shards_index.json`
+3) shard（TSV）: `saiketsu-houjinzei/data/shards/shard-XX.txt`
+4) 要約（正規ルート）: `saiketsu-houjinzei/core/{id}.txt`
+
 NOTE:
 - `houjinzei/core/batch-*.txt` は内部用（生成/編集）で、入口ナビゲーションには使わない。
 

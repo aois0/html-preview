@@ -1,0 +1,30 @@
+{
+  "total": 255,
+  "shard_size": 100,
+  "format": "tsv",
+  "fields": [
+    "id",
+    "number",
+    "date_iso",
+    "tax_types",
+    "issue_hint",
+    "url"
+  ],
+  "shards": [
+    {
+      "file": "data/shards/shard-00.txt",
+      "range": "43_43-70_04",
+      "count": 100
+    },
+    {
+      "file": "data/shards/shard-01.txt",
+      "range": "70_14-97_09",
+      "count": 100
+    },
+    {
+      "file": "data/shards/shard-02.txt",
+      "range": "97_10-139_07",
+      "count": 55
+    }
+  ]
+}

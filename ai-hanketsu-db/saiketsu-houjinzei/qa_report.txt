@@ -1,0 +1,4 @@
+records: 255
+shard rows: 255
+core files missing: 0
+records with empty issue hint: 0

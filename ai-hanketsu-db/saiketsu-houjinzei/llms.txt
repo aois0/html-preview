@@ -1,0 +1,16 @@
+# 法人税裁決DB（入り口 for AI）
+# Base URL: https://jplawdb.github.io/html-preview/ai-hanketsu-db/saiketsu-houjinzei/
+
+## 入口
+- `llms.txt`
+
+## URLパターン
+- `llms.txt`
+- `data/shards_index.json`
+- `data/shards/shard-XX.txt`
+- `core/{id}.txt`
+
+## Search strategy
+1. shards_index → target shard
+2. open shard-XX.txt, find row with desired issue_hint/number
+3. open `core/{id}.txt` as canonical per-decision summary

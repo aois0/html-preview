@@ -5,15 +5,22 @@ AIで最短・確実に辿るなら、まず税目別ディレクトリの `llms
 
 ## 入口（法人税・CFC等）
 - `houjinzei/llms.txt`
+- `saiketsu-houjinzei/llms.txt`（法人税裁決DB）
 
 ## URLパターン（法人税DB）
 - Index: `houjinzei/llms.txt`
 - Shard index: `houjinzei/data/shards_index.json`
 - Shard TSV: `houjinzei/data/shards/shard-XX.txt`
 - Case summary: `houjinzei/core/{id}.txt`
+- 
+- ## URLパターン（法人税裁決DB）
+- - Index: `saiketsu-houjinzei/llms.txt`
+- - Shard index: `saiketsu-houjinzei/data/shards_index.json`
+- - Shard TSV: `saiketsu-houjinzei/data/shards/shard-XX.txt`
+- - Case summary: `saiketsu-houjinzei/core/{id}.txt`
 
 IMPORTANT:
-- Canonical entrypoint is always `houjinzei/core/{id}.txt`.
+- Canonical entrypoint is always `houjinzei/core/{id}.txt` or `saiketsu-houjinzei/core/{id}.txt`.
 - Do NOT rely on `houjinzei/core/batch-*.txt` for navigation; batch files are internal build artifacts and may include duplicates or older versions.
 
 ## 関連DB
