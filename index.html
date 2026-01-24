@@ -617,7 +617,7 @@
         }
       }, []);
 
-      // base64からPDFをレンダリング（URL取得用）
+      // base64からPDFのテキストを抽出（URL取得用）
       const renderPdfFromBase64 = useCallback(async (base64Data, sourceUrl) => {
         // base64 → Uint8Array
         const binaryString = atob(base64Data);
@@ -649,22 +649,19 @@
         }
         title = title.slice(0, 50).replace(/[\/\\:*?"<>|\n\r]/g, '').trim() || 'PDF';
 
-        // 各ページをPNG化
-        const images = [];
+        // 各ページからテキスト抽出
+        const pages = [];
         for (let i = 1; i <= pdf.numPages; i++) {
           const page = await pdf.getPage(i);
-          const scale = 2;
-          const viewport = page.getViewport({ scale });
-          const canvas = document.createElement('canvas');
-          canvas.width = viewport.width;
-          canvas.height = viewport.height;
-          const ctx = canvas.getContext('2d');
-          await page.render({ canvasContext: ctx, viewport }).promise;
-          const imgData = canvas.toDataURL('image/png');
-          images.push(`<img src="${imgData}" alt="Page ${i}" style="max-width:100%;height:auto;margin-bottom:10px;">`);
+          const textContent = await page.getTextContent();
+          const text = textContent.items.map(item => item.str).join('');
+          pages.push(`<div style="margin-bottom:2em;padding:1em;border-bottom:1px solid #ddd;">
+            <p style="color:#888;font-size:0.85em;margin-bottom:0.5em;">— Page ${i} —</p>
+            <p style="line-height:1.8;white-space:pre-wrap;">${text}</p>
+          </div>`);
         }
 
-        return { code: images.join('\n'), title, numPages: pdf.numPages };
+        return { code: pages.join('\n'), title, numPages: pdf.numPages };
       }, []);
 
       // URL検知ヘルパー
