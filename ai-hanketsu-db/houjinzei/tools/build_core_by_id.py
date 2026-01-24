@@ -409,7 +409,8 @@ def _pick_first_sentences(
 
 
 def build_auto_segment(case_id: str, meta: dict) -> tuple[str, str] | tuple[None, None]:
-    raw = str(meta.get("text") or "")
+    # Some datasets store the judgment body in `full_text` instead of `text`.
+    raw = str(meta.get("text") or meta.get("full_text") or "")
     title = str(meta.get("title") or "").strip()
     court = str(meta.get("court") or "").strip()
     date = str(meta.get("date_iso") or meta.get("date") or "").strip()
