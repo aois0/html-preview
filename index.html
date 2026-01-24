@@ -83,6 +83,8 @@
     const SHORTENER_URL = 'https://url-shortener.takalovesthailand.workers.dev';
     // 同期サービスのエンドポイント
     const SYNC_URL = 'https://html-preview-sync.takalovesthailand.workers.dev';
+    // URLプロキシサービスのエンドポイント（外部ページ取得用）
+    const URL_PROXY = 'https://url-proxy.takalovesthailand.workers.dev';
 
     // IndexedDB ヘルパー（localStorage の代替、容量制限なし）
     const DB_NAME = 'html-preview-db';
@@ -197,6 +199,7 @@
       const [textSelection, setTextSelection] = useState(null); // テキスト選択情報
       const [showHighlightMenu, setShowHighlightMenu] = useState(false); // ハイライトメニュー表示
       const [tappedHighlight, setTappedHighlight] = useState(null); // タップされたハイライト { highlightId, color, rect }
+      const [urlFetchState, setUrlFetchState] = useState({ loading: false, error: null, url: null }); // URL取得状態
       const [theme, setTheme] = useState(() => {
         return localStorage.getItem('html-preview-theme') || 'dark';
       }); // テーマ（dark/light）
@@ -614,12 +617,69 @@
         }
       }, []);
 
-      // ペーストボタン用（モバイル）
+      // URL検知ヘルパー
+      const isValidUrl = useCallback((text) => {
+        try {
+          const trimmed = text.trim();
+          // 複数行ならURLではない
+          if (trimmed.includes('\n')) return false;
+          const url = new URL(trimmed);
+          return ['http:', 'https:'].includes(url.protocol);
+        } catch {
+          return false;
+        }
+      }, []);
+
+      // URLからページを取得してライブラリに保存
+      const fetchUrlContent = useCallback(async (url) => {
+        setUrlFetchState({ loading: true, error: null, url });
+        try {
+          const response = await fetch(`${URL_PROXY}?url=${encodeURIComponent(url)}`);
+          const data = await response.json();
+          if (data.error) throw new Error(data.error);
+
+          const hostname = new URL(url).hostname;
+          const title = (data.title || hostname).slice(0, 50).replace(/[\/\\:*?"<>|\n\r]/g, '').trim() || hostname;
+
+          const newItem = {
+            id: Date.now(),
+            title,
+            type: 'HTML',
+            code: data.html,
+            createdAt: new Date().toISOString(),
+            sourceUrl: url
+          };
+
+          const updated = [newItem, ...savedItems];
+          setSavedItems(updated);
+          await saveToIndexedDB(updated);
+
+          setCode(data.html);
+          setLoadedFile({ name: title, type: 'HTML' });
+          setActiveTab('preview');
+          setUrlFetchState({ loading: false, error: null, url: null });
+          showToast(`取得して登録しました\n${title}`, 2500, 'success');
+          if (navigator.vibrate) navigator.vibrate(50);
+        } catch (err) {
+          console.error('URL fetch error:', err);
+          setUrlFetchState({ loading: false, error: err.message, url: null });
+          showToast(`取得に失敗しました\n${err.message}`, 3000, 'error');
+        }
+      }, [savedItems, showToast]);
+
+      // ペーストボタン用（モバイル）- URL検知対応
       const handlePaste = useCallback(async () => {
         // まずClipboard APIを試す
         try {
           const text = await navigator.clipboard.readText();
           if (text) {
+            const trimmed = text.trim();
+            // URL検知 → プロキシ経由で取得
+            if (isValidUrl(trimmed)) {
+              await fetchUrlContent(trimmed);
+              return;
+            }
+            // 通常のHTML/SVG/テキスト処理
             setCode(text);
             if (navigator.vibrate) navigator.vibrate(50);
             // 自動でプレビューに遷移
@@ -647,7 +707,7 @@
           // それでもダメなら、フォーカス状態でユーザーに長押しを促す
           // キーボードが開くので、そこから長押しでペースト可能
         }
-      }, []);
+      }, [isValidUrl, fetchUrlContent]);
 
       // プレビュースクロール時にUI表示/非表示
       const handlePreviewScroll = useCallback((e) => {
@@ -2713,8 +2773,16 @@ ${content}
                             {/* タイトル */}
                             <div className="flex-1 min-w-0">
                               <div className="text-sm truncate" style={{ color: 'var(--text-primary)' }}>{item.title}</div>
-                              <div className="text-xs" style={{ color: 'var(--text-secondary)' }}>
-                                {new Date(item.updatedAt || item.createdAt).toLocaleDateString('ja-JP')}
+                              <div className="text-xs flex items-center gap-2" style={{ color: 'var(--text-secondary)' }}>
+                                <span>{new Date(item.updatedAt || item.createdAt).toLocaleDateString('ja-JP')}</span>
+                                {item.sourceUrl && (
+                                  <span className="flex items-center gap-0.5 truncate" style={{ maxWidth: '120px' }}>
+                                    <svg className="h-3 w-3 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
+                                    </svg>
+                                    {(() => { try { return new URL(item.sourceUrl).hostname; } catch { return 'URL'; } })()}
+                                  </span>
+                                )}
                               </div>
                             </div>
                             {/* ★ */}
@@ -3091,6 +3159,22 @@ ${content}
                       OK
                     </button>
                   </div>
+                </div>
+              </div>
+            )}
+
+            {/* URL取得ローディング */}
+            {urlFetchState.loading && (
+              <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-[300]">
+                <div className="rounded-2xl mx-4 max-w-sm w-full p-6 text-center shadow-2xl" style={{ backgroundColor: 'var(--bg-primary)' }}>
+                  <div className="relative w-16 h-16 mx-auto mb-4">
+                    <div className="absolute inset-0 border-4 border-purple-500/30 rounded-full"></div>
+                    <div className="absolute inset-0 border-4 border-transparent border-t-purple-500 rounded-full animate-spin"></div>
+                  </div>
+                  <h3 className="font-bold text-lg mb-2" style={{ color: 'var(--text-primary)' }}>ページを取得中...</h3>
+                  <p className="text-sm truncate px-4" style={{ color: 'var(--text-secondary)' }}>
+                    {urlFetchState.url && (() => { try { return new URL(urlFetchState.url).hostname; } catch { return urlFetchState.url; } })()}
+                  </p>
                 </div>
               </div>
             )}
@@ -3785,6 +3869,14 @@ ${content}
                                 {item.updatedAt && (
                                   <span>{new Date(item.updatedAt).toLocaleDateString('ja-JP', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' })}</span>
                                 )}
+                                {item.sourceUrl && (
+                                  <span className="flex items-center gap-0.5 truncate" style={{ maxWidth: '150px' }}>
+                                    <svg className="h-3 w-3 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
+                                    </svg>
+                                    {(() => { try { return new URL(item.sourceUrl).hostname; } catch { return 'URL'; } })()}
+                                  </span>
+                                )}
                               </div>
                             </div>
                             <button
@@ -3984,6 +4076,22 @@ ${content}
                   </button>
                 </div>
                 )}
+              </div>
+            </div>
+          )}
+
+          {/* URL取得ローディング */}
+          {urlFetchState.loading && (
+            <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-[300]">
+              <div className="rounded-2xl mx-4 max-w-sm w-full p-6 text-center shadow-2xl" style={{ backgroundColor: 'var(--bg-primary)' }}>
+                <div className="relative w-16 h-16 mx-auto mb-4">
+                  <div className="absolute inset-0 border-4 border-purple-500/30 rounded-full"></div>
+                  <div className="absolute inset-0 border-4 border-transparent border-t-purple-500 rounded-full animate-spin"></div>
+                </div>
+                <h3 className="font-bold text-lg mb-2" style={{ color: 'var(--text-primary)' }}>ページを取得中...</h3>
+                <p className="text-sm truncate px-4" style={{ color: 'var(--text-secondary)' }}>
+                  {urlFetchState.url && (() => { try { return new URL(urlFetchState.url).hostname; } catch { return urlFetchState.url; } })()}
+                </p>
               </div>
             </div>
           )}
