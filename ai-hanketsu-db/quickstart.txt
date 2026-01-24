@@ -4,7 +4,10 @@
 1) 入口: `houjinzei/llms.txt`
 2) shard一覧: `houjinzei/data/shards_index.json`
 3) shard（TSV）: `houjinzei/data/shards/shard-XX.txt`
-4) 要約: `houjinzei/core/{id}.txt`
+4) 要約（正規ルート）: `houjinzei/core/{id}.txt`
+
+NOTE:
+- `houjinzei/core/batch-*.txt` は内部用（生成/編集）で、入口ナビゲーションには使わない。
 
 ## case_id / id が分かっている場合
 - `houjinzei/core/{id}.txt` を直接開く

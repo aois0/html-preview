@@ -8,7 +8,11 @@
 
 1) Search: `data/shards_index.json`
 2) Open 1–3 shards: `data/shards/shard-XX.txt` (TSV)
-3) Read summary: `core/{id}.txt`
+3) Read summary (canonical): `core/{id}.txt`
+
+IMPORTANT:
+- `core/{id}.txt` is the canonical per-case entrypoint.
+- Do NOT rely on `core/batch-*.txt` for navigation; batch files are internal build artifacts and may include duplicates or older versions.
 
 ## Endpoints
 
@@ -21,6 +25,10 @@
 ### Summaries
 - core/{id}.txt
   - If summary is not yet generated, the file contains metadata + "要約未生成".
+
+### Internal (not for navigation)
+- core/batch-*.txt
+  - Internal authoring/build artifacts. May contain duplicates or older segments.
 
 ## URL Patterns
 

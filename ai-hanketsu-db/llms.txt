@@ -12,6 +12,10 @@ AIで最短・確実に辿るなら、まず税目別ディレクトリの `llms
 - Shard TSV: `houjinzei/data/shards/shard-XX.txt`
 - Case summary: `houjinzei/core/{id}.txt`
 
+IMPORTANT:
+- Canonical entrypoint is always `houjinzei/core/{id}.txt`.
+- Do NOT rely on `houjinzei/core/batch-*.txt` for navigation; batch files are internal build artifacts and may include duplicates or older versions.
+
 ## 関連DB
 - 条文: `../ai-law-db/`
 - 通達: `../ai-tsutatsu-db/`
