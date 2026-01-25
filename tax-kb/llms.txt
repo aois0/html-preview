@@ -11,3 +11,7 @@
 注記
 - KBの実体データ（kb/配下）はローカル環境に保存されている前提
 - Web側は運用ガイドとプロンプトを提供
+
+公開データ
+- PDF: https://jplawdb.github.io/html-preview/tax-kb/data/papers/
+- KB:  https://jplawdb.github.io/html-preview/tax-kb/kb/
