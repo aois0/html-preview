@@ -9,9 +9,5 @@
 - すべての回答は anchor_id + page を根拠として提示
 
 注記
-- KBの実体データ（kb/配下）はローカル環境に保存されている前提
-- Web側は運用ガイドとプロンプトを提供
-
-公開データ
-- PDF: https://jplawdb.github.io/html-preview/tax-kb/data/papers/
-- KB:  https://jplawdb.github.io/html-preview/tax-kb/kb/
+- KBの実体データ（kb/配下）とPDFはローカル環境に保存
+- Web側は運用ガイドとプロンプトのみ提供

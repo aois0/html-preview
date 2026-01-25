@@ -13,9 +13,5 @@ Tax Law KB Prototype - Quickstart
 3) 簡易検索（ローカル）
 python3 tools/query_kb.py "検索語" --topk 8 --anchors 3
 
-4) 出力ルール
-- 主張 → 根拠（anchor_id + page）を必ず付ける
-
-5) 公開データ
-- PDF: tax-kb/data/papers/
-- 構造化KB: tax-kb/kb/
+4) 公開状況
+- PDFとKBデータは非公開（ローカルのみ）
