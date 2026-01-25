@@ -1,0 +1,17 @@
+Tax Law KB Prototype - Quickstart
+
+1) 目的
+- 俯瞰 → 深掘り → 根拠提示 → 段落比較
+- 出力には必ず anchor_id + page を含める
+
+2) KB構造（ローカル）
+- kb/index/concept_index.jsonl
+- kb/index/statute_index.jsonl
+- kb/corpus/doc_XXXX/nodes.jsonl
+- kb/corpus/doc_XXXX/anchors.jsonl
+
+3) 簡易検索（ローカル）
+python3 tools/query_kb.py "検索語" --topk 8 --anchors 3
+
+4) 出力ルール
+- 主張 → 根拠（anchor_id + page）を必ず付ける

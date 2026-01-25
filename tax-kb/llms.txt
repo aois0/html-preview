@@ -1,0 +1,13 @@
+# Tax Law KB Prototype (PageIndex-style)
+
+入口
+- https://jplawdb.github.io/html-preview/tax-kb/
+- https://jplawdb.github.io/html-preview/tax-kb/quickstart.txt
+
+概要
+- 文書内ツリー + 段落アンカー + 俯瞰カテゴリ + 横断リンク
+- すべての回答は anchor_id + page を根拠として提示
+
+注記
+- KBの実体データ（kb/配下）はローカル環境に保存されている前提
+- Web側は運用ガイドとプロンプトを提供
