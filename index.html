@@ -428,14 +428,62 @@
         handleLoad(item);
       }, []);
 
-      // コードペースト検知→自動プレビュー遷移
+      // クリップボードから画像を保存
+      const handleImageBlob = useCallback(async (blob) => {
+        const reader = new FileReader();
+        reader.onload = async (event) => {
+          const base64 = event.target.result;
+          const imgTag = `<img src="${base64}" alt="Pasted Image" style="max-width:100%;height:auto;">`;
+
+          // タイトル生成
+          const title = `画像_${new Date().toLocaleString('ja-JP', {
+            month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit'
+          }).replace(/\//g, '-')}`;
+
+          const newItem = {
+            id: Date.now(),
+            title,
+            type: 'IMAGE',
+            code: imgTag,
+            createdAt: new Date().toISOString()
+          };
+
+          const updated = [newItem, ...savedItems];
+          setSavedItems(updated);
+          await saveToIndexedDB(updated);
+
+          setCode(imgTag);
+          setLoadedFile({ name: title, type: 'IMAGE' });
+          setActiveTab('preview');
+          showToast(`画像を保存しました`, 2000, 'success');
+          if (navigator.vibrate) navigator.vibrate(50);
+        };
+        reader.readAsDataURL(blob);
+      }, [savedItems, showToast]);
+
+      // コードペースト検知→自動プレビュー遷移（画像対応）
       const handleCodePaste = useCallback((e) => {
-        // ペースト後、少し待ってからプレビューに遷移
+        // 画像がペーストされたかチェック
+        const items = e.clipboardData?.items;
+        if (items) {
+          for (const item of items) {
+            if (item.type.startsWith('image/')) {
+              e.preventDefault();
+              const blob = item.getAsFile();
+              if (blob) {
+                handleImageBlob(blob);
+                return;
+              }
+            }
+          }
+        }
+
+        // テキストの場合は既存処理（プレビュー遷移）
         setTimeout(() => {
           setActiveTab('preview');
           if (navigator.vibrate) navigator.vibrate(10);
         }, 300);
-      }, []);
+      }, [handleImageBlob]);
 
       // ファイル選択ハンドラ（モバイル用）- 画像/HTML/PDF対応
       const handleFileSelect = useCallback((e) => {
@@ -727,9 +775,27 @@
         }
       }, [savedItems, showToast, renderPdfFromBase64]);
 
-      // ペーストボタン用（モバイル）- URL検知対応
+      // ペーストボタン用（モバイル）- URL・画像検知対応
       const handlePaste = useCallback(async () => {
-        // まずClipboard APIを試す
+        // 1. 画像ペーストを試行（Clipboard API）
+        try {
+          if (navigator.clipboard?.read) {
+            const items = await navigator.clipboard.read();
+            for (const item of items) {
+              const imageType = item.types.find(t => t.startsWith('image/'));
+              if (imageType) {
+                const blob = await item.getType(imageType);
+                await handleImageBlob(blob);
+                return;
+              }
+            }
+          }
+        } catch (err) {
+          // NotAllowedError等は無視してテキストペーストに進む
+          console.warn('Clipboard image read failed:', err);
+        }
+
+        // 2. テキストペースト
         try {
           const text = await navigator.clipboard.readText();
           if (text) {
@@ -750,7 +816,7 @@
           console.warn('Clipboard API failed:', err);
         }
 
-        // フォールバック：テキストエリアにフォーカスしてexecCommandを試す
+        // 3. フォールバック：テキストエリアにフォーカスしてexecCommandを試す
         if (textareaRef.current) {
           textareaRef.current.focus();
           try {
@@ -764,10 +830,8 @@
           } catch (e) {
             console.warn('execCommand paste failed:', e);
           }
-          // それでもダメなら、フォーカス状態でユーザーに長押しを促す
-          // キーボードが開くので、そこから長押しでペースト可能
         }
-      }, [isValidUrl, fetchUrlContent]);
+      }, [isValidUrl, fetchUrlContent, handleImageBlob]);
 
       // プレビュースクロール時にUI表示/非表示
       const handlePreviewScroll = useCallback((e) => {
