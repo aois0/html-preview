@@ -775,6 +775,42 @@
         }
       }, [savedItems, showToast, renderPdfFromBase64]);
 
+      // コンテンツからタイトルを推定するユーティリティ
+      const deriveTitle = (content, type) => {
+        let title = '';
+
+        if (type === 'HTML') {
+          const match = content.match(/<title[^>]*>([^<]+)<\/title>/i);
+          if (match?.[1]) title = match[1].trim();
+        } else if (type === 'SVG') {
+          // メインタイトルコメントから取得
+          const mainMatch = content.match(/<!--\s*メインタイトル\s*-->[\s\S]*?<text[^>]*>([^<]+)<\/text>/);
+          if (mainMatch?.[1]) {
+            title = mainMatch[1].trim();
+          } else {
+            // なければ最初のテキスト要素: <text>タグの内容を取得
+            const textMatch = content.match(/<text[^>]*>([^<]+)<\/text>/i);
+            if (textMatch?.[1]) title = textMatch[1].trim();
+          }
+        } else if (type === 'TEXT') {
+          title = content.trim().split('\n')[0];
+        }
+
+        // サニタイズ: 最大50文字、禁止文字除去
+        title = (title || '').slice(0, 50)
+          .replace(/[\/\\:*?"<>|\n\r]/g, '').trim();
+
+        // フォールバック: タイプ_タイムスタンプ
+        if (!title) {
+          const ts = new Date().toLocaleTimeString('ja-JP', {
+            hour: '2-digit', minute: '2-digit'
+          });
+          title = `${type}_${ts}`;
+        }
+
+        return title;
+      };
+
       // ペーストボタン用（モバイル）- URL・画像検知対応
       const handlePaste = useCallback(async () => {
         // 1. 画像ペーストを試行（Clipboard API）
@@ -806,6 +842,14 @@
               return;
             }
             // 通常のHTML/SVG/テキスト処理
+            // コンテンツタイプを判定
+            const hasHtmlDoc = /<!DOCTYPE\s+html/i.test(trimmed) || /<html[\s>]/i.test(trimmed);
+            const hasSvg = /<svg[\s>]/i.test(trimmed);
+            const isSvg = hasSvg && !hasHtmlDoc;
+            const hasHtmlTag = /<([a-zA-Z][\w:-]*)(\s[^>]*)?>/.test(trimmed);
+            const type = hasHtmlDoc ? 'HTML' : isSvg ? 'SVG' : hasHtmlTag ? 'HTML' : 'TEXT';
+            const title = deriveTitle(text, type);
+            setLoadedFile({ name: title, type });
             setCode(text);
             if (navigator.vibrate) navigator.vibrate(50);
             // 自動でプレビューに遷移
@@ -1582,7 +1626,7 @@ ${svgCode}
 
         const currentItem = {
           id: Date.now(),
-          title: loadedFile?.name || 'Preview',
+          title: loadedFile?.name || deriveTitle(code, currentMode),
           type: currentMode,
           code: code,
           createdAt: new Date().toISOString()
