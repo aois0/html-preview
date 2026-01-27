@@ -3077,7 +3077,7 @@ ${content}
                           srcDoc={previewCode}
                           title="Preview"
                           className="border-0 bg-white"
-                          sandbox="allow-scripts"
+                          sandbox="allow-scripts allow-popups allow-popups-to-escape-sandbox"
                           style={{ width: `${12500 / zoomLevel}%`, height: `${12500 / zoomLevel}%`, transform: `scale(${zoomLevel * 0.8 / 100})`, transformOrigin: 'top left' }}
                         />
                       </div>
@@ -3087,7 +3087,7 @@ ${content}
                           srcDoc={previewCode}
                           title="Preview"
                           className="border-0 bg-white"
-                          sandbox="allow-scripts"
+                          sandbox="allow-scripts allow-popups allow-popups-to-escape-sandbox"
                           style={{ width: `${12500 / zoomLevel}%`, height: `${12500 / zoomLevel}%`, transform: `scale(${zoomLevel * 0.8 / 100})`, transformOrigin: 'top left' }}
                         />
                         {/* タップオーバーレイ（UI非表示時のみ表示、pointer-events-noneでスクロール通過） */}
@@ -3569,7 +3569,7 @@ ${content}
                         srcDoc={actionMenu.code}
                         className="w-full h-full border-0"
                         style={{ minHeight: '60vh' }}
-                        sandbox="allow-scripts"
+                        sandbox="allow-scripts allow-popups allow-popups-to-escape-sandbox"
                         title="preview"
                       />
                     )}
@@ -3825,14 +3825,14 @@ ${content}
                     srcDoc={previewCode}
                     title="Preview"
                     className="w-full h-full border-0 bg-white"
-                    sandbox="allow-scripts"
+                    sandbox="allow-scripts allow-popups allow-popups-to-escape-sandbox"
                   />
                 ) : (
                   <iframe
                     srcDoc={previewCode}
                     title="Preview"
                     className="w-full h-full border-0 bg-white"
-                    sandbox="allow-scripts"
+                    sandbox="allow-scripts allow-popups allow-popups-to-escape-sandbox"
                   />
                 )}
               </div>
