@@ -217,6 +217,11 @@
       const libraryLongPressTimer = useRef(null);
       const libraryLongPressTriggered = useRef(false);
       const libraryTouchStart = useRef({ x: 0, y: 0 });
+      // ライブラリドラッグ並び替え用
+      const [draggingItemId, setDraggingItemId] = useState(null);
+      const [dragOverIndex, setDragOverIndex] = useState(null);
+      const dragStartY = useRef(0);
+      const dragItemRects = useRef([]);
       // サイドバースワイプ用
       const swipeState = useRef({ startX: 0, startY: 0, isSwiping: false, isLocked: false });
       const EDGE_WIDTH = 30; // 左端30pxからサイドバーを開く
@@ -418,6 +423,70 @@
           libraryLongPressTimer.current = null;
         }
       }, []);
+
+      // ライブラリドラッグ開始（ハンドルから）
+      const handleDragStart = useCallback((e, item, itemIndex, filteredItems) => {
+        e.stopPropagation();
+        const touch = e.touches[0];
+        dragStartY.current = touch.clientY;
+        setDraggingItemId(item.id);
+        setDragOverIndex(itemIndex);
+        // 各アイテムの位置を記録
+        const container = e.target.closest('.space-y-2');
+        if (container) {
+          const items = container.querySelectorAll('[data-library-item]');
+          dragItemRects.current = Array.from(items).map(el => {
+            const rect = el.getBoundingClientRect();
+            return { top: rect.top, bottom: rect.bottom, height: rect.height };
+          });
+        }
+        if (navigator.vibrate) navigator.vibrate(30);
+      }, []);
+
+      // ライブラリドラッグ中
+      const handleDragMove = useCallback((e) => {
+        if (draggingItemId === null) return;
+        e.preventDefault();
+        const touch = e.touches[0];
+        const currentY = touch.clientY;
+        // どのインデックスの上にいるか判定
+        let newIndex = dragOverIndex;
+        for (let i = 0; i < dragItemRects.current.length; i++) {
+          const rect = dragItemRects.current[i];
+          const midY = rect.top + rect.height / 2;
+          if (currentY < midY) {
+            newIndex = i;
+            break;
+          }
+          newIndex = i + 1;
+        }
+        if (newIndex !== dragOverIndex) {
+          setDragOverIndex(newIndex);
+        }
+      }, [draggingItemId, dragOverIndex]);
+
+      // ライブラリドラッグ終了
+      const handleDragEnd = useCallback((filteredItems) => {
+        if (draggingItemId === null) return;
+        const fromIndex = filteredItems.findIndex(item => item.id === draggingItemId);
+        let toIndex = dragOverIndex;
+        if (fromIndex !== -1 && toIndex !== null && fromIndex !== toIndex) {
+          // filteredItemsからsavedItemsのインデックスに変換
+          const draggedItem = filteredItems[fromIndex];
+          const targetItem = toIndex < filteredItems.length ? filteredItems[toIndex] : null;
+          // savedItemsを並び替え
+          const newSavedItems = savedItems.filter(item => item.id !== draggingItemId);
+          const insertIndex = targetItem
+            ? newSavedItems.findIndex(item => item.id === targetItem.id)
+            : newSavedItems.length;
+          newSavedItems.splice(insertIndex, 0, draggedItem);
+          setSavedItems(newSavedItems);
+          saveToIndexedDB(newSavedItems).catch(e => console.error('Save error:', e));
+        }
+        setDraggingItemId(null);
+        setDragOverIndex(null);
+        dragItemRects.current = [];
+      }, [draggingItemId, dragOverIndex, savedItems]);
 
       // ライブラリアイテムタップ（長押しでなければロード）
       const handleLibraryTap = useCallback((item) => {
@@ -2870,8 +2939,8 @@ ${content}
                         const q = searchQuery.toLowerCase();
                         return item.title.toLowerCase().includes(q) ||
                                item.code.toLowerCase().includes(q);
-                      })
-                      .sort((a, b) => new Date(b.updatedAt || b.createdAt) - new Date(a.updatedAt || a.createdAt));
+                      });
+                    // ソートなし - savedItemsの順序を維持（手動並び替え対応）
 
                     if (filtered.length === 0) {
                       return (
@@ -2885,31 +2954,52 @@ ${content}
                     }
 
                     return (
-                      <div className="space-y-2">
-                        {filtered.map((item) => (
-                          <div
-                            key={item.id}
-                            className={`flex items-center gap-2 p-2 rounded-lg cursor-pointer transition ${
-                              selectedItems.has(item.id)
-                                ? 'bg-blue-900/50 border border-blue-500'
-                                : 'border border-transparent hover:opacity-80'
-                            }`}
-                            style={{ touchAction: 'pan-y', userSelect: 'none', WebkitUserSelect: 'none', WebkitTouchCallout: 'none', backgroundColor: selectedItems.has(item.id) ? undefined : 'var(--bg-secondary)' }}
-                            onContextMenu={(e) => e.preventDefault()}
-                            onTouchStart={(e) => handleLibraryTouchStart(e, item)}
-                            onTouchEnd={handleLibraryTouchEnd}
-                            onTouchMove={handleLibraryTouchMove}
-                            onClick={() => {
-                              if (!libraryLongPressTriggered.current) {
-                                handleLoad(item);
-                                setSidebarOpen(false);
-                              }
-                              libraryLongPressTriggered.current = false;
-                            }}
-                          >
-                            {/* チェックボックス - タップ領域をカード高さに合わせる */}
+                      <div
+                        className="space-y-2"
+                        onTouchMove={handleDragMove}
+                        onTouchEnd={() => handleDragEnd(filtered)}
+                      >
+                        {filtered.map((item, itemIndex) => (
+                          <React.Fragment key={item.id}>
+                            {/* ドラッグ挿入インジケーター */}
+                            {draggingItemId !== null && dragOverIndex === itemIndex && draggingItemId !== item.id && (
+                              <div className="h-1 bg-blue-500 rounded-full mx-2 transition-all" />
+                            )}
                             <div
-                              className="self-stretch flex items-center px-3 -ml-2 flex-shrink-0"
+                              data-library-item
+                              className={`flex items-center gap-1 p-2 rounded-lg cursor-pointer transition ${
+                                selectedItems.has(item.id)
+                                  ? 'bg-blue-900/50 border border-blue-500'
+                                  : 'border border-transparent hover:opacity-80'
+                              } ${draggingItemId === item.id ? 'opacity-50 scale-95' : ''}`}
+                              style={{ touchAction: draggingItemId ? 'none' : 'pan-y', userSelect: 'none', WebkitUserSelect: 'none', WebkitTouchCallout: 'none', backgroundColor: selectedItems.has(item.id) ? undefined : 'var(--bg-secondary)' }}
+                              onContextMenu={(e) => e.preventDefault()}
+                              onTouchStart={(e) => { if (draggingItemId === null) handleLibraryTouchStart(e, item); }}
+                              onTouchEnd={() => { if (draggingItemId === null) handleLibraryTouchEnd(); }}
+                              onTouchMove={(e) => { if (draggingItemId === null) handleLibraryTouchMove(e); }}
+                              onClick={() => {
+                                if (draggingItemId !== null) return;
+                                if (!libraryLongPressTriggered.current) {
+                                  handleLoad(item);
+                                  setSidebarOpen(false);
+                                }
+                                libraryLongPressTriggered.current = false;
+                              }}
+                            >
+                              {/* ドラッグハンドル */}
+                              <div
+                                className="self-stretch flex items-center px-1 flex-shrink-0 cursor-grab active:cursor-grabbing"
+                                style={{ color: 'var(--text-secondary)', touchAction: 'none' }}
+                                onTouchStart={(e) => handleDragStart(e, item, itemIndex, filtered)}
+                                onClick={(e) => e.stopPropagation()}
+                              >
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                                  <path strokeLinecap="round" strokeLinejoin="round" d="M4 8h16M4 16h16" />
+                                </svg>
+                              </div>
+                              {/* チェックボックス - タップ領域をカード高さに合わせる */}
+                            <div
+                              className="self-stretch flex items-center px-2 flex-shrink-0"
                               onClick={(e) => {
                                 e.stopPropagation();
                                 setSelectedItems(prev => {
@@ -2971,7 +3061,12 @@ ${content}
                               </svg>
                             </button>
                           </div>
+                          </React.Fragment>
                         ))}
+                        {/* 末尾へのドラッグ挿入インジケーター */}
+                        {draggingItemId !== null && dragOverIndex === filtered.length && (
+                          <div className="h-1 bg-blue-500 rounded-full mx-2 transition-all" />
+                        )}
                       </div>
                     );
                   })()}
