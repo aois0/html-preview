@@ -1,0 +1,19 @@
+---
+id: "p128-3.54"
+pid: "3.54"
+page_start: 128
+page_end: 128
+section_id: "ch03"
+section_title: "第3章 比較可能性分析"
+subsection: "A 比較可能性分析の実施"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p128-3.54.txt"
+---
+
+3.54 求められる水準での差異調整の透明性が確保できるか否かは、差異調整に関
+する説明の有無、調整が適切と考えられる理由、調整がどのように計算されたか、
+調整が各比較対象の結果をどのように変化させたか、及び調整が比較可能性をどの
+ように向上させたかによる。差異調整の文書化に関する論点については、第 5 章で
+取り上げる。
+A.7 独立企業間価格幅
+A.7.1 総論

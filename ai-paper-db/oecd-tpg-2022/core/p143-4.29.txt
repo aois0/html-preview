@@ -1,0 +1,16 @@
+---
+id: "p143-4.29"
+pid: "4.29"
+page_start: 143
+page_end: 143
+section_id: "ch04"
+section_title: "第4章 移転価格に関する紛争の回避及び解決のための税務執行上のアプロ－チ"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p143-4.29.txt"
+---
+
+4.29 相互協議手続は、これを通じて税務当局が租税条約の適用に係る紛争を解
+決するために協議を行う確立された手段である。この手続は、OECD モデル租税条
+約第 9条及び第 25条によって規定され権限付けられたものであり、移転価格調整によ
+って発生する二重課税を排除するために用いることができる。

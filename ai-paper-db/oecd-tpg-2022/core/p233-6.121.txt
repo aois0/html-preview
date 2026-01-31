@@ -1,0 +1,17 @@
+---
+id: "p233-6.121"
+pid: "6.121"
+page_start: 233
+page_end: 234
+section_id: "ch06"
+section_title: "第6章 無形資産に対する特別の配慮"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p233-6.121.txt"
+---
+
+6.121 多くの無形資産は耐用年数が限られている。前述のように、無形資産の耐用
+年数は、その無形資産に対する法的保護の性質及び期間の影響を受けることがある。
+また、無形資産の耐用年数が業界における技術変化の度合い及び新製品や改良品の
+開発によって影響を受けることもある。特定の無形資産においては、耐用年数の延
+長もあり得る。

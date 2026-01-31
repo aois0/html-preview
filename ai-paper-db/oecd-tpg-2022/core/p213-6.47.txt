@@ -1,0 +1,16 @@
+---
+id: "p213-6.47"
+pid: "6.47"
+page_start: 213
+page_end: 213
+section_id: "ch06"
+section_title: "第6章 無形資産に対する特別の配慮"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p213-6.47.txt"
+---
+
+6.47 上述のように、グループの特定のメンバーが無形資産の法的所有者であるとい
+う決定自体は、果たす機能、使用する資産及び引き受けるリスクといった形でのメ
+ンバーの貢献への対価支払い後に、法的所有者が事業から生じた収益を稼得する権
+利があることを必ずしも示唆するものではない。

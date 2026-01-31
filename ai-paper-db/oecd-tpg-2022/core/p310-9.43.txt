@@ -1,0 +1,16 @@
+---
+id: "p310-9.43"
+pid: "9.43"
+page_start: 310
+page_end: 310
+section_id: "ch09"
+section_title: "第9章 事業再編の移転価格に係る側面"
+subsection: "A.1 本章が対象とする事業再編"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p310-9.43.txt"
+---
+
+9.43 リスクの移転価格的側面に関する一般的指針は第 1 章 D.1.2.1 に記載されて
+おり、再編後にリスクを配分された当事者が、リスクをコントロールし、リスクを
+引き受ける財務能力を有しているか否かを決定するためには、その節に示された枠
+組みに基づいて、事業再編後のリスク再配分が分析されるべきである。

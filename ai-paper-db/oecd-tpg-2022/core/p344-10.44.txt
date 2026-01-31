@@ -1,0 +1,15 @@
+---
+id: "p344-10.44"
+pid: "10.44"
+page_start: 344
+page_end: 344
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p344-10.44.txt"
+---
+
+10.44. 財務活動に関する移転価格の論点を評価する際には、他の場合と同様に、い
+かなる程度であれ、「財務活動」のような一般的な描写によるのではなく、実際の
+取引を正確に描写し、事業体が果たす機能を正確に特定することが重要である。

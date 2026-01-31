@@ -1,0 +1,16 @@
+---
+id: "p090-2.106"
+pid: "2.106"
+page_start: 90
+page_end: 90
+section_id: "ch02"
+section_title: "第2章 移転価格算定手法"
+subsection: "A 事案の状況に応じた最適な移転価格算定手法の選択"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p090-2.106.txt"
+---
+
+2.106 「ベリー比」とは、営業費用に対する粗利益の比率として定義される。利子
+など副次的な利益は、一般に、粗利益の算定から除外される。有形資産及び無形資
+産の償却費は、評価及び比較可能性に関する不確実性の程度に応じて、営業費用に
+含まれる場合もあれば含まれない場合もある。

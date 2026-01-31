@@ -1,0 +1,16 @@
+---
+id: "p255-6.197"
+pid: "6.197"
+page_start: 255
+page_end: 255
+section_id: "ch06"
+section_title: "第6章 無形資産に対する特別の配慮"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p255-6.197.txt"
+---
+
+6.197 第 1章D.1及び第3章の一般規則は、商品の販売又は役務提供を行う関連者
+間取引における無形資産の使用が関わる取引の比較可能性分析の指針としても適用
+される。ただし、無形資産が存在する場合は、比較可能性に関する課題が生じる場
+合もあるだろう。

@@ -1,0 +1,14 @@
+---
+id: "p356-10.104"
+pid: "10.104"
+page_start: 356
+page_end: 356
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p356-10.104.txt"
+---
+
+10.104. 一部の業界では、経済的モデルに基づき、独立企業間金利の代用となる金
+利を構築することにより、グループ内融資の価格決を決定する。

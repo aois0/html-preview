@@ -1,0 +1,16 @@
+---
+id: "p094-2.122"
+pid: "2.122"
+page_start: 94
+page_end: 94
+section_id: "ch02"
+section_title: "第2章 移転価格算定手法"
+subsection: "A 事案の状況に応じた最適な移転価格算定手法の選択"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p094-2.122.txt"
+---
+
+2.122. 取引単位利益分割法の更なる長所は、関連者間取引の全ての関連当事者が、
+取引の価格算定の一環として直接評価されること、つまり、各当事者による取引へ
+の貢献が具体的に特定され、その相対的な価値が、取引に関連する各当事者に対す
+る独立企業間対価を算定するために測定されるということである。

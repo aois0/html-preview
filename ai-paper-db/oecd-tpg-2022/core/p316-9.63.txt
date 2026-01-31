@@ -1,0 +1,15 @@
+---
+id: "p316-9.63"
+pid: "9.63"
+page_start: 316
+page_end: 316
+section_id: "ch09"
+section_title: "第9章 事業再編の移転価格に係る側面"
+subsection: "A.1 本章が対象とする事業再編"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p316-9.63.txt"
+---
+
+9.63 また、再編によって譲渡された無形資産がパラグラフ 6.189 の評価困難な無
+形資産の基準に該当する場合、第 6章D.4の指針が適用される。
+E.2.3 現地の無形資産

@@ -1,0 +1,16 @@
+---
+id: "p152-4.59"
+pid: "4.59"
+page_start: 152
+page_end: 152
+section_id: "ch04"
+section_title: "第4章 移転価格に関する紛争の回避及び解決のための税務執行上のアプロ－チ"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p152-4.59.txt"
+---
+
+4.59 OECD モデル租税条約第 25 条において想定され、多くの二国間合意において
+採用された相互協議は、訴訟プロセスではない。納税者からの情報提供が役立つ場
+合がある一方で、相互協議は政府間プロセスであり、当該プロセスにおける納税者
+の参加はCAの裁量及び相互協議に委ねられることを思い出さなければならない。

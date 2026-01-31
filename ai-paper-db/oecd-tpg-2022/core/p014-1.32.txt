@@ -1,0 +1,18 @@
+---
+id: "p014-1.32"
+pid: "1.32"
+page_start: 14
+page_end: 14
+section_id: "ch01"
+section_title: "第1章 独立企業原則"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p014-1.32.txt"
+---
+
+1.32 これまで述べてきた理由から、OECD 加盟国は、加盟国及び非加盟国間にお
+いて長年に渡って形成された独立企業原則を採用することについての合意を支持す
+ることを再度表明し、また、全世界的定式配分に代表される、独立企業原則に対す
+る理論上の代替案が否定されるべきであるとすることに同意する｡
+D 独立企業原則の適用のための指針
+D.1 商業上又は財務上の関係の特定

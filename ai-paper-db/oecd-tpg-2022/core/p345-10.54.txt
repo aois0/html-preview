@@ -1,0 +1,17 @@
+---
+id: "p345-10.54"
+pid: "10.54"
+page_start: 345
+page_end: 345
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p345-10.54.txt"
+---
+
+10.54. 非関連の貸手は、貸手が関連するリスクの特定及び評価、並びにこれらのリ
+スクをモニターし管理する方法を検討するために、借手候補者の徹底的な信用評価
+を実施する。この信用評価には、事業そのものや融資の目的、その構造、借手のキ
+ャッシュ・フロー予測及び貸借対照表の健全性の分析を含む返済原資の理解などが
+含まれる。

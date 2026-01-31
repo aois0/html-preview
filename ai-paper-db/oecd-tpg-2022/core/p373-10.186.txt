@@ -1,0 +1,17 @@
+---
+id: "p373-10.186"
+pid: "10.186"
+page_start: 373
+page_end: 374
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p373-10.186.txt"
+---
+
+10.186. この状況においては、D 社は保証がない方が得をするのであるから、D 社
+と同一の条件のもとで借入をする独立企業は、M 社に対して明示的な保証の供与に
+ついて 3%の保証料を支払うとは期待できないことが、第 1章における分析によって
+示されるかもしれない。
+D.3.2. 事例2

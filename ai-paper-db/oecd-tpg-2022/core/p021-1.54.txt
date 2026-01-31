@@ -1,0 +1,15 @@
+---
+id: "p021-1.54"
+pid: "1.54"
+page_start: 21
+page_end: 21
+section_id: "ch01"
+section_title: "第1章 独立企業原則"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p021-1.54.txt"
+---
+
+1.54 機能分析においては、工場や設備、価値ある無形資産、金融資産など使用
+資産の種類や経過年数、市場価値、場所、権利保護など使用資産の特性を検討しな
+ければならない。

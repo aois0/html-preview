@@ -1,0 +1,16 @@
+---
+id: "p239-6.142"
+pid: "6.142"
+page_start: 239
+page_end: 239
+section_id: "ch06"
+section_title: "第6章 無形資産に対する特別の配慮"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p239-6.142.txt"
+---
+
+6.142 無形資産の開発費用に基づいて無形資産価値の推定を行う移転価格算定手法
+を使用することは、一般的に推奨されない。無形資産開発費用と、開発後の無形資
+産の価値や移転価格の間に関連性はほとんどないからである。従って、無形資産開
+発費用に基づく移転価格算定手法は、一般的に避けるべきである。

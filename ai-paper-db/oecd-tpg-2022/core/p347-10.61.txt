@@ -1,0 +1,16 @@
+---
+id: "p347-10.61"
+pid: "10.61"
+page_start: 347
+page_end: 347
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p347-10.61.txt"
+---
+
+10.61. 融資の経済的条件は、当事者の地位に影響を与えうる規制との関連でも判断
+する必要がある。例えば、借手の所在国の破産法が関連者に対する負債は、非関連
+者への負債に劣後すると規定している場合がある。
+C.1.1.2. 信用格付けの利用

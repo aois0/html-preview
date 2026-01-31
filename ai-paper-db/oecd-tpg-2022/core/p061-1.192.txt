@@ -1,0 +1,17 @@
+---
+id: "p061-1.192"
+pid: "1.192"
+page_start: 61
+page_end: 61
+section_id: "ch01"
+section_title: "第1章 独立企業原則"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p061-1.192.txt"
+---
+
+1.192 その後、業務集約センターの購買担当者は製品を発注し、サプライヤーに
+対して、B国の製造子会社に 5,000個の製品代金として計 50,000USDを、C国の製造
+子会社に 5,000 個の製品代金として計 45,000USD を請求するよう依頼した。サプラ
+イヤーは、販売した合計 10,000 個の代金として合意どおり 95,000USD が支払われる
+ため、この依頼に従った。

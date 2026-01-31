@@ -1,0 +1,15 @@
+---
+id: "p103-2.153"
+pid: "2.153"
+page_start: 103
+page_end: 103
+section_id: "ch02"
+section_title: "第2章 移転価格算定手法"
+subsection: "A 事案の状況に応じた最適な移転価格算定手法の選択"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p103-2.153.txt"
+---
+
+2.153. 第 2 章別添 II 事例 11 は、取引単位利益分割法の下での残余分析の適用につ
+いて説明している。
+C.4. 適用に関する指針- 分割対象利益の算定

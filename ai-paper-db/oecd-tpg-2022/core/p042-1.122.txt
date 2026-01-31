@@ -1,0 +1,15 @@
+---
+id: "p042-1.122"
+pid: "1.122"
+page_start: 42
+page_end: 42
+section_id: "ch01"
+section_title: "第1章 独立企業原則"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p042-1.122.txt"
+---
+
+1.122. リスク調整後利益率は、例えば、比較可能な経済的特徴を持つ現実的で代替
+可能な投資の利益、あるいは、資金のコストに基づくなど、異なったアプローチに
+よって決定され得る（セクション C.1.2参照）。

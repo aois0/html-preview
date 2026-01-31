@@ -1,0 +1,17 @@
+---
+id: "p206-6.25"
+pid: "6.25"
+page_start: 206
+page_end: 206
+section_id: "ch06"
+section_title: "第6章 無形資産に対する特別の配慮"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p206-6.25.txt"
+---
+
+6.25 契約上の権利は、特定の事業には重要なこともあり、事業関係を幅広く対象に
+する可能性がある。これには、とりわけ、売主や主要な顧客との契約及び従業員に
+よる役務を利用可能にする契約等を含む。契約上の権利は、本章 A.1 の無形資産に
+該当する。
+A.4.5. 無形資産に関するライセンス及び類似の限定的な権利

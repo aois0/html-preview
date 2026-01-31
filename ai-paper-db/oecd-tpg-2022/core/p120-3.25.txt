@@ -1,0 +1,16 @@
+---
+id: "p120-3.25"
+pid: "3.25"
+page_start: 120
+page_end: 120
+section_id: "ch03"
+section_title: "第3章 比較可能性分析"
+subsection: "A 比較可能性分析の実施"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p120-3.25.txt"
+---
+
+3.25 納税者の関連者間取引を同一の又は他の多国籍企業グループが行った他の関
+連者間取引と比較することは、独立企業原則の適用としては不適切で、したがって、
+税務当局による移転価格調整の根拠や、納税者による移転価格ポリシーの根拠として
+利用されるべきではない。

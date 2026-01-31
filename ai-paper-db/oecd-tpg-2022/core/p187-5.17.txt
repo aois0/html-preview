@@ -1,0 +1,18 @@
+---
+id: "p187-5.17"
+pid: "5.17"
+page_start: 187
+page_end: 188
+section_id: "ch05"
+section_title: "第5章 移転価格文書化"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p187-5.17.txt"
+---
+
+5.17 この移転価格文書に係る取組は、税務当局が効率的で確実に移転価格リスク
+評価分析を行うための関連性・信頼性のある情報を提供するとともに、税務調査上
+必要な情報を記載するプラットフォームを提供する。また、納税者に、重要な取引
+に係る独立企業原則の遵守を有益に検討し説明するための方法やインセンティブを
+提供する。
+C.1 マスターファイル

@@ -1,0 +1,16 @@
+---
+id: "p312-9.48"
+pid: "9.48"
+page_start: 312
+page_end: 312
+section_id: "ch09"
+section_title: "第9章 事業再編の移転価格に係る側面"
+subsection: "A.1 本章が対象とする事業再編"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p312-9.48.txt"
+---
+
+9.48 以下の E.1から E.3では、事業再編によって一般的に生じうる、有形資産、無
+形資産とその権利、事業（継続事業）といった、いくつかの典型的な譲渡に係る議
+論を扱う。
+E.1 有形資産

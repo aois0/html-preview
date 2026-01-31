@@ -1,0 +1,15 @@
+---
+id: "p018-1.45"
+pid: "1.45"
+page_start: 18
+page_end: 18
+section_id: "ch01"
+section_title: "第1章 独立企業原則"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p018-1.45.txt"
+---
+
+1.45 取引における経済的な特徴が、関連者間の書面による契約と一致しない場
+合、移転価格分析のためには、一般的に、実際の取引は当事者の行動を反映させた
+取引に従って、描写されなければならない。

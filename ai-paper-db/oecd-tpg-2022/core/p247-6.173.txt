@@ -1,0 +1,15 @@
+---
+id: "p247-6.173"
+pid: "6.173"
+page_start: 247
+page_end: 247
+section_id: "ch06"
+section_title: "第6章 無形資産に対する特別の配慮"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p247-6.173.txt"
+---
+
+6.173 リスクは財務予測の算出又は割引率の算定のいずれにも考慮され得ることか
+ら、リスクを二重に割り引かないようにすることにも留意すべきである。
+D.2.6.4.4 無形資産の耐用年数及び最終価値

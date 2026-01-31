@@ -1,0 +1,15 @@
+---
+id: "p341-10.28"
+pid: "10.28"
+page_start: 341
+page_end: 341
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p341-10.28.txt"
+---
+
+10.28. 公開市場には、多種の金融商品が存在しており、その非常に多様な特徴は、
+これらの製品又はサービスの価格設定に影響を与える場合がある。このため、関連
+者間取引の価格設定にあたっては、取引の特徴を文書化することが重要である。

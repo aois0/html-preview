@@ -1,0 +1,16 @@
+---
+id: "p369-10.166"
+pid: "10.166"
+page_start: 369
+page_end: 369
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p369-10.166.txt"
+---
+
+10.166. 正確な描写のもとで金融保証に関して調査する際には、借手が債務不履行
+に陥った場合に保証債務を履行するだけの財務能力が保証人にあるか、という点に
+ついても検討する必要がある。このためには、保証人及び借手の信用格付け並びに
+両者の事業上の相関関係を評価する必要がある。

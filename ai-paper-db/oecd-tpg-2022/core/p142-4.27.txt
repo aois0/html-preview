@@ -1,0 +1,17 @@
+---
+id: "p142-4.27"
+pid: "4.27"
+page_start: 142
+page_end: 142
+section_id: "ch04"
+section_title: "第4章 移転価格に関する紛争の回避及び解決のための税務執行上のアプロ－チ"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p142-4.27.txt"
+---
+
+4.27 一般に、OECD 加盟諸国は罰則制度の公平さは、その罰則が違反の程度に
+比例しているかどうかを考慮して検討されるべきであると考えている。このことは、
+例えば、ある罰則の厳しさは、それが課されることとなる条件に比例することとな
+り、かつ、その罰則が過酷であればあるほど、それを適用するための条件がより制
+限されることとなることを意味する。

@@ -1,0 +1,18 @@
+---
+id: "p079-2.63"
+pid: "2.63"
+page_start: 79
+page_end: 79
+section_id: "ch02"
+section_title: "第2章 移転価格算定手法"
+subsection: "A 事案の状況に応じた最適な移転価格算定手法の選択"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p079-2.63.txt"
+---
+
+2.63 取引単位利益法は、関連者間取引から生ずる利益を検討するものである。本
+ガイドラインにおいて、取引単位利益法とは、取引単位利益分割法及び取引単位営
+業利益法を指す。関連者間取引の利益は、独立企業が比較可能な状況において設け
+たであろう条件から影響を受けたか否かの適切な指標となりうる。
+B 取引単位営業利益法（TNMM）
+B.1 総論

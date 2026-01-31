@@ -1,0 +1,16 @@
+---
+id: "p134-3.83"
+pid: "3.83"
+page_start: 134
+page_end: 135
+section_id: "ch03"
+section_title: "第3章 比較可能性分析"
+subsection: "A 比較可能性分析の実施"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p134-3.83.txt"
+---
+
+3.83 中小規模の企業も、移転価格の分野に入ってきており、国境を越える取引の
+数は増加し続けている。独立企業原則は、中小規模の企業及び取引にも等しく適用
+されるが、移転価格算定に関する個々の事案への合理的な対応を見出すためには、
+実務的な解決策が適切であるかもしれない。

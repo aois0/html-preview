@@ -1,0 +1,16 @@
+---
+id: "p174-4.142"
+pid: "4.142"
+page_start: 174
+page_end: 174
+section_id: "ch04"
+section_title: "第4章 移転価格に関する紛争の回避及び解決のための税務執行上のアプロ－チ"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p174-4.142.txt"
+---
+
+4.142 税務当局は、特に、グローバルな証券取引やコモディティ取引の分野ので生
+ずる所得配分及び帰属所得の問題、さらに、多国間の費用分担取決めに APAが有用
+であることを認識するであろう。APA の概念はまた、OECD モデル租税条約第 7 条
+の利得配分の問題、恒久的施設及び支店の問題を解決するのに有用である。

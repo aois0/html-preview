@@ -1,0 +1,17 @@
+---
+id: "p162-4.93"
+pid: "4.93"
+page_start: 162
+page_end: 162
+section_id: "ch04"
+section_title: "第4章 移転価格に関する紛争の回避及び解決のための税務執行上のアプロ－チ"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p162-4.93.txt"
+---
+
+4.93 OECD 加盟国間の同時調査の活用の増加に伴い、OECD 租税委員会は、実施
+を希望する国に対して、同時調査実施のための OECD モデル取決めの草案を作成す
+ることが有益であると決定した。1992年 7月 23日、OECD閣僚理事会は、加盟国に
+対して、この形態による協力の法律上及び実施上の指針となるこのモデル取決めを
+活用するよう勧告した。

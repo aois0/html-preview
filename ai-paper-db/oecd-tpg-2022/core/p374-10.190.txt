@@ -1,0 +1,15 @@
+---
+id: "p374-10.190"
+pid: "10.190"
+page_start: 374
+page_end: 374
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p374-10.190.txt"
+---
+
+10.190. このガイダンスにおいては、キャプティブ保険という用語は、その保険ビ
+ジネスの実質的に全てが、それが所属する多国籍企業グループの企業のリスクに対
+して保険を提供するためのものである保険事業体又は保険企業を意味する。

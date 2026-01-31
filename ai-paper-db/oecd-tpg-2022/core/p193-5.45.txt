@@ -1,0 +1,18 @@
+---
+id: "p193-5.45"
+pid: "5.45"
+page_start: 193
+page_end: 194
+section_id: "ch05"
+section_title: "第5章 移転価格文書化"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p193-5.45.txt"
+---
+
+5.45 税の透明性及び税務目的の情報交換に関するグローバル・フォーラムによっ
+て作成された「The Confidentiality and Information Security Management Toolkit」
+（2020年）は、納税者情報の守秘に関する各国・地域における法的枠組みを確かな
+ものとするため、国・地域に指針を提供し、情報交換の合意に基づいて交換された
+情報の守秘と適切な使用を保護する。
+D.9 その他

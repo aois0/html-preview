@@ -1,0 +1,17 @@
+---
+id: "p192-5.36"
+pid: "5.36"
+page_start: 192
+page_end: 192
+section_id: "ch05"
+section_title: "第5章 移転価格文書化"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p192-5.36.txt"
+---
+
+5.36 税務当局の最終的な目的は税務当局が調査中に要請した文書が遅滞なく提出
+されれば達せられるため、各国の制度又は実務で定める様式で税務当局に遅滞なく
+提出できるのであれば、文書の保存方法（紙、電子形式、他のシステムのいずれか
+を問わず）については、納税者の裁量に任されるべきである。
+D.5 文書の更新頻度

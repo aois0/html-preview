@@ -1,0 +1,19 @@
+---
+id: "p374-10.188"
+pid: "10.188"
+page_start: 374
+page_end: 374
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p374-10.188.txt"
+---
+
+10.188. 実際の取引の正確な描写によれば、D社の信用状態の Aから AAAへの上昇
+は、計画的に協調したグループの活動、すなわち、M 社によって提供された保証の
+結果であることが示されている。D 社は、保証がない場合よりも得をするのである
+から、明示的な保証の供与に対して、M 社に独立企業間の保証料の支払いを希望す
+るものと期待できる。
+E キャプティブ保険
+E.1. キャプティブ保険及び再保険の定義と理論的根拠

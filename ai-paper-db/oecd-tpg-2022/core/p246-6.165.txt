@@ -1,0 +1,15 @@
+---
+id: "p246-6.165"
+pid: "6.165"
+page_start: 246
+page_end: 246
+section_id: "ch06"
+section_title: "第6章 無形資産に対する特別の配慮"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p246-6.165.txt"
+---
+
+6.165 予測の対象とする期間も、予測の信頼性を評価する際に考慮すべきである。
+当該無形資産につきプラスのキャッシュ・フローが見込まれる期間が長くなるほど、
+所得及び費用の予測の信頼性は低くなると見込まれる。

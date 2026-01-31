@@ -1,0 +1,16 @@
+---
+id: "p137-4.10"
+pid: "4.10"
+page_start: 137
+page_end: 138
+section_id: "ch04"
+section_title: "第4章 移転価格に関する紛争の回避及び解決のための税務執行上のアプロ－チ"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p137-4.10.txt"
+---
+
+4.10 税務当局は、その調査資源を割り振る際に、納税者の価格設定過程、例えば
+その多国籍企業グループはプロフィットセンターをベースに運営されているかどう
+か等に、留意すべきである。パラグラフ1パラ.5参照のこと。
+B.2 挙証責任

@@ -1,0 +1,16 @@
+---
+id: "p374-10.187"
+pid: "10.187"
+page_start: 374
+page_end: 374
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p374-10.187.txt"
+---
+
+10.187. 事例 1 において述べたのと同一の事実関係の事例について検討するが、こ
+の案件においては、D.2 節のガイダンスに基づいて、比較可能な非関連者間取引を特
+定することができ、比較可能な保証の独立企業間価格が 1%から 1.5%の範囲にある
+ことが示されているものと仮定する。

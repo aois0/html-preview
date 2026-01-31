@@ -1,0 +1,16 @@
+---
+id: "p231-6.112"
+pid: "6.112"
+page_start: 231
+page_end: 231
+section_id: "ch06"
+section_title: "第6章 無形資産に対する特別の配慮"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p231-6.112.txt"
+---
+
+6.112 当事者にとって現実に利用可能な選択肢の考慮にあたっては、取引の当事者
+それぞれの観点が考慮されなければならない。取引の片側にのみ焦点を当てる比較
+可能性分析は、一般的に無形資産が関わる取引の評価のための十分な基礎とはなら
+ない（片側検証の移転価格算定手法が最終的に選定される状況を含む）。

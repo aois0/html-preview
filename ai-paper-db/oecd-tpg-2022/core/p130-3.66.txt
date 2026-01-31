@@ -1,0 +1,15 @@
+---
+id: "p130-3.66"
+pid: "3.66"
+page_start: 130
+page_end: 130
+section_id: "ch03"
+section_title: "第3章 比較可能性分析"
+subsection: "A 比較可能性分析の実施"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p130-3.66.txt"
+---
+
+3.66 他の比較対象候補と比較して異常に多額の利益を生じている比較対象候補に
+ついても、同様の検討を行うべきである。
+B 比較可能性検討におけるタイミングの問題

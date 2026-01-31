@@ -1,0 +1,14 @@
+---
+id: "p129-3.60"
+pid: "3.60"
+page_start: 129
+page_end: 129
+section_id: "ch03"
+section_title: "第3章 比較可能性分析"
+subsection: "A 比較可能性分析の実施"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p129-3.60.txt"
+---
+
+3.60 関連者間取引における関連条件（例えば、価格や利益）が独立企業間価格幅
+に入っている場合、調整は行われるべきでない。

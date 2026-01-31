@@ -1,0 +1,17 @@
+---
+id: "p048-1.147"
+pid: "1.147"
+page_start: 48
+page_end: 49
+section_id: "ch01"
+section_title: "第1章 独立企業原則"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p048-1.147.txt"
+---
+
+1.147 本節の指針においては、当該取引は認められるべきではない。S1 社は保険
+をかけないものとして扱われ、S2 社への支払いによる所得減算はない。S2 社は保険
+を引き受けていないものとして扱われ、したがって、保険金請求に対する責任はな
+い。
+事例2

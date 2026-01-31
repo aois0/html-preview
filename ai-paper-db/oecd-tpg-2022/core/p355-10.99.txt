@@ -1,0 +1,16 @@
+---
+id: "p355-10.99"
+pid: "10.99"
+page_start: 355
+page_end: 355
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p355-10.99.txt"
+---
+
+10.99. 資金コスト・アプローチの適用には、借手にとって現実的に利用可能な選択
+肢の考慮が必要となる。支配的な事実と状況に基づけば、借手である多国籍企業は、
+代替的な取引を行うことによってより有利な条件で資金を調達できる場合、資金コ
+スト・アプローチに基づいて価格設定された取引は行わない。

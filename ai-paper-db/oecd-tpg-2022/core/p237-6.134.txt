@@ -1,0 +1,15 @@
+---
+id: "p237-6.134"
+pid: "6.134"
+page_start: 237
+page_end: 237
+section_id: "ch06"
+section_title: "第6章 無形資産に対する特別の配慮"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p237-6.134.txt"
+---
+
+6.134 パラグラフ 2.12、3.58 及び 3.59 で説明した、複数の移転価格算定手法の使
+用に関する原則は、無形資産又は無形資産に係る権利の移転が関わる事項に適用さ
+れる。

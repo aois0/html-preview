@@ -1,0 +1,15 @@
+---
+id: "p277-7.58"
+pid: "7.58"
+page_start: 277
+page_end: 277
+section_id: "ch07"
+section_title: "第7章 企業グループ内役務提供に対する特別の配慮"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p277-7.58.txt"
+---
+
+7.58 計算のこの段階で、多国籍企業グループは、グループ内の複数メンバーに提供
+された低付加価値役務提供のカテゴリーに含まれるコストプールを確認した。
+D.2.3 低付加価値役務提供費用の配分

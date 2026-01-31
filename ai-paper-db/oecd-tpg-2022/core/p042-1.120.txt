@@ -1,0 +1,15 @@
+---
+id: "p042-1.120"
+pid: "1.120"
+page_start: 42
+page_end: 42
+section_id: "ch01"
+section_title: "第1章 独立企業原則"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p042-1.120.txt"
+---
+
+1.120. 一般的に、資金提供取引における期待されるリスク調整後利益率には、二つ
+の構成要素、すなわち、リスク・フリー・レート及び資金提供者によって引き受け
+られたリスクを反映したプレミアムがあると考え得る。

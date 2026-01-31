@@ -1,0 +1,16 @@
+---
+id: "p178-4.160"
+pid: "4.160"
+page_start: 178
+page_end: 178
+section_id: "ch04"
+section_title: "第4章 移転価格に関する紛争の回避及び解決のための税務執行上のアプロ－チ"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p178-4.160.txt"
+---
+
+4.160 前述したように、重要な前提条件を適切に付すことなく、変化する市場の状
+況を不適切に見積もっていた場合、また別の問題が発生する。二重課税のリスクを
+回避するため、APAには柔軟性が求められる。なぜなら、柔軟性に欠ける APAは、
+独立企業間の条件を十分に反映できないからである。

@@ -1,0 +1,15 @@
+---
+id: "p320-9.77"
+pid: "9.77"
+page_start: 320
+page_end: 320
+section_id: "ch09"
+section_title: "第9章 事業再編の移転価格に係る側面"
+subsection: "A.1 本章が対象とする事業再編"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p320-9.77.txt"
+---
+
+9.77 既存の取決めの終了または再交渉に何らかの価値の譲渡が伴う（例えば、販
+売契約の終了は、時として無形資産の譲渡を伴う）場合、価値の譲渡には前節の指
+針が適用され、損害に対する補償について本節で詳細に検討する。

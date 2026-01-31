@@ -1,0 +1,15 @@
+---
+id: "p137-4.6"
+pid: "4.6"
+page_start: 137
+page_end: 137
+section_id: "ch04"
+section_title: "第4章 移転価格に関する紛争の回避及び解決のための税務執行上のアプロ－チ"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p137-4.6.txt"
+---
+
+4.6 調査の方法は OECD 加盟国間で千差万別である。手続上の差異は、制度や税
+務行政の構造、地理的な広さやその国の人口、国内経済及び国際貿易の水準、及び、
+文化的及び歴史的な影響等の要因によって更に広がる。

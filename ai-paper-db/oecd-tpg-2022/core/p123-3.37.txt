@@ -1,0 +1,15 @@
+---
+id: "p123-3.37"
+pid: "3.37"
+page_start: 123
+page_end: 123
+section_id: "ch03"
+section_title: "第3章 比較可能性分析"
+subsection: "A 比較可能性分析の実施"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p123-3.37.txt"
+---
+
+3.37 移転価格算定手法を取引単位で適用すること及び納税者の関連者間取引を一
+括して扱う際の問題については、パラグラフ 3.9-3.12 のとおりである。また、取引単
+位ではない第三者データによって、納税者の一の関連者間取引（又はパラグラフ 3.9-

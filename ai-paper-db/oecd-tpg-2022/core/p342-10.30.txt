@@ -1,0 +1,15 @@
+---
+id: "p342-10.30"
+pid: "10.30"
+page_start: 342
+page_end: 342
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p342-10.30.txt"
+---
+
+10.30. 比較可能性を得るためには、独立企業及び関連企業が事業を行う市場に、価
+格に重大な影響を与える、又は適切な調整が行えない差異が存在しないことが必要
+である。

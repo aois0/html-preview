@@ -1,0 +1,15 @@
+---
+id: "p340-10.23"
+pid: "10.23"
+page_start: 340
+page_end: 340
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p340-10.23.txt"
+---
+
+10.23. 実際の金融取引を正確に描写する際には機能分析が必要となる。この分析
+は、関係者間取引に対して、当事者が果たす機能、使用する資産及び引き受けるリ
+スクの特定を目的としている。

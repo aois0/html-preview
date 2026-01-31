@@ -1,0 +1,16 @@
+---
+id: "p331-9.117"
+pid: "9.117"
+page_start: 331
+page_end: 331
+section_id: "ch09"
+section_title: "第9章 事業再編の移転価格に係る側面"
+subsection: "A.1 本章が対象とする事業再編"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p331-9.117.txt"
+---
+
+9.117 関連する問題として、関連者間取引に係る事業再編前後の収益を比較する意
+義がある。特に、再編対象のメンバーの再編前収益を参考に、特定の機能、資産、
+リスクの移転や放棄を反映するよう調整を加えて、その再編後の収益を決定するの
+が適切であるかということが問題となりうる4。

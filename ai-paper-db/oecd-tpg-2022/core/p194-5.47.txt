@@ -1,0 +1,16 @@
+---
+id: "p194-5.47"
+pid: "5.47"
+page_start: 194
+page_end: 194
+section_id: "ch05"
+section_title: "第5章 移転価格文書化"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p194-5.47.txt"
+---
+
+5.47 特に移転価格リスク評価の段階で、外部監査人又は他の第三者による移転価
+格文書化の監査証明を求めることは推奨されない。同様に、移転価格文書作成に当
+たって、コンサルタント会社の利用を義務付けることは推奨されない。
+E 実施

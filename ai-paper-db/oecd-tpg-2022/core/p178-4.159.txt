@@ -1,0 +1,17 @@
+---
+id: "p178-4.159"
+pid: "4.159"
+page_start: 178
+page_end: 178
+section_id: "ch04"
+section_title: "第4章 移転価格に関する紛争の回避及び解決のための税務執行上のアプロ－チ"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p178-4.159.txt"
+---
+
+4.159 ユニラテラル APA に係る別の問題は、対応的調整の問題である。APA に柔
+軟性があることにより、納税者及び関連者は取引価格を APA で承認された価格の
+幅に収めることが可能となる。ユニラテラル APA の場合、取引相手国の CA が、当
+該 APA は独立企業の原則に沿わないため、対応的調整を行わない可能性があるので、
+当該APAにおいては独立企業原則を確保する柔軟性を持つことが重要である。

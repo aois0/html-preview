@@ -1,0 +1,19 @@
+---
+id: "p252-6.189"
+pid: "6.189"
+page_start: 252
+page_end: 252
+section_id: "ch06"
+section_title: "第6章 無形資産に対する特別の配慮"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p252-6.189.txt"
+---
+
+6.189 評価困難な無形資産（HTVI）は、関連者間での取引時点における次の無形
+資産を対象とする。
+（i） 信頼できる比較対象取引が存在しない、かつ、
+（ii） 取引開始時点において、移転された無形資産から生じる将来のキャッシュ・
+フロー若しくは収益についての予測、又は無形資産の評価で使用した前提が
+非常に不確かで、移転時点で当該無形資産の最終的な成功の水準に係る予測
+が難しいもの。

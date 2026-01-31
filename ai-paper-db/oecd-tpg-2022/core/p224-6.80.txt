@@ -1,0 +1,18 @@
+---
+id: "p224-6.80"
+pid: "6.80"
+page_start: 224
+page_end: 224
+section_id: "ch06"
+section_title: "第6章 無形資産に対する特別の配慮"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p224-6.80.txt"
+---
+
+6.80 本節の原則は、多国籍企業グループのメンバーが、加工改良や製品改良の法
+的所有者と称する関連者に代わって、このようなプロセス改良又は製品改良につな
+がるような製造に係る役務提供をする場合にも適用される。第 6 章別添 I の事例 14
+から事例 17にて、研究開発の取決めを背景とした Bの適用について、より詳細に説
+明する。
+B.4.3 企業名の使用に対する支払い

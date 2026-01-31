@@ -1,0 +1,17 @@
+---
+id: "p130-3.67"
+pid: "3.67"
+page_start: 130
+page_end: 131
+section_id: "ch03"
+section_title: "第3章 比較可能性分析"
+subsection: "A 比較可能性分析の実施"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p130-3.67.txt"
+---
+
+3.67 比較可能性分析に用いられた比較可能性の要素及び比較可能な非関連者間取
+引に関する情報の発生、収集及び作成の時点に関して、比較可能性の検討の観点か
+ら、タイミングの問題がある。移転価格文書化の観点からのタイミングに係る論点
+については、第5章パラグラフ 5.27及び5.36参照。
+B.1 発生のタイミング

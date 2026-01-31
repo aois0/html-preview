@@ -1,0 +1,16 @@
+---
+id: "p294-8.43"
+pid: "8.43"
+page_start: 294
+page_end: 294
+section_id: "ch08"
+section_title: "第8章 費用分担契約"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p294-8.43.txt"
+---
+
+8.43 調整的支払は全て、支払者の貢献の追加及び受領者の貢献の縮小として取り扱
+われるべきである。調整的支払の特徴と税務上の取り扱いは、一般的に、貢献と同
+様に、国内法や租税条約に従って決定されるだろう。
+D CCAへの参加、脱退又は終了

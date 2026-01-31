@@ -1,0 +1,17 @@
+---
+id: "p294-8.46"
+pid: "8.46"
+page_start: 294
+page_end: 294
+section_id: "ch08"
+section_title: "第8章 費用分担契約"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p294-8.46.txt"
+---
+
+8.46 参加者が CCA から脱退する際にも同様の問題が発生し得る。特に、CCA を脱
+退する参加者は、過去の CCA 活動（進行中のものも含む）の結果に対する持分があ
+れば、それを他の参加者に譲渡することになる。このような譲渡には、独立企業原
+則に則った対価が支払われるべきである。本章では、この対価を「バイ・アウト支
+払」と呼ぶ。

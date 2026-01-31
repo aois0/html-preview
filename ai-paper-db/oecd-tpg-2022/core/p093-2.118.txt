@@ -1,0 +1,17 @@
+---
+id: "p093-2.118"
+pid: "2.118"
+page_start: 93
+page_end: 94
+section_id: "ch02"
+section_title: "第2章 移転価格算定手法"
+subsection: "A 事案の状況に応じた最適な移転価格算定手法の選択"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p093-2.118.txt"
+---
+
+2.118. これらの指針においては、各事案について全ての手法の網羅的な分析又は検
+証を行うことは求められていないが、最も適切な手法の選択にあたっては、選択さ
+れた手法について、使用できる可能性があるその他の手法と比較した相対的な適切
+性及び信頼性を考慮すべきである。
+C.2.1. 取引単位利益分割法の長所と短所

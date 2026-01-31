@@ -1,0 +1,15 @@
+---
+id: "p255-6.195"
+pid: "6.195"
+page_start: 255
+page_end: 255
+section_id: "ch06"
+section_title: "第6章 無形資産に対する特別の配慮"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p255-6.195.txt"
+---
+
+6.195 HTVI に対する措置の適用から生じる二重課税事案は、適切な条約に基づ
+く相互協議へのアクセスを通して、解決されることが重要であろう。
+D.5 商品の販売又は役務提供に関連して無形資産が使用される取引に関する補足指針

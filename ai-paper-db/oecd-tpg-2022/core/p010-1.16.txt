@@ -1,0 +1,15 @@
+---
+id: "p010-1.16"
+pid: "1.16"
+page_start: 10
+page_end: 10
+section_id: "ch01"
+section_title: "第1章 独立企業原則"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p010-1.16.txt"
+---
+
+1.16 各国の課税管轄の枠を超えて利益の適正水準を算定する手段として、独立企
+業原則に代わり、全世界的定式配分が提案されたことがある。この方式の適用は、
+地方管轄において試みられたことがあるものの、国家間で適用された例はない。

@@ -1,0 +1,16 @@
+---
+id: "p280-7.65"
+pid: "7.65"
+page_start: 280
+page_end: 280
+section_id: "ch07"
+section_title: "第7章 企業グループ内役務提供に対する特別の配慮"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p280-7.65.txt"
+---
+
+7.65 低付加価値企業グループ内役務提供の対価に源泉所得税が課されることで、役
+務提供者が役務提供に要した費用の総額を回収することが妨げられる恐れがある。
+利益部分又はマークアップが役務の対価に含まれる場合、税務当局は、利益部分又
+はマークアップの金額に対してのみ、源泉所得税を課すことが奨励される。

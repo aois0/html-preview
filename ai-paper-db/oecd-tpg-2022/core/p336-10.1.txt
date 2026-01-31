@@ -1,0 +1,14 @@
+---
+id: "p336-10.1"
+pid: "10.1"
+page_start: 336
+page_end: 336
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p336-10.1.txt"
+---
+
+10.1. 本章の目的は、関連企業間における特定の金融取引の条件が独立企業原則と
+整合的か否かの決定に関するガイダンスを提供することにある。

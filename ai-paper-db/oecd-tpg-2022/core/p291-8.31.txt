@@ -1,0 +1,16 @@
+---
+id: "p291-8.31"
+pid: "8.31"
+page_start: 291
+page_end: 291
+section_id: "ch08"
+section_title: "第8章 費用分担契約"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p291-8.31.txt"
+---
+
+8.31 開発 CCA において、CCA、その活動及びリスクに対するコントロール及び管
+理という形での貢献は、パラグラフ 6.56 で説明したとおり、無形資産又は有形資産
+の開発、生産及び取得に関連する重要な機能であろうし、第 6 章に規定された原則
+に従って評価されるべきである。

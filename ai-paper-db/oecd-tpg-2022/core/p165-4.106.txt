@@ -1,0 +1,16 @@
+---
+id: "p165-4.106"
+pid: "4.106"
+page_start: 165
+page_end: 165
+section_id: "ch04"
+section_title: "第4章 移転価格に関する紛争の回避及び解決のための税務執行上のアプロ－チ"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p165-4.106.txt"
+---
+
+4.106 独立企業原則の適用は、入手及び/又は評価が困難又はコストが嵩むデータの
+収集及び分析を必要とすることがある。場合により、こうしたコンプライアンス負
+担は納税者の規模、果たす機能、及びその関連者間取引に付随する移転価格上のリ
+スクに不釣り合いなものとなる。

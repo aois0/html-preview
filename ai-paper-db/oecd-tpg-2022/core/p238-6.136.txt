@@ -1,0 +1,15 @@
+---
+id: "p238-6.136"
+pid: "6.136"
+page_start: 238
+page_end: 238
+section_id: "ch06"
+section_title: "第6章 無形資産に対する特別の配慮"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p238-6.136.txt"
+---
+
+6.136 事実によっては、複数の無形資産の移転が関わる関連者間取引の場合でも、
+第 2 章で述べた 5 つの OECD 移転価格算定手法のいずれもが、最適な移転価格算定
+手法となり得る。他の代替的な方法の使用も適切となり得る。

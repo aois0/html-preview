@@ -1,0 +1,18 @@
+---
+id: "p225-6.87"
+pid: "6.87"
+page_start: 225
+page_end: 225
+section_id: "ch06"
+section_title: "第6章 無形資産に対する特別の配慮"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p225-6.87.txt"
+---
+
+6.87 移転価格算定上、無形資産の特定及び検討の対象となる無形資産が関連する
+取引には、一般的に二つの種類がある。これらは、（i）無形資産又は無形資産に係
+る権利の移転に関する取引、及び（ii）商品の販売又は役務提供に関連して無形資産
+の使用が関わる取引である。
+C.1 無形資産又は無形資産に係る権利の移転に関する取引
+C.1.1 無形資産又は無形資産に係る権利の移転

@@ -1,0 +1,16 @@
+---
+id: "p370-10.170"
+pid: "10.170"
+page_start: 370
+page_end: 370
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p370-10.170.txt"
+---
+
+10.170. CUP 法は、独立した保証人が他の借手に対する比較可能な借入に関して保
+証を提供していたり、又は、同じ借手が、独立した保証を受けている他の比較可能
+な借入を持っている場合のように、外部比較対象又は内部比較対象が存在する場合
+に利用できる。

@@ -1,0 +1,16 @@
+---
+id: "p348-10.68"
+pid: "10.68"
+page_start: 348
+page_end: 348
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p348-10.68.txt"
+---
+
+10.68. 多国籍企業グループがグループ内融資及びその他の関連者間金融取引の価格
+設定を行う際、特定の多国籍企業に対して使用される信用格付けの理由及び選定に
+ついて、適切に文書化することが重要である。
+C.1.1.2.2. 特定の債券発行の信用格付け

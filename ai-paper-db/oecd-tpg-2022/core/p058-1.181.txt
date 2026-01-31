@@ -1,0 +1,17 @@
+---
+id: "p058-1.181"
+pid: "1.181"
+page_start: 58
+page_end: 58
+section_id: "ch01"
+section_title: "第1章 独立企業原則"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p058-1.181.txt"
+---
+
+1.181 グループの計画的な協調活動から生じる企業のシナジーがグループのメン
+バーに対し、比較可能な非関連者にとっては一般的ではない重大なメリット・デメ
+リットを実際に与える場合、（i）このメリット・デメリットの性質、（ii）提供さ
+れた便益額又は損失額、及び（iii）この便益又は損失は多国籍企業グループのメン
+バー間でどのように配分されるべきか、を決定する必要がある。

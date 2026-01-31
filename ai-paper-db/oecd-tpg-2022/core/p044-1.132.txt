@@ -1,0 +1,17 @@
+---
+id: "p044-1.132"
+pid: "1.132"
+page_start: 44
+page_end: 45
+section_id: "ch01"
+section_title: "第1章 独立企業原則"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p044-1.132.txt"
+---
+
+1.132 地理的市場も特定されるべき経済状況の一つである。関連する市場を特定
+することは、事実に係る問題である。いくつかの産業においては、複数国にまたが
+る大規模な地域市場が合理的に同種なものとなることがあるだろうが、他方で、各
+国市場間の差異（又は国内市場間の差異でさえ）が極めて重大な意味を有する産業
+もあるであろう。

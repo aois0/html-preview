@@ -1,0 +1,14 @@
+---
+id: "p011-1.21"
+pid: "1.21"
+page_start: 11
+page_end: 11
+section_id: "ch01"
+section_title: "第1章 独立企業原則"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p011-1.21.txt"
+---
+
+1.21 OECD 加盟国は、以下に述べる理由から、これらの主張を受け入れておらず、
+全世界的定式配分が独立企業原則に代わる現実的な方式であるとは考えていない｡

@@ -1,0 +1,16 @@
+---
+id: "p013-1.30"
+pid: "1.30"
+page_start: 13
+page_end: 13
+section_id: "ch01"
+section_title: "第1章 独立企業原則"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p013-1.30.txt"
+---
+
+1.30 全世界的定式配分は、合算利益を計算するという目的のためにグループ内部
+での取引を無視することから、グループのメンバー間のクロスボーダーの支払いに
+ついて源泉徴収を行うことの妥当性に関し疑問を提起することになり、また、二国
+間租税条約に盛り込まれた多くの規則を否定することになるであろう｡

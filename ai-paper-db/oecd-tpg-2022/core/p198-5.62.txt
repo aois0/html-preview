@@ -1,0 +1,16 @@
+---
+id: "p198-5.62"
+pid: "5.62"
+page_start: 198
+page_end: 199
+section_id: "ch05"
+section_title: "第5章 移転価格文書化"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p198-5.62.txt"
+---
+
+5.62 国・地域は、必要に応じ、国内法を適時に導入するよう尽力する。また各国
+は、情報交換に関する国際的合意の対象範囲の拡大が奨励されている。このパッケ
+ージ実施は、継続的にモニタリングされるだろう。このモニタリング結果を踏まえ
+て、2020年の見直し作業が行われるだろう。

@@ -1,0 +1,15 @@
+---
+id: "p115-3.6"
+pid: "3.6"
+page_start: 115
+page_end: 115
+section_id: "ch03"
+section_title: "第3章 比較可能性分析"
+subsection: "A 比較可能性分析の実施"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p115-3.6.txt"
+---
+
+3.6 取引価格の設定、モニタリング及び検証のためのプロセスに関する議論につ
+いては、パラグラフ 3.82参照。
+A.2 納税者状況についての広範な分析

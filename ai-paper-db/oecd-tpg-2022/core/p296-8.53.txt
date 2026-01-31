@@ -1,0 +1,20 @@
+---
+id: "p296-8.53"
+pid: "8.53"
+page_start: 296
+page_end: 298
+section_id: "ch08"
+section_title: "第8章 費用分担契約"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p296-8.53.txt"
+---
+
+8.53 CCAの存続期間を通じて、以下の情報が有益であろう。
+a) 契約に関するあらゆる変更（例えば契約条件、参加者、対象活動）及びこう
+した変更の結果
+b) CCA 活動から生じる期待収益の持分を決定する際に用いた見通しと実際の収
+益の持分との比較（ただし、パラグラフ 3.74に留意すること）
+c) CCA 活動の実施において発生した各年の支出、CCA の存続期間中に行われた
+各参加者の貢献の形態及び価値並びにその貢献の価値がどのように決定された
+かについての詳細な説明

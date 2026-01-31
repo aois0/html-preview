@@ -1,0 +1,17 @@
+---
+id: "p189-5.24"
+pid: "5.24"
+page_start: 189
+page_end: 189
+section_id: "ch05"
+section_title: "第5章 移転価格文書化"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p189-5.24.txt"
+---
+
+5.24 国別報告書では、多国籍企業グループが事業を行う各国間のグローバル所得
+配分、納税額及び経済活動が行われる場所の特定の指標について、国ごと集計の記
+載が求められる。また、国別報告書では、財務情報が報告されるあらゆる構成事業
+体名、居住地と設立地が異なる場合は設立地、構成事業体が行う主要な事業活動の
+性質を含むリスト作成が求められる。

@@ -1,0 +1,15 @@
+---
+id: "p133-3.81"
+pid: "3.81"
+page_start: 133
+page_end: 134
+section_id: "ch03"
+section_title: "第3章 比較可能性分析"
+subsection: "A 比較可能性分析の実施"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p133-3.81.txt"
+---
+
+3.81 比較可能性分析に当たっては、関連があるかもしれない情報ソースの全てを
+網羅的に検索する必要はない。納税者と税務当局は、比較対象取引が合理的に信頼で
+きるか否かについて、判断を行うべきである。

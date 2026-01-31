@@ -1,0 +1,17 @@
+---
+id: "p118-3.17"
+pid: "3.17"
+page_start: 118
+page_end: 118
+section_id: "ch03"
+section_title: "第3章 比較可能性分析"
+subsection: "A 比較可能性分析の実施"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p118-3.17.txt"
+---
+
+3.17 納税者は、課税所得を意図せず過大に申告していたとして、調査の際に移転
+価格の減額調整を求めることがある。税務当局は、自らの裁量において、このよう
+な要請を認めることも、認めないこともできる。また、税務当局は、そのような要
+請を、相互協議や対応的調整（第 4章参照）の文脈で検討することもできる｡
+A.3.3 検証対象者の選択

@@ -1,0 +1,16 @@
+---
+id: "p164-4.100"
+pid: "4.100"
+page_start: 164
+page_end: 164
+section_id: "ch04"
+section_title: "第4章 移転価格に関する紛争の回避及び解決のための税務執行上のアプロ－チ"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p164-4.100.txt"
+---
+
+4.100 以下、セーフハーバー・ルールの利点及び問題点を検討し、独立企業原則に
+基づく移転価格の制度の下でセーフハーバーが適用され得る場合についての指針を
+示す。
+E.2 セーフハーバーの定義及び概念

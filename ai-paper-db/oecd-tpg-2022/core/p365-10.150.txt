@@ -1,0 +1,16 @@
+---
+id: "p365-10.150"
+pid: "10.150"
+page_start: 365
+page_end: 365
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p365-10.150.txt"
+---
+
+10.150. 多くの場合、多国籍企業グループは効率性と有効性を向上させるため、財
+務機能を集中し金利リスクや通貨リスクに関するリスク軽減戦略を実行するであろ
+う。そのため、各企業は多国籍企業全体の観点からはヘッジされているとしても、
+当該リスクに関するヘッジング契約を自ら締結することはできない。

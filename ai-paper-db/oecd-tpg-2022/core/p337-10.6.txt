@@ -1,0 +1,16 @@
+---
+id: "p337-10.6"
+pid: "10.6"
+page_start: 337
+page_end: 337
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p337-10.6.txt"
+---
+
+10.6. 前パラグラフとの関連では、このサブセクションでは、第 1 章の概念、特に
+D.1 における実際の取引の正確な描写が、多国籍企業グループに属する事業体の負債
+による資金調達と株主資本による資金調達のバランスとどう関係するかを詳細に述
+べる。

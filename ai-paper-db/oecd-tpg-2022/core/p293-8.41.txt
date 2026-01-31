@@ -1,0 +1,17 @@
+---
+id: "p293-8.41"
+pid: "8.41"
+page_start: 293
+page_end: 293
+section_id: "ch08"
+section_title: "第8章 費用分担契約"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p293-8.41.txt"
+---
+
+8.41 調整的支払を含む、参加者による CCA への貢献は、CCA の対象活動を実施す
+るために CCA の外部において貢献が行われたとしても、当該参加者に対して適用さ
+れる税制の一般規定に従って、税務上同様に取り扱われるべきである。貢献の特徴
+は、CCA によって実施される活動の性質に依存し、それが税務上どのように認識さ
+れるかを決定するだろう。
