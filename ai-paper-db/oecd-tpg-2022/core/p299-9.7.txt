@@ -1,0 +1,15 @@
+---
+id: "p299-9.7"
+pid: "9.7"
+page_start: 299
+page_end: 299
+section_id: "ch09"
+section_title: "第9章 事業再編の移転価格に係る側面"
+subsection: "A.1 本章が対象とする事業再編"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p299-9.7.txt"
+---
+
+9.7 本章は、OECD モデル租税条約第 9条の文脈における関連企業間の取引のみを
+対象としており、同第 7 条に基づく単一企業内の帰属所得については、「恒久的施
+設への利得の帰属に関する報告書」1の問題であるため、対象としていない。

@@ -1,0 +1,16 @@
+---
+id: "p172-4.133"
+pid: "4.133"
+page_start: 172
+page_end: 172
+section_id: "ch04"
+section_title: "第4章 移転価格に関する紛争の回避及び解決のための税務執行上のアプロ－チ"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p172-4.133.txt"
+---
+
+4.133 各国の税務当局は、セーフハーバーの利用が適切であると考えそれを導入し
+ようとする際には、その利点と問題点を注意深く考量する必要があろう。
+F APA6
+F.1 APAの定義及び概念

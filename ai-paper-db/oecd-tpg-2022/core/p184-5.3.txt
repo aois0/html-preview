@@ -1,0 +1,17 @@
+---
+id: "p184-5.3"
+pid: "5.3"
+page_start: 184
+page_end: 184
+section_id: "ch05"
+section_title: "第5章 移転価格文書化"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p184-5.3.txt"
+---
+
+5.3 それ以降、多くの国々が移転価格文書化制度を導入し、国際的なグループ内
+取引の量・質の急増と、税務当局による移転価格の問題点に関する調査の厳格化と
+相まって、必要とされる文書は激増し、納税者のコンプライアンス・コストの著し
+い増加をもたらしている。それでもなお、税務当局にとって、移転価格文書の情報
+は不十分であり、課税の執行やリスク評価の必要性からは適切でないことが多い。

@@ -1,0 +1,17 @@
+---
+id: "p294-8.47"
+pid: "8.47"
+page_start: 294
+page_end: 295
+section_id: "ch08"
+section_title: "第8章 費用分担契約"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p294-8.47.txt"
+---
+
+8.47 第 1～3 章及び第 6 章の指針は、必要とされるバイ・イン支払、バイ・アウト
+支払又は調整的支払の独立企業間対価の算定に際しても十分に適用される。独立企
+業原則の下では、このような支払が必要ではない場合もあるかもしれない。例えば、
+日常的な管理サービスの共有のための CCA は通常、参加者に対して価値のある継続
+的な結果というより、現時点での収益のみを提供する。

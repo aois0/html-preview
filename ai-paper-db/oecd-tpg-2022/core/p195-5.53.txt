@@ -1,0 +1,17 @@
+---
+id: "p195-5.53"
+pid: "5.53"
+page_start: 195
+page_end: 195
+section_id: "ch05"
+section_title: "第5章 移転価格文書化"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p195-5.53.txt"
+---
+
+5.53 パラグラフ 52 で記載したように 7 億 5,000 万 EUR を適用除外基準とするこ
+とで、多国籍企業グループの約 85％から 90％は、国別報告書の提出が不要となる。
+それでもなお、法人収入全体の 90％近くを占める多国籍企業グループが国別報告書
+の提出対象となろう。そのため、当該適用除外基準は、報告に係る負担と税務当局
+の便益との適切なバランスを図ったものといえる。

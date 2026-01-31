@@ -1,0 +1,16 @@
+---
+id: "p343-10.39"
+pid: "10.39"
+page_start: 343
+page_end: 343
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p343-10.39.txt"
+---
+
+10.39. 多国籍企業グループにとって、グループ金融の管理は、重要で潜在的に複雑
+な活動であり、そこでは個別の事業で採用しているアプローチは、事業構造そのも
+の、事業戦略、事業サイクルにおける位置、業種、事業で利用する通貨などに依存
+している。

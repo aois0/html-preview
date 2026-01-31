@@ -1,0 +1,16 @@
+---
+id: "p038-1.101"
+pid: "1.101"
+page_start: 38
+page_end: 38
+section_id: "ch01"
+section_title: "第1章 独立企業原則"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p038-1.101.txt"
+---
+
+1.101 パラグラフ 1.83 の事例 1 の状況で、A 社は開発リスクを引き受け、コント
+ロールするので、失敗に終わった結果を資金面で負担し、成功した結果を資金面で
+享受すべきである。B 社は、開発サービスを適切に遂行できないというリスクを盛
+り込んだ上で、適切な対価を受け取るべきである。

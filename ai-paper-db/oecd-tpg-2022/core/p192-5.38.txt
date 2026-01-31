@@ -1,0 +1,18 @@
+---
+id: "p192-5.38"
+pid: "5.38"
+page_start: 192
+page_end: 192
+section_id: "ch05"
+section_title: "第5章 移転価格文書化"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p192-5.38.txt"
+---
+
+5.38 納税者のコンプライアンス上の負担を軽減するために、税務当局は、事業状
+況が変わらない限りにおいて、ローカルファイルの構成要素である比較対象取引の
+データベース検索を、毎年ではなく、3年ごとの更新とすることができる。ただし、
+独立企業原則の信頼性を確保するために、比較対象取引の財務データは、毎年更新
+されるべきである。
+D.6 使用言語

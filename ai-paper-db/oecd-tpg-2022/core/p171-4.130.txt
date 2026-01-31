@@ -1,0 +1,16 @@
+---
+id: "p171-4.130"
+pid: "4.130"
+page_start: 171
+page_end: 171
+section_id: "ch04"
+section_title: "第4章 移転価格に関する紛争の回避及び解決のための税務執行上のアプロ－チ"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p171-4.130.txt"
+---
+
+4.130 セーフハーバーが二国間又は多国間で合意される場合、二重課税や二重非課
+税の問題を引き起こすことなくコンプライアンス負担や適用における複雑さを大幅
+に軽減することができる可能性がある。従って、適切な状況の下で二国間又は多国
+間セーフハーバーを用いることは推奨されるべきである。

@@ -1,0 +1,16 @@
+---
+id: "p330-9.114"
+pid: "9.114"
+page_start: 330
+page_end: 330
+section_id: "ch09"
+section_title: "第9章 事業再編の移転価格に係る側面"
+subsection: "A.1 本章が対象とする事業再編"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p330-9.114.txt"
+---
+
+9.114 場合によっては、再編の対価と再編後の事業に対する独立企業間価格との間
+に、重要な相互関係があるかもしれない。例えば、納税者が関連者に事業を売却し
+た後も、納税者が、当該事業の一環として関連者との取引を継続することがありう
+る。例えば、パラグラフ 9.74のアウトソーシングが該当する。

@@ -1,0 +1,17 @@
+---
+id: "p201-6.9"
+pid: "6.9"
+page_start: 201
+page_end: 201
+section_id: "ch06"
+section_title: "第6章 無形資産に対する特別の配慮"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p201-6.9.txt"
+---
+
+6.9 市場の条件又は現地市場の状況と無形資産を区別することは重要である。当該
+市場における家計の可処分所得水準や、市場の規模又は相対的な競争状況等の現地
+市場は、所有もコントロールもできない。状況によっては、これらが、独立企業間
+価格の算定に影響することもあり、比較可能性分析において考慮されるべきである
+が、これらは第6章における無形資産ではない。第 1章D.6参照。

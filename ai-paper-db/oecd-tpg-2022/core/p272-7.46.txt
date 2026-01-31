@@ -1,0 +1,16 @@
+---
+id: "p272-7.46"
+pid: "7.46"
+page_start: 272
+page_end: 272
+section_id: "ch07"
+section_title: "第7章 企業グループ内役務提供に対する特別の配慮"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p272-7.46.txt"
+---
+
+7.46 本節の指針は、一般的に低付加価値企業グループ内役務提供と認められる役務
+が、グループのメンバーと非関連の顧客に提供された場合には適用されない。この
+ような場合には、信頼できる内部比較対象が存在し、企業グループ内役務提供の独
+立企業間価格の設定に使用することができると考えられる。

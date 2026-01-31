@@ -1,0 +1,14 @@
+# OECD 移転価格ガイドライン 2022（参考仮訳） / AI検索最適化
+# Base URL: https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/
+
+推奨読手順（10k tokens/read 制約前提）
+1) `quickstart.txt`
+2) `data/shards_index.json`
+3) `data/shards/*.txt`（TSVを読む＝検索）
+4) `core/{id}.txt`（本文）
+
+URLパターン
+- shard index: `data/shards_index.json`
+- shard TSV: `data/shards/shard-XX.txt`
+- canonical text: `core/{id}.txt`
+

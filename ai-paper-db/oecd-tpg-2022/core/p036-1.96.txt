@@ -1,0 +1,15 @@
+---
+id: "p036-1.96"
+pid: "1.96"
+page_start: 36
+page_end: 36
+section_id: "ch01"
+section_title: "第1章 独立企業原則"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p036-1.96.txt"
+---
+
+1.96 ステップ 4（i）で分析したリスクを引き受ける者がリスクをコントロール
+しない、又はリスクを引き受けるための財務能力を有していないことが明らかにな
+った場合、ステップ 5で説明される分析を実施する必要がある。

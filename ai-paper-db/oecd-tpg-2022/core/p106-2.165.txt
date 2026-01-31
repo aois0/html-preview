@@ -1,0 +1,14 @@
+---
+id: "p106-2.165"
+pid: "2.165"
+page_start: 106
+page_end: 106
+section_id: "ch02"
+section_title: "第2章 移転価格算定手法"
+subsection: "A 事案の状況に応じた最適な移転価格算定手法の選択"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p106-2.165.txt"
+---
+
+2.165. 第2章別添 IIの事例 14は、本節の原則を示している。
+C.5. 利益の分割

@@ -1,0 +1,16 @@
+---
+id: "p246-6.168"
+pid: "6.168"
+page_start: 246
+page_end: 246
+section_id: "ch06"
+section_title: "第6章 無形資産に対する特別の配慮"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p246-6.168.txt"
+---
+
+6.168 以上の理由から又は他のどのような理由からでも、評価の背後にある予測
+が、信頼できない又は憶測であると判断する根拠がある場合、D.3 及び D.4の指針に
+留意すべきである。
+D.2.6.4.2 成長率に関する前提

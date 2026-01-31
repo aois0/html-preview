@@ -1,0 +1,17 @@
+---
+id: "p127-3.53"
+pid: "3.53"
+page_start: 127
+page_end: 128
+section_id: "ch03"
+section_title: "第3章 比較可能性分析"
+subsection: "A 比較可能性分析の実施"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p127-3.53.txt"
+---
+
+3.53 運転資本の水準の差異のような差異の調整を「日常的」で当然であるとみな
+すことや、カントリーリスクの調整を、より主観的で追加的な証拠と信頼性が必要
+であるとみなすことは、適切ではない。比較可能性の向上が期待できる差異調整の
+みを行うべきである。
+A.6.4 差異調整の文書化及び検証

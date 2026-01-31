@@ -1,0 +1,15 @@
+---
+id: "p370-10.172"
+pid: "10.172"
+page_start: 370
+page_end: 371
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p370-10.172.txt"
+---
+
+10.172. CUP 法を利用する難しさは、非関連者による銀行借入の保証は稀であるこ
+とを考えると、十分に類似する信用補完のための保証に関する公的に利用可能な情
+報を、非関連者間で見出すことができる見込みがないところにある。

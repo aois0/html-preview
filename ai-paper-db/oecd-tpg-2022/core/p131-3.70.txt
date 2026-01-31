@@ -1,0 +1,16 @@
+---
+id: "p131-3.70"
+pid: "3.70"
+page_start: 131
+page_end: 131
+section_id: "ch03"
+section_title: "第3章 比較可能性分析"
+subsection: "A 比較可能性分析の実施"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p131-3.70.txt"
+---
+
+3.70 また、納税者は、関連者間取引の条件が独立企業原則に沿っていたことを示
+すため、事後的に、当該取引の実績の検証を行うかもしれない（以下「独立企業間
+実績検証」アプローチという）。一般的に、このような検証は、年度末の税務申告
+書作成の一環として行われる。

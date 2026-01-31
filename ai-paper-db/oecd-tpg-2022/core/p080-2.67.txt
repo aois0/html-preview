@@ -1,0 +1,15 @@
+---
+id: "p080-2.67"
+pid: "2.67"
+page_start: 80
+page_end: 80
+section_id: "ch02"
+section_title: "第2章 移転価格算定手法"
+subsection: "A 事案の状況に応じた最適な移転価格算定手法の選択"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p080-2.67.txt"
+---
+
+2.67 なお、取引にユニークで価値ある無形資産が関係していないからといって、
+直ちに、取引単位営業利益法が最適な手法になるわけではない。
+B.2 長所及び短所1

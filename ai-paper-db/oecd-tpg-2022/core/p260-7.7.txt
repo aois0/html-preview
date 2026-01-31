@@ -1,0 +1,17 @@
+---
+id: "p260-7.7"
+pid: "7.7"
+page_start: 260
+page_end: 261
+section_id: "ch07"
+section_title: "第7章 企業グループ内役務提供に対する特別の配慮"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p260-7.7.txt"
+---
+
+7.7 上記の検討は実際の事実及び状況にかなり明確に依存しており、企業グループ
+内役務提供を構成する活動又は構成しない活動を断定的に述べることは理論上不可
+能である。しかし、多国籍企業グループが共通して行う種類の役務に対してどのよ
+うな分析が適用されるかについて明らかにするために、いくつかの指針が挙げられ
+るかもしれない。

@@ -1,0 +1,15 @@
+---
+id: "p345-10.53"
+pid: "10.53"
+page_start: 345
+page_end: 345
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p345-10.53.txt"
+---
+
+10.53. 融資実行の判断、融資金額、融資条件の決定に関する貸手の視点には、借手
+に関する様々な要素の評価、借手及び貸手の双方に影響する幅広い経済的要素、及
+び資金の使用に関する現実的に可能な貸手のその他の選択肢が含まれる。

@@ -1,0 +1,17 @@
+---
+id: "p361-10.130"
+pid: "10.130"
+page_start: 361
+page_end: 362
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p361-10.130.txt"
+---
+
+10.130. 一般的にキャッシュプール・リーダーは、マスター口座がプール・メンバ
+ーの既定目標残高を満たすために行われる一連の記帳の中心となっていることによ
+る調整機能又は代理人機能を果たしているにすぎない。この機能性の低さを前提と
+すると、一般的に、役務提供者としてのキャッシュプール・リーダーに対する報酬
+も同様に制限されることになろう。

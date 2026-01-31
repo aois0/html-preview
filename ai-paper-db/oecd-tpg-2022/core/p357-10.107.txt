@@ -1,0 +1,16 @@
+---
+id: "p357-10.107"
+pid: "10.107"
+page_start: 357
+page_end: 357
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p357-10.107.txt"
+---
+
+10.107. 状況によっては、納税者は非関連銀行から「バンカビリティ」意見と呼ば
+れることもある意見書を提出し、銀行がその特定の企業に比較可能な融資をすると
+した場合の適用金利について述べることによりグループ内融資の独立企業間金利を
+立証しようとするかもしれない。

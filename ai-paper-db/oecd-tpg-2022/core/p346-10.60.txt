@@ -1,0 +1,16 @@
+---
+id: "p346-10.60"
+pid: "10.60"
+page_start: 346
+page_end: 347
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p346-10.60.txt"
+---
+
+10.60. マクロ経済環境が市場における資金調達コストの変動につながる場合もある。
+この意味では、借手又は貸手が、条件の改善によって利益を得るために、融資条件
+を再交渉する可能性に関して、移転価格分析を行う場合は、借手及び貸手の双方に
+とって現実的に可能な選択肢を参考にする。

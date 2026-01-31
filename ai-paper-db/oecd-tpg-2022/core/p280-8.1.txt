@@ -1,0 +1,17 @@
+---
+id: "p280-8.1"
+pid: "8.1"
+page_start: 280
+page_end: 280
+section_id: "ch08"
+section_title: "第8章 費用分担契約"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p280-8.1.txt"
+---
+
+8.1 本章は、二以上の関連者間の費用分担契約（CCA：Cost Contribution
+Arrangement）について論じる。本章の目的は、関連者により設定された CCA の対象
+となる取引の条件が独立企業原則に適合しているか判断するための一般的な指針を
+提供することである。CCAは、本章の規定や本ガイドラインの他の規定及び CCAに
+係る適切な文書化に基づき分析されるべきである。

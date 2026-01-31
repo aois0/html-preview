@@ -1,0 +1,16 @@
+---
+id: "p122-3.32"
+pid: "3.32"
+page_start: 122
+page_end: 122
+section_id: "ch03"
+section_title: "第3章 比較可能性分析"
+subsection: "A 比較可能性分析の実施"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p122-3.32.txt"
+---
+
+3.32 他のソース（例えば、内部比較対象）から信頼できる情報を入手できる場合、
+商業データベースの利用は不要であろう。商業データベースを利用する場合は、客観
+的な形で利用すべきであり、信頼できる比較対象情報を把握するためにデータベース
+を利用するよう、誠実に努めるべきである。

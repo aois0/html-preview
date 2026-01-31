@@ -1,0 +1,17 @@
+---
+id: "p232-6.117"
+pid: "6.117"
+page_start: 232
+page_end: 233
+section_id: "ch06"
+section_title: "第6章 無形資産に対する特別の配慮"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p232-6.117.txt"
+---
+
+6.117 無形資産又は無形資産に係る権利の移転に関する比較可能性分析において重
+要となり得る無形資産の特徴を、以下に記述する。ただし、全てを網羅したもので
+はなく、具体的事例においては追加的要素又は異なる要素の検討が、比較可能性分
+析の重要事項となる場合もある。
+D.2.1.1 排他性

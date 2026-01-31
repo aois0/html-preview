@@ -1,0 +1,17 @@
+---
+id: "p141-4.25"
+pid: "4.25"
+page_start: 141
+page_end: 141
+section_id: "ch04"
+section_title: "第4章 移転価格に関する紛争の回避及び解決のための税務執行上のアプロ－チ"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p141-4.25.txt"
+---
+
+4.25 移転価格の領域における遵法的行動の向上は OECD加盟諸国が照会している
+ものであり、罰則の適正な活用は、この照会に対処する際に一定の役割を果たすこ
+とができる。しかしながら、移転価格問題の性質上、罰則制度の運用が、移転価格
+事案に適用する際には公正であり、納税者にとって過度な負担とならないことが確
+保されるよう注意すべきである。

@@ -1,0 +1,15 @@
+---
+id: "p258-6.210"
+pid: "6.210"
+page_start: 258
+page_end: 258
+section_id: "ch06"
+section_title: "第6章 無形資産に対する特別の配慮"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p258-6.210.txt"
+---
+
+6.210 第 2 章第Ⅲ部 C では、取引単位利益分割法の適用に際して考慮すべき指針
+が定めている。この指針は、関連者間の商品の販売又は役務提供取引において無形
+資産の使用が関わる事案に全面的に適用される。

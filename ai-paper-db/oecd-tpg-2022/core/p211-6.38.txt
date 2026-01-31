@@ -1,0 +1,16 @@
+---
+id: "p211-6.38"
+pid: "6.38"
+page_start: 211
+page_end: 211
+section_id: "ch06"
+section_title: "第6章 無形資産に対する特別の配慮"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p211-6.38.txt"
+---
+
+6.38 さらに、特定の知的財産権の登録制度の下では保護されなくとも、不正競争防
+止法やその他の法律又は契約により、権限のない占有や模倣から保護されている無
+形資産もある。デザイン（トレードドレス）、企業秘密及びノウハウは、このカテ
+ゴリーの無形資産に該当するかもしれない。

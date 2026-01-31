@@ -1,0 +1,15 @@
+---
+id: "p343-10.36"
+pid: "10.36"
+page_start: 343
+page_end: 343
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p343-10.36.txt"
+---
+
+10.36. 事業戦略の分析には、多国籍企業グループのグローバルな財務方針の考慮、
+既存の融資及び株主持分など関連会社間の既存の関係の確認も含まれる（マスタ
+ー・ファイルに含むべき情報に関するガイドライン第 5章付属文書 1参照）。

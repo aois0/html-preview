@@ -1,0 +1,16 @@
+---
+id: "p270-7.38"
+pid: "7.38"
+page_start: 270
+page_end: 270
+section_id: "ch07"
+section_title: "第7章 企業グループ内役務提供に対する特別の配慮"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p270-7.38.txt"
+---
+
+7.38 この節では、企業グループ内役務提供における移転価格上の問題についての事
+例を示す。事例は例示のためだけに提供される。個々の事案を扱う場合は、あらゆ
+る移転価格算定手法の適用可能性を判断するために、実際の事実と状況を調査する
+必要がある。

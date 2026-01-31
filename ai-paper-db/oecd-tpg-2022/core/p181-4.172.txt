@@ -1,0 +1,17 @@
+---
+id: "p181-4.172"
+pid: "4.172"
+page_start: 181
+page_end: 182
+section_id: "ch04"
+section_title: "第4章 移転価格に関する紛争の回避及び解決のための税務執行上のアプロ－チ"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p181-4.172.txt"
+---
+
+4.172 APA の範囲を考慮するとき、納税者と税務当局は、信頼性のない予測を排除
+するため、予測の信頼性には多大なる注意を払う必要がある。一般に、APA が、移
+転価格算定手法、その適用及び重要な前提条件を超える（それ以上のことを規定し
+ようとする）ときは、多大な注意が必要である。パラグラフ 4.134-4.139参照。
+F.5.3 ユニラテラル APAと対二国間（又は多国間）APA

@@ -1,0 +1,17 @@
+---
+id: "p490-3.2.2"
+pid: "3.2.2"
+page_start: 490
+page_end: 503
+section_id: "ch05-app04"
+section_title: "第5章別添Ⅳ 国別報告書の実施パッケージ"
+subsection: ""
+source: "2022translated.pdf"
+note: "Split into parts due to the 10k tokens/read constraint."
+parts:
+  - "core/p490-3.2.2.part-01.txt"
+  - "core/p490-3.2.2.part-02.txt"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p490-3.2.2.txt"
+---
+
+3.2.2 制裁及び先行経験  先行する不正開示 主要チェックリスト対象  将来における違反を予防するための方針／プロセスの 変更 自国内で秘密情報が不適切に開示された事例があるか。自国内で情報交換相手国か ら CAが受領した秘密情報がその提供の根拠となった合意の条件に従う場合以外で開 示された事例があるか。自国の税務当局又は監察官は、違反の説明、課された罰則 ／制裁、及びリスクを緩和し、かつ、将来における違反を予防するために行った変 さらにつき、公表しているか。公開している場合は、その参照先を記載すること。 公開していない場合は、要約を記載すること。 租税条約に基づく国別報告書の交換に関

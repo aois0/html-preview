@@ -1,0 +1,15 @@
+---
+id: "p186-5.11"
+pid: "5.11"
+page_start: 186
+page_end: 186
+section_id: "ch05"
+section_title: "第5章 移転価格文書化"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p186-5.11.txt"
+---
+
+5.11 税務当局が、移転価格リスク評価を適切に実施するには、早い段階において、
+関連性・信頼性の高い十分な量の情報へアクセスできることが必要である。関連す
+る情報ソースは多数存在するが、移転価格文書は、重要な情報ソースの一つである。

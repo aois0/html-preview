@@ -1,0 +1,14 @@
+---
+id: "p196-5.56"
+pid: "5.56"
+page_start: 196
+page_end: 196
+section_id: "ch05"
+section_title: "第5章 移転価格文書化"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p196-5.56.txt"
+---
+
+5.56 以下の条件に基づき国別報告書を入手し利用する。
+秘密性

@@ -1,0 +1,17 @@
+---
+id: "p036-1.95"
+pid: "1.95"
+page_start: 36
+page_end: 36
+section_id: "ch01"
+section_title: "第1章 独立企業原則"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p036-1.95.txt"
+---
+
+1.95 取引の複数の当事者がリスクを（ステップ 4（i）で分析されたとおり）引
+き受け、さらに、これらの当事者が共同で特定のリスクをコントロールし、各当事
+者が自身に割り当てられたリスクを引き受けるための財務能力を有している場合、
+このリスクの引き受けは尊重されるべきである。例としては、複数の企業が新製品
+開発費用の共同負担に合意する場合の、契約上の開発リスクの引受けがある。

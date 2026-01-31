@@ -1,0 +1,16 @@
+---
+id: "p378-10.205"
+pid: "10.205"
+page_start: 378
+page_end: 378
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p378-10.205.txt"
+---
+
+10.205. キャプティブ保険は、その多国籍企業グループの内部のリスクだけではな
+く、（パラグラフ 10.190 におけるキャプティブ保険の定義の範囲内で）そのポート
+フォリオの中に、かなり大きな割合で外部の非グループのリスクを含めることによ
+って、リスク分散を達成できるかもしれない。

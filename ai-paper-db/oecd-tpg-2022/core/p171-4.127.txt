@@ -1,0 +1,15 @@
+---
+id: "p171-4.127"
+pid: "4.127"
+page_start: 171
+page_end: 171
+section_id: "ch04"
+section_title: "第4章 移転価格に関する紛争の回避及び解決のための税務執行上のアプロ－チ"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p171-4.127.txt"
+---
+
+4.127 移転価格に係るコンプライアンスと執行は、多くの場合、複雑で時間と費用
+がかさむ。セーフハーバーの規定が的確に策定され、妥当な対象に適用されれば、
+これらの負担の一部を軽減し、納税者により高い確実性をもたらし得る。

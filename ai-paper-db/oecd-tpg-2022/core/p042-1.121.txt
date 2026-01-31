@@ -1,0 +1,16 @@
+---
+id: "p042-1.121"
+pid: "1.121"
+page_start: 42
+page_end: 42
+section_id: "ch01"
+section_title: "第1章 独立企業原則"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p042-1.121.txt"
+---
+
+1.121. 本章のガイダンスに基づいて、資金提供者が金融リスクを引き受けており、
+それゆえにそのリスクが起こる可能性にさらされている場合には、リスクのプラス
+とマイナスの結果に遭遇するであろう。それゆえに、そのリスクの引き受けが、リ
+スク・フリー・レートよりも高い報酬を期待することを正当化する。

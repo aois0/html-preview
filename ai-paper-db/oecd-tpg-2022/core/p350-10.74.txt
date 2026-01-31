@@ -1,0 +1,16 @@
+---
+id: "p350-10.74"
+pid: "10.74"
+page_start: 350
+page_end: 350
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p350-10.74.txt"
+---
+
+10.74. こうした理由から、一般に公開されている金融ツールの利用によって得られ
+る信用格付けの信頼性は、そのようなツールを利用した格付けと、独立信用格付け
+機関による格付けとの一貫性を、当該分析が再現的に示すことができる範囲で改善
+されうる。

@@ -1,0 +1,17 @@
+---
+id: "p115-3.8"
+pid: "3.8"
+page_start: 115
+page_end: 115
+section_id: "ch03"
+section_title: "第3章 比較可能性分析"
+subsection: "A 比較可能性分析の実施"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p115-3.8.txt"
+---
+
+3.8 調査対象となっている関連者間取引の検討は、検証対象者の選択（必要な場
+合）、事案の状況に応じた最も適切な移転価格算定手法の選択と適用、検証の基準
+となる財務指標（取引単位利益法の場合）、比較対象の選択、及び関係する場合に
+は差異調整の決定に影響する要素を特定することが目的である。
+A.3.1 納税者の個別取引と包括取引の評価

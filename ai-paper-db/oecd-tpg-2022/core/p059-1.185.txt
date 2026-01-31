@@ -1,0 +1,18 @@
+---
+id: "p059-1.185"
+pid: "1.185"
+page_start: 59
+page_end: 59
+section_id: "ch01"
+section_title: "第1章 独立企業原則"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p059-1.185.txt"
+---
+
+1.185 S が非関連の資金提供者から、格付け A の借手に適用される市場利率で
+5,000 万 EUR を借り入れるとする。同時に、S は、P の別の子会社であり、非関連の
+資金提供者と同業の T からも、非関連の資金提供者と同一の条件及び同一の利率
+（つまり、信用格付け A の利率）で、5,000 万 EUR を借り入れるとする。この非関
+連の資金提供者は、条件設定に当たり、S が T からも同時に融資を受ける事実を含
+め、Sの他の借入金のことを認識していた。

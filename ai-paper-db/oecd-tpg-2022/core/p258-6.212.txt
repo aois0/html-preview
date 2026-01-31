@@ -1,0 +1,17 @@
+---
+id: "p258-6.212"
+pid: "6.212"
+page_start: 258
+page_end: 259
+section_id: "ch06"
+section_title: "第6章 無形資産に対する特別の配慮"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p258-6.212.txt"
+---
+
+6.212 比較対象取引の特定に依存しない移転価格算定手法又は評価テクニックを適
+用して、無形資産の使用が関わる商品の販売又は役務提供取引に関する独立企業間
+の取引条件を決定できる場合があるかもしれない。代替的な方法の適用に当たって
+は、商品又は提供された役務の性質並びに無形資産及び価値を創造に関連するその
+他の要素による貢献を反映すべきである。

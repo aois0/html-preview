@@ -1,0 +1,16 @@
+---
+id: "p041-1.116"
+pid: "1.116"
+page_start: 41
+page_end: 41
+section_id: "ch01"
+section_title: "第1章 独立企業原則"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p041-1.116.txt"
+---
+
+1.116. 例えば、リスク・フリー・レートは、投資についてのリスク調整後利益率の
+計算における構成要素として、又は、資金を提供したが、その資金に関するどのよ
+うなリスクも引き受けない投資家に配分できる利益として、適切かもしれない。
+D.1.2.2.2. リスク調整後利益率の決定

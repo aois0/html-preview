@@ -1,0 +1,17 @@
+---
+id: "p307-9.31"
+pid: "9.31"
+page_start: 307
+page_end: 307
+section_id: "ch09"
+section_title: "第9章 事業再編の移転価格に係る側面"
+subsection: "A.1 本章が対象とする事業再編"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p307-9.31.txt"
+---
+
+9.31 実際に利用できる選択肢という考え方は、納税者に実際に利用できる選択肢
+を全て文書化するよう求めるものではない。むしろ、その意図は、明らかにより魅
+力的な実際に利用できる選択肢が存在する場合、事業再編の条件分析に当たりその
+選択肢を検討すべきであるということを示すことにある。
+B.4 事業再編に係る移転価格文書化

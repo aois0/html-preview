@@ -1,0 +1,17 @@
+---
+id: "p229-6.103"
+pid: "6.103"
+page_start: 229
+page_end: 229
+section_id: "ch06"
+section_title: "第6章 無形資産に対する特別の配慮"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p229-6.103.txt"
+---
+
+6.103 さらに、取引が分析のために結合又は分離されるべきかの決定は、通常、契
+約書及び両当事者の実際の行動を参照することによって、実際に行われた取引を描
+写することに関連することも強調されるべきである。実際に行われた取引の特定は、
+最適な移転価格算定手法を選択する際に必要な要素となる。
+C.2 商品の販売又は役務提供に関連して無形資産の使用が関わる取引

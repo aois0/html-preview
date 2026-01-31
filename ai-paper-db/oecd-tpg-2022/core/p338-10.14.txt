@@ -1,0 +1,15 @@
+---
+id: "p338-10.14"
+pid: "10.14"
+page_start: 338
+page_end: 338
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p338-10.14.txt"
+---
+
+10.14. 金融取引において、独立企業原則に整合的な条件か否かを決定するに当たっ
+て、これらのガイドラインの第 1 章から 3 章に記載されている、その他の関連者間
+取引に対する原則と同一の原則が適用される。

@@ -1,0 +1,16 @@
+---
+id: "p377-10.201"
+pid: "10.201"
+page_start: 377
+page_end: 377
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p377-10.201.txt"
+---
+
+10.201. 保険には、保険会社による保険リスクの引き受けが必要である。保険金の
+請求がなされた場合、保険契約者は、保険金が支払われることによって損失が相殺
+され得るので、保険リスクが保険会社によって引き受けられている範囲で、潜在す
+る経済的損失の財務的影響を被らない。

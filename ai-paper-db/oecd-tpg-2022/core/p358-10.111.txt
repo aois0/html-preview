@@ -1,0 +1,18 @@
+---
+id: "p358-10.111"
+pid: "10.111"
+page_start: 358
+page_end: 358
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p358-10.111.txt"
+---
+
+10.111. キャッシュプーリング契約には物理的か概念的かの二つの基本タイプがあ
+るが、個別のビジネスニーズに合わせてそれら以外のバリエーションや組み合わせ
+も可能である。例えば、事業が行われる通貨ごとに一つずつ物理的プールを多数保
+有し、これら個別の通貨プールを結合させる概念的プールを保有することも可能で
+あろう。
+C.2.1.1 物理的プーリング

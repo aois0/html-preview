@@ -1,0 +1,18 @@
+---
+id: "p187-5.15"
+pid: "5.15"
+page_start: 187
+page_end: 187
+section_id: "ch05"
+section_title: "第5章 移転価格文書化"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p187-5.15.txt"
+---
+
+5.15 移転価格調査に必要な資料など情報が、調査対象の関連者ではなく、多国籍
+企業グループの他のメンバーに保有されているケースはよくある。多くの場合、必
+要な情報は、税務当局による調査実施国の国外に存在する。そのため、税務当局は、
+直接又は情報交換などの情報共有により、国境を越えて拡がる情報を入手できるこ
+とが重要である。
+C 移転価格文書化の三層構造アプローチ

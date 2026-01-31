@@ -1,0 +1,17 @@
+---
+id: "p267-7.28"
+pid: "7.28"
+page_start: 267
+page_end: 268
+section_id: "ch07"
+section_title: "第7章 企業グループ内役務提供に対する特別の配慮"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p267-7.28.txt"
+---
+
+7.28 （パラグラフ 7.16 及び 7.17 で議論した）オンコールサービスの提供対価（リ
+テイナー）の請求に係る取決めを特定するに当たっては、実際の利用が事前に設定
+した水準を越えるまでは請求を行わないという条項が含まれていることがあるため、
+実際のサービス利用の条件を調査する必要があるかもしれない。
+B.2.3. 独立企業間対価の算定

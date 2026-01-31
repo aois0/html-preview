@@ -1,0 +1,17 @@
+---
+id: "p039-1.105"
+pid: "1.105"
+page_start: 39
+page_end: 39
+section_id: "ch01"
+section_title: "第1章 独立企業原則"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p039-1.105.txt"
+---
+
+1.105 当事者は、リスク・コントロール機能に対する適切な対価を補償されるべ
+きである。通常、補償は配分されたリスクの結果から生じるため、プラスの便益を
+受け取る権利があり、マイナスの費用は負担する義務がある。当事者が、リスクを
+引き受けず、リスク・コントロールのみを行っている場合、補償はコントロールの
+貢献に応じて、プラスになることもあれば、マイナスになることもある。

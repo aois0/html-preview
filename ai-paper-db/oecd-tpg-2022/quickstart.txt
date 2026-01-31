@@ -1,0 +1,27 @@
+# OECD 移転価格ガイドライン 2022（参考仮訳） - Quickstart
+
+前提（重要）
+- あなたのAIは「1回のReadで最初の1万トークンのみ」読める。
+- したがって、このDBは『索引→shard→本文』の3段階で最短到達する。
+
+推奨フロー（最小Read）
+1) `data/shards_index.json` を読む（章=section と shard の対応を得る）
+2) 関連する `data/shards/*.txt` を1〜3個読む（TSVを検索）
+3) 行にある `core/...` を開いて本文を読む
+
+章（目安）
+- 第1章: 独立企業原則（ALP）
+- 第2章: 移転価格算定手法（CUP/RP/CP/TNMM/利益分割）
+- 第3章: 比較可能性分析
+- 第4章: 紛争回避・解決（MAP/APA等）
+- 第5章: 文書化（Master/Local/CbCR）
+- 第6章: 無形資産（DEMPE等）
+- 第7章: グループ内役務提供（Benefit test 等）
+- 第8章: 費用分担契約（CCA）
+- 第9章: 事業再編
+- 第10章: 金融取引
+
+URLパターン
+- shard index: `https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/data/shards_index.json`
+- shard TSV: `https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/data/shards/shard-XX.txt`
+- 本文: `https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/{id}.txt`

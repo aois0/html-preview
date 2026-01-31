@@ -1,0 +1,17 @@
+---
+id: "p170-4.125"
+pid: "4.125"
+page_start: 170
+page_end: 170
+section_id: "ch04"
+section_title: "第4章 移転価格に関する紛争の回避及び解決のための税務執行上のアプロ－チ"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p170-4.125.txt"
+---
+
+4.125 セーフハーバーの実施によって自国の課税ベースが浸食される可能性を受け
+入れるかどうかは、それぞれの国が決めることである。この政策的決定をする上で
+は、納税者及び税務当局にとってのセーフハーバーの確実性・簡素な執行、税収浸
+食の可能性との間に基本的なトレードオフ関係がある。
+E.4.4 公平性及び統一性の問題

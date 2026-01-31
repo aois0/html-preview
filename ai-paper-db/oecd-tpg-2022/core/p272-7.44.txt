@@ -1,0 +1,16 @@
+---
+id: "p272-7.44"
+pid: "7.44"
+page_start: 272
+page_end: 272
+section_id: "ch07"
+section_title: "第7章 企業グループ内役務提供に対する特別の配慮"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p272-7.44.txt"
+---
+
+7.44 この節では、D.2 節で議論する選択制の簡便法を適用する際の低付加価値企業
+グループ内役務提供に関して、定義上の問題を議論する。まず、選択制の簡便法を
+適用できる低付加価値企業グループ内役務の特徴を特定し、次に、その対象となら
+ない活動を特定し、最後にその対象となりえる役務の事例を列挙する。

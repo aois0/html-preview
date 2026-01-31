@@ -1,0 +1,16 @@
+---
+id: "p228-6.98"
+pid: "6.98"
+page_start: 228
+page_end: 228
+section_id: "ch06"
+section_title: "第6章 無形資産に対する特別の配慮"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p228-6.98.txt"
+---
+
+6.98 有形事業資産や役務提供に伴って、無形資産又はその権利が移転される場合
+がある。このような場合、無形資産が実際に移転されたかどうかを決定することが
+重要であり、移転された全ての無形資産を特定し、移転価格分析によって検討する
+ことが重要である。本パラグラフの原則は第 6章別添 Iの事例23-25で説明される。

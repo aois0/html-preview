@@ -1,0 +1,16 @@
+---
+id: "p053-1.160"
+pid: "1.160"
+page_start: 53
+page_end: 53
+section_id: "ch01"
+section_title: "第1章 独立企業原則"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p053-1.160.txt"
+---
+
+1.160 パラグラフ 9.126-9.131 では、事業再編を背景に、ロケーション・セービン
+グの取扱いを論じている。これらのパラグラフで論じられている原則は、基本的に、
+事業再編だけではなく、ロケーション・セービングが存在する全ての状況に適用さ
+れる。

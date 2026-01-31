@@ -1,0 +1,15 @@
+---
+id: "p317-9.66"
+pid: "9.66"
+page_start: 317
+page_end: 317
+section_id: "ch09"
+section_title: "第9章 事業再編の移転価格に係る側面"
+subsection: "A.1 本章が対象とする事業再編"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p317-9.66.txt"
+---
+
+9.66 契約上の権利が、価値のある無形資産になる場合がある。価値のある契約上
+の権利が関連者間で譲渡（又は放棄）される場合、譲渡された権利の価値を譲渡側
+及び譲受側の双方の観点から考慮して、独立企業間価格が算定されるべきである。

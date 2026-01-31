@@ -1,0 +1,16 @@
+---
+id: "p181-4.168"
+pid: "4.168"
+page_start: 181
+page_end: 181
+section_id: "ch04"
+section_title: "第4章 移転価格に関する紛争の回避及び解決のための税務執行上のアプロ－チ"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p181-4.168.txt"
+---
+
+4.168 税務当局は、APA 手続の過程において提出された営業上の秘密及びその他の
+センシティブな情報及び書類の守秘義務を確保するべきである。したがって、開示
+に関する国内ルールが適用されるべきである。二国間 APA の場合は、条約相手国に
+対しては、守秘義務規定が働くので、秘密データの開示が防止される。

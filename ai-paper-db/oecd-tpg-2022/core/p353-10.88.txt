@@ -1,0 +1,17 @@
+---
+id: "p353-10.88"
+pid: "10.88"
+page_start: 353
+page_end: 353
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p353-10.88.txt"
+---
+
+10.88. 以下のパラグラフは、グループ内融資の価格設定について、様々なアプロー
+チを示している。その他の移転価格設定の状況と同様に、最も適切な方法の選択は、
+特に、機能分析を通して、正確に描写された実際の取引と一貫性がある必要がある
+（第 II章参照）。
+C.1.2.1 独立価格比準法（CUP法）

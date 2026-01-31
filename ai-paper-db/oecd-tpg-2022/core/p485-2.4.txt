@@ -1,0 +1,18 @@
+---
+id: "p485-2.4"
+pid: "2.4"
+page_start: 485
+page_end: 486
+section_id: "ch05-app04"
+section_title: "第5章別添Ⅳ 国別報告書の実施パッケージ"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p485-2.4.txt"
+---
+
+2.4 コンフィギュレーション管理
+主要チェックリスト対象  コンフィギュレーション管理及びセキュリティ管理
+自国の税務当局は、システムのコンフィギュレーション及び更新を規律するため
+に、どのような方針を設けているか。当該方針は、公開されているか。公開されて
+いる場合は、その参照先を記載すること。公開されていない場合は、要約を記載す
+ること。

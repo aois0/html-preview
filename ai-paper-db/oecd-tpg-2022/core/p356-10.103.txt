@@ -1,0 +1,16 @@
+---
+id: "p356-10.103"
+pid: "10.103"
+page_start: 356
+page_end: 356
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p356-10.103.txt"
+---
+
+10.103. したがって、グループ内融資に関するリスクプレミアムを見積もるために
+クレジット・デフォルト・スワップを使用する場合、上記の状況を慎重に考慮して
+独立企業間金利を導き出す必要があるだろう。
+C.1.2.5 経済的モデリング

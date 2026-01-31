@@ -1,0 +1,14 @@
+---
+id: "p354-10.94"
+pid: "10.94"
+page_start: 354
+page_end: 354
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p354-10.94.txt"
+---
+
+10.94. 比較可能性の問題を検討する際、内部 CUP の可能性を見落とすべきではな
+い。

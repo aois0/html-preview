@@ -1,0 +1,17 @@
+---
+id: "p031-1.80"
+pid: "1.80"
+page_start: 31
+page_end: 31
+section_id: "ch01"
+section_title: "第1章 独立企業原則"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p031-1.80.txt"
+---
+
+1.80 しかし、関連者間においては、リスクはあるが潜在的に高い収益と、リス
+クは低いが潜在的に低い収益とを契約上交換することが、自動的に独立企業間原則
+に沿ったものというわけではない。本節の残りのステップでは、リスクに関連する
+実際の取引を正確に描写するために、関連者がどのようにリスクの引受け・マネジ
+メントを行うか判断するために必要な情報について説明する。

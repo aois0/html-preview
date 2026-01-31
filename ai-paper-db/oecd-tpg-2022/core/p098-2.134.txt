@@ -1,0 +1,17 @@
+---
+id: "p098-2.134"
+pid: "2.134"
+page_start: 98
+page_end: 98
+section_id: "ch02"
+section_title: "第2章 移転価格算定手法"
+subsection: "A 事案の状況に応じた最適な移転価格算定手法の選択"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p098-2.134.txt"
+---
+
+2.134. 事案によっては、当事者が、それぞれの貢献を個別に評価することが不可能
+なレベルで、共同で機能を果たし、資産を使用し、及び／又はリスクの引受けを共
+有しているかもしれない。例えば、取引単位利益分割法は、関連者間の金融商品の
+グローバル・トレーディングに適用することができる。「恒久的施設への利得の帰
+属に関する報告書 」第 III部C節参照。

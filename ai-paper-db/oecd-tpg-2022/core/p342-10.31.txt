@@ -1,0 +1,14 @@
+---
+id: "p342-10.31"
+pid: "10.31"
+page_start: 342
+page_end: 342
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p342-10.31.txt"
+---
+
+10.31. 金融商品の価格は、裏付けとなる経済状況、例えば通貨、地理的位置、現地
+の規制、借手の事業分野、取引の時期の差異などにより大きく異なる。

@@ -1,0 +1,15 @@
+---
+id: "p017-1.41"
+pid: "1.41"
+page_start: 17
+page_end: 17
+section_id: "ch01"
+section_title: "第1章 独立企業原則"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p017-1.41.txt"
+---
+
+1.41 特定の価格設定方法の適用において、これらの要因がどの程度関連してい
+るかという点に関しては、第 2 章におけるそれらの方法に関する考察を参照のこと。
+D.1.1. 取引の契約条件

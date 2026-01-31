@@ -1,0 +1,14 @@
+---
+id: "p368-10.162"
+pid: "10.162"
+page_start: 368
+page_end: 368
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p368-10.162.txt"
+---
+
+10.162. 本節は、グループ・メンバーシップが独立企業間の金融保証価格の決定に
+及ぼす影響について、C.1.1節で述べた原則に基づき詳細に説明する。

@@ -1,0 +1,17 @@
+---
+id: "p195-5.52"
+pid: "5.52"
+page_start: 195
+page_end: 195
+section_id: "ch05"
+section_title: "第5章 移転価格文書化"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p195-5.52.txt"
+---
+
+5.52 直前の事業年度におけるグループの年間連結収入が 7億 5,000万 EUR相当未
+満又は 2015 年 1 月時点の国内通貨への為替換算相当額の多国籍企業グループについ
+ては、対象から除かれる。そのため、例えば、多国籍企業グループの 2015 年の連結
+収入（事業年度は暦年）が 6億 2,500万 EURであれば、至 2016年 12月 31日の事業
+年度に関し、いずれの国に対しても国別報告書を提出する必要がない。

@@ -1,0 +1,14 @@
+---
+id: "p362-10.132"
+pid: "10.132"
+page_start: 362
+page_end: 362
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p362-10.132.txt"
+---
+
+10.132. 上で述べた原則について以下の事例を用いて解説する。
+事例1

@@ -1,0 +1,16 @@
+---
+id: "p040-1.109"
+pid: "1.109"
+page_start: 40
+page_end: 40
+section_id: "ch01"
+section_title: "第1章 独立企業原則"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p040-1.109.txt"
+---
+
+1.109. リスク・フリー・レートは、損失のリスクが存在しない投資に期待される仮
+想の利益である。究極的に、ゼロリスクの投資は存在しないところ、リスク・フリ
+ー・レートを推計するための利用可能な代替的指標の信頼性は、広く受け入れられ
+ている事実と状況による。

@@ -1,0 +1,17 @@
+---
+id: "p039-1.107"
+pid: "1.107"
+page_start: 39
+page_end: 39
+section_id: "ch01"
+section_title: "第1章 独立企業原則"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p039-1.107.txt"
+---
+
+1.107. 第 1 章のこのセクションは、これらのガイドラインの本章及び第 6 章のガイ
+ダンスに基づいて、関連者がリスク・フリー・レート及びリスク調整後利益対して
+権利が与えられている状況における、リスク・フリー・レート及びリスク調整後利
+益率の決定方法に関するガイダンスを提供する。
+D.1.2.2.1 リスク・フリー・レートの決定

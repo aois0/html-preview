@@ -1,0 +1,17 @@
+---
+id: "p152-4.57"
+pid: "4.57"
+page_start: 152
+page_end: 152
+section_id: "ch04"
+section_title: "第4章 移転価格に関する紛争の回避及び解決のための税務執行上のアプロ－チ"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p152-4.57.txt"
+---
+
+4.57 より根本的には、CA が当該規定の 2 年間で解決できなかった問題を解決する
+ために、第 25 条第 5 項のような強制的で拘束力のある仲裁規定を租税条約に採用す
+れば、相互協議が長期化するリスクを大幅に減少させるはずである。パラグラフ
+4.177-4.179参照のこと。
+C.4.4 納税者の参加

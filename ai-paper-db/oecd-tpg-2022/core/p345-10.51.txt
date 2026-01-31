@@ -1,0 +1,15 @@
+---
+id: "p345-10.51"
+pid: "10.51"
+page_start: 345
+page_end: 345
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p345-10.51.txt"
+---
+
+10.51. 関連者である借手と貸手の間の商業上又は財務上の関係の検討、及び取引の
+経済的な特徴の分析に当たっては、貸手及び借手の視点は常に一致するわけではな
+いことを認識しつつ、双方の視点を考慮する必要がある。

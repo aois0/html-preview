@@ -1,0 +1,15 @@
+---
+id: "p366-10.152"
+pid: "10.152"
+page_start: 366
+page_end: 366
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p366-10.152.txt"
+---
+
+10.152. リスクヘッジを集中した財務担当企業が、契約主体の事業運営企業のため
+にヘッジング契約を締結する場合、財務担当企業は当該運営企業に対して、独立企
+業原則に基づく報酬を受けるべき役務を提供していると見ることができる。

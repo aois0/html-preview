@@ -1,0 +1,15 @@
+---
+id: "p128-3.56"
+pid: "3.56"
+page_start: 128
+page_end: 128
+section_id: "ch03"
+section_title: "第3章 比較可能性分析"
+subsection: "A 比較可能性分析の実施"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p128-3.56.txt"
+---
+
+3.56 検討している比較対象取引の全てについて同じ程度の比較可能性が認められ
+るわけではない場合もある。ある非関連者間取引の比較可能性の程度が他よりも劣
+ると判断することが可能である場合、この取引を除外すべきである。

@@ -1,0 +1,15 @@
+---
+id: "p344-10.43"
+pid: "10.43"
+page_start: 344
+page_end: 344
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p344-10.43.txt"
+---
+
+10.43. 財務が責任を負っている活動のその他の例として、負債による調達（債券発
+行、銀行融資、その他の方法による）及び株主資本による調達、並びに多国籍企業
+グループ外の銀行及び独立信用格付機関との関係の対処が挙げられる。

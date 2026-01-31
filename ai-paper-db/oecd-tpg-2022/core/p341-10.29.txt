@@ -1,0 +1,17 @@
+---
+id: "p341-10.29"
+pid: "10.29"
+page_start: 341
+page_end: 342
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p341-10.29.txt"
+---
+
+10.29. 例えば、融資の場合、特徴として以下が挙げられるが、これらに限定される
+わけではない：融資額、その期間、返済計画、融資の性質又は目的（企業間信用、
+合併／吸収、担保など）、優先劣後の水準、借手の地理的位置、通貨、提供担保、
+保証の有無及びその質、固定金利か変動金利か。
+B.3.4. 経済状況

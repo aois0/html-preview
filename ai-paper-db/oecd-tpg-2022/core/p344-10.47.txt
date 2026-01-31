@@ -1,0 +1,14 @@
+---
+id: "p344-10.47"
+pid: "10.47"
+page_start: 344
+page_end: 344
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p344-10.47.txt"
+---
+
+10.47. 他の状況では、財務がより複雑な機能を果たしていることが認識され、その
+ため、それに応じて補償されなければならないかもしれない。

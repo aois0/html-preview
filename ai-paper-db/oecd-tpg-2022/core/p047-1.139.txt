@@ -1,0 +1,15 @@
+---
+id: "p047-1.139"
+pid: "1.139"
+page_start: 47
+page_end: 47
+section_id: "ch01"
+section_title: "第1章 独立企業原則"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p047-1.139.txt"
+---
+
+1.139 前節の指針に従うことで、当事者間の商業上又は財務上の関係の実態が移
+転価格分析によって特定され、また、実際の取引が経済的な特徴の分析によって正
+確に描写されるであろう。

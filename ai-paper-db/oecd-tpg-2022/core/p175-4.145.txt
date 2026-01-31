@@ -1,0 +1,16 @@
+---
+id: "p175-4.145"
+pid: "4.145"
+page_start: 175
+page_end: 175
+section_id: "ch04"
+section_title: "第4章 移転価格に関する紛争の回避及び解決のための税務執行上のアプロ－チ"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p175-4.145.txt"
+---
+
+4.145 一般的には、関連者は、関係税務当局に事案を説明し、交渉し、移転価格に
+関する必要な情報を提供し、合意に達することを通じて、APA 手続に参加すること
+が認められる。関連者の立場から見れば、このような形で参加できることは、伝統
+的な相互協議よりは、有利なものと考えられる。

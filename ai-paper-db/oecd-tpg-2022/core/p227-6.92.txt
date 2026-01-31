@@ -1,0 +1,15 @@
+---
+id: "p227-6.92"
+pid: "6.92"
+page_start: 227
+page_end: 227
+section_id: "ch06"
+section_title: "第6章 無形資産に対する特別の配慮"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p227-6.92.txt"
+---
+
+6.92 無形資産（無形資産に係る限定的な権利を含む。）は、個別に又は他の無形
+資産と併せて移転されることがある。無形資産が組み合わされて移転される取引を
+検討する際、二つの関連する問題が生じる場合が多い。

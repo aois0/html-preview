@@ -1,0 +1,15 @@
+---
+id: "p362-10.134"
+pid: "10.134"
+page_start: 362
+page_end: 362
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p362-10.134.txt"
+---
+
+10.134. M は非関連銀行とグループ内キャッシュプーリング契約を締結する。法的
+取決めが参加企業全てに対して定められ、これにより各プール参加企業の一定の目
+標残高が達成されるように Mのキャッシュ集中口座との間で入出金が可能になる。
