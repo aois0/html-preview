@@ -1,0 +1,17 @@
+---
+id: "p292-8.35"
+pid: "8.35"
+page_start: 292
+page_end: 292
+section_id: "ch08"
+section_title: "第8章 費用分担契約"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p292-8.35.txt"
+---
+
+8.35 調整的支払は、参加者の貢献の割合が参加者の相対的な期待収益よりも小さい
+場合、参加者が貢献の価値を「上乗せ」するために行われることがある。このよう
+な調整は、参加者が CCA 締結時に予想したものであるか、又は期待収益の持分及び
+／又は参加者の貢献価値の定期的な再評価の結果かもしれない（パラグラフ 8.22 参
+照）。

@@ -1,0 +1,17 @@
+---
+id: "p181-4.171"
+pid: "4.171"
+page_start: 181
+page_end: 181
+section_id: "ch04"
+section_title: "第4章 移転価格に関する紛争の回避及び解決のための税務執行上のアプロ－チ"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p181-4.171.txt"
+---
+
+4.171 ユニラテラル APA の問題と同様、加盟国間での APA の形式及び対象に係る
+問題を完全に解決し合意するためには、より多くの経験が必要である。OECD 租税
+委員会は、APA の幅広い活用を慎重にモニタリングするとともに、APA を利用する
+国における、実務上の継続性を奨励していく。
+F.5.2 対象範囲

@@ -1,0 +1,17 @@
+---
+id: "p219-6.67"
+pid: "6.67"
+page_start: 219
+page_end: 219
+section_id: "ch06"
+section_title: "第6章 無形資産に対する特別の配慮"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p219-6.67.txt"
+---
+
+6.67 グループのどのメンバーが無形資産に関連するリスクを引き受けているかを判
+定する際には、第 1章 D.1.2の原則が適用される。特に、無形資産の開発・改良・維
+持・保護・使用に関するリスクをどの当事者が引き受けるかを判定する場合には、
+パラグラフ 1.60 で示されている関連者間取引におけるリスク分析プロセスのステッ
+プ1-5に従うべきである。

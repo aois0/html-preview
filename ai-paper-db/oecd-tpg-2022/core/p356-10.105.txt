@@ -1,0 +1,16 @@
+---
+id: "p356-10.105"
+pid: "10.105"
+page_start: 356
+page_end: 357
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p356-10.105.txt"
+---
+
+10.105. 最も一般的な経済的モデルでは、リスクフリー金利と融資の様々な側面（例
+えば、デフォルトリスク、流動性リスク、予想インフレ率、満期日）に関係するい
+くつかのプレミアムとを結び付けて金利を算出する。場合によっては、経済的モデ
+ルの中には貸手の運用費用を補填する要素を含むモデルもあるだろう。

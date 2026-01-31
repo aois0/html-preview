@@ -1,0 +1,14 @@
+---
+id: "p111-2.184"
+pid: "2.184"
+page_start: 111
+page_end: 111
+section_id: "ch02"
+section_title: "第2章 移転価格算定手法"
+subsection: "A 事案の状況に応じた最適な移転価格算定手法の選択"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p111-2.184.txt"
+---
+
+2.184. パラグラフ 2.1-2.12は、事案の状況に最も適した移転価格算定手法の選択につ
+いての指針を提供している。

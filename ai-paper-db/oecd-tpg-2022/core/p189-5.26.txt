@@ -1,0 +1,16 @@
+---
+id: "p189-5.26"
+pid: "5.26"
+page_start: 189
+page_end: 190
+section_id: "ch05"
+section_title: "第5章 移転価格文書化"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p189-5.26.txt"
+---
+
+5.26 本ガイドライン第5章別添Ⅲは、国別報告書標準様式及び記載要領について記
+載している。
+D コンプライアンスに関する論点
+D.1 同時文書化

@@ -1,0 +1,15 @@
+---
+id: "p326-9.100"
+pid: "9.100"
+page_start: 326
+page_end: 326
+section_id: "ch09"
+section_title: "第9章 事業再編の移転価格に係る側面"
+subsection: "A.1 本章が対象とする事業再編"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p326-9.100.txt"
+---
+
+9.100 事業再編には変更が伴うが、独立企業原則は、再編後の取引に対してのみな
+らず、事業再編を構成する取引に対しても適用されなければならない。この事業再
+編に係る取引への独立企業原則の適用は、本章第Ⅰ部で議論している。

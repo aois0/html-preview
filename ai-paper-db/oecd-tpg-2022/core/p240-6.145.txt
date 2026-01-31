@@ -1,0 +1,17 @@
+---
+id: "p240-6.145"
+pid: "6.145"
+page_start: 240
+page_end: 240
+section_id: "ch06"
+section_title: "第6章 無形資産に対する特別の配慮"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p240-6.145.txt"
+---
+
+6.145 複数の無形資産の移転が関わる問題において、最も有益と考えられる移転価
+格算定手法は、CUP 法及び取引単位利益分割法である。評価テクニックは、有効な
+方法となり得る。無形資産の移転に関して最も有益と考えられる移転価格算定手法
+について、補足指針を以下に示す。
+D.2.6.1 CUP法の適用

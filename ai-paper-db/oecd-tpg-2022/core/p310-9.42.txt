@@ -1,0 +1,17 @@
+---
+id: "p310-9.42"
+pid: "9.42"
+page_start: 310
+page_end: 310
+section_id: "ch09"
+section_title: "第9章 事業再編の移転価格に係る側面"
+subsection: "A.1 本章が対象とする事業再編"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p310-9.42.txt"
+---
+
+9.42 B で議論したとおり、再編自体にある形式の対価が生じるか否かを独立企業
+原則に照らして決定するためには、当該再編の理解が必須であり、これには、事業
+再編による変更点、それが当事者の機能分析に及ぼした影響、再編の事業上の理由、
+再編の期待収益、当事者が実際に利用できた選択肢に関する理解も含まれる。
+D.2 リスク・潜在的利益の再配分

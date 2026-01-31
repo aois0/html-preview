@@ -1,0 +1,15 @@
+---
+id: "p172-4.132"
+pid: "4.132"
+page_start: 172
+page_end: 172
+section_id: "ch04"
+section_title: "第4章 移転価格に関する紛争の回避及び解決のための税務執行上のアプロ－チ"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p172-4.132.txt"
+---
+
+4.132 より複雑で移転価格上のリスクが高いものについては、セーフハーバーが本
+ガイドラインの記述に基づき独立企業原則を正確に個別に適用することに対する実
+効的な代替となるとは考えにくい。

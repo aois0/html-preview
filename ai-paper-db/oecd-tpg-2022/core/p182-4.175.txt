@@ -1,0 +1,17 @@
+---
+id: "p182-4.175"
+pid: "4.175"
+page_start: 182
+page_end: 182
+section_id: "ch04"
+section_title: "第4章 移転価格に関する紛争の回避及び解決のための税務執行上のアプロ－チ"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p182-4.175.txt"
+---
+
+4.175 APA を採用する国の間で、APA の執行がより一貫したものとなるのであれば、
+それは税務当局及び納税者の双方にとって有用となる。したがって、そのような国
+の税務当局は、APA を引き受けるに当たって CA との間で作業取決めを検討するで
+あろう。この取決めには、納税者が移転価格上の問題に係る APA を申請した場合、
+相互合意に達するための一般的な指針と了解事項とが規定されるだろう。

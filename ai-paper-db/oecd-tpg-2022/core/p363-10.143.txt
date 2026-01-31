@@ -1,0 +1,17 @@
+---
+id: "p363-10.143"
+pid: "10.143"
+page_start: 363
+page_end: 364
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p363-10.143.txt"
+---
+
+10.143. キャッシュプール・メンバーに対する報酬は、プール内の余剰又は不足の
+各残高に適用される独立企業間金利の算定を通して計算されるだろう。キャッシュ
+プール契約によるシナジーに関わる便益は、この決定に基づきプール・メンバー間
+に割り当てられ、通常キャッシュプール・リーダーに対する報酬が決定された後割
+り当てられることになる。

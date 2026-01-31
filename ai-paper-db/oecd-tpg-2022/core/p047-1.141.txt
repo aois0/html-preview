@@ -1,0 +1,17 @@
+---
+id: "p047-1.141"
+pid: "1.141"
+page_start: 47
+page_end: 47
+section_id: "ch01"
+section_title: "第1章 独立企業原則"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p047-1.141.txt"
+---
+
+1.141 独立企業原則の下、正確に描写された実際の取引の価格を設定するため、
+あらゆる努力がなされるべきである。この分析を実施するために税務当局と納税者
+が利用可能な様々な手段と方法が、ガイドラインの次章以降で示されている。税務
+当局は、以下のパラグラフ 1.142-1.145 で示す例外を除き、実際の取引を否認するこ
+とも取引を引き直すこともすべきではない。

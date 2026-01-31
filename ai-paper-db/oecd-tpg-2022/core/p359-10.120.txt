@@ -1,0 +1,17 @@
+---
+id: "p359-10.120"
+pid: "10.120"
+page_start: 359
+page_end: 360
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p359-10.120.txt"
+---
+
+10.120. パラグラフ 1.179で示したとおり、意図的な協調的グループ行動の結果とし
+て何が生じるかは、徹底した機能分析をしなければ算定することはできない。そこ
+で、キャッシュプーリング契約に関しては、(i) メリット及びデメリットの性質、(ii)
+便益又は損害を受ける金額、(iii) その便益又は損害が多国籍企業グループメンバー間
+でどのように配分されるのか、を算定する必要がある。

@@ -1,0 +1,16 @@
+---
+id: "p341-10.26"
+pid: "10.26"
+page_start: 341
+page_end: 341
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p341-10.26.txt"
+---
+
+10.26. 借手の視点では、関連する機能とは、通常、融資の元利金を期日に返済する
+資金の利用可能性の確保、必要に応じて担保の提供、融資契約から生じるその他の
+義務のモニタリング及び履行を指す（本章 C.1.1.1 の「貸手及び借手の視点」に関す
+るコメント参照）。

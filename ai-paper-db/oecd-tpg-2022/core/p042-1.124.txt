@@ -1,0 +1,15 @@
+---
+id: "p042-1.124"
+pid: "1.124"
+page_start: 42
+page_end: 42
+section_id: "ch01"
+section_title: "第1章 独立企業原則"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p042-1.124.txt"
+---
+
+1.124. リスク調整後利益率を決定するためのもう一つのアプローチは、類似する条
+件及び状況において発行された金融商品に関する市場で利用可能な情報に基づいて、
+リスクフリー利益にリスクプレミアムを加えることである。

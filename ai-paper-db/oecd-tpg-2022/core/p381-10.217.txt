@@ -1,0 +1,16 @@
+---
+id: "p381-10.217"
+pid: "10.217"
+page_start: 381
+page_end: 381
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p381-10.217.txt"
+---
+
+10.217. 比較可能な非関連者間価格は、非関連者の間の比較可能な協定から得るこ
+とができるかもしれない。もしもキャプティブ保険が非関連者である顧客と適切に
+類似するビジネスを行っていれば、それらは内部比較対象であるかもしれないが、
+あるいは、外部比較対象が存在するかもしれない。

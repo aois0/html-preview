@@ -1,0 +1,16 @@
+---
+id: "p366-10.154"
+pid: "10.154"
+page_start: 366
+page_end: 366
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p366-10.154.txt"
+---
+
+10.154. 本節では、一定のグループ内取引に関する金融保証について検討する。金
+融保証の移転価格に対する影響を検討するためには、まず、第 1 章 D.1 節に従って
+実際の取引を正確に描写することにより、保証される債務の性質及び範囲並びに全
+ての当事者に及ぼす影響を理解する必要がある。

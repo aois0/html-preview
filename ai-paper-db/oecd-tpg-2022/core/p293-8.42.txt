@@ -1,0 +1,17 @@
+---
+id: "p293-8.42"
+pid: "8.42"
+page_start: 293
+page_end: 294
+section_id: "ch08"
+section_title: "第8章 費用分担契約"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p293-8.42.txt"
+---
+
+8.42 サービス CCAにおいては、参加者の CCAへの貢献はコスト削減という形で収
+益をもたらすことが多いだろう（この場合、CCA 活動から直接発生する収益はない
+かもしれない）。開発 CCA においては、参加者の期待収益が、貢献の一定期間経過
+後に初めて実現するかもしれず、したがって、貢献時点では、参加者が直ちに貢献
+に係る収益を認識することはない。

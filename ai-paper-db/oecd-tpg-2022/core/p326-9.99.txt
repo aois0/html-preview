@@ -1,0 +1,16 @@
+---
+id: "p326-9.99"
+pid: "9.99"
+page_start: 326
+page_end: 326
+section_id: "ch09"
+section_title: "第9章 事業再編の移転価格に係る側面"
+subsection: "A.1 本章が対象とする事業再編"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p326-9.99.txt"
+---
+
+9.99 既存の形態の再編によって生じたか否かにかかわらず、比較可能な状況は、
+同様に扱われなければならない。実際の取引の正確な描写につながる取引の経済的
+な特徴に基づいて、描写移転価格算定手法が適切に選択され、適用されなければな
+らない。

@@ -1,0 +1,17 @@
+---
+id: "p337-10.9"
+pid: "10.9"
+page_start: 337
+page_end: 337
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p337-10.9.txt"
+---
+
+10.9. したがって、このガイダンスは、各国が国内法に基づき、事業体の負債によ
+る資金調達と株式による資金調達のバランス及び利子損金算入に対するアプローチ
+を執行することを妨げるものではなく、また、第 1 章の正確な描写を、借入と称す
+る取引を借入と見なすべきか否かを決定する際の唯一のアプローチとして義務づけ
+ることを意図するものでもない。

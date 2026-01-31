@@ -1,0 +1,16 @@
+---
+id: "p328-9.107"
+pid: "9.107"
+page_start: 328
+page_end: 328
+section_id: "ch09"
+section_title: "第9章 事業再編の移転価格に係る側面"
+subsection: "A.1 本章が対象とする事業再編"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p328-9.107.txt"
+---
+
+9.107 これと同じ見解や問題は、販売事業、製造事業、研究開発事業などのサービ
+ス事業等を含め、その他の種類の再編にも当てはまる。
+B 事業再編への適用：再編後の関連者間取引に対する移転価格算定手法の選択と
+適用

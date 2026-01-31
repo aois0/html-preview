@@ -1,0 +1,16 @@
+---
+id: "p021-1.53"
+pid: "1.53"
+page_start: 21
+page_end: 21
+section_id: "ch01"
+section_title: "第1章 独立企業原則"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p021-1.53.txt"
+---
+
+1.53 したがって、商業上又は財務上の関係における経済的な特徴を特定するプ
+ロセスは、当事者の能力、その能力が実際に利用可能な選択肢にどのような影響を
+与えるか、そして潜在的に比較しうる非関連者間取引において同様の能力が反映さ
+れているかどうかについて、考慮すべきである。

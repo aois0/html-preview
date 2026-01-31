@@ -1,0 +1,15 @@
+---
+id: "p346-10.59"
+pid: "10.59"
+page_start: 346
+page_end: 346
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p346-10.59.txt"
+---
+
+10.59. 借手もまた、借手の事業が予期しない困難に見舞われた際の融資元利金返済
+の不履行リスクと同様に金利及び為替レートなどの経済状況の変化の影響や、必要
+なときに資金調達（負債又は資本）ができないリスクを考慮するだろう。

@@ -1,0 +1,16 @@
+---
+id: "p362-10.131"
+pid: "10.131"
+page_start: 362
+page_end: 362
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p362-10.131.txt"
+---
+
+10.131. キャッシュプール・リーダーが調整機能又は代理人機能以外の活動を行っ
+ているか否かは実際の取引の正確な描写によって決定されるが、これら取引の価格
+設定は必要に応じて本ガイドラインの他の箇所に記載された方法に基づき実施され
+ることになろう。

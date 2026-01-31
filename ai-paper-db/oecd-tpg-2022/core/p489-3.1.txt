@@ -1,0 +1,20 @@
+---
+id: "p489-3.1"
+pid: "3.1"
+page_start: 489
+page_end: 490
+section_id: "ch05-app04"
+section_title: "第5章別添Ⅳ 国別報告書の実施パッケージ"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p489-3.1.txt"
+---
+
+3.1 罰則及び制裁
+ 不正開示に対して科される罰則
+主要チェックリスト対象
+ リスク軽減行動
+自国の税務当局は、秘密情報の不正開示に対して罰則を科す能力を有するか。当該
+罰則は、条約又は TIEA の相手国との間で交換される秘密情報の不正開示にも適用さ
+れるか。当該罰則は、公開されているか。公開されている場合は、その参照先を記
+載すること。公開されていない場合は、要約を記載すること。

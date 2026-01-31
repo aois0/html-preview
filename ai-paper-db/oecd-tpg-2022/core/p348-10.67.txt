@@ -1,0 +1,15 @@
+---
+id: "p348-10.67"
+pid: "10.67"
+page_start: 348
+page_end: 348
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p348-10.67.txt"
+---
+
+10.67. スタートアップ事業体や、最近合併の対象となった事業体の場合のように、
+グループ事業体の信用格付けに影響を及ぼす可能性がある特別な状況があり得る。
+これらの特別な状況を、考慮に入れる必要がある。

@@ -1,0 +1,15 @@
+---
+id: "p373-10.183"
+pid: "10.183"
+page_start: 373
+page_end: 373
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p373-10.183.txt"
+---
+
+10.183. 以下の事例は、第 1 章 D.8 節、とりわけパラグラフ 1.187、において考察し
+た原則に基づくものである。
+D.3.1. 事例1

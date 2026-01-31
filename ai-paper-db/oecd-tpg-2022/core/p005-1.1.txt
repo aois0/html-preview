@@ -1,0 +1,16 @@
+---
+id: "p005-1.1"
+pid: "1.1"
+page_start: 5
+page_end: 5
+section_id: "ch01"
+section_title: "第1章 独立企業原則"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p005-1.1.txt"
+---
+
+1.1 本章は、OECD 加盟国が多国籍企業及び税務当局が用いるべき税務上の基準
+として合意した、国際的な移転価格算定基準である独立企業原則の背景を論じる。
+本章は、独立企業原則について論じ、その国際基準としての地位を再確認するとと
+もに、これを適用するための指針を提供する｡

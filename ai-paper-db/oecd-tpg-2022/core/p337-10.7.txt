@@ -1,0 +1,15 @@
+---
+id: "p337-10.7"
+pid: "10.7"
+page_start: 337
+page_end: 337
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p337-10.7.txt"
+---
+
+10.7. 取引に関する取決めが、全体としてみると、比較可能な状況においてビジネ
+ス上合理的に行動する独立企業が採用するであろう取決めとは異なると考えられる
+場合には、第1章D.2のガイダンスも関連してくる。

@@ -1,0 +1,16 @@
+---
+id: "p373-10.184"
+pid: "10.184"
+page_start: 373
+page_end: 373
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p373-10.184.txt"
+---
+
+10.184. M 社は、多国籍企業グループの親会社であるが、多国籍企業グループの連
+結貸借対照表の強さに基づいて AAA の信用格付けを維持している。D 社は、同一の
+多国籍企業グループのメンバーであるが、単独では BBB の信用格付けしか得ること
+ができず、独立した貸手から 10百万ユーロを借り入れる必要がある。

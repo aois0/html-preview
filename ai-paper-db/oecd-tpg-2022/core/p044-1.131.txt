@@ -1,0 +1,15 @@
+---
+id: "p044-1.131"
+pid: "1.131"
+page_start: 44
+page_end: 44
+section_id: "ch01"
+section_title: "第1章 独立企業原則"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p044-1.131.txt"
+---
+
+1.131 サイクル（例えば経済、景気又は製品のサイクル）の存在は、特定される
+べき経済状況の一つである。サイクルが存在する場合の複数年度データの使用につ
+いては、パラグラフ 3.77参照。

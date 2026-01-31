@@ -1,0 +1,15 @@
+---
+id: "p194-5.48"
+pid: "5.48"
+page_start: 194
+page_end: 194
+section_id: "ch05"
+section_title: "第5章 移転価格文書化"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p194-5.48.txt"
+---
+
+5.48 本節では、移転価格文書、特に国別報告書の要件が、確実に効果的かつ整合
+的に実施されるための指針が定められている。
+E.1 マスターファイル及びローカルファイル

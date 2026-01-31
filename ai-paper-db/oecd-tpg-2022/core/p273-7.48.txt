@@ -1,0 +1,16 @@
+---
+id: "p273-7.48"
+pid: "7.48"
+page_start: 273
+page_end: 273
+section_id: "ch07"
+section_title: "第7章 企業グループ内役務提供に対する特別の配慮"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p273-7.48.txt"
+---
+
+7.48 パラグラフ 7.45 で定義された簡便法が適用されない活動が高い収益性を生み
+出すことを意味するとは解釈すべきではない。当該活動は、低付加価値の活動かも
+しれず、このような活動に対する独立企業間対価があるとしても、パラグラフ 7.1か
+ら7.42に規定した指針に従って設定されるべきである。

@@ -1,0 +1,15 @@
+---
+id: "p189-5.21"
+pid: "5.21"
+page_start: 189
+page_end: 189
+section_id: "ch05"
+section_title: "第5章 移転価格文書化"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p189-5.21.txt"
+---
+
+5.21 本ガイドライン第5章別添Ⅰは、マスターファイルに記載される情報を定めて
+いる。
+C.2 ローカルファイル

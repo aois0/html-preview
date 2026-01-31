@@ -1,0 +1,15 @@
+---
+id: "p331-9.119"
+pid: "9.119"
+page_start: 331
+page_end: 331
+section_id: "ch09"
+section_title: "第9章 事業再編の移転価格に係る側面"
+subsection: "A.1 本章が対象とする事業再編"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p331-9.119.txt"
+---
+
+9.119 前後比較に関する別の論点は、再編対象のメンバーが失った機能、資産、リ
+スクが常に他メンバーに移転されるわけではないということを念頭に置きつつ、こ
+れら機能、資産、リスクの一括評価が難しそうなことである。

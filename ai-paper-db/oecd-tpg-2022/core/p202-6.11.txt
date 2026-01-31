@@ -1,0 +1,16 @@
+---
+id: "p202-6.11"
+pid: "6.11"
+page_start: 202
+page_end: 202
+section_id: "ch06"
+section_title: "第6章 無形資産に対する特別の配慮"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p202-6.11.txt"
+---
+
+6.11 無形資産が存在するか、また、いつ存在するかするか、及び無形資産が使用又
+は移転されたかの判断に当たっては、よく注意を払うべきである。例えば、全ての
+研究開発費が無形資産を創出し又はその価値を高めるわけではなく、全てのマーケ
+ティング活動が無形資産の創出又はその価値の向上をもたらすわけではない。

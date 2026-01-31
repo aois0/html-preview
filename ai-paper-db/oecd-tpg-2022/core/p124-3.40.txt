@@ -1,0 +1,14 @@
+---
+id: "p124-3.40"
+pid: "3.40"
+page_start: 124
+page_end: 124
+section_id: "ch03"
+section_title: "第3章 比較可能性分析"
+subsection: "A 比較可能性分析の実施"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p124-3.40.txt"
+---
+
+3.40 比較可能性を有する可能性のある非関連者間取引の把握には、基本的に二つ
+の方法がある。

@@ -1,0 +1,17 @@
+---
+id: "p038-1.104"
+pid: "1.104"
+page_start: 38
+page_end: 39
+section_id: "ch01"
+section_title: "第1章 独立企業原則"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p038-1.104.txt"
+---
+
+1.104 資金提供のリスクの引受けとその資金が使用される業務活動の関係につい
+ての指針は、パラグラフ 6.60-6.64 で示される。これらのパラグラフで示される考え
+方は、無形資産以外の資産への投資にも適用できる。
+2 A社は、例えばD.2.において取引が否認された場合、リスクフリーリターン未満しか受け取
+れない可能性がある。

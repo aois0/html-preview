@@ -1,0 +1,15 @@
+---
+id: "p084-2.83"
+pid: "2.83"
+page_start: 84
+page_end: 84
+section_id: "ch02"
+section_title: "第2章 移転価格算定手法"
+subsection: "A 事案の状況に応じた最適な移転価格算定手法の選択"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p084-2.83.txt"
+---
+
+2.83 原則として、（a） その関連者間取引に直接的又は間接的に関係する、かつ、
+（b） 営業性を有する、項目のみが取引単位営業利益法の適用上、営業利益指標の算
+定に際して考慮されるべきである。

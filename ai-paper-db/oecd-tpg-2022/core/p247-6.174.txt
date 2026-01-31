@@ -1,0 +1,16 @@
+---
+id: "p247-6.174"
+pid: "6.174"
+page_start: 247
+page_end: 248
+section_id: "ch06"
+section_title: "第6章 無形資産に対する特別の配慮"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p247-6.174.txt"
+---
+
+6.174 評価テクニックは、対象となる無形資産の耐用年数期間中に当該無形資産
+の使用から得られるキャッシュ・フローの予測を前提とすることが多い。そのよう
+な状況では、無形資産の実際の耐用年数の決定は、評価モデルの基礎となる重要な
+前提条件の一つとなる。

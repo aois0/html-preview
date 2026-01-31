@@ -1,0 +1,17 @@
+---
+id: "p120-3.24"
+pid: "3.24"
+page_start: 120
+page_end: 120
+section_id: "ch03"
+section_title: "第3章 比較可能性分析"
+subsection: "A 比較可能性分析の実施"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p120-3.24.txt"
+---
+
+3.24 比較可能な非関連間取引とは、調査対象の関連者間取引と比較することが可
+能な、二つの非関連者の間の取引である。これは、関連者間取引の一方の当事者と非
+関連者との間の比較可能な取引（「内部比較対象」）か、どちらも関連者間取引の当
+事者となっていない二つの非関連者の間の比較可能な取引（「外部比較対象」）かの
+いずれかである。

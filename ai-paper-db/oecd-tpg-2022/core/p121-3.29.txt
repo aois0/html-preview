@@ -1,0 +1,17 @@
+---
+id: "p121-3.29"
+pid: "3.29"
+page_start: 121
+page_end: 121
+section_id: "ch03"
+section_title: "第3章 比較可能性分析"
+subsection: "A 比較可能性分析の実施"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p121-3.29.txt"
+---
+
+3.29 外部比較対象の候補を把握するために使用できる情報ソースは様々である。
+ここでは、商業データベース、国外の比較対象、及び納税者に開示されない情報に関
+する論点を考察する。なお、信頼できる内部比較対象が存在する場合、外部比較対象
+を検索することは不要かもしれない。パラグラフ3.27-3.28参照。
+A.4.3.1 データベース

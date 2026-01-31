@@ -1,0 +1,15 @@
+---
+id: "p085-2.89"
+pid: "2.89"
+page_start: 85
+page_end: 86
+section_id: "ch02"
+section_title: "第2章 移転価格算定手法"
+subsection: "A 事案の状況に応じた最適な移転価格算定手法の選択"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p085-2.89.txt"
+---
+
+2.89 業務の中で前払金に係る金融取引を通常に行っている場合、一般に、営業利
+益指標の算定に当たって、利子と利子の性格を有する額の影響を踏まえることが適
+切であろう。

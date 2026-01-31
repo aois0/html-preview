@@ -1,0 +1,16 @@
+---
+id: "p188-5.19"
+pid: "5.19"
+page_start: 188
+page_end: 188
+section_id: "ch05"
+section_title: "第5章 移転価格文書化"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p188-5.19.txt"
+---
+
+5.19 マスターファイルに求められる情報は、多国籍企業グループの「青写真」を
+示し、5つのカテゴリー（ (a)多国籍企業グループの組織体系、(b)多国籍企業グルー
+プの事業概要、(c)多国籍企業の無形資産、(d)多国籍企業グループ内金融活動、(e)多
+国籍企業グループの財務状況及び納税状況）に分類される。

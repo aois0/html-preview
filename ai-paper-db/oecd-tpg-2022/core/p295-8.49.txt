@@ -1,0 +1,18 @@
+---
+id: "p295-8.49"
+pid: "8.49"
+page_start: 295
+page_end: 295
+section_id: "ch08"
+section_title: "第8章 費用分担契約"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p295-8.49.txt"
+---
+
+8.49 CCA が終了する場合、各参加者は、独立企業原則に基づき、（終了の結果行
+われた支払いなど実際に行われた調整的支払によって調整された）CCA の存続期間
+にわたる貢献の相対的持分に沿った CCA 活動の結果における持分について、ある場
+合にはその持分を保持すること、又は他の参加者へその持分を譲渡する場合には適
+切な対価が支払われることが求められる。
+E CCAの構造及び文書化に関する勧告

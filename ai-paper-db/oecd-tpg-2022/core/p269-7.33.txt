@@ -1,0 +1,16 @@
+---
+id: "p269-7.33"
+pid: "7.33"
+page_start: 269
+page_end: 269
+section_id: "ch07"
+section_title: "第7章 企業グループ内役務提供に対する特別の配慮"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p269-7.33.txt"
+---
+
+7.33 原価ベースの方法が事案の状況に最適な手法と判断される場合には、グループ
+の役務提供者によって負担される費用に対して、関連者間取引と非関連者間取引の
+比較の信頼性を高めるための調整を加えることが必要であるか否かを検討する分析
+が必要となるだろう。

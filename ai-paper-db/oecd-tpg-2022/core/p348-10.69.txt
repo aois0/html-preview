@@ -1,0 +1,15 @@
+---
+id: "p348-10.69"
+pid: "10.69"
+page_start: 348
+page_end: 348
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p348-10.69.txt"
+---
+
+10.69. 特定の債券発行に関する信用格付け（「発行格付け」）は、特定の金融商品
+に関連する発行体の信用力に関する評価である。発行格付けは、例えば、保証、担
+保及び信用力のレベルなど、金融商品の特定の特徴を考慮している。

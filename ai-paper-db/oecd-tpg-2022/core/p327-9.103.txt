@@ -1,0 +1,15 @@
+---
+id: "p327-9.103"
+pid: "9.103"
+page_start: 327
+page_end: 327
+section_id: "ch09"
+section_title: "第9章 事業再編の移転価格に係る側面"
+subsection: "A.1 本章が対象とする事業再編"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p327-9.103.txt"
+---
+
+9.103 当事者間に再編の前後で継続的な事業上の関係がある場合、以下の Cで議論
+されるように、再編前の事業又は再編自体の条件と、再編後の取決めの条件との間
+にも、相互関係があるかもしれない。

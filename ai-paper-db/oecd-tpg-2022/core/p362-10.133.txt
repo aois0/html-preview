@@ -1,0 +1,16 @@
+---
+id: "p362-10.133"
+pid: "10.133"
+page_start: 362
+page_end: 362
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p362-10.133.txt"
+---
+
+10.133. X は多国籍企業グループの親会社であり、その子会社である H、J、K、L
+は同じく子会社の M をキャッシュプール・リーダーとする物理的キャッシュプーリ
+ング契約に参加している。全ての参加者は同一の機能通貨を有し、その通貨がプー
+ルにおける唯一の通貨である。

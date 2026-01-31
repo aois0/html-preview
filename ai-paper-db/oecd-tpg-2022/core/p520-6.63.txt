@@ -1,0 +1,17 @@
+---
+id: "p520-6.63"
+pid: "6.63"
+page_start: 520
+page_end: 531
+section_id: "ch06-app01"
+section_title: "第6章別添Ⅰ 無形資産のガイダンスに係る事例"
+subsection: "X に係る無形資産の使用から生じる利益を享受する権利があるという事実を反映し"
+source: "2022translated.pdf"
+note: "Split into parts due to the 10k tokens/read constraint."
+parts:
+  - "core/p520-6.63.part-01.txt"
+  - "core/p520-6.63.part-02.txt"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p520-6.63.txt"
+---
+
+6.63 及び 6.64 で概説した原則に従って、金融上のリスクに係るコントロールの実行 の度合いに基づく。A社は、残余利益又は損失を留保する権利を有するであろう。 事例18 64. Primarni社は A国で設立され、事業を行っている。S社は Primarni社の関連者で ある。S社は B国で組織され、事業を行っている。Primarni社は、製品 Xに関する特 許発明品及び製造ノウハウを開発している。この事例において Primarni 社は、有効 な特許を全世界で取得している。Primarni社と S社はライセンス契約書を締結し、こ れに従って Primarni 社は、B 国で製品 X を

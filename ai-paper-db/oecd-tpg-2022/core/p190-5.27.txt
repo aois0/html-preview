@@ -1,0 +1,16 @@
+---
+id: "p190-5.27"
+pid: "5.27"
+page_start: 190
+page_end: 190
+section_id: "ch05"
+section_title: "第5章 移転価格文書化"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p190-5.27.txt"
+---
+
+5.27 各納税者は、取引時に合理的に入手できる情報に基づき、独立企業原則に則
+って、税務上の観点から移転価格を設定するよう努力すべきである。従って、納税
+者は通常、移転価格を設定する前に、それが税務上適正か否かを検討し、申告時に
+損益結果が独立企業原則に則っているかを確認するべきである。

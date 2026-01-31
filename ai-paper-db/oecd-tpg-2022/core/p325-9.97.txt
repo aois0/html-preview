@@ -1,0 +1,18 @@
+---
+id: "p325-9.97"
+pid: "9.97"
+page_start: 325
+page_end: 325
+section_id: "ch09"
+section_title: "第9章 事業再編の移転価格に係る側面"
+subsection: "A.1 本章が対象とする事業再編"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p325-9.97.txt"
+---
+
+9.97 独立企業間であれば、A 社と C 社が進んで補償費用を分担するであろう場合
+もある。再編によるメリットを、多国籍企業グループ内の他のメンバーが享受する
+場合、そのメンバーは直接的または間接的に補償の費用を負担するかもしれない。
+第Ⅱ部：再編後の関連者間取引の対価
+A 事業再編と「構築」
+A.1 一般原則：独立企業原則の同様な適用

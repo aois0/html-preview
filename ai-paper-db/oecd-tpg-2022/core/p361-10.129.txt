@@ -1,0 +1,15 @@
+---
+id: "p361-10.129"
+pid: "10.129"
+page_start: 361
+page_end: 361
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p361-10.129.txt"
+---
+
+10.129. キャッシュプール・リーダーに対する妥当な報酬は、事実と状況、果たさ
+れた機能、使用された資産及びキャッシュプーリング契約の推進上引き受けたリス
+クによるであろう。

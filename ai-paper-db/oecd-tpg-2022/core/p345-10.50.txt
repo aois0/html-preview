@@ -1,0 +1,18 @@
+---
+id: "p345-10.50"
+pid: "10.50"
+page_start: 345
+page_end: 345
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p345-10.50.txt"
+---
+
+10.50. 以下のセクションでは、多国籍企業グループ内でしばしば実施されるグルー
+プ内融資の提供、キャッシュプーリング及びヘッジ活動などのようないくつかの関
+連する財務活動から生じる移転価格の問題を概説していく。
+C.1. グループ内融資
+C.1.1. 概説
+C.1.1.1. 貸手及び借手の視点

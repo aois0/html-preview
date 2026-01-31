@@ -1,0 +1,16 @@
+---
+id: "p093-2.117"
+pid: "2.117"
+page_start: 93
+page_end: 93
+section_id: "ch02"
+section_title: "第2章 移転価格算定手法"
+subsection: "A 事案の状況に応じた最適な移転価格算定手法の選択"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p093-2.117.txt"
+---
+
+2.117. 取引単位利益分割法が最も適切な手法かどうかを判断するための指針は以下
+に記載されており、これには、関連するかもしれない取引の特徴の特定が含まれる。
+ただし、特定の移転価格算定手法が最も適切な手法であることを決定する規範的な
+ルールは存在しないことに留意することが重要である。

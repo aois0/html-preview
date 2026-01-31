@@ -1,0 +1,17 @@
+---
+id: "p336-10.4"
+pid: "10.4"
+page_start: 336
+page_end: 336
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p336-10.4.txt"
+---
+
+10.4. 多国籍企業グループの一員である借手事業体の負債による資金調達と株主資
+本による資金調達のバランスは、同一又は同様の環境で事業を行っている独立事業
+体のそれとは異なっている場合がある。この場合は、借手事業体が支払うべき利子
+額に影響する可能性があり、そのために、当該国で発生する利益に影響を与えるか
+もしれない。

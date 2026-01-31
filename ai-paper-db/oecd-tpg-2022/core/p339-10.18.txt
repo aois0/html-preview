@@ -1,0 +1,14 @@
+---
+id: "p339-10.18"
+pid: "10.18"
+page_start: 339
+page_end: 339
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p339-10.18.txt"
+---
+
+10.18. 関連者間のその他の取引の分析と同様に、独立企業原則を金融取引に適用す
+る際に、比較可能な状況で独立企業が同意するであろう条件を考慮すべきである。

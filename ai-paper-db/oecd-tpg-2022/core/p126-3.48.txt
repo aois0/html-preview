@@ -1,0 +1,16 @@
+---
+id: "p126-3.48"
+pid: "3.48"
+page_start: 126
+page_end: 127
+section_id: "ch03"
+section_title: "第3章 比較可能性分析"
+subsection: "A 比較可能性分析の実施"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p126-3.48.txt"
+---
+
+3.48 差異調整の例としては、関連者間取引と非関連者間取引の間で異なる会計慣
+行から生ずる差異を取り除くための会計上の一貫性の調整、比較可能でない重要な
+取引を取り除くための財務データの区分、資本、機能、資産又はリスクの差異の調
+整がある。

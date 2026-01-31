@@ -1,0 +1,16 @@
+---
+id: "p180-4.164"
+pid: "4.164"
+page_start: 180
+page_end: 180
+section_id: "ch04"
+section_title: "第4章 移転価格に関する紛争の回避及び解決のための税務執行上のアプロ－チ"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p180-4.164.txt"
+---
+
+4.164 上に述べた懸念に加え、APA が不適切に運用された場合には、以下に述べる
+ような多くの問題が生ずることになろう。そして、APA を認める税務当局は、APA
+の運用が進展するにつれてこれらの問題が生ずるのを排除するための多大な努力が
+必要となる。

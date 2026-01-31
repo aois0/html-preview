@@ -1,0 +1,17 @@
+---
+id: "p206-6.26"
+pid: "6.26"
+page_start: 206
+page_end: 206
+section_id: "ch06"
+section_title: "第6章 無形資産に対する特別の配慮"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p206-6.26.txt"
+---
+
+6.26 無形資産に係る限定的な権利は、書面、口頭若しくは黙示かどうかに関わらず、
+一般にライセンス又は他の類似する契約上の取決めにより移転される。そのように
+ライセンスされた権利は、使用範囲、使用期間、地理的範囲等が限定されることが
+ある。限定的な無形資産の権利自体は、本章 A.1の無形資産に該当する。
+A.4.6. のれん及び継続事業価値

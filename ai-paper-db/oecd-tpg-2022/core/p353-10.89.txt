@@ -1,0 +1,15 @@
+---
+id: "p353-10.89"
+pid: "10.89"
+page_start: 353
+page_end: 353
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p353-10.89.txt"
+---
+
+10.89. 実際の取引が正確に描写されたら、融資の全ての諸条件及び比較可能性の要
+素を考慮に入れ、借手の信用格付け又は特定の発行の格付けの検討に基づき、独立
+企業間金利を算定することができる。

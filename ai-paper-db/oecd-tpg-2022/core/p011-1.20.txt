@@ -1,0 +1,15 @@
+---
+id: "p011-1.20"
+pid: "1.20"
+page_start: 11
+page_end: 11
+section_id: "ch01"
+section_title: "第1章 独立企業原則"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p011-1.20.txt"
+---
+
+1.20 こうした議論とは別に、支持者たちは、全世界的定式配分では、原則として、
+国内の税務目的上、グループごとに一組の決算書を作成すればよいことから、納税
+者のコンプライアンス・コストを下げることができると主張する。

@@ -1,0 +1,14 @@
+---
+id: "p195-5.51"
+pid: "5.51"
+page_start: 195
+page_end: 195
+section_id: "ch05"
+section_title: "第5章 移転価格文書化"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p195-5.51.txt"
+---
+
+5.51 全ての多国籍企業グループに、国別報告書を毎年提出するよう求めることが
+推奨される。ただし、次の場合は、この限りではない。

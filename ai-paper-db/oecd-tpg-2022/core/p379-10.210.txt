@@ -1,0 +1,16 @@
+---
+id: "p379-10.210"
+pid: "10.210"
+page_start: 379
+page_end: 379
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p379-10.210.txt"
+---
+
+10.210. キャプティブ保険と関係するシナリオにおける実際の取引の正確な描写に
+は、キャプティブ保険が、引き受け機能に付随する経済的に重要なリスク（得に保
+険リスク）に関するコントロール機能を実行しているか否かの識別が、これらのリ
+スクがキャプティブ保険に割り当てられているか否かを決定するために必要である。

@@ -1,0 +1,19 @@
+---
+id: "p483-1.1"
+pid: "1.1"
+page_start: 483
+page_end: 483
+section_id: "ch05-app04"
+section_title: "第5章別添Ⅳ 国別報告書の実施パッケージ"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p483-1.1.txt"
+---
+
+1.1 租税条約、TIEAなどの情報交換取決め
+ 交換される情報の秘密保持及び使用方法の本来の目的
+主要チェックリスト対象 による制限を義務付ける租税条約、TIEA 及び国際合意の
+規定
+自国の租税条約、TIEA 又はその他の交換合意における情報交換規定は、他の締約国
+に対して提供する情報及び要請に応じて受領する情報の双方の秘密保持及び使用方
+法の制限をどのように確保しているか。

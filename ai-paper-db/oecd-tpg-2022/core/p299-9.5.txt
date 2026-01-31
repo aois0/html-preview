@@ -1,0 +1,14 @@
+---
+id: "p299-9.5"
+pid: "9.5"
+page_start: 299
+page_end: 299
+section_id: "ch09"
+section_title: "第9章 事業再編の移転価格に係る側面"
+subsection: "A.1 本章が対象とする事業再編"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p299-9.5.txt"
+---
+
+9.5 本章は、事業再編に係る移転価格の側面、つまり、OECD モデル租税条約第 9
+条（特殊関連企業の課税）及び本ガイドラインの事業再編への適用等を対象とする。

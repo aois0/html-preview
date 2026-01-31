@@ -1,0 +1,16 @@
+---
+id: "p191-5.34"
+pid: "5.34"
+page_start: 191
+page_end: 191
+section_id: "ch05"
+section_title: "第5章 移転価格文書化"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p191-5.34.txt"
+---
+
+5.34 本ガイドライン第5章別添Ⅲの目的に鑑み、国別報告書には、多国籍企業グル
+ープが事業を行う租税管轄地での事業活動の規模に関係なく、租税管轄地が全て記
+載されるべきである。
+D.4 文書の保存期間

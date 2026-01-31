@@ -1,0 +1,18 @@
+---
+id: "p158-4.78"
+pid: "4.78"
+page_start: 158
+page_end: 158
+section_id: "ch04"
+section_title: "第4章 移転価格に関する紛争の回避及び解決のための税務執行上のアプロ－チ"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p158-4.78.txt"
+---
+
+4.78 ほとんどの OECD 加盟国が、現時点において返金の利用についてはそれほど
+多くの経験を持っているわけではないため、第一次調整についての相互協議が開始
+されている時には、その協議において、返金を行うための納税者と税務当局との間
+の合意について議論されることが推奨される。
+D 同時調査
+D.1 定義及び背景

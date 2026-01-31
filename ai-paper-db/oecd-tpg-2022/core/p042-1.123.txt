@@ -1,0 +1,17 @@
+---
+id: "p042-1.123"
+pid: "1.123"
+page_start: 42
+page_end: 42
+section_id: "ch01"
+section_title: "第1章 独立企業原則"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p042-1.123.txt"
+---
+
+1.123. 比較可能な非関連者取引から、あるいは、同一のリスクプロファイルを反映
+する現実的に利用可能な代替となる投資を検討することによって、リスク調整後利
+益率の合理的な指標を見つけることが可能であるかもしれない。事実と状況によっ
+ては、グループ内の貸付に対する現実的な代替は、非関連者取引である債券発行又
+は借入であり得る（パラグラフ 10.93参照）。

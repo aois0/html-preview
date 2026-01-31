@@ -1,0 +1,489 @@
+{
+  "dataset": {
+    "name": "OECD TP Guidelines 2022 (JP translated)",
+    "generated_at": "2026-01-31",
+    "base_url": "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022"
+  },
+  "format": "tsv",
+  "fields": [
+    "id",
+    "pid",
+    "page_start",
+    "page_end",
+    "snippet",
+    "core"
+  ],
+  "shard_size": 80,
+  "sections": [
+    {
+      "id": "ch01",
+      "title": "第1章 独立企業原則",
+      "count": 193,
+      "shards": [
+        {
+          "file": "data/shards/shard-00.txt",
+          "count": 80,
+          "pid_start": "1.1",
+          "pid_end": "1.80"
+        },
+        {
+          "file": "data/shards/shard-01.txt",
+          "count": 80,
+          "pid_start": "1.81",
+          "pid_end": "1.160"
+        },
+        {
+          "file": "data/shards/shard-02.txt",
+          "count": 33,
+          "pid_start": "1.161",
+          "pid_end": "1.193"
+        }
+      ]
+    },
+    {
+      "id": "ch02",
+      "title": "第2章 移転価格算定手法",
+      "count": 187,
+      "shards": [
+        {
+          "file": "data/shards/shard-03.txt",
+          "count": 80,
+          "pid_start": "2.1",
+          "pid_end": "2.80"
+        },
+        {
+          "file": "data/shards/shard-04.txt",
+          "count": 80,
+          "pid_start": "2.81",
+          "pid_end": "2.160"
+        },
+        {
+          "file": "data/shards/shard-05.txt",
+          "count": 27,
+          "pid_start": "2.161",
+          "pid_end": "2.187"
+        }
+      ]
+    },
+    {
+      "id": "ch03",
+      "title": "第3章 比較可能性分析",
+      "count": 84,
+      "shards": [
+        {
+          "file": "data/shards/shard-06.txt",
+          "count": 80,
+          "pid_start": "3.1",
+          "pid_end": "3.79"
+        },
+        {
+          "file": "data/shards/shard-07.txt",
+          "count": 4,
+          "pid_start": "3.80",
+          "pid_end": "3.83"
+        }
+      ]
+    },
+    {
+      "id": "ch04",
+      "title": "第4章 移転価格に関する紛争の回避及び解決のための税務執行上のアプロ－チ",
+      "count": 180,
+      "shards": [
+        {
+          "file": "data/shards/shard-08.txt",
+          "count": 80,
+          "pid_start": "4.1",
+          "pid_end": "4.79"
+        },
+        {
+          "file": "data/shards/shard-09.txt",
+          "count": 80,
+          "pid_start": "4.80",
+          "pid_end": "4.159"
+        },
+        {
+          "file": "data/shards/shard-10.txt",
+          "count": 20,
+          "pid_start": "4.160",
+          "pid_end": "4.179"
+        }
+      ]
+    },
+    {
+      "id": "ch05",
+      "title": "第5章 移転価格文書化",
+      "count": 61,
+      "shards": [
+        {
+          "file": "data/shards/shard-11.txt",
+          "count": 61,
+          "pid_start": "5.1",
+          "pid_end": "5.62"
+        }
+      ]
+    },
+    {
+      "id": "ch05-app04",
+      "title": "第5章別添Ⅳ 国別報告書の実施パッケージ",
+      "count": 25,
+      "shards": [
+        {
+          "file": "data/shards/shard-12.txt",
+          "count": 25,
+          "pid_start": "1.1",
+          "pid_end": "3.2.2"
+        }
+      ]
+    },
+    {
+      "id": "ch06",
+      "title": "第6章 無形資産に対する特別の配慮",
+      "count": 212,
+      "shards": [
+        {
+          "file": "data/shards/shard-13.txt",
+          "count": 80,
+          "pid_start": "6.1",
+          "pid_end": "6.80"
+        },
+        {
+          "file": "data/shards/shard-14.txt",
+          "count": 80,
+          "pid_start": "6.81",
+          "pid_end": "6.160"
+        },
+        {
+          "file": "data/shards/shard-15.txt",
+          "count": 52,
+          "pid_start": "6.161",
+          "pid_end": "6.212"
+        }
+      ]
+    },
+    {
+      "id": "ch06-app01",
+      "title": "第6章別添Ⅰ 無形資産のガイダンスに係る事例",
+      "count": 1,
+      "shards": [
+        {
+          "file": "data/shards/shard-16.txt",
+          "count": 1,
+          "pid_start": "6.63",
+          "pid_end": "6.63"
+        }
+      ]
+    },
+    {
+      "id": "ch07",
+      "title": "第7章 企業グループ内役務提供に対する特別の配慮",
+      "count": 66,
+      "shards": [
+        {
+          "file": "data/shards/shard-17.txt",
+          "count": 66,
+          "pid_start": "7.1",
+          "pid_end": "7.65"
+        }
+      ]
+    },
+    {
+      "id": "ch08",
+      "title": "第8章 費用分担契約",
+      "count": 54,
+      "shards": [
+        {
+          "file": "data/shards/shard-18.txt",
+          "count": 54,
+          "pid_start": "8.1",
+          "pid_end": "8.53"
+        }
+      ]
+    },
+    {
+      "id": "ch09",
+      "title": "第9章 事業再編の移転価格に係る側面",
+      "count": 132,
+      "shards": [
+        {
+          "file": "data/shards/shard-19.txt",
+          "count": 80,
+          "pid_start": "9.1",
+          "pid_end": "9.80"
+        },
+        {
+          "file": "data/shards/shard-20.txt",
+          "count": 52,
+          "pid_start": "9.81",
+          "pid_end": "9.131"
+        }
+      ]
+    },
+    {
+      "id": "ch10",
+      "title": "第10章 金融取引の移転価格に係る側面",
+      "count": 225,
+      "shards": [
+        {
+          "file": "data/shards/shard-21.txt",
+          "count": 80,
+          "pid_start": "10.1",
+          "pid_end": "10.80"
+        },
+        {
+          "file": "data/shards/shard-22.txt",
+          "count": 80,
+          "pid_start": "10.81",
+          "pid_end": "10.161"
+        },
+        {
+          "file": "data/shards/shard-23.txt",
+          "count": 65,
+          "pid_start": "10.162",
+          "pid_end": "10.226"
+        }
+      ]
+    }
+  ],
+  "shards": [
+    {
+      "file": "data/shards/shard-00.txt",
+      "count": 80,
+      "section_id": "ch01",
+      "section_title": "第1章 独立企業原則",
+      "page_start": 5,
+      "page_end": 31,
+      "pid_start": "1.1",
+      "pid_end": "1.80"
+    },
+    {
+      "file": "data/shards/shard-01.txt",
+      "count": 80,
+      "section_id": "ch01",
+      "section_title": "第1章 独立企業原則",
+      "page_start": 31,
+      "page_end": 53,
+      "pid_start": "1.81",
+      "pid_end": "1.160"
+    },
+    {
+      "file": "data/shards/shard-02.txt",
+      "count": 33,
+      "section_id": "ch01",
+      "section_title": "第1章 独立企業原則",
+      "page_start": 53,
+      "page_end": 62,
+      "pid_start": "1.161",
+      "pid_end": "1.193"
+    },
+    {
+      "file": "data/shards/shard-03.txt",
+      "count": 80,
+      "section_id": "ch02",
+      "section_title": "第2章 移転価格算定手法",
+      "page_start": 62,
+      "page_end": 84,
+      "pid_start": "2.1",
+      "pid_end": "2.80"
+    },
+    {
+      "file": "data/shards/shard-04.txt",
+      "count": 80,
+      "section_id": "ch02",
+      "section_title": "第2章 移転価格算定手法",
+      "page_start": 84,
+      "page_end": 105,
+      "pid_start": "2.81",
+      "pid_end": "2.160"
+    },
+    {
+      "file": "data/shards/shard-05.txt",
+      "count": 27,
+      "section_id": "ch02",
+      "section_title": "第2章 移転価格算定手法",
+      "page_start": 105,
+      "page_end": 113,
+      "pid_start": "2.161",
+      "pid_end": "2.187"
+    },
+    {
+      "file": "data/shards/shard-06.txt",
+      "count": 80,
+      "section_id": "ch03",
+      "section_title": "第3章 比較可能性分析",
+      "page_start": 113,
+      "page_end": 133,
+      "pid_start": "3.1",
+      "pid_end": "3.79"
+    },
+    {
+      "file": "data/shards/shard-07.txt",
+      "count": 4,
+      "section_id": "ch03",
+      "section_title": "第3章 比較可能性分析",
+      "page_start": 133,
+      "page_end": 135,
+      "pid_start": "3.80",
+      "pid_end": "3.83"
+    },
+    {
+      "file": "data/shards/shard-08.txt",
+      "count": 80,
+      "section_id": "ch04",
+      "section_title": "第4章 移転価格に関する紛争の回避及び解決のための税務執行上のアプロ－チ",
+      "page_start": 135,
+      "page_end": 159,
+      "pid_start": "4.1",
+      "pid_end": "4.79"
+    },
+    {
+      "file": "data/shards/shard-09.txt",
+      "count": 80,
+      "section_id": "ch04",
+      "section_title": "第4章 移転価格に関する紛争の回避及び解決のための税務執行上のアプロ－チ",
+      "page_start": 159,
+      "page_end": 178,
+      "pid_start": "4.80",
+      "pid_end": "4.159"
+    },
+    {
+      "file": "data/shards/shard-10.txt",
+      "count": 20,
+      "section_id": "ch04",
+      "section_title": "第4章 移転価格に関する紛争の回避及び解決のための税務執行上のアプロ－チ",
+      "page_start": 178,
+      "page_end": 184,
+      "pid_start": "4.160",
+      "pid_end": "4.179"
+    },
+    {
+      "file": "data/shards/shard-11.txt",
+      "count": 61,
+      "section_id": "ch05",
+      "section_title": "第5章 移転価格文書化",
+      "page_start": 184,
+      "page_end": 199,
+      "pid_start": "5.1",
+      "pid_end": "5.62"
+    },
+    {
+      "file": "data/shards/shard-12.txt",
+      "count": 25,
+      "section_id": "ch05-app04",
+      "section_title": "第5章別添Ⅳ 国別報告書の実施パッケージ",
+      "page_start": 483,
+      "page_end": 503,
+      "pid_start": "1.1",
+      "pid_end": "3.2.2"
+    },
+    {
+      "file": "data/shards/shard-13.txt",
+      "count": 80,
+      "section_id": "ch06",
+      "section_title": "第6章 無形資産に対する特別の配慮",
+      "page_start": 199,
+      "page_end": 224,
+      "pid_start": "6.1",
+      "pid_end": "6.80"
+    },
+    {
+      "file": "data/shards/shard-14.txt",
+      "count": 80,
+      "section_id": "ch06",
+      "section_title": "第6章 無形資産に対する特別の配慮",
+      "page_start": 224,
+      "page_end": 245,
+      "pid_start": "6.81",
+      "pid_end": "6.160"
+    },
+    {
+      "file": "data/shards/shard-15.txt",
+      "count": 52,
+      "section_id": "ch06",
+      "section_title": "第6章 無形資産に対する特別の配慮",
+      "page_start": 245,
+      "page_end": 259,
+      "pid_start": "6.161",
+      "pid_end": "6.212"
+    },
+    {
+      "file": "data/shards/shard-16.txt",
+      "count": 1,
+      "section_id": "ch06-app01",
+      "section_title": "第6章別添Ⅰ 無形資産のガイダンスに係る事例",
+      "page_start": 520,
+      "page_end": 531,
+      "pid_start": "6.63",
+      "pid_end": "6.63"
+    },
+    {
+      "file": "data/shards/shard-17.txt",
+      "count": 66,
+      "section_id": "ch07",
+      "section_title": "第7章 企業グループ内役務提供に対する特別の配慮",
+      "page_start": 259,
+      "page_end": 280,
+      "pid_start": "7.1",
+      "pid_end": "7.65"
+    },
+    {
+      "file": "data/shards/shard-18.txt",
+      "count": 54,
+      "section_id": "ch08",
+      "section_title": "第8章 費用分担契約",
+      "page_start": 280,
+      "page_end": 298,
+      "pid_start": "8.1",
+      "pid_end": "8.53"
+    },
+    {
+      "file": "data/shards/shard-19.txt",
+      "count": 80,
+      "section_id": "ch09",
+      "section_title": "第9章 事業再編の移転価格に係る側面",
+      "page_start": 298,
+      "page_end": 321,
+      "pid_start": "9.1",
+      "pid_end": "9.80"
+    },
+    {
+      "file": "data/shards/shard-20.txt",
+      "count": 52,
+      "section_id": "ch09",
+      "section_title": "第9章 事業再編の移転価格に係る側面",
+      "page_start": 321,
+      "page_end": 336,
+      "pid_start": "9.81",
+      "pid_end": "9.131"
+    },
+    {
+      "file": "data/shards/shard-21.txt",
+      "count": 80,
+      "section_id": "ch10",
+      "section_title": "第10章 金融取引の移転価格に係る側面",
+      "page_start": 336,
+      "page_end": 352,
+      "pid_start": "10.1",
+      "pid_end": "10.80"
+    },
+    {
+      "file": "data/shards/shard-22.txt",
+      "count": 80,
+      "section_id": "ch10",
+      "section_title": "第10章 金融取引の移転価格に係る側面",
+      "page_start": 352,
+      "page_end": 368,
+      "pid_start": "10.81",
+      "pid_end": "10.161"
+    },
+    {
+      "file": "data/shards/shard-23.txt",
+      "count": 65,
+      "section_id": "ch10",
+      "section_title": "第10章 金融取引の移転価格に係る側面",
+      "page_start": 368,
+      "page_end": 386,
+      "pid_start": "10.162",
+      "pid_end": "10.226"
+    }
+  ]
+}

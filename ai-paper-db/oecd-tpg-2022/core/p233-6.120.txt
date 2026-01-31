@@ -1,0 +1,16 @@
+---
+id: "p233-6.120"
+pid: "6.120"
+page_start: 233
+page_end: 233
+section_id: "ch06"
+section_title: "第6章 無形資産に対する特別の配慮"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p233-6.120.txt"
+---
+
+6.120 無形資産又はその権利の地理的範囲は、比較可能性の検討において重要であ
+る。製品の性質、無形資産の性質及び市場の性質に応じて、世界中を対象とする無
+形資産の権利は、１か国又は数か国のみを対象とする場合より価値が高いであろう。
+D.2.1.4 耐用年数

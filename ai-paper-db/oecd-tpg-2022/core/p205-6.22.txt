@@ -1,0 +1,16 @@
+---
+id: "p205-6.22"
+pid: "6.22"
+page_start: 205
+page_end: 205
+section_id: "ch06"
+section_title: "第6章 無形資産に対する特別の配慮"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p205-6.22.txt"
+---
+
+6.22 商号（一般的に企業名であることが多い）は、商標と同様の市場浸透力を持つ
+場合があり、場合によっては、実際に商標として登録されることもある。特定の多
+国籍企業の商号は、容易に認識可能であり、様々な製品及び役務のマーケティング
+に使用され得る。商号は、本章 A.1の無形資産に該当する。

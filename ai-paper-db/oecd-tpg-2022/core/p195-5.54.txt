@@ -1,0 +1,15 @@
+---
+id: "p195-5.54"
+pid: "5.54"
+page_start: 195
+page_end: 196
+section_id: "ch05"
+section_title: "第5章 移転価格文書化"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p195-5.54.txt"
+---
+
+5.54 OECD／G20 BEPS プロジェクト参加国は、追加データや別データの必要性を
+含め、上記パラグラフに規定した収入基準の妥当性について、2020 年に実施基準を
+見直す予定である。

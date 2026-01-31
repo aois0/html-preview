@@ -1,0 +1,14 @@
+---
+id: "p048-1.145"
+pid: "1.145"
+page_start: 48
+page_end: 48
+section_id: "ch01"
+section_title: "第1章 独立企業原則"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p048-1.145.txt"
+---
+
+1.145 否認の基準は、次の事例により示される。
+事例1

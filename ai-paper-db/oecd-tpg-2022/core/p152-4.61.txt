@@ -1,0 +1,18 @@
+---
+id: "p152-4.61"
+pid: "4.61"
+page_start: 152
+page_end: 153
+section_id: "ch04"
+section_title: "第4章 移転価格に関する紛争の回避及び解決のための税務執行上のアプロ－チ"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p152-4.61.txt"
+---
+
+4.61 実際には、多くの OECD加盟国の CAは、ごく普通に納税者にそのような機会
+を与え、協議の進捗状況について知らせ、協議の過程において、検討中の解決案を
+受け入れることができるかどうかしばしば尋ねている。この実務は、既に大多数の
+国で標準的な手続となっており、できる限り広く採り入れられるべきである。これ
+らは、OECDの実効的相互協議マニュアル（MEMAP）に反映されている。
+C.4.5 相互協議プログラム指針の公表

@@ -1,0 +1,15 @@
+---
+id: "p359-10.119"
+pid: "10.119"
+page_start: 359
+page_end: 359
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p359-10.119.txt"
+---
+
+10.119. キャッシュプール取引の描写に関して、（第 1 章 D.8 節で述べたとおり）
+意図的な協調的行動を通して生み出されるグループシナジーの結果、貯蓄増加と効
+率性向上が生じるかも知れない。

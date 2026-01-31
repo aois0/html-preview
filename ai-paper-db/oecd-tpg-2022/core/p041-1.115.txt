@@ -1,0 +1,17 @@
+---
+id: "p041-1.115"
+pid: "1.115"
+page_start: 41
+page_end: 41
+section_id: "ch01"
+section_title: "第1章 独立企業原則"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p041-1.115.txt"
+---
+
+1.115. リスク・フリー・レートを見積もるためには、格付けの高い政府発行有価証
+券だけが参考値ではなく、例えば、銀行間金利、金利スワップレート、又は、格付
+けの高い政府発行有価証券の買い戻し契約のような、他の代替的な選択肢が、それ
+ぞれの場合において広く行われている事実と状況に基づいて、検討されるかもしれ
+ない。

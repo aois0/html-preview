@@ -1,0 +1,14 @@
+---
+id: "p286-8.17"
+pid: "8.17"
+page_start: 286
+page_end: 286
+section_id: "ch08"
+section_title: "第8章 費用分担契約"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p286-8.17.txt"
+---
+
+8.17 上記パラグラフで説明したように、CCA 参加者は、CCA 活動の全てを自身の
+人員によって行う必要はない。場合によって、CCA の参加者は、上記パラグラフ

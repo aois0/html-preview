@@ -1,0 +1,17 @@
+---
+id: "p133-3.79"
+pid: "3.79"
+page_start: 133
+page_end: 133
+section_id: "ch03"
+section_title: "第3章 比較可能性分析"
+subsection: "A 比較可能性分析の実施"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p133-3.79.txt"
+---
+
+3.79 複数年度データの使用は、必ずしも複数年度の平均を使用することを意味す
+るわけではない。しかし、複数年度データと平均を使用することによって、幅の信
+頼性を向上することができる場合もある。統計的手法に関する議論についてはパラ
+グラフ3.57-3.62参照。
+C コンプライアンスの問題

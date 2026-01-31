@@ -1,0 +1,16 @@
+---
+id: "p316-9.64"
+pid: "9.64"
+page_start: 316
+page_end: 317
+section_id: "ch09"
+section_title: "第9章 事業再編の移転価格に係る側面"
+subsection: "A.1 本章が対象とする事業再編"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p316-9.64.txt"
+---
+
+9.64 現地のフルフレッジ事業が、限られたリスクを引き受け、限られた無形資産
+を活用し、安い対価を収受する事業に転換される場合、現地の再編対象のメンバー
+から国外関連者に価値ある無形資産又はその権利が譲渡されるのか、再編対象のメ
+ンバーに残る現地無形資産（local intangibles）が存在するのかが問題となる。

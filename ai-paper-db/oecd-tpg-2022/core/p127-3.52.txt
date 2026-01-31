@@ -1,0 +1,18 @@
+---
+id: "p127-3.52"
+pid: "3.52"
+page_start: 127
+page_end: 127
+section_id: "ch03"
+section_title: "第3章 比較可能性分析"
+subsection: "A 比較可能性分析の実施"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p127-3.52.txt"
+---
+
+3.52 調整は常に正当化されるとは限らない。例えば、売掛金の差異の調整は、会
+計基準に大きな差異があり、これが解消されない場合には、特に有効という訳では
+ないかもしれない。同様に、洗練された調整は、比較対象の検索結果が「科学的」
+で信頼性と正確性があるものだという誤った印象を与えるために適用されることが
+ある。
+A.6.3 差異調整の信頼性

@@ -1,0 +1,16 @@
+---
+id: "p182-4.176"
+pid: "4.176"
+page_start: 182
+page_end: 182
+section_id: "ch04"
+section_title: "第4章 移転価格に関する紛争の回避及び解決のための税務執行上のアプロ－チ"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p182-4.176.txt"
+---
+
+4.176 加えて、条約相手国との二国間 APAは、ある種の要件に従うべきである。例
+えば、同一の必要かつ不可欠の情報は各税務当局が同時に利用可能なものとすべき
+であり、合意された価格算定手法は独立企業原則に従ったものであるべきである。
+G 仲裁

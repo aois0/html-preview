@@ -1,0 +1,16 @@
+---
+id: "p227-6.93"
+pid: "6.93"
+page_start: 227
+page_end: 227
+section_id: "ch06"
+section_title: "第6章 無形資産に対する特別の配慮"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p227-6.93.txt"
+---
+
+6.93 一つ目は、異なる無形資産の相互作用とその経済的効果である。無形資産の
+中には、単体で取り扱われた場合より他の無形資産と組み合わされることによって
+価値が上がるものがある。従って、無形資産が組み合わされて移転される場合、そ
+れらの無形資産の法的及び経済的な相互関係の性質を特定することが重要になる。

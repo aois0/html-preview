@@ -1,0 +1,16 @@
+---
+id: "p141-4.21"
+pid: "4.21"
+page_start: 141
+page_end: 141
+section_id: "ch04"
+section_title: "第4章 移転価格に関する紛争の回避及び解決のための税務執行上のアプロ－チ"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p141-4.21.txt"
+---
+
+4.21 一部の行政罰は申告書の期限内提出とか情報申告といった手続的な遵法的行動
+を対象にしている。そういった罰則の金額はしばしば少額であり、例えば無申告が
+継続する日ごとに査定されるような固定的な金額を基礎としている。租税債務の過
+少申告に対してはこれより多額の行政罰の対象となる。

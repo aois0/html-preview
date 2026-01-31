@@ -1,0 +1,15 @@
+---
+id: "p334-9.127"
+pid: "9.127"
+page_start: 334
+page_end: 334
+section_id: "ch09"
+section_title: "第9章 事業再編の移転価格に係る側面"
+subsection: "A.1 本章が対象とする事業再編"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p334-9.127.txt"
+---
+
+9.127 事業再編後に重大なロケーション・セービングが得られる場合、ロケーショ
+ン・セービングは当事者間で共有されるべきか、その場合どのように共有すべきか
+という問題が生じる。この問題への対応には、第 1章D.6の指針が関係する。

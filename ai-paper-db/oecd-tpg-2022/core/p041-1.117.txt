@@ -1,0 +1,16 @@
+---
+id: "p041-1.117"
+pid: "1.117"
+page_start: 41
+page_end: 41
+section_id: "ch01"
+section_title: "第1章 独立企業原則"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p041-1.117.txt"
+---
+
+1.117. パラグラフ 6.61で述べたように、「資金提供者が、資金提供に関する金融リ
+スクをコントロールするものの、その他のリスクについては、コントロールも含め
+て、引き受けない場合、当該資金提供者は、一般的に、その資金については、リス
+ク調整後利益率のみ期待できる」（パラグラフ 1.85及び1.103を参照）。

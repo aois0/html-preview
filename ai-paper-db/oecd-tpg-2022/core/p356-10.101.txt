@@ -1,0 +1,17 @@
+---
+id: "p356-10.101"
+pid: "10.101"
+page_start: 356
+page_end: 356
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p356-10.101.txt"
+---
+
+10.101. クレジット・デフォルト・スワップは、原金融資産に関連する信用リスク
+を反映している。比較対象取引として使用できる原資産に関する情報が存在しない
+場合、納税者と税務行政は、グループ内融資に関連するリスクプレミアムを算出す
+るために、クレジット・デフォルト・スワップのスプレッドを使用するかもしれな
+い。

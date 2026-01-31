@@ -1,0 +1,14 @@
+---
+id: "p291-8.32"
+pid: "8.32"
+page_start: 291
+page_end: 291
+section_id: "ch08"
+section_title: "第8章 費用分担契約"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p291-8.32.txt"
+---
+
+8.32 次の設例では、参加者、収益の持分及び貢献の価値の決定に関する指針を説明
+する。

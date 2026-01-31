@@ -1,0 +1,16 @@
+---
+id: "p343-10.38"
+pid: "10.38"
+page_start: 343
+page_end: 343
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p343-10.38.txt"
+---
+
+10.38. いずれにしても、結果の信頼性は、一般的に、グループ内取引に関与した検
+証対象の借手に対して、比較可能な借手が採用する事業戦略がどの程度類似するか
+により高まる。
+C 財務機能

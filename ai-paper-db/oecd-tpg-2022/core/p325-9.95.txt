@@ -1,0 +1,16 @@
+---
+id: "p325-9.95"
+pid: "9.95"
+page_start: 325
+page_end: 325
+section_id: "ch09"
+section_title: "第9章 事業再編の移転価格に係る側面"
+subsection: "A.1 本章が対象とする事業再編"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p325-9.95.txt"
+---
+
+9.95 独立企業間であれば、A 社が進んで補償費用を負担すると思われる場合があ
+り、これは、例えば、B 社との契約終了の結果、C 社との新たな製造契約によって
+コスト削減が可能となり、コスト削減の現在価値の見込額が補償額よりも大きいと
+A 社が見込むことによる。

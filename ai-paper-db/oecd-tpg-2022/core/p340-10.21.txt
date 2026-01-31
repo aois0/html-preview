@@ -1,0 +1,16 @@
+---
+id: "p340-10.21"
+pid: "10.21"
+page_start: 340
+page_end: 340
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p340-10.21.txt"
+---
+
+10.21. 実際の取引の正確な描写の一環としての金融取引条件の分析の参考とするた
+め、又は正確に描写された実際の取引に対して価格を決定するために、以下の経済
+的な特徴を考慮すべきである。
+B.3.1. 契約条件

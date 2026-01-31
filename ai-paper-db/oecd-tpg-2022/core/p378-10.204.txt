@@ -1,0 +1,16 @@
+---
+id: "p378-10.204"
+pid: "10.204"
+page_start: 378
+page_end: 378
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p378-10.204.txt"
+---
+
+10.204. リスク分散は、保険ビジネスの中核である。非相関リスクと多様な地理的
+エクスポージャーとの組み合わせによって効率的な資本の利用がもたらされ、保険
+会社は、リスクが現実となった場合の結果と向き合うために、維持することを求め
+られている水準よりも、低い水準の資本を持つことが許される。

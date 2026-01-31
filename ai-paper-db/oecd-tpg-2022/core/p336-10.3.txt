@@ -1,0 +1,18 @@
+---
+id: "p336-10.3"
+pid: "10.3"
+page_start: 336
+page_end: 336
+section_id: "ch10"
+section_title: "第10章 金融取引の移転価格に係る側面"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p336-10.3.txt"
+---
+
+10.3. 独立企業間の金融取引の条件は様々な商業上の考慮の結果である。対照的に、
+多国籍企業グループは、そのグループ内でこれらの条件を決定する裁量を持つ。し
+たがって、グループ内の状況によって、税務上の影響など商業上以外の考慮がなさ
+れる場合もある。
+B 第1章D.1のガイダンスとの相互作用
+B.1. 融資と称する取引を融資と見なすべきか否かの決定1

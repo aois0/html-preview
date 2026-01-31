@@ -1,0 +1,17 @@
+---
+id: "p199-6.1"
+pid: "6.1"
+page_start: 199
+page_end: 199
+section_id: "ch06"
+section_title: "第6章 無形資産に対する特別の配慮"
+subsection: ""
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p199-6.1.txt"
+---
+
+6.1 OECD モデル租税条約第 9 条に基づき、無形資産の使用又は移転において、二
+の関連者間で、独立の企業の間に設けられる条件と異なる条件が設けられ、又は課
+されているときは、その条件がないとしたならば一方の企業の利得となったとみら
+れる利得であってその条件のために当該一方の企業の利得とならなかったものに対
+しては、これを当該一方の企業の利得に算入して租税を課することができる。

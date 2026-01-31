@@ -1,0 +1,18 @@
+---
+id: "p057-1.176"
+pid: "1.176"
+page_start: 57
+page_end: 57
+section_id: "ch01"
+section_title: "第1章 独立企業原則"
+subsection: "A 序"
+source: "2022translated.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/p057-1.176.txt"
+---
+
+1.176 さらに、労働力を構成する従業員が移転しなくとも、特別なスキルや経験
+を有する集合労働力にアクセスすることにより、譲渡された無形資産などの資産価
+値を向上させることがあることも指摘されるべきである。第 6 章別添 I 事例 23 は、
+移転価格分析で無形資産の相互作用及び集合労働力へのアクセスが重要となるケー
+スを説明している。
+D.8 多国籍企業のグループシナジー
