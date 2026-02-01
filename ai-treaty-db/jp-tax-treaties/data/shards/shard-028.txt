@@ -1,0 +1,2 @@
+id	pid	page_start	page_end	snippet	core
+russia--20170907ru-a-all	all	1	57	所 得 に 対 す る 租 税 に 関 す る 二 重 課 税 の 除 去 並 び に 脱 税 及 び 租 税 回 避 の 防 止 の た め の 日 本 国 政 府 と ロ シ ア 連 邦 政 府 と の 間 の 条 約 日 本 国 政 	packs/russia--20170907ru-a-pack-00.part-01.txt

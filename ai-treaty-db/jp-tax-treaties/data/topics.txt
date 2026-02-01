@@ -1,0 +1,25 @@
+# 日本の租税条約（主要国） - テーマ別索引（人間/AI向け）
+
+NOTE（重要）
+- 本DBはモバイルAIの「1回のReadで先頭1万トークンのみ」制約を前提にしている。
+- したがって、AI用途では `docs_index.tsv` → `shards_index.json` → `shard TSV` → `packs` が基本。
+
+## よくある条文テーマ（横断）
+
+典型キーワード（日本語）
+- 恒久的施設 / PE
+- 事業所得 / 企業の利得 / Business profits
+- 関連企業 / 移転価格 / 独立企業原則 / Article 9
+- 配当 / 利子 / 使用料（ロイヤルティ）
+- 受益者 / beneficial owner
+- 相互協議 / MAP / 仲裁
+- 情報交換 / EOI
+
+典型キーワード（英字）
+- PE / MAP / APA / MLI / PPT / LOB / CFC
+
+実務フロー（最短）
+1) `data/docs_index.tsv`（対象国の doc_id を探す）
+2) `data/shards_index.json`（doc_id=section と shard の対応を得る）
+3) `data/shards/shard-XXX.txt`（TSVを検索）
+4) `packs/...`（本文）

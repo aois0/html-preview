@@ -1,0 +1,2 @@
+id	pid	page_start	page_end	snippet	core
+philippines--philippines-st-jp-all	all	1	42	所 得 に 対 す る 租 税 に 関 す る 二 重 課 税 の 回 避 及 び 脱 税 の 防 止 の た め の 日 本 国 と フ ィ リ ピ ン 共 和 国 と の 間 の 条 約 日 本 国 及 び フ ィ リ ピ ン 共 和 	packs/philippines--philippines-st-jp-pack-00.part-01.txt

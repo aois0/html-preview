@@ -1,0 +1,51 @@
+---
+id: "saudi-arabia--saudiarabia2013-en-jp-en-pack-00"
+section_id: "saudi-arabia--saudiarabia2013-en-jp-en"
+section_title: "Saudi Arabia (SaudiArabia2013_EN_jp_en.pdf)"
+page_start: 1
+page_end: 5
+pid_start: "all"
+pid_end: "all"
+para_count: 1
+source_url: "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SaudiArabia2013_EN_jp_en.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-treaty-db/jp-tax-treaties/packs/saudi-arabia--saudiarabia2013-en-jp-en-pack-00.txt"
+---
+
+## all (saudi-arabia--saudiarabia2013-en-jp-en-all, pages 1-5)
+サウジアラビアとの租税（所得）条約に関する取極
+七一七
+◎所得に対する租税に関する二重課税の回避及び脱税の防止のための日本国政府と
+サウジアラビア王国政府との間の条約に関する交換公文
+（略称）サウジアラビアとの租税（所得）条約に関する取極
+平成二十五年
+四月
+十三日
+リヤドで
+平成二十五年
+四月
+十三日
+効力発生
+平成二十五年
+五月
+二日
+告示
+（外務省告示第一六八号）
+目
+次
+ページ
+日本側書簡			七一九
+サウジアラビア側書簡			七二一
+サウジアラビアとの租税（所得）条約に関する取極
+七一九
+日本側書簡
+サウジアラビアとの租税（所得）条約に関する取極
+七二〇
+サウジアラビアとの租税（所得）条約に関する取極
+七二一
+サウジアラビア側書簡
+サウジアラビアとの租税（所得）条約に関する取極
+七二二
+（参考）
+この取極は、サウジアラビアとの租税（所得）条約（二国間条約集平成二十三年参照）及び
+議定書
+13の規定について、日本国の関係国内法令の改正により新たな取極を定めるものである。

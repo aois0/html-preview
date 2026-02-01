@@ -1,0 +1,2 @@
+id	pid	page_start	page_end	snippet	core
+netherlands--netherland2012-en-jp-en-all	all	1	4	অঅ२ ޭ ⅕࣭ ໲ ₉ ޭ ! ໹଼ඵ਱অා ₉ ჋඾ ₉ ⅔ނ ! ໹଼ඵ਱অා ₉ ჋඾ ₉ ႁอ୆ ! ໹଼ඵ਱অා ₉ ਱্඾!! া !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!	packs/netherlands--netherland2012-en-jp-en-pack-00.txt

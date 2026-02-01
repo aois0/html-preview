@@ -11,6 +11,7 @@
 - AI向け 日本税務通達（基本通達ほか）: `/html-preview/ai-tsutatsu-db/`
 - AI向け 日本税務判決DB（判決・裁決）: `/html-preview/ai-hanketsu-db/`
 - AI向け 文献DB（税務・国際課税）: `/html-preview/ai-paper-db/`
+- AI向け 租税条約DB（主要国）: `/html-preview/ai-treaty-db/`
 - Tax KB Prototype: `/html-preview/tax-kb/`
 
 ## 1) 条文（法令）を引きたい → ai-law-db
@@ -68,6 +69,17 @@ NOTE
 - `/html-preview/tax-kb/quickstart.txt`
 - `/html-preview/tax-kb/llms.txt`
 
+## 6) 租税条約を引きたい → ai-treaty-db
+
+入口
+- `/html-preview/ai-treaty-db/llms.txt`
+- `/html-preview/ai-treaty-db/jp-tax-treaties/quickstart.txt`（推奨: まずこれ）
+
+典型フロー（packs/shards型）
+1) `ai-treaty-db/jp-tax-treaties/data/shards_index.json`
+2) `ai-treaty-db/jp-tax-treaties/data/shards/shard-XXX.txt`（TSVを検索）
+3) `ai-treaty-db/jp-tax-treaties/packs/...`（本文。1ファイル≒1万トークン以内）
+
 ## 最後に
 
 迷ったら:
@@ -75,3 +87,4 @@ NOTE
 - 通達 = `ai-tsutatsu-db/llms.txt`
 - 判決 = `ai-hanketsu-db/quickstart.txt`
 - 文献 = `ai-paper-db/llms.txt`
+- 租税条約 = `ai-treaty-db/llms.txt`
