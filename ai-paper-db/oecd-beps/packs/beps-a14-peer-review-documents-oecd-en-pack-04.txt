@@ -1,0 +1,107 @@
+---
+id: "beps-a14-peer-review-documents-oecd-en-pack-04"
+section_id: "beps-a14-peer-review-documents-oecd-en"
+section_title: "BEPS Action 14: peer review documents (Terms of Reference / Assessment Methodology) (OECD PDF)"
+page_start: 13
+page_end: 15
+pid_start: "p013"
+pid_end: "p015"
+para_count: 3
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "http://www.oecd.org/tax/beps/beps-action-14-on-more-effective-dispute-resolution-peer-review-documents.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-a14-peer-review-documents-oecd-en-pack-04.txt"
+---
+
+## p013 (beps-a14-peer-review-documents-oecd-en-p013, pages 13-13)
+12 
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+Output of the Peer Review and Monitoring process
+18. In accordance with the 2015 Action 14 Report  (OECD, 2015 [1]), the core output of the peer
+monitoring process will come in the form of a report. The report will identify and describe the strengths and
+any shortcomings that exist and provide recommendations as to how the shortcomings might be addressed
+by the assessed jurisdiction.
+19. Given the importance of the MAP for taxpayers seeking to ensure that their taxation is in
+accordance with tax treaties, the report of an assessed jurisdiction should contain information on the MAP
+regime of the assessed jurisdiction to assist taxpayers’ compliance with the requirements to access and
+the use of MAP. Such information will also facilitate a jurisdiction in its request to commence discussion of
+the MAP case with its treaty partner by ensuring that all the administrative and procedural requirements of
+its treaty partner have been met.
+20. The FTA MAP Forum will produce on a regular basis reports on the outcome of the reviews
+conducted (“the FTA MAP Forum Report”) on its members’ compliance wi th the minimum standard and
+measures taken by its members to improve their MAP regime. This FTA MAP Forum Report which will be
+published on a shared public platform will include the purpose and background of this work conducted by
+the FTA MAP Forum, an exe cutive summary on the outcome of the reviews conducted and will comprise
+the individual reports of the assessed jurisdictions. Each jurisdiction’s report will include a description of its
+legal and administrative framework for the MAP and the practical application of the framework. This will be
+presented under 4 headings:
+(i) Preventing disputes
+(ii) Availability and access to MAP
+(iii) Resolution of MAP cases
+(iv) Implementation of MAP agreements.
+21. The individual report of an assessed jurisdiction shall note all efforts made by the assessed
+jurisdiction to implement the minimum standard including the plans shared by the assessed jurisdiction to
+make legislative or procedural changes to implement the minimum standard taking into consideration that
+the assessed jurisdiction migh t not have fully implemented elements of the minimum standard given the
+time from its adoption to the time of its review. To assist the assessed jurisdiction in fully implementing the
+minimum standard, the individual report of an assessed jurisdiction will thus also identify and describe any
+shortcomings that exist in relation to the implementation of each of the elements of the minimum standard
+and provide recommendations as to how these shortcomings might be addressed. Recommendations
+should be specific and provide guidance to the jurisdiction as to what is expected.
+
+## p014 (beps-a14-peer-review-documents-oecd-en-p014, pages 14-14)
+ 13
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+References
+OECD (2019), Model Tax Convention on Income and on Capital 2017 (Full Version), OECD
+Publishing, Paris, https://doi.org/10.1787/g2g972ee-en.
+[2]
+OECD (2015), Making Dispute Resolution Mechanisms More Effective, Action 14 - 2015 Final
+Report, OECD/G20 Base Erosion and Profit Shifting Project, OECD Publishing, Paris,
+https://doi.org/10.1787/9789264241633-en.
+[1]
+Notes
+
+## p015 (beps-a14-peer-review-documents-oecd-en-p015, pages 15-15)
+14 
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+1 Available at https://doi.org/10.1787/9789264202719-en.
+2 Available at www.oecd.org/tax/beps-2015-final-reports.htm.
+3 Australia, Austria, Belgium, Canada, France, Germany, Ireland, Italy, Japan, Luxembourg, the  Netherlands, New
+Zealand, Norway, Poland, Slovenia, Spain, Sweden, Switzerland, the United Kingdom and the United States.
+4 The Report on Action 14 contains changes to Article 25 of the OECD Model Tax Convention and its  Commentary.
+Other changes to the Commentary will be included in the next update of the OECD Model  Tax Convention to reflect
+the conclusions of the Report on Action 14. In this regard, all references to Article  25 and its Commentary shall be
+read in the context of Article 25 and its Commentary as amended by the Report on Action 14 and the changes which
+will be made to the Commentary in the next update of the OECD Model Tax Convention.
+5 The reference to commentaries on Article 25 should be understood as those referred to in the 2015 Action 14 Report.
+6 See paragraph 3 of Article 25 and its Commentary.
+7 An APA is “an arrangement that determines, in advance of controlled transactions, an appropriate set of criteria (e.g.
+method, comparables and appropriate adjustments thereto, critical assumptions as to future events) for the
+determination of the transfer pricing for those transactions over a fixed period of time.” (see definition of APA in the
+OECD Transfer Pricing Guidelines for Multinational Enterprises and Tax Administrations  (“Transfer Pricing
+Guidelines”)). A request for an APA is not a MAP case for purposes of the MAP Statistics Reporting Framework and
+element C.2.
+8 Situations may arise in which the issues resolved through an APA are relevant with respect to previous filed tax years
+not included within the original scope of the APA. The concept of “roll -back” is further elaborated in paragraph 4.136
+of Section F (Advance pricing arrangement) of Chapter IV of the Transfer Pricing Guidelines and in paragraph 69 of
+Section D.4.2 (Possible retrospective application (“Roll back”)) of the Annex to Chapter IV (Guidelines for Conducting
+Advance Pricing Arrangements under the Mutual Agreement Procedure (“MAP APAs”)) of the Transfer Pricing
+Guidelines. Simply put, the “roll -back” of the APA is understood to mean th at the outcome of the APA is applied to
+previous filed tax years not included within the original scope of the APA. A request for the roll -back of an APA is not
+a MAP case for purposes of the MAP Statistics Reporting Framework and element C.2.
+9 See first sentence of paragraph 3 of Article 25 and its Commentary.
+10 See paragraph 1 of Article 25 and its Commentary.
+11 See paragraph 1 of Article 25 and its Commentary.
+12 The relevant commitment under 2.6 of the Action 14 minimum standard deals only with access t o MAP, which,
+consistently with what has been explained in paragraph 16 of the Report on Action 14 regarding the element 1.2, is
+distinct from any obligation to endeavour to resolve the case pursuant to paragraph 2 of Article 25 and from any
+obligation to submit an issue to arbitration that may arise under treaties that contain an arbitration provision, whether
+mandatory or not. Elements B.5 and B.10 of the Terms of Reference should therefore not be interpreted as including
+any implicit commitment with respect to these other obligations.
+13 See second sentence of paragraph 3 of Article 25 and its Commentary.
+14 The relevant commitment under 2.6 of the Action 14 minimum standard deals only with access to MAP, which,
+consistently with what has been explained in paragraph 16 of the Report on Action 14 regarding the element 1.2, is
+distinct from any obligation to endeavour to resolve the case pursuant to paragraph 2 of Article 25 and from any
+obligation to submit an issue to arbitration that may arise under treatie s that contain an arbitration provision, whether

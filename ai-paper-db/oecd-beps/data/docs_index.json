@@ -1,0 +1,129 @@
+{
+  "dataset": {
+    "name": "OECD/G20 BEPS materials (selected)",
+    "generated_at": "2026-02-01",
+    "base_url": "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps"
+  },
+  "fields": [
+    "doc_id",
+    "title",
+    "publisher",
+    "lang",
+    "license",
+    "source_url",
+    "source_basename",
+    "file",
+    "text_file",
+    "page_count"
+  ],
+  "rows": [
+    {
+      "doc_id": "beps-a03-cfc-rules-nta-ja",
+      "title": "BEPS Action 3: Designing Effective CFC Rules (NTA provisional translation)",
+      "publisher": "NTA",
+      "lang": "ja",
+      "license": "NTA website (Japan government)",
+      "source_url": "https://www.nta.go.jp/taxes/shiraberu/kokusai/beps/pdf/001.pdf",
+      "source_basename": "001.pdf",
+      "file": "source/raw/beps-a03-cfc-rules-nta-ja.pdf",
+      "text_file": "source/text/beps-a03-cfc-rules-nta-ja.txt",
+      "page_count": 59
+    },
+    {
+      "doc_id": "beps-a04-interest-deductions-nta-ja",
+      "title": "BEPS Action 4: Interest Deductions and Other Financial Payments (NTA provisional translation)",
+      "publisher": "NTA",
+      "lang": "ja",
+      "license": "NTA website (Japan government)",
+      "source_url": "https://www.nta.go.jp/taxes/shiraberu/kokusai/beps/pdf/005.pdf",
+      "source_basename": "005.pdf",
+      "file": "source/raw/beps-a04-interest-deductions-nta-ja.pdf",
+      "text_file": "source/text/beps-a04-interest-deductions-nta-ja.txt",
+      "page_count": 108
+    },
+    {
+      "doc_id": "beps-a08-10-tp-value-creation-nta-ja",
+      "title": "BEPS Actions 8-10: Aligning Transfer Pricing Outcomes with Value Creation (NTA provisional translation)",
+      "publisher": "NTA",
+      "lang": "ja",
+      "license": "NTA website (Japan government)",
+      "source_url": "https://www.nta.go.jp/taxes/shiraberu/kokusai/beps/pdf/8-10.pdf",
+      "source_basename": "8-10.pdf",
+      "file": "source/raw/beps-a08-10-tp-value-creation-nta-ja.pdf",
+      "text_file": "source/text/beps-a08-10-tp-value-creation-nta-ja.txt",
+      "page_count": 148
+    },
+    {
+      "doc_id": "beps-a14-dispute-resolution-nta-ja",
+      "title": "BEPS Action 14: Making Dispute Resolution Mechanisms More Effective (NTA provisional translation)",
+      "publisher": "NTA",
+      "lang": "ja",
+      "license": "NTA website (Japan government)",
+      "source_url": "https://www.nta.go.jp/taxes/shiraberu/kokusai/beps/pdf/003.pdf",
+      "source_basename": "003.pdf",
+      "file": "source/raw/beps-a14-dispute-resolution-nta-ja.pdf",
+      "text_file": "source/text/beps-a14-dispute-resolution-nta-ja.txt",
+      "page_count": 32
+    },
+    {
+      "doc_id": "beps-a14-peer-review-monitoring-nta-ja",
+      "title": "BEPS Action 14 Peer Review and Monitoring (NTA provisional translation of OECD webpage)",
+      "publisher": "NTA",
+      "lang": "ja",
+      "license": "NTA website (Japan government)",
+      "source_url": "https://www.nta.go.jp/taxes/shiraberu/kokusai/beps/pdf/004.pdf",
+      "source_basename": "004.pdf",
+      "file": "source/raw/beps-a14-peer-review-monitoring-nta-ja.pdf",
+      "text_file": "source/text/beps-a14-peer-review-monitoring-nta-ja.txt",
+      "page_count": 1
+    },
+    {
+      "doc_id": "beps-a14-peer-review-schedule-oecd-en",
+      "title": "BEPS Action 14 peer review assessment schedule (OECD PDF)",
+      "publisher": "OECD",
+      "lang": "en",
+      "license": "OECD (see source PDF)",
+      "source_url": "http://www.oecd.org/tax/beps/beps-action-14-peer-review-assessment-schedule.pdf",
+      "source_basename": "beps-action-14-peer-review-assessment-schedule.pdf",
+      "file": "source/raw/beps-a14-peer-review-schedule-oecd-en.pdf",
+      "text_file": "source/text/beps-a14-peer-review-schedule-oecd-en.txt",
+      "page_count": 3
+    },
+    {
+      "doc_id": "beps-a14-peer-review-documents-oecd-en",
+      "title": "BEPS Action 14: peer review documents (Terms of Reference / Assessment Methodology) (OECD PDF)",
+      "publisher": "OECD",
+      "lang": "en",
+      "license": "OECD (see source PDF)",
+      "source_url": "http://www.oecd.org/tax/beps/beps-action-14-on-more-effective-dispute-resolution-peer-review-documents.pdf",
+      "source_basename": "beps-action-14-on-more-effective-dispute-resolution-peer-review-documents.pdf",
+      "file": "source/raw/beps-a14-peer-review-documents-oecd-en.pdf",
+      "text_file": "source/text/beps-a14-peer-review-documents-oecd-en.txt",
+      "page_count": 82
+    },
+    {
+      "doc_id": "beps-a14-best-practices-japan-2021-oecd-en",
+      "title": "BEPS Action 14: peer review best practices - Japan (2021) (OECD PDF)",
+      "publisher": "OECD",
+      "lang": "en",
+      "license": "OECD (see source PDF)",
+      "source_url": "https://www.oecd.org/tax/beps/beps-action-14-peer-review-best-practices-japan-2021.pdf",
+      "source_basename": "beps-action-14-peer-review-best-practices-japan-2021.pdf",
+      "file": "source/raw/beps-a14-best-practices-japan-2021-oecd-en.pdf",
+      "text_file": "source/text/beps-a14-best-practices-japan-2021-oecd-en.txt",
+      "page_count": 29
+    },
+    {
+      "doc_id": "beps-min-standards-progress-2025-oecd-en",
+      "title": "Note on burden reduction in the BEPS minimum standards (2025) (OECD PDF)",
+      "publisher": "OECD",
+      "lang": "en",
+      "license": "OECD (see source PDF)",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-issues/beps/note-on-burden-reduction-in-the-beps-minimum-standards.pdf",
+      "source_basename": "note-on-burden-reduction-in-the-beps-minimum-standards.pdf",
+      "file": "source/raw/beps-min-standards-progress-2025-oecd-en.pdf",
+      "text_file": "source/text/beps-min-standards-progress-2025-oecd-en.txt",
+      "page_count": 29
+    }
+  ]
+}

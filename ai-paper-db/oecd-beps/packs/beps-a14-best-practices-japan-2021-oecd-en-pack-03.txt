@@ -1,0 +1,99 @@
+---
+id: "beps-a14-best-practices-japan-2021-oecd-en-pack-03"
+section_id: "beps-a14-best-practices-japan-2021-oecd-en"
+section_title: "BEPS Action 14: peer review best practices - Japan (2021) (OECD PDF)"
+page_start: 16
+page_end: 17
+pid_start: "p016"
+pid_end: "p017"
+para_count: 2
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "https://www.oecd.org/tax/beps/beps-action-14-peer-review-best-practices-japan-2021.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-a14-best-practices-japan-2021-oecd-en-pack-03.txt"
+---
+
+## p016 (beps-a14-best-practices-japan-2021-oecd-en-p016, pages 16-16)
+PART B: AVAILABILITY AND ACCESS TO MAP  15
+INCLUSIVE FRAMEWORK OF BEPS: ACTION 14 MAKING DISPUTE RESOLUTION MORE EFFECTIVE MAP PEER REVIEW REPORT
+© OECD 2021
+Part B
+Availability and access to MAP
+[BP.5] Implement appropriate administrative measures to facilitate recourse to MAP
+Jurisdictions should implement appropriate administrative measures to facilitate recourse to
+the MAP to resolve treaty-related disputes, recognising the general principle that the choice
+of remedies should remain with the taxpayer.
+27. Under Article 25(1) of the OECD Model Tax Convention, the mutual agreement
+procedure is a dispute settlement procedure in annex to domestic available remedies and not
+a substitute for such remedies. Reference is made to inter alia paragraph 7 of the Commentary
+to Article 25 of the OECD Model Tax Convention, which specifies that the right to submit a
+MAP request is available to taxpayers without depriving them of the ordinary legal remedies
+available. Facilitating recourse to the MAP through appropriate administrative measures,
+under the general principle that the choice of remedies remains with taxpayers, enables them
+to effectively resort to such dispute settlement procedure.
+28. Where a taxpayer does not agree with an action take n by the competent department
+of the National Tax Agency, it can submit within three months as from the date of that action
+request for a re -examination with the Regional Commissioner of the Regional Taxation
+Bureau, or the District Director of the Tax Off ice, such dependent on which of the
+departments holds competence over the particular taxpayer. Alternatively and also within
+three months, the taxpayer can request for a reconsideration of the action at the level of the
+National Tax Tribunal. In both insta nces, a decision should be taken within three months.
+Where re -examination decision is dissatisfactory to the taxpayer, the latter can ask for a
+review by the National Tax Tribunal within one month after the ruling. After having run
+through these administrative procedures, taxpayers are allowed to lodge an appeal at Japan’s
+domestic courts within a period of six months.
+29. In view of the above, Japan reported that taxpayers are for a particular dispute allowed
+to request MAP assistance and at the same time seek to resolve the dispute via domestically
+available judicial and administrative remedies. This is also in the situation where the specific
+case under review has already been decided via these remedies, but in that situation, Japan’s
+competent authority wi ll abide by that decision in its MAP discussions with the other
+competent authority concerned. Furthermore, n o fees are charged to taxpayers when
+submitting a MAP request, or when requesting for a pre -filing meeting before submitting a
+MAP request.
+30. Article 12 of Japan’s Ministerial Ordinance on the Enforcement of the Act on Special
+Provisions of the Income Tax Act, the Corporation Tax Act and the Local Tax Act regarding
+the application of tax treaties defines the legal basis upon which taxpayers can submit a MAP
+
+## p017 (beps-a14-best-practices-japan-2021-oecd-en-p017, pages 17-17)
+16  PART B: AVAILABILITY AND ACCESS TO MAP
+INCLUSIVE FRAMEWORK OF BEPS: ACTION 14 MAKING DISPUTE RESOLUTION MORE EFFECTIVE MAP PEER REVIEW REPORT
+© OECD 2021
+request. This article does not contain any limitation on the scope of application of MAP, thus
+also not in relation to the interaction with domestic remedies.
+31. Peers did not provide input relating to this particular best practice.
+[BP.6] Provide access to MAP for bona fide taxpayer-initiated foreign adjustments
+Jurisdictions’ published MAP guidance should provide that taxpayers will be allowed access
+to the MAP so that the competent authorities may resolve through consultation the double
+taxation that can arise in the case of bona fide taxpayer-initiated foreign adjustments.
+32. A taxpayer-initiated foreign adjustment is considered bona fide where it reflects the
+good faith effort of the taxpayer to report correctly, timely and properly the adjusted taxable
+income from a controlled transaction or the profits attributable to a permanent establishment
+with a view to reflect an arm’s length result, and where the taxpayer has otherwise timely
+and properly fulfilled all of its obligations related to such taxable income or profits under the
+laws of the treaty partners. As such taxpayer-initiated foreign adjustments may lead to cases
+of double taxation, it is relevant that there is access to MAP for resolving these cases.
+Furthermore, specifying whether there is access to the MAP for these adjustments in a
+jurisdiction’s MAP guidance also provides additional clarity.
+33. Japan reported that generally it allows taxpayers to request MAP in case of bona fide
+taxpayer-initiated foreign adjustments . Whether for an indi vidual case access to MAP is
+granted, however, depends on the facts and circumstances of the individual case.
+34. Article 12 of Japan’s Ministerial Ordinance on the Enforcement of the Act on Special
+Provisions of the Income Tax Act, the Corporation Tax Act and the Local Tax Act regarding
+the application of tax treaties defines the legal basis upon which taxpayers can submit a MAP
+request. This article does not contain any limitation on the scope of application of MAP, thus
+also not in relation to cases concerni ng bona fide taxpayer -initiated foreign adjustments .
+Japan’s MAP guidance, in note 2 attached to section 3(1)(a), confirms that access to MAP
+may be granted in such cases, where eligible. Further, the response to question 2.10 of Japan’s
+Q&A on MAP include s examples for which cases taxpayers can submit a MAP request,
+which also includes such cases.14
+35. Peers did not provide input relating to this particular best practice.
+[BP.7] Provide guidance on multilateral MAPs
+Jurisdictions’ published MAP guidance should provide guidance on multilateral MAPs.
+36. In recent years, globalisation has created unique challenges for existing tax treaty
+dispute resolution mechanisms. Whilst the mutual agreement procedure provided for in
+Article 25 of the OECD Model Tax Convention has traditionally focused on the resolutio n
+of bilateral disputes, phenomena such as the adoption of regional and global value chains as
+well as the accelerated integration of national economies and markets have emphasised the
+need for effective mechanisms to resolve multi -jurisdictional tax disputes. In that regard, it
+14  Available in English at: http://www.nta.go.jp/english/03.pdf.

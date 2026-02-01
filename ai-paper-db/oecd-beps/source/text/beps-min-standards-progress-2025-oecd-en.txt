@@ -1,0 +1,1301 @@
+---
+doc_id: "beps-min-standards-progress-2025-oecd-en"
+title: "Note on burden reduction in the BEPS minimum standards (2025) (OECD PDF)"
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "https://www.oecd.org/content/dam/oecd/en/topics/policy-issues/beps/note-on-burden-reduction-in-the-beps-minimum-standards.pdf"
+page_count: 29
+generated_at: "2026-02-01"
+---
+
+# Page 1
+Recognising progress and 
+reducing burdens in the 
+BEPS minimum standards
+Making Dispute Resolution More Effective – Simplified Peer Review, Burkina Faso (Stage 1)OECD/G20 Base Erosion andProfit Shifting Project
+
+# Page 2
+ 
+ 
+ 
+  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+Recognising progress and reducing burdens 
+in the BEPS minimum standards 
+      
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PUBE
+
+# Page 3
+2    
+ 
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025 
+  
+This document, as well as any data and map included herein, are without prejudice to the status of or sovereignty over 
+any territory, to the delimitation of international frontiers and boundaries and to the name of any territory, city or area. 
+ 
+ 
+Please cite this publication as: 
+OECD ( 2025), Recognising progress and reducing burdens in the BEPS minimum standards , OECD, 
+https://www.oecd.org/content/dam/oecd/en/topics/policy-issues/beps/note-on-burden-reduction-in-the-beps-minimum-
+standards.pdf.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Photo credits: © EschCollection 
+ 
+Corrigenda to OECD publications may be found at: https://www.oecd.org/en/publications/support/corrigenda.html .  
+© OCDE 2025 
+ Attribution 4.0 International (CC BY 4.0) 
+This work is made available under the Creative Commons Attribution 4.0 International licence. By using this work, you accept to be bound by the terms of this licence (https://creativecommons.org/licenses/by/4.0/). 
+Attribution – you must cite the work. 
+Translations – you must cite the original work, identify changes to the original and add the following text: In the event of any discrepancy between the original work and the translation, only the text of original 
+work should be considered valid. 
+Adaptations – you must cite the original work and add the following text: This is an adaptation of an original work by the OECD. The opinions expressed and arguments employed in th is adaptation should not 
+be reported as representing the official views of the OECD or of its Member countries.  
+Third-party material – the licence does not apply to third-party material in the work. If using such material, you are responsible for obtaining permission from the third party and for any claims of infringement. 
+You must not use the OECD logo, visual identity or cover image without express permission or suggest the OECD endorses your use of the work. 
+Any dispute arising under this licence shall be settled by arbitration in accordance with the Permanent Court of Arbitration (PCA) Arbitration Rules 2012. The seat of arbitration shall be Paris (France). The number 
+of arbitrators shall be one.
+
+# Page 4
+   3 
+ 
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025 
+  
+Foreword 
+Digitalisation and globalisation have had a profound impact on economies and the lives of people around 
+the world, and this impact has only accelerated in the 21st century. These changes have brought with them 
+challenges to the rules for taxing international business income, which have prevailed for  more than a 
+hundred years and created opportunities for base erosion and profit shifting (BEPS), requiring bold moves 
+by policy makers to restore confidence in the system and ensure that profits are taxed where economic 
+activities take place and value is created. 
+In 2013, the OECD ramped up efforts to address these challenges in response to growing public and 
+political concerns about tax avoidance by large multinationals. The OECD and G20 countries joined forces 
+and developed an Action Plan to address BEPS in September 2013. The Action Plan identified 15 actions 
+aimed at introducing coherence in the domestic rules that affect cross -border activities, reinforcing 
+substance requirements in the existing international standards, and improving transparency as we ll as 
+certainty. 
+After two years of work, measures in response to the 15 actions, including those published in an interim 
+form in 2014, were consolidated into a comprehensive package and delivered to G20 Leaders in November 
+2015. The BEPS package represents the first substantial renovation of the international tax rules in almost 
+a century. The implementation of BEPS measures strengthens the international tax system by ensuring 
+that BEPS planning strategies identified that relied on outdated rules or on poo rly co-ordinated domestic 
+measures have been rendered ineffective. 
+OECD and G20 countries also agreed to continue to work together to ensure a consistent and co-ordinated 
+implementation of the BEPS recommendations and to make the project more inclusive. As  a result, they 
+created the OECD/G20 Inclusive Framework on BEPS (Inclusive Framework), bringing all interested and 
+committed countries and jurisdictions on an equal footing in the OECD Committee on Fiscal Affairs and its 
+subsidiary bodies. With over 145 m embers, the Inclusive Framework monitors and peer reviews the 
+implementation of the minimum standards and is advancing the work on standard setting to address further 
+BEPS issues. In addition to its members, other international organisations and regional t ax bodies are 
+involved in the work of the Inclusive Framework, which also consults business and the civil society on its 
+different work streams. 
+The work to address BEPS has also led to further consideration of the tax challenges arising from the 
+digitalisation of the economy. In October 2021, over 135 Inclusive Framework members agreed to a 
+political statement on the Two -Pillar Solution to reform aspects of the international taxation rules in order 
+to ensure that the profits of multinational enterprises ar e fairly taxed in today’s digitalised and globalised 
+world economy. That work has made significant advances in developing a co-ordinated system for 
+reallocating taxing rights to market jurisdictions with respect to a defined portion of the residual profits  of 
+the largest and most profitable Multinationals (the Multilateral Convention to implement Amount A of Pillar 
+One). The work has also resulted in an agreement on simplified and streamlined transfer pricing 
+methodologies for certain baseline distribution activities which were incorporated into the Transfer Pricing 
+Guidelines as of February 2024 (Pillar One Amount B).  Furthermore, jurisdictions are making treaty 
+changes to allow developing countries to charge a minimum rate on certain intra -group cross -border
+
+# Page 5
+4  
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025 
+payments (Pillar Two Subject-to-Tax Rule); and a jurisdictional 15% minimum effective tax rate framework 
+has been implemented by more than 55 jurisdictions as of the beginning of 2025 (Pillar Two GloBE Rules). 
+This work continues, and at their its meeting in April 2025, Inclusive Framework members reiterated  the 
+critical importance of securing certainty and stability in the international tax system from the ongoing work 
+on BEPS and the Two-Pillar Solution.   
+This document presents the recommendations endorsed by the Inclusive Framework at the April 
+2025 plenary meeting and includes, as an annex, the revised peer review methodology for the Forum on 
+Harmful Tax Practices' work on BEPS Action 5, approved during that meeting.
+
+# Page 6
+   5 
+ 
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025 
+  
+Table of contents 
+Foreword 3 
+Recognising progress and reducing burdens in the BEPS minimum standards 6 
+Introduction 6 
+BEPS Action 5 – Harmful Tax Practices 7 
+BEPS Action 6 – Prevention of Tax Treaty Abuse 8 
+BEPS Action 13 – Country-by-Country Reporting 9 
+BEPS Action 14 – Mutual Agreement Procedures 10 
+Annex A. Revised methodology for the work of the FHTP 13
+
+# Page 7
+6    
+ 
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025 
+  
+Introduction  
+In 2013, the project on base erosion and profit shifting (BEPS) was launched. Since then, the BEPS Project 
+has resulted in a major update to the international tax system  by equipping governments with rules and 
+instruments to ensure that profits are taxed where economic activities generating them take place and 
+where value is created.  
+Today, more than 145 jurisdictions are members of the  Inclusive Framework  on BEPS (the “Inclusive 
+Framework”), participating on an equal footing and working towards the development of a fair and 
+sustainable global tax environment. A key f unction of the Inclusive Framework is to monitor progress and 
+review the implementation of the four BEPS minimum standards that were identified as part of the 15-point 
+BEPS Action Plan published in 2013 (OECD, 2013[1]). Acknowledging their interdependence in addressing 
+BEPS-risks, Inclusive Framework jurisdictions commit to implement four BEPS minimum standards which 
+cover Action 5 on Harmful Tax Practices, Action 6 on Tax Treaty Abuse, Action 13 on Country-by-Country 
+Reporting, and Action 14 on Dispute Resolution. 
+Implementation of the four BEPS minimum standards has reached a mature stage , reflecting a strong 
+commitment to address BEPS risks across the membership of the Inclusive Framework. In light of this, the 
+focus of the work of the Inclusive Framework is now increasingly on making sure that all members – and 
+in particular developing countries – can fully benefit from the four minimum standards. To support this 
+objective, capacity building programmes and tailored technical assistance are being delivered to ensure 
+the swift, efficient and sustainable implementation of the BEPS project in all interested Inclusive 
+Framework member countries. 
+At the same time, attention has turned to reducing the burdens associated with the peer review processes, 
+which have now been running for a number of years,  and strengthening the overall value proposition of 
+the minimum standards . This work was initiated at the May 2024 Plenary meeting of the Inclusive 
+Framework in Paris and advanced further at Working Party level.  
+As a result of this work, the Inclusive Framework, at its April 2025 Plenary meeting in Cape Town, adopted 
+a series of recommendations to streamline the peer review processes for the BEPS minimum standards . 
+It also endorsed the proposal to introduce targeted adjustments to optimise the allocation of resources 
+among Inclusive Framework members, ensuring that efforts remain focused on areas of greatest impact , 
+while preserving the effectiveness and integrity of the BEPS minimum standards.  Particular attention has 
+been given to strengthening the value proposition of the BEPS Project by identifying priority areas for 
+enhanced support , particularly with a  focus on improving access to Country-by-Country reports by  
+developing countries. 
+This note summarises the outcomes of this  work. It provides a brief overview of the current status of  
+implementation of each of the four minimum standards, outlines agreed measures to reduce burdens, and 
+Recognising progress and reducing 
+burdens in the BEPS minimum standards
+
+# Page 8
+   7 
+ 
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025 
+  
+highlights renewed priorities for the Inclusive Framework aimed at maintaining progress and future-
+proofing the value proposition  of the BEPS Project , including by ensuring that all interested developing 
+countries can fully benefit from the work . The revised peer review methodology for BEPS Action 5 on 
+Harmful Tax Practices is included in the Annex to this report.  
+Looking ahead, the Inclusive Framework will continue to consolidate the progress  achieved so far by 
+optimising resource allocation within the  Inclusive Framework Secretariat and enhancing the support for 
+jurisdictions with limited resources. In addition, and as announced in the outcome statement of the Inclusive 
+Framework Plenary meeting in Cape Town, work is ongoing to take stock of the BEPS work to dat e, with 
+a comprehensive report expected to be presented in the last quarter of 2025. 
+BEPS Action 5 – Harmful Tax Practices 
+Progress in implementation of the minimum standard  
+The minimum standard on harmful tax practices  included in the BEPS Final Report on Action 5 (OECD, 
+2015[2]) requires Inclusive Framework jurisdictions to introduce substantial activity requirements f or 
+preferential regimes and enhance their tax transparency frameworks through the exchange of certain tax 
+rulings. Following the publication of the BEPS Final Report on Action 5  (OECD, 2015[2]), the Forum on 
+Harmful Tax Practices (FHTP) reviewed and refined the framework for identifying harmful tax practices, 
+initially established in the 1998 Report  (OECD, 1998[3]), and decided to resume the substantial activities 
+factor for no or only nominal tax jurisdictions (OECD, 2018[4]). 
+Therefore, the BEPS Action 5 minimum standard encompasses three distinct workstreams. The first  
+focuses on preferential regimes based on criteria such as whether the regime is ring-fenced to exclude the 
+domestic market or presents a lack of transparency or substantial activit ies requirements. The second is 
+assessing no or only nominal corporate tax jurisdictions to ensure they enforce substantial activities 
+requirements, accompanied by certain exchange of information obligations for entities raising substance -
+related concerns . T he third concerns the transparency framework for  the spontaneous exchange of 
+information on certain tax rulings.  
+Since the inception of the BEPS project, the FHTP has reviewed 332 preferential regimes for compliance 
+with Action 5, with 97% of those regimes having been abolished, amended or otherwise not posing a BEPS 
+risk – the remainder are under review or in the process of being amended or abolished. In 2025, the FHTP 
+undertook its eighth monitoring exercise for preferential regimes, and concluded that for most preferential 
+regimes, the BEPS risk in practice has decreased and jurisdictions have a transparent review mechanism 
+in place for ensuring compliance with substantial activities requirements. 
+With respect to no or only nominal tax jurisdictions, all of them have enacted legislation to meet the 
+substantial activit ies requirements. In this regard, the FHTP undertakes a monitoring exercise  for 
+substantial activities requirements in these jurisdictions, covering statistical data, compliance programme 
+and exchange of information. Almost all jurisdictions now meet these requirements. Presently, only one of 
+the 11 jurisdictions has a ‘hard recommendation’ to address in relation to its enforcement of these 
+requirements, and three others have ‘soft recommendations’ to certain issues (e.g. in respect of the 
+collection of statistics). 
+Regarding the BEPS Action 5 transparency framework on tax rulings , the FHTP conducted its eighth 
+annual peer review in 2024 that assessed 136 jurisdictions. Among them, 29 jurisdictions were found not 
+to have a legal or operational framework to issue rulings within the scope of the transparency framework . 
+A total of 104 jurisdictions did not receive any recommendations. A cumulative total of 58,000 exchanges 
+on 26,000 rulings has taken place since the implementation of the BEPS Action 5 transparency framework.
+
+# Page 9
+8    
+ 
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025 
+  
+Way forward to maintain progress, while reducing burdens 
+In light of the maturity of the BEPS Action 5 implementation, the Inclusive Framework discussed in 2024 a 
+renewed fo cus that prioritises burden reduction of the FHTP’s processes , particularly for developing 
+countries, and aims to support tax administrations by enabling a more efficient use of resources within both 
+jurisdictions and the FHTP Secretariat. 
+Building on thes e discussions, t he Inclusive Framework approved at its Plenary meeting in April 2025 a 
+revised methodology designed to reduce the burden and frequency of peer review processes while 
+preserving the advancements  made in countering harmful tax competition . The FHTP will now apply a 
+methodology for regime reviews that introduces an upfront economic impact assessment on the expected 
+BEPS risks, prior to the legislative review. As a result, preferential regimes that are unlikely to create BEPS 
+risks will no longer undergo a legislative review by the FHTP, unless explicitly requested by jurisdictions in 
+light of the impact assessment.  
+This procedural change streamlines the FHTP's work and enhances its focus on regimes that are 
+significant for maintaining the integrity of the BEPS Action 5 minimum standard and ensuring a level playing 
+field, without requiring jurisdictions to make legislative changes where such changes are not necessary to 
+address BEPS risks. 
+In addition, the Inclusive Framework agreed on a reduced frequency of the FHTP’s monitoring 
+workstreams. The monitoring exercises for substantial activities in non-IP regimes and no or only nominal 
+tax jurisdictions as well as the peer review of the transparency framework will now take place once every 
+three years, instead of annually.  
+The full revised methodology for the work of the FHTP is set out in the Annex to this document. 
+BEPS Action 6 – Prevention of Tax Treaty Abuse  
+Progress in implementation of the minimum standard  
+The minimum standard on treaty shopping included in the BEPS Final Report on Action 6 (OECD, 2015[5]) 
+requires Inclusive Framework jurisdictions to include in their tax treaties an express language (generally in 
+the preamble) stating parties’ common intention to eliminate double taxation without enabling non-taxation 
+or reduced taxation through tax evasio n or avoidance (including through treaty shopping arrangements) , 
+along with specific anti-abuse provisions implementing this common intention. Jurisdictions only need to 
+satisfy th ese requirements , if requested to do so by another jurisdiction member of th e Inclusive 
+Framework. 
+Since its launch in 2018, the BEPS Action 6  peer review process has revealed significant and steady 
+progress in Inclusive Framework members’ implementation of the BEPS Action 6 minimum standard. The 
+number of bilateral agreements concluded between members of the Inclusive Framework has increased 
+from only 13 agreements in 2018 to more than 1,600 today. Based on the latest comprehensive report, 
+more than 90% of the agreements concluded between Inclusive Framework members are either compliant 
+with the minimum standard or are on track to becoming compliant. This increase is due mostly to the entry 
+into effect of the provisions of the BEPS Multilateral Instrument (BEPS MLI). To date, the BEPS MLI covers 
+105 jurisdictions (including 102 Inclusive Framework members) and around 2,000 bilateral tax treaties in 
+total. 
+As the implementation has reached a mature stage, the focus of BEPS Action 6 has shifted toward 
+providing targeted technical assistance to support jurisdictions, where needed, with the implementation of 
+the minimum standard. In parallel, assistance has been offered to encourage jurisdictions using the BEPS 
+MLI to complete the necessary steps to bring its provisions into effect.
+
+# Page 10
+   9 
+ 
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025 
+  
+Way forward to maintain progress, while reducing burdens 
+In light of the recent changes to the peer review methodology for Action 6  agreed in 2024, the Inclusive 
+Framework agreed at its Plenary meeting in April 2025 that no further process improvements are required 
+at this stage. 
+Therefore, given the advanced state of implementation, BEPS Action 6 now focusses on providing targeted 
+technical assistance to all Inclusive Framework members to support the implementation of the minimum 
+standard. Following the 2023 comprehensive peer review, the frequency of these reviews is now reduced 
+to once every five years, with the next review schedul ed for 2 028, thereby easing  the associated  
+administrative burdens. Inclusive Framework members can request bespoke technical assistance at any 
+time, in particular in relation to the signature or ratification of the BEPS MLI, as well as for questions on 
+interpretation, implementation, or practical challenges encountered. The Inclusive Framework Secretariat 
+also proactively engages with jurisdictions to support effective implementation. 
+BEPS Action 13 – Country-by-Country Reporting 
+Progress in implementation of the minimum standard  
+The minimum standard on Country-by-Country (CbC) reporting included in the BEPS Final Report on 
+Action 13 (OECD, 2015[6]) requires MNE groups with consolidated group revenue exceeding EUR 750 
+million to file an annual  CbC report with the tax administration of the jurisdiction where the MNE group is 
+headquartered. This report is automatically exchanged under existing international agreements with those 
+jurisdictions where the MNE group has resident entities or permanent establishments, provided they have 
+implemented the necessary framework for CbC reporting.  
+CbC reporting offers tax administrations unprecedented insights into the global activities of MNE groups 
+operating within their jurisdiction providing key information such as profit before tax, income tax paid and 
+accrued, and the number of employees. Presented in a standardised format, this information improves 
+their understanding of the group’s business and supports the high-level assessment of transfer pricing and 
+other BEPS-related risks.  
+Since the launch of the peer review process  in 2017, implementation of the  BEPS Action 13 minimum 
+standard has reached a mature stage, with most Inclusive Framework members successfully ensuring that 
+CbC reports are filed and exchanged in line with the minimum standard.  
+Reflecting this maturity , the methodology was revised in 2020 to reduce the burden on jurisdictions with 
+stable frameworks by introducing a simplified peer review. In the current peer review (2024 -2025), this 
+applies to over half of all members. For the remaining members , the annual review remains valuable for 
+receiving feedback, addressing recommendations, and promptly identifying issues like delayed exchanges 
+or data quality concerns. 
+To date, 120 Inclusive Framework members have introduced a CbC reporting filing obligation  for ultimate 
+parent entities of MNE groups resident in their jurisdiction, covering virtually all MNE groups that meet the 
+filing threshold. Over 4,100 bilateral relationships have been established to facilitate the exchange of CbC 
+reports among almost 100 Inclusive Framework members. In total, 81 members are in a position to receive 
+CbC reports on fo reign-headed MNE groups, while others have made substantial progress in achieving 
+this position. Significant progress has been achieved in supporting the 75 developing countries in the 
+Inclusive Framework to gain access to CbC reports . However, continued e fforts are necessary to close 
+remaining gaps and ensure that all developing countries can fully benefit from BEPS Action 13.
+
+# Page 11
+10    
+ 
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025 
+  
+Way forward to maintain progress, while reducing burdens 
+Given the refinements  to the peer review methodology for Action 13 agreed in 2020 , the Inclusive 
+Framework agreed at its Plenary meeting in April 2025 that no further procedural changes are required at 
+this time, but may be considered once the review of the minimum standard it self is completed, at which 
+time the peer review will need to be revised to reflect changes to the standard.  
+Therefore, with implementation now at a mature stage, the work of BEPS Action 13 is focused on ensuring 
+that all Inclusive Framework members – in particular developing countries – can effectively access and 
+use CbC reports effectively. While many developing countries have introduced domestic legislation  
+requiring the filing of CbC reports and others have draft legislation in progress , fewer have completed the 
+technical steps needed to receive reports under the automatic exchange  of information framework. To 
+close this gap, a targeted approach will now be deployed empowering developing country members to set 
+their own implementation timelines for acces sing CbC reports  and receive tailored support  from the 
+Secretariat.  
+ Close e ngagement with developing countries has further highlighted that access to suitable IT tools 
+remains a major barrier to receiving and using CbC reports. While larger jurisdictions have developed or 
+purchased advanced systems, these are often too costly and complex for developing countries with limited 
+reporting volumes. To address this, the Inclusive Framework is exploring options  to make available low- 
+or no-cost IT solutions tailored to the needs of developing countries. These tools, combined with access 
+to the OECD Common Transmission System, are expected to significantly facilitate access to CbC reports 
+by all interested developing countries.  
+BEPS Action 14 – Mutual Agreement Procedures  
+Progress in implementation of the minimum standard  
+The minimum standard included in the BEPS Final Report on Action 14 (OECD, 2015[7]) aims to improve 
+tax treaty dispute resolution through three core principles: timely and good -faith implementation of Mutual 
+Agreement Procedures (MAP) obligations, effective administrative processes, and g uaranteed access to 
+MAP for eligible taxpayers. These principles have been operationalised through 21 measurable elements 
+assessed via a peer review process. 
+As implementation has matured, the peer reviews for the BEPS Action 14 minimum standard have yielded 
+tangible results in enhancing the efficiency, effectiveness, and timeliness of MAP across Inclusive 
+Framework’s jurisdictions. Over 500 treaties have been modified by the BEPS MLI to incorporate effective 
+MAP provisions, while other jurisdictions h ave taken or plan  to take bilateral actions to modify their tax 
+treaties. Access to MAP is available in most eligible cases, with several issues being effectively addressed 
+through recommendations in the peer review process. 
+Progress in the implementation of BEPS Action 14 is further reflected in the widespread publication of MAP 
+guidance and profiles  by most peer -reviewed jurisdictions , as well as by notable  improvements in the 
+organisation of competent authority functions . These advancements h ave enabled many jurisdictions to 
+get much closer to the target of resolving MAP cases within an average timeframe of 24 months.  
+To date, 82 jurisdictions in the Inclusive Framework have completed the peer review processes. A revised 
+peer review approach now includes  a full peer review process for experienced MAP jurisdictions and a 
+simplified peer review process for jurisdictions with limited or no MAP experience.  
+The full peer review process is currently assessing 58 of jurisdictions with meaningful MAP experience in 
+meeting the BEPS Action 14 minimum standard. Additionally, 68 Inclusive Framework jurisdictions with 
+limited or no MAP experience have undergone or are currently undergoing a simplified peer review
+
+# Page 12
+   11 
+ 
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025 
+  
+process, with reports for 20 jurisdictions already publ ished, and another 17 scheduled for review in the 
+coming months. Jurisdictions also report statistics related to their tax certainty obligations under BEPS 
+Action 14. The ongoing collection of information ensures transparency, with information about each 
+jurisdiction’s MAP function available through published MAP guidance or MAP profiles.  
+Way forward to maintain progress, while reducing burdens 
+Given the recent updates to the peer review methodology for Action 1 4 agreed in 202 3, the Inclusive 
+Framework agreed at its Plenary meeting in April 2025 that no further changes are required at this time. 
+Therefore, as the implementation of  BEPS Action 14 reaches a mature phase, attention has shifted to 
+ensuring that all members – particularly developing countries – can fully benefit from effective MAP 
+processes. Developing countries that were initially excluded from peer reviews as they were in the process 
+of setting up a MAP function are now gaining MAP e xperience and are engaging in peer review process 
+for managing MAP caseloads efficiently and effectively, in line with the objectives of BEPS Action 14. 
+This has also been reflected in the simplified peer review process for jurisdictions without meaningful MAP 
+experience, aimed at helping them build a strong foundation for future cases, alongside a full review for 
+jurisdictions with more established MAP practices. Early results show strong commitment, particularly from 
+lower-capacity jurisdictions, which have welcomed the simplified process as a valuable tool for developing 
+their MAP frameworks and allocating necessary resources.  
+These efforts are further reinforced by targeted capacity -building initiatives, such as MAP workshops for 
+developing country officials, offering practical training on dispute resolution under  BEPS Action 14.
+
+# Page 13
+12    
+ 
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025 
+  
+ 
+References 
+ 
+OECD (2019), Harmful Tax Practices - 2018 Progress Report on Preferential Regimes: Inclusive 
+Framework on BEPS: Action 5, OECD Publishing, https://doi.org/10.1787/9789264311480-
+en. 
+[9] 
+OECD (2018), Resumption of application of substantial activities factor to no or only nominal tax 
+jurisdictions, BEPS Action 5, OECD, https://www.oecd.org/content/dam/oecd/en/topics/policy-
+sub-issues/harmful-tax-practices/substantial-activities-in-no-or-only-nominal-tax-jurisdictions-
+guidance.pdf. 
+[4] 
+OECD (2017), Harmful Tax Practices - 2017 Progress Report on Preferential Regimes: Inclusive 
+Framework on BEPS: Action 5, OECD/G20 Base Erosion and Profit Shifting Project, OECD 
+Publishing, Paris, https://doi.org/10.1787/9789264283954-en. 
+[8] 
+OECD (2015), Countering Harmful Tax Practices More Effectively, Taking into Account 
+Transparency and Substance, Action 5 - 2015 Final Report, OECD/G20 Base Erosion and 
+Profit Shifting Project, OECD Publishing, Paris, https://doi.org/10.1787/9789264241190-en. 
+[2] 
+OECD (2015), Making Dispute Resolution Mechanisms More Effective, Action 14 - 2015 Final 
+Report, OECD/G20 Base Erosion and Profit Shifting Project, OECD Publishing, Paris, 
+https://doi.org/10.1787/9789264241633-en. 
+[7] 
+OECD (2015), Preventing the Granting of Treaty Benefits in Inappropriate Circumstances, Action 
+6 - 2015 Final Report, OECD/G20 Base Erosion and Profit Shifting Project, OECD Publishing, 
+Paris, https://doi.org/10.1787/9789264241695-en. 
+[5] 
+OECD (2015), Transfer Pricing Documentation and Country-by-Country Reporting, Action 13 - 
+2015 Final Report, OECD/G20 Base Erosion and Profit Shifting Project, OECD Publishing, 
+https://doi.org/10.1787/9789264241480-en. 
+[6] 
+OECD (2013), Action Plan on Base Erosion and Profit Shifting, OECD Publishing, Paris, 
+https://doi.org/10.1787/9789264202719-en. 
+[1] 
+OECD (1998), Harmful Tax Competition: An Emerging Global Issue, OECD Publishing, Paris, 
+https://doi.org/10.1787/9789264162945-en. 
+[3]
+
+# Page 14
+   13 
+ 
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025 
+  
+Annex A. Revised methodology for the work of 
+the FHTP 
+Revised methodology for the review of preferential regimes 
+Introduction 
+The FHTP’s work of reviewing preferential regimes started in 1998, which is almost 30 years ago. During 
+these years, the FHTP has reviewed preferential regimes to avoid them creating harmful tax competition. 
+The FHTP’s reviews focus on regimes that provide benefits to business income from geographically mobile 
+activities (i.e. regimes within the FHTP’s scope). These regimes can pose BEPS -risks if they contain 
+potentially harmful features.  
+Since the start of the BEPS project, and with the formation of the I nclusive Framework, the FHTP has 
+expanded its scope of reviews beyond those of OECD Member States to encompass the full membership 
+of the Inclusive Framework. 1 Since the start of the BEPS project the FHTP has reviewed a total of 332 
+regimes. The results of these regime reviews are published in the BEPS Action 5 Report (OECD, 2015[2]), 
+the 2017 Progress Repor t (OECD, 2017[8]), the 2018 Progress Report  (OECD, 2019[9]) and on a regular 
+basis on the OECD’s website as new results become available. 
+In recent years, there have been an increasing number of instances where preferential regimes that pose 
+a limited BEPS risk are technically in the scope of the FHTP work (e.g. free trade zone regimes that permit 
+a wide range of activities and provide a preferential tax rate, including for services or Intellectual Property 
+(IP)). This is mainly because these regimes primarily or almost e xclusively target non -geographically 
+mobile activities such as manufacturing, warehousing, primary resource exploitation and agriculture, while 
+technically still allowing service income and income from IP to benefit from the regime. In addition, the 
+FHTP has also reviewed regimes that have a (very) limited uptake and therefore pose little BEPS -risks. 
+Under the previous methodology, the first step of an FHTP review was to undertake a legislative review of 
+a preferential regime before conducting an impact ass essment in respect of the BEPS -risk. This 
+methodology has in certain cases, especially in recent years, led to (often new) Inclusive Framework 
+members being required to adjust their legislation to comply with the BEPS Action 5 minimum standard, 
+prior to finding evidence of BEPS risks.  
+For these reasons, the Inclusive Framework has revised the methodology for the review of regimes so that 
+they will commence with an initial BEPS impact assessment, before conducting the legislative review. The 
+revised methodology ensures that those preferential regimes that are unlikely to lead to BEPS -risks are 
+not upfront subjected to a legislative review by the FHTP, therewith streamlining the FHTP’s work and 
+strengthening the focus on preferential regimes that are material  for maintaining the integrity of the BEPS 
+ 
+1 In addition, some preferential regimes with harmful features may be offered by jurisdictions that are not members of 
+the Inclusive Framework. In order to ensure a level playing field, such jurisdictions are able to be identified by the 
+members of the Inclusive Framework as being relevant to the work and are reviewed according to the same criteria 
+as apply for all other jurisdictions. These are “jurisdictions of relevance”.
+
+# Page 15
+14    
+ 
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025 
+  
+Action 5 minimum standard and the level playing field.  The revised methodology is effective from its 
+adoption at the Inclusive Framework’s April 2025 Plenary meeting.  
+This chapter sets out the revised methodology, which can be summarised as follows:  
+• Step 1. Identification of regimes that may be within the FHTP’s scope. This identification will initially 
+be made by the jurisdiction itself, by another Inclusive Framework member or by the FHTP 
+Secretariat (hereafter Secretariat); 
+• Step 2.  Initial assessment by the Secretariat to determine whether the regime falls within the 
+FHTP’s scope; 
+• Step 3.  Compilation of regimes (potentially) to be reviewed by the FHTP, based on identified 
+regimes that are determined to be within the scope of the FHTP. This list will be divided into:  
+1. a list of regimes for which the jurisdiction providing the preferential regime opts for an 
+immediate legislative review by the FHTP under Step 5 (thereby bypassing Step 4);  
+2. a list of regimes for which a BEPS impact assessment under Step 4 is to be considered by the 
+FHTP; and 
+3. a list of regimes for possible further consideration by the FHTP including those for which no 
+BEPS impact assessment or legislative review is undertaken;  
+• Step 4. BEPS impact assessment, with the following possible conclusions: 
+o the regime could have a significant BEPS impact and the FHTP should undertake a legislative 
+review of the regime; or 
+o the regime currently does not have a significant BEPS impact  and the FHTP should not 
+undertake a legislative review of the regime at this moment; or 
+o the BEPS impact assessment of the regime is currently inconclusive and the FHTP does not 
+undertake a legislative review of the regime at this moment, but it will be sub ject to ongoing 
+monitoring for three years;  
+• Step 5. Legislative review.  
+The below image sets out the steps of the revised methodology in a graphical manner.  
+ 
+Step 1+2
+(Self-)identified regime and 
+identified by Secretariat as 
+in-scope
+Step 3
+Jurisdiction opts for 
+legislative review
+Step 5
+Legislative review
+Step 3
+FHTP agrees on BEPS 
+impact assessment
+Step 4
+There could be a BEPS 
+impact →legislative review
+Step 4 
+No BEPS impact expected 
+→not harmful
+Step 4 
+Inconclusive assessment
+→three year monitoring
+Step 3
+FHTP agrees on no BEPS 
+impact assessment
+No legislative review
+→not hamrful
+
+# Page 16
+   15 
+ 
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025 
+  
+Revised methodology for regime reviews 
+This section sets out in further detail the revised meth odology for identifying, assessing, and reviewing 
+preferential regimes.  
+Step 1. Identification 
+The first step is the identification or self-identification of the preferential regime. This is an essential step in 
+the FHTP’s review process, because without it, the FHTP is not aware of all the regimes that may require 
+review. The FHTP should consider reviewing a regime of an Inclusive Framework member, or a non -
+Inclusive Framework member  if considered a jurisdiction of relevance, only if it is identified by another 
+Inclusive Framework member, by the jurisdiction offering the preferential regime itself, or by the 
+Secretariat.  
+When an Inclusive Framework member seeks to identify a preferen tial regime of another Inclusive 
+Framework member or a regime of a (potential) jurisdiction of relevance, it will notify the Secretariat. This 
+can be done at any moment in time and on informal and anonymous basis. It will not be communicated 
+with the FHTP whether the regime was identified by the Secretariat or by another Inclusive Framework 
+member. 
+The Secretariat’s research of preferential regimes is based on an evaluation of any relevant or recent 
+developments from public sources. However, the FHTP should not rely solely on the Secretariat’s findings 
+or the limitations of its research, because the collection and analysis of publicly available data may be 
+affected by factors such as scope, accessibility, and reliability of these resources. 
+Step 2. Secretariat’s initial assessment 
+If a regime has been identified or self-identified, the Secretariat will, working with the concerned jurisdiction, 
+conduct an initial assessment to determine whether the regime potentially falls within the FHTP scope (i.e. 
+is the regime preferential and does it provide tax benefits to business income from geographically mobile 
+activities, including the provision of intangibles).  
+In line with the FHTP’s standing practice under its previous methodology, if a regime is found to be out of 
+scope under Step 2, it will not be reviewed by the FHTP, nor will any monitoring be carried out. This 
+outcome will be communicated to the jurisdiction(s) that have identified or self -identified the regime and 
+the regime will be included in the list of regimes for possible further consideration by the FHTP (list 3). If a 
+regime is found to be within the FHTP’s scope , it will be included in the list of regimes to be potentially 
+submitted to a BEPS impact assessment (list 2) under Step 3. 
+If a jurisdiction requests the FHTP to register a regime that is offered in that jurisdiction as an out-of-scope 
+regime, the regime will be reviewed promptly under Step 5 (i.e. without a BEPS impact assessment) . In 
+those instances, the out-of-scope conclusion, if adopted by the FHTP, would be published. 
+Step 3. Compilation of regimes potentially to be reviewed 
+As this methodology aims to focus the review primarily on cases with a significant BEPS-risk, it is important 
+to ensure that the FHTP maintains visibility of all prefe rential regimes that are in scope. A compilation of 
+regimes within the scope of the FHTP’s review will therefore be circulated before each FHTP meeting in 
+order for the FHTP to determine which regimes should be reviewed, in light of their potential to crea te 
+significant BEPS-risks. The compilation consists of three parts:  
+1. A list of regimes for which the jurisdiction opted for a legislative review of the regime. This 
+section is shared with the FHTP for information and the regimes contained in this list will  
+immediately proceed to the legislative review under Step 5;
+
+# Page 17
+16    
+ 
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025 
+  
+2. A list of regimes that are within the scope of the FHTP, including a preliminary indication from 
+the Secretariat on whether and why the regime should or should not undergo a BEPS impact 
+assessment under Step 4. This section is shared with the FHTP for approval; and 
+3. A list of regimes for possible further consideration by the FHTP including those for which no 
+BEPS impact assessment or legislative review is undertaken. This section is shared with the  
+FHTP for information. 
+Each list will include a brief description of the regime, along with details about the features and scale of 
+the jurisdiction offering the regime (e.g. the size of the economy and previous existence of preferential 
+regimes), as well as the level of tax preference (e.g. exemption or lower tax rate). This information allows 
+the FHTP to have a high -level appreciation of the regime, which assists the FHTP in its decision of 
+undertaking a BEPS impact assessment or to proceed with the revie w of a regime on the list of regimes 
+for possible further consideration by the FHTP (list 3). The content of the three lists is further outlined 
+below. 
+List 1: regimes proceeding to legislative review at the request of the jurisdiction  
+This list includes r egimes that a jurisdiction explicitly requested to undergo a legislative review. The 
+outcome of the legislative review may determine that the regime is out of scope.  
+Regimes on this list will not undergo an impact assessment. Instead, they will proceed di rectly to a 
+legislative review under Step 5, either at the next or a subsequent FHTP meeting. As such, this list is 
+shared with the FHTP for information purposes only. 
+Note that under this revised methodology, the FHTP will no longer be able to conclude th at a regime is 
+“potentially harmful but not actually harmful” (see further explanation under Step 4 below). This is because 
+the consideration as to whether a potentially harmful regime is actually harmful is now replaced by the prior 
+BEPS impact assessment  at Step 4. By opting not to submit the regime to a BEPS impact assessment 
+under Step 4 and agreeing to proceed directly to legislative review, the jurisdiction agrees that such a 
+legislative review is sufficient for determining whether a regime is harmful  or not and there is no need to 
+undertake a separate BEPS impact assessment to determine whether the regime is actually harmful or 
+not.  
+List 2: regimes to be potentially submitted to a BEPS impact assessment  
+The regimes on this second list are regimes th at are within the scope of the FHTP’s review (i.e. they are 
+preferential to business income from geographically mobile activities), and for which the FHTP must 
+consider whether it is necessary to undertake a BEPS impact assessment.  
+As mentioned in paragraph 0, each regime will include a brief description of the regime and details on the 
+features and size of the jurisdiction offering the regime, as well as the level of tax preference. This supports 
+the FHTP in determining whether a listed regime should undergo a BEPS impact assessment under Step 
+4. To prepare the FHTP for its decision, the Secretariat will also share its preliminary proposal for the 
+decision by the FHTP, taking into account whether the regime is prima facie unlikely to produce a significant 
+BEPS impact, e.g. because the rate of the regime is relatively high or because the jurisdiction offering the 
+regime is a low-income economy.  
+Regimes included on this list will proceed to a BEPS impact assessment, unless the FHTP decides on a 
+consensus basis that no BEPS impact assessment will take place. In such case, the regime will be included 
+in the list of regimes for possible further consideration by the FHTP (list 3).
+
+# Page 18
+   17 
+ 
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025 
+  
+List 3: regimes for possible further consideration by the FHTP 
+For the purpose of visibility for the FHTP, certain regimes will be recorded in this separate list of the 
+compilation, which is shared for information with the FHTP in advance of subsequent meetings.  
+This list will include the following types of regimes:  
+• Regimes identified under Step 1 that are out of the FHTP’s scope as a result of Step 2;  
+• Regimes within the FHTP’s scope for which no BEPS impact assessment is undertaken (as a result 
+of Step 3); 
+• Regimes that were concluded as “not harmful” following a BEPS impact assessment under Step 
+4; 
+• Regimes that are subject to ongoing monitoring following a BEPS impact assessment under Step 
+4; 
+• Regimes that were previously con cluded as “potentially harmful but not actually harmful”, 
+“disadvantaged areas” and “non-operational”; 
+• Grandfathered non-IP regimes for which the transitional period has not yet ended; 
+• IP regimes providing benefits to the third category of IP assets or the rebuttable presumption; and 
+• Any other types of regimes the FHTP has decided to include in this list. 
+Both Inclusive Framework members and the Secretariat may propose that a regime on this list be 
+reconsidered for a BEPS impact assessment in accordance with Steps 3 and 4 at any subsequent moment 
+in time. The brief description of the regime and details on the features and size of the jurisdiction offering 
+the regime as mentioned in paragraph 0 will assist the FHTP in undertaking this reconsideration, as well 
+as any new potential information that became available. The process in this regard is the same as for the 
+initial identification of regimes, as set out under Step 1 and can be undertaken at any moment. 
+In a similar regard, both Inclusive Framework members and the Secretariat may also propose that a regime 
+on this list will be removed, e.g. because no BEPS risks have substantiated over a prolonged period of 
+time. Such decision would be taken on a consensus basis by the FHTP.  
+Step 4. BEPS impact assessment 
+Once a regime has been identified and determined to be within the scope of the FHTP’s work, and the 
+FHTP has decided to pursue a BEPS impact assessment, the Secreta riat will conduct an impact 
+assessment of the regime in terms of its BEPS -risks, working with the concerned jurisdiction. Based on 
+the outcome of the impact assessment, the FHTP will decide if the regime should be legislatively reviewed 
+or not (under Step 5).  
+The BEPS impact assessment is an assessment of the expected economic effects of the regime in terms 
+of producing BEPS -risks for other jurisdictions. As such, the Secretariat will, inter alia, take into account 
+the following factors for determining the impact of the regime in terms of BEPS-risks: 
+• the primary objectives of the regime: e.g. if the regime is focussed on manufacturing activities, and 
+not on geographically mobile activities, or if the regime only targets disadvantaged areas, the BEPS 
+impact of the regime could be low;  
+• the jurisdiction offering the regime: e.g. if the jurisdiction has a low GDP or is classified as a low -
+income economy by the World Bank, the BEPS impact of the regime could be low;  
+• the number of taxpayers benefiting from the r egime (if available): e.g. if only a small number of 
+taxpayers is benefitting from the regime, the BEPS impact of the regime could be low;  
+• the total income subject to preferential tax treatment (if available): e.g. if only a small amount of 
+income is benefitting from the regime, the BEPS impact of the regime could be low;  
+• when the regime is a replacement regime of the previous regime, data from the previous regime  
+and the FHTP’s previous experience; and
+
+# Page 19
+18    
+ 
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025 
+  
+• any other factor(s) or source of information deemed t o be relevant for the BEPS impact 
+assessment, to be decided on a case-by-case basis.  
+Based on the BEPS impact assessment, the Secretariat will propose one of the following three decisions 
+to the FHTP: 
+• Proceed with legislative review. 
+When the assessment indicates that the regime could have a significant BEPS impact, the FHTP 
+should undertake a legislative review of the regime, as described under Step 5. T he decision to 
+that effect is taken by the FHTP on a consensus minus-one basis. 
+• No legislative review. 
+When the assessment indicates that the regime is not expected to have a significant BEPS impact, 
+the FHTP would conclude its review by finding the regime “not harmful”. The decision to that effect 
+is taken by the FHTP on a consensus basis. The regime will be included in the FHTP’s public lists 
+of regimes as well as the list of regimes for possible further consideration by the FHTP (list 3).   
+• No legislative review, but ongoing monitoring. 
+When the assessment is either inconclusive or indicates that the regime could potentially, but does 
+not currently have a significant BEPS impact, the FHTP would keep the regime “under review” and 
+would annually monitor the regime for three years. The decision to that effect is taken by the FHTP 
+on a consensus minus-one basis. The regime will be included in the FHTP’s public lists of regimes 
+as well as the list of regimes for possible further consideration by the FHTP (list 3).  
+If the FHTP cannot agree on the outcomes of the BEPS impact assessment, the dec ision will be deferred 
+to the next FHTP meeting. In the meantime, the Secretariat will conduct further research into the regime 
+and will work towards obtaining consensus (minus -one) amongst delegates on the decision to be taken. 
+The regime will be kept “under review” and will be included in the FHTP’s public lists of regimes.  
+Step 5. Legislative review 
+Either upon request of the jurisdiction offering the regime, or as a result of the BEPS impact assessment 
+under Step 4, the FHTP will undertake a legislative review of the regime. This is a review of the legislation 
+of the regime against the FHTP’s criteria.  
+The FHTP conducts its reviews of preferential regimes against a number of factors, originally set out in the 
+1998 Report (OECD, 1998[3]), which laid the foundation for the OECD’s work on harmful tax practices, 
+currently consist of five key factors and five other factors.  
+Five key factors 
+The regime imposes no or low effective tax rates on income from geographically 
+mobile financial and other service activities. 
+The regime is ring-fenced from the domestic economy. 
+The regime lacks transparency. 
+There is no effective exchange of information with respect to the regime. 
+The regime fails to require substantial activities.2 
+Five other factors 
+An artificial definition of the tax base. 
+Failure to adhere to international transfer pricing principles. 
+Foreign source income exempt from residence country taxation. 
+Negotiable tax rate or tax base. 
+Existence of secrecy provisions. 
+ 
+2 This includes the 2015 BEPS Action 5 Final Report (OECD, 2015[2]), the 2017 Progress Report (OECD, 2017[8]), and 
+any guidance on substantial activities agreed by the FHTP and Inclusive Framework thereafter.
+
+# Page 20
+   19 
+ 
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025 
+  
+Each key factor is briefly described below.  
+• The regime imposes no or low effective tax rates on income from geographically mobile financial 
+and other service activities. 
+A low or zero effective tax rate on the relevant income  is a necessary starting point for an 
+examination of whether a preferential tax regime is harmful. When a preferential regime benefits 
+income from geographically mobile activities and meets this factor, it is in scope for the FHTP. 
+However, the tax rate factor alone does not imply that a preferential regime is harmful; rather it is 
+a gateway criterion that if met means that the FHTP will continue the review process to determine 
+if one or more of the other key factors are implicated.  
+• The regime is ring-fenced from the domestic economy. 
+Some preferential tax regimes are partly or fully insulated from the domestic economy of the 
+jurisdiction providing the regime. The fact that a jurisdiction has designed the regime in a way that 
+protects its own economy from t he regime by ring -fencing provides a strong indication that a 
+regime has the potential to create harmful spill-over effects. Ring-fencing focusses on the legal or 
+administrative barriers to participation in the domestic economy, rather than the case where only 
+a small number of domestic  taxpayers take advantage of the regime . Ring-fencing may take a 
+number of forms, including: 
+o A regime may explicitly or implicitly exclude resident taxpayers from taking advantage of its 
+benefits.  
+o Enterprises which benefit from the regime may be explicitly or implicitly prohibited from 
+operating in the domestic market. 
+• The regime lacks transparency. 
+A lack of transparency may arise from the way in which a regime is designed and administered. 
+For example, where the de tails of the regime or its application are not apparent, or there is 
+inadequate regulatory supervision or financial disclosure.  
+• There is no effective exchange of information with respect to the regime. 
+When the jurisdiction lacks an effective exchange of information with respect to the regime, this 
+can inhibit the ability of other tax authorities to enforce effectively its rules. 
+• The regime encourages operations or arrangements that are purely tax -driven and involve no 
+substantial activities. 
+This factor has been elaborated in the work of the BEPS Action 5 Report (OECD, 2015), requiring 
+that in order to benefit from a preferential regime, the taxpayer must have engaged in the activities 
+giving rise to the income.  
+In the case of regimes that give benefits to income from intellectual property (“IP”), this requirement 
+means being compliant with the “nexus approach” as detailed in the BEPS Action 5 Report (OECD, 
+2015[2]). The nexus approach requires a link betwe en the income benefiting from the IP regime 
+and the extent to which the taxpayer has undertaken the underlying research and development 
+that generated the intellectual property. The FHTP uses a substantive approach, reviewing IP 
+regimes that are targeted at IP income (such as patent boxes) as well as regimes that provide for 
+benefits to a wider range of geographically mobile activities but include income from IP (such as 
+certain free zones or international business companies).  
+The BEPS Action 5 Report  (OECD, 2015 [2]) also contains more general guidance for the 
+application of the substantial activities criterion to non-IP regimes, and further detail on the FHTP’s 
+approach is set out in Annex D of the 2017 Progress Report  (OECD, 2017[8]). This ensures that 
+the core income generating activities are undertaken, including with an adequate number of full -
+time, qualified employees and an adequate amount of operating expenditure, supported b y a 
+transparent mechanism to ensure compliance.
+
+# Page 21
+20    
+ 
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025 
+  
+If the regime meets the gateway criterion of imposing no or low effective tax rates on income from 
+geographically mobile financial and other service activities  and is not compliant with one or more of the 
+other key factors, it would be found to be “harmful”. Under the previous methodology, the FHTP could also 
+conclude regimes as “potentially harmful” and “potentially harmful but not actually harmful”. However, this 
+assessment is now undertaken before the FHTP’s legislative review and is therefore no longer a potential 
+outcome after such review. Where a regime is found to be “harmful”, the jurisdiction is expected to amend 
+or abolish the regime in accordance with the FHTP timelines. This includes ensuring that such regimes are 
+quickly closed-off to new applicants and new expansions of business activities, and that any grandfathering 
+is provided for a limited transition period only. These timelines are set out below under the procedural 
+aspects. 
+Procedural aspects 
+Conclusions 
+The review by the FHTP can result in one of the following conclusions:  
+Result Meaning Decision taken in  
+Harmful  The regime has harmful features. The jurisdiction is expected to take 
+measures in order to remove the harmful features of the regime. 
+Step 5 
+Not harmful  The regime is in scope but does not have harmful features or a significant 
+BEPS impact. 
+Step 4 or 5 
+Amended (not harmful) The regime has had its harmful features removed and is therefore not 
+harmful. 
+Step 5 
+Out of scope The regime does not grant tax benefits to geographically mobile activities. Step 5 
+Amended (out of scope) The regime has been amended so that it no longer grants tax benefits to 
+geographically mobile activities and is therefore out of scope for  the 
+FHTP. 
+Step 5 
+In the process of being 
+amended / in the process of 
+being eliminated 
+The jurisdiction has communicated to the FHTP the commitment of its 
+government to abolish or amend the regime in light of the discussions by 
+the FHTP about the features  of the regime that are of concern . This 
+commitment involves a commitment to making the amendments within 
+the timelines indicated below. 
+Step 5 
+Abolished A definite date for complete abolition of the regime has been announced, 
+and the regime is transparent and has effective exchange of information. 
+No new entrants are permitted into the regime. Any grandfathering for 
+existing beneficiaries is consistent with the applicable framework and 
+timelines. 
+Step 5 
+Under review The FHTP is continuing to co nsider the features of the regime and 
+whether the criteria are implicated. 
+Step 4 or 5
+
+# Page 22
+   21 
+ 
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025 
+  
+Timelines  
+As noted in the above table, one of the conclusions that the FHTP can reach is “in the process of being 
+amended/eliminated”. This conclusion is reached when the FHTP decided that the regime has potentially 
+harmful features that need to be removed, but when the jurisdiction made a commitment to abolish or 
+amend the regime. In those instances, the timelines for closing-off and grandfathering are:  
+Timelines for closing-off and grandfathering of regimes 
+Event Explanation Timeline 
+Cut-off date for new entrants (both new 
+taxpayers and new assets and/or 
+activities of existing taxpayers) to be 
+eligible for grandfathering 
+When a jurisdiction provides 
+grandfathering, new entrants (both new 
+taxpayers and new assets and/or 
+activities of existing taxpayers) coming 
+into the regime after the cut -off date 
+should not benefit from grandfathering 
+after the close-off date.3 
+Publication date of the FHTP’s decision 
+Close-off date (the date the regime is 
+amended or abolished) 
+Closing-off the regime means that no 
+new entrants are allowed to use the 
+regime. New entrants include both new 
+taxpayers, but also new assets (e.g. IP 
+assets) and/or new activities of existing 
+taxpayers. 
+As soon as possible, and no later than 
+12 months after the publication date of 
+the FHTP’s decision (or where 
+necessary because of the legislative 
+process, by 31 December of the year 
+following the cut-off date) 
+Grandfathering period  This is the maximum transition period 
+granted to entrants benefiting from the 
+regime as at the cut -off date. 
+Jurisdictions are generally permitted, 
+but not required, to provide 
+grandfathering (see below).  
+31 December in the yea r which is three 
+years after the publication date of the 
+FHTP’s decision. For example, if a 
+regime is reported as “in the process of 
+being amended / eliminated ” in July 
+2025, the end of grandfathering would 
+be no later than 31 December 2028. 
+Only ring-fenced regimes and regimes lacking substantial activities requirements can be grandfathered. 
+Regimes lacking transparency and exchange of information cannot be grandfathered with respect to the 
+harmful aspect of that regime.  
+Regimes under review before revised methodology  
+All regimes for which no final conclusion was reached before the revised methodology is effective, will be 
+removed from the FHTP’s public lists of regimes and reviewed in accordance with all steps of the revised 
+methodology.  
+ 
+3 When a regime is kept “under review” by the FHTP, then no decision has yet been made. Publication includes public 
+release of the regime conclusions on the OECD website after the regime results have been approved and declassified 
+by the Inclusive Framework, as well as in FHTP Progress Reports, whichever is earlier.
+
+# Page 23
+22    
+ 
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025 
+  
+Potentially harmful but not actually harmful regimes 
+The revised methodology covers the BEPS impact assessment that is currently conducted as part of the 
+review of whether a regime is “potentially harmful but not actually harmful”. Therefore, this review, which 
+is condu cted when a regime has potentially harmful features based on the legislative review , is now 
+removed and replaced by the BEPS impact assessment under Step 4 of the revised methodology.  
+All regimes for which a “potentially harmful but not actually harmful” conclusion was reached, will remain 
+on the FHTP’s public lists of regimes and will be added to the list of regimes for possible further 
+consideration by the FHTP (list 3) so that the FHTP can reconsider the regime at any given moment. 
+Disadvantaged areas regimes 
+Certain jurisdictions have introduced tax incentive regimes designed to encourage development in 
+disadvantaged areas and which, whilst they do not specifically provide a preferential treatment for income 
+from IP, they may include (or do not specifically exclude) such income. The BEPS Action 5 Report (OECD, 
+2015[2]) considered that such regimes do not pose significant BEPS -risks, provided the regime  is only 
+applicable to a relatively small and economically disadvantaged area, the regime is mainly  designed to 
+create new jobs and attract tangible investments , significant substance is demonstrated in terms of the 
+generation of new employment, assets and investments and  the regime is subject to monitoring by the 
+FHTP. 
+As for “potentially harmful but not actually harmful” regimes, the impact assessment under Step 4 of the 
+revised methodology now also considers whether a regime provides benefits to disadvantaged areas. The 
+FHTP will therefore no longer conclude a regime as a disadvantaged areas regime during the legislative 
+review. The current disadvantaged areas regimes will remain on the FHTP’s public lists of regimes and 
+will be added to the list of regimes for possible further consideration by the FHTP (list 3) so that the FHTP 
+can reconsider the regime at any given moment.  
+Non-operational regimes 
+A preferential regime is not operational if the jurisdiction did not operationalise the regime and no taxpayer 
+is able to benefit from it. If such a regime becomes operational in the future, the jurisdiction has committed 
+to inform the FHTP and the regime will be reviewed. 
+All regimes that were concluded as non-operational before the revised methodology is effective, will remain 
+on the FHTP’s public lists of regimes and will be added to the  list of regimes for possible further 
+consideration by the FHTP (list 3) so that the FHTP can reconsider the regime at any given moment.  
+Examples  
+The following list of non -exhaustive example s illustrates the practical application of the revised 
+methodology:  
+• Example 1: Jurisdiction A offers a preferential regime that is identified by Jurisdiction B (step 1). 
+The Secretariat undertakes an initial assessment (step 2) and concludes that no incom e from 
+geographically mobile activities can benefit from the regime. The Secretariat informs both 
+Jurisdiction A and Jurisdiction B and no further steps are taken. The regime is included in the list 
+of regimes for possible further consideration by the FHTP (list 3). 
+• Example 2: Jurisdiction C introduces a new IP regime. It identifies it to the Secretariat (step 1), and 
+the Secretariat concludes that the regime is in scope of the FHTP’s review (step 2). Jurisdiction C 
+wishes to have an FHTP’s conclusion publi shed, because its stakeholders have requested this. 
+Jurisdiction C opts for the legislative review by the FHTP (step 3). The FHTP undertakes the 
+legislative review (step 5) and publishes the conclusion on the regime.
+
+# Page 24
+   23 
+ 
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025 
+  
+• Example 3: Jurisdiction D joins the Inclusive Framework. The Secretariat identifies that Jurisdiction 
+D has five preferential regimes (step 1) of which two are in scope of the FHTP’s review (step 2). 
+The Secretariat presents the two regimes to the FHTP  under step 3. The FHTP concludes by 
+consensus that the regimes should not undergo a BEPS impact assessment and therefore, the 
+Secretariat records these regimes in the list of regimes for possible further consideration by the 
+FHTP (list 3).  
+• Example 4: The facts are the same as in example 3, exce pt that the FHTP decides that one in -
+scope regime from Jurisdiction D is to be reviewed (step 3). The Secretariat performs a BEPS 
+impact assessment (step 4) and concludes that the regime is only used by two taxpayers in the 
+last five years for a total amou nt of income of EUR 100k. The FHTP concludes that there is no 
+expected significant BEPS impact and that the regime is “not harmful”. The regime is included in 
+the list of regimes for possible further consideration by the FHTP (list 3). 
+• Example 5: Jurisdiction E introduces a logistic services regime and identifies this to the Secretariat 
+(step 1). The Secretariat concludes that the regime is in scope of the FHTP’s review (step 2). The 
+regime is included in the list of regimes to be potentially submitted to a  BEPS impact assessment 
+(list 2) and the FHTP decides that the regime should undergo a BEPS impact assessment (step 
+3). The Secretariat undertakes the BEPS impact assessment (step 4), and concludes that, since 
+this is a new regime, no definite conclusion c an be reached. The FHTP decides that there will be 
+no legislative review at this stage, but that the regime will be monitored for three years. The regime 
+is included as “under review” in the FHTP’s public lists of regimes as well as in the list of regimes 
+for possible further consideration by the FHTP (list 3).  
+• Example 6: Jurisdiction F provides for an economic zone regime that the FHTP previously 
+determined to be “in the process of being amended”. With the adoption of the revised methodology, 
+the regime becomes subject to that methodology. Jurisdiction G identifies the regime (step 1) and 
+the Secretariat concludes that the regime is in scope (step 2). The Secretariat includes the regime 
+in the list of regimes to be potentially submitted to a BEPS impact as sessment (list 2), and the 
+FHTP decides that the regime should undergo a BEPS impact assessment (step 3). The 
+Secretariat undertakes the BEPS impact assessment (step 4) and proposes that there is no 
+expected significant BEPS impact. On that basis, the FHTP adopts as a conclusion that the regime 
+is “not harmful”. The regime is included in the list of regimes for possible further consideration by 
+the FHTP (list 3). 
+• Example 7: The Secretariat identifies that Jurisdiction H has an insurance regime (step 1) which is 
+in scope of the FHTP’s review (step 2). The Secretariat includes the regime in the list of regimes 
+to be potentially submitted to a BEPS impact assessment (list 2), and the FHTP decides that the 
+regime should undergo a BEPS impact assessment (step 3). The Secretariat undertakes the BEPS 
+impact assessment (step 4) and proposes a legislative review because it could have a significant 
+BEPS impact. On that basis, the FHTP decides on a consensus minus -one basis to undertake a 
+legislative review under step 5. During the legislative review, the FHTP concludes that the regime 
+meets the gateway criterion of a no or low effective tax rate. In addition, the FHTP concludes that 
+the regime lacks substantial activities requirements. Finally, the FHTP also concludes t hat the 
+regime is ring -fenced, because the benefits are provided only to foreign -sourced income. The 
+FHTP decides that the regime can be concluded as “harmful”. Jurisdiction H makes a commitment 
+to amend the regime, and therefore, the FHTP concludes in its  public lists of regimes that the 
+regime is “in the process of being amended”. In the absence of such a commitment, the FHTP 
+would have concluded the regime in the FHTP’s public lists of regimes as “harmful”.
+
+# Page 25
+24    
+ 
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025 
+  
+Reducing the scope and frequency of monitoring and peer review exercises  
+Introduction 
+The FHTP undertakes annual monitoring and peer review exercises. More specifically, it monitors certain 
+aspects of regimes and the substantial activities requirements in no or only nominal tax jurisdictions and it 
+reviews jurisdictions’ implementation of the transparency framework that was set out in BEPS Action 5 
+Report (OECD, 2015[2]). 
+The FHTP now has several years of experience with the annual monitoring and peer review proce sses. 
+The annual monitoring for regimes started in 2018, and the annual monitoring for no or only nominal tax 
+jurisdictions in 2020. The peer review of the transparency framework commenced in 2017.  
+Under the revised methodology set out in this section, th at certain monitoring processes will be 
+discontinued and that the frequency of other monitoring process and the peer review of the transparency 
+framework, will be reduced. These changes are aimed at decreasing the burden on both assessed 
+jurisdictions and the FHTP, while maintaining the progress made and the integrity and value of the 
+monitoring exercise. 
+In summary, the Inclusive Framework agreed  that the FHTP will reduce the scope of the monitoring of 
+preferential regimes, by discontinuing the annual monitoring exercise for: (i) third category of IP assets and 
+rebuttable presumption in IP regimes, (ii) potentially harmful but not actually harmful regimes, (iii) 
+disadvantaged areas regimes, and (iv) grandfathered non -IP regimes. Furthermore, for substantial  
+activities in non-IP regimes and substantial activities in no or only nominal tax jurisdictions, the frequency 
+of monitoring will be reduced, i.e. once every three years, as opposed to the current annual cycle.  
+Reduction of the scope of the monitoring of preferential regimes  
+Certain aspects of IP regimes 
+The BEPS Action 5 nexus approach sets out the substantial activities requirements for IP regimes. One of 
+the features of the nexus approach is to define the categories of IP assets that are eligible for preferential 
+tax treatment.  There are three categories of qualifying IP assets: the first category is patents defined 
+broadly; the second category is copyrighted software; and the third category is an additional category 
+applicable in certain more limited circumstances, where the asset is similar in nature to the former two, but 
+has not been subject to the patent approval process.  
+The purpose of allowing this third category of IP assets is to recognise that for SMEs, the patent process 
+may be prohibitively expensive and very lengthy. In addition, the Inclusive Framework agreed that allowing 
+smaller companies to benefit from the IP regime would not appear to pose a significant BEPS -risk. The 
+BEPS Action 5 Report  (OECD, 2015[2]) allowed the third category of IP assets, provided that the FHTP 
+would annually monitor this category and jurisdictions would spontaneously exchange information on 
+taxpayers benefitting from this category (using the BEPS Action 5 transparency framework). 
+Furthermore, the BEPS Action 5 Report (OECD, 2015[2]) allows jurisdictions to treat the nexus ratio as a 
+rebuttable presumption. In this scenario, a jurisdiction determines the income receiving tax benefits based 
+on the nexus ratio, but permits taxpayers to prove that more income should be permitted to benefit from 
+the IP regime in exceptional circumstances where taxpayers that have undertaken substantial qualifying 
+R&D activity in developing a qualifying IP asset or product can establish that the application of the nexus 
+fraction leads to an outcome where the level of income eligible for a preferential IP regime is not 
+commensurate with the level of their R&D activity. The application of this rebuttable presumption is subject 
+to specific requirements, in particular that the FHTP would annually monitor this category and that
+
+# Page 26
+   25 
+ 
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025 
+  
+jurisdictions would spontaneously exchange information on taxpayers benefitting from this category (using 
+the BEPS Action 5 transparency framework). 
+In light of the annual monitoring results from the past years, and available data more generally, there 
+appear to be only a limited number of taxpayers benefitting from the third category of IP assets and  
+rebuttable presumption. In addition, BEPS-risks related to these categories appear limited and any future 
+regime offering such features could be subject to monitoring as part of the BEPS impact assessment under 
+the revised methodology.  
+Therefore, this category is monitored for the last time in 2025. The exchange of information requirements 
+will be retained. The regimes will remain on the FHTP’s public lists of regimes and, for transparency 
+purposes, will be included in the list of regimes for possible further consideration by the FHTP (list 3). 
+Potentially harmful but not actually harmful regimes  
+The conclusion of “potentially harmful but not actually harmful” was taken by the FHTP if the  regime is in 
+scope, meets the low or no effective tax rate criterio n and implicates one or more of the criteria, but an 
+assessment of the economic effects shows that the regime is not having a harmful impact in practice. The 
+purpose of monitoring such regimes was that, where changes in the data were identified, the FHTP could 
+reconsider the conclusion.  
+The revised methodology for reviewing regimes will no longer include the conclusion of “potentially harmful 
+but not actually harmful”, because of its replacement by the BEPS impact assessment.  
+Therefore, this category is m onitored for the last time in 2025 . The regimes will remain on the FHTP’s 
+public lists of regimes and, for transparency purposes, will be included in the list of regimes for possible 
+further consideration by the FHTP (list 3). 
+Disadvantaged areas regimes  
+The purpose of the ongoing monitoring of disadvantaged areas regimes  is that if the FHTP finds an 
+indication of adverse economic effects from a regime, the FHTP would decide on a case -by-case basis 
+what additional data would be necessary to inform a decision as to whether the regime should be treated 
+as an IP regime and assessed against the nexus approach.  
+The Inclusive Framework already previously decided that, in general, these disadvantaged areas do not 
+pose a significant BEPS-risk. Further, the annual monitoring results from the past years suggest that it is 
+not expected that there will be a significant increase in the disadvantaged areas regimes that would justify 
+reopening conclusions in this respect. In addition, under th e revised methodology, the FHTP no longer 
+concludes any disadvantaged areas regimes.  
+Therefore, this category is monitored  for the last time in 2025.  The regimes will remain on the FHTP’s 
+public lists of regimes and, for transparency purposes, will be inc luded in the list of regimes for possible 
+further consideration by the FHTP (list 3). 
+Grandfathered non-IP regimes 
+Of all regimes reviewed by the FHTP since the start of the BEPS project, almost 200 have been abolished 
+or amended, with a large part foresee ing grandfathering in accordance with the FHTP’s timelines. The 
+FHTP’s timelines include a cut -off date (i.e. the date when the FHTP’s decision on regime is published) 
+and close-off date (i.e. the date that the regime is abolished or amended). New entrants to the regime after 
+the cut-off date and before the close -off date cannot benefit from grandfathering. Part of the legislative 
+review of the FHTP is whether these dates are included in the legislation for the regime.
+
+# Page 27
+26    
+ 
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025 
+  
+Based on the annual monitoring results from the past years, it appears that for grandfathered regimes, the 
+results show that the number of taxpayers and amount of income in the regimes decreases or remains 
+stable throughout the grandfathering years. No regime has been reopened by the FHTP bec ause of the 
+monitoring results. This indicates that the legislative review done by the FHTP is sufficient and that the 
+added value of the monitoring is low.  
+Therefore, this category is monitored  for the last time in 2025. The regimes will remain on the FH TP’s 
+public lists of regimes and, for transparency purposes, will be included in the list of regimes for possible 
+further consideration by the FHTP (list 3). 
+Reduced frequency of monitoring and peer review exercises  
+Monitoring substantial activities requirements for non-IP regimes  
+With the BEPS Action 5 Report (OECD, 2015[2]), the substantial activities requirements were elevated to 
+one of the key criteria of the FHTP’s review of preferential regimes. In 2017, the FHT P agreed guidance 
+on the substantial activities requirements non -IP regimes, which were set out in Annex D of the 2017 
+Progress Report (OECD, 2017[8]). The guidance also indicated the need for monitoring to ensure that  the 
+substantial activities requirements have been implemented effectively in practice.  
+The annual monitoring for substantial activities in non-IP regimes consists of two parts. The first part is “an 
+assessment of the jurisdiction’s transparent mechanism t o review taxpayer compliance and to deny 
+benefits if these core-income generating activities are not undertaken by the taxpayer or do not occur within 
+the jurisdiction”. This mechanism focusses on the enforcement of the legislation in practice (e.g. how 
+jurisdictions are ensuring compliance and jurisdictions’ responsiveness to risks of non -compliance). The 
+analysis intends to ensure that the regime is consistent with the substantial activities requirements that the 
+jurisdiction declared it had in place at the time the FHTP reviewed the regime as “not harmful”. The second 
+part of the monitoring is the collection of data regarding the number of taxpayers, the number of employees, 
+amount of expenditures, amount of income, and statistics regarding taxpayers that  did not qualify for the 
+benefits because they did not meet the substantial activities requirements.  
+The FHTP has analysed the annual monitoring results from the past years and concluded that most 
+jurisdictions have a transparent review mechanism in place . For any new regimes that are subject to 
+monitoring, the FHTP has to review these jurisdictions’ transparent review mechanism, however the 
+number of new regimes being introduced is decreasing. This implies that the focus of the FHTP has shifted 
+to the sec ond stage of the process, i.e. the review of the statistical data. The  Inclusive Framework 
+concluded that this is now an established process. To decrease the burden on the monitored jurisdictions 
+and the FHTP, the Inclusive Framework decided a lesser frequ ency in the review of the substantial 
+activities requirements in non -IP regimes. Instead of an annual monitoring, monitoring of these regimes 
+will take place on a three-yearly basis. The FHTP will still collect data in respect of each of the three years 
+for which the monitoring is carried out. 
+Outside of the three-year cycle, an intermediate review of a particular regime can occur at any moment in 
+time when a reviewed jurisdiction requests so, in order to ensure that progress can be documented swiftly. 
+Generally, if significant issues for a specific regime are identified  between two cycles, an intermediate 
+review of that regime can be initiated either at the request of an Inclusive Framework member or by the 
+Secretariat.  
+Monitoring substantial activities requirements in no or only nominal tax jurisdictions  
+In 2017, the FHTP presented its output of the work on the BEPS Action 5 mandate for considering revisions 
+or additions to FHTP framework. As part of this work, the FHTP agreed on the resumption of the application 
+of the substantial activities factor to no or only nominal tax jurisdictions. The FHTP identified the no or only
+
+# Page 28
+   27 
+ 
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025 
+  
+nominal tax jurisdictions in scope of the standard, and performed a legislative review of their legislation for 
+the first time in 2019. When there are amendments in the legislation of a jurisdiction, the FHTP reviews 
+this too on a rolling basis.  
+In line with the FHTP’s standard on substantial activities in non -IP regimes (see above), the FHTP 
+introduced in 2019 an annual monitoring procedure for substantial activities requirements in no or only 
+nominal tax jurisdictions. As both monitoring processes are based on the same principles, to ensure the 
+level playing field, any change to the monitoring of reg imes should align the monitoring of no or only 
+nominal tax jurisdictions.  
+Like the annual monitoring for substantial activities in non-IP regimes detailed above, the annual monitoring 
+exercise for substantial activities requirements in no or only nominal tax jurisdictions incorporates, two 
+parts: the transparency review mechanis m and the statistical data.  The results of the monitoring are 
+focussed on statistical data, compliance programme and exchange of information. For these three areas, 
+it is assessed what the review mechanism is and if the statistical data is complete and doe s not present 
+any anomalies. The FHTP can give jurisdiction recommendations in these three areas, which can be hard 
+or soft recommendations.  
+Based on the annual monitoring results from the past years, it is apparent that  the focus of the monitoring 
+exercise is now mainly on the enforcement of the substance requirements and the robustness of the 
+compliance program in no or only nominal tax jurisdictions. Accordingly, and as for the substantial activities 
+in non-IP regimes, the FHTP’s focus on the monitoring for no or only nominal tax jurisdictions is increasingly 
+moving towards the monitoring of statistical data, mainly in respect of the compliance program and the 
+enforcement of the standard.  
+As the monitoring is now an established process, the Inclusive Fr amework concluded to decrease the 
+burden on the monitored jurisdictions and the FHTP by introducing a lower frequency in the review of the 
+substantial activities requirements in non or only nominal tax jurisdictions. Instead of an annual monitoring, 
+monitoring of these regimes will take place on a three -yearly basis. The FHTP will still collect data in 
+respect of each of the three years for which the monitoring is carried out. 
+Outside of the three-year cycle, an intermediate review of a particular jurisdiction can occur at any moment 
+in time when a reviewed jurisdiction requests so, in order to ensure that progress can be documented 
+swiftly. Generally, if significant issues for a specific no or only nominal tax jurisdiction are identified between 
+two cycles, an intermediate review of that jurisdiction can be initiated either at the request of an Inclusive 
+Framework member or by the Secretariat.  
+Peer review of the transparency framework 
+The BEPS Action 5 Report (OECD, 2015[2]) includes a minimum standard on the spontaneous exchange 
+of information on tax rulings in respect of certain tax rulings that may create BEPS -risks (“transparency 
+framework”). The FHTP commenced a peer review process in 2017 which includes a review of  those 
+jurisdictions that can legally issue rulings in scope of the transparency framework. The review focusses on 
+the processes that the jurisdiction has in place on the identification of rulings in scope and exchange 
+jurisdictions, the exchange of inform ation process and the confidentiality requirements. It also takes into 
+account specific exchanges of information with respect to IP regimes that were identified in the BEPS 
+Action 5 Report (OECD, 2015[2]).  
+Based on the statistics and recommendations resulting from the recent peer reviews of the transparency 
+framework, the Inclusive Framework  concluded that the peer review and the implementation of the 
+transparency framework is now an established process. Jurisdictions still issue and exchange rulings, but 
+most of them are doing this fully in line with the requirements of the transparency framework. As such, it 
+appears that it is no longer warranted to conduct a peer review on an annual basis in order to maintain the 
+progress made. In addition, the review of the transparency framework is now largely focussed on statistical
+
+# Page 29
+28    
+ 
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025 
+  
+data on rulings and exchanges, rather than reviews of the required legal and administrative framework in 
+jurisdictions for identifying and exchanging rulings.  
+Therefore, the peer review of the transparency framework takes place once every three years, instead of 
+the current annual process. In addition, for those jurisdictions that have all elements of the legal and 
+administrative framework for identifying and exchanging rulings in place, the three-year peer review will be 
+based on a simplified questionnaire, focusing on statistical data. Outside of the three -yearly cycle, an 
+intermediate review of a particular jurisdiction can occur at any moment in time when a reviewed jurisdiction 
+requests so, in order to ensure that progress can be documented swiftly. 
+Summary  
+The agreed changes to the FHTP’s scope and frequency of annual monitoring and peer review exercises 
+can be summarised as follows:  
+• Monitoring of preferential regimes: 
+o no more monitoring of (i) third category of IP assets and rebuttable presumption in IP regimes, 
+(ii) potentially harmful but not actually harmful regimes, (iii) disadvantaged areas regimes, and 
+(iv) grandfathered non-IP regimes; and 
+o monitoring of substantial activities requirements in non-IP regimes to occur every three years, 
+subject to intermediate reviews in case of improvements or significant issues.  
+• Monitoring of substantial activities in no or only nominal tax jurisdictions: 
+o to occur every three years, subject to intermediate reviews in case of improvements or 
+significant issues. 
+• Peer review of the transparency framework on rulings: 
+o to occur every three years on the basis of a simplified questionnaire for jurisdictio ns with the 
+legal and operational framework in place, subject to intermediate reviews in case of 
+improvements. 
+Practically, the above conclusions on the frequency of the peer reviews translate into the following 
+schedule: 
+Workstream Frequency Which years  
+Monitoring of no or only nominal tax jurisdictions Once every three years 2026, 2029, etc.  
+Peer review transparency framework Once every three years 2027, 2030, etc.  
+Monitoring of certain aspects of regimes Once every three years 2028, 2031, etc. 
+Review of the revised methodology 
+The FHTP will review the revised methodology to assess whether it efficiently operates for addressing 
+BEPS risks under BEPS Action 5. This review will take place after the first three -year cycle for all three 
+workstreams has been completed.

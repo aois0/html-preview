@@ -1,0 +1,121 @@
+---
+id: "beps-a14-peer-review-documents-oecd-en-pack-24"
+section_id: "beps-a14-peer-review-documents-oecd-en"
+section_title: "BEPS Action 14: peer review documents (Terms of Reference / Assessment Methodology) (OECD PDF)"
+page_start: 70
+page_end: 72
+pid_start: "p070"
+pid_end: "p072"
+para_count: 3
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "http://www.oecd.org/tax/beps/beps-action-14-on-more-effective-dispute-resolution-peer-review-documents.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-a14-peer-review-documents-oecd-en-pack-24.txt"
+---
+
+## p070 (beps-a14-peer-review-documents-oecd-en-p070, pages 70-70)
+ 69
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+such an outcome is arrived at following the submission of the case to arbitration in instances
+where the tax treaty contains an arbitration provision.
+(vii) Agreement partially eliminating double taxation / partially resolving taxation not in accordance
+with the tax treaty  (Column 9):
+A MAP case shall be counted as a case closed with agreemen t partially eliminating double
+taxation / partially resolving taxation not in accordance with the tax treaty if the date of
+notification from the competent authority to the taxpayer informing the taxpayer of such an
+agreement reached via competent authorit y discussion  (regardless of whether the taxpayer
+accepts that outcome) (see paragraphs 13 and 14 of this note) falls within the reporting period.
+This includes cases where such an outcome is arrived at following the submission of the case
+to arbitration in instances where the tax treaty contains an arbitration provision.
+(viii) Agreement that there is no taxation not in accordance with the tax treaty (Column 10):
+A MAP case shall be counted as a case closed with agreement that there is no taxation not in
+accordance with the tax treaty if the date of notification from the competent authority to the
+taxpayer informing the taxpayer of such an agreement reached via competent authority
+discussion (regardless of whether the taxpayer accepts that outcome) (see paragraphs 13 and
+14 of this note) falls within the reporting period. This includes cases where such an outcome is
+arrived at following the submission of the case to arbitration in instances where the tax treaty
+contains an arbitration provision.
+(ix) No agreement including agreement to disagree (Column 11):
+A MAP case shall be counted as a case closed with no agreement if the date of notification
+from the competent authority to the taxpayer informing the taxpayer of such an outcome (see
+paragraphs 13 and 14 of this not e) falls within the reporting period. “No agreement” includes
+agreement to disagree.
+(x) Any other outcome (Column 12):
+A MAP case shall be counted as a case closed with any other outcome (not falling within any
+of the outcomes described above) if the date of notification from the competent authority to the
+taxpayer informing the taxpayer of such an outcome (see paragraphs 13 and 14 of this note)
+falls within the reporting period.
+For purposes of this statistics reporting framework, if there is more than one outcome relating to a MAP
+request (for example, part of the MAP request is denied MAP access, part of the MAP request is granted
+unilateral relief and part of the MAP request is resolved with the outcome that double taxation is fully
+eliminated), the MAP c ase shall be considered closed based on the date of notification (if there is more
+than one notification, the date of the last notification) from the competent authority and the outcome
+communicated in that notification to the taxpayer.
+(f) Number of pre-2016 cases remaining in MAP inventory on 31 December [YEAR] – see
+Column 13)
+The number of pre-2016 cases remaining in the MAP inventory on 31 December of the year is the number
+of MAP cases in a competent authority’s inventory that are pending resolut ion as of 31 December of that
+year.
+(g) Average time taken (in months) for closing pre-2016 cases during the reporting
+period – see Column 14
+(i) Jurisdictions that are currently reporting MAP Statistics pursuant to the existing reporting
+framework could report in Column 14 the “average cycle time for cases completed, closed or
+
+## p071 (beps-a14-peer-review-documents-oecd-en-p071, pages 71-71)
+70 
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+withdrawn during the reporting period” as per that reporting framework and should clearly
+indicate this in the “Notes” section. As required under the existing reporting framework, where
+a tax administration does not accept a definition or is unable to report based upon the definition,
+that administration is requested to explain the difference between its reporting and the definition
+of terms provided in the existing reporting framework. Such explanation should be contained
+in the “Notes” section.
+(ii) For all other jurisdictions, they should clearly indicate in the “Notes” section their method of
+computing the average time taken to close a MAP case, including their definition of the “start”
+and “end” date for purposes of computing this average.
+Notes
+1 These countries are all the OECD Member States and Argentina, People's Republic of China, Costa Rica, Latvia
+and South Africa.
+2 Available at www.oecd.org/ctp/dispute/38055311.pdf.
+
+## p072 (beps-a14-peer-review-documents-oecd-en-p072, pages 72-72)
+ 71
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+Annex 3.D. –Definition of terms and rules for
+counting MAP cases for purposes of MAP
+Statistics reporting under the reporting template
+in Annex 3.B.
+1. Jurisdictions shall apply the following definitions and counting methods for purposes of their MAP
+Statistics reporting as required under Annex 3.B. of this note:
+(a) MAP case
+A MAP case is a case arising from a request made by a person pursuant to the MAP provisions of a tax
+treaty concerning the taxation of income and capital. Cases within a competent authority’s MAP inventory
+are (i) cases arising from a request submitted directly to that competent authority by a taxpayer; and (ii)
+cases arising from a request submitted by a taxpayer to the competent authority of the treaty partner and
+subsequently presented by that other competent authority to the competent auth ority. These are cases
+arising from requests submitted under a provision based upon Article 25(1) of the OECD Model Tax
+Convention (OECD, 2019 [2]), or under Article 25(3), provided that in the latter case the requests are
+taxpayer-specific and not one for a generic interpretation of the provision of a tax treaty. In addition, cases
+arising under Article 4(2), sub d, or Article 4(3) of the OECD Model Tax Convention  (OECD, 2019[2]) to
+determine residence of a taxpayer also counts as a MAP case.
+A MAP also concerns case arising from a request submitted under the EU Arbitration Convention 1 and
+arising from a complaint on a question in dispute submitted under Article 3(1) of the Council Directive (EU)
+2017/1852 of 10 October 2017 on tax dispute resolution mechanisms in the European Union. 2
+A MAP case however shall not include (i) a request for an Advance Pricing Arrangement (APA) including
+a request to apply the outcome of the APA to previous filed tax years not included within the original scope
+of the APA (i.e. a request for the “roll -back” of the APA); or (ii) a “protective” MAP request. A “protective”
+MAP request is a MAP request submitted by the taxpayer in order to ensure that its request is made within
+the time frame permitted under the relevant tax treaty but the taxpayer has indicated to the competent
+authority or agreed with the competent authority that the request should not be examined until further
+notification is received from the taxpayer to do so. Once such notification (that a taxpayer asks that a
+previously protective MAP request should now be examined) is received by the competent authority, the
+MAP request shall be regarded as “received by a competent authority” in the sense of paragraphs 10 and
+11 of this note.
+(b) Counting of MAP cases
+A MAP request submitted by the taxpayer to one or both Contracting States to a tax treaty shall be counted
+as only one MAP case if
+(iii) the request concerns the taxation of only one taxpayer i n either Contracting State or in each
+Contracting State; or
+(iv) where the issue submitted for MAP discussion relates to transaction(s) of an entity which is not
+liable to tax at the level of the entity itself (for example, a transparent entity or an entity wh ich

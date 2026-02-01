@@ -1,0 +1,102 @@
+---
+id: "beps-a14-peer-review-documents-oecd-en-pack-06"
+section_id: "beps-a14-peer-review-documents-oecd-en"
+section_title: "BEPS Action 14: peer review documents (Terms of Reference / Assessment Methodology) (OECD PDF)"
+page_start: 19
+page_end: 20
+pid_start: "p019"
+pid_end: "p020"
+para_count: 2
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "http://www.oecd.org/tax/beps/beps-action-14-on-more-effective-dispute-resolution-peer-review-documents.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-a14-peer-review-documents-oecd-en-pack-06.txt"
+---
+
+## p019 (beps-a14-peer-review-documents-oecd-en-p019, pages 19-19)
+18 
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+Introduction
+1. The Action 14 BEPS Report: Making Dispute Resolution Mechanisms More Effective - 2015 Final
+Report (“the 2015 Action 14 Report”) (OECD, 2015[1]) was approved by the OECD Committee on Fiscal
+Affairs (“CFA”) in September, presented to the OECD Council and endorsed by the G20 Finance Ministers
+at their meeting on 8 October 2015. 1 The 2015 Action 14 Report (OECD, 2015[1]) contains a commitment
+by countries engaged in the work to make important changes in their approach to dispute resoluti on. In
+particular, these countries commit to the implementation of a minimum standard (“the minimum standard”)
+to ensure that they resolve treaty -related disputes in a timely, effective and efficient manner and to have
+their compliance with the minimum standard reviewed by their peers – i.e. the other members of the Forum
+on Tax Administration MAP Forum 2 (“the FTA MAP Forum” or “the Forum”). The FTA MAP Forum brings
+together all OECD and G20 countries and will be open to all jurisdictions that commit to the  minimum
+standard. All members of the Forum will participate in the work on an equal footing. This review will be
+conducted through a peer-based monitoring mechanism that will report regularly to the G20.
+2. In accordance with the mandate contained in the 2015 Action 14 Report (OECD, 2015[1]), the CFA,
+through its Working Party No. 1 on Tax Conventions and Related Questions (“ Working Party 1”) and the
+FTA MAP Forum will develop the Terms of Reference  and Assessment Methodology3 for the monitoring
+and peer review of the implementation of the minimum standard. The peer reviews will include an
+evaluation of the legal framework provided by the jurisdiction’s tax treaties and domestic law and
+regulations, and its MAP programme guidance. The minimum standard is also complemented by a set of
+best practices.
+3. The peer review and monitoring of the implementation of the minimum standard by members of
+the FTA MAP Forum and non-members4 identified by the Forum as relevant to this work will be conducted
+by the FTA MAP Forum. The process begins in 2016 with the objective of publishing the first reports in the
+second half of 2017.
+4. The Assessment Methodology contained in this note establishes detailed procedures and
+guidelines for a 2-stage approach to peer review and monitoring of the implementation of the minimum
+standard. Stage 1 involves the review of the assessed jurisdiction’s implementation of the minimum
+standard based on the jurisdiction’s legal framework for MAP and the application of this f ramework in
+practice (“Stage 1 Peer Review ”). Stage 2 involves the review of the measures taken by the assessed
+jurisdiction to address any shortcomings identified in its Stage 1 Peer Review (“Stage 2 Peer Monitoring”).
+The review of non-members of the FTA MAP Forum will occur in a manner similar to the review of members
+to the greatest extent possible. While participation of non -members should be encouraged, it is important
+2 Assessment Methodology for the monitoring and review of the
+implementation of the BEPS action 14 minimum standard to
+make dispute resolution mechanisms more effective  (updated
+December 2022)
+
+## p020 (beps-a14-peer-review-documents-oecd-en-p020, pages 20-20)
+ 19
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+that the review of non -members be based on best available infor mation in the absence of such
+participation.
+5. The Assessment Methodology contained in this note should be reviewed by 2020 in light of the
+experience in conducting peer monitoring, keeping in mind the need for an Assessment Methodology which
+effectively improves the shortcomings identified in the peer review reports with the aim of ensuring an
+effective MAP regime to benefit both governments and taxpayers.
+Peer Review and Monitoring process
+6. All OECD and G20 countries, and other jurisdictions which have com mitted to the minimum
+standard, will work collectively to improve the effectiveness of the MAP by becoming members of the FTA
+MAP Forum . To assist members in improving the effectiveness of their MAP regime, every member’s
+compliance with the minimum standa rd will be reviewed by other members of the Forum, in accordance
+with an assessment schedule to be developed by the FTA MAP Forum. The FTA MAP Forum should take
+into consideration the MAP experience and the MAP inventory  of jurisdictions in the scheduling of their
+review, including whether jurisdictions already compile statistical information relating to MAP or published
+their MAP profile.
+7. The assessment schedule should ensure that the Stage 1 Peer Reviews begin in 2016 and that
+the Stage 1 Peer Review of all 44 countries5 that have committed to the BEPS outputs starts no later than
+end 2018. Furthermore, any country or jurisdiction that participates as BEPS Associates in an extension
+of the OECD’s Committee on Fiscal Affairs (CFA) under the framework where BEPS Associates will work
+on an equal footing with the OECD and G20 members on the remaining standard-setting under the BEPS
+Project, as well as the review and monitoring of the implementation of the BEPS package, will also undergo
+the same peer review and monitoring process . However, the MAP Forum should defer the review of any
+such member that is a developing country and is not an OECD or G20 country if that member has not yet
+encountered meaningful levels of MAP requests and there is no feedback from other members of the FTA
+MAP Forum indicating that the jurisdiction’s MAP regime requires improvement. In any case, all members
+of the FTA MAP Forum should report statistics in accordance with the agreed framework for reporting of
+MAP statistics and publish their MAP Profiles on a shared public platform pursuant to the agreed template.
+In addition, the assessment schedule should ensure that the Stage 2 Peer Monitoring of all 44 countries
+that have committed to the BEPS outputs be completed by 2020.
+8. The Stage 1 Peer Review and Stage 2 Peer Monitoring will be desk-based and will be co-ordinated
+by the Secretariat of the FTA MAP Forum (“the Secretariat”). This section contains details concerning the
+methodology for conducting these reviews as follows:
+ Part A – Obtaining inputs for the Stage 1 Peer Review
+ Part B – Drafting and approval of a Stage 1 Peer Review report
+ Part C – Publication of Stage 1 Peer Review reports
+ Part D – Monitoring of measures taken by assessed jurisdiction to improve the MAP regime (i.e.
+Stage 2 Peer Monitoring)
+9. A flowchart summary of the Stage 1 Peer Review and Stage 2 Peer Monitoring process is attached
+in Annex 2.A. and Annex 2.B. respectively and the model assessment schedule for conducting these
+reviews is attached in Annex 2.C.
+A. Obtaining inputs for the Stage 1 Peer Review
+10. This section of the note describes the mechanisms and procedures to obtain inputs for the Stage
+1 Peer Review of an assessed jurisdiction.

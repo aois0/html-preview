@@ -1,0 +1,111 @@
+---
+id: "beps-min-standards-progress-2025-oecd-en-pack-04"
+section_id: "beps-min-standards-progress-2025-oecd-en"
+section_title: "Note on burden reduction in the BEPS minimum standards (2025) (OECD PDF)"
+page_start: 14
+page_end: 15
+pid_start: "p014"
+pid_end: "p015"
+para_count: 2
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "https://www.oecd.org/content/dam/oecd/en/topics/policy-issues/beps/note-on-burden-reduction-in-the-beps-minimum-standards.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-min-standards-progress-2025-oecd-en-pack-04.txt"
+---
+
+## p014 (beps-min-standards-progress-2025-oecd-en-p014, pages 14-14)
+ 13
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025
+Annex A. Revised methodology for the work of
+the FHTP
+Revised methodology for the review of preferential regimes
+Introduction
+The FHTP’s work of reviewing preferential regimes started in 1998, which is almost 30 years ago. During
+these years, the FHTP has reviewed preferential regimes to avoid them creating harmful tax competition.
+The FHTP’s reviews focus on regimes that provide benefits to business income from geographically mobile
+activities (i.e. regimes within the FHTP’s scope). These regimes can pose BEPS -risks if they contain
+potentially harmful features.
+Since the start of the BEPS project, and with the formation of the I nclusive Framework, the FHTP has
+expanded its scope of reviews beyond those of OECD Member States to encompass the full membership
+of the Inclusive Framework. 1 Since the start of the BEPS project the FHTP has reviewed a total of 332
+regimes. The results of these regime reviews are published in the BEPS Action 5 Report (OECD, 2015[2]),
+the 2017 Progress Repor t (OECD, 2017[8]), the 2018 Progress Report  (OECD, 2019[9]) and on a regular
+basis on the OECD’s website as new results become available.
+In recent years, there have been an increasing number of instances where preferential regimes that pose
+a limited BEPS risk are technically in the scope of the FHTP work (e.g. free trade zone regimes that permit
+a wide range of activities and provide a preferential tax rate, including for services or Intellectual Property
+(IP)). This is mainly because these regimes primarily or almost e xclusively target non -geographically
+mobile activities such as manufacturing, warehousing, primary resource exploitation and agriculture, while
+technically still allowing service income and income from IP to benefit from the regime. In addition, the
+FHTP has also reviewed regimes that have a (very) limited uptake and therefore pose little BEPS -risks.
+Under the previous methodology, the first step of an FHTP review was to undertake a legislative review of
+a preferential regime before conducting an impact ass essment in respect of the BEPS -risk. This
+methodology has in certain cases, especially in recent years, led to (often new) Inclusive Framework
+members being required to adjust their legislation to comply with the BEPS Action 5 minimum standard,
+prior to finding evidence of BEPS risks.
+For these reasons, the Inclusive Framework has revised the methodology for the review of regimes so that
+they will commence with an initial BEPS impact assessment, before conducting the legislative review. The
+revised methodology ensures that those preferential regimes that are unlikely to lead to BEPS -risks are
+not upfront subjected to a legislative review by the FHTP, therewith streamlining the FHTP’s work and
+strengthening the focus on preferential regimes that are material  for maintaining the integrity of the BEPS
+1 In addition, some preferential regimes with harmful features may be offered by jurisdictions that are not members of
+the Inclusive Framework. In order to ensure a level playing field, such jurisdictions are able to be identified by the
+members of the Inclusive Framework as being relevant to the work and are reviewed according to the same criteria
+as apply for all other jurisdictions. These are “jurisdictions of relevance”.
+
+## p015 (beps-min-standards-progress-2025-oecd-en-p015, pages 15-15)
+14 
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025
+Action 5 minimum standard and the level playing field.  The revised methodology is effective from its
+adoption at the Inclusive Framework’s April 2025 Plenary meeting.
+This chapter sets out the revised methodology, which can be summarised as follows:
+• Step 1. Identification of regimes that may be within the FHTP’s scope. This identification will initially
+be made by the jurisdiction itself, by another Inclusive Framework member or by the FHTP
+Secretariat (hereafter Secretariat);
+• Step 2.  Initial assessment by the Secretariat to determine whether the regime falls within the
+FHTP’s scope;
+• Step 3.  Compilation of regimes (potentially) to be reviewed by the FHTP, based on identified
+regimes that are determined to be within the scope of the FHTP. This list will be divided into:
+1. a list of regimes for which the jurisdiction providing the preferential regime opts for an
+immediate legislative review by the FHTP under Step 5 (thereby bypassing Step 4);
+2. a list of regimes for which a BEPS impact assessment under Step 4 is to be considered by the
+FHTP; and
+3. a list of regimes for possible further consideration by the FHTP including those for which no
+BEPS impact assessment or legislative review is undertaken;
+• Step 4. BEPS impact assessment, with the following possible conclusions:
+o the regime could have a significant BEPS impact and the FHTP should undertake a legislative
+review of the regime; or
+o the regime currently does not have a significant BEPS impact  and the FHTP should not
+undertake a legislative review of the regime at this moment; or
+o the BEPS impact assessment of the regime is currently inconclusive and the FHTP does not
+undertake a legislative review of the regime at this moment, but it will be sub ject to ongoing
+monitoring for three years;
+• Step 5. Legislative review.
+The below image sets out the steps of the revised methodology in a graphical manner.
+Step 1+2
+(Self-)identified regime and
+identified by Secretariat as
+in-scope
+Step 3
+Jurisdiction opts for
+legislative review
+Step 5
+Legislative review
+Step 3
+FHTP agrees on BEPS
+impact assessment
+Step 4
+There could be a BEPS
+impact →legislative review
+Step 4
+No BEPS impact expected
+→not harmful
+Step 4
+Inconclusive assessment
+→three year monitoring
+Step 3
+FHTP agrees on no BEPS
+impact assessment
+No legislative review
+→not hamrful

@@ -1,0 +1,125 @@
+---
+id: "beps-min-standards-progress-2025-oecd-en-pack-03"
+section_id: "beps-min-standards-progress-2025-oecd-en"
+section_title: "Note on burden reduction in the BEPS minimum standards (2025) (OECD PDF)"
+page_start: 11
+page_end: 13
+pid_start: "p011"
+pid_end: "p013"
+para_count: 3
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "https://www.oecd.org/content/dam/oecd/en/topics/policy-issues/beps/note-on-burden-reduction-in-the-beps-minimum-standards.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-min-standards-progress-2025-oecd-en-pack-03.txt"
+---
+
+## p011 (beps-min-standards-progress-2025-oecd-en-p011, pages 11-11)
+10 
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025
+Way forward to maintain progress, while reducing burdens
+Given the refinements  to the peer review methodology for Action 13 agreed in 2020 , the Inclusive
+Framework agreed at its Plenary meeting in April 2025 that no further procedural changes are required at
+this time, but may be considered once the review of the minimum standard it self is completed, at which
+time the peer review will need to be revised to reflect changes to the standard.
+Therefore, with implementation now at a mature stage, the work of BEPS Action 13 is focused on ensuring
+that all Inclusive Framework members – in particular developing countries – can effectively access and
+use CbC reports effectively. While many developing countries have introduced domestic legislation
+requiring the filing of CbC reports and others have draft legislation in progress , fewer have completed the
+technical steps needed to receive reports under the automatic exchange  of information framework. To
+close this gap, a targeted approach will now be deployed empowering developing country members to set
+their own implementation timelines for acces sing CbC reports  and receive tailored support  from the
+Secretariat.
+Close e ngagement with developing countries has further highlighted that access to suitable IT tools
+remains a major barrier to receiving and using CbC reports. While larger jurisdictions have developed or
+purchased advanced systems, these are often too costly and complex for developing countries with limited
+reporting volumes. To address this, the Inclusive Framework is exploring options  to make available low-
+or no-cost IT solutions tailored to the needs of developing countries. These tools, combined with access
+to the OECD Common Transmission System, are expected to significantly facilitate access to CbC reports
+by all interested developing countries.
+BEPS Action 14 – Mutual Agreement Procedures
+Progress in implementation of the minimum standard
+The minimum standard included in the BEPS Final Report on Action 14 (OECD, 2015[7]) aims to improve
+tax treaty dispute resolution through three core principles: timely and good -faith implementation of Mutual
+Agreement Procedures (MAP) obligations, effective administrative processes, and g uaranteed access to
+MAP for eligible taxpayers. These principles have been operationalised through 21 measurable elements
+assessed via a peer review process.
+As implementation has matured, the peer reviews for the BEPS Action 14 minimum standard have yielded
+tangible results in enhancing the efficiency, effectiveness, and timeliness of MAP across Inclusive
+Framework’s jurisdictions. Over 500 treaties have been modified by the BEPS MLI to incorporate effective
+MAP provisions, while other jurisdictions h ave taken or plan  to take bilateral actions to modify their tax
+treaties. Access to MAP is available in most eligible cases, with several issues being effectively addressed
+through recommendations in the peer review process.
+Progress in the implementation of BEPS Action 14 is further reflected in the widespread publication of MAP
+guidance and profiles  by most peer -reviewed jurisdictions , as well as by notable  improvements in the
+organisation of competent authority functions . These advancements h ave enabled many jurisdictions to
+get much closer to the target of resolving MAP cases within an average timeframe of 24 months.
+To date, 82 jurisdictions in the Inclusive Framework have completed the peer review processes. A revised
+peer review approach now includes  a full peer review process for experienced MAP jurisdictions and a
+simplified peer review process for jurisdictions with limited or no MAP experience.
+The full peer review process is currently assessing 58 of jurisdictions with meaningful MAP experience in
+meeting the BEPS Action 14 minimum standard. Additionally, 68 Inclusive Framework jurisdictions with
+limited or no MAP experience have undergone or are currently undergoing a simplified peer review
+
+## p012 (beps-min-standards-progress-2025-oecd-en-p012, pages 12-12)
+ 11
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025
+process, with reports for 20 jurisdictions already publ ished, and another 17 scheduled for review in the
+coming months. Jurisdictions also report statistics related to their tax certainty obligations under BEPS
+Action 14. The ongoing collection of information ensures transparency, with information about each
+jurisdiction’s MAP function available through published MAP guidance or MAP profiles.
+Way forward to maintain progress, while reducing burdens
+Given the recent updates to the peer review methodology for Action 1 4 agreed in 202 3, the Inclusive
+Framework agreed at its Plenary meeting in April 2025 that no further changes are required at this time.
+Therefore, as the implementation of  BEPS Action 14 reaches a mature phase, attention has shifted to
+ensuring that all members – particularly developing countries – can fully benefit from effective MAP
+processes. Developing countries that were initially excluded from peer reviews as they were in the process
+of setting up a MAP function are now gaining MAP e xperience and are engaging in peer review process
+for managing MAP caseloads efficiently and effectively, in line with the objectives of BEPS Action 14.
+This has also been reflected in the simplified peer review process for jurisdictions without meaningful MAP
+experience, aimed at helping them build a strong foundation for future cases, alongside a full review for
+jurisdictions with more established MAP practices. Early results show strong commitment, particularly from
+lower-capacity jurisdictions, which have welcomed the simplified process as a valuable tool for developing
+their MAP frameworks and allocating necessary resources.
+These efforts are further reinforced by targeted capacity -building initiatives, such as MAP workshops for
+developing country officials, offering practical training on dispute resolution under  BEPS Action 14.
+
+## p013 (beps-min-standards-progress-2025-oecd-en-p013, pages 13-13)
+12 
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025
+References
+OECD (2019), Harmful Tax Practices - 2018 Progress Report on Preferential Regimes: Inclusive
+Framework on BEPS: Action 5, OECD Publishing, https://doi.org/10.1787/9789264311480-
+en.
+[9]
+OECD (2018), Resumption of application of substantial activities factor to no or only nominal tax
+jurisdictions, BEPS Action 5, OECD, https://www.oecd.org/content/dam/oecd/en/topics/policy-
+sub-issues/harmful-tax-practices/substantial-activities-in-no-or-only-nominal-tax-jurisdictions-
+guidance.pdf.
+[4]
+OECD (2017), Harmful Tax Practices - 2017 Progress Report on Preferential Regimes: Inclusive
+Framework on BEPS: Action 5, OECD/G20 Base Erosion and Profit Shifting Project, OECD
+Publishing, Paris, https://doi.org/10.1787/9789264283954-en.
+[8]
+OECD (2015), Countering Harmful Tax Practices More Effectively, Taking into Account
+Transparency and Substance, Action 5 - 2015 Final Report, OECD/G20 Base Erosion and
+Profit Shifting Project, OECD Publishing, Paris, https://doi.org/10.1787/9789264241190-en.
+[2]
+OECD (2015), Making Dispute Resolution Mechanisms More Effective, Action 14 - 2015 Final
+Report, OECD/G20 Base Erosion and Profit Shifting Project, OECD Publishing, Paris,
+https://doi.org/10.1787/9789264241633-en.
+[7]
+OECD (2015), Preventing the Granting of Treaty Benefits in Inappropriate Circumstances, Action
+6 - 2015 Final Report, OECD/G20 Base Erosion and Profit Shifting Project, OECD Publishing,
+Paris, https://doi.org/10.1787/9789264241695-en.
+[5]
+OECD (2015), Transfer Pricing Documentation and Country-by-Country Reporting, Action 13 -
+2015 Final Report, OECD/G20 Base Erosion and Profit Shifting Project, OECD Publishing,
+https://doi.org/10.1787/9789264241480-en.
+[6]
+OECD (2013), Action Plan on Base Erosion and Profit Shifting, OECD Publishing, Paris,
+https://doi.org/10.1787/9789264202719-en.
+[1]
+OECD (1998), Harmful Tax Competition: An Emerging Global Issue, OECD Publishing, Paris,
+https://doi.org/10.1787/9789264162945-en.
+[3]

@@ -1,0 +1,122 @@
+---
+id: "beps-min-standards-progress-2025-oecd-en-pack-08"
+section_id: "beps-min-standards-progress-2025-oecd-en"
+section_title: "Note on burden reduction in the BEPS minimum standards (2025) (OECD PDF)"
+page_start: 22
+page_end: 23
+pid_start: "p022"
+pid_end: "p023"
+para_count: 2
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "https://www.oecd.org/content/dam/oecd/en/topics/policy-issues/beps/note-on-burden-reduction-in-the-beps-minimum-standards.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-min-standards-progress-2025-oecd-en-pack-08.txt"
+---
+
+## p022 (beps-min-standards-progress-2025-oecd-en-p022, pages 22-22)
+ 21
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025
+Timelines
+As noted in the above table, one of the conclusions that the FHTP can reach is “in the process of being
+amended/eliminated”. This conclusion is reached when the FHTP decided that the regime has potentially
+harmful features that need to be removed, but when the jurisdiction made a commitment to abolish or
+amend the regime. In those instances, the timelines for closing-off and grandfathering are:
+Timelines for closing-off and grandfathering of regimes
+Event Explanation Timeline
+Cut-off date for new entrants (both new
+taxpayers and new assets and/or
+activities of existing taxpayers) to be
+eligible for grandfathering
+When a jurisdiction provides
+grandfathering, new entrants (both new
+taxpayers and new assets and/or
+activities of existing taxpayers) coming
+into the regime after the cut -off date
+should not benefit from grandfathering
+after the close-off date.3
+Publication date of the FHTP’s decision
+Close-off date (the date the regime is
+amended or abolished)
+Closing-off the regime means that no
+new entrants are allowed to use the
+regime. New entrants include both new
+taxpayers, but also new assets (e.g. IP
+assets) and/or new activities of existing
+taxpayers.
+As soon as possible, and no later than
+12 months after the publication date of
+the FHTP’s decision (or where
+necessary because of the legislative
+process, by 31 December of the year
+following the cut-off date)
+Grandfathering period  This is the maximum transition period
+granted to entrants benefiting from the
+regime as at the cut -off date.
+Jurisdictions are generally permitted,
+but not required, to provide
+grandfathering (see below).
+31 December in the yea r which is three
+years after the publication date of the
+FHTP’s decision. For example, if a
+regime is reported as “in the process of
+being amended / eliminated ” in July
+2025, the end of grandfathering would
+be no later than 31 December 2028.
+Only ring-fenced regimes and regimes lacking substantial activities requirements can be grandfathered.
+Regimes lacking transparency and exchange of information cannot be grandfathered with respect to the
+harmful aspect of that regime.
+Regimes under review before revised methodology
+All regimes for which no final conclusion was reached before the revised methodology is effective, will be
+removed from the FHTP’s public lists of regimes and reviewed in accordance with all steps of the revised
+methodology.
+3 When a regime is kept “under review” by the FHTP, then no decision has yet been made. Publication includes public
+release of the regime conclusions on the OECD website after the regime results have been approved and declassified
+by the Inclusive Framework, as well as in FHTP Progress Reports, whichever is earlier.
+
+## p023 (beps-min-standards-progress-2025-oecd-en-p023, pages 23-23)
+22 
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025
+Potentially harmful but not actually harmful regimes
+The revised methodology covers the BEPS impact assessment that is currently conducted as part of the
+review of whether a regime is “potentially harmful but not actually harmful”. Therefore, this review, which
+is condu cted when a regime has potentially harmful features based on the legislative review , is now
+removed and replaced by the BEPS impact assessment under Step 4 of the revised methodology.
+All regimes for which a “potentially harmful but not actually harmful” conclusion was reached, will remain
+on the FHTP’s public lists of regimes and will be added to the list of regimes for possible further
+consideration by the FHTP (list 3) so that the FHTP can reconsider the regime at any given moment.
+Disadvantaged areas regimes
+Certain jurisdictions have introduced tax incentive regimes designed to encourage development in
+disadvantaged areas and which, whilst they do not specifically provide a preferential treatment for income
+from IP, they may include (or do not specifically exclude) such income. The BEPS Action 5 Report (OECD,
+2015[2]) considered that such regimes do not pose significant BEPS -risks, provided the regime  is only
+applicable to a relatively small and economically disadvantaged area, the regime is mainly  designed to
+create new jobs and attract tangible investments , significant substance is demonstrated in terms of the
+generation of new employment, assets and investments and  the regime is subject to monitoring by the
+FHTP.
+As for “potentially harmful but not actually harmful” regimes, the impact assessment under Step 4 of the
+revised methodology now also considers whether a regime provides benefits to disadvantaged areas. The
+FHTP will therefore no longer conclude a regime as a disadvantaged areas regime during the legislative
+review. The current disadvantaged areas regimes will remain on the FHTP’s public lists of regimes and
+will be added to the list of regimes for possible further consideration by the FHTP (list 3) so that the FHTP
+can reconsider the regime at any given moment.
+Non-operational regimes
+A preferential regime is not operational if the jurisdiction did not operationalise the regime and no taxpayer
+is able to benefit from it. If such a regime becomes operational in the future, the jurisdiction has committed
+to inform the FHTP and the regime will be reviewed.
+All regimes that were concluded as non-operational before the revised methodology is effective, will remain
+on the FHTP’s public lists of regimes and will be added to the  list of regimes for possible further
+consideration by the FHTP (list 3) so that the FHTP can reconsider the regime at any given moment.
+Examples
+The following list of non -exhaustive example s illustrates the practical application of the revised
+methodology:
+• Example 1: Jurisdiction A offers a preferential regime that is identified by Jurisdiction B (step 1).
+The Secretariat undertakes an initial assessment (step 2) and concludes that no incom e from
+geographically mobile activities can benefit from the regime. The Secretariat informs both
+Jurisdiction A and Jurisdiction B and no further steps are taken. The regime is included in the list
+of regimes for possible further consideration by the FHTP (list 3).
+• Example 2: Jurisdiction C introduces a new IP regime. It identifies it to the Secretariat (step 1), and
+the Secretariat concludes that the regime is in scope of the FHTP’s review (step 2). Jurisdiction C
+wishes to have an FHTP’s conclusion publi shed, because its stakeholders have requested this.
+Jurisdiction C opts for the legislative review by the FHTP (step 3). The FHTP undertakes the
+legislative review (step 5) and publishes the conclusion on the regime.

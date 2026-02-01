@@ -1,0 +1,398 @@
+---
+id: "beps-a14-peer-review-documents-oecd-en-pack-15"
+section_id: "beps-a14-peer-review-documents-oecd-en"
+section_title: "BEPS Action 14: peer review documents (Terms of Reference / Assessment Methodology) (OECD PDF)"
+page_start: 41
+page_end: 47
+pid_start: "p041"
+pid_end: "p047"
+para_count: 7
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "http://www.oecd.org/tax/beps/beps-action-14-on-more-effective-dispute-resolution-peer-review-documents.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-a14-peer-review-documents-oecd-en-pack-15.txt"
+---
+
+## p041 (beps-a14-peer-review-documents-oecd-en-p041, pages 41-41)
+40 
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+Figure 12. Adoption of Stage 1 Peer Review report by the Inclusive Framework (IF) for publication
+Source: OECD
+Figure 13. Discussion and approval of an assessed jurisdiction’s Stage 2 Peer Monitoring report by
+the FTA MAP Forum
+Source: OECD
+Figure 14. Adoption of Stage 2 Peer Monitoring Report by the IF for Publication
+Source: OECD
+No Yes Publication of
+Report
+Report
+Adopted?
+Chair(s) of the IF to request FTA MAP
+Forum to examine the objection or to
+discuss the objection at the meeting of
+the IF
+The IF for adoption of Report for
+publication under written procedureSecretariat
+Approved FTA MAP
+Forum Report
+Draft Stage 2 Peer
+Monitoring Report of
+Assessed Jurisdiction
+Secretariat
+Approval by FTA MAP Forum
+under written procedure
+No Yes
+YesNo
+Report included
+in the FTA MAP
+Forum Report
+Report to be discussed at
+the FTA MAP Forum
+meeting
+Explanation
+included in the
+FTA MAP
+Forum Report
+Report
+Approved?
+Report
+Approved?
+Peer input
+on Update
+Report
+Update Report
+by Assessed
+Jurisdiction
+- MAP Profile
+- Statistics
+- Research materials
+No Yes Publication of
+Report
+Report
+Adopted?
+Chair(s) of the IF to request FTA
+MAP Forum to examine the
+objection or to discuss the objection
+at the meeting of the IF
+The IF for adoption of Report for
+publication under written
+procedure
+Secretariat
+Approved FTA MAP
+Forum Report
+
+## p042 (beps-a14-peer-review-documents-oecd-en-p042, pages 42-42)
+ 41
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+Annex 2.G. Summary of the full peer review
+process (Continued Monitoring)
+Figure 15. Information and input gathering
+Source: OECD
+Figure 16. Discussion and approval of an assessed jurisdiction’s peer review report by the FTA
+MAP Forum
+Source: OECD
+Members of
+FTA MAP Forum
+Assessed Jurisdiction
+Questionnaire Response to
+Questionnaire
+Secretariat
+Peer
+Input
+Taxpayers
+Peer
+Questionnaire
+- MAP Profile
+- Statistics
+- Research materials
+Draft Peer Review
+Report of Assessed
+Jurisdiction
+Secretariat
+Approval by FTA MAP Forum
+under written procedure
+No Yes
+YesNo
+Report included
+in the FTA MAP
+Forum Report
+Report to be discussed at
+the FTA MAP Forum
+meeting
+Explanation
+included in the
+FTA MAP
+Forum Report
+Report
+Approved?
+Report
+Approved?
+Peer input
+on Update
+Report
+Update Report
+by Assessed
+Jurisdiction
+- MAP Profile
+- Statistics
+- Research materials
+
+## p043 (beps-a14-peer-review-documents-oecd-en-p043, pages 43-43)
+42 
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+Figure 17. Adoption of Peer Review Report by the IF for Publication
+Source: OECD
+No Yes Publication of
+Report
+Report
+Adopted?
+Chair(s) of the IF to request FTA
+MAP Forum to examine the
+objection or to discuss the objection
+at the meeting of the IF
+The IF for adoption of Report for
+publication under written
+procedure
+Secretariat
+Approved FTA MAP
+Forum Report
+
+## p044 (beps-a14-peer-review-documents-oecd-en-p044, pages 44-44)
+ 43
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+Annex 2.H. Model assessment schedules for approval of peer review reports
+by the FTA MAP Forum in the simplified peer review process (Continued
+Monitoring)
+Figure 18. Simplified peer review process - Stage 1 Peer Review (Continued Monitoring)
+Source: OECD
+Minimum 6 weeks
+(i) response from
+assessed
+jurisdiction
+(ii) peer inputs
+Secretariat sends
+(i) questionnaire &
+taxpayer inputs to
+assessed
+jurisdiction; and (ii)
+peer questionnaire
+to FTA MAP Forum
+Secretariat
+sends draft
+report to
+assessed
+jurisdiction and
+peers that have
+provided input
+Assessed
+jurisdiction
+provides
+comments
+Secretariat sends
+draft report to
+FTA MAP Forum
+for approval
+Discussion
+at FTA MAP
+Forum
+meeting
+(if
+necessary)
+FTA MAP Forum
+approves report
+via written
+procedure or
+comments /
+objects to the
+report
+Peers
+provide
+comments
+6 weeks
+Secretariat sends
+comments / objections
+received, its proposed
+responses and
+amended draft report (if
+necessary) to FTA MAP
+Forum
+4 weeks 4 weeks 4 weeks 2 weeks as soon as possible 3 weeks as soon as possible minimum 1 week
+
+## p045 (beps-a14-peer-review-documents-oecd-en-p045, pages 45-45)
+44 
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+Figure 19. Simplified peer review process - Stage 2 Peer Monitoring (Continued Monitoring)
+Source: OECD
+8 weeks if no comments received from
+peers
+Minimum 6 weeks
+Assessed jurisdiction
+submits Update
+Report to FTA MAP
+Forum within 2 years
+of IF’s adoption of its
+Stage 1 Peer Review
+report
+Members of
+FTA MAP
+Forum
+provide
+comments
+Secretariat sends
+draft report to
+assessed
+jurisdiction and
+peers that have
+provided inputs
+Assessed
+jurisdiction
+comments
+on peer
+inputs
+Assessed
+jurisdiction
+provides
+comments
+Secretariat
+sends draft
+report to FTA
+MAP Forum for
+approval
+FTA MAP Forum
+approves report via
+written procedure or
+comments / objects
+to the report
+Secretariat sends
+comments / objections
+received, its proposed
+responses and
+amended draft report (if
+necessary) to FTA MAP
+Forum
+Discussion at
+FTA MAP
+Forum
+meeting (if
+necessary)
+Peers
+provide
+comments
+6 weeks
+4 weeks 4 weeks 4 weeks 4 weeks 2 weeks as soon as possible 3 weeks as soon as possible minimum 1 week
+
+## p046 (beps-a14-peer-review-documents-oecd-en-p046, pages 46-46)
+ 45
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+Annex 2.I. Model assessment schedules for approval of peer review reports
+by the FTA MAP Forum in the full peer review process (Continued
+Monitoring)
+Figure 20. Full Peer Review Process (Continued Monitoring)
+Source: OECD
+8 weeks if no comments received from
+peers
+Minimum 6 weeks
+Assessed
+jurisdiction
+submits Update
+Report to FTA
+MAP Forum
+Members of FTA
+MAP Forum
+provide
+comments
+Secretariat sends
+draft report to
+assessed
+jurisdiction and
+peers that have
+provided inputs
+Assessed
+jurisdiction
+comments
+on peer
+inputs
+Assessed
+jurisdiction
+provides
+comments
+Secretariat
+sends draft
+report to
+FTA MAP
+Forum for
+approval
+FTA MAP Forum
+approves report via
+written procedure or
+comments / objects
+to the report
+Secretariat sends
+comments / objections
+received, its proposed
+responses and
+amended draft report (if
+necessary) to FTA
+MAP Forum
+Discussion at
+FTA MAP
+Forum
+meeting (if
+necessary)
+Peers
+provide
+comments
+6 weeks
+4 weeks 4 weeks 4 weeks 4 weeks 2 weeks as soon as possible 3 weeks as soon as possible minimum 1 week
+
+## p047 (beps-a14-peer-review-documents-oecd-en-p047, pages 47-47)
+46 
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+Annex 2.J. Outline of Stage 1 simplified peer
+review report (Continued Monitoring)
+1. Executive summary
+2. Tax treaty network
+ Overview of tax treaty network: Number of treaties entered into (jurisdictions covered/in force),
+whether the Multilateral Instrument has been signed/ratified/in force
+ A table showing the overall tax treaty network of the jurisdiction, including the impact of the
+Multilateral Instrument in green (the inclusion of Article 9(2) is shown for information purposes
+only). For example:
+Article 25(1)
+OECD MTC
+Article 25(2)
+OECD MTC
+Article 25(3)
+OECD MTC
+Article
+9(2)
+OECD
+MTC
+Treaty 1st
+sentence
+2nd
+sentence
+1st
+sentence
+2nd
+sentence
+1st
+sentence
+2nd
+sentence
+1 Treaty Partner
+2 Treaty Partner
+3 Treaty Partner
+4 Treaty Partner     X
+5 Treaty Partner
+6 Treaty Partner      X
+ Actions taken/expected by the jurisdiction regarding treaties that are not in line with the Action 14
+minimum standard
+ Recommendations
+3. MAP guidance and MAP profile
+MAP guidance
+ Whether the jurisdiction has MAP guidance and if yes, place of publication, date of last update
+ Contents of the MAP guidance shown in a simplified tabular form. For example:
+Chapter Content
+1. Introduction  The purpose of the MAP guidance
+ XXX

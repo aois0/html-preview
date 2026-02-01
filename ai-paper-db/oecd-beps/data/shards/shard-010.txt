@@ -1,0 +1,4 @@
+id	pid	page_start	page_end	snippet	core
+beps-a14-peer-review-schedule-oecd-en-p001	p001	1	1	Assessment Schedule for the Simplified Peer Review Process Batch 1 Batch 2 Batch 3 Batch 4 Batch 5 Batch 6 Batch 7 Batch 8 Batch 9 Launch da	packs/beps-a14-peer-review-schedule-oecd-en-pack-00.txt
+beps-a14-peer-review-schedule-oecd-en-p002	p002	2	2	Assessment Schedule for the Full Peer Review Process Batch 1 Batch 2 Batch 3 Batch 4 Batch 5 Batch 6 Batch 7 Batch 8 Batch 9 Launch date Apr	packs/beps-a14-peer-review-schedule-oecd-en-pack-00.txt
+beps-a14-peer-review-schedule-oecd-en-p003	p003	3	3	Assessment Schedule for Stage 1 Peer Reviews and Stage 2 Peer Monitoring (Initial Peer Reviews completed in 2022) 1st batch 2nd batch 3rd ba	packs/beps-a14-peer-review-schedule-oecd-en-pack-00.txt

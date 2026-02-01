@@ -1,0 +1,102 @@
+---
+id: "beps-a14-peer-review-documents-oecd-en-pack-27"
+section_id: "beps-a14-peer-review-documents-oecd-en"
+section_title: "BEPS Action 14: peer review documents (Terms of Reference / Assessment Methodology) (OECD PDF)"
+page_start: 77
+page_end: 79
+pid_start: "p077"
+pid_end: "p079"
+para_count: 3
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "http://www.oecd.org/tax/beps/beps-action-14-on-more-effective-dispute-resolution-peer-review-documents.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-a14-peer-review-documents-oecd-en-pack-27.txt"
+---
+
+## p077 (beps-a14-peer-review-documents-oecd-en-p077, pages 77-77)
+76 
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+“date of Milestone 1” and where the “end” date (as determined in paragraph 13 or 14 of this note) falls
+within the reporting period.
+The number of months taken for each case that has an applicable “date of Milestone 1” shall be computed
+as the number of days taken from the “start” date to the date of Milestone 1 divided by 365 and multiply by
+12 (rounded to two decimal places). The second step is to divide this aggregated number of months by the
+total number of cases that have an applicable “date of Milestone 1” and where the “end” date for the case
+falls within the reporting period. The result is the average time taken from the “start” of a MAP case to
+Milestone 1 in months (rounded to two decimal places).
+(d) Average time taken from Milestone 1 to “End” – see Column 5 of Table 1 and Table 2
+and Column 4 of Table 3
+The average time taken from Milestone 1 to the “end” of a MAP case shall be calculated by first aggregating
+the number of months  from the date of Milestone 1 (as determined in paragraph 15 of this note) to the
+“end” date (as determined in paragraph 13 or 14 of this note) for each case that has an applicable “date of
+Milestone 1” and where the “end” date (as determined in paragraph 13 or 14 of this note) falls within the
+reporting period.
+The number of months taken for each case that has an applicable “date of Milestone 1” shall be computed
+as the number of days taken from the date of Milestone 1 to the “end” date divided by 365 and multiply by
+12 (rounded to two decimal places). The second step is to divide this aggregated number of months by the
+total number of cases that have an applicable “date of Milestone 1” and where the “end” date for the case
+falls within the reporting perio d. The result is the average time taken from Milestone 1 to the “end” of a
+MAP case in months (rounded to two decimal places).
+(e) Cases closed in the Unilateral stage – see Annex to Table 1 and Annex to Table 2
+MAP cases that are resolved under the outcomes “denied MAP access ”, “objection is not justified ” and
+“unilateral relief granted” as defined in paragraph 2(a) of Annex 3.D.
+(f) Cases closed in the Bilateral stage – see Annex to Table 1 and Annex to Table 2
+MAP cases that are resolved under the outcom es “withdrawn by taxpayer ”, “resolved via domestic
+remedy”, “agreement fully eliminating double taxation eliminated / fully resolving taxation not in accordance
+with tax treaty ”, “agreement partially eliminating double taxation / partially resolving taxati on not in
+accordance with tax treaty ”, “agreement that there is no taxation not in accordance with tax treaty ”, “no
+agreement including agreement to disagree ” and “any other outcome ”. as defined in paragraph 2(a) of
+Annex 3.D.
+(g) Average time taken from “Start” to “End” for Cases closed in the Unilateral stage and
+Cases closed in the Bilateral stage – see Annex to Table 1 and Annex to Table 2
+The average time calculated as under paragraph 3(a) of Annex 3.D for Cases closed in the Unilateral
+Stage or Cases closed in the Bilateral Stage as under paragraphs 3(e) and 3(f) respectively.
+
+## p078 (beps-a14-peer-review-documents-oecd-en-p078, pages 78-78)
+ 77
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+Notes
+1 EU Member States are free to note any specificity on MAP requests received by them under the EU Arbitration
+Convention, including providing a breakdown of the MAP Statistics relating to such cases in the Notes section of the
+MAP Statistics Reporting template.
+2 EU Member States are free to note any specificity on MAP requests received by them under Dispute Resolution
+Directive, including providing a breakdown of the MAP Statistics relating to such cases in the Notes section of the MAP
+Statistics Reporting template.
+
+## p079 (beps-a14-peer-review-documents-oecd-en-p079, pages 79-79)
+78 
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+Introduction
+1. The Report on Action 14: Making Dispute Resolution Mechanisms More Effective (“the 2015 Action
+14 Report”) (OECD, 2015[1]) was approved by the OECD Committee of Fiscal Affairs (“CFA”) in September,
+presented to the OECD Council and endorsed by the G20 Finance Ministers on 8 October 2015. This
+Report contained a commitment by countries engaged in the work to the implementation  of a minimum
+standard to ensure that they resolve treaty-related disputes in a timely, effective and efficient manner and
+to have their compliance with the minimum standard reviewed by their peers – i.e. the other members of
+the Forum on Tax Administration MAP Forum (“the FTA MAP Forum”).
+2. One of the elements of the minimum standard1 requires that jurisdictions’ published MAP guidance
+should identify the specific information and documentation that a taxpayer is required to submit with a
+request for MAP assistance and jurisdictions should not limit access to MAP based on the argument that
+insufficient information was provided if the taxpayer has provided this information. The 2015 Action 14
+Report (OECD, 2015[1]) tasked the FTA MAP Forum to develop guidance on the specific information and
+documentation required to be submitted with a request for MAP assistance.
+Guidance on the specific information and documentation required to be
+submitted with a request for MAP assistance
+3. The Action 14 minimum standard requires that jurisdictions should not deny access to MAP based
+on the argument that insufficient information was provided. To provide certainty and clarity to taxpayers on
+the information and documentation requirement, jurisdictions are to publish clear rules, guidelines and
+procedures on access to and use of the MAP, including the specific information and documentation that
+should be submitted in a taxpayer’s request for MAP assistance. As tasked by the 2015 Action 14 R eport
+(OECD, 2015 [1]), the FTA MAP Forum has developed the following guidance on the information and
+documentation required to be submitted with a request for MAP assistance.
+4. To ensure that a taxpayer’s MAP request is received and will be reviewed by the competent
+authority in a timely manner, a jurisdiction’s MAP guidance should clearly provide information on how a
+taxpayer can make a request for MAP assistance and should include the following:
+(i) Contact information of t he competent authority or the office in charge of MAP cases – to
+ensure that MAP requests are received by the competent authority in a timely manner, jurisdictions
+should provide information on the name and the designation of the person or the office to which
+the MAP request should be submitted, including the specific mailing address or email address to
+which a MAP request should be sent.
+4 Guidance on Specific Information and Documentation Required
+to be Submitted with a Request for MAP Assistance

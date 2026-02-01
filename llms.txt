@@ -57,6 +57,7 @@ NOTE
 収録（移転価格）
 - OECD TPG 2022（参考仮訳）: `ai-paper-db/oecd-tpg-2022/quickstart.txt`
 - 国税庁（NTA）移転価格（事務運営指針/参考事例集）: `ai-paper-db/nta-tp-audit/quickstart.txt`
+- OECD/G20 BEPS（選抜）: `ai-paper-db/oecd-beps/quickstart.txt`
 
 典型フロー（packs/shards型）
 1) `data/shards_index.json`

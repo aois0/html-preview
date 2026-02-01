@@ -1,0 +1,292 @@
+---
+id: "beps-a14-peer-review-documents-oecd-en-pack-20"
+section_id: "beps-a14-peer-review-documents-oecd-en"
+section_title: "BEPS Action 14: peer review documents (Terms of Reference / Assessment Methodology) (OECD PDF)"
+page_start: 57
+page_end: 60
+pid_start: "p057"
+pid_end: "p060"
+para_count: 4
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "http://www.oecd.org/tax/beps/beps-action-14-on-more-effective-dispute-resolution-peer-review-documents.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-a14-peer-review-documents-oecd-en-pack-20.txt"
+---
+
+## p057 (beps-a14-peer-review-documents-oecd-en-p057, pages 57-57)
+56 
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+Notes on Annex 3.A. (see also Annex 3.C. - Definition of Terms and Rules for
+Counting MAP Cases)
+(i) Column 2: Number of pre-2016 cases in MAP inventory on 1 January [Year]
+Enter in this column the number of pre -2016 cases (i.e. MAP request received which are not
+reported in Annex 3.B.) in your MAP inventory that are pending resolution as of 1 January of
+the reporting period, reporting separately for “Attribution / Allocation” (see Row 1, Column 1)
+and “Others” (see Row 2, Column 1) MAP cases. The “ Total” (see Row 3, Column 1) is the
+sum of the number of cases for “Attribution / Allocation” and “Others”.
+(ii) Columns 3 to 12: Number of pre-2016 cases closed during the reporting period
+with an outcome as described in columns 3 to 12
+Enter in each of these columns the number of pre -2016 cases closed in the reporting period
+based on the outcome of each case as stated in the heading of each of these columns, reporting
+separately for “Attribution / Allocation” and “Others” MAP cases. The “Total” for each of these
+columns is the sum of the number of cases reported under each of these columns for
+“Attribution / Allocation” and “Others”.
+(iii) Column 13: Number of pre-2016 cases remaining in MAP inventory on 31
+December [Year]
+Enter in this co lumn the number of pre -2016 cases in your MAP inventory that are pending
+resolution as of 31 December of the year, reporting separately for “Attribution / Allocation ”
+and “Others” MAP cases.
+The number of pre -2016 cases relating to “ Attribution / Allocat ion” and “ Others” should
+reflect:
+ the number of pre -2016 cases in MAP inventory on 1 January of the reporting period
+(Column 2) for that category of cases;
+ minus the number of pre -2016 cases that are closed during the reporting period with
+outcome as stated in Columns 3 to 12 for that category of cases.
+The “Total” number of pre-2016 cases remaining in your MAP inventory on 31 December of the
+year is the sum of the number of pre -2016 cases relating to “ Attribution / Allocation ” and
+“Others” that are remaining in the MAP inventory on 31 December of the year.
+(iv) Column 14: Average time taken (in months) for closing pre-2016 cases during
+the reporting period
+Enter in this column the average time taken (in months) from the start to the cl ose of pre-2016
+cases for such cases closed during the reporting period, reporting separately for “ Attribution /
+Allocation”, “Others” and “Total”.
+
+## p058 (beps-a14-peer-review-documents-oecd-en-p058, pages 58-58)
+ 57
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+Annex 3.B. MAP Statistics reporting for the [YEAR] reporting period (1
+January [YEAR] to 31 December [YEAR]) by [Name of Jurisdiction] for post-
+2015 cases closed in the [YEAR] reporting period1
+Annex B should be submitted to the Secretariat (email: fta.map@oecd.org) by 31 May of the calendar year following the year of the reporting period for subsequent publication on the
+OECD website. For the 2016 reporting period, Annex B will be published on an aggregated basis instead of on jurisdiction specific basis.
+For countries that are currently reporting MAP Statistics for publication on the OECD website (see: http://www.oecd.org/ctp/dispute/), with effect from the 2016 reporting period (1 January
+2016 to 31 December 2016) they are only required to report MAP Statistics for publication based on Annex B of this note.
+Jurisdictions should report their MAP Statistics for post-2015 cases based on the definition of terms and rules for counting MAP cases as contained in Annex D.
+(I)  MAP Statistics for Post-2015 Cases for purposes of MAP case inventory and MAP outcomes for the reporting period
+table 1: attribution / allocation map cases
+Treaty
+Partner
+no. of
+post-2015
+cases in
+MAP
+inventory
+on 1
+January
+[YEAR]
+no. of
+post-2015
+cases
+started
+during
+the
+reporting
+period
+number of post-2015 cases closed during the reporting period by outcome:
+no. of post-
+2015 cases
+remaining
+in MAP
+inventory
+on 31
+December
+[YEAR]
+denied
+MAP
+access
+objection
+is not
+justified
+withdraw
+n by
+taxpayer
+unilateral
+relief
+granted
+resolved
+via
+domestic
+remedy
+agreement
+fully
+eliminating
+double
+taxation  /
+fully
+resolving
+taxation not
+in
+accordance
+with tax
+treaty
+agreement
+partially
+eliminating
+double taxation
+/ partially
+resolving
+taxation not in
+accordance
+with tax treaty
+agreemen
+t that
+there is
+no
+taxation
+not in
+accordan
+ce with
+tax treaty
+no
+agreemen
+t
+including
+agreemen
+t to
+disagree
+any other
+outcome
+Column 1 Column 2 Column 3 Column 4 Column 5 Column 6 Column 7 Column 8 Column 9 Column 10 Column 11 Column 12 Column 13 Column 14
+Row 1 Treaty
+Partner 1
+1 Reservation by Germany: Germany is reserving its position on jurisdiction-specific reporting pending staff council agreement required by Federal Law governing the production of
+statistics relating to the work of less than three staff members.
+
+## p059 (beps-a14-peer-review-documents-oecd-en-p059, pages 59-59)
+58 
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+Treaty
+Partner 2
+…
+Row 2
+Treaty
+Partners
+(de minimis
+rule
+applies)
+Row 3
+Treaty
+Partners
+(Others)
+Total
+Note: A reporting jurisdiction can include in this notes section any information which in its view would be useful in providing clarification or understanding on any of the statistics reported above.
+Table 2: Other MAP cases
+Treaty
+Partner
+no. of
+post-2015
+cases in
+MAP
+inventory
+on 1
+January
+[YEAR]
+no. of
+post-2015
+cases
+started
+during
+the
+reporting
+period
+number of post-2015 cases closed during the reporting period by outcome:
+no. of post-
+2015 cases
+remaining
+in MAP
+inventory
+on 31
+December
+[YEAR]
+denied
+MAP
+access
+objection
+is not
+justified
+withdraw
+n by
+taxpayer
+unilateral
+relief
+granted
+resolved
+via
+domestic
+remedy
+agreement fully
+eliminating
+double taxation
+/ fully resolving
+taxation not in
+accordance
+with tax treaty
+agreement
+partially
+eliminating
+double
+taxation  /
+partially
+resolving
+taxation not
+in
+accordance
+with tax
+treaty
+agreemen
+t that
+there is
+no
+taxation
+not in
+accordan
+ce with
+tax treaty
+no
+agreemen
+t
+including
+agreemen
+t to
+disagree
+any other
+outcome
+Column 1 Column 2 Column 3 Column 4 Column 5 Column 6 Column 7 Column 8 Column 9 Column 10 Column 11 Column 12 Column 13 Column 14
+Row 1 Treaty
+Partner 1
+Treaty
+Partner 2
+…
+Row 2
+Treaty
+Partners
+(de minimis
+rule
+applies)
+
+## p060 (beps-a14-peer-review-documents-oecd-en-p060, pages 60-60)
+ 59
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+Row 3
+Treaty
+Partners
+(Others)
+Total
+Note: A reporting jurisdiction can include in this notes section any information which in its view would be useful in providing clarification or understanding on any of the statistics reported above.
+Table 3: All post-2015 MAP Cases pending on 31 December [YEAR] 2
+Categories for age of MAP cases Aggregate number of cases remaining in MAP inventory on 31 December [YEAR]
+falling under each category based on “Start”
+Column 1 Column 2
+Row
+1 <2 years old
+Row
+2 >=2 and <4 years old
+Row
+3 >=4 and <6 years old
+Row
+4 >=6 years old
+Note: A reporting jurisdiction can include in this notes section any information which in its view would be useful in providing clarification or understanding on any of the statistics reported above.
+2 Please note that this data has not been matched with the concerned treaty partners. In addition, please note that delays in individual MAP cases may be owing to several reasons,
+many of them being out of the concerned competent authority’s control, and thus, the age of pending MAP cases should be seen in conjunction with the attempts made by jurisdictions
+to resolve such cases as evident in the average time taken to resolve cases.

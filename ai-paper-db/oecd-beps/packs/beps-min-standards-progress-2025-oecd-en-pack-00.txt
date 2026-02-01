@@ -1,0 +1,118 @@
+---
+id: "beps-min-standards-progress-2025-oecd-en-pack-00"
+section_id: "beps-min-standards-progress-2025-oecd-en"
+section_title: "Note on burden reduction in the BEPS minimum standards (2025) (OECD PDF)"
+page_start: 1
+page_end: 6
+pid_start: "p001"
+pid_end: "p006"
+para_count: 6
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "https://www.oecd.org/content/dam/oecd/en/topics/policy-issues/beps/note-on-burden-reduction-in-the-beps-minimum-standards.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-min-standards-progress-2025-oecd-en-pack-00.txt"
+---
+
+## p001 (beps-min-standards-progress-2025-oecd-en-p001, pages 1-1)
+Recognising progress and
+reducing burdens in the
+BEPS minimum standards
+Making Dispute Resolution More Effective – Simplified Peer Review, Burkina Faso (Stage 1)OECD/G20 Base Erosion andProfit Shifting Project
+
+## p002 (beps-min-standards-progress-2025-oecd-en-p002, pages 2-2)
+Recognising progress and reducing burdens
+in the BEPS minimum standards
+PUBE
+
+## p003 (beps-min-standards-progress-2025-oecd-en-p003, pages 3-3)
+2 
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025
+This document, as well as any data and map included herein, are without prejudice to the status of or sovereignty over
+any territory, to the delimitation of international frontiers and boundaries and to the name of any territory, city or area.
+Please cite this publication as:
+OECD ( 2025), Recognising progress and reducing burdens in the BEPS minimum standards , OECD,
+https://www.oecd.org/content/dam/oecd/en/topics/policy-issues/beps/note-on-burden-reduction-in-the-beps-minimum-
+standards.pdf.
+Photo credits: © EschCollection
+Corrigenda to OECD publications may be found at: https://www.oecd.org/en/publications/support/corrigenda.html .
+© OCDE 2025
+Attribution 4.0 International (CC BY 4.0)
+This work is made available under the Creative Commons Attribution 4.0 International licence. By using this work, you accept to be bound by the terms of this licence (https://creativecommons.org/licenses/by/4.0/).
+Attribution – you must cite the work.
+Translations – you must cite the original work, identify changes to the original and add the following text: In the event of any discrepancy between the original work and the translation, only the text of original
+work should be considered valid.
+Adaptations – you must cite the original work and add the following text: This is an adaptation of an original work by the OECD. The opinions expressed and arguments employed in th is adaptation should not
+be reported as representing the official views of the OECD or of its Member countries.
+Third-party material – the licence does not apply to third-party material in the work. If using such material, you are responsible for obtaining permission from the third party and for any claims of infringement.
+You must not use the OECD logo, visual identity or cover image without express permission or suggest the OECD endorses your use of the work.
+Any dispute arising under this licence shall be settled by arbitration in accordance with the Permanent Court of Arbitration (PCA) Arbitration Rules 2012. The seat of arbitration shall be Paris (France). The number
+of arbitrators shall be one.
+
+## p004 (beps-min-standards-progress-2025-oecd-en-p004, pages 4-4)
+ 3
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025
+Foreword
+Digitalisation and globalisation have had a profound impact on economies and the lives of people around
+the world, and this impact has only accelerated in the 21st century. These changes have brought with them
+challenges to the rules for taxing international business income, which have prevailed for  more than a
+hundred years and created opportunities for base erosion and profit shifting (BEPS), requiring bold moves
+by policy makers to restore confidence in the system and ensure that profits are taxed where economic
+activities take place and value is created.
+In 2013, the OECD ramped up efforts to address these challenges in response to growing public and
+political concerns about tax avoidance by large multinationals. The OECD and G20 countries joined forces
+and developed an Action Plan to address BEPS in September 2013. The Action Plan identified 15 actions
+aimed at introducing coherence in the domestic rules that affect cross -border activities, reinforcing
+substance requirements in the existing international standards, and improving transparency as we ll as
+certainty.
+After two years of work, measures in response to the 15 actions, including those published in an interim
+form in 2014, were consolidated into a comprehensive package and delivered to G20 Leaders in November
+2015. The BEPS package represents the first substantial renovation of the international tax rules in almost
+a century. The implementation of BEPS measures strengthens the international tax system by ensuring
+that BEPS planning strategies identified that relied on outdated rules or on poo rly co-ordinated domestic
+measures have been rendered ineffective.
+OECD and G20 countries also agreed to continue to work together to ensure a consistent and co-ordinated
+implementation of the BEPS recommendations and to make the project more inclusive. As  a result, they
+created the OECD/G20 Inclusive Framework on BEPS (Inclusive Framework), bringing all interested and
+committed countries and jurisdictions on an equal footing in the OECD Committee on Fiscal Affairs and its
+subsidiary bodies. With over 145 m embers, the Inclusive Framework monitors and peer reviews the
+implementation of the minimum standards and is advancing the work on standard setting to address further
+BEPS issues. In addition to its members, other international organisations and regional t ax bodies are
+involved in the work of the Inclusive Framework, which also consults business and the civil society on its
+different work streams.
+The work to address BEPS has also led to further consideration of the tax challenges arising from the
+digitalisation of the economy. In October 2021, over 135 Inclusive Framework members agreed to a
+political statement on the Two -Pillar Solution to reform aspects of the international taxation rules in order
+to ensure that the profits of multinational enterprises ar e fairly taxed in today’s digitalised and globalised
+world economy. That work has made significant advances in developing a co-ordinated system for
+reallocating taxing rights to market jurisdictions with respect to a defined portion of the residual profits  of
+the largest and most profitable Multinationals (the Multilateral Convention to implement Amount A of Pillar
+One). The work has also resulted in an agreement on simplified and streamlined transfer pricing
+methodologies for certain baseline distribution activities which were incorporated into the Transfer Pricing
+Guidelines as of February 2024 (Pillar One Amount B).  Furthermore, jurisdictions are making treaty
+changes to allow developing countries to charge a minimum rate on certain intra -group cross -border
+
+## p005 (beps-min-standards-progress-2025-oecd-en-p005, pages 5-5)
+4 
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025
+payments (Pillar Two Subject-to-Tax Rule); and a jurisdictional 15% minimum effective tax rate framework
+has been implemented by more than 55 jurisdictions as of the beginning of 2025 (Pillar Two GloBE Rules).
+This work continues, and at their its meeting in April 2025, Inclusive Framework members reiterated  the
+critical importance of securing certainty and stability in the international tax system from the ongoing work
+on BEPS and the Two-Pillar Solution.
+This document presents the recommendations endorsed by the Inclusive Framework at the April
+2025 plenary meeting and includes, as an annex, the revised peer review methodology for the Forum on
+Harmful Tax Practices' work on BEPS Action 5, approved during that meeting.
+
+## p006 (beps-min-standards-progress-2025-oecd-en-p006, pages 6-6)
+ 5
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025
+Table of contents
+Foreword 3
+Recognising progress and reducing burdens in the BEPS minimum standards 6
+Introduction 6
+BEPS Action 5 – Harmful Tax Practices 7
+BEPS Action 6 – Prevention of Tax Treaty Abuse 8
+BEPS Action 13 – Country-by-Country Reporting 9
+BEPS Action 14 – Mutual Agreement Procedures 10
+Annex A. Revised methodology for the work of the FHTP 13

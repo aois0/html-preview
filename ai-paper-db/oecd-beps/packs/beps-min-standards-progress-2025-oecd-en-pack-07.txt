@@ -1,0 +1,116 @@
+---
+id: "beps-min-standards-progress-2025-oecd-en-pack-07"
+section_id: "beps-min-standards-progress-2025-oecd-en"
+section_title: "Note on burden reduction in the BEPS minimum standards (2025) (OECD PDF)"
+page_start: 20
+page_end: 21
+pid_start: "p020"
+pid_end: "p021"
+para_count: 2
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "https://www.oecd.org/content/dam/oecd/en/topics/policy-issues/beps/note-on-burden-reduction-in-the-beps-minimum-standards.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-min-standards-progress-2025-oecd-en-pack-07.txt"
+---
+
+## p020 (beps-min-standards-progress-2025-oecd-en-p020, pages 20-20)
+ 19
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025
+Each key factor is briefly described below.
+• The regime imposes no or low effective tax rates on income from geographically mobile financial
+and other service activities.
+A low or zero effective tax rate on the relevant income  is a necessary starting point for an
+examination of whether a preferential tax regime is harmful. When a preferential regime benefits
+income from geographically mobile activities and meets this factor, it is in scope for the FHTP.
+However, the tax rate factor alone does not imply that a preferential regime is harmful; rather it is
+a gateway criterion that if met means that the FHTP will continue the review process to determine
+if one or more of the other key factors are implicated.
+• The regime is ring-fenced from the domestic economy.
+Some preferential tax regimes are partly or fully insulated from the domestic economy of the
+jurisdiction providing the regime. The fact that a jurisdiction has designed the regime in a way that
+protects its own economy from t he regime by ring -fencing provides a strong indication that a
+regime has the potential to create harmful spill-over effects. Ring-fencing focusses on the legal or
+administrative barriers to participation in the domestic economy, rather than the case where only
+a small number of domestic  taxpayers take advantage of the regime . Ring-fencing may take a
+number of forms, including:
+o A regime may explicitly or implicitly exclude resident taxpayers from taking advantage of its
+benefits.
+o Enterprises which benefit from the regime may be explicitly or implicitly prohibited from
+operating in the domestic market.
+• The regime lacks transparency.
+A lack of transparency may arise from the way in which a regime is designed and administered.
+For example, where the de tails of the regime or its application are not apparent, or there is
+inadequate regulatory supervision or financial disclosure.
+• There is no effective exchange of information with respect to the regime.
+When the jurisdiction lacks an effective exchange of information with respect to the regime, this
+can inhibit the ability of other tax authorities to enforce effectively its rules.
+• The regime encourages operations or arrangements that are purely tax -driven and involve no
+substantial activities.
+This factor has been elaborated in the work of the BEPS Action 5 Report (OECD, 2015), requiring
+that in order to benefit from a preferential regime, the taxpayer must have engaged in the activities
+giving rise to the income.
+In the case of regimes that give benefits to income from intellectual property (“IP”), this requirement
+means being compliant with the “nexus approach” as detailed in the BEPS Action 5 Report (OECD,
+2015[2]). The nexus approach requires a link betwe en the income benefiting from the IP regime
+and the extent to which the taxpayer has undertaken the underlying research and development
+that generated the intellectual property. The FHTP uses a substantive approach, reviewing IP
+regimes that are targeted at IP income (such as patent boxes) as well as regimes that provide for
+benefits to a wider range of geographically mobile activities but include income from IP (such as
+certain free zones or international business companies).
+The BEPS Action 5 Report  (OECD, 2015 [2]) also contains more general guidance for the
+application of the substantial activities criterion to non-IP regimes, and further detail on the FHTP’s
+approach is set out in Annex D of the 2017 Progress Report  (OECD, 2017[8]). This ensures that
+the core income generating activities are undertaken, including with an adequate number of full -
+time, qualified employees and an adequate amount of operating expenditure, supported b y a
+transparent mechanism to ensure compliance.
+
+## p021 (beps-min-standards-progress-2025-oecd-en-p021, pages 21-21)
+20 
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025
+If the regime meets the gateway criterion of imposing no or low effective tax rates on income from
+geographically mobile financial and other service activities  and is not compliant with one or more of the
+other key factors, it would be found to be “harmful”. Under the previous methodology, the FHTP could also
+conclude regimes as “potentially harmful” and “potentially harmful but not actually harmful”. However, this
+assessment is now undertaken before the FHTP’s legislative review and is therefore no longer a potential
+outcome after such review. Where a regime is found to be “harmful”, the jurisdiction is expected to amend
+or abolish the regime in accordance with the FHTP timelines. This includes ensuring that such regimes are
+quickly closed-off to new applicants and new expansions of business activities, and that any grandfathering
+is provided for a limited transition period only. These timelines are set out below under the procedural
+aspects.
+Procedural aspects
+Conclusions
+The review by the FHTP can result in one of the following conclusions:
+Result Meaning Decision taken in
+Harmful  The regime has harmful features. The jurisdiction is expected to take
+measures in order to remove the harmful features of the regime.
+Step 5
+Not harmful  The regime is in scope but does not have harmful features or a significant
+BEPS impact.
+Step 4 or 5
+Amended (not harmful) The regime has had its harmful features removed and is therefore not
+harmful.
+Step 5
+Out of scope The regime does not grant tax benefits to geographically mobile activities. Step 5
+Amended (out of scope) The regime has been amended so that it no longer grants tax benefits to
+geographically mobile activities and is therefore out of scope for  the
+FHTP.
+Step 5
+In the process of being
+amended / in the process of
+being eliminated
+The jurisdiction has communicated to the FHTP the commitment of its
+government to abolish or amend the regime in light of the discussions by
+the FHTP about the features  of the regime that are of concern . This
+commitment involves a commitment to making the amendments within
+the timelines indicated below.
+Step 5
+Abolished A definite date for complete abolition of the regime has been announced,
+and the regime is transparent and has effective exchange of information.
+No new entrants are permitted into the regime. Any grandfathering for
+existing beneficiaries is consistent with the applicable framework and
+timelines.
+Step 5
+Under review The FHTP is continuing to co nsider the features of the regime and
+whether the criteria are implicated.
+Step 4 or 5

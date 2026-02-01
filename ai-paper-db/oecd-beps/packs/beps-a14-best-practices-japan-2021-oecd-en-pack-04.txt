@@ -1,0 +1,119 @@
+---
+id: "beps-a14-best-practices-japan-2021-oecd-en-pack-04"
+section_id: "beps-a14-best-practices-japan-2021-oecd-en"
+section_title: "BEPS Action 14: peer review best practices - Japan (2021) (OECD PDF)"
+page_start: 18
+page_end: 20
+pid_start: "p018"
+pid_end: "p020"
+para_count: 3
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "https://www.oecd.org/tax/beps/beps-action-14-peer-review-best-practices-japan-2021.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-a14-best-practices-japan-2021-oecd-en-pack-04.txt"
+---
+
+## p018 (beps-a14-best-practices-japan-2021-oecd-en-p018, pages 18-18)
+PART B: AVAILABILITY AND ACCESS TO MAP  17
+INCLUSIVE FRAMEWORK OF BEPS: ACTION 14 MAKING DISPUTE RESOLUTION MORE EFFECTIVE MAP PEER REVIEW REPORT
+© OECD 2021
+is for clarity purposes relevant that jurisdiction’s MAP guidance includes information on
+availability of and access to multilateral MAPs.
+37.  Japan’s MAP guidance, in note 1 attached to Section 3(1)(a), states that domestic
+corporations may initiate multilateral MAP discussions by filing separate requests with
+regard to each of the treaties involved based on the location of the associated enterprises .
+Further, the response to question 2.10 of Japan’s Q&A on MAP  specifies that MAP is
+available in such cases.
+38. Peers did not provide input relating to this particular best practice.
+[BP.8] Provide for suspension of collection procedures for pending MAP cases
+Jurisdictions should take appropriate measures to provide for a suspension of colle ctions
+procedures during the period a MAP case is pending. Such a suspension of collections should
+be available, at a minimum, under the same conditions as apply to a person pursuing a
+domestic administrative or judicial remedy.
+39. If, following an adjustment taxpayers immediately have to pay the tax due, whereas
+the same amount was already paid to the tax administration of the other jurisdiction involved,
+double taxation will in fact occur. As taxpayers may then face significant cash -flow issues,
+at least for the period the MAP case is pending, it is relevant that jurisdictions provide for
+suspension of collection procedure for this period under at least the same conditions as
+available for domestic remedies.
+40. Japan reported that taxpayers can ask for  the suspension of tax collection for the
+period a MAP case is pending and insofar it concerns a case concerning the allocation of
+profits between associated enterprises. The relevant rules in relation her eto are included in
+Article 66-4-2 of the Act on Sp ecial Measures Concerning Taxation, which stipulates that
+where a taxpayer has submitted a MAP request to either Japan’s competent authority or the
+competent authority of its treaty partner, the National Tax Agency may – upon request by the
+taxpayer – grant a suspension of tax collection for the tax due for which a MAP request is
+submitted.15 The period for which such suspension is granted ranges from the date on which
+the taxation in question  becomes due and payable (or on the date where a request for
+suspension is submitted if this is later) and ends one month after the date on which the MAP
+agreement is implemented in Japan. Where no MAP agreement is entered into, the suspension
+is granted until one month from the date the Commissioner’s notification to the taxpayer of
+the fact that the MAP case is closed. Furthermore, under the domestic rules the suspension
+of tax collection may be cancelled when the taxpayer: (i) has withdrawn its MAP request, (ii)
+does not co -operate in providing documents necessary for MAP discussions, (iii) is found
+unable to pay the tax due, (iv) does not issue a security deposit, (v) has any new delinquent
+national tax due other  than taxes  related to the suspension of tax collection, or (iv) is found
+inappropriate to be granted a suspension of tax collection.
+41. Furthermore, section 43 of Japan’s MAP guidance includes detailed information on
+the possibility for taxpayers to obtain a suspension of tax collection for the period a MAP is
+pending, the conditions under which the request for such a suspension are granted, what steps
+taxpayers need to take when filing a request hereto and the process for granting the requested
+15  The relevant rules to calculate the tax due are included in Article 39 -12-2(1) and 39-112-2(1) of the Order for Enforcement
+of the Act on Special Measures concerning taxation.
+
+## p019 (beps-a14-best-practices-japan-2021-oecd-en-p019, pages 19-19)
+18  PART B: AVAILABILITY AND ACCESS TO MAP
+INCLUSIVE FRAMEWORK OF BEPS: ACTION 14 MAKING DISPUTE RESOLUTION MORE EFFECTIVE MAP PEER REVIEW REPORT
+© OECD 2021
+suspension.16 In this respect, section 43 specifies the following requirements  to be fulfilled
+before a suspension of tax collection will be granted:
+ The taxpayer is subject to taxation in Japan as listed in the specific provisions;
+ The taxpayer has submitted a MAP request;
+ The amount of tax due is the subject of the consideration with a treaty partner in
+MAP;
+ The taxpayer does not have any delinquent national taxes other than taxes related to
+the suspension of tax collection; and
+ The taxpayer deposited a security equivalent to the amount for which a suspension of
+tax collection is requested.
+42. Further, a summary of the above provisions, in easy-to-read language, has been added
+to Japan’s Q&A on MAP in Q 4-1 to Q 4-10 under the title ‘Grace of tax payment related to
+transfer pricing taxation’.
+43. Peers did not provide input relating to this particular best practice.
+16  Available in English at: http://www.nta.go.jp/english/03.pdf.
+
+## p020 (beps-a14-best-practices-japan-2021-oecd-en-p020, pages 20-20)
+PART C: RESOLUTION OF MAP CASES  19
+INCLUSIVE FRAMEWORK OF BEPS: ACTION 14 MAKING DISPUTE RESOLUTION MORE EFFECTIVE MAP PEER REVIEW REPORT
+© OECD 2021
+Part C
+Resolution of MAP Cases
+[BP.9] Permit taxpayers to request multi-year resolution of recurring issues through
+the MAP
+Jurisdictions should implement appropriate procedures to permit, in certain cases and after
+an initial tax assessment, requests made by taxpayer which are within the time period
+provided for in the tax treaty for the multi -year resolution through the MAP of recurring
+issues with respect to filed tax years, where the relevant facts and circumstances are the same
+and subject to the verification of such facts and circumstances on audit.
+44. In certain cases, a MAP request with respect to a specific adjustment to income may
+present recurring issues that may be relevant in previous or subsequent tax years. Allowing
+taxpayers to submit requests for the multi-year resolution through MAP with respect to such
+recurring issues, where the relevant facts and circumstances are the same, may help avoid
+duplicative MAP requests and facilitate a more efficient use of competent authority
+resources.
+45. Japan reported it allows taxpayers to request the  multi-year resolution of recurring
+issues through the MAP  where the facts and circumstances of the case remained the same
+and insofar the case concerns the application of the arm’s length principle for profit allocation
+between associated enterprises and the attri bution of profits to permanent establishments.
+Japan specified that a MAP agreement concerning an initial tax assessment can be prolonged
+to subsequent fiscal years via a bilateral APA. To this end, taxpayers need to submit a MAP
+request for the initial tax assessment alongside an APA request (including a roll-back request)
+for the current and subsequent fiscal years.
+46. Japan’s MAP guidance, in note 1 attached to Section 3( 2), states that for the multi -
+year resolution of cases, the taxpayer must file a MAP r equest for the present year and an
+APA request for future years.
+47. Peers did not provide input relating to this particular best practice.
+[BP.10] Publish explanation of the relationship between the MAP and domestic
+remedies
+Jurisdictions should publish an ex planation of the relationship between the MAP and
+domestic law administrative and judicial remedies.

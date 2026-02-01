@@ -1,0 +1,276 @@
+{
+  "dataset": {
+    "name": "OECD/G20 BEPS materials (selected)",
+    "generated_at": "2026-02-01",
+    "base_url": "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps"
+  },
+  "format": "tsv",
+  "fields": [
+    "id",
+    "pid",
+    "page_start",
+    "page_end",
+    "snippet",
+    "core"
+  ],
+  "shard_size": 80,
+  "sections": [
+    {
+      "id": "beps-a03-cfc-rules-nta-ja",
+      "title": "BEPS Action 3: Designing Effective CFC Rules (NTA provisional translation)",
+      "count": 59,
+      "shards": [
+        {
+          "file": "data/shards/shard-000.txt",
+          "count": 59,
+          "pid_start": "p001",
+          "pid_end": "p059"
+        }
+      ]
+    },
+    {
+      "id": "beps-a04-interest-deductions-nta-ja",
+      "title": "BEPS Action 4: Interest Deductions and Other Financial Payments (NTA provisional translation)",
+      "count": 108,
+      "shards": [
+        {
+          "file": "data/shards/shard-001.txt",
+          "count": 80,
+          "pid_start": "p001",
+          "pid_end": "p080"
+        },
+        {
+          "file": "data/shards/shard-002.txt",
+          "count": 28,
+          "pid_start": "p081",
+          "pid_end": "p108"
+        }
+      ]
+    },
+    {
+      "id": "beps-a08-10-tp-value-creation-nta-ja",
+      "title": "BEPS Actions 8-10: Aligning Transfer Pricing Outcomes with Value Creation (NTA provisional translation)",
+      "count": 148,
+      "shards": [
+        {
+          "file": "data/shards/shard-003.txt",
+          "count": 80,
+          "pid_start": "p001",
+          "pid_end": "p080"
+        },
+        {
+          "file": "data/shards/shard-004.txt",
+          "count": 68,
+          "pid_start": "p081",
+          "pid_end": "p148"
+        }
+      ]
+    },
+    {
+      "id": "beps-a14-best-practices-japan-2021-oecd-en",
+      "title": "BEPS Action 14: peer review best practices - Japan (2021) (OECD PDF)",
+      "count": 24,
+      "shards": [
+        {
+          "file": "data/shards/shard-005.txt",
+          "count": 24,
+          "pid_start": "p001",
+          "pid_end": "p029"
+        }
+      ]
+    },
+    {
+      "id": "beps-a14-dispute-resolution-nta-ja",
+      "title": "BEPS Action 14: Making Dispute Resolution Mechanisms More Effective (NTA provisional translation)",
+      "count": 32,
+      "shards": [
+        {
+          "file": "data/shards/shard-006.txt",
+          "count": 32,
+          "pid_start": "p001",
+          "pid_end": "p032"
+        }
+      ]
+    },
+    {
+      "id": "beps-a14-peer-review-documents-oecd-en",
+      "title": "BEPS Action 14: peer review documents (Terms of Reference / Assessment Methodology) (OECD PDF)",
+      "count": 82,
+      "shards": [
+        {
+          "file": "data/shards/shard-007.txt",
+          "count": 80,
+          "pid_start": "p001",
+          "pid_end": "p080"
+        },
+        {
+          "file": "data/shards/shard-008.txt",
+          "count": 2,
+          "pid_start": "p081",
+          "pid_end": "p082"
+        }
+      ]
+    },
+    {
+      "id": "beps-a14-peer-review-monitoring-nta-ja",
+      "title": "BEPS Action 14 Peer Review and Monitoring (NTA provisional translation of OECD webpage)",
+      "count": 1,
+      "shards": [
+        {
+          "file": "data/shards/shard-009.txt",
+          "count": 1,
+          "pid_start": "p001",
+          "pid_end": "p001"
+        }
+      ]
+    },
+    {
+      "id": "beps-a14-peer-review-schedule-oecd-en",
+      "title": "BEPS Action 14 peer review assessment schedule (OECD PDF)",
+      "count": 3,
+      "shards": [
+        {
+          "file": "data/shards/shard-010.txt",
+          "count": 3,
+          "pid_start": "p001",
+          "pid_end": "p003"
+        }
+      ]
+    },
+    {
+      "id": "beps-min-standards-progress-2025-oecd-en",
+      "title": "Note on burden reduction in the BEPS minimum standards (2025) (OECD PDF)",
+      "count": 29,
+      "shards": [
+        {
+          "file": "data/shards/shard-011.txt",
+          "count": 29,
+          "pid_start": "p001",
+          "pid_end": "p029"
+        }
+      ]
+    }
+  ],
+  "shards": [
+    {
+      "file": "data/shards/shard-000.txt",
+      "count": 59,
+      "section_id": "beps-a03-cfc-rules-nta-ja",
+      "section_title": "BEPS Action 3: Designing Effective CFC Rules (NTA provisional translation)",
+      "page_start": 1,
+      "page_end": 59,
+      "pid_start": "p001",
+      "pid_end": "p059"
+    },
+    {
+      "file": "data/shards/shard-001.txt",
+      "count": 80,
+      "section_id": "beps-a04-interest-deductions-nta-ja",
+      "section_title": "BEPS Action 4: Interest Deductions and Other Financial Payments (NTA provisional translation)",
+      "page_start": 1,
+      "page_end": 80,
+      "pid_start": "p001",
+      "pid_end": "p080"
+    },
+    {
+      "file": "data/shards/shard-002.txt",
+      "count": 28,
+      "section_id": "beps-a04-interest-deductions-nta-ja",
+      "section_title": "BEPS Action 4: Interest Deductions and Other Financial Payments (NTA provisional translation)",
+      "page_start": 81,
+      "page_end": 108,
+      "pid_start": "p081",
+      "pid_end": "p108"
+    },
+    {
+      "file": "data/shards/shard-003.txt",
+      "count": 80,
+      "section_id": "beps-a08-10-tp-value-creation-nta-ja",
+      "section_title": "BEPS Actions 8-10: Aligning Transfer Pricing Outcomes with Value Creation (NTA provisional translation)",
+      "page_start": 1,
+      "page_end": 80,
+      "pid_start": "p001",
+      "pid_end": "p080"
+    },
+    {
+      "file": "data/shards/shard-004.txt",
+      "count": 68,
+      "section_id": "beps-a08-10-tp-value-creation-nta-ja",
+      "section_title": "BEPS Actions 8-10: Aligning Transfer Pricing Outcomes with Value Creation (NTA provisional translation)",
+      "page_start": 81,
+      "page_end": 148,
+      "pid_start": "p081",
+      "pid_end": "p148"
+    },
+    {
+      "file": "data/shards/shard-005.txt",
+      "count": 24,
+      "section_id": "beps-a14-best-practices-japan-2021-oecd-en",
+      "section_title": "BEPS Action 14: peer review best practices - Japan (2021) (OECD PDF)",
+      "page_start": 1,
+      "page_end": 29,
+      "pid_start": "p001",
+      "pid_end": "p029"
+    },
+    {
+      "file": "data/shards/shard-006.txt",
+      "count": 32,
+      "section_id": "beps-a14-dispute-resolution-nta-ja",
+      "section_title": "BEPS Action 14: Making Dispute Resolution Mechanisms More Effective (NTA provisional translation)",
+      "page_start": 1,
+      "page_end": 32,
+      "pid_start": "p001",
+      "pid_end": "p032"
+    },
+    {
+      "file": "data/shards/shard-007.txt",
+      "count": 80,
+      "section_id": "beps-a14-peer-review-documents-oecd-en",
+      "section_title": "BEPS Action 14: peer review documents (Terms of Reference / Assessment Methodology) (OECD PDF)",
+      "page_start": 1,
+      "page_end": 80,
+      "pid_start": "p001",
+      "pid_end": "p080"
+    },
+    {
+      "file": "data/shards/shard-008.txt",
+      "count": 2,
+      "section_id": "beps-a14-peer-review-documents-oecd-en",
+      "section_title": "BEPS Action 14: peer review documents (Terms of Reference / Assessment Methodology) (OECD PDF)",
+      "page_start": 81,
+      "page_end": 82,
+      "pid_start": "p081",
+      "pid_end": "p082"
+    },
+    {
+      "file": "data/shards/shard-009.txt",
+      "count": 1,
+      "section_id": "beps-a14-peer-review-monitoring-nta-ja",
+      "section_title": "BEPS Action 14 Peer Review and Monitoring (NTA provisional translation of OECD webpage)",
+      "page_start": 1,
+      "page_end": 1,
+      "pid_start": "p001",
+      "pid_end": "p001"
+    },
+    {
+      "file": "data/shards/shard-010.txt",
+      "count": 3,
+      "section_id": "beps-a14-peer-review-schedule-oecd-en",
+      "section_title": "BEPS Action 14 peer review assessment schedule (OECD PDF)",
+      "page_start": 1,
+      "page_end": 3,
+      "pid_start": "p001",
+      "pid_end": "p003"
+    },
+    {
+      "file": "data/shards/shard-011.txt",
+      "count": 29,
+      "section_id": "beps-min-standards-progress-2025-oecd-en",
+      "section_title": "Note on burden reduction in the BEPS minimum standards (2025) (OECD PDF)",
+      "page_start": 1,
+      "page_end": 29,
+      "pid_start": "p001",
+      "pid_end": "p029"
+    }
+  ]
+}

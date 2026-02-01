@@ -1,0 +1,210 @@
+---
+id: "beps-a14-peer-review-documents-oecd-en-pack-13"
+section_id: "beps-a14-peer-review-documents-oecd-en"
+section_title: "BEPS Action 14: peer review documents (Terms of Reference / Assessment Methodology) (OECD PDF)"
+page_start: 30
+page_end: 34
+pid_start: "p030"
+pid_end: "p034"
+para_count: 5
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "http://www.oecd.org/tax/beps/beps-action-14-on-more-effective-dispute-resolution-peer-review-documents.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-a14-peer-review-documents-oecd-en-pack-13.txt"
+---
+
+## p030 (beps-a14-peer-review-documents-oecd-en-p030, pages 30-30)
+ 29
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+65. The FTA MAP Forum shall ensure that the jurisdictions being reviewed in each year would include
+jurisdictions with varying experience in MAP to minimise administrative workload for peers. The FTA MAP
+Forum shall also ensure that jurisdictions that are undergoing or have undergone the simplified peer review
+process that qualify for the full peer review process are then moved into the full peer review process in a
+manner that allows them sufficient time to prepare.
+66. In the event that the Action 14 minimum standard or Terms of Reference are revised in the future,
+the full peer review process would be reviewed by the FTA MAP Forum to ensure that it aligns with the
+revisions. If no such revisions are made by the time two full three -year peer review cycles are completed,
+the FTA MAP Forum will consider a t that time  whether the full peer review process is working well or
+requires review in the interest of adding further simplification and efficiency measures , including whether
+full peer review reports may be replaced with update reports for more jurisdicti ons in the future.
+Reference
+OECD (2015), Making Dispute Resolution Mechanisms More Effective, Action 14 - 2015 Final
+Report, OECD/G20 Base Erosion and Profit Shifting Project, OECD Publishing, Paris,
+https://doi.org/10.1787/9789264241633-en.
+[1]
+Notes
+
+## p031 (beps-a14-peer-review-documents-oecd-en-p031, pages 31-31)
+30 
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+1 Available at www.oecd.org/tax/beps-2015-final-reports.htm.
+2 For the purposes of this note, all references to members of the FTA MAP Forum should be read to mean members
+of the FTA MAP Forum that have committed to the implementation of the Action 14 minimum standard.
+3 The methodology proposed in this note would apply to reviews conducted in the context of the Inclusive Framework
+for BEPS Implementation. The modalities for reviews of countries and jurisdictions of relevance, as identified by the
+CFA, which have not joined the Inclusive Framework, will be agreed in due course by the CFA.
+4 For the purposes of this note, non-members of the FTA MAP Forum refer to jurisdictions, including existing members
+of the FTA MAP Forum, that have not committed to the implementation of the Action 14 minimum standard.
+5 Argentina, Australia, Austria, Belgium, Brazil, Canada, Chile, China (People’s Republic of), Colombia, Czech
+Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, India, Indonesia, Ireland, Israel,
+Italy, Japan, Korea, Latvia, Luxembourg, Mexico, Netherlands, New Zealand, Norway, Poland, Portugal, Russia, Saudi
+Arabia, Slovak Republic, Slovenia, South Africa, Spain, Sweden, Switzerland, Turkey, United Kingdom and United
+States.
+6 Footnote by India: “India consistently opposed the  direct participation of taxpayers in the Peer Review process on
+the principles that, (i) this was not part of the final report on Action 14 and (ii) taxpayers are not peers of sovereign
+countries. However, in a spirit of compromise, India agreed for the i nclusion of taxpayers inputs as mentioned in this
+document.”
+7 Please see paragraph 7 above on the inclusive framework to broaden the participation in the OECD/G20 BEPS
+Project.
+8 For an assessed jurisdiction that did not submit an Update Report because th ere are no shortcomings identified in
+its Stage 1 Peer Review report and no changes to its legislative or procedural framework relating to the implementation
+of the minimum standard, its Stage 2 Peer Monitoring report would be updated with the statistics r eported by the
+assessed jurisdiction pursuant to the agreed reporting framework.
+9 Please note that the reference to “meaningful MAP experience” in this document is in reference to the defined term
+that covers the conditions described in paragraph 42 and d oes not intend to objectively define as to when MAP
+experience is meaningful in general.
+10 All MAP cases would be counted for this calculation, irrespective of the year of introduction of the MAP request or
+categorisation done for the purposes of the MAP Statistics.
+11 “Year” refers to the latest available year of MAP Statistics published on the OECD website.
+12 Please see footnote 6 in this regard where India’s concerns with respect to the consideration of taxpayer input in
+the peer review process have been reflected.
+13 The elements of the Terms of Reference connected to tax treaties are elements A.1, B.1, B.7, C.1 and D.3.
+14 For example, if 52 jurisdictions qualify for the full peer review process, Year 1 would involve the peer reviews of 18
+jurisdictions that would be completed by the end of the year; and Year 2 as well as Year 3 would similarly involve the
+peer reviews of 17 jurisdictions respectively, following which Year 4 would be a gap year . The same set of jurisdictions
+would be reviewed again in Years 5, 6 and 7 respectively with Year 8 being a gap year and this would continue.
+15 Please see footnote 6 in this regard where India’s concerns with respect to the consideration of taxpayer input in
+the peer review process have been reflected.
+
+## p032 (beps-a14-peer-review-documents-oecd-en-p032, pages 32-32)
+ 31
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+Annex 2.A. Summary of Stage 1 Peer Review
+process
+Figure 1. Information and input gathering
+Source: OECD
+Figure 2. Discussion and approval of an assessed jurisdiction’s Stage 1 Peer Review report by the
+FTA MAP Forum
+Source: OECD
+Members of
+FTA MAP ForumAssessed Jurisdiction
+Questionnaire Response to
+Questionnaire
+Secretariat
+Peer
+Input
+Taxpayers
+QuestionnairePeer
+Questionnaire
+Taxpayer
+Input
+- MAP Profile
+- Statistics
+- Research
+materials
+No Yes
+YesNo
+Approval by FTA MAP Forum
+under written procedure
+Report included in
+the FTA MAP
+Forum Report
+Report to be discussed at the
+FTA MAP Forum meeting
+Explanation
+included in the
+FTA MAP
+Forum Report
+Report
+Approved?
+Secretariat
+Draft Stage 1 Peer
+Review Report of
+Assessed
+Jurisdiction
+Report
+Approved
+?
+
+## p033 (beps-a14-peer-review-documents-oecd-en-p033, pages 33-33)
+32 
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+Figure 3. Adoption of FTA MAP Forum report on Stage 1 Peer Reviews by the CFA for publication
+Source: OECD
+No Yes Publication of
+FTA MAP Forum
+Report
+Report
+Adopted?
+Chair of the CFA to request FTA
+MAP Forum to examine the objection
+or to discuss the objection at the
+meeting of the CFA
+The CFA for adoption of Report for
+publication under written procedureSecretariat
+Approved FTA MAP
+Forum Report
+
+## p034 (beps-a14-peer-review-documents-oecd-en-p034, pages 34-34)
+ 33
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+Annex 2.B. Summary of Stage 2 Peer Monitoring
+process
+Figure 4. Discussion and approval of an assessed jurisdiction’s Stage 2 Peer Monitoring report by
+the FTA MAP Forum
+Source: OECD
+Figure 5. Adoption of FTA MAP Forum Update report on Stage 2 Peer Monitoring by the CFA for
+ublication
+Source: OECD
+Draft Stage 2 Peer
+Monitoring Report of
+Assessed Jurisdiction
+Secretariat
+Approval by FTA MAP Forum
+under written procedure
+No Yes
+YesNo
+Report included
+in the FTA MAP
+Forum Update
+Report
+Report to be discussed at
+the FTA MAP Forum
+meeting
+Explanation
+included in the
+FTA MAP
+Forum Update
+Report
+Report
+Approved
+?
+Report
+Approved
+?
+Peer input
+on Update
+Report
+Update Report
+by Assessed
+Jurisdiction
+- MAP Profile
+- Statistics
+- Research materials
+No Yes
+Publication of
+FTA MAP Forum
+Update Report
+Report
+Adopted?
+Chair of the CFA to request FTA MAP
+Forum to examine the objection or to
+discuss the objection at the meeting of
+the CFA
+The CFA for adoption of Report
+for publication under written
+procedure
+Secretariat
+Approved FTA MAP
+Forum Update Report

@@ -1,0 +1,47 @@
+---
+id: "beps-a14-best-practices-japan-2021-oecd-en-pack-07"
+section_id: "beps-a14-best-practices-japan-2021-oecd-en"
+section_title: "BEPS Action 14: peer review best practices - Japan (2021) (OECD PDF)"
+page_start: 28
+page_end: 29
+pid_start: "p028"
+pid_end: "p029"
+para_count: 2
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "https://www.oecd.org/tax/beps/beps-action-14-peer-review-best-practices-japan-2021.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-a14-best-practices-japan-2021-oecd-en-pack-07.txt"
+---
+
+## p028 (beps-a14-best-practices-japan-2021-oecd-en-p028, pages 28-28)
+GLOSSARY  27
+INCLUSIVE FRAMEWORK OF BEPS: ACTION 14 MAKING DISPUTE RESOLUTION MORE EFFECTIVE MAP PEER REVIEW REPORT
+© OECD 2021
+Glossary
+Action 14 Minimum Standard The minimum standard as agreed upon in the final report on
+Action 14: Making Dispute Settlement Mechanisms More
+Effective
+MAP guidance Commissioner’s Directive on the Mutual Agreement Procedure
+Multilateral Instrument Multilateral Convention to Implement Tax Treaty Related
+Measures to Prevent Base Erosion and Profit Shifting
+OECD Model Tax Convention OECD Model Tax Convention on Income and on Capital as it
+read on 21 November 2017
+Q&A on MAP Guidance for taxpayers on the mutual agreement procedure in the
+form of an Q&A
+Terms of Reference Terms of reference to monitor and review the implementing of
+the BEPS Action 14 Minimum Standard to make dispute
+resolution mechanisms more effective
+(CTPA/CFA/NOE2(2016)45/REV1)
+
+## p029 (beps-a14-best-practices-japan-2021-oecd-en-p029, pages 29-29)
+ctp.beps@oecd.org
+For more information:
+@OECDtax
+Inclusive Framework on BEPS: Action 14
+Making Dispute Resolution More Effective
+MAP Peer Review Report
+BEST PRACTICES
+Denmark
+2020
+http://oe.cd/bepsaction14

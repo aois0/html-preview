@@ -1,0 +1,113 @@
+---
+id: "beps-a14-best-practices-japan-2021-oecd-en-pack-01"
+section_id: "beps-a14-best-practices-japan-2021-oecd-en"
+section_title: "BEPS Action 14: peer review best practices - Japan (2021) (OECD PDF)"
+page_start: 11
+page_end: 12
+pid_start: "p011"
+pid_end: "p012"
+para_count: 2
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "https://www.oecd.org/tax/beps/beps-action-14-peer-review-best-practices-japan-2021.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-a14-best-practices-japan-2021-oecd-en-pack-01.txt"
+---
+
+## p011 (beps-a14-best-practices-japan-2021-oecd-en-p011, pages 11-11)
+10  PART A: PREVENTING DISPUTES
+INCLUSIVE FRAMEWORK OF BEPS: ACTION 14 MAKING DISPUTE RESOLUTION MORE EFFECTIVE MAP PEER REVIEW REPORT
+© OECD 2021
+handle the request and conduct negotiations with the treaty partner. 3 In this respect, Japan
+noted that next to the request for a bilateral or multilateral APA, taxpayers are also required
+to submit a MAP request on the basis of the MAP guidance (see element B.8  of the peer
+review report for a discussion).
+6. In relation to the filing of an APA request, Japan reported it encourages taxpayers to
+have a pre -filing consultation with the competent department, such with a view to have a
+common understanding of the request, to assist taxpayers in submitting the required
+documentation efficiently and to expedite the APA process.4 Japan further reported that there
+are no specific timelines for filing of APA requests and that no fees are charged to taxpayers.
+However, an APA request needs to be filed on or before the commencing date of the first
+taxable year for which the request is made. Where an APA request relates to fisca l years
+2021-2024, the request thus has to be submitted on or before 1 January 2021. Typically, Japan
+applies APAs for a period of three to five years.5
+7. In view of the above, Japan annually publishes statistics relating to APAs on the
+website of the National Tax Agency since 2006. These statistics can be found at (in English):6
+https://www.nta.go.jp/english/map_report/index.htm
+8. These statistics inter alia relate to the number of APA requests received, the number
+of cases closed and the inventory of pending APA cases as per year-end. For calendar years
+2014-2019 Japan reported the following statistics:7
+Year Number bilateral
+APA requests
+Number of APAs
+granted
+Inventory per year-
+end
+2014 157 147 302
+2015 161 106 357
+2016 122 116 363
+2017 157 152 368
+2018 163 134 397
+2019 110 115 392
+9. Three peers provided input on this best practice. The first peer reported that Japan
+has a well -developed bilateral APA programme. The second peer noted that it appreciates
+Japan’s long-standing commitment to APAs, as being the most direct and viable means  for
+preventing MAP cases and also to provide taxpayers with certainty. In this peer’s view the
+commitment to concluded APAs with a meaningful level of prospectively is a best practice
+that underlies the valuable promise of APAs to provide taxpayers with certainty on a going-
+forward basis. In that regard, the peer respectfully welcomed additional discussions with
+Japan’s competent authority in a co-operative and collaborative manner. Lastly, the third peer
+echoed the previous input and noted it has a very positive relationship with Japan’s competent
+authority, whereby contacts are considered easy and frequent, as also that Japan’s competent
+authority provides quick responses. Such contacts take place in various manners such as e -
+mail, letters and face-to-face meetings, whereby meetings are scheduled once or twice a year.
+3  See chapter 6, section 12/13 of the Transfer Pricing Directive.
+4  See chapter 6, section 10 of the Transfer Pricing Directive.
+5  See chapter 6, section 7 of the Transfer Pricing Directive.
+6  Statistics on APAs are also available in the annual report of the National Tax Agency. For 2018, these statistics are available in
+Part III-3(4). Available at: http://www.nta.go.jp/english/Report_pdf/2018e_06.pdf.
+7  The numbers reported in the table deviate slightly from the numbers included in the annual report issued by Japan’s National Tax Agency
+due to the fact that in the latter the basis is the fiscal year, which in Japan runs from 1 July to 30 June.  Further, the numbers reported for
+the year involves the period until 31 August 2019.
+
+## p012 (beps-a14-best-practices-japan-2021-oecd-en-p012, pages 12-12)
+PART A: PREVENTING DISPUTES  11
+INCLUSIVE FRAMEWORK OF BEPS: ACTION 14 MAKING DISPUTE RESOLUTION MORE EFFECTIVE MAP PEER REVIEW REPORT
+© OECD 2021
+This peer further mentioned that in all pending MAP cases with Japan progress is made in a
+reasonable time.
+[BP.2] Publish mutual agreements of a general nature
+Jurisdictions should have appropriate procedures in place to publish agreements reached by
+competent authorities on difficulties or doubts arising as to the interpretation or application
+of their tax treaties in appropriate cases.
+10. Agreements reached by competent authorities to resolve difficulties or doubts arising
+as to the interpretation or application of their tax treaties in relation to issues of a general
+nature which concern, or may concern, a category of taxpayers reflect the competent
+authorities’ mutual understanding of the m eaning of the convention and its terms. As such
+agreements provide information that might be useful to prevent difficulties or doubts in the
+interpretation or application of tax treaty provisions, publication of these agreements is
+valuable.
+11. Japan reported that it publishes agreements reached on difficulties or doubts arising
+as to the interpretation or application of their tax treaties by the competent authorities. These
+publications can be found on the website of Japan’s Ministry of Finance (in English) or of
+the National Tax Agency (in Japanese) and are available at:
+https://www.mof.go.jp/english/tax_policy/tax_conventions/press_release/index.htm
+https://www.nta.go.jp/taxes/shiraberu/kokusai/sonota/index.htm
+12. In relation to the above, and as an example, Japan published mutual agreements
+reached with Portugal (2013) and the United States (2005).8
+13. Peers did not provide input relating to this particular best practice.
+1.1. [BP.3] Provide guidance on APAs
+Jurisdictions’ published MAP guidance should provide guidance on APAs.
+14. Guidance on a jurisdiction’s APA programme facilitates t he use of that programme
+and creates awareness for taxpayers on how the APA process functions. As APAs may also
+prevent future disputes from arising, including information on APAs in a jurisdiction’s MAP
+guidance is relevant.
+15. As previously mentioned under element BP.1, Japan has implemented an APA
+programme and has issued specific guidance in relation to this programme in the form of the
+Transfer Pricing Directive. This guidance in relation to APA procedure was lastly updated
+on 16 February 2018 and is available online and can be found at (in English):
+http://www.nta.go.jp/english/07.pdf
+16. This guidance includes information on: Japan’s policy in respect of APAs, when and
+by whom an APA can be requested,  the governmental department competent to handle APA
+8  The agreement with Portugal is published in English and is available at:
+http://www.mof.go.jp/english/tax_policy/tax_conventions/press_release/20131206pt.htm.
