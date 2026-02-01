@@ -1746,10 +1746,18 @@ ${svgCode}
       const sendCurrentCode = useCallback(async () => {
         if (!code) return;
 
+        // codeから直接type判定（debouncedCodeの遅延を回避）
+        const trimmed = code.trim();
+        const hasHtmlDoc = /<!DOCTYPE\s+html/i.test(trimmed) || /<html[\s>]/i.test(trimmed);
+        const hasSvg = /<svg[\s>]/i.test(trimmed);
+        const isSvg = hasSvg && !hasHtmlDoc;
+        const hasHtmlTag = /<([a-zA-Z][\w:-]*)(\s[^>]*)?>/.test(trimmed);
+        const type = loadedFile?.type || (hasHtmlDoc ? 'HTML' : isSvg ? 'SVG' : hasHtmlTag ? 'HTML' : 'TEXT');
+
         const currentItem = {
           id: Date.now(),
-          title: loadedFile?.name || deriveTitle(code, currentMode),
-          type: currentMode,
+          title: loadedFile?.name || deriveTitle(code, type),
+          type,
           code: code,
           createdAt: new Date().toISOString()
         };
@@ -1774,7 +1782,7 @@ ${svgCode}
           console.error('Sync error:', err);
           setSyncModal(prev => ({ ...prev, loading: false, error: 'コード発行に失敗しました' }));
         }
-      }, [code, loadedFile, currentMode]);
+      }, [code, loadedFile]);
 
       // 同期コード入力モーダルを開く
       const openSyncInput = useCallback(() => {
