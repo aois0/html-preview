@@ -21,3 +21,7 @@ URLパターン
 - shard TSV: `https://jplawdb.github.io/html-preview/ai-treaty-db/jp-tax-treaties/data/shards/shard-XXX.txt`
 - 本文(pack): `https://jplawdb.github.io/html-preview/ai-treaty-db/jp-tax-treaties/packs/{doc_id}-pack-XX.txt`
 - topics: `https://jplawdb.github.io/html-preview/ai-treaty-db/jp-tax-treaties/data/topics.txt`
+
+参考（全文・原本）
+- 全文テキスト（PDF抽出結果。長いのでAI用途では非推奨）: `https://jplawdb.github.io/html-preview/ai-treaty-db/jp-tax-treaties/source/text/{doc_id}.txt`
+- 原本PDF: `https://jplawdb.github.io/html-preview/ai-treaty-db/jp-tax-treaties/source/raw/{doc_id}.pdf`

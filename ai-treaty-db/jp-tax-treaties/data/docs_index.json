@@ -11,7 +11,9 @@
     "source_url",
     "source_basename",
     "is_synth",
-    "file"
+    "file",
+    "text_file",
+    "page_count"
   ],
   "rows": [
     {
@@ -20,7 +22,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SynthesizedTextforJapan_Australia_JP.pdf",
       "source_basename": "SynthesizedTextforJapan_Australia_JP.pdf",
       "is_synth": true,
-      "file": "source/raw/australia--synthesizedtextforjapan-australia-jp.pdf"
+      "file": "source/raw/australia--synthesizedtextforjapan-australia-jp.pdf",
+      "text_file": "source/text/australia--synthesizedtextforjapan-australia-jp.txt",
+      "page_count": 49
     },
     {
       "doc_id": "austria--20170131at-a",
@@ -28,7 +32,9 @@
       "source_url": "http://www.mof.go.jp/tax_policy/summary/international/press_release/20170131at_a.pdf",
       "source_basename": "20170131at_a.pdf",
       "is_synth": false,
-      "file": "source/raw/austria--20170131at-a.pdf"
+      "file": "source/raw/austria--20170131at-a.pdf",
+      "text_file": "source/text/austria--20170131at-a.txt",
+      "page_count": 60
     },
     {
       "doc_id": "belgium--20161012be-a",
@@ -36,7 +42,9 @@
       "source_url": "http://www.mof.go.jp/tax_policy/summary/international/press_release/20161012be_a.pdf",
       "source_basename": "20161012be_a.pdf",
       "is_synth": false,
-      "file": "source/raw/belgium--20161012be-a.pdf"
+      "file": "source/raw/belgium--20161012be-a.pdf",
+      "text_file": "source/text/belgium--20161012be-a.txt",
+      "page_count": 69
     },
     {
       "doc_id": "brazil--brazil1967-jp-en",
@@ -44,7 +52,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Brazil1967_jp_en.pdf",
       "source_basename": "Brazil1967_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/brazil--brazil1967-jp-en.pdf"
+      "file": "source/raw/brazil--brazil1967-jp-en.pdf",
+      "text_file": "source/text/brazil--brazil1967-jp-en.txt",
+      "page_count": 48
     },
     {
       "doc_id": "brazil--brazil-st-jp",
@@ -52,7 +62,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Brazil_ST_jp.pdf",
       "source_basename": "Brazil_ST_jp.pdf",
       "is_synth": true,
-      "file": "source/raw/brazil--brazil-st-jp.pdf"
+      "file": "source/raw/brazil--brazil-st-jp.pdf",
+      "text_file": "source/text/brazil--brazil-st-jp.txt",
+      "page_count": 27
     },
     {
       "doc_id": "brazil--brazil1976-p-jp-en",
@@ -60,7 +72,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Brazil1976_P_jp_en.pdf",
       "source_basename": "Brazil1976_P_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/brazil--brazil1976-p-jp-en.pdf"
+      "file": "source/raw/brazil--brazil1976-p-jp-en.pdf",
+      "text_file": "source/text/brazil--brazil1976-p-jp-en.txt",
+      "page_count": 11
     },
     {
       "doc_id": "brazil--brazil1976-en-jp-en",
@@ -68,7 +82,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Brazil1976_EN_jp_en.pdf",
       "source_basename": "Brazil1976_EN_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/brazil--brazil1976-en-jp-en.pdf"
+      "file": "source/raw/brazil--brazil1976-en-jp-en.pdf",
+      "text_file": "source/text/brazil--brazil1976-en-jp-en.txt",
+      "page_count": 9
     },
     {
       "doc_id": "brazil--brazil1976-am-jp-en",
@@ -76,7 +92,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Brazil1976_AM_jp_en.pdf",
       "source_basename": "Brazil1976_AM_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/brazil--brazil1976-am-jp-en.pdf"
+      "file": "source/raw/brazil--brazil1976-am-jp-en.pdf",
+      "text_file": "source/text/brazil--brazil1976-am-jp-en.txt",
+      "page_count": 2
     },
     {
       "doc_id": "canada--canada1986-jp-en",
@@ -84,7 +102,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Canada1986_jp_en.pdf",
       "source_basename": "Canada1986_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/canada--canada1986-jp-en.pdf"
+      "file": "source/raw/canada--canada1986-jp-en.pdf",
+      "text_file": "source/text/canada--canada1986-jp-en.txt",
+      "page_count": 38
     },
     {
       "doc_id": "canada--synthesizedtextforjapan-canada-jp",
@@ -92,7 +112,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SynthesizedTextforJapan_Canada_JP.pdf",
       "source_basename": "SynthesizedTextforJapan_Canada_JP.pdf",
       "is_synth": true,
-      "file": "source/raw/canada--synthesizedtextforjapan-canada-jp.pdf"
+      "file": "source/raw/canada--synthesizedtextforjapan-canada-jp.pdf",
+      "text_file": "source/text/canada--synthesizedtextforjapan-canada-jp.txt",
+      "page_count": 32
     },
     {
       "doc_id": "canada--canada1999-p-jp-en-fr",
@@ -100,7 +122,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Canada1999_P_jp_en_fr.pdf",
       "source_basename": "Canada1999_P_jp_en_fr.pdf",
       "is_synth": false,
-      "file": "source/raw/canada--canada1999-p-jp-en-fr.pdf"
+      "file": "source/raw/canada--canada1999-p-jp-en-fr.pdf",
+      "text_file": "source/text/canada--canada1999-p-jp-en-fr.txt",
+      "page_count": 14
     },
     {
       "doc_id": "china--china1983-jp-en",
@@ -108,7 +132,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/China1983_jp_en.pdf",
       "source_basename": "China1983_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/china--china1983-jp-en.pdf"
+      "file": "source/raw/china--china1983-jp-en.pdf",
+      "text_file": "source/text/china--china1983-jp-en.txt",
+      "page_count": 85
     },
     {
       "doc_id": "china--china1983-en1-jp-en",
@@ -116,7 +142,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/China1983_EN1_jp_en.pdf",
       "source_basename": "China1983_EN1_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/china--china1983-en1-jp-en.pdf"
+      "file": "source/raw/china--china1983-en1-jp-en.pdf",
+      "text_file": "source/text/china--china1983-en1-jp-en.txt",
+      "page_count": 5
     },
     {
       "doc_id": "china--china1983-en2-jp-en",
@@ -124,7 +152,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/China1983_EN2_jp_en.pdf",
       "source_basename": "China1983_EN2_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/china--china1983-en2-jp-en.pdf"
+      "file": "source/raw/china--china1983-en2-jp-en.pdf",
+      "text_file": "source/text/china--china1983-en2-jp-en.txt",
+      "page_count": 2
     },
     {
       "doc_id": "china--synthesizedtextforjapan-china-jp",
@@ -132,7 +162,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SynthesizedTextforJapan_China_JP.pdf",
       "source_basename": "SynthesizedTextforJapan_China_JP.pdf",
       "is_synth": true,
-      "file": "source/raw/china--synthesizedtextforjapan-china-jp.pdf"
+      "file": "source/raw/china--synthesizedtextforjapan-china-jp.pdf",
+      "text_file": "source/text/china--synthesizedtextforjapan-china-jp.txt",
+      "page_count": 23
     },
     {
       "doc_id": "denmark--20171011dk-a",
@@ -140,7 +172,9 @@
       "source_url": "http://www.mof.go.jp/tax_policy/summary/international/press_release/20171011dk_a.pdf",
       "source_basename": "20171011dk_a.pdf",
       "is_synth": false,
-      "file": "source/raw/denmark--20171011dk-a.pdf"
+      "file": "source/raw/denmark--20171011dk-a.pdf",
+      "text_file": "source/text/denmark--20171011dk-a.txt",
+      "page_count": 61
     },
     {
       "doc_id": "denmark--20211105dk-j",
@@ -148,7 +182,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/press_release/20211105dk_j.pdf",
       "source_basename": "20211105dk_j.pdf",
       "is_synth": false,
-      "file": "source/raw/denmark--20211105dk-j.pdf"
+      "file": "source/raw/denmark--20211105dk-j.pdf",
+      "text_file": "source/text/denmark--20211105dk-j.txt",
+      "page_count": 4
     },
     {
       "doc_id": "finland--finland1972-jp-en",
@@ -156,7 +192,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Finland1972_jp_en.pdf",
       "source_basename": "Finland1972_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/finland--finland1972-jp-en.pdf"
+      "file": "source/raw/finland--finland1972-jp-en.pdf",
+      "text_file": "source/text/finland--finland1972-jp-en.txt",
+      "page_count": 30
     },
     {
       "doc_id": "finland--finland1972-en-jp-en",
@@ -164,7 +202,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Finland1972_EN_jp_en.pdf",
       "source_basename": "Finland1972_EN_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/finland--finland1972-en-jp-en.pdf"
+      "file": "source/raw/finland--finland1972-en-jp-en.pdf",
+      "text_file": "source/text/finland--finland1972-en-jp-en.txt",
+      "page_count": 2
     },
     {
       "doc_id": "finland--synthesizedtextforjapan-finland1-jp",
@@ -172,7 +212,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SynthesizedTextforJapan_Finland1_JP.pdf",
       "source_basename": "SynthesizedTextforJapan_Finland1_JP.pdf",
       "is_synth": true,
-      "file": "source/raw/finland--synthesizedtextforjapan-finland1-jp.pdf"
+      "file": "source/raw/finland--synthesizedtextforjapan-finland1-jp.pdf",
+      "text_file": "source/text/finland--synthesizedtextforjapan-finland1-jp.txt",
+      "page_count": 28
     },
     {
       "doc_id": "finland--synthesizedtextforjapan-finland2-jp",
@@ -180,7 +222,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SynthesizedTextforJapan_Finland2_JP.pdf",
       "source_basename": "SynthesizedTextforJapan_Finland2_JP.pdf",
       "is_synth": true,
-      "file": "source/raw/finland--synthesizedtextforjapan-finland2-jp.pdf"
+      "file": "source/raw/finland--synthesizedtextforjapan-finland2-jp.pdf",
+      "text_file": "source/text/finland--synthesizedtextforjapan-finland2-jp.txt",
+      "page_count": 29
     },
     {
       "doc_id": "finland--finland1991-p-jp-en",
@@ -188,7 +232,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Finland1991_P_jp_en.pdf",
       "source_basename": "Finland1991_P_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/finland--finland1991-p-jp-en.pdf"
+      "file": "source/raw/finland--finland1991-p-jp-en.pdf",
+      "text_file": "source/text/finland--finland1991-p-jp-en.txt",
+      "page_count": 5
     },
     {
       "doc_id": "france--france1995-jp-fr",
@@ -196,7 +242,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/France1995_jp_fr.pdf",
       "source_basename": "France1995_jp_fr.pdf",
       "is_synth": false,
-      "file": "source/raw/france--france1995-jp-fr.pdf"
+      "file": "source/raw/france--france1995-jp-fr.pdf",
+      "text_file": "source/text/france--france1995-jp-fr.txt",
+      "page_count": 36
     },
     {
       "doc_id": "france--synthesizedtextforjapan-france-jp",
@@ -204,7 +252,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SynthesizedTextforJapan_France_JP.pdf",
       "source_basename": "SynthesizedTextforJapan_France_JP.pdf",
       "is_synth": true,
-      "file": "source/raw/france--synthesizedtextforjapan-france-jp.pdf"
+      "file": "source/raw/france--synthesizedtextforjapan-france-jp.pdf",
+      "text_file": "source/text/france--synthesizedtextforjapan-france-jp.txt",
+      "page_count": 48
     },
     {
       "doc_id": "germany--synthesizedtextforjapan-germany-jp",
@@ -212,7 +262,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SynthesizedTextforJapan_Germany_JP.pdf",
       "source_basename": "SynthesizedTextforJapan_Germany_JP.pdf",
       "is_synth": true,
-      "file": "source/raw/germany--synthesizedtextforjapan-germany-jp.pdf"
+      "file": "source/raw/germany--synthesizedtextforjapan-germany-jp.pdf",
+      "text_file": "source/text/germany--synthesizedtextforjapan-germany-jp.txt",
+      "page_count": 37
     },
     {
       "doc_id": "hong-kong--hongkong2012-en-jp-en",
@@ -220,7 +272,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/HongKong2012_EN_jp_en.pdf",
       "source_basename": "HongKong2012_EN_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/hong-kong--hongkong2012-en-jp-en.pdf"
+      "file": "source/raw/hong-kong--hongkong2012-en-jp-en.pdf",
+      "text_file": "source/text/hong-kong--hongkong2012-en-jp-en.txt",
+      "page_count": 4
     },
     {
       "doc_id": "hong-kong--synthesizedtextforjapan-hongkong-jp",
@@ -228,7 +282,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SynthesizedTextforJapan_HongKong_JP.pdf",
       "source_basename": "SynthesizedTextforJapan_HongKong_JP.pdf",
       "is_synth": true,
-      "file": "source/raw/hong-kong--synthesizedtextforjapan-hongkong-jp.pdf"
+      "file": "source/raw/hong-kong--synthesizedtextforjapan-hongkong-jp.pdf",
+      "text_file": "source/text/hong-kong--synthesizedtextforjapan-hongkong-jp.txt",
+      "page_count": 27
     },
     {
       "doc_id": "india--india1989-jp-en",
@@ -236,7 +292,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/India1989_jp_en.pdf",
       "source_basename": "India1989_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/india--india1989-jp-en.pdf"
+      "file": "source/raw/india--india1989-jp-en.pdf",
+      "text_file": "source/text/india--india1989-jp-en.txt",
+      "page_count": 60
     },
     {
       "doc_id": "india--india1989-en-jp-en",
@@ -244,7 +302,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/India1989_EN_jp_en.pdf",
       "source_basename": "India1989_EN_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/india--india1989-en-jp-en.pdf"
+      "file": "source/raw/india--india1989-en-jp-en.pdf",
+      "text_file": "source/text/india--india1989-en-jp-en.txt",
+      "page_count": 6
     },
     {
       "doc_id": "india--india-text-rev-jpn",
@@ -252,7 +312,9 @@
       "source_url": "http://www.mof.go.jp/tax_policy/summary/international/tax_convention/india.text.rev.jpn.pdf",
       "source_basename": "india.text.rev.jpn.pdf",
       "is_synth": false,
-      "file": "source/raw/india--india-text-rev-jpn.pdf"
+      "file": "source/raw/india--india-text-rev-jpn.pdf",
+      "text_file": "source/text/india--india-text-rev-jpn.txt",
+      "page_count": 30
     },
     {
       "doc_id": "indonesia--indonesia1982-jp-en",
@@ -260,7 +322,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Indonesia1982_jp_en.pdf",
       "source_basename": "Indonesia1982_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/indonesia--indonesia1982-jp-en.pdf"
+      "file": "source/raw/indonesia--indonesia1982-jp-en.pdf",
+      "text_file": "source/text/indonesia--indonesia1982-jp-en.txt",
+      "page_count": 44
     },
     {
       "doc_id": "indonesia--indonesia1982-en-jp-en",
@@ -268,7 +332,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Indonesia1982_EN_jp_en.pdf",
       "source_basename": "Indonesia1982_EN_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/indonesia--indonesia1982-en-jp-en.pdf"
+      "file": "source/raw/indonesia--indonesia1982-en-jp-en.pdf",
+      "text_file": "source/text/indonesia--indonesia1982-en-jp-en.txt",
+      "page_count": 3
     },
     {
       "doc_id": "indonesia--synthesizedtextforjapan-indonesia-jp",
@@ -276,7 +342,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SynthesizedTextforJapan_Indonesia_JP.pdf",
       "source_basename": "SynthesizedTextforJapan_Indonesia_JP.pdf",
       "is_synth": true,
-      "file": "source/raw/indonesia--synthesizedtextforjapan-indonesia-jp.pdf"
+      "file": "source/raw/indonesia--synthesizedtextforjapan-indonesia-jp.pdf",
+      "text_file": "source/text/indonesia--synthesizedtextforjapan-indonesia-jp.txt",
+      "page_count": 28
     },
     {
       "doc_id": "ireland--ireland1974-jp-en",
@@ -284,7 +352,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Ireland1974_jp_en.pdf",
       "source_basename": "Ireland1974_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/ireland--ireland1974-jp-en.pdf"
+      "file": "source/raw/ireland--ireland1974-jp-en.pdf",
+      "text_file": "source/text/ireland--ireland1974-jp-en.txt",
+      "page_count": 32
     },
     {
       "doc_id": "ireland--ireland1974-en-jp-en",
@@ -292,7 +362,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Ireland1974_EN_jp_en.pdf",
       "source_basename": "Ireland1974_EN_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/ireland--ireland1974-en-jp-en.pdf"
+      "file": "source/raw/ireland--ireland1974-en-jp-en.pdf",
+      "text_file": "source/text/ireland--ireland1974-en-jp-en.txt",
+      "page_count": 3
     },
     {
       "doc_id": "ireland--synthesizedtextforjapan-ireland-jp",
@@ -300,7 +372,9 @@
       "source_url": "http://www.mof.go.jp/tax_policy/summary/international/press_release/SynthesizedTextforJapan_Ireland_JP.pdf",
       "source_basename": "SynthesizedTextforJapan_Ireland_JP.pdf",
       "is_synth": true,
-      "file": "source/raw/ireland--synthesizedtextforjapan-ireland-jp.pdf"
+      "file": "source/raw/ireland--synthesizedtextforjapan-ireland-jp.pdf",
+      "text_file": "source/text/ireland--synthesizedtextforjapan-ireland-jp.txt",
+      "page_count": 30
     },
     {
       "doc_id": "italy--italy1969-jp-en",
@@ -308,7 +382,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Italy1969_jp_en.pdf",
       "source_basename": "Italy1969_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/italy--italy1969-jp-en.pdf"
+      "file": "source/raw/italy--italy1969-jp-en.pdf",
+      "text_file": "source/text/italy--italy1969-jp-en.txt",
+      "page_count": 43
     },
     {
       "doc_id": "italy--italy1969-en-jp-en",
@@ -316,7 +392,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Italy1969_EN_jp_en.pdf",
       "source_basename": "Italy1969_EN_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/italy--italy1969-en-jp-en.pdf"
+      "file": "source/raw/italy--italy1969-en-jp-en.pdf",
+      "text_file": "source/text/italy--italy1969-en-jp-en.txt",
+      "page_count": 3
     },
     {
       "doc_id": "italy--italy-st-jp",
@@ -324,7 +402,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Italy_ST_jp.pdf",
       "source_basename": "Italy_ST_jp.pdf",
       "is_synth": true,
-      "file": "source/raw/italy--italy-st-jp.pdf"
+      "file": "source/raw/italy--italy-st-jp.pdf",
+      "text_file": "source/text/italy--italy-st-jp.txt",
+      "page_count": 29
     },
     {
       "doc_id": "italy--italy1980-p-jp-en",
@@ -332,7 +412,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Italy1980_P_jp_en.pdf",
       "source_basename": "Italy1980_P_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/italy--italy1980-p-jp-en.pdf"
+      "file": "source/raw/italy--italy1980-p-jp-en.pdf",
+      "text_file": "source/text/italy--italy1980-p-jp-en.txt",
+      "page_count": 7
     },
     {
       "doc_id": "korea--korea1998-jp-en",
@@ -340,7 +422,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Korea1998_jp_en.pdf",
       "source_basename": "Korea1998_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/korea--korea1998-jp-en.pdf"
+      "file": "source/raw/korea--korea1998-jp-en.pdf",
+      "text_file": "source/text/korea--korea1998-jp-en.txt",
+      "page_count": 30
     },
     {
       "doc_id": "korea--200710kor-j",
@@ -348,7 +432,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/200710kor_j.pdf",
       "source_basename": "200710kor_j.pdf",
       "is_synth": false,
-      "file": "source/raw/korea--200710kor-j.pdf"
+      "file": "source/raw/korea--200710kor-j.pdf",
+      "text_file": "source/text/korea--200710kor-j.txt",
+      "page_count": 25
     },
     {
       "doc_id": "kuwait--sy220217ku-a",
@@ -356,7 +442,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/press_release/sy220217ku_a.pdf",
       "source_basename": "sy220217ku_a.pdf",
       "is_synth": false,
-      "file": "source/raw/kuwait--sy220217ku-a.pdf"
+      "file": "source/raw/kuwait--sy220217ku-a.pdf",
+      "text_file": "source/text/kuwait--sy220217ku-a.txt",
+      "page_count": 46
     },
     {
       "doc_id": "malaysia--malaysia1999-jp-en",
@@ -364,7 +452,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Malaysia1999_jp_en.pdf",
       "source_basename": "Malaysia1999_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/malaysia--malaysia1999-jp-en.pdf"
+      "file": "source/raw/malaysia--malaysia1999-jp-en.pdf",
+      "text_file": "source/text/malaysia--malaysia1999-jp-en.txt",
+      "page_count": 30
     },
     {
       "doc_id": "malaysia--synthesizedtextforjapan-malaysia-jp",
@@ -372,7 +462,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SynthesizedTextforJapan_Malaysia_JP.pdf",
       "source_basename": "SynthesizedTextforJapan_Malaysia_JP.pdf",
       "is_synth": true,
-      "file": "source/raw/malaysia--synthesizedtextforjapan-malaysia-jp.pdf"
+      "file": "source/raw/malaysia--synthesizedtextforjapan-malaysia-jp.pdf",
+      "text_file": "source/text/malaysia--synthesizedtextforjapan-malaysia-jp.txt",
+      "page_count": 28
     },
     {
       "doc_id": "mexico--mexico1996-jp-en",
@@ -380,7 +472,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Mexico1996_jp_en.pdf",
       "source_basename": "Mexico1996_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/mexico--mexico1996-jp-en.pdf"
+      "file": "source/raw/mexico--mexico1996-jp-en.pdf",
+      "text_file": "source/text/mexico--mexico1996-jp-en.txt",
+      "page_count": 34
     },
     {
       "doc_id": "mexico--synthesizedtextforjapan-mexico-jp",
@@ -388,7 +482,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SynthesizedTextforJapan_Mexico_JP.pdf",
       "source_basename": "SynthesizedTextforJapan_Mexico_JP.pdf",
       "is_synth": true,
-      "file": "source/raw/mexico--synthesizedtextforjapan-mexico-jp.pdf"
+      "file": "source/raw/mexico--synthesizedtextforjapan-mexico-jp.pdf",
+      "text_file": "source/text/mexico--synthesizedtextforjapan-mexico-jp.txt",
+      "page_count": 33
     },
     {
       "doc_id": "netherlands--netherland2012-en-jp-en",
@@ -396,7 +492,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Netherland2012_EN_jp_en.pdf",
       "source_basename": "Netherland2012_EN_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/netherlands--netherland2012-en-jp-en.pdf"
+      "file": "source/raw/netherlands--netherland2012-en-jp-en.pdf",
+      "text_file": "source/text/netherlands--netherland2012-en-jp-en.txt",
+      "page_count": 4
     },
     {
       "doc_id": "netherlands--synthesisedtextforjapan-netherlands-jp",
@@ -404,7 +502,9 @@
       "source_url": "http://www.mof.go.jp/tax_policy/summary/international/press_release/SynthesisedTextforJapan-Netherlands_JP.pdf",
       "source_basename": "SynthesisedTextforJapan-Netherlands_JP.pdf",
       "is_synth": true,
-      "file": "source/raw/netherlands--synthesisedtextforjapan-netherlands-jp.pdf"
+      "file": "source/raw/netherlands--synthesisedtextforjapan-netherlands-jp.pdf",
+      "text_file": "source/text/netherlands--synthesisedtextforjapan-netherlands-jp.txt",
+      "page_count": 43
     },
     {
       "doc_id": "new-zealand--synthesizedtextforjapan-newzealand-jp",
@@ -412,7 +512,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SynthesizedTextforJapan_NewZealand_JP.pdf",
       "source_basename": "SynthesizedTextforJapan_NewZealand_JP.pdf",
       "is_synth": true,
-      "file": "source/raw/new-zealand--synthesizedtextforjapan-newzealand-jp.pdf"
+      "file": "source/raw/new-zealand--synthesizedtextforjapan-newzealand-jp.pdf",
+      "text_file": "source/text/new-zealand--synthesizedtextforjapan-newzealand-jp.txt",
+      "page_count": 43
     },
     {
       "doc_id": "norway--norway1992-jp-en",
@@ -420,7 +522,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Norway1992_jp_en.pdf",
       "source_basename": "Norway1992_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/norway--norway1992-jp-en.pdf"
+      "file": "source/raw/norway--norway1992-jp-en.pdf",
+      "text_file": "source/text/norway--norway1992-jp-en.txt",
+      "page_count": 43
     },
     {
       "doc_id": "norway--norway1992-en-jp-en",
@@ -428,7 +532,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Norway1992_EN_jp_en.pdf",
       "source_basename": "Norway1992_EN_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/norway--norway1992-en-jp-en.pdf"
+      "file": "source/raw/norway--norway1992-en-jp-en.pdf",
+      "text_file": "source/text/norway--norway1992-en-jp-en.txt",
+      "page_count": 3
     },
     {
       "doc_id": "norway--190927norway-j",
@@ -436,7 +542,9 @@
       "source_url": "http://www.mof.go.jp/tax_policy/summary/international/tax_convention/190927norway_j.pdf",
       "source_basename": "190927norway_j.pdf",
       "is_synth": false,
-      "file": "source/raw/norway--190927norway-j.pdf"
+      "file": "source/raw/norway--190927norway-j.pdf",
+      "text_file": "source/text/norway--190927norway-j.txt",
+      "page_count": 28
     },
     {
       "doc_id": "philippines--philippines1980-jp-en",
@@ -444,7 +552,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Philippines1980_jp_en.pdf",
       "source_basename": "Philippines1980_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/philippines--philippines1980-jp-en.pdf"
+      "file": "source/raw/philippines--philippines1980-jp-en.pdf",
+      "text_file": "source/text/philippines--philippines1980-jp-en.txt",
+      "page_count": 44
     },
     {
       "doc_id": "philippines--philippines1980-en-jp-en",
@@ -452,7 +562,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Philippines1980_EN_jp_en.pdf",
       "source_basename": "Philippines1980_EN_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/philippines--philippines1980-en-jp-en.pdf"
+      "file": "source/raw/philippines--philippines1980-en-jp-en.pdf",
+      "text_file": "source/text/philippines--philippines1980-en-jp-en.txt",
+      "page_count": 3
     },
     {
       "doc_id": "philippines--philippines-st-jp",
@@ -460,7 +572,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Philippines_ST_jp.pdf",
       "source_basename": "Philippines_ST_jp.pdf",
       "is_synth": true,
-      "file": "source/raw/philippines--philippines-st-jp.pdf"
+      "file": "source/raw/philippines--philippines-st-jp.pdf",
+      "text_file": "source/text/philippines--philippines-st-jp.txt",
+      "page_count": 42
     },
     {
       "doc_id": "qatar--200221qat-j",
@@ -468,7 +582,9 @@
       "source_url": "http://www.mof.go.jp/tax_policy/summary/international/tax_convention/200221qat_j.pdf",
       "source_basename": "200221qat_j.pdf",
       "is_synth": false,
-      "file": "source/raw/qatar--200221qat-j.pdf"
+      "file": "source/raw/qatar--200221qat-j.pdf",
+      "text_file": "source/text/qatar--200221qat-j.txt",
+      "page_count": 26
     },
     {
       "doc_id": "russia--20170907ru-a",
@@ -476,7 +592,9 @@
       "source_url": "http://www.mof.go.jp/tax_policy/summary/international/press_release/20170907ru_a.pdf",
       "source_basename": "20170907ru_a.pdf",
       "is_synth": false,
-      "file": "source/raw/russia--20170907ru-a.pdf"
+      "file": "source/raw/russia--20170907ru-a.pdf",
+      "text_file": "source/text/russia--20170907ru-a.txt",
+      "page_count": 57
     },
     {
       "doc_id": "saudi-arabia--saudiarabia2013-en-jp-en",
@@ -484,7 +602,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SaudiArabia2013_EN_jp_en.pdf",
       "source_basename": "SaudiArabia2013_EN_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/saudi-arabia--saudiarabia2013-en-jp-en.pdf"
+      "file": "source/raw/saudi-arabia--saudiarabia2013-en-jp-en.pdf",
+      "text_file": "source/text/saudi-arabia--saudiarabia2013-en-jp-en.txt",
+      "page_count": 5
     },
     {
       "doc_id": "saudi-arabia--synthesizedtextforjapan-saudiarabia-jp",
@@ -492,7 +612,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SynthesizedTextforJapan_SaudiArabia_JP.pdf",
       "source_basename": "SynthesizedTextforJapan_SaudiArabia_JP.pdf",
       "is_synth": true,
-      "file": "source/raw/saudi-arabia--synthesizedtextforjapan-saudiarabia-jp.pdf"
+      "file": "source/raw/saudi-arabia--synthesizedtextforjapan-saudiarabia-jp.pdf",
+      "text_file": "source/text/saudi-arabia--synthesizedtextforjapan-saudiarabia-jp.txt",
+      "page_count": 29
     },
     {
       "doc_id": "singapore--singapore1994-jp-en",
@@ -500,7 +622,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Singapore1994_jp_en.pdf",
       "source_basename": "Singapore1994_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/singapore--singapore1994-jp-en.pdf"
+      "file": "source/raw/singapore--singapore1994-jp-en.pdf",
+      "text_file": "source/text/singapore--singapore1994-jp-en.txt",
+      "page_count": 29
     },
     {
       "doc_id": "singapore--singapore1994-en-jp-en",
@@ -508,7 +632,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Singapore1994_EN_jp_en.pdf",
       "source_basename": "Singapore1994_EN_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/singapore--singapore1994-en-jp-en.pdf"
+      "file": "source/raw/singapore--singapore1994-en-jp-en.pdf",
+      "text_file": "source/text/singapore--singapore1994-en-jp-en.txt",
+      "page_count": 4
     },
     {
       "doc_id": "singapore--synthesizedtextforjapan-singaporejp",
@@ -516,7 +642,9 @@
       "source_url": "http://www.mof.go.jp/tax_policy/summary/international/press_release/SynthesizedTextforJapan-SingaporeJP.pdf",
       "source_basename": "SynthesizedTextforJapan-SingaporeJP.pdf",
       "is_synth": true,
-      "file": "source/raw/singapore--synthesizedtextforjapan-singaporejp.pdf"
+      "file": "source/raw/singapore--synthesizedtextforjapan-singaporejp.pdf",
+      "text_file": "source/text/singapore--synthesizedtextforjapan-singaporejp.txt",
+      "page_count": 32
     },
     {
       "doc_id": "singapore--singapore2010-p-jp",
@@ -524,7 +652,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Singapore2010_P_jp.pdf",
       "source_basename": "Singapore2010_P_jp.pdf",
       "is_synth": false,
-      "file": "source/raw/singapore--singapore2010-p-jp.pdf"
+      "file": "source/raw/singapore--singapore2010-p-jp.pdf",
+      "text_file": "source/text/singapore--singapore2010-p-jp.txt",
+      "page_count": 5
     },
     {
       "doc_id": "south-africa--southafrica1997-jp-en",
@@ -532,7 +662,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SouthAfrica1997_jp_en.pdf",
       "source_basename": "SouthAfrica1997_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/south-africa--southafrica1997-jp-en.pdf"
+      "file": "source/raw/south-africa--southafrica1997-jp-en.pdf",
+      "text_file": "source/text/south-africa--southafrica1997-jp-en.txt",
+      "page_count": 29
     },
     {
       "doc_id": "south-africa--sourhafrica1997-en-jp-en",
@@ -540,7 +672,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SourhAfrica1997_EN_jp_en.pdf",
       "source_basename": "SourhAfrica1997_EN_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/south-africa--sourhafrica1997-en-jp-en.pdf"
+      "file": "source/raw/south-africa--sourhafrica1997-en-jp-en.pdf",
+      "text_file": "source/text/south-africa--sourhafrica1997-en-jp-en.txt",
+      "page_count": 2
     },
     {
       "doc_id": "south-africa--synthesizedtextforjapan-southafrica-jp",
@@ -548,7 +682,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SynthesizedTextforJapan_SouthAfrica_JP.pdf",
       "source_basename": "SynthesizedTextforJapan_SouthAfrica_JP.pdf",
       "is_synth": true,
-      "file": "source/raw/south-africa--synthesizedtextforjapan-southafrica-jp.pdf"
+      "file": "source/raw/south-africa--synthesizedtextforjapan-southafrica-jp.pdf",
+      "text_file": "source/text/south-africa--synthesizedtextforjapan-southafrica-jp.txt",
+      "page_count": 26
     },
     {
       "doc_id": "spain--20210215spa-j",
@@ -556,7 +692,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/20210215Spa_j.pdf",
       "source_basename": "20210215Spa_j.pdf",
       "is_synth": false,
-      "file": "source/raw/spain--20210215spa-j.pdf"
+      "file": "source/raw/spain--20210215spa-j.pdf",
+      "text_file": "source/text/spain--20210215spa-j.txt",
+      "page_count": 68
     },
     {
       "doc_id": "sweden--sweden1983-jp-en",
@@ -564,7 +702,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Sweden1983_jp_en.pdf",
       "source_basename": "Sweden1983_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/sweden--sweden1983-jp-en.pdf"
+      "file": "source/raw/sweden--sweden1983-jp-en.pdf",
+      "text_file": "source/text/sweden--sweden1983-jp-en.txt",
+      "page_count": 35
     },
     {
       "doc_id": "sweden--sweden1983-en-jp-en",
@@ -572,7 +712,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Sweden1983_EN_jp_en.pdf",
       "source_basename": "Sweden1983_EN_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/sweden--sweden1983-en-jp-en.pdf"
+      "file": "source/raw/sweden--sweden1983-en-jp-en.pdf",
+      "text_file": "source/text/sweden--sweden1983-en-jp-en.txt",
+      "page_count": 3
     },
     {
       "doc_id": "sweden--synthesizedtextforjapan-swedenjp",
@@ -580,7 +722,9 @@
       "source_url": "http://www.mof.go.jp/tax_policy/summary/international/press_release/SynthesizedTextforJapan-SwedenJP.pdf",
       "source_basename": "SynthesizedTextforJapan-SwedenJP.pdf",
       "is_synth": true,
-      "file": "source/raw/sweden--synthesizedtextforjapan-swedenjp.pdf"
+      "file": "source/raw/sweden--synthesizedtextforjapan-swedenjp.pdf",
+      "text_file": "source/text/sweden--synthesizedtextforjapan-swedenjp.txt",
+      "page_count": 30
     },
     {
       "doc_id": "sweden--sweden1999-p-jp-en",
@@ -588,7 +732,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Sweden1999_P_jp_en.pdf",
       "source_basename": "Sweden1999_P_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/sweden--sweden1999-p-jp-en.pdf"
+      "file": "source/raw/sweden--sweden1999-p-jp-en.pdf",
+      "text_file": "source/text/sweden--sweden1999-p-jp-en.txt",
+      "page_count": 9
     },
     {
       "doc_id": "switzerland--switzerland1971-jp-en",
@@ -596,7 +742,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Switzerland1971_jp_en.pdf",
       "source_basename": "Switzerland1971_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/switzerland--switzerland1971-jp-en.pdf"
+      "file": "source/raw/switzerland--switzerland1971-jp-en.pdf",
+      "text_file": "source/text/switzerland--switzerland1971-jp-en.txt",
+      "page_count": 43
     },
     {
       "doc_id": "switzerland--switzerland-st-jp",
@@ -604,7 +752,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Switzerland_ST_jp.pdf",
       "source_basename": "Switzerland_ST_jp.pdf",
       "is_synth": true,
-      "file": "source/raw/switzerland--switzerland-st-jp.pdf"
+      "file": "source/raw/switzerland--switzerland-st-jp.pdf",
+      "text_file": "source/text/switzerland--switzerland-st-jp.txt",
+      "page_count": 60
     },
     {
       "doc_id": "switzerland--switzerland2012-en-jp",
@@ -612,7 +762,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Switzerland2012_EN_jp.pdf",
       "source_basename": "Switzerland2012_EN_jp.pdf",
       "is_synth": false,
-      "file": "source/raw/switzerland--switzerland2012-en-jp.pdf"
+      "file": "source/raw/switzerland--switzerland2012-en-jp.pdf",
+      "text_file": "source/text/switzerland--switzerland2012-en-jp.txt",
+      "page_count": 4
     },
     {
       "doc_id": "switzerland--switzerland2012-en-jp-en",
@@ -620,7 +772,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Switzerland2012_EN_jp_en.pdf",
       "source_basename": "Switzerland2012_EN_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/switzerland--switzerland2012-en-jp-en.pdf"
+      "file": "source/raw/switzerland--switzerland2012-en-jp-en.pdf",
+      "text_file": "source/text/switzerland--switzerland2012-en-jp-en.txt",
+      "page_count": 4
     },
     {
       "doc_id": "switzerland--switzerland2012-en-eoi-jp-en",
@@ -628,7 +782,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Switzerland2012_EN_EOI_jp_en.pdf",
       "source_basename": "Switzerland2012_EN_EOI_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/switzerland--switzerland2012-en-eoi-jp-en.pdf"
+      "file": "source/raw/switzerland--switzerland2012-en-eoi-jp-en.pdf",
+      "text_file": "source/text/switzerland--switzerland2012-en-eoi-jp-en.txt",
+      "page_count": 4
     },
     {
       "doc_id": "thailand--thailand1990-jp-en",
@@ -636,7 +792,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Thailand1990_jp_en.pdf",
       "source_basename": "Thailand1990_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/thailand--thailand1990-jp-en.pdf"
+      "file": "source/raw/thailand--thailand1990-jp-en.pdf",
+      "text_file": "source/text/thailand--thailand1990-jp-en.txt",
+      "page_count": 39
     },
     {
       "doc_id": "thailand--synthesizedtextforjapan-thailand-jp",
@@ -644,7 +802,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SynthesizedTextforJapan_Thailand_JP.pdf",
       "source_basename": "SynthesizedTextforJapan_Thailand_JP.pdf",
       "is_synth": true,
-      "file": "source/raw/thailand--synthesizedtextforjapan-thailand-jp.pdf"
+      "file": "source/raw/thailand--synthesizedtextforjapan-thailand-jp.pdf",
+      "text_file": "source/text/thailand--synthesizedtextforjapan-thailand-jp.txt",
+      "page_count": 26
     },
     {
       "doc_id": "united-arab-emirates--250502ae-a",
@@ -652,7 +812,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/press_release/250502ae_a.pdf",
       "source_basename": "250502ae_a.pdf",
       "is_synth": false,
-      "file": "source/raw/united-arab-emirates--250502ae-a.pdf"
+      "file": "source/raw/united-arab-emirates--250502ae-a.pdf",
+      "text_file": "source/text/united-arab-emirates--250502ae-a.txt",
+      "page_count": 45
     },
     {
       "doc_id": "united-arab-emirates--20141125ae-c",
@@ -660,7 +822,9 @@
       "source_url": "http://www.mof.go.jp/tax_policy/summary/international/press_release/20141125ae_c.pdf",
       "source_basename": "20141125ae_c.pdf",
       "is_synth": false,
-      "file": "source/raw/united-arab-emirates--20141125ae-c.pdf"
+      "file": "source/raw/united-arab-emirates--20141125ae-c.pdf",
+      "text_file": "source/text/united-arab-emirates--20141125ae-c.txt",
+      "page_count": 4
     },
     {
       "doc_id": "united-arab-emirates--20190716",
@@ -668,7 +832,9 @@
       "source_url": "http://www.mof.go.jp/tax_policy/summary/international/press_release/20190716.pdf",
       "source_basename": "20190716.pdf",
       "is_synth": false,
-      "file": "source/raw/united-arab-emirates--20190716.pdf"
+      "file": "source/raw/united-arab-emirates--20190716.pdf",
+      "text_file": "source/text/united-arab-emirates--20190716.txt",
+      "page_count": 26
     },
     {
       "doc_id": "united-kingdom--synthesizedtextforjapan-unitedkingdom-jp",
@@ -676,7 +842,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SynthesizedTextforJapan_UnitedKingdom_JP.pdf",
       "source_basename": "SynthesizedTextforJapan_UnitedKingdom_JP.pdf",
       "is_synth": true,
-      "file": "source/raw/united-kingdom--synthesizedtextforjapan-unitedkingdom-jp.pdf"
+      "file": "source/raw/united-kingdom--synthesizedtextforjapan-unitedkingdom-jp.pdf",
+      "text_file": "source/text/united-kingdom--synthesizedtextforjapan-unitedkingdom-jp.txt",
+      "page_count": 39
     },
     {
       "doc_id": "united-states--usa-st-jp",
@@ -684,7 +852,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/USA_ST_jp.pdf",
       "source_basename": "USA_ST_jp.pdf",
       "is_synth": true,
-      "file": "source/raw/united-states--usa-st-jp.pdf"
+      "file": "source/raw/united-states--usa-st-jp.pdf",
+      "text_file": "source/text/united-states--usa-st-jp.txt",
+      "page_count": 87
     },
     {
       "doc_id": "viet-nam--vietnam1995-jp-en",
@@ -692,7 +862,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Vietnam1995_jp_en.pdf",
       "source_basename": "Vietnam1995_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/viet-nam--vietnam1995-jp-en.pdf"
+      "file": "source/raw/viet-nam--vietnam1995-jp-en.pdf",
+      "text_file": "source/text/viet-nam--vietnam1995-jp-en.txt",
+      "page_count": 48
     },
     {
       "doc_id": "viet-nam--vietnam2014-en-jp-en",
@@ -700,7 +872,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Vietnam2014_EN_jp_en.pdf",
       "source_basename": "Vietnam2014_EN_jp_en.pdf",
       "is_synth": false,
-      "file": "source/raw/viet-nam--vietnam2014-en-jp-en.pdf"
+      "file": "source/raw/viet-nam--vietnam2014-en-jp-en.pdf",
+      "text_file": "source/text/viet-nam--vietnam2014-en-jp-en.txt",
+      "page_count": 5
     },
     {
       "doc_id": "viet-nam--synthesizedtextforjapan-vietnam-jp",
@@ -708,7 +882,9 @@
       "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SynthesizedTextforJapan_VietNam_JP.pdf",
       "source_basename": "SynthesizedTextforJapan_VietNam_JP.pdf",
       "is_synth": true,
-      "file": "source/raw/viet-nam--synthesizedtextforjapan-vietnam-jp.pdf"
+      "file": "source/raw/viet-nam--synthesizedtextforjapan-vietnam-jp.pdf",
+      "text_file": "source/text/viet-nam--synthesizedtextforjapan-vietnam-jp.txt",
+      "page_count": 27
     }
   ]
 }

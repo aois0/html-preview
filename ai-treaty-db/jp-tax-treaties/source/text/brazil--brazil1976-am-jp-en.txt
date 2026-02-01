@@ -1,0 +1,15 @@
+---
+doc_id: "brazil--brazil1976-am-jp-en"
+jurisdiction: "Brazil"
+source_basename: "Brazil1976_AM_jp_en.pdf"
+source_url: "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Brazil1976_AM_jp_en.pdf"
+is_synth: false
+page_count: 2
+generated_at: "2026-02-01"
+---
+
+# Page 1
+
+
+# Page 2
+
