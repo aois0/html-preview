@@ -1,0 +1,5 @@
+id	pid	page_start	page_end	snippet	core
+singapore--singapore2010-p-jp-a1	1	1	1	第一条 協定第二十六条を次のように改める。	packs/singapore--singapore2010-p-jp-pack-00.txt
+singapore--singapore2010-p-jp-a26	26	1	3	第二十六条 両締約国の権限のある当局は、この協定の規定の実施又は両締約国若しくはそれらの地方公共団体が 課するすべての種類の租税に関する両締約国の法令（当該法令に基づく課税がこの協定の規定に反しな い場合に限る。）の規定の運用若しくは執行に	packs/singapore--singapore2010-p-jp-pack-00.txt
+singapore--singapore2010-p-jp-preamble	preamble	1	1	所得に対する租税に関する二重課税の回避及び脱税の防止のための日本国政府とシンガポール共和国政府との間の協定を改正する議定書 日本国政府及びシンガポール共和国政府は、千九百九十四年四月九日にシンガポールで署名された所得に対する租税に関する二重	packs/singapore--singapore2010-p-jp-pack-00.txt
+singapore--singapore2010-p-jp-a2	2	3	5	第二条 各締約国は、他方の締約国に対し、外交上の経路を通じて、この議定書の効力発生のために必要とされ る国内手続が完了したことを確認する通告を行う。こ の議定書は、遅い方の通告が受領された日の後三十 日目の日に効力を生ずる。 この議定書は、	packs/singapore--singapore2010-p-jp-pack-00.txt

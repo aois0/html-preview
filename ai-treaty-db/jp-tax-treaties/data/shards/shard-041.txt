@@ -1,0 +1,2 @@
+id	pid	page_start	page_end	snippet	core
+united-arab-emirates--20141125ae-c-all	all	1	4	（国際運輸業の所得に対する課税の相互免除に関する日本国政府とアラブ首長国連邦政府との間の取極 の終了に関する交換公文） （日本側書簡） 書簡をもって啓上いたします。本使は、二千十三年五月二日にドバイで署名された所得に対する租税に関 する二重	packs/united-arab-emirates--20141125ae-c-pack-00.txt

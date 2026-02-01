@@ -1,0 +1,2 @@
+id	pid	page_start	page_end	snippet	core
+viet-nam--vietnam2014-en-jp-en-all	all	1	5	一二七三 ベトナムとの租税（所得）協定に関する取極 ◎所得に対する租税に関する二重課税の回避及び脱税の防止のための日本国政府と ヴィエトナム社会主義共和国政府との間の協定に関する交換公文 （ （ （ （ ベトナムとの租税（所得）協定に関する	packs/viet-nam--vietnam2014-en-jp-en-pack-00.txt

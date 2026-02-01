@@ -1,0 +1,2 @@
+id	pid	page_start	page_end	snippet	core
+belgium--20161012be-a-all	all	1	69	所 得 に 対 す る 租 税 に 関 す る 二 重 課 税 の 除 去 並 び に 脱 税 及 び 租 税 回 避 の 防 止 の た め の 日 本 国 と ベ ル ギ ー 王 国 と の 間 の 条 約 日 本 国 及 び ベ ル 	packs/belgium--20161012be-a-pack-00.part-01.txt

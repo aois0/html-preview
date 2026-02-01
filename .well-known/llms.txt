@@ -19,4 +19,7 @@
 - Paper corpus (OECD TPG 2022): /html-preview/ai-paper-db/oecd-tpg-2022/quickstart.txt
 - Paper corpus (NTA TP audit): /html-preview/ai-paper-db/nta-tp-audit/quickstart.txt
 
+- Tax treaties: /html-preview/ai-treaty-db/llms.txt
+- Treaty corpus (JP tax treaties, major jurisdictions): /html-preview/ai-treaty-db/jp-tax-treaties/quickstart.txt
+
 - Tax KB prototype: /html-preview/tax-kb/quickstart.txt

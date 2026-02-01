@@ -1,0 +1,29 @@
+{
+  "dataset": {
+    "name": "Japan tax treaties (major jurisdictions)",
+    "generated_at": "2026-02-01",
+    "base_url": "https://jplawdb.github.io/html-preview/ai-treaty-db/jp-tax-treaties"
+  },
+  "note": "Uppercase latin keyword reverse index (article-level).",
+  "term_pattern": "\\b[A-Z][A-Z0-9-]{2,}\\b",
+  "max_term_shard_chars": 9000,
+  "fields": [
+    "id",
+    "pid",
+    "page_start",
+    "page_end",
+    "section_id",
+    "context",
+    "core"
+  ],
+  "terms": [
+    {
+      "term": "JOEE",
+      "slug": "JOEE",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/JOEE-00.tsv"
+      ]
+    }
+  ]
+}

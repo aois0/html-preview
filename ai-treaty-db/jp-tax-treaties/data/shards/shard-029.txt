@@ -1,0 +1,2 @@
+id	pid	page_start	page_end	snippet	core
+saudi-arabia--saudiarabia2013-en-jp-en-all	all	1	5	サウジアラビアとの租税（所得）条約に関する取極 七一七 ◎所得に対する租税に関する二重課税の回避及び脱税の防止のための日本国政府と サウジアラビア王国政府との間の条約に関する交換公文 （略称）サウジアラビアとの租税（所得）条約に関する取極 	packs/saudi-arabia--saudiarabia2013-en-jp-en-pack-00.txt

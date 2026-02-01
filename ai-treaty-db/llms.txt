@@ -1,0 +1,12 @@
+# AI向け 租税条約DB
+# Base URL: https://jplawdb.github.io/html-preview/ai-treaty-db/
+
+入口
+- `jp-tax-treaties/quickstart.txt`（推奨: まずこれ）
+- `jp-tax-treaties/data/docs_index.tsv`（対象国/文書一覧）
+- `jp-tax-treaties/data/shards_index.json`（shard一覧/文書別マップ）
+- `jp-tax-treaties/data/packs_index.tsv`（本文pack一覧。本文は packs/*.txt）
+
+収録
+- 日本の租税条約（主要国、財務省公開PDFを基に生成）: `jp-tax-treaties/`
+

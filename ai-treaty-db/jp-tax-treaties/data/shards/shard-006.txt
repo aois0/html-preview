@@ -1,0 +1,2 @@
+id	pid	page_start	page_end	snippet	core
+denmark--20171011dk-a-all	all	1	61	ॴ ಘ ʹ ର ͢ Δ ે ʹ ؔ ͢ Δ ೋ ॏ ՝ ͷ আ ڈ ฒ ͼ ʹ ୤ ٴ ͼ ે ճ ආ ͷ ๷ ࢭ ͷ ͨ Ί ͷ ೔ ຊ ࠃ ͱ σ ϯ Ϛ ー Ϋ Ԧ ࠃ ͱ ͷ ؒ ͷ ৚ ໿ ೔ ຊ ࠃ ٴ ͼ σ ϯ Ϛ ー Ϋ 	packs/denmark--20171011dk-a-pack-00.part-01.txt
