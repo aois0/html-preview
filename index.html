@@ -3220,7 +3220,7 @@ ${content}
                     <textarea
                       ref={textareaRef}
                       value={code}
-                      onChange={(e) => setCode(e.target.value)}
+                      onChange={(e) => { setCode(e.target.value); setLoadedFile(null); }}
                       onPaste={handleCodePaste}
                       onTouchStart={handleLongPressStart}
                       onTouchEnd={handleLongPressEnd}
@@ -3962,7 +3962,7 @@ ${content}
               <div className="relative flex-1">
                 <textarea
                   value={code}
-                  onChange={(e) => setCode(e.target.value)}
+                  onChange={(e) => { setCode(e.target.value); setLoadedFile(null); }}
                   className="w-full h-full text-green-400 font-mono text-sm p-4 resize-none focus:outline-none"
                   style={{ backgroundColor: theme === 'dark' ? '#030712' : 'var(--bg-tertiary)', color: theme === 'dark' ? '#4ade80' : '#166534' }}
                   placeholder="ここにHTMLまたはSVGコードを貼り付けてください...&#10;&#10;ファイルをドラッグ&ドロップも可能です"
