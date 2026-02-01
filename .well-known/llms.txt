@@ -1,10 +1,22 @@
 # Site entry for LLMs
 
-- Tax law quickstart (recommended first): /html-preview/ai-law-db/quickstart.txt
-- Tax law dataset: /html-preview/ai-law-db/llms.txt
+# Notes:
+# - This site is optimized for clients that can only read the first ~10k tokens per request.
+# - Prefer small indexes (shards_index / resolve_meta) and then jump directly to core text.
+
+- DB portal (recommended first): /html-preview/llms.txt
+
+- Tax law (statutes/regs): /html-preview/ai-law-db/quickstart.txt
+- Tax law dataset map: /html-preview/ai-law-db/llms.txt
 - Corporate-tax article titles (resolve_meta_corp): /html-preview/ai-law-db/data/resolve_meta_corp/index.json
-- Fast law article titles (resolve_meta): /html-preview/ai-law-db/data/resolve_meta/index.json
-- Tax circular dataset: /html-preview/ai-tsutatsu-db/llms.txt
+- Fast article titles (resolve_meta): /html-preview/ai-law-db/data/resolve_meta/index.json
+
+- Tax circulars (tsutatsu): /html-preview/ai-tsutatsu-db/llms.txt
+
+- Tax cases/rulings: /html-preview/ai-hanketsu-db/quickstart.txt
+
+- Papers/guidelines (international tax): /html-preview/ai-paper-db/llms.txt
 - Paper corpus (OECD TPG 2022): /html-preview/ai-paper-db/oecd-tpg-2022/quickstart.txt
 - Paper corpus (NTA TP audit): /html-preview/ai-paper-db/nta-tp-audit/quickstart.txt
-- Repository-level info: /html-preview/llms.txt
+
+- Tax KB prototype: /html-preview/tax-kb/quickstart.txt
