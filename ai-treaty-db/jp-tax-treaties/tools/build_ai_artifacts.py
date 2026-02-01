@@ -35,6 +35,7 @@ BASE_URL = "https://jplawdb.github.io/html-preview/ai-treaty-db/jp-tax-treaties"
 MOF_LIST_URL = "https://www.mof.go.jp/english/policy/tax_policy/tax_conventions/tax_convetion_list_en.html"
 
 RAW_DIR = Path(__file__).resolve().parents[1] / "source" / "raw"
+TEXT_DIR = Path(__file__).resolve().parents[1] / "source" / "text"
 
 # Conservative size guardrails for the mobile-AI token limit.
 MAX_PACK_CHARS = 9500
@@ -984,7 +985,16 @@ def write_docs_index(root: Path, docs_meta: list[dict]) -> None:
     data_dir = root / "data"
     data_dir.mkdir(parents=True, exist_ok=True)
 
-    fields = ["doc_id", "jurisdiction", "source_url", "source_basename", "is_synth", "file"]
+    fields = [
+        "doc_id",
+        "jurisdiction",
+        "source_url",
+        "source_basename",
+        "is_synth",
+        "file",
+        "text_file",
+        "page_count",
+    ]
     lines = ["\t".join(fields)]
     for d in docs_meta:
         lines.append("\t".join(str(d.get(k, "")) for k in fields))
@@ -1008,6 +1018,35 @@ def write_docs_index(root: Path, docs_meta: list[dict]) -> None:
         + "\n",
         encoding="utf-8",
     )
+
+
+def write_doc_text(doc_id: str, meta: dict, pages: list[str]) -> str:
+    """
+    Write a "full text" representation for manual grepping / reference.
+
+    NOTE: For mobile-AI usage, prefer packs/*.txt because these keep each read <= ~10k tokens.
+    """
+    TEXT_DIR.mkdir(parents=True, exist_ok=True)
+    out_path = TEXT_DIR / f"{doc_id}.txt"
+
+    header = {
+        "doc_id": doc_id,
+        "jurisdiction": meta.get("jurisdiction", ""),
+        "source_basename": meta.get("source_basename", ""),
+        "source_url": meta.get("source_url", ""),
+        "is_synth": bool(meta.get("is_synth", False)),
+        "page_count": len(pages),
+        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+    }
+
+    chunks: list[str] = []
+    chunks.append("---\n" + yaml_like(header) + "---\n")
+    for i, t in enumerate(pages, start=1):
+        chunks.append(f"\n# Page {i}\n")
+        chunks.append((t or "").rstrip() + "\n")
+
+    out_path.write_text("".join(chunks), encoding="utf-8", errors="replace")
+    return f"source/text/{out_path.name}"
 
 
 def write_topics(root: Path) -> None:
@@ -1065,6 +1104,10 @@ URLパターン
 - shard TSV: `{BASE_URL}/data/shards/shard-XXX.txt`
 - 本文(pack): `{BASE_URL}/packs/{{doc_id}}-pack-XX.txt`
 - topics: `{BASE_URL}/data/topics.txt`
+
+参考（全文・原本）
+- 全文テキスト（PDF抽出結果。長いのでAI用途では非推奨）: `{BASE_URL}/source/text/{{doc_id}}.txt`
+- 原本PDF: `{BASE_URL}/source/raw/{{doc_id}}.pdf`
 """
     (root / "quickstart.txt").write_text(text, encoding="utf-8")
 
@@ -1124,23 +1167,34 @@ def write_index_html(root: Path) -> None:
 def main() -> None:
     root = Path(__file__).resolve().parents[1]
     RAW_DIR.mkdir(parents=True, exist_ok=True)
+    TEXT_DIR.mkdir(parents=True, exist_ok=True)
 
     links = parse_mof_list_major_links()
     docs_meta = download_pdfs(links, RAW_DIR)
-    write_docs_index(root, docs_meta)
 
     # Build paras across all docs.
     paras: list[Para] = []
     source_urls: dict[str, str] = {}
+
+    # Clean old fulltext outputs (generated).
+    for old in TEXT_DIR.glob("*.txt"):
+        try:
+            old.unlink()
+        except FileNotFoundError:
+            pass
 
     for d in docs_meta:
         doc_id = d["doc_id"]
         section_title = f"{d['jurisdiction']} ({d['source_basename']})"
         pdf_path = root / d["file"]
         pages = extract_pdf_text_pages(pdf_path)
+        d["page_count"] = len(pages)
+        d["text_file"] = write_doc_text(doc_id, d, pages)
         doc_paras = iter_doc_paras(doc_id, section_title, pages)
         paras.extend(doc_paras)
         source_urls[doc_id] = d["source_url"]
+
+    write_docs_index(root, docs_meta)
 
     manifest, _packs_index = write_pack_files(root, paras, source_urls)
     build_shards(root, paras, manifest)

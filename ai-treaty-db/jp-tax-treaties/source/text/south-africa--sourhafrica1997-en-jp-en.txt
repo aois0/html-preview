@@ -1,0 +1,15 @@
+---
+doc_id: "south-africa--sourhafrica1997-en-jp-en"
+jurisdiction: "South Africa"
+source_basename: "SourhAfrica1997_EN_jp_en.pdf"
+source_url: "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SourhAfrica1997_EN_jp_en.pdf"
+is_synth: false
+page_count: 2
+generated_at: "2026-02-01"
+---
+
+# Page 1
+
+
+# Page 2
+

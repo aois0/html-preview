@@ -1,0 +1,30 @@
+---
+doc_id: "italy--italy1980-p-jp-en"
+jurisdiction: "Italy"
+source_basename: "Italy1980_P_jp_en.pdf"
+source_url: "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Italy1980_P_jp_en.pdf"
+is_synth: false
+page_count: 7
+generated_at: "2026-02-01"
+---
+
+# Page 1
+
+
+# Page 2
+
+
+# Page 3
+
+
+# Page 4
+
+
+# Page 5
+
+
+# Page 6
+
+
+# Page 7
+
