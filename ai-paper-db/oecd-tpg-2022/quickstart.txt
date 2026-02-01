@@ -4,9 +4,17 @@
 - あなたのAIは「1回のReadで最初の1万トークンのみ」読める。
 - したがって、このDBは『索引→shard→本文』の3段階で最短到達する。
 
+入口（迷ったら）
+- `data/topics.txt`（テーマ別索引: DEMPE/無形資産/役務提供/リスク等）
+
 推奨フロー（最小Read）
 1) `data/shards_index.json` を読む（章=section と shard の対応を得る）
 2) 関連する `data/shards/*.txt` を1〜3個読む（TSVを検索）
+3) 行にある `core/...` を開いて本文を読む
+
+追加: 英字キーワード（HTVI/CCA/APA/CUP等）で横断検索したい場合
+1) `data/latin_terms/index.json` を読む
+2) 該当する `data/latin_terms/*.tsv` を読む（該当パラグラフ一覧）
 3) 行にある `core/...` を開いて本文を読む
 
 章（目安）
@@ -25,3 +33,4 @@ URLパターン
 - shard index: `https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/data/shards_index.json`
 - shard TSV: `https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/data/shards/shard-XX.txt`
 - 本文: `https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/{id}.txt`
+- 英字キーワード索引: `https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/data/latin_terms/index.json`

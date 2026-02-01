@@ -1,0 +1,286 @@
+{
+  "dataset": {
+    "name": "OECD TP Guidelines 2022 (JP translated)",
+    "generated_at": "2026-02-01",
+    "base_url": "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022"
+  },
+  "note": "Uppercase latin keyword reverse index (paragraph-level).",
+  "term_pattern": "\\b[A-Z][A-Z0-9-]{2,}\\b",
+  "max_term_shard_chars": 9000,
+  "fields": [
+    "id",
+    "pid",
+    "page_start",
+    "page_end",
+    "section_id",
+    "context",
+    "core"
+  ],
+  "terms": [
+    {
+      "term": "AAA",
+      "slug": "AAA",
+      "para_count": 3,
+      "files": [
+        "data/latin_terms/AAA-00.tsv"
+      ]
+    },
+    {
+      "term": "APA",
+      "slug": "APA",
+      "para_count": 44,
+      "files": [
+        "data/latin_terms/APA-00.tsv"
+      ]
+    },
+    {
+      "term": "APA6",
+      "slug": "APA6",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/APA6-00.tsv"
+      ]
+    },
+    {
+      "term": "ATM",
+      "slug": "ATM",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/ATM-00.tsv"
+      ]
+    },
+    {
+      "term": "BBB",
+      "slug": "BBB",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/BBB-00.tsv"
+      ]
+    },
+    {
+      "term": "BEPS",
+      "slug": "BEPS",
+      "para_count": 11,
+      "files": [
+        "data/latin_terms/BEPS-00.tsv"
+      ]
+    },
+    {
+      "term": "CAA",
+      "slug": "CAA",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/CAA-00.tsv"
+      ]
+    },
+    {
+      "term": "CAPM",
+      "slug": "CAPM",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/CAPM-00.tsv"
+      ]
+    },
+    {
+      "term": "CCA",
+      "slug": "CCA",
+      "para_count": 51,
+      "files": [
+        "data/latin_terms/CCA-00.tsv"
+      ]
+    },
+    {
+      "term": "CFA",
+      "slug": "CFA",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/CFA-00.tsv"
+      ]
+    },
+    {
+      "term": "CPM",
+      "slug": "CPM",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/CPM-00.tsv"
+      ]
+    },
+    {
+      "term": "CUP",
+      "slug": "CUP",
+      "para_count": 35,
+      "files": [
+        "data/latin_terms/CUP-00.tsv"
+      ]
+    },
+    {
+      "term": "DTC",
+      "slug": "DTC",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/DTC-00.tsv"
+      ]
+    },
+    {
+      "term": "EEC",
+      "slug": "EEC",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/EEC-00.tsv"
+      ]
+    },
+    {
+      "term": "EUR",
+      "slug": "EUR",
+      "para_count": 5,
+      "files": [
+        "data/latin_terms/EUR-00.tsv"
+      ]
+    },
+    {
+      "term": "G20",
+      "slug": "G20",
+      "para_count": 4,
+      "files": [
+        "data/latin_terms/G20-00.tsv"
+      ]
+    },
+    {
+      "term": "HTVI",
+      "slug": "HTVI",
+      "para_count": 5,
+      "files": [
+        "data/latin_terms/HTVI-00.tsv"
+      ]
+    },
+    {
+      "term": "IEC",
+      "slug": "IEC",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/IEC-00.tsv"
+      ]
+    },
+    {
+      "term": "III",
+      "slug": "III",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/III-00.tsv"
+      ]
+    },
+    {
+      "term": "ISO",
+      "slug": "ISO",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/ISO-00.tsv"
+      ]
+    },
+    {
+      "term": "LIBOR",
+      "slug": "LIBOR",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/LIBOR-00.tsv"
+      ]
+    },
+    {
+      "term": "MAP",
+      "slug": "MAP",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/MAP-00.tsv"
+      ]
+    },
+    {
+      "term": "MAPAPA",
+      "slug": "MAPAPA",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/MAPAPA-00.tsv"
+      ]
+    },
+    {
+      "term": "MEMAP",
+      "slug": "MEMAP",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/MEMAP-00.tsv"
+      ]
+    },
+    {
+      "term": "MOU",
+      "slug": "MOU",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/MOU-00.tsv"
+      ]
+    },
+    {
+      "term": "MTC",
+      "slug": "MTC",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/MTC-00.tsv"
+      ]
+    },
+    {
+      "term": "OECD",
+      "slug": "OECD",
+      "para_count": 82,
+      "files": [
+        "data/latin_terms/OECD-00.tsv",
+        "data/latin_terms/OECD-01.tsv"
+      ]
+    },
+    {
+      "term": "SME",
+      "slug": "SME",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/SME-00.tsv"
+      ]
+    },
+    {
+      "term": "TIEA",
+      "slug": "TIEA",
+      "para_count": 7,
+      "files": [
+        "data/latin_terms/TIEA-00.tsv"
+      ]
+    },
+    {
+      "term": "TNMM",
+      "slug": "TNMM",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/TNMM-00.tsv"
+      ]
+    },
+    {
+      "term": "USD",
+      "slug": "USD",
+      "para_count": 3,
+      "files": [
+        "data/latin_terms/USD-00.tsv"
+      ]
+    },
+    {
+      "term": "VAT",
+      "slug": "VAT",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/VAT-00.tsv"
+      ]
+    },
+    {
+      "term": "WACC",
+      "slug": "WACC",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/WACC-00.tsv"
+      ]
+    }
+  ]
+}

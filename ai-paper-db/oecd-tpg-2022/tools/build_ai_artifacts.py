@@ -57,6 +57,11 @@ MAX_CORE_CHARS = 9000
 SHARD_SIZE = 80  # rows per shard (chapter-local); keep files under ~10k tokens/read
 SNIPPET_CHARS = 70
 
+LATIN_TERM_RE = re.compile(r"\b[A-Z][A-Z0-9-]{2,}\b")
+# Keep each keyword-index shard small for the 10k tokens/read constraint.
+MAX_TERM_SHARD_CHARS = 9000
+TERM_CONTEXT_RADIUS = 60  # characters on each side around the first match
+
 
 _FULLWIDTH_DIGITS = str.maketrans(
     {
@@ -544,6 +549,140 @@ def build_shards(root: Path, paras: list[Para], manifest: dict[str, dict]) -> di
     return index
 
 
+def safe_slug(s: str) -> str:
+    # Stable filename slug (avoid punctuation like "I-P" -> "I_P").
+    return re.sub(r"[^A-Za-z0-9]+", "_", (s or "").strip()).strip("_") or "term"
+
+
+def extract_term_context(text: str, term: str) -> str:
+    t = clean_ws(text)
+    i = t.find(term)
+    if i < 0:
+        return t[: (TERM_CONTEXT_RADIUS * 2 + len(term) + 10)]
+    start = max(0, i - TERM_CONTEXT_RADIUS)
+    end = min(len(t), i + len(term) + TERM_CONTEXT_RADIUS)
+    prefix = "..." if start > 0 else ""
+    suffix = "..." if end < len(t) else ""
+    return prefix + t[start:end] + suffix
+
+
+def build_latin_terms_index(root: Path, paras: list[Para], manifest: dict[str, dict]) -> dict:
+    """
+    Reverse index for uppercase latin terms (e.g., HTVI/CCA/APA/CUP).
+
+    This is primarily to address the "cross-chapter keyword search" workflow without
+    having to open all shard files, while still respecting the 10k tokens/read cap.
+    """
+    data_dir = root / "data"
+    out_dir = data_dir / "latin_terms"
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    # Clean previous generated shards to avoid leaving stale files behind.
+    for old in out_dir.glob("*.tsv"):
+        try:
+            old.unlink()
+        except FileNotFoundError:
+            pass
+
+    fields = [
+        "id",
+        "pid",
+        "page_start",
+        "page_end",
+        "section_id",
+        "context",
+        "core",
+    ]
+
+    # Collect per-paragraph terms (dedupe within a paragraph).
+    hits: dict[str, list[dict]] = {}
+    for p in paras:
+        terms = set(LATIN_TERM_RE.findall(p.text))
+        if not terms:
+            continue
+        for term in terms:
+            core_rel = manifest.get(p.id, {}).get("core", f"core/{p.id}.txt")
+            hits.setdefault(term, []).append(
+                {
+                    "id": p.id,
+                    "pid": p.pid,
+                    "page_start": p.page_start,
+                    "page_end": p.page_end,
+                    "section_id": p.section_id,
+                    "context": extract_term_context(p.text, term),
+                    "core": core_rel,
+                }
+            )
+
+    # Write term shards (TSV), keeping each file under MAX_TERM_SHARD_CHARS.
+    terms_index = []
+    for term in sorted(hits.keys()):
+        slug = safe_slug(term)
+        rows = hits[term]  # already in document order via paras iteration
+
+        shard_files: list[str] = []
+        shard_idx = 0
+        buf_lines: list[str] = ["\t".join(fields)]
+
+        def flush_shard() -> None:
+            nonlocal shard_idx, buf_lines
+            if len(buf_lines) <= 1:
+                return
+            shard_file = f"{slug}-{shard_idx:02d}.tsv"
+            (out_dir / shard_file).write_text("\n".join(buf_lines) + "\n", encoding="utf-8", errors="replace")
+            shard_files.append(f"data/latin_terms/{shard_file}")
+            shard_idx += 1
+            buf_lines = ["\t".join(fields)]
+
+        for r in rows:
+            line = "\t".join(
+                [
+                    str(r["id"]),
+                    str(r["pid"]),
+                    str(r["page_start"]),
+                    str(r["page_end"]),
+                    str(r["section_id"]),
+                    str(r["context"]).replace("\t", " "),
+                    str(r["core"]),
+                ]
+            )
+            # If adding this line would exceed the per-file size budget, flush first.
+            projected = sum(len(x) + 1 for x in buf_lines) + len(line) + 1
+            if projected > MAX_TERM_SHARD_CHARS and len(buf_lines) > 1:
+                flush_shard()
+            buf_lines.append(line)
+
+        flush_shard()
+
+        terms_index.append(
+            {
+                "term": term,
+                "slug": slug,
+                "para_count": len(rows),
+                "files": shard_files,
+            }
+        )
+
+    index = {
+        "dataset": {
+            "name": "OECD TP Guidelines 2022 (JP translated)",
+            "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+            "base_url": BASE_URL,
+        },
+        "note": "Uppercase latin keyword reverse index (paragraph-level).",
+        "term_pattern": LATIN_TERM_RE.pattern,
+        "max_term_shard_chars": MAX_TERM_SHARD_CHARS,
+        "fields": fields,
+        "terms": terms_index,
+    }
+
+    (out_dir / "index.json").write_text(
+        json.dumps(index, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    return index
+
+
 def write_quickstart(root: Path) -> None:
     qs_path = root / "quickstart.txt"
     text = f"""# OECD 移転価格ガイドライン 2022（参考仮訳） - Quickstart
@@ -552,9 +691,17 @@ def write_quickstart(root: Path) -> None:
 - あなたのAIは「1回のReadで最初の1万トークンのみ」読める。
 - したがって、このDBは『索引→shard→本文』の3段階で最短到達する。
 
+入口（迷ったら）
+- `data/topics.txt`（テーマ別索引: DEMPE/無形資産/役務提供/リスク等）
+
 推奨フロー（最小Read）
 1) `data/shards_index.json` を読む（章=section と shard の対応を得る）
 2) 関連する `data/shards/*.txt` を1〜3個読む（TSVを検索）
+3) 行にある `core/...` を開いて本文を読む
+
+追加: 英字キーワード（HTVI/CCA/APA/CUP等）で横断検索したい場合
+1) `data/latin_terms/index.json` を読む
+2) 該当する `data/latin_terms/*.tsv` を読む（該当パラグラフ一覧）
 3) 行にある `core/...` を開いて本文を読む
 
 章（目安）
@@ -573,6 +720,7 @@ URLパターン
 - shard index: `{BASE_URL}/data/shards_index.json`
 - shard TSV: `{BASE_URL}/data/shards/shard-XX.txt`
 - 本文: `{BASE_URL}/core/{{id}}.txt`
+- 英字キーワード索引: `{BASE_URL}/data/latin_terms/index.json`
 """
     qs_path.write_text(text, encoding="utf-8")
 
@@ -588,6 +736,7 @@ def main() -> None:
 
     manifest = write_core_files(root, paras)
     build_shards(root, paras, manifest)
+    build_latin_terms_index(root, paras, manifest)
     write_quickstart(root)
 
     print(f"paras: {len(paras)}")
