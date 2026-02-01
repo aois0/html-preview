@@ -2288,7 +2288,7 @@ ${scrollScript}
 
         const item = savedItems[newIndex];
         setCode(item.code);
-        setLoadedFile(item.title);
+        setLoadedFile({ name: item.title, type: item.type });
       }, [savedItems, currentLibraryIndex]);
 
       // 現在のモードを判定（コード内のHTML/SVGを検出、前後の会話文を無視）
