@@ -1,0 +1,228 @@
+{
+  "dataset": {
+    "name": "NTA TP audit guidance (jimuunei + casebook)",
+    "generated_at": "2026-02-01",
+    "base_url": "https://jplawdb.github.io/html-preview/ai-paper-db/nta-tp-audit"
+  },
+  "format": "tsv",
+  "fields": [
+    "id",
+    "pid",
+    "page_start",
+    "page_end",
+    "snippet",
+    "core"
+  ],
+  "shard_size": 80,
+  "sections": [
+    {
+      "id": "jimu-ch01",
+      "title": "移転価格事務運営要領 第1章 定義及び基本方針",
+      "count": 3,
+      "shards": [
+        {
+          "file": "data/shards/shard-00.txt",
+          "count": 3,
+          "pid_start": "1-1",
+          "pid_end": "1-3"
+        }
+      ]
+    },
+    {
+      "id": "jimu-ch02",
+      "title": "移転価格事務運営要領 第2章 国別報告事項、事業概況報告事項及びローカルファイル",
+      "count": 4,
+      "shards": [
+        {
+          "file": "data/shards/shard-01.txt",
+          "count": 4,
+          "pid_start": "2-1",
+          "pid_end": "2-4"
+        }
+      ]
+    },
+    {
+      "id": "jimu-ch03",
+      "title": "移転価格事務運営要領 第3章 調査",
+      "count": 28,
+      "shards": [
+        {
+          "file": "data/shards/shard-02.txt",
+          "count": 28,
+          "pid_start": "3-1",
+          "pid_end": "3-9"
+        }
+      ]
+    },
+    {
+      "id": "jimu-ch04",
+      "title": "移転価格事務運営要領 第4章 独立企業間価格の算定等における留意点",
+      "count": 15,
+      "shards": [
+        {
+          "file": "data/shards/shard-03.txt",
+          "count": 15,
+          "pid_start": "4-1",
+          "pid_end": "4-9"
+        }
+      ]
+    },
+    {
+      "id": "jimu-ch05",
+      "title": "移転価格事務運営要領 第5章 国外移転所得金額等の取扱い",
+      "count": 3,
+      "shards": [
+        {
+          "file": "data/shards/shard-04.txt",
+          "count": 3,
+          "pid_start": "5-1",
+          "pid_end": "5-3"
+        }
+      ]
+    },
+    {
+      "id": "jimu-ch06",
+      "title": "移転価格事務運営要領 第6章 事前確認",
+      "count": 24,
+      "shards": [
+        {
+          "file": "data/shards/shard-05.txt",
+          "count": 24,
+          "pid_start": "6-1",
+          "pid_end": "6-9"
+        }
+      ]
+    },
+    {
+      "id": "jimu-ch07",
+      "title": "移転価格事務運営要領 第7章 平成29年1月31日付官協8-1ほか7課共同「日台民間租税取決め第24条（相互協議手続）の取扱い等について」（事務運営指針）（以下「日台相互協議指針」という。）に定める相互協議が行われる場合の取扱い",
+      "count": 1,
+      "shards": [
+        {
+          "file": "data/shards/shard-06.txt",
+          "count": 1,
+          "pid_start": "7-all",
+          "pid_end": "7-all"
+        }
+      ]
+    },
+    {
+      "id": "jimu-ch08",
+      "title": "移転価格事務運営要領 第８章 平成17年４月28日付査調７−４ほか３課共同｢連結法人に係る移転価格事務運営要領の制定について」（事務運営指針）（以下「連結指針」という。）の廃止に伴う経過的取扱い",
+      "count": 6,
+      "shards": [
+        {
+          "file": "data/shards/shard-07.txt",
+          "count": 6,
+          "pid_start": "8-1",
+          "pid_end": "8-6"
+        }
+      ]
+    },
+    {
+      "id": "bessatsu",
+      "title": "別冊 移転価格税制の適用に当たっての参考事例集",
+      "count": 32,
+      "shards": [
+        {
+          "file": "data/shards/shard-08.txt",
+          "count": 32,
+          "pid_start": "preface",
+          "pid_end": "事例31"
+        }
+      ]
+    }
+  ],
+  "shards": [
+    {
+      "file": "data/shards/shard-00.txt",
+      "count": 3,
+      "section_id": "jimu-ch01",
+      "section_title": "移転価格事務運営要領 第1章 定義及び基本方針",
+      "page_start": 0,
+      "page_end": 0,
+      "pid_start": "1-1",
+      "pid_end": "1-3"
+    },
+    {
+      "file": "data/shards/shard-01.txt",
+      "count": 4,
+      "section_id": "jimu-ch02",
+      "section_title": "移転価格事務運営要領 第2章 国別報告事項、事業概況報告事項及びローカルファイル",
+      "page_start": 0,
+      "page_end": 0,
+      "pid_start": "2-1",
+      "pid_end": "2-4"
+    },
+    {
+      "file": "data/shards/shard-02.txt",
+      "count": 28,
+      "section_id": "jimu-ch03",
+      "section_title": "移転価格事務運営要領 第3章 調査",
+      "page_start": 0,
+      "page_end": 0,
+      "pid_start": "3-1",
+      "pid_end": "3-9"
+    },
+    {
+      "file": "data/shards/shard-03.txt",
+      "count": 15,
+      "section_id": "jimu-ch04",
+      "section_title": "移転価格事務運営要領 第4章 独立企業間価格の算定等における留意点",
+      "page_start": 0,
+      "page_end": 0,
+      "pid_start": "4-1",
+      "pid_end": "4-9"
+    },
+    {
+      "file": "data/shards/shard-04.txt",
+      "count": 3,
+      "section_id": "jimu-ch05",
+      "section_title": "移転価格事務運営要領 第5章 国外移転所得金額等の取扱い",
+      "page_start": 0,
+      "page_end": 0,
+      "pid_start": "5-1",
+      "pid_end": "5-3"
+    },
+    {
+      "file": "data/shards/shard-05.txt",
+      "count": 24,
+      "section_id": "jimu-ch06",
+      "section_title": "移転価格事務運営要領 第6章 事前確認",
+      "page_start": 0,
+      "page_end": 0,
+      "pid_start": "6-1",
+      "pid_end": "6-9"
+    },
+    {
+      "file": "data/shards/shard-06.txt",
+      "count": 1,
+      "section_id": "jimu-ch07",
+      "section_title": "移転価格事務運営要領 第7章 平成29年1月31日付官協8-1ほか7課共同「日台民間租税取決め第24条（相互協議手続）の取扱い等について」（事務運営指針）（以下「日台相互協議指針」という。）に定める相互協議が行われる場合の取扱い",
+      "page_start": 0,
+      "page_end": 0,
+      "pid_start": "7-all",
+      "pid_end": "7-all"
+    },
+    {
+      "file": "data/shards/shard-07.txt",
+      "count": 6,
+      "section_id": "jimu-ch08",
+      "section_title": "移転価格事務運営要領 第８章 平成17年４月28日付査調７−４ほか３課共同｢連結法人に係る移転価格事務運営要領の制定について」（事務運営指針）（以下「連結指針」という。）の廃止に伴う経過的取扱い",
+      "page_start": 0,
+      "page_end": 0,
+      "pid_start": "8-1",
+      "pid_end": "8-6"
+    },
+    {
+      "file": "data/shards/shard-08.txt",
+      "count": 32,
+      "section_id": "bessatsu",
+      "section_title": "別冊 移転価格税制の適用に当たっての参考事例集",
+      "page_start": 1,
+      "page_end": 129,
+      "pid_start": "preface",
+      "pid_end": "事例31"
+    }
+  ]
+}

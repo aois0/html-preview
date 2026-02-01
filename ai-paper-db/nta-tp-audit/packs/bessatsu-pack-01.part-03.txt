@@ -1,0 +1,23 @@
+---
+id: "bessatsu-pack-01.part-03"
+pid: "事例1"
+page_start: 5
+page_end: 20
+section_id: "bessatsu"
+section_title: "別冊 移転価格税制の適用に当たっての参考事例集"
+source_url: "https://www.nta.go.jp/law/jimu-unei/hojin/010601/pdf/bessatsu.pdf"
+part_index: 3
+part_total: 3
+prev: "packs/bessatsu-pack-01.part-02.txt"
+next: null
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/nta-tp-audit/packs/bessatsu-pack-01.part-03.txt"
+---
+
+### 第一章 独立企業間価格の算定方法の選定に関する事例 / (6) その他の事例
+
+## 事例1 (b-ex01, pages 5-20) [part 03/03]
+他方、納税者の確定申告の基礎となった事務運営指針3-4に掲げる書類の検討に当たっては、
+必要な書類の提出等を求める場合や、納税者が選定した独立企業間価格の算定方法による算定
+結果が独立企業間価格と認められない場合等において、納税者に対し、その理由や調査の結果
+に基づき納税者が選定した方法に代えて適用する独立企業間価格の算定方法の内容等につい
+て十分説明し、納税者の理解を得ていくことに努めることに配意する必要がある。

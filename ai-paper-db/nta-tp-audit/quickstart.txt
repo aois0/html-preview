@@ -1,0 +1,29 @@
+# 国税庁（NTA）移転価格 - 事務運営指針/参考事例集 - Quickstart
+
+前提（重要）
+- あなたのAIは「1回のReadで最初の1万トークンのみ」読める。
+- したがって、このDBは『索引→shard→本文』の3段階で最短到達する。
+
+入口（迷ったら）
+- `data/topics.txt`（テーマ別索引）
+
+推奨フロー（最小Read）
+1) `data/shards_index.json` を読む（章=section と shard の対応を得る）
+2) 関連する `data/shards/*.txt` を1〜3個読む（TSVを検索）
+3) 行にある `packs/...` を開いて本文を読む（packは複数項目をまとめたもの）
+
+追加: 英字キーワード（APA/DCF/OECD/TNMM等）で横断検索したい場合
+1) `data/latin_terms/index.json` を読む
+2) 該当する `data/latin_terms/*.tsv` を読む（該当箇所一覧）
+3) 行にある `packs/...` を開いて本文を読む
+
+収録（目安）
+- 移転価格事務運営要領（事務運営指針）: 第1章〜第8章（HTMLを段落単位で索引化）
+- 別冊 参考事例集（PDF）: preface + 事例1〜31（事例単位で索引化）
+
+URLパターン
+- shard index: `https://jplawdb.github.io/html-preview/ai-paper-db/nta-tp-audit/data/shards_index.json`
+- shard TSV: `https://jplawdb.github.io/html-preview/ai-paper-db/nta-tp-audit/data/shards/shard-XX.txt`
+- 本文(pack): `https://jplawdb.github.io/html-preview/ai-paper-db/nta-tp-audit/packs/{section}-pack-XX.txt`
+- packs index: `https://jplawdb.github.io/html-preview/ai-paper-db/nta-tp-audit/data/packs_index.tsv`
+- 英字キーワード索引: `https://jplawdb.github.io/html-preview/ai-paper-db/nta-tp-audit/data/latin_terms/index.json`
