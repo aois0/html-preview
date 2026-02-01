@@ -8,8 +8,8 @@ Mobile-AI constraint:
 
 Therefore:
 - Provide small, deterministic artifacts.
-- Search flow: shards_index.json -> shard TSV -> core/{id}.txt
-- Canonical core files are small; very long paragraphs are split into parts.
+- Search flow: shards_index.json -> shard TSV -> packs/*.txt
+- Canonical text is stored as "packs" (each pack <= 10k tokens/read).
 
 Input:
 - source/2022translated.txt
@@ -19,7 +19,9 @@ Outputs (under this dataset directory):
 - quickstart.txt
 - data/shards_index.json
 - data/shards/shard-XX.txt (TSV)
-- core/*.txt (YAML-ish header + text)
+- data/packs_index.json
+- packs/*.txt (YAML-ish header + multi-paragraph text)
+- data/latin_terms/* (reverse index for uppercase latin terms)
 """
 
 from __future__ import annotations
@@ -53,7 +55,7 @@ NOISE_LINES = {
 }
 
 # Conservative size guardrails for the mobile-AI token limit.
-MAX_CORE_CHARS = 9000
+MAX_PACK_CHARS = 9500  # total file size (chars) budget for packs
 SHARD_SIZE = 80  # rows per shard (chapter-local); keep files under ~10k tokens/read
 SNIPPET_CHARS = 70
 
@@ -294,6 +296,19 @@ def iter_paragraphs(lines: list[str]) -> Iterable[Para]:
         yield flushed
 
 
+def strip_pid_prefix(text: str, pid: str) -> str:
+    """
+    Packs include an explicit header per paragraph, so we remove the repeated pid
+    prefix from the paragraph body to save space.
+    """
+    t = (text or "").lstrip()
+    if not t:
+        return t
+    # "7.5 " / "7.5." / "7.5．" etc.
+    pat = re.compile(rf"^{re.escape(pid)}[\.．]?\s+")
+    return pat.sub("", t, count=1)
+
+
 def split_text_parts(text: str, max_chars: int) -> list[str]:
     if len(text) <= max_chars:
         return [text]
@@ -336,51 +351,158 @@ def yaml_like(d: dict) -> str:
     return "\n".join(lines) + "\n"
 
 
-def write_core_files(root: Path, paras: list[Para]) -> dict[str, dict]:
-    out_dir = root / "core"
+def write_pack_files(root: Path, paras: list[Para]) -> tuple[dict[str, dict], dict]:
+    """
+    Create "packs" (multi-paragraph files) as the canonical retrieval unit.
+
+    Motivation:
+      1 paragraph = 1 file creates too many URLs and increases "open file" overhead.
+      Packs keep each canonical text file <= 10k tokens/read while reducing the total
+      number of files by ~1 order of magnitude.
+    """
+    data_dir = root / "data"
+    data_dir.mkdir(parents=True, exist_ok=True)
+
+    out_dir = root / "packs"
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    manifest: dict[str, dict] = {}
+    # Clean previous generated packs.
+    for old in out_dir.glob("*.txt"):
+        try:
+            old.unlink()
+        except FileNotFoundError:
+            pass
 
-    for p in paras:
-        # If the parsing logic changes between runs, a paragraph that used to be
-        # split into parts may become short enough to be stored as a single file
-        # (or vice versa). Remove any previously generated part files first to
-        # avoid leaving stale artifacts around.
-        for old in out_dir.glob(f"{p.id}.part-*.txt"):
-            try:
-                old.unlink()
-            except FileNotFoundError:
-                pass
+    manifest: dict[str, dict] = {}  # para_id -> {core: packs/..., parts?: [...]}
+    packs_meta: list[dict] = []
 
-        core_index_path = out_dir / f"{p.id}.txt"
-        parts = split_text_parts(p.text, MAX_CORE_CHARS)
+    cur_section_id: str | None = None
+    cur_section_title = ""
+    cur_pack_idx = 0
+    cur_pack_file = ""
+    cur_pack_paras: list[Para] = []
+    cur_entries: list[str] = []  # 1:1 with cur_pack_paras
+    cur_body_len = 0  # len("\n\n".join(cur_entries)) without materializing
+    last_subsection = ""  # within current pack
 
-        if len(parts) == 1:
-            header = {
-                "id": p.id,
-                "pid": p.pid,
-                "page_start": p.page_start,
-                "page_end": p.page_end,
-                "section_id": p.section_id,
-                "section_title": p.section_title,
-                "subsection": p.subsection,
-                "source": "2022translated.pdf",
-                "url": f"{BASE_URL}/core/{p.id}.txt",
-            }
-            core_index_path.write_text(
-                "---\n" + yaml_like(header) + "---\n\n" + p.text + "\n",
-                encoding="utf-8",
-                errors="replace",
+    def start_pack(section_id: str, section_title: str) -> None:
+        nonlocal cur_pack_file, cur_pack_paras, cur_entries, cur_body_len, last_subsection
+        cur_pack_file = f"{section_id}-pack-{cur_pack_idx:02d}.txt"
+        cur_pack_paras = []
+        cur_entries = []
+        cur_body_len = 0
+        last_subsection = ""
+
+    def render_pack_header(pack_file: str, first: Para, last: Para, para_count: int) -> dict:
+        pack_id = pack_file.removesuffix(".txt")
+        rel_path = f"packs/{pack_file}"
+        return {
+            "id": pack_id,
+            "section_id": cur_section_id,
+            "section_title": cur_section_title,
+            "page_start": first.page_start,
+            "page_end": last.page_end,
+            "pid_start": first.pid,
+            "pid_end": last.pid,
+            "para_count": para_count,
+            "source": "2022translated.pdf",
+            "url": f"{BASE_URL}/{rel_path}",
+        }
+
+    def header_block_len(header: dict) -> int:
+        # "---\n" + yaml + "---\n\n"
+        return 4 + len(yaml_like(header)) + 5
+
+    def pack_total_len(pack_file: str, first: Para, last: Para, para_count: int, body_len: int) -> int:
+        header = render_pack_header(pack_file, first, last, para_count)
+        return header_block_len(header) + body_len + 1  # final "\n"
+
+    def flush_pack() -> None:
+        nonlocal cur_pack_idx, cur_pack_file, cur_pack_paras, cur_entries, cur_body_len
+        if not cur_pack_paras:
+            return
+
+        first = cur_pack_paras[0]
+        last = cur_pack_paras[-1]
+        header = render_pack_header(cur_pack_file, first, last, len(cur_pack_paras))
+        content = "---\n" + yaml_like(header) + "---\n\n" + "\n\n".join(cur_entries) + "\n"
+        if len(content) > MAX_PACK_CHARS:
+            # Never truncate (would lose content). If this triggers, the pack-sizing
+            # logic is wrong and must be fixed.
+            raise RuntimeError(
+                f"Pack too large: {cur_pack_file} len={len(content)} max={MAX_PACK_CHARS} "
+                f"section={cur_section_id} pid_range={first.pid}-{last.pid}"
             )
-            manifest[p.id] = {"core": f"core/{p.id}.txt", "parts": None}
-            continue
 
-        # Long paragraph: write an index + part files.
-        part_paths: list[str] = []
-        for idx, part_text in enumerate(parts, start=1):
-            part_id = f"{p.id}.part-{idx:02d}"
-            part_path = out_dir / f"{part_id}.txt"
+        (out_dir / cur_pack_file).write_text(content, encoding="utf-8", errors="replace")
+
+        packs_meta.append(
+            {
+                "id": cur_pack_file.removesuffix(".txt"),
+                "file": f"packs/{cur_pack_file}",
+                "section_id": cur_section_id,
+                "section_title": cur_section_title,
+                "page_start": first.page_start,
+                "page_end": last.page_end,
+                "pid_start": first.pid,
+                "pid_end": last.pid,
+                "para_count": len(cur_pack_paras),
+            }
+        )
+
+        cur_pack_idx += 1
+
+    def write_big_para_as_parts(p: Para) -> None:
+        """
+        Split a single huge paragraph into multiple pack files:
+          {section}-pack-XX.part-01.txt, .part-02.txt, ...
+
+        Shard/term indexes will point to part-01 (so no extra "index file" hop).
+        """
+        nonlocal cur_pack_idx
+
+        base = f"{cur_section_id}-pack-{cur_pack_idx:02d}"
+        body = strip_pid_prefix(p.text, p.pid)
+
+        # Build a stable list of part file paths first (count depends on splitting).
+        # Compute max chars available for the body chunk per part dynamically.
+        common_prefix = ""
+        if p.subsection:
+            common_prefix = f"### {p.subsection}\n\n"
+
+        # Create a temporary header to estimate overhead (part-01). We'll redo
+        # per-part headers later.
+        temp_header = {
+            "id": f"{base}.part-01",
+            "pid": p.pid,
+            "page_start": p.page_start,
+            "page_end": p.page_end,
+            "section_id": p.section_id,
+            "section_title": p.section_title,
+            "source": "2022translated.pdf",
+            "part_index": 1,
+            "part_total": 1,
+            "prev": None,
+            "next": None,
+            "url": f"{BASE_URL}/packs/{base}.part-01.txt",
+        }
+        temp_header_block = "---\n" + yaml_like(temp_header) + "---\n\n"
+        entry_head = f"## {p.pid} ({p.id}, pages {p.page_start}-{p.page_end}) [part 01/??]\n"
+        # Keep a safety margin for per-part header differences (prev/next paths, etc.).
+        max_chunk = MAX_PACK_CHARS - len(temp_header_block) - len(common_prefix) - len(entry_head) - 1 - 200
+        if max_chunk < 500:
+            raise RuntimeError(f"MAX_PACK_CHARS too small to split paragraph safely: {p.id}")
+
+        chunks = split_text_parts(body, max_chunk)
+        part_total = len(chunks)
+        part_files = [f"packs/{base}.part-{i:02d}.txt" for i in range(1, part_total + 1)]
+
+        for i, chunk in enumerate(chunks, start=1):
+            part_id = f"{base}.part-{i:02d}"
+            part_file = f"{part_id}.txt"
+            prev_file = part_files[i - 2] if i > 1 else None
+            next_file = part_files[i] if i < part_total else None
+
             header = {
                 "id": part_id,
                 "pid": p.pid,
@@ -388,41 +510,140 @@ def write_core_files(root: Path, paras: list[Para]) -> dict[str, dict]:
                 "page_end": p.page_end,
                 "section_id": p.section_id,
                 "section_title": p.section_title,
-                "subsection": p.subsection,
                 "source": "2022translated.pdf",
-                "part_index": idx,
-                "part_total": len(parts),
-                "url": f"{BASE_URL}/core/{part_id}.txt",
+                "part_index": i,
+                "part_total": part_total,
+                "prev": prev_file,
+                "next": next_file,
+                "url": f"{BASE_URL}/packs/{part_file}",
             }
-            part_path.write_text(
-                "---\n" + yaml_like(header) + "---\n\n" + part_text + "\n",
-                encoding="utf-8",
-                errors="replace",
+            head = "---\n" + yaml_like(header) + "---\n\n"
+            entry_head = f"## {p.pid} ({p.id}, pages {p.page_start}-{p.page_end}) [part {i:02d}/{part_total:02d}]\n"
+            content = head + common_prefix + entry_head + chunk + "\n"
+            if len(content) > MAX_PACK_CHARS:
+                raise RuntimeError(f"Part too large: {part_file} len={len(content)} max={MAX_PACK_CHARS}")
+
+            (out_dir / part_file).write_text(content, encoding="utf-8", errors="replace")
+
+            packs_meta.append(
+                {
+                    "id": part_id,
+                    "file": f"packs/{part_file}",
+                    "section_id": cur_section_id,
+                    "section_title": cur_section_title,
+                    "page_start": p.page_start,
+                    "page_end": p.page_end,
+                    "pid_start": p.pid,
+                    "pid_end": p.pid,
+                    "para_count": 1,
+                    "part_index": i,
+                    "part_total": part_total,
+                }
             )
-            part_paths.append(f"core/{part_id}.txt")
 
-        index_header = {
-            "id": p.id,
-            "pid": p.pid,
-            "page_start": p.page_start,
-            "page_end": p.page_end,
-            "section_id": p.section_id,
-            "section_title": p.section_title,
-            "subsection": p.subsection,
-            "source": "2022translated.pdf",
-            "note": "Split into parts due to the 10k tokens/read constraint.",
-            "parts": part_paths,
-            "url": f"{BASE_URL}/core/{p.id}.txt",
-        }
-        preview = clean_ws(p.text)[:300]
-        core_index_path.write_text(
-            "---\n" + yaml_like(index_header) + "---\n\n" + preview + "\n",
-            encoding="utf-8",
-            errors="replace",
-        )
-        manifest[p.id] = {"core": f"core/{p.id}.txt", "parts": part_paths}
+        # Point the paragraph to part-01 for canonical lookup.
+        manifest[p.id] = {"core": part_files[0], "parts": part_files}
+        cur_pack_idx += 1
 
-    return manifest
+    for p in paras:
+        # Start new section.
+        if cur_section_id is None or p.section_id != cur_section_id:
+            flush_pack()
+            cur_section_id = p.section_id
+            cur_section_title = p.section_title
+            cur_pack_idx = 0
+            start_pack(cur_section_id, cur_section_title)
+
+        while True:
+            # Build entry (include subsection marker when needed).
+            prefix = ""
+            if p.subsection and (not cur_pack_paras or p.subsection != last_subsection):
+                prefix = f"### {p.subsection}\n\n"
+
+            body = strip_pid_prefix(p.text, p.pid)
+            entry = prefix + f"## {p.pid} ({p.id}, pages {p.page_start}-{p.page_end})\n{body}"
+
+            # If it can't fit even as a single-entry pack, split into part packs.
+            if not cur_pack_paras:
+                first = p
+                projected_body = len(entry)
+                total = pack_total_len(cur_pack_file, first, p, 1, projected_body)
+                if total > MAX_PACK_CHARS:
+                    write_big_para_as_parts(p)
+                    start_pack(cur_section_id, cur_section_title)
+                    break
+
+            # Compute projected body length for "\n\n".join(entries + [entry]).
+            projected_body = cur_body_len
+            if cur_entries:
+                projected_body += 2  # separator between entries
+            projected_body += len(entry)
+
+            first = cur_pack_paras[0] if cur_pack_paras else p
+            total = pack_total_len(cur_pack_file, first, p, len(cur_pack_paras) + 1, projected_body)
+            if total <= MAX_PACK_CHARS:
+                cur_pack_paras.append(p)
+                cur_entries.append(entry)
+                cur_body_len = projected_body
+                last_subsection = p.subsection
+                manifest[p.id] = {"core": f"packs/{cur_pack_file}", "parts": None}
+                break
+
+            # Doesn't fit: flush and retry in a new pack.
+            if cur_pack_paras:
+                flush_pack()
+                start_pack(cur_section_id, cur_section_title)
+                continue
+
+            # Should be unreachable due to the empty-pack check above.
+            write_big_para_as_parts(p)
+            start_pack(cur_section_id, cur_section_title)
+            break
+
+    flush_pack()
+
+    # Prefer a compact index format: small enough to read within the 10k tokens/read
+    # constraint, but still machine-friendly.
+    pack_fields = [
+        "file",
+        "section_id",
+        "section_title",
+        "page_start",
+        "page_end",
+        "pid_start",
+        "pid_end",
+        "para_count",
+        "part_index",
+        "part_total",
+    ]
+    pack_rows = []
+    for m in packs_meta:
+        pack_rows.append([m.get(k) for k in pack_fields])
+
+    packs_index = {
+        "dataset": {
+            "name": "OECD TP Guidelines 2022 (JP translated)",
+            "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+            "base_url": BASE_URL,
+        },
+        "note": "Canonical text is stored as packs (multi-paragraph files).",
+        "max_pack_chars": MAX_PACK_CHARS,
+        "fields": pack_fields,
+        "rows": pack_rows,
+    }
+
+    (data_dir / "packs_index.json").write_text(
+        json.dumps(packs_index, ensure_ascii=False, separators=(",", ":")) + "\n",
+        encoding="utf-8",
+    )
+
+    # Human/grep-friendly version (recommended for the mobile-AI constraint too).
+    tsv_lines = ["\t".join(pack_fields)]
+    for row in pack_rows:
+        tsv_lines.append("\t".join("" if v is None else str(v) for v in row))
+    (data_dir / "packs_index.tsv").write_text("\n".join(tsv_lines) + "\n", encoding="utf-8", errors="replace")
+
+    return manifest, packs_index
 
 
 def build_shards(root: Path, paras: list[Para], manifest: dict[str, dict]) -> dict:
@@ -439,8 +660,8 @@ def build_shards(root: Path, paras: list[Para], manifest: dict[str, dict]) -> di
             pass
 
     # Keep shard rows compact so each shard file stays under the ~10k tokens/read
-    # constraint. Section/subsection text is available in core/{id}.txt and the
-    # shard already corresponds to a single section via shards_index.json.
+    # constraint. Full text is available via packs/*.txt and the shard already
+    # corresponds to a single section via shards_index.json.
     fields = [
         "id",
         "pid",
@@ -697,12 +918,12 @@ def write_quickstart(root: Path) -> None:
 推奨フロー（最小Read）
 1) `data/shards_index.json` を読む（章=section と shard の対応を得る）
 2) 関連する `data/shards/*.txt` を1〜3個読む（TSVを検索）
-3) 行にある `core/...` を開いて本文を読む
+3) 行にある `packs/...` を開いて本文を読む（packは複数パラグラフをまとめたもの）
 
 追加: 英字キーワード（HTVI/CCA/APA/CUP等）で横断検索したい場合
 1) `data/latin_terms/index.json` を読む
 2) 該当する `data/latin_terms/*.tsv` を読む（該当パラグラフ一覧）
-3) 行にある `core/...` を開いて本文を読む
+3) 行にある `packs/...` を開いて本文を読む
 
 章（目安）
 - 第1章: 独立企業原則（ALP）
@@ -719,7 +940,7 @@ def write_quickstart(root: Path) -> None:
 URLパターン
 - shard index: `{BASE_URL}/data/shards_index.json`
 - shard TSV: `{BASE_URL}/data/shards/shard-XX.txt`
-- 本文: `{BASE_URL}/core/{{id}}.txt`
+- 本文(pack): `{BASE_URL}/packs/{{section}}-pack-XX.txt`
 - 英字キーワード索引: `{BASE_URL}/data/latin_terms/index.json`
 """
     qs_path.write_text(text, encoding="utf-8")
@@ -734,15 +955,16 @@ def main() -> None:
     lines = src.read_text(encoding="utf-8", errors="replace").splitlines()
     paras = list(iter_paragraphs(lines))
 
-    manifest = write_core_files(root, paras)
+    manifest, _packs_index = write_pack_files(root, paras)
     build_shards(root, paras, manifest)
     build_latin_terms_index(root, paras, manifest)
     write_quickstart(root)
 
     print(f"paras: {len(paras)}")
-    print(f"core_dir: {root / 'core'}")
+    print(f"packs_dir: {root / 'packs'}")
     print(f"shards_dir: {root / 'data' / 'shards'}")
     print(f"index: {root / 'data' / 'shards_index.json'}")
+    print(f"packs_index: {root / 'data' / 'packs_index.json'}")
     print(f"quickstart: {root / 'quickstart.txt'}")
 
 

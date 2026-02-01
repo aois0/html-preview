@@ -10,12 +10,12 @@
 推奨フロー（最小Read）
 1) `data/shards_index.json` を読む（章=section と shard の対応を得る）
 2) 関連する `data/shards/*.txt` を1〜3個読む（TSVを検索）
-3) 行にある `core/...` を開いて本文を読む
+3) 行にある `packs/...` を開いて本文を読む（packは複数パラグラフをまとめたもの）
 
 追加: 英字キーワード（HTVI/CCA/APA/CUP等）で横断検索したい場合
 1) `data/latin_terms/index.json` を読む
 2) 該当する `data/latin_terms/*.tsv` を読む（該当パラグラフ一覧）
-3) 行にある `core/...` を開いて本文を読む
+3) 行にある `packs/...` を開いて本文を読む
 
 章（目安）
 - 第1章: 独立企業原則（ALP）
@@ -32,5 +32,5 @@
 URLパターン
 - shard index: `https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/data/shards_index.json`
 - shard TSV: `https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/data/shards/shard-XX.txt`
-- 本文: `https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/core/{id}.txt`
+- 本文(pack): `https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/packs/{section}-pack-XX.txt`
 - 英字キーワード索引: `https://jplawdb.github.io/html-preview/ai-paper-db/oecd-tpg-2022/data/latin_terms/index.json`
