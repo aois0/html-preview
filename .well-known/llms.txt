@@ -1,26 +1,24 @@
-# Site entry for LLMs
-
+# Site entry for LLMs (html-preview)
+#
 # Notes:
 # - This site is optimized for clients that can only read the first ~10k tokens per request.
-# - Prefer small indexes (shards_index / resolve_meta) and then jump directly to core text.
+# - Prefer small indexes and then jump directly to core text.
 
-- DB portal (recommended first): /html-preview/llms.txt
+Start here (recommended):
+- /html-preview/llms.txt
 
-- Tax law (statutes/regs): /html-preview/ai-law-db/quickstart.txt
-- Tax law dataset map: /html-preview/ai-law-db/llms.txt
-- Corporate-tax article titles (resolve_meta_corp): /html-preview/ai-law-db/data/resolve_meta_corp/index.json
-- Fast article titles (resolve_meta): /html-preview/ai-law-db/data/resolve_meta/index.json
+Choose your task (fast):
+- Statutes: /html-preview/ai-law-db/quickstart.txt
+- Circulars: /html-preview/ai-tsutatsu-db/llms.txt
+- Cases/rulings: /html-preview/ai-hanketsu-db/quickstart.txt
+- Papers/guidelines: /html-preview/ai-paper-db/llms.txt
+- Tax treaties: /html-preview/ai-treaty-db/jp-tax-treaties/quickstart.txt
+- Tax KB: /html-preview/tax-kb/quickstart.txt
 
-- Tax circulars (tsutatsu): /html-preview/ai-tsutatsu-db/llms.txt
+Cheat sheets (short):
+- URL patterns: /html-preview/_fastpaths.txt
+- Small index files: /html-preview/_indices.txt
 
-- Tax cases/rulings: /html-preview/ai-hanketsu-db/quickstart.txt
-
-- Papers/guidelines (international tax): /html-preview/ai-paper-db/llms.txt
-- Paper corpus (OECD TPG 2022): /html-preview/ai-paper-db/oecd-tpg-2022/quickstart.txt
-- Paper corpus (NTA TP audit): /html-preview/ai-paper-db/nta-tp-audit/quickstart.txt
-- Paper corpus (OECD/G20 BEPS): /html-preview/ai-paper-db/oecd-beps/quickstart.txt
-
-- Tax treaties: /html-preview/ai-treaty-db/llms.txt
-- Treaty corpus (JP tax treaties, major jurisdictions): /html-preview/ai-treaty-db/jp-tax-treaties/quickstart.txt
-
-- Tax KB prototype: /html-preview/tax-kb/quickstart.txt
+Advanced (statute title resolution):
+- /html-preview/ai-law-db/data/resolve_meta_corp/index.json
+- /html-preview/ai-law-db/data/resolve_meta/index.json
