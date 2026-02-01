@@ -1,0 +1,20 @@
+# OECD/G20 BEPS（選抜） - Quickstart
+
+前提（重要）
+- あなたのAIは「1回のReadで最初の1万トークンのみ」読める。
+- したがって、このDBは『docs_index → shards_index → shard → 本文(pack)』で最短到達する。
+
+推奨フロー（最小Read）
+1) `data/docs_index.tsv` を読む（doc_id/文書を選ぶ）
+2) `data/shards_index.json` を読む（section=doc_id と shard の対応）
+3) 関連する `data/shards/*.txt` を1〜3個読む（TSVを検索）
+4) 行にある `packs/...` を開いて本文を読む（packは複数ページをまとめたもの）
+
+追加: 英字キーワード（CFC/MAP/DEMPE/HTVI/PPT等）で横断検索したい場合
+1) `data/latin_terms/index.json` を読む
+2) 該当する `data/latin_terms/*.tsv` を読む
+3) 行にある `packs/...` を開いて本文を読む
+
+参考（全文・原本）
+- 全文テキスト（PDF抽出結果。長いのでAI用途では非推奨）: `https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/source/text/{doc_id}.txt`
+- 原本PDF: `https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/source/raw/{doc_id}.pdf`

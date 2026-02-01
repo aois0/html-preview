@@ -1,0 +1,108 @@
+---
+id: "beps-a14-peer-review-documents-oecd-en-pack-05"
+section_id: "beps-a14-peer-review-documents-oecd-en"
+section_title: "BEPS Action 14: peer review documents (Terms of Reference / Assessment Methodology) (OECD PDF)"
+page_start: 16
+page_end: 18
+pid_start: "p016"
+pid_end: "p018"
+para_count: 3
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "http://www.oecd.org/tax/beps/beps-action-14-on-more-effective-dispute-resolution-peer-review-documents.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-a14-peer-review-documents-oecd-en-pack-05.txt"
+---
+
+## p016 (beps-a14-peer-review-documents-oecd-en-p016, pages 16-16)
+ 15
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+mandatory or not. Elements B.5 and B.10 of the Terms of Reference should therefore not be interpreted as including
+any implicit commitment with respect to these other obligations.
+15 Taxpayer-initiated foreign adjustments are taxpayer -initiated adjustments permitted under the domestic laws of a
+treaty partner which allow a taxpayer under appropriate circumstances to amend a previously-filed tax return to adjust
+(i) the price for a transaction between associate d enterprises or (ii) the profits attributable to a permanent
+establishment, with a view to reporting a result that is, in the view of the taxpayer, in accordance with the arm’s length
+principle. For such purposes, a taxpayer-initiated foreign adjustment should be considered bona fide where it reflects
+the good faith effort of the taxpayer to report correctly the taxable income from a controlled transaction or the profits
+attributable to a permanent establishment and where the taxpayer has otherwise timely and properly fulfilled all of its
+obligations related to such taxable income or profits under the tax laws of the two Contracting Parties. (see Best
+Practice 9 in the Action 14 Report)
+16 See paragraph 2 of Article 25 and its Commentary.
+17 A MAP case for this purpose refers to a MAP case that is received by a competent authority from the taxpayer on
+or after 1 January 2016 and is defined in Annex 3.D. of the MAP Statistics Reporting Framework.
+18 The average time frame to resolve MAP cases shall be computed in accordance with the method of computation
+provided in the MAP Statistics Reporting Framework. The “start date” and “end date” for purposes of computing the
+time taken to resolve a MAP case is defined in the MAP Statistics Reporting Framework. These stat istical purposes
+should be distinguished from the purposes of time frames in arbitration provisions; the time frames relevant in that
+latter context must be determined based on the provisions of the relevant arbitration clause and/or relevant competent
+authority agreements on the application of such clause.
+19 Given that the average time frame in element C.2. applies to both jurisdictions, in the review of an assessed
+jurisdiction, if the average time taken to resolve MAP cases exceeds 24 months arising from  delays caused by its
+treaty partners, such delays shall not lead to a recommendation that the assessed jurisdiction needs to improve the
+average time taken to resolve MAP cases.
+20 A jurisdiction should provide its position on arbitration in its MAP profil e which should be published on a shared
+public platform. In addition, OECD members and non -OECD economies which have set out their positions on the
+OECD Model Tax Convention should provide their position on arbitration in the OECD Model Tax Convention.
+21 The public guidance should address, in particular,  whether the competent authority considers itself to be legally
+bound to follow a domestic court decision in the MAP or whether the competent authority will not deviate from a
+domestic court decision as a matter of administrative policy or practice.
+22 See second sentence of paragraph 2 of Article 25 and its Commentary.
+23 See paragraph 62 of the Commentary on Article 7 and paragraph 10 of the Commentary on Article 9.
+
+## p017 (beps-a14-peer-review-documents-oecd-en-p017, pages 17-17)
+16 
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+Annex 1.A. Mandate for the development of the
+Terms of Reference and the Assessment
+Methodology
+Pursuant to element 1.6 of the Action 14 minimum standard, countries commit to have their compl iance
+with the minimum standard reviewed by their peers – i.e. the other members of the FTA MAP Forum (as
+provided in element 1.4 of the minimum standard, countries should become members of the FTA MAP
+Forum and participate fully in its work). This review will take place through a monitoring mechanism, the
+framework for which is described in Section I.C of this Report. Such monitoring is essential to ensure the
+meaningful implementation of the minimum standard and will be conducted pursuant to Terms of
+Reference and an Assessment Methodology to be developed by the OECD Committee on Fiscal Affairs
+through its Working Party No. 1 on Tax Conventions and Related Questi ons (Working Party 1) and the
+Forum on Tax Administration MAP Forum (the FTA MAP Forum). The mandate for the development of the
+Terms of Reference and the Assessment Methodology is set out below:
+Preamble
+Recognising that the conclusions of the work on Action 14 of the BEPS Action Plan reflect the agreement
+that countries should commit to a minimum standard comprising a number of specific elements that are
+intended to ensure that treaty-related disputes are resolved in a timely, effective and efficient manner;
+Noting that the conclusions of the work on Action 14 also include agreement that the implem entation of
+the minimum standard should be evaluated through a peer monitoring mechanism in order to ensure that
+the commitments embodied in the minimum standard are effectively satisfied, and that all OECD and G20
+countries, as well as jurisdictions that commit to the minimum standard, will undergo reviews pursuant to
+that monitoring mechanism;
+Considering that the peer monitoring process will require the development of Terms of Reference that will
+be used to assess the implementation of the Action 14 mini mum standard and of an Assessment
+Methodology that will establish procedures and guidelines for the peer monitoring process;
+The countries participating in the OECD-G20 BEPS Project have agreed that Terms of Reference and an
+Assessment Methodology will be developed by the OECD Committee on Fiscal Affairs, through its Working
+Party No. 1 on Tax Conventions and Related Questions and the Forum on Tax Administration MAP Forum
+(the FTA MAP Forum) pursuant to the following mandate.
+A. Objective
+The OECD Committee on Fiscal Affairs through its Working Party No. 1 on Tax Conventions and Related
+Questions and the Forum on Tax Administration MAP Forum (the FTA MAP Forum) shall develop the core
+documents for the monitoring of the implementation of the Action 14 minimum  standard: the Terms of
+Reference and the Assessment Methodology. The Terms of Reference  will be based on the elements of
+the minimum standard and will break down these elements into specific aspects against which jurisdictions’
+legal frameworks, MAP progr amme guidance and actual implementation of the minimum standard are
+assessed; they will provide a clear roadmap for the monitoring process and thereby ensure that the
+assessment of all jurisdictions is consistent and complete. The Assessment Methodology  will establish
+detailed procedures and guidelines for the peer monitoring of OECD and G20 countries and other
+
+## p018 (beps-a14-peer-review-documents-oecd-en-p018, pages 18-18)
+ 17
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+committed jurisdictions by the FTA MAP Forum, which will be open to all such countries participating on
+an equal footing and will include a system for assessing the implementation of the minimum standard.
+B. Participation
+The Terms of Reference  and the Assessment Methodology  shall be developed jointly by the OECD
+Committee on Fiscal Affairs, through its Working Party 1 on Tax Conventions and Related Questions, and
+the FTA MAP Forum, with all countries participating on an equal footing.
+C. Duration and term
+The development of the Terms of Reference and the Assessment Methodology shall start no later than
+November 2015. Working Party 1 and the FTA MAP Forum shall aim to conclude their work on the Terms
+of Reference and the Assessment Methodology by the end of the first quarter of 2016.

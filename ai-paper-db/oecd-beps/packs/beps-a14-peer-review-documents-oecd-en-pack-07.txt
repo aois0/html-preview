@@ -1,0 +1,64 @@
+---
+id: "beps-a14-peer-review-documents-oecd-en-pack-07"
+section_id: "beps-a14-peer-review-documents-oecd-en"
+section_title: "BEPS Action 14: peer review documents (Terms of Reference / Assessment Methodology) (OECD PDF)"
+page_start: 21
+page_end: 21
+pid_start: "p021"
+pid_end: "p021"
+para_count: 1
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "http://www.oecd.org/tax/beps/beps-action-14-on-more-effective-dispute-resolution-peer-review-documents.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-a14-peer-review-documents-oecd-en-pack-07.txt"
+---
+
+## p021 (beps-a14-peer-review-documents-oecd-en-p021, pages 21-21)
+20 
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+Obtaining inputs from the assessed jurisdiction
+11. Each member of the FTA MAP Forum will be invited to designate a central point of contact for the
+Peer Review and Monitoring process , and to advise whether it wishes to c onduct its review in English or
+French. The peer review process will commence when the assessed jurisdiction receives a questionnaire
+(“the questionnaire”) in an electronic format from the Secretariat through this central point of contact.
+12. The questionnaire will be in a standard format covering each aspect of the elements, as described
+in the Terms of Reference. This will include requests for information on the jurisdiction’s legal framework
+for MAP (as  contained in tax treaties, domestic law and regulatio ns), the jurisdiction’s MAP programme
+guidance, how the jurisdiction’s MAP framework operates in practice, and relevant statistics. The standard
+form questionnaire may also be supplemented by jurisdiction -specific questions, for example regarding
+issues raised by peers and taxpayers.
+13. The information and materials provided by the assessed jurisdiction will be one of the main sources
+of information used in conducting the jurisdiction’s Stage 1 Peer R eview. Therefore, in response to the
+questionnaire, a juri sdiction should provide a detailed description of the relevant measures and actions,
+with analysis where appropriate, and including citations from relevant laws or other material. All relevant
+laws, regulations, guidelines and other relevant documents shou ld be available in the language of the
+review. A jurisdiction’s response to the questionnaire, and any documents or other materials provided by
+the jurisdiction, should be submitted to the Secretariat in an electronic format.
+14. The assessed jurisdiction should provide its response within a maximum of 4 weeks of receipt of
+the questionnaire from the Secretariat.  Where supplementary questions are sent to the assessed
+jurisdiction after receipt of the questionnaire, the assessed jurisdiction should also provide responses to
+these questions in a timely manner.  The time required for translation of documents by the assessed
+jurisdiction should be taken into account to ensure it meets this time frame.
+Obtaining input from the assessed jurisdiction’s peers
+15. An important element of the Peer Review and Monitoring process  is the opportunity for other
+members of the FTA MAP Forum that have a tax treaty with the assessed jurisdiction (“ peers”) to provide
+their input into the Forum’s assessment of the assessed jurisdiction’s compliance with the minimum
+standard. A questionnaire (“the peer questionnaire”) will be sent to members of the FTA MAP Forum in
+an electronic format when the review of a jurisdiction has commenced. This will be in a standard format
+and will invite jurisdictions that have a tax treaty with the assessed jurisdiction to provide comments on the
+assessed jurisdiction’s compliance with the elements of the minimum standard. A jurisdiction should notify
+the Secretariat if the peer review questionnaire should be sent to a person other than the designated point
+of contact referred to in paragraph 11 of this note.
+16. Jurisdictions should provide responses to the peer questionnaire within 4 weeks of its receipt from
+the Secretariat. These responses should be provided in English  or French and in an electronic format.
+While ensuring that taxpayer confidentiality is preserv ed, jurisdictions should aim to be specific in their
+responses and provide as much detail as possible to aid the Secretariat in understanding and evaluating
+any issues that have been identified. Where necessary, supplementary questions concerning issues raised
+in responses to the peer questionnaire may be sent to the assessed jurisdiction. Responses to the peer
+questionnaire will be made available to the assessed jurisdiction and the assessed jurisdiction should
+address any issues raised by its peers in its response to the Secretariat.
+Obtaining inputs from taxpayers6
+17. The main users of the MAP are the taxpayers and transparency and effectiveness of the assessed
+jurisdictions’ MAP regime helps provide certainty and predictability for taxpayers. In this regard, for the
+monitoring and peer review to be meaningful, it is important that taxpayers are able to provide input on

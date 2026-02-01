@@ -1,0 +1,106 @@
+---
+id: "beps-a14-peer-review-documents-oecd-en-pack-18"
+section_id: "beps-a14-peer-review-documents-oecd-en"
+section_title: "BEPS Action 14: peer review documents (Terms of Reference / Assessment Methodology) (OECD PDF)"
+page_start: 52
+page_end: 53
+pid_start: "p052"
+pid_end: "p053"
+para_count: 2
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "http://www.oecd.org/tax/beps/beps-action-14-on-more-effective-dispute-resolution-peer-review-documents.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-a14-peer-review-documents-oecd-en-pack-18.txt"
+---
+
+## p052 (beps-a14-peer-review-documents-oecd-en-p052, pages 52-52)
+ 51
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+12. Recognising that the taxpayer’s MAP submission might not include all the information and
+documentation required for the competent authority to examine the MAP request, and that the notification
+including the confirmation of receipt of the notification (where applicable) in paragraph 10 above could be
+made before the competent authority receives all such information, the “start” date shall be:
+(v) One week from the date of notification by the competent authority that receives the MAP
+request from the taxpayer or five weeks from the receipt of the taxpayer’s MAP request,
+whichever is the earlier date;6 except
+(vi) where a competent authority receives a MAP request that does not include all the information
+and documentation required to be furnished pursuant to its published MAP guidance and the
+competent authority requests such information and/or documentation within three months from
+the receipt of the MAP submission, in which case the “start” date shall be the date under (i) or
+the date when such missing information and/or documentation is received by that competent
+authority, whichever is the later date.
+13. There are also instances where members of the same taxpayer group submit MAP requests on
+the same issue(s) to their respective competent authorities (for example, in transfer pricing cases where
+the parties to a transaction each submit a MAP request to their respect ive competent authorities arising
+from a primary adjustment made by one of the Contracting States). Furthermore, as described in paragraph
+5 above, a taxpayer could also submit the same MAP request to both competent authorities. In these
+circumstances, where there are different dates for the competent authorities under the application of the
+rules in paragraph 10 above, the earlier date shall be the “start” date.
+(ii) Closing of MAP case (“end” date)
+14. The “end” date of a MAP case is (i) the date of an official communication (typically in the form of a
+letter) from the competent authority to the taxpayer to inform him of the outcome of its MAP request; or (ii)
+the date the competent authority receives a notification from the taxpayer on the withdrawal of its MAP
+request. The competent authority that receives the MAP request from the taxpayer should also duly inform
+the other competent authority of its notification to the taxpayer on the outcome of the MAP case or in case
+of a withdrawal of the MAP request by the taxpayer, of the date of such withdrawal. For (i), the outcome of
+a MAP request could be one of the following:
+ access to MAP is denied (i.e. not an admissible request or denied for any other reaso ns)
+ objection is not justified objection
+ objection is resolved via domestic remedy
+ unilateral relief will be granted
+ competent authority agreement that will (or would, if accepted by taxpayer, regardless of whether
+the taxpayer accepts that outcome) fully eliminate double taxation or fully resolve taxation not in
+accordance with the tax treaty
+ competent authority agreement that will (or would, if accepted by taxpayer, regardless of whether
+the taxpayer accepts that outcome) partially eliminate double taxati on or partially resolve taxation
+not in accordance with the tax treaty
+ competent authority agreement that there is no taxation not in accordance with the tax treaty
+ no competent authority agreement is reached including agreement to disagree
+ any other outcome.
+15. In instances where more than one taxpayer submits a MAP request on the same issue(s) to their
+respective competent authorities as described in paragraph 12 above or where a taxpayer could also
+submit the same MAP request to both competent authorities as described in paragraph 5 above, and there
+are different “end” dates for the competent authorities, the “end” date shall be the earlier of these dates.
+
+## p053 (beps-a14-peer-review-documents-oecd-en-p053, pages 53-53)
+52 
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+(iii) Milestone 1 (if applicable): Date of position paper
+16. In the second stage of the MAP as desc ribed in paragraph 7 which is aimed at “resolving the
+dispute on an agreed basis, i.e. by agreement between competent authorities”, one of the competent
+authorities would present its position on the case to the other competent authority (via a “position pa per”)
+before the commencement of discussions between the competent authorities. 7 The position paper should
+provide the basis for and explanation of the position taken by the jurisdiction and should address the
+arguments made by the taxpayer in its submissi on, to facilitate the discussion of the case with the other
+competent authority. The date to be captured for purposes of Milestone 1 for both competent authorities is
+the date the position paper is presented by one competent authority to the other competen t authority. In
+instances where there is more than one position paper, the date of the earliest position paper shall be the
+date for Milestone 1.
+MAP Statistics reporting and publication
+17. In accordance with one of the elements of the Action 14 minimum stan dard8, the Terms of
+Reference9 require jurisdictions to provide timely and complete reporting of MAP statistics pursuant to an
+agreed template and reporting framework. This framework is described below:
+(i) Annex 3.A. is for the reporting and publication of MAP statistics relating to MAP requests that
+are not reported under Annex 3.B. (“pre-2016 cases”);
+(ii) Annex 3.B. which comprises Part (I) and Part (II) is for the reporting and publication of MAP
+statistics relating to MAP cases that are received by a compete nt authority from the taxpayer
+on or after 1 January 2016 (“post-2015 cases”); and
+(iii) Annex 3.C. and Annex 3.D. contain definitions of terms and the rules for counting MAP cases
+for the purposes of Annex 3.A. and Annex 3.B.
+18. A jurisdiction should report its MAP statistics in accordance with the reporting templates in Annex
+3.A. and Annex 3.B. for a calendar year by no later than 31 May of the following calendar year, for
+subsequent publication on the OECD website. Jurisdictions are to submit their first reports by 31 May 2017
+for the 2016 calendar year (also referred to as the 2016 reporting period). For the 2016 reporting period,
+Annex 3.B. will be published on an aggregated basis instead of on a jurisdiction specific basis.
+19. For new members that joined the Inclusive Framework after 2016, they are to submit their first
+reports by 31 May of the year following the year of their membership. For example, if a member joins the
+Inclusive Framework in 2017, it should submit its first report by 31 May 2018. In this first report, it should
+report MAP statistics relating to MAP cases that are received by a competent authority from the taxpayer
+on or after 1 January 2017 in Annex 3.B. (for “post-2016 cases”) and report in Annex 3.A. (“for pre-2017
+cases”) statistics relating to MAP requests not reported under Annex 3.B. In this regard, for members that
+joined the Inclusive Framework after 2016, all references to “pre -2016” in this note should be understood
+to mean “pre-year of membership” and all references to “post-2015” means “post-year preceding the year
+of membership”.
+Additional data reporting from the 2023 reporting year onwards
+20. The following data points need to be reported as from the 2023 reporting year onwards:

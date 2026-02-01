@@ -1,0 +1,122 @@
+---
+id: "beps-a14-peer-review-documents-oecd-en-pack-00"
+section_id: "beps-a14-peer-review-documents-oecd-en"
+section_title: "BEPS Action 14: peer review documents (Terms of Reference / Assessment Methodology) (OECD PDF)"
+page_start: 1
+page_end: 6
+pid_start: "p001"
+pid_end: "p006"
+para_count: 6
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "http://www.oecd.org/tax/beps/beps-action-14-on-more-effective-dispute-resolution-peer-review-documents.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-a14-peer-review-documents-oecd-en-pack-00.txt"
+---
+
+## p001 (beps-a14-peer-review-documents-oecd-en-p001, pages 1-1)
+BEPS Action 14 on More Effective
+Dispute Resolution Mechanisms
+PEER REVIEW DOCUMENTS
+January 2023
+
+## p002 (beps-a14-peer-review-documents-oecd-en-p002, pages 2-2)
+ 1
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+OECD/G20 Base Erosion and Profit Shifting Project
+BEPS Action 14 on More Effective Dispute
+Resolution Mechanisms – Peer Review
+Documents
+Updated December 2022
+PUBE
+
+## p003 (beps-a14-peer-review-documents-oecd-en-p003, pages 3-3)
+2 
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+This document, as well as any data and any map included herein, are without prejudice to the status of or sovereignty over
+any territory, to the delimitation of international frontiers and boundaries and to the name of any territory, city or area.
+This document was approved by the OECD/G20 Inclusive Framework on BEPS  on 14 December 2022 and prepared for
+publication by the OECD Secretariat.
+Please cite this publication as:
+OECD (2023), BEPS Action 14 on More Effective Dispute Resolution Mechanisms – Peer Review Documents, OECD/G20 Base Erosion and
+Profit Shifting Project , OECD, Paris . www.oecd.org/tax/beps/beps-action-14-on-more-effective-dispute-resolution-peer-review-
+documents.pdf.
+© OECD 2023
+The use of this work, whether digital or print, is governed by the Terms and Conditions to be found at www.oecd.org/termsandconditions
+
+## p004 (beps-a14-peer-review-documents-oecd-en-p004, pages 4-4)
+ 3
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+Table of contents
+Introduction 4
+1 Terms of Reference to monitor and review the implementing of the BEPS Action 14
+minimum standard to make dispute resolution mechanisms more effective 6
+2 Assessment Methodology for the monitoring and review of the implementation of
+the BEPS action 14 minimum standard to make dispute resolution mechanisms
+more effective  (updated December 2022) 18
+3 MAP Statistics Reporting Framework (updated December 2022) 48
+4 Guidance on Specific Information and Documentation Required to be Submitted
+with a Request for MAP Assistance 78
+
+## p005 (beps-a14-peer-review-documents-oecd-en-p005, pages 5-5)
+4 
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+Introduction
+The Action Plan on Base Erosion and Profit Shifting (“BEPS Action Plan”)1 identified 15 actions to address
+BEPS in a comprehensive manner. Recognising that the actions to counter BEPS must be complemented
+with actions that ensure certainty for taxpayers, Action 14 calls for effective dispute resolution mechanisms.
+In October 2015, the G20 Finance Ministers endorsed the BEPS package 2 which includes the report on
+Action 14: Making Dispute Resolution Mechanisms More Effective3 (“the 2015 Action 14 Report”) (OECD,
+2015[1]). This report contains a commitment by countries to implement a minimum standard to ensure that
+they resolve treaty-related disputes in a timely, effective and efficient manner. All members of the Inclusive
+Framework on BEPS4 (“Members”) commit to the implementation of the Action 14 minimum standard and
+to have their implementation reviewed pursuant to the Terms of Reference and Assessment Methodology
+agreed by Members.
+This compilation contains four documents, namely (i) the Terms of Reference; (ii) the Assessment
+Methodology; (iii) the Mutual Agreement Procedure (MAP) Statistics Reporting Framework; and (iv) the
+Guidance on Specific Information and Documentation Required to be Submitted with a Request for MAP
+Assistance.
+The Terms of Reference translates the Action 14 minimum st andard into 21 elements. These elements
+are complemented by 12 best practices. The best practices are not part of the minimum standard and thus
+will not affect the assessment of Members. The Terms of Reference assess a Member’s legal and
+administrative framework, including the practical implementation of this framework to determine how its
+MAP regime performs relative to the 21 elements in the following four key areas – (A) preventing disputes;
+(B) availability and access to MAP; (C) resolution of MAP cases ; and (D) implementation of MAP
+agreements.
+The Assessment Methodology establishes detailed procedures and guidelines for the Action 14 Peer
+Review and Monitoring process. The initial peer review process involves two stages. Stage 1 involves the
+review of a Member’s implementation of the minimum standard based on its legal framework for MAP and
+the application of this framework in  practice. Stage 2 involves the review of the measures taken by the
+Member to address any shortcomings identified in its Stage 1 Peer Review. Following these reviews, all
+Members would be subject to continued monitoring: jurisdictions that have “meaningful MAP experience”
+would undergo a full peer review process from 2024 once every four years and those that do not would
+undergo a two-stage simplified peer review process from 2023.
+The commitment by Members to implement the Action 14 minimum standard includes a commitment to
+provide timely and complete reporting of MAP statistics pursuant to an agreed reporting framework. The
+MAP Statistics Reporting Framework reflects a collaborative approach for the resolution of MAP cases
+through the adoption of common timeline for both competent authorities to resolve MAP cases. With effect
+from reporting period 2016, Members will report MAP stati stics based on common definitions of terms,
+common rules on counting of MAP cases; and common reporting of MAP outcomes based on different
+categories of outcomes.
+
+## p006 (beps-a14-peer-review-documents-oecd-en-p006, pages 6-6)
+INTRODUCTION  5
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+The Action 14 minimum standard also requires Members to publish MAP guidance that identify the specific
+information and documentation that a taxpayer is required to submit with a request for MAP assistance.
+Members should not limit access to MAP based on the argument that insufficient information was provided
+if the taxpayer has provided the required information. The Guidance on Specific Information and
+Documentation Required to be Submitted with a Request for MAP Assistance  could be used by
+Members in draw ing up their own MAP guidance and could also provide guidance to taxpayers in their
+preparation of a MAP submission.
+Reference
+OECD (2015), Making Dispute Resolution Mechanisms More Effective, Action 14 - 2015 Final
+Report, OECD/G20 Base Erosion and Profit Shifting Project, OECD Publishing, Paris,
+https://doi.org/10.1787/9789264241633-en.
+[1]
+Notes
+1 Available at https://doi.org/10.1787/9789264202719-en.
+2 Available at www.oecd.org/tax/beps-2015-final-reports.htm.
+3 Available a t www.oecd.org/tax/making-dispute-resolution-mechanisms-more-effective-action-14-2015-final-report-
+9789264241633-en.htm.
+4 Available at www.oecd.org/tax/beps/inclusive-framework-on-beps-composition.pdf.

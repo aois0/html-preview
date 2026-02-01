@@ -1,0 +1,76 @@
+---
+id: "beps-a14-peer-review-documents-oecd-en-pack-16"
+section_id: "beps-a14-peer-review-documents-oecd-en"
+section_title: "BEPS Action 14: peer review documents (Terms of Reference / Assessment Methodology) (OECD PDF)"
+page_start: 48
+page_end: 49
+pid_start: "p048"
+pid_end: "p049"
+para_count: 2
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "http://www.oecd.org/tax/beps/beps-action-14-on-more-effective-dispute-resolution-peer-review-documents.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-a14-peer-review-documents-oecd-en-pack-16.txt"
+---
+
+## p048 (beps-a14-peer-review-documents-oecd-en-p048, pages 48-48)
+ 47
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+ List of information and documentation required for a MAP request
+ Recommendations
+MAP profile
+ Whether the jurisdiction has published a MAP profile and if yes, date of last update
+ Brief evaluation if the MAP profile is complete and whether contents of MAP profile reflect reported
+practice
+ Recommendations
+4. MAP statistics
+ Whether the jurisdiction has submitted MAP statistics on time and has done matching of MAP
+statistics with treaty partners
+ Where the jurisdiction is involved in MAP cases, whether such juri sdiction has closed MAP cases
+within the targeted average timeframe of 24 months and whether the MAP statistics suggest that
+the jurisdiction has sufficient resources in its competent authority function
+ Recommendations
+5. Practical application of the Action 14 minimum standard
+ A brief review of the jurisdiction’s policy regarding MAP from the MAP guidance/MAP profile (in
+general as well as tailored to specific elements of the Terms of Reference  concerning transfer
+pricing cases, anti-abuse cases, audit settlements etc.) along with any practical application based
+on the jurisdiction’s reporting and the peer input received to see if policy/practice in general are in
+line with the Action 14 minimum standard
+ Recommendations
+
+## p049 (beps-a14-peer-review-documents-oecd-en-p049, pages 49-49)
+48 
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+Introduction
+1. The Report on Action 14: Making Dispute Resolution Mechanisms More Effective  (“the 2015
+Action 14 Report ”) (OECD, 2015[1]) was approved by the OECD Committee of Fiscal Affairs (“ CFA”) in
+September, presented to the OECD Council and endorsed by the G20 Finance Ministers on 8 October
+2015. This Report contained a commitment by countries engaged in the work to the implementation of a
+minimum standard to ensure that they resolve treaty -related disputes in a timely, effective and efficient
+manner and to have their compliance with the minimum standard reviewed by their peers – i.e. the other
+members of the Forum on Tax Administration MAP Forum (“the FTA MAP Forum”).
+2. One of the elements of the minimum standard 1 requires jurisdictions to seek to resolve mutual
+agreement procedure (“MAP”) cases within an average timeframe of 24 month s. To monitor compliance
+with this, jurisdictions’ progress toward meeting this target will be periodically reviewed on the basis of the
+statistics prepared in accordance with an agreed reporting framework. The 2015 Action 14 Report (OECD,
+2015[1]) explains that the reporting framework will include agreed milestones for the initiation and
+conclusion/closing of a MAP case, as well as other relevant stages of the MAP process. The minimum
+standard also requires jurisdictions to provide timely and complete reporting of MAP statistics, pursuant to
+the agreed reporting framework.
+3. The agreed reporting framework is set out in this note. Section II describes the MAP process to
+the extent it is relevant for MAP Statistics reporting purposes, in particular focusing on the relevant
+milestones. Section III sets out the statistics reporting templates for the reporting and publication of MAP
+case inventory and MAP outcomes, and the average time taken for each of the key stages of the  MAP
+process, including the definition of terms used.
+4. As part of the 2020 Review of the Action 14 minimum standard, the Inclusive Framework reviewed
+this reporting framework with a view to collecting additional data on the MAP process. Accordingly, it was
+agreed that jurisdictions would report the additional data points listed below as part of their annually
+reported MAP Statistics from the 2023 reporting year onwards. In line with the 2015 Action 14 report
+(OECD, 2015[1]), some of this additional data would facilitate a more in -depth review of jurisdictions’ MAP
+practices and would provide transparency with respect to each reporting jurisdiction’s MAP programme as
+well as a comprehensive picture of the overall state of the MAP in all of the reporting jurisdictions. However,
+due care has also been taken to avoid onerous reporting obligations and to only focus on additional data
+that would provide benefits without imposing excessive resource burdens. These additional data points
+are described in detail in Section IV below.
+3 MAP Statistics Reporting Framework (updated December 2022)

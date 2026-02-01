@@ -1,0 +1,23 @@
+# OECD/G20 BEPS（選抜） - テーマ別索引（人間/AI向け）
+
+NOTE（重要）
+- 本DBはモバイルAIの「1回のReadで先頭1万トークンのみ」制約を前提にしている。
+- したがって、AI用途では `docs_index.tsv` → `shards_index.json` → `shard TSV` → `packs` が基本。
+
+## 主要トピック（横断）
+
+典型キーワード（日本語）
+- CFC（外国子会社合算税制）
+- 支払利子 / 過大支払利子 / 利子損金算入制限
+- 無形資産 / DEMPE / 価値創造 / 事業再編
+- 相互協議 / MAP / 仲裁
+- ミニマムスタンダード（Action 5/6/13/14）
+
+典型キーワード（英字）
+- CFC / PE / MAP / APA / DEMPE / HTVI / MLI / PPT / LOB
+
+実務フロー（最短）
+1) `data/docs_index.tsv`（doc_id を選ぶ）
+2) `data/shards_index.json`（doc_id=section と shard の対応）
+3) `data/shards/shard-XXX.txt`（TSVを検索）
+4) `packs/...`（本文）

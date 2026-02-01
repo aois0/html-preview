@@ -1,0 +1,113 @@
+---
+id: "beps-min-standards-progress-2025-oecd-en-pack-06"
+section_id: "beps-min-standards-progress-2025-oecd-en"
+section_title: "Note on burden reduction in the BEPS minimum standards (2025) (OECD PDF)"
+page_start: 18
+page_end: 19
+pid_start: "p018"
+pid_end: "p019"
+para_count: 2
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "https://www.oecd.org/content/dam/oecd/en/topics/policy-issues/beps/note-on-burden-reduction-in-the-beps-minimum-standards.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-min-standards-progress-2025-oecd-en-pack-06.txt"
+---
+
+## p018 (beps-min-standards-progress-2025-oecd-en-p018, pages 18-18)
+ 17
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025
+List 3: regimes for possible further consideration by the FHTP
+For the purpose of visibility for the FHTP, certain regimes will be recorded in this separate list of the
+compilation, which is shared for information with the FHTP in advance of subsequent meetings.
+This list will include the following types of regimes:
+• Regimes identified under Step 1 that are out of the FHTP’s scope as a result of Step 2;
+• Regimes within the FHTP’s scope for which no BEPS impact assessment is undertaken (as a result
+of Step 3);
+• Regimes that were concluded as “not harmful” following a BEPS impact assessment under Step
+4;
+• Regimes that are subject to ongoing monitoring following a BEPS impact assessment under Step
+4;
+• Regimes that were previously con cluded as “potentially harmful but not actually harmful”,
+“disadvantaged areas” and “non-operational”;
+• Grandfathered non-IP regimes for which the transitional period has not yet ended;
+• IP regimes providing benefits to the third category of IP assets or the rebuttable presumption; and
+• Any other types of regimes the FHTP has decided to include in this list.
+Both Inclusive Framework members and the Secretariat may propose that a regime on this list be
+reconsidered for a BEPS impact assessment in accordance with Steps 3 and 4 at any subsequent moment
+in time. The brief description of the regime and details on the features and size of the jurisdiction offering
+the regime as mentioned in paragraph 0 will assist the FHTP in undertaking this reconsideration, as well
+as any new potential information that became available. The process in this regard is the same as for the
+initial identification of regimes, as set out under Step 1 and can be undertaken at any moment.
+In a similar regard, both Inclusive Framework members and the Secretariat may also propose that a regime
+on this list will be removed, e.g. because no BEPS risks have substantiated over a prolonged period of
+time. Such decision would be taken on a consensus basis by the FHTP.
+Step 4. BEPS impact assessment
+Once a regime has been identified and determined to be within the scope of the FHTP’s work, and the
+FHTP has decided to pursue a BEPS impact assessment, the Secreta riat will conduct an impact
+assessment of the regime in terms of its BEPS -risks, working with the concerned jurisdiction. Based on
+the outcome of the impact assessment, the FHTP will decide if the regime should be legislatively reviewed
+or not (under Step 5).
+The BEPS impact assessment is an assessment of the expected economic effects of the regime in terms
+of producing BEPS -risks for other jurisdictions. As such, the Secretariat will, inter alia, take into account
+the following factors for determining the impact of the regime in terms of BEPS-risks:
+• the primary objectives of the regime: e.g. if the regime is focussed on manufacturing activities, and
+not on geographically mobile activities, or if the regime only targets disadvantaged areas, the BEPS
+impact of the regime could be low;
+• the jurisdiction offering the regime: e.g. if the jurisdiction has a low GDP or is classified as a low -
+income economy by the World Bank, the BEPS impact of the regime could be low;
+• the number of taxpayers benefiting from the r egime (if available): e.g. if only a small number of
+taxpayers is benefitting from the regime, the BEPS impact of the regime could be low;
+• the total income subject to preferential tax treatment (if available): e.g. if only a small amount of
+income is benefitting from the regime, the BEPS impact of the regime could be low;
+• when the regime is a replacement regime of the previous regime, data from the previous regime
+and the FHTP’s previous experience; and
+
+## p019 (beps-min-standards-progress-2025-oecd-en-p019, pages 19-19)
+18 
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025
+• any other factor(s) or source of information deemed t o be relevant for the BEPS impact
+assessment, to be decided on a case-by-case basis.
+Based on the BEPS impact assessment, the Secretariat will propose one of the following three decisions
+to the FHTP:
+• Proceed with legislative review.
+When the assessment indicates that the regime could have a significant BEPS impact, the FHTP
+should undertake a legislative review of the regime, as described under Step 5. T he decision to
+that effect is taken by the FHTP on a consensus minus-one basis.
+• No legislative review.
+When the assessment indicates that the regime is not expected to have a significant BEPS impact,
+the FHTP would conclude its review by finding the regime “not harmful”. The decision to that effect
+is taken by the FHTP on a consensus basis. The regime will be included in the FHTP’s public lists
+of regimes as well as the list of regimes for possible further consideration by the FHTP (list 3).
+• No legislative review, but ongoing monitoring.
+When the assessment is either inconclusive or indicates that the regime could potentially, but does
+not currently have a significant BEPS impact, the FHTP would keep the regime “under review” and
+would annually monitor the regime for three years. The decision to that effect is taken by the FHTP
+on a consensus minus-one basis. The regime will be included in the FHTP’s public lists of regimes
+as well as the list of regimes for possible further consideration by the FHTP (list 3).
+If the FHTP cannot agree on the outcomes of the BEPS impact assessment, the dec ision will be deferred
+to the next FHTP meeting. In the meantime, the Secretariat will conduct further research into the regime
+and will work towards obtaining consensus (minus -one) amongst delegates on the decision to be taken.
+The regime will be kept “under review” and will be included in the FHTP’s public lists of regimes.
+Step 5. Legislative review
+Either upon request of the jurisdiction offering the regime, or as a result of the BEPS impact assessment
+under Step 4, the FHTP will undertake a legislative review of the regime. This is a review of the legislation
+of the regime against the FHTP’s criteria.
+The FHTP conducts its reviews of preferential regimes against a number of factors, originally set out in the
+1998 Report (OECD, 1998[3]), which laid the foundation for the OECD’s work on harmful tax practices,
+currently consist of five key factors and five other factors.
+Five key factors
+The regime imposes no or low effective tax rates on income from geographically
+mobile financial and other service activities.
+The regime is ring-fenced from the domestic economy.
+The regime lacks transparency.
+There is no effective exchange of information with respect to the regime.
+The regime fails to require substantial activities.2
+Five other factors
+An artificial definition of the tax base.
+Failure to adhere to international transfer pricing principles.
+Foreign source income exempt from residence country taxation.
+Negotiable tax rate or tax base.
+Existence of secrecy provisions.
+2 This includes the 2015 BEPS Action 5 Final Report (OECD, 2015[2]), the 2017 Progress Report (OECD, 2017[8]), and
+any guidance on substantial activities agreed by the FHTP and Inclusive Framework thereafter.

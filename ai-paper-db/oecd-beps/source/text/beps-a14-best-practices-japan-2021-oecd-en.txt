@@ -1,0 +1,916 @@
+---
+doc_id: "beps-a14-best-practices-japan-2021-oecd-en"
+title: "BEPS Action 14: peer review best practices - Japan (2021) (OECD PDF)"
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "https://www.oecd.org/tax/beps/beps-action-14-peer-review-best-practices-japan-2021.pdf"
+page_count: 29
+generated_at: "2026-02-01"
+---
+
+# Page 1
+ctp.beps@oecd.org
+For more information:
+@OECDtax
+Inclusive Framework on BEPS: Action 14 
+Making Dispute Resolution More Effective 
+MAP Peer Review Report
+BEST PRACTICES
+Japan
+2021
+http://oe.cd/bepsaction14
+
+# Page 2
+ 
+ 
+ 
+ 
+  
+ 
+ 
+      
+ 
+ 
+ 
+ 
+ 
+Inclusive Framework of BEPS: Action 14 
+Making Dispute Resolution More Effective 
+MAP Peer Review Report 
+ Japan  
+Best Practices (2021) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PUBE
+
+# Page 3
+2  CTPA/CFA/NOE2(2020)42 
+ 
+ 
+      
+This document, as well as any data and map included herein, are without prejudice to the status of or 
+sovereignty over any territory, to the delimitation of international frontiers and boundaries and to the name 
+of any territory, city or area. 
+ 
+Please cite this publication as: 
+OECD (2021), BEPS Action 14 MAP Peer Review Report Stage 2: Best Practices – Japan (2021), 
+OECD/G20 Inclusive Framework on BEPS, OECD, Paris. 
+http://www.oecd.org/tax/beps/beps-action-14-peer-review-best-practices-japan-2021.pdf 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Photo credits: Cover © Rawpixel.com - Shutterstock.com. 
+© OECD 2021 
+ 
+ 
+OECD freely authorises the use of this material for non-commercial purposes. All requests for commercial 
+use should be submitted to rights@oecd.org.
+
+# Page 4
+TABLE OF CONTENTS  3 
+ 
+INCLUSIVE FRAMEWORK OF BEPS: ACTION 14 MAKING DISPUTE RESOLUTION MORE EFFECTIVE MAP PEER REVIEW REPORT 
+© OECD 2021 
+      
+Table of contents 
+Abbreviations and Acronyms ................................................................................................................. 5 
+Introduction ........................................................................................................................................... 7 
+Part A  Preventing Disputes .................................................................................................................. 9 
+[BP.1] Implement bilateral APA programmes ................................................................................ 9 
+[BP.2] Publish mutual agreements of a general nature ................................................................. 11 
+[BP.3] Provide guidance on APAs ..................................................................................................... 11 
+[BP.4] Develop “global awareness” of the audit/examination functions ........................................... 13 
+Part B  Availability and access to MAP ............................................................................................. 15 
+[BP.5] Implement appropriate administrative measures to facilitate recourse to MAP ..................... 15 
+[BP.6] Provide access to MAP for bona fide taxpayer-initiated foreign adjustments ....................... 16 
+[BP.7] Provide guidance on multilateral MAPs ................................................................................. 16 
+[BP.8] Provide for suspension of collection procedures for pending MAP cases ............................. 17 
+Part C  Resolution of MAP Cases ....................................................................................................... 19 
+[BP.9] Permit taxpayers to request multi-year resolution of recurring issues through the MAP....... 19 
+[BP.10] Publish explanation of the relationship between the MAP and domestic remedies ............. 19 
+[BP.11] Provide guidance on consideration of interest and penalties in MAP .................................. 20 
+[BP.12] Include Article 9(2) of the OECD Model Tax Convention in tax treaties............................ 21 
+Part D  Implementation of MAP agreements .................................................................................... 23 
+Glossary ................................................................................................................................................ 27
+
+# Page 5
+
+
+# Page 6
+ABBREVIATIONS AND ACRONYMS  5 
+ 
+INCLUSIVE FRAMEWORK OF BEPS: ACTION 14 MAKING DISPUTE RESOLUTION MORE EFFECTIVE MAP PEER REVIEW REPORT 
+© OECD 2021 
+      
+ 
+Abbreviations and Acronyms 
+APA Advance Pricing Arrangement 
+BEPS Baser Erosion and Profit Shifting 
+FTA Forum on Tax Administration 
+MAP Mutual Agreement Procedure 
+OECD Organisation for Economic Co-operation and Development
+
+# Page 7
+
+
+# Page 8
+INTRODUCTION  7 
+ 
+INCLUSIVE FRAMEWORK OF BEPS: ACTION 14 MAKING DISPUTE RESOLUTION MORE EFFECTIVE MAP PEER REVIEW REPORT 
+© OECD 2021 
+      
+Introduction 
+The final report on BEPS Action 14: “Making Dispute Resolution Mechanisms More 
+Effective” identified a number of best practices related to the three general objectives of the 
+Action 14 Minimum Standard.  
+Paragraph 9 of the Terms of Reference to monitor and review the implement ation of the 
+BEPS Action 14 Minimum Standard to make dispute resolution mechanisms more effective1 
+stipulates that: 
+The best practices are not part of the minimum standard and whether or not  a 
+jurisdiction has implemented the best practices will not be peer reviewed or 
+monitored, nor will it affect the assessment of the assessed jurisdiction. Jurisdictions 
+are free, however, to identify best practices they have adopted. 
+Japan has provided information and requested feedback by peers on how it has adopted best 
+practices. In that regard, the FTA MAP Forum agreed on an optional best practices feedback 
+form that peers have used to provide feedback on Japan’s adoption of the best practices.  
+The peer review process on the implementation of the Action 14 Minimum Standard consists 
+of two stages: a peer review process (stage 1) and a peer monitoring process (stage 2). Stage 
+2 is launched within one year upon the adoption of the peer review report  by the BEPS 
+Inclusive Framework through an update report by Japan. This document contains a general 
+overview of the adoption of best practices and comments by peers on the adoption of these 
+best practices during stage 1 (period ranging from 1 January 2015 up to 31 December 2017) 
+and stage 2 (ranging from 1 January 2018 up to 31 August 2019).
+                                                      
+1  Terms of reference to monitor and review the implementing of the BEPS Action 14 Minimum Standard to make dispute resolution 
+mechanisms more effective (CTPA/CFA/NOE2(2016)45/REV1).
+
+# Page 9
+
+
+# Page 10
+PART A: PREVENTING DISPUTES  9 
+ 
+INCLUSIVE FRAMEWORK OF BEPS: ACTION 14 MAKING DISPUTE RESOLUTION MORE EFFECTIVE MAP PEER REVIEW REPORT 
+© OECD 2021 
+      
+Part A 
+ 
+Preventing Disputes 
+[BP.1] Implement bilateral APA programmes 
+Jurisdictions should implement bilateral APA programmes. 
+1. APAs concluded bilaterally between competent authorities provide an increased level 
+of certainty in both jurisdictions, lessen the likelihood of double taxation and may proactively 
+prevent transfer pricing disputes.    
+2. Japan reported that it has implemented an APA programme, which it has run since 
+1987 and which allows unilateral, bilateral and multilateral APAs. These types of APAs can 
+be applied both for determining the arm’s length price of transactions between associated 
+enterprises and for the attribution of profits to permanent establishments. As will be discussed 
+in more detail under element BP.3, Japan has included in chapter 6 of the Commissioner’s 
+Directive on the operation of transfer pricing (‘ Transfer Pricing Directive ’) detailed 
+information on its APA programme. 
+3. Further to the above, Japan noted that in addition to its APA programme, the Regional 
+Taxation Bureaus  of the National Tax Agency  have since June 2017 started accepting  
+enquiries from taxpayers in relation to transfer pricing documentation. This programme has 
+specifically been introduced to ensure and enhance taxpayers’ voluntary tax compliance, also 
+with a view to further prevent disputes.  
+4. Where it concerns unilateral APAs, the competence to handle APA requests is 
+assigned to the National Tax Agency, and sub -mandated to the R egional Commissioner 
+Large Enterprise Examination Division of the Regional Taxation Bureau, or t o the District 
+Director of the Examination Group (Corporation) of the Tax Office, such dependent on which 
+department has jurisdiction over the taxpayer submitti ng the APA request. 2 Contact details 
+for each department are made available online in Japanese and can be found at: 
+https://www.nta.go.jp/taxes/shiraberu/sodan/kobetsu/itenkakakuzeisei/03.htm 
+https://www.nta.go.jp/about/organization/index.htm 
+5. Where an APA request concerns a bilateral or multilateral APA, it is the Regional 
+Tax Bureau’s Large Enterprise Examination Division that will conduct the initial review of 
+the APA request. However, where such a request is made under the MAP provision of a tax 
+treaty, it is MAP office that will – in co-operation with the Regional Tax Bureau – further 
+                                                      
+2  See chapter 6, section 2 of the Transfer Pricing Directive.
+
+# Page 11
+10  PART A: PREVENTING DISPUTES 
+ 
+INCLUSIVE FRAMEWORK OF BEPS: ACTION 14 MAKING DISPUTE RESOLUTION MORE EFFECTIVE MAP PEER REVIEW REPORT 
+© OECD 2021 
+      
+handle the request and conduct negotiations with the treaty partner. 3 In this respect, Japan 
+noted that next to the request for a bilateral or multilateral APA, taxpayers are also required 
+to submit a MAP request on the basis of the MAP guidance (see element B.8  of the peer 
+review report for a discussion). 
+6. In relation to the filing of an APA request, Japan reported it encourages taxpayers to 
+have a pre -filing consultation with the competent department, such with a view to have a 
+common understanding of the request, to assist taxpayers in submitting the required 
+documentation efficiently and to expedite the APA process.4 Japan further reported that there 
+are no specific timelines for filing of APA requests and that no fees are charged to taxpayers. 
+However, an APA request needs to be filed on or before the commencing date of the first 
+taxable year for which the request is made. Where an APA request relates to fisca l years 
+2021-2024, the request thus has to be submitted on or before 1 January 2021. Typically, Japan 
+applies APAs for a period of three to five years.5  
+7. In view of the above, Japan annually publishes statistics relating to APAs on the 
+website of the National Tax Agency since 2006. These statistics can be found at (in English):6 
+https://www.nta.go.jp/english/map_report/index.htm 
+8. These statistics inter alia relate to the number of APA requests received, the number 
+of cases closed and the inventory of pending APA cases as per year-end. For calendar years 
+2014-2019 Japan reported the following statistics:7 
+Year Number bilateral 
+APA requests 
+Number of APAs 
+granted 
+Inventory per year-
+end 
+2014 157 147 302 
+2015 161 106 357 
+2016 122 116 363 
+2017 157 152 368 
+2018 163 134 397 
+2019 110 115 392 
+9. Three peers provided input on this best practice. The first peer reported that Japan 
+has a well -developed bilateral APA programme. The second peer noted that it appreciates 
+Japan’s long-standing commitment to APAs, as being the most direct and viable means  for 
+preventing MAP cases and also to provide taxpayers with certainty. In this peer’s view the 
+commitment to concluded APAs with a meaningful level of prospectively is a best practice 
+that underlies the valuable promise of APAs to provide taxpayers with certainty on a going-
+forward basis. In that regard, the peer respectfully welcomed additional discussions with 
+Japan’s competent authority in a co-operative and collaborative manner. Lastly, the third peer 
+echoed the previous input and noted it has a very positive relationship with Japan’s competent 
+authority, whereby contacts are considered easy and frequent, as also that Japan’s competent 
+authority provides quick responses. Such contacts take place in various manners such as e -
+mail, letters and face-to-face meetings, whereby meetings are scheduled once or twice a year. 
+                                                      
+3  See chapter 6, section 12/13 of the Transfer Pricing Directive. 
+4  See chapter 6, section 10 of the Transfer Pricing Directive. 
+5  See chapter 6, section 7 of the Transfer Pricing Directive. 
+6  Statistics on APAs are also available in the annual report of the National Tax Agency. For 2018, these statistics are available in 
+Part III-3(4). Available at: http://www.nta.go.jp/english/Report_pdf/2018e_06.pdf. 
+7  The numbers reported in the table deviate slightly from the numbers included in the annual report issued by Japan’s National Tax Agency 
+due to the fact that in the latter the basis is the fiscal year, which in Japan runs from 1 July to 30 June.  Further, the numbers reported for 
+the year involves the period until 31 August 2019.
+
+# Page 12
+PART A: PREVENTING DISPUTES  11 
+ 
+INCLUSIVE FRAMEWORK OF BEPS: ACTION 14 MAKING DISPUTE RESOLUTION MORE EFFECTIVE MAP PEER REVIEW REPORT 
+© OECD 2021 
+      
+This peer further mentioned that in all pending MAP cases with Japan progress is made in a 
+reasonable time. 
+[BP.2] Publish mutual agreements of a general nature   
+Jurisdictions should have appropriate procedures in place to publish agreements reached by 
+competent authorities on difficulties or doubts arising as to the interpretation or application 
+of their tax treaties in appropriate cases. 
+10. Agreements reached by competent authorities to resolve difficulties or doubts arising 
+as to the interpretation or application of their tax treaties in relation to issues of a general 
+nature which concern, or may concern, a category of taxpayers reflect the competent 
+authorities’ mutual understanding of the m eaning of the convention and its terms. As such 
+agreements provide information that might be useful to prevent difficulties or doubts in the 
+interpretation or application of tax treaty provisions, publication of these agreements is 
+valuable.  
+11. Japan reported that it publishes agreements reached on difficulties or doubts arising 
+as to the interpretation or application of their tax treaties by the competent authorities. These 
+publications can be found on the website of Japan’s Ministry of Finance (in English) or of 
+the National Tax Agency (in Japanese) and are available at:  
+https://www.mof.go.jp/english/tax_policy/tax_conventions/press_release/index.htm 
+https://www.nta.go.jp/taxes/shiraberu/kokusai/sonota/index.htm 
+12. In relation to the above, and as an example, Japan published mutual agreements 
+reached with Portugal (2013) and the United States (2005).8   
+13. Peers did not provide input relating to this particular best practice.  
+1.1. [BP.3] Provide guidance on APAs 
+Jurisdictions’ published MAP guidance should provide guidance on APAs. 
+14. Guidance on a jurisdiction’s APA programme facilitates t he use of that programme 
+and creates awareness for taxpayers on how the APA process functions. As APAs may also 
+prevent future disputes from arising, including information on APAs in a jurisdiction’s MAP 
+guidance is relevant. 
+15. As previously mentioned under element BP.1, Japan has implemented an APA 
+programme and has issued specific guidance in relation to this programme in the form of the 
+Transfer Pricing Directive. This guidance in relation to APA procedure was lastly updated 
+on 16 February 2018 and is available online and can be found at (in English): 
+http://www.nta.go.jp/english/07.pdf 
+16. This guidance includes information on: Japan’s policy in respect of APAs, when and 
+by whom an APA can be requested,  the governmental department competent to handle APA 
+                                                      
+8  The agreement with Portugal is published in English and is available at: 
+http://www.mof.go.jp/english/tax_policy/tax_conventions/press_release/20131206pt.htm.
+
+# Page 13
+12  PART A: PREVENTING DISPUTES 
+ 
+INCLUSIVE FRAMEWORK OF BEPS: ACTION 14 MAKING DISPUTE RESOLUTION MORE EFFECTIVE MAP PEER REVIEW REPORT 
+© OECD 2021 
+      
+requests, the list of information that taxpayers have to submit alongside the APA request, the 
+period covered by an APA, how the process for obtaining an APA will be conducted, 
+organisation of a pre-filing meeting, the relationship with the mutual agreement procedure, 
+the implementation of an APA and the effect thereof, the submission of an annual APA report 
+by taxpayers, the possibility to amend, renew or cancel an APA, and the possibility of 
+applying APAs to previous fiscal years (roll-back).  
+17. For corporations for which the consolidated taxation system applies, Japan has issued 
+specific APA guidance in the Commissioner’s Directive on the operation of transfer pricing 
+for consolidated corporations ( in relation  to APA procedure , lastly updated in February  
+2018).9 This guidance is available online and can be found at (in Japanese): 
+http://www.nta.go.jp/law/jimu-unei/hojin/050428/05.htm 
+18.  Furthermore, Japan also provides guidance on APAs in relation to the attribution of 
+profits to permanent establishments in the following documents: 
+ For domestic and foreign corporations : chapters 6 and 7 of the Commissioner’s 
+Directive on the operation of auditing, etc. for income attributable to permanent 
+establishments (in relation to APA procedure, lastly updated in February 2018). The 
+information is available at (in Japanese): 
+http://www.nta.go.jp/law/jimu-unei/hojin/160630/06.htm 
+http://www.nta.go.jp/law/jimu-unei/hojin/160630/07.htm; 
+  For domestic consolidated corporations 10 : chapter 5 of the Commissioner’s 
+Directive on the operation of auditing, etc. for consolidated income attributable to 
+consolidated corporation’s permanent establishments located overseas (in relation to 
+APA procedure, lastly updated  in February 2018). The information is available at (in 
+Japanese): 
+http://www.nta.go.jp/law/jimu-unei/hojin/160630_2/05.htm; 
+ For (resident and non-resident) individuals11: chapters 5 and 6 of the Commission’s 
+Directive on the operation of a uditing, etc. for various income attributable to 
+individual’s permanent establishments (issued on 31 March 2017). The information 
+is available at (in Japanese): 
+http://www.nta.go.jp/law/jimu-unei/shotoku/shinkoku/170331/05.htm 
+http://www.nta.go.jp/law/jimu-unei/shotoku/shinkoku/170331/06.htm 
+19.  While the documents mentioned in paragraphs 17 and 18 are issued for specific 
+subjects, Japan reported that the content of the APA guidance included in these documents 
+does not substantially deviate from the general APA guidance discussed in paragraphs 15 
+and 16 above, but are separately issued to provide clarity for each category of taxpayers. 
+20. In addition to the above, Japan has also included information on its APA programme, 
+particularly on bilateral and multilateral APAs in several sections of the Commissioner’s 
+Directive on the mutual agreement procedure (“MAP guidance”) – (e.g. sections 6(2), 13(3), 
+                                                      
+9  As defined in item 12-7-2 of Article 2 of the Corporations Tax Act 
+10  As defined in item 3 of Article 2 of the Corporations Tax Act.  
+11  As defined in items 3 and 5 of Article 2(1) of the Income Tax Act.
+
+# Page 14
+PART A: PREVENTING DISPUTES  13 
+ 
+INCLUSIVE FRAMEWORK OF BEPS: ACTION 14 MAKING DISPUTE RESOLUTION MORE EFFECTIVE MAP PEER REVIEW REPORT 
+© OECD 2021 
+      
+24 and 25) and the Guidance for taxpayers on the mutual agreement procedure Q&A (“Q&A 
+on MAP”). These are available at (in English):  
+http://www.nta.go.jp/english/00.pdf 
+http://www.nta.go.jp/english/03.pdf 
+21. Japan reported that it has carried out an update to its Transfer Pricing Directive in 
+February 2018 in respect of (i) the procedure applicable where taxpay ers are required to 
+submit additional information and (ii) the procedure applicable where the APA process is 
+deferred or closed in exceptional cases. Accordingly, corresponding updates were also made 
+to the Commissioner’s Directives mentioned above in respect of specific taxpayers. 
+22. Peers did not provide input relating to this particular best practice. 
+[BP.4] Develop “global awareness” of the audit/examination functions 
+Jurisdictions should develop the “global awareness” of the audit/examination functions 
+involved in international matters through the delivery of the Forum on Tax Administration’s 
+“Global Awareness Training Module” to appropriate personnel. 
+23. Making audit/examination function of tax administrations that are involved in 
+international matters aware of: (i) the potential for creating double taxation, (ii) the impact of 
+a proposed adjustment on the tax base of one or more jurisdictions and (iii) the process and 
+principles by which competing juridical claims are reconciled by competent authorities, may 
+be useful to prevent disputes from arising. Using the Global Awareness Training Module 
+developed by the Forum on Tax Administration (FTA) can be helpful in this respect. 
+24. Japan reported that the National Tax Agency provides training to officials in 
+audit/examination functions through its National Tax College. This college provides trainings 
+to learn these officials about relevant tax laws and auditing skills. In relation to dispute 
+resolution, two training programmes are relevant: 
+ International Training Course: a four month course that aims at providing officials 
+basic knowledge and advance expertise concerning examinations of international 
+transactions and other practical work concerning international taxation. 12 In more 
+detail, the curriculum of the course consist of teaching : (i) international tax laws 
+(including tax treaties), (ii) examination methods for international transactions and 
+(iii) rules and practices concerning international trade; and 
+ Corresponding training courses : part of these courses concerns International 
+Taxation I and II, which aim at providing officials with knowledge and skills in the 
+field of international taxation.13 The training consists of assignments as a preparation 
+to the course and several days of lecture.  
+25. Further to the a bove, Japan reported that each division of the Regional Taxation 
+Bureaus organises one day or short-term training sessions for auditors. An example hereof is 
+the transfer pricing division, which gives trainings to all auditors in that division to update 
+their knowledge in light of recent modifications of the OECD Transfer Pricing Guidelines, 
+                                                      
+12  See for information in English: http://www.nta.go.jp/about/organization/ntc/english/education/08_international.htm.  
+13  See for information in English:  http://www.nta.go.jp/about/organization/ntc/english/education/11_courses.htm..
+
+# Page 15
+14  PART A: PREVENTING DISPUTES 
+ 
+INCLUSIVE FRAMEWORK OF BEPS: ACTION 14 MAKING DISPUTE RESOLUTION MORE EFFECTIVE MAP PEER REVIEW REPORT 
+© OECD 2021 
+      
+domestic laws and directives. In addition, Japan noted that t he essence of the Global 
+Awareness Training Module is shared among auditors through those trainings.  
+26. One peer provided input on this best practice and mentioned that Japan has been a 
+committed partner within the FTA MAP Forum as also in the FTA’s Large Business 
+Programme with a view to raise awareness of the principles of the Global Awareness Training 
+Module at the level of its examination function and at the competent authority level. To this 
+the peer added that it also appreciates the willingness of Japan’s competent authority to 
+discuss the use of “reference sets” of comparable companies in cases presenting common fact 
+patterns and transfer pricing issues. In this peer’s view such reference sets provide for a useful 
+tool for the efficient and consistent resolution of MAP/APA cases with Japan’s competent 
+authority. In that regard it appreciates the opportunity to discuss these reference sets and other 
+ideas with Japan with a view to improve current practices concerning the resolution of cases.
+
+# Page 16
+PART B: AVAILABILITY AND ACCESS TO MAP  15 
+ 
+INCLUSIVE FRAMEWORK OF BEPS: ACTION 14 MAKING DISPUTE RESOLUTION MORE EFFECTIVE MAP PEER REVIEW REPORT 
+© OECD 2021 
+      
+ Part B 
+ 
+Availability and access to MAP 
+[BP.5] Implement appropriate administrative measures to facilitate recourse to MAP 
+Jurisdictions should implement appropriate administrative measures to facilitate recourse to 
+the MAP to resolve treaty-related disputes, recognising the general principle that the choice 
+of remedies should remain with the taxpayer.  
+27. Under Article 25(1) of the OECD Model Tax Convention, the mutual agreement 
+procedure is a dispute settlement procedure in annex to domestic available remedies and not 
+a substitute for such remedies. Reference is made to inter alia paragraph 7 of the Commentary 
+to Article 25 of the OECD Model Tax Convention, which specifies that the right to submit a 
+MAP request is available to taxpayers without depriving them of the ordinary legal remedies 
+available. Facilitating recourse to the MAP through appropriate administrative measures, 
+under the general principle that the choice of remedies remains with taxpayers, enables them 
+to effectively resort to such dispute settlement procedure.    
+28. Where a taxpayer does not agree with an action take n by the competent department 
+of the National Tax Agency, it can submit within three months as from the date of that action 
+request for a re -examination with the Regional Commissioner of the Regional Taxation 
+Bureau, or the District Director of the Tax Off ice, such dependent on which of the 
+departments holds competence over the particular taxpayer. Alternatively and also within 
+three months, the taxpayer can request for a reconsideration of the action at the level of the 
+National Tax Tribunal. In both insta nces, a decision should be taken within three months. 
+Where re -examination decision is dissatisfactory to the taxpayer, the latter can ask for a 
+review by the National Tax Tribunal within one month after the ruling. After having run 
+through these administrative procedures, taxpayers are allowed to lodge an appeal at Japan’s 
+domestic courts within a period of six months.  
+29. In view of the above, Japan reported that taxpayers are for a particular dispute allowed 
+to request MAP assistance and at the same time seek to resolve the dispute via domestically 
+available judicial and administrative remedies. This is also in the situation where the specific 
+case under review has already been decided via these remedies, but in that situation, Japan’s 
+competent authority wi ll abide by that decision in its MAP discussions with the other 
+competent authority concerned. Furthermore, n o fees are charged to taxpayers when 
+submitting a MAP request, or when requesting for a pre -filing meeting before submitting a 
+MAP request. 
+30. Article 12 of Japan’s Ministerial Ordinance on the Enforcement of the Act on Special 
+Provisions of the Income Tax Act, the Corporation Tax Act and the Local Tax Act regarding 
+the application of tax treaties defines the legal basis upon which taxpayers can submit a MAP
+
+# Page 17
+16  PART B: AVAILABILITY AND ACCESS TO MAP 
+ 
+INCLUSIVE FRAMEWORK OF BEPS: ACTION 14 MAKING DISPUTE RESOLUTION MORE EFFECTIVE MAP PEER REVIEW REPORT 
+© OECD 2021 
+      
+request. This article does not contain any limitation on the scope of application of MAP, thus 
+also not in relation to the interaction with domestic remedies.  
+31. Peers did not provide input relating to this particular best practice. 
+[BP.6] Provide access to MAP for bona fide taxpayer-initiated foreign adjustments  
+Jurisdictions’ published MAP guidance should provide that taxpayers will be allowed access 
+to the MAP so that the competent authorities may resolve through consultation the double 
+taxation that can arise in the case of bona fide taxpayer-initiated foreign adjustments. 
+32. A taxpayer-initiated foreign adjustment is considered bona fide where it reflects the 
+good faith effort of the taxpayer to report correctly, timely and properly the adjusted taxable 
+income from a controlled transaction or the profits attributable to a permanent establishment 
+with a view to reflect an arm’s length result, and where the taxpayer has otherwise timely 
+and properly fulfilled all of its obligations related to such taxable income or profits under the 
+laws of the treaty partners. As such taxpayer-initiated foreign adjustments may lead to cases 
+of double taxation, it is relevant that there is access to MAP for resolving these cases. 
+Furthermore, specifying whether there is access to the MAP for these adjustments in a 
+jurisdiction’s MAP guidance also provides additional clarity.  
+33. Japan reported that generally it allows taxpayers to request MAP in case of bona fide 
+taxpayer-initiated foreign adjustments . Whether for an indi vidual case access to MAP is 
+granted, however, depends on the facts and circumstances of the individual case. 
+34. Article 12 of Japan’s Ministerial Ordinance on the Enforcement of the Act on Special 
+Provisions of the Income Tax Act, the Corporation Tax Act and the Local Tax Act regarding 
+the application of tax treaties defines the legal basis upon which taxpayers can submit a MAP 
+request. This article does not contain any limitation on the scope of application of MAP, thus 
+also not in relation to cases concerni ng bona fide taxpayer -initiated foreign adjustments . 
+Japan’s MAP guidance, in note 2 attached to section 3(1)(a), confirms that access to MAP 
+may be granted in such cases, where eligible. Further, the response to question 2.10 of Japan’s 
+Q&A on MAP include s examples for which cases taxpayers can submit a MAP request, 
+which also includes such cases.14  
+35. Peers did not provide input relating to this particular best practice. 
+[BP.7] Provide guidance on multilateral MAPs 
+Jurisdictions’ published MAP guidance should provide guidance on multilateral MAPs.  
+36. In recent years, globalisation has created unique challenges for existing tax treaty 
+dispute resolution mechanisms. Whilst the mutual agreement procedure provided for in 
+Article 25 of the OECD Model Tax Convention has traditionally focused on the resolutio n 
+of bilateral disputes, phenomena such as the adoption of regional and global value chains as 
+well as the accelerated integration of national economies and markets have emphasised the 
+need for effective mechanisms to resolve multi -jurisdictional tax disputes. In that regard, it 
+                                                      
+14  Available in English at: http://www.nta.go.jp/english/03.pdf.
+
+# Page 18
+PART B: AVAILABILITY AND ACCESS TO MAP  17 
+ 
+INCLUSIVE FRAMEWORK OF BEPS: ACTION 14 MAKING DISPUTE RESOLUTION MORE EFFECTIVE MAP PEER REVIEW REPORT 
+© OECD 2021 
+      
+is for clarity purposes relevant that jurisdiction’s MAP guidance includes information on 
+availability of and access to multilateral MAPs.  
+37.  Japan’s MAP guidance, in note 1 attached to Section 3(1)(a), states that domestic 
+corporations may initiate multilateral MAP discussions by filing separate requests with 
+regard to each of the treaties involved based on the location of the associated enterprises . 
+Further, the response to question 2.10 of Japan’s Q&A on MAP  specifies that MAP is 
+available in such cases.  
+38. Peers did not provide input relating to this particular best practice. 
+[BP.8] Provide for suspension of collection procedures for pending MAP cases 
+Jurisdictions should take appropriate measures to provide for a suspension of colle ctions 
+procedures during the period a MAP case is pending. Such a suspension of collections should 
+be available, at a minimum, under the same conditions as apply to a person pursuing a 
+domestic administrative or judicial remedy.  
+39. If, following an adjustment taxpayers immediately have to pay the tax due, whereas 
+the same amount was already paid to the tax administration of the other jurisdiction involved, 
+double taxation will in fact occur. As taxpayers may then face significant cash -flow issues, 
+at least for the period the MAP case is pending, it is relevant that jurisdictions provide for 
+suspension of collection procedure for this period under at least the same conditions as 
+available for domestic remedies. 
+40. Japan reported that taxpayers can ask for  the suspension of tax collection for the 
+period a MAP case is pending and insofar it concerns a case concerning the allocation of 
+profits between associated enterprises. The relevant rules in relation her eto are included in 
+Article 66-4-2 of the Act on Sp ecial Measures Concerning Taxation, which stipulates that 
+where a taxpayer has submitted a MAP request to either Japan’s competent authority or the 
+competent authority of its treaty partner, the National Tax Agency may – upon request by the 
+taxpayer – grant a suspension of tax collection for the tax due for which a MAP request is 
+submitted.15 The period for which such suspension is granted ranges from the date on which 
+the taxation in question  becomes due and payable (or on the date where a request for 
+suspension is submitted if this is later) and ends one month after the date on which the MAP 
+agreement is implemented in Japan. Where no MAP agreement is entered into, the suspension 
+is granted until one month from the date the Commissioner’s notification to the taxpayer of 
+the fact that the MAP case is closed. Furthermore, under the domestic rules the suspension 
+of tax collection may be cancelled when the taxpayer: (i) has withdrawn its MAP request, (ii) 
+does not co -operate in providing documents necessary for MAP discussions, (iii) is found 
+unable to pay the tax due, (iv) does not issue a security deposit, (v) has any new delinquent 
+national tax due other  than taxes  related to the suspension of tax collection, or (iv) is found 
+inappropriate to be granted a suspension of tax collection.  
+41. Furthermore, section 43 of Japan’s MAP guidance includes detailed information on 
+the possibility for taxpayers to obtain a suspension of tax collection for the period a MAP is 
+pending, the conditions under which the request for such a suspension are granted, what steps 
+taxpayers need to take when filing a request hereto and the process for granting the requested 
+                                                      
+15  The relevant rules to calculate the tax due are included in Article 39 -12-2(1) and 39-112-2(1) of the Order for Enforcement 
+of the Act on Special Measures concerning taxation.
+
+# Page 19
+18  PART B: AVAILABILITY AND ACCESS TO MAP 
+ 
+INCLUSIVE FRAMEWORK OF BEPS: ACTION 14 MAKING DISPUTE RESOLUTION MORE EFFECTIVE MAP PEER REVIEW REPORT 
+© OECD 2021 
+      
+suspension.16 In this respect, section 43 specifies the following requirements  to be fulfilled 
+before a suspension of tax collection will be granted: 
+ The taxpayer is subject to taxation in Japan as listed in the specific provisions; 
+ The taxpayer has submitted a MAP request; 
+ The amount of tax due is the subject of the consideration with a treaty partner in 
+MAP; 
+ The taxpayer does not have any delinquent national taxes other than taxes related to 
+the suspension of tax collection; and 
+ The taxpayer deposited a security equivalent to the amount for which a suspension of 
+tax collection is requested.  
+42. Further, a summary of the above provisions, in easy-to-read language, has been added 
+to Japan’s Q&A on MAP in Q 4-1 to Q 4-10 under the title ‘Grace of tax payment related to 
+transfer pricing taxation’. 
+43. Peers did not provide input relating to this particular best practice. 
+                                                      
+16  Available in English at: http://www.nta.go.jp/english/03.pdf.
+
+# Page 20
+PART C: RESOLUTION OF MAP CASES  19 
+ 
+INCLUSIVE FRAMEWORK OF BEPS: ACTION 14 MAKING DISPUTE RESOLUTION MORE EFFECTIVE MAP PEER REVIEW REPORT 
+© OECD 2021 
+      
+ Part C 
+ 
+Resolution of MAP Cases  
+[BP.9] Permit taxpayers to request multi-year resolution of recurring issues through 
+the MAP 
+Jurisdictions should implement appropriate procedures to permit, in certain cases and after 
+an initial tax assessment, requests made by taxpayer which are within the time period 
+provided for in the tax treaty for the multi -year resolution through the MAP of recurring 
+issues with respect to filed tax years, where the relevant facts and circumstances are the same 
+and subject to the verification of such facts and circumstances on audit.  
+ 
+44. In certain cases, a MAP request with respect to a specific adjustment to income may 
+present recurring issues that may be relevant in previous or subsequent tax years. Allowing 
+taxpayers to submit requests for the multi-year resolution through MAP with respect to such 
+recurring issues, where the relevant facts and circumstances are the same, may help avoid 
+duplicative MAP requests and facilitate a more efficient use of competent authority 
+resources.  
+45. Japan reported it allows taxpayers to request the  multi-year resolution of recurring 
+issues through the MAP  where the facts and circumstances of the case remained the same 
+and insofar the case concerns the application of the arm’s length principle for profit allocation 
+between associated enterprises and the attri bution of profits to permanent establishments. 
+Japan specified that a MAP agreement concerning an initial tax assessment can be prolonged 
+to subsequent fiscal years via a bilateral APA. To this end, taxpayers need to submit a MAP 
+request for the initial tax assessment alongside an APA request (including a roll-back request) 
+for the current and subsequent fiscal years.  
+46. Japan’s MAP guidance, in note 1 attached to Section 3( 2), states that for the multi -
+year resolution of cases, the taxpayer must file a MAP r equest for the present year and an 
+APA request for future years. 
+47. Peers did not provide input relating to this particular best practice. 
+[BP.10] Publish explanation of the relationship between the MAP and domestic 
+remedies 
+Jurisdictions should publish an ex planation of the relationship between the MAP and 
+domestic law administrative and judicial remedies.
+
+# Page 21
+20  PART C: RESOLUTION OF MAP CASES 
+ 
+INCLUSIVE FRAMEWORK OF BEPS: ACTION 14 MAKING DISPUTE RESOLUTION MORE EFFECTIVE MAP PEER REVIEW REPORT 
+© OECD 2021 
+      
+48. As mentioned under BP.5, pursuant to Article 25(1) of the OECD Model Tax 
+Convention taxpayers are allowed to submit a MAP request irrespective of available domestic 
+remedies. This, however, does not further specify how to proceed if both available remedies 
+are initiated and the case is dealt with in the bilateral phase of the MAP. Publicly available 
+guidance on the relationship between the MAP and domestic r emedies provides clarity to 
+taxpayers as well as treaty partners. 
+49. Japan included information on the relationship between MAP and domestic law 
+administrative and judicial remedies in the note attached to section 3(1) of its MAP guidance. 
+This note clearly stipulates that taxpayers are allowed to submit a MAP request under a tax 
+treaty, such regardless of the fact whether the taxpayer  (or its foreign affiliated person)  has 
+initiated administrative or judicial remedies in respect of the taxes that are subject of the MAP 
+request. The same information is included in the response to question 2.11 of the Q&A on 
+MAP. This response further specifies that where the court in Japan has already decided on a 
+case, its competent authority will follow that decision in its MAP negotiations with the other 
+competent authority concerned. The response to question 2.8 of this Q&A further specifies 
+that no fees are charged to taxpayers when submitting a MAP request. Furthermore, section 
+5(1) of the MAP guidance notes that taxpayers  can ask for a pre -filing meeting before 
+submitting a MAP request. The response to question 2.3 of the Q&A on MAP also includes 
+information hereon.  
+50. One peer provided input on this best practice. It noted that in its experience Japan’s 
+competent authority has continuously made robust efforts to facilitate the opportunity for 
+taxpayers to make use of MAP to avoid, or otherwise reduce, instances of double taxation. 
+However, the peer also shared the view that in its belief taxpayers and competent authorities 
+would benefit from enhanced efforts by Japan’s competent authority to provide guidance to 
+taxpayers concerning those situations where, in its view, the application of Japan’s domestic 
+law forestalls reliance on MAP to eliminate cases of double taxation. To this the peer added 
+that it respectfully welcomes additional discussions with Japan’s competent authority on the 
+scope within which such situations should occur and on the best practices for addressing them 
+in a collaborative and co-operative manner. 
+[BP.11] Provide guidance on consideration of interest and penalties in MAP 
+Jurisdictions’ published MAP guidance should provide guidance on the consideration of 
+interest and penalties in the mutual agreement procedure.  
+51. As interests and penalties may concern su bstantial amounts, providing clarity in a 
+jurisdiction’s MAP guidance on whether interest and penalties are in the scope of the MAP 
+is relevant to ensure that a taxpayer is well-informed on this issue.  
+52. Japan reported it does not take interest and/or penalties into consideration in MAP. 
+However, where a MAP agreement requires an adjustment to be made in Japan, leading to a 
+reduction of the taxable income, then Japan will reduce interest and/or penalties in proportion 
+to such an adjustment on the moment of implementing the MAP agreement. Japan’s position 
+on the consideration of interest and penalties in MAP , that the competent authority would 
+explain to the taxpayer the application of interests and penalties to the MAP agreement,  is 
+discussed in the note attached to Section 16(1) of the MAP guidance. 
+53. Peers did not provide input relating to this particular best practice.
+
+# Page 22
+PART C: RESOLUTION OF MAP CASES  21 
+ 
+INCLUSIVE FRAMEWORK OF BEPS: ACTION 14 MAKING DISPUTE RESOLUTION MORE EFFECTIVE MAP PEER REVIEW REPORT 
+© OECD 2021 
+      
+[BP.12] Include Article 9(2) of the OECD Model Tax Convention in tax treaties 
+Jurisdictions should include paragraph 2 of Article 9 of the OECD Model Tax Convention in 
+their tax treaties.  
+54. Article 9(2) of the OECD Model Tax Convention  (OECD, 2017) allows competent 
+authorities to make a corresponding adjustment to unilaterally eliminate double ta xation 
+arising from primary adjustments. Including this provision in tax treaties provides taxpayers 
+the possibility to obtain the elimination of such double taxation via a unilateral corresponding 
+adjustment. 
+55. Japan reported that it is in favour of including Article 9(2) of the OECD Model Tax 
+Convention (OECD, 2017) in its tax treaties where possible and that it will seek to include 
+this provision in all of its future tax treaties.  
+Overview of tax treaties 
+56. Out of Japan’s 71 tax treaties, 19 contain a provision equivalent to Article 9(2) of the 
+OECD Model Tax Convention  (OECD, 2017) requiring their state to make a correlative 
+adjustment in case a transfer pricing adjustment is imposed by the treaty partner.  17 
+Furthermore, 20 tax treaties do not contain a provision that is based on or equivalent to Article 
+9(2) of the OECD Model Tax Convention (OECD, 2017), six of which does not contain in 
+its entirety a provision that is based on Article 9 of the OECD Model Tax Convention (OECD, 
+2017) with regard to associated enterprises.18 The remaining 32 treaties do contain a provision 
+that is based on Article 9(2) of the OECD Model Tax Convention (OECD, 2017), but deviate 
+from this provision for the following reasons:  
+ In 31 corresponding adjustments can only be made through a consultation between 
+the competent authorities; and 
+ In one treaty granting of a corresponding adjustment is optional, as the phrase “(…) 
+shall make an appropriate adjustment” is replaced by “(….) may, where appropriate, 
+make an appropriate adjustment”.  
+Recent developments  
+Bilateral modifications 
+57. Japan signed a new tax treaty with a treaty partner that concerns the replacement of 
+an existing treaty currently in force. This newly signed treaty has n ot yet entered into force, 
+but Japan has already ratified it. This treaty contains a provision that is equivalent to Article 
+9(2) of the OECD Model Tax Convention (OECD, 2017) , which was not the case for the 
+existing treaty currently in force. Further, Japan signed new tax treaties with six treaty 
+partners which are newly negotiated treaties with treaty partners with which there were no 
+                                                      
+17 These 19 treaties include the newly negotiated treaty with Spain which will replace the currently existing treaty with this 
+jurisdiction of 1974 and the newly negotiated treaty with Uzbekistan, for which Japan currently continues to apply the  treaty 
+with the former USSR of 1986 and that it will no longer do so upon entry into force of this new treaty. 
+18 These 20 treaties include the treaty with former Czechoslovakia that Japan continues to apply to the Czech Republic and the 
+Slovak Republic and these six treaties include the treaty with the former USSR that Japan continues to apply to Armenia, 
+Azerbaijan, Belarus, Georgia, Kyrgyzstan, Moldova, Tajikistan, Turkmenistan and Ukraine.
+
+# Page 23
+22  PART C: RESOLUTION OF MAP CASES 
+ 
+INCLUSIVE FRAMEWORK OF BEPS: ACTION 14 MAKING DISPUTE RESOLUTION MORE EFFECTIVE MAP PEER REVIEW REPORT 
+© OECD 2021 
+      
+treaties yet in place.19 Three of these six treaties have already entered into force. All of these 
+treaties contain  a provision that is equivalent to Article 9(2) of the OECD Model Tax 
+Convention (OECD, 2017). The effects of these newly signed treaties have been reflected in 
+the analysis above where it has relevance. 
+Multilateral Instrument 
+58. Japan signed the Multilateral Instrument  and has deposited its instrument of 
+ratification on 26 September 2018. The Multilateral Instrument has entered into force for 
+Japan on 1 January 2019.  
+59. Article 17(2) of t hat instrument stipulates that Article 17(1) – containing the 
+equivalent of Article 9(2) of the OECD Model Tax Convention (OECD, 2017) – will apply 
+in place of or in the absence of a provision in tax treaties that is equivalent to Article 9(2) of 
+the OECD Model Tax Convention (OECD, 2017) . However, this shall only apply if both 
+contracting parties to the applicable tax treaty have listed this treaty as a covered tax 
+agreement under the Multilateral Instrument. Article 17(2) of the Multilateral Instrument 
+does not take effect for a tax treaty if one or both of the treaty partners have, pursuant to 
+Article 17(3), reserved the right not to apply Article 17(1) for those tax treaties that already 
+contain the equivalent of Article 9(2) of the OECD Model Tax Convention (OECD, 2017), 
+or not to apply Article 17(1) in the absence of such equivalent under the condition that: (i) it 
+shall make appropriate corresponding adjustments or (ii) its competent authority shall 
+endeavour to resolve the case under mutual agreement procedure of the applicable tax treaty. 
+Where neither treaty partner has made such a reservation, Article 17(4) of the Multilateral 
+Instrument stipulates that both have to notify the depositary  whether the applicable treaty 
+already contains a provision equivalent to Article 9(2) of the OECD Model Tax Convention 
+(OECD, 2017) . Where such a notification is made by both of them, the Multilateral 
+Instrument will modify this treaty to replace that provision. If neither or only one treaty 
+partner made this notification, Article 17(1) of the Multilateral Instrument will supersede this 
+treaty only to the extent that the provision contained in that treaty relating to the granting of 
+corresponding adjustments is incompatible with Article 17(1) (containing the equivalent of 
+Article 9(2) of the OECD Model Tax Convention (OECD, 2017)). 
+60. Japan has not reserved, pursuant to Article 17(3), the right not to apply Article 17(1) 
+of the Multilateral Instrument for those tax treaties that already contain a provision equivalent 
+to Article 9(2) of the OECD Model Tax Convention (OECD, 2017) . With regard to the 46 
+tax treaties identified in paragraph 56 above (disregarding th ose six treaties that do not 
+contain Article 9 at all ) that are considered not to contain this equivalent, Japan listed 36 
+treaties as a covered tax agreement under the Multilateral Instrument, but only for 25 of them 
+made a notification on the basis of Article 17(4) that they do contain a provision described in 
+Article 17(2).20  
+61. Of the relevant treaty 25 partners, all are signatories to the Multilateral Instrument 
+and have listed their treaty with Japan as a covered tax agreement under that instrument, but 
+11 have, on the basis of Article 17(3), reserved the right not to apply Article 17( 1) as they 
+considered that their treaty with Japan already contains the equivalent of Article 9(2). 12 of 
+the 14 remaining treaty partners also made a notification on the basis of Ar ticle 17(4). Of 
+                                                      
+19 One of these treaties is with a treaty partner, for which Japan currently continues to apply the 1986 treaty with the former 
+USSR, but which will no longer do so upon entry into force of this new treaty. 
+20 These 36 treaties include the treaty with former Czechoslovakia that Japan continues to apply to the Czech Republic and the 
+Slovak Republic.
+
+# Page 24
+PART C: RESOLUTION OF MAP CASES  23 
+ 
+INCLUSIVE FRAMEWORK OF BEPS: ACTION 14 MAKING DISPUTE RESOLUTION MORE EFFECTIVE MAP PEER REVIEW REPORT 
+© OECD 2021 
+      
+these 12 treaty partners, nine have  already deposited their instrument of ratification of the 
+Multilateral Instrument, following which the Multilateral Instrument has entered into force 
+for the treaties between Japan and these treaty partne rs, and therefore has replaced the 
+relevant treaty provision to include the equivalent of Article 9(2) of the OECD Model Tax 
+Convention (OECD, 2017). For the remaining three treaties, the Multilateral Instrument will, 
+upon entry into force, replace the pro visions in these treaties to include the equivalent of 
+Article 9(2) of the OECD Model Tax Convention (OECD, 2017) . For the remaining two 
+treaty partners that did not made a notification on the basis of Article 17(4), these treaty 
+partners have already deposited its instrument of ratification of the Multilateral Instrument. 
+Therefore, the Multilateral Instrument has entered into force for these treaties and  has 
+superseded the relevant treaty provision s to include the equivalent of Article 9(2) of the 
+OECD Mo del Tax Convention (OECD, 2017), but only to the extent that the provision 
+contained in these treaties  relating to the granting of corresponding adjustments are 
+incompatible with Article 17(1). 
+62. Furthermore, for the remaining 11 treaties for which Japan did not make a notification 
+on the basis of Article 17(4), all relevant treaty partners are signatories to the Multilateral 
+Instrument and listed their treaty with Japan as a covered tax agreement under that 
+instrument. Of the  partners to the 11  relevant treaties, two have, pursuant to Article 17(3), 
+reserved the right not to apply Article 17(1).21 Four of the remaining nine treaty partners have 
+already deposited their instruments of ratification of the Multilateral Instrument, following 
+which the Multilateral Instrument has entered into force for the treaties between Japan and 
+these treaty partners, and therefore has superseded the relevant treaty provision to include the 
+equivalent of Article 9(2) of the OECD Model Tax Convention (OECD, 2017), but only to 
+the extent that the provision contained in these treaties relating to the granting of 
+corresponding adjustments are incompatible with Article 17(1). The provision  in the 
+remaining five treaties will, upon the entry into force of the Multilateral Instrument for these 
+treaties, be superseded by the Multilateral Instrument to include the equivalent of Article 9(2) 
+of the OECD Model Tax Convention (OECD, 2017), but only to the extent that the provision 
+contained in these treaties relating to the granting of cor responding adjustments are 
+incompatible with Article 17(1). 
+63. Peers did not provide input relating to this particular best practice.  
+                                                      
+21 With respect to the treaty with former Czechoslovakia, which Japan continues to apply to the Czech Republic and the Slovak 
+Republic, the Czech Republic is one of the treaty partners that made a reservation on the basis of Article 17(3) of the Multilateral 
+Instrument. The treaty is therefore included in these two treaties. The treaty with former Czechoslovakia will therefore not be 
+modified concerning the Czech Republic. However, as regards the Slovak Republic, since it has already deposited its instrument 
+of ratification of the Multilateral Instrument,  Article 17(1) of the Multilateral Instrument has superseded the relevant t reaty 
+provision to include the equivalent of Article 9(2) of the OECD Model Tax Convention (OECD, 2017), but only to the extent 
+that the provision contained in these treaties relating to the granting of corresponding adjustments are incompatible with Article 
+17(1).
+
+# Page 25
+
+
+# Page 26
+PART D: IMPLEMENTATION OF MAP AGREEMENTS  25 
+ 
+INCLUSIVE FRAMEWORK OF BEPS: ACTION 14 MAKING DISPUTE RESOLUTION MORE EFFECTIVE MAP PEER REVIEW REPORT 
+© OECD 2021 
+      
+Part D 
+ 
+Implementation of MAP agreements 
+There are no best practices for Part D.
+
+# Page 27
+
+
+# Page 28
+GLOSSARY  27 
+ 
+INCLUSIVE FRAMEWORK OF BEPS: ACTION 14 MAKING DISPUTE RESOLUTION MORE EFFECTIVE MAP PEER REVIEW REPORT 
+© OECD 2021 
+      
+Glossary 
+Action 14 Minimum Standard The minimum standard as agreed upon in the final report on 
+Action 14: Making Dispute Settlement Mechanisms More 
+Effective 
+MAP guidance Commissioner’s Directive on the Mutual Agreement Procedure  
+Multilateral Instrument Multilateral Convention to Implement Tax Treaty Related 
+Measures to Prevent Base Erosion and Profit Shifting 
+OECD Model Tax Convention OECD Model Tax Convention on Income and on Capital as it 
+read on 21 November 2017 
+Q&A on MAP Guidance for taxpayers on the mutual agreement procedure in the 
+form of an Q&A 
+Terms of Reference Terms of reference to monitor and review the implementing of 
+the BEPS Action 14 Minimum Standard to make dispute 
+resolution mechanisms more effective 
+(CTPA/CFA/NOE2(2016)45/REV1)
+
+# Page 29
+ctp.beps@oecd.org
+For more information:
+@OECDtax
+Inclusive Framework on BEPS: Action 14
+Making Dispute Resolution More Effective
+MAP Peer Review Report
+BEST PRACTICES
+Denmark
+2020
+http://oe.cd/bepsaction14

@@ -1,0 +1,103 @@
+---
+id: "beps-a14-peer-review-documents-oecd-en-pack-26"
+section_id: "beps-a14-peer-review-documents-oecd-en"
+section_title: "BEPS Action 14: peer review documents (Terms of Reference / Assessment Methodology) (OECD PDF)"
+page_start: 75
+page_end: 76
+pid_start: "p075"
+pid_end: "p076"
+para_count: 2
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "http://www.oecd.org/tax/beps/beps-action-14-on-more-effective-dispute-resolution-peer-review-documents.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-a14-peer-review-documents-oecd-en-pack-26.txt"
+---
+
+## p075 (beps-a14-peer-review-documents-oecd-en-p075, pages 75-75)
+74 
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+This includes cases where such an outcome is arrived at following the submission of the case
+to arbitration in instances where the tax treaty contains an arbitration provision.
+(viii) Agreement that there is no taxation not in accordance with the tax treaty (Column 11):
+A MAP case shall be counted as a case closed with agreement that there is no taxation not in
+accordance with the tax treaty if the date of notification from the compete nt authority to the
+taxpayer informing the taxpayer of such an agreement reached via competent authority
+discussion (regardless of whether the taxpayer accepts that outcome) (see paragraphs 13 and
+14 of this note) falls within the reporting period. This includes cases where such an outcome is
+arrived at following the submission of the case to arbitration in instances where the tax treaty
+contains an arbitration provision.
+(ix) No agreement including agreement to disagree (Column 12):
+A MAP case shall be counted  as a case closed with no agreement if the date of notification
+from the competent authority to the taxpayer informing the taxpayer of such an outcome (see
+paragraphs 13 and 14 of this note) falls within the reporting period. “No agreement” includes
+agreement to disagree.
+(x) Any other outcome (Column 13):
+A MAP case shall be counted as a case closed with any other outcome (not falling within any
+of the outcomes described above) if the date of notification from the competent authority to the
+taxpayer informing the taxpayer of such an outcome (see paragraphs 13 and 14 of this note)
+falls within the reporting period.
+For purposes of this statistics reporting framework, if there are more than one outcomes relating to a MAP
+request (for example, part of the MAP re quest is denied MAP access, part of the MAP request is granted
+unilateral relief and part of the MAP request is resolved with the outcome that double taxation is fully
+eliminated), the MAP case shall be considered closed based on the date of notification ( if there is more
+than one notification, the date of the last notification) from the competent authority and the outcome
+communicated in that notification to the taxpayer.
+(b) Number of post-2015 cases remaining in MAP inventory on 31 December [YEAR] –
+see Column 14 of Table 1 and Table 2
+The number of post-2015 cases remaining in the MAP inventory on 31 December of the year is the number
+of post-2015 cases in a competent authority’s inventory that are pending resolution as of 31 December of
+that year.
+(c) Number of post-2015 cases remaining in MAP inventory on 31 December [Year]
+falling under the age category “<2 years old” – see Column 2/Row 1 of Table 3
+The number of post -2015 cases in the MAP inventory that are pending resolution as of 31 December of
+the [Year] that were initiated, based on the “Start Date”, on or after 1 January [Year -2].
+(d) Number of post-2015 cases remaining in MAP inventory on 31 December [Year]
+falling under the age category “>=2 and <4 years old” – see Column 2/Row 2 of Table 3
+The number of post -2015 cases in the MAP inventory that are pending resolution as of 31 December of
+the [Year] that were initiated, based on the “Start Date”, on or after 1 January [Year -4], but before 31
+December [Year-3].
+
+## p076 (beps-a14-peer-review-documents-oecd-en-p076, pages 76-76)
+ 75
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+(e) Number of post-2015 cases remaining in MAP inventory on 31 December [Year]
+falling under the age category “>=4 and <6 years old” – see Column 2/Row 3 of Table 3
+The number of post -2015 cases in the MAP inventory that are pending resolution as of 31 December of
+the [Year] that were in itiated, based on the “Start Date”, on or after 1 January [Year -6], but before 31
+December [Year-5].
+(f) Number of post-2015 cases remaining in MAP inventory on 31 December [Year] falling
+under the age category “>=6 years old” – see Column 2/Row 4 of Table 3
+The number of post -2015 cases in the MAP inventory that are pending resolution as of 31 December of
+the [Year] that were initiated, based on the “Start Date”, on or before 31 December [Year -7].
+3. Jurisdictions shall apply the following definitions and counting methods for purposes of their MAP
+Statistics reporting as required under Part (II) of Annex 3.B. of this note:
+(a) Average time take from “Start” to “End” of MAP case – see Column 2 of Table 1 and
+Table  2 and Column 1 of Table 3
+The average time taken from “start” to “end” of MAP case shall be calculated by first aggregating the
+number of months from the “start” date (as determined in paragraph 10 or 11 of this note) to the “end” date
+(as determined in paragraph 12 or 13 of this n ote) for each case where the “end” date for the case falls
+within the reporting period.
+The number of months taken for each case shall be computed as the number of days taken from the “start”
+date to the “end” date divided by 365 and multiply by 12 (rounded to two decimal places). The second step
+is to divide this aggregated number of months by the total number of cases where the “end” date for the
+case falls within the reporting period. The result is the average time taken from the “start” to the “end” of a
+MAP case in months (rounded to two decimal places).
+(b) Average time taken from receipt of taxpayer’s MAP request to “Start” – see Column 3
+of Table 1 and Table 2 and Column 2 of Table 3
+The average time taken from the receipt of a taxpayer’s MAP su bmission to the “start” of MAP case (as
+determined in paragraph 10 or 11 of this note) shall be calculated by first aggregating the number of months
+from the date the taxpayer’s MAP submission is received by the competent authority (as referred to in
+paragraph 10 of this note) to the “start” date for each case where the “end date” (as determined in
+paragraph 13 or 14 of this note) falls within the reporting period.
+The number of months taken for each case shall be computed as the number of days taken from t he date
+of receipt of the taxpayer’s MAP submission to the “start” date divided by 365 and multiply by 12 (rounded
+to two decimal places). The second step is to divide this aggregated number of months by the total number
+of all cases where the “end” date f or the case falls within the reporting period. The result is the average
+time taken from a taxpayer’s MAP submission to the “start” of MAP case in months (rounded to two decimal
+places).
+(c) Average time taken from “Start” to Milestone 1 – see Column 4 of Table 1 and Table 2
+and Column 3 of Table 3
+The average time taken from “start” of a MAP case to Milestone 1 shall be calculated by first aggregating
+the number of months it took from the “start” date (as determined in paragraph 11 or 12 of this note) to the
+“date of Milestone 1” (as determined in p aragraph 15 of this note) for each case that has an applicable

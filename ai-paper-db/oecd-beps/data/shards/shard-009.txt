@@ -1,0 +1,2 @@
+id	pid	page_start	page_end	snippet	core
+beps-a14-peer-review-monitoring-nta-ja-p001	p001	1	1	本翻訳は参考のための仮訳であって、正確には原文を参照されたい。 税源浸食と利益移転（BEPS）行動 14 ピアレビュー及びモニタリング 概要 税源浸食と利益移転についての行動計画（以下、「BEPS 行動計画」という。）には、BEPS に包 括的に対処する 15 の行動が含まれてい	packs/beps-a14-peer-review-monitoring-nta-ja-pack-00.txt

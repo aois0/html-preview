@@ -1,0 +1,113 @@
+---
+id: "beps-a14-peer-review-documents-oecd-en-pack-22"
+section_id: "beps-a14-peer-review-documents-oecd-en"
+section_title: "BEPS Action 14: peer review documents (Terms of Reference / Assessment Methodology) (OECD PDF)"
+page_start: 64
+page_end: 67
+pid_start: "p064"
+pid_end: "p067"
+para_count: 4
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "http://www.oecd.org/tax/beps/beps-action-14-on-more-effective-dispute-resolution-peer-review-documents.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-a14-peer-review-documents-oecd-en-pack-22.txt"
+---
+
+## p064 (beps-a14-peer-review-documents-oecd-en-p064, pages 64-64)
+ 63
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+Table 2: Other MAP Cases
+Treaty Partner
+average time taken (in months) for post-2015 cases from:
+“Start” to “End”  Receipt of taxpayer’s MAP
+request to “Start”  “Start” to Milestone 1 Milestone 1 to End”
+Column 1 Column 2 Column 3 Column 4 Column 5
+Row 1 Treaty Partner 1
+Treaty Partner 2
+…
+Treaty Partners (de minimis rule
+applies)
+Row 2 Treaty Partners (Others)
+Row 3 Total Average Time
+Note: A reporting jurisdiction can include in this notes section any information which in its view would be useful in providing clarification or understanding on any of the statistics reported above.
+Annex to Table 24:  Other MAP Cases
+Stage during which the MAP case was resolved average time taken (in months) for post-2015 cases from "Start" to "End"
+Column 1 Column 2
+Row 1 Cases closed in the Unilateral stage
+Row 2 Cases closed in the Bilateral stage
+Note: A reporting jurisdiction can include in this notes section any information which in its view would be useful in providing clarification or understanding on any of the statistics reported above.
+4 Please note that this data has not been matched with the concerned treaty partners. In addition, please note that delays in individual MAP cases may be owing to several reasons,
+many of them being out of the concerned competent authority’s control, and thus, the time taken in the unilateral and bilateral stages should not be seen in isolation of the overall
+average time and inventory management.
+
+## p065 (beps-a14-peer-review-documents-oecd-en-p065, pages 65-65)
+64 
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+Table 3: All MAP Cases
+average time taken (in months) for post-2015 cases from:
+“Start” to “End”  Receipt of taxpayer’s MAP
+request to “Start”  “Start” to Milestone 1 Milestone 1 to “End”
+Column 1 Column 2 Column 3 Column 4
+Row 1 Total Average Time
+Note: A reporting jurisdiction can include in this notes section any information which in its view would be useful in providing clarification or understanding on any of the statistics reported above.
+
+## p066 (beps-a14-peer-review-documents-oecd-en-p066, pages 66-66)
+ 65
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+Notes on Part (II) of Annex 3.B. (see also Annex 3.D. - Definition of Terms and
+Rules for Counting MAP Cases)
+(xiv) Column 1 of Table 1 and Table 2: Treaty Partner
+For each table (i.e. Table 1 for Attribution / Allocation MAP cases and Table 2 for Other
+MAP cases), separate reporting of MAP cases with a treaty partner is required only if the MAP
+Statistics in Part (I) of Annex 3.B. are separately reported for that treaty partner.
+(xv) Columns 2 to 5 of Table 1 and Table 2: Average time taken (in months) for post-
+2015 cases closed during the reporting period for the completion of the action
+as described in Columns 2 to 5
+Enter in each of these columns the average time taken (in months) for the completion of the
+action as stated in the heading of each of these columns for post-2015 cases closed during the
+reporting period.
+In instances where a treaty partner is not reporting MAP Statistics under this reporting framework
+for the reporting period concerned (see Row 2), the “start” date shall be determined based on
+paragraphs 10 or 11 of this note to the extent possible . Otherwise, these dates shall be
+determined on a reasonable basis.
+(xvi) Row 3 of Table 1: Total average time
+Enter in Columns 2 to 5 of Row 3 the total average time (in months) for the completion of the
+action as stated in the heading of each of these columns for all post -2015 “ Attribution /
+Allocation” cases closed during the reporting period.
+(xvii) Row 1 of Annex to Table 1: Cases closed in the Unilateral stage
+Enter in Column 2 to Row 1 the total average time (in months) for the completion of all post -
+2015 “Attribution / Allocation ” cases closed during the reporting period  under the outcomes
+“denied MAP access”, “objection is not justified” and “unilateral relief granted”.
+(xviii) Row 2 of Annex to Table 1: Cases closed in the Bilateral stage
+Enter in Column 2 to Row 2 the total average time (in months) for the completion of all post-
+2015 “Attribution / Allocation ” cases closed during the reporting period under the outcomes
+withdrawn by taxpayer ”, “resolved via domestic remedy ”, “agreement fully eliminating double
+taxation eliminated / fully resolving taxation not in accordance with tax treaty ”, “agreement
+partially eliminating double taxation / partially resolving taxation not in accordance with tax
+treaty”, “agreement that there is no taxation not in accordance with tax treaty ”, “no agreement
+including agreement to disagree” and “any other outcome”.
+(xix) Row 3 of Table 2: Total average time
+Enter in Columns 2 to 5 of Row 3 the total average time (in months) for the completion of the
+action as stated in the heading of each of these columns for all post-2015 “Other” cases closed
+during the reporting period.
+
+## p067 (beps-a14-peer-review-documents-oecd-en-p067, pages 67-67)
+66 
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+(xx) Row 1 of Annex to Table 2: Cases closed in the Unilateral stage
+Enter in Column 2 to Row 1 the total average time (in months) for the completion of all post -
+2015 “Other” cases closed during the reporting period under the outcomes  “denied MAP
+access”, “objection is not justified” and “unilateral relief granted”.
+(xxi) Row 2 of Annex to Table 2: Cases closed in the Bilateral stage
+Enter in Column 2 to Row 2 the total average time (in months) for the completion of all post -
+2015 “ Other” cas es closed during the reporting period under the outcomes  “withdrawn by
+taxpayer”, “resolved via domestic remedy ”, “agreement fully eliminating double taxation
+eliminated / fully resolving taxation not in accordance with tax treaty ”, “agreement partially
+eliminating double taxation / partially resolving taxation not in accordance with tax treaty ”,
+“agreement that there is no taxation not in accordance with tax treaty”, “no agreement including
+agreement to disagree” and “any other outcome”.
+(xxii) Row 1 of Table 3: Total average time
+Enter in Columns 1 to 4 of Row 1 the total average time (in months) for the completion of the
+action as stated in the heading of each of these columns for all post -2015 cases (i.e.
+“Attribution / Allocation” and “Others”) closed during the reporting period.

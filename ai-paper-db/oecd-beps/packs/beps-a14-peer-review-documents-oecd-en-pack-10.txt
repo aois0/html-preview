@@ -1,0 +1,111 @@
+---
+id: "beps-a14-peer-review-documents-oecd-en-pack-10"
+section_id: "beps-a14-peer-review-documents-oecd-en"
+section_title: "BEPS Action 14: peer review documents (Terms of Reference / Assessment Methodology) (OECD PDF)"
+page_start: 25
+page_end: 26
+pid_start: "p025"
+pid_end: "p026"
+para_count: 2
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "http://www.oecd.org/tax/beps/beps-action-14-on-more-effective-dispute-resolution-peer-review-documents.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-a14-peer-review-documents-oecd-en-pack-10.txt"
+---
+
+## p025 (beps-a14-peer-review-documents-oecd-en-p025, pages 25-25)
+24 
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+33. Where there are no comments from the peers of the assessed jurisdiction, the draft Stage 2 Peer
+Monitoring report will be sent to the assessed jurisdiction within 8 weeks of receipt of the updates provided
+by the assessed jurisdiction to members of the FTA MAP Forum. The assessed jurisdiction should provide
+any written comments on the draft report within 6 weeks of receipt, including confirmation of whether it
+agrees with its draft Stage 2 Peer Monitoring report. The draft Stage 2 Peer Monitoring reports of the
+jurisdictions will be circulated to FTA MAP Forum at least 6 weeks prior to the Forum meeting, for approval
+under the written procedure following the same approval procedure as descri bed in paragraphs 22 to 24
+of this note.
+34. Following the approval of the Stage 2 Peer Monitoring reports by the FTA MAP Forum, the
+Secretariat shall circulate to the FTA MAP Forum a report comprising three sections (“ the FTA MAP
+Forum Update Report”) as follows:
+ Section I which sets out the purpose and background to the monitoring and peer review process;
+ Section II which provides an executive summary on the main conclusions based on the Stage 2
+Peer Monitoring reports on assessed jurisdictions as approved; and
+ Section III  which contains the individual Stage 2 Peer Monitoring reports on the assessed
+jurisdictions as approved.
+Any comments on the FTA MAP Forum Update Report should be limited to Section I and II of the report
+given that the individual Stage 2 Peer Monitoring reports in Section III were already approved by the FTA
+MAP Forum.
+Adoption of FTA MAP Forum Update Report on Stage 2 Peer Monitoring Reports by the
+CFA for publication
+35. Following the approval of the FTA MAP Forum Update Report by the FTA  MAP Forum, it will  be
+sent to the CFA within 1 week. In the exceptional circumstances that the FTA MAP Forum was unable to
+approve the Stage 2 Peer Monitoring report on an assessed jurisdiction, this will be highlighted to the CFA
+together with an explanation on why the FTA MAP Forum was unable to approve the report.
+36. The CFA will be invited to adopt the FTA MAP Forum Update Report for publication following the
+same approval procedure as described in paragraph 27  of this note. Following the adoption of the FTA
+MAP Forum Update Report by the CFA, it shall be published as soon as possible.
+E. Confidentiality
+37. It is important for members of the FTA MAP Forum and the CFA to recognise that no part of any
+report should be made publicly available in any form or manner prior to its publication. In addition, members
+of the FTA MAP Forum should treat all documents produced in the course of the review of any jurisdiction
+(e.g. documents describing a jurisdiction’s MAP regime, responses to the questionnaire, MAP stati stics
+and draft reports) as confidential and should not make them  publicly available, unless approval of their
+release has been obtained from the CFA. Strict respect for the confidentiality of th is work is essential to
+the credibility of the monitoring and peer review process. Any breach of confidentiality shall be brought to
+the attention of the FTA MAP Forum and the CFA for their decision on the most appropriate action to take.
+Continued Monitoring Process from 2023 onwards
+38. A review of the Assessment Methodology contained in this note in 2020 was foreseen at the time
+of development of this Assessment Methodology, as noted in paragraph 5 . The purpose of this review is
+to update the methodology in light of the experience in conducting peer monitoring, keepin g in mind the
+need for an Assessment Methodology which effectively improves the shortcomings identified in the peer
+
+## p026 (beps-a14-peer-review-documents-oecd-en-p026, pages 26-26)
+ 25
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+review reports with the aim of ensuring an  effective MAP regime to benefit both governments and
+taxpayers. The below methodology reflects the agreement of the OECD/G20 Inclusive Framework on
+BEPS (the “Inclusive Framework”) on how monitoring of the Action 14 minimum standard should continue
+from 2023 onwards (“Continued Monitoring Process”), following the successful completion of the Peer
+Review and Monitoring process as described in Section II in 2022. As this section is intended to
+exhaustively cover the Continued Monitoring Process, unless explicitly referred to, it is clarified that
+paragraphs 1 to 34 woul d not be of relevance to this process.
+39. All Inclusive Framework member jurisdictions will work collectively to improve the effectiveness of
+the MAP . To assist members in improving the effectiveness of their MAP regime, every member’s
+compliance with the min imum standard will be reviewed by other members in the FTA MAP Forum, in
+accordance with an assessment schedule to be developed by the FTA MAP Forum.
+40. As noted in paragraph 7 of this note, the  Assessment Methodology applicable to the concluded
+Peer Review and Monitoring process under Section II allowed the deferral of peer review of a jurisdiction
+if it: (i) is a developing country (ii) is not an OECD/G20 country (iii) has not yet encountered a meaningful
+level of MAP requests and (iv) has not received feedb ack from other members of the FTA MAP Forum
+indicating that its MAP regime requires improvement. Accordingly, the peer reviews of 59 members of the
+Inclusive Framework were deferred under that process.
+41. However, the deferral of peer reviews is not provided for under the Continued Monitoring Process.
+Therefore, all Inclusive Framework member jurisdictions (whether previously peer reviewed or otherwise)
+shall be subject to monitoring under this process. Nevertheless, a simplified peer review process is put in
+place for jurisdictions that are considered not to have “meaningful MAP experience” 9 and that do not wish
+to undergo the full peer review process.
+42. A jurisdiction would be considered to have “meaningful MAP experience” on the basis of the
+following conditions:
+a. a threshold of ten MAP cases in its MAP end inventory as reported in its MAP Statistics over the
+three previous years on average is met by the jurisdiction, as detailed in paragraph 44; or
+b. feedback is received from other members of the FTA MAP Forum in dicating that the jurisdiction’s
+policy or practice concerning MAP requires improvement, as detailed in paragraph 45.
+43. Accordingly, a full peer review process would be limited to jurisdictions that wish to be subject to
+this process or have “meaningful MA P experience” based on these conditions. All remaining jurisdictions
+would be subject to a simplified peer review process. Jurisdictions that become eligible for the full peer
+review process based on the conditions for “meaningful MAP experience” defined a bove will remain
+ineligible for the simplified peer review process in all subsequent years.
+44. The first condition (see (a) above) for the “meaningful MAP experience” threshold is based on a
+jurisdiction’s MAP caseload  as reported in its annual MAP Statistics . The threshold of ten MAP cases in
+the end inventory over the previous three years on average ensures that only jurisdictions having
+meaningful practical experience with MAP would be subject to the full peer review. This average would be
+calculated by using the arithmetic mean of the number of all MAP cases10 remaining in the MAP inventory
+on 31 December [Year 11], on 31 December [Year -1] and 31 December [Year -2], without the rounding of
+decimal points upwards and thus , only averages of ten or above would be considered to meet this
+condition.
+45. The second condition  (see (b) above)  for the “meaningful MAP experience” trigger  is based on
+peer input. Where peers provide input to the FTA MAP Forum noting that a jurisdiction’s policy or practice
+with respect to MAP requires further improvement, such input would be discussed and considered by the
+FTA MAP Forum, which would then decide whether the jurisdiction should be subject to the full peer review
+process. The peer input que stionnaire developed for input in the Peer Review and Monitoring process

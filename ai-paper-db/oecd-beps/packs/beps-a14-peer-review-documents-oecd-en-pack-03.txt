@@ -1,0 +1,104 @@
+---
+id: "beps-a14-peer-review-documents-oecd-en-pack-03"
+section_id: "beps-a14-peer-review-documents-oecd-en"
+section_title: "BEPS Action 14: peer review documents (Terms of Reference / Assessment Methodology) (OECD PDF)"
+page_start: 11
+page_end: 12
+pid_start: "p011"
+pid_end: "p012"
+para_count: 2
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "http://www.oecd.org/tax/beps/beps-action-14-on-more-effective-dispute-resolution-peer-review-documents.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-a14-peer-review-documents-oecd-en-pack-03.txt"
+---
+
+## p011 (beps-a14-peer-review-documents-oecd-en-p011, pages 11-11)
+10 
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+15. To facilitate taxpayers’ access to MAP, jurisdictions should ensure transparency relating to their
+MAP regimes – information on how to access MAP must be available, clear and easily accessible to the
+public. In this regard, the Action 14 minimum standard requires that:
+B.8. Jurisdictions should publish clear rules, guidelines and procedures on access to and use of
+the MAP and include the specific information and documentation that should be submitted in
+a taxpayer’s request for MAP assistance.
+B.9. Jurisdictions should take appropriate measures to make rules, guidelines and procedures on
+access to and use of the MAP available and easily accessible to the public and should publish
+their jurisdiction MAP profiles on a shared public platform pursuant to the agreed template.
+B.10. Jurisdictions should clarify in their MAP guidance that audit settlements between tax
+authorities and taxpayers do not preclude access to MAP. If jurisdictions have an
+administrative or statutory dispute settlement/resolution proc ess independent from the audit
+and examination functions and that can only be accessed through a request by the taxpayer,
+and jurisdictions limit access to the MAP with respect to the matters resolved through that
+process, jurisdictions should notify their  treaty partners of such administrative or statutory
+processes and should expressly address the effects of those processes with respect to the
+MAP in their public guidance on such processes and in their public MAP programme
+guidance.14
+Best practices
+B.P.5. Jurisdictions should implement appropriate administrative measures to facilitate recourse to
+the MAP to resolve treaty-related disputes, recognising the general principle that the choice
+of remedies should remain with the taxpayer.
+B.P.6. Jurisdictions’ published MAP guidance should provide that taxpayers will be allowed access
+to the MAP so that the competent authorities may resolve through consultation the double
+taxation that can arise in the case of bona fide taxpayer-initiated foreign adjustments.15
+B.P.7. Jurisdictions’ published MAP guidance should provide guidance on multilateral MAPs.
+B.P.8. Jurisdictions should take appropriate measures to provide for a suspension of collections
+procedures during the period a MAP case is pending. Such a suspension of collections
+should be available, at a minimum, under the same conditions as apply to a person pursuing
+a domestic administrative or judicial remedy.
+C. Resolution of MAP cases – Elements of the minimum standard
+16. An effective dispute resolution mechanism  must be capable of resolving disputes in a timely and
+principled manner. The legal authority for competent authorities to come together to discuss a MAP case
+with a view to resolving the case to avoid taxation which is not in accordance with the tax treat y may be
+derived from paragraph 2 of Article 25. The Action 14 minimum standard requires that:
+C.1. Jurisdictions should ensure that their tax treaties contain a provision which requires that the
+competent authority who receives a MAP request from the taxp ayer, shall endeavour, if the
+objection from the taxpayer appears to be justified and the competent authority is not itself
+able to arrive at a satisfactory solution, to resolve the MAP case by mutual agreement with
+the competent authority of the other Contracting Party, with a view to the avoidance of taxation
+which is not in accordance with the tax treaty.16
+
+## p012 (beps-a14-peer-review-documents-oecd-en-p012, pages 12-12)
+ 11
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+C.2. Jurisdictions should seek to resolve MAP cases 17 within an average time frame of 24
+months.18 This time frame applies to both jurisdictions (i.e. the jurisdiction which receives the
+MAP request from the taxpayer and its treaty partner).19
+C.3. Jurisdictions should ensure that adequate resources are provided to the MAP function.
+C.4. Jurisdictions should ensure that the staff in charge of MAP processes  have the authority to
+resolve MAP cases in accordance with the terms of the applicable tax treaty, in particular
+without being dependent on the approval or the direction of the tax administration personnel
+who made the adjustments at issue or being influe nced by considerations of the policy that
+the jurisdictions would like to see reflected in future amendments to the treaty.
+C.5. Jurisdictions should not use performance indicators for their competent authority functions
+and staff in charge of MAP processes based on the amount of sustained audit adjustments or
+maintaining tax revenue.
+C.6. Jurisdictions should provide transparency with respect to their positions on MAP arbitration.20
+Best practices
+B.P.9. Jurisdictions should implement appropriate procedures to permit, in certain cases and after
+an initial tax assessment, requests made by taxpayer which are within the time period
+provided for in the tax treaty for the multi-year resolution through the MAP of recurring issues
+with respect to filed tax years, w here the relevant facts and circumstances are the same
+and subject to the verification of such facts and circumstances on audit.
+B.P.10. Jurisdictions should publish an explanation of the relationship between the MAP and
+domestic law administrative and judicial remedies.21
+B.P.11. Jurisdictions’ published MAP guidance should provide guidance on the consideration of
+interest and penalties in the mutual agreement procedure.
+B.P.12. Jurisdictions should include paragraph 2 of Article 9 of the OECD Model Tax Convention in
+their tax treaties.
+D. Implementation of MAP agreements – Elements of the minimum standard
+17. Any competent authority agreement reached on a MAP case by itself would not provide any relief
+to the taxpayer unless the agreement is implemented. Th e second sentence of paragraph 2 of Article 25
+of the OECD Model Tax Convention  (OECD, 2019 [2]) requires that the agreement reached shall be
+implemented notwithstanding any time limits in the domestic law of the jurisdictions. The Action 14
+minimum standard requires that:
+D.1. Jurisdictions should implement any agreement reached in MAP discussions, including by
+making appropriate adjustments to the tax assessed in transfer pricing cases.
+D.2. Agreements reached by competent authorities through the MAP process should be
+implemented on a timely basis.
+D.3. Jurisdictions should either (i) provide in the ir tax treaties that any mutual agreement reached
+through MAP shall be implemented notwithstanding any time limits in their domestic law22, or
+(ii) be willing to accept alternative treaty provisions that limit the time during which a
+Contracting Party may make an adjustment pursuant to Article 9(1) or Article 7(2), in order to
+avoid late adjustments with respect to which MAP relief will not be available. 23
