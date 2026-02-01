@@ -1,0 +1,714 @@
+{
+  "dataset": {
+    "name": "Japan tax treaties (major jurisdictions)",
+    "generated_at": "2026-02-01",
+    "base_url": "https://jplawdb.github.io/html-preview/ai-treaty-db/jp-tax-treaties",
+    "source_list_url": "https://www.mof.go.jp/english/policy/tax_policy/tax_conventions/tax_convetion_list_en.html"
+  },
+  "fields": [
+    "doc_id",
+    "jurisdiction",
+    "source_url",
+    "source_basename",
+    "is_synth",
+    "file"
+  ],
+  "rows": [
+    {
+      "doc_id": "australia--synthesizedtextforjapan-australia-jp",
+      "jurisdiction": "Australia",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SynthesizedTextforJapan_Australia_JP.pdf",
+      "source_basename": "SynthesizedTextforJapan_Australia_JP.pdf",
+      "is_synth": true,
+      "file": "source/raw/australia--synthesizedtextforjapan-australia-jp.pdf"
+    },
+    {
+      "doc_id": "austria--20170131at-a",
+      "jurisdiction": "Austria",
+      "source_url": "http://www.mof.go.jp/tax_policy/summary/international/press_release/20170131at_a.pdf",
+      "source_basename": "20170131at_a.pdf",
+      "is_synth": false,
+      "file": "source/raw/austria--20170131at-a.pdf"
+    },
+    {
+      "doc_id": "belgium--20161012be-a",
+      "jurisdiction": "Belgium",
+      "source_url": "http://www.mof.go.jp/tax_policy/summary/international/press_release/20161012be_a.pdf",
+      "source_basename": "20161012be_a.pdf",
+      "is_synth": false,
+      "file": "source/raw/belgium--20161012be-a.pdf"
+    },
+    {
+      "doc_id": "brazil--brazil1967-jp-en",
+      "jurisdiction": "Brazil",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Brazil1967_jp_en.pdf",
+      "source_basename": "Brazil1967_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/brazil--brazil1967-jp-en.pdf"
+    },
+    {
+      "doc_id": "brazil--brazil-st-jp",
+      "jurisdiction": "Brazil",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Brazil_ST_jp.pdf",
+      "source_basename": "Brazil_ST_jp.pdf",
+      "is_synth": true,
+      "file": "source/raw/brazil--brazil-st-jp.pdf"
+    },
+    {
+      "doc_id": "brazil--brazil1976-p-jp-en",
+      "jurisdiction": "Brazil",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Brazil1976_P_jp_en.pdf",
+      "source_basename": "Brazil1976_P_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/brazil--brazil1976-p-jp-en.pdf"
+    },
+    {
+      "doc_id": "brazil--brazil1976-en-jp-en",
+      "jurisdiction": "Brazil",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Brazil1976_EN_jp_en.pdf",
+      "source_basename": "Brazil1976_EN_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/brazil--brazil1976-en-jp-en.pdf"
+    },
+    {
+      "doc_id": "brazil--brazil1976-am-jp-en",
+      "jurisdiction": "Brazil",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Brazil1976_AM_jp_en.pdf",
+      "source_basename": "Brazil1976_AM_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/brazil--brazil1976-am-jp-en.pdf"
+    },
+    {
+      "doc_id": "canada--canada1986-jp-en",
+      "jurisdiction": "Canada",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Canada1986_jp_en.pdf",
+      "source_basename": "Canada1986_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/canada--canada1986-jp-en.pdf"
+    },
+    {
+      "doc_id": "canada--synthesizedtextforjapan-canada-jp",
+      "jurisdiction": "Canada",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SynthesizedTextforJapan_Canada_JP.pdf",
+      "source_basename": "SynthesizedTextforJapan_Canada_JP.pdf",
+      "is_synth": true,
+      "file": "source/raw/canada--synthesizedtextforjapan-canada-jp.pdf"
+    },
+    {
+      "doc_id": "canada--canada1999-p-jp-en-fr",
+      "jurisdiction": "Canada",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Canada1999_P_jp_en_fr.pdf",
+      "source_basename": "Canada1999_P_jp_en_fr.pdf",
+      "is_synth": false,
+      "file": "source/raw/canada--canada1999-p-jp-en-fr.pdf"
+    },
+    {
+      "doc_id": "china--china1983-jp-en",
+      "jurisdiction": "China",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/China1983_jp_en.pdf",
+      "source_basename": "China1983_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/china--china1983-jp-en.pdf"
+    },
+    {
+      "doc_id": "china--china1983-en1-jp-en",
+      "jurisdiction": "China",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/China1983_EN1_jp_en.pdf",
+      "source_basename": "China1983_EN1_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/china--china1983-en1-jp-en.pdf"
+    },
+    {
+      "doc_id": "china--china1983-en2-jp-en",
+      "jurisdiction": "China",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/China1983_EN2_jp_en.pdf",
+      "source_basename": "China1983_EN2_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/china--china1983-en2-jp-en.pdf"
+    },
+    {
+      "doc_id": "china--synthesizedtextforjapan-china-jp",
+      "jurisdiction": "China",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SynthesizedTextforJapan_China_JP.pdf",
+      "source_basename": "SynthesizedTextforJapan_China_JP.pdf",
+      "is_synth": true,
+      "file": "source/raw/china--synthesizedtextforjapan-china-jp.pdf"
+    },
+    {
+      "doc_id": "denmark--20171011dk-a",
+      "jurisdiction": "Denmark",
+      "source_url": "http://www.mof.go.jp/tax_policy/summary/international/press_release/20171011dk_a.pdf",
+      "source_basename": "20171011dk_a.pdf",
+      "is_synth": false,
+      "file": "source/raw/denmark--20171011dk-a.pdf"
+    },
+    {
+      "doc_id": "denmark--20211105dk-j",
+      "jurisdiction": "Denmark",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/press_release/20211105dk_j.pdf",
+      "source_basename": "20211105dk_j.pdf",
+      "is_synth": false,
+      "file": "source/raw/denmark--20211105dk-j.pdf"
+    },
+    {
+      "doc_id": "finland--finland1972-jp-en",
+      "jurisdiction": "Finland",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Finland1972_jp_en.pdf",
+      "source_basename": "Finland1972_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/finland--finland1972-jp-en.pdf"
+    },
+    {
+      "doc_id": "finland--finland1972-en-jp-en",
+      "jurisdiction": "Finland",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Finland1972_EN_jp_en.pdf",
+      "source_basename": "Finland1972_EN_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/finland--finland1972-en-jp-en.pdf"
+    },
+    {
+      "doc_id": "finland--synthesizedtextforjapan-finland1-jp",
+      "jurisdiction": "Finland",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SynthesizedTextforJapan_Finland1_JP.pdf",
+      "source_basename": "SynthesizedTextforJapan_Finland1_JP.pdf",
+      "is_synth": true,
+      "file": "source/raw/finland--synthesizedtextforjapan-finland1-jp.pdf"
+    },
+    {
+      "doc_id": "finland--synthesizedtextforjapan-finland2-jp",
+      "jurisdiction": "Finland",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SynthesizedTextforJapan_Finland2_JP.pdf",
+      "source_basename": "SynthesizedTextforJapan_Finland2_JP.pdf",
+      "is_synth": true,
+      "file": "source/raw/finland--synthesizedtextforjapan-finland2-jp.pdf"
+    },
+    {
+      "doc_id": "finland--finland1991-p-jp-en",
+      "jurisdiction": "Finland",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Finland1991_P_jp_en.pdf",
+      "source_basename": "Finland1991_P_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/finland--finland1991-p-jp-en.pdf"
+    },
+    {
+      "doc_id": "france--france1995-jp-fr",
+      "jurisdiction": "France",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/France1995_jp_fr.pdf",
+      "source_basename": "France1995_jp_fr.pdf",
+      "is_synth": false,
+      "file": "source/raw/france--france1995-jp-fr.pdf"
+    },
+    {
+      "doc_id": "france--synthesizedtextforjapan-france-jp",
+      "jurisdiction": "France",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SynthesizedTextforJapan_France_JP.pdf",
+      "source_basename": "SynthesizedTextforJapan_France_JP.pdf",
+      "is_synth": true,
+      "file": "source/raw/france--synthesizedtextforjapan-france-jp.pdf"
+    },
+    {
+      "doc_id": "germany--synthesizedtextforjapan-germany-jp",
+      "jurisdiction": "Germany",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SynthesizedTextforJapan_Germany_JP.pdf",
+      "source_basename": "SynthesizedTextforJapan_Germany_JP.pdf",
+      "is_synth": true,
+      "file": "source/raw/germany--synthesizedtextforjapan-germany-jp.pdf"
+    },
+    {
+      "doc_id": "hong-kong--hongkong2012-en-jp-en",
+      "jurisdiction": "Hong Kong",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/HongKong2012_EN_jp_en.pdf",
+      "source_basename": "HongKong2012_EN_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/hong-kong--hongkong2012-en-jp-en.pdf"
+    },
+    {
+      "doc_id": "hong-kong--synthesizedtextforjapan-hongkong-jp",
+      "jurisdiction": "Hong Kong",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SynthesizedTextforJapan_HongKong_JP.pdf",
+      "source_basename": "SynthesizedTextforJapan_HongKong_JP.pdf",
+      "is_synth": true,
+      "file": "source/raw/hong-kong--synthesizedtextforjapan-hongkong-jp.pdf"
+    },
+    {
+      "doc_id": "india--india1989-jp-en",
+      "jurisdiction": "India",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/India1989_jp_en.pdf",
+      "source_basename": "India1989_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/india--india1989-jp-en.pdf"
+    },
+    {
+      "doc_id": "india--india1989-en-jp-en",
+      "jurisdiction": "India",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/India1989_EN_jp_en.pdf",
+      "source_basename": "India1989_EN_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/india--india1989-en-jp-en.pdf"
+    },
+    {
+      "doc_id": "india--india-text-rev-jpn",
+      "jurisdiction": "India",
+      "source_url": "http://www.mof.go.jp/tax_policy/summary/international/tax_convention/india.text.rev.jpn.pdf",
+      "source_basename": "india.text.rev.jpn.pdf",
+      "is_synth": false,
+      "file": "source/raw/india--india-text-rev-jpn.pdf"
+    },
+    {
+      "doc_id": "indonesia--indonesia1982-jp-en",
+      "jurisdiction": "Indonesia",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Indonesia1982_jp_en.pdf",
+      "source_basename": "Indonesia1982_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/indonesia--indonesia1982-jp-en.pdf"
+    },
+    {
+      "doc_id": "indonesia--indonesia1982-en-jp-en",
+      "jurisdiction": "Indonesia",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Indonesia1982_EN_jp_en.pdf",
+      "source_basename": "Indonesia1982_EN_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/indonesia--indonesia1982-en-jp-en.pdf"
+    },
+    {
+      "doc_id": "indonesia--synthesizedtextforjapan-indonesia-jp",
+      "jurisdiction": "Indonesia",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SynthesizedTextforJapan_Indonesia_JP.pdf",
+      "source_basename": "SynthesizedTextforJapan_Indonesia_JP.pdf",
+      "is_synth": true,
+      "file": "source/raw/indonesia--synthesizedtextforjapan-indonesia-jp.pdf"
+    },
+    {
+      "doc_id": "ireland--ireland1974-jp-en",
+      "jurisdiction": "Ireland",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Ireland1974_jp_en.pdf",
+      "source_basename": "Ireland1974_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/ireland--ireland1974-jp-en.pdf"
+    },
+    {
+      "doc_id": "ireland--ireland1974-en-jp-en",
+      "jurisdiction": "Ireland",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Ireland1974_EN_jp_en.pdf",
+      "source_basename": "Ireland1974_EN_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/ireland--ireland1974-en-jp-en.pdf"
+    },
+    {
+      "doc_id": "ireland--synthesizedtextforjapan-ireland-jp",
+      "jurisdiction": "Ireland",
+      "source_url": "http://www.mof.go.jp/tax_policy/summary/international/press_release/SynthesizedTextforJapan_Ireland_JP.pdf",
+      "source_basename": "SynthesizedTextforJapan_Ireland_JP.pdf",
+      "is_synth": true,
+      "file": "source/raw/ireland--synthesizedtextforjapan-ireland-jp.pdf"
+    },
+    {
+      "doc_id": "italy--italy1969-jp-en",
+      "jurisdiction": "Italy",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Italy1969_jp_en.pdf",
+      "source_basename": "Italy1969_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/italy--italy1969-jp-en.pdf"
+    },
+    {
+      "doc_id": "italy--italy1969-en-jp-en",
+      "jurisdiction": "Italy",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Italy1969_EN_jp_en.pdf",
+      "source_basename": "Italy1969_EN_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/italy--italy1969-en-jp-en.pdf"
+    },
+    {
+      "doc_id": "italy--italy-st-jp",
+      "jurisdiction": "Italy",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Italy_ST_jp.pdf",
+      "source_basename": "Italy_ST_jp.pdf",
+      "is_synth": true,
+      "file": "source/raw/italy--italy-st-jp.pdf"
+    },
+    {
+      "doc_id": "italy--italy1980-p-jp-en",
+      "jurisdiction": "Italy",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Italy1980_P_jp_en.pdf",
+      "source_basename": "Italy1980_P_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/italy--italy1980-p-jp-en.pdf"
+    },
+    {
+      "doc_id": "korea--korea1998-jp-en",
+      "jurisdiction": "Korea",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Korea1998_jp_en.pdf",
+      "source_basename": "Korea1998_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/korea--korea1998-jp-en.pdf"
+    },
+    {
+      "doc_id": "korea--200710kor-j",
+      "jurisdiction": "Korea",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/200710kor_j.pdf",
+      "source_basename": "200710kor_j.pdf",
+      "is_synth": false,
+      "file": "source/raw/korea--200710kor-j.pdf"
+    },
+    {
+      "doc_id": "kuwait--sy220217ku-a",
+      "jurisdiction": "Kuwait",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/press_release/sy220217ku_a.pdf",
+      "source_basename": "sy220217ku_a.pdf",
+      "is_synth": false,
+      "file": "source/raw/kuwait--sy220217ku-a.pdf"
+    },
+    {
+      "doc_id": "malaysia--malaysia1999-jp-en",
+      "jurisdiction": "Malaysia",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Malaysia1999_jp_en.pdf",
+      "source_basename": "Malaysia1999_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/malaysia--malaysia1999-jp-en.pdf"
+    },
+    {
+      "doc_id": "malaysia--synthesizedtextforjapan-malaysia-jp",
+      "jurisdiction": "Malaysia",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SynthesizedTextforJapan_Malaysia_JP.pdf",
+      "source_basename": "SynthesizedTextforJapan_Malaysia_JP.pdf",
+      "is_synth": true,
+      "file": "source/raw/malaysia--synthesizedtextforjapan-malaysia-jp.pdf"
+    },
+    {
+      "doc_id": "mexico--mexico1996-jp-en",
+      "jurisdiction": "Mexico",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Mexico1996_jp_en.pdf",
+      "source_basename": "Mexico1996_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/mexico--mexico1996-jp-en.pdf"
+    },
+    {
+      "doc_id": "mexico--synthesizedtextforjapan-mexico-jp",
+      "jurisdiction": "Mexico",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SynthesizedTextforJapan_Mexico_JP.pdf",
+      "source_basename": "SynthesizedTextforJapan_Mexico_JP.pdf",
+      "is_synth": true,
+      "file": "source/raw/mexico--synthesizedtextforjapan-mexico-jp.pdf"
+    },
+    {
+      "doc_id": "netherlands--netherland2012-en-jp-en",
+      "jurisdiction": "Netherlands",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Netherland2012_EN_jp_en.pdf",
+      "source_basename": "Netherland2012_EN_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/netherlands--netherland2012-en-jp-en.pdf"
+    },
+    {
+      "doc_id": "netherlands--synthesisedtextforjapan-netherlands-jp",
+      "jurisdiction": "Netherlands",
+      "source_url": "http://www.mof.go.jp/tax_policy/summary/international/press_release/SynthesisedTextforJapan-Netherlands_JP.pdf",
+      "source_basename": "SynthesisedTextforJapan-Netherlands_JP.pdf",
+      "is_synth": true,
+      "file": "source/raw/netherlands--synthesisedtextforjapan-netherlands-jp.pdf"
+    },
+    {
+      "doc_id": "new-zealand--synthesizedtextforjapan-newzealand-jp",
+      "jurisdiction": "New Zealand",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SynthesizedTextforJapan_NewZealand_JP.pdf",
+      "source_basename": "SynthesizedTextforJapan_NewZealand_JP.pdf",
+      "is_synth": true,
+      "file": "source/raw/new-zealand--synthesizedtextforjapan-newzealand-jp.pdf"
+    },
+    {
+      "doc_id": "norway--norway1992-jp-en",
+      "jurisdiction": "Norway",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Norway1992_jp_en.pdf",
+      "source_basename": "Norway1992_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/norway--norway1992-jp-en.pdf"
+    },
+    {
+      "doc_id": "norway--norway1992-en-jp-en",
+      "jurisdiction": "Norway",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Norway1992_EN_jp_en.pdf",
+      "source_basename": "Norway1992_EN_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/norway--norway1992-en-jp-en.pdf"
+    },
+    {
+      "doc_id": "norway--190927norway-j",
+      "jurisdiction": "Norway",
+      "source_url": "http://www.mof.go.jp/tax_policy/summary/international/tax_convention/190927norway_j.pdf",
+      "source_basename": "190927norway_j.pdf",
+      "is_synth": false,
+      "file": "source/raw/norway--190927norway-j.pdf"
+    },
+    {
+      "doc_id": "philippines--philippines1980-jp-en",
+      "jurisdiction": "Philippines",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Philippines1980_jp_en.pdf",
+      "source_basename": "Philippines1980_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/philippines--philippines1980-jp-en.pdf"
+    },
+    {
+      "doc_id": "philippines--philippines1980-en-jp-en",
+      "jurisdiction": "Philippines",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Philippines1980_EN_jp_en.pdf",
+      "source_basename": "Philippines1980_EN_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/philippines--philippines1980-en-jp-en.pdf"
+    },
+    {
+      "doc_id": "philippines--philippines-st-jp",
+      "jurisdiction": "Philippines",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Philippines_ST_jp.pdf",
+      "source_basename": "Philippines_ST_jp.pdf",
+      "is_synth": true,
+      "file": "source/raw/philippines--philippines-st-jp.pdf"
+    },
+    {
+      "doc_id": "qatar--200221qat-j",
+      "jurisdiction": "Qatar",
+      "source_url": "http://www.mof.go.jp/tax_policy/summary/international/tax_convention/200221qat_j.pdf",
+      "source_basename": "200221qat_j.pdf",
+      "is_synth": false,
+      "file": "source/raw/qatar--200221qat-j.pdf"
+    },
+    {
+      "doc_id": "russia--20170907ru-a",
+      "jurisdiction": "Russia",
+      "source_url": "http://www.mof.go.jp/tax_policy/summary/international/press_release/20170907ru_a.pdf",
+      "source_basename": "20170907ru_a.pdf",
+      "is_synth": false,
+      "file": "source/raw/russia--20170907ru-a.pdf"
+    },
+    {
+      "doc_id": "saudi-arabia--saudiarabia2013-en-jp-en",
+      "jurisdiction": "Saudi Arabia",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SaudiArabia2013_EN_jp_en.pdf",
+      "source_basename": "SaudiArabia2013_EN_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/saudi-arabia--saudiarabia2013-en-jp-en.pdf"
+    },
+    {
+      "doc_id": "saudi-arabia--synthesizedtextforjapan-saudiarabia-jp",
+      "jurisdiction": "Saudi Arabia",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SynthesizedTextforJapan_SaudiArabia_JP.pdf",
+      "source_basename": "SynthesizedTextforJapan_SaudiArabia_JP.pdf",
+      "is_synth": true,
+      "file": "source/raw/saudi-arabia--synthesizedtextforjapan-saudiarabia-jp.pdf"
+    },
+    {
+      "doc_id": "singapore--singapore1994-jp-en",
+      "jurisdiction": "Singapore",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Singapore1994_jp_en.pdf",
+      "source_basename": "Singapore1994_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/singapore--singapore1994-jp-en.pdf"
+    },
+    {
+      "doc_id": "singapore--singapore1994-en-jp-en",
+      "jurisdiction": "Singapore",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Singapore1994_EN_jp_en.pdf",
+      "source_basename": "Singapore1994_EN_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/singapore--singapore1994-en-jp-en.pdf"
+    },
+    {
+      "doc_id": "singapore--synthesizedtextforjapan-singaporejp",
+      "jurisdiction": "Singapore",
+      "source_url": "http://www.mof.go.jp/tax_policy/summary/international/press_release/SynthesizedTextforJapan-SingaporeJP.pdf",
+      "source_basename": "SynthesizedTextforJapan-SingaporeJP.pdf",
+      "is_synth": true,
+      "file": "source/raw/singapore--synthesizedtextforjapan-singaporejp.pdf"
+    },
+    {
+      "doc_id": "singapore--singapore2010-p-jp",
+      "jurisdiction": "Singapore",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Singapore2010_P_jp.pdf",
+      "source_basename": "Singapore2010_P_jp.pdf",
+      "is_synth": false,
+      "file": "source/raw/singapore--singapore2010-p-jp.pdf"
+    },
+    {
+      "doc_id": "south-africa--southafrica1997-jp-en",
+      "jurisdiction": "South Africa",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SouthAfrica1997_jp_en.pdf",
+      "source_basename": "SouthAfrica1997_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/south-africa--southafrica1997-jp-en.pdf"
+    },
+    {
+      "doc_id": "south-africa--sourhafrica1997-en-jp-en",
+      "jurisdiction": "South Africa",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SourhAfrica1997_EN_jp_en.pdf",
+      "source_basename": "SourhAfrica1997_EN_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/south-africa--sourhafrica1997-en-jp-en.pdf"
+    },
+    {
+      "doc_id": "south-africa--synthesizedtextforjapan-southafrica-jp",
+      "jurisdiction": "South Africa",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SynthesizedTextforJapan_SouthAfrica_JP.pdf",
+      "source_basename": "SynthesizedTextforJapan_SouthAfrica_JP.pdf",
+      "is_synth": true,
+      "file": "source/raw/south-africa--synthesizedtextforjapan-southafrica-jp.pdf"
+    },
+    {
+      "doc_id": "spain--20210215spa-j",
+      "jurisdiction": "Spain",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/20210215Spa_j.pdf",
+      "source_basename": "20210215Spa_j.pdf",
+      "is_synth": false,
+      "file": "source/raw/spain--20210215spa-j.pdf"
+    },
+    {
+      "doc_id": "sweden--sweden1983-jp-en",
+      "jurisdiction": "Sweden",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Sweden1983_jp_en.pdf",
+      "source_basename": "Sweden1983_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/sweden--sweden1983-jp-en.pdf"
+    },
+    {
+      "doc_id": "sweden--sweden1983-en-jp-en",
+      "jurisdiction": "Sweden",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Sweden1983_EN_jp_en.pdf",
+      "source_basename": "Sweden1983_EN_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/sweden--sweden1983-en-jp-en.pdf"
+    },
+    {
+      "doc_id": "sweden--synthesizedtextforjapan-swedenjp",
+      "jurisdiction": "Sweden",
+      "source_url": "http://www.mof.go.jp/tax_policy/summary/international/press_release/SynthesizedTextforJapan-SwedenJP.pdf",
+      "source_basename": "SynthesizedTextforJapan-SwedenJP.pdf",
+      "is_synth": true,
+      "file": "source/raw/sweden--synthesizedtextforjapan-swedenjp.pdf"
+    },
+    {
+      "doc_id": "sweden--sweden1999-p-jp-en",
+      "jurisdiction": "Sweden",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Sweden1999_P_jp_en.pdf",
+      "source_basename": "Sweden1999_P_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/sweden--sweden1999-p-jp-en.pdf"
+    },
+    {
+      "doc_id": "switzerland--switzerland1971-jp-en",
+      "jurisdiction": "Switzerland",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Switzerland1971_jp_en.pdf",
+      "source_basename": "Switzerland1971_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/switzerland--switzerland1971-jp-en.pdf"
+    },
+    {
+      "doc_id": "switzerland--switzerland-st-jp",
+      "jurisdiction": "Switzerland",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Switzerland_ST_jp.pdf",
+      "source_basename": "Switzerland_ST_jp.pdf",
+      "is_synth": true,
+      "file": "source/raw/switzerland--switzerland-st-jp.pdf"
+    },
+    {
+      "doc_id": "switzerland--switzerland2012-en-jp",
+      "jurisdiction": "Switzerland",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Switzerland2012_EN_jp.pdf",
+      "source_basename": "Switzerland2012_EN_jp.pdf",
+      "is_synth": false,
+      "file": "source/raw/switzerland--switzerland2012-en-jp.pdf"
+    },
+    {
+      "doc_id": "switzerland--switzerland2012-en-jp-en",
+      "jurisdiction": "Switzerland",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Switzerland2012_EN_jp_en.pdf",
+      "source_basename": "Switzerland2012_EN_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/switzerland--switzerland2012-en-jp-en.pdf"
+    },
+    {
+      "doc_id": "switzerland--switzerland2012-en-eoi-jp-en",
+      "jurisdiction": "Switzerland",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Switzerland2012_EN_EOI_jp_en.pdf",
+      "source_basename": "Switzerland2012_EN_EOI_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/switzerland--switzerland2012-en-eoi-jp-en.pdf"
+    },
+    {
+      "doc_id": "thailand--thailand1990-jp-en",
+      "jurisdiction": "Thailand",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Thailand1990_jp_en.pdf",
+      "source_basename": "Thailand1990_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/thailand--thailand1990-jp-en.pdf"
+    },
+    {
+      "doc_id": "thailand--synthesizedtextforjapan-thailand-jp",
+      "jurisdiction": "Thailand",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SynthesizedTextforJapan_Thailand_JP.pdf",
+      "source_basename": "SynthesizedTextforJapan_Thailand_JP.pdf",
+      "is_synth": true,
+      "file": "source/raw/thailand--synthesizedtextforjapan-thailand-jp.pdf"
+    },
+    {
+      "doc_id": "united-arab-emirates--250502ae-a",
+      "jurisdiction": "United Arab Emirates",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/press_release/250502ae_a.pdf",
+      "source_basename": "250502ae_a.pdf",
+      "is_synth": false,
+      "file": "source/raw/united-arab-emirates--250502ae-a.pdf"
+    },
+    {
+      "doc_id": "united-arab-emirates--20141125ae-c",
+      "jurisdiction": "United Arab Emirates",
+      "source_url": "http://www.mof.go.jp/tax_policy/summary/international/press_release/20141125ae_c.pdf",
+      "source_basename": "20141125ae_c.pdf",
+      "is_synth": false,
+      "file": "source/raw/united-arab-emirates--20141125ae-c.pdf"
+    },
+    {
+      "doc_id": "united-arab-emirates--20190716",
+      "jurisdiction": "United Arab Emirates",
+      "source_url": "http://www.mof.go.jp/tax_policy/summary/international/press_release/20190716.pdf",
+      "source_basename": "20190716.pdf",
+      "is_synth": false,
+      "file": "source/raw/united-arab-emirates--20190716.pdf"
+    },
+    {
+      "doc_id": "united-kingdom--synthesizedtextforjapan-unitedkingdom-jp",
+      "jurisdiction": "United Kingdom",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SynthesizedTextforJapan_UnitedKingdom_JP.pdf",
+      "source_basename": "SynthesizedTextforJapan_UnitedKingdom_JP.pdf",
+      "is_synth": true,
+      "file": "source/raw/united-kingdom--synthesizedtextforjapan-unitedkingdom-jp.pdf"
+    },
+    {
+      "doc_id": "united-states--usa-st-jp",
+      "jurisdiction": "United States",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/USA_ST_jp.pdf",
+      "source_basename": "USA_ST_jp.pdf",
+      "is_synth": true,
+      "file": "source/raw/united-states--usa-st-jp.pdf"
+    },
+    {
+      "doc_id": "viet-nam--vietnam1995-jp-en",
+      "jurisdiction": "Viet Nam",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Vietnam1995_jp_en.pdf",
+      "source_basename": "Vietnam1995_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/viet-nam--vietnam1995-jp-en.pdf"
+    },
+    {
+      "doc_id": "viet-nam--vietnam2014-en-jp-en",
+      "jurisdiction": "Viet Nam",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Vietnam2014_EN_jp_en.pdf",
+      "source_basename": "Vietnam2014_EN_jp_en.pdf",
+      "is_synth": false,
+      "file": "source/raw/viet-nam--vietnam2014-en-jp-en.pdf"
+    },
+    {
+      "doc_id": "viet-nam--synthesizedtextforjapan-vietnam-jp",
+      "jurisdiction": "Viet Nam",
+      "source_url": "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/SynthesizedTextforJapan_VietNam_JP.pdf",
+      "source_basename": "SynthesizedTextforJapan_VietNam_JP.pdf",
+      "is_synth": true,
+      "file": "source/raw/viet-nam--synthesizedtextforjapan-vietnam-jp.pdf"
+    }
+  ]
+}

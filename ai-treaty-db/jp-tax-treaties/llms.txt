@@ -1,0 +1,12 @@
+# 日本の租税条約（主要国） / AI検索最適化
+# Base URL: https://jplawdb.github.io/html-preview/ai-treaty-db/jp-tax-treaties/
+
+推奨読手順（10k tokens/read 制約前提）
+1) `quickstart.txt`
+2) `data/docs_index.tsv`
+3) `data/shards_index.json`
+4) `data/shards/*.txt`（TSVを読む＝検索）
+5) `packs/*.txt`（本文。複数条文を1ファイルにまとめたpack）
+
+英字キーワード（PE/MAP/MLI/PPT等）での横断検索
+- `data/latin_terms/index.json` → `data/latin_terms/*.tsv` → `packs/...`

@@ -1,0 +1,2 @@
+id	pid	page_start	page_end	snippet	core
+brazil--brazil-st-jp-all	all	1	27	所 得 に 対 す る 租 税 に 関 す る 二 重 課 税 の 回 避 の た め の 日 本 国 と ブ ラ ジ ル 連 邦 共 和 国 と の 間 の 条 約 日 本 国 政 府 及 び ブ ラ ジ ル 連 邦 共 和 国 政 府 	packs/brazil--brazil-st-jp-pack-00.part-01.txt

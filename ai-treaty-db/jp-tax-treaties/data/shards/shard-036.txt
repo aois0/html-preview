@@ -1,0 +1,2 @@
+id	pid	page_start	page_end	snippet	core
+switzerland--switzerland-st-jp-all	all	1	60	所 得 に 対 す る 租 税 に 関 す る 二 重 課 税 の 回 避 の た め の 日 本 国 と ス イ ス と の 間 の 条 約 日 本 国 政 府 及 び ス イ ス 連 邦 政 府 は 、 所 得 に 対 す る 租 税 	packs/switzerland--switzerland-st-jp-pack-00.part-01.txt

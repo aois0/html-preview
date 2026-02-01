@@ -1,0 +1,1125 @@
+{
+  "dataset": {
+    "name": "Japan tax treaties (major jurisdictions)",
+    "generated_at": "2026-02-01",
+    "base_url": "https://jplawdb.github.io/html-preview/ai-treaty-db/jp-tax-treaties"
+  },
+  "format": "tsv",
+  "fields": [
+    "id",
+    "pid",
+    "page_start",
+    "page_end",
+    "snippet",
+    "core"
+  ],
+  "shard_size": 80,
+  "sections": [
+    {
+      "id": "australia--synthesizedtextforjapan-australia-jp",
+      "title": "Australia (SynthesizedTextforJapan_Australia_JP.pdf)",
+      "count": 51,
+      "shards": [
+        {
+          "file": "data/shards/shard-000.txt",
+          "count": 51,
+          "pid_start": "preamble",
+          "pid_end": "32"
+        }
+      ]
+    },
+    {
+      "id": "austria--20170131at-a",
+      "title": "Austria (20170131at_a.pdf)",
+      "count": 1,
+      "shards": [
+        {
+          "file": "data/shards/shard-001.txt",
+          "count": 1,
+          "pid_start": "all",
+          "pid_end": "all"
+        }
+      ]
+    },
+    {
+      "id": "belgium--20161012be-a",
+      "title": "Belgium (20161012be_a.pdf)",
+      "count": 1,
+      "shards": [
+        {
+          "file": "data/shards/shard-002.txt",
+          "count": 1,
+          "pid_start": "all",
+          "pid_end": "all"
+        }
+      ]
+    },
+    {
+      "id": "brazil--brazil-st-jp",
+      "title": "Brazil (Brazil_ST_jp.pdf)",
+      "count": 1,
+      "shards": [
+        {
+          "file": "data/shards/shard-003.txt",
+          "count": 1,
+          "pid_start": "all",
+          "pid_end": "all"
+        }
+      ]
+    },
+    {
+      "id": "canada--synthesizedtextforjapan-canada-jp",
+      "title": "Canada (SynthesizedTextforJapan_Canada_JP.pdf)",
+      "count": 42,
+      "shards": [
+        {
+          "file": "data/shards/shard-004.txt",
+          "count": 42,
+          "pid_start": "preamble",
+          "pid_end": "28"
+        }
+      ]
+    },
+    {
+      "id": "china--synthesizedtextforjapan-china-jp",
+      "title": "China (SynthesizedTextforJapan_China_JP.pdf)",
+      "count": 36,
+      "shards": [
+        {
+          "file": "data/shards/shard-005.txt",
+          "count": 36,
+          "pid_start": "preamble",
+          "pid_end": "30"
+        }
+      ]
+    },
+    {
+      "id": "denmark--20171011dk-a",
+      "title": "Denmark (20171011dk_a.pdf)",
+      "count": 1,
+      "shards": [
+        {
+          "file": "data/shards/shard-006.txt",
+          "count": 1,
+          "pid_start": "all",
+          "pid_end": "all"
+        }
+      ]
+    },
+    {
+      "id": "denmark--20211105dk-j",
+      "title": "Denmark (20211105dk_j.pdf)",
+      "count": 1,
+      "shards": [
+        {
+          "file": "data/shards/shard-007.txt",
+          "count": 1,
+          "pid_start": "all",
+          "pid_end": "all"
+        }
+      ]
+    },
+    {
+      "id": "finland--synthesizedtextforjapan-finland1-jp",
+      "title": "Finland (SynthesizedTextforJapan_Finland1_JP.pdf)",
+      "count": 44,
+      "shards": [
+        {
+          "file": "data/shards/shard-008.txt",
+          "count": 44,
+          "pid_start": "preamble",
+          "pid_end": "30"
+        }
+      ]
+    },
+    {
+      "id": "finland--synthesizedtextforjapan-finland2-jp",
+      "title": "Finland (SynthesizedTextforJapan_Finland2_JP.pdf)",
+      "count": 45,
+      "shards": [
+        {
+          "file": "data/shards/shard-009.txt",
+          "count": 45,
+          "pid_start": "preamble",
+          "pid_end": "7"
+        }
+      ]
+    },
+    {
+      "id": "france--synthesizedtextforjapan-france-jp",
+      "title": "France (SynthesizedTextforJapan_France_JP.pdf)",
+      "count": 50,
+      "shards": [
+        {
+          "file": "data/shards/shard-010.txt",
+          "count": 50,
+          "pid_start": "preamble",
+          "pid_end": "31"
+        }
+      ]
+    },
+    {
+      "id": "germany--synthesizedtextforjapan-germany-jp",
+      "title": "Germany (SynthesizedTextforJapan_Germany_JP.pdf)",
+      "count": 36,
+      "shards": [
+        {
+          "file": "data/shards/shard-011.txt",
+          "count": 36,
+          "pid_start": "preamble",
+          "pid_end": "32"
+        }
+      ]
+    },
+    {
+      "id": "hong-kong--hongkong2012-en-jp-en",
+      "title": "Hong Kong (HongKong2012_EN_jp_en.pdf)",
+      "count": 1,
+      "shards": [
+        {
+          "file": "data/shards/shard-012.txt",
+          "count": 1,
+          "pid_start": "all",
+          "pid_end": "all"
+        }
+      ]
+    },
+    {
+      "id": "hong-kong--synthesizedtextforjapan-hongkong-jp",
+      "title": "Hong Kong (SynthesizedTextforJapan_HongKong_JP.pdf)",
+      "count": 36,
+      "shards": [
+        {
+          "file": "data/shards/shard-013.txt",
+          "count": 36,
+          "pid_start": "preamble",
+          "pid_end": "30"
+        }
+      ]
+    },
+    {
+      "id": "india--india-text-rev-jpn",
+      "title": "India (india.text.rev.jpn.pdf)",
+      "count": 42,
+      "shards": [
+        {
+          "file": "data/shards/shard-014.txt",
+          "count": 42,
+          "pid_start": "preamble",
+          "pid_end": "29"
+        }
+      ]
+    },
+    {
+      "id": "indonesia--synthesizedtextforjapan-indonesia-jp",
+      "title": "Indonesia (SynthesizedTextforJapan_Indonesia_JP.pdf)",
+      "count": 41,
+      "shards": [
+        {
+          "file": "data/shards/shard-015.txt",
+          "count": 41,
+          "pid_start": "preamble",
+          "pid_end": "30"
+        }
+      ]
+    },
+    {
+      "id": "ireland--synthesizedtextforjapan-ireland-jp",
+      "title": "Ireland (SynthesizedTextforJapan_Ireland_JP.pdf)",
+      "count": 51,
+      "shards": [
+        {
+          "file": "data/shards/shard-016.txt",
+          "count": 51,
+          "pid_start": "preamble",
+          "pid_end": "31"
+        }
+      ]
+    },
+    {
+      "id": "italy--italy-st-jp",
+      "title": "Italy (Italy_ST_jp.pdf)",
+      "count": 1,
+      "shards": [
+        {
+          "file": "data/shards/shard-017.txt",
+          "count": 1,
+          "pid_start": "all",
+          "pid_end": "all"
+        }
+      ]
+    },
+    {
+      "id": "korea--200710kor-j",
+      "title": "Korea (200710kor_j.pdf)",
+      "count": 35,
+      "shards": [
+        {
+          "file": "data/shards/shard-018.txt",
+          "count": 35,
+          "pid_start": "preamble",
+          "pid_end": "30"
+        }
+      ]
+    },
+    {
+      "id": "kuwait--sy220217ku-a",
+      "title": "Kuwait (sy220217ku_a.pdf)",
+      "count": 34,
+      "shards": [
+        {
+          "file": "data/shards/shard-019.txt",
+          "count": 34,
+          "pid_start": "1",
+          "pid_end": "30"
+        }
+      ]
+    },
+    {
+      "id": "malaysia--synthesizedtextforjapan-malaysia-jp",
+      "title": "Malaysia (SynthesizedTextforJapan_Malaysia_JP.pdf)",
+      "count": 38,
+      "shards": [
+        {
+          "file": "data/shards/shard-020.txt",
+          "count": 38,
+          "pid_start": "preamble",
+          "pid_end": "28"
+        }
+      ]
+    },
+    {
+      "id": "mexico--synthesizedtextforjapan-mexico-jp",
+      "title": "Mexico (SynthesizedTextforJapan_Mexico_JP.pdf)",
+      "count": 44,
+      "shards": [
+        {
+          "file": "data/shards/shard-021.txt",
+          "count": 44,
+          "pid_start": "preamble",
+          "pid_end": "7"
+        }
+      ]
+    },
+    {
+      "id": "netherlands--netherland2012-en-jp-en",
+      "title": "Netherlands (Netherland2012_EN_jp_en.pdf)",
+      "count": 1,
+      "shards": [
+        {
+          "file": "data/shards/shard-022.txt",
+          "count": 1,
+          "pid_start": "all",
+          "pid_end": "all"
+        }
+      ]
+    },
+    {
+      "id": "netherlands--synthesisedtextforjapan-netherlands-jp",
+      "title": "Netherlands (SynthesisedTextforJapan-Netherlands_JP.pdf)",
+      "count": 47,
+      "shards": [
+        {
+          "file": "data/shards/shard-023.txt",
+          "count": 47,
+          "pid_start": "preamble",
+          "pid_end": "20"
+        }
+      ]
+    },
+    {
+      "id": "new-zealand--synthesizedtextforjapan-newzealand-jp",
+      "title": "New Zealand (SynthesizedTextforJapan_NewZealand_JP.pdf)",
+      "count": 47,
+      "shards": [
+        {
+          "file": "data/shards/shard-024.txt",
+          "count": 47,
+          "pid_start": "preamble",
+          "pid_end": "32"
+        }
+      ]
+    },
+    {
+      "id": "norway--190927norway-j",
+      "title": "Norway (190927norway_j.pdf)",
+      "count": 41,
+      "shards": [
+        {
+          "file": "data/shards/shard-025.txt",
+          "count": 41,
+          "pid_start": "preamble",
+          "pid_end": "7"
+        }
+      ]
+    },
+    {
+      "id": "philippines--philippines-st-jp",
+      "title": "Philippines (Philippines_ST_jp.pdf)",
+      "count": 1,
+      "shards": [
+        {
+          "file": "data/shards/shard-026.txt",
+          "count": 1,
+          "pid_start": "all",
+          "pid_end": "all"
+        }
+      ]
+    },
+    {
+      "id": "qatar--200221qat-j",
+      "title": "Qatar (200221qat_j.pdf)",
+      "count": 35,
+      "shards": [
+        {
+          "file": "data/shards/shard-027.txt",
+          "count": 35,
+          "pid_start": "preamble",
+          "pid_end": "7"
+        }
+      ]
+    },
+    {
+      "id": "russia--20170907ru-a",
+      "title": "Russia (20170907ru_a.pdf)",
+      "count": 1,
+      "shards": [
+        {
+          "file": "data/shards/shard-028.txt",
+          "count": 1,
+          "pid_start": "all",
+          "pid_end": "all"
+        }
+      ]
+    },
+    {
+      "id": "saudi-arabia--saudiarabia2013-en-jp-en",
+      "title": "Saudi Arabia (SaudiArabia2013_EN_jp_en.pdf)",
+      "count": 1,
+      "shards": [
+        {
+          "file": "data/shards/shard-029.txt",
+          "count": 1,
+          "pid_start": "all",
+          "pid_end": "all"
+        }
+      ]
+    },
+    {
+      "id": "saudi-arabia--synthesizedtextforjapan-saudiarabia-jp",
+      "title": "Saudi Arabia (SynthesizedTextforJapan_SaudiArabia_JP.pdf)",
+      "count": 40,
+      "shards": [
+        {
+          "file": "data/shards/shard-030.txt",
+          "count": 40,
+          "pid_start": "preamble",
+          "pid_end": "30"
+        }
+      ]
+    },
+    {
+      "id": "singapore--singapore2010-p-jp",
+      "title": "Singapore (Singapore2010_P_jp.pdf)",
+      "count": 4,
+      "shards": [
+        {
+          "file": "data/shards/shard-031.txt",
+          "count": 4,
+          "pid_start": "1",
+          "pid_end": "2"
+        }
+      ]
+    },
+    {
+      "id": "singapore--synthesizedtextforjapan-singaporejp",
+      "title": "Singapore (SynthesizedTextforJapan-SingaporeJP.pdf)",
+      "count": 42,
+      "shards": [
+        {
+          "file": "data/shards/shard-032.txt",
+          "count": 42,
+          "pid_start": "preamble",
+          "pid_end": "30"
+        }
+      ]
+    },
+    {
+      "id": "south-africa--synthesizedtextforjapan-southafrica-jp",
+      "title": "South Africa (SynthesizedTextforJapan_SouthAfrica_JP.pdf)",
+      "count": 40,
+      "shards": [
+        {
+          "file": "data/shards/shard-033.txt",
+          "count": 40,
+          "pid_start": "preamble",
+          "pid_end": "29"
+        }
+      ]
+    },
+    {
+      "id": "spain--20210215spa-j",
+      "title": "Spain (20210215Spa_j.pdf)",
+      "count": 37,
+      "shards": [
+        {
+          "file": "data/shards/shard-034.txt",
+          "count": 37,
+          "pid_start": "1",
+          "pid_end": "31"
+        }
+      ]
+    },
+    {
+      "id": "sweden--synthesizedtextforjapan-swedenjp",
+      "title": "Sweden (SynthesizedTextforJapan-SwedenJP.pdf)",
+      "count": 36,
+      "shards": [
+        {
+          "file": "data/shards/shard-035.txt",
+          "count": 36,
+          "pid_start": "preamble",
+          "pid_end": "28"
+        }
+      ]
+    },
+    {
+      "id": "switzerland--switzerland-st-jp",
+      "title": "Switzerland (Switzerland_ST_jp.pdf)",
+      "count": 1,
+      "shards": [
+        {
+          "file": "data/shards/shard-036.txt",
+          "count": 1,
+          "pid_start": "all",
+          "pid_end": "all"
+        }
+      ]
+    },
+    {
+      "id": "switzerland--switzerland2012-en-eoi-jp-en",
+      "title": "Switzerland (Switzerland2012_EN_EOI_jp_en.pdf)",
+      "count": 1,
+      "shards": [
+        {
+          "file": "data/shards/shard-037.txt",
+          "count": 1,
+          "pid_start": "all",
+          "pid_end": "all"
+        }
+      ]
+    },
+    {
+      "id": "switzerland--switzerland2012-en-jp",
+      "title": "Switzerland (Switzerland2012_EN_jp.pdf)",
+      "count": 1,
+      "shards": [
+        {
+          "file": "data/shards/shard-038.txt",
+          "count": 1,
+          "pid_start": "all",
+          "pid_end": "all"
+        }
+      ]
+    },
+    {
+      "id": "switzerland--switzerland2012-en-jp-en",
+      "title": "Switzerland (Switzerland2012_EN_jp_en.pdf)",
+      "count": 1,
+      "shards": [
+        {
+          "file": "data/shards/shard-039.txt",
+          "count": 1,
+          "pid_start": "all",
+          "pid_end": "all"
+        }
+      ]
+    },
+    {
+      "id": "thailand--synthesizedtextforjapan-thailand-jp",
+      "title": "Thailand (SynthesizedTextforJapan_Thailand_JP.pdf)",
+      "count": 38,
+      "shards": [
+        {
+          "file": "data/shards/shard-040.txt",
+          "count": 38,
+          "pid_start": "preamble",
+          "pid_end": "27"
+        }
+      ]
+    },
+    {
+      "id": "united-arab-emirates--20141125ae-c",
+      "title": "United Arab Emirates (20141125ae_c.pdf)",
+      "count": 1,
+      "shards": [
+        {
+          "file": "data/shards/shard-041.txt",
+          "count": 1,
+          "pid_start": "all",
+          "pid_end": "all"
+        }
+      ]
+    },
+    {
+      "id": "united-arab-emirates--20190716",
+      "title": "United Arab Emirates (20190716.pdf)",
+      "count": 35,
+      "shards": [
+        {
+          "file": "data/shards/shard-042.txt",
+          "count": 35,
+          "pid_start": "preamble",
+          "pid_end": "7"
+        }
+      ]
+    },
+    {
+      "id": "united-arab-emirates--250502ae-a",
+      "title": "United Arab Emirates (250502ae_a.pdf)",
+      "count": 1,
+      "shards": [
+        {
+          "file": "data/shards/shard-043.txt",
+          "count": 1,
+          "pid_start": "all",
+          "pid_end": "all"
+        }
+      ]
+    },
+    {
+      "id": "united-kingdom--synthesizedtextforjapan-unitedkingdom-jp",
+      "title": "United Kingdom (SynthesizedTextforJapan_UnitedKingdom_JP.pdf)",
+      "count": 46,
+      "shards": [
+        {
+          "file": "data/shards/shard-044.txt",
+          "count": 46,
+          "pid_start": "preamble",
+          "pid_end": "23"
+        }
+      ]
+    },
+    {
+      "id": "united-states--usa-st-jp",
+      "title": "United States (USA_ST_jp.pdf)",
+      "count": 37,
+      "shards": [
+        {
+          "file": "data/shards/shard-045.txt",
+          "count": 37,
+          "pid_start": "1",
+          "pid_end": "10-2"
+        }
+      ]
+    },
+    {
+      "id": "viet-nam--synthesizedtextforjapan-vietnam-jp",
+      "title": "Viet Nam (SynthesizedTextforJapan_VietNam_JP.pdf)",
+      "count": 38,
+      "shards": [
+        {
+          "file": "data/shards/shard-046.txt",
+          "count": 38,
+          "pid_start": "preamble",
+          "pid_end": "29"
+        }
+      ]
+    },
+    {
+      "id": "viet-nam--vietnam2014-en-jp-en",
+      "title": "Viet Nam (Vietnam2014_EN_jp_en.pdf)",
+      "count": 1,
+      "shards": [
+        {
+          "file": "data/shards/shard-047.txt",
+          "count": 1,
+          "pid_start": "all",
+          "pid_end": "all"
+        }
+      ]
+    }
+  ],
+  "shards": [
+    {
+      "file": "data/shards/shard-000.txt",
+      "count": 51,
+      "section_id": "australia--synthesizedtextforjapan-australia-jp",
+      "section_title": "Australia (SynthesizedTextforJapan_Australia_JP.pdf)",
+      "page_start": 1,
+      "page_end": 49,
+      "pid_start": "preamble",
+      "pid_end": "32"
+    },
+    {
+      "file": "data/shards/shard-001.txt",
+      "count": 1,
+      "section_id": "austria--20170131at-a",
+      "section_title": "Austria (20170131at_a.pdf)",
+      "page_start": 1,
+      "page_end": 60,
+      "pid_start": "all",
+      "pid_end": "all"
+    },
+    {
+      "file": "data/shards/shard-002.txt",
+      "count": 1,
+      "section_id": "belgium--20161012be-a",
+      "section_title": "Belgium (20161012be_a.pdf)",
+      "page_start": 1,
+      "page_end": 69,
+      "pid_start": "all",
+      "pid_end": "all"
+    },
+    {
+      "file": "data/shards/shard-003.txt",
+      "count": 1,
+      "section_id": "brazil--brazil-st-jp",
+      "section_title": "Brazil (Brazil_ST_jp.pdf)",
+      "page_start": 1,
+      "page_end": 27,
+      "pid_start": "all",
+      "pid_end": "all"
+    },
+    {
+      "file": "data/shards/shard-004.txt",
+      "count": 42,
+      "section_id": "canada--synthesizedtextforjapan-canada-jp",
+      "section_title": "Canada (SynthesizedTextforJapan_Canada_JP.pdf)",
+      "page_start": 1,
+      "page_end": 32,
+      "pid_start": "preamble",
+      "pid_end": "28"
+    },
+    {
+      "file": "data/shards/shard-005.txt",
+      "count": 36,
+      "section_id": "china--synthesizedtextforjapan-china-jp",
+      "section_title": "China (SynthesizedTextforJapan_China_JP.pdf)",
+      "page_start": 1,
+      "page_end": 23,
+      "pid_start": "preamble",
+      "pid_end": "30"
+    },
+    {
+      "file": "data/shards/shard-006.txt",
+      "count": 1,
+      "section_id": "denmark--20171011dk-a",
+      "section_title": "Denmark (20171011dk_a.pdf)",
+      "page_start": 1,
+      "page_end": 61,
+      "pid_start": "all",
+      "pid_end": "all"
+    },
+    {
+      "file": "data/shards/shard-007.txt",
+      "count": 1,
+      "section_id": "denmark--20211105dk-j",
+      "section_title": "Denmark (20211105dk_j.pdf)",
+      "page_start": 1,
+      "page_end": 4,
+      "pid_start": "all",
+      "pid_end": "all"
+    },
+    {
+      "file": "data/shards/shard-008.txt",
+      "count": 44,
+      "section_id": "finland--synthesizedtextforjapan-finland1-jp",
+      "section_title": "Finland (SynthesizedTextforJapan_Finland1_JP.pdf)",
+      "page_start": 1,
+      "page_end": 28,
+      "pid_start": "preamble",
+      "pid_end": "30"
+    },
+    {
+      "file": "data/shards/shard-009.txt",
+      "count": 45,
+      "section_id": "finland--synthesizedtextforjapan-finland2-jp",
+      "section_title": "Finland (SynthesizedTextforJapan_Finland2_JP.pdf)",
+      "page_start": 1,
+      "page_end": 28,
+      "pid_start": "preamble",
+      "pid_end": "7"
+    },
+    {
+      "file": "data/shards/shard-010.txt",
+      "count": 50,
+      "section_id": "france--synthesizedtextforjapan-france-jp",
+      "section_title": "France (SynthesizedTextforJapan_France_JP.pdf)",
+      "page_start": 1,
+      "page_end": 48,
+      "pid_start": "preamble",
+      "pid_end": "31"
+    },
+    {
+      "file": "data/shards/shard-011.txt",
+      "count": 36,
+      "section_id": "germany--synthesizedtextforjapan-germany-jp",
+      "section_title": "Germany (SynthesizedTextforJapan_Germany_JP.pdf)",
+      "page_start": 1,
+      "page_end": 37,
+      "pid_start": "preamble",
+      "pid_end": "32"
+    },
+    {
+      "file": "data/shards/shard-012.txt",
+      "count": 1,
+      "section_id": "hong-kong--hongkong2012-en-jp-en",
+      "section_title": "Hong Kong (HongKong2012_EN_jp_en.pdf)",
+      "page_start": 1,
+      "page_end": 4,
+      "pid_start": "all",
+      "pid_end": "all"
+    },
+    {
+      "file": "data/shards/shard-013.txt",
+      "count": 36,
+      "section_id": "hong-kong--synthesizedtextforjapan-hongkong-jp",
+      "section_title": "Hong Kong (SynthesizedTextforJapan_HongKong_JP.pdf)",
+      "page_start": 1,
+      "page_end": 27,
+      "pid_start": "preamble",
+      "pid_end": "30"
+    },
+    {
+      "file": "data/shards/shard-014.txt",
+      "count": 42,
+      "section_id": "india--india-text-rev-jpn",
+      "section_title": "India (india.text.rev.jpn.pdf)",
+      "page_start": 1,
+      "page_end": 30,
+      "pid_start": "preamble",
+      "pid_end": "29"
+    },
+    {
+      "file": "data/shards/shard-015.txt",
+      "count": 41,
+      "section_id": "indonesia--synthesizedtextforjapan-indonesia-jp",
+      "section_title": "Indonesia (SynthesizedTextforJapan_Indonesia_JP.pdf)",
+      "page_start": 1,
+      "page_end": 28,
+      "pid_start": "preamble",
+      "pid_end": "30"
+    },
+    {
+      "file": "data/shards/shard-016.txt",
+      "count": 51,
+      "section_id": "ireland--synthesizedtextforjapan-ireland-jp",
+      "section_title": "Ireland (SynthesizedTextforJapan_Ireland_JP.pdf)",
+      "page_start": 1,
+      "page_end": 30,
+      "pid_start": "preamble",
+      "pid_end": "31"
+    },
+    {
+      "file": "data/shards/shard-017.txt",
+      "count": 1,
+      "section_id": "italy--italy-st-jp",
+      "section_title": "Italy (Italy_ST_jp.pdf)",
+      "page_start": 1,
+      "page_end": 29,
+      "pid_start": "all",
+      "pid_end": "all"
+    },
+    {
+      "file": "data/shards/shard-018.txt",
+      "count": 35,
+      "section_id": "korea--200710kor-j",
+      "section_title": "Korea (200710kor_j.pdf)",
+      "page_start": 1,
+      "page_end": 25,
+      "pid_start": "preamble",
+      "pid_end": "30"
+    },
+    {
+      "file": "data/shards/shard-019.txt",
+      "count": 34,
+      "section_id": "kuwait--sy220217ku-a",
+      "section_title": "Kuwait (sy220217ku_a.pdf)",
+      "page_start": 1,
+      "page_end": 46,
+      "pid_start": "1",
+      "pid_end": "30"
+    },
+    {
+      "file": "data/shards/shard-020.txt",
+      "count": 38,
+      "section_id": "malaysia--synthesizedtextforjapan-malaysia-jp",
+      "section_title": "Malaysia (SynthesizedTextforJapan_Malaysia_JP.pdf)",
+      "page_start": 1,
+      "page_end": 28,
+      "pid_start": "preamble",
+      "pid_end": "28"
+    },
+    {
+      "file": "data/shards/shard-021.txt",
+      "count": 44,
+      "section_id": "mexico--synthesizedtextforjapan-mexico-jp",
+      "section_title": "Mexico (SynthesizedTextforJapan_Mexico_JP.pdf)",
+      "page_start": 1,
+      "page_end": 28,
+      "pid_start": "preamble",
+      "pid_end": "7"
+    },
+    {
+      "file": "data/shards/shard-022.txt",
+      "count": 1,
+      "section_id": "netherlands--netherland2012-en-jp-en",
+      "section_title": "Netherlands (Netherland2012_EN_jp_en.pdf)",
+      "page_start": 1,
+      "page_end": 4,
+      "pid_start": "all",
+      "pid_end": "all"
+    },
+    {
+      "file": "data/shards/shard-023.txt",
+      "count": 47,
+      "section_id": "netherlands--synthesisedtextforjapan-netherlands-jp",
+      "section_title": "Netherlands (SynthesisedTextforJapan-Netherlands_JP.pdf)",
+      "page_start": 1,
+      "page_end": 43,
+      "pid_start": "preamble",
+      "pid_end": "20"
+    },
+    {
+      "file": "data/shards/shard-024.txt",
+      "count": 47,
+      "section_id": "new-zealand--synthesizedtextforjapan-newzealand-jp",
+      "section_title": "New Zealand (SynthesizedTextforJapan_NewZealand_JP.pdf)",
+      "page_start": 1,
+      "page_end": 43,
+      "pid_start": "preamble",
+      "pid_end": "32"
+    },
+    {
+      "file": "data/shards/shard-025.txt",
+      "count": 41,
+      "section_id": "norway--190927norway-j",
+      "section_title": "Norway (190927norway_j.pdf)",
+      "page_start": 1,
+      "page_end": 26,
+      "pid_start": "preamble",
+      "pid_end": "7"
+    },
+    {
+      "file": "data/shards/shard-026.txt",
+      "count": 1,
+      "section_id": "philippines--philippines-st-jp",
+      "section_title": "Philippines (Philippines_ST_jp.pdf)",
+      "page_start": 1,
+      "page_end": 42,
+      "pid_start": "all",
+      "pid_end": "all"
+    },
+    {
+      "file": "data/shards/shard-027.txt",
+      "count": 35,
+      "section_id": "qatar--200221qat-j",
+      "section_title": "Qatar (200221qat_j.pdf)",
+      "page_start": 1,
+      "page_end": 26,
+      "pid_start": "preamble",
+      "pid_end": "7"
+    },
+    {
+      "file": "data/shards/shard-028.txt",
+      "count": 1,
+      "section_id": "russia--20170907ru-a",
+      "section_title": "Russia (20170907ru_a.pdf)",
+      "page_start": 1,
+      "page_end": 57,
+      "pid_start": "all",
+      "pid_end": "all"
+    },
+    {
+      "file": "data/shards/shard-029.txt",
+      "count": 1,
+      "section_id": "saudi-arabia--saudiarabia2013-en-jp-en",
+      "section_title": "Saudi Arabia (SaudiArabia2013_EN_jp_en.pdf)",
+      "page_start": 1,
+      "page_end": 5,
+      "pid_start": "all",
+      "pid_end": "all"
+    },
+    {
+      "file": "data/shards/shard-030.txt",
+      "count": 40,
+      "section_id": "saudi-arabia--synthesizedtextforjapan-saudiarabia-jp",
+      "section_title": "Saudi Arabia (SynthesizedTextforJapan_SaudiArabia_JP.pdf)",
+      "page_start": 1,
+      "page_end": 29,
+      "pid_start": "preamble",
+      "pid_end": "30"
+    },
+    {
+      "file": "data/shards/shard-031.txt",
+      "count": 4,
+      "section_id": "singapore--singapore2010-p-jp",
+      "section_title": "Singapore (Singapore2010_P_jp.pdf)",
+      "page_start": 1,
+      "page_end": 5,
+      "pid_start": "1",
+      "pid_end": "2"
+    },
+    {
+      "file": "data/shards/shard-032.txt",
+      "count": 42,
+      "section_id": "singapore--synthesizedtextforjapan-singaporejp",
+      "section_title": "Singapore (SynthesizedTextforJapan-SingaporeJP.pdf)",
+      "page_start": 1,
+      "page_end": 32,
+      "pid_start": "preamble",
+      "pid_end": "30"
+    },
+    {
+      "file": "data/shards/shard-033.txt",
+      "count": 40,
+      "section_id": "south-africa--synthesizedtextforjapan-southafrica-jp",
+      "section_title": "South Africa (SynthesizedTextforJapan_SouthAfrica_JP.pdf)",
+      "page_start": 1,
+      "page_end": 26,
+      "pid_start": "preamble",
+      "pid_end": "29"
+    },
+    {
+      "file": "data/shards/shard-034.txt",
+      "count": 37,
+      "section_id": "spain--20210215spa-j",
+      "section_title": "Spain (20210215Spa_j.pdf)",
+      "page_start": 1,
+      "page_end": 68,
+      "pid_start": "1",
+      "pid_end": "31"
+    },
+    {
+      "file": "data/shards/shard-035.txt",
+      "count": 36,
+      "section_id": "sweden--synthesizedtextforjapan-swedenjp",
+      "section_title": "Sweden (SynthesizedTextforJapan-SwedenJP.pdf)",
+      "page_start": 1,
+      "page_end": 30,
+      "pid_start": "preamble",
+      "pid_end": "28"
+    },
+    {
+      "file": "data/shards/shard-036.txt",
+      "count": 1,
+      "section_id": "switzerland--switzerland-st-jp",
+      "section_title": "Switzerland (Switzerland_ST_jp.pdf)",
+      "page_start": 1,
+      "page_end": 60,
+      "pid_start": "all",
+      "pid_end": "all"
+    },
+    {
+      "file": "data/shards/shard-037.txt",
+      "count": 1,
+      "section_id": "switzerland--switzerland2012-en-eoi-jp-en",
+      "section_title": "Switzerland (Switzerland2012_EN_EOI_jp_en.pdf)",
+      "page_start": 1,
+      "page_end": 4,
+      "pid_start": "all",
+      "pid_end": "all"
+    },
+    {
+      "file": "data/shards/shard-038.txt",
+      "count": 1,
+      "section_id": "switzerland--switzerland2012-en-jp",
+      "section_title": "Switzerland (Switzerland2012_EN_jp.pdf)",
+      "page_start": 1,
+      "page_end": 4,
+      "pid_start": "all",
+      "pid_end": "all"
+    },
+    {
+      "file": "data/shards/shard-039.txt",
+      "count": 1,
+      "section_id": "switzerland--switzerland2012-en-jp-en",
+      "section_title": "Switzerland (Switzerland2012_EN_jp_en.pdf)",
+      "page_start": 1,
+      "page_end": 4,
+      "pid_start": "all",
+      "pid_end": "all"
+    },
+    {
+      "file": "data/shards/shard-040.txt",
+      "count": 38,
+      "section_id": "thailand--synthesizedtextforjapan-thailand-jp",
+      "section_title": "Thailand (SynthesizedTextforJapan_Thailand_JP.pdf)",
+      "page_start": 1,
+      "page_end": 26,
+      "pid_start": "preamble",
+      "pid_end": "27"
+    },
+    {
+      "file": "data/shards/shard-041.txt",
+      "count": 1,
+      "section_id": "united-arab-emirates--20141125ae-c",
+      "section_title": "United Arab Emirates (20141125ae_c.pdf)",
+      "page_start": 1,
+      "page_end": 4,
+      "pid_start": "all",
+      "pid_end": "all"
+    },
+    {
+      "file": "data/shards/shard-042.txt",
+      "count": 35,
+      "section_id": "united-arab-emirates--20190716",
+      "section_title": "United Arab Emirates (20190716.pdf)",
+      "page_start": 1,
+      "page_end": 26,
+      "pid_start": "preamble",
+      "pid_end": "7"
+    },
+    {
+      "file": "data/shards/shard-043.txt",
+      "count": 1,
+      "section_id": "united-arab-emirates--250502ae-a",
+      "section_title": "United Arab Emirates (250502ae_a.pdf)",
+      "page_start": 1,
+      "page_end": 45,
+      "pid_start": "all",
+      "pid_end": "all"
+    },
+    {
+      "file": "data/shards/shard-044.txt",
+      "count": 46,
+      "section_id": "united-kingdom--synthesizedtextforjapan-unitedkingdom-jp",
+      "section_title": "United Kingdom (SynthesizedTextforJapan_UnitedKingdom_JP.pdf)",
+      "page_start": 1,
+      "page_end": 39,
+      "pid_start": "preamble",
+      "pid_end": "23"
+    },
+    {
+      "file": "data/shards/shard-045.txt",
+      "count": 37,
+      "section_id": "united-states--usa-st-jp",
+      "section_title": "United States (USA_ST_jp.pdf)",
+      "page_start": 1,
+      "page_end": 87,
+      "pid_start": "1",
+      "pid_end": "10-2"
+    },
+    {
+      "file": "data/shards/shard-046.txt",
+      "count": 38,
+      "section_id": "viet-nam--synthesizedtextforjapan-vietnam-jp",
+      "section_title": "Viet Nam (SynthesizedTextforJapan_VietNam_JP.pdf)",
+      "page_start": 1,
+      "page_end": 27,
+      "pid_start": "preamble",
+      "pid_end": "29"
+    },
+    {
+      "file": "data/shards/shard-047.txt",
+      "count": 1,
+      "section_id": "viet-nam--vietnam2014-en-jp-en",
+      "section_title": "Viet Nam (Vietnam2014_EN_jp_en.pdf)",
+      "page_start": 1,
+      "page_end": 5,
+      "pid_start": "all",
+      "pid_end": "all"
+    }
+  ]
+}

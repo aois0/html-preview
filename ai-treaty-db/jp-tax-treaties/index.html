@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>日本の租税条約（主要国） - AI検索最適化</title>
+  <meta name="description" content="財務省公開資料を基に、日本の租税条約（主要国）を10k tokens/read 制約下で検索しやすい粒度に分割して提供します。" />
+  <link rel="alternate" type="text/plain" href="llms.txt" title="LLM Site Map" />
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, 'Noto Sans JP', sans-serif; line-height: 1.7; max-width: 900px; margin: 0 auto; padding: 24px; }
+    h1 { margin: 0 0 8px; }
+    .meta { color: #555; margin: 0 0 16px; }
+    code { background: #f3f3f3; padding: 0 6px; border-radius: 4px; }
+    ul { padding-left: 1.2rem; }
+  </style>
+</head>
+<body>
+  <h1>日本の租税条約（主要国）</h1>
+  <p class="meta">モバイルAIの「1回のReadで最初の1万トークンのみ」制約を前提に、docs_index→shard→本文(pack)で最短到達できるように分割済み。</p>
+
+  <ul>
+    <li><a href="quickstart.txt">quickstart.txt</a>（必読。使い方）</li>
+    <li><a href="data/docs_index.tsv">data/docs_index.tsv</a>（対象国/文書一覧）</li>
+    <li><a href="data/shards_index.json">data/shards_index.json</a>（文書別マップ + shard一覧）</li>
+    <li><a href="data/packs_index.tsv">data/packs_index.tsv</a>（本文pack一覧。本文は packs/*.txt）</li>
+    <li><a href="data/topics.txt">data/topics.txt</a>（テーマ別索引）</li>
+    <li><a href="data/latin_terms/index.json">data/latin_terms/index.json</a>（英字キーワード逆引き）</li>
+  </ul>
+</body>
+</html>

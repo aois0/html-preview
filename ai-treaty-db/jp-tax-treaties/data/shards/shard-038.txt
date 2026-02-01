@@ -1,0 +1,2 @@
+id	pid	page_start	page_end	snippet	core
+switzerland--switzerland2012-en-jp-all	all	1	4	（ 所 得 に 対 す る 租 税 に 関 す る 二 重 課 税 の 回 避 の た め の 日 本 国 と ス イ ス と の 間 の 条 約 を 改 正 す る 議 定 書 に よ っ て 改 正 さ れ た 条 約 に 関 す る 	packs/switzerland--switzerland2012-en-jp-pack-00.txt

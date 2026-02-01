@@ -1,0 +1,23 @@
+# 日本の租税条約（主要国） - Quickstart
+
+前提（重要）
+- あなたのAIは「1回のReadで最初の1万トークンのみ」読める。
+- したがって、このDBは『docs_index → shards_index → shard → 本文(pack)』で最短到達する。
+
+推奨フロー（最小Read）
+1) `data/docs_index.tsv` を読む（対象国/文書を選ぶ）
+2) `data/shards_index.json` を読む（section=doc_id と shard の対応）
+3) 関連する `data/shards/*.txt` を1〜3個読む（TSVを検索）
+4) 行にある `packs/...` を開いて本文を読む（packは複数条文をまとめたもの）
+
+追加: 英字キーワード（PE/MAP/MLI/PPT等）で横断検索したい場合
+1) `data/latin_terms/index.json` を読む
+2) 該当する `data/latin_terms/*.tsv` を読む
+3) 行にある `packs/...` を開いて本文を読む
+
+URLパターン
+- docs index (tsv): `https://jplawdb.github.io/html-preview/ai-treaty-db/jp-tax-treaties/data/docs_index.tsv`
+- shard index: `https://jplawdb.github.io/html-preview/ai-treaty-db/jp-tax-treaties/data/shards_index.json`
+- shard TSV: `https://jplawdb.github.io/html-preview/ai-treaty-db/jp-tax-treaties/data/shards/shard-XXX.txt`
+- 本文(pack): `https://jplawdb.github.io/html-preview/ai-treaty-db/jp-tax-treaties/packs/{doc_id}-pack-XX.txt`
+- topics: `https://jplawdb.github.io/html-preview/ai-treaty-db/jp-tax-treaties/data/topics.txt`

@@ -1,0 +1,2 @@
+id	pid	page_start	page_end	snippet	core
+switzerland--switzerland2012-en-jp-en-all	all	1	4	ࡼ ޭ ⅛ۼ⅛⅕←ⅾ←⅕࣭ ໲ ޭ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ໹଼ඵ਱অා ₉ ্඾ ₉ ↯↾⇅⅔ !!!!!!!!!!!!!!!!!!!!!!!!	packs/switzerland--switzerland2012-en-jp-en-pack-00.txt
