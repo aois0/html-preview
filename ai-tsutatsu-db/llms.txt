@@ -2,6 +2,18 @@
 
 > 国税庁等の通達（基本通達・個別通達等）を、AIが読みやすい最小HTML（1項番=1ページ）+プレーンテキストで提供します。
 
+## まずここ（よく使う基本通達）
+
+- 法人税基本通達（doc_code=`hojinzei_kihon_tsutatsu`）
+  - 項番一覧（item_idを探す）: `data/resolve_lite/hojinzei_kihon_tsutatsu.json`
+  - 本文（直行）: `text/hojinzei_kihon_tsutatsu/{item_id}.txt`
+- 消費税基本通達（doc_code=`shohizei_kihon_tsutatsu`）
+  - 項番一覧（item_idを探す）: `data/resolve_lite/shohizei_kihon_tsutatsu.json`
+  - 本文（直行）: `text/shohizei_kihon_tsutatsu/{item_id}.txt`
+
+基本フロー（定型）
+- READ → SEARCH → OPEN →（必要なら）CITE
+
 ## 目的
 
 - LLM/AIエージェントが「通達本文」に素早くアクセスできること
