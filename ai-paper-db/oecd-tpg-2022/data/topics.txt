@@ -1,0 +1,57 @@
+# OECD 移転価格ガイドライン 2022（参考仮訳） - テーマ別索引（人間/AI向け）
+
+目的
+- 「章をまたぐ横断調査」を、最小Readで開始するためのジャンプテーブル。
+- 詳細検索は `quickstart.txt` と `data/shards_index.json` を併用する。
+
+NOTE（重要）
+- 本DBはモバイルAIの「1回のReadで先頭1万トークンのみ」制約を前提にしている。
+- よって「全文1ファイル + 全文検索」はAI用途では破綻しやすい。人間用途は `search.html` を推奨。
+
+## 主要テーマ（Start here）
+
+### 無形資産（DEMPE）
+- Start: ch06（第6章 無形資産）
+- NOTE: 本参考仮訳では "DEMPE" という英字そのものは出てこない（表現は「開発・改良・維持・保護・使用」等）。
+- Recommended keywords: 無形資産 / 開発・改良・維持・保護・使用 / ライセンス / 使用料 / 権利 / 価値創造
+
+### HTVI（予見困難な無形資産）
+- Start: ch06（第6章 無形資産）
+- Recommended keywords: HTVI / 予測 / 予見 / 事後 / 価格調整
+
+### 企業グループ内役務提供（Benefit test / 株主活動）
+- Start: ch07（第7章 企業グループ内役務提供）
+- Recommended keywords: 便益テスト / 株主活動 / 二重役務 / 低付加価値
+
+### 費用分担契約（CCA）
+- Start: ch08（第8章 費用分担契約）
+- Recommended keywords: CCA / 費用分担 / 分担金 / 参加者 / 期待便益
+
+### 比較可能性分析（Functional / Comparability）
+- Start: ch03（第3章 比較可能性分析）
+- Recommended keywords: 比較可能性 / 比較対象 / 機能分析 / リスク / 資産
+
+### 移転価格算定手法（CUP/TNMM/利益分割 等）
+- Start: ch02（第2章 移転価格算定手法）
+- Recommended keywords: CUP / 再販売価格基準法 / 原価基準法 / 取引単位営業利益法 / TNMM / 利益分割法
+
+### 紛争回避・解決（MAP/APA）
+- Start: ch04（第4章 紛争回避・解決）
+- Recommended keywords: 相互協議 / MAP / 事前確認 / APA
+
+### 文書化（Master/Local/CbCR）
+- Start: ch05（第5章 文書化）
+- Recommended keywords: 文書化 / マスターファイル / ローカルファイル / 国別報告書 / CbCR / XML
+
+### 事業再編
+- Start: ch09（第9章 事業再編）
+- Recommended keywords: 事業再編 / 再編 / 移転 / 補償 / のれん
+
+### 金融取引
+- Start: ch10（第10章 金融取引）
+- Recommended keywords: 金融取引 / 金利 / 債務 / WACC / LIBOR / 信用格付け
+
+### リスク（横断テーマ）
+- Start: ch01（独立企業原則のリスク帰属）→ 次に ch06/ch09/ch10
+- Recommended keywords: リスク / コントロール / 経済的重要性 / 受容 / 収益性
+

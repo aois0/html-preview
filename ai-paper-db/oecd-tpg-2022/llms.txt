@@ -7,8 +7,11 @@
 3) `data/shards/*.txt`（TSVを読む＝検索）
 4) `core/{id}.txt`（本文）
 
+英字キーワード（HTVI/CCA/APA/CUP等）での横断検索
+- `data/latin_terms/index.json` → `data/latin_terms/*.tsv` → `core/...`
+
 URLパターン
 - shard index: `data/shards_index.json`
 - shard TSV: `data/shards/shard-XX.txt`
 - canonical text: `core/{id}.txt`
-
+ - latin terms: `data/latin_terms/index.json`
