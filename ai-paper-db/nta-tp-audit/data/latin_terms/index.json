@@ -1,0 +1,29 @@
+{
+  "dataset": {
+    "name": "NTA TP audit guidance (jimuunei + casebook)",
+    "generated_at": "2026-02-01",
+    "base_url": "https://jplawdb.github.io/html-preview/ai-paper-db/nta-tp-audit"
+  },
+  "note": "Uppercase latin keyword reverse index (paragraph/case level).",
+  "term_pattern": "\\b[A-Z][A-Z0-9-]{2,}\\b",
+  "max_term_shard_chars": 9000,
+  "fields": [
+    "id",
+    "pid",
+    "page_start",
+    "page_end",
+    "section_id",
+    "context",
+    "core"
+  ],
+  "terms": [
+    {
+      "term": "TNMM",
+      "slug": "TNMM",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/TNMM-00.tsv"
+      ]
+    }
+  ]
+}
