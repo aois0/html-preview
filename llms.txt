@@ -2,79 +2,90 @@
 #
 # 重要（モバイルAI制約）
 # - 1回のReadで「先頭1万トークンのみ」読める前提で設計しています。
-# - 基本: READ(軽い索引) → SEARCH(絞り込み) → OPEN(本文) → CITE(必要なときだけ)
+# - したがって「軽い索引で絞る → 本文に最短到達」が基本です。
 
-## まずここ（目的から探す / 1-hop）
+## 0) このリポジトリにあるもの
 
-- 条文（法令）を確認したい: `/html-preview/ai-law-db/quickstart.txt`
-- 通達（基本通達ほか）を確認したい: `/html-preview/ai-tsutatsu-db/llms.txt`
-  - 法人税基本通達（項番一覧）: `/html-preview/ai-tsutatsu-db/data/resolve_lite/hojinzei_kihon_tsutatsu.json`
-  - 消費税基本通達（項番一覧）: `/html-preview/ai-tsutatsu-db/data/resolve_lite/shohizei_kihon_tsutatsu.json`
-- 判決/裁決を調べたい: `/html-preview/ai-hanketsu-db/quickstart.txt`
-- OECD/国税庁ガイドライン等（文献）を引きたい: `/html-preview/ai-paper-db/llms.txt`
-  - OECD TPG 2022（参考仮訳）: `/html-preview/ai-paper-db/oecd-tpg-2022/quickstart.txt`
-  - OECD/G20 BEPS（選抜）: `/html-preview/ai-paper-db/oecd-beps/quickstart.txt`
-  - 国税庁（NTA）移転価格調査（事務運営指針/参考事例集）: `/html-preview/ai-paper-db/nta-tp-audit/quickstart.txt`
-- 租税条約（主要国）を確認したい: `/html-preview/ai-treaty-db/jp-tax-treaties/quickstart.txt`
-- 調査メモ（Tax KB）から当たりを付けたい: `/html-preview/tax-kb/quickstart.txt`
-
-## 迷ったら（根拠の積み上げ順）
-
-法令 → 通達 → 裁決/判決 →（必要に応じて）文献/Tax KB
-
-## 超速チートシート（短いファイルだけ読みたい人向け）
-
-- 直行URLパターンだけ: `/html-preview/_fastpaths.txt`
-- 「次に読むべき最小index」だけ: `/html-preview/_indices.txt`
-
-## このリポジトリにあるDB（一覧）
-
-- 日本税法（主要税法・条文）: `/html-preview/ai-law-db/`
-- 日本税務通達（基本通達ほか）: `/html-preview/ai-tsutatsu-db/`
-- 日本税務判決DB（判決・裁決）: `/html-preview/ai-hanketsu-db/`
-- 文献DB（税務・国際課税）: `/html-preview/ai-paper-db/`
-- 租税条約DB（主要国）: `/html-preview/ai-treaty-db/`
+- HTML Preview Tool: `/html-preview/index.html`
+- AI向け 日本税法（主要税法・条文）: `/html-preview/ai-law-db/`
+- AI向け 日本税務通達（基本通達ほか）: `/html-preview/ai-tsutatsu-db/`
+- AI向け 日本税務判決DB（判決・裁決）: `/html-preview/ai-hanketsu-db/`
+- AI向け 文献DB（税務・国際課税）: `/html-preview/ai-paper-db/`
+- AI向け 租税条約DB（主要国）: `/html-preview/ai-treaty-db/`
 - Tax KB Prototype: `/html-preview/tax-kb/`
 
-## データセット別（READ → SEARCH → OPEN → CITE）
+## 1) 条文（法令）を引きたい → ai-law-db
 
-### 1) 条文（法令） → ai-law-db
+入口（最短）
+- `/html-preview/ai-law-db/quickstart.txt`（推奨: まずこれ）
 
-- READ: `/html-preview/ai-law-db/quickstart.txt`
-- SEARCH（条名/条番号が曖昧）: `ai-law-db/data/resolve_meta_corp/index.json` → `{bucket}.json`
-- OPEN（本文）: `ai-law-db/text/{law_code}/{article}.txt`
-- CITE（必要なときだけ）: `ai-law-db/enhanced/{law_code}/{article}.html#pX`
+高速フロー
+- 条番号が分かる: `ai-law-db/text/{law_code}/{article}.txt` を直叩き（最短）
+- 条番号が曖昧/条名から探したい: `ai-law-db/data/resolve_meta_corp/index.json` → 必要な `{bucket}.json`
+- 根拠URLが必要: `ai-law-db/enhanced/{law_code}/{article}.html#pX` / `#pX-iY`
 
-### 2) 通達（基本通達ほか） → ai-tsutatsu-db
+## 2) 通達（基本通達ほか）を引きたい → ai-tsutatsu-db
 
-- READ: `/html-preview/ai-tsutatsu-db/llms.txt`
-- SEARCH（doc_code確定）: `ai-tsutatsu-db/data/doc_aliases.json`
-- SEARCH（項番=item_id確定）: `ai-tsutatsu-db/data/resolve_lite/{doc_code}.json`
-- OPEN（本文）: `ai-tsutatsu-db/text/{doc_code}/{item_id}.txt`
-- CITE（必要なときだけ）: `ai-tsutatsu-db/enhanced/{doc_code}/{item_id}.html#pX`
+入口
+- `/html-preview/ai-tsutatsu-db/llms.txt`
 
-### 3) 判決/裁決 → ai-hanketsu-db
+高速フロー
+1) `ai-tsutatsu-db/data/doc_aliases.json` で `doc_code` を確定
+2) `ai-tsutatsu-db/data/resolve_lite/{doc_code}.json` で `item_id` を確定
+3) 本文: `ai-tsutatsu-db/text/{doc_code}/{item_id}.txt`
+4) 根拠URL: `ai-tsutatsu-db/enhanced/{doc_code}/{item_id}.html#pX`
 
-- READ: `/html-preview/ai-hanketsu-db/quickstart.txt`
-- SEARCH: `ai-hanketsu-db/{税目}/data/shards_index.json` → `data/shards/shard-XX.txt`
-- OPEN（本文）: `ai-hanketsu-db/{税目}/core/{id}.txt`
+## 3) 判決/裁決を調べたい → ai-hanketsu-db
 
-### 4) OECD/国税庁ガイドライン等（文献） → ai-paper-db（packs/shards型）
+入口（最短）
+- `/html-preview/ai-hanketsu-db/quickstart.txt`
 
-- READ: `/html-preview/ai-paper-db/llms.txt`（コーパス選択）
-- SEARCH: `data/shards_index.json` → `data/shards/shard-XX.txt`
-- OPEN（本文）: `packs/...`（1ファイル≒1万トークン以内）
+典型フロー（法人税）
+1) `ai-hanketsu-db/houjinzei/llms.txt`
+2) `ai-hanketsu-db/houjinzei/data/shards_index.json`
+3) `ai-hanketsu-db/houjinzei/data/shards/shard-XX.txt`（TSVを検索）
+4) `ai-hanketsu-db/houjinzei/core/{id}.txt`（要約本文）
 
-### 5) 租税条約（主要国） → ai-treaty-db（packs/shards型）
+NOTE
+- `ai-hanketsu-db/.../core/batch-*.txt` は内部用。入口ナビには使わない。
 
-- READ: `/html-preview/ai-treaty-db/jp-tax-treaties/quickstart.txt`
-- SEARCH: `data/docs_index.tsv` → `data/shards_index.json` → `data/shards/shard-XXX.txt`
-- OPEN（本文）: `packs/...`（1ファイル≒1万トークン以内）
+## 4) OECD/国税庁ガイドライン等（文献）を引きたい → ai-paper-db
 
-## 最後に（迷ったらこれだけ）
+入口
+- `/html-preview/ai-paper-db/llms.txt`
 
-- 条文: `ai-law-db/quickstart.txt`
-- 通達: `ai-tsutatsu-db/llms.txt`
-- 判決/裁決: `ai-hanketsu-db/quickstart.txt`
-- 文献: `ai-paper-db/llms.txt`
-- 条約: `ai-treaty-db/llms.txt`
+収録（移転価格）
+- OECD TPG 2022（参考仮訳）: `ai-paper-db/oecd-tpg-2022/quickstart.txt`
+- 国税庁（NTA）移転価格（事務運営指針/参考事例集）: `ai-paper-db/nta-tp-audit/quickstart.txt`
+- OECD/G20 BEPS（選抜）: `ai-paper-db/oecd-beps/quickstart.txt`
+
+典型フロー（packs/shards型）
+1) `data/shards_index.json`
+2) `data/shards/shard-XX.txt`（TSVを検索）
+3) `packs/...`（本文。1ファイル≒1万トークン以内に収める）
+
+## 5) Tax KB（PageIndex型）で “調査メモ＋根拠アンカー” を回したい → tax-kb
+
+入口
+- `/html-preview/tax-kb/quickstart.txt`
+- `/html-preview/tax-kb/llms.txt`
+
+## 6) 租税条約を引きたい → ai-treaty-db
+
+入口
+- `/html-preview/ai-treaty-db/llms.txt`
+- `/html-preview/ai-treaty-db/jp-tax-treaties/quickstart.txt`（推奨: まずこれ）
+
+典型フロー（packs/shards型）
+1) `ai-treaty-db/jp-tax-treaties/data/shards_index.json`
+2) `ai-treaty-db/jp-tax-treaties/data/shards/shard-XXX.txt`（TSVを検索）
+3) `ai-treaty-db/jp-tax-treaties/packs/...`（本文。1ファイル≒1万トークン以内）
+
+## 最後に
+
+迷ったら:
+- 条文 = `ai-law-db/quickstart.txt`
+- 通達 = `ai-tsutatsu-db/llms.txt`
+- 判決 = `ai-hanketsu-db/quickstart.txt`
+- 文献 = `ai-paper-db/llms.txt`
+- 租税条約 = `ai-treaty-db/llms.txt`
