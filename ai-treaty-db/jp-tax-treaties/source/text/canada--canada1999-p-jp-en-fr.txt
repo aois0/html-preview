@@ -1,0 +1,51 @@
+---
+doc_id: "canada--canada1999-p-jp-en-fr"
+jurisdiction: "Canada"
+source_basename: "Canada1999_P_jp_en_fr.pdf"
+source_url: "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Canada1999_P_jp_en_fr.pdf"
+is_synth: false
+page_count: 14
+generated_at: "2026-02-01"
+---
+
+# Page 1
+
+
+# Page 2
+
+
+# Page 3
+
+
+# Page 4
+
+
+# Page 5
+
+
+# Page 6
+
+
+# Page 7
+
+
+# Page 8
+
+
+# Page 9
+
+
+# Page 10
+
+
+# Page 11
+
+
+# Page 12
+
+
+# Page 13
+
+
+# Page 14
+

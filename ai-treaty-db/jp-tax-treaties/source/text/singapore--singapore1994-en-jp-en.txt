@@ -1,0 +1,21 @@
+---
+doc_id: "singapore--singapore1994-en-jp-en"
+jurisdiction: "Singapore"
+source_basename: "Singapore1994_EN_jp_en.pdf"
+source_url: "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Singapore1994_EN_jp_en.pdf"
+is_synth: false
+page_count: 4
+generated_at: "2026-02-01"
+---
+
+# Page 1
+
+
+# Page 2
+
+
+# Page 3
+
+
+# Page 4
+

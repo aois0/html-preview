@@ -1,0 +1,18 @@
+---
+doc_id: "ireland--ireland1974-en-jp-en"
+jurisdiction: "Ireland"
+source_basename: "Ireland1974_EN_jp_en.pdf"
+source_url: "https://www.mof.go.jp/tax_policy/summary/international/tax_convention/Ireland1974_EN_jp_en.pdf"
+is_synth: false
+page_count: 3
+generated_at: "2026-02-01"
+---
+
+# Page 1
+
+
+# Page 2
+
+
+# Page 3
+
