@@ -27,5 +27,6 @@
 - /html-preview/ai-paper-db/index.html
 - /html-preview/ai-paper-db/llms.txt
 - /html-preview/ai-paper-db/oecd-tpg-2022/quickstart.txt
+- /html-preview/ai-paper-db/nta-tp-audit/quickstart.txt
 
 AI/LLMで税法条文を参照する場合は `ai-law-db/llms.txt`、通達を参照する場合は `ai-tsutatsu-db/llms.txt`、判決を参照する場合は `ai-hanketsu-db/llms.txt` から辿ってください。

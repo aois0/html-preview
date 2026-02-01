@@ -1,0 +1,20 @@
+# 国税庁（NTA）移転価格 - 事務運営指針/参考事例集 / AI検索最適化
+# Base URL: https://jplawdb.github.io/html-preview/ai-paper-db/nta-tp-audit/
+
+推奨読手順（10k tokens/read 制約前提）
+1) `quickstart.txt`
+2) `data/shards_index.json`
+3) `data/shards/*.txt`（TSVを読む＝検索）
+4) `packs/*.txt`（本文。複数項目を1ファイルにまとめたpack）
+
+英字キーワード（APA/DCF/OECD/TNMM等）での横断検索
+- `data/latin_terms/index.json` → `data/latin_terms/*.tsv` → `packs/...`
+
+URLパターン
+- shard index: `data/shards_index.json`
+- shard TSV: `data/shards/shard-XX.txt`
+- canonical text (pack): `packs/{section}-pack-XX.txt`
+- packs index (recommended): `data/packs_index.tsv`
+- packs index (json): `data/packs_index.json`
+- latin terms: `data/latin_terms/index.json`
+

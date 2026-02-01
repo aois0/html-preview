@@ -4,7 +4,9 @@
 入口
 - `oecd-tpg-2022/quickstart.txt`（推奨: まずこれ）
 - `oecd-tpg-2022/data/shards_index.json`（shard一覧/章別マップ）
+- `nta-tp-audit/quickstart.txt`
+- `nta-tp-audit/data/shards_index.json`
 
 収録
 - OECD 移転価格ガイドライン 2022（参考仮訳）: `oecd-tpg-2022/`
-
+- 国税庁（NTA）移転価格（事務運営指針・別冊参考事例集）: `nta-tp-audit/`
