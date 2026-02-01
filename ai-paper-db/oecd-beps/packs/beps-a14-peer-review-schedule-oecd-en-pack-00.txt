@@ -1,0 +1,105 @@
+---
+id: "beps-a14-peer-review-schedule-oecd-en-pack-00"
+section_id: "beps-a14-peer-review-schedule-oecd-en"
+section_title: "BEPS Action 14 peer review assessment schedule (OECD PDF)"
+page_start: 1
+page_end: 3
+pid_start: "p001"
+pid_end: "p003"
+para_count: 3
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "http://www.oecd.org/tax/beps/beps-action-14-peer-review-assessment-schedule.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-a14-peer-review-schedule-oecd-en-pack-00.txt"
+---
+
+## p001 (beps-a14-peer-review-schedule-oecd-en-p001, pages 1-1)
+Assessment Schedule for the Simplified Peer Review Process
+Batch 1 Batch 2 Batch 3 Batch 4 Batch 5 Batch 6 Batch 7 Batch 8 Batch 9
+Launch date 30 January
+2023
+7 April 2023 31 July
+2023
+10 November
+2023
+2 February 2024 5 June 2024 5 February 2025 5 June 2025 10 November
+2025
+Reviewed
+jurisdictions*
+Albania Antigua and
+Barbuda Benin Azerbaijan Armenia Andorra Aruba Angola Cayman Islands
+Belize Botswana Burkina
+Faso
+Brunei
+Darussalam Bosnia and Herzegovina Bahamas Bahrain Barbados Djibouti**
+Cook Islands Colombia Dominica Curaçao Cote d'Ivoire Bermuda Cabo Verde Fiji Moldova
+Costa Rica Egypt Grenada Gabon Democratic Republic of
+the Congo
+British Virgin
+Islands Cameroon Gibraltar Montserrat
+Dominican
+Republic Lithuania Iceland Isle of Man Georgia Congo Eswatini Liberia Namibia
+Jamaica Nigeria Montenegro Jersey Maldives Faroe Islands Guernsey Oman Philippines
+Jordan North Macedonia Peru Mauritania Mongolia Kenya Greenland Saint Vincent and the
+Grenadines
+Saint Kitts and
+Nevis
+Mauritius Serbia Saint Lucia Monaco Panama Macau, China United Arab
+Emirates Trinidad and Tobago Ukraine
+Pakistan Seychelles Samoa San Marino Papua New Guinea Paraguay - - Uzbekistan
+Zambia Sri Lanka Senegal Togo - Sierra Leone - - -
+Uruguay - - -
+Notes
+* Anguilla, Haiti, Honduras and Turks and Caicos Islands have not been added in the schedule as they have not signed any tax treaties.
+** Subject to entry into force of Djibouti’s one tax treaty.
+More information: http://oe.cd/bepsaction14
+
+## p002 (beps-a14-peer-review-schedule-oecd-en-p002, pages 2-2)
+Assessment Schedule for the Full Peer Review Process
+Batch 1 Batch 2 Batch 3 Batch 4 Batch 5 Batch 6 Batch 7 Batch 8 Batch 9
+Launch
+date April 2024 July 2024 November 2024 February 2025 April 2025 November 2025 February 2026 April 2026 November 2026
+Reviewed
+jurisdictions
+Belgium Austria Czechia Denmark Argentina Australia Egypt Bulgaria Israel
+Canada Germany France Finland Chile Brazil Korea Indonesia Singapore
+Croatia Ireland Italy Morocco China (People’s
+Republic of) Greece Mexico Kazakhstan Slovak Republic
+Estonia Luxembourg Japan Norway Hong Kong (China) Hungary Qatar Lithuania South Africa
+Liechtenstein Malta Latvia Romania Netherlands India Poland Portugal Thailand
+United Kingdom United States Malaysia Spain Sweden Kuwait Switzerland Slovenia Türkiye
+New Zealand Tunisia Saudi Arabia Viet Nam
+More information: http://oe.cd/bepsaction14
+
+## p003 (beps-a14-peer-review-schedule-oecd-en-p003, pages 3-3)
+Assessment Schedule for Stage 1 Peer Reviews and Stage 2 Peer Monitoring (Initial Peer Reviews
+completed in 2022)
+1st batch 2nd batch 3rd batch 4th batch 5th batch 6th batch 7th batch 8th batch 9th batch 10th batch
+Launch of stage 1
+peer review
+5 December
+2016 7 March 2017 7 July 2017 29 December
+2017 10 April 2018 31 August 2018 31 December 2018 27 March 2019 30 August 2019 20 December 2019
+Launch of stage 2
+peer monitoring
+September
+2018 October 2018 February 2019 August 2019 October 2019 May 2020 August 2020 December 2020 May 2021 October 2021
+Belgium Austria Czech Republic Australia Estonia Argentina Brazil Brunei Andorra Aruba
+Canada France Denmark Ireland Greece Chile Bulgaria  Curacao Bahamas Bahrain
+Netherlands Germany Finland Israel Hungary Colombia China Guernsey Bermuda Barbados
+Switzerland Italy Korea Japan Iceland Croatia   Hong Kong (China) Isle of Man British Virgin Islands Gibraltar
+United Kingdom Liechtenstein Norway Malta  Romania India Indonesia Jersey Cayman Islands Greenland
+United States Luxembourg  Poland Mexico Slovak Republic Latvia   Russia Monaco Faroe Islands Kazakhstan
+Sweden Singapore New Zealand Slovenia Lithuania Saudi Arabia  San Marino Macau (China) Oman
+Spain Portugal Turkey South Africa Serbia Morocco Qatar
+Tunisia Saint Kitts and Nevis
+Thailand
+Trinidad and Tobago
+United Arab Emirates
+Viet Nam
+More information: http://oe.cd/bepsaction14
+• Peer reviews for the following jurisdictions have been deferred: Albania, Antigua and Barbuda, Angola, Anguilla, Armenia, Belize, Benin, Bosnia and Herzegovina, Botswana, Burkina Faso, Cabo Verde, Cameroon,
+Congo, Cook Islands, Costa Rica, Côte d’Ivoire, Democratic Republic of Congo, Djibouti, Dominica, Dominican Republic, Egypt, Eswatini, Gabon, Georgia, Grenada, Haiti, Honduras, Jamaica, Jordan, Kenya,
+Liberia, Malaysia, Maldives, Mauritius, Mongolia, Montenegro, Montserrat, Namibia, Republic of North Macedonia, Nigeria, Paki stan, Panama, Papua New Guinea, Paraguay, Peru, Saint Lucia, Saint Vincent an d
+the Grenadines, Senegal, Seychelles, Sierra Leone, Sri Lanka, Turks & Caicos Islands, Ukraine, Uruguay, Zambia.

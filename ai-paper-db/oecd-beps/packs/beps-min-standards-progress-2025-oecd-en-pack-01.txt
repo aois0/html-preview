@@ -1,0 +1,102 @@
+---
+id: "beps-min-standards-progress-2025-oecd-en-pack-01"
+section_id: "beps-min-standards-progress-2025-oecd-en"
+section_title: "Note on burden reduction in the BEPS minimum standards (2025) (OECD PDF)"
+page_start: 7
+page_end: 8
+pid_start: "p007"
+pid_end: "p008"
+para_count: 2
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "https://www.oecd.org/content/dam/oecd/en/topics/policy-issues/beps/note-on-burden-reduction-in-the-beps-minimum-standards.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-min-standards-progress-2025-oecd-en-pack-01.txt"
+---
+
+## p007 (beps-min-standards-progress-2025-oecd-en-p007, pages 7-7)
+6 
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025
+Introduction
+In 2013, the project on base erosion and profit shifting (BEPS) was launched. Since then, the BEPS Project
+has resulted in a major update to the international tax system  by equipping governments with rules and
+instruments to ensure that profits are taxed where economic activities generating them take place and
+where value is created.
+Today, more than 145 jurisdictions are members of the  Inclusive Framework  on BEPS (the “Inclusive
+Framework”), participating on an equal footing and working towards the development of a fair and
+sustainable global tax environment. A key f unction of the Inclusive Framework is to monitor progress and
+review the implementation of the four BEPS minimum standards that were identified as part of the 15-point
+BEPS Action Plan published in 2013 (OECD, 2013[1]). Acknowledging their interdependence in addressing
+BEPS-risks, Inclusive Framework jurisdictions commit to implement four BEPS minimum standards which
+cover Action 5 on Harmful Tax Practices, Action 6 on Tax Treaty Abuse, Action 13 on Country-by-Country
+Reporting, and Action 14 on Dispute Resolution.
+Implementation of the four BEPS minimum standards has reached a mature stage , reflecting a strong
+commitment to address BEPS risks across the membership of the Inclusive Framework. In light of this, the
+focus of the work of the Inclusive Framework is now increasingly on making sure that all members – and
+in particular developing countries – can fully benefit from the four minimum standards. To support this
+objective, capacity building programmes and tailored technical assistance are being delivered to ensure
+the swift, efficient and sustainable implementation of the BEPS project in all interested Inclusive
+Framework member countries.
+At the same time, attention has turned to reducing the burdens associated with the peer review processes,
+which have now been running for a number of years,  and strengthening the overall value proposition of
+the minimum standards . This work was initiated at the May 2024 Plenary meeting of the Inclusive
+Framework in Paris and advanced further at Working Party level.
+As a result of this work, the Inclusive Framework, at its April 2025 Plenary meeting in Cape Town, adopted
+a series of recommendations to streamline the peer review processes for the BEPS minimum standards .
+It also endorsed the proposal to introduce targeted adjustments to optimise the allocation of resources
+among Inclusive Framework members, ensuring that efforts remain focused on areas of greatest impact ,
+while preserving the effectiveness and integrity of the BEPS minimum standards.  Particular attention has
+been given to strengthening the value proposition of the BEPS Project by identifying priority areas for
+enhanced support , particularly with a  focus on improving access to Country-by-Country reports by
+developing countries.
+This note summarises the outcomes of this  work. It provides a brief overview of the current status of
+implementation of each of the four minimum standards, outlines agreed measures to reduce burdens, and
+Recognising progress and reducing
+burdens in the BEPS minimum standards
+
+## p008 (beps-min-standards-progress-2025-oecd-en-p008, pages 8-8)
+ 7
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025
+highlights renewed priorities for the Inclusive Framework aimed at maintaining progress and future-
+proofing the value proposition  of the BEPS Project , including by ensuring that all interested developing
+countries can fully benefit from the work . The revised peer review methodology for BEPS Action 5 on
+Harmful Tax Practices is included in the Annex to this report.
+Looking ahead, the Inclusive Framework will continue to consolidate the progress  achieved so far by
+optimising resource allocation within the  Inclusive Framework Secretariat and enhancing the support for
+jurisdictions with limited resources. In addition, and as announced in the outcome statement of the Inclusive
+Framework Plenary meeting in Cape Town, work is ongoing to take stock of the BEPS work to dat e, with
+a comprehensive report expected to be presented in the last quarter of 2025.
+BEPS Action 5 – Harmful Tax Practices
+Progress in implementation of the minimum standard
+The minimum standard on harmful tax practices  included in the BEPS Final Report on Action 5 (OECD,
+2015[2]) requires Inclusive Framework jurisdictions to introduce substantial activity requirements f or
+preferential regimes and enhance their tax transparency frameworks through the exchange of certain tax
+rulings. Following the publication of the BEPS Final Report on Action 5  (OECD, 2015[2]), the Forum on
+Harmful Tax Practices (FHTP) reviewed and refined the framework for identifying harmful tax practices,
+initially established in the 1998 Report  (OECD, 1998[3]), and decided to resume the substantial activities
+factor for no or only nominal tax jurisdictions (OECD, 2018[4]).
+Therefore, the BEPS Action 5 minimum standard encompasses three distinct workstreams. The first
+focuses on preferential regimes based on criteria such as whether the regime is ring-fenced to exclude the
+domestic market or presents a lack of transparency or substantial activit ies requirements. The second is
+assessing no or only nominal corporate tax jurisdictions to ensure they enforce substantial activities
+requirements, accompanied by certain exchange of information obligations for entities raising substance -
+related concerns . T he third concerns the transparency framework for  the spontaneous exchange of
+information on certain tax rulings.
+Since the inception of the BEPS project, the FHTP has reviewed 332 preferential regimes for compliance
+with Action 5, with 97% of those regimes having been abolished, amended or otherwise not posing a BEPS
+risk – the remainder are under review or in the process of being amended or abolished. In 2025, the FHTP
+undertook its eighth monitoring exercise for preferential regimes, and concluded that for most preferential
+regimes, the BEPS risk in practice has decreased and jurisdictions have a transparent review mechanism
+in place for ensuring compliance with substantial activities requirements.
+With respect to no or only nominal tax jurisdictions, all of them have enacted legislation to meet the
+substantial activit ies requirements. In this regard, the FHTP undertakes a monitoring exercise  for
+substantial activities requirements in these jurisdictions, covering statistical data, compliance programme
+and exchange of information. Almost all jurisdictions now meet these requirements. Presently, only one of
+the 11 jurisdictions has a ‘hard recommendation’ to address in relation to its enforcement of these
+requirements, and three others have ‘soft recommendations’ to certain issues (e.g. in respect of the
+collection of statistics).
+Regarding the BEPS Action 5 transparency framework on tax rulings , the FHTP conducted its eighth
+annual peer review in 2024 that assessed 136 jurisdictions. Among them, 29 jurisdictions were found not
+to have a legal or operational framework to issue rulings within the scope of the transparency framework .
+A total of 104 jurisdictions did not receive any recommendations. A cumulative total of 58,000 exchanges
+on 26,000 rulings has taken place since the implementation of the BEPS Action 5 transparency framework.

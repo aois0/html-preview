@@ -1,0 +1,103 @@
+---
+id: "beps-min-standards-progress-2025-oecd-en-pack-11"
+section_id: "beps-min-standards-progress-2025-oecd-en"
+section_title: "Note on burden reduction in the BEPS minimum standards (2025) (OECD PDF)"
+page_start: 28
+page_end: 29
+pid_start: "p028"
+pid_end: "p029"
+para_count: 2
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "https://www.oecd.org/content/dam/oecd/en/topics/policy-issues/beps/note-on-burden-reduction-in-the-beps-minimum-standards.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-min-standards-progress-2025-oecd-en-pack-11.txt"
+---
+
+## p028 (beps-min-standards-progress-2025-oecd-en-p028, pages 28-28)
+ 27
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025
+nominal tax jurisdictions in scope of the standard, and performed a legislative review of their legislation for
+the first time in 2019. When there are amendments in the legislation of a jurisdiction, the FHTP reviews
+this too on a rolling basis.
+In line with the FHTP’s standard on substantial activities in non -IP regimes (see above), the FHTP
+introduced in 2019 an annual monitoring procedure for substantial activities requirements in no or only
+nominal tax jurisdictions. As both monitoring processes are based on the same principles, to ensure the
+level playing field, any change to the monitoring of reg imes should align the monitoring of no or only
+nominal tax jurisdictions.
+Like the annual monitoring for substantial activities in non-IP regimes detailed above, the annual monitoring
+exercise for substantial activities requirements in no or only nominal tax jurisdictions incorporates, two
+parts: the transparency review mechanis m and the statistical data.  The results of the monitoring are
+focussed on statistical data, compliance programme and exchange of information. For these three areas,
+it is assessed what the review mechanism is and if the statistical data is complete and doe s not present
+any anomalies. The FHTP can give jurisdiction recommendations in these three areas, which can be hard
+or soft recommendations.
+Based on the annual monitoring results from the past years, it is apparent that  the focus of the monitoring
+exercise is now mainly on the enforcement of the substance requirements and the robustness of the
+compliance program in no or only nominal tax jurisdictions. Accordingly, and as for the substantial activities
+in non-IP regimes, the FHTP’s focus on the monitoring for no or only nominal tax jurisdictions is increasingly
+moving towards the monitoring of statistical data, mainly in respect of the compliance program and the
+enforcement of the standard.
+As the monitoring is now an established process, the Inclusive Fr amework concluded to decrease the
+burden on the monitored jurisdictions and the FHTP by introducing a lower frequency in the review of the
+substantial activities requirements in non or only nominal tax jurisdictions. Instead of an annual monitoring,
+monitoring of these regimes will take place on a three -yearly basis. The FHTP will still collect data in
+respect of each of the three years for which the monitoring is carried out.
+Outside of the three-year cycle, an intermediate review of a particular jurisdiction can occur at any moment
+in time when a reviewed jurisdiction requests so, in order to ensure that progress can be documented
+swiftly. Generally, if significant issues for a specific no or only nominal tax jurisdiction are identified between
+two cycles, an intermediate review of that jurisdiction can be initiated either at the request of an Inclusive
+Framework member or by the Secretariat.
+Peer review of the transparency framework
+The BEPS Action 5 Report (OECD, 2015[2]) includes a minimum standard on the spontaneous exchange
+of information on tax rulings in respect of certain tax rulings that may create BEPS -risks (“transparency
+framework”). The FHTP commenced a peer review process in 2017 which includes a review of  those
+jurisdictions that can legally issue rulings in scope of the transparency framework. The review focusses on
+the processes that the jurisdiction has in place on the identification of rulings in scope and exchange
+jurisdictions, the exchange of inform ation process and the confidentiality requirements. It also takes into
+account specific exchanges of information with respect to IP regimes that were identified in the BEPS
+Action 5 Report (OECD, 2015[2]).
+Based on the statistics and recommendations resulting from the recent peer reviews of the transparency
+framework, the Inclusive Framework  concluded that the peer review and the implementation of the
+transparency framework is now an established process. Jurisdictions still issue and exchange rulings, but
+most of them are doing this fully in line with the requirements of the transparency framework. As such, it
+appears that it is no longer warranted to conduct a peer review on an annual basis in order to maintain the
+progress made. In addition, the review of the transparency framework is now largely focussed on statistical
+
+## p029 (beps-min-standards-progress-2025-oecd-en-p029, pages 29-29)
+28 
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025
+data on rulings and exchanges, rather than reviews of the required legal and administrative framework in
+jurisdictions for identifying and exchanging rulings.
+Therefore, the peer review of the transparency framework takes place once every three years, instead of
+the current annual process. In addition, for those jurisdictions that have all elements of the legal and
+administrative framework for identifying and exchanging rulings in place, the three-year peer review will be
+based on a simplified questionnaire, focusing on statistical data. Outside of the three -yearly cycle, an
+intermediate review of a particular jurisdiction can occur at any moment in time when a reviewed jurisdiction
+requests so, in order to ensure that progress can be documented swiftly.
+Summary
+The agreed changes to the FHTP’s scope and frequency of annual monitoring and peer review exercises
+can be summarised as follows:
+• Monitoring of preferential regimes:
+o no more monitoring of (i) third category of IP assets and rebuttable presumption in IP regimes,
+(ii) potentially harmful but not actually harmful regimes, (iii) disadvantaged areas regimes, and
+(iv) grandfathered non-IP regimes; and
+o monitoring of substantial activities requirements in non-IP regimes to occur every three years,
+subject to intermediate reviews in case of improvements or significant issues.
+• Monitoring of substantial activities in no or only nominal tax jurisdictions:
+o to occur every three years, subject to intermediate reviews in case of improvements or
+significant issues.
+• Peer review of the transparency framework on rulings:
+o to occur every three years on the basis of a simplified questionnaire for jurisdictio ns with the
+legal and operational framework in place, subject to intermediate reviews in case of
+improvements.
+Practically, the above conclusions on the frequency of the peer reviews translate into the following
+schedule:
+Workstream Frequency Which years
+Monitoring of no or only nominal tax jurisdictions Once every three years 2026, 2029, etc.
+Peer review transparency framework Once every three years 2027, 2030, etc.
+Monitoring of certain aspects of regimes Once every three years 2028, 2031, etc.
+Review of the revised methodology
+The FHTP will review the revised methodology to assess whether it efficiently operates for addressing
+BEPS risks under BEPS Action 5. This review will take place after the first three -year cycle for all three
+workstreams has been completed.

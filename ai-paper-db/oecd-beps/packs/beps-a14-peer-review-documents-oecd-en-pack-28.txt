@@ -1,0 +1,95 @@
+---
+id: "beps-a14-peer-review-documents-oecd-en-pack-28"
+section_id: "beps-a14-peer-review-documents-oecd-en"
+section_title: "BEPS Action 14: peer review documents (Terms of Reference / Assessment Methodology) (OECD PDF)"
+page_start: 80
+page_end: 82
+pid_start: "p080"
+pid_end: "p082"
+para_count: 3
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "http://www.oecd.org/tax/beps/beps-action-14-on-more-effective-dispute-resolution-peer-review-documents.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-a14-peer-review-documents-oecd-en-pack-28.txt"
+---
+
+## p080 (beps-a14-peer-review-documents-oecd-en-p080, pages 80-80)
+ 79
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+(ii) The manner and form in which the taxpayer should submit its MAP request – MAP guidance
+should clearly state any requir ements with respect to the format of a request, including whether
+paper or electronic forms should be used and the required language of the request and any
+accompanying documentation. In addition, MAP guidance should include any requirements relating
+to th e timing of the submission of a MAP request (other than the timeframe stipulated in the
+applicable MAP provision), for example, a requirement that if the taxpayer is intending to submit
+the same MAP request to another competent authority, then the two requests should be submitted
+at the same time. MAP guidance should also require a taxpayer to clearly indicate in its MAP
+request if its request is a “protective” MAP request2.
+5. To facilitate the review of a MAP request, a jurisdiction’s MAP guidance should cle arly list the
+information and documentation that should be submitted with a taxpayer’s request for MAP assistance.
+The information and documentation to be included in the taxpayer’s MAP request could include, for
+example, the following:
+(i) Identity of the taxpayer(s) covered in the MAP request – the identity of the taxpayer(s) covered
+in a MAP request must be sufficiently specific to allow the competent authority to identify and
+contact the taxpayer(s) involved. The information provided should include the name , address,
+taxpayer identification number or birth date, contact details and the relationship between the
+taxpayers covered in the MAP request (where applicable).
+(ii) The basis for the request  – the MAP request should state the specific tax treaty including th e
+provision(s) of the specific article(s) which the taxpayer considers is not being correctly applied by
+either one or both Contracting Party (and to indicate which Party and the contact details of the
+relevant person(s) in that Party).
+(iii) Facts of the case  – the MAP request should contain all the relevant facts of the case including
+any documentation to support these facts, the taxation years or period involved and the amounts
+involved (in both the local currency and foreign currency).
+(iv) Analysis of the issue(s ) requested to be resolved via MAP  – the taxpayer should provide an
+analysis of the issue(s) involved, including its interpretation of the application of the specific treaty
+provision(s), to support its basis for making a claim that the provision of the sp ecific tax treaty is
+not correctly applied by either one or both Contracting Party. The taxpayer should support its
+analysis with relevant documentation (for example, documentation required under transfer pricing
+legislative or published guidance, copies o f tax assessments, audits conducted by the tax
+authorities leading to the incorrectly application of the tax treaty provision).
+(v) Whether the MAP request was also submitted to the competent authority of the other
+Contracting Party – If so, the MAP request should make this clear, together with the date of such
+submission, the name and the designation of the person or the office to which the MAP request
+was submitted. A copy of that submission (including all documentations filed with that submission)
+should also be provided unless the content of both MAP submissions are exactly the same.
+(vi) Whether the MAP request was also submitted to another authority under another Instrument
+that provides for a mechanism to resolve treaty -related disputes – If yes, the MAP reque st
+should clearly state so and the date of such submission, the name and the designation of the
+person or the office to which the MAP request was submitted, should be provided. A copy of that
+submission (including all documentations filed with that submission) should also be provided unless
+the content of both MAP submissions are exactly the same.
+(vii) Whether the issue(s) involved were previously dealt with  – the request should state whether
+the issue(s) presented in the MAP request has been previously dealt wi th, for example, in an
+advance ruling, advance pricing arrangement, settlement agreement or by any tax tribunal or court.
+If yes, a copy of these rulings, agreements or decisions should be provided.
+
+## p081 (beps-a14-peer-review-documents-oecd-en-p081, pages 81-81)
+80 
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+(viii) A statement confirming that all information and documenta tion provided in the MAP
+request is accurate and that the taxpayer will assist the competent authority in its resolution
+of the issue(s) presented in the MAP request by furnishing any other information or
+documentation required by the competent authority in a timely manner – the request for any
+other information or documentation should be well -targeted and responses to the request should
+be complete and be submitted within the time stipulated in the request for such information or
+documentation.
+Reference
+OECD (2015), Making Dispute Resolution Mechanisms More Effective, Action 14 - 2015 Final
+Report, OECD/G20 Base Erosion and Profit Shifting Project, OECD Publishing, Paris,
+https://doi.org/10.1787/9789264241633-en.
+[1]
+Notes
+1 See minimum standard 3.2 in the 2015 Action 14 Report and elements B.6. and B.8. of the Terms of Reference to
+monitor and review the implementation of the BEPS Action 14 minimum standard to make dispute resolution
+mechanisms more effective (“Terms of Reference”).
+2 A “protective” MAP request is understood as a MAP request submitted by the taxpayer to ensure that its request is
+made within the time frame provided under the tax treaty but the taxpayer has indicated at the point of making the
+request or subsequently to the competent authority that the request need not be examined until further notification
+from the taxpayer to do so.
+
+## p082 (beps-a14-peer-review-documents-oecd-en-p082, pages 82-82)
+BEPS Action 14 on More Effective
+Dispute Resolution Mechanisms
+PEER REVIEW DOCUMENTS

@@ -1,0 +1,107 @@
+---
+id: "beps-a14-peer-review-documents-oecd-en-pack-02"
+section_id: "beps-a14-peer-review-documents-oecd-en"
+section_title: "BEPS Action 14: peer review documents (Terms of Reference / Assessment Methodology) (OECD PDF)"
+page_start: 9
+page_end: 10
+pid_start: "p009"
+pid_end: "p010"
+para_count: 2
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "http://www.oecd.org/tax/beps/beps-action-14-on-more-effective-dispute-resolution-peer-review-documents.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-a14-peer-review-documents-oecd-en-pack-02.txt"
+---
+
+## p009 (beps-a14-peer-review-documents-oecd-en-p009, pages 9-9)
+8 
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+the best practices will not be peer reviewed or monitored, nor will it affect the assessment of the assessed
+jurisdiction. Jurisdictions are free, however, to identify best practices they have adopted.
+10. The minimum standard contained in the 2015 Action 14 Report has been translated into the Terms
+of Reference to facilitate the review of an assessed jurisdiction’s compliance with the Action 14 minimum
+standard. The Terms of Reference  do not alter the Action 14 minimum standard and in case of any
+differences arising from the interpretation of any elements of the Terms of Reference  and the Action 14
+minimum standard, the review of the assessed jurisdiction shall be conducted based on the minimum
+standard contained in the 2015 Action 14 Report. The Terms of Reference have been designed to assess
+the jurisdictions’ legal and administrative frameworks and the practical implementation of the frameworks
+to determine how a jurisdiction’s dispute resolution mechanisms operate with respect to the basis of the
+minimum standard of the Action 14 Report in the following areas:
+ Preventing disputes (Part A);
+ Availability and access to MAP (Part B);
+ Resolution of MAP cases (Part C); and
+ Implementation of MAP agreements (Part D).
+11. They will also serve as a basis for questionnaires to be developed by the FTA MAP Forum, which
+will form the basis of the reviews to be conducted by the FTA MAP Forum. Jurisdictions should provide
+timely and complete responses to the questionnaires including timely and complete reporting of MAP
+statistics pursuant to an agreed template and reporting framework and information on their MAP profiles
+which will be published on a shared public platform based on an agreed template.
+A.  Preventing disputes – Elements of the minimum standard
+12. Taxpayers desire to have certainty on the tax treaty treatment of their cross -border trade and
+investment and clarity on the application and interpretation of the tax trea ty. Such clarity and certainty is
+equally important for tax authorities. The legal authority for competent authorities to clarify any difficulties
+or doubts arising from the interpretation or application of their tax treaties is derived from tax treaty
+provisions that follow paragraph 3 of Article 25. In this regard, the Action 14 minimum standard requires
+that:
+A.1.  Jurisdictions should ensure that their tax treaties contain a provision which requires the
+competent authority of their jurisdiction to endeavour to resolve by mutual agreement any
+difficulties or doubts arising as to the interpretation or application of their tax treaties. 6
+A.2.  Jurisdictions with bilateral advance pricing arrangement (“APA”)7 programmes should provide
+for the roll-back8 of APAs in appropriate cases, subject to the applicable time limits (such as
+statutes of limitation for assessment) where the relevant facts and circumstances in the earlier
+tax years are the same and subject to the verification of these facts and circums tances on
+audit.
+Best practices
+B.P.1. Jurisdictions should implement bilateral APA programmes.
+B.P.2. Jurisdictions should have appropriate procedures in place to publish agreements reached
+by competent authorities on difficulties or doubts arising as to the interpretation or
+application of their tax treaties9 in appropriate cases.
+B.P.3. Jurisdictions’ published MAP guidance should provide guidance on APAs.
+
+## p010 (beps-a14-peer-review-documents-oecd-en-p010, pages 10-10)
+ 9
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+B.P.4. Jurisdictions should develop the “global awareness” of the audit/examination functions
+involved in international matters through the delivery of the Forum on Tax Administration’s
+“Global Awareness Training Module” to appropriate personnel.
+B.  Availability and access to MAP – Elements of the minimum standard
+13. Where tax treaty -related disputes ari se between taxpayers and the tax authorities, a dispute
+resolution mechanism should be available to taxpayers based on the tax treaty irrespective of the remedies
+provided by the domestic laws of the treaty partners. Paragraph 1 of Article 25 provides a mechanism, the
+MAP, for the resolution of tax treaty -related disputes. Jurisdictions should ensure that taxpayers have
+access to MAP and that information relating to taxpayer access to MAP is readily available and accessible
+to the public.
+14. To ensure that taxpayers have access to MAP, the Action 14 minimum standard requires that:
+B.1.  Jurisdictions should ensure that their tax treaties contain a MAP provision which provides that
+when the taxpayer considers that the actions of one or both of the Contracting Parties result
+or will result for the taxpayer in taxation not in accordance with the provisions of the tax treaty,
+the taxpayer, may irrespective of the remedies provided by the domestic law of those
+Contracting Parties, make a request for MAP assistance,  and that the taxpayer can present
+the request within a period of no less than three years from the first notification of the action
+resulting in taxation not in accordance with the provisions of the tax treaty. 10
+B.2.  Jurisdictions should ensure that either (i) their tax treaties contain a provision which provides
+that the taxpayer can make a request for MAP assistance to the competent authority of either
+Contracting Party 11, or (ii) where the treaty does not permit a MAP request to be made to
+either Contracting Party and the competent authority who received the MAP request from the
+taxpayer does not consider the taxpayer’s objection to be justified, the competent authority
+should implement a bilateral consultation or notification process which allows the ot her
+competent authority to provide its views on the case (such consultation shall not be interpreted
+as consultation as to how to resolve the case).
+B.3.  Jurisdictions should provide access to MAP in transfer pricing cases.
+B.4.  Jurisdictions should provide access to MAP in cases in which there is a disagreement between
+the taxpayer and the tax authorities making the adjustment as to whether the conditions for
+the application of a treaty anti-abuse provision have been met or as to whether the application
+of a domestic law anti-abuse provision is in conflict with the provisions of a treaty.
+B.5.  Jurisdictions should not deny access to MAP in cases where there is an audit settlement
+between tax authorities and taxpayers. If jurisdictions have an administrat ive or statutory
+dispute settlement/resolution process independent from the audit and examination functions
+and that can only be accessed through a request by the taxpayer, jurisdictions may limit
+access to the MAP with respect to the matters resolved through that process.12
+B.6.  Jurisdictions should not limit access to MAP based on the argument that insufficient
+information was provided if the taxpayer has provided the required information based on the
+rules, guidelines and procedures made available to tax payers on access to and the use of
+MAP.
+B.7.  Jurisdictions should ensure that their tax treaties contain a provision under which competent
+authorities may consult together for the elimination of double taxation in cases not provided
+for in their tax treaties.13

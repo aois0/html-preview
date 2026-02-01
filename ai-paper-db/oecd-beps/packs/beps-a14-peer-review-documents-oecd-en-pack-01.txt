@@ -1,0 +1,101 @@
+---
+id: "beps-a14-peer-review-documents-oecd-en-pack-01"
+section_id: "beps-a14-peer-review-documents-oecd-en"
+section_title: "BEPS Action 14: peer review documents (Terms of Reference / Assessment Methodology) (OECD PDF)"
+page_start: 7
+page_end: 8
+pid_start: "p007"
+pid_end: "p008"
+para_count: 2
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "http://www.oecd.org/tax/beps/beps-action-14-on-more-effective-dispute-resolution-peer-review-documents.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-a14-peer-review-documents-oecd-en-pack-01.txt"
+---
+
+## p007 (beps-a14-peer-review-documents-oecd-en-p007, pages 7-7)
+6 
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+Introduction
+1. The Action Plan on Base Erosion and Profit Shifting (“BEPS Action Plan”) 1 published by the
+Organisation for Economic Cooperation and Development (“OECD”) in 2013 at the request of the G20
+identified 15 actions to address BEPS in a comprehensive manner. Recognising that the actions to counter
+BEPS must be complemented with actio ns that ensure certainty and predictability for businesses, one of
+the BEPS actions, Action 14, calls for effective dispute resolution mechanisms:
+ACTION 14
+Make dispute resolution mechanisms more effective
+Develop solutions to address obstacles that prevent countries from [re]solving treaty-related
+disputes under MAP, including the absence of arbitration provisions in most treaties and the fact
+that access to MAP and arbitration may be denied in certain cases.
+2. In October 2015, the BEPS package compris ing an explanatory statement and 13 reports
+addressing BEPS concerns identified in the BEPS Action Plan was approved by the OECD and endorsed
+by the G20 Finance Ministers. 2 One of the reports , Report on Action 14: Making Dispute Resolution
+Mechanisms More Effective (“the 2015 Action 14 Report”)  (OECD, 2015[1]), discusses the obstacles that
+prevent countries from resolving treaty -related disputes under the mutual agreement procedure (“MAP”)
+and recommended measures to overcome such obstacles.
+3. Recognising the importance of removing double taxation as an obstacle to cross-border trade and
+investment, the 2015 Action 14 Report  (OECD, 2015 [1]) also reflected the commitment of countries to
+implement a minimum standard (“the Action 14 minimum standard”) to ensure that they resolve treaty -
+related disputes in a timely, effective and efficient manner. The minimum standard is complemented by a
+set of best practices. Furthermore, to ensure the ef fective implementation of the minimum standard,
+countries also committed to have their compliance with the minimum standard reviewed by their peers –
+i.e. the other members of the Forum on Tax Administration MAP Forum (“FTA MAP Forum”). In addition,
+a number of countries 3 also consider that mandatory binding arbitration is the best way of ensuring that
+tax treaty disputes are effectively resolved through MAP and have committed to adopt and implement
+mandatory binding arbitration as a way to resolve disputes  that otherwise prevent the resolution of cases
+through the mutual agreement procedure.
+4. In this regard, the 2015 Action 14 Report (OECD, 2015[1]) mandated that the Committee on Fiscal
+Affairs (“CFA”) through its Workin g Party No. 1 on Tax Conventions and Related Questions (“Working
+1 Terms of Reference to monitor and review the implementing of
+the BEPS Action 14 minimum standard to make dispute
+resolution mechanisms more effective
+
+## p008 (beps-a14-peer-review-documents-oecd-en-p008, pages 8-8)
+ 7
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+Party 1”) and the FTA MAP Forum develop the Terms of Reference and the Assessment Methodology for
+the monitoring of the implementation of the Action 14 minimum standard by all OECD and G20 co untries,
+as well as jurisdictions that commit to the minimum standard (see mandate in Annex 1.A.).
+The Action 14 minimum standard for the resolution of tax treaty-related disputes
+5. Removing obstacles that double taxation presents is key to the development of economic relations
+between jurisdictions. In this regard, jurisdictions enter into tax treaties with the aim of removing such
+obstacles and to provide taxpayers with certainty on the tax treatment of their cross border trade,
+investment and activities. Where doubts or difficulties arise in relation to the interpretation or application of
+the tax treaty, or where taxpayers enter into disputes with tax authorities on the tax treaty treatment of their
+activities, Article 25 4 of the OECD Model Tax Convention  on Income and on Capital (“OECD Model Tax
+Convention”) (OECD, 2019[2]), provides a mechanism – the mutual agreement procedure (“MAP”), that
+allows the resolution of such difficulties or disputes.
+6. The MAP, which is ind ependent from the ordinary legal remedies available under domestic law,
+allows the competent authorities of the Contracting Parties to resolve differences or difficulties regarding
+the interpretation or application of the Convention on a mutually -agreed basis. This mechanism seeks to
+ensure the proper application and interpretation of tax treaties so that taxpayers entitled to the benefits of
+the treaty are not subject to taxation by either of the Contracting Parties which is not in accordance with
+the terms of the treaty.
+7. The Action 14 minimum standard aims to  strengthen the effectiveness and efficiency of the MAP
+process. The minimum standard is constituted by specific measures that jurisdictions will take to ensure
+that they resolve treaty -related disputes in a timely, effective and efficient manner and is complemented
+by a set of best practices. The elements of the minimum standard set out in the 2015 Action 14 Report
+(OECD, 2015[1]) seeks to achieve the following thr ee general objectives in order to ensure that dispute
+resolution mechanisms are more effective:
+ Jurisdictions should ensure that treaty obligations related to MAP are fully implemented in good
+faith and that MAP cases are resolved in a timely manner;
+ Jurisdictions should ensure that administrative processes promote the prevention and timely
+resolution of treaty-related disputes; and
+ Jurisdictions should ensure that taxpayers that meet the requirements of paragraph 1 of Article 25
+of the OECD Model Tax Convention (OECD, 2019[2]) can access the MAP.
+8. In other words, for the MAP to be more effective it should: (i) allow the competent authorities to
+reach agreements on how to prevent tax treaty -related disputes from arising i n the first instance, (ii) be
+available and accessible to taxpayers where tax-treaty disputes do arise; and (iii) be effective in resolving
+such disputes, including the timely implementation of the agreements that are reached by competent
+authorities through the MAP process.
+9. Jurisdictions should enhance their competent authority relationships and work collectively to
+improve the effectiveness of the MAP by becoming members of the FTA MAP Forum and fully participate
+in the work of the FTA MAP Forum. A jurisd iction’s compliance with the Action 14 minimum standard will
+be reviewed by its peers in the context of the FTA MAP Forum. The Terms of Reference describe the
+Action 14 minimum standard and break them down into 21 elements to reflect the four key areas of an
+effective dispute resolution mechanism - preventing disputes, availability and access to MAP, resolution of
+MAP cases and implementation of MAP agreements. These elements are complemented by 12 best
+practices. The elements and best practices should be interpreted based on the 2015 Action 14 Report and
+in accordance with the Commentary on Article 25 of the OECD Model Tax Convention  (OECD, 2019[2]).5
+The best practices are not part of the minimum standard and whether or not a jurisdiction has implemented

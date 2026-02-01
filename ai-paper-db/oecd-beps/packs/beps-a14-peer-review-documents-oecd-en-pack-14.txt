@@ -1,0 +1,293 @@
+---
+id: "beps-a14-peer-review-documents-oecd-en-pack-14"
+section_id: "beps-a14-peer-review-documents-oecd-en"
+section_title: "BEPS Action 14: peer review documents (Terms of Reference / Assessment Methodology) (OECD PDF)"
+page_start: 35
+page_end: 40
+pid_start: "p035"
+pid_end: "p040"
+para_count: 6
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "http://www.oecd.org/tax/beps/beps-action-14-on-more-effective-dispute-resolution-peer-review-documents.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-a14-peer-review-documents-oecd-en-pack-14.txt"
+---
+
+## p035 (beps-a14-peer-review-documents-oecd-en-p035, pages 35-35)
+34 
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+Annex 2.C. Model assessment schedules for approval of peer review reports
+by the FTA MAP Forum
+Figure 6. Stage 1 Peer Review
+Source: OECD
+Minimum 6 weeks
+(i) response from
+assessed
+jurisdiction
+(ii) peer inputs
+Secretariat sends
+(i) questionnaire &
+taxpayer inputs to
+assessed
+jurisdiction; and (ii)
+peer questionnaire
+to FTA MAP Forum
+Secretariat
+sends draft
+report to
+assessed
+jurisdiction and
+peers that have
+provided input
+Assessed
+jurisdiction
+provides
+comments
+Secretariat sends
+draft report to
+FTA MAP Forum
+for approval
+Discussion
+at FTA MAP
+Forum
+meeting
+(if
+necessary)
+FTA MAP Forum
+approves report
+via written
+procedure or
+comments /
+objects to the
+report
+Peers
+provide
+comments
+6 weeks
+Secretariat sends
+comments / objections
+received, its proposed
+responses and
+amended draft report (if
+necessary) to FTA MAP
+Forum
+4 weeks 4 weeks 4 weeks 2 weeks as soon as possible 3 weeks as soon as possible minimum 1 week
+
+## p036 (beps-a14-peer-review-documents-oecd-en-p036, pages 36-36)
+ 35
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+Figure 7. Stage 2 Peer Monitoring
+Source: OECD
+8 weeks if no comments received from
+peers
+Minimum 6 weeks
+Assessed jurisdiction
+submits Update
+Report to FTA MAP
+Forum within 1 year
+of CFA’s adoption of
+its Stage 1 Peer
+Review report
+Members of
+FTA MAP
+Forum
+provide
+comments
+Secretariat sends
+draft report to
+assessed
+jurisdiction and
+peers that have
+provided inputs
+Assessed
+jurisdiction
+comments
+on peer
+inputs
+Assessed
+jurisdiction
+provides
+comments
+Secretariat
+sends draft
+report to FTA
+MAP Forum for
+approval
+FTA MAP Forum
+approves report via
+written procedure or
+comments / objects
+to the report
+Secretariat sends
+comments / objections
+received, its proposed
+responses and
+amended draft report (if
+necessary) to FTA MAP
+Forum
+Discussion at
+FTA MAP
+Forum
+meeting (if
+necessary)
+Peers
+provide
+comments
+6 weeks
+4 weeks 4 weeks 4 weeks 4 weeks 2 weeks as soon as possible 3 weeks as soon as possible minimum 1 week
+
+## p037 (beps-a14-peer-review-documents-oecd-en-p037, pages 37-37)
+36 
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+Annex 2.D. Outline of Stage 1 Peer Review report
+This annex provides a draft outline for the Stage 1 Peer Review reports for approval by the FTA MAP
+Forum and subsequently for adoption by the CFA for publication. Drafts reports should as much as possible
+follow a similar presentation and have a similar length and level of details, even though each report will be
+tailored to the individual jurisdiction being assessed.
+Executive Summary (1-2 pages)
+The executive summary should:
+(i) state the purpose of the report, i.e. (a) the report summarises the jurisdiction’s legal and
+regularly framework for resolving tax treaty related disputes as well as the practical
+implementation of that framework; (b) examines the jurisdiction’s framework against the
+minimum standard set out in the Te rms of Reference to identify areas of improvement
+so that the jurisdiction can improve its MAP regime with the objective of resolving tax
+treaty-related disputes in a timely, effective and efficient manner;
+(ii) summarise the mechanisms available in the jurisdiction to resolve tax treaty -related
+disputes (e.g. number of tax treaties, arbitration provisions in tax treaties, EU arbitration
+convention);
+(iii)  summarise the outcome of the reviews of the jurisdiction’s compliance with the
+minimum standard in each of the following areas – preventing disputes; availability and
+access to MAP; resolution of MAP cases; and implementation of MAP agreements.
+(iv) describe the follow up actions required from the assessed jurisdiction.
+Introduction (2-3 pages)
+This section should provide:
+(i) the basis for the review, including the methodology used for the review and the
+information that is used to conduct the review (e.g. response from questionnaire , peer
+inputs, responses to peer and  taxpayers’ inputs, informatio n available in the
+jurisdiction’s MAP profile, MAP statistics from reporting template, information published
+by the jurisdiction);
+(ii) further information on the mechanisms available in the jurisdiction to resolve tax treaty-
+related disputes (e.g. network of t ax treaties, arbitration provisions in specific tax
+treaties, EU arbitration convention);
+(iii)  recent developments relating to dispute resolution mechanism (e.g. number of tax
+treaties updated to incorporate elements of the minimum standard, number  of tax
+treaties under negotiation, signatory of the multilateral instrument with specific
+reference to the provisions relating to Article 25 (Mutual Agreement Procedure),
+administrative measures taken to improve dispute resolution mechanism).
+
+## p038 (beps-a14-peer-review-documents-oecd-en-p038, pages 38-38)
+ 37
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+Compliance with the minimum standard (15-20 pages)
+This section comprises four sub-sections – (A) Preventing Disputes; (B) Availability and Access to MAP;
+(C) Resolution of MAP Cases; and (D) Implementation of MAP Agreements. Each of the sub -sections
+will be divided into elements of the minimum standard as described in the Terms of Reference.
+The report shall note all efforts made by the assessed jurisdiction to implement the minimum standard
+including the plans shared by the assessed jurisdiction to make legislative or procedural changes to
+implement the minimum standard taking into consideration that the assessed jurisdiction might not have
+fully implemented elements of the minimum standard given the time from its adoption to the time of its
+review. For each of the element of the minimum standard, the report should also note the inputs from
+peers and the assessed jurisdiction’s response to all relevant inputs received, if any.
+An analysis of the jurisdiction’s compliance with each element of the minimum standard should be made.
+Any shortcomings that exist in relation to the implementation of the element of the minimum standard
+should be identified in the report and recommendations as to how these shortcomings might be
+addressed should also be made in the report.  For each of the element, a summary shall be made as
+follows:
+Areas for Improvement Recommendations
+
+## p039 (beps-a14-peer-review-documents-oecd-en-p039, pages 39-39)
+38 
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+Annex 2.E. Summary of peer input collection in
+the simplified peer review process (Continued
+Monitoring)
+Figure 8. Start of the simplified peer review process – January 2023/New Inclusive Framework
+members
+Source: OECD
+Figure 9. After the simplified peer review process has commenced for a jurisdiction
+Source: OECD
+Secretariat
+Call for input
+X weeks for peer input
+Peers
+All jurisdictions with <10
+MAP cases – 2019-
+21/20XY-(XY+2) Statistics
+No peer input
+Simplified
+peer review
+MAP Forum
+view
+Peer input
+Forum decision – input not
+requiring improvement
+Full peer
+review
+Forum decision – input requiring
+improvement
+Peers
+Input
+Any time
+Secretariat
+Simplified peer
+review
+MAP Forum
+view
+Forum decision – input not requiring
+improvement
+Full peer
+review
+Forum decision – input requiring
+improvement
+Statistics over previous 3 years
+- >10 MAP cases
+Forum decision – how to continue
+simplified peer review/move to full peer
+review
+
+## p040 (beps-a14-peer-review-documents-oecd-en-p040, pages 40-40)
+ 39
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+Annex 2.F. Summary of simplified peer review
+process (Continued Monitoring)
+Figure 10. Information and input gathering
+Source: OECD
+Figure 11. Discussion and approval of an assessed jurisdiction’s Stage 1 Peer Review report by the
+FTA MAP Forum
+Source: OECD
+Members of
+FTA MAP ForumAssessed Jurisdiction
+Questionnaire Response to
+Questionnaire
+Secretariat
+Peer
+Input
+Taxpayers
+Peer
+Questionnaire
+- MAP Profile
+- Statistics
+- Research materials
+No Yes
+YesNo
+Approval by FTA MAP Forum
+under written procedure
+Report included in
+the FTA MAP
+Forum Report
+Report to be discussed at the
+FTA MAP Forum meeting
+Explanation
+included in the
+FTA MAP Forum
+Report
+Report
+Approved?
+Secretariat
+Draft Stage 1 Peer
+Review Report of
+Assessed
+Jurisdiction
+Report
+Approved?

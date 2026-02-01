@@ -1,0 +1,106 @@
+---
+id: "beps-a14-peer-review-documents-oecd-en-pack-23"
+section_id: "beps-a14-peer-review-documents-oecd-en"
+section_title: "BEPS Action 14: peer review documents (Terms of Reference / Assessment Methodology) (OECD PDF)"
+page_start: 68
+page_end: 69
+pid_start: "p068"
+pid_end: "p069"
+para_count: 2
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "http://www.oecd.org/tax/beps/beps-action-14-on-more-effective-dispute-resolution-peer-review-documents.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-a14-peer-review-documents-oecd-en-pack-23.txt"
+---
+
+## p068 (beps-a14-peer-review-documents-oecd-en-p068, pages 68-68)
+ 67
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+Annex 3.C. Definition of terms and rules for
+counting MAP cases for purposes of MAP
+Statistics reporting under the reporting template
+in Annex 3.A.
+1. Jurisdictions shall apply the following definitions and counting methods for purposes of their MAP
+Statistics reporting as required under Annex 3.A. of this note:
+(a) MAP case
+(i) Countries that are currently reporting MAP Statistics1 pursuant to the MAP reporting framework
+arising from the proposals in the Committee on Fiscal Affairs' (CFA) 2007 report “Improving the
+Resolution of Tax Treaty Disputes”2 (“existing reporting framework”) could adopt the definition
+of MAP cases based on the definition as contain ed in that framework and should clearly
+indicate this in the “Notes” section. As required under the existing reporting framework, where
+a tax administration does not accept a definition or is unable to report based upon the definition,
+that administration is requested to explain the difference between its reporting and the definition
+of terms provided in the existing reporting framework. Such explanation should be contained
+in the “Notes” section.
+(ii) For all other jurisdictions, they should clearly indicate  in the “Notes” section the definition of a
+MAP case adopted by them.
+(b) Counting of MAP cases
+(i) Countries that are currently reporting MAP Statistics pursuant to the existing reporting
+framework could adopt the counting method contained in that framework and to clearly indicate
+that in the “Notes” section. If a different counting method is adopted instead, please explain the
+different method used in the “Notes” section.
+(ii) For all other jurisdictions, they should clearly indicate in “Notes” section the method of counting
+MAP cases.
+(c) Category of Cases (Attribution / Allocation and Others) – See Column 1
+Jurisdictions could categorise pre -2016 cases based on any definition adopted by them and explain the
+definition used in the “Notes” section.
+(d) Number of pre-2016 cases in MAP inventory on 1 January [YEAR] – See Column 2
+The number of pre -2016 cases in the MAP inventory on 1 January of the year is the number of MAP
+requests that are not reported in Annex 3.B. which are pending resolution as of 1 January of that year.
+(e) Number of cases closed during the reporting period with outcomes as stated in
+Columns 3 to Column 12
+(i)      Cases denied MAP access (Column 3):
+A MAP case shall be counted as a case denied MAP access if the date of notification from the
+competent authority to the taxpayer that its MAP request is denied access to MAP (see
+
+## p069 (beps-a14-peer-review-documents-oecd-en-p069, pages 69-69)
+68 
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+paragraphs 13 and 14 of this note) falls within the reporting period. A MAP request is denied
+MAP access if it not an admissible objection or is denied access to MAP for any other reason.
+In instance whereby the taxpayer had sought the decision of an administrative appeal or judicial
+review following the notification from the competent authority that the MAP request is denied
+MAP access, and the decision is such that the case should be granted MAP access, this case
+shall be considered as a new case with the “start” date determined as (i) date of the decision
+of the administrative appeal or judicial review; or (ii) where the taxpayer is required to submit a
+new MAP request, the date as determined by the competent authority.
+(ii) Objection is not justified (Column 4):
+A MAP case shall be counted as a case where the objection is not justified if the date of
+notification from the compet ent authority to the taxpayer that its objection is not a justified
+objection (see paragraphs 13 and 14 of this note) falls within the reporting period. In instance
+whereby the taxpayer had sought the decision of an administrative appeal or judicial review
+following the notification from the competent authority that the objection from the taxpayer is
+not justified, and the decision is such that the case is a justified request, this case shall be
+considered as a new case with the “start” date determined as ( i) date of the decision of the
+administrative appeal or judicial review; or (ii) where the taxpayer is required to submit a new
+MAP request, the date as determined by the competent authority.
+(iii) Withdrawn by taxpayer (Column 5):
+A MAP case shall be counted as a case withdrawn by the taxpayer if the date of receipt of the
+taxpayer’s notification to the competent authority (see paragraphs 13 and 14 of this note) falls
+within the reporting period. However, if the case is withdrawn by taxpayer following the
+resolution of the issues through remedies provided by the domestic law of a Contracting State,
+that case shall be reflected as a case closed with the outcome “resolved via domestic remedy”
+(see Column 7).
+(iv) Unilateral relief granted (Column 6):
+A MAP case shall be counted as a case closed with unilateral relief granted if the date of
+notification from the competent authority to the taxpayer informing the taxpayer of such an
+outcome (see paragraphs 13and 14 of this note) falls within the reporting  period. Such cases
+shall not include cases whereby unilateral relief will be granted by a Contracting State following
+the outcome reached via (i) domestic remedy (such outcome shall be reflected under Column
+7); and (ii) competent authority agreement (suc h outcome shall be reflected in either Column
+8 or 9).
+(v) Resolved via domestic remedy (Column 7):
+A MAP case shall be counted as a case closed with the outcome “ resolved via domestic
+remedy” if the date of that outcome (see paragraphs 13 and 14 of this no te) falls within the
+reporting period. If the case is withdrawn by the taxpayer following an outcome reached via
+domestic remedy which lead to unilateral relief granted by a jurisdiction, that case shall be
+reflected as a case under this column and not as a case withdrawn (see Column 5) or closed
+with unilateral relief granted (see Column 6).
+(vi) Agreement fully eliminating double taxation / fully resolving taxation not in accordance with tax
+treaty (Column 8):
+A MAP case shall be counted as a case closed with agreement fully eliminating double taxation
+/ fully resolving taxation not in accordance with tax treaty if the date of notification from the
+competent authority to the taxpayer informing the taxpayer of such an agreement reached via
+competent authority discussion (regardless of whether the taxpayer accepts that outcome) (see
+paragraphs 13 and 14 of this note) falls within the reporting period. This includes cases where

@@ -1,0 +1,108 @@
+---
+id: "beps-min-standards-progress-2025-oecd-en-pack-10"
+section_id: "beps-min-standards-progress-2025-oecd-en"
+section_title: "Note on burden reduction in the BEPS minimum standards (2025) (OECD PDF)"
+page_start: 26
+page_end: 27
+pid_start: "p026"
+pid_end: "p027"
+para_count: 2
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "https://www.oecd.org/content/dam/oecd/en/topics/policy-issues/beps/note-on-burden-reduction-in-the-beps-minimum-standards.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-min-standards-progress-2025-oecd-en-pack-10.txt"
+---
+
+## p026 (beps-min-standards-progress-2025-oecd-en-p026, pages 26-26)
+ 25
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025
+jurisdictions would spontaneously exchange information on taxpayers benefitting from this category (using
+the BEPS Action 5 transparency framework).
+In light of the annual monitoring results from the past years, and available data more generally, there
+appear to be only a limited number of taxpayers benefitting from the third category of IP assets and
+rebuttable presumption. In addition, BEPS-risks related to these categories appear limited and any future
+regime offering such features could be subject to monitoring as part of the BEPS impact assessment under
+the revised methodology.
+Therefore, this category is monitored for the last time in 2025. The exchange of information requirements
+will be retained. The regimes will remain on the FHTP’s public lists of regimes and, for transparency
+purposes, will be included in the list of regimes for possible further consideration by the FHTP (list 3).
+Potentially harmful but not actually harmful regimes
+The conclusion of “potentially harmful but not actually harmful” was taken by the FHTP if the  regime is in
+scope, meets the low or no effective tax rate criterio n and implicates one or more of the criteria, but an
+assessment of the economic effects shows that the regime is not having a harmful impact in practice. The
+purpose of monitoring such regimes was that, where changes in the data were identified, the FHTP could
+reconsider the conclusion.
+The revised methodology for reviewing regimes will no longer include the conclusion of “potentially harmful
+but not actually harmful”, because of its replacement by the BEPS impact assessment.
+Therefore, this category is m onitored for the last time in 2025 . The regimes will remain on the FHTP’s
+public lists of regimes and, for transparency purposes, will be included in the list of regimes for possible
+further consideration by the FHTP (list 3).
+Disadvantaged areas regimes
+The purpose of the ongoing monitoring of disadvantaged areas regimes  is that if the FHTP finds an
+indication of adverse economic effects from a regime, the FHTP would decide on a case -by-case basis
+what additional data would be necessary to inform a decision as to whether the regime should be treated
+as an IP regime and assessed against the nexus approach.
+The Inclusive Framework already previously decided that, in general, these disadvantaged areas do not
+pose a significant BEPS-risk. Further, the annual monitoring results from the past years suggest that it is
+not expected that there will be a significant increase in the disadvantaged areas regimes that would justify
+reopening conclusions in this respect. In addition, under th e revised methodology, the FHTP no longer
+concludes any disadvantaged areas regimes.
+Therefore, this category is monitored  for the last time in 2025.  The regimes will remain on the FHTP’s
+public lists of regimes and, for transparency purposes, will be inc luded in the list of regimes for possible
+further consideration by the FHTP (list 3).
+Grandfathered non-IP regimes
+Of all regimes reviewed by the FHTP since the start of the BEPS project, almost 200 have been abolished
+or amended, with a large part foresee ing grandfathering in accordance with the FHTP’s timelines. The
+FHTP’s timelines include a cut -off date (i.e. the date when the FHTP’s decision on regime is published)
+and close-off date (i.e. the date that the regime is abolished or amended). New entrants to the regime after
+the cut-off date and before the close -off date cannot benefit from grandfathering. Part of the legislative
+review of the FHTP is whether these dates are included in the legislation for the regime.
+
+## p027 (beps-min-standards-progress-2025-oecd-en-p027, pages 27-27)
+26 
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025
+Based on the annual monitoring results from the past years, it appears that for grandfathered regimes, the
+results show that the number of taxpayers and amount of income in the regimes decreases or remains
+stable throughout the grandfathering years. No regime has been reopened by the FHTP bec ause of the
+monitoring results. This indicates that the legislative review done by the FHTP is sufficient and that the
+added value of the monitoring is low.
+Therefore, this category is monitored  for the last time in 2025. The regimes will remain on the FH TP’s
+public lists of regimes and, for transparency purposes, will be included in the list of regimes for possible
+further consideration by the FHTP (list 3).
+Reduced frequency of monitoring and peer review exercises
+Monitoring substantial activities requirements for non-IP regimes
+With the BEPS Action 5 Report (OECD, 2015[2]), the substantial activities requirements were elevated to
+one of the key criteria of the FHTP’s review of preferential regimes. In 2017, the FHT P agreed guidance
+on the substantial activities requirements non -IP regimes, which were set out in Annex D of the 2017
+Progress Report (OECD, 2017[8]). The guidance also indicated the need for monitoring to ensure that  the
+substantial activities requirements have been implemented effectively in practice.
+The annual monitoring for substantial activities in non-IP regimes consists of two parts. The first part is “an
+assessment of the jurisdiction’s transparent mechanism t o review taxpayer compliance and to deny
+benefits if these core-income generating activities are not undertaken by the taxpayer or do not occur within
+the jurisdiction”. This mechanism focusses on the enforcement of the legislation in practice (e.g. how
+jurisdictions are ensuring compliance and jurisdictions’ responsiveness to risks of non -compliance). The
+analysis intends to ensure that the regime is consistent with the substantial activities requirements that the
+jurisdiction declared it had in place at the time the FHTP reviewed the regime as “not harmful”. The second
+part of the monitoring is the collection of data regarding the number of taxpayers, the number of employees,
+amount of expenditures, amount of income, and statistics regarding taxpayers that  did not qualify for the
+benefits because they did not meet the substantial activities requirements.
+The FHTP has analysed the annual monitoring results from the past years and concluded that most
+jurisdictions have a transparent review mechanism in place . For any new regimes that are subject to
+monitoring, the FHTP has to review these jurisdictions’ transparent review mechanism, however the
+number of new regimes being introduced is decreasing. This implies that the focus of the FHTP has shifted
+to the sec ond stage of the process, i.e. the review of the statistical data. The  Inclusive Framework
+concluded that this is now an established process. To decrease the burden on the monitored jurisdictions
+and the FHTP, the Inclusive Framework decided a lesser frequ ency in the review of the substantial
+activities requirements in non -IP regimes. Instead of an annual monitoring, monitoring of these regimes
+will take place on a three-yearly basis. The FHTP will still collect data in respect of each of the three years
+for which the monitoring is carried out.
+Outside of the three-year cycle, an intermediate review of a particular regime can occur at any moment in
+time when a reviewed jurisdiction requests so, in order to ensure that progress can be documented swiftly.
+Generally, if significant issues for a specific regime are identified  between two cycles, an intermediate
+review of that regime can be initiated either at the request of an Inclusive Framework member or by the
+Secretariat.
+Monitoring substantial activities requirements in no or only nominal tax jurisdictions
+In 2017, the FHTP presented its output of the work on the BEPS Action 5 mandate for considering revisions
+or additions to FHTP framework. As part of this work, the FHTP agreed on the resumption of the application
+of the substantial activities factor to no or only nominal tax jurisdictions. The FHTP identified the no or only

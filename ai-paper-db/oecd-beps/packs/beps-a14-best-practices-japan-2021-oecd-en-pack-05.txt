@@ -1,0 +1,108 @@
+---
+id: "beps-a14-best-practices-japan-2021-oecd-en-pack-05"
+section_id: "beps-a14-best-practices-japan-2021-oecd-en"
+section_title: "BEPS Action 14: peer review best practices - Japan (2021) (OECD PDF)"
+page_start: 21
+page_end: 22
+pid_start: "p021"
+pid_end: "p022"
+para_count: 2
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "https://www.oecd.org/tax/beps/beps-action-14-peer-review-best-practices-japan-2021.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-a14-best-practices-japan-2021-oecd-en-pack-05.txt"
+---
+
+## p021 (beps-a14-best-practices-japan-2021-oecd-en-p021, pages 21-21)
+20  PART C: RESOLUTION OF MAP CASES
+INCLUSIVE FRAMEWORK OF BEPS: ACTION 14 MAKING DISPUTE RESOLUTION MORE EFFECTIVE MAP PEER REVIEW REPORT
+© OECD 2021
+48. As mentioned under BP.5, pursuant to Article 25(1) of the OECD Model Tax
+Convention taxpayers are allowed to submit a MAP request irrespective of available domestic
+remedies. This, however, does not further specify how to proceed if both available remedies
+are initiated and the case is dealt with in the bilateral phase of the MAP. Publicly available
+guidance on the relationship between the MAP and domestic r emedies provides clarity to
+taxpayers as well as treaty partners.
+49. Japan included information on the relationship between MAP and domestic law
+administrative and judicial remedies in the note attached to section 3(1) of its MAP guidance.
+This note clearly stipulates that taxpayers are allowed to submit a MAP request under a tax
+treaty, such regardless of the fact whether the taxpayer  (or its foreign affiliated person)  has
+initiated administrative or judicial remedies in respect of the taxes that are subject of the MAP
+request. The same information is included in the response to question 2.11 of the Q&A on
+MAP. This response further specifies that where the court in Japan has already decided on a
+case, its competent authority will follow that decision in its MAP negotiations with the other
+competent authority concerned. The response to question 2.8 of this Q&A further specifies
+that no fees are charged to taxpayers when submitting a MAP request. Furthermore, section
+5(1) of the MAP guidance notes that taxpayers  can ask for a pre -filing meeting before
+submitting a MAP request. The response to question 2.3 of the Q&A on MAP also includes
+information hereon.
+50. One peer provided input on this best practice. It noted that in its experience Japan’s
+competent authority has continuously made robust efforts to facilitate the opportunity for
+taxpayers to make use of MAP to avoid, or otherwise reduce, instances of double taxation.
+However, the peer also shared the view that in its belief taxpayers and competent authorities
+would benefit from enhanced efforts by Japan’s competent authority to provide guidance to
+taxpayers concerning those situations where, in its view, the application of Japan’s domestic
+law forestalls reliance on MAP to eliminate cases of double taxation. To this the peer added
+that it respectfully welcomes additional discussions with Japan’s competent authority on the
+scope within which such situations should occur and on the best practices for addressing them
+in a collaborative and co-operative manner.
+[BP.11] Provide guidance on consideration of interest and penalties in MAP
+Jurisdictions’ published MAP guidance should provide guidance on the consideration of
+interest and penalties in the mutual agreement procedure.
+51. As interests and penalties may concern su bstantial amounts, providing clarity in a
+jurisdiction’s MAP guidance on whether interest and penalties are in the scope of the MAP
+is relevant to ensure that a taxpayer is well-informed on this issue.
+52. Japan reported it does not take interest and/or penalties into consideration in MAP.
+However, where a MAP agreement requires an adjustment to be made in Japan, leading to a
+reduction of the taxable income, then Japan will reduce interest and/or penalties in proportion
+to such an adjustment on the moment of implementing the MAP agreement. Japan’s position
+on the consideration of interest and penalties in MAP , that the competent authority would
+explain to the taxpayer the application of interests and penalties to the MAP agreement,  is
+discussed in the note attached to Section 16(1) of the MAP guidance.
+53. Peers did not provide input relating to this particular best practice.
+
+## p022 (beps-a14-best-practices-japan-2021-oecd-en-p022, pages 22-22)
+PART C: RESOLUTION OF MAP CASES  21
+INCLUSIVE FRAMEWORK OF BEPS: ACTION 14 MAKING DISPUTE RESOLUTION MORE EFFECTIVE MAP PEER REVIEW REPORT
+© OECD 2021
+[BP.12] Include Article 9(2) of the OECD Model Tax Convention in tax treaties
+Jurisdictions should include paragraph 2 of Article 9 of the OECD Model Tax Convention in
+their tax treaties.
+54. Article 9(2) of the OECD Model Tax Convention  (OECD, 2017) allows competent
+authorities to make a corresponding adjustment to unilaterally eliminate double ta xation
+arising from primary adjustments. Including this provision in tax treaties provides taxpayers
+the possibility to obtain the elimination of such double taxation via a unilateral corresponding
+adjustment.
+55. Japan reported that it is in favour of including Article 9(2) of the OECD Model Tax
+Convention (OECD, 2017) in its tax treaties where possible and that it will seek to include
+this provision in all of its future tax treaties.
+Overview of tax treaties
+56. Out of Japan’s 71 tax treaties, 19 contain a provision equivalent to Article 9(2) of the
+OECD Model Tax Convention  (OECD, 2017) requiring their state to make a correlative
+adjustment in case a transfer pricing adjustment is imposed by the treaty partner.  17
+Furthermore, 20 tax treaties do not contain a provision that is based on or equivalent to Article
+9(2) of the OECD Model Tax Convention (OECD, 2017), six of which does not contain in
+its entirety a provision that is based on Article 9 of the OECD Model Tax Convention (OECD,
+2017) with regard to associated enterprises.18 The remaining 32 treaties do contain a provision
+that is based on Article 9(2) of the OECD Model Tax Convention (OECD, 2017), but deviate
+from this provision for the following reasons:
+ In 31 corresponding adjustments can only be made through a consultation between
+the competent authorities; and
+ In one treaty granting of a corresponding adjustment is optional, as the phrase “(…)
+shall make an appropriate adjustment” is replaced by “(….) may, where appropriate,
+make an appropriate adjustment”.
+Recent developments
+Bilateral modifications
+57. Japan signed a new tax treaty with a treaty partner that concerns the replacement of
+an existing treaty currently in force. This newly signed treaty has n ot yet entered into force,
+but Japan has already ratified it. This treaty contains a provision that is equivalent to Article
+9(2) of the OECD Model Tax Convention (OECD, 2017) , which was not the case for the
+existing treaty currently in force. Further, Japan signed new tax treaties with six treaty
+partners which are newly negotiated treaties with treaty partners with which there were no
+17 These 19 treaties include the newly negotiated treaty with Spain which will replace the currently existing treaty with this
+jurisdiction of 1974 and the newly negotiated treaty with Uzbekistan, for which Japan currently continues to apply the  treaty
+with the former USSR of 1986 and that it will no longer do so upon entry into force of this new treaty.
+18 These 20 treaties include the treaty with former Czechoslovakia that Japan continues to apply to the Czech Republic and the
+Slovak Republic and these six treaties include the treaty with the former USSR that Japan continues to apply to Armenia,
+Azerbaijan, Belarus, Georgia, Kyrgyzstan, Moldova, Tajikistan, Turkmenistan and Ukraine.

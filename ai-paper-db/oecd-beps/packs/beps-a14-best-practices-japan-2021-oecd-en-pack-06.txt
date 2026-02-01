@@ -1,0 +1,118 @@
+---
+id: "beps-a14-best-practices-japan-2021-oecd-en-pack-06"
+section_id: "beps-a14-best-practices-japan-2021-oecd-en"
+section_title: "BEPS Action 14: peer review best practices - Japan (2021) (OECD PDF)"
+page_start: 23
+page_end: 26
+pid_start: "p023"
+pid_end: "p026"
+para_count: 3
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "https://www.oecd.org/tax/beps/beps-action-14-peer-review-best-practices-japan-2021.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-a14-best-practices-japan-2021-oecd-en-pack-06.txt"
+---
+
+## p023 (beps-a14-best-practices-japan-2021-oecd-en-p023, pages 23-23)
+22  PART C: RESOLUTION OF MAP CASES
+INCLUSIVE FRAMEWORK OF BEPS: ACTION 14 MAKING DISPUTE RESOLUTION MORE EFFECTIVE MAP PEER REVIEW REPORT
+© OECD 2021
+treaties yet in place.19 Three of these six treaties have already entered into force. All of these
+treaties contain  a provision that is equivalent to Article 9(2) of the OECD Model Tax
+Convention (OECD, 2017). The effects of these newly signed treaties have been reflected in
+the analysis above where it has relevance.
+Multilateral Instrument
+58. Japan signed the Multilateral Instrument  and has deposited its instrument of
+ratification on 26 September 2018. The Multilateral Instrument has entered into force for
+Japan on 1 January 2019.
+59. Article 17(2) of t hat instrument stipulates that Article 17(1) – containing the
+equivalent of Article 9(2) of the OECD Model Tax Convention (OECD, 2017) – will apply
+in place of or in the absence of a provision in tax treaties that is equivalent to Article 9(2) of
+the OECD Model Tax Convention (OECD, 2017) . However, this shall only apply if both
+contracting parties to the applicable tax treaty have listed this treaty as a covered tax
+agreement under the Multilateral Instrument. Article 17(2) of the Multilateral Instrument
+does not take effect for a tax treaty if one or both of the treaty partners have, pursuant to
+Article 17(3), reserved the right not to apply Article 17(1) for those tax treaties that already
+contain the equivalent of Article 9(2) of the OECD Model Tax Convention (OECD, 2017),
+or not to apply Article 17(1) in the absence of such equivalent under the condition that: (i) it
+shall make appropriate corresponding adjustments or (ii) its competent authority shall
+endeavour to resolve the case under mutual agreement procedure of the applicable tax treaty.
+Where neither treaty partner has made such a reservation, Article 17(4) of the Multilateral
+Instrument stipulates that both have to notify the depositary  whether the applicable treaty
+already contains a provision equivalent to Article 9(2) of the OECD Model Tax Convention
+(OECD, 2017) . Where such a notification is made by both of them, the Multilateral
+Instrument will modify this treaty to replace that provision. If neither or only one treaty
+partner made this notification, Article 17(1) of the Multilateral Instrument will supersede this
+treaty only to the extent that the provision contained in that treaty relating to the granting of
+corresponding adjustments is incompatible with Article 17(1) (containing the equivalent of
+Article 9(2) of the OECD Model Tax Convention (OECD, 2017)).
+60. Japan has not reserved, pursuant to Article 17(3), the right not to apply Article 17(1)
+of the Multilateral Instrument for those tax treaties that already contain a provision equivalent
+to Article 9(2) of the OECD Model Tax Convention (OECD, 2017) . With regard to the 46
+tax treaties identified in paragraph 56 above (disregarding th ose six treaties that do not
+contain Article 9 at all ) that are considered not to contain this equivalent, Japan listed 36
+treaties as a covered tax agreement under the Multilateral Instrument, but only for 25 of them
+made a notification on the basis of Article 17(4) that they do contain a provision described in
+Article 17(2).20
+61. Of the relevant treaty 25 partners, all are signatories to the Multilateral Instrument
+and have listed their treaty with Japan as a covered tax agreement under that instrument, but
+11 have, on the basis of Article 17(3), reserved the right not to apply Article 17( 1) as they
+considered that their treaty with Japan already contains the equivalent of Article 9(2). 12 of
+the 14 remaining treaty partners also made a notification on the basis of Ar ticle 17(4). Of
+19 One of these treaties is with a treaty partner, for which Japan currently continues to apply the 1986 treaty with the former
+USSR, but which will no longer do so upon entry into force of this new treaty.
+20 These 36 treaties include the treaty with former Czechoslovakia that Japan continues to apply to the Czech Republic and the
+Slovak Republic.
+
+## p024 (beps-a14-best-practices-japan-2021-oecd-en-p024, pages 24-24)
+PART C: RESOLUTION OF MAP CASES  23
+INCLUSIVE FRAMEWORK OF BEPS: ACTION 14 MAKING DISPUTE RESOLUTION MORE EFFECTIVE MAP PEER REVIEW REPORT
+© OECD 2021
+these 12 treaty partners, nine have  already deposited their instrument of ratification of the
+Multilateral Instrument, following which the Multilateral Instrument has entered into force
+for the treaties between Japan and these treaty partne rs, and therefore has replaced the
+relevant treaty provision to include the equivalent of Article 9(2) of the OECD Model Tax
+Convention (OECD, 2017). For the remaining three treaties, the Multilateral Instrument will,
+upon entry into force, replace the pro visions in these treaties to include the equivalent of
+Article 9(2) of the OECD Model Tax Convention (OECD, 2017) . For the remaining two
+treaty partners that did not made a notification on the basis of Article 17(4), these treaty
+partners have already deposited its instrument of ratification of the Multilateral Instrument.
+Therefore, the Multilateral Instrument has entered into force for these treaties and  has
+superseded the relevant treaty provision s to include the equivalent of Article 9(2) of the
+OECD Mo del Tax Convention (OECD, 2017), but only to the extent that the provision
+contained in these treaties  relating to the granting of corresponding adjustments are
+incompatible with Article 17(1).
+62. Furthermore, for the remaining 11 treaties for which Japan did not make a notification
+on the basis of Article 17(4), all relevant treaty partners are signatories to the Multilateral
+Instrument and listed their treaty with Japan as a covered tax agreement under that
+instrument. Of the  partners to the 11  relevant treaties, two have, pursuant to Article 17(3),
+reserved the right not to apply Article 17(1).21 Four of the remaining nine treaty partners have
+already deposited their instruments of ratification of the Multilateral Instrument, following
+which the Multilateral Instrument has entered into force for the treaties between Japan and
+these treaty partners, and therefore has superseded the relevant treaty provision to include the
+equivalent of Article 9(2) of the OECD Model Tax Convention (OECD, 2017), but only to
+the extent that the provision contained in these treaties relating to the granting of
+corresponding adjustments are incompatible with Article 17(1). The provision  in the
+remaining five treaties will, upon the entry into force of the Multilateral Instrument for these
+treaties, be superseded by the Multilateral Instrument to include the equivalent of Article 9(2)
+of the OECD Model Tax Convention (OECD, 2017), but only to the extent that the provision
+contained in these treaties relating to the granting of cor responding adjustments are
+incompatible with Article 17(1).
+63. Peers did not provide input relating to this particular best practice.
+21 With respect to the treaty with former Czechoslovakia, which Japan continues to apply to the Czech Republic and the Slovak
+Republic, the Czech Republic is one of the treaty partners that made a reservation on the basis of Article 17(3) of the Multilateral
+Instrument. The treaty is therefore included in these two treaties. The treaty with former Czechoslovakia will therefore not be
+modified concerning the Czech Republic. However, as regards the Slovak Republic, since it has already deposited its instrument
+of ratification of the Multilateral Instrument,  Article 17(1) of the Multilateral Instrument has superseded the relevant t reaty
+provision to include the equivalent of Article 9(2) of the OECD Model Tax Convention (OECD, 2017), but only to the extent
+that the provision contained in these treaties relating to the granting of corresponding adjustments are incompatible with Article
+17(1).
+
+## p026 (beps-a14-best-practices-japan-2021-oecd-en-p026, pages 26-26)
+PART D: IMPLEMENTATION OF MAP AGREEMENTS  25
+INCLUSIVE FRAMEWORK OF BEPS: ACTION 14 MAKING DISPUTE RESOLUTION MORE EFFECTIVE MAP PEER REVIEW REPORT
+© OECD 2021
+Part D
+Implementation of MAP agreements
+There are no best practices for Part D.

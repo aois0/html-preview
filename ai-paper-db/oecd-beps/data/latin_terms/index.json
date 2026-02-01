@@ -1,0 +1,960 @@
+{
+  "dataset": {
+    "name": "OECD/G20 BEPS materials (selected)",
+    "generated_at": "2026-02-01",
+    "base_url": "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps"
+  },
+  "note": "Uppercase latin keyword reverse index (page-level).",
+  "term_pattern": "\\b[A-Z][A-Z0-9-]{2,}\\b",
+  "max_term_shard_chars": 9000,
+  "fields": [
+    "id",
+    "pid",
+    "page_start",
+    "page_end",
+    "section_id",
+    "context",
+    "core"
+  ],
+  "terms": [
+    {
+      "term": "AA17",
+      "slug": "AA17",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/AA17-00.tsv"
+      ]
+    },
+    {
+      "term": "AAA",
+      "slug": "AAA",
+      "para_count": 2,
+      "files": [
+        "data/latin_terms/AAA-00.tsv"
+      ]
+    },
+    {
+      "term": "ABBREVIATIONS",
+      "slug": "ABBREVIATIONS",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/ABBREVIATIONS-00.tsv"
+      ]
+    },
+    {
+      "term": "ACCESS",
+      "slug": "ACCESS",
+      "para_count": 4,
+      "files": [
+        "data/latin_terms/ACCESS-00.tsv"
+      ]
+    },
+    {
+      "term": "ACRONYMS",
+      "slug": "ACRONYMS",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/ACRONYMS-00.tsv"
+      ]
+    },
+    {
+      "term": "ACTION",
+      "slug": "ACTION",
+      "para_count": 100,
+      "files": [
+        "data/latin_terms/ACTION-00.tsv",
+        "data/latin_terms/ACTION-01.tsv",
+        "data/latin_terms/ACTION-02.tsv"
+      ]
+    },
+    {
+      "term": "AGREEMENTS",
+      "slug": "AGREEMENTS",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/AGREEMENTS-00.tsv"
+      ]
+    },
+    {
+      "term": "AND",
+      "slug": "AND",
+      "para_count": 32,
+      "files": [
+        "data/latin_terms/AND-00.tsv"
+      ]
+    },
+    {
+      "term": "APA",
+      "slug": "APA",
+      "para_count": 15,
+      "files": [
+        "data/latin_terms/APA-00.tsv"
+      ]
+    },
+    {
+      "term": "ATM",
+      "slug": "ATM",
+      "para_count": 2,
+      "files": [
+        "data/latin_terms/ATM-00.tsv"
+      ]
+    },
+    {
+      "term": "AVAILABILITY",
+      "slug": "AVAILABILITY",
+      "para_count": 4,
+      "files": [
+        "data/latin_terms/AVAILABILITY-00.tsv"
+      ]
+    },
+    {
+      "term": "BEPS",
+      "slug": "BEPS",
+      "para_count": 217,
+      "files": [
+        "data/latin_terms/BEPS-00.tsv",
+        "data/latin_terms/BEPS-01.tsv",
+        "data/latin_terms/BEPS-02.tsv",
+        "data/latin_terms/BEPS-03.tsv",
+        "data/latin_terms/BEPS-04.tsv",
+        "data/latin_terms/BEPS-05.tsv",
+        "data/latin_terms/BEPS-06.tsv"
+      ]
+    },
+    {
+      "term": "BEPS-",
+      "slug": "BEPS",
+      "para_count": 5,
+      "files": [
+        "data/latin_terms/BEPS-00.tsv"
+      ]
+    },
+    {
+      "term": "BEPS4",
+      "slug": "BEPS4",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/BEPS4-00.tsv"
+      ]
+    },
+    {
+      "term": "BEST",
+      "slug": "BEST",
+      "para_count": 2,
+      "files": [
+        "data/latin_terms/BEST-00.tsv"
+      ]
+    },
+    {
+      "term": "BIAC",
+      "slug": "BIAC",
+      "para_count": 2,
+      "files": [
+        "data/latin_terms/BIAC-00.tsv"
+      ]
+    },
+    {
+      "term": "BURDENS",
+      "slug": "BURDENS",
+      "para_count": 27,
+      "files": [
+        "data/latin_terms/BURDENS-00.tsv"
+      ]
+    },
+    {
+      "term": "C-168",
+      "slug": "C_168",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/C_168-00.tsv"
+      ]
+    },
+    {
+      "term": "C-196",
+      "slug": "C_196",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/C_196-00.tsv"
+      ]
+    },
+    {
+      "term": "C-282",
+      "slug": "C_282",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/C_282-00.tsv"
+      ]
+    },
+    {
+      "term": "C-311",
+      "slug": "C_311",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/C_311-00.tsv"
+      ]
+    },
+    {
+      "term": "C-397",
+      "slug": "C_397",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/C_397-00.tsv"
+      ]
+    },
+    {
+      "term": "C-47",
+      "slug": "C_47",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/C_47-00.tsv"
+      ]
+    },
+    {
+      "term": "C-524",
+      "slug": "C_524",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/C_524-00.tsv"
+      ]
+    },
+    {
+      "term": "C384",
+      "slug": "C384",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/C384-00.tsv"
+      ]
+    },
+    {
+      "term": "CASES",
+      "slug": "CASES",
+      "para_count": 5,
+      "files": [
+        "data/latin_terms/CASES-00.tsv"
+      ]
+    },
+    {
+      "term": "CCA",
+      "slug": "CCA",
+      "para_count": 22,
+      "files": [
+        "data/latin_terms/CCA-00.tsv"
+      ]
+    },
+    {
+      "term": "CFA",
+      "slug": "CFA",
+      "para_count": 19,
+      "files": [
+        "data/latin_terms/CFA-00.tsv"
+      ]
+    },
+    {
+      "term": "CFA7",
+      "slug": "CFA7",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/CFA7-00.tsv"
+      ]
+    },
+    {
+      "term": "CFC",
+      "slug": "CFC",
+      "para_count": 59,
+      "files": [
+        "data/latin_terms/CFC-00.tsv",
+        "data/latin_terms/CFC-01.tsv"
+      ]
+    },
+    {
+      "term": "CFC1",
+      "slug": "CFC1",
+      "para_count": 2,
+      "files": [
+        "data/latin_terms/CFC1-00.tsv"
+      ]
+    },
+    {
+      "term": "CFC2",
+      "slug": "CFC2",
+      "para_count": 2,
+      "files": [
+        "data/latin_terms/CFC2-00.tsv"
+      ]
+    },
+    {
+      "term": "CFC3",
+      "slug": "CFC3",
+      "para_count": 2,
+      "files": [
+        "data/latin_terms/CFC3-00.tsv"
+      ]
+    },
+    {
+      "term": "CIV",
+      "slug": "CIV",
+      "para_count": 2,
+      "files": [
+        "data/latin_terms/CIV-00.tsv"
+      ]
+    },
+    {
+      "term": "CONTENTS",
+      "slug": "CONTENTS",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/CONTENTS-00.tsv"
+      ]
+    },
+    {
+      "term": "CRO",
+      "slug": "CRO",
+      "para_count": 2,
+      "files": [
+        "data/latin_terms/CRO-00.tsv"
+      ]
+    },
+    {
+      "term": "CTPA",
+      "slug": "CTPA",
+      "para_count": 3,
+      "files": [
+        "data/latin_terms/CTPA-00.tsv"
+      ]
+    },
+    {
+      "term": "CUP",
+      "slug": "CUP",
+      "para_count": 8,
+      "files": [
+        "data/latin_terms/CUP-00.tsv"
+      ]
+    },
+    {
+      "term": "DISPUTE",
+      "slug": "DISPUTE",
+      "para_count": 100,
+      "files": [
+        "data/latin_terms/DISPUTE-00.tsv",
+        "data/latin_terms/DISPUTE-01.tsv",
+        "data/latin_terms/DISPUTE-02.tsv",
+        "data/latin_terms/DISPUTE-03.tsv"
+      ]
+    },
+    {
+      "term": "DISPUTES",
+      "slug": "DISPUTES",
+      "para_count": 6,
+      "files": [
+        "data/latin_terms/DISPUTES-00.tsv"
+      ]
+    },
+    {
+      "term": "DIW",
+      "slug": "DIW",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/DIW-00.tsv"
+      ]
+    },
+    {
+      "term": "DOCUMENTS",
+      "slug": "DOCUMENTS",
+      "para_count": 82,
+      "files": [
+        "data/latin_terms/DOCUMENTS-00.tsv",
+        "data/latin_terms/DOCUMENTS-01.tsv",
+        "data/latin_terms/DOCUMENTS-02.tsv"
+      ]
+    },
+    {
+      "term": "EBIT",
+      "slug": "EBIT",
+      "para_count": 4,
+      "files": [
+        "data/latin_terms/EBIT-00.tsv"
+      ]
+    },
+    {
+      "term": "EBITDA",
+      "slug": "EBITDA",
+      "para_count": 51,
+      "files": [
+        "data/latin_terms/EBITDA-00.tsv",
+        "data/latin_terms/EBITDA-01.tsv"
+      ]
+    },
+    {
+      "term": "ECJ",
+      "slug": "ECJ",
+      "para_count": 6,
+      "files": [
+        "data/latin_terms/ECJ-00.tsv"
+      ]
+    },
+    {
+      "term": "EEA",
+      "slug": "EEA",
+      "para_count": 2,
+      "files": [
+        "data/latin_terms/EEA-00.tsv"
+      ]
+    },
+    {
+      "term": "EEC",
+      "slug": "EEC",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/EEC-00.tsv"
+      ]
+    },
+    {
+      "term": "EFFECTIVE",
+      "slug": "EFFECTIVE",
+      "para_count": 100,
+      "files": [
+        "data/latin_terms/EFFECTIVE-00.tsv",
+        "data/latin_terms/EFFECTIVE-01.tsv",
+        "data/latin_terms/EFFECTIVE-02.tsv",
+        "data/latin_terms/EFFECTIVE-03.tsv"
+      ]
+    },
+    {
+      "term": "EUR",
+      "slug": "EUR",
+      "para_count": 2,
+      "files": [
+        "data/latin_terms/EUR-00.tsv"
+      ]
+    },
+    {
+      "term": "FBE",
+      "slug": "FBE",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/FBE-00.tsv"
+      ]
+    },
+    {
+      "term": "FDI",
+      "slug": "FDI",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/FDI-00.tsv"
+      ]
+    },
+    {
+      "term": "FHT",
+      "slug": "FHT",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/FHT-00.tsv"
+      ]
+    },
+    {
+      "term": "FHTP",
+      "slug": "FHTP",
+      "para_count": 19,
+      "files": [
+        "data/latin_terms/FHTP-00.tsv"
+      ]
+    },
+    {
+      "term": "FRAMEWORK",
+      "slug": "FRAMEWORK",
+      "para_count": 20,
+      "files": [
+        "data/latin_terms/FRAMEWORK-00.tsv"
+      ]
+    },
+    {
+      "term": "FTA",
+      "slug": "FTA",
+      "para_count": 46,
+      "files": [
+        "data/latin_terms/FTA-00.tsv",
+        "data/latin_terms/FTA-01.tsv"
+      ]
+    },
+    {
+      "term": "G20",
+      "slug": "G20",
+      "para_count": 33,
+      "files": [
+        "data/latin_terms/G20-00.tsv",
+        "data/latin_terms/G20-01.tsv"
+      ]
+    },
+    {
+      "term": "G20BEPS",
+      "slug": "G20BEPS",
+      "para_count": 3,
+      "files": [
+        "data/latin_terms/G20BEPS-00.tsv"
+      ]
+    },
+    {
+      "term": "GAAP",
+      "slug": "GAAP",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/GAAP-00.tsv"
+      ]
+    },
+    {
+      "term": "GDP",
+      "slug": "GDP",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/GDP-00.tsv"
+      ]
+    },
+    {
+      "term": "GLOSSARY",
+      "slug": "GLOSSARY",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/GLOSSARY-00.tsv"
+      ]
+    },
+    {
+      "term": "HTVI",
+      "slug": "HTVI",
+      "para_count": 4,
+      "files": [
+        "data/latin_terms/HTVI-00.tsv"
+      ]
+    },
+    {
+      "term": "IBFD",
+      "slug": "IBFD",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/IBFD-00.tsv"
+      ]
+    },
+    {
+      "term": "IFRS",
+      "slug": "IFRS",
+      "para_count": 8,
+      "files": [
+        "data/latin_terms/IFRS-00.tsv"
+      ]
+    },
+    {
+      "term": "III",
+      "slug": "III",
+      "para_count": 7,
+      "files": [
+        "data/latin_terms/III-00.tsv"
+      ]
+    },
+    {
+      "term": "III-3",
+      "slug": "III_3",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/III_3-00.tsv"
+      ]
+    },
+    {
+      "term": "IMF",
+      "slug": "IMF",
+      "para_count": 3,
+      "files": [
+        "data/latin_terms/IMF-00.tsv"
+      ]
+    },
+    {
+      "term": "IMPLEMENTATION",
+      "slug": "IMPLEMENTATION",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/IMPLEMENTATION-00.tsv"
+      ]
+    },
+    {
+      "term": "INCLUSIVE",
+      "slug": "INCLUSIVE",
+      "para_count": 20,
+      "files": [
+        "data/latin_terms/INCLUSIVE-00.tsv"
+      ]
+    },
+    {
+      "term": "INTRODUCTION",
+      "slug": "INTRODUCTION",
+      "para_count": 2,
+      "files": [
+        "data/latin_terms/INTRODUCTION-00.tsv"
+      ]
+    },
+    {
+      "term": "L007",
+      "slug": "L007",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/L007-00.tsv"
+      ]
+    },
+    {
+      "term": "L157",
+      "slug": "L157",
+      "para_count": 2,
+      "files": [
+        "data/latin_terms/L157-00.tsv"
+      ]
+    },
+    {
+      "term": "L335",
+      "slug": "L335",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/L335-00.tsv"
+      ]
+    },
+    {
+      "term": "MAKING",
+      "slug": "MAKING",
+      "para_count": 20,
+      "files": [
+        "data/latin_terms/MAKING-00.tsv"
+      ]
+    },
+    {
+      "term": "MAP",
+      "slug": "MAP",
+      "para_count": 127,
+      "files": [
+        "data/latin_terms/MAP-00.tsv",
+        "data/latin_terms/MAP-01.tsv",
+        "data/latin_terms/MAP-02.tsv",
+        "data/latin_terms/MAP-03.tsv",
+        "data/latin_terms/MAP-04.tsv"
+      ]
+    },
+    {
+      "term": "MECHANISMS",
+      "slug": "MECHANISMS",
+      "para_count": 80,
+      "files": [
+        "data/latin_terms/MECHANISMS-00.tsv",
+        "data/latin_terms/MECHANISMS-01.tsv",
+        "data/latin_terms/MECHANISMS-02.tsv"
+      ]
+    },
+    {
+      "term": "MINIMUM",
+      "slug": "MINIMUM",
+      "para_count": 27,
+      "files": [
+        "data/latin_terms/MINIMUM-00.tsv"
+      ]
+    },
+    {
+      "term": "MLI",
+      "slug": "MLI",
+      "para_count": 3,
+      "files": [
+        "data/latin_terms/MLI-00.tsv"
+      ]
+    },
+    {
+      "term": "MNC",
+      "slug": "MNC",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/MNC-00.tsv"
+      ]
+    },
+    {
+      "term": "MNE",
+      "slug": "MNE",
+      "para_count": 2,
+      "files": [
+        "data/latin_terms/MNE-00.tsv"
+      ]
+    },
+    {
+      "term": "MORE",
+      "slug": "MORE",
+      "para_count": 100,
+      "files": [
+        "data/latin_terms/MORE-00.tsv",
+        "data/latin_terms/MORE-01.tsv",
+        "data/latin_terms/MORE-02.tsv"
+      ]
+    },
+    {
+      "term": "MTC",
+      "slug": "MTC",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/MTC-00.tsv"
+      ]
+    },
+    {
+      "term": "NHH",
+      "slug": "NHH",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/NHH-00.tsv"
+      ]
+    },
+    {
+      "term": "NOE2",
+      "slug": "NOE2",
+      "para_count": 3,
+      "files": [
+        "data/latin_terms/NOE2-00.tsv"
+      ]
+    },
+    {
+      "term": "OCDE",
+      "slug": "OCDE",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/OCDE-00.tsv"
+      ]
+    },
+    {
+      "term": "OECD",
+      "slug": "OECD",
+      "para_count": 191,
+      "files": [
+        "data/latin_terms/OECD-00.tsv",
+        "data/latin_terms/OECD-01.tsv",
+        "data/latin_terms/OECD-02.tsv",
+        "data/latin_terms/OECD-03.tsv",
+        "data/latin_terms/OECD-04.tsv",
+        "data/latin_terms/OECD-05.tsv",
+        "data/latin_terms/OECD-06.tsv"
+      ]
+    },
+    {
+      "term": "OECD-G20",
+      "slug": "OECD_G20",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/OECD_G20-00.tsv"
+      ]
+    },
+    {
+      "term": "PART",
+      "slug": "PART",
+      "para_count": 16,
+      "files": [
+        "data/latin_terms/PART-00.tsv"
+      ]
+    },
+    {
+      "term": "PCA",
+      "slug": "PCA",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/PCA-00.tsv"
+      ]
+    },
+    {
+      "term": "PEER",
+      "slug": "PEER",
+      "para_count": 102,
+      "files": [
+        "data/latin_terms/PEER-00.tsv",
+        "data/latin_terms/PEER-01.tsv",
+        "data/latin_terms/PEER-02.tsv",
+        "data/latin_terms/PEER-03.tsv"
+      ]
+    },
+    {
+      "term": "PPT",
+      "slug": "PPT",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/PPT-00.tsv"
+      ]
+    },
+    {
+      "term": "PRACTICES",
+      "slug": "PRACTICES",
+      "para_count": 2,
+      "files": [
+        "data/latin_terms/PRACTICES-00.tsv"
+      ]
+    },
+    {
+      "term": "PREVENTING",
+      "slug": "PREVENTING",
+      "para_count": 6,
+      "files": [
+        "data/latin_terms/PREVENTING-00.tsv"
+      ]
+    },
+    {
+      "term": "PROGRESS",
+      "slug": "PROGRESS",
+      "para_count": 27,
+      "files": [
+        "data/latin_terms/PROGRESS-00.tsv"
+      ]
+    },
+    {
+      "term": "PUBE",
+      "slug": "PUBE",
+      "para_count": 3,
+      "files": [
+        "data/latin_terms/PUBE-00.tsv"
+      ]
+    },
+    {
+      "term": "RECOGNISING",
+      "slug": "RECOGNISING",
+      "para_count": 27,
+      "files": [
+        "data/latin_terms/RECOGNISING-00.tsv"
+      ]
+    },
+    {
+      "term": "REDUCING",
+      "slug": "REDUCING",
+      "para_count": 27,
+      "files": [
+        "data/latin_terms/REDUCING-00.tsv"
+      ]
+    },
+    {
+      "term": "REPORT",
+      "slug": "REPORT",
+      "para_count": 20,
+      "files": [
+        "data/latin_terms/REPORT-00.tsv"
+      ]
+    },
+    {
+      "term": "RESOLUTION",
+      "slug": "RESOLUTION",
+      "para_count": 100,
+      "files": [
+        "data/latin_terms/RESOLUTION-00.tsv",
+        "data/latin_terms/RESOLUTION-01.tsv",
+        "data/latin_terms/RESOLUTION-02.tsv",
+        "data/latin_terms/RESOLUTION-03.tsv"
+      ]
+    },
+    {
+      "term": "REV1",
+      "slug": "REV1",
+      "para_count": 2,
+      "files": [
+        "data/latin_terms/REV1-00.tsv"
+      ]
+    },
+    {
+      "term": "REVIEW",
+      "slug": "REVIEW",
+      "para_count": 102,
+      "files": [
+        "data/latin_terms/REVIEW-00.tsv",
+        "data/latin_terms/REVIEW-01.tsv",
+        "data/latin_terms/REVIEW-02.tsv",
+        "data/latin_terms/REVIEW-03.tsv"
+      ]
+    },
+    {
+      "term": "SGI",
+      "slug": "SGI",
+      "para_count": 2,
+      "files": [
+        "data/latin_terms/SGI-00.tsv"
+      ]
+    },
+    {
+      "term": "SGI16",
+      "slug": "SGI16",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/SGI16-00.tsv"
+      ]
+    },
+    {
+      "term": "STANDARDS",
+      "slug": "STANDARDS",
+      "para_count": 27,
+      "files": [
+        "data/latin_terms/STANDARDS-00.tsv"
+      ]
+    },
+    {
+      "term": "TABLE",
+      "slug": "TABLE",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/TABLE-00.tsv"
+      ]
+    },
+    {
+      "term": "TFEU",
+      "slug": "TFEU",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/TFEU-00.tsv"
+      ]
+    },
+    {
+      "term": "THE",
+      "slug": "THE",
+      "para_count": 27,
+      "files": [
+        "data/latin_terms/THE-00.tsv"
+      ]
+    },
+    {
+      "term": "TOR",
+      "slug": "TOR",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/TOR-00.tsv"
+      ]
+    },
+    {
+      "term": "USSR",
+      "slug": "USSR",
+      "para_count": 2,
+      "files": [
+        "data/latin_terms/USSR-00.tsv"
+      ]
+    },
+    {
+      "term": "VAT",
+      "slug": "VAT",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/VAT-00.tsv"
+      ]
+    },
+    {
+      "term": "WACC",
+      "slug": "WACC",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/WACC-00.tsv"
+      ]
+    },
+    {
+      "term": "XXX",
+      "slug": "XXX",
+      "para_count": 1,
+      "files": [
+        "data/latin_terms/XXX-00.tsv"
+      ]
+    },
+    {
+      "term": "YEAR",
+      "slug": "YEAR",
+      "para_count": 7,
+      "files": [
+        "data/latin_terms/YEAR-00.tsv"
+      ]
+    }
+  ]
+}

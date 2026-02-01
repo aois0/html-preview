@@ -1,0 +1,113 @@
+---
+id: "beps-a14-peer-review-documents-oecd-en-pack-12"
+section_id: "beps-a14-peer-review-documents-oecd-en"
+section_title: "BEPS Action 14: peer review documents (Terms of Reference / Assessment Methodology) (OECD PDF)"
+page_start: 28
+page_end: 29
+pid_start: "p028"
+pid_end: "p029"
+para_count: 2
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "http://www.oecd.org/tax/beps/beps-action-14-on-more-effective-dispute-resolution-peer-review-documents.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-a14-peer-review-documents-oecd-en-pack-12.txt"
+---
+
+## p028 (beps-a14-peer-review-documents-oecd-en-p028, pages 28-28)
+ 27
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+framework in practice (“Stage 1 Peer Review”). Stage 2 involves the review of the measures taken by the
+assessed jurisdiction to address any shortcomings identified in its Stage 1 Peer Revi ew (“Stage 2 Peer
+Monitoring”).
+52. During the Stage 1 Peer Review and Stage 2 Peer Monitoring, inputs would be obtained from the
+assessed jurisdictions as well as the assessed jurisdiction’s peers in line with the process followed in
+Section II(A)(i) and II( A)(ii) respectively. However, inputs obtained from peers indicating that such
+jurisdiction’s policy or practice concerning MAP requires improvement and accepted by the FTA MAP
+Forum as described in paragraph 45 would lead to the FTA MAP Forum considering h ow to move the
+assessed jurisdiction to a full  peer review process . Therefore, only other inputs would be considered as
+part of the simplified peer review process.
+53. There would be no formal mechanism for taxpayer input in the simplified peer review process .
+Nevertheless, taxpayers that face difficulties in their interactions with one competent authority can always
+approach the other competent authority concerned. The competent authority that is approached by a
+taxpayer can also always include the input provided by the taxpayer in its peer input with respect to an
+assessed jurisdiction where it considers this relevant, which would be taken into account in the peer review
+process.12
+54. The Stage 1 Peer Review process would follow the Drafting and Approval process described in
+Section II(B) and the Adoption process described in Section II(C), including the timelines prescribed, as
+well as the confidentiality obligations highlighted in Section II(E), except the following:
+a. The Stage 1 Peer Review under the simplified peer review process would follow a simplified format
+as contained in Annex 2.J. and would be focused on ensuring that the assessed jurisdiction can
+set up a more robust MAP programme to handle and resolve future MAP cases  efficiently,
+effectively and in a timely manner where needed.
+b. It is clarified that references to the CFA are seen to mean the Inclusive Framework in connection
+with the adoption of the reports prior to publication.
+55. The Stage 2 Peer Monitoring process would commence two years after the date of approval of the
+Stage 1 Peer Review report. The Stage 2 Peer Monitoring process would follow the process described in
+Section II(D), including the timelines prescribed, and the confidentiality obligations highlighted in Section
+II(E) except that it is clarified that references to the CFA is seen to mean the Inclusive Framework in
+connection with the adoption of the reports prior to publication.
+56. Following the approval of the Stage 2 Peer Monitoring report , where any recommendations
+connected to elements of the Terms of Reference  other than those connected to changing existing tax
+treaties13  are remaining in a report, the assessed jurisdiction shall continue to provide update reports (as
+discussed under Section II(D)) to the FTA MAP Forum once every three years starting from the date of the
+approval of the Stage 2 Peer Monitoring report by the Inclusive Framework. This update report would be
+a detailed written report by the assessed jurisdiction on  (i) the steps it has taken or is taking to address
+shortcomings identified in its peer review report; and (ii) any plans or changes to its legislative or procedural
+framework relating to the implementation of the minimum standard. An assessed jurisdiction could also
+include in the update report any other plans or changes to the implementation of its MAP regime since its
+Stage 1 Peer Review report. The update report should be provided in English or French and in an electronic
+format. Peers would be invited to provide inputs on the update report, as under paragraph 52.
+57. If there are no recommendations  other than those connected to changing existing tax treaties
+remaining in the Stage 2 Peer Monitoring report  and where peers confirm or provide no additional input
+with respect to an update report , there would be no further review of a n assessed jurisdiction until it is
+found to meet one of the conditions for “meaningful MAP experience” described above.
+
+## p029 (beps-a14-peer-review-documents-oecd-en-p029, pages 29-29)
+28 
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+58. In the event that the Action 14 minimum standard or Terms of Reference are revised in the future,
+the simplified peer review process would be reviewed by the FTA MAP Forum to ensure that it aligns with
+the revisions.
+B. Full peer review process
+59. For all remaining members of the Inclusive Framework i.e. members that do not qualify for the
+“simplified peer review proces s” described above or wish to be subject to a full peer review (“ qualifying
+jurisdictions”), a full peer review would be conducted in a continuing, concise and effective manner. The
+full peer review process would commence from 2024 onwards.
+60. The full peer r eview process would be conducted in cycles with each cycle constituting a three
+year period during which all qualifying jurisdictions would be peer reviewed. Once each cycle of three years
+of peer reviews is completed, a gap year would be provided to allow the FTA MAP Forum to focus on other
+areas. Therefore, each qualifying jurisdiction would be subject to the full peer review process once every
+four years, with around one-third of all qualifying jurisdictions being reviewed in the first, second and third
+year respectively and the fourth year being a gap year.14
+61. For the full peer review process, inputs would be obtained from the assessed jurisdictions as well
+as the assessed jurisdiction’s peers in line with the process followed in Section II(A)(i) and II(A) (ii)
+respectively.
+62. There would  be no formal mechanism for taxpayer input in the full peer review process.
+Nevertheless, taxpayers that face difficulties in their interactions with one competent authority can always
+approach the other competent authority c oncerned. The competent authority that is approached by a
+taxpayer can also always include the input provided by the taxpayer in its peer input with respect to an
+assessed jurisdiction where it considers this relevant, which would be taken into account in the peer review
+process.15
+63. The full peer review process would follow the process described in Section II(D), including the
+timelines prescribed, and the confidentiality obligations highlighted in Section II(E) except that:
+a. Update reports would be submitted by each assessed jurisdiction based on deadlines connected
+to the organisation of the full peer review cycles, to ensure that the peer reviews of all jurisdictions
+are completed at the end of each cycle.
+b. An assessed jurisdiction would, in its update report , identify the steps it has taken or is taking to
+address any shortcomings identified in its previously published  peer review report and any plans
+or changes to its legislative or procedural framework relating to the implementation of the minimum
+standard. An assessed jurisdiction could also include in the report any other plans or changes to
+the implementation of its MAP regime since its previously published peer review report.
+c. The full peer review process would lead to the drafting, adoption and publicati on of fresh Peer
+Monitoring Reports in each cycle, instead of Stage 2 Peer Monitoring reports that updated Stage 1
+peer review reports under the Peer Review and Monitoring process under Section II.
+d. It is clarified that references to the CFA are seen to mean the Inclusive Framework in connection
+with the adoption of the reports prior to publication.
+64. It is also acknowledged that a full peer review process may not be necessary going forward for
+jurisdictions that are already fully in line with the Action 14  minimum standard, with no recommendations
+remaining in their last published peer review report . Such jurisdictions are required to  provide update
+reports as noted above with respect to the relevant full peer review cycle . However, subject to no input
+showing policy/practices that require improvement being provided by peers with respect to the update
+report, no full peer review report would be published for such jurisdictions in the concerned full peer review
+cycle.

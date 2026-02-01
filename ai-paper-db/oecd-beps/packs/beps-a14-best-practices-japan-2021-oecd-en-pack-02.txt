@@ -1,0 +1,123 @@
+---
+id: "beps-a14-best-practices-japan-2021-oecd-en-pack-02"
+section_id: "beps-a14-best-practices-japan-2021-oecd-en"
+section_title: "BEPS Action 14: peer review best practices - Japan (2021) (OECD PDF)"
+page_start: 13
+page_end: 15
+pid_start: "p013"
+pid_end: "p015"
+para_count: 3
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "https://www.oecd.org/tax/beps/beps-action-14-peer-review-best-practices-japan-2021.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-a14-best-practices-japan-2021-oecd-en-pack-02.txt"
+---
+
+## p013 (beps-a14-best-practices-japan-2021-oecd-en-p013, pages 13-13)
+12  PART A: PREVENTING DISPUTES
+INCLUSIVE FRAMEWORK OF BEPS: ACTION 14 MAKING DISPUTE RESOLUTION MORE EFFECTIVE MAP PEER REVIEW REPORT
+© OECD 2021
+requests, the list of information that taxpayers have to submit alongside the APA request, the
+period covered by an APA, how the process for obtaining an APA will be conducted,
+organisation of a pre-filing meeting, the relationship with the mutual agreement procedure,
+the implementation of an APA and the effect thereof, the submission of an annual APA report
+by taxpayers, the possibility to amend, renew or cancel an APA, and the possibility of
+applying APAs to previous fiscal years (roll-back).
+17. For corporations for which the consolidated taxation system applies, Japan has issued
+specific APA guidance in the Commissioner’s Directive on the operation of transfer pricing
+for consolidated corporations ( in relation  to APA procedure , lastly updated in February
+2018).9 This guidance is available online and can be found at (in Japanese):
+http://www.nta.go.jp/law/jimu-unei/hojin/050428/05.htm
+18.  Furthermore, Japan also provides guidance on APAs in relation to the attribution of
+profits to permanent establishments in the following documents:
+ For domestic and foreign corporations : chapters 6 and 7 of the Commissioner’s
+Directive on the operation of auditing, etc. for income attributable to permanent
+establishments (in relation to APA procedure, lastly updated in February 2018). The
+information is available at (in Japanese):
+http://www.nta.go.jp/law/jimu-unei/hojin/160630/06.htm
+http://www.nta.go.jp/law/jimu-unei/hojin/160630/07.htm;
+  For domestic consolidated corporations 10 : chapter 5 of the Commissioner’s
+Directive on the operation of auditing, etc. for consolidated income attributable to
+consolidated corporation’s permanent establishments located overseas (in relation to
+APA procedure, lastly updated  in February 2018). The information is available at (in
+Japanese):
+http://www.nta.go.jp/law/jimu-unei/hojin/160630_2/05.htm;
+ For (resident and non-resident) individuals11: chapters 5 and 6 of the Commission’s
+Directive on the operation of a uditing, etc. for various income attributable to
+individual’s permanent establishments (issued on 31 March 2017). The information
+is available at (in Japanese):
+http://www.nta.go.jp/law/jimu-unei/shotoku/shinkoku/170331/05.htm
+http://www.nta.go.jp/law/jimu-unei/shotoku/shinkoku/170331/06.htm
+19.  While the documents mentioned in paragraphs 17 and 18 are issued for specific
+subjects, Japan reported that the content of the APA guidance included in these documents
+does not substantially deviate from the general APA guidance discussed in paragraphs 15
+and 16 above, but are separately issued to provide clarity for each category of taxpayers.
+20. In addition to the above, Japan has also included information on its APA programme,
+particularly on bilateral and multilateral APAs in several sections of the Commissioner’s
+Directive on the mutual agreement procedure (“MAP guidance”) – (e.g. sections 6(2), 13(3),
+9  As defined in item 12-7-2 of Article 2 of the Corporations Tax Act
+10  As defined in item 3 of Article 2 of the Corporations Tax Act.
+11  As defined in items 3 and 5 of Article 2(1) of the Income Tax Act.
+
+## p014 (beps-a14-best-practices-japan-2021-oecd-en-p014, pages 14-14)
+PART A: PREVENTING DISPUTES  13
+INCLUSIVE FRAMEWORK OF BEPS: ACTION 14 MAKING DISPUTE RESOLUTION MORE EFFECTIVE MAP PEER REVIEW REPORT
+© OECD 2021
+24 and 25) and the Guidance for taxpayers on the mutual agreement procedure Q&A (“Q&A
+on MAP”). These are available at (in English):
+http://www.nta.go.jp/english/00.pdf
+http://www.nta.go.jp/english/03.pdf
+21. Japan reported that it has carried out an update to its Transfer Pricing Directive in
+February 2018 in respect of (i) the procedure applicable where taxpay ers are required to
+submit additional information and (ii) the procedure applicable where the APA process is
+deferred or closed in exceptional cases. Accordingly, corresponding updates were also made
+to the Commissioner’s Directives mentioned above in respect of specific taxpayers.
+22. Peers did not provide input relating to this particular best practice.
+[BP.4] Develop “global awareness” of the audit/examination functions
+Jurisdictions should develop the “global awareness” of the audit/examination functions
+involved in international matters through the delivery of the Forum on Tax Administration’s
+“Global Awareness Training Module” to appropriate personnel.
+23. Making audit/examination function of tax administrations that are involved in
+international matters aware of: (i) the potential for creating double taxation, (ii) the impact of
+a proposed adjustment on the tax base of one or more jurisdictions and (iii) the process and
+principles by which competing juridical claims are reconciled by competent authorities, may
+be useful to prevent disputes from arising. Using the Global Awareness Training Module
+developed by the Forum on Tax Administration (FTA) can be helpful in this respect.
+24. Japan reported that the National Tax Agency provides training to officials in
+audit/examination functions through its National Tax College. This college provides trainings
+to learn these officials about relevant tax laws and auditing skills. In relation to dispute
+resolution, two training programmes are relevant:
+ International Training Course: a four month course that aims at providing officials
+basic knowledge and advance expertise concerning examinations of international
+transactions and other practical work concerning international taxation. 12 In more
+detail, the curriculum of the course consist of teaching : (i) international tax laws
+(including tax treaties), (ii) examination methods for international transactions and
+(iii) rules and practices concerning international trade; and
+ Corresponding training courses : part of these courses concerns International
+Taxation I and II, which aim at providing officials with knowledge and skills in the
+field of international taxation.13 The training consists of assignments as a preparation
+to the course and several days of lecture.
+25. Further to the a bove, Japan reported that each division of the Regional Taxation
+Bureaus organises one day or short-term training sessions for auditors. An example hereof is
+the transfer pricing division, which gives trainings to all auditors in that division to update
+their knowledge in light of recent modifications of the OECD Transfer Pricing Guidelines,
+12  See for information in English: http://www.nta.go.jp/about/organization/ntc/english/education/08_international.htm.
+13  See for information in English:  http://www.nta.go.jp/about/organization/ntc/english/education/11_courses.htm..
+
+## p015 (beps-a14-best-practices-japan-2021-oecd-en-p015, pages 15-15)
+14  PART A: PREVENTING DISPUTES
+INCLUSIVE FRAMEWORK OF BEPS: ACTION 14 MAKING DISPUTE RESOLUTION MORE EFFECTIVE MAP PEER REVIEW REPORT
+© OECD 2021
+domestic laws and directives. In addition, Japan noted that t he essence of the Global
+Awareness Training Module is shared among auditors through those trainings.
+26. One peer provided input on this best practice and mentioned that Japan has been a
+committed partner within the FTA MAP Forum as also in the FTA’s Large Business
+Programme with a view to raise awareness of the principles of the Global Awareness Training
+Module at the level of its examination function and at the competent authority level. To this
+the peer added that it also appreciates the willingness of Japan’s competent authority to
+discuss the use of “reference sets” of comparable companies in cases presenting common fact
+patterns and transfer pricing issues. In this peer’s view such reference sets provide for a useful
+tool for the efficient and consistent resolution of MAP/APA cases with Japan’s competent
+authority. In that regard it appreciates the opportunity to discuss these reference sets and other
+ideas with Japan with a view to improve current practices concerning the resolution of cases.

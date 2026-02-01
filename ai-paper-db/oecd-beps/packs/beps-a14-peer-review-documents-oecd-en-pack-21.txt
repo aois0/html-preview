@@ -1,0 +1,125 @@
+---
+id: "beps-a14-peer-review-documents-oecd-en-pack-21"
+section_id: "beps-a14-peer-review-documents-oecd-en"
+section_title: "BEPS Action 14: peer review documents (Terms of Reference / Assessment Methodology) (OECD PDF)"
+page_start: 61
+page_end: 63
+pid_start: "p061"
+pid_end: "p063"
+para_count: 3
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "http://www.oecd.org/tax/beps/beps-action-14-on-more-effective-dispute-resolution-peer-review-documents.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-a14-peer-review-documents-oecd-en-pack-21.txt"
+---
+
+## p061 (beps-a14-peer-review-documents-oecd-en-p061, pages 61-61)
+60 
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+Notes on Part (I) of Annex 3.B. (see also Annex 3.D. - Definition of terms and
+rules for counting MAP cases)
+(v)  Column 1 of Table 1 and Table 2: Treaty Partner
+For each table (i.e. Table 1 for Attribution / Allocation MAP c ases and Table 2 for Other MAP
+cases), separate reporting of MAP cases with a treaty partner is required only if:
+(a) the number of post -2015 cases in your MAP inventory on 1 January of the year
+(see e.g. Row 1, Column 2) plus the number of post-2015 cases started during the
+reporting period (see e.g. Row 1, Column 3) with that treaty partner is at least five;
+and
+(b) that treaty partner is also reporting MAP Statistics for the reporting period in
+accordance with this framework.
+If such a number is less than five , the MAP statistic relating to that treaty partner shall be
+aggregated and be reported under the category “Treaty Partners (de minimis rule applies)” (see
+Row 2), together with other treaty partners that are also reporting MAP Statistics in accordance
+with this framework and where the number of MAP cases with each of them is also less than
+five.
+For MAP Statistics relating to all other treaty partners (i.e. those not reporting MAP Statistics for
+the reporting period in accordance with this framework), the MAP statistic relating to those treaty
+partners shall be aggregated and be reported together under the category “Treaty Partners
+(Others)” (see Row 3).
+(vi) Column 2 of Table 1 and Table 2: Number of post-2015 cases in MAP inventory
+on 1 January [Year]
+Enter in this column the number of post -2015 cases (i.e. MAP cases that are received by a
+competent authority from the taxpayer on or after 1 January 2016) in your MAP inventory that
+are pending resolution as of 1 January of the year.
+Note that for the first reporting period, i.e. 2016 reporting period, the number of post-2015 cases
+in your MAP inventory should be reflected as “0” since all MAP cases that are received by a
+competent authority from the taxpayer prior to 1 January 2016 should be reported in Annex
+3.A. of this note.
+(vii) Column 3 of Table 1 and Table 2: Number of post-2015 cases started during the
+reporting period
+Enter in this column the number of post -2015 cases started during the reporting period (i.e.
+where the start date of the case falls within the reporting period).
+(viii) Columns 4 to 13 of Table 1 and Table 2: Number of post-2015 cases closed
+during the reporting period with an outcome as described in Columns 4 to 13
+Enter in each of these columns the number of post -2015 cases closed in the reporting period
+based on the outcome of each case as stated in the heading of each of these columns .
+Note that these cases should not include pre -2016 cases which are closed in the reporting
+period as such cases should be reported in Annex 3.A. of this note.
+
+## p062 (beps-a14-peer-review-documents-oecd-en-p062, pages 62-62)
+ 61
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+(ix) Column 14 of Table 1 and Table 2: Number of post-2015 cases remaining in
+MAP inventory on 31 December [Year]
+Enter in this column the number of post -2015 cases in your MAP inventory that are pending
+resolution as of 31 December of the year.
+The number of post -2015 cases remaining in the MAP inventory on 31 December of the year
+should reflect:
+ the number of post -2015 cases in MAP inventory on 1 January of the reporting period
+(Column 2);
+ plus the number of post-2015 cases started during the reporting period (Column 3);
+ minus the number of post-2015 cases that are closed during the reporting period with
+outcome as stated in Columns 4 to 13.
+(x) Row 1 of Table 3: Number of post-2015 cases remaining in MAP inventory on
+31 December [Year] falling under the age category “<2 years old”
+In Column 2 to Row 1, the number of post-2015 cases in your MAP inventory that are pending
+resolution as of 31 December of the [Year] , which were initiated on or after 1 January [Year -2]
+based on the “Start Date”, would be published.
+(xi) Row 2 of Table 3: Number of post-2015 cases remaining in MAP inventory on
+31 December [Year] falling under the age category “>=2 and <4 years old”
+In Column 2 to Row 2 the number of post-2015 cases in your MAP inventory that are pending
+resolution as of 31 December of the [Year], which were initiated on or after 1 January [Year-4],
+but before 31 December [Year-3] based on the “Start Date”, would be published.
+(xii) Row 3 of Table 3: Number of post-2015 cases remaining in MAP inventory on
+31 December [Year] falling under the age category “>=4 and <6 years old”
+In Column 2 to Row 3 the number of post-2015 cases in your MAP inv entory that are pending
+resolution as of 31 December of the [Year], which were initiated on or after 1 January [Year-6],
+but before 31 December [Year-5] based on the “Start Date”, would be published.
+(xiii) Row 4 of Table 3: Number of post-2015 cases remaining in MAP inventory on
+31 December [Year] falling under the age category “>=6 years old”
+In Column 2 to Row 4 the number of post-2015 cases in your MAP inventory that are pending
+resolution as of 31 December of the [Year] , which were initiated on or before 31 December
+[Year-7] based on the “Start Date”, would be published.
+
+## p063 (beps-a14-peer-review-documents-oecd-en-p063, pages 63-63)
+62 
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+(II) MAP Statistics for purposes of average time taken for key stages of the MAP process for post-2015 cases closed during the
+reporting period
+Table 1: Attribution / Allocation MAP Cases
+Treaty Partner
+average time taken (in months) for post-2015 cases from:
+“Start” to “End”  Receipt of taxpayer’s MAP
+request to “Start”  “Start” to Milestone 1 Milestone 1 to “End”
+Column 1 Column 2 Column 3 Column 4 Column 5
+Row 1 Treaty Partner 1
+Treaty Partner 2
+…
+Treaty Partners (de minimis rule
+applies)
+Row 2 Treaty Partners (Others)
+Row 3 Total Average Time
+Note: A reporting jurisdiction can include in this notes section any information which in its view would be useful in providing clarification or understanding on any of the statistics reported above.
+Annex to Table 1:  Attribution / Allocation MAP Cases3
+Stage during which the MAP case was resolved Average time taken (in months) for post-2015 cases from "Start" to "End"
+Column 1 Column 2
+Row 1 Cases closed in the Unilateral stage
+Row 2 Cases closed in the Bilateral stage
+Notes
+A reporting jurisdiction can include in this notes section any information which in its  view would be useful in providing clarification or understanding on any of the
+statistics reported above.
+Note: A reporting jurisdiction can include in this notes section any information which in its view would be useful in providing clarification or understanding on any of the statistics reported above.
+3 Please note that this data has not been matched with the concerned treaty partners. In addition, please note that delays in individual MAP cases may be owing to several reasons,
+many of them being out of the concerned competent authority’s control, and thus, the time taken in the unilateral and bilateral stages should not be seen in isolation of the overall
+average time and inventory management.

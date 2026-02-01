@@ -1,0 +1,130 @@
+---
+id: "beps-a14-peer-review-documents-oecd-en-pack-17"
+section_id: "beps-a14-peer-review-documents-oecd-en"
+section_title: "BEPS Action 14: peer review documents (Terms of Reference / Assessment Methodology) (OECD PDF)"
+page_start: 50
+page_end: 51
+pid_start: "p050"
+pid_end: "p051"
+para_count: 2
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "http://www.oecd.org/tax/beps/beps-action-14-on-more-effective-dispute-resolution-peer-review-documents.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-a14-peer-review-documents-oecd-en-pack-17.txt"
+---
+
+## p050 (beps-a14-peer-review-documents-oecd-en-p050, pages 50-50)
+ 49
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+MAP process
+5. Article 25 of the OECD Model Tax Convention  (OECD, 2019[2]) provides for a MAP mechanism,
+independent from the legal remedies available under domestic la w, through which the competent
+authorities of the Contracting States to a tax treaty (“ Contracting States ”) may resolve differences or
+difficulties regarding the interpretation or application of the tax treaty on a mutually-agreed basis. The MAP
+mechanism is of fundamental importance to the proper application and interpretation of tax treaties, notably
+to ensure that taxpayers entitled to the benefits of the tax treaty are not subject to taxation by either of the
+Contracting States which is not in accordance with the provisions of the tax treaty. In this regard, paragraph
+1 of Article 25 of the OECD Model Tax Convention  (OECD, 2019 [2]) provides that where a taxpayer
+considers that the actions of one or both Contracting States result or will result for that taxpayer in taxation
+not in accordance with the provisions of the treaty, the taxpayer may, irrespective of the remedies provided
+by the domestic law of those States, make a request to the competent authority of either Contracting State.
+6. Prior to the adoption of the Action 14 minimum standard, Article 25(1) stipulated that a taxpayer
+could submit a MAP request to the competent authority of the Contracting State of which he is a resident
+or, if the case comes under the pr ovisions relating to the Non -Discrimination Article 2, to that of the
+Contracting State of which the taxpayer is a national. With the 2017 update of the OECD Model Tax
+Convention (OECD, 2019 [2]), Article 25(1) has been amended to allow taxpayers to submit their MAP
+request to the competent authority of either Contracting State, such to ensure that both competent
+authorities are aware of the MAP request being submitted and are able to give their views on whether the
+request is accepted or rejected and on whether the taxpayer’s objection is considered to be justified. The
+Commentary on Article 25 further explains that the taxpayer may present its case to the competent
+authority of either Contracting State and the taxpayer i s not precluded from presenting its case to the
+competent authority of both Contracting States at the same time. Where the taxpayer submits the MAP
+request to both competent authorities at the same time, he should appropriately inform both competent
+authorities, in order to facilitate a co-ordinated approach to the case.3
+7. The Action 14 minimum standard allows jurisdictions the option to include in their tax treaties either
+Article 25(1) of the OECD Model Tax Convention  (OECD, 2019[2]) as amended with the 2017 update, or
+as it previously read in the 2014 version. Where the treaty in place between the Contracting States contains
+Article 25(1) as it read in its 2014 version – thus allowing taxpayers to submit a MAP request  to the
+competent authority of the Contracting State in which he is a resident (or, if the case comes under the
+provisions relating to the Non-discrimination Article, to that of the Contracting State of which the taxpayer
+is a national) – jurisdictions are under the Action 14 minimum standard required to implement a bilateral
+consultation or notification process to be applied when its competent authority does not consider the
+taxpayer’s objection to be justified and which allows the other competent authorit y to provide its views on
+the case (such consultation shall not be interpreted as consultation as to how to resolve the case).
+8. To be admissible, a case presented under paragraph 1 of Article 25 must be presented within the
+timeframe stipulated in the tax treaty from the first notification of the action which gives rise to taxation not
+in accordance with the tax treaty. Once a case that meets the requirements of paragraph 1 of Article 25
+has been accepted, the competent authority to which the case was presented must determine whether the
+taxpayer’s objection appears to be justified. If that is the case, that competent authority may be able to
+resolve the case unilaterally, e.g. where the taxation contrary to the provisions of the tax treaty is due in
+whole or in part to a measure taken in the Contracting State to which the taxpayer has presented its MAP
+case. A MAP case that has been accepted will only move to the second, bilateral stage of the MAP process
+where it meets two requirements provided by paragraph 2 of Article 25: (i) the taxpayer’s objection appear
+to be justified to the competent authority to which it has been presented and (ii) that competent authority
+is not itself able to arrive at a satisfactory unilateral solution. Paragraph 2 of Article 25 n o doubt entails a
+duty to negotiate; but as far as reaching mutual agreement through the procedure is concerned, the
+competent authorities are under a duty merely to use their best endeavours and not to achieve a result. 4
+
+## p051 (beps-a14-peer-review-documents-oecd-en-p051, pages 51-51)
+50 
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+9. The MAP process to the extent it i s relevant for MAP Statistics reporting purposes, in particular
+the relevant milestones along with their Commentary, is set out below.
+Figure 1. Steps of the MAP process for the reporting of MAP Statistics
+Source: OECD
+10. Element C.2 of the Terms of Reference requires that jurisdictions seek to resolve MAP cases
+within an average time frame of 24 months. Given the collaborative approach to be taken by competent
+authorities to achieve the common objective to resolve MAP case s in a timely manner, this timeframe
+applies to both jurisdictions (i.e. the jurisdiction that receives the MAP request from the taxpayer and its
+treaty partner). To compute the average time taken to resolve MAP cases, the “start” date and “end” date
+for each MAP case should be determined as below. Competent authorities should communicate effectively
+with each other to ensure that they have common data points for the purposes of MAP Statistics reporting.
+The data points for each MAP request include (i) the “start” date; (ii) the date of Milestone 1 (if applicable);
+(iii) the “end” date; and (iv) the number of MAP cases involved in a MAP request. 5
+(i) Starting of MAP case (“start” date)
+11. Given the collaborative approach to be taken by competent authorities to  achieve the common
+objective to resolve MAP cases in a timely manner, it is important that both competent authorities are well
+aware of the MAP request. In this regard, the competent authority that receives the MAP request from the
+taxpayer should notify the other competent authority of the request within a target time frame of four weeks
+from the receipt of the taxpayer’s MAP request. Such notification should include at least the following: (a)
+identification of the taxpayer(s) concerned (e.g. name and ad dress, tax identification number(s) or birth
+date (where appropriate)); (b) tax years covered; (c) brief issue(s) (e.g. the article(s) concerned and
+whether the MAP case is an attribution/allocation case); and (d) the date of receipt of the taxpayer’s MAP
+request and the taxpayer’s covering letter (where appropriate). This notification should also include the
+contact details (e.g. contact number and email) of the official(s) handling the MAP request to facilitate
+efficient communication between the competen t authorities on the MAP case concerned. The competent
+authority that receives the notification is given the opportunity, if it so wishes, to confirm receipt of the
+notification and any such confirmation should be made within one week of the date of the notification. The
+notification and any confirmation of receipt should as much as possible be made by electronic means to
+accelerate the communication process.
+C.2. of TOR: target
+average time of 24
+months
+D.2. of TOR:
+implemented
+on a timely
+basis
+Date of
+receipt of
+taxpayer’s
+MAP
+request
+Starting of
+MAP case
+“start” date
+Milestone 1
+(if applicable)
+Date of position
+paper
+Closing of
+MAP case
+“end” date
+Preventing
+Disputes
+Availability and / or Access
+to MAP
+Resolution of MAP
+Cases
+Implementation of
+MAP Agreements

@@ -1,0 +1,65 @@
+---
+id: "beps-a14-peer-review-documents-oecd-en-pack-08"
+section_id: "beps-a14-peer-review-documents-oecd-en"
+section_title: "BEPS Action 14: peer review documents (Terms of Reference / Assessment Methodology) (OECD PDF)"
+page_start: 22
+page_end: 22
+pid_start: "p022"
+pid_end: "p022"
+para_count: 1
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "http://www.oecd.org/tax/beps/beps-action-14-on-more-effective-dispute-resolution-peer-review-documents.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-a14-peer-review-documents-oecd-en-pack-08.txt"
+---
+
+## p022 (beps-a14-peer-review-documents-oecd-en-p022, pages 22-22)
+ 21
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+their experience on the MAP process. Therefore taxpayers (e.g . individuals and corporations) and
+associations of taxpayers (e.g. business and industry associations) from all assessed jurisdictions will be
+invited to provide input focused on aspects of the minimum standard where taxpayers are in the best
+position to m ake contributions. The questionnaire to be used for that purpose will therefore centre on
+questions relating to access to MAP, clarity and availability of MAP guidance and the timely implementation
+of MAP agreements. The questionnaire will not request tech nical issues relating to specific cases and
+responses should not contain any information to which an assessed jurisdiction could not respond for
+reasons of taxpayer confidentiality. For the inputs to be considered by the assessed jurisdiction,
+respondents shall only submit their inputs based on the questions in the standard questionnaire and
+respondents will need to identify themselves in their response.
+18. The questionnaire itself will be available on the OECD website and written responses to  the
+questionnaire should be submitted to the OECD Secretariat. Written responses should be submitted no
+later than 4 weeks of a request for inputs being published on the OECD website.  The responses should
+be provided in English or French and in electronic format. The Secretariat will share the responses received
+from taxpayers (if any) with the assessed jurisdiction at the commencement of the peer review process of
+the assessed jurisdiction (see paragraph 11 above). The assessed jurisdiction, if it so wishes, could provide
+comments on any such responses and submit these comments to the Secretariat within a maximum of
+4 weeks. Thereafter, the Secretariat will share any responses received from taxpayers and any comments
+by the assessed jurisdiction with the members of the FTA MAP Forum.
+B. Drafting and approval of Stage 1 Peer Review report
+19. This section of the note describes the procedure starting from the drafting of the Stage 1 Peer
+Review report of an assessed jurisdiction to the approval of that report.
+Draft Stage 1 Peer Review report of an assessed jurisdiction
+20. Using the information provided by the assessed jurisdiction in the questionnaire, inputs from the
+peer questionnaires, responses from the assessed jurisdiction to peer and taxpayer inputs, the information
+in the assessed jurisdiction MAP profile which is published on a shared public platform and the statistics
+reported by the assessed jurisdiction pursuant to the agreed reporting framework, the Secretariat will
+prepare a draft Stage 1 Peer review report of th e assessed jurisdiction. The draft report will include
+information on the legal and administrative framework for the MAP regime of the assessed jurisdiction, the
+practical application of the framework, inputs from the peer questionnaires and the assessed jurisdiction’s
+response to all relevant inputs received on its review . It shall note all efforts made by the assessed
+jurisdiction to implement the minimum standard including the plans shared by the assessed jurisdiction to
+make legislative or procedural changes to implement the minimum standard taking into consideration that
+the assessed jurisdiction might not have fully implemented elements of the minimum standard given the
+time from its adoption to the time of its review. To assist the assessed jurisdiction in fully implementing the
+minimum standard, the draft report will thus identify and describe any shortcomings that exist in relation to
+the implementation of the minimum standard and provide recommendations as to how these shortcomings
+might be addressed. An outline of a draft Stage 1 Peer Review report is attached in Annex 2.D.
+21. The draft Stage 1 Peer Review report will be sent to the assessed jurisdiction and its peers that
+have raised issues on the assessed jurisdiction’s compliance with the minimum standard within 4 weeks
+of receipt of responses to the questionnaire and peer questionnaires. The  assessed jurisdiction should
+provide any written comments on the draft report within 6 weeks of receipt , i ncluding confirmation of
+whether it agrees with the outcomes of the review. The peer should inform the Secretariat whether the
+draft report addresses the issues raised by it in the peer questionnaire within 4 weeks of receipt. The
+Secretariat, the assessed  jurisdiction, and its peers shou ld take all reasonable steps to resolve any
+differences or disagreements regarding the draft report.

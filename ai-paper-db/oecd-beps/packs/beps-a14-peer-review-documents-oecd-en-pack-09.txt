@@ -1,0 +1,113 @@
+---
+id: "beps-a14-peer-review-documents-oecd-en-pack-09"
+section_id: "beps-a14-peer-review-documents-oecd-en"
+section_title: "BEPS Action 14: peer review documents (Terms of Reference / Assessment Methodology) (OECD PDF)"
+page_start: 23
+page_end: 24
+pid_start: "p023"
+pid_end: "p024"
+para_count: 2
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "http://www.oecd.org/tax/beps/beps-action-14-on-more-effective-dispute-resolution-peer-review-documents.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-a14-peer-review-documents-oecd-en-pack-09.txt"
+---
+
+## p023 (beps-a14-peer-review-documents-oecd-en-p023, pages 23-23)
+22 
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+Approval of the Stage 1 Peer Review report of an assessed jurisdiction by the FTA MAP
+Forum
+22. The draft Stage 1 Peer Review reports of all assessed jurisdictions will be circulated to the FTA
+MAP Forum at least 6 weeks prior to the Forum meeting , for approval under the written procedure . For
+each draft report, the Secretariat will inform the Forum as to whether the assessed jurisdiction and its peers
+that have raised issues on the assessed jurisdiction’s compliance with the minimum standard  agree with
+the outcomes of its review. Where a jurisdiction has failed to provide full responses to the questionnaire
+and any supplementary questions by the deadlines set out in the Assessment Methodology, and this has
+resulted in it not being possible to  conduct an effective review within the required time frame, this will be
+highlighted to the Forum.
+23. Members of the FTA MAP Forum should submit to the Secretariat any written comments or
+objections to a draft report within 3 weeks of receipt. Members should explain clearly the basis for their
+comments or objections so that the Secretariat has a proper appreciation of them. Where there are no
+written comments or objections to a draft report, that draft report will be considered to be approved by the
+FTA MAP Forum under written procedure. Where there are written comments or objections to a draft report,
+the draft report will be included on the agenda for the FTA MAP Forum meeting for discussion. At least
+1 week before the meeting, the Secretariat will send to the FTA MAP Forum a list of Stage 1 Peer Review
+reports that were approved by the FTA MAP Forum via written procedure, a compilation of the objections
+and written comments received and the Secretariat’s proposed response , and the amended draft reports
+incorporating the proposed changes for discussion at the FTA MAP Forum.
+24. At the FTA MAP Forum meeting, the Secretariat will present the key issues relating to each draft
+report on the agenda, including objections and comments received from members of the Forum,  and any
+changes that have been made to the draft report in order to take these into account. The assessed
+jurisdiction will also have the opportunity to raise any comments it has with respect to the outcomes of its
+review, and address any concerns or ques tions raised by other members of the Forum. The Forum will
+then discuss the issues raised with respect to the draft report , agree any changes that should be made
+and approve the revised report. In cases where the differences or disagreement on the draft re port arise
+from technical issues relating to the implementation of the minimum standard, the FTA MAP Forum shall,
+where necessary, request the appropriate Working Party of the CFA to provide its view on the issue under
+dispute for the FTA MAP Forum’s consideration in the discussion of the report.
+25. Following the approval of the Stage 1 Peer Review reports by the FTA MAP Forum, the Secretariat
+shall invite the FTA MAP Forum to approve the FTA MAP Forum Report  comprising three sections a s
+follows, for publication:
+ Section I which sets out the purpose and background to the monitoring and peer review process;
+ Section II which provides an executive summary on the main conclusions based on the Stage 1
+Peer Review reports on assessed jurisdictions as approved; and
+ Section III which contains the individual Stage 1 Peer Review reports on the assessed jurisdictions
+as approved.
+Any comments on the FTA MAP Forum Report should be limited to Section I and II of the report given that
+the individual reports in Section III were already approved by the FTA MAP Forum.
+C. Adoption of FTA MAP Forum Report on Stage 1 Peer Review reports by the CFA
+for publication
+26. Following the approval of the FTA MAP Forum Report by the FTA MAP Forum, it will be sent to
+the CFA7 within 1 week. In the exceptional circumstances that the FTA MAP Forum was unable to approve
+the report on an assessed jurisdiction, or where an effective review of an assessed jurisdiction was not
+
+## p024 (beps-a14-peer-review-documents-oecd-en-p024, pages 24-24)
+ 23
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+possible (for example, where the assessed jurisdiction did not provide fu ll responses to the questionnaire
+and supplementary questions), this will be highlighted to the CFA together with an explanation on why the
+FTA MAP Forum has been unable to approve the report, or why an effective review of an assessed
+jurisdiction was not possible.
+27. The CFA will be invited to adopt the FTA MAP Forum Report for publication via written procedure.
+In the absence of any written objections within 2 weeks, the report is considered to be adopted. If there
+are written objections on the report, the Chair of the CFA shall decide via written procedure if the FTA MAP
+Forum should examine the objection and submit its proposal to the CFA for consideration via written
+procedure or the objection shall be discu ssed at the next meeting of the CFA . Following the adoption of
+the FTA MAP Report by the CFA, it shall be published as soon as possible.
+D. Monitoring of measures taken by assessed jurisdiction to improve the MAP
+regime (Stage 2 Peer Monitoring)
+28. The key objective of the monitoring and peer review of a jurisdiction’s compliance with the
+minimum standard is to help the jurisdiction identify areas where it can improve to achieve an efficient and
+effective MAP process. In this regard, it is important for both the FTA MAP Forum and the assessed
+jurisdiction to follow up on the recommendations in the Stage 1 Peer Review report to address the
+shortcomings identified and to publicly acknowledge progress made by the assessed jurisdiction. This
+section of the note describes the procedure for conducting the Stage 2  Peer Monitoring of an assessed
+jurisdiction.
+Approval of Stage 2 Peer Monitoring report of an assessed jurisdiction
+29. An assessed jurisdiction should within one year of the adoption of its Stage 1 Peer Review report
+by the CFA submit a detailed written report (“Update Report”) to the FTA MAP Forum of (i) the steps it
+has taken or is taking to address any shortcomings identified in its peer review report; and (ii) any plans or
+changes to its legislative or procedural framework relating to the implementation of the minimum standard.
+An assessed jurisdiction could also include in the Update Report any other plans or changes to the
+implementation of its MAP regime since its Stage 1 Peer Review report. The Update Report should be
+provided in English or French and in an electronic format.
+30. Members of the FTA MAP Forum should provide their comments on the Update Report provided
+by the assessed jurisdiction within 4 weeks from the receipt of that report. Comments provided by its peers
+shall be in English or French and in an electronic format and will be made available to the assessed
+jurisdiction and the assessed jurisdiction should address any issues raised by its peers in its response to
+the Secretariat within 4 weeks from receipt of the comments.
+31. Based on the Update Report submitted by the assessed jurisdiction, inputs from the peers, the
+statistics reported by the assessed jurisdiction pursuant to the agreed reporting framework, the Secretariat
+will revise the Stage 1 Peer review report of the assessed jurisdiction with a view to incorporate these
+updates in the Stage 2 Peer Monitoring report of the assessed jurisdiction.8
+32. Where comments were provided by the peers of the assessed jurisdiction, this draft Stage 2 Peer
+Monitoring report will be sent to the assessed jurisdiction and its peers that have raise d issues on the
+assessed jurisdiction’s compliance with the minimum standard within 4 weeks of receipt of the assessed
+jurisdiction’s response to comments from its peers. The assess ed jurisdiction should provide any written
+comments on the draft report within 6 weeks of receipt, including confirmation of whether it agrees with its
+draft Stage 2 Peer Monitoring report. The peer should inform the Secretariat whether the draft Stage 2
+Peer Monitoring report addresses the issues it raised within 4 weeks of receipt. The Secretariat, the
+assessed jurisdiction and its peers shou ld take all reasonable steps to resolve any differences or
+disagreements regarding the draft Stage 2 Peer Monitoring report.

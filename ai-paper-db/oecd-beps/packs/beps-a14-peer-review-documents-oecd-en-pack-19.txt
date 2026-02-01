@@ -1,0 +1,175 @@
+---
+id: "beps-a14-peer-review-documents-oecd-en-pack-19"
+section_id: "beps-a14-peer-review-documents-oecd-en"
+section_title: "BEPS Action 14: peer review documents (Terms of Reference / Assessment Methodology) (OECD PDF)"
+page_start: 54
+page_end: 56
+pid_start: "p054"
+pid_end: "p056"
+para_count: 3
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "http://www.oecd.org/tax/beps/beps-action-14-on-more-effective-dispute-resolution-peer-review-documents.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-a14-peer-review-documents-oecd-en-pack-19.txt"
+---
+
+## p054 (beps-a14-peer-review-documents-oecd-en-p054, pages 54-54)
+ 53
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+(i) Break down of the average time taken to resolve post-2015 MAP cases into two
+further groups: MAP cases closed under the unilateral stage and MAP cases closed
+under the bilateral stage
+21. Each jurisdiction should also report the aggregate average time taken to resolve post-2015 MAP
+cases that are closed in a year in two additional groups, for each type of case:
+ Average time taken for cases closed in the unilateral stage in aggregate (i.e. outcomes:  “denied
+MAP access”, “objection is not justified” and “unilateral relief granted”); and
+ Average time taken for cases closed in the bilateral stage in aggregate (i.e. all other outcomes).
+22. The average time taken for cases in these categories would be calculated based on the “Start
+Date” and “End Date” as agreed in this framewor k and matching of this data with the concerned treaty
+partners is not required.
+23. This data should be reported from the 2023 reporting year onwards and would be published as
+described in Annex 3.B. A footnote has been added in this regard to note that this data is not subject to
+matching and to provide clarity on how this data should be interpreted. Annex 3.D contains definitions of
+terms and the rules relevant to this data point as well.
+(ii) Identification of the age of pending post-2015 MAP cases
+24. Each jurisdiction should also report the age of post-2015 MAP cases that are remaining in its MAP
+inventory on 31 December of each year on an aggregate basis. This would be done by identifying the
+aggregate number of such MAP cases that were initiated in different ranges of years, calculated based on
+the “Start Date” as agreed in this framework and matching of this data with the concerned treaty partners
+is not required.
+This data should be reported from the 2023 reporting year onwards and would be published as de scribed
+in Annex 3.B. A footnote has been added in this regard to note that this data is not subject to matching
+and to provide clarity on how this data should be interpreted. Annex 3.D. contains definitions of terms and
+the rules relevant to this data point as well.
+
+## p055 (beps-a14-peer-review-documents-oecd-en-p055, pages 55-55)
+54 
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+References
+OECD (2019), Model Tax Convention on Income and on Capital 2017 (Full Version), OECD
+Publishing, Paris, https://doi.org/10.1787/g2g972ee-en.
+[2]
+OECD (2015), Making Dispute Resolution Mechanisms More Effective, Action 14 - 2015 Final
+Report, OECD/G20 Base Erosion and Profit Shifting Project, OECD Publishing, Paris,
+https://doi.org/10.1787/9789264241633-en.
+[1]
+Notes
+1 See element C.2 of the Terms of Reference to monitor and review the implementation of the BEPS Action 14
+minimum standard to make dispute resolution mechanisms more effective (“Terms of Reference”).
+2 See paragraph 1 of Article 24 of the OECD Model Tax Convention.
+3 See paragraph 17 of the Commentary on Article 25.
+4 See paragraph 37 of the Commentary on Article 25.
+5 This MAP Statistics Reporting Framework  defines “start date” and “end date” for purposes of computing the time
+taken to resolve a MAP case. These stat istical purposes should be distinguished from the purposes of timeframes in
+arbitration provisions; the time frames relevant in that latter context must be determined based on the provisions of
+the relevant arbitration clause and/or relevant competent authority agreements on the application of such clause.
+6 For MAP requests received by a competent authority on or after 1 January 2016 but prior to 1 July 2016, the “start”
+date shall be 5 weeks from the receipt of the taxpayer’s MAP request.
+7 It is anticipated that, in transfer pricing cases, the competent authority of the jurisdiction raising the adjustment will
+prepare the first position paper.
+8 See element 1.5 of the minimum standard in the 2015 Action 14 Report.
+9 See paragraph 11 of the Terms of Reference.
+
+## p056 (beps-a14-peer-review-documents-oecd-en-p056, pages 56-56)
+ 55
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+Annex 3.A. MAP Statistics reporting for the [YEAR] reporting period (1
+January [YEAR] to 31 December [YEAR]) by [Name of Jurisdiction] for pre-
+2016 cases closed in the [YEAR] reporting period
+Annex A should be submitted to the Secretariat (email: fta.map@oecd.org) by 31 May of the calendar year following the year of the reporting period for subsequent publication on the
+OECD website so long as there are pre-2016 cases in the jurisdiction’s MAP inventory on 1 January of the reporting year.
+For countries that are currently reporting MAP statistics for publication on the OECD website (see: http://www.oecd.org/ctp/dispute/), with effect from the 2016 reporting period (1 January
+2016 to 31 December 2016) they are only required to report MAP statistics for publication based on Annex A of this note.
+Jurisdictions should report their MAP statistics for pre-2016 cases based on the definition of terms and rules for counting MAP cases as contained in Annex C.
+category of
+cases
+no. of pre-
+2016 cases
+in MAP
+inventory
+on 1
+January
+[YEAR]
+number of pre-2016 cases closed during the reporting period by outcome:
+no. of pre-
+2016 cases
+remaining
+in MAP
+inventory
+on 31
+December
+[YEAR]
+average time
+taken (in
+months) for
+closing pre-
+2016 cases
+during the
+reporting
+period
+denied
+MAP
+access
+objection
+is not
+justified
+withdraw
+n by
+taxpayer
+unilateral
+relief
+granted
+resolved
+via
+domestic
+remedy
+agreement
+fully
+eliminating
+double
+taxation /
+fully
+resolving
+taxation not
+in
+accordance
+with tax
+treaty
+agreement
+partially
+eliminating
+double
+taxation  /
+partially
+resolving
+taxation not
+in
+accordance
+with tax
+treaty
+agreemen
+t that
+there is
+no
+taxation
+not in
+accordan
+ce with
+tax treaty
+no
+agreemen
+t
+including
+agreemen
+t to
+disagree
+any other
+outcome
+Column 1 Column 2 Column 3 Column 4 Column 5 Column 6 Column 7 Column 8 Column 9 Column 10 Column 11 Column 12 Column 13 Column 14
+Row 1 Attribution /
+Allocation
+Row 2 Others
+Row 3 Total
+Note:
+A reporting jurisdiction can include in this notes section any information which in its view would be useful in providing clarification or understanding on any of the statistics reported above.

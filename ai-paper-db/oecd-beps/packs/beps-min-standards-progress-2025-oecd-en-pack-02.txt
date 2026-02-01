@@ -1,0 +1,107 @@
+---
+id: "beps-min-standards-progress-2025-oecd-en-pack-02"
+section_id: "beps-min-standards-progress-2025-oecd-en"
+section_title: "Note on burden reduction in the BEPS minimum standards (2025) (OECD PDF)"
+page_start: 9
+page_end: 10
+pid_start: "p009"
+pid_end: "p010"
+para_count: 2
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "https://www.oecd.org/content/dam/oecd/en/topics/policy-issues/beps/note-on-burden-reduction-in-the-beps-minimum-standards.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-min-standards-progress-2025-oecd-en-pack-02.txt"
+---
+
+## p009 (beps-min-standards-progress-2025-oecd-en-p009, pages 9-9)
+8 
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025
+Way forward to maintain progress, while reducing burdens
+In light of the maturity of the BEPS Action 5 implementation, the Inclusive Framework discussed in 2024 a
+renewed fo cus that prioritises burden reduction of the FHTP’s processes , particularly for developing
+countries, and aims to support tax administrations by enabling a more efficient use of resources within both
+jurisdictions and the FHTP Secretariat.
+Building on thes e discussions, t he Inclusive Framework approved at its Plenary meeting in April 2025 a
+revised methodology designed to reduce the burden and frequency of peer review processes while
+preserving the advancements  made in countering harmful tax competition . The FHTP will now apply a
+methodology for regime reviews that introduces an upfront economic impact assessment on the expected
+BEPS risks, prior to the legislative review. As a result, preferential regimes that are unlikely to create BEPS
+risks will no longer undergo a legislative review by the FHTP, unless explicitly requested by jurisdictions in
+light of the impact assessment.
+This procedural change streamlines the FHTP's work and enhances its focus on regimes that are
+significant for maintaining the integrity of the BEPS Action 5 minimum standard and ensuring a level playing
+field, without requiring jurisdictions to make legislative changes where such changes are not necessary to
+address BEPS risks.
+In addition, the Inclusive Framework agreed on a reduced frequency of the FHTP’s monitoring
+workstreams. The monitoring exercises for substantial activities in non-IP regimes and no or only nominal
+tax jurisdictions as well as the peer review of the transparency framework will now take place once every
+three years, instead of annually.
+The full revised methodology for the work of the FHTP is set out in the Annex to this document.
+BEPS Action 6 – Prevention of Tax Treaty Abuse
+Progress in implementation of the minimum standard
+The minimum standard on treaty shopping included in the BEPS Final Report on Action 6 (OECD, 2015[5])
+requires Inclusive Framework jurisdictions to include in their tax treaties an express language (generally in
+the preamble) stating parties’ common intention to eliminate double taxation without enabling non-taxation
+or reduced taxation through tax evasio n or avoidance (including through treaty shopping arrangements) ,
+along with specific anti-abuse provisions implementing this common intention. Jurisdictions only need to
+satisfy th ese requirements , if requested to do so by another jurisdiction member of th e Inclusive
+Framework.
+Since its launch in 2018, the BEPS Action 6  peer review process has revealed significant and steady
+progress in Inclusive Framework members’ implementation of the BEPS Action 6 minimum standard. The
+number of bilateral agreements concluded between members of the Inclusive Framework has increased
+from only 13 agreements in 2018 to more than 1,600 today. Based on the latest comprehensive report,
+more than 90% of the agreements concluded between Inclusive Framework members are either compliant
+with the minimum standard or are on track to becoming compliant. This increase is due mostly to the entry
+into effect of the provisions of the BEPS Multilateral Instrument (BEPS MLI). To date, the BEPS MLI covers
+105 jurisdictions (including 102 Inclusive Framework members) and around 2,000 bilateral tax treaties in
+total.
+As the implementation has reached a mature stage, the focus of BEPS Action 6 has shifted toward
+providing targeted technical assistance to support jurisdictions, where needed, with the implementation of
+the minimum standard. In parallel, assistance has been offered to encourage jurisdictions using the BEPS
+MLI to complete the necessary steps to bring its provisions into effect.
+
+## p010 (beps-min-standards-progress-2025-oecd-en-p010, pages 10-10)
+ 9
+RECOGNISING PROGRESS AND REDUCING BURDENS IN THE BEPS MINIMUM STANDARDS © OECD 2025
+Way forward to maintain progress, while reducing burdens
+In light of the recent changes to the peer review methodology for Action 6  agreed in 2024, the Inclusive
+Framework agreed at its Plenary meeting in April 2025 that no further process improvements are required
+at this stage.
+Therefore, given the advanced state of implementation, BEPS Action 6 now focusses on providing targeted
+technical assistance to all Inclusive Framework members to support the implementation of the minimum
+standard. Following the 2023 comprehensive peer review, the frequency of these reviews is now reduced
+to once every five years, with the next review schedul ed for 2 028, thereby easing  the associated
+administrative burdens. Inclusive Framework members can request bespoke technical assistance at any
+time, in particular in relation to the signature or ratification of the BEPS MLI, as well as for questions on
+interpretation, implementation, or practical challenges encountered. The Inclusive Framework Secretariat
+also proactively engages with jurisdictions to support effective implementation.
+BEPS Action 13 – Country-by-Country Reporting
+Progress in implementation of the minimum standard
+The minimum standard on Country-by-Country (CbC) reporting included in the BEPS Final Report on
+Action 13 (OECD, 2015[6]) requires MNE groups with consolidated group revenue exceeding EUR 750
+million to file an annual  CbC report with the tax administration of the jurisdiction where the MNE group is
+headquartered. This report is automatically exchanged under existing international agreements with those
+jurisdictions where the MNE group has resident entities or permanent establishments, provided they have
+implemented the necessary framework for CbC reporting.
+CbC reporting offers tax administrations unprecedented insights into the global activities of MNE groups
+operating within their jurisdiction providing key information such as profit before tax, income tax paid and
+accrued, and the number of employees. Presented in a standardised format, this information improves
+their understanding of the group’s business and supports the high-level assessment of transfer pricing and
+other BEPS-related risks.
+Since the launch of the peer review process  in 2017, implementation of the  BEPS Action 13 minimum
+standard has reached a mature stage, with most Inclusive Framework members successfully ensuring that
+CbC reports are filed and exchanged in line with the minimum standard.
+Reflecting this maturity , the methodology was revised in 2020 to reduce the burden on jurisdictions with
+stable frameworks by introducing a simplified peer review. In the current peer review (2024 -2025), this
+applies to over half of all members. For the remaining members , the annual review remains valuable for
+receiving feedback, addressing recommendations, and promptly identifying issues like delayed exchanges
+or data quality concerns.
+To date, 120 Inclusive Framework members have introduced a CbC reporting filing obligation  for ultimate
+parent entities of MNE groups resident in their jurisdiction, covering virtually all MNE groups that meet the
+filing threshold. Over 4,100 bilateral relationships have been established to facilitate the exchange of CbC
+reports among almost 100 Inclusive Framework members. In total, 81 members are in a position to receive
+CbC reports on fo reign-headed MNE groups, while others have made substantial progress in achieving
+this position. Significant progress has been achieved in supporting the 75 developing countries in the
+Inclusive Framework to gain access to CbC reports . However, continued e fforts are necessary to close
+remaining gaps and ensure that all developing countries can fully benefit from BEPS Action 13.

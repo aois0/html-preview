@@ -1,0 +1,65 @@
+---
+id: "beps-a14-peer-review-documents-oecd-en-pack-11"
+section_id: "beps-a14-peer-review-documents-oecd-en"
+section_title: "BEPS Action 14: peer review documents (Terms of Reference / Assessment Methodology) (OECD PDF)"
+page_start: 27
+page_end: 27
+pid_start: "p027"
+pid_end: "p027"
+para_count: 1
+publisher: "OECD"
+lang: "en"
+license: "OECD (see source PDF)"
+source_url: "http://www.oecd.org/tax/beps/beps-action-14-on-more-effective-dispute-resolution-peer-review-documents.pdf"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/oecd-beps/packs/beps-a14-peer-review-documents-oecd-en-pack-11.txt"
+---
+
+## p027 (beps-a14-peer-review-documents-oecd-en-p027, pages 27-27)
+26 
+BEPS ACTION 14 ON MORE EFFECTIVE DISPUTE RESOLUTION MECHANISMS – PEER REVIEW DOCUMENTS © OECD 2023
+under Section II (and referred to in Section II(A)(ii)) would be used for the purpose of determining whether
+the second condition has been met.
+46. A call for input would be released in January 2023 providing a window of time within which peers
+may provide input in electronic form on jurisdictions that do not meet the first condition for “meaningful
+MAP experience”, measured on the basis of the 2019 -2021 MAP Statistics. Based on input rec eived, the
+FTA MAP Forum would decide whether a jurisdiction would qualify for the simplified peer review process
+or the full peer review process and consequently, whether it should be included in the first full peer review
+cycle starting in 2024 as descri bed under Section III(B) below. Similarly, for jurisdictions that join the
+Inclusive Framework in 2023 and onwards that do not meet the first condition, a call for input would be
+released following each jurisdiction’s date of joining providing a window of time within which peers may
+provide input in electronic form. Based on input received, the FTA MAP Forum would decide whether a
+new Inclusive Framework member jurisdiction would qualify for the simplified peer review process or the
+full peer review process and decide the appropriate way to accommodate them in the existing peer review
+process.
+47. Peers would also be allowed to provide input in electronic form on the jurisdictions initially included
+in the simplified peer review process at any later point of time, to allow the MAP Forum to consider whether
+these jurisdictions should be moved to the full peer review process. If peers provide input with respect to
+a jurisdiction or where a jurisdiction meets the first condition based on MAP cases at a later stage, the FTA
+MAP Forum would decide the appropriate way to move such jurisdiction from the simplified peer review
+process to the full peer review process.
+48. Jurisdictions that have not filed MAP Statistics for any or all of the years concerning condition (a)
+above would still be eligible for the simplified peer review process so long as no peer input is received with
+respect to their policy or practice concerning MAP as under condition (b) and under the condition that peers
+do not report having ten or more MAP cases with these jurisdictions. However, it would not be possible to
+determine whether jurisdictions that do not file MAP Statistics met the first condition for “meaningful MAP
+experience” and the filing of MAP Statistics is required under the Action 14 minimum standard. Therefore,
+jurisdictions that have not filed MAP Statistics for the last reporting year being considered for stage 2 of
+their simplified peer review process or fail to do so for any future year would be subject to the full peer
+review proces s in the following full peer review cycle as described under Section III(B), where their
+compliance with the Action 14 minimum standard in general may be reviewed more closely by the FTA
+MAP Forum.
+49. The procedures to be followed in the simplified peer revie w process and the full peer review
+process are described in detail below. A flowchart summary showing the collection of peer input for the
+simplified peer review process is attached in Annex 2.E. In addition, a flowchart summary of the simplified
+peer review process and the full peer review process for the Continued Monitoring Process  are attached
+in Annex 2.F. and Annex 2.G. respectively and the model assessment schedule s for conducting these
+reviews are attached in Annex 2.H. and Annex 2.I. respectively.
+A. Simplified peer review process
+50. The simplified peer review process would be limited to a consideration of a jurisdiction’s tax treaty
+network, MAP profile, MAP guidance, compliance with the MAP Statistics Reporting Framework and,
+where applicable, practical application of the minimum standard, with the aim of assisting the jurisdictions
+in setting up a more robust MAP programme for future MAP cases. The simplified peer review process
+would commence from 2023 onwards and would follow a simplified forma t.
+51. The simplified peer review process will be conducted and peer review reports will be published in
+two stages (stage 1 and stage 2). Stage 1 involves the review of the assessed jurisdiction’s implementation
+of the minimum standard based on the jurisdiction’s legal framework for MAP and the application of this
