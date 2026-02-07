@@ -266,8 +266,19 @@ def iter_items_from_source(doc: DocConfig, sources_dir: Path) -> list[Item]:
             continue
 
         if is_title_line(line):
-            pending_title = line[1:-1] if line.startswith("(") else line[1:-1]
-            pending_title = clean_ws(pending_title)
+            title_text = clean_ws(line[1:-1])
+            if current_item is None:
+                pending_title = title_text
+                continue
+
+            # Parenthesized lines inside an item can be actual body content
+            # (for example: deletion/revision notes). If we already captured
+            # body lines, treat this as the next item's heading boundary.
+            if current_item.lines:
+                flush_current()
+                pending_title = title_text
+            else:
+                current_item.lines.append(line)
             continue
 
         # Handle split item-ids like:
@@ -296,21 +307,28 @@ def iter_items_from_source(doc: DocConfig, sources_dir: Path) -> list[Item]:
             if not item_id:
                 continue
 
-            flush_current()
-            current_item = Item(
-                doc_code=doc.doc_code,
-                doc_title=doc.title,
-                snapshot=snapshot,
-                source_path=str(src_path),
-                source_page_url=current_page_url,
-                item_id_raw=item_id_raw,
-                item_id=item_id,
-                item_title=pending_title or "",
-                lines=[],
-            )
-            pending_title = None
-            if rest:
-                current_item.lines.append(rest)
+            # In running body text, references like "9−1−7《...》..." are common.
+            # Treat id+text lines as item boundaries only when we are clearly at a
+            # boundary (between items, with a pending title, or id-only format).
+            starts_new_item = current_item is None or pending_title is not None or not rest
+            if starts_new_item:
+                flush_current()
+                current_item = Item(
+                    doc_code=doc.doc_code,
+                    doc_title=doc.title,
+                    snapshot=snapshot,
+                    source_path=str(src_path),
+                    source_page_url=current_page_url,
+                    item_id_raw=item_id_raw,
+                    item_id=item_id,
+                    item_title=pending_title or "",
+                    lines=[],
+                )
+                pending_title = None
+                if rest:
+                    current_item.lines.append(rest)
+            elif current_item is not None:
+                current_item.lines.append(line)
             continue
 
         if current_item is not None:

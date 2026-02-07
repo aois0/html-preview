@@ -4,3 +4,5 @@ snapshot: 2025-06-28
 source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/16.htm#a-01
 url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/36_37_common-21-2.html
 
+[p1] 36・37共−21により営業者が匿名組合員に分配する利益の額は、当該営業者の当該組合事業に係る所得の金額の計算上必要経費に算入する。（平17課個2−39、課資3−11、課審4−220追加）
+[p2] 〔信用取引に係る所得計算〕

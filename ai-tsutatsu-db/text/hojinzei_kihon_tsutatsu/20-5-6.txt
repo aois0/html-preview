@@ -4,3 +4,4 @@ snapshot: 2025-06-28
 source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/20a/20_05_03.htm
 url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/20-5-6.html
 
+[p1] 16-3-19の8《国際海上運輸業における運送原価の計算》は、国内及び国外にわたって船舶による運送の事業を営む外国法人の当該事業年度の恒久的施設帰属所得に係る所得の金額の計算上損金の額に算入される運送の原価の額の計算について準用する。（平26年課法2−9「九」により追加、平27年課法2−26「二」により改正）

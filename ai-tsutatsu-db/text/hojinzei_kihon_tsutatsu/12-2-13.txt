@@ -4,3 +4,5 @@ snapshot: 2025-06-28
 source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/12/12_02.htm
 url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/12-2-13.html
 
+[p1] 12−2−12《修繕等が遅れた場合の災害損失特別勘定の益金算入の特例》により災害損失特別勘定の益金算入時期の延長確認の申請を行う場合の申請書の書式は、付表の書式(これに準ずる書式を含む。)による。(平29年課法2−2「三」により追加、令元年課法2−10「九」、令2年課法8−28「一」、令４年課法2−14｢三十五」、令5年課法2−8「五」により改正)
+[p2] 災害損失特別勘定の益金算入時期の延長確認申請書(PDFファイル/173KB)

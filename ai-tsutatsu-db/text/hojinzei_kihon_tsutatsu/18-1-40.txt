@@ -4,3 +4,4 @@ snapshot: 2025-06-28
 source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/18/18_01_08.htm
 url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/18-1-40.html
 
+[p1] 20−2−1《恒久的施設帰属所得の認識に当たり勘案されるその他の状況》から20−2−4《恒久的施設において使用する資産の範囲》までの取扱いは、令第155条の16第11項第3号《当期純損益金額》の「作成されることとなる個別財務諸表」の財産及び損益を認識する場合について準用する。（令5年課法2−17｢九」により追加）
