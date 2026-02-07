@@ -1,0 +1,28 @@
+{
+  "snapshot": "2026-02-07",
+  "base_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db",
+  "enhanced_base_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced",
+  "doc_code": "bunshokaito_sozoku",
+  "doc_title": "文書回答事例（相続税）",
+  "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/bunshokaito_sozoku/index.html",
+  "item_url_template": "enhanced/{doc_code}/{item_id}.html",
+  "text_url_template": "text/{doc_code}/{item_id}.txt",
+  "anchors": {
+    "paragraph": "#p{paragraph}"
+  },
+  "items": [
+    "011115-01",
+    "040616-02",
+    "050707-01",
+    "070226-index",
+    "100302-index",
+    "100427-index",
+    "101105-index",
+    "110225-index",
+    "110704-index",
+    "111102-index",
+    "160822-index",
+    "750228-01",
+    "991018-01"
+  ]
+}

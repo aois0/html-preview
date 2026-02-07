@@ -1,0 +1,52 @@
+# AI向け NTA QA DB Quickstart
+
+前提: 1回のReadで先頭1万トークン程度しか読めない制約を想定。
+推奨フロー:
+1) `data/shards_index.json` で shard を選ぶ
+2) `data/shards/shard-XXX.txt` で候補を絞る
+3) `text/{doc_code}/{item_id}.txt` で本文確認
+4) 根拠URLが必要なら `enhanced/{doc_code}/{item_id}.html#pX` を使う
+
+主要入口:
+- `llms.txt`
+- `data/docs_index.tsv`
+- `data/resolve_lite/index.json`
+
+収録ドキュメント:
+- bunshokaito_gensen : 文書回答事例（源泉所得税） (25 items)
+- bunshokaito_gensenshotoku : 文書回答事例（源泉所得税） (7 items)
+- bunshokaito_hojin : 文書回答事例（法人税） (188 items)
+- bunshokaito_hyoka : 文書回答事例（財産評価） (4 items)
+- bunshokaito_inshi : 文書回答事例（印紙税） (5 items)
+- bunshokaito_inshi-sonota : 文書回答事例（印紙税・その他） (1 items)
+- bunshokaito_joto-sanrin : 文書回答事例（譲渡所得・山林所得） (40 items)
+- bunshokaito_shohi : 文書回答事例（消費税） (67 items)
+- bunshokaito_shotoku : 文書回答事例（所得税） (157 items)
+- bunshokaito_shozei : 文書回答事例（諸税） (7 items)
+- bunshokaito_sonota : 文書回答事例（その他の国税） (5 items)
+- bunshokaito_souzoku : 文書回答事例（相続税） (10 items)
+- bunshokaito_sozoku : 文書回答事例（相続税） (13 items)
+- bunshokaito_zouyo : 文書回答事例（贈与税） (2 items)
+- bunshokaito_zoyo : 文書回答事例（贈与税） (12 items)
+- shitsugi_gensen : 質疑応答事例（源泉所得税） (153 items)
+- shitsugi_hojin : 質疑応答事例（法人税） (307 items)
+- shitsugi_hotei : 質疑応答事例（法定調書） (1 items)
+- shitsugi_hyoka : 質疑応答事例（財産の評価） (172 items)
+- shitsugi_inshi : 質疑応答事例（印紙税） (243 items)
+- shitsugi_joto : 質疑応答事例（譲渡所得） (255 items)
+- shitsugi_shohi : 質疑応答事例（消費税） (272 items)
+- shitsugi_shotoku : 質疑応答事例（所得税） (261 items)
+- shitsugi_sozoku : 質疑応答事例（相続税・贈与税） (129 items)
+- taxanswer_fufuku : タックスアンサー（不服申立て） (2 items)
+- taxanswer_gensen : タックスアンサー（源泉所得税） (66 items)
+- taxanswer_hojin : タックスアンサー（法人） (106 items)
+- taxanswer_hotei : タックスアンサー（法定調書） (14 items)
+- taxanswer_hyoka : タックスアンサー（財産評価） (29 items)
+- taxanswer_inshi : タックスアンサー（印紙税） (30 items)
+- taxanswer_joto : タックスアンサー（譲渡所得） (71 items)
+- taxanswer_osirase : タックスアンサー（お知らせ） (10 items)
+- taxanswer_saigai : タックスアンサー（災害） (16 items)
+- taxanswer_shohi : タックスアンサー（消費税） (114 items)
+- taxanswer_shotoku : タックスアンサー（所得税） (206 items)
+- taxanswer_sozoku : タックスアンサー（相続税） (52 items)
+- taxanswer_zoyo : タックスアンサー（贈与税） (28 items)

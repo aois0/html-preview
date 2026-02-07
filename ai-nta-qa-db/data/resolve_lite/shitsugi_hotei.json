@@ -1,0 +1,16 @@
+{
+  "snapshot": "2026-02-07",
+  "base_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db",
+  "enhanced_base_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced",
+  "doc_code": "shitsugi_hotei",
+  "doc_title": "質疑応答事例（法定調書）",
+  "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/shitsugi_hotei/index.html",
+  "item_url_template": "enhanced/{doc_code}/{item_id}.html",
+  "text_url_template": "text/{doc_code}/{item_id}.txt",
+  "anchors": {
+    "paragraph": "#p{paragraph}"
+  },
+  "items": [
+    "10-01"
+  ]
+}
