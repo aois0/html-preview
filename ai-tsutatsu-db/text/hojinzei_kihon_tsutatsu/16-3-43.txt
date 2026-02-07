@@ -4,3 +4,4 @@ snapshot: 2025-06-28
 source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/16/16_03_02a.htm
 url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/16-3-43.html
 
+[p1] 20−3−2《工業所有権等の意義》は、法第69条第4項第9号イ《使用料等》に規定する「工業所有権その他の技術に関する権利、特別の技術による生産方式若しくはこれらに準ずるもの」（以下16−3−44において「工業所有権等」という。）の意義について準用する。（平26年課法2−9「四」により追加）

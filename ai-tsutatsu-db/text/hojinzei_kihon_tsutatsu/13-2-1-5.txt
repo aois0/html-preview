@@ -4,3 +4,4 @@ snapshot: 2025-06-28
 source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/13_2/13_2_01.htm
 url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/13-2-1-5.html
 
+[p1] 13の2−1−2により円換算を行う場合において、その取引に関して受け入れた前受金又は支払った前渡金があるときは、当該前受金又は前渡金に係る部分については、13の2−1−2にかかわらず、当該前受金又は前渡金の帳簿価額をもって収益又は費用の額とし、改めてその収益又は費用の計上日における為替相場による円換算を行わないことができるものとする。（平12年課法2−7「十九」により追加）

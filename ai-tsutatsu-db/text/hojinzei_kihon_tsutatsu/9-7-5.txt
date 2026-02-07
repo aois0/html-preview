@@ -4,3 +4,7 @@ snapshot: 2025-06-28
 source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_07_01.htm
 url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-7-5.html
 
+[p1] 9−7−3により未払金の計上を行う場合には、その計上を行う事業年度の確定申告書に未払金の額の計算の基礎及び金品引換券の引換条件等に関する事項を記載した明細書を添付しなければならないものとする。
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第2款 海外渡航費
+[p4] 第2款 海外渡航費

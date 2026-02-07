@@ -4,3 +4,8 @@ snapshot: 2025-06-28
 source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/19.htm
 url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/36_37_common-7-10.html
 
+[p1] 36・37共−7の5から36・37共−7の9までの取扱いは、災害により令第140条((固定資産に準ずる資産の範囲))に規定する繰延資産につき、当該繰延資産の基因となる固定資産について損壊等の被害があった場合について準用する。（平29課個2−13、課資3−3、課審5−5追加）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 法第39条《たな卸資産等の自家消費の場合の総収入金額算入》関係
+[p4] 第3款 収入金額の計算
+[p5] 法第39条《たな卸資産等の自家消費の場合の総収入金額算入》関係

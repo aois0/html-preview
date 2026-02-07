@@ -4,3 +4,4 @@ snapshot: 2025-06-28
 source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/20a/20_02_02.htm
 url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/20-2-8.html
 
+[p1] 2−3−20《その他これに準ずる関係のある者の範囲》は、令第178条第4項第2号及び第10項第2号《特殊関係株主等の範囲》に規定する「その他これに準ずる関係のある者」の範囲について準用する。（昭58年直法2−3「八」により追加、平3年課法2−4「十六」、平12年課法2−7「二十四」、平17年課法2−14「二十一」、平19年課法2−5「十三」、平26年課法2−9「六」により改正）

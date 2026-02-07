@@ -4,3 +4,4 @@ snapshot: 2025-06-28
 source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/17/17_02.htm
 url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/17-2-1-2.html
 
+[p1] 12−2−2から12−2−14まで《災害損失の対象となる固定資産に準ずる繰延資産の範囲等》は、法第72条第4項《仮決算をした場合の中間申告書の記載事項等》の規定を適用する場合の災害損失の額(令第150条の2第4項《仮決算をした場合の中間申告》に規定する損失の額をいう。)の計算について準用する。(平29年課法2−2「四」により追加、平29年課法2−17「二十五」により改正)

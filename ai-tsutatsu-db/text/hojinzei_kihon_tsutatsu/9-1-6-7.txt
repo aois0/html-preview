@@ -4,3 +4,4 @@ snapshot: 2025-06-28
 source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_01_02.htm
 url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-1-6-7.html
 
+[p1] 9−1−6の6により合併法人等が引継ぎを受けた補修用部品在庫調整勘定の金額又は期中補修用部品在庫調整勘定の金額は、当該合併法人等の適格組織再編成の日の属する事業年度の益金の額に算入する。（平14年課法2−1「十九」により追加）
