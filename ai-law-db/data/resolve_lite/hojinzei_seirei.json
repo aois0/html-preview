@@ -12,7 +12,8 @@
   "text_url_template": "text/{law_code}/{article}.txt",
   "anchors": {
     "paragraph": "#p{paragraph}",
-    "item": "#p{paragraph}-i{item_index}"
+    "item": "#p{paragraph}-i{item_index}",
+    "subitem": "#p{paragraph}-i{item_index}-s{subitem_path}"
   },
   "articles": [
     "1",
@@ -64,8 +65,6 @@
     "31",
     "32",
     "33",
-    "34-37",
-    "38-47",
     "48",
     "48-2",
     "48-3",
@@ -146,12 +145,10 @@
     "92",
     "92-2",
     "93",
-    "94-95",
     "96",
     "97",
     "98",
     "99",
-    "100-111",
     "111-2",
     "111-3",
     "111-4",
@@ -241,7 +238,6 @@
     "123-9",
     "123-10",
     "123-11",
-    "124-128",
     "129",
     "130",
     "131",
@@ -401,7 +397,6 @@
     "167",
     "168",
     "169",
-    "170-172",
     "173",
     "173-2",
     "174",
@@ -446,7 +441,13 @@
     "209",
     "210",
     "211",
-    "212"
+    "212",
+    "100:111",
+    "124:128",
+    "170:172",
+    "34:37",
+    "38:47",
+    "94:95"
   ],
   "resolve_meta_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta/hojinzei_seirei.json",
   "resolve_meta_corp_index_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta_corp/hojinzei_seirei/index.json"

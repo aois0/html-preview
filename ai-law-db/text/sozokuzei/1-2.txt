@@ -1,5 +1,5 @@
 law: 相続税法 (sozokuzei)
-law_type:  / law_num:  / egov_id:  / as_of: 
+law_type: act / law_num: 昭和二十五年法律第七十三号 / egov_id: 325AC0000000073 / as_of: 2025-12-27
 article: 1-2 / title: 第一条の二（定義）
 url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/1-2.html
 

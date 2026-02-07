@@ -12,7 +12,8 @@
   "text_url_template": "text/{law_code}/{article}.txt",
   "anchors": {
     "paragraph": "#p{paragraph}",
-    "item": "#p{paragraph}-i{item_index}"
+    "item": "#p{paragraph}-i{item_index}",
+    "subitem": "#p{paragraph}-i{item_index}-s{subitem_path}"
   },
   "articles": [
     "1",
@@ -92,9 +93,9 @@
     "25-4-2",
     "25-5",
     "25-6",
-    "25-7-25-8",
     "25-9",
     "25-10",
+    "25-7:25-8",
     "26",
     "26-2",
     "26-2-2",
@@ -235,7 +236,6 @@
     "39",
     "40",
     "41",
-    "42-51",
     "52",
     "53",
     "54",
@@ -277,7 +277,8 @@
     "67",
     "68",
     "69",
-    "70"
+    "70",
+    "42:51"
   ],
   "resolve_meta_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta/hojinzei_kisoku.json",
   "resolve_meta_corp_index_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta_corp/hojinzei_kisoku/index.json"

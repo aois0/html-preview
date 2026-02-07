@@ -1,5 +1,5 @@
 law: 租税特別措置法施行令 (sozei_tokubetsu_seirei)
-law_type:  / law_num:  / egov_id:  / as_of: 
+law_type: order / law_num: 昭和三十二年政令第四十三号 / egov_id:  / as_of: 2025-12-27
 article: 46-8-6 / title: 第四十六条の八の六（電磁的記録に記録された事項に係る事実に基づく税額等）
 url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/46-8-6.html
 

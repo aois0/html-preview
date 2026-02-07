@@ -12,7 +12,8 @@
   "text_url_template": "text/{law_code}/{article}.txt",
   "anchors": {
     "paragraph": "#p{paragraph}",
-    "item": "#p{paragraph}-i{item_index}"
+    "item": "#p{paragraph}-i{item_index}",
+    "subitem": "#p{paragraph}-i{item_index}-s{subitem_path}"
   },
   "articles": [
     "1",
@@ -130,7 +131,6 @@
     "94",
     "95",
     "95-2",
-    "96-101",
     "102",
     "103",
     "104",
@@ -239,6 +239,7 @@
     "185",
     "186",
     "186-2",
+    "186-3",
     "187",
     "188",
     "189",
@@ -262,6 +263,7 @@
     "203-2",
     "203-3",
     "203-4",
+    "203-4-2",
     "203-5",
     "203-6",
     "203-7",
@@ -307,14 +309,15 @@
     "231",
     "232",
     "233",
-    "234-236",
     "237",
     "238",
     "239",
     "240",
     "241",
     "242",
-    "243"
+    "243",
+    "234:236",
+    "96:101"
   ],
   "resolve_meta_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta/shotokuzei.json"
 }
