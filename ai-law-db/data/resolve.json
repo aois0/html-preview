@@ -5,7 +5,8 @@
   "article_url_template": "enhanced/{law_code}/{article}.html",
   "anchors": {
     "paragraph": "#p{paragraph}",
-    "item": "#p{paragraph}-i{item_index}"
+    "item": "#p{paragraph}-i{item_index}",
+    "subitem": "#p{paragraph}-i{item_index}-s{subitem_path}"
   },
   "law_aliases": {
     "所得税法": "shotokuzei",
@@ -998,12 +999,6 @@
           "cite": "法人税法第91条",
           "cite_id": "hojinzei:91"
         },
-        "92-120": {
-          "title": "第九十二条から第百二十条まで",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei/92-120.html",
-          "cite": "法人税法第92条から第120条まで",
-          "cite_id": "hojinzei:92-120"
-        },
         "121": {
           "title": "第百二十一条（青色申告）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei/121.html",
@@ -1105,12 +1100,6 @@
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei/135.html",
           "cite": "法人税法第135条",
           "cite_id": "hojinzei:135"
-        },
-        "136-137": {
-          "title": "第百三十六条及び第百三十七条",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei/136-137.html",
-          "cite": "法人税法第136条及び第137条",
-          "cite_id": "hojinzei:136-137"
         },
         "138": {
           "title": "第百三十八条（国内源泉所得）",
@@ -1424,12 +1413,6 @@
           "cite": "法人税法第152条",
           "cite_id": "hojinzei:152"
         },
-        "153-157": {
-          "title": "第百五十三条から第百五十七条まで",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei/153-157.html",
-          "cite": "法人税法第153条から第157条まで",
-          "cite_id": "hojinzei:153-157"
-        },
         "158": {
           "title": "第百五十八条（附加税の禁止）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei/158.html",
@@ -1465,6 +1448,24 @@
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei/163.html",
           "cite": "法人税法第163条",
           "cite_id": "hojinzei:163"
+        },
+        "136:137": {
+          "title": "第百三十六条及び第百三十七条",
+          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei/136:137.html",
+          "cite": "法人税法第136:137条",
+          "cite_id": "hojinzei:136:137"
+        },
+        "153:157": {
+          "title": "第百五十三条から第百五十七条まで",
+          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei/153:157.html",
+          "cite": "法人税法第153:157条",
+          "cite_id": "hojinzei:153:157"
+        },
+        "92:120": {
+          "title": "第九十二条から第百二十条まで",
+          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei/92:120.html",
+          "cite": "法人税法第92:120条",
+          "cite_id": "hojinzei:92:120"
         }
       }
     },
@@ -1938,12 +1939,6 @@
           "cite": "法人税法施行規則第25条の6",
           "cite_id": "hojinzei_kisoku:25-6"
         },
-        "25-7-25-8": {
-          "title": "第二十五条の七及び第二十五条の八",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_kisoku/25-7-25-8.html",
-          "cite": "法人税法施行規則第25条の7の25の8",
-          "cite_id": "hojinzei_kisoku:25-7-25-8"
-        },
         "25-9": {
           "title": "第二十五条の九",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_kisoku/25-9.html",
@@ -1955,6 +1950,12 @@
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_kisoku/25-10.html",
           "cite": "法人税法施行規則第25条の10",
           "cite_id": "hojinzei_kisoku:25-10"
+        },
+        "25-7:25-8": {
+          "title": "第二十五条の七及び第二十五条の八",
+          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_kisoku/25-7:25-8.html",
+          "cite": "法人税法施行規則第25条の7:25の8",
+          "cite_id": "hojinzei_kisoku:25-7:25-8"
         },
         "26": {
           "title": "第二十六条（事業関連性の判定）",
@@ -2796,12 +2797,6 @@
           "cite": "法人税法施行規則第41条",
           "cite_id": "hojinzei_kisoku:41"
         },
-        "42-51": {
-          "title": "第四十二条から第五十一条まで",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_kisoku/42-51.html",
-          "cite": "法人税法施行規則第42条から第51条まで",
-          "cite_id": "hojinzei_kisoku:42-51"
-        },
         "52": {
           "title": "第五十二条（青色申告承認申請書の記載事項）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_kisoku/52.html",
@@ -3053,6 +3048,12 @@
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_kisoku/70.html",
           "cite": "法人税法施行規則第70条",
           "cite_id": "hojinzei_kisoku:70"
+        },
+        "42:51": {
+          "title": "第四十二条から第五十一条まで",
+          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_kisoku/42:51.html",
+          "cite": "法人税法施行規則第42:51条",
+          "cite_id": "hojinzei_kisoku:42:51"
         }
       }
     },
@@ -3357,18 +3358,6 @@
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_seirei/33.html",
           "cite": "法人税法施行令第33条",
           "cite_id": "hojinzei_seirei:33"
-        },
-        "34-37": {
-          "title": "第三十四条から第三十七条まで",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_seirei/34-37.html",
-          "cite": "法人税法施行令第34条から第37条まで",
-          "cite_id": "hojinzei_seirei:34-37"
-        },
-        "38-47": {
-          "title": "第三十八条から第四十七条まで",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_seirei/38-47.html",
-          "cite": "法人税法施行令第38条から第47条まで",
-          "cite_id": "hojinzei_seirei:38-47"
         },
         "48": {
           "title": "第四十八条（減価償却資産の償却の方法）",
@@ -3850,12 +3839,6 @@
           "cite": "法人税法施行令第93条",
           "cite_id": "hojinzei_seirei:93"
         },
-        "94-95": {
-          "title": "第九十四条及び第九十五条",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_seirei/94-95.html",
-          "cite": "法人税法施行令第94条及び第95条",
-          "cite_id": "hojinzei_seirei:94-95"
-        },
         "96": {
           "title": "第九十六条（貸倒引当金勘定への繰入限度額）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_seirei/96.html",
@@ -3879,12 +3862,6 @@
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_seirei/99.html",
           "cite": "法人税法施行令第99条",
           "cite_id": "hojinzei_seirei:99"
-        },
-        "100-111": {
-          "title": "第百条から第百十一条まで",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_seirei/100-111.html",
-          "cite": "法人税法施行令第100条から第111条まで",
-          "cite_id": "hojinzei_seirei:100-111"
         },
         "111-2": {
           "title": "第百十一条の二（譲渡制限付株式の範囲等）",
@@ -4419,12 +4396,6 @@
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_seirei/123-11.html",
           "cite": "法人税法施行令第123条の11",
           "cite_id": "hojinzei_seirei:123-11"
-        },
-        "124-128": {
-          "title": "第百二十四条から第百二十八条まで",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_seirei/124-128.html",
-          "cite": "法人税法施行令第124条から第128条まで",
-          "cite_id": "hojinzei_seirei:124-128"
         },
         "129": {
           "title": "第百二十九条（工事の請負）",
@@ -5380,12 +5351,6 @@
           "cite": "法人税法施行令第169条",
           "cite_id": "hojinzei_seirei:169"
         },
-        "170-172": {
-          "title": "第百七十条から第百七十二条まで",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_seirei/170-172.html",
-          "cite": "法人税法施行令第170条から第172条まで",
-          "cite_id": "hojinzei_seirei:170-172"
-        },
         "173": {
           "title": "第百七十三条（事業の主宰者の特殊関係者の範囲）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_seirei/173.html",
@@ -5655,6 +5620,42 @@
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_seirei/212.html",
           "cite": "法人税法施行令第212条",
           "cite_id": "hojinzei_seirei:212"
+        },
+        "100:111": {
+          "title": "第百条から第百十一条まで",
+          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_seirei/100:111.html",
+          "cite": "法人税法施行令第100:111条",
+          "cite_id": "hojinzei_seirei:100:111"
+        },
+        "124:128": {
+          "title": "第百二十四条から第百二十八条まで",
+          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_seirei/124:128.html",
+          "cite": "法人税法施行令第124:128条",
+          "cite_id": "hojinzei_seirei:124:128"
+        },
+        "170:172": {
+          "title": "第百七十条から第百七十二条まで",
+          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_seirei/170:172.html",
+          "cite": "法人税法施行令第170:172条",
+          "cite_id": "hojinzei_seirei:170:172"
+        },
+        "34:37": {
+          "title": "第三十四条から第三十七条まで",
+          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_seirei/34:37.html",
+          "cite": "法人税法施行令第34:37条",
+          "cite_id": "hojinzei_seirei:34:37"
+        },
+        "38:47": {
+          "title": "第三十八条から第四十七条まで",
+          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_seirei/38:47.html",
+          "cite": "法人税法施行令第38:47条",
+          "cite_id": "hojinzei_seirei:38:47"
+        },
+        "94:95": {
+          "title": "第九十四条及び第九十五条",
+          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_seirei/94:95.html",
+          "cite": "法人税法施行令第94:95条",
+          "cite_id": "hojinzei_seirei:94:95"
         }
       }
     },
@@ -9950,12 +9951,6 @@
           "cite": "所得税法第95条の2",
           "cite_id": "shotokuzei:95-2"
         },
-        "96-101": {
-          "title": "第九十六条から第百一条まで",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei/96-101.html",
-          "cite": "所得税法第96条から第101条まで",
-          "cite_id": "shotokuzei:96-101"
-        },
         "102": {
           "title": "第百二条（年の中途で非居住者が居住者となつた場合の税額の計算）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei/102.html",
@@ -10604,6 +10599,12 @@
           "cite": "所得税法第186条の2",
           "cite_id": "shotokuzei:186-2"
         },
+        "186-3": {
+          "title": "第百八十六条の三（源泉控除対象親族に係る控除の適用）",
+          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei/186-3.html",
+          "cite": "所得税法第186条の3",
+          "cite_id": "shotokuzei:186-3"
+        },
         "187": {
           "title": "第百八十七条（障害者控除等の適用を受ける者に係る徴収税額）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei/187.html",
@@ -10741,6 +10742,12 @@
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei/203-4.html",
           "cite": "所得税法第203条の4",
           "cite_id": "shotokuzei:203-4"
+        },
+        "203-4-2": {
+          "title": "第二百三条の四の二（源泉控除対象親族に係る控除の適用）",
+          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei/203-4-2.html",
+          "cite": "所得税法第203条の4の2",
+          "cite_id": "shotokuzei:203-4-2"
         },
         "203-5": {
           "title": "第二百三条の五（公的年金等から控除される社会保険料がある場合等の徴収税額の計算）",
@@ -11012,12 +11019,6 @@
           "cite": "所得税法第233条",
           "cite_id": "shotokuzei:233"
         },
-        "234-236": {
-          "title": "第二百三十四条から第二百三十六条まで",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei/234-236.html",
-          "cite": "所得税法第234条から第236条まで",
-          "cite_id": "shotokuzei:234-236"
-        },
         "237": {
           "title": "第二百三十七条（附加税の禁止）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei/237.html",
@@ -11059,6 +11060,18 @@
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei/243.html",
           "cite": "所得税法第243条",
           "cite_id": "shotokuzei:243"
+        },
+        "234:236": {
+          "title": "第二百三十四条から第二百三十六条まで",
+          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei/234:236.html",
+          "cite": "所得税法第234:236条",
+          "cite_id": "shotokuzei:234:236"
+        },
+        "96:101": {
+          "title": "第九十六条から第百一条まで",
+          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei/96:101.html",
+          "cite": "所得税法第96:101条",
+          "cite_id": "shotokuzei:96:101"
         }
       }
     },
@@ -15722,12 +15735,6 @@
           "cite": "租税特別措置法第15条",
           "cite_id": "sozei_tokubetsu:15"
         },
-        "16-18": {
-          "title": "第十六条から第十八条まで",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu/16-18.html",
-          "cite": "租税特別措置法第16条から第18条まで",
-          "cite_id": "sozei_tokubetsu:16-18"
-        },
         "19": {
           "title": "第十九条（特別償却等に関する複数の規定の不適用）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu/19.html",
@@ -16472,6 +16479,12 @@
           "cite": "租税特別措置法第41条の15の4",
           "cite_id": "sozei_tokubetsu:41-15-4"
         },
+        "41-15-5": {
+          "title": "第四十一条の十五の五（年齢二十三歳未満の扶養親族を有する場合の生命保険料控除の特例）",
+          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu/41-15-5.html",
+          "cite": "租税特別措置法第41条の15の5",
+          "cite_id": "sozei_tokubetsu:41-15-5"
+        },
         "41-16": {
           "title": "第四十一条の十六（同居の老親等に係る扶養控除の特例）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu/41-16.html",
@@ -16610,12 +16623,6 @@
           "cite": "租税特別措置法第42条の6",
           "cite_id": "sozei_tokubetsu:42-6"
         },
-        "42-7-42-8": {
-          "title": "第四十二条の七及び第四十二条の八",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu/42-7-42-8.html",
-          "cite": "租税特別措置法第42条の7の42の8",
-          "cite_id": "sozei_tokubetsu:42-7-42-8"
-        },
         "42-9": {
           "title": "第四十二条の九（沖縄の特定地域において工業用機械等を取得した場合の法人税額の特別控除）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu/42-9.html",
@@ -16693,6 +16700,12 @@
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu/42-14.html",
           "cite": "租税特別措置法第42条の14",
           "cite_id": "sozei_tokubetsu:42-14"
+        },
+        "42-7:42-8": {
+          "title": "第四十二条の七及び第四十二条の八",
+          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu/42-7:42-8.html",
+          "cite": "租税特別措置法第42条の7:42の8",
+          "cite_id": "sozei_tokubetsu:42-7:42-8"
         },
         "43": {
           "title": "第四十三条（特定船舶の特別償却）",
@@ -16772,12 +16785,6 @@
           "cite": "租税特別措置法第48条",
           "cite_id": "sozei_tokubetsu:48"
         },
-        "49-52": {
-          "title": "第四十九条から第五十二条まで",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu/49-52.html",
-          "cite": "租税特別措置法第49条から第52条まで",
-          "cite_id": "sozei_tokubetsu:49-52"
-        },
         "52-2": {
           "title": "第五十二条の二（特別償却不足額がある場合の償却限度額の計算の特例）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu/52-2.html",
@@ -16855,12 +16862,6 @@
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu/57-9.html",
           "cite": "租税特別措置法第57条の9",
           "cite_id": "sozei_tokubetsu:57-9"
-        },
-        "57-57-3": {
-          "title": "第五十七条から第五十七条の三まで",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu/57-57-3.html",
-          "cite": "租税特別措置法第57条の57の3",
-          "cite_id": "sozei_tokubetsu:57-57-3"
         },
         "58": {
           "title": "第五十八条（探鉱準備金又は海外探鉱準備金）",
@@ -17222,12 +17223,6 @@
           "cite": "租税特別措置法第67条の8",
           "cite_id": "sozei_tokubetsu:67-8"
         },
-        "67-9-67-11": {
-          "title": "第六十七条の九から第六十七条の十一まで",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu/67-9-67-11.html",
-          "cite": "租税特別措置法第67条の9の67の11",
-          "cite_id": "sozei_tokubetsu:67-9-67-11"
-        },
         "67-12": {
           "title": "第六十七条の十二（組合事業等による損失がある場合の課税の特例）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu/67-12.html",
@@ -17275,6 +17270,12 @@
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu/67-18.html",
           "cite": "租税特別措置法第67条の18",
           "cite_id": "sozei_tokubetsu:67-18"
+        },
+        "67-9:67-11": {
+          "title": "第六十七条の九から第六十七条の十一まで",
+          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu/67-9:67-11.html",
+          "cite": "租税特別措置法第67条の9:67の11",
+          "cite_id": "sozei_tokubetsu:67-9:67-11"
         },
         "68": {
           "title": "第六十八条（特定の協同組合等の法人税率の特例）",
@@ -18092,14 +18093,8 @@
           "cite": "租税特別措置法第88条の7",
           "cite_id": "sozei_tokubetsu:88-7"
         },
-        "88-8": {
-          "title": "第八十八条の八（揮発油税及び地方揮発油税の税率の特例）",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu/88-8.html",
-          "cite": "租税特別措置法第88条の8",
-          "cite_id": "sozei_tokubetsu:88-8"
-        },
         "89": {
-          "title": "第八十九条（揮発油価格高騰時における揮発油税及び地方揮発油税の税率の特例規定の適用停止）",
+          "title": "第八十九条",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu/89.html",
           "cite": "租税特別措置法第89条",
           "cite_id": "sozei_tokubetsu:89"
@@ -18349,6 +18344,24 @@
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu/98.html",
           "cite": "租税特別措置法第98条",
           "cite_id": "sozei_tokubetsu:98"
+        },
+        "16:18": {
+          "title": "第十六条から第十八条まで",
+          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu/16:18.html",
+          "cite": "租税特別措置法第16:18条",
+          "cite_id": "sozei_tokubetsu:16:18"
+        },
+        "49:52": {
+          "title": "第四十九条から第五十二条まで",
+          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu/49:52.html",
+          "cite": "租税特別措置法第49:52条",
+          "cite_id": "sozei_tokubetsu:49:52"
+        },
+        "57:57-3": {
+          "title": "第五十七条から第五十七条の三まで",
+          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu/57:57-3.html",
+          "cite": "租税特別措置法第57:57-3条",
+          "cite_id": "sozei_tokubetsu:57:57-3"
         }
       }
     },
@@ -19344,8 +19357,14 @@
           "cite": "租税特別措置法施行規則第19条の9",
           "cite_id": "sozei_tokubetsu_kisoku:19-9"
         },
+        "19-9-2": {
+          "title": "第十九条の九の二（先物取引の差金等決済に係る支払調書の特例）",
+          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/19-9-2.html",
+          "cite": "租税特別措置法施行規則第19条の9の2",
+          "cite_id": "sozei_tokubetsu_kisoku:19-9-2"
+        },
         "19-10": {
-          "title": "第十九条の十（先物取引の差金等決済に係る支払調書の特例）",
+          "title": "第十九条の十（年齢二十三歳未満の扶養親族を有する場合の生命保険料控除の特例）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/19-10.html",
           "cite": "租税特別措置法施行規則第19条の10",
           "cite_id": "sozei_tokubetsu_kisoku:19-10"
@@ -19536,12 +19555,6 @@
           "cite": "租税特別措置法施行規則第20条の13",
           "cite_id": "sozei_tokubetsu_kisoku:20-13"
         },
-        "20-14-20-15": {
-          "title": "第二十条の十四及び第二十条の十五",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/20-14-20-15.html",
-          "cite": "租税特別措置法施行規則第20条の14の20の15",
-          "cite_id": "sozei_tokubetsu_kisoku:20-14-20-15"
-        },
         "20-16": {
           "title": "第二十条の十六（特定地域における工業用機械等の特別償却）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/20-16.html",
@@ -19553,12 +19566,6 @@
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/20-17.html",
           "cite": "租税特別措置法施行規則第20条の17",
           "cite_id": "sozei_tokubetsu_kisoku:20-17"
-        },
-        "20-18-20-19": {
-          "title": "第二十条の十八及び第二十条の十九",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/20-18-20-19.html",
-          "cite": "租税特別措置法施行規則第20条の18の20の19",
-          "cite_id": "sozei_tokubetsu_kisoku:20-18-20-19"
         },
         "20-20": {
           "title": "第二十条の二十（輸出事業用資産の割増償却）",
@@ -19584,6 +19591,18 @@
           "cite": "租税特別措置法施行規則第20条の23",
           "cite_id": "sozei_tokubetsu_kisoku:20-23"
         },
+        "20-14:20-15": {
+          "title": "第二十条の十四及び第二十条の十五",
+          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/20-14:20-15.html",
+          "cite": "租税特別措置法施行規則第20条の14:20の15",
+          "cite_id": "sozei_tokubetsu_kisoku:20-14:20-15"
+        },
+        "20-18:20-19": {
+          "title": "第二十条の十八及び第二十条の十九",
+          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/20-18:20-19.html",
+          "cite": "租税特別措置法施行規則第20条の18:20の19",
+          "cite_id": "sozei_tokubetsu_kisoku:20-18:20-19"
+        },
         "21": {
           "title": "第二十一条（海外投資等損失準備金）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/21.html",
@@ -19595,12 +19614,6 @@
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/21-2.html",
           "cite": "租税特別措置法施行規則第21条の2",
           "cite_id": "sozei_tokubetsu_kisoku:21-2"
-        },
-        "21-3-21-11": {
-          "title": "第二十一条の三から第二十一条の十一まで",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/21-3-21-11.html",
-          "cite": "租税特別措置法施行規則第21条の3の21の11",
-          "cite_id": "sozei_tokubetsu_kisoku:21-3-21-11"
         },
         "21-12": {
           "title": "第二十一条の十二（保険会社等の異常危険準備金）",
@@ -19679,6 +19692,12 @@
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/21-19.html",
           "cite": "租税特別措置法施行規則第21条の19",
           "cite_id": "sozei_tokubetsu_kisoku:21-19"
+        },
+        "21-3:21-11": {
+          "title": "第二十一条の三から第二十一条の十一まで",
+          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/21-3:21-11.html",
+          "cite": "租税特別措置法施行規則第21条の3:21の11",
+          "cite_id": "sozei_tokubetsu_kisoku:21-3:21-11"
         },
         "22": {
           "title": "第二十二条（短期所有に係る土地の譲渡等がある場合の特別税率）",
@@ -20604,30 +20623,6 @@
           "cite": "租税特別措置法施行規則第37条の7",
           "cite_id": "sozei_tokubetsu_kisoku:37-7"
         },
-        "37-8": {
-          "title": "第三十七条の八（揮発油の平均小売価格の算出等）",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/37-8.html",
-          "cite": "租税特別措置法施行規則第37条の8",
-          "cite_id": "sozei_tokubetsu_kisoku:37-8"
-        },
-        "37-9": {
-          "title": "第三十七条の九（控除対象揮発油に係るエタノールの数量に相当する数量の算出）",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/37-9.html",
-          "cite": "租税特別措置法施行規則第37条の9",
-          "cite_id": "sozei_tokubetsu_kisoku:37-9"
-        },
-        "37-10": {
-          "title": "第三十七条の十（課税対象揮発油に係るエタノールの数量に相当する数量の算出）",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/37-10.html",
-          "cite": "租税特別措置法施行規則第37条の10",
-          "cite_id": "sozei_tokubetsu_kisoku:37-10"
-        },
-        "37-11": {
-          "title": "第三十七条の十一（控除対象揮発油の数量を証する書類等の作成方法）",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/37-11.html",
-          "cite": "租税特別措置法施行規則第37条の11",
-          "cite_id": "sozei_tokubetsu_kisoku:37-11"
-        },
         "38": {
           "title": "第三十八条（装置の指定）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/38.html",
@@ -21193,92 +21188,92 @@
         "5-2": {
           "title": "第五条の二（相続財産に係る株式をその発行した非上場会社に譲渡した場合のみなし配当課税の特例）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/5-2.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第5条の2",
+          "cite_id": "sozei_tokubetsu_seirei:5-2"
         },
         "5-2-2": {
           "title": "第五条の二の二（非課税口座内の少額上場株式等に係る配当所得の非課税）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/5-2-2.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第5条の2の2",
+          "cite_id": "sozei_tokubetsu_seirei:5-2-2"
         },
         "5-2-3": {
           "title": "第五条の二の三（未成年者口座内の少額上場株式等に係る配当所得の非課税）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/5-2-3.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第5条の2の3",
+          "cite_id": "sozei_tokubetsu_seirei:5-2-3"
         },
         "5-3": {
           "title": "第五条の三（試験研究を行つた場合の所得税額の特別控除）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/5-3.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第5条の3",
+          "cite_id": "sozei_tokubetsu_seirei:5-3"
         },
         "5-4": {
           "title": "第五条の四",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/5-4.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第5条の4",
+          "cite_id": "sozei_tokubetsu_seirei:5-4"
         },
         "5-5": {
           "title": "第五条の五（中小事業者が機械等を取得した場合の特別償却又は所得税額の特別控除）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/5-5.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第5条の5",
+          "cite_id": "sozei_tokubetsu_seirei:5-5"
         },
         "5-5-2": {
           "title": "第五条の五の二（地域経済牽けん引事業の促進区域内において特定事業用機械等を取得した場合の特別償却又は所得税額の特別控除）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/5-5-2.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第5条の5の2",
+          "cite_id": "sozei_tokubetsu_seirei:5-5-2"
         },
         "5-5-3": {
           "title": "第五条の五の三（地方活力向上地域等において特定建物等を取得した場合の特別償却又は所得税額の特別控除）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/5-5-3.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第5条の5の3",
+          "cite_id": "sozei_tokubetsu_seirei:5-5-3"
         },
         "5-6": {
           "title": "第五条の六（地方活力向上地域等において雇用者の数が増加した場合の所得税額の特別控除）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/5-6.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第5条の6",
+          "cite_id": "sozei_tokubetsu_seirei:5-6"
         },
         "5-6-2": {
           "title": "第五条の六の二",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/5-6-2.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第5条の6の2",
+          "cite_id": "sozei_tokubetsu_seirei:5-6-2"
         },
         "5-6-3": {
           "title": "第五条の六の三（特定中小事業者が特定経営力向上設備等を取得した場合の特別償却又は所得税額の特別控除）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/5-6-3.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第5条の6の3",
+          "cite_id": "sozei_tokubetsu_seirei:5-6-3"
         },
         "5-6-4": {
           "title": "第五条の六の四（給与等の支給額が増加した場合の所得税額の特別控除）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/5-6-4.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第5条の6の4",
+          "cite_id": "sozei_tokubetsu_seirei:5-6-4"
         },
         "5-6-5": {
           "title": "第五条の六の五（生産工程効率化等設備を取得した場合の特別償却又は所得税額の特別控除）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/5-6-5.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第5条の6の5",
+          "cite_id": "sozei_tokubetsu_seirei:5-6-5"
         },
         "5-7": {
           "title": "第五条の七（所得税の額から控除される特別控除額の特例）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/5-7.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第5条の7",
+          "cite_id": "sozei_tokubetsu_seirei:5-7"
         },
         "5-8": {
           "title": "第五条の八（特定船舶の特別償却）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/5-8.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第5条の8",
+          "cite_id": "sozei_tokubetsu_seirei:5-8"
         },
         "6": {
           "title": "第六条（被災代替資産等の特別償却）",
@@ -21289,38 +21284,38 @@
         "6-2": {
           "title": "第六条の二（特定事業継続力強化設備等の特別償却）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/6-2.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第6条の2",
+          "cite_id": "sozei_tokubetsu_seirei:6-2"
         },
         "6-2-2": {
           "title": "第六条の二の二（環境負荷低減事業活動用資産等の特別償却）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/6-2-2.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第6条の2の2",
+          "cite_id": "sozei_tokubetsu_seirei:6-2-2"
         },
         "6-2-3": {
           "title": "第六条の二の三（生産方式革新事業活動用資産等の特別償却）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/6-2-3.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第6条の2の3",
+          "cite_id": "sozei_tokubetsu_seirei:6-2-3"
         },
         "6-3": {
           "title": "第六条の三（特定地域における工業用機械等の特別償却）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/6-3.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第6条の3",
+          "cite_id": "sozei_tokubetsu_seirei:6-3"
         },
         "6-4": {
           "title": "第六条の四（医療用機器等の特別償却）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/6-4.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第6条の4",
+          "cite_id": "sozei_tokubetsu_seirei:6-4"
         },
         "6-5": {
           "title": "第六条の五（輸出事業用資産の割増償却）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/6-5.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第6条の5",
+          "cite_id": "sozei_tokubetsu_seirei:6-5"
         },
         "7": {
           "title": "第七条（特定都市再生建築物の割増償却）",
@@ -21345,12 +21340,6 @@
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/10.html",
           "cite": "租税特別措置法施行令第10条",
           "cite_id": "sozei_tokubetsu_seirei:10"
-        },
-        "11-12": {
-          "title": "第十一条及び第十二条",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/11-12.html",
-          "cite": "租税特別措置法施行令第11条及び第12条",
-          "cite_id": "sozei_tokubetsu_seirei:11-12"
         },
         "13": {
           "title": "第十三条",
@@ -22174,23 +22163,11 @@
           "cite": "租税特別措置法施行令第26条の20",
           "cite_id": "sozei_tokubetsu_seirei:26-20"
         },
-        "26-21-26-22": {
-          "title": "第二十六条の二十一及び第二十六条の二十二",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/26-21-26-22.html",
-          "cite": "租税特別措置法施行令第26条の21の26の22",
-          "cite_id": "sozei_tokubetsu_seirei:26-21-26-22"
-        },
         "26-23": {
           "title": "第二十六条の二十三（先物取引に係る雑所得等の金額の計算等）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/26-23.html",
           "cite": "租税特別措置法施行令第26条の23",
           "cite_id": "sozei_tokubetsu_seirei:26-23"
-        },
-        "26-24-26-25": {
-          "title": "第二十六条の二十四及び第二十六条の二十五",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/26-24-26-25.html",
-          "cite": "租税特別措置法施行令第26条の24の26の25",
-          "cite_id": "sozei_tokubetsu_seirei:26-24-26-25"
         },
         "26-26": {
           "title": "第二十六条の二十六（先物取引の差金等決済に係る損失の繰越控除）",
@@ -22294,6 +22271,18 @@
           "cite": "租税特別措置法施行令第26条の32",
           "cite_id": "sozei_tokubetsu_seirei:26-32"
         },
+        "26-21:26-22": {
+          "title": "第二十六条の二十一及び第二十六条の二十二",
+          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/26-21:26-22.html",
+          "cite": "租税特別措置法施行令第26条の21:26の22",
+          "cite_id": "sozei_tokubetsu_seirei:26-21:26-22"
+        },
+        "26-24:26-25": {
+          "title": "第二十六条の二十四及び第二十六条の二十五",
+          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/26-24:26-25.html",
+          "cite": "租税特別措置法施行令第26条の24:26の25",
+          "cite_id": "sozei_tokubetsu_seirei:26-24:26-25"
+        },
         "27": {
           "title": "第二十七条（外国金融機関等の店頭デリバティブ取引の証拠金に係る利子の課税の特例）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/27.html",
@@ -22335,12 +22324,6 @@
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/27-6.html",
           "cite": "租税特別措置法施行令第27条の6",
           "cite_id": "sozei_tokubetsu_seirei:27-6"
-        },
-        "27-7-27-8": {
-          "title": "第二十七条の七及び第二十七条の八",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/27-7-27-8.html",
-          "cite": "租税特別措置法施行令第27条の7の27の8",
-          "cite_id": "sozei_tokubetsu_seirei:27-7-27-8"
         },
         "27-9": {
           "title": "第二十七条の九（沖縄の特定地域において工業用機械等を取得した場合の法人税額の特別控除）",
@@ -22419,6 +22402,12 @@
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/27-14.html",
           "cite": "租税特別措置法施行令第27条の14",
           "cite_id": "sozei_tokubetsu_seirei:27-14"
+        },
+        "27-7:27-8": {
+          "title": "第二十七条の七及び第二十七条の八",
+          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/27-7:27-8.html",
+          "cite": "租税特別措置法施行令第27条の7:27の8",
+          "cite_id": "sozei_tokubetsu_seirei:27-7:27-8"
         },
         "28": {
           "title": "第二十八条（特定船舶の特別償却）",
@@ -22636,12 +22625,6 @@
           "cite": "租税特別措置法施行令第38条",
           "cite_id": "sozei_tokubetsu_seirei:38"
         },
-        "38-2-38-3": {
-          "title": "第三十八条の二及び第三十八条の三",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/38-2-38-3.html",
-          "cite": "租税特別措置法施行令第38条の2の38の3",
-          "cite_id": "sozei_tokubetsu_seirei:38-2-38-3"
-        },
         "38-4": {
           "title": "第三十八条の四（土地の譲渡等がある場合の特別税率）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/38-4.html",
@@ -22653,6 +22636,12 @@
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/38-5.html",
           "cite": "租税特別措置法施行令第38条の5",
           "cite_id": "sozei_tokubetsu_seirei:38-5"
+        },
+        "38-2:38-3": {
+          "title": "第三十八条の二及び第三十八条の三",
+          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/38-2:38-3.html",
+          "cite": "租税特別措置法施行令第38条の2:38の3",
+          "cite_id": "sozei_tokubetsu_seirei:38-2:38-3"
         },
         "39": {
           "title": "第三十九条（収用等に伴い代替資産を取得した場合等の課税の特例）",
@@ -23602,77 +23591,83 @@
           "cite": "租税特別措置法施行令第46条の4",
           "cite_id": "sozei_tokubetsu_seirei:46-4"
         },
+        "46-5": {
+          "title": "第四十六条の五（法人課税信託の受託者に関する通則）",
+          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/46-5.html",
+          "cite": "租税特別措置法施行令第46条の5",
+          "cite_id": "sozei_tokubetsu_seirei:46-5"
+        },
         "46-6": {
           "title": "第四十六条の六（相続等があつた場合における前年度課税移出数量等）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/46-6.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第46条の6",
+          "cite_id": "sozei_tokubetsu_seirei:46-6"
         },
         "46-7": {
           "title": "第四十六条の七（完全支配関係）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/46-7.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第46条の7",
+          "cite_id": "sozei_tokubetsu_seirei:46-7"
         },
         "46-7-2": {
           "title": "第四十六条の七の二（承認酒類製造者の承認に関する事項等）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/46-7-2.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第46条の7の2",
+          "cite_id": "sozei_tokubetsu_seirei:46-7-2"
         },
         "46-8": {
           "title": "第四十六条の八（別送して輸入するウイスキー等に係る酒税の税率の特例の手続等）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/46-8.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第46条の8",
+          "cite_id": "sozei_tokubetsu_seirei:46-8"
         },
         "46-8-2": {
           "title": "第四十六条の八の二（輸出酒類販売場における免税販売手続等）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/46-8-2.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第46条の8の2",
+          "cite_id": "sozei_tokubetsu_seirei:46-8-2"
         },
         "46-8-3": {
           "title": "第四十六条の八の三（輸出酒類販売場における保存書類等）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/46-8-3.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第46条の8の3",
+          "cite_id": "sozei_tokubetsu_seirei:46-8-3"
         },
         "46-8-4": {
           "title": "第四十六条の八の四（輸出酒類販売場の許可に関する手続等）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/46-8-4.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第46条の8の4",
+          "cite_id": "sozei_tokubetsu_seirei:46-8-4"
         },
         "46-8-5": {
           "title": "第四十六条の八の五（酒類の製造場とみなされる酒類の販売場の範囲）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/46-8-5.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第46条の8の5",
+          "cite_id": "sozei_tokubetsu_seirei:46-8-5"
         },
         "46-8-6": {
           "title": "第四十六条の八の六（電磁的記録に記録された事項に係る事実に基づく税額等）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/46-8-6.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第46条の8の6",
+          "cite_id": "sozei_tokubetsu_seirei:46-8-6"
         },
         "46-8-7": {
           "title": "第四十六条の八の七（税関長の権限の委任）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/46-8-7.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第46条の8の7",
+          "cite_id": "sozei_tokubetsu_seirei:46-8-7"
         },
         "46-8-8": {
           "title": "第四十六条の八の八（みなし製造の規定の適用除外の特例）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/46-8-8.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第46条の8の8",
+          "cite_id": "sozei_tokubetsu_seirei:46-8-8"
         },
         "46-9": {
           "title": "第四十六条の九（別送して輸入する紙巻たばこのたばこ税の税率の特例の手続）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/46-9.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第46条の9",
+          "cite_id": "sozei_tokubetsu_seirei:46-9"
         },
         "46-10": {
           "title": "第四十六条の十（みなし揮発油に係る試験方法等）",
@@ -23716,84 +23711,6 @@
           "cite": "租税特別措置法施行令第46条の16",
           "cite_id": "sozei_tokubetsu_seirei:46-16"
         },
-        "46-17": {
-          "title": "第四十六条の十七（地方揮発油税に係る担保の提供の特例）",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/46-17.html",
-          "cite": "租税特別措置法施行令第46条の17",
-          "cite_id": "sozei_tokubetsu_seirei:46-17"
-        },
-        "46-18": {
-          "title": "第四十六条の十八（控除対象揮発油の数量を証する書類）",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/46-18.html",
-          "cite": "租税特別措置法施行令第46条の18",
-          "cite_id": "sozei_tokubetsu_seirei:46-18"
-        },
-        "46-19": {
-          "title": "第四十六条の十九（揮発油税超過額の算定方法等）",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/46-19.html",
-          "cite": "租税特別措置法施行令第46条の19",
-          "cite_id": "sozei_tokubetsu_seirei:46-19"
-        },
-        "46-20": {
-          "title": "第四十六条の二十（控除又は還付に係る申告書の提出期間）",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/46-20.html",
-          "cite": "租税特別措置法施行令第46条の20",
-          "cite_id": "sozei_tokubetsu_seirei:46-20"
-        },
-        "46-21": {
-          "title": "第四十六条の二十一（還付のための申告）",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/46-21.html",
-          "cite": "租税特別措置法施行令第46条の21",
-          "cite_id": "sozei_tokubetsu_seirei:46-21"
-        },
-        "46-22": {
-          "title": "第四十六条の二十二（控除又は還付を受けようとする揮発油税額及び地方揮発油税額の計算に関する書類）",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/46-22.html",
-          "cite": "租税特別措置法施行令第46条の22",
-          "cite_id": "sozei_tokubetsu_seirei:46-22"
-        },
-        "46-23": {
-          "title": "第四十六条の二十三（所持数量等届出書の記載事項）",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/46-23.html",
-          "cite": "租税特別措置法施行令第46条の23",
-          "cite_id": "sozei_tokubetsu_seirei:46-23"
-        },
-        "46-24": {
-          "title": "第四十六条の二十四（輸入揮発油に係る承認の申請）",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/46-24.html",
-          "cite": "租税特別措置法施行令第46条の24",
-          "cite_id": "sozei_tokubetsu_seirei:46-24"
-        },
-        "46-25": {
-          "title": "第四十六条の二十五（課税対象揮発油の手持品課税に係る申告等）",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/46-25.html",
-          "cite": "租税特別措置法施行令第46条の25",
-          "cite_id": "sozei_tokubetsu_seirei:46-25"
-        },
-        "46-26": {
-          "title": "第四十六条の二十六（エタノールの数量に相当する数量）",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/46-26.html",
-          "cite": "租税特別措置法施行令第46条の26",
-          "cite_id": "sozei_tokubetsu_seirei:46-26"
-        },
-        "46-27": {
-          "title": "第四十六条の二十七（税務署長の確認に係る申請等）",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/46-27.html",
-          "cite": "租税特別措置法施行令第46条の27",
-          "cite_id": "sozei_tokubetsu_seirei:46-27"
-        },
-        "46-28": {
-          "title": "第四十六条の二十八（揮発油税及び地方揮発油税に係る国税通則法施行令の適用の特例）",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/46-28.html",
-          "cite": "租税特別措置法施行令第46条の28",
-          "cite_id": "sozei_tokubetsu_seirei:46-28"
-        },
-        "46-29": {
-          "title": "第四十六条の二十九（財務省令への委任）",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/46-29.html",
-          "cite": "租税特別措置法施行令第46条の29",
-          "cite_id": "sozei_tokubetsu_seirei:46-29"
-        },
         "47": {
           "title": "第四十七条（石油化学製品及び用途）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/47.html",
@@ -23803,56 +23720,56 @@
         "47-2": {
           "title": "第四十七条の二（揮発油を消費して製造した製品の製造に関する書類）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/47-2.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第47条の2",
+          "cite_id": "sozei_tokubetsu_seirei:47-2"
         },
         "47-3": {
           "title": "第四十七条の三（記帳等の命令）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/47-3.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第47条の3",
+          "cite_id": "sozei_tokubetsu_seirei:47-3"
         },
         "47-4": {
           "title": "第四十七条の四（特定石油化学製品の範囲等）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/47-4.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第47条の4",
+          "cite_id": "sozei_tokubetsu_seirei:47-4"
         },
         "47-5": {
           "title": "第四十七条の五（特定石油化学製品の移出についての書面の提出等）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/47-5.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第47条の5",
+          "cite_id": "sozei_tokubetsu_seirei:47-5"
         },
         "47-6": {
           "title": "第四十七条の六（記帳義務）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/47-6.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第47条の6",
+          "cite_id": "sozei_tokubetsu_seirei:47-6"
         },
         "47-7": {
           "title": "第四十七条の七（揮発油の免税用途及び規格）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/47-7.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第47条の7",
+          "cite_id": "sozei_tokubetsu_seirei:47-7"
         },
         "47-8": {
           "title": "第四十七条の八（移出に係る揮発油の特定用途免税手続等）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/47-8.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第47条の8",
+          "cite_id": "sozei_tokubetsu_seirei:47-8"
         },
         "47-9": {
           "title": "第四十七条の九（特定用途免税揮発油の譲渡の承認手続）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/47-9.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第47条の9",
+          "cite_id": "sozei_tokubetsu_seirei:47-9"
         },
         "47-10": {
           "title": "第四十七条の十（引取りに係る揮発油の特定用途免税手続）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/47-10.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第47条の10",
+          "cite_id": "sozei_tokubetsu_seirei:47-10"
         },
         "48": {
           "title": "第四十八条（みなし揮発油の免税用途及び規格）",
@@ -23863,62 +23780,62 @@
         "48-2": {
           "title": "第四十八条の二（移出に係るみなし揮発油の特定用途免税手続等）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/48-2.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第48条の2",
+          "cite_id": "sozei_tokubetsu_seirei:48-2"
         },
         "48-3": {
           "title": "第四十八条の三（特定用途免税みなし揮発油の譲渡の承認手続）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/48-3.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第48条の3",
+          "cite_id": "sozei_tokubetsu_seirei:48-3"
         },
         "48-4": {
           "title": "第四十八条の四（引取りに係るみなし揮発油の特定用途免税手続）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/48-4.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第48条の4",
+          "cite_id": "sozei_tokubetsu_seirei:48-4"
         },
         "48-5": {
           "title": "第四十八条の五（移出に係る揮発油の外国公館等用免税の承認の申請等）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/48-5.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第48条の5",
+          "cite_id": "sozei_tokubetsu_seirei:48-5"
         },
         "48-6": {
           "title": "第四十八条の六（特定の用途に供する石炭に係る石油石炭税の軽減の手続等）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/48-6.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第48条の6",
+          "cite_id": "sozei_tokubetsu_seirei:48-6"
         },
         "48-7": {
           "title": "第四十八条の七（特定の石油製品等を特定の運送、農林漁業又は発電の用に供した場合の石油石炭税の還付の申請等）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/48-7.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第48条の7",
+          "cite_id": "sozei_tokubetsu_seirei:48-7"
         },
         "48-8": {
           "title": "第四十八条の八（輸入特定用途石油製品等に係る承認の申請）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/48-8.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第48条の8",
+          "cite_id": "sozei_tokubetsu_seirei:48-8"
         },
         "48-9": {
           "title": "第四十八条の九（引取りに係る石油製品等の免税の手続等）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/48-9.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第48条の9",
+          "cite_id": "sozei_tokubetsu_seirei:48-9"
         },
         "48-10": {
           "title": "第四十八条の十（引取りに係る特定石炭の免税の手続等）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/48-10.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第48条の10",
+          "cite_id": "sozei_tokubetsu_seirei:48-10"
         },
         "48-11": {
           "title": "第四十八条の十一（引取りに係る沖縄発電用特定石炭等の免税の手続等）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/48-11.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第48条の11",
+          "cite_id": "sozei_tokubetsu_seirei:48-11"
         },
         "49": {
           "title": "第四十九条（石油化学製品の原料用特定揮発油等に係る石油石炭税の還付の申請等）",
@@ -23935,32 +23852,32 @@
         "50-2": {
           "title": "第五十条の二（石油アスファルト等に係る石油石炭税の還付の申請等）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/50-2.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第50条の2",
+          "cite_id": "sozei_tokubetsu_seirei:50-2"
         },
         "50-2-2": {
           "title": "第五十条の二の二（非製品ガスに係る石油石炭税の還付の申請等）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/50-2-2.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第50条の2の2",
+          "cite_id": "sozei_tokubetsu_seirei:50-2-2"
         },
         "50-3": {
           "title": "第五十条の三（沖縄路線航空機の範囲）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/50-3.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第50条の3",
+          "cite_id": "sozei_tokubetsu_seirei:50-3"
         },
         "50-4": {
           "title": "第五十条の四（特定離島路線航空機の範囲）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/50-4.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第50条の4",
+          "cite_id": "sozei_tokubetsu_seirei:50-4"
         },
         "50-5": {
           "title": "第五十条の五（記帳義務等）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/50-5.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第50条の5",
+          "cite_id": "sozei_tokubetsu_seirei:50-5"
         },
         "51": {
           "title": "第五十一条（貨物自動車の範囲）",
@@ -23971,32 +23888,32 @@
         "51-2": {
           "title": "第五十一条の二（免税対象車等の範囲）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/51-2.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第51条の2",
+          "cite_id": "sozei_tokubetsu_seirei:51-2"
         },
         "51-3": {
           "title": "第五十一条の三（特定の検査自動車の範囲等）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/51-3.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第51条の3",
+          "cite_id": "sozei_tokubetsu_seirei:51-3"
         },
         "51-4": {
           "title": "第五十一条の四（自動車重量税の納付の事実の確認等の特例）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/51-4.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第51条の4",
+          "cite_id": "sozei_tokubetsu_seirei:51-4"
         },
         "51-5": {
           "title": "第五十一条の五（使用済自動車に係る自動車重量税の還付の申請等）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/51-5.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第51条の5",
+          "cite_id": "sozei_tokubetsu_seirei:51-5"
         },
         "51-6": {
           "title": "第五十一条の六（国際観光旅客税が免除される外交官等の本邦からの出国に係る運送契約の範囲等）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/51-6.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第51条の6",
+          "cite_id": "sozei_tokubetsu_seirei:51-6"
         },
         "52": {
           "title": "第五十二条（自然災害の被災者が作成する代替建物の取得又は新築等に係る不動産譲渡契約書等の印紙税の非課税）",
@@ -24007,14 +23924,14 @@
         "52-2": {
           "title": "第五十二条の二（都道府県が行う高等学校の生徒に対する学資としての資金の貸付けに係る消費貸借契約書等の印紙税の非課税）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/52-2.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第52条の2",
+          "cite_id": "sozei_tokubetsu_seirei:52-2"
         },
         "52-3": {
           "title": "第五十二条の三（印紙税の非課税の対象となる消費貸借契約書の要件）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/52-3.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "租税特別措置法施行令第52条の3",
+          "cite_id": "sozei_tokubetsu_seirei:52-3"
         },
         "53": {
           "title": "第五十三条",
@@ -24033,6 +23950,12 @@
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/55.html",
           "cite": "租税特別措置法施行令第55条",
           "cite_id": "sozei_tokubetsu_seirei:55"
+        },
+        "11:12": {
+          "title": "第十一条及び第十二条",
+          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/11:12.html",
+          "cite": "租税特別措置法施行令第11:12条",
+          "cite_id": "sozei_tokubetsu_seirei:11:12"
         }
       }
     },
@@ -24053,20 +23976,20 @@
         "1-2": {
           "title": "第一条の二（定義）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/1-2.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "相続税法第1条の2",
+          "cite_id": "sozokuzei:1-2"
         },
         "1-3": {
           "title": "第一条の三（相続税の納税義務者）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/1-3.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "相続税法第1条の3",
+          "cite_id": "sozokuzei:1-3"
         },
         "1-4": {
           "title": "第一条の四（贈与税の納税義務者）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/1-4.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "相続税法第1条の4",
+          "cite_id": "sozokuzei:1-4"
         },
         "2": {
           "title": "第二条（相続税の課税財産の範囲）",
@@ -24077,8 +24000,8 @@
         "2-2": {
           "title": "第二条の二（贈与税の課税財産の範囲）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/2-2.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "相続税法第2条の2",
+          "cite_id": "sozokuzei:2-2"
         },
         "3": {
           "title": "第三条（相続又は遺贈により取得したものとみなす場合）",
@@ -24125,32 +24048,32 @@
         "9-2": {
           "title": "第九条の二（贈与又は遺贈により取得したものとみなす信託に関する権利）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/9-2.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "相続税法第9条の2",
+          "cite_id": "sozokuzei:9-2"
         },
         "9-3": {
           "title": "第九条の三（受益者連続型信託の特例）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/9-3.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "相続税法第9条の3",
+          "cite_id": "sozokuzei:9-3"
         },
         "9-4": {
           "title": "第九条の四（受益者等が存しない信託等の特例）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/9-4.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "相続税法第9条の4",
+          "cite_id": "sozokuzei:9-4"
         },
         "9-5": {
           "title": "第九条の五",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/9-5.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "相続税法第9条の5",
+          "cite_id": "sozokuzei:9-5"
         },
         "9-6": {
           "title": "第九条の六（政令への委任）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/9-6.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "相続税法第9条の6",
+          "cite_id": "sozokuzei:9-6"
         },
         "10": {
           "title": "第十条",
@@ -24167,8 +24090,8 @@
         "11-2": {
           "title": "第十一条の二（相続税の課税価格）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/11-2.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "相続税法第11条の2",
+          "cite_id": "sozokuzei:11-2"
         },
         "12": {
           "title": "第十二条（相続税の非課税財産）",
@@ -24221,20 +24144,20 @@
         "19-2": {
           "title": "第十九条の二（配偶者に対する相続税額の軽減）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/19-2.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "相続税法第19条の2",
+          "cite_id": "sozokuzei:19-2"
         },
         "19-3": {
           "title": "第十九条の三（未成年者控除）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/19-3.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "相続税法第19条の3",
+          "cite_id": "sozokuzei:19-3"
         },
         "19-4": {
           "title": "第十九条の四（障害者控除）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/19-4.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "相続税法第19条の4",
+          "cite_id": "sozokuzei:19-4"
         },
         "20": {
           "title": "第二十条（相次相続控除）",
@@ -24245,8 +24168,8 @@
         "20-2": {
           "title": "第二十条の二（在外財産に対する相続税額の控除）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/20-2.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "相続税法第20条の2",
+          "cite_id": "sozokuzei:20-2"
         },
         "21": {
           "title": "第二十一条（贈与税の課税）",
@@ -24257,110 +24180,110 @@
         "21-2": {
           "title": "第二十一条の二（贈与税の課税価格）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/21-2.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "相続税法第21条の2",
+          "cite_id": "sozokuzei:21-2"
         },
         "21-3": {
           "title": "第二十一条の三（贈与税の非課税財産）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/21-3.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "相続税法第21条の3",
+          "cite_id": "sozokuzei:21-3"
         },
         "21-4": {
           "title": "第二十一条の四（特定障害者に対する贈与税の非課税）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/21-4.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "相続税法第21条の4",
+          "cite_id": "sozokuzei:21-4"
         },
         "21-5": {
           "title": "第二十一条の五（贈与税の基礎控除）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/21-5.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "相続税法第21条の5",
+          "cite_id": "sozokuzei:21-5"
         },
         "21-6": {
           "title": "第二十一条の六（贈与税の配偶者控除）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/21-6.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "相続税法第21条の6",
+          "cite_id": "sozokuzei:21-6"
         },
         "21-7": {
           "title": "第二十一条の七（贈与税の税率）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/21-7.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "相続税法第21条の7",
+          "cite_id": "sozokuzei:21-7"
         },
         "21-8": {
           "title": "第二十一条の八（在外財産に対する贈与税額の控除）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/21-8.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "相続税法第21条の8",
+          "cite_id": "sozokuzei:21-8"
         },
         "21-9": {
           "title": "第二十一条の九（相続時精算課税の選択）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/21-9.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "相続税法第21条の9",
+          "cite_id": "sozokuzei:21-9"
         },
         "21-10": {
           "title": "第二十一条の十（相続時精算課税に係る贈与税の課税価格）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/21-10.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "相続税法第21条の10",
+          "cite_id": "sozokuzei:21-10"
         },
         "21-11": {
           "title": "第二十一条の十一（適用除外）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/21-11.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "相続税法第21条の11",
+          "cite_id": "sozokuzei:21-11"
         },
         "21-11-2": {
           "title": "第二十一条の十一の二（相続時精算課税に係る贈与税の基礎控除）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/21-11-2.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "相続税法第21条の11の2",
+          "cite_id": "sozokuzei:21-11-2"
         },
         "21-12": {
           "title": "第二十一条の十二（相続時精算課税に係る贈与税の特別控除）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/21-12.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "相続税法第21条の12",
+          "cite_id": "sozokuzei:21-12"
         },
         "21-13": {
           "title": "第二十一条の十三（相続時精算課税に係る贈与税の税率）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/21-13.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "相続税法第21条の13",
+          "cite_id": "sozokuzei:21-13"
         },
         "21-14": {
           "title": "第二十一条の十四（相続時精算課税に係る相続税額）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/21-14.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "相続税法第21条の14",
+          "cite_id": "sozokuzei:21-14"
         },
         "21-15": {
           "title": "第二十一条の十五",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/21-15.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "相続税法第21条の15",
+          "cite_id": "sozokuzei:21-15"
         },
         "21-16": {
           "title": "第二十一条の十六",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/21-16.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "相続税法第21条の16",
+          "cite_id": "sozokuzei:21-16"
         },
         "21-17": {
           "title": "第二十一条の十七（相続時精算課税に係る相続税の納付義務の承継等）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/21-17.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "相続税法第21条の17",
+          "cite_id": "sozokuzei:21-17"
         },
         "21-18": {
           "title": "第二十一条の十八",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/21-18.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "相続税法第21条の18",
+          "cite_id": "sozokuzei:21-18"
         },
         "22": {
           "title": "第二十二条（評価の原則）",
@@ -24377,8 +24300,8 @@
         "23-2": {
           "title": "第二十三条の二（配偶者居住権等の評価）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/23-2.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "相続税法第23条の2",
+          "cite_id": "sozokuzei:23-2"
         },
         "24": {
           "title": "第二十四条（定期金に関する権利の評価）",
@@ -24401,8 +24324,8 @@
         "26-2": {
           "title": "第二十六条の二（土地評価審議会）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/26-2.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "相続税法第26条の2",
+          "cite_id": "sozokuzei:26-2"
         },
         "27": {
           "title": "第二十七条（相続税の申告書）",
@@ -24449,8 +24372,8 @@
         "33-2": {
           "title": "第三十三条の二（相続時精算課税に係る贈与税額の還付）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/33-2.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "相続税法第33条の2",
+          "cite_id": "sozokuzei:33-2"
         },
         "34": {
           "title": "第三十四条（連帯納付の義務等）",
@@ -24545,14 +24468,14 @@
         "48-2": {
           "title": "第四十八条の二（特定の延納税額に係る物納）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/48-2.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "相続税法第48条の2",
+          "cite_id": "sozokuzei:48-2"
         },
         "48-3": {
           "title": "第四十八条の三（延納又は物納に関する事務の引継ぎ）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/48-3.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "相続税法第48条の3",
+          "cite_id": "sozokuzei:48-3"
         },
         "49": {
           "title": "第四十九条（相続時精算課税等に係る贈与税の申告内容の開示等）",
@@ -24575,8 +24498,8 @@
         "51-2": {
           "title": "第五十一条の二",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/51-2.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "相続税法第51条の2",
+          "cite_id": "sozokuzei:51-2"
         },
         "52": {
           "title": "第五十二条（延納等に係る利子税）",
@@ -24601,12 +24524,6 @@
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/55.html",
           "cite": "相続税法第55条",
           "cite_id": "sozokuzei:55"
-        },
-        "56-57": {
-          "title": "第五十六条及び第五十七条",
-          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/56-57.html",
-          "cite": "",
-          "cite_id": ""
         },
         "58": {
           "title": "第五十八条（法務大臣等の通知）",
@@ -24665,8 +24582,8 @@
         "66-2": {
           "title": "第六十六条の二（特定の一般社団法人等に対する課税）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/66-2.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "相続税法第66条の2",
+          "cite_id": "sozokuzei:66-2"
         },
         "67": {
           "title": "第六十七条（付加税の禁止）",
@@ -24677,8 +24594,8 @@
         "67-2": {
           "title": "第六十七条の二（政令への委任）",
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/67-2.html",
-          "cite": "",
-          "cite_id": ""
+          "cite": "相続税法第67条の2",
+          "cite_id": "sozokuzei:67-2"
         },
         "68": {
           "title": "第六十八条",
@@ -24703,6 +24620,12 @@
           "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/71.html",
           "cite": "相続税法第71条",
           "cite_id": "sozokuzei:71"
+        },
+        "56:57": {
+          "title": "第五十六条及び第五十七条",
+          "url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozokuzei/56:57.html",
+          "cite": "相続税法第56:57条",
+          "cite_id": "sozokuzei:56:57"
         }
       }
     },

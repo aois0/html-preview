@@ -7,6 +7,7 @@ This script is intentionally minimal and only targets what build_ai_artifacts.py
 - <article> with data-* meta
 - <div id="p{n}" data-paragraph="{n}"> for paragraphs
 - <p class="item" id="p{n}-i{k}"> for items (号)
+- nested <li class="subitem" id="p{n}-i{k}-s{path}"> for subitems (イロハ等)
 """
 
 from __future__ import annotations
@@ -34,6 +35,9 @@ def text_of(elem: ET.Element | None) -> str:
     if elem is None:
         return ""
     return clean_ws("".join(elem.itertext()))
+
+
+SUBITEM_TAG_RE = re.compile(r"^Subitem(\d+)$")
 
 
 def sort_article_key(num: str):
@@ -117,16 +121,19 @@ def find_main_provision(law: ET.Element) -> ET.Element | None:
 
 
 @dataclass(frozen=True)
-class Item:
-    title: str
-    text: str
+class ClauseNode:
+    tag: str
+    num: str
+    label: str
+    sentence: str
+    children: list["ClauseNode"]
 
 
 @dataclass(frozen=True)
 class Paragraph:
     num: str
     text: str
-    items: list[Item]
+    items: list[ClauseNode]
 
 
 @dataclass(frozen=True)
@@ -142,6 +149,57 @@ class Law:
     title: str
     law_num: str
     articles: list[Article]
+
+
+def is_clause_tag(tag: str) -> bool:
+    return tag == "Item" or SUBITEM_TAG_RE.match(tag) is not None
+
+
+def title_tag_for(tag: str) -> str:
+    return "ItemTitle" if tag == "Item" else f"{tag}Title"
+
+
+def sentence_tag_for(tag: str) -> str:
+    return "ItemSentence" if tag == "Item" else f"{tag}Sentence"
+
+
+def parse_clause_node(elem: ET.Element) -> ClauseNode | None:
+    tag = elem.tag
+    if not is_clause_tag(tag):
+        return None
+
+    label = text_of(elem.find(title_tag_for(tag)))
+    sentence = text_of(elem.find(sentence_tag_for(tag)))
+    num = clean_ws(elem.get("Num", ""))
+
+    children: list[ClauseNode] = []
+    for child in list(elem):
+        if not is_clause_tag(child.tag):
+            continue
+        parsed = parse_clause_node(child)
+        if parsed is not None:
+            children.append(parsed)
+
+    if not label and not sentence and not children:
+        return None
+
+    return ClauseNode(
+        tag=tag,
+        num=num,
+        label=label,
+        sentence=sentence,
+        children=children,
+    )
+
+
+def node_text(node: ClauseNode) -> str:
+    return clean_ws(" ".join([x for x in [node.label, node.sentence] if x]))
+
+
+def norm_subitem_token(num: str, fallback: int) -> str:
+    raw = (num or "").replace("_", "-")
+    raw = re.sub(r"[^0-9A-Za-z-]+", "", raw)
+    return raw or str(fallback)
 
 
 def parse_law(xml_text: str) -> Law:
@@ -174,12 +232,11 @@ def parse_law(xml_text: str) -> Law:
             sent_texts = [text_of(s) for s in para.findall("ParagraphSentence")]
             para_text = clean_ws(" ".join([t for t in sent_texts if t]))
 
-            items: list[Item] = []
+            items: list[ClauseNode] = []
             for item_el in para.findall("Item"):
-                it_title = text_of(item_el.find("ItemTitle"))
-                it_text = text_of(item_el.find("ItemSentence"))
-                if it_title or it_text:
-                    items.append(Item(title=it_title, text=it_text))
+                parsed = parse_clause_node(item_el)
+                if parsed is not None:
+                    items.append(parsed)
 
             paragraphs.append(Paragraph(num=para_num, text=para_text, items=items))
 
@@ -227,6 +284,59 @@ def write_index(out_dir: Path, law_code: str, law: Law, law_type: str, egov_id: 
     lines.append("</body>")
     lines.append("</html>")
     (out_dir / "index.html").write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def render_subitems(
+    nodes: list[ClauseNode],
+    para_num: str,
+    item_index: int,
+    item_cite: str,
+    item_cite_id: str,
+    path_prefix: list[str] | None = None,
+) -> list[str]:
+    h = html.escape
+    path_prefix = path_prefix or []
+    depth = len(path_prefix) + 1
+
+    lines: list[str] = []
+    lines.append(
+        f'<ol class="subitems" data-parent-item-index="{item_index}" data-subitem-depth="{depth}">'
+    )
+    for idx, node in enumerate(nodes, start=1):
+        token = norm_subitem_token(node.num, idx)
+        path = [*path_prefix, token]
+        path_str = "-".join(path)
+        subitem_id = f"p{para_num}-i{item_index}-s{path_str}"
+        subitem_text = node_text(node)
+
+        label = node.label
+        if label:
+            cite = f"{item_cite}{label}"
+        else:
+            cite = f"{item_cite}(s{path_str})"
+        cite_id = f"{item_cite_id}:s{path_str}"
+
+        lines.append(
+            f'<li class="subitem" id="{h(subitem_id)}" '
+            f'data-parent-item-index="{item_index}" data-subitem-path="{h(path_str)}" '
+            f'data-subitem-depth="{len(path)}" data-subitem-label="{h(label)}" '
+            f'data-cite="{h(cite)}" data-cite-id="{h(cite_id)}">'
+        )
+        lines.append(f'<span class="subitem-text">{h(subitem_text)}</span>')
+        if node.children:
+            lines.extend(
+                render_subitems(
+                    nodes=node.children,
+                    para_num=para_num,
+                    item_index=item_index,
+                    item_cite=item_cite,
+                    item_cite_id=item_cite_id,
+                    path_prefix=path,
+                )
+            )
+        lines.append("</li>")
+    lines.append("</ol>")
+    return lines
 
 
 def write_article_pages(out_dir: Path, law_code: str, law: Law, law_type: str, egov_id: str, as_of: str) -> None:
@@ -324,14 +434,24 @@ def write_article_pages(out_dir: Path, law_code: str, law: Law, law_type: str, e
                 item_index += 1
                 item_cite = f"{para_cite}第{item_index}号"
                 item_cite_id = f"{para_cite_id}:i{item_index}"
-                item_text = clean_ws(" ".join([t for t in [item.title, item.text] if t]))
+                item_text = node_text(item)
                 if not item_text:
                     continue
                 lines.append(
-                    f'<p class="item" data-item="{h(item.title)}" data-item-index="{item_index}" '
+                    f'<p class="item" data-item="{h(item.label)}" data-item-index="{item_index}" '
                     f'id="p{h(para.num)}-i{item_index}" data-cite="{h(item_cite)}" data-cite-id="{h(item_cite_id)}">'
                     f"{h(item_text)}</p>"
                 )
+                if item.children:
+                    lines.extend(
+                        render_subitems(
+                            nodes=item.children,
+                            para_num=para.num,
+                            item_index=item_index,
+                            item_cite=item_cite,
+                            item_cite_id=item_cite_id,
+                        )
+                    )
             lines.append("</div>")
 
         lines.append("</article>")
@@ -351,14 +471,45 @@ def generate_one(law_code: str, law_id: str, out_enhanced_dir: Path, as_of: str)
 
     out_dir = out_enhanced_dir / law_code
     out_dir.mkdir(parents=True, exist_ok=True)
+    for old in out_dir.glob("*.html"):
+        old.unlink()
     write_index(out_dir=out_dir, law_code=law_code, law=law, law_type=law_type, egov_id=egov_id, as_of=as_of)
     write_article_pages(out_dir=out_dir, law_code=law_code, law=law, law_type=law_type, egov_id=egov_id, as_of=as_of)
 
 
+LAW_ID_MAP: dict[str, str] = {
+    "shotokuzei": "340AC0000000033",
+    "shotokuzei_seirei": "340CO0000000096",
+    "shotokuzei_kisoku": "340M50000040011",
+    "hojinzei": "340AC0000000034",
+    "hojinzei_seirei": "340CO0000000097",
+    "hojinzei_kisoku": "340M50000040012",
+    "shohizei": "363AC0000000108",
+    "shohizei_seirei": "363CO0000000360",
+    "shohizei_kisoku": "363M50000040053",
+    "sozokuzei": "325AC0000000073",
+    "sozokuzei_seirei": "325CO0000000071",
+    "sozokuzei_kisoku": "325M50000040017",
+    "kokuzei_tsusoku": "337AC0000000066",
+    "kokuzei_tsusoku_seirei": "337CO0000000135",
+    "kokuzei_tsusoku_kisoku": "337M50000040028",
+    "sozei_tokubetsu": "332AC0000000026",
+    "sozei_tokubetsu_seirei": "332CO0000000043",
+    "sozei_tokubetsu_kisoku": "332M50000040015",
+}
+
+
+def generate_all(out_enhanced_dir: Path, as_of: str) -> None:
+    for law_code, law_id in LAW_ID_MAP.items():
+        print(f"[generate] {law_code} ({law_id})")
+        generate_one(law_code=law_code, law_id=law_id, out_enhanced_dir=out_enhanced_dir, as_of=as_of)
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Generate enhanced HTML for ai-law-db from e-LAWS")
-    parser.add_argument("--law-code", required=True, help="e.g. shohizei_seirei")
-    parser.add_argument("--law-id", required=True, help="e.g. 363CO0000000360")
+    parser.add_argument("--law-code", help="e.g. shohizei_seirei")
+    parser.add_argument("--law-id", help="e.g. 363CO0000000360")
+    parser.add_argument("--all", action="store_true", help="generate all default laws in LAW_ID_MAP")
     parser.add_argument("--as-of", default="2025-12-27", help="as_of date string embedded in HTML")
     parser.add_argument(
         "--enhanced-dir",
@@ -368,7 +519,19 @@ def main() -> int:
     args = parser.parse_args()
 
     enhanced_dir = Path(args.enhanced_dir)
-    generate_one(law_code=args.law_code, law_id=args.law_id, out_enhanced_dir=enhanced_dir, as_of=args.as_of)
+    if args.all:
+        generate_all(out_enhanced_dir=enhanced_dir, as_of=args.as_of)
+        return 0
+
+    if not args.law_code or not args.law_id:
+        raise SystemExit("--law-code and --law-id are required unless --all is specified")
+
+    generate_one(
+        law_code=args.law_code,
+        law_id=args.law_id,
+        out_enhanced_dir=enhanced_dir,
+        as_of=args.as_of,
+    )
     return 0
 
 

@@ -6,7 +6,8 @@
   "text_url_template": "text/{law_code}/{article}.txt",
   "anchors": {
     "paragraph": "#p{paragraph}",
-    "item": "#p{paragraph}-i{item_index}"
+    "item": "#p{paragraph}-i{item_index}",
+    "subitem": "#p{paragraph}-i{item_index}-s{subitem_path}"
   },
   "law_aliases": {
     "所得税法": "shotokuzei",
@@ -152,7 +153,7 @@
       "egov_id": "340AC0000000033",
       "as_of": "2025-12-27",
       "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei/index.html",
-      "articles_count": 300,
+      "articles_count": 302,
       "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_lite/shotokuzei.json"
     },
     "shotokuzei_kisoku": {
@@ -192,7 +193,7 @@
       "egov_id": null,
       "as_of": "2025-12-27",
       "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_kisoku/index.html",
-      "articles_count": 406,
+      "articles_count": 403,
       "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_lite/sozei_tokubetsu_kisoku.json"
     },
     "sozei_tokubetsu_seirei": {
@@ -202,7 +203,7 @@
       "egov_id": null,
       "as_of": "2025-12-27",
       "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/sozei_tokubetsu_seirei/index.html",
-      "articles_count": 538,
+      "articles_count": 526,
       "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_lite/sozei_tokubetsu_seirei.json"
     },
     "sozokuzei": {
