@@ -2066,7 +2066,7 @@ ${svgCode}
         // PPTXコード検出（PptxGenJS）
         const hasPptx = /new\s+PptxGenJS\s*\(/i.test(trimmed);
         if (hasPptx) {
-          // ユーザーコードをエスケープ（</script>を安全に）
+          // ユーザーコードをエスケープ
           const escapedCode = trimmed.replace(/<\/script/gi, '<\\/script');
           return `<!DOCTYPE html>
 <html><head>
