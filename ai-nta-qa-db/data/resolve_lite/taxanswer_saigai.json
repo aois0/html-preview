@@ -1,0 +1,31 @@
+{
+  "snapshot": "2026-02-07",
+  "base_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db",
+  "enhanced_base_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced",
+  "doc_code": "taxanswer_saigai",
+  "doc_title": "タックスアンサー（災害）",
+  "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/taxanswer_saigai/index.html",
+  "item_url_template": "enhanced/{doc_code}/{item_id}.html",
+  "text_url_template": "text/{doc_code}/{item_id}.txt",
+  "anchors": {
+    "paragraph": "#p{paragraph}"
+  },
+  "items": [
+    "8001",
+    "8002",
+    "8003",
+    "8004",
+    "8005",
+    "8006",
+    "8007",
+    "8008",
+    "8009",
+    "8011",
+    "8012",
+    "8013",
+    "8014",
+    "8015",
+    "8016",
+    "8017"
+  ]
+}

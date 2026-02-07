@@ -1,0 +1,22 @@
+{
+  "snapshot": "2026-02-07",
+  "base_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db",
+  "enhanced_base_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced",
+  "doc_code": "bunshokaito_gensenshotoku",
+  "doc_title": "文書回答事例（源泉所得税）",
+  "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/bunshokaito_gensenshotoku/index.html",
+  "item_url_template": "enhanced/{doc_code}/{item_id}.html",
+  "text_url_template": "text/{doc_code}/{item_id}.txt",
+  "anchors": {
+    "paragraph": "#p{paragraph}"
+  },
+  "items": [
+    "201214-index",
+    "210428-index",
+    "211111-index",
+    "221206-index",
+    "230704-index",
+    "240322-index",
+    "240620-index"
+  ]
+}
