@@ -4,3 +4,7 @@ snapshot: 2025-06-28
 source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/04/04_02_01.htm
 url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/4-2-2.html
 
+[p1] 4−2−1は、販売業者等が製造業者等から広告宣伝用の資産の取得に充てるため金銭の交付を受けた場合について準用する。（平14年課法2−1「十三」により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第2款 未払給与の免除益
+[p4] 第2款 未払給与の免除益

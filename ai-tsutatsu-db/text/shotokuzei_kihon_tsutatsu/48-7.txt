@@ -4,3 +4,4 @@ snapshot: 2025-06-28
 source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/04.htm
 url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/48-7.html
 
+[p1] 47−16の2は、有価証券の評価の方法について変更承認申請書の提出があった場合における令第107条第2項《有価証券の評価の方法の変更手続》の規定の適用について準用する。（昭55直所3−19、直法6−8追加）

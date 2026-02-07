@@ -4,3 +4,4 @@ snapshot: 2025-06-28
 source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/14/02.htm
 url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/14-2-2.html
 
+[p1] （平10課消2−9により削除）

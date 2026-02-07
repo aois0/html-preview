@@ -4,3 +4,4 @@ snapshot: 2025-06-28
 source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_01_03.htm
 url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-1-11.html
 
+[p1] 9−1−7《市場有価証券等の著しい価額の低下の判定》は、令第68条第1項第2号ロ《資産の評価損の計上ができる事実》に掲げる有価証券の価額が著しく低下したことの判定について準用する。（平12年課法2−7「十六」、平15年課法2−7「二十二」、平17年課法2−14「九」、平19年課法2−3「二十一」、平21年課法2−5「七」、令2年課法2−17「六」、令４年課法2−14｢二十三」により改正）

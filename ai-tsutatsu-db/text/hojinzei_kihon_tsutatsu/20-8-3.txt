@@ -4,3 +4,4 @@ snapshot: 2025-06-28
 source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/20a/20_08_02.htm
 url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/20-8-3.html
 
+[p1] 12−2−1から12−2−15まで《滅失損等の計上時期等》及び17−2−2から17−2−7まで《還付金額の計算等》は、法第144条の13第1項《欠損金の繰戻しによる還付》(同条第9項から第11項までにおいて準用する場合を含む。)又は同条第2項(同条第10項又は第11項において準用する場合を含む。)の規定を適用する場合について準用する。

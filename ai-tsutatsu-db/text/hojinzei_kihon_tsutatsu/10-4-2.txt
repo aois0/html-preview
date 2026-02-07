@@ -4,3 +4,7 @@ snapshot: 2025-06-28
 source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/10/10_04.htm
 url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/10-4-2.html
 
+[p1] 10−3−3《工事負担金を受けた事業年度において固定資産が取得できない場合の仮受経理等》は、非出資組合が納付金の納付があった事業年度においてその目的となった固定資産の取得等をすることができなかった場合について準用する。（昭55年直法2−15「二十」により改正）
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第5節 保険金等で取得した資産等の圧縮記帳
+[p4] 第5節 保険金等で取得した資産等の圧縮記帳
