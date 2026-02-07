@@ -1,0 +1,20 @@
+{
+  "snapshot": "2026-02-07",
+  "base_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db",
+  "enhanced_base_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced",
+  "doc_code": "bunshokaito_inshi",
+  "doc_title": "文書回答事例（印紙税）",
+  "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/bunshokaito_inshi/index.html",
+  "item_url_template": "enhanced/{doc_code}/{item_id}.html",
+  "text_url_template": "text/{doc_code}/{item_id}.txt",
+  "anchors": {
+    "paragraph": "#p{paragraph}"
+  },
+  "items": [
+    "050810-index",
+    "090121-index",
+    "100419-index",
+    "111212-index",
+    "180629-index"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "snapshot": "2026-02-07",
+  "base_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db",
+  "enhanced_base_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced",
+  "doc_code": "taxanswer_osirase",
+  "doc_title": "タックスアンサー（お知らせ）",
+  "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/taxanswer_osirase/index.html",
+  "item_url_template": "enhanced/{doc_code}/{item_id}.html",
+  "text_url_template": "text/{doc_code}/{item_id}.txt",
+  "anchors": {
+    "paragraph": "#p{paragraph}"
+  },
+  "items": [
+    "9000",
+    "9201",
+    "9203",
+    "9204",
+    "9205",
+    "9206",
+    "9207",
+    "9208",
+    "9209",
+    "9210"
+  ]
+}
