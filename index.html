@@ -914,6 +914,15 @@
             const textMatch = content.match(/<text[^>]*>([^<]+)<\/text>/i);
             if (textMatch?.[1]) title = textMatch[1].trim();
           }
+        } else if (type === 'PPTX') {
+          // pptx.title = "..." からタイトル取得
+          const titleMatch = content.match(/\.title\s*=\s*['"]([^'"]+)['"]/);
+          if (titleMatch?.[1]) title = titleMatch[1].trim();
+          // なければ最初のaddTextの文字列
+          if (!title) {
+            const textMatch = content.match(/addText\s*\(\s*['"]([^'"]+)['"]/);
+            if (textMatch?.[1]) title = textMatch[1].trim();
+          }
         } else if (type === 'TEXT') {
           title = content.trim().split('\n')[0];
         }
@@ -1405,8 +1414,9 @@
         const hasSvg = /<svg[\s>]/i.test(trimmed);
         const isSvg = hasSvg && !hasHtmlDoc;
         const hasHtmlTag = /<([a-zA-Z][\w:-]*)(\s[^>]*)?>/.test(trimmed);
+        const hasPptx = /new\s+PptxGenJS\s*\(/i.test(trimmed);
         // loadedFileがあればそのタイプを優先
-        const type = loadedFile?.type || (hasHtmlDoc ? 'HTML' : isSvg ? 'SVG' : hasHtmlTag ? 'HTML' : 'TEXT');
+        const type = loadedFile?.type || (hasPptx ? 'PPTX' : hasHtmlDoc ? 'HTML' : isSvg ? 'SVG' : hasHtmlTag ? 'HTML' : 'TEXT');
         const content = isSvg ? extractSvgTag(trimmed) : code;
         let title = '';
 
@@ -1752,7 +1762,8 @@ ${svgCode}
         const hasSvg = /<svg[\s>]/i.test(trimmed);
         const isSvg = hasSvg && !hasHtmlDoc;
         const hasHtmlTag = /<([a-zA-Z][\w:-]*)(\s[^>]*)?>/.test(trimmed);
-        const type = loadedFile?.type || (hasHtmlDoc ? 'HTML' : isSvg ? 'SVG' : hasHtmlTag ? 'HTML' : 'TEXT');
+        const hasPptx = /new\s+PptxGenJS\s*\(/i.test(trimmed);
+        const type = loadedFile?.type || (hasPptx ? 'PPTX' : hasHtmlDoc ? 'HTML' : isSvg ? 'SVG' : hasHtmlTag ? 'HTML' : 'TEXT');
 
         const currentItem = {
           id: Date.now(),
@@ -2052,6 +2063,112 @@ ${svgCode}
         const hasSvg = /<svg[\s>]/i.test(trimmed);
         const hasHtmlTag = /<([a-zA-Z][\w:-]*)(\s[^>]*)?>/.test(trimmed);
 
+        // PPTXコード検出（PptxGenJS）
+        const hasPptx = /new\s+PptxGenJS\s*\(/i.test(trimmed);
+        if (hasPptx) {
+          // ユーザーコードをエスケープ（</script>を安全に）
+          const escapedCode = trimmed.replace(/<\/script/gi, '<\\/script');
+          return `<!DOCTYPE html>
+<html><head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#e5e7eb;padding:16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+.slide-container{margin:0 auto 20px;max-width:960px}
+.slide-label{font-size:11px;color:#6b7280;margin-bottom:4px;padding-left:4px}
+.slide{position:relative;width:100%;aspect-ratio:16/9;background:white;box-shadow:0 2px 12px rgba(0,0,0,0.15);border-radius:4px;overflow:hidden}
+.slide-element{position:absolute;overflow:hidden}
+.error{color:#ef4444;padding:20px;font-size:14px;background:#fef2f2;border-radius:8px;margin:20px}
+</style>
+</head><body>
+<scr` + `ipt>
+var _slides=[];
+var PptxGenJS=function(){this._title='';this._author='';this._layout='LAYOUT_16x9';this._slideW=10;this._slideH=5.625;_slides=[]};
+PptxGenJS.prototype.addSlide=function(o){var s={_el:[],_bg:o&&o.background||null};
+s.addText=function(t,o){var tx=[];if(typeof t==='string')tx=[{text:t,options:o||{}}];else if(Array.isArray(t))t.forEach(function(i){tx.push(typeof i==='string'?{text:i,options:{}}:{text:i.text||'',options:i.options||i})});this._el.push({type:'text',texts:tx,opts:o||{}});return this};
+s.addImage=function(o){this._el.push({type:'image',opts:o||{}});return this};
+s.addShape=function(n,o){this._el.push({type:'shape',opts:o||{}});return this};
+s.addTable=function(r,o){this._el.push({type:'table',rows:r||[],opts:o||{}});return this};
+s.addChart=function(){return this};
+s.addMedia=function(){return this};
+s.addNotes=function(){return this};
+Object.defineProperty(s,'background',{get:function(){return this._bg},set:function(v){this._bg=v}});
+_slides.push(s);return s};
+Object.defineProperty(PptxGenJS.prototype,'title',{get:function(){return this._title},set:function(v){this._title=v}});
+Object.defineProperty(PptxGenJS.prototype,'author',{get:function(){return this._author},set:function(v){this._author=v}});
+Object.defineProperty(PptxGenJS.prototype,'layout',{get:function(){return this._layout},set:function(v){this._layout=v;if(v==='LAYOUT_4x3'){this._slideW=10;this._slideH=7.5}else{this._slideW=10;this._slideH=5.625}}});
+PptxGenJS.prototype.defineLayout=function(){};
+PptxGenJS.prototype.writeFile=function(){return Promise.resolve()};
+PptxGenJS.prototype.write=function(){return Promise.resolve('')};
+PptxGenJS.prototype.stream=function(){return Promise.resolve(new Blob())};
+var pptxgen=PptxGenJS;
+try{${escapedCode}}catch(e){document.body.innerHTML='<div class="error">Error: '+e.message+'</div>'}
+function toC(c){if(!c)return'inherit';if(typeof c!=='string')return'inherit';if(c.startsWith('#'))return c;if(c.startsWith('rgb'))return c;if(/^[0-9A-Fa-f]{6}$/.test(c))return'#'+c;if(/^[0-9A-Fa-f]{3}$/.test(c))return'#'+c;return c}
+function render(){
+var SW=10,SH=5.625;
+if(_slides.length===0){document.body.innerHTML='<div class="error">スライドが検出されませんでした</div>';return}
+_slides.forEach(function(s,idx){
+var c=document.createElement('div');c.className='slide-container';
+var lb=document.createElement('div');lb.className='slide-label';lb.textContent='Slide '+(idx+1)+' / '+_slides.length;c.appendChild(lb);
+var d=document.createElement('div');d.className='slide';
+var bg=s._bg;if(bg){if(typeof bg==='string')d.style.background=toC(bg);else if(bg.color)d.style.background=toC(bg.color);else if(bg.fill)d.style.background=toC(bg.fill)}
+s._el.forEach(function(el){
+if(el.type==='text'){
+var div=document.createElement('div');div.className='slide-element';var o=el.opts;
+div.style.left=((o.x||0)/SW*100)+'%';div.style.top=((o.y||0)/SH*100)+'%';
+if(o.w)div.style.width=(o.w/SW*100)+'%';if(o.h)div.style.height=(o.h/SH*100)+'%';
+div.style.fontSize=((o.fontSize||18)*0.75)+'px';div.style.color=toC(o.color)||'#000';
+div.style.fontWeight=o.bold?'bold':'normal';div.style.fontStyle=o.italic?'italic':'normal';
+div.style.textAlign=o.align||'left';div.style.display='flex';div.style.flexDirection='column';
+div.style.justifyContent=o.valign==='middle'?'center':o.valign==='bottom'?'flex-end':'flex-start';
+div.style.padding='4px';div.style.whiteSpace='pre-wrap';div.style.wordBreak='break-word';
+if(o.lineSpacing)div.style.lineHeight=(o.lineSpacing/(o.fontSize||18));
+if(o.fill){var fc=typeof o.fill==='object'?o.fill.color:o.fill;if(fc)div.style.background=toC(fc)}
+if(o.fontFace)div.style.fontFamily=o.fontFace;
+if(o.underline)div.style.textDecoration='underline';
+el.texts.forEach(function(t){var sp=document.createElement('span');var to=t.options||{};
+sp.textContent=t.text||'';
+if(to.bold)sp.style.fontWeight='bold';if(to.italic)sp.style.fontStyle='italic';
+if(to.color)sp.style.color=toC(to.color);if(to.fontSize)sp.style.fontSize=(to.fontSize*0.75)+'px';
+if(to.underline)sp.style.textDecoration='underline';if(to.fontFace)sp.style.fontFamily=to.fontFace;
+div.appendChild(sp)});
+if(o.shape&&o.shape==='rect'&&o.rectRadius)div.style.borderRadius=o.rectRadius+'px';
+d.appendChild(div)}
+else if(el.type==='shape'){
+var div=document.createElement('div');div.className='slide-element';var o=el.opts;
+div.style.left=((o.x||0)/SW*100)+'%';div.style.top=((o.y||0)/SH*100)+'%';
+div.style.width=((o.w||1)/SW*100)+'%';div.style.height=((o.h||0.5)/SH*100)+'%';
+if(o.fill){var fc=typeof o.fill==='object'?o.fill.color:o.fill;if(fc)div.style.background=toC(fc)}
+if(o.line){var lc=typeof o.line==='object'?o.line.color:o.line;div.style.border='2px solid '+toC(lc)}
+if(o.rectRadius)div.style.borderRadius=o.rectRadius+'px';
+d.appendChild(div)}
+else if(el.type==='image'){
+var div=document.createElement('div');div.className='slide-element';var o=el.opts;
+div.style.left=((o.x||0)/SW*100)+'%';div.style.top=((o.y||0)/SH*100)+'%';
+if(o.w)div.style.width=(o.w/SW*100)+'%';if(o.h)div.style.height=(o.h/SH*100)+'%';
+var img=document.createElement('img');img.src=o.data||o.path||'';img.style.width='100%';img.style.height='100%';img.style.objectFit='contain';
+img.onerror=function(){this.style.display='none';var p=document.createElement('div');p.textContent='[Image]';p.style.cssText='display:flex;align-items:center;justify-content:center;width:100%;height:100%;background:#f3f4f6;color:#9ca3af;font-size:12px';div.appendChild(p)};
+div.appendChild(img);d.appendChild(div)}
+else if(el.type==='table'){
+var div=document.createElement('div');div.className='slide-element';var o=el.opts;
+div.style.left=((o.x||0.5)/SW*100)+'%';div.style.top=((o.y||0.5)/SH*100)+'%';
+if(o.w)div.style.width=(o.w/SW*100)+'%';else div.style.width='90%';
+var tbl=document.createElement('table');tbl.style.cssText='width:100%;border-collapse:collapse;font-size:'+((o.fontSize||12)*0.75)+'px';
+el.rows.forEach(function(row,ri){var tr=document.createElement('tr');
+if(Array.isArray(row))row.forEach(function(cell){var td=document.createElement(ri===0?'th':'td');
+td.style.cssText='border:1px solid #d1d5db;padding:3px 6px;text-align:left';
+if(ri===0){td.style.fontWeight='bold';td.style.background='#f3f4f6'}
+if(typeof cell==='string')td.textContent=cell;
+else if(cell&&cell.text){td.textContent=cell.text;if(cell.options){if(cell.options.fill)td.style.background=toC(typeof cell.options.fill==='object'?cell.options.fill.color:cell.options.fill);if(cell.options.color)td.style.color=toC(cell.options.color);if(cell.options.bold)td.style.fontWeight='bold'}}
+tr.appendChild(td)});tbl.appendChild(tr)});
+div.appendChild(tbl);d.appendChild(div)}
+});
+c.appendChild(d);document.body.appendChild(c)});
+}
+render();
+</scr` + `ipt></body></html>`;
+        }
+
         // Markdown検出（HTML/SVGでない場合）- #や*が2回以上あればMD
         const checkMarkdown = (text) => {
           // 見出し # が2回以上
@@ -2304,6 +2421,10 @@ ${scrollScript}
         const hasSvg = /<svg[\s>]/i.test(trimmed);
         if (hasSvg) return 'SVG';
 
+        // PptxGenJSコード検出
+        const hasPptx = /new\s+PptxGenJS\s*\(/i.test(trimmed);
+        if (hasPptx) return 'PPTX';
+
         // その他のHTMLタグが含まれる
         const hasHtmlTag = /<([a-zA-Z][\w:-]*)(\s[^>]*)?>/.test(trimmed);
         if (hasHtmlTag) return 'HTML';
@@ -2475,6 +2596,22 @@ ${scrollScript}
       }, [code, currentMode]);
 
       const handleDownload = useCallback(async () => {
+        // PPTX: PptxGenJSを遅延読み込みしてコード実行
+        if (currentMode === 'PPTX') {
+          try {
+            if (!window.PptxGenJS) {
+              showToast('PptxGenJS\n読み込み中...', 2000, 'info');
+              const script = document.createElement('script');
+              script.src = 'https://cdn.jsdelivr.net/gh/gitbrent/PptxGenJS@3.12.0/dist/pptxgen.bundle.js';
+              await new Promise((resolve, reject) => { script.onload = resolve; script.onerror = reject; document.head.appendChild(script); });
+            }
+            new Function(code)();
+          } catch (e) {
+            console.error('PPTX generation failed:', e);
+            showToast('PPTX生成に\n失敗しました', 3000, 'error');
+          }
+          return;
+        }
         const isSvg = currentMode === 'SVG';
         // UTF-8 BOMを追加して文字化け防止
         const BOM = '\uFEFF';
@@ -3304,6 +3441,16 @@ ${content}
                       >
                         <div style={{ transform: `scale(${zoomLevel * 0.8 / 100})`, transformOrigin: 'top left', width: `${12500 / zoomLevel}%` }} dangerouslySetInnerHTML={{ __html: extractSvgTag(debouncedCode.trim()) }} />
                       </div>
+                    ) : currentMode === 'PPTX' ? (
+                      <div className="w-full h-full relative overflow-auto">
+                        <iframe
+                          srcDoc={previewCode}
+                          title="PPTX Preview"
+                          className="w-full h-full border-0"
+                          sandbox="allow-scripts"
+                          onScroll={handlePreviewScroll}
+                        />
+                      </div>
                     ) : currentMode === 'TEXT' ? (
                       <div className="w-full h-full relative overflow-auto">
                         <iframe
@@ -3847,6 +3994,8 @@ ${content}
                 className={`px-2 py-0.5 text-xs rounded-full font-medium ${
                   currentMode === 'SVG'
                     ? 'bg-purple-600 text-white'
+                    : currentMode === 'PPTX'
+                    ? 'bg-red-600 text-white'
                     : currentMode === 'TEXT'
                     ? 'text-white'
                     : 'bg-blue-600 text-white'
@@ -4052,6 +4201,13 @@ ${content}
                     className="w-full h-full bg-gray-100 overflow-auto p-4"
                     style={{ userSelect: 'text', WebkitUserSelect: 'text' }}
                     dangerouslySetInnerHTML={{ __html: extractSvgTag(debouncedCode.trim()) }}
+                  />
+                ) : currentMode === 'PPTX' ? (
+                  <iframe
+                    srcDoc={previewCode}
+                    title="PPTX Preview"
+                    className="w-full h-full border-0"
+                    sandbox="allow-scripts"
                   />
                 ) : currentMode === 'TEXT' ? (
                   <iframe
@@ -4261,8 +4417,8 @@ ${content}
                                 <span
                                   className="px-1.5 py-0.5 rounded text-xs font-medium"
                                   style={{
-                                    backgroundColor: item.type?.toLowerCase() === 'svg' ? 'rgba(168, 85, 247, 0.2)' : 'rgba(59, 130, 246, 0.2)',
-                                    color: item.type?.toLowerCase() === 'svg' ? '#a855f7' : '#3b82f6'
+                                    backgroundColor: item.type?.toLowerCase() === 'svg' ? 'rgba(168, 85, 247, 0.2)' : item.type?.toLowerCase() === 'pptx' ? 'rgba(239, 68, 68, 0.2)' : 'rgba(59, 130, 246, 0.2)',
+                                    color: item.type?.toLowerCase() === 'svg' ? '#a855f7' : item.type?.toLowerCase() === 'pptx' ? '#ef4444' : '#3b82f6'
                                   }}
                                 >
                                   {item.type?.toUpperCase() || 'HTML'}
