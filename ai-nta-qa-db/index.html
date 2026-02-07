@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI向け NTA QA DB</title>
+  <meta name="description" content="国税庁の質疑応答事例・文書回答事例・タックスアンサーをAI向けに最適化したDB" />
+  <link rel="alternate" type="text/plain" href="llms.txt" title="LLM Site Map" />
+  <style>
+    body { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; line-height: 1.7; max-width: 900px; margin: 0 auto; padding: 24px; }
+    .meta { color: #555; }
+    code { background: #f3f3f3; padding: 0 6px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <h1>AI向け NTA QA DB</h1>
+  <p class="meta">質疑応答事例・文書回答事例・タックスアンサーを、1項目=1ページで提供します。</p>
+  <ul>
+    <li><a href="quickstart.txt">quickstart.txt</a></li>
+    <li><a href="llms.txt">llms.txt</a></li>
+    <li><a href="data/shards_index.json">data/shards_index.json</a></li>
+    <li><a href="data/docs_index.tsv">data/docs_index.tsv</a></li>
+    <li><a href="data/resolve_lite/index.json">data/resolve_lite/index.json</a></li>
+  </ul>
+  <h2>ドキュメント一覧</h2>
+  <ul>
+    <li><a href="enhanced/bunshokaito_gensen/index.html">文書回答事例（源泉所得税）</a> (<code>bunshokaito_gensen</code>, 25件)</li>
+    <li><a href="enhanced/bunshokaito_gensenshotoku/index.html">文書回答事例（源泉所得税）</a> (<code>bunshokaito_gensenshotoku</code>, 7件)</li>
+    <li><a href="enhanced/bunshokaito_hojin/index.html">文書回答事例（法人税）</a> (<code>bunshokaito_hojin</code>, 188件)</li>
+    <li><a href="enhanced/bunshokaito_hyoka/index.html">文書回答事例（財産評価）</a> (<code>bunshokaito_hyoka</code>, 4件)</li>
+    <li><a href="enhanced/bunshokaito_inshi/index.html">文書回答事例（印紙税）</a> (<code>bunshokaito_inshi</code>, 5件)</li>
+    <li><a href="enhanced/bunshokaito_inshi-sonota/index.html">文書回答事例（印紙税・その他）</a> (<code>bunshokaito_inshi-sonota</code>, 1件)</li>
+    <li><a href="enhanced/bunshokaito_joto-sanrin/index.html">文書回答事例（譲渡所得・山林所得）</a> (<code>bunshokaito_joto-sanrin</code>, 40件)</li>
+    <li><a href="enhanced/bunshokaito_shohi/index.html">文書回答事例（消費税）</a> (<code>bunshokaito_shohi</code>, 67件)</li>
+    <li><a href="enhanced/bunshokaito_shotoku/index.html">文書回答事例（所得税）</a> (<code>bunshokaito_shotoku</code>, 157件)</li>
+    <li><a href="enhanced/bunshokaito_shozei/index.html">文書回答事例（諸税）</a> (<code>bunshokaito_shozei</code>, 7件)</li>
+    <li><a href="enhanced/bunshokaito_sonota/index.html">文書回答事例（その他の国税）</a> (<code>bunshokaito_sonota</code>, 5件)</li>
+    <li><a href="enhanced/bunshokaito_souzoku/index.html">文書回答事例（相続税）</a> (<code>bunshokaito_souzoku</code>, 10件)</li>
+    <li><a href="enhanced/bunshokaito_sozoku/index.html">文書回答事例（相続税）</a> (<code>bunshokaito_sozoku</code>, 13件)</li>
+    <li><a href="enhanced/bunshokaito_zouyo/index.html">文書回答事例（贈与税）</a> (<code>bunshokaito_zouyo</code>, 2件)</li>
+    <li><a href="enhanced/bunshokaito_zoyo/index.html">文書回答事例（贈与税）</a> (<code>bunshokaito_zoyo</code>, 12件)</li>
+    <li><a href="enhanced/shitsugi_gensen/index.html">質疑応答事例（源泉所得税）</a> (<code>shitsugi_gensen</code>, 153件)</li>
+    <li><a href="enhanced/shitsugi_hojin/index.html">質疑応答事例（法人税）</a> (<code>shitsugi_hojin</code>, 307件)</li>
+    <li><a href="enhanced/shitsugi_hotei/index.html">質疑応答事例（法定調書）</a> (<code>shitsugi_hotei</code>, 1件)</li>
+    <li><a href="enhanced/shitsugi_hyoka/index.html">質疑応答事例（財産の評価）</a> (<code>shitsugi_hyoka</code>, 172件)</li>
+    <li><a href="enhanced/shitsugi_inshi/index.html">質疑応答事例（印紙税）</a> (<code>shitsugi_inshi</code>, 243件)</li>
+    <li><a href="enhanced/shitsugi_joto/index.html">質疑応答事例（譲渡所得）</a> (<code>shitsugi_joto</code>, 255件)</li>
+    <li><a href="enhanced/shitsugi_shohi/index.html">質疑応答事例（消費税）</a> (<code>shitsugi_shohi</code>, 272件)</li>
+    <li><a href="enhanced/shitsugi_shotoku/index.html">質疑応答事例（所得税）</a> (<code>shitsugi_shotoku</code>, 261件)</li>
+    <li><a href="enhanced/shitsugi_sozoku/index.html">質疑応答事例（相続税・贈与税）</a> (<code>shitsugi_sozoku</code>, 129件)</li>
+    <li><a href="enhanced/taxanswer_fufuku/index.html">タックスアンサー（不服申立て）</a> (<code>taxanswer_fufuku</code>, 2件)</li>
+    <li><a href="enhanced/taxanswer_gensen/index.html">タックスアンサー（源泉所得税）</a> (<code>taxanswer_gensen</code>, 66件)</li>
+    <li><a href="enhanced/taxanswer_hojin/index.html">タックスアンサー（法人）</a> (<code>taxanswer_hojin</code>, 106件)</li>
+    <li><a href="enhanced/taxanswer_hotei/index.html">タックスアンサー（法定調書）</a> (<code>taxanswer_hotei</code>, 14件)</li>
+    <li><a href="enhanced/taxanswer_hyoka/index.html">タックスアンサー（財産評価）</a> (<code>taxanswer_hyoka</code>, 29件)</li>
+    <li><a href="enhanced/taxanswer_inshi/index.html">タックスアンサー（印紙税）</a> (<code>taxanswer_inshi</code>, 30件)</li>
+    <li><a href="enhanced/taxanswer_joto/index.html">タックスアンサー（譲渡所得）</a> (<code>taxanswer_joto</code>, 71件)</li>
+    <li><a href="enhanced/taxanswer_osirase/index.html">タックスアンサー（お知らせ）</a> (<code>taxanswer_osirase</code>, 10件)</li>
+    <li><a href="enhanced/taxanswer_saigai/index.html">タックスアンサー（災害）</a> (<code>taxanswer_saigai</code>, 16件)</li>
+    <li><a href="enhanced/taxanswer_shohi/index.html">タックスアンサー（消費税）</a> (<code>taxanswer_shohi</code>, 114件)</li>
+    <li><a href="enhanced/taxanswer_shotoku/index.html">タックスアンサー（所得税）</a> (<code>taxanswer_shotoku</code>, 206件)</li>
+    <li><a href="enhanced/taxanswer_sozoku/index.html">タックスアンサー（相続税）</a> (<code>taxanswer_sozoku</code>, 52件)</li>
+    <li><a href="enhanced/taxanswer_zoyo/index.html">タックスアンサー（贈与税）</a> (<code>taxanswer_zoyo</code>, 28件)</li>
+  </ul>
+</body>
+</html>

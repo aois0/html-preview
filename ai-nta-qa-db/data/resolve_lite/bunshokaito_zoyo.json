@@ -1,0 +1,27 @@
+{
+  "snapshot": "2026-02-07",
+  "base_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db",
+  "enhanced_base_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced",
+  "doc_code": "bunshokaito_zoyo",
+  "doc_title": "文書回答事例（贈与税）",
+  "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/bunshokaito_zoyo/index.html",
+  "item_url_template": "enhanced/{doc_code}/{item_id}.html",
+  "text_url_template": "text/{doc_code}/{item_id}.txt",
+  "anchors": {
+    "paragraph": "#p{paragraph}"
+  },
+  "items": [
+    "011115-01",
+    "040616-02",
+    "050427-01",
+    "050707-01",
+    "070226-index",
+    "100302-index",
+    "100414-01",
+    "110225-index",
+    "150528-01",
+    "160330-01",
+    "200109-01",
+    "991018-01"
+  ]
+}

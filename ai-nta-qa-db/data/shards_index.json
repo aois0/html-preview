@@ -1,0 +1,641 @@
+{
+  "base_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db",
+  "generated_at": "2026-02-07T08:16:32.027053+00:00",
+  "total_rows": 3080,
+  "shard_size": 120,
+  "fields": [
+    "id",
+    "source_kind",
+    "doc_code",
+    "doc_title",
+    "item_id",
+    "item_title",
+    "snippet",
+    "url",
+    "text_url",
+    "source_url"
+  ],
+  "docs": [
+    {
+      "doc_code": "bunshokaito_gensen",
+      "doc_title": "文書回答事例（源泉所得税）",
+      "source_kind": "bunshokaito",
+      "items_count": 25,
+      "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/bunshokaito_gensen/index.html",
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/data/resolve_lite/bunshokaito_gensen.json"
+    },
+    {
+      "doc_code": "bunshokaito_gensenshotoku",
+      "doc_title": "文書回答事例（源泉所得税）",
+      "source_kind": "bunshokaito",
+      "items_count": 7,
+      "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/bunshokaito_gensenshotoku/index.html",
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/data/resolve_lite/bunshokaito_gensenshotoku.json"
+    },
+    {
+      "doc_code": "bunshokaito_hojin",
+      "doc_title": "文書回答事例（法人税）",
+      "source_kind": "bunshokaito",
+      "items_count": 188,
+      "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/bunshokaito_hojin/index.html",
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/data/resolve_lite/bunshokaito_hojin.json"
+    },
+    {
+      "doc_code": "bunshokaito_hyoka",
+      "doc_title": "文書回答事例（財産評価）",
+      "source_kind": "bunshokaito",
+      "items_count": 4,
+      "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/bunshokaito_hyoka/index.html",
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/data/resolve_lite/bunshokaito_hyoka.json"
+    },
+    {
+      "doc_code": "bunshokaito_inshi",
+      "doc_title": "文書回答事例（印紙税）",
+      "source_kind": "bunshokaito",
+      "items_count": 5,
+      "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/bunshokaito_inshi/index.html",
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/data/resolve_lite/bunshokaito_inshi.json"
+    },
+    {
+      "doc_code": "bunshokaito_inshi-sonota",
+      "doc_title": "文書回答事例（印紙税・その他）",
+      "source_kind": "bunshokaito",
+      "items_count": 1,
+      "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/bunshokaito_inshi-sonota/index.html",
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/data/resolve_lite/bunshokaito_inshi-sonota.json"
+    },
+    {
+      "doc_code": "bunshokaito_joto-sanrin",
+      "doc_title": "文書回答事例（譲渡所得・山林所得）",
+      "source_kind": "bunshokaito",
+      "items_count": 40,
+      "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/bunshokaito_joto-sanrin/index.html",
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/data/resolve_lite/bunshokaito_joto-sanrin.json"
+    },
+    {
+      "doc_code": "bunshokaito_shohi",
+      "doc_title": "文書回答事例（消費税）",
+      "source_kind": "bunshokaito",
+      "items_count": 67,
+      "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/bunshokaito_shohi/index.html",
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/data/resolve_lite/bunshokaito_shohi.json"
+    },
+    {
+      "doc_code": "bunshokaito_shotoku",
+      "doc_title": "文書回答事例（所得税）",
+      "source_kind": "bunshokaito",
+      "items_count": 157,
+      "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/bunshokaito_shotoku/index.html",
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/data/resolve_lite/bunshokaito_shotoku.json"
+    },
+    {
+      "doc_code": "bunshokaito_shozei",
+      "doc_title": "文書回答事例（諸税）",
+      "source_kind": "bunshokaito",
+      "items_count": 7,
+      "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/bunshokaito_shozei/index.html",
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/data/resolve_lite/bunshokaito_shozei.json"
+    },
+    {
+      "doc_code": "bunshokaito_sonota",
+      "doc_title": "文書回答事例（その他の国税）",
+      "source_kind": "bunshokaito",
+      "items_count": 5,
+      "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/bunshokaito_sonota/index.html",
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/data/resolve_lite/bunshokaito_sonota.json"
+    },
+    {
+      "doc_code": "bunshokaito_souzoku",
+      "doc_title": "文書回答事例（相続税）",
+      "source_kind": "bunshokaito",
+      "items_count": 10,
+      "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/bunshokaito_souzoku/index.html",
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/data/resolve_lite/bunshokaito_souzoku.json"
+    },
+    {
+      "doc_code": "bunshokaito_sozoku",
+      "doc_title": "文書回答事例（相続税）",
+      "source_kind": "bunshokaito",
+      "items_count": 13,
+      "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/bunshokaito_sozoku/index.html",
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/data/resolve_lite/bunshokaito_sozoku.json"
+    },
+    {
+      "doc_code": "bunshokaito_zouyo",
+      "doc_title": "文書回答事例（贈与税）",
+      "source_kind": "bunshokaito",
+      "items_count": 2,
+      "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/bunshokaito_zouyo/index.html",
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/data/resolve_lite/bunshokaito_zouyo.json"
+    },
+    {
+      "doc_code": "bunshokaito_zoyo",
+      "doc_title": "文書回答事例（贈与税）",
+      "source_kind": "bunshokaito",
+      "items_count": 12,
+      "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/bunshokaito_zoyo/index.html",
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/data/resolve_lite/bunshokaito_zoyo.json"
+    },
+    {
+      "doc_code": "shitsugi_gensen",
+      "doc_title": "質疑応答事例（源泉所得税）",
+      "source_kind": "shitsugi",
+      "items_count": 153,
+      "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/shitsugi_gensen/index.html",
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/data/resolve_lite/shitsugi_gensen.json"
+    },
+    {
+      "doc_code": "shitsugi_hojin",
+      "doc_title": "質疑応答事例（法人税）",
+      "source_kind": "shitsugi",
+      "items_count": 307,
+      "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/shitsugi_hojin/index.html",
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/data/resolve_lite/shitsugi_hojin.json"
+    },
+    {
+      "doc_code": "shitsugi_hotei",
+      "doc_title": "質疑応答事例（法定調書）",
+      "source_kind": "shitsugi",
+      "items_count": 1,
+      "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/shitsugi_hotei/index.html",
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/data/resolve_lite/shitsugi_hotei.json"
+    },
+    {
+      "doc_code": "shitsugi_hyoka",
+      "doc_title": "質疑応答事例（財産の評価）",
+      "source_kind": "shitsugi",
+      "items_count": 172,
+      "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/shitsugi_hyoka/index.html",
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/data/resolve_lite/shitsugi_hyoka.json"
+    },
+    {
+      "doc_code": "shitsugi_inshi",
+      "doc_title": "質疑応答事例（印紙税）",
+      "source_kind": "shitsugi",
+      "items_count": 243,
+      "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/shitsugi_inshi/index.html",
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/data/resolve_lite/shitsugi_inshi.json"
+    },
+    {
+      "doc_code": "shitsugi_joto",
+      "doc_title": "質疑応答事例（譲渡所得）",
+      "source_kind": "shitsugi",
+      "items_count": 255,
+      "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/shitsugi_joto/index.html",
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/data/resolve_lite/shitsugi_joto.json"
+    },
+    {
+      "doc_code": "shitsugi_shohi",
+      "doc_title": "質疑応答事例（消費税）",
+      "source_kind": "shitsugi",
+      "items_count": 272,
+      "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/shitsugi_shohi/index.html",
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/data/resolve_lite/shitsugi_shohi.json"
+    },
+    {
+      "doc_code": "shitsugi_shotoku",
+      "doc_title": "質疑応答事例（所得税）",
+      "source_kind": "shitsugi",
+      "items_count": 261,
+      "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/shitsugi_shotoku/index.html",
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/data/resolve_lite/shitsugi_shotoku.json"
+    },
+    {
+      "doc_code": "shitsugi_sozoku",
+      "doc_title": "質疑応答事例（相続税・贈与税）",
+      "source_kind": "shitsugi",
+      "items_count": 129,
+      "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/shitsugi_sozoku/index.html",
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/data/resolve_lite/shitsugi_sozoku.json"
+    },
+    {
+      "doc_code": "taxanswer_fufuku",
+      "doc_title": "タックスアンサー（不服申立て）",
+      "source_kind": "taxanswer",
+      "items_count": 2,
+      "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/taxanswer_fufuku/index.html",
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/data/resolve_lite/taxanswer_fufuku.json"
+    },
+    {
+      "doc_code": "taxanswer_gensen",
+      "doc_title": "タックスアンサー（源泉所得税）",
+      "source_kind": "taxanswer",
+      "items_count": 66,
+      "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/taxanswer_gensen/index.html",
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/data/resolve_lite/taxanswer_gensen.json"
+    },
+    {
+      "doc_code": "taxanswer_hojin",
+      "doc_title": "タックスアンサー（法人）",
+      "source_kind": "taxanswer",
+      "items_count": 106,
+      "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/taxanswer_hojin/index.html",
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/data/resolve_lite/taxanswer_hojin.json"
+    },
+    {
+      "doc_code": "taxanswer_hotei",
+      "doc_title": "タックスアンサー（法定調書）",
+      "source_kind": "taxanswer",
+      "items_count": 14,
+      "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/taxanswer_hotei/index.html",
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/data/resolve_lite/taxanswer_hotei.json"
+    },
+    {
+      "doc_code": "taxanswer_hyoka",
+      "doc_title": "タックスアンサー（財産評価）",
+      "source_kind": "taxanswer",
+      "items_count": 29,
+      "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/taxanswer_hyoka/index.html",
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/data/resolve_lite/taxanswer_hyoka.json"
+    },
+    {
+      "doc_code": "taxanswer_inshi",
+      "doc_title": "タックスアンサー（印紙税）",
+      "source_kind": "taxanswer",
+      "items_count": 30,
+      "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/taxanswer_inshi/index.html",
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/data/resolve_lite/taxanswer_inshi.json"
+    },
+    {
+      "doc_code": "taxanswer_joto",
+      "doc_title": "タックスアンサー（譲渡所得）",
+      "source_kind": "taxanswer",
+      "items_count": 71,
+      "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/taxanswer_joto/index.html",
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/data/resolve_lite/taxanswer_joto.json"
+    },
+    {
+      "doc_code": "taxanswer_osirase",
+      "doc_title": "タックスアンサー（お知らせ）",
+      "source_kind": "taxanswer",
+      "items_count": 10,
+      "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/taxanswer_osirase/index.html",
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/data/resolve_lite/taxanswer_osirase.json"
+    },
+    {
+      "doc_code": "taxanswer_saigai",
+      "doc_title": "タックスアンサー（災害）",
+      "source_kind": "taxanswer",
+      "items_count": 16,
+      "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/taxanswer_saigai/index.html",
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/data/resolve_lite/taxanswer_saigai.json"
+    },
+    {
+      "doc_code": "taxanswer_shohi",
+      "doc_title": "タックスアンサー（消費税）",
+      "source_kind": "taxanswer",
+      "items_count": 114,
+      "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/taxanswer_shohi/index.html",
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/data/resolve_lite/taxanswer_shohi.json"
+    },
+    {
+      "doc_code": "taxanswer_shotoku",
+      "doc_title": "タックスアンサー（所得税）",
+      "source_kind": "taxanswer",
+      "items_count": 206,
+      "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/taxanswer_shotoku/index.html",
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/data/resolve_lite/taxanswer_shotoku.json"
+    },
+    {
+      "doc_code": "taxanswer_sozoku",
+      "doc_title": "タックスアンサー（相続税）",
+      "source_kind": "taxanswer",
+      "items_count": 52,
+      "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/taxanswer_sozoku/index.html",
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/data/resolve_lite/taxanswer_sozoku.json"
+    },
+    {
+      "doc_code": "taxanswer_zoyo",
+      "doc_title": "タックスアンサー（贈与税）",
+      "source_kind": "taxanswer",
+      "items_count": 28,
+      "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/taxanswer_zoyo/index.html",
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/data/resolve_lite/taxanswer_zoyo.json"
+    }
+  ],
+  "shards": [
+    {
+      "shard_id": "shard-001",
+      "file": "data/shards/shard-001.txt",
+      "rows": 120,
+      "source_kinds": [
+        "bunshokaito"
+      ],
+      "doc_codes": [
+        "bunshokaito_gensen",
+        "bunshokaito_gensenshotoku",
+        "bunshokaito_hojin"
+      ]
+    },
+    {
+      "shard_id": "shard-002",
+      "file": "data/shards/shard-002.txt",
+      "rows": 120,
+      "source_kinds": [
+        "bunshokaito"
+      ],
+      "doc_codes": [
+        "bunshokaito_hojin",
+        "bunshokaito_hyoka",
+        "bunshokaito_inshi",
+        "bunshokaito_inshi-sonota",
+        "bunshokaito_joto-sanrin"
+      ]
+    },
+    {
+      "shard_id": "shard-003",
+      "file": "data/shards/shard-003.txt",
+      "rows": 120,
+      "source_kinds": [
+        "bunshokaito"
+      ],
+      "doc_codes": [
+        "bunshokaito_joto-sanrin",
+        "bunshokaito_shohi",
+        "bunshokaito_shotoku"
+      ]
+    },
+    {
+      "shard_id": "shard-004",
+      "file": "data/shards/shard-004.txt",
+      "rows": 120,
+      "source_kinds": [
+        "bunshokaito"
+      ],
+      "doc_codes": [
+        "bunshokaito_shotoku"
+      ]
+    },
+    {
+      "shard_id": "shard-005",
+      "file": "data/shards/shard-005.txt",
+      "rows": 120,
+      "source_kinds": [
+        "bunshokaito",
+        "shitsugi"
+      ],
+      "doc_codes": [
+        "bunshokaito_shotoku",
+        "bunshokaito_shozei",
+        "bunshokaito_sonota",
+        "bunshokaito_souzoku",
+        "bunshokaito_sozoku",
+        "bunshokaito_zouyo",
+        "bunshokaito_zoyo",
+        "shitsugi_gensen"
+      ]
+    },
+    {
+      "shard_id": "shard-006",
+      "file": "data/shards/shard-006.txt",
+      "rows": 120,
+      "source_kinds": [
+        "shitsugi"
+      ],
+      "doc_codes": [
+        "shitsugi_gensen",
+        "shitsugi_hojin"
+      ]
+    },
+    {
+      "shard_id": "shard-007",
+      "file": "data/shards/shard-007.txt",
+      "rows": 120,
+      "source_kinds": [
+        "shitsugi"
+      ],
+      "doc_codes": [
+        "shitsugi_hojin"
+      ]
+    },
+    {
+      "shard_id": "shard-008",
+      "file": "data/shards/shard-008.txt",
+      "rows": 120,
+      "source_kinds": [
+        "shitsugi"
+      ],
+      "doc_codes": [
+        "shitsugi_hojin"
+      ]
+    },
+    {
+      "shard_id": "shard-009",
+      "file": "data/shards/shard-009.txt",
+      "rows": 120,
+      "source_kinds": [
+        "shitsugi"
+      ],
+      "doc_codes": [
+        "shitsugi_hojin",
+        "shitsugi_hotei",
+        "shitsugi_hyoka"
+      ]
+    },
+    {
+      "shard_id": "shard-010",
+      "file": "data/shards/shard-010.txt",
+      "rows": 120,
+      "source_kinds": [
+        "shitsugi"
+      ],
+      "doc_codes": [
+        "shitsugi_hyoka",
+        "shitsugi_inshi"
+      ]
+    },
+    {
+      "shard_id": "shard-011",
+      "file": "data/shards/shard-011.txt",
+      "rows": 120,
+      "source_kinds": [
+        "shitsugi"
+      ],
+      "doc_codes": [
+        "shitsugi_inshi"
+      ]
+    },
+    {
+      "shard_id": "shard-012",
+      "file": "data/shards/shard-012.txt",
+      "rows": 120,
+      "source_kinds": [
+        "shitsugi"
+      ],
+      "doc_codes": [
+        "shitsugi_inshi",
+        "shitsugi_joto"
+      ]
+    },
+    {
+      "shard_id": "shard-013",
+      "file": "data/shards/shard-013.txt",
+      "rows": 120,
+      "source_kinds": [
+        "shitsugi"
+      ],
+      "doc_codes": [
+        "shitsugi_joto"
+      ]
+    },
+    {
+      "shard_id": "shard-014",
+      "file": "data/shards/shard-014.txt",
+      "rows": 120,
+      "source_kinds": [
+        "shitsugi"
+      ],
+      "doc_codes": [
+        "shitsugi_joto",
+        "shitsugi_shohi"
+      ]
+    },
+    {
+      "shard_id": "shard-015",
+      "file": "data/shards/shard-015.txt",
+      "rows": 120,
+      "source_kinds": [
+        "shitsugi"
+      ],
+      "doc_codes": [
+        "shitsugi_shohi"
+      ]
+    },
+    {
+      "shard_id": "shard-016",
+      "file": "data/shards/shard-016.txt",
+      "rows": 120,
+      "source_kinds": [
+        "shitsugi"
+      ],
+      "doc_codes": [
+        "shitsugi_shohi"
+      ]
+    },
+    {
+      "shard_id": "shard-017",
+      "file": "data/shards/shard-017.txt",
+      "rows": 120,
+      "source_kinds": [
+        "shitsugi"
+      ],
+      "doc_codes": [
+        "shitsugi_shohi",
+        "shitsugi_shotoku"
+      ]
+    },
+    {
+      "shard_id": "shard-018",
+      "file": "data/shards/shard-018.txt",
+      "rows": 120,
+      "source_kinds": [
+        "shitsugi"
+      ],
+      "doc_codes": [
+        "shitsugi_shotoku"
+      ]
+    },
+    {
+      "shard_id": "shard-019",
+      "file": "data/shards/shard-019.txt",
+      "rows": 120,
+      "source_kinds": [
+        "shitsugi"
+      ],
+      "doc_codes": [
+        "shitsugi_shotoku",
+        "shitsugi_sozoku"
+      ]
+    },
+    {
+      "shard_id": "shard-020",
+      "file": "data/shards/shard-020.txt",
+      "rows": 120,
+      "source_kinds": [
+        "shitsugi",
+        "taxanswer"
+      ],
+      "doc_codes": [
+        "shitsugi_sozoku",
+        "taxanswer_fufuku",
+        "taxanswer_gensen"
+      ]
+    },
+    {
+      "shard_id": "shard-021",
+      "file": "data/shards/shard-021.txt",
+      "rows": 120,
+      "source_kinds": [
+        "taxanswer"
+      ],
+      "doc_codes": [
+        "taxanswer_gensen",
+        "taxanswer_hojin",
+        "taxanswer_hotei"
+      ]
+    },
+    {
+      "shard_id": "shard-022",
+      "file": "data/shards/shard-022.txt",
+      "rows": 120,
+      "source_kinds": [
+        "taxanswer"
+      ],
+      "doc_codes": [
+        "taxanswer_hotei",
+        "taxanswer_hyoka",
+        "taxanswer_inshi",
+        "taxanswer_joto"
+      ]
+    },
+    {
+      "shard_id": "shard-023",
+      "file": "data/shards/shard-023.txt",
+      "rows": 120,
+      "source_kinds": [
+        "taxanswer"
+      ],
+      "doc_codes": [
+        "taxanswer_joto",
+        "taxanswer_osirase",
+        "taxanswer_saigai",
+        "taxanswer_shohi"
+      ]
+    },
+    {
+      "shard_id": "shard-024",
+      "file": "data/shards/shard-024.txt",
+      "rows": 120,
+      "source_kinds": [
+        "taxanswer"
+      ],
+      "doc_codes": [
+        "taxanswer_shohi",
+        "taxanswer_shotoku"
+      ]
+    },
+    {
+      "shard_id": "shard-025",
+      "file": "data/shards/shard-025.txt",
+      "rows": 120,
+      "source_kinds": [
+        "taxanswer"
+      ],
+      "doc_codes": [
+        "taxanswer_shotoku"
+      ]
+    },
+    {
+      "shard_id": "shard-026",
+      "file": "data/shards/shard-026.txt",
+      "rows": 80,
+      "source_kinds": [
+        "taxanswer"
+      ],
+      "doc_codes": [
+        "taxanswer_sozoku",
+        "taxanswer_zoyo"
+      ]
+    }
+  ]
+}

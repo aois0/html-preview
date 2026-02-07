@@ -1,0 +1,43 @@
+{
+  "snapshot": "2026-02-07",
+  "base_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db",
+  "enhanced_base_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced",
+  "doc_code": "taxanswer_zoyo",
+  "doc_title": "タックスアンサー（贈与税）",
+  "index_url": "https://jplawdb.github.io/html-preview/ai-nta-qa-db/enhanced/taxanswer_zoyo/index.html",
+  "item_url_template": "enhanced/{doc_code}/{item_id}.html",
+  "text_url_template": "text/{doc_code}/{item_id}.txt",
+  "anchors": {
+    "paragraph": "#p{paragraph}"
+  },
+  "items": [
+    "4402",
+    "4405",
+    "4408",
+    "4410",
+    "4411",
+    "4414",
+    "4417",
+    "4420",
+    "4423",
+    "4424",
+    "4426",
+    "4427",
+    "4429",
+    "4432",
+    "4438",
+    "4439",
+    "4440",
+    "4441",
+    "4442",
+    "4452",
+    "4455",
+    "4510",
+    "4511",
+    "4552",
+    "4553",
+    "4555",
+    "4557",
+    "4560"
+  ]
+}

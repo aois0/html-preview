@@ -12,6 +12,7 @@
 - AI向け 日本税務判決DB（判決・裁決）: `/html-preview/ai-hanketsu-db/`
 - AI向け 文献DB（税務・国際課税）: `/html-preview/ai-paper-db/`
 - AI向け 租税条約DB（主要国）: `/html-preview/ai-treaty-db/`
+- AI向け NTA QA DB（質疑応答事例・文書回答事例・タックスアンサー）: `/html-preview/ai-nta-qa-db/`
 - Tax KB Prototype: `/html-preview/tax-kb/`
 
 ## 1) 条文（法令）を引きたい → ai-law-db
@@ -81,6 +82,18 @@ NOTE
 2) `ai-treaty-db/jp-tax-treaties/data/shards/shard-XXX.txt`（TSVを検索）
 3) `ai-treaty-db/jp-tax-treaties/packs/...`（本文。1ファイル≒1万トークン以内）
 
+## 7) 国税庁Q&A（質疑応答/文書回答/タックスアンサー）を引きたい → ai-nta-qa-db
+
+入口（最短）
+- `/html-preview/ai-nta-qa-db/quickstart.txt`（推奨: まずこれ）
+- `/html-preview/ai-nta-qa-db/llms.txt`
+
+典型フロー（10kトークン制約向け）
+1) `ai-nta-qa-db/data/shards_index.json`
+2) `ai-nta-qa-db/data/shards/shard-XXX.txt`（TSVを検索）
+3) `ai-nta-qa-db/text/{doc_code}/{item_id}.txt`（本文）
+4) 根拠URL: `ai-nta-qa-db/enhanced/{doc_code}/{item_id}.html#pX`
+
 ## 最後に
 
 迷ったら:
@@ -89,3 +102,4 @@ NOTE
 - 判決 = `ai-hanketsu-db/quickstart.txt`
 - 文献 = `ai-paper-db/llms.txt`
 - 租税条約 = `ai-treaty-db/llms.txt`
+- 国税庁Q&A = `ai-nta-qa-db/quickstart.txt`
