@@ -4,3 +4,4 @@ snapshot: 2025-06-28
 source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/18/18_01_03.htm
 url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/18-1-8.html
 
+[p1] 20−2−1《恒久的施設帰属所得の認識に当たり勘案されるその他の状況》から20−2−4《恒久的施設において使用する資産の範囲》までの取扱いは、令第155条の7第2号ハ《導管会社等の範囲》に定める方法によって、法第82条第5号《定義》に規定する収入等が同号ロに規定する会社等の恒久的施設等（同条第6号に規定する恒久的施設等をいう。以下この章において同じ。）に帰せられないことの判定を行う場合について準用する。（令5年課法2−17｢九」により追加）

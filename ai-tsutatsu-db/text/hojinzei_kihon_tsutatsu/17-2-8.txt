@@ -4,3 +4,9 @@ snapshot: 2025-06-28
 source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/17/17_02.htm
 url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/17-2-8.html
 
+[p1] 12−2−1から12−2−15まで《滅失損等の計上時期等》は、法第80条第5項《欠損金の繰戻しによる還付》において準用する同条第1項の規定を適用する場合の災害損失の額(令第155条の２第４項柱書《欠損金の繰戻しによる還付》の損失の額をいう。)の計算について準用する。(平29年課法2−2「四」により追加、令４年課法2−14｢六十三」、令５年課法２−17「八」により改正)
+[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p3] 第1款 企業グループ等
+[p4] 第18章 各対象会計年度の国際最低課税額に対する法人税
+[p5] 第1節 定義
+[p6] 第1款 企業グループ等

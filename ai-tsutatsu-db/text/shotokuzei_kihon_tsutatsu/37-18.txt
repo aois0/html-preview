@@ -4,3 +4,4 @@ snapshot: 2025-06-28
 source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/08.htm
 url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/37-18.html
 
+[p1] 37−16又は37−17の場合において、その海外渡航が旅行期間のおおむね全期間を通じ明らかに当該事業の遂行上直接必要であると認められるものであるときは、その海外渡航のためにその事業を営む者が支出した費用又は支給した旅費については、社会通念上合理的な基準によって計算されているなど不当に多額でないと認められる限り、その全額を旅費として必要経費に算入することができる。

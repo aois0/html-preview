@@ -4,3 +4,4 @@ snapshot: 2025-06-28
 source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/03.htm
 url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/36-31-6.html
 
+[p1] 36−31から36−31の5までの取扱いについては、法第76条第5項第2号に掲げる旧簡易生命保険契約及び同項第3号に掲げる生命共済契約等について準用する。(昭63直法6−7、直所3−8追加、平23課個2−33、課法9−9、課審4−46改正)

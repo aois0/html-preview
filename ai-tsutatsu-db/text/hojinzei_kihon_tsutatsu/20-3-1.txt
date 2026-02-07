@@ -4,3 +4,4 @@ snapshot: 2025-06-28
 source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/20a/20_03.htm
 url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/20-3-1.html
 
+[p1] 3−1−3（(4)、(5)及び(7)を除く。）《支払利子等の額の範囲》は、法第139条第2項《租税条約に異なる定めがある場合の国内源泉所得》に規定する利子の範囲について準用する。（平26年課法2−9「七」により追加、令４年課法2−14｢六十四」により改正）

@@ -4,3 +4,4 @@ snapshot: 2025-06-28
 source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/03.htm#a-3_18
 url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/3-22.html
 
+[p1] 3-20に定める「業務」とは、当該被相続人に遂行すべきものとして割り当てられた仕事をいい、「業務上の死亡」とは、直接業務に起因する死亡又は業務と相当因果関係があると認められる死亡をいうものとして取り扱うものとする。(昭57直資2-177改正)

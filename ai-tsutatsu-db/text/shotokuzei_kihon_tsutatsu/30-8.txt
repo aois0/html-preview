@@ -4,3 +4,4 @@ snapshot: 2025-06-28
 source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/04.htm
 url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/30-8.html
 
+[p1] 30−2により退職手当等とされる給与に係る勤続年数は、当該給与の計算の基礎とされた勤続期間の末日において退職したものとして計算するものとする。（昭63直法6−1、直所3−1改正）
