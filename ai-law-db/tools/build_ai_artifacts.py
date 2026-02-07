@@ -15,7 +15,7 @@ Outputs (workspace-relative):
 Design goals:
 - Deterministic resolution: law_code/article/anchor => stable URL
 - Low-noise ingestion: JSONL chunks with rich metadata
-- Fast extraction: plain text mirrors anchors ([p2-i1] etc.)
+- Fast extraction: plain text mirrors anchors ([p2-i1], [p2-i1-s1-2] etc.)
 """
 
 from __future__ import annotations
@@ -336,6 +336,54 @@ def build_chunks_and_text(enhanced_dir: Path, out_data_dir: Path, out_text_dir: 
                         }
                         chunks_f.write(json.dumps(record, ensure_ascii=False) + "\n")
 
+                        # subitems (イ/ロ/ハ等). Order is DOM order under the same item.
+                        subitem_lis = div.select(f'li.subitem[data-parent-item-index="{item_index}"]')
+                        for li in subitem_lis:
+                            subitem_id = li.get("id", "")
+                            subitem_path = li.get("data-subitem-path", "")
+                            subitem_depth = li.get("data-subitem-depth", "")
+                            subitem_label = li.get("data-subitem-label", "")
+                            subitem_cite = li.get("data-cite", "")
+                            subitem_cite_id = li.get("data-cite-id", "")
+
+                            span = li.find("span", class_="subitem-text")
+                            subitem_text = clean_ws(
+                                span.get_text(" ", strip=True) if span is not None else li.get_text(" ", strip=True)
+                            )
+                            if not subitem_text:
+                                continue
+
+                            path_parts = [x for x in subitem_path.split("-") if x]
+                            txt_lines.append(f"[{subitem_id}] {subitem_text}")
+                            record = {
+                                "id": subitem_cite_id or f"{law_code}:{meta.article}:{subitem_id}",
+                                "kind": "subitem",
+                                "law_code": meta.law_code,
+                                "law_title": meta.law_title,
+                                "law_type": meta.law_type,
+                                "law_num": meta.law_num,
+                                "egov_id": meta.egov_id or None,
+                                "as_of": meta.as_of,
+                                "article": meta.article,
+                                "article_title": meta.article_title,
+                                "paragraph": para_num or None,
+                                "item": {
+                                    "num": item_num or None,
+                                    "index": int(item_index) if item_index.isdigit() else None,
+                                },
+                                "subitem": {
+                                    "path": path_parts,
+                                    "depth": int(subitem_depth) if subitem_depth.isdigit() else len(path_parts) or None,
+                                    "label": subitem_label or None,
+                                },
+                                "cite": subitem_cite or None,
+                                "cite_id": subitem_cite_id or None,
+                                "url": f"{article_url}#{subitem_id}",
+                                "text": subitem_text,
+                                "source_path": str(article_path.relative_to(enhanced_dir.parent)),
+                            }
+                            chunks_f.write(json.dumps(record, ensure_ascii=False) + "\n")
+
                 txt_path.write_text("\n".join(txt_lines) + "\n", encoding="utf-8")
 
         finally:
@@ -368,6 +416,7 @@ def main() -> None:
         "anchors": {
             "paragraph": "#p{paragraph}",
             "item": "#p{paragraph}-i{item_index}",
+            "subitem": "#p{paragraph}-i{item_index}-s{subitem_path}",
         },
         "law_aliases": aliases,
         "laws": laws,
