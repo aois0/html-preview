@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 213 / id: 213 / title: 不動産投資信託証券等の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/213.html
+
+[p1] 不動産投資法人の投資証券及び不動産投資信託の受益証券（以下「不動産投資信託証券」という。）のうち、上場されているものの価額は、1口ごとに評価するものとし、169（（上場株式の評価））から172（（上場株式についての最終価格の月平均額の特例））までの定めに準じて評価する。また、不動産投資信託証券に係る投資口の分割等に伴う無償交付期待権の価額は、192（（株式無償交付期待権の評価））に準じて評価し、不動産投資信託証券に係る金銭分配期待権の価額（利益超過分配金の額を含む。）は、193（（配当期待権の評価））に準じて評価する。（平15課評2-15外追加、平18課評2-27外改正）

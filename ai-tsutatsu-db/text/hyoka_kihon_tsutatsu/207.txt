@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 207 / id: 207 / title: 無尽又は頼母子に関する権利の価額
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/207.html
+
+[p1] 無尽又は頼母子に関する権利の価額は、課税時期までの掛金総額によって評価する。

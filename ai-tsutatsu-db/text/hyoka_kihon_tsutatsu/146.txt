@@ -1,0 +1,8 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 146 / id: 146 / title: 実用新案権、意匠権及びそれらの実施権の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/07/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/146.html
+
+[p1] 実用新案権、意匠権及びそれらの実施権の価額は、140≪特許権の評価≫から前項までの定めを準用して評価する。
+[p2] 第3節 商標権及びその使用権

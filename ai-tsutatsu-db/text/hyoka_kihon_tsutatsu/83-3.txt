@@ -1,0 +1,8 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 83−3 / id: 83-3 / title: 文化財建造物である構築物の敷地の用に供されている土地の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/16.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/83-3.html
+
+[p1] 文化財建造物である構築物の敷地の用に供されている土地の価額は、82((雑種地の評価))の定めにより評価した価額から、その価額に24−8((文化財建造物である家屋の敷地の用に供されている宅地の評価))に定める割合を乗じて計算した金額を控除した金額によって評価する。
+[p2] なお、文化財建造物である構築物の敷地とともに、その文化財建造物である構築物と一体をなして価値を形成している土地がある場合には、その土地の価額は、24−8の(注)に準じて評価する。（平16課評2−7外追加）

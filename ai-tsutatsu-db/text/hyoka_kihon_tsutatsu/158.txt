@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 158 / id: 158 / title: 租鉱権の評価方法
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/07/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/158.html
+
+[p1] 租鉱権の価額は、租鉱権の設定されている鉱山についてその租鉱権者が設備した固定資産及び流動資産と一括して、鉱山ごとに評価する。

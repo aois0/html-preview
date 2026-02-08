@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 200-2 / id: 200-2 / title: 定期金に関する権利を取得した日が定期金の給付日である場合の取扱い
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/200-2.html
+
+[p1] 定期金給付契約に関する権利を取得した日が定期金の給付日（当該契約に基づき定期金の給付を受けた日又は給付を受けるべき日をいう。）である場合における、相続税法第24条第1項第1号から第3号までの規定（同項第2号ハを除く。）の適用に当たっては、当該権利を取得した日に給付を受けた、又は受けるべき定期金の額が含まれるのであるから留意する。（平22課評2-18外追加）

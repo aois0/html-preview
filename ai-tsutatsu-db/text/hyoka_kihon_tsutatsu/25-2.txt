@@ -1,0 +1,8 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 25−2 / id: 25-2 / title: 倍率方式により評価する宅地の自用地としての価額
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/25-2.html
+
+[p1] 倍率地域にある区分地上権の目的となっている宅地又は区分地上権に準ずる地役権の目的となっている承役地である宅地の自用地としての価額は、その宅地の固定資産税評価額が地下鉄のずい道の設置、特別高圧架空電線の架設がされていること等に基づく利用価値の低下を考慮したものである場合には、その宅地の利用価値の低下がないものとして評価した価額とする。
+[p2] なお、宅地以外の土地を倍率方式により評価する場合の各節に定める土地の自用地としての価額についても、同様とする。（平3課評2-4外追加、平12課評2-4外改正）

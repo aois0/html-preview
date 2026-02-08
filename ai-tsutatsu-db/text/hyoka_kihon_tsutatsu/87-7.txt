@@ -1,0 +1,8 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 87−7 / id: 87-7 / title: 占用の許可に基づき所有する家屋を貸家とした場合の占用権の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/16.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/87-7.html
+
+[p1] 占用の許可に基づき所有する家屋が貸家に該当する場合の占用権の価額は、次の算式により計算した価額によって評価する。（平3課評2−4外追加、平11課評2−12外改正）
+[p2] 第3章 家屋及び家屋の上に存する権利

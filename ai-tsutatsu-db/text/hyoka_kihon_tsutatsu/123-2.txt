@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 123-2 / id: 123-2 / title: 特別緑地保全地区内にある立木の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/05/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/123-2.html
+
+[p1] 特別緑地保全地区内にある立木（林業を営むために伐採が認められる立木を除く。）の価額は、113((森林の主要樹種の立木の評価))、117((森林の主要樹種以外の立木の評価))又は122（（森林の立木以外の立木の評価））の定めにより評価した価額から、その価額に100分の80を乗じて計算した金額を控除した金額によって評価する。（平16課評2−7外追加、平17課評2−11外改正）

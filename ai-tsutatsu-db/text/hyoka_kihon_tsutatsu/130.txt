@@ -1,0 +1,14 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 130 / id: 130 / title: 償却費の額の計算
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/06/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/130.html
+
+[p1] 前項のただし書の償却費の額を計算する場合における耐用年数等については、次に掲げるところによる。（昭41直資3−19・平20課評2-5外改正）
+[p2] （1） 耐用年数
+[p3] 耐用年数は、耐用年数省令に規定する耐用年数による。
+[p4] （2） 償却方法
+[p5] 償却方法は、定率法による。
+[p6] 131
+[p7] 削除（平20課評2-5外）
+[p8] 第2節 たな卸商品等

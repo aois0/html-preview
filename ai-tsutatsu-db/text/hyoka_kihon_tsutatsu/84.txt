@@ -1,0 +1,9 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 84 / id: 84 / title: 鉄軌道用地の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/16.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/84.html
+
+[p1] 鉄道又は軌道の用に供する土地（以下「鉄軌道用地」という。）の価額は、その鉄軌道用地に沿接する土地の価額の3分の1に相当する金額によって評価する。この場合における「その鉄軌道用地に沿接する土地の価額」は、その鉄軌道用地をその沿接する土地の地目、価額の相違等に基づいて区分し、その区分した鉄軌道用地に沿接するそれぞれの土地の価額を考慮して評定した価額の合計額による。（昭41直資3−19・昭48直資3−33改正）
+[p2] 85
+[p3] 削除（昭41直資3−19）

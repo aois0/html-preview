@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 197−4 / id: 197-4 / title: 元利均等償還が行われる公社債の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/197-4.html
+
+[p1] 元利均等償還が行われる公社債の価額は、相続税法第24条≪定期金に関する権利の評価≫第1項第1号の規定を準用して計算した金額によって評価する。（昭47直資3−16追加）

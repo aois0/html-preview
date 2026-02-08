@@ -23,6 +23,7 @@ from datetime import datetime, timezone
 from html import escape
 import json
 import re
+import shutil
 from pathlib import Path
 from typing import Any, Iterable
 
@@ -37,6 +38,7 @@ NOISE_LINES = {
     "すべての機能をご利用いただくにはJavascriptを有効にしてください。",
     "ホーム",
     "法令等",
+    "税法（e-Govの「e-Gov法令検索」へリンク）",
     "法令解釈通達",
     "その他法令解釈に関する情報",
     "事務運営指針",
@@ -291,8 +293,27 @@ def iter_items_from_source(doc: DocConfig, sources_dir: Path) -> list[Item]:
             if looks_like_id_suffix(line):
                 line = pending_digits + normalize_digits(line)
             else:
-                # Unused prefix; treat as content if we are inside an item.
-                if current_item is not None:
+                # Digits-only item-ids exist in some sources (e.g., 財産評価基本通達).
+                # If we saw a pending heading and we're between items, treat the
+                # digits as the full item-id. Otherwise keep it as body content.
+                if current_item is None and pending_title is not None:
+                    item_id_raw = pending_digits
+                    item_id = normalize_item_id(item_id_raw)
+                    if item_id:
+                        flush_current()
+                        current_item = Item(
+                            doc_code=doc.doc_code,
+                            doc_title=doc.title,
+                            snapshot=snapshot,
+                            source_path=str(src_path),
+                            source_page_url=current_page_url,
+                            item_id_raw=item_id_raw,
+                            item_id=item_id,
+                            item_title=pending_title or "",
+                            lines=[],
+                        )
+                        pending_title = None
+                elif current_item is not None:
                     current_item.lines.append(pending_digits)
             pending_digits = None
 
@@ -516,6 +537,10 @@ def build_doc_aliases() -> dict[str, str]:
         "消基通": "shohizei_kihon_tsutatsu",
         "相続税法基本通達": "sozokuzei_kihon_tsutatsu",
         "相続税基本通達": "sozokuzei_kihon_tsutatsu",
+        "財産評価基本通達": "hyoka_kihon_tsutatsu",
+        "評価基本通達": "hyoka_kihon_tsutatsu",
+        "評基通": "hyoka_kihon_tsutatsu",
+        "財評基通": "hyoka_kihon_tsutatsu",
         "租税特別措置法関係通達（法人税編）": "sozei_tokubetsu_tsutatsu_hojinzei",
         "措置法通達（法人税編）": "sozei_tokubetsu_tsutatsu_hojinzei",
         "措置法通達": "sozei_tokubetsu_tsutatsu_hojinzei",
@@ -543,6 +568,12 @@ def main() -> None:
     out_chunks_dir = out_data_dir / "chunks"
     out_resolve_lite_dir = out_data_dir / RESOLVE_LITE_DIR_NAME
 
+    # Generated outputs should be deterministic; clean stale files to avoid
+    # mismatches between enhanced/text/resolve when sources change.
+    for p in (out_enhanced_dir, out_text_dir, out_chunks_dir, out_resolve_lite_dir):
+        if p.exists():
+            shutil.rmtree(p)
+
     out_enhanced_dir.mkdir(parents=True, exist_ok=True)
     out_text_dir.mkdir(parents=True, exist_ok=True)
     out_chunks_dir.mkdir(parents=True, exist_ok=True)
@@ -553,6 +584,7 @@ def main() -> None:
         DocConfig("shotokuzei_kihon_tsutatsu", "所得税基本通達", "shotoku_kihon_tsutatsu_full.txt"),
         DocConfig("shohizei_kihon_tsutatsu", "消費税基本通達", "shohi_kihon_tsutatsu_full.txt"),
         DocConfig("sozokuzei_kihon_tsutatsu", "相続税法基本通達", "sisan_sozoku2_kihon_tsutatsu_full.txt"),
+        DocConfig("hyoka_kihon_tsutatsu", "財産評価基本通達", "hyoka_kihon_tsutatsu_full.txt"),
         DocConfig("sozei_tokubetsu_tsutatsu_hojinzei", "租税特別措置法関係通達（法人税編）", "sochiho_hojinzei_tsutatsu_full.txt"),
         DocConfig("kokuzei_tsusoku_kihon_tsutatsu", "国税通則法基本通達", "tsusoku_kihon_tsutatsu_full.txt"),
     ]

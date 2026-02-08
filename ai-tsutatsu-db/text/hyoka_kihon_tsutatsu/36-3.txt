@@ -1,0 +1,9 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 36−3 / id: 36-3 / title: 市街地周辺農地の範囲
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/36-3.html
+
+[p1] 市街地周辺農地とは、次に掲げる農地のうち、そのいずれかに該当するものをいう。ただし、36−4≪市街地農地の範囲≫に該当する農地を除く。（昭45直資3−13追加、平3課評2−4外・平11課評2−2外改正）
+[p2] （1） 第3種農地に該当するもの
+[p3] （2） 上記(1)に該当する農地以外の農地のうち、近傍農地の売買実例価額、精通者意見価格等に照らし、第3種農地に準ずる農地と認められるもの

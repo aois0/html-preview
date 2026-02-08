@@ -1,0 +1,9 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 16 / id: 16 / title: 側方路線影響加算
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/16.html
+
+[p1] 正面と側方に路線がある宅地（以下「角地」という。）の価額は、次の(1)及び(2)に掲げる価額の合計額にその宅地の地積を乗じて計算した価額によって評価する（昭45直資3−13・昭47直資3−16・平3課評2−4外改正）
+[p2] （1） 正面路線（原則として、前項の定めにより計算した1平方メートル当たりの価額の高い方の路線をい う。以下同じ。）の路線価に基づき計算した価額
+[p3] （2） 側方路線（正面路線以外の路線をいう。）の路線価を正面路線の路線価とみなし、その路線価に基づ き計算した価額に付表2「側方路線影響加算率表」 に定める加算率を乗じて計算した価額

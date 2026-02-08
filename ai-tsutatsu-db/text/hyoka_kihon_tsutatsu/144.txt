@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 144 / id: 144 / title: 補償金が少額な特許権
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/07/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/144.html
+
+[p1] 課税時期後において取得すると見込まれる補償金の額の合計額が50万円に満たないと認められる特許権については、評価しない。

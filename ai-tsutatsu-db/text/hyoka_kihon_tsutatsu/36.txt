@@ -1,0 +1,10 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 36 / id: 36 / title: 純農地の範囲
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/36.html
+
+[p1] 純農地とは、次に掲げる農地のうち、そのいずれかに該当するものをいう。ただし、36−4≪市街地農地の範囲≫に該当する農地を除く。（昭45直資3−13・平3課評2−4外・平11課評2−2外改正）
+[p2] （1） 農用地区域内にある農地
+[p3] （2） 市街化調整区域内にある農地のうち、第1種農地又は甲種農地に該当するもの
+[p4] （3） 上記(1)及び(2)に該当する農地以外の農地のうち、第1種農地に該当するもの。ただし、近傍農地の売買実例価額、精通者意見価格等に照らし、第2種農地又は第3種農地に準ずる農地と認められるものを除く。

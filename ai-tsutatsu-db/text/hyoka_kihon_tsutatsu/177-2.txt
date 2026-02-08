@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 177−2 / id: 177-2 / title: 登録銘柄及び店頭管理銘柄の取引価格の月平均額の特例
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/177-2.html
+
+[p1] 174≪気配相場等のある株式の評価≫の(1)の定めにより登録銘柄及び店頭管理銘柄の価額を評価する場合において、課税時期の属する月以前3か月間に権利落等がある場合における取引価格の月平均額については、172≪上場株式についての最終価格の月平均額の特例≫の定めを準用する。この場合において、「最終価格の月平均額」は「取引価格の月平均額」と、「毎日の最終価格の平均額」は「毎日の取引価格の平均額」と読み替えるものとする。（平2直評12外追加・平18課評2−27外改正）

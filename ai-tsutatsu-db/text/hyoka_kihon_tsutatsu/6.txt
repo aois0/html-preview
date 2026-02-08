@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 6 / id: 6 / title: この通達の定めにより難い場合の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/01/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/6.html
+
+[p1] この通達の定めによって評価することが著しく不適当と認められる財産の価額は、国税庁長官の指示を受けて評価する。

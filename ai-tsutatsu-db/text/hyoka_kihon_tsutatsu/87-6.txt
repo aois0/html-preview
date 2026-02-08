@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 87−6 / id: 87-6 / title: 占用権の目的となっている土地の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/16.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/87-6.html
+
+[p1] 占用権の目的となっている土地の価額は、その占用権の目的となっている土地の付近にある土地について、この通達の定めるところにより評価した1平方メートル当たりの価額を基とし、その土地とその占用権の目的となっている土地との位置、形状等の条件差及び占用の許可の内容を勘案した価額に、その占用の許可に係る土地の面積を乗じて計算した金額によって評価する。（平3課評2−4外追加）

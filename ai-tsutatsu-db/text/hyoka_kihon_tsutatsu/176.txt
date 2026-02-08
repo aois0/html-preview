@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 176 / id: 176 / title: 気配相場等のある株式の取引価格の特例−課税時期に取引価格がない場合
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/176.html
+
+[p1] 174≪気配相場等のある株式の評価≫の(1)の定めにより気配相場等のある株式の価額を評価する場合において、課税時期に取引価格がないものについては、前項の定めの適用があるものを除き、次に掲げる場合に応じ、それぞれ次に掲げる取引価格又は修正した価格をもって課税時期の取引価格とする。（平2直評12外・平11課評2−2外・平18課評2−27外改正）

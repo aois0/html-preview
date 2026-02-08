@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 2 / id: 2 / title: 適用時期の原則
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/fusoku/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/2.html
+
+[p1] 基本通達は、別段の定めのあるものを除き、基本通達の施行の日（以下「施行日」という。）以後に処理する法人税について適用する。

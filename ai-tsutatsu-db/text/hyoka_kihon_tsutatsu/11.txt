@@ -1,0 +1,11 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 11 / id: 11 / title: 評価の方式
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/11.html
+
+[p1] 宅地の評価は、原則として、次に掲げる区分に従い、それぞれ次に掲げる方式によって行う。（昭41直資3−19改正）
+[p2] （1） 市街地的形態を形成する地域にある宅地 路線価方式
+[p3] （2） (1)以外の宅地 倍率方式
+[p4] 12
+[p5] 削除（平3課評2−4外）

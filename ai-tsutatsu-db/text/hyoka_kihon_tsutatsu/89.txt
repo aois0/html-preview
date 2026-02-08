@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 89 / id: 89 / title: 家屋の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/03/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/89.html
+
+[p1] 家屋の価額は、その家屋の固定資産税評価額（地方税法第381条((固定資産課税台帳の登録事項))の規定により家屋課税台帳若しくは家屋補充課税台帳に登録された基準年度の価格又は比準価格をいう。以下この章において同じ。）に別表1に定める倍率を乗じて計算した金額によって評価する。（昭41直資3−19・平3課評2−4外・平16課評2−7外改正）

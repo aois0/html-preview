@@ -5,6 +5,5 @@ source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/11/03.htm
 url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/11-3-11.html
 
 [p1] （令4課消2-4により削除）
-[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p2] 第4節 課税仕入れに係る支払対価の額
 [p3] 第4節 課税仕入れに係る支払対価の額
-[p4] 第4節 課税仕入れに係る支払対価の額

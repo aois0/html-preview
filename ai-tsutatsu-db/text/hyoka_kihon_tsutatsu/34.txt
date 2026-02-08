@@ -1,0 +1,11 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 34 / id: 34 / title: 農地の分類
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/34.html
+
+[p1] 農地を評価する場合、その農地を36≪純農地の範囲≫から36−4≪市街地農地の範囲≫までに定めるところに従い、次に掲げる農地のいずれかに分類する。（昭41直資3−19・昭45直資3−13・平3課評2−4外・平11課評2−2外・平11課評2−12外・平12課評2−4外・平16課評2−7外・平22課評2-18外改正）
+[p2] （1） 純農地
+[p3] （2） 中間農地
+[p4] （3） 市街地周辺農地
+[p5] （4） 市街地農地

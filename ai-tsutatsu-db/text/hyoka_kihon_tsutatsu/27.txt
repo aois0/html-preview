@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 27 / id: 27 / title: 借地権の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/27.html
+
+[p1] 借地権の価額は、その借地権の目的となっている宅地の自用地としての価額に、当該価額に対する借地権の売買実例価額、精通者意見価格、地代の額等を基として評定した借地権の価額の割合（以下「借地権割合」という。）がおおむね同一と認められる地域ごとに国税局長の定める割合を乗じて計算した金額によって評価する。ただし、借地権の設定に際しその設定の対価として通常権利金その他の一時金を支払うなど借地権の取引慣行があると認められる地域以外の地域にある借地権の価額は評価しない。（昭41直資3−19・平3課評2−4外改正）

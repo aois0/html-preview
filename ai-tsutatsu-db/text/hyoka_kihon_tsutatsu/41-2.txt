@@ -1,0 +1,10 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 41−2 / id: 41-2 / title: 土地の上に存する権利が競合する場合の農地の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/09.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/41-2.html
+
+[p1] 土地の上に存する権利が競合する場合の農地の価額は、次に掲げる区分に従い、それぞれ次の算式により計算した金額によって評価する。（平3課評2−4外追加）
+[p2] （1） 耕作権又は永小作権及び区分地上権の目的となっている農地の価額
+[p3] （2） 区分地上権及び区分地上権に準ずる地役権の目的となっている承役地である農地の価額
+[p4] （3） 耕作権又は永小作権及び区分地上権に準ずる地役権の目的となっている承役地である農地の価額

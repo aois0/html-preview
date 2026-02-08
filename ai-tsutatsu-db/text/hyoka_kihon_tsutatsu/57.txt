@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 57 / id: 57 / title: 評価の方式
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/11.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/57.html
+
+[p1] 原野の評価は、次に掲げる区分に従い、それぞれ次に掲げる方式によって行う。（昭41直資3−19・昭45直資3−13・昭48直資3−33改正）

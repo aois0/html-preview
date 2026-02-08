@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 126 / id: 126 / title: 分収林契約に係る造林者の有する立木の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/05/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/126.html
+
+[p1] 分収林契約でその造林に係る立木の全部を造林を行った者（その者が2人以上ある場合には、それらのすべての者）が所有する旨の約されているものに係る立木の価額は、113≪森林の主要樹種の立木の評価≫又は123≪保安林等の立木の評価≫の定めにより評価したその立木の価額に、その造林を行った者の分収割合を乗じて計算した価額によって評価する。（平3課評2−4外改正）

@@ -5,6 +5,5 @@ source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/20a/20_08_01.htm
 url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/20-8-1.html
 
 [p1] 17−1−5《組織再編成に係る確定申告書の添付書類》は、規則第61条の5第1号ホ及び第2号ホ《確定申告書の添付書類》に規定する明細書を確定申告書に添付する場合に準用する。（平26年課法2−9「十二」により追加、平29年課法2−17「二十八」、令3年課法2−21「十六」により改正）
-[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p2] 第2款 還付
 [p3] 第2款 還付
-[p4] 第2款 還付

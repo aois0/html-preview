@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 15 / id: 15 / title: 奥行価格補正
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/15.html
+
+[p1] 一方のみが路線に接する宅地の価額は、路線価にその宅地の奥行距離に応じて奥行価格補正率を乗じて求めた価額にその宅地の地積を乗じて計算した価額によって評価する。（昭45直資3−13・昭47直資3−16・平3課評2−4外・平11課評2−12外改正）

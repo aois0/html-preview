@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 125 / id: 125 / title: 庭園にある立木及び立竹の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/05/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/125.html
+
+[p1] 庭園にある立木及び立竹の価額は、庭園設備と一括して、92≪附属設備等の評価≫の(3)の定めによって評価する。

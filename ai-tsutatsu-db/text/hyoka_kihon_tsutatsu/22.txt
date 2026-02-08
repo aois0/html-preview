@@ -1,0 +1,9 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 22 / id: 22 / title: 大規模工場用地の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/22.html
+
+[p1] 大規模工場用地の評価は、次に掲げる区分に従い、それぞれ次に掲げるところによる。ただし、その地積が20万平方メートル以上のものの価額は、次により計算した価額の100分の95に相当する価額によって評価する。（平3課評2−4外追加・平29課評2−46外改正）
+[p2] （1） 路線価地域に所在する大規模工場用地の価額は、正面路線の路線価にその大規模工場用地の地積を乗じて計算した価額によって評価する。
+[p3] （2） 倍率地域に所在する大規模工場用地の価額は、その大規模工場用地の固定資産税評価額に倍率を乗じて計算した金額によって評価する。

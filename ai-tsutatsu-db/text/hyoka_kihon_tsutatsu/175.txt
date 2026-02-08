@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 175 / id: 175 / title: 気配相場等のある株式の取引価格の特例−課税時期が権利落等の日から株式の割当て等の基準日までの間にある場合
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/175.html
+
+[p1] 前項の(1)の定めにより気配相場等のある株式の価額を評価する場合において、課税時期が権利落等の日から株式の割当て等の基準日までの間にあるときは、その権利落等の日の前日以前の取引価格（課税時期の属する月以前3か月以内のものに限る。）のうち、課税時期に最も近い日の取引価格をもって課税時期の取引価格とする。（平2直評12外・平18課評2−27外改正）

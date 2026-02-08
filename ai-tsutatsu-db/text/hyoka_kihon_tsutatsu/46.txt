@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 46 / id: 46 / title: 1） 純山林及び中間山林（通常の山林と状況を異にするため純山林として評価することを不適当と認めるものに限る。以下同じ。
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/10.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/46.html
+
+[p1] 削除（昭41直資3−19）

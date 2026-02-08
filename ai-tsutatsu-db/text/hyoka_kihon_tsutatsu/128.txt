@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 128 / id: 128 / title: 評価単位
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/06/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/128.html
+
+[p1] 動産（暖房装置、冷房装置、昇降装置、昇降設備、電気設備、給排水設備、消火設備、浴そう設備等で92≪附属設備等の評価≫の(1)から(3)まで及び132≪評価単位≫から136≪船舶の評価≫までの定めにより評価するものを除き、以下「一般動産」という。）の価額は、原則として、1個又は1組ごとに評価する。ただし、家庭用動産、農耕用動産、旅館用動産等で1個又は1組の価額が5万円以下のものについては、それぞれ一括して一世帯、一農家、一旅館等ごとに評価することができる。（平20課評2-5外改正）

@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 78 / id: 78 / title: 温泉権の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/15.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/78.html
+
+[p1] 前項の「温泉権の価額」は、その温泉権の設定の条件に応じ、温泉権の売買実例価額、精通者意見価格等を参酌して評価する。

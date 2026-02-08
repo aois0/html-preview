@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 24−6 / id: 24-6 / title: セットバックを必要とする宅地の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/24-6.html
+
+[p1] 建築基準法第42条((道路の定義))第2項に規定する道路に面しており、将来、建物の建替え時等に同法の規定に基づき道路敷きとして提供しなければならない部分を有する宅地の価額は、その宅地について道路敷きとして提供する必要がないものとした場合の価額から、その価額に次の算式により計算した割合を乗じて計算した金額を控除した価額によって評価する。（平14課評2−2外追加、平16課評2−7外・平17課評2−11外・平29課評2−46外改正）
