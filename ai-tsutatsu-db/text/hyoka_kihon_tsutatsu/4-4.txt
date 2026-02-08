@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 4−4 / id: 4-4 / title: 基準年利率
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/01/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/4-4.html
+
+[p1] 第2章以下に定める財産の評価において適用する年利率は、別に定めるものを除き、年数又は期間に応じ、日本証券業協会において売買参考統計値が公表される利付国債に係る複利利回りを基に計算した年利率（以下「基準年利率」という。）によることとし、その基準年利率は、短期（3年未満）、中期（3年以上7年未満）及び長期（7年以上）に区分し、各月ごとに別に定める。（平11課評2−12外追加、平13課評2−6・平14課評2−2外・平16課評2−7外改正）

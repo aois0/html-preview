@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 157 / id: 157 / title: 租鉱権の設定されている鉱山の鉱業権の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/07/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/157.html
+
+[p1] 鉱山の全部又は一部に租鉱権が設定されている場合におけるその租鉱権が設定されている部分の鉱山の鉱業権の価額は、その鉱山に係る平均租鉱料年額からその鉱山の所有者がその鉱山について負担すべき平均必要経費年額を控除した金額の100分の50に相当する金額をAとし、埋蔵鉱量のうち経済的可採鉱量を租鉱権者の1年間の採掘予定鉱量で除して得た年数をn年として、その租鉱権の設定されている鉱山が操業しているかどうか等の区分に応じ、それぞれ、前項の(1)から(4)までの定めを準用して評価する。

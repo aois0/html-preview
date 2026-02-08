@@ -1,0 +1,14 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 14−2 / id: 14-2 / title: 地区
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/14-2.html
+
+[p1] 路線価方式により評価する地域（以下「路線価地域」という。）については、宅地の利用状況がおおむね同一と認められる一定の地域ごとに、国税局長が次に掲げる地区を定めるものとする。（平3課評2-4外追加）
+[p2] （1） ビル街地区
+[p3] （2） 高度商業地区
+[p4] （3） 繁華街地区
+[p5] （4） 普通商業・併用住宅地区
+[p6] （5） 普通住宅地区
+[p7] （6） 中小工場地区
+[p8] （7） 大工場地区

@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 29 / id: 29 / title: 転貸借地権の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/29.html
+
+[p1] 転貸されている借地権の価額は、27≪借地権の評価≫又は27−6≪土地の上に存する権利が競合する場合の借地権等の評価≫の定めにより評価したその借地権の価額から次項の定めにより評価したその借地権に係る転借権の価額を控除した価額によって評価する。（平3課評2−4外・平6課評2−2外改正）

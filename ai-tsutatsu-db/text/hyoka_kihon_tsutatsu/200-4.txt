@@ -1,0 +1,10 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 200-4 / id: 200-4 / title: 予定利率の複利による計算をして得た元利合計額
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/200-4.html
+
+[p1] 相続税法第25条第1号イに規定する「当該掛金又は保険料の払込金額に対し、当該契約に係る予定利率の複利による計算をして得た元利合計額」の算出方法を算式で示すと、次のとおりである。（平22課評2-18外追加）
+[p2] 定期金給付契約に係る掛金又は保険料の金額×複利終価率
+[p3] 複利終価率＝（1＋r）
+[p4] n

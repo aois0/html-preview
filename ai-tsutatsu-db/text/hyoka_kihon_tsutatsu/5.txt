@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 5 / id: 5 / title: 評価方法の定めのない財産の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/01/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/5.html
+
+[p1] この通達に評価方法の定めのない財産の価額は、この通達に定める評価方法に準じて評価する。

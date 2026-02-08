@@ -1,0 +1,10 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 135 / id: 135 / title: 書画骨とう品の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/06/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/135.html
+
+[p1] 書画骨とう品の評価は、次に掲げる区分に従い、それぞれ次に掲げるところによる。
+[p2] （1） 書画骨とう品で書画骨とう品の販売業者が有するものの価額は、133≪たな卸商品等の評価≫の定めによって評価する。
+[p3] （2） (1)に掲げる書画骨とう品以外の書画骨とう品の価額は、売買実例価額、精通者意見価格等を参酌して評価する。
+[p4] 第5節 船舶

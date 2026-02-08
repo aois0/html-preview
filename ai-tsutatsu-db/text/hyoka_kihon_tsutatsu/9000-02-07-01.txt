@@ -1,0 +1,15 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 9000-02-07-01 / id: 9000-02-07-01 / title: 付表1 奥行価格補正率表（昭45直資3−13・平3課評2−4外・平18課評2−27外・平29課評2−46外改正）
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/9000-02-07-01.html
+
+[p1] 付表1
+[p2] 奥行価格補正率表（昭45直資3−13・平3課評2−4外・平18課評2−27外・平29課評2−46外改正）
+[p3] ※本表は平成30年分以降用です。平成29年分以前（平成19年分以降）用は
+[p4] こちら（PDF/63KB）
+[p5] を、平成18年分以前用は
+[p6] こちら（PDF/65KB）
+[p7] をご覧ください。
+[p8] 地区区分
+[p9] 奥行距離

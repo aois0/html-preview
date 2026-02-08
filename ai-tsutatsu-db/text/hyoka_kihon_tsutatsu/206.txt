@@ -1,0 +1,9 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 206 / id: 206 / title: 受取手形等の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/206.html
+
+[p1] 受取手形又はこれに類するもの（以下「受取手形等」という。）の価額は、次による。前項の定めは、この場合について準用する。
+[p2] （1） 支払期限の到来している受取手形等又は課税時期から6か月を経過する日までの間に支払期限の到来する受取手形等の価額は、その券面額によって評価する。
+[p3] （2） (1)以外の受取手形等については、課税時期において銀行等の金融機関において割引を行った場合に回収し得ると認める金額によって評価する。

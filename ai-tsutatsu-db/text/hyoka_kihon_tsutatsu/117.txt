@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 117 / id: 117 / title: 森林の主要樹種以外の立木の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/05/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/117.html
+
+[p1] 森林の主要樹種以外の立木の価額は、原則として、売買実例価額、精通者意見価格等を参酌して評価する。ただし、115≪森林の主要樹種の立木の標準価額≫の標準価額を基として国税局長が標準価額を定めている樹種に係る立木の価額は、国税局長の定める標準価額に、その森林について地味級、立木度及び地利級に応じてそれぞれ別に定める割合を連乗して求めた金額にその森林の地積を乗じて計算した金額によって評価する。この場合において、岩石、がけ崩れ等による不利用地があるときは、その不利用地の地積を除外した地積をもってその森林の地積とする。（昭41直資3−19・平5課評2−7外・平29課評2-12外改正）

@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 3 / id: 3 / title: 区分所有財産
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/01/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/3.html
+
+[p1] 区分所有に係る財産の各部分の価額は、この通達の定めによって評価したその財産の価額を基とし、各部分の使用収益等の状況を勘案して計算した各部分に対応する価額によって評価する。

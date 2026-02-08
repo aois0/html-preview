@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 4 / id: 4 / title: 適用時期の特例-2
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/fusoku/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/4.html
+
+[p1] 7-1-2（貴金属の素材の価額が大部分を占める固定資産）並びに15-2-4、15-2-8、15-2-15及び15-2-16（金銭貸付業の範囲等）は、法人の施行日以後に開始する事業年度の法人税について適用し、法人の同日前に開始した事業年度の法人税については、なお従前の例による。

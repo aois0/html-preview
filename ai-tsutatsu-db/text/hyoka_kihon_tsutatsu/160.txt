@@ -1,0 +1,8 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 160 / id: 160 / title: 採石権の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/07/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/160.html
+
+[p1] 採石権の価額は、155≪評価単位≫から前項までの定めを準用して評価する。
+[p2] 第7節 電話加入権

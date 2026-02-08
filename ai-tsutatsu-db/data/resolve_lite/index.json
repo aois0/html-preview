@@ -16,6 +16,10 @@
     "消基通": "shohizei_kihon_tsutatsu",
     "相続税法基本通達": "sozokuzei_kihon_tsutatsu",
     "相続税基本通達": "sozokuzei_kihon_tsutatsu",
+    "財産評価基本通達": "hyoka_kihon_tsutatsu",
+    "評価基本通達": "hyoka_kihon_tsutatsu",
+    "評基通": "hyoka_kihon_tsutatsu",
+    "財評基通": "hyoka_kihon_tsutatsu",
     "租税特別措置法関係通達（法人税編）": "sozei_tokubetsu_tsutatsu_hojinzei",
     "措置法通達（法人税編）": "sozei_tokubetsu_tsutatsu_hojinzei",
     "措置法通達": "sozei_tokubetsu_tsutatsu_hojinzei",
@@ -27,14 +31,14 @@
       "title": "法人税基本通達",
       "snapshot": "2025-06-28",
       "index_url": "https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/index.html",
-      "items_count": 1342,
+      "items_count": 1360,
       "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-tsutatsu-db/data/resolve_lite/hojinzei_kihon_tsutatsu.json"
     },
     "shotokuzei_kihon_tsutatsu": {
       "title": "所得税基本通達",
       "snapshot": "2025-06-28",
       "index_url": "https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/index.html",
-      "items_count": 1191,
+      "items_count": 1204,
       "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-tsutatsu-db/data/resolve_lite/shotokuzei_kihon_tsutatsu.json"
     },
     "shohizei_kihon_tsutatsu": {
@@ -51,11 +55,18 @@
       "items_count": 444,
       "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-tsutatsu-db/data/resolve_lite/sozokuzei_kihon_tsutatsu.json"
     },
+    "hyoka_kihon_tsutatsu": {
+      "title": "財産評価基本通達",
+      "snapshot": "2026-02-07",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/index.html",
+      "items_count": 286,
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-tsutatsu-db/data/resolve_lite/hyoka_kihon_tsutatsu.json"
+    },
     "sozei_tokubetsu_tsutatsu_hojinzei": {
       "title": "租税特別措置法関係通達（法人税編）",
       "snapshot": "2025-06-28",
       "index_url": "https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/index.html",
-      "items_count": 425,
+      "items_count": 427,
       "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-tsutatsu-db/data/resolve_lite/sozei_tokubetsu_tsutatsu_hojinzei.json"
     },
     "kokuzei_tsusoku_kihon_tsutatsu": {

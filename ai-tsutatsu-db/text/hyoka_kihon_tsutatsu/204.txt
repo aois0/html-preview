@@ -1,0 +1,9 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 204 / id: 204 / title: 貸付金債権の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/204.html
+
+[p1] 貸付金、売掛金、未収入金、預貯金以外の預け金、仮払金、その他これらに類するもの（以下「貸付金債権等」という。）の価額は、次に掲げる元本の価額と利息の価額との合計額によって評価する。
+[p2] （1） 貸付金債権等の元本の価額は、その返済されるべき金額
+[p3] （2） 貸付金債権等に係る利息（208≪未収法定果実の評価≫に定める貸付金等の利子を除く。）の価額は、課税時期現在の既経過利息として支払を受けるべき金額

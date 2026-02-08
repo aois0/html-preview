@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 30 / id: 30 / title: 旧少額減価償却資産の範囲
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/fusoku/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/30.html
+
+[p1] 法人税法施行令の一部を改正する政令（昭和49年政令第77号。以下「昭和49年改正政令」という。）附則第7条に規定する旧少額減価償却資産（以下「旧少額減価償却資産」という。）には、昭和49年改正政令による改正前の法人税法施行令第133条に規定するその内国法人の業務の性質上基本的に重要なもので昭和49年4月1日以後最初に開始する事業年度開始の日において帳簿価額のあるものを含むことに留意する。

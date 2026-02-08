@@ -5,6 +5,5 @@ source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/15/15_01_29.htm
 url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/15-1-65-2.html
 
 [p1] 15−1−63の2《オープン病院等の健康保険診療報酬の額に準ずる額》の取扱いは、規則第6条第1号《非課税とされる福祉病院等》に規定する公益法人等の行う医療保健業に係る診療報酬又は利用料の額が同条第3号に規定する「これらに準ずる額」に該当するかどうかの判定について準用する。(昭59年直法2−3「九」により追加)
-[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p2] 第30款 技芸教授業
 [p3] 第30款 技芸教授業
-[p4] 第30款 技芸教授業

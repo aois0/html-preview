@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 208 / id: 208 / title: 未収法定果実の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/208.html
+
+[p1] 課税時期において既に収入すべき期限が到来しているもので同時期においてまだ収入していない地代、家賃その他の賃貸料、貸付金の利息等の法定果実の価額は、その収入すべき法定果実の金額によって評価する。

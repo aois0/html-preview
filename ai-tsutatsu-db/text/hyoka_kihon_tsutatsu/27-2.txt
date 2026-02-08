@@ -1,0 +1,8 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 27−2 / id: 27-2 / title: 定期借地権等の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/27-2.html
+
+[p1] 定期借地権等の価額は、原則として、課税時期において借地権者に帰属する経済的利益及びその存続期間を基として評定した価額によって評価する。
+[p2] ただし、課税上弊害がない限り、その定期借地権等の目的となっている宅地の課税時期における自用地としての価額に、次の算式により計算した数値を乗じて計算した金額によって評価する。（平6課評2−2外追加、平11課評2−12外改正）

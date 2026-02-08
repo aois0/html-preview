@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 3 / id: 3 / title: 源泉徴収についての適用時期
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/40/01.htm#a-02
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/3.html
+
+[p1] 基本通達のうち源泉徴収の取扱いについては、別段の定めがあるものを除き、基本通達の施行の日（以下「施行日」という。）以後に支払うべきものについて適用し、同日前に支払うべきものについては、なお従前の例による。

@@ -1,0 +1,8 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 124 / id: 124 / title: 相続人が提出する還付を受けるための申告書の記載事項
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/19/02.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/124.html
+
+[p1] ・125−1
+[p2] 法第122条第1項《還付等を受けるための申告》に規定する申告書を提出することができる者がその年の翌年1月1日以後当該申告書を提出しないで死亡した場合において、その相続人が当該申告書を提出しようとするときは、当該申告書に令第263条第1項《死亡の場合の確定申告の特例》に規定する事項を記載し、同条第2項及び第3項に規定するところにより提出することに留意する。（平20課個2−17、課審4−186、課法9−3改正）

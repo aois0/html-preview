@@ -1,0 +1,8 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 87−4 / id: 87-4 / title: 土地の上に存する権利が競合する場合の賃借権又は地上権の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/16.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/87-4.html
+
+[p1] 土地の上に存する権利が競合する場合の賃借権又は地上権の価額は、次に掲げる区分に従い、それぞれ次の算式により計算した金額によって評価する。（平3課評2−4外追加）
+[p2] （1） 賃借権又は地上権及び区分地上権が設定されている場合の賃借権又は地上権の価額

@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 143 / id: 143 / title: 補償金を受ける期間
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/07/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/143.html
+
+[p1] 140≪特許権の評価≫の「その権利に基づき将来受ける」期間は、課税時期から特許法（昭和34年法律第121号）第67条≪存続期間≫に規定する特許権の存続期間が終了する時期までの年数（その年数に1年未満の端数があるときは、その端数は、切り捨てる。）の範囲内において推算した年数とする。

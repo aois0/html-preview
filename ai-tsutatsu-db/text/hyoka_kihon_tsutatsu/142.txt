@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 142 / id: 142 / title: 補償金の額
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/07/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/142.html
+
+[p1] 140≪特許権の評価≫の定めによって特許権の価額を評価する場合において、その将来受ける補償金の額が確定していないものについては、課税時期前の相当の期間内に取得した補償金の額のうち、その特許権の内容等に照らし、その特許権に係る経常的な収入と認められる部分の金額を基とし、その特許権の需要及び持続性等を参酌して推算した金額をもってその将来受ける補償金の額とする。

@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 200-3 / id: 200-3 / title: 完全生命表
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/200-3.html
+
+[p1] 相続税法施行規則第12条の6に規定する「完全生命表」は、定期金給付契約に関する権利を取得した時の属する年の1月1日現在において公表されている最新のものによる。（平22課評2-18外追加、令2課評2-21外改正）

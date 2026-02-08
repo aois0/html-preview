@@ -1,0 +1,24 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 9000-02-07-03 / id: 9000-02-07-03 / title: 付表3 二方路線影響加算率表（平3課評2−4外・平18課評2−27外改正）
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/9000-02-07-03.html
+
+[p1] 付表3
+[p2] 二方路線影響加算率表（平3課評2−4外・平18課評2−27外改正）
+[p3] ※本表は平成19年分以降用です。平成18年分以前用は
+[p4] こちら(PDFファイル/65KB)
+[p5] をご覧ください。
+[p6] 地区区分
+[p7] 加算率
+[p8] ビル街地区
+[p9] 0.03
+[p10] 高度商業地区
+[p11] 繁華街地区
+[p12] 0.07
+[p13] 普通商業・併用住宅地区
+[p14] 0.05
+[p15] 普通住宅地区
+[p16] 中小工場地区
+[p17] 大工場地区
+[p18] 0.02

@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 209 / id: 209 / title: 未収天然果実の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/209.html
+
+[p1] 課税時期において、その後3か月以内に収穫することが予想される果実、立毛等の天然果実は、その天然果実の発生の基因となった財産とは別に評価するものとし、その価額は、課税時期における現況に応じ、収穫時において予想されるその天然果実の販売価額の100分の70に相当する金額の範囲内で相当と認める価額によって評価する。

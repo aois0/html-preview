@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 9 / id: 9 / title: 土地の上に存する権利の評価上の区分
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/9.html
+
+[p1] 土地の上に存する権利の価額は、次に掲げる権利の別に評価する。（平3課評2−4外・平6課評2−2外・平17課評2−11外・平20課評2-5外・平22課評2-18外改正）

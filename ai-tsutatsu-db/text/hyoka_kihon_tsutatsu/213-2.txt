@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 213-2 / id: 213-2 / title: 受益証券発行信託証券等の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/213-2.html
+
+[p1] 受益証券発行信託の受益証券（以下「受益証券発行信託証券」という。）のうち、上場されているものの価額は、１口ごとに評価するものとし、169((上場株式の評価))から172((上場株式についての最終価格の月平均額の特例))までの定めに準じて評価する。また、受益証券発行信託証券に係る金銭分配期待権の価額は、193((配当期待権の評価))に準じて評価する。（平26課評２−19外追加）

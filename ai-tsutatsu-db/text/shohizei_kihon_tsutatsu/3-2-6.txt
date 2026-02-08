@@ -5,6 +5,5 @@ source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shohi/03/02.htm
 url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shohizei_kihon_tsutatsu/3-2-6.html
 
 [p1] 人格のない社団等が課税期間の中途においてその事業を行わないこととしてその有する財産の全部を分配した場合には、当該人格のない社団等については、その分配をした日に解散し、残余財産の確定があったものとする。したがって、分配をした日がその分配をした日を含む課税期間の末日となることに留意する。
-[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p2] 第3節 課税期間の特例
 [p3] 第3節 課税期間の特例
-[p4] 第3節 課税期間の特例

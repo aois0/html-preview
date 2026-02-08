@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 194 / id: 194 / title: 持分会社の出資の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/194.html
+
+[p1] 会社法第575条第1項に規定する持分会社に対する出資の価額は、178≪取引相場のない株式の評価上の区分≫から前項までの定めに準じて計算した価額によって評価する。（昭59直評7外・平18課評2−27外改正）

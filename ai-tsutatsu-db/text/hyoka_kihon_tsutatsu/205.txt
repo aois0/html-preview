@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 205 / id: 205 / title: 貸付金債権等の元本価額の範囲
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/205.html
+
+[p1] 前項の定めにより貸付金債権等の評価を行う場合において、その債権金額の全部又は一部が、課税時期において次に掲げる金額に該当するときその他その回収が不可能又は著しく困難であると見込まれるときにおいては、それらの金額は元本の価額に算入しない。（平12課評2-4外・平28課評2-10外改正）

@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 21 / id: 21 / title: 倍率方式
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/21.html
+
+[p1] 倍率方式とは、固定資産税評価額(地方税法第381条((固定資産課税台帳の登録事項))の規定により土地課税台帳若しくは土地補充課税台帳（同条第8項の規定により土地補充課税台帳とみなされるものを含む。）に登録された基準年度の価格又は比準価格をいう。以下この章において同じ。）に国税局長が一定の地域ごとにその地域の実情に即するように定める倍率を乗じて計算した金額によって評価する方式をいう。（昭41直資3−19・平3課評2−4外・平11課評2−12外改正）

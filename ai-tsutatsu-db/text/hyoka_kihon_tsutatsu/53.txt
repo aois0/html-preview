@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 53 / id: 53 / title: 残存期間の不確定な地上権の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/10.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/53.html
+
+[p1] 立木一代限りとして設定された地上権などのように残存期間の不確定な地上権の価額は、課税時期の現況により、立木の伐採に至るまでの期間をその残存期間として相続税法第23条≪地上権及び永小作権の評価≫又は地価税法第24条≪地上権及び永小作権の評価≫の規定によって評価する。（平3課評2−4外改正）

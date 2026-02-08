@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 22−3 / id: 22-3 / title: 大規模工場用地の路線価及び倍率
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/22-3.html
+
+[p1] 22((大規模工場用地の評価))の「路線価」及び「倍率」は、その大規模工場用地がその路線（倍率を定める場合は、その大規模工場用地の価格に及ぼす影響が最も高いと認められる路線）だけに接していて地積がおおむね5万平方メートルのく形又は正方形の宅地として、売買実例価額、公示価格、不動産鑑定士等による鑑定評価額、精通者意見価格等を基に国税局長が定める。（平3課評2−4外追加、平11課評2−2外改正）

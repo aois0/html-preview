@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 188−3 / id: 188-3 / title: 評価会社が自己株式を有する場合の議決権総数
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/188-3.html
+
+[p1] 188((同族株主以外の株主等が取得した株式))の(1)から(4)までにおいて、評価会社が自己株式を有する場合には、その自己株式に係る議決権の数は0として計算した議決権の数をもって評価会社の議決権総数となることに留意する。（平12課評2−4外追加・平15課評2−15外・平18課評2−27外改正）
