@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 600" font-family="Segoe UI, Hiragino Sans, Noto Sans JP, sans-serif">
+  <defs>
+    <linearGradient id="headerGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1a365d"/><stop offset="100%" stop-color="#2c5282"/>
+    </linearGradient>
+    <linearGradient id="spectrumGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3182ce"/>
+      <stop offset="25%" stop-color="#38a169"/>
+      <stop offset="50%" stop-color="#d69e2e"/>
+      <stop offset="75%" stop-color="#dd6b20"/>
+      <stop offset="100%" stop-color="#e53e3e"/>
+    </linearGradient>
+    <linearGradient id="darkGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2d3748"/><stop offset="100%" stop-color="#1a202c"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3182ce"/><stop offset="100%" stop-color="#2b6cb0"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#38a169"/><stop offset="100%" stop-color="#2f855a"/>
+    </linearGradient>
+    <linearGradient id="yellowGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d69e2e"/><stop offset="100%" stop-color="#b7791f"/>
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dd6b20"/><stop offset="100%" stop-color="#c05621"/>
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e53e3e"/><stop offset="100%" stop-color="#c53030"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#805ad5"/><stop offset="100%" stop-color="#553c9a"/>
+    </linearGradient>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+    <filter id="shadowLight" x="-1%" y="-1%" width="102%" height="102%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-opacity="0.1"/>
+    </filter>
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arrowRight" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4a5568"/>
+    </marker>
+    <marker id="arrowDown" markerWidth="10" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4a5568"/>
+    </marker>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="1400" height="600" fill="#f7fafc"/>
+
+  <!-- ヘッダー -->
+  <rect x="0" y="0" width="1400" height="70" fill="url(#headerGrad)"/>
+  <text x="700" y="32" text-anchor="middle" fill="white" font-size="24" font-weight="700">測定の認識論的スペクトラム</text>
+  <text x="700" y="54" text-anchor="middle" fill="#cbd5e0" font-size="12">Epistemological Spectrum of Valuation: Discovery vs Construction</text>
+
+  <!-- ========== 両極のラベル ========== -->
+  <!-- 左極: 完全な客観性 -->
+  <rect x="60" y="100" width="180" height="50" rx="8" fill="url(#blueGrad)" filter="url(#shadow)"/>
+  <text x="150" y="122" text-anchor="middle" fill="white" font-size="14" font-weight="700">完全な客観性</text>
+  <text x="150" y="140" text-anchor="middle" fill="#bee3f8" font-size="10">Observable / Market</text>
+
+  <!-- 右極: 完全な主観性 -->
+  <rect x="1160" y="100" width="180" height="50" rx="8" fill="url(#redGrad)" filter="url(#shadow)"/>
+  <text x="1250" y="122" text-anchor="middle" fill="white" font-size="14" font-weight="700">完全な主観性</text>
+  <text x="1250" y="140" text-anchor="middle" fill="#fed7d7" font-size="10">Unobservable / Entity</text>
+
+  <!-- ========== メインスペクトラムバー ========== -->
+  <rect x="100" y="175" width="1200" height="16" rx="8" fill="url(#spectrumGrad)" filter="url(#shadowLight)"/>
+
+  <!-- 矢印 -->
+  <line x1="100" y1="183" x2="60" y2="183" stroke="#3182ce" stroke-width="2"/>
+  <polygon points="65,178 55,183 65,188" fill="#3182ce"/>
+  <line x1="1300" y1="183" x2="1340" y2="183" stroke="#e53e3e" stroke-width="2"/>
+  <polygon points="1335,178 1345,183 1335,188" fill="#e53e3e"/>
+
+  <!-- ========== スペクトラム上の概念配置 ========== -->
+
+  <!-- 位置1: 上場株式終値 (x=150, 最左端近く) -->
+  <line x1="150" y1="195" x2="150" y2="230" stroke="#3182ce" stroke-width="2"/>
+  <circle cx="150" cy="183" r="6" fill="#3182ce" stroke="white" stroke-width="2"/>
+  <rect x="75" y="235" width="150" height="80" rx="8" fill="white" stroke="#3182ce" stroke-width="2" filter="url(#shadowLight)"/>
+  <rect x="75" y="235" width="150" height="22" rx="8" fill="url(#blueGrad)"/>
+  <rect x="75" y="251" width="150" height="5" fill="url(#blueGrad)"/>
+  <text x="150" y="252" text-anchor="middle" fill="white" font-size="10" font-weight="700">上場株式終値</text>
+  <text x="150" y="278" text-anchor="middle" fill="#2d3748" font-size="11" font-weight="600">Level 1</text>
+  <text x="150" y="294" text-anchor="middle" fill="#718096" font-size="9">活発な市場の</text>
+  <text x="150" y="306" text-anchor="middle" fill="#718096" font-size="9">観察可能な価格</text>
+
+  <!-- 位置2: 公示地価 (x=380) -->
+  <line x1="380" y1="195" x2="380" y2="230" stroke="#38a169" stroke-width="2"/>
+  <circle cx="380" cy="183" r="6" fill="#38a169" stroke="white" stroke-width="2"/>
+  <rect x="305" y="235" width="150" height="80" rx="8" fill="white" stroke="#38a169" stroke-width="2" filter="url(#shadowLight)"/>
+  <rect x="305" y="235" width="150" height="22" rx="8" fill="url(#greenGrad)"/>
+  <rect x="305" y="251" width="150" height="5" fill="url(#greenGrad)"/>
+  <text x="380" y="252" text-anchor="middle" fill="white" font-size="10" font-weight="700">公示地価</text>
+  <text x="380" y="278" text-anchor="middle" fill="#2d3748" font-size="11" font-weight="600">制度的価格</text>
+  <text x="380" y="294" text-anchor="middle" fill="#718096" font-size="9">鑑定士の評価に</text>
+  <text x="380" y="306" text-anchor="middle" fill="#718096" font-size="9">基づく公的指標</text>
+
+  <!-- 位置3: 路線価 (x=560) -->
+  <line x1="560" y1="195" x2="560" y2="230" stroke="#d69e2e" stroke-width="2"/>
+  <circle cx="560" cy="183" r="6" fill="#d69e2e" stroke="white" stroke-width="2"/>
+  <rect x="485" y="235" width="150" height="80" rx="8" fill="white" stroke="#d69e2e" stroke-width="2" filter="url(#shadowLight)"/>
+  <rect x="485" y="235" width="150" height="22" rx="8" fill="url(#yellowGrad)"/>
+  <rect x="485" y="251" width="150" height="5" fill="url(#yellowGrad)"/>
+  <text x="560" y="252" text-anchor="middle" fill="white" font-size="10" font-weight="700">路線価</text>
+  <text x="560" y="278" text-anchor="middle" fill="#2d3748" font-size="11" font-weight="600">通達に基づく</text>
+  <text x="560" y="294" text-anchor="middle" fill="#718096" font-size="9">公示地価の80%</text>
+  <text x="560" y="306" text-anchor="middle" fill="#718096" font-size="9">画一的・安全率込み</text>
+
+  <!-- 位置4: 非上場株式の純資産価額 (x=740) -->
+  <line x1="740" y1="195" x2="740" y2="230" stroke="#dd6b20" stroke-width="2"/>
+  <circle cx="740" cy="183" r="6" fill="#dd6b20" stroke="white" stroke-width="2"/>
+  <rect x="658" y="235" width="164" height="80" rx="8" fill="white" stroke="#dd6b20" stroke-width="2" filter="url(#shadowLight)"/>
+  <rect x="658" y="235" width="164" height="22" rx="8" fill="url(#orangeGrad)"/>
+  <rect x="658" y="251" width="164" height="5" fill="url(#orangeGrad)"/>
+  <text x="740" y="252" text-anchor="middle" fill="white" font-size="9" font-weight="700">非上場株式評価</text>
+  <text x="740" y="278" text-anchor="middle" fill="#2d3748" font-size="11" font-weight="600">Level 2-3</text>
+  <text x="740" y="294" text-anchor="middle" fill="#718096" font-size="9">純資産価額/類似</text>
+  <text x="740" y="306" text-anchor="middle" fill="#718096" font-size="9">業種比準価額等</text>
+
+  <!-- 位置5: 鑑定評価 (x=950) -->
+  <line x1="950" y1="195" x2="950" y2="230" stroke="#805ad5" stroke-width="2"/>
+  <circle cx="950" cy="183" r="6" fill="#805ad5" stroke="white" stroke-width="2"/>
+  <rect x="875" y="235" width="150" height="80" rx="8" fill="white" stroke="#805ad5" stroke-width="2" filter="url(#shadowLight)"/>
+  <rect x="875" y="235" width="150" height="22" rx="8" fill="url(#purpleGrad)"/>
+  <rect x="875" y="251" width="150" height="5" fill="url(#purpleGrad)"/>
+  <text x="950" y="252" text-anchor="middle" fill="white" font-size="10" font-weight="700">鑑定評価</text>
+  <text x="950" y="278" text-anchor="middle" fill="#2d3748" font-size="11" font-weight="600">Level 2-3</text>
+  <text x="950" y="294" text-anchor="middle" fill="#718096" font-size="9">専門家の判断</text>
+  <text x="950" y="306" text-anchor="middle" fill="#718096" font-size="9">が介在する評価</text>
+
+  <!-- 位置6: 使用価値 (x=1180) -->
+  <line x1="1180" y1="195" x2="1180" y2="230" stroke="#e53e3e" stroke-width="2"/>
+  <circle cx="1180" cy="183" r="6" fill="#e53e3e" stroke="white" stroke-width="2"/>
+  <rect x="1100" y="235" width="160" height="80" rx="8" fill="white" stroke="#e53e3e" stroke-width="2" filter="url(#shadowLight)"/>
+  <rect x="1100" y="235" width="160" height="22" rx="8" fill="url(#redGrad)"/>
+  <rect x="1100" y="251" width="160" height="5" fill="url(#redGrad)"/>
+  <text x="1180" y="252" text-anchor="middle" fill="white" font-size="10" font-weight="700">使用価値</text>
+  <text x="1180" y="278" text-anchor="middle" fill="#2d3748" font-size="11" font-weight="600">企業固有価値</text>
+  <text x="1180" y="294" text-anchor="middle" fill="#718096" font-size="9">将来CFのDCF</text>
+  <text x="1180" y="306" text-anchor="middle" fill="#718096" font-size="9">仮定に大きく依存</text>
+
+  <!-- ========== 下部: 認識論的解釈 ========== -->
+  <!-- 左側: 「発見」 -->
+  <line x1="150" y1="320" x2="150" y2="365" stroke="#3182ce" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="55" y="370" width="190" height="80" rx="8" fill="#ebf8ff" stroke="#3182ce" stroke-width="1.5" filter="url(#shadowLight)"/>
+  <text x="150" y="394" text-anchor="middle" fill="#2b6cb0" font-size="16" font-weight="700">「発見」</text>
+  <text x="150" y="414" text-anchor="middle" fill="#2b6cb0" font-size="10">Discovery</text>
+  <text x="150" y="432" text-anchor="middle" fill="#4a5568" font-size="9">価値は市場に既に存在し</text>
+  <text x="150" y="444" text-anchor="middle" fill="#4a5568" font-size="9">観察によって発見される</text>
+
+  <!-- 右側: 「構成」 -->
+  <line x1="1180" y1="320" x2="1180" y2="365" stroke="#e53e3e" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="1085" y="370" width="190" height="80" rx="8" fill="#fff5f5" stroke="#e53e3e" stroke-width="1.5" filter="url(#shadowLight)"/>
+  <text x="1180" y="394" text-anchor="middle" fill="#c53030" font-size="16" font-weight="700">「構成」</text>
+  <text x="1180" y="414" text-anchor="middle" fill="#c53030" font-size="10">Construction</text>
+  <text x="1180" y="432" text-anchor="middle" fill="#4a5568" font-size="9">価値は評価者の仮定と</text>
+  <text x="1180" y="444" text-anchor="middle" fill="#4a5568" font-size="9">判断によって構成される</text>
+
+  <!-- 中間: 矢印とスケールの説明 -->
+  <line x1="250" y1="410" x2="1080" y2="410" stroke="#4a5568" stroke-width="1.5" stroke-dasharray="8,4" marker-end="url(#arrowRight)"/>
+  <text x="665" y="405" text-anchor="middle" fill="#718096" font-size="10">客観性の度合いが減少 / 評価者の裁量が増大</text>
+
+  <!-- ========== 下段: 3つの視点からの注記 ========== -->
+  <rect x="60" y="470" width="400" height="80" rx="8" fill="white" stroke="#3182ce" stroke-width="1.5" filter="url(#shadowLight)"/>
+  <rect x="60" y="470" width="400" height="22" rx="8" fill="url(#blueGrad)"/>
+  <rect x="60" y="486" width="400" height="5" fill="url(#blueGrad)"/>
+  <text x="260" y="487" text-anchor="middle" fill="white" font-size="10" font-weight="700">税法の立場</text>
+  <text x="80" y="510" fill="#4a5568" font-size="10">「時価」は客観的交換価値を志向するが、</text>
+  <text x="80" y="525" fill="#4a5568" font-size="10">通達による画一化は「構成」的側面を含む。</text>
+  <text x="80" y="540" fill="#e53e3e" font-size="10" font-weight="600">課税の公平 vs 測定の正確性のトレードオフ</text>
+
+  <rect x="500" y="470" width="400" height="80" rx="8" fill="white" stroke="#38a169" stroke-width="1.5" filter="url(#shadowLight)"/>
+  <rect x="500" y="470" width="400" height="22" rx="8" fill="url(#greenGrad)"/>
+  <rect x="500" y="486" width="400" height="5" fill="url(#greenGrad)"/>
+  <text x="700" y="487" text-anchor="middle" fill="white" font-size="10" font-weight="700">会計の立場</text>
+  <text x="520" y="510" fill="#4a5568" font-size="10">IFRS 13は3レベルの公正価値ヒエラルキーで</text>
+  <text x="520" y="525" fill="#4a5568" font-size="10">客観性の程度を明示的に序列化。</text>
+  <text x="520" y="540" fill="#38a169" font-size="10" font-weight="600">Level 1 &gt; Level 2 &gt; Level 3（開示要求増）</text>
+
+  <rect x="940" y="470" width="400" height="80" rx="8" fill="white" stroke="#805ad5" stroke-width="1.5" filter="url(#shadowLight)"/>
+  <rect x="940" y="470" width="400" height="22" rx="8" fill="url(#purpleGrad)"/>
+  <rect x="940" y="486" width="400" height="5" fill="url(#purpleGrad)"/>
+  <text x="1140" y="487" text-anchor="middle" fill="white" font-size="10" font-weight="700">認識論的含意</text>
+  <text x="960" y="510" fill="#4a5568" font-size="10">「真の時価」は理念的構成物であり、</text>
+  <text x="960" y="525" fill="#4a5568" font-size="10">全ての測定は一定の「構成」を含む。</text>
+  <text x="960" y="540" fill="#805ad5" font-size="10" font-weight="600">問い: 誰が構成する権限を持つのか？</text>
+
+  <!-- ========== フッター ========== -->
+  <rect x="0" y="568" width="1400" height="32" fill="url(#headerGrad)"/>
+  <text x="700" y="586" text-anchor="middle" fill="white" font-size="11" font-weight="600">測定の認識論的スペクトラム ── 客観性と主観性の連続体 | 2026年2月8日 | Claude Opus 4.6 Deep Research</text>
+
+</svg>

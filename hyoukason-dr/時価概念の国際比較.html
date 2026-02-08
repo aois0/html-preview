@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>「時価」概念の国際比較 ── 欧米主要国・アジア主要国における税務・会計上の価額概念</title>
+<style>
+:root {
+  --primary: #1a365d;
+  --secondary: #2c5282;
+  --accent: #c53030;
+  --accent2: #2b6cb0;
+  --bg: #f7fafc;
+  --card-bg: #ffffff;
+  --border: #e2e8f0;
+  --text: #2d3748;
+  --text-light: #718096;
+  --gold: #b7791f;
+  --green: #276749;
+  --purple: #6b46c1;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  font-family: "Noto Sans JP","Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;
+  background: var(--bg); color: var(--text); line-height:1.85; font-size:15px;
+}
+a { color: var(--accent2); text-decoration:none; }
+a:hover { text-decoration:underline; }
+
+/* Layout */
+.wrapper { display:flex; min-height:100vh; }
+.sidebar {
+  width:280px; min-width:280px; background:var(--primary); color:#cbd5e0;
+  padding:20px 12px; position:sticky; top:0; height:100vh; overflow-y:auto;
+  font-size:0.82em;
+}
+.sidebar h2 { color:#fff; font-size:1em; margin-bottom:12px; padding-bottom:8px; border-bottom:1px solid #4a5568; }
+.sidebar ol { list-style:none; padding:0; }
+.sidebar li { margin:3px 0; }
+.sidebar a { color:#a0aec0; display:block; padding:3px 8px; border-radius:4px; }
+.sidebar a:hover { color:#fff; background:#2d3748; text-decoration:none; }
+.sidebar .sub { padding-left:14px; font-size:0.92em; }
+.sidebar .label { display:inline-block; font-size:0.7em; padding:1px 5px; border-radius:3px; margin-left:4px; }
+.sidebar .us { background:#3182ce; color:#fff; }
+.sidebar .uk { background:#e53e3e; color:#fff; }
+.sidebar .de { background:#d69e2e; color:#fff; }
+.sidebar .fr { background:#805ad5; color:#fff; }
+.sidebar .ca { background:#e53e3e; color:#fff; }
+.sidebar .kr { background:#2b6cb0; color:#fff; }
+.sidebar .cn { background:#c53030; color:#fff; }
+.sidebar .tw { background:#38a169; color:#fff; }
+.sidebar .sg { background:#e53e3e; color:#fff; }
+.sidebar .in { background:#d69e2e; color:#fff; }
+.sidebar .au { background:#2b6cb0; color:#fff; }
+.sidebar .hk { background:#e53e3e; color:#fff; }
+.main { flex:1; padding:0; max-width:980px; margin:0 auto; }
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #1a365d 0%, #2c5282 40%, #2b6cb0 70%, #4299e1 100%);
+  color:#fff; padding:50px 40px; margin-bottom:30px;
+}
+header h1 { font-size:1.9em; line-height:1.3; margin-bottom:12px; }
+header .subtitle { font-size:1.1em; opacity:0.9; margin-bottom:8px; }
+header .meta { font-size:0.85em; opacity:0.7; }
+
+/* Section */
+.section {
+  background:var(--card-bg); border:1px solid var(--border);
+  border-radius:10px; padding:35px 40px; margin:25px 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+.section h2 {
+  font-size:1.45em; color:var(--primary);
+  border-left:6px solid var(--accent); padding-left:18px;
+  margin-bottom:25px; line-height:1.4;
+}
+.section h3 {
+  font-size:1.18em; color:var(--secondary); margin:25px 0 12px;
+  padding-bottom:6px; border-bottom:2px solid #e2e8f0;
+}
+.section h4 { font-size:1.02em; color:#4a5568; margin:18px 0 8px; }
+
+/* Country header */
+.country-header {
+  display:flex; align-items:center; gap:12px; margin:30px 0 15px;
+  padding:12px 18px; border-radius:8px;
+}
+.country-header.western { background:linear-gradient(90deg, #ebf4ff 0%, #fff 100%); border-left:5px solid var(--accent2); }
+.country-header.asian { background:linear-gradient(90deg, #fff5f5 0%, #fff 100%); border-left:5px solid var(--accent); }
+.country-header .flag { font-size:2em; }
+.country-header .name { font-size:1.3em; font-weight:700; color:var(--primary); }
+.country-header .concept { font-size:0.95em; color:var(--text-light); margin-left:auto; font-style:italic; }
+
+/* Tables */
+table { width:100%; border-collapse:collapse; margin:18px 0; font-size:0.88em; }
+th,td { border:1px solid var(--border); padding:10px 13px; text-align:left; vertical-align:top; }
+th { background:#edf2f7; font-weight:600; color:var(--primary); }
+tr:nth-child(even) { background:#f7fafc; }
+
+/* Master comparison table */
+.master-table th { background:var(--primary); color:#fff; font-size:0.82em; position:sticky; top:0; }
+.master-table td { font-size:0.82em; padding:8px 10px; }
+.master-table .country-col { font-weight:700; white-space:nowrap; background:#edf2f7; }
+
+/* Blockquote */
+blockquote {
+  border-left:4px solid var(--secondary); background:#ebf8ff;
+  padding:18px 22px; margin:18px 0; font-size:0.93em;
+  border-radius:0 8px 8px 0; line-height:1.9;
+}
+blockquote.legal { border-left-color: var(--accent); background:#fff5f5; }
+blockquote.en { border-left-color: var(--green); background:#f0fff4; font-style:italic; }
+blockquote cite {
+  display:block; margin-top:8px; font-size:0.85em; color:var(--text-light);
+  font-style:normal;
+}
+
+/* Key point */
+.key-point {
+  background:#fffbeb; border:1px solid #f6e05e; border-radius:8px;
+  padding:18px 22px; margin:18px 0;
+}
+.key-point strong:first-child { color:var(--gold); }
+
+/* Grid */
+.grid-2 { display:grid; grid-template-columns:1fr 1fr; gap:18px; margin:18px 0; }
+.grid-3 { display:grid; grid-template-columns:1fr 1fr 1fr; gap:15px; margin:18px 0; }
+.card {
+  background:#f7fafc; border:1px solid var(--border); border-radius:8px;
+  padding:18px; font-size:0.9em;
+}
+.card h5 { color:var(--primary); margin-bottom:8px; font-size:1em; }
+.card.tax { border-top:3px solid var(--accent); }
+.card.acct { border-top:3px solid var(--green); }
+.card.appr { border-top:3px solid var(--purple); }
+
+/* Tag / badge */
+.tag { display:inline-block; font-size:0.72em; padding:2px 8px; border-radius:10px; font-weight:600; }
+.tag-ifrs { background:#c6f6d5; color:#276749; }
+.tag-gaap { background:#fed7d7; color:#9b2c2c; }
+.tag-partial { background:#fefcbf; color:#975a16; }
+.tag-yes { background:#c6f6d5; color:#276749; }
+.tag-no { background:#e2e8f0; color:#4a5568; }
+.tag-severe { background:#fed7d7; color:#9b2c2c; }
+.tag-moderate { background:#fefcbf; color:#975a16; }
+.tag-mild { background:#c6f6d5; color:#276749; }
+
+/* Star rating */
+.stars { color:#d69e2e; letter-spacing:2px; }
+
+/* Footnotes */
+.footnotes {
+  background:#f7fafc; border-top:2px solid var(--border);
+  padding:25px 30px; margin-top:30px; font-size:0.85em;
+}
+.fn { margin:5px 0; }
+sup a { color:var(--accent2); font-weight:600; }
+
+/* Responsive */
+@media (max-width:900px) {
+  .sidebar { display:none; }
+  .section { padding:25px 20px; margin:15px 10px; }
+  header { padding:30px 20px; }
+  .grid-2, .grid-3 { grid-template-columns:1fr; }
+  .master-table { font-size:0.75em; }
+}
+@media print {
+  .sidebar { display:none; }
+  .section { break-inside:avoid; box-shadow:none; border:1px solid #ccc; }
+}
+</style>
+</head>
+<body>
+<div class="wrapper">
+
+<!-- Sidebar -->
+<nav class="sidebar">
+<h2>目次</h2>
+<ol>
+  <li><a href="#ch1">第1章　はじめに</a></li>
+  <li><a href="#ch2">第2章　総覧 ── 12か国比較表</a></li>
+  <li><a href="#ch3">第3章　欧米主要国</a>
+    <ol class="sub">
+      <li><a href="#us">3.1 米国 <span class="label us">US</span></a></li>
+      <li><a href="#uk">3.2 英国 <span class="label uk">UK</span></a></li>
+      <li><a href="#de">3.3 ドイツ <span class="label de">DE</span></a></li>
+      <li><a href="#fr">3.4 フランス <span class="label fr">FR</span></a></li>
+      <li><a href="#ca">3.5 カナダ <span class="label ca">CA</span></a></li>
+    </ol>
+  </li>
+  <li><a href="#ch4">第4章　アジア主要国</a>
+    <ol class="sub">
+      <li><a href="#kr">4.1 韓国 <span class="label kr">KR</span></a></li>
+      <li><a href="#cn">4.2 中国 <span class="label cn">CN</span></a></li>
+      <li><a href="#tw">4.3 台湾 <span class="label tw">TW</span></a></li>
+      <li><a href="#sg">4.4 シンガポール <span class="label sg">SG</span></a></li>
+      <li><a href="#in">4.5 インド <span class="label in">IN</span></a></li>
+      <li><a href="#au">4.6 豪州 <span class="label au">AU</span></a></li>
+      <li><a href="#hk">4.7 香港 <span class="label hk">HK</span></a></li>
+    </ol>
+  </li>
+  <li><a href="#ch5">第5章　税法上の「時価」横断分析</a></li>
+  <li><a href="#ch6">第6章　会計基準の公正価値</a></li>
+  <li><a href="#ch7">第7章　一物多価の国際比較</a></li>
+  <li><a href="#ch8">第8章　通達・行政規則の役割</a></li>
+  <li><a href="#ch9">第9章　結論と示唆</a></li>
+  <li><a href="#refs">参考文献</a></li>
+</ol>
+</nav>
+
+<!-- Main -->
+<div class="main">
+
+<header>
+<h1>「時価」概念の国際比較</h1>
+<div class="subtitle">欧米主要国・アジア主要国における税務・会計上の価額概念の体系的整理</div>
+<div class="meta">2026年2月｜評価損ディープリサーチ・プロジェクト｜12か国・地域の比較法的分析</div>
+</header>
+
+<!-- ═══════════════════════════════════════ Ch1 ═══════════════════════════════════════ -->
+<div class="section" id="ch1">
+<h2>第1章　はじめに ── なぜ国際比較が必要か</h2>
+
+<p>日本法において「時価」は、法人税法・所得税法・相続税法・地方税法のいずれにおいても中核的な価額概念として機能している。判例は一貫して「客観的交換価値」──「不特定多数の当事者間で自由な取引が行われる場合に通常成立すると認められる価額」──をその内容と解しているが、この概念は日本独自のものではない。</p>
+
+<p>世界の主要国は、それぞれの法体系のなかで同種の概念を発展させてきた。米国のFair Market Value、英国のMarket Value、ドイツのGemeiner Wert、フランスのValeur vénale、韓国の시가（時価）──いずれも「客観的な市場条件の下で成立する価格」を志向する点で共通する。しかし、その法的構造、制度的具体化の方法、通達・行政規則の役割、そして裁判所による認定手法は、国ごとに大きく異なる。</p>
+
+<h3>本報告書の射程</h3>
+<p>本報告書は、<strong>欧米5か国</strong>（米国・英国・ドイツ・フランス・カナダ）および<strong>アジア7か国・地域</strong>（韓国・中国・台湾・シンガポール・インド・オーストラリア・香港）を対象に、以下の4つの軸で国際比較を行う。</p>
+<ol>
+<li><strong>税法上の「時価」概念</strong>── 法的定義、条文構造、判例法理</li>
+<li><strong>会計基準上の「公正価値」</strong>── IFRS 13の各国受容状況、税法との関係</li>
+<li><strong>一物多価問題</strong>── 同一資産に複数の公的評価額が並存する構造の国際比較</li>
+<li><strong>通達・行政規則の役割</strong>── 日本の「通達主義」は国際的にどこまで特異か</li>
+</ol>
+
+<div class="key-point">
+<strong>本報告書の基本的問い</strong>
+<p>日本の「客観的交換価値」概念は、比較法的にどのような位置にあるのか。日本の通達による画一的評価は国際的に見て特異なのか。一物多価問題は日本固有の問題か、それとも普遍的な現象か。</p>
+</div>
+</div>
+
+<!-- ═══════════════════════════════════════ Ch2 ═══════════════════════════════════════ -->
+<div class="section" id="ch2">
+<h2>第2章　総覧 ── 12か国の「時価」概念一覧</h2>
+
+<h3>2.1 税法上の「時価」概念 ── マスター比較表</h3>
+<div style="overflow-x:auto;">
+<table class="master-table">
+<tr>
+  <th>国</th>
+  <th>概念名</th>
+  <th>法的根拠</th>
+  <th>定義の核心</th>
+  <th>制定法上の定義</th>
+</tr>
+<tr>
+  <td class="country-col">🇯🇵 日本</td>
+  <td>時価 / 客観的交換価値</td>
+  <td>相続税法22条、法人税法33条2項等</td>
+  <td>不特定多数の当事者間で自由な取引が行われた場合に通常成立する価額</td>
+  <td><span class="tag tag-no">なし（判例）</span></td>
+</tr>
+<tr>
+  <td class="country-col">🇺🇸 米国</td>
+  <td>Fair Market Value (FMV)</td>
+  <td>Treasury Reg. 26 CFR 25.2512-1等</td>
+  <td>willing buyer と willing seller が合理的知識のもとで合意する価格</td>
+  <td><span class="tag tag-no">なし（規則・判例）</span></td>
+</tr>
+<tr>
+  <td class="country-col">🇬🇧 英国</td>
+  <td>Market Value</td>
+  <td>TCGA 1992 s.272</td>
+  <td>公開市場における売却で合理的に期待される価格</td>
+  <td><span class="tag tag-yes">あり</span></td>
+</tr>
+<tr>
+  <td class="country-col">🇩🇪 ドイツ</td>
+  <td>Gemeiner Wert</td>
+  <td>BewG §9</td>
+  <td>通常の取引で達成されうる価格（異常事情・個人的事情を排除）</td>
+  <td><span class="tag tag-yes">あり</span></td>
+</tr>
+<tr>
+  <td class="country-col">🇫🇷 フランス</td>
+  <td>Valeur vénale</td>
+  <td>判例法＋BOFiP行政解釈</td>
+  <td>当該財産が当該時点で通常取引される価格</td>
+  <td><span class="tag tag-no">なし（判例）</span></td>
+</tr>
+<tr>
+  <td class="country-col">🇨🇦 カナダ</td>
+  <td>Fair Market Value (FMV)</td>
+  <td>Henderson Estate判決 (1973)＋CRA指針</td>
+  <td>通常の取引過程で合理的に期待しうる<strong>最高の</strong>価格</td>
+  <td><span class="tag tag-no">なし（判例）</span></td>
+</tr>
+<tr>
+  <td class="country-col">🇰🇷 韓国</td>
+  <td>시가（時価）</td>
+  <td>相続税及贈与税法60条</td>
+  <td>不特定多数人の間で自由に取引が行われる場合に通常成立すると認められる価額</td>
+  <td><span class="tag tag-yes">あり</span></td>
+</tr>
+<tr>
+  <td class="country-col">🇨🇳 中国</td>
+  <td>公允价值（公正価値）</td>
+  <td>企業所得税法実施条例13条</td>
+  <td>市場価格に基づいて確定された価値</td>
+  <td><span class="tag tag-yes">あり（簡潔）</span></td>
+</tr>
+<tr>
+  <td class="country-col">🇹🇼 台湾</td>
+  <td>時価</td>
+  <td>遺産及贈与税法10条</td>
+  <td>死亡時又は贈与時の時価（資産類型ごとに具体的基準を法定）</td>
+  <td><span class="tag tag-partial">部分的</span></td>
+</tr>
+<tr>
+  <td class="country-col">🇸🇬 シンガポール</td>
+  <td>Market Value</td>
+  <td>文脈依存（印紙税法等）</td>
+  <td>公開市場で取得される公正な価格</td>
+  <td><span class="tag tag-no">一般定義なし</span></td>
+</tr>
+<tr>
+  <td class="country-col">🇮🇳 インド</td>
+  <td>Fair Market Value (FMV)</td>
+  <td>所得税法 s.2(22B)</td>
+  <td>公開市場で売却された場合に通常取得されるであろう価格</td>
+  <td><span class="tag tag-yes">あり</span></td>
+</tr>
+<tr>
+  <td class="country-col">🇦🇺 豪州</td>
+  <td>Market Value</td>
+  <td>Spencer v Commonwealth (1907)判決</td>
+  <td>willing but not anxious な買手と売手の間で成立する価格</td>
+  <td><span class="tag tag-no">なし（判例）</span></td>
+</tr>
+<tr>
+  <td class="country-col">🇭🇰 香港</td>
+  <td>Market Value</td>
+  <td>IRO s.15BA, s.15C等</td>
+  <td>公開市場で売却された場合に実現されたであろう価額</td>
+  <td><span class="tag tag-no">一般定義なし</span></td>
+</tr>
+</table>
+</div>
+
+<h3>2.2 会計基準・IFRS適用状況の比較</h3>
+<table>
+<tr><th>国</th><th>IFRS適用状況</th><th>公正価値基準</th><th>個別決算への適用</th></tr>
+<tr><td>🇯🇵 日本</td><td><span class="tag tag-partial">任意適用</span></td><td>企業会計基準30号（IFRS 13整合）</td><td>J-GAAP（IFRS不可）</td></tr>
+<tr><td>🇺🇸 米国</td><td><span class="tag tag-gaap">US GAAP</span></td><td>ASC 820</td><td>US GAAP</td></tr>
+<tr><td>🇬🇧 英国</td><td><span class="tag tag-ifrs">強制（上場）</span></td><td>IFRS 13</td><td>UK GAAP (FRS 102)選択可</td></tr>
+<tr><td>🇩🇪 ドイツ</td><td><span class="tag tag-ifrs">強制（連結）</span></td><td>IFRS 13（連結）/ HGB（個別）</td><td>HGB（歴史的原価主義）</td></tr>
+<tr><td>🇫🇷 フランス</td><td><span class="tag tag-ifrs">強制（連結）</span></td><td>IFRS 13（連結）/ PCG（個別）</td><td>PCG（IFRS適用不可）</td></tr>
+<tr><td>🇨🇦 カナダ</td><td><span class="tag tag-ifrs">完全採用</span></td><td>IFRS 13</td><td>ASPE選択可（非公開企業）</td></tr>
+<tr><td>🇰🇷 韓国</td><td><span class="tag tag-ifrs">全上場企業に強制</span></td><td>K-IFRS 1113号</td><td>K-IFRS</td></tr>
+<tr><td>🇨🇳 中国</td><td><span class="tag tag-partial">IFRS整合CAS</span></td><td>企業会計準則39号</td><td>CAS（中国会計準則）</td></tr>
+<tr><td>🇹🇼 台湾</td><td><span class="tag tag-ifrs">全公開企業に強制</span></td><td>T-IFRS（IFRS 13準拠）</td><td>T-IFRS</td></tr>
+<tr><td>🇸🇬 シンガポール</td><td><span class="tag tag-ifrs">全企業に強制</span></td><td>SFRS(I) 13</td><td>SFRS(I)</td></tr>
+<tr><td>🇮🇳 インド</td><td><span class="tag tag-ifrs">全上場企業に強制</span></td><td>Ind AS 113</td><td>Ind AS</td></tr>
+<tr><td>🇦🇺 豪州</td><td><span class="tag tag-ifrs">全企業に強制</span></td><td>AASB 13</td><td>AASB</td></tr>
+<tr><td>🇭🇰 香港</td><td><span class="tag tag-ifrs">全上場企業に強制</span></td><td>HKFRS 13</td><td>HKFRS</td></tr>
+</table>
+
+<div class="key-point">
+<strong>日本の特異性</strong>
+<p>12か国中、IFRSを<strong>任意適用</strong>にとどめているのは日本のみである（米国はUS GAAPという独自基準を維持）。韓国・中国・台湾・シンガポール・インド・オーストラリア・香港のアジア主要国はいずれもIFRS（またはその完全整合版）を上場企業に強制適用している。</p>
+</div>
+</div>
+
+<!-- ═══════════════════════════════════════ Ch3 ═══════════════════════════════════════ -->
+<div class="section" id="ch3">
+<h2>第3章　欧米主要国の「時価」概念</h2>
+
+<!-- US -->
+<div class="country-header western" id="us">
+  <span class="flag">🇺🇸</span>
+  <span class="name">3.1 米国 ── Fair Market Value</span>
+  <span class="concept">willing buyer / willing seller</span>
+</div>
+
+<h4>税法上の定義</h4>
+<p>米国内国歳入法典（IRC）には、Fair Market Value（FMV）の包括的な制定法上の定義が<strong>存在しない</strong>。IRC §7701は定義条項であるが、FMVの独立した定義を含まない。定義は主に財務省規則（Treasury Regulations）・IRS行政指針・判例法から導かれる。</p>
+
+<blockquote class="en">
+"The price at which the property would change hands between a willing buyer and a willing seller, neither being under any compulsion to buy or to sell and both having reasonable knowledge of relevant facts."
+<cite>── Treasury Regulation 26 CFR 25.2512-1, 20.2031-1(b)</cite>
+</blockquote>
+
+<p>この定義の核心は「<strong>willing buyer / willing seller</strong>」テストにある。両者とも取引の強制を受けず（not under compulsion）、関連事実について合理的な知識を有する（reasonable knowledge）仮想的当事者である。</p>
+
+<h4>Revenue Ruling 59-60（1959年）</h4>
+<p>非上場企業株式のFMV算定に関する最も重要な行政指針。以下の8つの考慮要素を定める。</p>
+<table>
+<tr><th>#</th><th>考慮要素</th><th>日本法との対比</th></tr>
+<tr><td>1</td><td>企業の沿革と事業の性質</td><td>通達に類似規定あり（9-1-13(3)）</td></tr>
+<tr><td>2</td><td>一般経済動向と業界見通し</td><td>「経営環境」として考慮</td></tr>
+<tr><td>3</td><td>帳簿価額と財務状態</td><td>純資産価額方式の基礎</td></tr>
+<tr><td>4</td><td>収益力</td><td>類似業種比準方式の要素</td></tr>
+<tr><td>5</td><td>配当支払能力</td><td>類似業種比準方式の要素</td></tr>
+<tr><td>6</td><td>のれんその他の無形資産価値</td><td>営業権の評価（通達166）</td></tr>
+<tr><td>7</td><td>株式の売買実績と評価対象ブロックの規模</td><td>売買実例価額の参酌</td></tr>
+<tr><td>8</td><td>上場類似会社の市場価格</td><td>類似業種比準方式</td></tr>
+</table>
+
+<p><strong>重要な相違点</strong>：Rev. Rul. 59-60は「画一的な算式（formula）によるアプローチを明確に排除」している。各要素の重み付けは個別事案ごとに判断される。これに対し、日本の財産評価基本通達は類似業種比準方式・純資産価額方式という<strong>定型的算式</strong>を定め、ほぼ例外なくこれに従うことを求める。この構造的差異は、両国の「時価」認定アプローチの根本的な違いを象徴している。</p>
+
+<h4>会計基準：ASC 820</h4>
+<p>FASB ASC 820「公正価値測定」は、公正価値を「<strong>出口価格</strong>（exit price）」として定義する。税法上のFMVが「willing buyer / willing sellerの合意価格」（entry/exitを区別しない）であるのに対し、ASC 820は「資産を売却して受け取る価格」に限定する。この差異は、会計基準が投資者への情報提供を目的とし、税法が課税の公平を目的とするという機能の違いに起因する。</p>
+
+<h4>重要判例</h4>
+<ul>
+<li><strong>United States v. Cartwright, 411 U.S. 546 (1973)</strong>：連邦最高裁がwilling buyer / willing seller基準を確認。</li>
+<li><strong>Estate of Simplot v. Commissioner, 249 F.3d 1191 (9th Cir. 2001)</strong>：非上場株式の議決権プレミアムの付加を否定。</li>
+</ul>
+
+<!-- UK -->
+<div class="country-header western" id="uk">
+  <span class="flag">🇬🇧</span>
+  <span class="name">3.2 英国 ── Market Value</span>
+  <span class="concept">open market sale</span>
+</div>
+
+<h4>税法上の定義</h4>
+<p>英国は12か国中、税法上の「時価」を<strong>制定法で最も明確に定義</strong>している国の一つである。</p>
+
+<blockquote class="legal">
+"the price which those assets might reasonably be expected to fetch on a sale in the open market"<br>
+（当該資産が公開市場における売却において合理的に期待される価格）
+<cite>── Taxation of Chargeable Gains Act 1992, s.272</cite>
+</blockquote>
+
+<p>この定義の特徴は「<strong>公開市場（open market）</strong>」における売却を仮定する点にある。さらに同条は、大量の資産が同時に市場に出されるとの仮定による減額（いわゆるflood the marketルール）を排除することを明記している。</p>
+
+<h4>重要判例と法理</h4>
+<p>英国法における時価概念は、貴族院（現最高裁）・控訴院の精緻な判例法によって発展してきた。</p>
+
+<table>
+<tr><th>判例</th><th>年</th><th>法理</th></tr>
+<tr><td><strong>IRC v Crossman</strong></td><td>1937</td><td>売手は「想像上の人物」であり、時価の法定定義は<strong>仮想的売却</strong>に関するもの。実際の売却可能性は無関係。</td></tr>
+<tr><td><strong>Duke of Buccleuch v IRC</strong></td><td>1967</td><td>「仮想的市場を想定しなければならない」。死亡時に市場に出すことの不可能性は関係ない。</td></tr>
+<tr><td><strong>Lynall v IRC</strong></td><td>1972</td><td>「公開市場」は意思と資力を有するすべての者を含む。秘密情報は考慮されない。</td></tr>
+<tr><td><strong>IRC v Gray (Lady Fox)</strong></td><td>1994</td><td>Hoffmann判事が5原則を確立：①仮想的・慎重・任意の買手、②予備的手配は評価日前に完了、③最高価格の方法で提供、④全潜在的買手の注意喚起、⑤<strong>特別な買主の入札も反映</strong>。</td></tr>
+</table>
+
+<p>英国法の特徴は、「仮想的公開市場における売却」というフィクションを精緻に発展させ、判例法によって具体的なルールを形成してきた点にある。日本のように通達で画一的に定めるのではなく、個別具体的な事実認定を基本とする。</p>
+
+<h4>不動産評価基準：RICS Red Book</h4>
+<p>RICS（英国王立チャータード・サーベイヤーズ協会）の<strong>Red Book</strong>は国際的に最も権威ある不動産評価基準であり、IVS（国際評価基準）を採用・統合している。Market Valueの定義は税法とほぼ同一の概念を、より精緻な文言で表現する。</p>
+
+<blockquote class="en">
+"The estimated amount for which an asset or liability should exchange on the valuation date between a willing buyer and a willing seller in an arm's-length transaction, after proper marketing and where the parties had each acted knowledgeably, prudently and without compulsion."
+<cite>── IVS / RICS Red Book (2025年版)</cite>
+</blockquote>
+
+<!-- Germany -->
+<div class="country-header western" id="de">
+  <span class="flag">🇩🇪</span>
+  <span class="name">3.3 ドイツ ── Gemeiner Wert（普通価値）</span>
+  <span class="concept">gewöhnlicher Geschäftsverkehr</span>
+</div>
+
+<h4>税法上の定義</h4>
+<p>日本法の「客観的交換価値」概念に<strong>最も近い</strong>欧州大陸法の概念がドイツのGemeiner Wertである。日本の民法学・財政学がドイツ法を継受した歴史的経緯を踏まえれば、この概念的親縁性は偶然ではない。</p>
+
+<blockquote class="legal">
+§9 BewG (Bewertungsgesetz – 評価法)<br><br>
+(1) Bei Bewertungen ist, soweit nichts anderes vorgeschrieben ist, der gemeine Wert zugrunde zu legen.<br>
+<em>（評価に際しては、別段の定めがない限り、普通価値を基礎とする。）</em><br><br>
+(2) Der gemeine Wert wird durch den Preis bestimmt, der im <strong>gewöhnlichen Geschäftsverkehr</strong> nach der Beschaffenheit des Wirtschaftsgutes bei einer Veräußerung zu erzielen wäre. Dabei sind alle Umstände, die den Preis beeinflussen, zu berücksichtigen. <strong>Ungewöhnliche oder persönliche Verhältnisse</strong> sind nicht zu berücksichtigen.<br>
+<em>（普通価値は、当該経済財の性質に基づき、通常の取引において売却に際して達成されうる価格によって決定される。価格に影響するすべての事情を考慮する。異常な事情または個人的事情は考慮しない。）</em>
+<cite>── Bewertungsgesetz §9</cite>
+</blockquote>
+
+<div class="grid-2">
+<div class="card tax">
+<h5>日本「客観的交換価値」との共通点</h5>
+<ul>
+<li>「通常の取引」における客観的価格を基準</li>
+<li>異常な事情・個人的事情を明示的に排除</li>
+<li>市場志向的な価格概念</li>
+<li>「達成されうる」＝潜在的な価格</li>
+</ul>
+</div>
+<div class="card acct">
+<h5>相違点</h5>
+<ul>
+<li>ドイツは<strong>制定法</strong>で定義（日本は判例で補充）</li>
+<li>BewGは評価方法の詳細も<strong>法律レベル</strong>で規定</li>
+<li>日本は通達に丸投げ → 租税法律主義との緊張</li>
+<li>ドイツにはGutachterausschuss（専門家委員会）制度</li>
+</ul>
+</div>
+</div>
+
+<h4>不動産評価：Verkehrswert（取引価値）</h4>
+<p>建設法典（BauGB）§194はVerkehrswertを「通常の取引において達成されうる価格」と定義し、2004年以降はMarket Valueと同義語として扱う。評価方法はImmoWertV 2021に基づく比較方式・収益還元方式・原価方式の3方式。</p>
+
+<h4>画一的評価と違憲判決</h4>
+<p>ドイツでも画一的評価と実質的公平の緊張関係は問題となってきた。<strong>2018年の連邦憲法裁判所判決</strong>は、旧西独諸州の固定資産税評価規定（1964年基準年の標準評価額を継続使用）を<strong>違憲</strong>と判断し、2019年末までの法改正を命じた。評価の画一性と実際の市場価値との乖離が平等原則に反するとの判示である。</p>
+
+<p>この判決は、日本の最高裁令和4年4月19日判決（タワマン節税・総則6項訴訟）と問題構造が類似する。いずれも「画一的評価が実態と著しく乖離する場合の是正」という共通のテーマを有する。ただし、ドイツでは<strong>制度自体が違憲</strong>とされたのに対し、日本では<strong>通達評価の原則を維持しつつ「特別の事情」がある場合にのみ例外を認める</strong>というより限定的なアプローチがとられた。</p>
+
+<!-- France -->
+<div class="country-header western" id="fr">
+  <span class="flag">🇫🇷</span>
+  <span class="name">3.4 フランス ── Valeur vénale（売却価値）</span>
+  <span class="concept">acheteur quelconque</span>
+</div>
+
+<h4>税法上の定義</h4>
+<p>フランス租税法（CGI）にはvaleur vénaleの制定法上の定義が<strong>存在しない</strong>。日本の「客観的交換価値」と同様、判例法と行政解釈（doctrine administrative）によって形成されてきた概念である。</p>
+
+<p>行政解釈による定義は「<strong>当該財産が、考慮される時点において通常取引されうる価格</strong>」（le prix auquel ce bien pourrait ou aurait pu normalement se négocier à l'époque considérée）。</p>
+
+<h4>重要な特徴</h4>
+<table>
+<tr><th>原則</th><th>内容</th><th>日本法との対比</th></tr>
+<tr><td><strong>客観性原則</strong></td><td>「いかなる買主」（acheteur quelconque＝任意の不特定買主）の観点から評価</td><td>「不特定多数の当事者」と同趣旨</td></tr>
+<tr><td><strong>定型的方式の禁止</strong></td><td>行政が一律の表・係数で概算的評価を行うことは法の精神に反する</td><td>日本とは<strong>正反対</strong>（日本は通達で定型化）</td></tr>
+<tr><td><strong>20%乖離基準</strong></td><td>税務当局の是正には申告価額との20%以上の乖離が必要（国務院2009年判決）</td><td>日本の「特別の事情」に相当するが、定量的基準がある点が異なる</td></tr>
+<tr><td><strong>主たる住居の30%控除</strong></td><td>IFI（不動産富裕税）において自己居住不動産に30%控除</td><td>小規模宅地の特例と機能的に類似</td></tr>
+</table>
+
+<h4>会計基準：PCG（一般会計基準）</h4>
+<p>フランスのPCGは<strong>歴史的原価主義を原則</strong>とし、公正価値（juste valeur）の適用は極めて限定的。上場企業の連結財務諸表にはIFRSが適用されるが、個別決算書にはIFRSの適用が認められない。ドイツのHGBと同様の二重報告体制である。</p>
+
+<!-- Canada -->
+<div class="country-header western" id="ca">
+  <span class="flag">🇨🇦</span>
+  <span class="name">3.5 カナダ ── Fair Market Value</span>
+  <span class="concept">highest price</span>
+</div>
+
+<h4>税法上の定義</h4>
+<p>カナダ所得税法にもFMVの制定法上の定義は存在しない。1973年のHenderson Estate判決が標準的定義を確立し、約50年にわたり引用され続けている。</p>
+
+<blockquote class="en">
+"the highest price an asset might reasonably be expected to bring if sold by the owner in the normal method applicable to the asset in question, in the ordinary course of business in a market not exposed to any undue stresses and composed of willing buyers and willing sellers dealing at arm's length and under no compulsion to buy or sell."
+<cite>── Henderson Estate and Bank of New York v. M.N.R. [1973] CTC 636</cite>
+</blockquote>
+
+<p><strong>「最高の価格」（highest price）</strong>：カナダのFMV定義の最も特徴的な要素。米国が「willing buyer / willing sellerの合意価格」、日本が「通常成立する価額」とするのに対し、カナダは「合理的に期待しうる最高の価格」を基準とする。これは、潜在的な最有効使用や特別な買主（special purchaser）の存在をより積極的に考慮する余地を与える。</p>
+
+<h4>会計基準：IFRS完全採用</h4>
+<p>カナダは2011年からすべての公開責任企業にIFRSを完全採用。非公開企業はASPE（簡素化基準）を選択可能。IFRS先進国として、公正価値測定の実務も充実している。</p>
+</div>
+
+<!-- ═══════════════════════════════════════ Ch4 ═══════════════════════════════════════ -->
+<div class="section" id="ch4">
+<h2>第4章　アジア主要国の「時価」概念</h2>
+
+<!-- Korea -->
+<div class="country-header asian" id="kr">
+  <span class="flag">🇰🇷</span>
+  <span class="name">4.1 韓国 ── 시가（時価）</span>
+  <span class="concept">불특정다수인 / 자유로운 거래</span>
+</div>
+
+<p>韓国は日本と<strong>最も類似した法体系</strong>を持ち、「時価」概念も極めて近い構造を有する。</p>
+
+<h4>税法上の定義</h4>
+
+<blockquote class="legal">
+相続税及贈与税法 第60条<br><br>
+第1項：相続税又は贈与税が課される財産の価額は、評価基準日現在の<strong>시가（時価）</strong>による。<br>
+第2項：시가とは、「<strong>不特定多数人の間で自由に取引が行われる場合に、通常成立すると認められる価額</strong>」をいう。収用価格・公売価格・鑑定価格等も時価として認められる。<br>
+第3項：시가の算定が困難な場合は、第61条～第65条の<strong>補充的評価方法</strong>（基準時価等）による。
+<cite>── 상속세 및 증여세법 제60조</cite>
+</blockquote>
+
+<div class="key-point">
+<strong>日韓の定義の驚くべき類似性</strong>
+<p>日本：「不特定多数の当事者間で自由な取引が行われる場合に通常成立すると認められる価額」<br>
+韓国：「불특정다수인의 사이에 자유롭게 거래가 이루어지는 경우에 통상적으로 성립된다고 인정되는 가액」<br>
+文言構造がほぼ同一であり、日本の判例法理が韓国の制定法に取り込まれたことが推測される。ただし、韓国は<strong>制定法の条文として</strong>この定義を明記している点が日本と異なる。</p>
+</div>
+
+<h4>日韓比較：構造的差異</h4>
+<table>
+<tr><th>項目</th><th>日本</th><th>韓国</th></tr>
+<tr><td>時価の法定定義</td><td>なし（判例で補充）</td><td><strong>あり</strong>（第60条2項）</td></tr>
+<tr><td>補充的評価方法</td><td>財産評価基本通達（行政規則）</td><td>第61～65条（<strong>法律</strong>）</td></tr>
+<tr><td>上場株式の時価基準</td><td>課税時期の終値（相続）、終値の月平均等</td><td>評価基準日前後<strong>2か月間</strong>の終値平均額</td></tr>
+<tr><td>IFRS適用</td><td>任意適用</td><td>全上場企業に<strong>強制適用</strong>（2011年～）</td></tr>
+<tr><td>法人税の時価と相続税の時価</td><td>概念上同一（「客観的交換価値」）</td><td>条文上<strong>異なる定義</strong>（法人税法52条 vs 相続税法60条）</td></tr>
+</table>
+
+<!-- China -->
+<div class="country-header asian" id="cn">
+  <span class="flag">🇨🇳</span>
+  <span class="name">4.2 中国 ── 公允价值（公正価値）</span>
+  <span class="concept">市场价格</span>
+</div>
+
+<h4>税法上の定義</h4>
+<p>中国の税法における公正価値の定義は<strong>極めて簡潔</strong>である。</p>
+
+<blockquote class="legal">
+企業所得税法実施条例 第13条<br>
+「企業が非貨幣形式で取得した収入は、<strong>公允价值</strong>に基づいて収入額を確定しなければならない。公允价值とは、<strong>市場価格に基づいて確定された価値</strong>をいう。」
+<cite>── 企业所得税法实施条例 第13条</cite>
+</blockquote>
+
+<p>日本の相続税法22条が「その時における時価」と規定し、判例が精緻な定義を発展させてきたのとは対照的に、中国税法は「市場価格に基づく価値」の一文で済ませている。その背景には、社会主義市場経済体制のもとで「市場価格」自体が政府統制下にある場合があるという中国固有の事情がある。</p>
+
+<h4>会計基準：企業会計準則第39号</h4>
+<p>会計基準上の公正価値の定義はIFRS 13と<strong>完全に同一の出口価格概念</strong>を採用。「市場参加者が計量日に発生する有序な取引において、一項の資産を売却する際に受け取る価格」。3段階ヒエラルキーも同様。</p>
+
+<h4>中国の「一物多价」構造</h4>
+<p>中国の不動産市場には、市場経済と政府統制が交錯する独自の多重価格構造がある。</p>
+<table>
+<tr><th>価格類型</th><th>内容</th><th>日本との対比</th></tr>
+<tr><td><strong>市場価格</strong>（市场价格）</td><td>実際の需給を反映した取引価格</td><td>実勢価格に相当</td></tr>
+<tr><td><strong>政府指導価格</strong>（政府指导价）</td><td>政府が設定する基準価格と変動許容幅</td><td>日本に対応概念なし</td></tr>
+<tr><td><strong>評価価格</strong>（评估价）</td><td>評価機関が算定する推定市場価値</td><td>鑑定評価額に相当</td></tr>
+<tr><td><strong>税務評価価格</strong>（税务评估价）</td><td>税務当局が徴税管理のために定める価格</td><td>路線価・固定資産税評価額に機能的類似</td></tr>
+</table>
+
+<!-- Taiwan -->
+<div class="country-header asian" id="tw">
+  <span class="flag">🇹🇼</span>
+  <span class="name">4.3 台湾 ── 時価</span>
+  <span class="concept">公告土地現値 / 房屋評定現值</span>
+</div>
+
+<h4>税法上の定義</h4>
+<p>遺産及贈与税法第10条は「被相続人の死亡時又は贈与者の贈与時の<strong>時価</strong>を基準とする」と規定するが、資産類型ごとに時価の具体的基準を法律レベルで特定する。</p>
+
+<table>
+<tr><th>資産類型</th><th>時価の基準</th><th>市場価格との比率</th></tr>
+<tr><td>土地</td><td>公告土地現值（公告現値）</td><td>約80～90%</td></tr>
+<tr><td>家屋</td><td>房屋評定現值（評定標準価格）</td><td>市場価格を<strong>大幅に下回る</strong></td></tr>
+<tr><td>上場株式</td><td>当日の市場終値</td><td>≒100%</td></tr>
+<tr><td>未上場株式</td><td>資産純値（NAV）方式</td><td>ケースバイケース</td></tr>
+</table>
+
+<p>特に注目すべきは、<strong>公告地価（公告地價）が市場価格の僅か約20%</strong>にとどまる点である。これは日本の路線価（約80%）やドイツの旧評価額と比較しても著しく低い水準であり、地方政府が民意を考慮して現実化を見送ってきた政治的要因が背景にある。</p>
+
+<!-- Singapore -->
+<div class="country-header asian" id="sg">
+  <span class="flag">🇸🇬</span>
+  <span class="name">4.4 シンガポール ── Market Value</span>
+  <span class="concept">Annual Value / BSD</span>
+</div>
+
+<h4>税法上の「時価」</h4>
+<p>シンガポールには包括的な「市場価値」の一般的定義規定が<strong>存在しない</strong>。文脈に応じて異なる概念が用いられる。</p>
+
+<div class="grid-2">
+<div class="card tax">
+<h5>印紙税（Stamp Duty）</h5>
+<p><strong>購入価格又は市場価値のいずれか高い方</strong>を課税標準とする。IRASは申告価格が市場価値を下回ると判断した場合、鑑定報告書の提出を求めることができる。</p>
+</div>
+<div class="card acct">
+<h5>固定資産税（Property Tax）</h5>
+<p><strong>年間価値（Annual Value）</strong>＝推定年間市場賃料を課税標準とする。売買価格ではなく賃料に基づく点が特徴的。IRASは賃料取引のほうが売買より安定的と説明。</p>
+</div>
+</div>
+
+<p>シンガポールの特徴は、相続税が存在せず（日本と大きく異なる）、不動産評価も用途が明確に区分されているため、日本のような深刻な一物多価問題が生じにくい点にある。</p>
+
+<!-- India -->
+<div class="country-header asian" id="in">
+  <span class="flag">🇮🇳</span>
+  <span class="name">4.5 インド ── Fair Market Value</span>
+  <span class="concept">Circle Rate / Ready Reckoner Rate</span>
+</div>
+
+<h4>税法上の定義</h4>
+<blockquote class="legal">
+Income Tax Act, 1961, Section 2(22B)<br>
+"fair market value", in relation to a capital asset, means—<br>
+(i) the price that the capital asset would ordinarily fetch on sale in the open market on the relevant date; or<br>
+(ii) where the price referred to in sub-clause (i) is not ascertainable, such price as may be determined in accordance with the rules made under this Act.
+<cite>── Income Tax Act, 1961, s.2(22B)</cite>
+</blockquote>
+
+<h4>Circle Rate ── インド独自の「基準価格」制度</h4>
+<p>インドの不動産評価で最も特徴的な制度がCircle Rate（Ready Reckoner Rate、Guidance Valueとも呼ばれる）である。これは州政府が各地域に設定する<strong>不動産取引の最低基準価格</strong>であり、登記はこの価格以下では法的に行えない。</p>
+
+<ul>
+<li>印紙税・登録料は<strong>取引価格又はCircle Rateの高い方</strong>に基づき課税</li>
+<li>Circle Rate未満での売却には最大35%のペナルティの可能性</li>
+<li>Circle Rateと実勢価格の乖離が大きい場合、所得税法上の<strong>贈与課税</strong>が発生しうる</li>
+</ul>
+
+<p>インドの一物多価構造は12か国中<strong>最も顕著</strong>であり、Circle Rate、市場価格、FMV（鑑定評価額）、銀行評価額が大幅に乖離する場合がある。</p>
+
+<!-- Australia -->
+<div class="country-header asian" id="au">
+  <span class="flag">🇦🇺</span>
+  <span class="name">4.6 オーストラリア ── Market Value</span>
+  <span class="concept">willing but not anxious</span>
+</div>
+
+<h4>税法上の定義</h4>
+<p>オーストラリアの税法は市場価値を一般的に定義する条文を<strong>持たず</strong>、判例法に依拠する。</p>
+
+<blockquote class="en">
+The value of land is to be taken to be "the amount which a willing but not anxious buyer would pay to a willing but not anxious seller."
+<cite>── Spencer v The Commonwealth of Australia (1907) 5 CLR 418 (High Court)</cite>
+</blockquote>
+
+<p>この「<strong>willing but not anxious</strong>」テストは、約120年にわたりオーストラリアの市場価値概念の基礎として機能し続けている。米英の「willing buyer / willing seller」と概念的に近似するが、「not anxious」（焦っていない）という要件を加えることで、時間的圧力からの自由をより明示的に表現している。</p>
+
+<h4>一物多価の構造</h4>
+<table>
+<tr><th>評価類型</th><th>用途</th><th>市場価格との関係</th></tr>
+<tr><td><strong>地価</strong>（Site Value / Unimproved Value）</td><td>土地税（Land Tax）</td><td>マンション：10～30%、戸建：40～60%</td></tr>
+<tr><td><strong>資本改良価値</strong>（Capital Improved Value）</td><td>一部州の自治体税</td><td>≒市場価格</td></tr>
+<tr><td><strong>純年間価値</strong>（Net Annual Value / GRV）</td><td>一部州の自治体税</td><td>賃料ベース</td></tr>
+<tr><td><strong>市場価値</strong>（Market Value）</td><td>所得税（CGT等）</td><td>基準</td></tr>
+</table>
+
+<!-- Hong Kong -->
+<div class="country-header asian" id="hk">
+  <span class="flag">🇭🇰</span>
+  <span class="name">4.7 香港 ── Market Value</span>
+  <span class="concept">Rateable Value / arm's length</span>
+</div>
+
+<h4>税法上の「時価」</h4>
+<p>香港には包括的な「市場価値」の一般的定義規定が存在しない。利得税（profits tax）の文脈では、IRO（内国歳入条例）第15BA条・第15C条が棚卸資産について市場価値の基準を定める。</p>
+
+<p>香港の最大の特徴は以下の3点である。</p>
+<ol>
+<li><strong>相続税・贈与税が存在しない</strong>（2006年に遺産税を廃止）→ 相続における時価評価の問題が生じない</li>
+<li><strong>全土地が政府からのリース</strong>（leasehold）→ 土地所有権の「時価」という問題設定自体が異なる</li>
+<li><strong>固定資産税に相当する「差餉」</strong>は年間市場賃料（Rateable Value）を課税標準とする</li>
+</ol>
+
+<p>会計基準はHKFRS 13（IFRS 13と完全一致）を全上場企業に強制適用。IRDのDIPN（Departmental Interpretation and Practice Notes）が通達に相当する機能を果たす。</p>
+</div>
+
+<!-- ═══════════════════════════════════════ Ch5 ═══════════════════════════════════════ -->
+<div class="section" id="ch5">
+<h2>第5章　税法上の「時価」概念 ── 横断分析</h2>
+
+<h3>5.1 「客観的交換価値」概念の普遍性</h3>
+<p>12か国すべてにおいて、「客観的な市場条件の下で、任意の・知識ある・強制を受けない当事者間で成立する価格」という基本的な価格概念は共通して存在する。これは法体系（コモンロー/大陸法/社会主義法）の違いを超えた<strong>価値評価の普遍的原理</strong>である。</p>
+
+<table>
+<tr><th>構成要素</th><th>共通性</th><th>各国の表現</th></tr>
+<tr><td><strong>当事者の任意性</strong></td><td>全12か国で共通</td><td>willing buyer/seller（米英加豪）、不特定多数（日韓）、acheteur quelconque（仏）、gewöhnlicher Geschäftsverkehr（独）</td></tr>
+<tr><td><strong>強制の不存在</strong></td><td>全12か国で共通</td><td>not under compulsion（米英加）、not anxious（豪）、自由な取引（日韓）、ohne ungewöhnliche Verhältnisse（独）</td></tr>
+<tr><td><strong>合理的情報</strong></td><td>全12か国で共通</td><td>reasonable knowledge（米英加）、knowledgeably（RICS/IVS）、合理的な認識（中国CAS）</td></tr>
+<tr><td><strong>主観排除</strong></td><td>全12か国で共通</td><td>客観的交換価値（日）、persönliche Verhältnisse排除（独）、acheteur quelconque（仏）</td></tr>
+</table>
+
+<h3>5.2 定義の法形式 ── 制定法 vs 判例法</h3>
+<table>
+<tr><th>法形式</th><th>国</th><th>特徴</th></tr>
+<tr><td><strong>制定法による明確な定義</strong></td><td>英国（TCGA s.272）、ドイツ（BewG §9）、韓国（相続税法60条）、インド（ITA s.2(22B)）、中国（実施条例13条）</td><td>法的安定性が高い。ドイツはさらに評価方法も法律レベルで詳細に規定。</td></tr>
+<tr><td><strong>判例法で形成</strong></td><td>日本、米国、フランス、カナダ、オーストラリア</td><td>柔軟だが予測可能性に課題。日本は判例の安定性は高いが通達依存。</td></tr>
+<tr><td><strong>一般定義なし（文脈依存）</strong></td><td>シンガポール、香港、台湾（部分的）</td><td>各税目ごとに個別規定。一般的な「時価」概念の統一性は低い。</td></tr>
+</table>
+
+<h3>5.3 「時価」の基準価格 ── 微妙な差異</h3>
+<p>各国の定義は一見類似するが、何を「基準」とするかに微妙な差異がある。</p>
+
+<table>
+<tr><th>基準</th><th>国</th><th>含意</th></tr>
+<tr><td>「通常成立する」価格</td><td>日本、韓国</td><td>中央値的な概念。極端な価格は排除。</td></tr>
+<tr><td>「合意される」価格</td><td>米国</td><td>buyer/sellerの均衡点。</td></tr>
+<tr><td>「合理的に期待される」価格</td><td>英国、オーストラリア</td><td>「期待」という語に潜在的な幅を含意。</td></tr>
+<tr><td>「達成されうる」価格</td><td>ドイツ</td><td>潜在的可能性としての価格。</td></tr>
+<tr><td>「<strong>最高の</strong>」価格</td><td>カナダ</td><td>特別な買手を含む最大化概念。他国より高い水準を志向。</td></tr>
+<tr><td>「市場価格に基づく」価値</td><td>中国</td><td>最も簡潔。市場価格の存在を前提。</td></tr>
+</table>
+
+<div class="key-point">
+<strong>カナダの「最高の価格」の意義</strong>
+<p>カナダのFMV定義が「highest price」を基準とすることは、特別な買手（special purchaser）の存在を積極的に考慮する余地を与える。英国判例（IRC v Gray）も「特別な買主の入札」を反映すべきとしており、この点では英加は近い立場にある。一方、日本の「通常成立する」という表現は、特殊な高値取引を排除する方向に作用しやすい。</p>
+</div>
+
+<h3>5.4 ドイツ法と日本法の特別な関係</h3>
+<p>ドイツのGemeiner Wert（BewG §9）と日本の「客観的交換価値」は、12か国中<strong>最も高い概念的親縁性</strong>を有する。</p>
+
+<table>
+<tr><th>要素</th><th>ドイツ BewG §9</th><th>日本（判例法理）</th></tr>
+<tr><td>基準取引</td><td>gewöhnlicher Geschäftsverkehr（通常の取引）</td><td>不特定多数の当事者間の自由な取引</td></tr>
+<tr><td>排除事由</td><td>ungewöhnliche oder persönliche Verhältnisse（異常な又は個人的な事情）</td><td>特殊な事情を排除した客観的価格</td></tr>
+<tr><td>価格基準</td><td>zu erzielen wäre（達成されうる）</td><td>通常成立すると認められる</td></tr>
+</table>
+
+<p>この親縁性は、日本の民法学・財政学がドイツの学説を継受した歴史的経緯と整合的である。金子宏教授が「客観的交換価値」をドイツ法のgemeiner Wertに淵源するものとして位置づけていることとも符合する。</p>
+</div>
+
+<!-- ═══════════════════════════════════════ Ch6 ═══════════════════════════════════════ -->
+<div class="section" id="ch6">
+<h2>第6章　会計基準上の「公正価値」── IFRS収斂の現在地</h2>
+
+<h3>6.1 IFRS 13の世界的浸透</h3>
+<p>IFRS 13「公正価値測定」（2013年適用開始）は、公正価値を「出口価格」として統一的に定義した。本調査対象の12か国中、<strong>10か国</strong>がIFRS 13またはその完全整合版を上場企業に適用している。</p>
+
+<table>
+<tr><th>適用タイプ</th><th>国</th><th>基準名</th></tr>
+<tr><td><strong>IFRS完全採用</strong></td><td>カナダ、シンガポール、オーストラリア、香港</td><td>IFRS 13をそのまま適用</td></tr>
+<tr><td><strong>IFRS準拠の各国版</strong></td><td>韓国（K-IFRS 1113号）、中国（CAS 39号）、台湾（T-IFRS）、インド（Ind AS 113）、英国</td><td>実質的にIFRS 13と同一</td></tr>
+<tr><td><strong>独自基準（IFRS整合）</strong></td><td>日本（企業会計基準30号）</td><td>IFRS 13に高度に整合するが、一部差異あり</td></tr>
+<tr><td><strong>独自基準</strong></td><td>米国（ASC 820）</td><td>IFRS 13と実質的に同一（ASC 820がIFRS 13の原型）</td></tr>
+</table>
+
+<h3>6.2 税法と会計基準の関係 ── 3つのモデル</h3>
+<table>
+<tr><th>モデル</th><th>国</th><th>特徴</th></tr>
+<tr><td><strong>確定決算主義（損金経理要件）</strong></td><td>日本、ドイツ（部分的）</td><td>会計上の処理が税法上の取扱いに影響。評価損は損金経理が要件。</td></tr>
+<tr><td><strong>税会分離（独立計算）</strong></td><td>米国、英国、中国、インド</td><td>会計上の公正価値と税法上の取扱いは独立。中国は企業所得税法21条で明確化。</td></tr>
+<tr><td><strong>選択制</strong></td><td>シンガポール</td><td>FRS 109の税務処理（公正価値ベース）と実現ベースの選択が可能（取消不能）。</td></tr>
+</table>
+
+<h3>6.3 個別決算における公正価値の制限</h3>
+<p>フランス（PCG）とドイツ（HGB）は、個別決算書において<strong>歴史的原価主義を堅持</strong>し、公正価値の適用を極めて限定的にしている。上場企業の連結財務諸表にはIFRSが強制適用されるが、課税所得計算の基礎となる個別決算書は原価主義に基づく。この「二重報告体制」は、公正価値と税法の間の緊張を制度的に緩和する機能を果たしている。</p>
+
+<p>日本は確定決算主義のもとで会計と税法の連動性が高いが、IFRS任意適用企業の増加に伴い、会計上の公正価値評価と税法上の取扱いの乖離が拡大する傾向にある。減損会計の「回収可能価額」と法人税法33条の「評価損」の構造的差異はその典型例である。</p>
+</div>
+
+<!-- ═══════════════════════════════════════ Ch7 ═══════════════════════════════════════ -->
+<div class="section" id="ch7">
+<h2>第7章　一物多価問題の国際比較</h2>
+
+<h3>7.1 一物多価の深刻度ランキング</h3>
+<p>同一の不動産に対して複数の公的評価額が並存する「一物多価」（一物多价、multiple valuations）問題は、日本固有の問題ではなく、<strong>国際的に広く見られる普遍的現象</strong>である。ただし、その深刻度には大きな差がある。</p>
+
+<table>
+<tr><th>深刻度</th><th>国</th><th>公的評価の種類数</th><th>市場価格との最大乖離</th></tr>
+<tr><td><span class="tag tag-severe">極めて顕著</span></td><td>🇮🇳 インド</td><td>4種類以上</td><td>Circle Rateと市場価格が大幅乖離</td></tr>
+<tr><td><span class="tag tag-severe">極めて顕著</span></td><td>🇹🇼 台湾</td><td>5種類</td><td>公告地価＝市場価格の<strong>約20%</strong></td></tr>
+<tr><td><span class="tag tag-severe">顕著</span></td><td>🇰🇷 韓国</td><td>4～5種類</td><td>公示地価＝実勢の<strong>35～44%</strong></td></tr>
+<tr><td><span class="tag tag-moderate">顕著</span></td><td>🇯🇵 日本</td><td>4～5種類</td><td>路線価＝時価の<strong>約80%</strong></td></tr>
+<tr><td><span class="tag tag-moderate">顕著</span></td><td>🇦🇺 豪州</td><td>3～4種類</td><td>地価＝CIVの10～60%</td></tr>
+<tr><td><span class="tag tag-moderate">中程度</span></td><td>🇨🇳 中国</td><td>3～4種類</td><td>政府指導価格と市場の乖離</td></tr>
+<tr><td><span class="tag tag-mild">比較的軽微</span></td><td>🇺🇸 米国、🇬🇧 英国、🇩🇪 ドイツ、🇫🇷 フランス、🇨🇦 カナダ</td><td>1～2種類</td><td>個別評価が原則</td></tr>
+<tr><td><span class="tag tag-mild">軽微</span></td><td>🇸🇬 シンガポール、🇭🇰 香港</td><td>1～2種類</td><td>用途が明確に区分</td></tr>
+</table>
+
+<h3>7.2 一物多価が深刻な国に共通する条件</h3>
+<div class="grid-2">
+<div class="card tax">
+<h5>深刻な国の共通点</h5>
+<ol>
+<li><strong>政府が公的基準価格を設定</strong>し、かつその基準価格が市場価格を<strong>大幅に下回る</strong></li>
+<li><strong>相続税が存在</strong>し、基準価格と実勢価格の差が節税手段として利用される</li>
+<li>基準価格の<strong>現実化が政治的に困難</strong>（台湾の公告地価、韓国の公示地価）</li>
+<li>複数の税目が<strong>それぞれ異なる評価基準</strong>を採用</li>
+</ol>
+</div>
+<div class="card acct">
+<h5>軽微な国の共通点</h5>
+<ol>
+<li>相続税がない（シンガポール、香港）又は個別評価が原則（米英仏加）</li>
+<li>不動産評価額の用途が<strong>明確に区分</strong>され混乱が少ない</li>
+<li>通達による画一的評価への依存度が低い</li>
+<li>鑑定評価が法的に確立した役割を持つ</li>
+</ol>
+</div>
+</div>
+
+<h3>7.3 日本の「80%水準」の国際的位置づけ</h3>
+<p>日本の路線価が時価の約80%に設定されていることは、国際比較の観点からは<strong>むしろ先進的に現実化が進んでいる</strong>と評価できる。韓国の公示地価（35～44%）、台湾の公告地価（約20%）と比較すると、日本の80%水準はかなり市場価格に近い。</p>
+
+<p>ただし、この「安全率」（20%のバッファー）がタワーマンション節税のような租税回避に利用されるリスクは、最高裁令和4年判決が示したとおりである。ドイツの連邦憲法裁判所が画一的評価自体を違憲とした2018年判決は、この問題に対するより根本的なアプローチといえる。</p>
+</div>
+
+<!-- ═══════════════════════════════════════ Ch8 ═══════════════════════════════════════ -->
+<div class="section" id="ch8">
+<h2>第8章　通達・行政規則の役割 ── 日本の「通達主義」は特異か</h2>
+
+<h3>8.1 各国の行政指針の比較</h3>
+<table>
+<tr><th>国</th><th>行政指針の名称</th><th>法的拘束力</th><th>実務への影響力</th><th>評価方法の詳細度</th></tr>
+<tr><td>🇯🇵 日本</td><td>財産評価基本通達、法人税基本通達</td><td>なし（行政内部規範）</td><td><span class="stars">★★★★★</span></td><td>極めて詳細（路線価表等）</td></tr>
+<tr><td>🇺🇸 米国</td><td>Treasury Regulations, Revenue Rulings</td><td>Regulationsは法規命令</td><td><span class="stars">★★★★</span></td><td>原則・方法論を提示</td></tr>
+<tr><td>🇬🇧 英国</td><td>HMRC Manuals (SVM等)</td><td>なし（内部文書）</td><td><span class="stars">★★★</span></td><td>原則中心</td></tr>
+<tr><td>🇩🇪 ドイツ</td><td>BMF-Schreiben, 協調通達</td><td>なし（行政内部規範）</td><td><span class="stars">★★★★</span></td><td>詳細（だが法律レベルも詳細）</td></tr>
+<tr><td>🇫🇷 フランス</td><td>BOFiP-Impôts, Guide de l'évaluation</td><td>納税者有利の場合は援用可</td><td><span class="stars">★★★★</span></td><td>詳細だが定型化を禁止</td></tr>
+<tr><td>🇨🇦 カナダ</td><td>Income Tax Folios, IC 89-3</td><td>なし</td><td><span class="stars">★★★</span></td><td>方法論を提示</td></tr>
+<tr><td>🇰🇷 韓国</td><td>基本通達、国税庁告示</td><td>なし（行政内部規範）</td><td><span class="stars">★★★★★</span></td><td>極めて詳細（日本と同様）</td></tr>
+<tr><td>🇨🇳 中国</td><td>財政部通知、国家税務総局公告</td><td>規範性文件（準法規的）</td><td><span class="stars">★★★★★</span></td><td>極めて詳細</td></tr>
+<tr><td>🇸🇬 シンガポール</td><td>IRAS e-Tax Guide</td><td>なし</td><td><span class="stars">★★★★</span></td><td>実務指針</td></tr>
+<tr><td>🇮🇳 インド</td><td>CBDT Circulars</td><td>行政を拘束（納税者は援用可）</td><td><span class="stars">★★★★</span></td><td>詳細</td></tr>
+<tr><td>🇦🇺 豪州</td><td>ATO Tax Rulings, Practice Statements</td><td>Public Rulingは行政を拘束</td><td><span class="stars">★★★★</span></td><td>詳細</td></tr>
+<tr><td>🇭🇰 香港</td><td>DIPN (Departmental Interpretation Notes)</td><td>なし</td><td><span class="stars">★★★</span></td><td>原則中心</td></tr>
+</table>
+
+<h3>8.2 日本の「通達主義」の国際的位置づけ</h3>
+
+<div class="key-point">
+<strong>発見：「通達主義」は日本だけの問題ではない</strong>
+<p>調査した12か国<strong>すべて</strong>が通達に相当する行政指針を税務実務の中核に据えている。「通達が事実上の法規範として機能する」という構造は、程度の差こそあれ普遍的である。</p>
+</div>
+
+<p>ただし、日本の通達主義には以下の<strong>質的特異性</strong>がある。</p>
+
+<table>
+<tr><th>特異性</th><th>内容</th><th>他国との比較</th></tr>
+<tr><td><strong>①通達が唯一の評価基準</strong></td><td>財産評価基本通達が事実上の「法律」として機能。通達に従えば安全、従わなければ争訟。</td><td>米・英・仏・加は個別評価が原則。通達はあくまで「指針」。</td></tr>
+<tr><td><strong>②法律レベルの詳細規定の欠如</strong></td><td>法律は「時価」とのみ規定。具体化は全て通達に委任。</td><td>ドイツはBewGで詳細な法律規定。韓国は第61～65条で補充的評価方法を法定。</td></tr>
+<tr><td><strong>③定型的算式への全面的依存</strong></td><td>路線価、類似業種比準方式等の画一的算式が原則。個別評価は例外中の例外。</td><td>フランスは「定型的方式の禁止」を原則とする。米国のRev. Rul. 59-60もformula approachを排除。</td></tr>
+</table>
+
+<p>この分析から、日本の通達主義は「通達に依存すること」自体は国際的に異例ではないが、「<strong>通達による定型的・画一的評価が原則であり、個別評価が例外である</strong>」という構造は、比較法的に見て<strong>韓国を除き類例が少ない</strong>ことが明らかになった。</p>
+</div>
+
+<!-- ═══════════════════════════════════════ Ch9 ═══════════════════════════════════════ -->
+<div class="section" id="ch9">
+<h2>第9章　結論と示唆</h2>
+
+<h3>9.1 5つの主要な発見</h3>
+
+<h4>発見1：「客観的交換価値」は普遍的概念</h4>
+<p>12か国すべてにおいて、「任意の・知識ある・強制を受けない当事者間で成立する客観的価格」という基本概念は共通して存在する。日本の「客観的交換価値」は日本法独自の創作ではなく、価値評価における<strong>普遍的原理</strong>の日本的表現である。その最も近い比較法的淵源はドイツのGemeiner Wert（BewG §9）であり、日本法がドイツ法を継受した歴史的経緯と整合する。</p>
+
+<h4>発見2：一物多価は普遍的現象</h4>
+<p>一物多価問題は日本固有の問題ではなく、<strong>相続税があり政府が不動産の公的基準価格を設定する国</strong>に広く見られる。特に韓国・台湾・インドは日本より深刻な乖離を示す。一方、相続税がなく個別評価が原則の英米仏や、シンガポール・香港では問題が軽微である。</p>
+
+<h4>発見3：日本の通達主義は「程度において」特異</h4>
+<p>通達・行政規則が税務実務で重要な役割を果たすことは国際的に普遍的である。しかし、日本のように<strong>通達が事実上唯一の評価基準として機能し、定型的算式への全面的依存が原則となっている</strong>構造は、韓国を除き国際的に類例が少ない。フランスが「定型的方式の禁止」を原則とし、米国が「formula approachの排除」を明言していることは示唆的である。</p>
+
+<h4>発見4：日本のIFRS対応は国際的に遅れている</h4>
+<p>12か国中、IFRSを任意適用にとどめているのは日本のみ（米国は独自基準を維持）。アジアの韓国・中国・台湾・シンガポール・インド・オーストラリア・香港はいずれもIFRSを強制適用しており、公正価値測定の実務的蓄積において日本との差が開きつつある。</p>
+
+<h4>発見5：ドイツの違憲判決は日本の先行指標</h4>
+<p>ドイツ連邦憲法裁判所の2018年判決（画一的評価の違憲判断）は、日本の通達評価制度が直面しうる<strong>憲法的限界</strong>を示唆している。最高裁令和4年判決（総則6項）は通達評価の原則を維持する穏当なアプローチをとったが、路線価と実勢価格の構造的乖離が持続する限り、同様の問題は繰り返し提起される可能性がある。</p>
+
+<h3>9.2 日本法への示唆</h3>
+<table>
+<tr><th>示唆</th><th>内容</th><th>参照国</th></tr>
+<tr><td><strong>評価方法の法律化</strong></td><td>通達で定める主要な評価方法を施行令または法律レベルに格上げし、租税法律主義との整合性を強化する</td><td>🇩🇪 ドイツ（BewG）、🇰🇷 韓国（第61～65条）</td></tr>
+<tr><td><strong>個別評価の活用拡大</strong></td><td>定型的算式に対する個別評価（鑑定評価等）の選択肢を拡大し、画一的評価の弊害を緩和する</td><td>🇺🇸 米国（Rev. Rul. 59-60）、🇫🇷 フランス（定型化禁止原則）</td></tr>
+<tr><td><strong>乖離基準の定量化</strong></td><td>「特別の事情」の認定基準を、フランスの「20%乖離基準」のように定量的に明確化する</td><td>🇫🇷 フランス（国務院2009年判決）</td></tr>
+<tr><td><strong>IFRS対応の加速</strong></td><td>IFRSの強制適用又は適用範囲の拡大により、公正価値測定の実務的基盤を強化する</td><td>🇰🇷 韓国、🇸🇬 シンガポール、🇦🇺 豪州</td></tr>
+<tr><td><strong>路線価の現実化推進</strong></td><td>80%水準の根拠を定期的に検証し、必要に応じて現実化率の引上げを検討する</td><td>🇹🇼 台湾（公告現値の現実化10年計画）</td></tr>
+</table>
+
+<h3>9.3 おわりに</h3>
+<p>「時価」は各国法において最も基本的な価額概念でありながら、その制度的具体化の方法は驚くほど多様である。日本の通達主義による画一的評価は、大量処理の効率性と予測可能性において優れた制度設計であるが、比較法的に見ると「定型的算式への全面的依存」という点で国際的主流からは距離がある。</p>
+
+<p>本報告書で示した国際比較が、日本の「時価」概念の再検討──特に通達評価の法律化、個別評価の活用拡大、乖離基準の定量化──に向けた議論の材料となれば幸いである。</p>
+
+<blockquote>
+各国の「時価」概念は、ある普遍的な理念──任意の当事者間で成立する客観的価格──を共有しながらも、それぞれの法文化、行政慣行、政治的制約のなかで固有の発展を遂げてきた。比較法的分析は、自国の制度を相対化し、その長所と限界を明らかにする営みである。
+</blockquote>
+</div>
+
+<!-- ═══════════════════════════════════════ Refs ═══════════════════════════════════════ -->
+<div class="section" id="refs">
+<h2>参考文献・情報源</h2>
+
+<h3>欧米</h3>
+<ol>
+<li><strong>米国</strong>：26 CFR 25.2512-1 (Treasury Regulations); Revenue Ruling 59-60 (1959); ASC 820 Fair Value Measurement; USPAP (The Appraisal Foundation); <em>United States v. Cartwright</em>, 411 U.S. 546 (1973); <em>Estate of Simplot v. Commissioner</em>, 249 F.3d 1191 (9th Cir. 2001)</li>
+<li><strong>英国</strong>：TCGA 1992 s.272; HMRC Shares and Assets Valuation Manual; RICS Red Book Global Standards (2025); <em>Lynall v IRC</em> [1972] AC 680; <em>IRC v Gray</em> [1994] STC 360; <em>IRC v Crossman</em> [1937] AC 26</li>
+<li><strong>ドイツ</strong>：Bewertungsgesetz §9; BauGB §194; ImmoWertV 2021; HGB §255(4); BVerfG 2018年判決（固定資産税評価違憲）; BFH 2024年5月27日判決 (II B 78/23)</li>
+<li><strong>フランス</strong>：CGI (Code Général des Impôts); BOFiP-Impôts; Charte de l'expertise en évaluation immobilière (6e éd.); Conseil d'État 2009年7月2日判決 (No. 301299); <em>Ste Raffypack</em> (2005)</li>
+<li><strong>カナダ</strong>：Income Tax Act (Canada); <em>Henderson Estate v. M.N.R.</em> [1973] CTC 636; CRA IC 89-3; CPA Canada Handbook Part I (IFRS)</li>
+</ol>
+
+<h3>アジア</h3>
+<ol>
+<li><strong>韓国</strong>：상속세 및 증여세법 제60조; 법인세법 제52조; K-IFRS 第1113号; 国税法令情報システム (taxlaw.nts.go.kr)</li>
+<li><strong>中国</strong>：企業所得税法実施条例13条; 企業会計準則第39号「公允価値計量」; 資産評価法 (2016); 資産評価基本準則第16条; 中華人民共和国価格法</li>
+<li><strong>台湾</strong>：遺産及贈与税法第10条・施行細則第41条; T-IFRS; 内政部公告土地現值制度</li>
+<li><strong>シンガポール</strong>：Stamp Duties Act; Property Tax Act; IRAS e-Tax Guide (FRS 109); SFRS(I) 13; Income Tax Act 1947 s.34A, s.34AA</li>
+<li><strong>インド</strong>：Income Tax Act 1961 s.2(22B); Ind AS 113; Circle Rate制度; CBDT Circulars</li>
+<li><strong>オーストラリア</strong>：ITAA 1997 Subdivision 960-S; <em>Spencer v Commonwealth</em> (1907) 5 CLR 418; AASB 13; ATO Market Valuation Guide</li>
+<li><strong>香港</strong>：Inland Revenue Ordinance (Cap. 112) s.15BA, s.15C; HKFRS 13; DIPN No. 1, No. 42; Rating Ordinance (Cap. 116)</li>
+</ol>
+
+<h3>国際基準</h3>
+<ol>
+<li>IFRS 13 <em>Fair Value Measurement</em> (IFRS Foundation, 2013)</li>
+<li>IVS (International Valuation Standards), IVSC</li>
+<li>RICS Red Book Global Standards (2025)</li>
+</ol>
+
+<h3>日本関連</h3>
+<ol>
+<li>金子宏『租税法』（弘文堂、最新版）── 「客観的交換価値」の概念</li>
+<li>浅井光政「租税法上の時価を巡る諸問題」税務大学校論叢36号（2001年）</li>
+<li>最高裁令和4年4月19日判決（タワーマンション・総則6項訴訟）</li>
+<li>小島俊朗「相続税法における時価の概念とその経済学的考察」税大ジャーナル7号（2008年）</li>
+</ol>
+</div>
+
+</div><!-- /main -->
+</div><!-- /wrapper -->
+</body>
+</html>

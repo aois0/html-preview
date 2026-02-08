@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 3200" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif">
+  <defs>
+    <linearGradient id="headerGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1a365d"/><stop offset="100%" stop-color="#2c5282"/>
+    </linearGradient>
+    <linearGradient id="principleGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e53e3e"/><stop offset="100%" stop-color="#c53030"/>
+    </linearGradient>
+    <linearGradient id="exceptionGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#38a169"/><stop offset="100%" stop-color="#2f855a"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3182ce"/><stop offset="100%" stop-color="#2b6cb0"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#805ad5"/><stop offset="100%" stop-color="#553c9a"/>
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dd6b20"/><stop offset="100%" stop-color="#c05621"/>
+    </linearGradient>
+    <linearGradient id="yellowGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d69e2e"/><stop offset="100%" stop-color="#b7791f"/>
+    </linearGradient>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+    <filter id="shadowLight" x="-1%" y="-1%" width="102%" height="102%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-opacity="0.1"/>
+    </filter>
+    <marker id="arrowDown" markerWidth="10" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4a5568"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#38a169"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="10" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e53e3e"/>
+    </marker>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#3182ce"/>
+    </marker>
+    <marker id="arrowPurple" markerWidth="10" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#805ad5"/>
+    </marker>
+    <marker id="arrowOrange" markerWidth="10" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#dd6b20"/>
+    </marker>
+    <marker id="arrowYellow" markerWidth="10" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#d69e2e"/>
+    </marker>
+  </defs>
+
+  <!-- ページ背景 -->
+  <rect width="1400" height="3200" fill="#f7fafc"/>
+
+
+  <!-- ============================================================ -->
+  <!-- SECTION 1: ヘッダー（法33条の原則・例外）                      -->
+  <!-- ============================================================ -->
+  <rect x="0" y="0" width="1400" height="90" fill="url(#headerGrad)"/>
+  <text x="700" y="40" text-anchor="middle" fill="white" font-size="28" font-weight="700">法人税法第33条 ── 資産の評価損の全体構造</text>
+  <text x="700" y="68" text-anchor="middle" fill="#cbd5e0" font-size="14">施行令68条 全4資産類型（棚卸資産・有価証券・固定資産・繰延資産）の評価損構造図</text>
+
+  <!-- 原則カード -->
+  <rect x="100" y="110" width="1200" height="55" rx="8" fill="url(#principleGrad)" filter="url(#shadow)"/>
+  <text x="700" y="135" text-anchor="middle" fill="white" font-size="17" font-weight="700">原則：資産の評価損は損金不算入（第1項）</text>
+  <text x="700" y="155" text-anchor="middle" fill="#fed7d7" font-size="11">内国法人がその有する資産の評価換えをしてその帳簿価額を減額した場合 → その減額した部分の金額は損金の額に算入しない</text>
+
+  <!-- 矢印 -->
+  <line x1="700" y1="165" x2="700" y2="190" stroke="#4a5568" stroke-width="2" marker-end="url(#arrowDown)"/>
+  <text x="715" y="185" fill="#718096" font-size="10" font-style="italic">例外あり</text>
+
+  <!-- 例外カード -->
+  <rect x="100" y="195" width="1200" height="55" rx="8" fill="url(#exceptionGrad)" filter="url(#shadow)"/>
+  <text x="700" y="220" text-anchor="middle" fill="white" font-size="17" font-weight="700">例外：物損等の事実 or 法的整理の事実があれば損金算入（第2〜5項）</text>
+  <text x="700" y="240" text-anchor="middle" fill="#c6f6d5" font-size="11">政令（施行令68条）で定める事実が生じた場合 ＋ 損金経理により帳簿価額を減額 → 損金算入</text>
+
+  <!-- 矢印 -->
+  <line x1="700" y1="250" x2="700" y2="280" stroke="#dd6b20" stroke-width="2.5" marker-end="url(#arrowOrange)"/>
+  <rect x="645" y="258" width="110" height="16" rx="4" fill="#feebc8"/>
+  <text x="700" y="270" text-anchor="middle" fill="#c05621" font-size="10" font-weight="700">政令に委任</text>
+
+
+  <!-- ============================================================ -->
+  <!-- SECTION 2: 施行令68条 — 4資産分岐ツリー                       -->
+  <!-- ============================================================ -->
+  <text x="50" y="320" fill="#1a365d" font-size="20" font-weight="700">1. 施行令68条1項 ── 物損等の事実：4資産類型への分岐</text>
+  <line x1="50" y1="328" x2="560" y2="328" stroke="#ed8936" stroke-width="3"/>
+
+  <!-- Root pill node -->
+  <rect x="450" y="350" width="500" height="48" rx="24" fill="#2d3748" filter="url(#shadow)"/>
+  <text x="700" y="380" text-anchor="middle" fill="white" font-size="16" font-weight="700">施行令68条1項：物損等の事実</text>
+
+  <!-- Vertical trunk line -->
+  <line x1="700" y1="398" x2="700" y2="430" stroke="#4a5568" stroke-width="2"/>
+  <!-- Horizontal branch line -->
+  <line x1="170" y1="430" x2="1230" y2="430" stroke="#4a5568" stroke-width="2"/>
+
+  <!-- Branch drop lines -->
+  <line x1="170" y1="430" x2="170" y2="455" stroke="#3182ce" stroke-width="2" marker-end="url(#arrowBlue)"/>
+  <line x1="523" y1="430" x2="523" y2="455" stroke="#805ad5" stroke-width="2" marker-end="url(#arrowPurple)"/>
+  <line x1="877" y1="430" x2="877" y2="455" stroke="#dd6b20" stroke-width="2" marker-end="url(#arrowOrange)"/>
+  <line x1="1230" y1="430" x2="1230" y2="455" stroke="#d69e2e" stroke-width="2" marker-end="url(#arrowYellow)"/>
+
+  <!-- Card 1: 棚卸資産（青） -->
+  <rect x="60" y="460" width="220" height="80" rx="8" fill="white" stroke="#e2e8f0" stroke-width="2" filter="url(#shadowLight)"/>
+  <rect x="60" y="460" width="220" height="32" rx="8" fill="url(#blueGrad)"/>
+  <rect x="60" y="484" width="220" height="8" fill="url(#blueGrad)"/>
+  <text x="170" y="483" text-anchor="middle" fill="white" font-size="14" font-weight="700">1号</text>
+  <text x="170" y="515" text-anchor="middle" fill="#2d3748" font-size="15" font-weight="700">棚卸資産</text>
+  <text x="170" y="533" text-anchor="middle" fill="#718096" font-size="10">イ・ロ・ハの3類型</text>
+
+  <!-- Card 2: 有価証券（紫） -->
+  <rect x="413" y="460" width="220" height="80" rx="8" fill="white" stroke="#e2e8f0" stroke-width="2" filter="url(#shadowLight)"/>
+  <rect x="413" y="460" width="220" height="32" rx="8" fill="url(#purpleGrad)"/>
+  <rect x="413" y="484" width="220" height="8" fill="url(#purpleGrad)"/>
+  <text x="523" y="483" text-anchor="middle" fill="white" font-size="14" font-weight="700">2号</text>
+  <text x="523" y="515" text-anchor="middle" fill="#2d3748" font-size="15" font-weight="700">有価証券</text>
+  <text x="523" y="533" text-anchor="middle" fill="#718096" font-size="10">イ・ロ・ハの3類型</text>
+
+  <!-- Card 3: 固定資産（橙） -->
+  <rect x="767" y="460" width="220" height="80" rx="8" fill="white" stroke="#e2e8f0" stroke-width="2" filter="url(#shadowLight)"/>
+  <rect x="767" y="460" width="220" height="32" rx="8" fill="url(#orangeGrad)"/>
+  <rect x="767" y="484" width="220" height="8" fill="url(#orangeGrad)"/>
+  <text x="877" y="483" text-anchor="middle" fill="white" font-size="14" font-weight="700">3号</text>
+  <text x="877" y="515" text-anchor="middle" fill="#2d3748" font-size="15" font-weight="700">固定資産</text>
+  <text x="877" y="533" text-anchor="middle" fill="#718096" font-size="10">イ・ロ・ハ・ニ・ホの5類型</text>
+
+  <!-- Card 4: 繰延資産（黄） -->
+  <rect x="1120" y="460" width="220" height="80" rx="8" fill="white" stroke="#e2e8f0" stroke-width="2" filter="url(#shadowLight)"/>
+  <rect x="1120" y="460" width="220" height="32" rx="8" fill="url(#yellowGrad)"/>
+  <rect x="1120" y="484" width="220" height="8" fill="url(#yellowGrad)"/>
+  <text x="1230" y="483" text-anchor="middle" fill="white" font-size="14" font-weight="700">4号</text>
+  <text x="1230" y="515" text-anchor="middle" fill="#2d3748" font-size="15" font-weight="700">繰延資産</text>
+  <text x="1230" y="533" text-anchor="middle" fill="#718096" font-size="10">イ・ロの2類型（限定）</text>
+
+
+  <!-- ============================================================ -->
+  <!-- SECTION 3: 各資産の要件カード（並列4列）                       -->
+  <!-- ============================================================ -->
+  <text x="50" y="600" fill="#1a365d" font-size="20" font-weight="700">2. 各号の具体的事実（物損等の事実の内容）</text>
+  <line x1="50" y1="608" x2="460" y2="608" stroke="#ed8936" stroke-width="3"/>
+
+  <!-- ===== 列1: 棚卸資産（青）===== -->
+  <rect x="30" y="625" width="310" height="330" rx="8" fill="white" stroke="#3182ce" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="30" y="625" width="310" height="38" rx="8" fill="url(#blueGrad)"/>
+  <rect x="30" y="655" width="310" height="8" fill="url(#blueGrad)"/>
+  <text x="185" y="651" text-anchor="middle" fill="white" font-size="15" font-weight="700">1号：棚卸資産</text>
+
+  <!-- イ -->
+  <rect x="50" y="678" width="270" height="60" rx="6" fill="#ebf8ff" stroke="#bee3f8" stroke-width="1.5"/>
+  <text x="65" y="696" fill="#2b6cb0" font-size="13" font-weight="700">イ  災害により著しく損傷</text>
+  <text x="65" y="714" fill="#4a5568" font-size="11">震災、風水害、火災その他の</text>
+  <text x="65" y="729" fill="#4a5568" font-size="11">災害による著しい損傷</text>
+
+  <!-- ロ -->
+  <rect x="50" y="748" width="270" height="60" rx="6" fill="#ebf8ff" stroke="#bee3f8" stroke-width="1.5"/>
+  <text x="65" y="766" fill="#2b6cb0" font-size="13" font-weight="700">ロ  著しく陳腐化</text>
+  <text x="65" y="784" fill="#4a5568" font-size="11">型式、性能、品質等が著しく</text>
+  <text x="65" y="799" fill="#4a5568" font-size="11">陳腐化したこと</text>
+
+  <!-- ハ -->
+  <rect x="50" y="818" width="270" height="55" rx="6" fill="#edf2f7" stroke="#cbd5e0" stroke-width="1.5"/>
+  <text x="65" y="836" fill="#4a5568" font-size="13" font-weight="700">ハ  準ずる特別の事実</text>
+  <text x="65" y="854" fill="#718096" font-size="11">イ又はロに準ずる特別の事実</text>
+  <text x="65" y="869" fill="#718096" font-size="10">（受け皿規定・個別判断）</text>
+
+  <!-- 通達参照 -->
+  <text x="50" y="940" fill="#3182ce" font-size="10" font-weight="600">関連通達: 9-1-4の2等</text>
+
+
+  <!-- ===== 列2: 有価証券（紫）===== -->
+  <rect x="370" y="625" width="310" height="330" rx="8" fill="white" stroke="#805ad5" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="370" y="625" width="310" height="38" rx="8" fill="url(#purpleGrad)"/>
+  <rect x="370" y="655" width="310" height="8" fill="url(#purpleGrad)"/>
+  <text x="525" y="651" text-anchor="middle" fill="white" font-size="15" font-weight="700">2号：有価証券</text>
+
+  <!-- イ -->
+  <rect x="390" y="678" width="270" height="74" rx="6" fill="#faf5ff" stroke="#d6bcfa" stroke-width="1.5"/>
+  <text x="405" y="696" fill="#553c9a" font-size="13" font-weight="700">イ  価額が著しく低下</text>
+  <text x="405" y="714" fill="#4a5568" font-size="11">市場有価証券の価額の著しい低下</text>
+  <text x="405" y="729" fill="#718096" font-size="10">※売買目的有価証券・企業支配</text>
+  <text x="405" y="744" fill="#718096" font-size="10">  株式等は適用除外</text>
+
+  <!-- ロ -->
+  <rect x="390" y="762" width="270" height="68" rx="6" fill="#faf5ff" stroke="#d6bcfa" stroke-width="1.5"/>
+  <text x="405" y="780" fill="#553c9a" font-size="13" font-weight="700">ロ  資産状態悪化＋価額低下</text>
+  <text x="405" y="798" fill="#4a5568" font-size="11">発行法人の資産状態が著しく悪化</text>
+  <text x="405" y="813" fill="#e53e3e" font-size="11" font-weight="600">→ 価額が著しく低下（二重要件）</text>
+  <text x="405" y="825" fill="#718096" font-size="10">※イ以外の有価証券に適用</text>
+
+  <!-- ハ -->
+  <rect x="390" y="840" width="270" height="48" rx="6" fill="#edf2f7" stroke="#cbd5e0" stroke-width="1.5"/>
+  <text x="405" y="858" fill="#4a5568" font-size="13" font-weight="700">ハ  準ずる特別の事実</text>
+  <text x="405" y="876" fill="#718096" font-size="11">ロに準ずる特別の事実</text>
+
+  <!-- 通達参照 -->
+  <text x="390" y="910" fill="#805ad5" font-size="10" font-weight="600">関連通達: 9-1-7〜9-1-15</text>
+  <text x="390" y="925" fill="#718096" font-size="10">※詳細は evaluation_loss_overview.svg 参照</text>
+  <text x="390" y="940" fill="#e53e3e" font-size="10" font-weight="600">売買目的有価証券はロ・ハのみ</text>
+
+
+  <!-- ===== 列3: 固定資産（橙）===== -->
+  <rect x="710" y="625" width="310" height="330" rx="8" fill="white" stroke="#dd6b20" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="710" y="625" width="310" height="38" rx="8" fill="url(#orangeGrad)"/>
+  <rect x="710" y="655" width="310" height="8" fill="url(#orangeGrad)"/>
+  <text x="865" y="651" text-anchor="middle" fill="white" font-size="15" font-weight="700">3号：固定資産</text>
+
+  <!-- イ -->
+  <rect x="730" y="678" width="270" height="44" rx="6" fill="#fffaf0" stroke="#fbd38d" stroke-width="1.5"/>
+  <text x="745" y="696" fill="#c05621" font-size="12" font-weight="700">イ  災害により著しく損傷</text>
+  <text x="745" y="714" fill="#4a5568" font-size="11">棚卸資産1号イと同旨</text>
+
+  <!-- ロ -->
+  <rect x="730" y="730" width="270" height="44" rx="6" fill="#fffaf0" stroke="#fbd38d" stroke-width="1.5"/>
+  <text x="745" y="748" fill="#c05621" font-size="12" font-weight="700">ロ  1年以上にわたり遊休状態</text>
+  <text x="745" y="766" fill="#4a5568" font-size="11">事業の用に供されていないこと</text>
+
+  <!-- ハ -->
+  <rect x="730" y="782" width="270" height="44" rx="6" fill="#fffaf0" stroke="#fbd38d" stroke-width="1.5"/>
+  <text x="745" y="800" fill="#c05621" font-size="12" font-weight="700">ハ  用途変更（本来の用途不能）</text>
+  <text x="745" y="818" fill="#4a5568" font-size="11">他の用途に転用されたこと</text>
+
+  <!-- ニ -->
+  <rect x="730" y="834" width="270" height="44" rx="6" fill="#fffaf0" stroke="#fbd38d" stroke-width="1.5"/>
+  <text x="745" y="852" fill="#c05621" font-size="12" font-weight="700">ニ  所在場所の状況が著しく変化</text>
+  <text x="745" y="870" fill="#4a5568" font-size="11">周辺環境の著しい変化</text>
+
+  <!-- ホ -->
+  <rect x="730" y="886" width="270" height="44" rx="6" fill="#edf2f7" stroke="#cbd5e0" stroke-width="1.5"/>
+  <text x="745" y="904" fill="#4a5568" font-size="12" font-weight="700">ホ  準ずる特別の事実</text>
+  <text x="745" y="922" fill="#718096" font-size="11">イ〜ニに準ずる（受け皿規定）</text>
+
+  <!-- 通達参照 -->
+  <text x="730" y="950" fill="#dd6b20" font-size="10" font-weight="600">関連通達: 9-1-16〜9-1-19</text>
+
+
+  <!-- ===== 列4: 繰延資産（黄）===== -->
+  <rect x="1050" y="625" width="310" height="330" rx="8" fill="white" stroke="#d69e2e" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="1050" y="625" width="310" height="38" rx="8" fill="url(#yellowGrad)"/>
+  <rect x="1050" y="655" width="310" height="8" fill="url(#yellowGrad)"/>
+  <text x="1205" y="651" text-anchor="middle" fill="white" font-size="15" font-weight="700">4号：繰延資産</text>
+
+  <!-- 限定注記 -->
+  <rect x="1070" y="672" width="270" height="32" rx="6" fill="#fffff0" stroke="#ecc94b" stroke-width="1.5"/>
+  <text x="1205" y="693" text-anchor="middle" fill="#975a16" font-size="10" font-weight="700">施行令14条1項6号のうち他の者の固定資産を</text>
+  <text x="1205" y="700" text-anchor="middle" fill="#975a16" font-size="9">利用するための支出に限定</text>
+
+  <!-- イ -->
+  <rect x="1070" y="718" width="270" height="72" rx="6" fill="#fffff0" stroke="#ecc94b" stroke-width="1.5"/>
+  <text x="1085" y="738" fill="#b7791f" font-size="13" font-weight="700">イ  対象固定資産の3号事実</text>
+  <text x="1085" y="758" fill="#4a5568" font-size="11">繰延資産の対象となった</text>
+  <text x="1085" y="773" fill="#4a5568" font-size="11">固定資産に3号イ〜ニの</text>
+  <text x="1085" y="788" fill="#4a5568" font-size="11">事実が生じたこと</text>
+
+  <!-- ロ -->
+  <rect x="1070" y="800" width="270" height="48" rx="6" fill="#edf2f7" stroke="#cbd5e0" stroke-width="1.5"/>
+  <text x="1085" y="818" fill="#4a5568" font-size="13" font-weight="700">ロ  準ずる特別の事実</text>
+  <text x="1085" y="836" fill="#718096" font-size="11">イに準ずる特別の事実</text>
+
+  <!-- 参照矢印表示 -->
+  <rect x="1070" y="862" width="270" height="40" rx="6" fill="#fff5f5" stroke="#fc8181" stroke-width="1"/>
+  <text x="1205" y="880" text-anchor="middle" fill="#c05621" font-size="10" font-weight="600">3号（固定資産）の事実に連動</text>
+  <text x="1205" y="895" text-anchor="middle" fill="#718096" font-size="9">固定資産の事実 → 繰延資産へ波及</text>
+
+  <!-- 通達 -->
+  <text x="1070" y="935" fill="#d69e2e" font-size="10" font-weight="600">関連通達: 個別規定なし</text>
+  <text x="1070" y="950" fill="#718096" font-size="10">（3号の通達を参照適用）</text>
+
+
+  <!-- ============================================================ -->
+  <!-- SECTION 4: 通達体系マップ                                      -->
+  <!-- ============================================================ -->
+  <text x="50" y="1010" fill="#1a365d" font-size="20" font-weight="700">3. 法人税基本通達の体系マップ（第9章第1節）</text>
+  <line x1="50" y1="1018" x2="520" y2="1018" stroke="#ed8936" stroke-width="3"/>
+
+  <!-- 列1: 通則 -->
+  <rect x="30" y="1035" width="310" height="285" rx="8" fill="white" stroke="#4a5568" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="30" y="1035" width="310" height="36" rx="8" fill="#2d3748"/>
+  <rect x="30" y="1063" width="310" height="8" fill="#2d3748"/>
+  <text x="185" y="1059" text-anchor="middle" fill="white" font-size="14" font-weight="700">第1款 通則</text>
+
+  <circle cx="62" cy="1092" r="12" fill="#4a5568"/>
+  <text x="62" y="1097" text-anchor="middle" fill="white" font-size="11" font-weight="700">1</text>
+  <text x="82" y="1097" fill="#2d3748" font-size="12" font-weight="600">9-1-1  評価損の計上ができる場合</text>
+
+  <circle cx="62" cy="1122" r="12" fill="#4a5568"/>
+  <text x="62" y="1127" text-anchor="middle" fill="white" font-size="11" font-weight="700">2</text>
+  <text x="82" y="1127" fill="#2d3748" font-size="12" font-weight="600">9-1-2  物損等の事実の意義</text>
+
+  <circle cx="62" cy="1152" r="12" fill="#4a5568"/>
+  <text x="62" y="1157" text-anchor="middle" fill="white" font-size="11" font-weight="700">3</text>
+  <text x="82" y="1157" fill="#2d3748" font-size="12" font-weight="600">9-1-3  資産の価額（時価の定義）</text>
+
+  <circle cx="62" cy="1182" r="12" fill="#4a5568"/>
+  <text x="62" y="1187" text-anchor="middle" fill="white" font-size="11" font-weight="700">4</text>
+  <text x="82" y="1187" fill="#2d3748" font-size="12" font-weight="600">9-1-3の2  一定の評定の意義</text>
+
+  <circle cx="62" cy="1212" r="12" fill="#4a5568"/>
+  <text x="62" y="1217" text-anchor="middle" fill="white" font-size="11" font-weight="700">5</text>
+  <text x="82" y="1217" fill="#2d3748" font-size="12" font-weight="600">9-1-4  評価損の損金算入の手続</text>
+
+  <text x="50" y="1258" fill="#718096" font-size="10">全4資産類型に共通する基本的事項。</text>
+  <text x="50" y="1273" fill="#718096" font-size="10">物損等の事実・法的整理の事実の定義、</text>
+  <text x="50" y="1288" fill="#718096" font-size="10">損金算入の手続要件等を規定。</text>
+  <text x="50" y="1308" fill="#4a5568" font-size="10" font-weight="600">→ 全ての資産区分の判定の前提</text>
+
+  <!-- 列2: 棚卸資産の通達 -->
+  <rect x="370" y="1035" width="310" height="285" rx="8" fill="white" stroke="#3182ce" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="370" y="1035" width="310" height="36" rx="8" fill="url(#blueGrad)"/>
+  <rect x="370" y="1063" width="310" height="8" fill="url(#blueGrad)"/>
+  <text x="525" y="1059" text-anchor="middle" fill="white" font-size="14" font-weight="700">第2款 棚卸資産</text>
+
+  <circle cx="402" cy="1092" r="12" fill="#3182ce"/>
+  <text x="402" y="1097" text-anchor="middle" fill="white" font-size="11" font-weight="700">1</text>
+  <text x="422" y="1097" fill="#2d3748" font-size="12" font-weight="600">9-1-4の2  陳腐化の例示</text>
+
+  <circle cx="402" cy="1122" r="12" fill="#3182ce"/>
+  <text x="402" y="1127" text-anchor="middle" fill="white" font-size="11" font-weight="700">2</text>
+  <text x="422" y="1127" fill="#2d3748" font-size="12" font-weight="600">9-1-5  低価法との関係</text>
+
+  <circle cx="402" cy="1152" r="12" fill="#3182ce"/>
+  <text x="402" y="1157" text-anchor="middle" fill="white" font-size="11" font-weight="700">3</text>
+  <text x="422" y="1157" fill="#2d3748" font-size="12" font-weight="600">9-1-6  評価損計上後の処理</text>
+
+  <text x="390" y="1200" fill="#718096" font-size="10">棚卸資産固有の解釈指針。</text>
+  <text x="390" y="1215" fill="#718096" font-size="10">「著しく陳腐化」の具体的判断基準、</text>
+  <text x="390" y="1230" fill="#718096" font-size="10">低価法との適用関係を明確化。</text>
+  <text x="390" y="1258" fill="#3182ce" font-size="10" font-weight="600">ポイント: 陳腐化 = 型式・性能・品質の</text>
+  <text x="390" y="1273" fill="#3182ce" font-size="10" font-weight="600">著しい劣化（物理的ではなく経済的価値喪失）</text>
+
+  <!-- 列3: 有価証券の通達 -->
+  <rect x="710" y="1035" width="310" height="285" rx="8" fill="white" stroke="#805ad5" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="710" y="1035" width="310" height="36" rx="8" fill="url(#purpleGrad)"/>
+  <rect x="710" y="1063" width="310" height="8" fill="url(#purpleGrad)"/>
+  <text x="865" y="1059" text-anchor="middle" fill="white" font-size="14" font-weight="700">第3款 有価証券</text>
+
+  <circle cx="742" cy="1092" r="12" fill="#805ad5"/>
+  <text x="742" y="1097" text-anchor="middle" fill="white" font-size="11" font-weight="700">1</text>
+  <text x="762" y="1097" fill="#2d3748" font-size="12" font-weight="600">9-1-7  著しく低下の判定</text>
+
+  <circle cx="742" cy="1122" r="12" fill="#805ad5"/>
+  <text x="742" y="1127" text-anchor="middle" fill="white" font-size="11" font-weight="700">2</text>
+  <text x="762" y="1127" fill="#2d3748" font-size="12" font-weight="600">9-1-8  上場有価証券の時価</text>
+
+  <circle cx="742" cy="1152" r="12" fill="#805ad5"/>
+  <text x="742" y="1157" text-anchor="middle" fill="white" font-size="11" font-weight="700">3</text>
+  <text x="762" y="1157" fill="#2d3748" font-size="12" font-weight="600">9-1-9  資産状態の著しい悪化</text>
+
+  <circle cx="742" cy="1182" r="12" fill="#805ad5"/>
+  <text x="742" y="1187" text-anchor="middle" fill="white" font-size="11" font-weight="700">4</text>
+  <text x="762" y="1187" fill="#2d3748" font-size="12" font-weight="600">9-1-11 ロ号への9-1-7準用</text>
+
+  <circle cx="742" cy="1212" r="12" fill="#805ad5"/>
+  <text x="742" y="1217" text-anchor="middle" fill="white" font-size="11" font-weight="700">5</text>
+  <text x="762" y="1217" fill="#2d3748" font-size="12" font-weight="600">9-1-13/14  非上場株式の時価</text>
+
+  <text x="730" y="1258" fill="#718096" font-size="10">最も精緻な通達体系。50%基準、</text>
+  <text x="730" y="1273" fill="#718096" font-size="10">回復見込み判断、時価算定手法を規定。</text>
+  <text x="730" y="1298" fill="#805ad5" font-size="10" font-weight="600">※ 詳細は evaluation_loss_overview.svg で</text>
+  <text x="730" y="1313" fill="#805ad5" font-size="10" font-weight="600">  有価証券に特化した構造を図示</text>
+
+  <!-- 列4: 固定資産の通達 -->
+  <rect x="1050" y="1035" width="310" height="285" rx="8" fill="white" stroke="#dd6b20" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="1050" y="1035" width="310" height="36" rx="8" fill="url(#orangeGrad)"/>
+  <rect x="1050" y="1063" width="310" height="8" fill="url(#orangeGrad)"/>
+  <text x="1205" y="1059" text-anchor="middle" fill="white" font-size="14" font-weight="700">第4款 固定資産</text>
+
+  <circle cx="1082" cy="1092" r="12" fill="#dd6b20"/>
+  <text x="1082" y="1097" text-anchor="middle" fill="white" font-size="11" font-weight="700">1</text>
+  <text x="1102" y="1097" fill="#2d3748" font-size="12" font-weight="600">9-1-16  1年以上遊休の意義</text>
+
+  <circle cx="1082" cy="1122" r="12" fill="#dd6b20"/>
+  <text x="1082" y="1127" text-anchor="middle" fill="white" font-size="11" font-weight="700">2</text>
+  <text x="1102" y="1127" fill="#2d3748" font-size="12" font-weight="600">9-1-17  用途変更の判定</text>
+
+  <circle cx="1082" cy="1152" r="12" fill="#dd6b20"/>
+  <text x="1082" y="1157" text-anchor="middle" fill="white" font-size="11" font-weight="700">3</text>
+  <text x="1102" y="1157" fill="#2d3748" font-size="12" font-weight="600">9-1-18  場所状況変化の判定</text>
+
+  <circle cx="1082" cy="1182" r="12" fill="#dd6b20"/>
+  <text x="1082" y="1187" text-anchor="middle" fill="white" font-size="11" font-weight="700">4</text>
+  <text x="1102" y="1187" fill="#2d3748" font-size="12" font-weight="600">9-1-19  固定資産の範囲</text>
+
+  <text x="1070" y="1228" fill="#718096" font-size="10">固定資産固有の5類型の解釈基準。</text>
+  <text x="1070" y="1243" fill="#718096" font-size="10">「遊休」「用途変更」「場所的変化」の</text>
+  <text x="1070" y="1258" fill="#718096" font-size="10">具体的判断要素を規定。</text>
+  <text x="1070" y="1288" fill="#dd6b20" font-size="10" font-weight="600">ポイント: 固定資産は物理的事実（災害）と</text>
+  <text x="1070" y="1303" fill="#dd6b20" font-size="10" font-weight="600">経済的事実（遊休・用途変更）の双方を包含</text>
+
+
+  <!-- ============================================================ -->
+  <!-- SECTION 5: 共通判定フロー                                      -->
+  <!-- ============================================================ -->
+  <text x="50" y="1390" fill="#1a365d" font-size="20" font-weight="700">4. 評価損計上の共通判定フロー</text>
+  <line x1="50" y1="1398" x2="400" y2="1398" stroke="#ed8936" stroke-width="3"/>
+
+  <!-- 凡例バー -->
+  <rect x="50" y="1415" width="1300" height="40" rx="8" fill="#edf2f7" stroke="#cbd5e0" stroke-width="1"/>
+  <text x="80" y="1440" fill="#1a365d" font-size="12" font-weight="700">凡例:</text>
+  <rect x="130" y="1427" width="14" height="14" rx="3" fill="#2d3748"/>
+  <text x="152" y="1439" fill="#4a5568" font-size="11">判定ステップ</text>
+  <rect x="280" y="1427" width="14" height="14" rx="3" fill="url(#exceptionGrad)"/>
+  <text x="302" y="1439" fill="#4a5568" font-size="11">適用許可</text>
+  <rect x="410" y="1427" width="14" height="14" rx="3" fill="url(#principleGrad)"/>
+  <text x="432" y="1439" fill="#4a5568" font-size="11">損金不算入</text>
+  <line x1="560" y1="1434" x2="610" y2="1434" stroke="#38a169" stroke-width="2" marker-end="url(#arrowGreen)"/>
+  <text x="620" y="1439" fill="#4a5568" font-size="11">YES</text>
+  <line x1="680" y1="1434" x2="730" y2="1434" stroke="#e53e3e" stroke-width="2" marker-end="url(#arrowRed)"/>
+  <text x="740" y="1439" fill="#4a5568" font-size="11">NO</text>
+
+  <!-- Step 1: 資産の区分判定 -->
+  <rect x="250" y="1475" width="700" height="48" rx="24" fill="#2d3748" filter="url(#shadow)"/>
+  <text x="600" y="1505" text-anchor="middle" fill="white" font-size="15" font-weight="700">Step 1：資産の区分判定（棚卸 / 有価証券 / 固定 / 繰延）</text>
+
+  <!-- 分岐カード4つ（小さく） -->
+  <rect x="255" y="1535" width="155" height="24" rx="6" fill="url(#blueGrad)"/>
+  <text x="332" y="1552" text-anchor="middle" fill="white" font-size="11" font-weight="700">1号 棚卸資産</text>
+  <rect x="420" y="1535" width="155" height="24" rx="6" fill="url(#purpleGrad)"/>
+  <text x="497" y="1552" text-anchor="middle" fill="white" font-size="11" font-weight="700">2号 有価証券</text>
+  <rect x="585" y="1535" width="155" height="24" rx="6" fill="url(#orangeGrad)"/>
+  <text x="662" y="1552" text-anchor="middle" fill="white" font-size="11" font-weight="700">3号 固定資産</text>
+  <rect x="750" y="1535" width="155" height="24" rx="6" fill="url(#yellowGrad)"/>
+  <text x="827" y="1552" text-anchor="middle" fill="white" font-size="11" font-weight="700">4号 繰延資産</text>
+
+  <line x1="600" y1="1559" x2="600" y2="1590" stroke="#4a5568" stroke-width="2" marker-end="url(#arrowDown)"/>
+
+  <!-- Step 2: 物損等の事実 or 法的整理の事実 -->
+  <rect x="200" y="1595" width="800" height="48" rx="24" fill="#2d3748" filter="url(#shadow)"/>
+  <text x="600" y="1625" text-anchor="middle" fill="white" font-size="14" font-weight="700">Step 2：物損等の事実 or 法的整理の事実が生じたか？</text>
+
+  <!-- YES arrow down -->
+  <line x1="600" y1="1643" x2="600" y2="1680" stroke="#38a169" stroke-width="2" marker-end="url(#arrowGreen)"/>
+  <text x="580" y="1670" fill="#38a169" font-size="11" font-weight="700">YES</text>
+
+  <!-- NO arrow right -->
+  <line x1="1000" y1="1619" x2="1120" y2="1619" stroke="#e53e3e" stroke-width="2" marker-end="url(#arrowRed)"/>
+  <text x="1050" y="1612" fill="#e53e3e" font-size="10" font-weight="700">NO</text>
+  <rect x="1130" y="1604" width="200" height="30" rx="6" fill="url(#principleGrad)" filter="url(#shadowLight)"/>
+  <text x="1230" y="1624" text-anchor="middle" fill="white" font-size="12" font-weight="700">損金不算入</text>
+
+  <!-- Step 3: 帳簿価額 > 期末価額？ -->
+  <rect x="200" y="1685" width="800" height="48" rx="24" fill="#2d3748" filter="url(#shadow)"/>
+  <text x="600" y="1715" text-anchor="middle" fill="white" font-size="14" font-weight="700">Step 3：帳簿価額 &gt; 事業年度終了時の価額か？</text>
+
+  <!-- YES arrow down -->
+  <line x1="600" y1="1733" x2="600" y2="1770" stroke="#38a169" stroke-width="2" marker-end="url(#arrowGreen)"/>
+  <text x="580" y="1760" fill="#38a169" font-size="11" font-weight="700">YES</text>
+
+  <!-- NO arrow right -->
+  <line x1="1000" y1="1709" x2="1120" y2="1709" stroke="#e53e3e" stroke-width="2" marker-end="url(#arrowRed)"/>
+  <text x="1050" y="1702" fill="#e53e3e" font-size="10" font-weight="700">NO</text>
+  <rect x="1130" y="1694" width="200" height="30" rx="6" fill="url(#principleGrad)" filter="url(#shadowLight)"/>
+  <text x="1230" y="1714" text-anchor="middle" fill="white" font-size="12" font-weight="700">損金不算入</text>
+
+  <!-- Step 4: 損金経理 -->
+  <rect x="200" y="1775" width="800" height="48" rx="24" fill="#2d3748" filter="url(#shadow)"/>
+  <text x="600" y="1805" text-anchor="middle" fill="white" font-size="14" font-weight="700">Step 4：損金経理により帳簿価額を減額したか？</text>
+
+  <!-- YES arrow down -->
+  <line x1="600" y1="1823" x2="600" y2="1860" stroke="#38a169" stroke-width="2" marker-end="url(#arrowGreen)"/>
+  <text x="580" y="1850" fill="#38a169" font-size="11" font-weight="700">YES</text>
+
+  <!-- NO arrow right -->
+  <line x1="1000" y1="1799" x2="1120" y2="1799" stroke="#e53e3e" stroke-width="2" marker-end="url(#arrowRed)"/>
+  <text x="1050" y="1792" fill="#e53e3e" font-size="10" font-weight="700">NO</text>
+  <rect x="1130" y="1784" width="200" height="30" rx="6" fill="url(#principleGrad)" filter="url(#shadowLight)"/>
+  <text x="1230" y="1804" text-anchor="middle" fill="white" font-size="12" font-weight="700">損金不算入</text>
+
+  <!-- Step 5: 明細書の添付 -->
+  <rect x="200" y="1865" width="800" height="48" rx="24" fill="#2d3748" filter="url(#shadow)"/>
+  <text x="600" y="1895" text-anchor="middle" fill="white" font-size="14" font-weight="700">Step 5：確定申告書に評価損の損金算入に関する明細書を添付？</text>
+
+  <!-- YES arrow down -->
+  <line x1="600" y1="1913" x2="600" y2="1950" stroke="#38a169" stroke-width="3" marker-end="url(#arrowGreen)"/>
+  <text x="580" y="1940" fill="#38a169" font-size="11" font-weight="700">YES</text>
+
+  <!-- NO arrow right -->
+  <line x1="1000" y1="1889" x2="1120" y2="1889" stroke="#e53e3e" stroke-width="2" marker-end="url(#arrowRed)"/>
+  <text x="1050" y="1882" fill="#e53e3e" font-size="10" font-weight="700">NO</text>
+  <rect x="1130" y="1874" width="200" height="30" rx="6" fill="url(#principleGrad)" filter="url(#shadowLight)"/>
+  <text x="1230" y="1894" text-anchor="middle" fill="white" font-size="12" font-weight="700">損金不算入</text>
+
+  <!-- 結果：損金算入OK -->
+  <rect x="300" y="1960" width="600" height="60" rx="10" fill="url(#exceptionGrad)" filter="url(#shadow)"/>
+  <text x="600" y="1988" text-anchor="middle" fill="white" font-size="20" font-weight="800">評価損の損金算入OK</text>
+  <text x="600" y="2010" text-anchor="middle" fill="#c6f6d5" font-size="12">限度額 = 評価換え直前の帳簿価額 - 事業年度終了時の価額（法33条2項）</text>
+
+
+  <!-- ============================================================ -->
+  <!-- SECTION 6: 資産横断の構造比較テーブル                           -->
+  <!-- ============================================================ -->
+  <text x="50" y="2080" fill="#1a365d" font-size="20" font-weight="700">5. 4資産類型の構造比較</text>
+  <line x1="50" y1="2088" x2="350" y2="2088" stroke="#ed8936" stroke-width="3"/>
+
+  <!-- テーブルヘッダー -->
+  <rect x="50" y="2105" width="1300" height="36" rx="0" fill="#2d3748"/>
+  <text x="155" y="2128" text-anchor="middle" fill="white" font-size="12" font-weight="700">比較項目</text>
+  <line x1="260" y1="2105" x2="260" y2="2141" stroke="#4a5568" stroke-width="1"/>
+  <text x="395" y="2128" text-anchor="middle" fill="#bee3f8" font-size="12" font-weight="700">1号 棚卸資産</text>
+  <line x1="530" y1="2105" x2="530" y2="2141" stroke="#4a5568" stroke-width="1"/>
+  <text x="665" y="2128" text-anchor="middle" fill="#e9d8fd" font-size="12" font-weight="700">2号 有価証券</text>
+  <line x1="800" y1="2105" x2="800" y2="2141" stroke="#4a5568" stroke-width="1"/>
+  <text x="935" y="2128" text-anchor="middle" fill="#feebc8" font-size="12" font-weight="700">3号 固定資産</text>
+  <line x1="1070" y1="2105" x2="1070" y2="2141" stroke="#4a5568" stroke-width="1"/>
+  <text x="1215" y="2128" text-anchor="middle" fill="#fefcbf" font-size="12" font-weight="700">4号 繰延資産</text>
+
+  <!-- Row 1: 事実の数 -->
+  <rect x="50" y="2141" width="1300" height="40" rx="0" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="155" y="2166" text-anchor="middle" fill="#2d3748" font-size="12" font-weight="700">事実の類型数</text>
+  <line x1="260" y1="2141" x2="260" y2="2181" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="395" y="2166" text-anchor="middle" fill="#2b6cb0" font-size="18" font-weight="800">3</text>
+  <line x1="530" y1="2141" x2="530" y2="2181" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="665" y="2166" text-anchor="middle" fill="#553c9a" font-size="18" font-weight="800">3</text>
+  <line x1="800" y1="2141" x2="800" y2="2181" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="935" y="2166" text-anchor="middle" fill="#c05621" font-size="18" font-weight="800">5</text>
+  <line x1="1070" y1="2141" x2="1070" y2="2181" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="1215" y="2166" text-anchor="middle" fill="#b7791f" font-size="18" font-weight="800">2</text>
+
+  <!-- Row 2: 事実の性質 -->
+  <rect x="50" y="2181" width="1300" height="50" rx="0" fill="#f7fafc" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="155" y="2206" text-anchor="middle" fill="#2d3748" font-size="12" font-weight="700">事実の性質</text>
+  <line x1="260" y1="2181" x2="260" y2="2231" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="395" y="2201" text-anchor="middle" fill="#4a5568" font-size="11">物理的損傷</text>
+  <text x="395" y="2218" text-anchor="middle" fill="#4a5568" font-size="11">経済的陳腐化</text>
+  <line x1="530" y1="2181" x2="530" y2="2231" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="665" y="2201" text-anchor="middle" fill="#4a5568" font-size="11">市場価額の低下</text>
+  <text x="665" y="2218" text-anchor="middle" fill="#4a5568" font-size="11">発行法人の悪化</text>
+  <line x1="800" y1="2181" x2="800" y2="2231" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="935" y="2201" text-anchor="middle" fill="#4a5568" font-size="11">物理的＋経済的</text>
+  <text x="935" y="2218" text-anchor="middle" fill="#4a5568" font-size="11">（最も広範）</text>
+  <line x1="1070" y1="2181" x2="1070" y2="2231" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="1215" y="2201" text-anchor="middle" fill="#4a5568" font-size="11">固定資産の事実</text>
+  <text x="1215" y="2218" text-anchor="middle" fill="#4a5568" font-size="11">に連動（従属的）</text>
+
+  <!-- Row 3: 災害損傷 -->
+  <rect x="50" y="2231" width="1300" height="40" rx="0" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="155" y="2256" text-anchor="middle" fill="#2d3748" font-size="12" font-weight="700">災害損傷</text>
+  <line x1="260" y1="2231" x2="260" y2="2271" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="395" y="2256" text-anchor="middle" fill="#38a169" font-size="13" font-weight="700">あり（イ）</text>
+  <line x1="530" y1="2231" x2="530" y2="2271" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="665" y="2256" text-anchor="middle" fill="#e53e3e" font-size="13" font-weight="700">なし</text>
+  <line x1="800" y1="2231" x2="800" y2="2271" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="935" y="2256" text-anchor="middle" fill="#38a169" font-size="13" font-weight="700">あり（イ）</text>
+  <line x1="1070" y1="2231" x2="1070" y2="2271" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="1215" y="2256" text-anchor="middle" fill="#d69e2e" font-size="13" font-weight="700">間接的</text>
+
+  <!-- Row 4: 受け皿規定 -->
+  <rect x="50" y="2271" width="1300" height="40" rx="0" fill="#f7fafc" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="155" y="2296" text-anchor="middle" fill="#2d3748" font-size="12" font-weight="700">受け皿規定</text>
+  <line x1="260" y1="2271" x2="260" y2="2311" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="395" y="2296" text-anchor="middle" fill="#4a5568" font-size="11">ハ: イ又はロに準ずる</text>
+  <line x1="530" y1="2271" x2="530" y2="2311" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="665" y="2296" text-anchor="middle" fill="#4a5568" font-size="11">ハ: ロに準ずる</text>
+  <line x1="800" y1="2271" x2="800" y2="2311" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="935" y="2296" text-anchor="middle" fill="#4a5568" font-size="11">ホ: イ〜ニに準ずる</text>
+  <line x1="1070" y1="2271" x2="1070" y2="2311" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="1215" y="2296" text-anchor="middle" fill="#4a5568" font-size="11">ロ: イに準ずる</text>
+
+  <!-- Row 5: 通達体系 -->
+  <rect x="50" y="2311" width="1300" height="50" rx="0" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="155" y="2336" text-anchor="middle" fill="#2d3748" font-size="12" font-weight="700">通達体系</text>
+  <line x1="260" y1="2311" x2="260" y2="2361" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="395" y="2331" text-anchor="middle" fill="#4a5568" font-size="11">第2款</text>
+  <text x="395" y="2348" text-anchor="middle" fill="#3182ce" font-size="10" font-weight="600">9-1-4の2等</text>
+  <line x1="530" y1="2311" x2="530" y2="2361" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="665" y="2331" text-anchor="middle" fill="#4a5568" font-size="11">第3款（最精緻）</text>
+  <text x="665" y="2348" text-anchor="middle" fill="#805ad5" font-size="10" font-weight="600">9-1-7〜9-1-15</text>
+  <line x1="800" y1="2311" x2="800" y2="2361" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="935" y="2331" text-anchor="middle" fill="#4a5568" font-size="11">第4款</text>
+  <text x="935" y="2348" text-anchor="middle" fill="#dd6b20" font-size="10" font-weight="600">9-1-16〜9-1-19</text>
+  <line x1="1070" y1="2311" x2="1070" y2="2361" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="1215" y="2331" text-anchor="middle" fill="#4a5568" font-size="11">独立規定なし</text>
+  <text x="1215" y="2348" text-anchor="middle" fill="#718096" font-size="10">3号通達を参照</text>
+
+  <!-- Row 6: 適用除外 -->
+  <rect x="50" y="2361" width="1300" height="55" rx="0" fill="#f7fafc" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="155" y="2386" text-anchor="middle" fill="#2d3748" font-size="12" font-weight="700">特有の注意点</text>
+  <line x1="260" y1="2361" x2="260" y2="2416" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="395" y="2381" text-anchor="middle" fill="#4a5568" font-size="10">低価法との関係</text>
+  <text x="395" y="2398" text-anchor="middle" fill="#4a5568" font-size="10">（通達9-1-5）</text>
+  <line x1="530" y1="2361" x2="530" y2="2416" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="665" y="2381" text-anchor="middle" fill="#4a5568" font-size="10">売買目的はロ・ハのみ</text>
+  <text x="665" y="2398" text-anchor="middle" fill="#4a5568" font-size="10">完全支配関係で適用除外</text>
+  <line x1="800" y1="2361" x2="800" y2="2416" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="935" y="2381" text-anchor="middle" fill="#4a5568" font-size="10">類型数最多（5種）</text>
+  <text x="935" y="2398" text-anchor="middle" fill="#4a5568" font-size="10">物理的＋経済的事実</text>
+  <line x1="1070" y1="2361" x2="1070" y2="2416" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="1215" y="2381" text-anchor="middle" fill="#4a5568" font-size="10">施行令14条1項6号の</text>
+  <text x="1215" y="2398" text-anchor="middle" fill="#4a5568" font-size="10">一部に限定</text>
+
+  <!-- テーブル角丸の枠線（外周） -->
+  <rect x="50" y="2105" width="1300" height="311" rx="0" fill="none" stroke="#cbd5e0" stroke-width="1.5"/>
+
+
+  <!-- ============================================================ -->
+  <!-- 補足: 法的整理の事実                                           -->
+  <!-- ============================================================ -->
+  <text x="50" y="2470" fill="#1a365d" font-size="20" font-weight="700">6. 法的整理の事実（施行令68条2項）── 全資産共通</text>
+  <line x1="50" y1="2478" x2="530" y2="2478" stroke="#ed8936" stroke-width="3"/>
+
+  <rect x="50" y="2495" width="1300" height="120" rx="8" fill="white" stroke="#e2e8f0" stroke-width="2" filter="url(#shadow)"/>
+
+  <!-- 3つの法的整理事由 -->
+  <rect x="80" y="2510" width="380" height="44" rx="8" fill="url(#exceptionGrad)" filter="url(#shadowLight)"/>
+  <text x="270" y="2530" text-anchor="middle" fill="white" font-size="13" font-weight="700">更生計画認可の決定に基づく評定</text>
+  <text x="270" y="2548" text-anchor="middle" fill="#c6f6d5" font-size="10">法33条3項（損金経理要件なし）</text>
+
+  <rect x="490" y="2510" width="380" height="44" rx="8" fill="url(#exceptionGrad)" filter="url(#shadowLight)"/>
+  <text x="680" y="2530" text-anchor="middle" fill="white" font-size="13" font-weight="700">再生計画認可の決定に準ずる事実</text>
+  <text x="680" y="2548" text-anchor="middle" fill="#c6f6d5" font-size="10">法33条4項（申告要件あり）</text>
+
+  <rect x="900" y="2510" width="420" height="44" rx="8" fill="url(#yellowGrad)" filter="url(#shadowLight)"/>
+  <text x="1110" y="2530" text-anchor="middle" fill="white" font-size="13" font-weight="700">更生手続における評定に準ずる特別の事実</text>
+  <text x="1110" y="2548" text-anchor="middle" fill="#fefcbf" font-size="10">施行令68条2項（法的整理の事実の受け皿）</text>
+
+  <text x="80" y="2585" fill="#4a5568" font-size="12" font-weight="600">共通の効果：物損等の事実と並んで、帳簿価額を下回ることとなった資産について評価損の損金算入を認める</text>
+  <text x="80" y="2602" fill="#718096" font-size="11">※ 法的整理の事実は4資産類型全てに共通して適用される。資産区分ごとの具体的事実の定め（1〜4号）は物損等の事実に特有。</text>
+
+
+  <!-- ============================================================ -->
+  <!-- 全体の整合性を示す補足バー                                      -->
+  <!-- ============================================================ -->
+  <rect x="50" y="2640" width="1300" height="95" rx="8" fill="#edf2f7" stroke="#cbd5e0" stroke-width="1"/>
+  <text x="80" y="2665" fill="#1a365d" font-size="14" font-weight="700">構造の全体像</text>
+  <text x="80" y="2688" fill="#4a5568" font-size="12">法33条1項（原則：損金不算入） → 2項（例外：物損等の事実 → 施行令68条1項で4資産に展開） → 各号で具体的事実を限定列挙</text>
+  <text x="80" y="2708" fill="#4a5568" font-size="12">法人税基本通達（第9章第1節第1〜4款）が各資産類型ごとに解釈基準を提供。有価証券が最も精緻な通達体系を有する。</text>
+  <text x="80" y="2728" fill="#718096" font-size="11">共通要件：(a) 物損等の事実又は法的整理の事実の発生 → (b) 帳簿価額を下回る → (c) 損金経理による帳簿価額減額 → (d) 明細書の添付</text>
+
+  <!-- 色の凡例 -->
+  <rect x="50" y="2755" width="1300" height="50" rx="8" fill="#edf2f7" stroke="#cbd5e0" stroke-width="1"/>
+  <text x="80" y="2780" fill="#1a365d" font-size="12" font-weight="700">色の意味:</text>
+  <rect x="170" y="2770" width="14" height="14" rx="3" fill="url(#blueGrad)"/>
+  <text x="190" y="2782" fill="#4a5568" font-size="11">棚卸資産（1号）</text>
+  <rect x="320" y="2770" width="14" height="14" rx="3" fill="url(#purpleGrad)"/>
+  <text x="340" y="2782" fill="#4a5568" font-size="11">有価証券（2号）</text>
+  <rect x="470" y="2770" width="14" height="14" rx="3" fill="url(#orangeGrad)"/>
+  <text x="490" y="2782" fill="#4a5568" font-size="11">固定資産（3号）</text>
+  <rect x="620" y="2770" width="14" height="14" rx="3" fill="url(#yellowGrad)"/>
+  <text x="640" y="2782" fill="#4a5568" font-size="11">繰延資産（4号）</text>
+  <rect x="790" y="2770" width="14" height="14" rx="3" fill="url(#principleGrad)"/>
+  <text x="810" y="2782" fill="#4a5568" font-size="11">原則（損金不算入）</text>
+  <rect x="960" y="2770" width="14" height="14" rx="3" fill="url(#exceptionGrad)"/>
+  <text x="980" y="2782" fill="#4a5568" font-size="11">例外（損金算入）</text>
+  <rect x="1110" y="2770" width="14" height="14" rx="3" fill="#2d3748"/>
+  <text x="1130" y="2782" fill="#4a5568" font-size="11">分類・判定ステップ</text>
+
+
+  <!-- ============================================================ -->
+  <!-- FOOTER                                                        -->
+  <!-- ============================================================ -->
+  <rect x="0" y="2830" width="1400" height="80" fill="url(#headerGrad)"/>
+  <text x="700" y="2862" text-anchor="middle" fill="white" font-size="15" font-weight="600">法人税法第33条・施行令68条 ── 全資産類型の評価損構造図</text>
+  <text x="700" y="2886" text-anchor="middle" fill="#a0aec0" font-size="11">2026年2月8日 ｜ 法令基準日: 令和8年4月1日現在 ｜ Claude Opus 4.6 Deep Research</text>
+
+</svg>

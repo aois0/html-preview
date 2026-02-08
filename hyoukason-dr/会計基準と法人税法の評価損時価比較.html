@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>会計基準と法人税法の評価損・時価概念の比較</title>
+<style>
+:root {
+  --primary: #1a365d;
+  --secondary: #2c5282;
+  --accent: #e53e3e;
+  --bg: #f7fafc;
+  --card-bg: #ffffff;
+  --border: #e2e8f0;
+  --text: #2d3748;
+  --text-light: #718096;
+  --highlight: #fefcbf;
+  --code-bg: #edf2f7;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Segoe UI', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.8;
+}
+.container { max-width: 1100px; margin: 0 auto; padding: 40px 24px; }
+h1 {
+  font-size: 1.8rem;
+  color: var(--primary);
+  border-bottom: 3px solid var(--primary);
+  padding-bottom: 12px;
+  margin-bottom: 32px;
+}
+h2 {
+  font-size: 1.4rem;
+  color: var(--secondary);
+  border-left: 5px solid var(--secondary);
+  padding-left: 14px;
+  margin: 40px 0 20px;
+}
+h3 {
+  font-size: 1.15rem;
+  color: var(--primary);
+  margin: 28px 0 14px;
+}
+h4 {
+  font-size: 1.05rem;
+  color: #4a5568;
+  margin: 20px 0 10px;
+}
+p { margin-bottom: 14px; text-align: justify; }
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+.card-accent {
+  border-left: 4px solid var(--accent);
+}
+.card-info {
+  border-left: 4px solid var(--secondary);
+  background: #ebf8ff;
+}
+.card-warning {
+  border-left: 4px solid #d69e2e;
+  background: #fffff0;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0 24px;
+  font-size: 0.95rem;
+}
+th, td {
+  border: 1px solid var(--border);
+  padding: 10px 14px;
+  text-align: left;
+  vertical-align: top;
+}
+th {
+  background: var(--primary);
+  color: #fff;
+  font-weight: 600;
+}
+tr:nth-child(even) { background: #f8fafc; }
+tr:hover { background: #edf2f7; }
+.highlight { background: var(--highlight); padding: 2px 6px; border-radius: 3px; }
+.label {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.label-tax { background: #fed7d7; color: #9b2c2c; }
+.label-acc { background: #c6f6d5; color: #22543d; }
+.label-ifrs { background: #bee3f8; color: #2a4365; }
+ul, ol { margin: 10px 0 16px 24px; }
+li { margin-bottom: 8px; }
+.toc {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 36px;
+}
+.toc h2 { border-left: none; margin-top: 0; }
+.toc ul { list-style: none; margin-left: 0; }
+.toc li { margin-bottom: 6px; }
+.toc a { color: var(--secondary); text-decoration: none; }
+.toc a:hover { text-decoration: underline; }
+.toc .sub { margin-left: 20px; }
+.diagram {
+  background: #f0f4f8;
+  border: 1px dashed #a0aec0;
+  border-radius: 6px;
+  padding: 20px;
+  margin: 16px 0;
+  text-align: center;
+  font-family: monospace;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  white-space: pre;
+  overflow-x: auto;
+}
+.sources {
+  background: #f7fafc;
+  border-top: 2px solid var(--border);
+  padding: 24px;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
+.sources a { color: var(--secondary); word-break: break-all; }
+.comparison-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: 16px 0;
+}
+@media (max-width: 768px) {
+  .comparison-box { grid-template-columns: 1fr; }
+  .container { padding: 20px 14px; }
+  h1 { font-size: 1.4rem; }
+  table { font-size: 0.85rem; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<h1>会計基準と法人税法の評価損・時価概念の比較</h1>
+
+<p>本稿は、日本の会計基準（J-GAAP）およびIFRSにおける「時価」「公正価値」「減損」の概念と、法人税法第33条に基づく「評価損」制度との構造的乖離を分析するものである。両者はいずれも資産価値の下落に対応する仕組みでありながら、その目的・トリガー・測定方法・効果において根本的に異なる設計思想に基づいている。</p>
+
+<div class="toc">
+<h2>目次</h2>
+<ul>
+  <li><a href="#sec1">1. 会計基準の「時価」「公正価値」</a></li>
+  <li class="sub"><a href="#sec1-1">1.1 時価算定基準（ASBJ第30号）</a></li>
+  <li class="sub"><a href="#sec1-2">1.2 減損会計基準の「回収可能価額」</a></li>
+  <li class="sub"><a href="#sec1-3">1.3 金融商品会計の減損</a></li>
+  <li><a href="#sec2">2. 構造的対比</a></li>
+  <li class="sub"><a href="#sec2-1">2.1 評価損計上の前提条件</a></li>
+  <li class="sub"><a href="#sec2-2">2.2 「時価」定義の違い</a></li>
+  <li class="sub"><a href="#sec2-3">2.3 損金経理要件の構造</a></li>
+  <li><a href="#sec3">3. 50%基準の会計・税法比較</a></li>
+  <li><a href="#sec4">4. IFRS vs J-GAAP の差異</a></li>
+  <li><a href="#sec5">5. 実務上の乖離ケース</a></li>
+  <li><a href="#sec6">6. まとめ：会計と税法の「時価」はなぜ一致しないのか</a></li>
+</ul>
+</div>
+
+<!-- ===== Section 1 ===== -->
+<h2 id="sec1">1. 会計基準の「時価」「公正価値」</h2>
+
+<h3 id="sec1-1">1.1 時価算定基準（企業会計基準第30号、2019年）</h3>
+
+<div class="card">
+<h4>時価の定義</h4>
+<p>企業会計基準第30号は、時価を次のように定義する。</p>
+<blockquote style="border-left: 3px solid #a0aec0; padding-left: 16px; margin: 14px 0; color: #4a5568; font-style: italic;">
+「算定日において市場参加者間で秩序ある取引が行われると想定した場合の、当該取引における資産の売却によって受け取る価格又は負債の移転のために支払う価格」
+</blockquote>
+<p>この定義はIFRS第13号（公正価値測定）およびASC Topic 820（米国基準）とほぼ同内容であり、国際的な整合性を意図して策定されたものである。従来の日本基準では「公正な評価額」という表現が用いられていたが、算定方法に関する詳細なガイダンスが不足していた。本基準により、時価の算定に関する体系的な枠組みが整備された。</p>
+</div>
+
+<div class="card">
+<h4>インプットの3階層（レベル1・2・3）</h4>
+<p>時価の算定に用いるインプットには優先順位が設けられ、レベル1からレベル3の順に使用される。</p>
+
+<table>
+<tr>
+  <th>レベル</th>
+  <th>定義</th>
+  <th>具体例</th>
+  <th>信頼性</th>
+</tr>
+<tr>
+  <td><strong>レベル1</strong></td>
+  <td>活発な市場における同一資産・負債の相場価格（無調整）</td>
+  <td>上場株式の終値、取引所の商品先物価格</td>
+  <td>最も高い</td>
+</tr>
+<tr>
+  <td><strong>レベル2</strong></td>
+  <td>資産・負債について直接又は間接に観察可能なインプット</td>
+  <td>活発な市場の類似資産の相場、活発でない市場の同一資産の相場、市場データに裏付けられたインプット</td>
+  <td>中程度</td>
+</tr>
+<tr>
+  <td><strong>レベル3</strong></td>
+  <td>観察できないインプット（市場参加者の仮定を反映）</td>
+  <td>DCF法による算定値、経営者の見積り、シナリオ分析</td>
+  <td>最も低い</td>
+</tr>
+</table>
+
+<p>重要な点として、時価の分類レベルは評価技法ではなく、用いるインプットのレベルに基づく。観察可能なインプットを最大限利用し、観察できないインプットの利用を最小限にすることが求められる。レベル3の時価については、重要な観察できないインプットに関する定量的情報、期首残高から期末残高への調整表等の詳細な開示が要求される。</p>
+</div>
+
+<div class="card card-info">
+<h4>適用範囲</h4>
+<p>本基準は、他の会計基準で時価の算定が求められる場合に横断的に適用される。具体的には、金融商品会計基準（有価証券・デリバティブ等の時価評価）、棚卸資産の評価基準、固定資産の減損会計基準における正味売却価額の算定等に関連する。ただし、リース取引やストック・オプション等には適用されない。</p>
+</div>
+
+<h3 id="sec1-2">1.2 減損会計基準の「回収可能価額」（固定資産の減損に係る会計基準、2002年）</h3>
+
+<div class="card">
+<h4>減損の定義と基本構造</h4>
+<p>固定資産の減損とは、「固定資産が収益性の低下により投資額の回収が見込めなくなった場合に、一定の条件の下で回収可能性を反映させるように帳簿価額を減額する会計処理」と定義される。</p>
+<p>日本基準の減損会計は、以下の<strong>3段階プロセス</strong>で構成される。</p>
+</div>
+
+<div class="card">
+<h4>Step 1：減損の兆候の判定</h4>
+<p>以下の4つの兆候が例示される。いずれかに該当すれば、次のステップへ進む。</p>
+<ol>
+  <li>営業活動から生じる損益またはキャッシュ・フローが<strong>継続してマイナス</strong>、又はマイナスとなる見込み</li>
+  <li>使用範囲・方法について、回収可能価額を<strong>著しく低下させる変化</strong>が生じた（又は見込まれる）</li>
+  <li>関連する事業の<strong>経営環境が著しく悪化</strong>した（又は見込まれる）</li>
+  <li>資産の<strong>市場価格が著しく下落</strong>した（目安：帳簿価額の50%程度以上の下落）</li>
+</ol>
+<p>これらは限定列挙ではなく例示であり、他の事象でも兆候と判断される可能性がある点で、法人税法施行令68条の限定列挙とは根本的に異なる。</p>
+</div>
+
+<div class="card">
+<h4>Step 2：減損損失の認識の判定</h4>
+<p>減損の兆候がある資産グループについて、<strong>割引前将来キャッシュ・フローの総額</strong>と帳簿価額を比較する。</p>
+<div class="diagram">
+帳簿価額 &gt; 割引前将来CF総額  →  減損損失を認識（Step 3へ）
+帳簿価額 &le; 割引前将来CF総額  →  減損損失を認識しない
+</div>
+<p>この「認識」段階で割引前CFを用いる点が日本基準の特徴である。IFRSにはこの段階がなく、直接回収可能価額と比較する（後述）。</p>
+</div>
+
+<div class="card">
+<h4>Step 3：減損損失の測定</h4>
+<p>認識が確定した後、帳簿価額を<strong>回収可能価額</strong>まで減額し、差額を減損損失として計上する。</p>
+
+<div class="diagram">
+回収可能価額 = max（正味売却価額, 使用価値）
+
+正味売却価額 = 時価 - 処分費用見込額
+使用価値    = 将来CFの現在価値（DCF法）
+</div>
+
+<table>
+<tr>
+  <th>概念</th>
+  <th>定義</th>
+  <th>算定方法</th>
+</tr>
+<tr>
+  <td><strong>正味売却価額</strong></td>
+  <td>資産の時価から処分費用見込額を控除した金額</td>
+  <td>市場価格、不動産鑑定評価額、合理的に算定された価額</td>
+</tr>
+<tr>
+  <td><strong>使用価値</strong></td>
+  <td>資産の継続的使用と処分から生じると見込まれる将来CFの現在価値</td>
+  <td>DCF法（将来CF見積り + 割引率で現在価値に換算）</td>
+</tr>
+</table>
+<p>両者のうち高い方を回収可能価額とするのは、企業が売却と使用のうち有利な手段で投資資金を回収するためである。日本基準では、一度認識した減損損失の<strong>戻入れは認められない</strong>。</p>
+</div>
+
+<h3 id="sec1-3">1.3 金融商品会計の減損</h3>
+
+<div class="card">
+<h4>有価証券の減損処理（金融商品に関する会計基準）</h4>
+<p>売買目的有価証券以外の有価証券について、時価が取得原価に比べて「著しく下落」した場合、回復する見込みがあると認められる場合を除き、減損処理を行う。</p>
+
+<table>
+<tr>
+  <th>時価下落率</th>
+  <th>判定</th>
+  <th>減損処理</th>
+</tr>
+<tr>
+  <td><strong>50%以上</strong></td>
+  <td>「著しく下落」と推定</td>
+  <td>合理的な反証がない限り<strong>必須</strong></td>
+</tr>
+<tr>
+  <td><strong>30%以上50%未満</strong></td>
+  <td>各企業の合理的基準により判定</td>
+  <td>回復可能性がなければ<strong>必要</strong></td>
+</tr>
+<tr>
+  <td><strong>30%未満</strong></td>
+  <td>原則、著しい下落に該当しない</td>
+  <td>原則<strong>不要</strong>（例外あり）</td>
+</tr>
+</table>
+</div>
+
+<div class="card">
+<h4>回復可能性の判断</h4>
+<p>会計上、回復可能性がないと認められるケースは以下の通り。</p>
+<ul>
+  <li>株式の時価が<strong>過去2年間にわたり著しく下落</strong>した状態にある場合</li>
+  <li>株式の発行会社が<strong>債務超過</strong>の状態にある場合</li>
+</ul>
+<p>一方、回復可能性があるとされるのは、期末日後<strong>概ね1年以内</strong>に時価が取得原価にほぼ近い水準まで回復する見込みのある場合に限られる。</p>
+<p><strong>重要な点</strong>：会計上は、回復可能性が「不明」な場合にも減損処理が必要とされる（保守主義の原則）。これは税法の「回復が見込まれないことを立証する」アプローチとは対照的である。</p>
+</div>
+
+<div class="card">
+<h4>市場価格のない株式等</h4>
+<p>市場価格のない株式等については、発行会社の財政状態の悪化により<strong>実質価額が取得原価の50%程度以上低下</strong>した場合に減損処理を行う。非上場株式の場合は回復可能性の判定は要求されず、下落率のみで判断される。</p>
+</div>
+
+<!-- ===== Section 2 ===== -->
+<h2 id="sec2">2. 構造的対比</h2>
+
+<h3 id="sec2-1">2.1 評価損計上の前提条件</h3>
+
+<div class="card card-accent">
+<table>
+<tr>
+  <th style="width:20%">項目</th>
+  <th style="width:40%"><span class="label label-tax">法人税法33条</span></th>
+  <th style="width:40%"><span class="label label-acc">減損会計基準</span></th>
+</tr>
+<tr>
+  <td><strong>基本原則</strong></td>
+  <td>評価損は原則<strong>損金不算入</strong>（法33条1項）。例外的に損金算入を認める構造</td>
+  <td>収益性の低下があれば減損処理を<strong>強制</strong>する構造</td>
+</tr>
+<tr>
+  <td><strong>トリガー</strong></td>
+  <td>施行令68条で<strong>限定列挙</strong>（災害損傷、物損等の事実、法的整理の事実）</td>
+  <td>4つの兆候を<strong>例示</strong>（営業CFマイナス、経営環境悪化、市場価格下落等）。他の事象も対象になりうる</td>
+</tr>
+<tr>
+  <td><strong>判定基準</strong></td>
+  <td>有価証券：50%基準＋回復見込みなし<br>固定資産：物損等の限定事実</td>
+  <td>帳簿価額 &gt; 割引前CF → 回収可能価額まで減額<br>有価証券：50%基準（30%からも可）</td>
+</tr>
+<tr>
+  <td><strong>対象資産</strong></td>
+  <td>棚卸資産・有価証券・固定資産・繰延資産<br>（金銭債権は対象外）</td>
+  <td>事業用固定資産・のれん・有価証券・棚卸資産<br>（資産グループ単位での判定も可能）</td>
+</tr>
+<tr>
+  <td><strong>設計思想</strong></td>
+  <td>課税の公平・租税法律主義（客観的・画一的処理）</td>
+  <td>投資家への適正な情報提供（経済実態の反映）</td>
+</tr>
+</table>
+</div>
+
+<div class="card card-warning">
+<h4>構造的差異の核心</h4>
+<p>法人税法は<strong>「原則禁止・例外許容」</strong>の構造をとる。未実現損失の損金算入は恣意的な所得操作の手段となり得るため、限定列挙された事実に該当する場合にのみ例外的に認める。これに対し会計基準は<strong>「経済実態の反映を義務づける」</strong>構造であり、収益性の低下があれば減損処理は強制される。両者の設計思想の違いが、同一の経済事象に対して異なる会計・税務処理を生み出す根本原因である。</p>
+</div>
+
+<h3 id="sec2-2">2.2 「時価」定義の違い</h3>
+
+<div class="card">
+<table>
+<tr>
+  <th style="width:18%">資産の種類</th>
+  <th style="width:41%"><span class="label label-tax">法人税法33条</span></th>
+  <th style="width:41%"><span class="label label-acc">会計基準</span></th>
+</tr>
+<tr>
+  <td><strong>有価証券（上場）</strong></td>
+  <td>事業年度末の「<strong>価額</strong>」（令119条の13に基づく時価評価金額）。実質的には市場終値等</td>
+  <td>「<strong>公正価値</strong>」（時価算定基準のレベル1）。実質的には市場終値等。基本的に同一</td>
+</tr>
+<tr>
+  <td><strong>有価証券（非上場）</strong></td>
+  <td>1株当たり<strong>純資産価額</strong>を基準とする実質価額。「帳簿価額のおおむね50%」以下かどうかで判定</td>
+  <td>取得原価に比して実質価額が<strong>50%程度以上低下</strong>したとき減損処理。非上場は回復可能性判定なし</td>
+</tr>
+<tr>
+  <td><strong>不動産</strong></td>
+  <td>「当該資産が使用収益されるものとしてその時において<strong>譲渡される場合に通常付される価額</strong>」。鑑定評価は参考程度</td>
+  <td><strong>正味売却価額</strong>（時価-処分費用）又は<strong>使用価値</strong>（DCF法）のうち高い方。DCF法という「使用価値」概念は税法にない</td>
+</tr>
+<tr>
+  <td><strong>棚卸資産</strong></td>
+  <td>施行令68条で限定的（著しい陳腐化等の物損事実が必要）</td>
+  <td><strong>正味売却価額</strong>（棚卸資産基準）。収益性の低下に基づく簿価切下げ</td>
+</tr>
+</table>
+</div>
+
+<div class="card card-info">
+<h4>「使用価値」概念の不在</h4>
+<p>法人税法の「時価」は基本的に<strong>交換価値（売却時に得られる価額）</strong>を念頭に置いており、会計基準が認める<strong>使用価値（DCF法に基づく継続使用前提の現在価値）</strong>という概念を持たない。これは極めて重要な構造的差異である。会計基準では使用価値が正味売却価額を上回れば、使用価値が回収可能価額として採用され、減損損失が縮小する。逆に、税法には使用価値という救済措置がないため、固定資産について「通常付される価額」でのみ判定される。ただし実際には、税法上は固定資産の評価損自体が物損等の限定事実でしか認められないため、「時価」の算定以前の段階で差異が生じている。</p>
+</div>
+
+<h3 id="sec2-3">2.3 損金経理要件の構造</h3>
+
+<div class="card">
+<h4>確定決算主義と損金経理要件</h4>
+<p>法人税法33条2項は、評価損の損金算入の要件として<strong>「損金経理により帳簿価額を減額した」</strong>ことを求める。これは日本の法人税制の根幹をなす<strong>確定決算主義</strong>の一環であり、以下の構造的帰結をもたらす。</p>
+
+<ol>
+  <li><strong>会計処理が税務処理の前提条件</strong>：会計上の減損処理（帳簿価額の減額）を行わなければ、税法上の評価損も計上できない。会計上の処理なくして税務上の恩恵を受けることはできない。</li>
+  <li><strong>逆基準性の問題</strong>：税務上の損金算入を受けるために、本来の会計判断とは異なる処理を行うインセンティブが生じる。例えば、経済実態としては減損すべきでないにもかかわらず、税務上の評価損を計上するために会計上の減損処理を行うケースがあり得る（逆基準性）。</li>
+  <li><strong>会計基準変更の税務への波及</strong>：会計基準が変わると、損金経理の内容も変わり得る。IFRS導入企業と日本基準適用企業との間で、同一の経済事象に対する税務処理が異なる可能性がある。</li>
+</ol>
+</div>
+
+<div class="card card-accent">
+<h4>IFRS導入と損金経理要件の緊張関係</h4>
+<p>日本公認会計士協会の研究報告（租税調査会研究報告第20号）は、IFRSへのコンバージェンスに伴い、以下の問題が深刻化すると指摘している。</p>
+<ul>
+  <li>企業会計上の利益概念と法人税法の課税所得概念の乖離拡大</li>
+  <li>申告調整の煩雑化</li>
+  <li>損金経理要件の存在による税務メリットの放棄（会計上は処理できないが税務上は認められるケースで、損金経理を行えない）</li>
+  <li>IFRSの減損戻入れを行った場合の税務上の取扱いの不明確さ</li>
+</ul>
+<p>ドイツでは既に、EU域内でのIFRS導入に合わせて会計基準近代化法（BilMog、2009年）を制定し、所得税法第5条に規定されていた逆基準性の原則を廃止している。日本でも同様の法改正が将来的に必要になる可能性がある。</p>
+</div>
+
+<!-- ===== Section 3 ===== -->
+<h2 id="sec3">3. 50%基準の会計・税法比較</h2>
+
+<div class="card">
+<p>有価証券の評価損・減損における50%基準は、会計と税法の両方に存在するが、その構造と効果には微妙かつ重要な差異がある。</p>
+
+<table>
+<tr>
+  <th style="width:22%">比較項目</th>
+  <th style="width:39%"><span class="label label-acc">金融商品会計基準</span></th>
+  <th style="width:39%"><span class="label label-tax">法人税基本通達9-1-7</span></th>
+</tr>
+<tr>
+  <td><strong>基準の性格</strong></td>
+  <td>「著しく下落」の推定基準</td>
+  <td>「価額が著しく低下した」ことの意義</td>
+</tr>
+<tr>
+  <td><strong>比較対象</strong></td>
+  <td>時価 vs <strong>取得原価</strong></td>
+  <td>事業年度末の価額 vs <strong>帳簿価額</strong>（取得原価とは限らない）</td>
+</tr>
+<tr>
+  <td><strong>50%未満の下落</strong></td>
+  <td><strong>30%以上なら</strong>企業の合理的基準により減損処理<strong>可能</strong></td>
+  <td>50%未満では原則<strong>不可</strong></td>
+</tr>
+<tr>
+  <td><strong>回復可能性の判断</strong></td>
+  <td>回復可能性が<strong>不明な場合も減損必要</strong>（保守主義。回復可能性があることの立証責任は企業側）</td>
+  <td>回復が<strong>見込まれないことを要件</strong>とする（回復しないことの立証が必要だが、合理的判断基準は尊重される）</td>
+</tr>
+<tr>
+  <td><strong>判定時期の柔軟性</strong></td>
+  <td>期末日の時価が基本</td>
+  <td>「その他有価証券」は事業年度末前1月間の<strong>市場価格の平均額</strong>でも可</td>
+</tr>
+<tr>
+  <td><strong>事後的回復の扱い</strong></td>
+  <td>切放し法（取得原価を修正。戻入れなし）</td>
+  <td>翌期に株価が回復しても前期の処理を遡及修正<strong>不要</strong></td>
+</tr>
+</table>
+</div>
+
+<div class="card card-warning">
+<h4>「ほぼ同一基準」だが決定的に異なる点</h4>
+<p>50%という数値基準は会計・税法で一致しているように見えるが、以下の3点で本質的に異なる。</p>
+<ol>
+  <li><strong>下方への拡張性</strong>：会計基準は30%以上でも減損処理を認めるが、税法は50%が下限である。つまり、30~50%の下落幅では会計上は減損処理されるが税法上は評価損が認められない「ギャップゾーン」が存在する。</li>
+  <li><strong>回復可能性の挙証責任の逆転</strong>：会計基準は「回復可能性がある」ことの立証を企業に求める（立証できなければ減損）。税法は「回復が見込まれない」ことの事実認定を求める（立証できなければ評価損否認）。立証責任の方向が逆である。</li>
+  <li><strong>非上場株式の取扱い</strong>：会計上は回復可能性の判定不要で実質価額50%低下により自動的に減損。税法上は発行法人の「資産状態が著しく悪化した」ことが追加的に必要であり、50%低下だけでは足りない場合がある。</li>
+</ol>
+</div>
+
+<!-- ===== Section 4 ===== -->
+<h2 id="sec4">4. IFRS vs J-GAAP の差異</h2>
+
+<h3>4.1 IAS 36（資産の減損）と日本の減損会計基準</h3>
+
+<div class="card">
+<table>
+<tr>
+  <th style="width:22%">項目</th>
+  <th style="width:39%"><span class="label label-ifrs">IFRS（IAS 36）</span></th>
+  <th style="width:39%"><span class="label label-acc">日本基準</span></th>
+</tr>
+<tr>
+  <td><strong>減損テストの構造</strong></td>
+  <td><strong>1ステップ</strong>：帳簿価額と回収可能価額を直接比較</td>
+  <td><strong>2ステップ</strong>：(1)割引前CF vs 帳簿価額、(2)回収可能価額 vs 帳簿価額</td>
+</tr>
+<tr>
+  <td><strong>認識のタイミング</strong></td>
+  <td>割引後CFで判定するため、<strong>より早期</strong>に減損を認識する傾向</td>
+  <td>割引前CFで判定する「認識」段階があるため、<strong>相対的に遅い</strong></td>
+</tr>
+<tr>
+  <td><strong>兆候の数値基準</strong></td>
+  <td><strong>なし</strong>（実質判断）</td>
+  <td><strong>あり</strong>（帳簿価額の50%程度以上の市場価格下落等）</td>
+</tr>
+<tr>
+  <td><strong>減損損失の戻入れ</strong></td>
+  <td><strong>認められる</strong>（のれんを除く。減損がなかった場合の帳簿価額が上限）</td>
+  <td><strong>認められない</strong></td>
+</tr>
+<tr>
+  <td><strong>のれんの取扱い</strong></td>
+  <td>非償却。少なくとも<strong>毎年</strong>減損テスト実施</td>
+  <td>20年以内の規則的償却 + 減損テスト</td>
+</tr>
+<tr>
+  <td><strong>P/L表示</strong></td>
+  <td><strong>営業費用</strong>（特別損益の区分なし）</td>
+  <td><strong>特別損失</strong></td>
+</tr>
+</table>
+</div>
+
+<div class="card card-info">
+<h4>戻入れの可否：最大の構造的差異</h4>
+<p>IFRSは「現時点での資産の適正な評価」を重視するため、減損損失の戻入れを認める。企業が減損処理した固定資産の収益力が回復すれば、減損がなかった場合の帳簿価額（減価償却控除後）を上限として戻入れが行われる。</p>
+<p>日本基準は、減損の存在が「相当程度確実」な場合にのみ損失を認識するという設計であるため、認識後の戻入れは論理的に整合しないとする立場をとっている。また、戻入れの判定に伴う事務的負担も理由に挙げられている。</p>
+<p><strong>法人税法への影響</strong>：IFRSを連結財務諸表に適用する企業が個別財務諸表で日本基準を適用する場合、連結上は減損損失が戻入れされるが個別（＝課税所得計算の基礎）では戻入れされないという「ねじれ」が生じる。逆に、将来的にIFRSが個別財務諸表にも適用される場合、戻入れ益の課税関係が新たな論点となる。</p>
+</div>
+
+<h3>4.2 IFRS 9（金融商品）の減損モデル</h3>
+
+<div class="card">
+<h4>予想信用損失（ECL）モデル vs 発生損失モデル</h4>
+
+<table>
+<tr>
+  <th style="width:22%">項目</th>
+  <th style="width:39%"><span class="label label-ifrs">IFRS 9</span></th>
+  <th style="width:39%"><span class="label label-acc">日本基準（現行）</span></th>
+</tr>
+<tr>
+  <td><strong>基本モデル</strong></td>
+  <td><strong>予想信用損失（ECL）モデル</strong></td>
+  <td><strong>発生損失モデル</strong>（貸倒実績率ベース）</td>
+</tr>
+<tr>
+  <td><strong>損失認識タイミング</strong></td>
+  <td>当初認識時から将来予測に基づき<strong>即座に</strong>認識</td>
+  <td>信用事象（履行遅滞・債務不履行等）発生<strong>後</strong>に認識</td>
+</tr>
+<tr>
+  <td><strong>評価単位</strong></td>
+  <td>原則として<strong>債権（金融資産）単位</strong></td>
+  <td><strong>債務者単位</strong>（自己査定に基づく）</td>
+</tr>
+<tr>
+  <td><strong>ステージ分類</strong></td>
+  <td><strong>3ステージ</strong>：信用リスクの変動に応じて分類</td>
+  <td><strong>債務者区分</strong>：正常先～破綻先</td>
+</tr>
+<tr>
+  <td><strong>将来予測の織込み</strong></td>
+  <td><strong>複数シナリオ・確率加重</strong>（フォワードルッキング）</td>
+  <td>過去実績ベース（バックワードルッキング）</td>
+</tr>
+<tr>
+  <td><strong>見積期間</strong></td>
+  <td>ステージ1：12ヶ月、ステージ2・3：全期間</td>
+  <td>正常先：1年、破綻懸念先：3年</td>
+</tr>
+</table>
+
+<p>IFRS 9は2007年以降の金融危機で発生損失モデルの「Too Little, Too Late（少なすぎ、遅すぎ）」問題が指摘されたことを契機に策定された。当初認識時点から将来の信用損失を見積もることで、損失認識の遅れを防止する。</p>
+</div>
+
+<div class="card card-accent">
+<h4>法人税法への影響</h4>
+<p>IFRS 9の予想信用損失モデルは、法人税法の評価損制度と以下の点で根本的に異なる。</p>
+<ul>
+  <li><strong>認識のタイミング</strong>：IFRS 9は取得時から損失を見積もるが、法人税法は「資産状態が著しく悪化した」等の具体的事実の発生を要件とする。予想損失の段階では税法上の損金算入は認められない。</li>
+  <li><strong>フォワードルッキング vs バックワードルッキング</strong>：IFRS 9はマクロ経済シナリオ等の将来予測を織り込むが、法人税法は過去の事実と現在の状態に基づいて判定する。「将来の予想」に基づく損金算入は、租税法律主義の下では困難である。</li>
+  <li><strong>確率加重</strong>：IFRS 9では複数シナリオに確率を付与して加重平均する。税法では確率的な損失見積りは想定されていない。</li>
+</ul>
+<p>日本基準においてもIFRS 9に近い予想信用損失モデルの導入が検討されているが、法人税法との整合性は大きな検討課題となっている。</p>
+</div>
+
+<!-- ===== Section 5 ===== -->
+<h2 id="sec5">5. 実務上の乖離ケース</h2>
+
+<h3>5.1 会計上は減損処理したが税法上は評価損が認められないケース</h3>
+
+<div class="card card-accent">
+<p>実務上<strong>最も頻繁に発生</strong>するパターンである。以下の類型がある。</p>
+
+<h4>類型A：固定資産の減損損失</h4>
+<p>会計上、収益性低下により減損損失を計上した場合、税法上は施行令68条の限定列挙された事実（災害損傷、1年以上の遊休等）に該当しなければ損金算入が認められない。現行税制の下では、<strong>固定資産の減損損失が税務上損金算入されるケースは皆無に近い</strong>とされる。</p>
+<ul>
+  <li><strong>申告調整</strong>：非償却資産（土地等）は別表四で全額加算、別表五(一)で利益積立金を計上。売却・処分時に実現損として認容される。</li>
+  <li><strong>申告調整</strong>：償却資産は減損損失が「償却費として損金経理した金額」に含まれるため、償却限度額超過額として加算。翌期以降、会計上の減価償却費（減損後の帳簿価額ベース）と税務上の減価償却費（減損前ベース）の差額を償却超過額容認として減算していく。</li>
+</ul>
+
+<h4>類型B：有価証券の30~50%下落</h4>
+<p>会計上は30%以上の下落で企業の合理的基準に基づき減損処理したが、税法上は50%基準を満たさず評価損計上が認められない。</p>
+
+<h4>類型C：有価証券の50%以上下落だが回復可能性の判断が異なる</h4>
+<p>会計上は回復可能性が不明として減損処理したが、税法上は「近い将来回復が見込まれない」ことの立証が不十分として評価損が否認される。実務上は、会計上で評価損を計上しても、税務上は自己否認して申告調整する法人が多いとされる。</p>
+</div>
+
+<h3>5.2 税法上は評価損計上できるが会計上は減損しないケース</h3>
+
+<div class="card">
+<p>このパターンは理論上存在するが、実務上は極めて稀である。以下のような限定的場面が考えられる。</p>
+
+<h4>類型D：法的整理の事実がある場合</h4>
+<p>法人税法33条3項・4項は、更生計画認可の決定や再生計画認可の決定等による評価換えについて、損金経理要件なしに損金算入を認める。この場合、通常は会計上も評価替えが行われるため、実際に乖離が生じることは少ない。</p>
+
+<h4>類型E：損金経理要件との関係</h4>
+<p>理論的には、税法上の評価損計上要件を満たしていても、会計上の減損基準の判定ではまだ減損の兆候がないと判断されるケースがあり得る。しかし、損金経理要件があるため、会計上の処理なしには税法上の評価損は計上できない。この意味で、損金経理要件は税法上の恩恵を「会計処理の実施」に条件づけるゲートキーパーの役割を果たしている。</p>
+</div>
+
+<h3>5.3 申告調整の実務フロー</h3>
+
+<div class="card">
+<div class="diagram">
+【会計上の処理】                    【税務上の処理】
+
+減損の兆候判定                      施行令68条の事実判定
+    ↓                                   ↓
+割引前CF vs 帳簿価額               50%基準 or 物損事実
+    ↓                                   ↓
+回収可能価額まで減額                「価額」との差額まで
+    ↓                                   ↓
+P/L特別損失に計上                   要件充足？
+    ↓                                   ↓
+   [会計上の減損損失]             YES → 損金算入
+                                   NO  → 損金不算入
+                                         ↓
+                                   【別表四で加算調整】
+                                   【別表五(一)で利益積立金計上】
+                                         ↓
+                                   将来の売却・処分時に
+                                   実現損として認容（減算）
+</div>
+</div>
+
+<!-- ===== Section 6 ===== -->
+<h2 id="sec6">6. まとめ：会計と税法の「時価」はなぜ一致しないのか</h2>
+
+<div class="card card-accent">
+<h4>根本的な理由：制度目的の違い</h4>
+
+<table>
+<tr>
+  <th style="width:18%">観点</th>
+  <th style="width:41%">会計基準</th>
+  <th style="width:41%">法人税法</th>
+</tr>
+<tr>
+  <td><strong>制度目的</strong></td>
+  <td>投資家・債権者への<strong>情報提供</strong>（意思決定有用性）</td>
+  <td>公平な課税所得の算定（<strong>課税の公平・確実性</strong>）</td>
+</tr>
+<tr>
+  <td><strong>基本原則</strong></td>
+  <td>経済実態の忠実な表現（保守主義を含む）</td>
+  <td>租税法律主義（明確性・予見可能性）</td>
+</tr>
+<tr>
+  <td><strong>損失認識</strong></td>
+  <td>早期認識を志向（将来の不確実性を保守的に反映）</td>
+  <td>実現主義を原則とし、未実現損失の認識に慎重</td>
+</tr>
+<tr>
+  <td><strong>経営者の裁量</strong></td>
+  <td>一定範囲で認める（見積り・判断の要素が大きい）</td>
+  <td>最小限に抑制（客観的・画一的基準を重視）</td>
+</tr>
+<tr>
+  <td><strong>「時価」の範囲</strong></td>
+  <td>交換価値 + 使用価値（DCF法）。レベル3のインプットも活用</td>
+  <td>主として交換価値（市場価格、通常付される価額）</td>
+</tr>
+</table>
+</div>
+
+<div class="card">
+<h4>6つの構造的乖離ポイント</h4>
+<ol>
+  <li><strong>トリガーの広狭</strong>：会計基準は兆候を例示列挙で広く捉えるのに対し、税法は施行令で限定列挙する。同一の資産価値下落が、会計上は減損処理の対象となりながら税法上は評価損計上の要件を満たさないケースが構造的に生じる。</li>
+  <li><strong>「時価」概念の多義性</strong>：会計基準は「使用価値」（DCF法に基づく継続使用前提の価値）を認めるが、税法は基本的に交換価値のみで判定する。同一資産の「時価」が異なる金額となりうる。</li>
+  <li><strong>回復可能性の挙証責任</strong>：会計は「回復可能性がある」ことの立証を企業に求め（立証できなければ減損）、税法は「回復が見込まれない」ことの認定を求める（認定できなければ評価損否認）。方向が逆である。</li>
+  <li><strong>認識範囲の拡張</strong>：会計基準は30%以上の下落でも減損を認めるが、税法は50%が下限。このギャップゾーンでは会計と税務が必然的に乖離する。</li>
+  <li><strong>減損損失の戻入れ</strong>：IFRS（IAS 36）は戻入れを認めるが、日本基準・法人税法とも認めない。将来IFRSが個別財務諸表に適用されれば、戻入れ益の課税関係が新たな論点となる。</li>
+  <li><strong>損金経理要件のゲートキーパー機能</strong>：法人税法33条2項の損金経理要件は、会計上の処理を税務処理の前提とする。しかし会計基準の変遷（特にIFRSの影響）により、何をもって「損金経理」とするかの解釈が流動化しつつある。</li>
+</ol>
+</div>
+
+<div class="card card-info">
+<h4>今後の展望</h4>
+<p>会計基準のIFRSへのコンバージェンスが進む中で、会計上の「時価」「減損」の概念はますます拡張的・フォワードルッキングな方向に進化している。一方、法人税法は租税法律主義・課税の公平性の観点から、客観的・限定的な基準を維持する必要がある。この構造的緊張関係は、以下の方向で調整される可能性がある。</p>
+<ul>
+  <li><strong>損金経理要件の見直し</strong>：ドイツに倣い、損金経理要件を緩和又は廃止し、会計基準と税法の分離を進める方向</li>
+  <li><strong>別表調整の精緻化</strong>：現行の確定決算主義を維持しつつ、申告調整のルールを整備する方向</li>
+  <li><strong>税法独自の「時価」基準の明確化</strong>：会計基準の変遷に影響されない、税法独自の客観的な時価算定基準を法令レベルで明確化する方向</li>
+</ul>
+<p>いずれにせよ、会計と税法の「時価」が完全に一致することは制度目的の違いから原理的に困難であり、両者の乖離を前提とした実務的対応（申告調整）と制度的調整（法改正）の双方が継続的に求められる。</p>
+</div>
+
+<div class="sources">
+<h3>参考資料・出典</h3>
+<ul>
+  <li><a href="https://www.asb-j.jp/jp/wp-content/uploads/sites/4/ikan_20240701_37.pdf" target="_blank">企業会計基準第30号「時価の算定に関する会計基準」（ASBJ、2019年）</a></li>
+  <li><a href="https://www.ey.com/ja_jp/technical/library/info-sensor/2019/info-sensor-2019-10-03" target="_blank">「時価の算定に関する会計基準」等の概要（EY Japan）</a></li>
+  <li><a href="https://biz.moneyforward.com/accounting/basic/79144/" target="_blank">固定資産の減損に係る会計基準とは？（マネーフォワード）</a></li>
+  <li><a href="https://www.deloitte.com/jp/ja/services/financial-advisory/perspectives/kaikeijyoho-202312-04.html" target="_blank">固定資産の減損会計（減損損失の認識・測定）（デロイト トーマツ）</a></li>
+  <li><a href="https://www.ey.com/ja_jp/technical/corporate-accounting/commentary/financial-instruments/commentary-financial-instruments-2012-10-22" target="_blank">有価証券の減損（EY Japan）</a></li>
+  <li><a href="https://www.nta.go.jp/law/shitsugi/hojin/30/02.htm" target="_blank">株価が50％相当額を下回る場合における株価の回復可能性の判断基準について（国税庁）</a></li>
+  <li><a href="https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_01_03.htm" target="_blank">法人税基本通達 第3款 有価証券の評価損（国税庁）</a></li>
+  <li><a href="https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5574.htm" target="_blank">No.5574 有価証券の評価損が認められる場合（国税庁）</a></li>
+  <li><a href="https://www.zeiken.co.jp/hourei/HHHOU000000/33.html" target="_blank">法人税法第33条（税務研究会）</a></li>
+  <li><a href="https://www.zeiken.co.jp/hourei/HHHOU000010/68.html" target="_blank">法人税法施行令第68条（税務研究会）</a></li>
+  <li><a href="https://www.nta.go.jp/law/joho-zeikaishaku/hojin/090400/pdf/01.pdf" target="_blank">上場有価証券の評価損に関する取扱い（国税庁、平成21年4月）</a></li>
+  <li><a href="https://globis.jp/article/56799/" target="_blank">日本基準とIFRSとの相違点 - 減損における会計処理（GLOBIS）</a></li>
+  <li><a href="https://globis.jp/article/7509/" target="_blank">減損損失はなかったことにできるの？日本の会計基準とIFRSの違い（GLOBIS）</a></li>
+  <li><a href="https://assets.kpmg.com/content/dam/kpmg/jp/pdf/2023/jp-ifrs-compared-to-japan-gaap-2023-06.pdf" target="_blank">IFRS会計基準と日本基準の主要な相違点（KPMG）</a></li>
+  <li><a href="https://www.ey.com/ja_jp/insights/assurance/financial-instruments-impairment-03" target="_blank">金融商品会計基準改正 - 減損 - 第3回 金融資産のステージ判定（EY Japan）</a></li>
+  <li><a href="https://accounting-agent.com/ifrs-9-ecl/" target="_blank">IFRS第9号 予想信用損失（ECL）の解説（会計エージェント）</a></li>
+  <li><a href="https://www.tkc.jp/consolidate/webcolumn/023696/" target="_blank">減損会計と税務（TKC）</a></li>
+  <li><a href="https://www.tkc.jp/consolidate/webcolumn/column202506_2_col05/" target="_blank">今さら聞けない！減損会計、資産除去債務の税務（TKC）</a></li>
+  <li><a href="https://jicpa.or.jp/specialized_field/publication/files/2-2-20-2-20101021.pdf" target="_blank">租税調査会研究報告第20号「会計基準のコンバージェンスと確定決算主義」（日本公認会計士協会）</a></li>
+  <li><a href="https://roadtoartisan.com/impairment-reversal/" target="_blank">IFRSにおける減損損失の戻し入れ（上原FAS）</a></li>
+</ul>
+</div>
+
+<p style="text-align: center; margin-top: 40px; color: var(--text-light); font-size: 0.85rem;">
+作成日：2026年2月8日 ｜ Deep Research by Claude Opus 4.6
+</p>
+
+</div>
+</body>
+</html>
