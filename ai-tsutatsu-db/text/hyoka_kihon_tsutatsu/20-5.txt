@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 20−5 / id: 20-5 / title: がけ地等を有する宅地の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/20-5.html
+
+[p1] がけ地等で通常の用途に供することができないと認められる部分を有する宅地（次項の定めにより評価するものを除く。）の価額は、その宅地のうちに存するがけ地等ががけ地等でないとした場合の価額に、その宅地の総地積に対するがけ地部分等通常の用途に供することができないと認められる部分の地積の割合に応じて付表8「がけ地補正率表」に定める補正率を乗じて計算した価額によって評価する。（平11課評2−12外追加、平29課評2−46外・平30課評2−49外改正）

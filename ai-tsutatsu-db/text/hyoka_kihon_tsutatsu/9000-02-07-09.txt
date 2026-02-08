@@ -1,0 +1,24 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 9000-02-07-09 / id: 9000-02-07-09 / title: 付表9 特別警戒区域補正率表（平30課評2−49外追加）
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/9000-02-07-09.html
+
+[p1] 付表9
+[p2] 特別警戒区域補正率表（平30課評2−49外追加）
+[p3] 特別警戒区域の地積
+[p4] 総地積
+[p5] 補正率
+[p6] 0.10以上
+[p7] 0.90
+[p8] 0.40 〃
+[p9] 0.80
+[p10] 0.70 〃
+[p11] 0.70
+[p12] (注) がけ地補正率の適用がある場合においては、この表により求めた補正率にがけ地補正率を乗じて得た数値を特別警戒区域補正率とする。ただし、その最小値は0.50とする。
+[p13] PDF形式のファイルをご覧いただく場合には、Adobe Readerが必要です。Adobe Readerをお持ちでない方は、
+[p14] Adobeのダウンロードサイト
+[p15] からダウンロードしてください。
+[p16] 第3節 農地及び農地の上に存する権利
+[p17] 33
+[p18] 削除（平11課評2−12外）

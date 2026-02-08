@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 189−6 / id: 189-6 / title: 清算中の会社の株式の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/189-6.html
+
+[p1] 189((特定の評価会社の株式))の(6)の「清算中の会社の株式」の価額は、清算の結果分配を受ける見込みの金額（2回以上にわたり分配を受ける見込みの場合には、そのそれぞれの金額）の課税時期から分配を受けると見込まれる日までの期間（その期間が1年未満であるとき又はその期間に1年未満の端数があるときは、これを1年とする。）に応ずる基準年利率による複利現価の額（2回以上にわたり分配を受ける見込みの場合には、その合計額）によって評価する。（平2直評12外追加、平11課評2−12外・平12課評2−4外改正）

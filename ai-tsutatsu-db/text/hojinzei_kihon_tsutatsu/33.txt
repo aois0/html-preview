@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 33 / id: 33 / title: 旧少額減価償却資産の損金算入額の原価性
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/fusoku/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/33.html
+
+[p1] 旧少額減価償却資産でその償却費の額を製造原価に算入すべきものとされていたものにつき、昭和49年改正政令附則第7条の規定により損金の額に算入した金額がある場合には、当該金額についても製造原価に算入することに留意する。

@@ -1,0 +1,8 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 83−2 / id: 83-2 / title: 遊園地等の用に供されている土地の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/16.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/83-2.html
+
+[p1] 遊園地、運動場、競馬場その他これらに類似する施設（以下「遊園地等」という。）の用に供されている土地の価額は、原則として、82((雑種地の評価))の定めを準用して評価する。
+[p2] ただし、その規模等の状況から前項に定めるゴルフ場用地と同様に評価することが相当と認められる遊園地等の用に供されている土地の価額は、前項の定めを準用して評価するものとする。この場合において、同項の(1)に定める造成費に相当する金額については、49((市街地山林の評価))の定めにより国税局長が定める金額とする。（平3課評2−4外追加、平16課評2−7外改正）

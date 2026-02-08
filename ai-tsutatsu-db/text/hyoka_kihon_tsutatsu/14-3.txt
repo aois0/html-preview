@@ -1,0 +1,8 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 14−3 / id: 14-3 / title: 特定路線価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/14-3.html
+
+[p1] 路線価地域内において、相続税、贈与税又は地価税の課税上、路線価の設定されていない道路のみに接している宅地を評価する必要がある場合には、当該道路を路線とみなして当該宅地を評価するための路線価（以下「特定路線価」という。）を納税義務者からの申出等に基づき設定することができる。
+[p2] 特定路線価は、その特定路線価を設定しようとする道路に接続する路線及び当該道路の付近の路線に設定されている路線価を基に、当該道路の状況、前項に定める地区の別等を考慮して税務署長が評定した1平方メートル当たりの価額とする。（平12課評2−4外追加、平14課評2−2外改正）

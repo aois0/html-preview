@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 9000-08-09-01 / id: 9000-08-09-01 / title: 別表1 耕作権割合等一覧表
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/09.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/9000-08-09-01.html
+
+[p1] 別表1 耕作権割合等一覧表

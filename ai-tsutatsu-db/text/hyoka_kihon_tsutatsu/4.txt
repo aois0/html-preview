@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 4 / id: 4 / title: 元物と果実
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/01/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/4.html
+
+[p1] 天然果実の価額は、元物の価額に含めて評価し、法定果実の価額は、元物とは別に評価する。ただし、こ れと異なる取引の慣行がある場合又は第2章以下に特別の定めのある場合においては、その慣行又はその定めによって評価する。

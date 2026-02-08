@@ -1,0 +1,10 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 97−2 / id: 97-2 / title: 文化財建造物である構築物の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/04/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/97-2.html
+
+[p1] 文化財建造物である構築物の価額は、前項の定めにより評価した価額から、その価額に24−8((文化財建造物である家屋の敷地の用に供されている宅地の評価))に定める割合を乗じて計算した金額を控除した金額によって評価する。（平16課評2−7外追加）
+[p2] 第1節 果樹等
+[p3] 第5章 果樹等及び立竹木
+[p4] 第1節 果樹等

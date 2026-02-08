@@ -1,0 +1,8 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 200-5 / id: 200-5 / title: 経過期間に払い込まれた掛金又は保険料の金額の1年当たりの平均額
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/200-5.html
+
+[p1] 相続税法第25条第1号ロに規定する「経過期間に払い込まれた掛金又は保険料の金額の1年当たりの平均額」は、経過期間に払い込まれた掛金又は保険料の額の合計額を経過期間の年数（その年数に1年未満の端数があるときは、その端数は、切り上げる。）で除して計算した金額による。
+[p2] 年1回一定の金額の掛金又は保険料が払い込まれる契約の場合の「経過期間に払い込まれた掛金又は保険料の金額の1年当たりの平均額」は、当該定期金給付契約に基づき1年間に払い込まれた掛金又は保険料の金額によっても差し支えない。（平22課評2-18外追加）

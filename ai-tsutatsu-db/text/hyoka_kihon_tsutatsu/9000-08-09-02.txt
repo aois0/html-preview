@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 9000-08-09-02 / id: 9000-08-09-02 / title: 別表2 主要樹種の森林の立木の標準価額表等
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/09.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/9000-08-09-02.html
+
+[p1] 別表2 主要樹種の森林の立木の標準価額表等

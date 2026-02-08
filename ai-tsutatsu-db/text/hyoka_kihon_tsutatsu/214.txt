@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 214 / id: 214 / title: 生命保険契約に関する権利の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/214.html
+
+[p1] 相続開始の時において、まだ保険事故（共済事故を含む。この項において同じ。）が発生していない生命保険契約に関する権利の価額は、相続開始の時において当該契約を解約するとした場合に支払われることとなる解約返戻金の額（解約返戻金のほかに支払われることとなる前納保険料の金額、剰余金の分配額等がある場合にはこれらの金額を加算し、解約返戻金の額につき源泉徴収されるべき所得税の額に相当する金額がある場合には当該金額を減算した金額）によって評価する。（平15課評2-24追加）

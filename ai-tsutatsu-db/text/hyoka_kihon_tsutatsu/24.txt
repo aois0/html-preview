@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 24 / id: 24 / title: 私道の用に供されている宅地の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/24.html
+
+[p1] 私道の用に供されている宅地の価額は、11≪評価の方式≫から21−2≪倍率方式による評価≫までの定めにより計算した価額の100分の30に相当する価額によって評価する。この場合において、その私道が不特定多数の者の通行の用に供されているときは、その私道の価額は評価しない。（平3課評2−4外・平11課評2−12外改正）

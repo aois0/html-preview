@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 93 / id: 93 / title: 貸家の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/03/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/93.html
+
+[p1] 貸家の価額は、次の算式により計算した価額によって評価する。（昭41直資3−19・平11課評2−12外・平16課評2−7外改正）

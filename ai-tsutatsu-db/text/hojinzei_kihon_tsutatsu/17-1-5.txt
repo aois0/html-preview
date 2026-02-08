@@ -9,6 +9,5 @@ url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kih
 [p3] PDF形式のファイルをご覧いただく場合には、Adobe Readerが必要です。Adobe Readerをお持ちでない方は、
 [p4] Adobeのダウンロードサイト
 [p5] からダウンロードしてください。
-[p6] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p6] 第2節 還付
 [p7] 第2節 還付
-[p8] 第2節 還付

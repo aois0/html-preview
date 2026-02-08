@@ -1,0 +1,8 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 22−2 / id: 22-2 / title: 大規模工場用地
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/22-2.html
+
+[p1] 前項の「大規模工場用地」とは、一団の工場用地の地積が5万平方メートル以上のものをいう。ただし、路線価地域においては、14−2((地区))の定めにより大工場地区として定められた地域に所在するものに限る。（平3課評2−4外追加）
+[p2] (注) 「一団の工場用地」とは、工場、研究開発施設等の敷地の用に供されている宅地及びこれらの宅地に隣接する駐車場、福利厚生施設等の用に供されている一団の土地をいう。なお、その土地が、不特定多数の者の通行の用に供されている道路、河川等により物理的に分離されている場合には、その分離されている一団の工場用地ごとに評価することに留意する。

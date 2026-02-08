@@ -1,0 +1,9 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 100 / id: 100 / title: 備考
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_01_02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/100.html
+
+[p1] 1 「売上比率」とは、発行部数に対する当該事業年度終了の日前6月間に販売された部数から当該期間において返品された部数を控除した部数の割合をいう。
+[p2] 2 「発行部数」とは、当該事業年度終了の日前6月以前における最終刷の部数をいう。
+[p3] (注) 繰入率100％を適用する場合には、算式により計算した金額は、当該金額から当該売れ残り単行本の当該事業年度終了の時における処分見込価額を控除した金額とする。

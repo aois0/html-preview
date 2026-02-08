@@ -1,0 +1,9 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 185 / id: 185 / title: 給与等の日割額の計算の基礎となった日数
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/31/01.htm#a-01
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/185.html
+
+[p1] −
+[p2] 4
+[p3] 令第308条第2項《給与等の月割額等の意義》に規定する「給与等の計算の基礎となった日数」とは、次に掲げる日数をいうものとする。

@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 91 / id: 91 / title: 建築中の家屋の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/03/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/91.html
+
+[p1] 課税時期において現に建築中の家屋の価額は、その家屋の費用現価の100分の70に相当する金額によって評価する。（昭41直資3−19改正）

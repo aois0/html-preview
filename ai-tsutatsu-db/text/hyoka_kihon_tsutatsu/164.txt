@@ -1,0 +1,8 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 164 / id: 164 / title: 大臣許可漁業を営むことのできる権利等の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/07/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/164.html
+
+[p1] 漁業法第36条≪農林水産大臣による漁業の許可≫に規定する漁業及び同法第57条≪都道府県知事による漁業の許可≫に規定する漁業等を営むことのできる権利の価額は、営業権の価額に含めて評価する。（令3課評2−43外改正）
+[p2] 第9節 営業権

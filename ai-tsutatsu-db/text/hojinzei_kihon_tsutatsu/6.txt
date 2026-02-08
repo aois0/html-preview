@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 6 / id: 6 / title: 無形減価償却資産としていたノーハウに関する経過的取扱い
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/fusoku/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/6.html
+
+[p1] ノーハウの設定契約をするために要した費用で特許権に準じて取り扱っていたものは、施行日以後に終了する事業年度においては、8-1-4（令第14条第1項第9号ハに規定する繰延資産）に定める繰延資産に該当するものとし、8-2-3（繰延資産の償却期間）に定める償却期間により償却するものとする。

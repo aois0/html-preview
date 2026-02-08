@@ -1,0 +1,13 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 9000-02-07-06 / id: 9000-02-07-06 / title: 付表6 間口狭小補正率表（昭45直資3−13・平3課評2−4外・平18課評2−27外改正）
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/9000-02-07-06.html
+
+[p1] 付表6
+[p2] 間口狭小補正率表（昭45直資3−13・平3課評2−4外・平18課評2−27外改正）
+[p3] ※本表は平成19年分以降用です。平成18年分以前用は
+[p4] こちら(PDFファイル/65KB)
+[p5] をご覧ください。
+[p6] 地区区分
+[p7] 間口距離

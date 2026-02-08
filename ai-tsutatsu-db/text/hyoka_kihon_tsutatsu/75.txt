@@ -1,0 +1,9 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 75 / id: 75 / title: 住宅、別荘等の鉱泉地の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/15.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/75.html
+
+[p1] 鉱泉地からゆう出する温泉の利用者が、旅館、料理店等の営業者以外の者である場合におけるその鉱泉地の価額は、69≪鉱泉地の評価≫の定めによって求めた価額を基とし、その価額からその価額の100分の30の範囲内において相当と認める金額を控除した価額によって評価する。（平12課評2−4外改正）
+[p2] 76
+[p3] 削除（平20課評2-5外）

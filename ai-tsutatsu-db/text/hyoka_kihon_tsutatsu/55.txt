@@ -1,0 +1,12 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 55 / id: 55 / title: 分収林契約に基づき設定された地上権等の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/10.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/55.html
+
+[p1] 分収林契約に基づき設定された地上権又は賃借権の価額は、相続税法第23条≪地上権及び永小作権の評価≫若しくは地価税法第24条≪地上権及び永小作権の評価≫の規定又は53≪残存期間の不確定な地上権の評価≫、54≪賃借権の評価≫若しくは前項の定めにかかわらず、これらの定めにより評価したその地上権又は賃借権の価額にその分収林契約に基づき定められた造林又は育林を行う者に係る分収割合を乗じて計算した価額によって評価する。（平3課評2−4外改正）
+[p2] 付表12
+[p3] 削除（昭41直資3−19）
+[p4] 第5節 原野及び原野の上に存する権利
+[p5] 56
+[p6] 削除（平11課評2−12外）

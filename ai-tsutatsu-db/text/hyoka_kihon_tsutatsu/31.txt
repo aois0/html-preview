@@ -1,0 +1,11 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 31 / id: 31 / title: 借家人の有する宅地等に対する権利の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/31.html
+
+[p1] 借家人がその借家の敷地である宅地等に対して有する権利の価額は、原則として、次に掲げる場合の区分に応じ、それぞれ次に掲げる算式により計算した価額によって評価する。ただし、これらの権利が権利金等の名称をもって取引される慣行のない地域にあるものについては、評価しない。（平3課評2−4外・平6課評2−2外・平11課評2−12外改正）
+[p2] （1） その権利が借家の敷地である宅地又はその宅地に係る借地権に対するものである場合
+[p3] （2） その権利がその借家の敷地である宅地に係る転借権に対するものである場合
+[p4] 32
+[p5] 削除（平3課評2−4外）

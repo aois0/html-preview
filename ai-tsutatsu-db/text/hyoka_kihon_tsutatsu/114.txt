@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 114 / id: 114 / title: 同一標準価額適用地域
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/05/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/114.html
+
+[p1] 前項の「標準価額」は、原則として、森林法第7条≪森林計画区≫第1項の規定に基づき農林水産大臣が定めたそれぞれの森林計画区に属する森林の地域（以下「林業地帯」という。）ごとに定める。ただし、1の林業地帯又は隣接する2以上の林業地帯について、山林の地味、立木の育成状況その他森林の状況からみて1の林業地帯を区分し、又は、2以上の林業地帯を合わせて標準価額を定めることが適当であると認める場合には、その適当であると認める地域ごとに区分した地域又は合わせた地域をもって1の林業地帯とすることができる。（平5課評2−7外・平11課評2−12外改正）

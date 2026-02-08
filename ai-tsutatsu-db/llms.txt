@@ -31,5 +31,6 @@
 - shotokuzei_kihon_tsutatsu : 所得税基本通達
 - shohizei_kihon_tsutatsu : 消費税基本通達
 - sozokuzei_kihon_tsutatsu : 相続税法基本通達
+- hyoka_kihon_tsutatsu : 財産評価基本通達
 - sozei_tokubetsu_tsutatsu_hojinzei : 租税特別措置法関係通達（法人税編）
 - kokuzei_tsusoku_kihon_tsutatsu : 国税通則法基本通達

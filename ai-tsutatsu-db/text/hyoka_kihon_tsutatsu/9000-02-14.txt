@@ -1,0 +1,20 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 9000-02-14 / id: 9000-02-14 / title: 第8節 削除
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/14.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/9000-02-14.html
+
+[p1] 第8節 削除
+[p2] 63
+[p3] 削除（昭47直資3−16）
+[p4] 64
+[p5] 削除（昭47直資3−16）
+[p6] 65
+[p7] 削除（昭41直資3−19）
+[p8] 66
+[p9] 削除（昭47直資3−16）
+[p10] 67
+[p11] 削除（昭47直資3−16）
+[p12] 第9節 鉱泉地及び鉱泉地の上に存する権利
+[p13] 68
+[p14] 削除（平11課評2−12外）

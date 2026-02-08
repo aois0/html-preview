@@ -1,0 +1,7 @@
+doc: 所得税基本通達 (shotokuzei_kihon_tsutatsu)
+item: 2 / id: 2 / title: 適用時期の原則
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/40/01.htm#a-02
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/shotokuzei_kihon_tsutatsu/2.html
+
+[p1] 基本通達は、別段の定めがあるものを除き、昭和45年分以後の所得税について適用し、昭和44年分以前の所得税については、なお従前の例による。

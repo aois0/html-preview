@@ -1,0 +1,13 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 111 / id: 111 / title: 評価単位
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/05/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/111.html
+
+[p1] 立木及び立竹の価額は、次に掲げる区分に従い、それぞれ次に掲げる単位ごとに評価する。
+[p2] （1） 森林の立木 樹種及び樹齢を同じくする1団地の立木
+[p3] （2） (1)以外の立木（(3)に該当する立木を除く。） 1本の立木
+[p4] （3） 庭園にある立竹木 その庭園にある立竹木の全部
+[p5] （4） 立竹（(3)に掲げる立竹を除く。） 1団地にある立竹
+[p6] 112
+[p7] 削除（平20課評2-5外）

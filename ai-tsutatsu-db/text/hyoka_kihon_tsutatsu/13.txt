@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 13 / id: 13 / title: 路線価方式
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/13.html
+
+[p1] 路線価方式とは、その宅地の面する路線に付された路線価を基とし、15((奥行価格補正))から20−7((容積率の異なる2以上の地域にわたる宅地の評価))までの定めにより計算した金額によって評価する方式をいう。（昭41直資3−19・昭57直評22・平3課評2−4外・平11課評2−12外・平29課評2−46外・平30課評2−49外改正）
