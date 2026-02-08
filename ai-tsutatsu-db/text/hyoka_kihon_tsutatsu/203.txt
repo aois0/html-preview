@@ -1,0 +1,8 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 203 / id: 203 / title: 預貯金の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/203.html
+
+[p1] 預貯金の価額は、課税時期における預入高と同時期現在において解約するとした場合に既経過利子の額として支払を受けることができる金額（以下203≪預貯金の評価≫において「既経過利子の額」という。）から当該金額につき源泉徴収されるべき所得税の額に相当する金額を控除した金額との合計額によって評価する。
+[p2] ただし、定期預金、定期郵便貯金及び定額郵便貯金以外の預貯金については、課税時期現在の既経過利子の額が少額なものに限り、同時期現在の預入高によって評価する。（昭55直評20外改正）

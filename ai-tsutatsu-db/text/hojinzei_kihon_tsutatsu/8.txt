@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 8 / id: 8 / title: 少額の減価償却資産の基準引上げの適用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/fusoku/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/8.html
+
+[p1] 令第133条（少額の減価償却資産の取得価額の損金算入）の少額の減価償却資産の基準の引上げは、昭和45年4月1日前に開始した事業年度に取得し、同日以後開始する事業年度に事業の用に供した減価償却資産についても適用があることに留意する。

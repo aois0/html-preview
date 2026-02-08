@@ -1,0 +1,11 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 198 / id: 198 / title: 貸付信託受益証券の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/07.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/198.html
+
+[p1] 貸付信託の受益証券の価額は、次に掲げるところにより評価する。（昭55直評20外改正）
+[p2] （1） 課税時期において貸付信託設定日（その貸付信託 の信託契約取扱期間終了の日をいう。）から1年以上を経過している貸付信託の受益証券
+[p3] その証券の受託者が課税時期においてその証券を買い取るとした場合における次の算式により計算した金額
+[p4] （2） (1)に掲げる貸付信託の受益証券以外の貸付信託の受益証券
+[p5] (1)の算式に準じて計算した金額

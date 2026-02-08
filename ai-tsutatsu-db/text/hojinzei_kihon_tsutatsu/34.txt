@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 34 / id: 34 / title: 旧少額減価償却資産に係る償却超過額の損金算入
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/fusoku/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/34.html
+
+[p1] 旧少額減価償却資産につき、昭和49年4月1日以後最初に開始する事業年度に繰り越された償却超過額がある場合において、その償却超過額の全部又は一部を当該最初に開始する事業年度開始の日以後3年以内の日を含む各事業年度において申告調整により損金の額に算入したときは、その損金算入額を当該各事業年度の所得の金額の計算上損金の額に算入するものとする。

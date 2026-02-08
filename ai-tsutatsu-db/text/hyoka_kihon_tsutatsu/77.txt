@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 77 / id: 77 / title: 温泉権が設定されている鉱泉地の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/15.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/77.html
+
+[p1] 温泉権が設定されている鉱泉地の価額は、その鉱泉地について69≪鉱泉地の評価≫又は75≪住宅、別荘等の鉱泉地の評価≫の定めにより評価した価額から次項の定めにより評価した温泉権の価額を控除した価額によって評価する。（平12課評2−4外改正）

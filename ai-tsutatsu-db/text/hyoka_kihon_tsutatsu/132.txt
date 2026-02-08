@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 132 / id: 132 / title: 評価単位
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/06/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/132.html
+
+[p1] たな卸商品等（商品、原材料、半製品、仕掛品、製品、生産品その他これらに準ずる動産をいう。以下同じ。）の価額は、次項の(1)から(4)までの区分に従い、かつ、それぞれの区分に掲げる動産のうち種類及び品質等がおおむね同一のものごとに評価する。

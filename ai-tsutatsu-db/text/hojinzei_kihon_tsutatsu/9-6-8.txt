@@ -5,6 +5,5 @@ source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/09/09_06_02.htm
 url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9-6-8.html
 
 [p1] 9−1−6の5から9−1−6の7までの取扱いは、9−6−4に定める法人が適格分割等により分割承継法人等に返品債権特別勘定の設定の対象となる9−6−4(1)及び(2)に定める特約を結んでいる売掛金を移転する場合並びに適格組織再編成により合併法人等に返品債権特別勘定を引き継ぐ場合についてそれぞれ準用する。（平14年課法2−1「二十四」により追加、平22年課法2−1「二十一」により改正）
-[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
+[p2] 第6節の2 負担金
 [p3] 第6節の2 負担金
-[p4] 第6節の2 負担金

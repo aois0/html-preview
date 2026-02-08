@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 2 / id: 2 / title: 共有財産
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/01/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/2.html
+
+[p1] 共有財産の持分の価額は、その財産の価額をその共有者の持分に応じてあん分した価額によって評価する。

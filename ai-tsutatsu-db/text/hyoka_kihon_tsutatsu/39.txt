@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 39 / id: 39 / title: 市街地周辺農地の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/39.html
+
+[p1] 市街地周辺農地の価額は、次項本文の定めにより評価したその農地が市街地農地であるとした場合の価額の100分の80に相当する金額によって評価する。 （昭41直資3−19・昭45直資3−13・昭48直資3−33・平3課評2−4外改正）

@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 121 / id: 121 / title: 地利級
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/05/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/121.html
+
+[p1] 113≪森林の主要樹種の立木の評価≫又は117≪森林の主要樹種以外の立木の評価≫の定めにより立木の評価を行う場合における地利級の判定は、原則として、次に掲げる地利級判定表によって行う。

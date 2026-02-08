@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 195 / id: 195 / title: 農業協同組合等の出資の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/195.html
+
+[p1] 農業協同組合等、196((企業組合等の出資の評価))の定めに該当しない組合等に対する出資の価額は、原則として、払込済出資金額によって評価する。

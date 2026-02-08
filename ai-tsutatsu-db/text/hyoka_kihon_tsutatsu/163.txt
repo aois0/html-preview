@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 163 / id: 163 / title: 漁業権の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/07/02.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/163.html
+
+[p1] 漁業法（昭和24年法律第267号）の規定に基づく漁業権の価額は、営業権の価額に含めて評価する。（昭41直資3−19改正）

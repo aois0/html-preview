@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 129 / id: 129 / title: 一般動産の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/06/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/129.html
+
+[p1] 一般動産の価額は、原則として、売買実例価額、精通者意見価格等を参酌して評価する。ただし、売買実例価額、精通者意見価格等が明らかでない動産については、その動産と同種及び同規格の新品の課税時期における小売価額から、その動産の製造の時から課税時期までの期間（その期間に1年未満の端数があるときは、その端数は1年とする。）の償却費の額の合計額又は減価の額を控除した金額によって評価する。（昭41直資3−19・平20課評2-5外改正）

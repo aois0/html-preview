@@ -1,0 +1,12 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 141 / id: 141 / title: 特許権の評価の算式
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/07/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/141.html
+
+[p1] 前項の「複利現価の額の合計額」は、次の算式によって計算した金額とする。（平11課評2−12外改正）
+[p2] （1） 第1年目の補償金年額×1年後の基準年利率による複利現価率＝A
+[p3] 第2年目の補償金年額×2年後の基準年利率による複利現価率＝B
+[p4] 第n年目の補償金年額×n年後の基準年利率による複利現価率＝N
+[p5] （2） A＋B＋…………＋N＝特許権の価額
+[p6] 上の算式中の「第1年目」及び「1年後」とは、それぞれ、課税時期の翌日から1年を経過する日まで及びその1年を経過した日の翌日をいう。

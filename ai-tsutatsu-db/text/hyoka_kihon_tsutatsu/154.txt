@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 154 / id: 154 / title: 出版権の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/07/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/154.html
+
+[p1] 出版権の価額は、出版業を営んでいる者の有するものにあっては、営業権の価額に含めて評価し、その他の者の有するものにあっては、評価しない。

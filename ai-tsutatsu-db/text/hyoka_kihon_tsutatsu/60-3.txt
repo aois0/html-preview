@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 60−3 / id: 60-3 / title: 区分地上権に準ずる地役権の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/11.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/60-3.html
+
+[p1] 原野に係る区分地上権に準ずる地役権の価額は、その区分地上権に準ずる地役権の目的となっている承役地である原野の自用地としての価額を基とし、27−5≪区分地上権に準ずる地役権の評価≫の定めを準用して評価する。（平3課評2−4外追加、平6課評2−2外改正）

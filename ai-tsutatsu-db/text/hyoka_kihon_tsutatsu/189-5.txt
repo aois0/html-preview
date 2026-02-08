@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 189−5 / id: 189-5 / title: 開業前又は休業中の会社の株式の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/189-5.html
+
+[p1] 189((特定の評価会社の株式))の(5)の「開業前又は休業中の会社の株式」の価額は、185((純資産価額))の本文の定めにより計算した1株当たりの純資産価額（相続税評価額によって計算した金額）によって評価する。（平2直評12外追加、平12課評2−4外改正）

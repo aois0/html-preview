@@ -1,0 +1,8 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 27−4 / id: 27-4 / title: 区分地上権の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/27-4.html
+
+[p1] 区分地上権の価額は、その区分地上権の目的となっている宅地の自用地としての価額に、その区分地上権の設定契約の内容に応じた土地利用制限率を基とした割合（以下「区分地上権の割合」という。）を乗じて計算した金額によって評価する。
+[p2] この場合において、地下鉄等のずい道の所有を目的として設定した区分地上権を評価するときにおける区分地上権の割合は、100分の30とすることができるものとする。（平3課評2−4外追加、平6課評2−2外・平12課評2−4外改正）

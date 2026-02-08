@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 181 / id: 181 / title: 類似業種
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/181.html
+
+[p1] 前項の類似業種は、大分類、中分類及び小分類に区分して別に定める業種（以下「業種目」という。）のうち、評価会社の事業が該当する業種目とし、その業種目が小分類に区分されているものにあっては小分類による業種目、小分類に区分されていない中分類のものにあっては中分類の業種目による。ただし、納税義務者の選択により、類似業種が小分類による業種目にあってはその業種目の属する中分類の業種目、類似業種が中分類による業種目にあってはその業種目の属する大分類の業種目を、それぞれ類似業種とすることができる。（昭58直評5外改正）

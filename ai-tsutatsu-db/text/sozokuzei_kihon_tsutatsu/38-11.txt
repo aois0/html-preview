@@ -5,7 +5,6 @@ source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/06/01.htm#a-
 url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozokuzei_kihon_tsutatsu/38-11.html
 
 [p1] 法第38条第2項の延納年割額に関する規定は、贈与税の年賦延納については適用がないのであるから留意する。
-[p2] 税法（e-Govの「e-Gov法令検索」へリンク）
-[p3] 第38条《延納の要件》関係
-[p4] 第6章 延納及び物納
-[p5] 第38条《延納の要件》関係
+[p2] 第38条《延納の要件》関係
+[p3] 第6章 延納及び物納
+[p4] 第38条《延納の要件》関係

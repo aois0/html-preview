@@ -1,0 +1,8 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 110 / id: 110 / title: 屋敷内にある果樹等
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/05/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/110.html
+
+[p1] 屋敷内にある果樹等及び畑の境界にある果樹等でその数量が少なく、かつ、収益を目的として所有するものでないものについては、評価しない。
+[p2] 第2節 立竹木

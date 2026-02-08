@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 96 / id: 96 / title: 評価単位
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/04/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/96.html
+
+[p1] 構築物（土地又は家屋と一括して評価するものを除く。以下同じ。）の価額は、原則として、1個の構築物ごとに評価する。ただし、2個以上の構築物でそれらを分離した場合においては、それぞれの利用価値を著しく低下させると認められるものにあっては、それらを一括して評価する。

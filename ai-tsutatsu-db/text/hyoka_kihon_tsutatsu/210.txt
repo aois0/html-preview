@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 210 / id: 210 / title: 訴訟中の権利
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/210.html
+
+[p1] 訴訟中の権利の価額は、課税時期の現況により係争関係の真相を調査し、訴訟進行の状況をも参酌して原告と被告との主張を公平に判断して適正に評価する。

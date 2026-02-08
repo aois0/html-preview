@@ -1,0 +1,12 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 200-6 / id: 200-6 / title: 予定利率
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/08.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/200-6.html
+
+[p1] 相続税法第24条及び第25条の規定により定期金給付契約に関する権利を評価する場合の「予定利率」は、当該定期金給付契約に関する権利を取得した時における当該契約に係る「予定利率」をいうのであるから留意する。（平22課評2-18外追加）
+[p2] （注）「予定利率」については、端数処理は行わないのであるから留意する。
+[p3] 第4節 削除
+[p4] 201
+[p5] 削除（昭41直資3-19）
+[p6] 5節 信託受益権

@@ -1,0 +1,8 @@
+doc: 租税特別措置法関係通達（法人税編） (sozei_tokubetsu_tsutatsu_hojinzei)
+item: 63 / id: 63 / title: 仲介行為に係る経費の額
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214/09/09_63_02b.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/sozei_tokubetsu_tsutatsu_hojinzei/63.html
+
+[p1] (4)−18
+[p2] 仲介行為に係る経費の額の計算につき実額配賦法による場合には、当該仲介行為前にその仲介のために直接要した費用の額については、当該仲介行為前に支出したものであっても保有期間に関係なく当該仲介行為に係る経費の額に含まれることに留意する。（昭51年直法2−6、平3年課法2−4「二十」により改正）

@@ -1,0 +1,13 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 9 / id: 9 / title: 減価償却資産に計上しているものの一時償却
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/fusoku/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/9.html
+
+[p1] 昭和45年4月1日前に開始した事業年度において事業の用に供した減価償却資産で資産として計上しているものについては、その取得価額が5万円未満であっても、昭和45年4月1日以後開始する事業年度においてその帳簿価額の全部を一時に償却することはできないことに留意する。
+[p2] 法人税基本通達の一部改正について
+[p3] 直審（法）20（例規）
+[p4] 昭和46年6月15日
+[p5] 法人税基本通達（昭和44年5月1日付直審（法）25）の一部を下記のとおり改正したから、通達する。
+[p6] （趣旨） 法人税基本通達制定後、通達事項に疑義があったため個別通達により解釈の統一を図って処理してきたもの等を法人税基本通達として整理するものである。
+[p7] 記

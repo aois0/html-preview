@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 186 / id: 186 / title: 純資産価額計算上の負債
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/186.html
+
+[p1] 前項の課税時期における1株当たりの純資産価額（相続税評価額によって計算した金額）の計算を行う場合には、貸倒引当金、退職給与引当金、納税引当金その他の引当金及び準備金に相当する金額は負債に含まれないものとし、次に掲げる金額は負債に含まれることに留意する（次項及び186−3≪評価会社が有する株式等の純資産価額の計算≫において同じ。）。（昭47直資3−16・昭58直評5外・平2直評12外・平11課評2−2外・平12課評2−4外・平18課評2−27外・令3課評2-43外改正）

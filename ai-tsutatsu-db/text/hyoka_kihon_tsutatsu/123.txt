@@ -1,0 +1,18 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 123 / id: 123 / title: 保安林等の立木の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/05/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/123.html
+
+[p1] 森林法その他の法令に基づき伐採の禁止又は制限を受ける立木（次項の定めにより評価するものを除く。）の価額は、113((森林の主要樹種の立木の評価))、117((森林の主要樹種以外の立木の評価))又は前項の定めにより評価した価額から、その価額に、それらの法令に基づき定められた伐採関係の区分に従い、それぞれ次に掲げる割合を乗じて計算した金額を控除した価額によって評価する。（平元直評20外・平16課評2−7外改正）
+[p2] 法令に基づき定められた
+[p3] 伐採関係の区分
+[p4] 控除割合
+[p5] 一部皆伐
+[p6] 択伐
+[p7] 単木選伐
+[p8] 禁伐
+[p9] 0.3
+[p10] 0.5
+[p11] 0.7
+[p12] 0.8

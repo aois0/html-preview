@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 168 / id: 168 / title: 評価単位
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/168.html
+
+[p1] 株式及び株式に関する権利の価額は、それらの銘柄の異なるごとに、次に掲げる区分に従い、その1株又は1個ごとに評価する。（昭53直評5外・平2直評12外・平14課評2−2外・平15課評2−15外・平18課評2−27外・平20課評2-5外・平26課評2-19外改正）

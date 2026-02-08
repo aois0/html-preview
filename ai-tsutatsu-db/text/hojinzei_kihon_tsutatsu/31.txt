@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 31 / id: 31 / title: 圧縮記帳をした減価償却資産等の取得価額の判定
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/fusoku/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/31.html
+
+[p1] 圧縮記帳の適用を受けた資産又は特定現物出資により受け入れた資産につき昭和49年改正政令附則第7条の規定を適用する場合において、その取得価額が5万円未満であるかどうかの判定については、その圧縮記帳後の金額又は受入価額による。

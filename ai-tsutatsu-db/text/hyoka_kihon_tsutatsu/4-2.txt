@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 4−2 / id: 4-2 / title: 不動産のうちたな卸資産に該当するものの評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/01/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/4-2.html
+
+[p1] 土地、家屋その他の不動産のうちたな卸資産に該当するものの価額は、地価税の課税価格計算の基礎 となる土地等の価額を評価する場合を除き、第6章≪動産≫第2節≪たな卸商品等≫の定めに準じて評価する。（昭41直資3−19追加、平3課評2−4外改正）

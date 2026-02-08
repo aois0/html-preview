@@ -1,0 +1,11 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 120 / id: 120 / title: 立木材積が明らかな森林の地味級及び立木度
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/05/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/120.html
+
+[p1] 樹齢15年以上の森林の立木で、立木材積が明らかなものについては、118≪地味級≫及び前項の定めにかかわらず、その森林の1ヘクタール当たりの立木材積を次に掲げる標準立木材積表のうち該当する標準立木材積で除して得た数値（その数値は0.05刻みとし、0.05未満の端数は切り捨てる。）をもって、その森林の地味級の割合に立木度の割合を乗じて計算した数値（割合）とする。（昭44直資3−13・昭45直資3−13・昭62直評2外・平5課評2−7外・平29課評2-12外改正）
+[p2] PDF形式のファイルをご覧いただく場合には、Adobe Readerが必要です。Adobe Readerをお持ちでない方は、
+[p3] Adobeのダウンロードサイト
+[p4] からダウンロードしてください。
+[p5] 標準立木材積表（PDFファイル/78KB）

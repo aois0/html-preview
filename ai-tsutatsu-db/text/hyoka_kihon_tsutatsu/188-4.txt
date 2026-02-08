@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 188−4 / id: 188-4 / title: 議決権を有しないこととされる株式がある場合の議決権総数等
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/04.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/188-4.html
+
+[p1] 188((同族株主以外の株主等が取得した株式))の(1)から(4)までにおいて、評価会社の株主のうちに会社法第308条第1項の規定により評価会社の株式につき議決権を有しないこととされる会社があるときは、当該会社の有する評価会社の議決権の数は0として計算した議決権の数をもって評価会社の議決権総数となることに留意する。（昭58直評5外追加、平3直評4外・平12課評2−4外・平15課評2−15外・平18課評2−27外改正）

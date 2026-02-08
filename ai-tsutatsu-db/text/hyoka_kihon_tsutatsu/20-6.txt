@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 20−6 / id: 20-6 / title: 土砂災害特別警戒区域内にある宅地の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/20-6.html
+
+[p1] 土砂災害特別警戒区域内（土砂災害警戒区域等における土砂災害防止対策の推進に関する法律（平成12年法律第57号）第9条((土砂災害特別警戒区域))第1項に規定する土砂災害特別警戒区域の区域内をいう。以下同じ。）となる部分を有する宅地の価額は、その宅地のうちの土砂災害特別警戒区域内となる部分が土砂災害特別警戒区域内となる部分でないものとした場合の価額に、その宅地の総地積に対する土砂災害特別警戒区域内となる部分の地積の割合に応じて付表9「特別警戒区域補正率表」に定める補正率を乗じて計算した価額によって評価する。（平30課評2−49外追加）

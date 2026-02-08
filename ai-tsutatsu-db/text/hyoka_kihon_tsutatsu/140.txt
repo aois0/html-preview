@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 140 / id: 140 / title: 特許権の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/07/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/140.html
+
+[p1] 特許権の価額は、145≪権利者が自ら特許発明を実施している場合の特許権及び実施権の評価≫の定めにより評価するものを除き、その権利に基づき将来受ける補償金の額の基準年利率による複利現価の額の合計額によって評価する。（平11課評2−12外改正）

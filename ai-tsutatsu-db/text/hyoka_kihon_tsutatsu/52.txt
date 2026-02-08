@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 52 / id: 52 / title: 分収林契約に基づいて貸し付けられている山林の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/10.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/52.html
+
+[p1] 立木の伐採又は譲渡による収益を一定の割合により分収することを目的として締結された分収林契約（所得税法施行令第78条≪用語の意義≫に規定する「分収造林契約」又は「分収育林契約」をいう。以下同じ。）に基づいて設定された地上権又は賃借権の目的となっている山林の価額は、その分収林契約により定められた山林の所有者に係る分収割合に相当する部分の山林の自用地としての価額と、その他の部分の山林について51≪貸し付けられている山林の評価≫又は前項の定めにより評価した価額との合計額によって評価する。（平3課評2−4外改正）

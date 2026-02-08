@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 155 / id: 155 / title: 評価単位
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/07/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/155.html
+
+[p1] 鉱業権の価額は、鉱業権の存する鉱山の固定資産及び流動資産と一括して、鉱山ごとに評価する。

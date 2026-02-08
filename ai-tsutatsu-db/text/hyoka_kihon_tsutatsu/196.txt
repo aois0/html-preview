@@ -1,0 +1,8 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 196 / id: 196 / title: 企業組合等の出資の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/08/06.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/196.html
+
+[p1] 企業組合、漁業生産組合その他これに類似する組合等に対する出資の価額は、課税時期におけるこれらの組合等の実情によりこれらの組合等の185((純資産価額))の定めを準用して計算した純資産価額（相続税評価額によって計算した金額）を基とし、出資の持分に応ずる価額によって評価する。（昭58直評5外改正）
+[p2] 第2節 公社債

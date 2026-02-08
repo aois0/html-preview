@@ -1,0 +1,8 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 26−2 / id: 26-2 / title: 区分地上権等の目的となっている貸家建付地の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/05.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/26-2.html
+
+[p1] 区分地上権又は区分地上権に準ずる地役権の目的となっている貸家建付地の価額は、次の算式により計算した価額によって評価する。（平3課評2-4外追加、平11課評2-12外改正）
+[p2] 第2節 宅地及び宅地の上に存する権利

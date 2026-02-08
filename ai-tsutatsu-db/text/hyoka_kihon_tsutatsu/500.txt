@@ -1,0 +1,42 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 500 / id: 500 / title: 算式
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/03.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/500.html
+
+[p1] 以上 1,000
+[p2] 未満
+[p3] 0.95
+[p4] 25
+[p5] 1,000
+[p6] 以上 3,000
+[p7] 未満
+[p8] 0.90
+[p9] 75
+[p10] 3,000
+[p11] 以上 5,000
+[p12] 未満
+[p13] 0.85
+[p14] 225
+[p15] 5,000
+[p16] 以上
+[p17] 0.80
+[p18] 475
+[p19] ロ 三大都市圏以外の地域に所在する宅地
+[p20] 地区区分
+[p21] 普通商業・併用住宅地区、普通住宅地区
+[p22] 記号
+[p23] 地積
+[p24] 1,000
+[p25] 以上 3,000
+[p26] 未満
+[p27] 0.90
+[p28] 100
+[p29] 3,000
+[p30] 以上 5,000
+[p31] 未満
+[p32] 0.85
+[p33] 250
+[p34] 5,000
+[p35] 以上
+[p36] 0.80

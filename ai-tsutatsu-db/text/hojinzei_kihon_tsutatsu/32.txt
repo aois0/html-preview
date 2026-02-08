@@ -1,0 +1,7 @@
+doc: 法人税基本通達 (hojinzei_kihon_tsutatsu)
+item: 32 / id: 32 / title: 帳簿価額が5万円以上のものの令附則第7条の不適用
+snapshot: 2025-06-28
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/hojin/fusoku/01.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hojinzei_kihon_tsutatsu/32.html
+
+[p1] 事業の用に供した日における取得価額が5万円未満である減価償却資産であっても、その後における資本的支出等により昭和49年4月1日以後最初に開始する事業年度開始の日における帳簿価額が5万円以上となっているものについては、昭和49年改正政令附則第7条の適用はないものとする。

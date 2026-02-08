@@ -1,0 +1,16 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 43−4 / id: 43-4 / title: 土地の上に存する権利が競合する場合の耕作権又は永小作権の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/09.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/43-4.html
+
+[p1] 土地の上に存する権利が競合する場合の耕作権又は永小作権の価額は、次の区分に従い、それぞれ次の算式により計算した金額によって評価する。（平3課評2-4外追加）
+[p2] （1） 耕作権又は永小作権及び区分地上権が設定されている場合の耕作権又は永小作権の価額
+[p3] （2） 区分地上権に準ずる地役権が設定されている承役地に耕作権又は永小作権が設定されている場合の耕作権又は永小作権の価額
+[p4] 付表10
+[p5] 削除（昭41直資3−19）
+[p6] 付表11
+[p7] 削除（昭41直資3−19）
+[p8] 第4節 山林及び山林の上に存する権利
+[p9] 44
+[p10] 削除（平11課評2−12外）

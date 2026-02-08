@@ -1,0 +1,7 @@
+doc: 財産評価基本通達 (hyoka_kihon_tsutatsu)
+item: 48 / id: 48 / title: 中間山林の評価
+snapshot: 2026-02-07
+source_page: https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new/02/10.htm
+url: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/enhanced/hyoka_kihon_tsutatsu/48.html
+
+[p1] 中間山林の価額は、その山林の固定資産税評価額に、地価事情の類似する地域ごとに、その地域にある山林の売買実例価額、精通者意見価格等を基として国税局長の定める倍率を乗じて計算した金額によって評価する。（昭41直資3−19・昭45直資3−13改正）
