@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" font-family="Segoe UI, Hiragino Sans, Noto Sans JP, sans-serif">
+  <defs>
+    <linearGradient id="headerGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1a365d"/><stop offset="100%" stop-color="#2c5282"/>
+    </linearGradient>
+    <linearGradient id="darkGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2d3748"/><stop offset="100%" stop-color="#1a202c"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#38a169"/><stop offset="100%" stop-color="#2f855a"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3182ce"/><stop offset="100%" stop-color="#2b6cb0"/>
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0bc5ea"/><stop offset="100%" stop-color="#00b5d8"/>
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dd6b20"/><stop offset="100%" stop-color="#c05621"/>
+    </linearGradient>
+    <linearGradient id="yellowGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d69e2e"/><stop offset="100%" stop-color="#b7791f"/>
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e53e3e"/><stop offset="100%" stop-color="#c53030"/>
+    </linearGradient>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+    <filter id="shadowLight" x="-1%" y="-1%" width="102%" height="102%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-opacity="0.1"/>
+    </filter>
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arrowDown" markerWidth="10" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4a5568"/>
+    </marker>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="1200" height="800" fill="#f7fafc"/>
+
+  <!-- ヘッダー -->
+  <rect x="0" y="0" width="1200" height="70" fill="url(#headerGrad)"/>
+  <text x="600" y="32" text-anchor="middle" fill="white" font-size="24" font-weight="700">不動産の一物五価構造図</text>
+  <text x="600" y="54" text-anchor="middle" fill="#cbd5e0" font-size="12">同一の不動産に対して5つの異なる「価格」が存在する日本の制度構造</text>
+
+  <!-- ========== 中央: 同一の不動産 ========== -->
+  <rect x="460" y="310" width="200" height="100" rx="12" fill="url(#darkGrad)" filter="url(#glow)"/>
+  <text x="560" y="345" text-anchor="middle" fill="white" font-size="18" font-weight="700">同一の</text>
+  <text x="560" y="370" text-anchor="middle" fill="white" font-size="18" font-weight="700">不動産</text>
+  <text x="560" y="396" text-anchor="middle" fill="#a0aec0" font-size="10">一物五価</text>
+
+  <!-- ========== 5つの価格を放射状に配置 ========== -->
+
+  <!-- 1. 実勢価格（上 - 赤系、最も高い） -->
+  <line x1="560" y1="310" x2="560" y2="200" stroke="#e53e3e" stroke-width="2" stroke-dasharray="6,3"/>
+  <rect x="405" y="100" width="310" height="100" rx="8" fill="white" stroke="#e53e3e" stroke-width="2.5" filter="url(#shadow)"/>
+  <rect x="405" y="100" width="310" height="28" rx="8" fill="url(#redGrad)"/>
+  <rect x="405" y="122" width="310" height="6" fill="url(#redGrad)"/>
+  <text x="560" y="122" text-anchor="middle" fill="white" font-size="13" font-weight="700">実勢価格</text>
+  <text x="560" y="152" text-anchor="middle" fill="#c53030" font-size="24" font-weight="800">100~110%</text>
+  <text x="430" y="175" fill="#4a5568" font-size="10">決定主体: 市場（売主と買主の合意）</text>
+  <text x="430" y="190" fill="#718096" font-size="10">基準日: 取引時点 | 更新: 取引ごと</text>
+
+  <!-- 2. 公示地価（右上 - 青系） -->
+  <line x1="660" y1="330" x2="780" y2="200" stroke="#3182ce" stroke-width="2" stroke-dasharray="6,3"/>
+  <rect x="770" y="100" width="310" height="130" rx="8" fill="white" stroke="#3182ce" stroke-width="2.5" filter="url(#shadow)"/>
+  <rect x="770" y="100" width="310" height="28" rx="8" fill="url(#blueGrad)"/>
+  <rect x="770" y="122" width="310" height="6" fill="url(#blueGrad)"/>
+  <text x="925" y="122" text-anchor="middle" fill="white" font-size="13" font-weight="700">公示地価</text>
+  <text x="925" y="152" text-anchor="middle" fill="#2b6cb0" font-size="24" font-weight="800">100%</text>
+  <text x="925" y="170" text-anchor="middle" fill="#718096" font-size="10">（基準価格）</text>
+  <text x="795" y="190" fill="#4a5568" font-size="10">根拠法: 地価公示法</text>
+  <text x="795" y="204" fill="#4a5568" font-size="10">評価主体: 国土交通省（土地鑑定委員会）</text>
+  <text x="795" y="218" fill="#718096" font-size="10">基準日: 毎年1月1日 | 更新: 年1回（3月公表）</text>
+
+  <!-- 3. 基準地価（右 - シアン系） -->
+  <line x1="660" y1="370" x2="780" y2="400" stroke="#0bc5ea" stroke-width="2" stroke-dasharray="6,3"/>
+  <rect x="770" y="330" width="310" height="130" rx="8" fill="white" stroke="#0bc5ea" stroke-width="2.5" filter="url(#shadow)"/>
+  <rect x="770" y="330" width="310" height="28" rx="8" fill="url(#cyanGrad)"/>
+  <rect x="770" y="352" width="310" height="6" fill="url(#cyanGrad)"/>
+  <text x="925" y="352" text-anchor="middle" fill="white" font-size="13" font-weight="700">基準地価</text>
+  <text x="925" y="385" text-anchor="middle" fill="#00b5d8" font-size="24" font-weight="800">~100%</text>
+  <text x="925" y="403" text-anchor="middle" fill="#718096" font-size="10">（公示地価と同水準）</text>
+  <text x="795" y="420" fill="#4a5568" font-size="10">根拠法: 国土利用計画法</text>
+  <text x="795" y="434" fill="#4a5568" font-size="10">評価主体: 都道府県知事</text>
+  <text x="795" y="448" fill="#718096" font-size="10">基準日: 毎年7月1日 | 更新: 年1回（9月公表）</text>
+
+  <!-- 4. 路線価（左下 - 橙系） -->
+  <line x1="460" y1="380" x2="340" y2="440" stroke="#dd6b20" stroke-width="2" stroke-dasharray="6,3"/>
+  <rect x="60" y="400" width="310" height="130" rx="8" fill="white" stroke="#dd6b20" stroke-width="2.5" filter="url(#shadow)"/>
+  <rect x="60" y="400" width="310" height="28" rx="8" fill="url(#orangeGrad)"/>
+  <rect x="60" y="422" width="310" height="6" fill="url(#orangeGrad)"/>
+  <text x="215" y="422" text-anchor="middle" fill="white" font-size="13" font-weight="700">相続税路線価</text>
+  <text x="215" y="455" text-anchor="middle" fill="#c05621" font-size="24" font-weight="800">80%</text>
+  <text x="215" y="473" text-anchor="middle" fill="#718096" font-size="10">（公示地価の約80%）</text>
+  <text x="85" y="490" fill="#4a5568" font-size="10">根拠法: 相続税法22条 + 財産評価基本通達</text>
+  <text x="85" y="504" fill="#4a5568" font-size="10">評価主体: 国税庁</text>
+  <text x="85" y="518" fill="#718096" font-size="10">基準日: 毎年1月1日 | 更新: 年1回（7月公表）</text>
+
+  <!-- 5. 固定資産税評価額（左上 - 黄系） -->
+  <line x1="460" y1="340" x2="340" y2="240" stroke="#d69e2e" stroke-width="2" stroke-dasharray="6,3"/>
+  <rect x="60" y="130" width="310" height="130" rx="8" fill="white" stroke="#d69e2e" stroke-width="2.5" filter="url(#shadow)"/>
+  <rect x="60" y="130" width="310" height="28" rx="8" fill="url(#yellowGrad)"/>
+  <rect x="60" y="152" width="310" height="6" fill="url(#yellowGrad)"/>
+  <text x="215" y="152" text-anchor="middle" fill="white" font-size="13" font-weight="700">固定資産税評価額</text>
+  <text x="215" y="185" text-anchor="middle" fill="#b7791f" font-size="24" font-weight="800">70%</text>
+  <text x="215" y="203" text-anchor="middle" fill="#718096" font-size="10">（公示地価の約70%）</text>
+  <text x="85" y="220" fill="#4a5568" font-size="10">根拠法: 地方税法341条5号「適正な時価」</text>
+  <text x="85" y="234" fill="#4a5568" font-size="10">評価主体: 市町村長</text>
+  <text x="85" y="248" fill="#718096" font-size="10">基準日: 基準年度の1月1日 | 更新: 3年に1回</text>
+
+  <!-- ========== 比率バーチャート ========== -->
+  <text x="80" y="590" fill="#1a365d" font-size="16" font-weight="700">公示地価を100とした場合の比率</text>
+  <line x1="80" y1="598" x2="360" y2="598" stroke="#ed8936" stroke-width="2"/>
+
+  <!-- バーの背景グリッド -->
+  <rect x="280" y="614" width="830" height="152" rx="0" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+  <!-- グリッド線 50%, 100% -->
+  <line x1="695" y1="614" x2="695" y2="766" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="695" y="778" text-anchor="middle" fill="#a0aec0" font-size="9">50%</text>
+  <line x1="1110" y1="614" x2="1110" y2="766" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="1110" y="778" text-anchor="middle" fill="#a0aec0" font-size="9">100%</text>
+  <!-- 0% -->
+  <text x="280" y="778" text-anchor="middle" fill="#a0aec0" font-size="9">0%</text>
+
+  <!-- Bar 1: 実勢価格 110% -->
+  <text x="270" y="632" text-anchor="end" fill="#2d3748" font-size="12" font-weight="600">実勢価格</text>
+  <rect x="280" y="618" width="913" height="22" rx="4" fill="url(#redGrad)" filter="url(#shadowLight)"/>
+  <text x="1180" y="634" text-anchor="end" fill="white" font-size="11" font-weight="700">110%</text>
+
+  <!-- Bar 2: 公示地価 100% -->
+  <text x="270" y="662" text-anchor="end" fill="#2d3748" font-size="12" font-weight="600">公示地価</text>
+  <rect x="280" y="648" width="830" height="22" rx="4" fill="url(#blueGrad)" filter="url(#shadowLight)"/>
+  <text x="1098" y="664" text-anchor="end" fill="white" font-size="11" font-weight="700">100%</text>
+
+  <!-- Bar 3: 基準地価 ~100% -->
+  <text x="270" y="692" text-anchor="end" fill="#2d3748" font-size="12" font-weight="600">基準地価</text>
+  <rect x="280" y="678" width="826" height="22" rx="4" fill="url(#cyanGrad)" filter="url(#shadowLight)"/>
+  <text x="1094" y="694" text-anchor="end" fill="white" font-size="11" font-weight="700">~100%</text>
+
+  <!-- Bar 4: 路線価 80% -->
+  <text x="270" y="722" text-anchor="end" fill="#2d3748" font-size="12" font-weight="600">路線価</text>
+  <rect x="280" y="708" width="664" height="22" rx="4" fill="url(#orangeGrad)" filter="url(#shadowLight)"/>
+  <text x="932" y="724" text-anchor="end" fill="white" font-size="11" font-weight="700">80%</text>
+
+  <!-- Bar 5: 固定資産税評価額 70% -->
+  <text x="270" y="752" text-anchor="end" fill="#2d3748" font-size="12" font-weight="600">固定資産税</text>
+  <rect x="280" y="738" width="581" height="22" rx="4" fill="url(#yellowGrad)" filter="url(#shadowLight)"/>
+  <text x="849" y="754" text-anchor="end" fill="white" font-size="11" font-weight="700">70%</text>
+
+  <!-- 安全率の注記 -->
+  <!-- 路線価の20%安全率 -->
+  <rect x="944" y="708" width="166" height="22" rx="4" fill="none" stroke="#dd6b20" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="1027" y="724" text-anchor="middle" fill="#dd6b20" font-size="9">安全率20%</text>
+
+  <!-- 固定資産税の30%安全率 -->
+  <rect x="861" y="738" width="249" height="22" rx="4" fill="none" stroke="#d69e2e" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="985" y="754" text-anchor="middle" fill="#d69e2e" font-size="9">安全率30%</text>
+
+  <!-- ========== フッター ========== -->
+  <rect x="0" y="788" width="1200" height="12" fill="url(#headerGrad)"/>
+
+</svg>

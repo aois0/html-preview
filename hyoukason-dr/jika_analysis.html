@@ -1,0 +1,2628 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>評価損×時価概念 ── 全資産類型の横断分析</title>
+<style>
+:root {
+  --primary: #1a365d;
+  --secondary: #2c5282;
+  --accent: #e53e3e;
+  --accent2: #dd6b20;
+  --bg: #f7fafc;
+  --card-bg: #ffffff;
+  --border: #e2e8f0;
+  --text: #2d3748;
+  --text-light: #718096;
+  --highlight: #fefcbf;
+  --code-bg: #edf2f7;
+  --blue: #3182ce;
+  --purple: #805ad5;
+  --orange: #dd6b20;
+  --green: #38a169;
+  --yellow: #d69e2e;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Segoe UI', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.85;
+}
+.layout { display: flex; max-width: 1300px; margin: 0 auto; }
+.sidebar {
+  width: 260px;
+  flex-shrink: 0;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  background: var(--primary);
+  color: #cbd5e0;
+  padding: 24px 16px;
+  font-size: 0.82rem;
+}
+.sidebar h2 { color: #fff; font-size: 1rem; margin-bottom: 16px; padding-bottom: 8px; border-bottom: 1px solid #4a5568; }
+.sidebar a { color: #a0aec0; text-decoration: none; display: block; padding: 4px 0; transition: color 0.2s; }
+.sidebar a:hover { color: #fff; }
+.sidebar .s-ch { font-weight: 600; color: #e2e8f0; margin-top: 12px; }
+.sidebar .s-sub { padding-left: 14px; font-size: 0.78rem; }
+.main { flex: 1; min-width: 0; padding: 40px 36px; }
+h1 { font-size: 1.9rem; color: var(--primary); border-bottom: 3px solid var(--primary); padding-bottom: 14px; margin-bottom: 12px; }
+.subtitle { font-size: 1rem; color: var(--text-light); margin-bottom: 36px; }
+h2 { font-size: 1.45rem; color: var(--secondary); border-left: 5px solid var(--secondary); padding-left: 14px; margin: 48px 0 22px; }
+h3 { font-size: 1.15rem; color: var(--primary); margin: 30px 0 14px; }
+h4 { font-size: 1.05rem; color: #4a5568; margin: 22px 0 10px; }
+p { margin-bottom: 14px; text-align: justify; }
+.card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 24px; margin-bottom: 24px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+.card-accent { border-left: 4px solid var(--accent); }
+.card-info { border-left: 4px solid var(--secondary); background: #ebf8ff; }
+.card-warning { border-left: 4px solid var(--yellow); background: #fffff0; }
+.card-green { border-left: 4px solid var(--green); background: #f0fff4; }
+table { width: 100%; border-collapse: collapse; margin: 16px 0 24px; font-size: 0.93rem; }
+th, td { border: 1px solid var(--border); padding: 10px 14px; text-align: left; vertical-align: top; }
+th { background: var(--primary); color: #fff; font-weight: 600; }
+tr:nth-child(even) { background: #f8fafc; }
+tr:hover { background: #edf2f7; }
+blockquote { border-left: 3px solid #a0aec0; padding: 12px 16px; margin: 14px 0; color: #4a5568; font-style: italic; background: #f7fafc; }
+.label { display: inline-block; padding: 2px 10px; border-radius: 4px; font-size: 0.82rem; font-weight: 600; }
+.label-tax { background: #fed7d7; color: #9b2c2c; }
+.label-acc { background: #c6f6d5; color: #22543d; }
+.label-ifrs { background: #bee3f8; color: #2a4365; }
+.label-blue { background: #bee3f8; color: #2a4365; }
+.label-purple { background: #e9d8fd; color: #553c9a; }
+.label-orange { background: #feebc8; color: #7b341e; }
+.label-yellow { background: #fefcbf; color: #744210; }
+ul, ol { margin: 10px 0 16px 24px; }
+li { margin-bottom: 8px; }
+.diagram { background: #f0f4f8; border: 1px dashed #a0aec0; border-radius: 6px; padding: 20px; margin: 16px 0; text-align: center; font-family: monospace; font-size: 0.88rem; line-height: 1.6; white-space: pre; overflow-x: auto; }
+.comparison-box { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 16px 0; }
+.svg-link { display: inline-block; background: var(--secondary); color: #fff; padding: 10px 20px; border-radius: 6px; text-decoration: none; margin: 8px 4px; font-size: 0.9rem; transition: background 0.2s; }
+.svg-link:hover { background: var(--primary); }
+.sources { background: #f7fafc; border-top: 2px solid var(--border); padding: 24px; margin-top: 40px; font-size: 0.88rem; }
+.sources a { color: var(--secondary); word-break: break-all; }
+.case-card { background: #fff; border: 1px solid var(--border); border-radius: 8px; padding: 18px; margin-bottom: 16px; }
+.case-card .case-title { font-weight: 700; color: var(--primary); margin-bottom: 6px; }
+.case-card .case-meta { font-size: 0.85rem; color: var(--text-light); margin-bottom: 8px; }
+.star { color: #d69e2e; }
+/* --- Mobile hamburger --- */
+.menu-toggle { display: none; position: fixed; top: 12px; left: 12px; z-index: 1100;
+  background: var(--primary); color: #fff; border: none; border-radius: 6px;
+  width: 44px; height: 44px; font-size: 22px; cursor: pointer; box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
+.menu-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.4); z-index: 999; }
+.table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 16px 0 24px; }
+.table-wrap table { margin: 0; }
+.svg-embed { width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 24px 0;
+  border: 1px solid var(--border); border-radius: 8px; background: #f7fafc; }
+.svg-embed svg { display: block; min-width: 800px; height: auto; }
+@media (max-width: 900px) {
+  .layout { flex-direction: column; }
+  .sidebar { display: none; position: fixed; top: 0; left: 0; width: 280px; height: 100vh;
+    z-index: 1000; transform: translateX(-100%); transition: transform 0.3s ease; }
+  .sidebar.open { display: block; transform: translateX(0); }
+  .menu-toggle { display: block; }
+  .menu-overlay.active { display: block; }
+  .main { padding: 20px 14px; padding-top: 64px; }
+  h1 { font-size: 1.3rem; }
+  h2 { font-size: 1.15rem; margin: 32px 0 16px; }
+  h3 { font-size: 1.05rem; }
+  p { font-size: 0.95rem; }
+  table { font-size: 0.78rem; }
+  th, td { padding: 6px 8px; }
+  .comparison-box { grid-template-columns: 1fr; }
+  .card { padding: 16px; }
+  blockquote { padding: 10px 12px; font-size: 0.9rem; }
+  .svg-embed svg { min-width: 700px; }
+  .case-card { padding: 14px; }
+}
+@media (max-width: 480px) {
+  .main { padding: 16px 10px; padding-top: 60px; }
+  h1 { font-size: 1.15rem; }
+  table { font-size: 0.72rem; }
+  th, td { padding: 4px 6px; }
+  .svg-embed svg { min-width: 600px; }
+}
+</style>
+</head>
+<body>
+<button class="menu-toggle" id="menuToggle" aria-label="メニュー">&#9776;</button>
+<div class="menu-overlay" id="menuOverlay"></div>
+<div class="layout">
+
+<!-- ===== サイドバー目次 ===== -->
+<nav class="sidebar">
+<h2>目次</h2>
+<a href="#intro" class="s-ch">はじめに</a>
+<a href="#ch0" class="s-ch">0. 法33条の全体像</a>
+<a href="#ch1" class="s-ch">1. 施行令68条の全体構造</a>
+<a href="#ch1-1" class="s-sub">1.1 棚卸資産（1号）</a>
+<a href="#ch1-2" class="s-sub">1.2 有価証券（2号）</a>
+<a href="#ch1-3" class="s-sub">1.3 固定資産（3号）</a>
+<a href="#ch1-4" class="s-sub">1.4 繰延資産（4号）</a>
+<a href="#ch1-5" class="s-sub">1.5 通達体系マップ</a>
+<a href="#ch2" class="s-ch">2.「時価」概念の横断分析</a>
+<a href="#ch2-1" class="s-sub">2.1 法人税法33条の「価額」</a>
+<a href="#ch2-2" class="s-sub">2.2 法人税法22条の「時価」</a>
+<a href="#ch2-3" class="s-sub">2.3 法61条の3（売買目的有価証券）</a>
+<a href="#ch2-4" class="s-sub">2.4 相続税法22条</a>
+<a href="#ch2-5" class="s-sub">2.5 不動産鑑定評価基準</a>
+<a href="#ch2-6" class="s-sub">2.6 統合的理解</a>
+<a href="#ch3" class="s-ch">3. 不動産の評価損</a>
+<a href="#ch4" class="s-ch">4. 一物多価問題</a>
+<a href="#ch5" class="s-ch">5. 通達による時価の画一化</a>
+<a href="#ch6" class="s-ch">6. 判例分析</a>
+<a href="#ch7" class="s-ch">7. 会計基準との乖離</a>
+<a href="#ch8" class="s-ch">8. 結論と示唆</a>
+<a href="#refs" class="s-ch">参考文献</a>
+<div style="margin-top:24px; padding-top:16px; border-top:1px solid #4a5568;">
+<p style="font-size:0.75rem; margin-bottom:8px;">構造図</p>
+<a href="#svg-full" class="s-sub">全資産類型の評価損構造図</a>
+<a href="#svg-jika" class="s-sub">時価概念マップ</a>
+<a href="evaluation_loss_overview.svg" class="s-sub" target="_blank">有価証券評価損（詳細版）</a>
+</div>
+<div style="margin-top:16px; padding-top:16px; border-top:1px solid #4a5568;">
+<p style="font-size:0.75rem; margin-bottom:8px;">関連レポート</p>
+<a href="jika_debate.html" class="s-sub">時価概念の深層議論（4視座）</a>
+</div>
+</nav>
+
+<!-- ===== メインコンテンツ ===== -->
+<div class="main">
+
+<h1>評価損×時価概念 ── 全資産類型の横断分析</h1>
+<p class="subtitle">法人税法33条・施行令68条の全体構造と「時価」概念の多層性</p>
+
+<div style="margin-bottom:24px;">
+<a href="#svg-full" class="svg-link">全資産類型の評価損構造図</a>
+<a href="#svg-jika" class="svg-link">時価概念マップ</a>
+</div>
+
+<!-- ===== はじめに ===== -->
+<h2 id="intro">はじめに ── なぜ「時価」は難しいのか</h2>
+
+<div class="card card-accent">
+<p>法人税法第33条は、内国法人が保有資産の評価換えをして帳簿価額を減額した場合、その減額部分の金額は原則として各事業年度の所得の金額の計算上、<strong>損金の額に算入しない</strong>と定める。これは実現主義・取得原価主義を基本とする法人税法の大原則である。</p>
+<p>しかし同条2項以下は例外を設ける。災害による著しい損傷その他の「政令で定める事実」が生じた場合には、「評価換えの直前の帳簿価額」と「<strong>事業年度終了の時における当該資産の価額</strong>」との差額を限度として損金算入を認める。</p>
+<p>ここで根本的な問いが生じる。<strong>「事業年度終了の時における当該資産の価額」とは何か</strong>。すなわち「時価」とは何か。</p>
+</div>
+
+<div class="card">
+<p>この問いが難しいのは、以下の3つの理由による。</p>
+<p><strong>第一に、法令上の定義の不在</strong>。法人税法33条2項は「価額」と規定するのみで、その具体的な算定方法を条文レベルでは定めていない。具体化は法人税基本通達9-1-3に委ねられ、「当該資産が使用収益されるものとしてその時において譲渡される場合に通常付される価額」と定義される。しかし通達は法律ではなく、行政内部の指針にすぎない。</p>
+<p><strong>第二に、法域間の定義の相違</strong>。「時価」という同じ言葉が、法人税法、相続税法、不動産鑑定評価基準、企業会計基準のそれぞれで異なる意味を持つ。法人税法は「使用収益前提の譲渡価額」、相続税法は「客観的交換価値」（金子宏教授の定式）、不動産鑑定評価基準は「正常価格」、企業会計基準は「公正価値」をそれぞれ指向する。理念としてはいずれも「客観的な交換価値」を目指すが、具体的な算定方法・前提条件・安全率の有無において大きく乖離する。</p>
+<p><strong>第三に、一物多価問題</strong>。特に不動産において顕著であるが、同一の資産に公示価格、路線価（公示価格の約80%）、固定資産税評価額（同約70%）、実勢価格（同約110-150%）という複数の「公的な価格」が併存する。いずれも「時価」の名の下に存在しながら、金額は大きく異なる。</p>
+<p>本稿は、この「時価」の難問に正面から取り組む。法人税法施行令68条の全資産類型（棚卸資産・有価証券・固定資産・繰延資産）を横断的に分析し、各法域における時価概念の異同を明らかにした上で、判例・裁決の蓄積と会計基準との乖離構造を考察する。</p>
+<p>これらの困難に加え、法人税法33条それ自体の<strong>条文構造</strong>が問題を深刻化させている。同条2項は「価額」と規定するのみで定義を置かず、その具体化を全面的に通達に委ねる。「価額」の語は法人税法の他の条文（25条2項、61条の3等）でも使用されるが、それぞれの文脈に応じて異なる意味内容を有しうる。この意味で、「価額」は法人税法における最も多義的な概念の一つであり、その解釈は条文の文言のみからは一義的に導けない構造的特質を持つ。</p>
+<p>さらに近年、<strong>会計基準のグローバル化</strong>が「時価」概念に新たな圧力を加えている。IFRS（国際財務報告基準）が求める「公正価値」（IFRS 13）は、市場参加者の観点からの測定を基本とし、レベル1（活発な市場における同一資産の相場価格）からレベル3（観察不能なインプット）までの公正価値ヒエラルキーを構築する。日本においてもIFRS任意適用企業が増加する中で、会計上の「公正価値」と法人税法上の「価額」の概念的乖離は拡大傾向にあり、損金経理要件を媒介とした会計・税法の接続構造に構造的緊張が生じている。本稿の分析は、こうした現代的文脈をも射程に収めるものである。</p>
+</div>
+
+<div class="card card-info">
+<h4>本稿の構成</h4>
+<p>第1章では、法人税法施行令68条の全体構造を概観し、4つの資産区分（棚卸資産・有価証券・固定資産・繰延資産）のそれぞれについて、評価損計上が認められる「物損等の事実」を整理する。従来は有価証券（1項2号）のみが詳細に分析されてきたが、本稿では棚卸資産（1項1号）と固定資産（1項3号）を含めた全体像を提示する。</p>
+<p>第2章では、「時価」概念の横断分析を行う。法人税法内部に存在する複数の「時価」（33条の「価額」、22条の暗黙の時価、61条の3の時価法）を整理した上で、相続税法の「時価」（財産評価基本通達による具体化）、不動産鑑定評価基準の「正常価格」との比較を行う。</p>
+<p>第3章では、不動産の評価損に焦点を当て、固定資産の「物損等の事実」の具体的内容と時価認定の方法を検討する。通達9-1-16から9-1-19の体系を整理し、特に不動産における時価認定の困難さを明らかにする。</p>
+<p>第4章では、一物多価問題を取り上げる。同一の不動産に複数の「公的な価格」が併存する構造を分析し、その政策的背景と構造的問題を考察する。</p>
+<p>第5章では、通達による時価の画一化問題を論じる。評価通達が事実上の法規範として機能する構造の功罪を検討し、総則6項（財産評価基本通達の定めにより評価することが著しく不適当と認められる場合の別評価）の構造的矛盾を明らかにする。</p>
+<p>第6章では、時価認定をめぐる主要判例を分析する。不動産評価損事件、棚卸資産評価損事件、通達解釈事件、総則6項適用事件の4類型について、代表的な裁判例を検討する。</p>
+<p>第7章では、会計基準と法人税法の構造的乖離を分析する。減損会計基準、金融商品会計基準、IFRS（IAS 36, IFRS 9）と法人税法33条の6つの構造的乖離ポイントを整理し、実務上の申告調整の構造を明らかにする。</p>
+<p>第8章では、本稿の分析結果を5つの命題として整理し、今後の学術的・制度的課題を展望する。</p>
+</div>
+
+<!-- ===== 第0章：全体像 ===== -->
+<h2 id="ch0">第0章　法人税法33条の全体像 ── なぜ施行令から読むのか</h2>
+
+<div class="card card-accent">
+<h4>本章の目的</h4>
+<p>本稿の各論に入る前に、法人税法33条を頂点とする評価損制度の<strong>全体像</strong>を俯瞰する。読者がまず把握すべきは、「条文→政令→通達」という三層構造であり、この構造を理解してこそ、第1章以降の施行令68条の各号分析が意味を持つ。</p>
+</div>
+
+<h3>0.1 三層構造 ── 法律・政令・通達の役割分担</h3>
+
+<div class="card">
+<p>日本の法人税法における評価損制度は、次の三層で構成されている。</p>
+
+<p><strong>第一層：法律（法人税法33条）</strong>。法33条1項は「資産の評価換えをしてその帳簿価額を減額した場合には、その減額した部分の金額は、各事業年度の所得の金額の計算上、損金の額に算入しない」と定める。これが<strong>大原則</strong>である。評価損は原則として損金に入らない。</p>
+
+<p>しかし同条2項が例外を設ける。「内国法人の有する資産につき、災害による著しい損傷により当該資産の価額がその帳簿価額を下回ることとなつたことその他の<strong>政令で定める事実</strong>が生じた場合」には、一定の限度で損金算入を認める。ここで重要なのは、「政令で定める事実」という<strong>委任</strong>の構造である。法律は評価損の損金算入を許容するが、その具体的な要件は政令（施行令）に委ねている。</p>
+
+<p><strong>第二層：政令（法人税法施行令68条）</strong>。施行令68条は、法33条2項の委任を受けて、評価損計上が認められる「物損等の事実」を資産区分ごとに<strong>限定列挙</strong>する。ここが本稿の中心的な分析対象である。1項1号（棚卸資産）、1項2号（有価証券）、1項3号（固定資産）、1項4号（繰延資産）の4区分に分かれ、それぞれの資産について異なる要件が定められている。</p>
+
+<p><strong>第三層：通達（法人税基本通達9-1-1〜9-1-19）</strong>。通達は法律でも政令でもなく、国税庁長官が発出する行政内部の取扱指針にすぎない。しかし実務上は、通達が「時価」の具体的な算定方法を示し、課税実務を規律している。法人税基本通達9-1-1から9-1-19までの体系は、棚卸資産の時価（9-1-1〜9-1-2）、有価証券の時価（9-1-3〜9-1-15）、固定資産の時価（9-1-16〜9-1-19）について詳細な取扱いを定めている。</p>
+</div>
+
+<h3>0.2 法33条の条文構造 ── 原則と例外の論理</h3>
+
+<div class="card card-info">
+<h4>法人税法33条の構造</h4>
+<div class="table-wrap">
+<table>
+<tr><th>項</th><th>内容</th><th>機能</th></tr>
+<tr><td>1項</td><td>評価換えによる帳簿価額の減額は損金不算入</td><td><strong>原則</strong>（取得原価主義の宣言）</td></tr>
+<tr><td>2項</td><td>「政令で定める事実」が生じた場合の損金算入</td><td><strong>例外①</strong>（物損等・法的整理）</td></tr>
+<tr><td>3項</td><td>会社更生法等による評定の場合の損金算入</td><td><strong>例外②</strong>（法的整理に伴う評定）</td></tr>
+<tr><td>4項</td><td>損金算入限度額の計算</td><td>限度額の規定</td></tr>
+</table>
+</div>
+<p>この構造から読み取れるのは、法人税法が<strong>「原則禁止・例外許可」</strong>のアーキテクチャを採用しているということである。これは租税法律主義（憲法84条）の要請を反映する。課税ベースに影響を与える評価損の計上は、法律または法律の委任に基づく政令に具体的な根拠がなければ認められない。</p>
+</div>
+
+<h3>0.3 委任の連鎖と「時価」の不在</h3>
+
+<div class="card card-warning">
+<p>この三層構造には、制度設計上の根本的な問題が内在している。</p>
+<p>法33条2項は「事業年度終了の時における当該資産の<strong>価額</strong>」と記すのみで、その算定方法を定めていない。施行令68条も要件事実を列挙するにとどまり、「価額」の具体的な算定方法は通達に丸投げされる。つまり、<strong>「時価とは何か」という最も重要な問いに対する答えが、法律にも政令にも存在しない</strong>。</p>
+<p>この構造は、通達に事実上の法規範性を付与する結果となっている。通達が改正されれば「時価」の意味が変わりうるという点で、租税法律主義の観点からは看過しがたい問題をはらんでいる（この問題は第5章で詳論する）。</p>
+</div>
+
+<h3>0.4 全体像の可視化</h3>
+
+<p>以下の構造図は、法33条を頂点とする評価損制度の全体像を1枚に描いたものである。法律→施行令→通達の三層構造、施行令68条の4つの資産区分、各区分に対応する通達体系、そして全資産共通の判定フローを俯瞰できる。</p>
+
+<div class="svg-embed" id="svg-full">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 3200" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif">
+  <defs>
+    <linearGradient id="headerGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1a365d"/><stop offset="100%" stop-color="#2c5282"/>
+    </linearGradient>
+    <linearGradient id="principleGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e53e3e"/><stop offset="100%" stop-color="#c53030"/>
+    </linearGradient>
+    <linearGradient id="exceptionGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#38a169"/><stop offset="100%" stop-color="#2f855a"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3182ce"/><stop offset="100%" stop-color="#2b6cb0"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#805ad5"/><stop offset="100%" stop-color="#553c9a"/>
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dd6b20"/><stop offset="100%" stop-color="#c05621"/>
+    </linearGradient>
+    <linearGradient id="yellowGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d69e2e"/><stop offset="100%" stop-color="#b7791f"/>
+    </linearGradient>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+    <filter id="shadowLight" x="-1%" y="-1%" width="102%" height="102%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-opacity="0.1"/>
+    </filter>
+    <marker id="arrowDown" markerWidth="10" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4a5568"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#38a169"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="10" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e53e3e"/>
+    </marker>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#3182ce"/>
+    </marker>
+    <marker id="arrowPurple" markerWidth="10" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#805ad5"/>
+    </marker>
+    <marker id="arrowOrange" markerWidth="10" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#dd6b20"/>
+    </marker>
+    <marker id="arrowYellow" markerWidth="10" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#d69e2e"/>
+    </marker>
+  </defs>
+
+  <!-- ページ背景 -->
+  <rect width="1400" height="3200" fill="#f7fafc"/>
+
+
+  <!-- ============================================================ -->
+  <!-- SECTION 1: ヘッダー（法33条の原則・例外）                      -->
+  <!-- ============================================================ -->
+  <rect x="0" y="0" width="1400" height="90" fill="url(#headerGrad)"/>
+  <text x="700" y="40" text-anchor="middle" fill="white" font-size="28" font-weight="700">法人税法第33条 ── 資産の評価損の全体構造</text>
+  <text x="700" y="68" text-anchor="middle" fill="#cbd5e0" font-size="14">施行令68条 全4資産類型（棚卸資産・有価証券・固定資産・繰延資産）の評価損構造図</text>
+
+  <!-- 原則カード -->
+  <rect x="100" y="110" width="1200" height="55" rx="8" fill="url(#principleGrad)" filter="url(#shadow)"/>
+  <text x="700" y="135" text-anchor="middle" fill="white" font-size="17" font-weight="700">原則：資産の評価損は損金不算入（第1項）</text>
+  <text x="700" y="155" text-anchor="middle" fill="#fed7d7" font-size="11">内国法人がその有する資産の評価換えをしてその帳簿価額を減額した場合 → その減額した部分の金額は損金の額に算入しない</text>
+
+  <!-- 矢印 -->
+  <line x1="700" y1="165" x2="700" y2="190" stroke="#4a5568" stroke-width="2" marker-end="url(#arrowDown)"/>
+  <text x="715" y="185" fill="#718096" font-size="10" font-style="italic">例外あり</text>
+
+  <!-- 例外カード -->
+  <rect x="100" y="195" width="1200" height="55" rx="8" fill="url(#exceptionGrad)" filter="url(#shadow)"/>
+  <text x="700" y="220" text-anchor="middle" fill="white" font-size="17" font-weight="700">例外：物損等の事実 or 法的整理の事実があれば損金算入（第2〜5項）</text>
+  <text x="700" y="240" text-anchor="middle" fill="#c6f6d5" font-size="11">政令（施行令68条）で定める事実が生じた場合 ＋ 損金経理により帳簿価額を減額 → 損金算入</text>
+
+  <!-- 矢印 -->
+  <line x1="700" y1="250" x2="700" y2="280" stroke="#dd6b20" stroke-width="2.5" marker-end="url(#arrowOrange)"/>
+  <rect x="645" y="258" width="110" height="16" rx="4" fill="#feebc8"/>
+  <text x="700" y="270" text-anchor="middle" fill="#c05621" font-size="10" font-weight="700">政令に委任</text>
+
+
+  <!-- ============================================================ -->
+  <!-- SECTION 2: 施行令68条 — 4資産分岐ツリー                       -->
+  <!-- ============================================================ -->
+  <text x="50" y="320" fill="#1a365d" font-size="20" font-weight="700">1. 施行令68条1項 ── 物損等の事実：4資産類型への分岐</text>
+  <line x1="50" y1="328" x2="560" y2="328" stroke="#ed8936" stroke-width="3"/>
+
+  <!-- Root pill node -->
+  <rect x="450" y="350" width="500" height="48" rx="24" fill="#2d3748" filter="url(#shadow)"/>
+  <text x="700" y="380" text-anchor="middle" fill="white" font-size="16" font-weight="700">施行令68条1項：物損等の事実</text>
+
+  <!-- Vertical trunk line -->
+  <line x1="700" y1="398" x2="700" y2="430" stroke="#4a5568" stroke-width="2"/>
+  <!-- Horizontal branch line -->
+  <line x1="170" y1="430" x2="1230" y2="430" stroke="#4a5568" stroke-width="2"/>
+
+  <!-- Branch drop lines -->
+  <line x1="170" y1="430" x2="170" y2="455" stroke="#3182ce" stroke-width="2" marker-end="url(#arrowBlue)"/>
+  <line x1="523" y1="430" x2="523" y2="455" stroke="#805ad5" stroke-width="2" marker-end="url(#arrowPurple)"/>
+  <line x1="877" y1="430" x2="877" y2="455" stroke="#dd6b20" stroke-width="2" marker-end="url(#arrowOrange)"/>
+  <line x1="1230" y1="430" x2="1230" y2="455" stroke="#d69e2e" stroke-width="2" marker-end="url(#arrowYellow)"/>
+
+  <!-- Card 1: 棚卸資産（青） -->
+  <rect x="60" y="460" width="220" height="80" rx="8" fill="white" stroke="#e2e8f0" stroke-width="2" filter="url(#shadowLight)"/>
+  <rect x="60" y="460" width="220" height="32" rx="8" fill="url(#blueGrad)"/>
+  <rect x="60" y="484" width="220" height="8" fill="url(#blueGrad)"/>
+  <text x="170" y="483" text-anchor="middle" fill="white" font-size="14" font-weight="700">1号</text>
+  <text x="170" y="515" text-anchor="middle" fill="#2d3748" font-size="15" font-weight="700">棚卸資産</text>
+  <text x="170" y="533" text-anchor="middle" fill="#718096" font-size="10">イ・ロ・ハの3類型</text>
+
+  <!-- Card 2: 有価証券（紫） -->
+  <rect x="413" y="460" width="220" height="80" rx="8" fill="white" stroke="#e2e8f0" stroke-width="2" filter="url(#shadowLight)"/>
+  <rect x="413" y="460" width="220" height="32" rx="8" fill="url(#purpleGrad)"/>
+  <rect x="413" y="484" width="220" height="8" fill="url(#purpleGrad)"/>
+  <text x="523" y="483" text-anchor="middle" fill="white" font-size="14" font-weight="700">2号</text>
+  <text x="523" y="515" text-anchor="middle" fill="#2d3748" font-size="15" font-weight="700">有価証券</text>
+  <text x="523" y="533" text-anchor="middle" fill="#718096" font-size="10">イ・ロ・ハの3類型</text>
+
+  <!-- Card 3: 固定資産（橙） -->
+  <rect x="767" y="460" width="220" height="80" rx="8" fill="white" stroke="#e2e8f0" stroke-width="2" filter="url(#shadowLight)"/>
+  <rect x="767" y="460" width="220" height="32" rx="8" fill="url(#orangeGrad)"/>
+  <rect x="767" y="484" width="220" height="8" fill="url(#orangeGrad)"/>
+  <text x="877" y="483" text-anchor="middle" fill="white" font-size="14" font-weight="700">3号</text>
+  <text x="877" y="515" text-anchor="middle" fill="#2d3748" font-size="15" font-weight="700">固定資産</text>
+  <text x="877" y="533" text-anchor="middle" fill="#718096" font-size="10">イ・ロ・ハ・ニ・ホの5類型</text>
+
+  <!-- Card 4: 繰延資産（黄） -->
+  <rect x="1120" y="460" width="220" height="80" rx="8" fill="white" stroke="#e2e8f0" stroke-width="2" filter="url(#shadowLight)"/>
+  <rect x="1120" y="460" width="220" height="32" rx="8" fill="url(#yellowGrad)"/>
+  <rect x="1120" y="484" width="220" height="8" fill="url(#yellowGrad)"/>
+  <text x="1230" y="483" text-anchor="middle" fill="white" font-size="14" font-weight="700">4号</text>
+  <text x="1230" y="515" text-anchor="middle" fill="#2d3748" font-size="15" font-weight="700">繰延資産</text>
+  <text x="1230" y="533" text-anchor="middle" fill="#718096" font-size="10">イ・ロの2類型（限定）</text>
+
+
+  <!-- ============================================================ -->
+  <!-- SECTION 3: 各資産の要件カード（並列4列）                       -->
+  <!-- ============================================================ -->
+  <text x="50" y="600" fill="#1a365d" font-size="20" font-weight="700">2. 各号の具体的事実（物損等の事実の内容）</text>
+  <line x1="50" y1="608" x2="460" y2="608" stroke="#ed8936" stroke-width="3"/>
+
+  <!-- ===== 列1: 棚卸資産（青）===== -->
+  <rect x="30" y="625" width="310" height="330" rx="8" fill="white" stroke="#3182ce" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="30" y="625" width="310" height="38" rx="8" fill="url(#blueGrad)"/>
+  <rect x="30" y="655" width="310" height="8" fill="url(#blueGrad)"/>
+  <text x="185" y="651" text-anchor="middle" fill="white" font-size="15" font-weight="700">1号：棚卸資産</text>
+
+  <!-- イ -->
+  <rect x="50" y="678" width="270" height="60" rx="6" fill="#ebf8ff" stroke="#bee3f8" stroke-width="1.5"/>
+  <text x="65" y="696" fill="#2b6cb0" font-size="13" font-weight="700">イ  災害により著しく損傷</text>
+  <text x="65" y="714" fill="#4a5568" font-size="11">震災、風水害、火災その他の</text>
+  <text x="65" y="729" fill="#4a5568" font-size="11">災害による著しい損傷</text>
+
+  <!-- ロ -->
+  <rect x="50" y="748" width="270" height="60" rx="6" fill="#ebf8ff" stroke="#bee3f8" stroke-width="1.5"/>
+  <text x="65" y="766" fill="#2b6cb0" font-size="13" font-weight="700">ロ  著しく陳腐化</text>
+  <text x="65" y="784" fill="#4a5568" font-size="11">型式、性能、品質等が著しく</text>
+  <text x="65" y="799" fill="#4a5568" font-size="11">陳腐化したこと</text>
+
+  <!-- ハ -->
+  <rect x="50" y="818" width="270" height="55" rx="6" fill="#edf2f7" stroke="#cbd5e0" stroke-width="1.5"/>
+  <text x="65" y="836" fill="#4a5568" font-size="13" font-weight="700">ハ  準ずる特別の事実</text>
+  <text x="65" y="854" fill="#718096" font-size="11">イ又はロに準ずる特別の事実</text>
+  <text x="65" y="869" fill="#718096" font-size="10">（受け皿規定・個別判断）</text>
+
+  <!-- 通達参照 -->
+  <text x="50" y="940" fill="#3182ce" font-size="10" font-weight="600">関連通達: 9-1-4の2等</text>
+
+
+  <!-- ===== 列2: 有価証券（紫）===== -->
+  <rect x="370" y="625" width="310" height="330" rx="8" fill="white" stroke="#805ad5" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="370" y="625" width="310" height="38" rx="8" fill="url(#purpleGrad)"/>
+  <rect x="370" y="655" width="310" height="8" fill="url(#purpleGrad)"/>
+  <text x="525" y="651" text-anchor="middle" fill="white" font-size="15" font-weight="700">2号：有価証券</text>
+
+  <!-- イ -->
+  <rect x="390" y="678" width="270" height="74" rx="6" fill="#faf5ff" stroke="#d6bcfa" stroke-width="1.5"/>
+  <text x="405" y="696" fill="#553c9a" font-size="13" font-weight="700">イ  価額が著しく低下</text>
+  <text x="405" y="714" fill="#4a5568" font-size="11">市場有価証券の価額の著しい低下</text>
+  <text x="405" y="729" fill="#718096" font-size="10">※売買目的有価証券・企業支配</text>
+  <text x="405" y="744" fill="#718096" font-size="10">  株式等は適用除外</text>
+
+  <!-- ロ -->
+  <rect x="390" y="762" width="270" height="68" rx="6" fill="#faf5ff" stroke="#d6bcfa" stroke-width="1.5"/>
+  <text x="405" y="780" fill="#553c9a" font-size="13" font-weight="700">ロ  資産状態悪化＋価額低下</text>
+  <text x="405" y="798" fill="#4a5568" font-size="11">発行法人の資産状態が著しく悪化</text>
+  <text x="405" y="813" fill="#e53e3e" font-size="11" font-weight="600">→ 価額が著しく低下（二重要件）</text>
+  <text x="405" y="825" fill="#718096" font-size="10">※イ以外の有価証券に適用</text>
+
+  <!-- ハ -->
+  <rect x="390" y="840" width="270" height="48" rx="6" fill="#edf2f7" stroke="#cbd5e0" stroke-width="1.5"/>
+  <text x="405" y="858" fill="#4a5568" font-size="13" font-weight="700">ハ  準ずる特別の事実</text>
+  <text x="405" y="876" fill="#718096" font-size="11">ロに準ずる特別の事実</text>
+
+  <!-- 通達参照 -->
+  <text x="390" y="910" fill="#805ad5" font-size="10" font-weight="600">関連通達: 9-1-7〜9-1-15</text>
+  <text x="390" y="925" fill="#718096" font-size="10">※詳細は evaluation_loss_overview.svg 参照</text>
+  <text x="390" y="940" fill="#e53e3e" font-size="10" font-weight="600">売買目的有価証券はロ・ハのみ</text>
+
+
+  <!-- ===== 列3: 固定資産（橙）===== -->
+  <rect x="710" y="625" width="310" height="330" rx="8" fill="white" stroke="#dd6b20" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="710" y="625" width="310" height="38" rx="8" fill="url(#orangeGrad)"/>
+  <rect x="710" y="655" width="310" height="8" fill="url(#orangeGrad)"/>
+  <text x="865" y="651" text-anchor="middle" fill="white" font-size="15" font-weight="700">3号：固定資産</text>
+
+  <!-- イ -->
+  <rect x="730" y="678" width="270" height="44" rx="6" fill="#fffaf0" stroke="#fbd38d" stroke-width="1.5"/>
+  <text x="745" y="696" fill="#c05621" font-size="12" font-weight="700">イ  災害により著しく損傷</text>
+  <text x="745" y="714" fill="#4a5568" font-size="11">棚卸資産1号イと同旨</text>
+
+  <!-- ロ -->
+  <rect x="730" y="730" width="270" height="44" rx="6" fill="#fffaf0" stroke="#fbd38d" stroke-width="1.5"/>
+  <text x="745" y="748" fill="#c05621" font-size="12" font-weight="700">ロ  1年以上にわたり遊休状態</text>
+  <text x="745" y="766" fill="#4a5568" font-size="11">事業の用に供されていないこと</text>
+
+  <!-- ハ -->
+  <rect x="730" y="782" width="270" height="44" rx="6" fill="#fffaf0" stroke="#fbd38d" stroke-width="1.5"/>
+  <text x="745" y="800" fill="#c05621" font-size="12" font-weight="700">ハ  用途変更（本来の用途不能）</text>
+  <text x="745" y="818" fill="#4a5568" font-size="11">他の用途に転用されたこと</text>
+
+  <!-- ニ -->
+  <rect x="730" y="834" width="270" height="44" rx="6" fill="#fffaf0" stroke="#fbd38d" stroke-width="1.5"/>
+  <text x="745" y="852" fill="#c05621" font-size="12" font-weight="700">ニ  所在場所の状況が著しく変化</text>
+  <text x="745" y="870" fill="#4a5568" font-size="11">周辺環境の著しい変化</text>
+
+  <!-- ホ -->
+  <rect x="730" y="886" width="270" height="44" rx="6" fill="#edf2f7" stroke="#cbd5e0" stroke-width="1.5"/>
+  <text x="745" y="904" fill="#4a5568" font-size="12" font-weight="700">ホ  準ずる特別の事実</text>
+  <text x="745" y="922" fill="#718096" font-size="11">イ〜ニに準ずる（受け皿規定）</text>
+
+  <!-- 通達参照 -->
+  <text x="730" y="950" fill="#dd6b20" font-size="10" font-weight="600">関連通達: 9-1-16〜9-1-19</text>
+
+
+  <!-- ===== 列4: 繰延資産（黄）===== -->
+  <rect x="1050" y="625" width="310" height="330" rx="8" fill="white" stroke="#d69e2e" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="1050" y="625" width="310" height="38" rx="8" fill="url(#yellowGrad)"/>
+  <rect x="1050" y="655" width="310" height="8" fill="url(#yellowGrad)"/>
+  <text x="1205" y="651" text-anchor="middle" fill="white" font-size="15" font-weight="700">4号：繰延資産</text>
+
+  <!-- 限定注記 -->
+  <rect x="1070" y="672" width="270" height="32" rx="6" fill="#fffff0" stroke="#ecc94b" stroke-width="1.5"/>
+  <text x="1205" y="693" text-anchor="middle" fill="#975a16" font-size="10" font-weight="700">施行令14条1項6号のうち他の者の固定資産を</text>
+  <text x="1205" y="700" text-anchor="middle" fill="#975a16" font-size="9">利用するための支出に限定</text>
+
+  <!-- イ -->
+  <rect x="1070" y="718" width="270" height="72" rx="6" fill="#fffff0" stroke="#ecc94b" stroke-width="1.5"/>
+  <text x="1085" y="738" fill="#b7791f" font-size="13" font-weight="700">イ  対象固定資産の3号事実</text>
+  <text x="1085" y="758" fill="#4a5568" font-size="11">繰延資産の対象となった</text>
+  <text x="1085" y="773" fill="#4a5568" font-size="11">固定資産に3号イ〜ニの</text>
+  <text x="1085" y="788" fill="#4a5568" font-size="11">事実が生じたこと</text>
+
+  <!-- ロ -->
+  <rect x="1070" y="800" width="270" height="48" rx="6" fill="#edf2f7" stroke="#cbd5e0" stroke-width="1.5"/>
+  <text x="1085" y="818" fill="#4a5568" font-size="13" font-weight="700">ロ  準ずる特別の事実</text>
+  <text x="1085" y="836" fill="#718096" font-size="11">イに準ずる特別の事実</text>
+
+  <!-- 参照矢印表示 -->
+  <rect x="1070" y="862" width="270" height="40" rx="6" fill="#fff5f5" stroke="#fc8181" stroke-width="1"/>
+  <text x="1205" y="880" text-anchor="middle" fill="#c05621" font-size="10" font-weight="600">3号（固定資産）の事実に連動</text>
+  <text x="1205" y="895" text-anchor="middle" fill="#718096" font-size="9">固定資産の事実 → 繰延資産へ波及</text>
+
+  <!-- 通達 -->
+  <text x="1070" y="935" fill="#d69e2e" font-size="10" font-weight="600">関連通達: 個別規定なし</text>
+  <text x="1070" y="950" fill="#718096" font-size="10">（3号の通達を参照適用）</text>
+
+
+  <!-- ============================================================ -->
+  <!-- SECTION 4: 通達体系マップ                                      -->
+  <!-- ============================================================ -->
+  <text x="50" y="1010" fill="#1a365d" font-size="20" font-weight="700">3. 法人税基本通達の体系マップ（第9章第1節）</text>
+  <line x1="50" y1="1018" x2="520" y2="1018" stroke="#ed8936" stroke-width="3"/>
+
+  <!-- 列1: 通則 -->
+  <rect x="30" y="1035" width="310" height="285" rx="8" fill="white" stroke="#4a5568" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="30" y="1035" width="310" height="36" rx="8" fill="#2d3748"/>
+  <rect x="30" y="1063" width="310" height="8" fill="#2d3748"/>
+  <text x="185" y="1059" text-anchor="middle" fill="white" font-size="14" font-weight="700">第1款 通則</text>
+
+  <circle cx="62" cy="1092" r="12" fill="#4a5568"/>
+  <text x="62" y="1097" text-anchor="middle" fill="white" font-size="11" font-weight="700">1</text>
+  <text x="82" y="1097" fill="#2d3748" font-size="12" font-weight="600">9-1-1  評価損の計上ができる場合</text>
+
+  <circle cx="62" cy="1122" r="12" fill="#4a5568"/>
+  <text x="62" y="1127" text-anchor="middle" fill="white" font-size="11" font-weight="700">2</text>
+  <text x="82" y="1127" fill="#2d3748" font-size="12" font-weight="600">9-1-2  物損等の事実の意義</text>
+
+  <circle cx="62" cy="1152" r="12" fill="#4a5568"/>
+  <text x="62" y="1157" text-anchor="middle" fill="white" font-size="11" font-weight="700">3</text>
+  <text x="82" y="1157" fill="#2d3748" font-size="12" font-weight="600">9-1-3  資産の価額（時価の定義）</text>
+
+  <circle cx="62" cy="1182" r="12" fill="#4a5568"/>
+  <text x="62" y="1187" text-anchor="middle" fill="white" font-size="11" font-weight="700">4</text>
+  <text x="82" y="1187" fill="#2d3748" font-size="12" font-weight="600">9-1-3の2  一定の評定の意義</text>
+
+  <circle cx="62" cy="1212" r="12" fill="#4a5568"/>
+  <text x="62" y="1217" text-anchor="middle" fill="white" font-size="11" font-weight="700">5</text>
+  <text x="82" y="1217" fill="#2d3748" font-size="12" font-weight="600">9-1-4  評価損の損金算入の手続</text>
+
+  <text x="50" y="1258" fill="#718096" font-size="10">全4資産類型に共通する基本的事項。</text>
+  <text x="50" y="1273" fill="#718096" font-size="10">物損等の事実・法的整理の事実の定義、</text>
+  <text x="50" y="1288" fill="#718096" font-size="10">損金算入の手続要件等を規定。</text>
+  <text x="50" y="1308" fill="#4a5568" font-size="10" font-weight="600">→ 全ての資産区分の判定の前提</text>
+
+  <!-- 列2: 棚卸資産の通達 -->
+  <rect x="370" y="1035" width="310" height="285" rx="8" fill="white" stroke="#3182ce" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="370" y="1035" width="310" height="36" rx="8" fill="url(#blueGrad)"/>
+  <rect x="370" y="1063" width="310" height="8" fill="url(#blueGrad)"/>
+  <text x="525" y="1059" text-anchor="middle" fill="white" font-size="14" font-weight="700">第2款 棚卸資産</text>
+
+  <circle cx="402" cy="1092" r="12" fill="#3182ce"/>
+  <text x="402" y="1097" text-anchor="middle" fill="white" font-size="11" font-weight="700">1</text>
+  <text x="422" y="1097" fill="#2d3748" font-size="12" font-weight="600">9-1-4の2  陳腐化の例示</text>
+
+  <circle cx="402" cy="1122" r="12" fill="#3182ce"/>
+  <text x="402" y="1127" text-anchor="middle" fill="white" font-size="11" font-weight="700">2</text>
+  <text x="422" y="1127" fill="#2d3748" font-size="12" font-weight="600">9-1-5  低価法との関係</text>
+
+  <circle cx="402" cy="1152" r="12" fill="#3182ce"/>
+  <text x="402" y="1157" text-anchor="middle" fill="white" font-size="11" font-weight="700">3</text>
+  <text x="422" y="1157" fill="#2d3748" font-size="12" font-weight="600">9-1-6  評価損計上後の処理</text>
+
+  <text x="390" y="1200" fill="#718096" font-size="10">棚卸資産固有の解釈指針。</text>
+  <text x="390" y="1215" fill="#718096" font-size="10">「著しく陳腐化」の具体的判断基準、</text>
+  <text x="390" y="1230" fill="#718096" font-size="10">低価法との適用関係を明確化。</text>
+  <text x="390" y="1258" fill="#3182ce" font-size="10" font-weight="600">ポイント: 陳腐化 = 型式・性能・品質の</text>
+  <text x="390" y="1273" fill="#3182ce" font-size="10" font-weight="600">著しい劣化（物理的ではなく経済的価値喪失）</text>
+
+  <!-- 列3: 有価証券の通達 -->
+  <rect x="710" y="1035" width="310" height="285" rx="8" fill="white" stroke="#805ad5" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="710" y="1035" width="310" height="36" rx="8" fill="url(#purpleGrad)"/>
+  <rect x="710" y="1063" width="310" height="8" fill="url(#purpleGrad)"/>
+  <text x="865" y="1059" text-anchor="middle" fill="white" font-size="14" font-weight="700">第3款 有価証券</text>
+
+  <circle cx="742" cy="1092" r="12" fill="#805ad5"/>
+  <text x="742" y="1097" text-anchor="middle" fill="white" font-size="11" font-weight="700">1</text>
+  <text x="762" y="1097" fill="#2d3748" font-size="12" font-weight="600">9-1-7  著しく低下の判定</text>
+
+  <circle cx="742" cy="1122" r="12" fill="#805ad5"/>
+  <text x="742" y="1127" text-anchor="middle" fill="white" font-size="11" font-weight="700">2</text>
+  <text x="762" y="1127" fill="#2d3748" font-size="12" font-weight="600">9-1-8  上場有価証券の時価</text>
+
+  <circle cx="742" cy="1152" r="12" fill="#805ad5"/>
+  <text x="742" y="1157" text-anchor="middle" fill="white" font-size="11" font-weight="700">3</text>
+  <text x="762" y="1157" fill="#2d3748" font-size="12" font-weight="600">9-1-9  資産状態の著しい悪化</text>
+
+  <circle cx="742" cy="1182" r="12" fill="#805ad5"/>
+  <text x="742" y="1187" text-anchor="middle" fill="white" font-size="11" font-weight="700">4</text>
+  <text x="762" y="1187" fill="#2d3748" font-size="12" font-weight="600">9-1-11 ロ号への9-1-7準用</text>
+
+  <circle cx="742" cy="1212" r="12" fill="#805ad5"/>
+  <text x="742" y="1217" text-anchor="middle" fill="white" font-size="11" font-weight="700">5</text>
+  <text x="762" y="1217" fill="#2d3748" font-size="12" font-weight="600">9-1-13/14  非上場株式の時価</text>
+
+  <text x="730" y="1258" fill="#718096" font-size="10">最も精緻な通達体系。50%基準、</text>
+  <text x="730" y="1273" fill="#718096" font-size="10">回復見込み判断、時価算定手法を規定。</text>
+  <text x="730" y="1298" fill="#805ad5" font-size="10" font-weight="600">※ 詳細は evaluation_loss_overview.svg で</text>
+  <text x="730" y="1313" fill="#805ad5" font-size="10" font-weight="600">  有価証券に特化した構造を図示</text>
+
+  <!-- 列4: 固定資産の通達 -->
+  <rect x="1050" y="1035" width="310" height="285" rx="8" fill="white" stroke="#dd6b20" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="1050" y="1035" width="310" height="36" rx="8" fill="url(#orangeGrad)"/>
+  <rect x="1050" y="1063" width="310" height="8" fill="url(#orangeGrad)"/>
+  <text x="1205" y="1059" text-anchor="middle" fill="white" font-size="14" font-weight="700">第4款 固定資産</text>
+
+  <circle cx="1082" cy="1092" r="12" fill="#dd6b20"/>
+  <text x="1082" y="1097" text-anchor="middle" fill="white" font-size="11" font-weight="700">1</text>
+  <text x="1102" y="1097" fill="#2d3748" font-size="12" font-weight="600">9-1-16  1年以上遊休の意義</text>
+
+  <circle cx="1082" cy="1122" r="12" fill="#dd6b20"/>
+  <text x="1082" y="1127" text-anchor="middle" fill="white" font-size="11" font-weight="700">2</text>
+  <text x="1102" y="1127" fill="#2d3748" font-size="12" font-weight="600">9-1-17  用途変更の判定</text>
+
+  <circle cx="1082" cy="1152" r="12" fill="#dd6b20"/>
+  <text x="1082" y="1157" text-anchor="middle" fill="white" font-size="11" font-weight="700">3</text>
+  <text x="1102" y="1157" fill="#2d3748" font-size="12" font-weight="600">9-1-18  場所状況変化の判定</text>
+
+  <circle cx="1082" cy="1182" r="12" fill="#dd6b20"/>
+  <text x="1082" y="1187" text-anchor="middle" fill="white" font-size="11" font-weight="700">4</text>
+  <text x="1102" y="1187" fill="#2d3748" font-size="12" font-weight="600">9-1-19  固定資産の範囲</text>
+
+  <text x="1070" y="1228" fill="#718096" font-size="10">固定資産固有の5類型の解釈基準。</text>
+  <text x="1070" y="1243" fill="#718096" font-size="10">「遊休」「用途変更」「場所的変化」の</text>
+  <text x="1070" y="1258" fill="#718096" font-size="10">具体的判断要素を規定。</text>
+  <text x="1070" y="1288" fill="#dd6b20" font-size="10" font-weight="600">ポイント: 固定資産は物理的事実（災害）と</text>
+  <text x="1070" y="1303" fill="#dd6b20" font-size="10" font-weight="600">経済的事実（遊休・用途変更）の双方を包含</text>
+
+
+  <!-- ============================================================ -->
+  <!-- SECTION 5: 共通判定フロー                                      -->
+  <!-- ============================================================ -->
+  <text x="50" y="1390" fill="#1a365d" font-size="20" font-weight="700">4. 評価損計上の共通判定フロー</text>
+  <line x1="50" y1="1398" x2="400" y2="1398" stroke="#ed8936" stroke-width="3"/>
+
+  <!-- 凡例バー -->
+  <rect x="50" y="1415" width="1300" height="40" rx="8" fill="#edf2f7" stroke="#cbd5e0" stroke-width="1"/>
+  <text x="80" y="1440" fill="#1a365d" font-size="12" font-weight="700">凡例:</text>
+  <rect x="130" y="1427" width="14" height="14" rx="3" fill="#2d3748"/>
+  <text x="152" y="1439" fill="#4a5568" font-size="11">判定ステップ</text>
+  <rect x="280" y="1427" width="14" height="14" rx="3" fill="url(#exceptionGrad)"/>
+  <text x="302" y="1439" fill="#4a5568" font-size="11">適用許可</text>
+  <rect x="410" y="1427" width="14" height="14" rx="3" fill="url(#principleGrad)"/>
+  <text x="432" y="1439" fill="#4a5568" font-size="11">損金不算入</text>
+  <line x1="560" y1="1434" x2="610" y2="1434" stroke="#38a169" stroke-width="2" marker-end="url(#arrowGreen)"/>
+  <text x="620" y="1439" fill="#4a5568" font-size="11">YES</text>
+  <line x1="680" y1="1434" x2="730" y2="1434" stroke="#e53e3e" stroke-width="2" marker-end="url(#arrowRed)"/>
+  <text x="740" y="1439" fill="#4a5568" font-size="11">NO</text>
+
+  <!-- Step 1: 資産の区分判定 -->
+  <rect x="250" y="1475" width="700" height="48" rx="24" fill="#2d3748" filter="url(#shadow)"/>
+  <text x="600" y="1505" text-anchor="middle" fill="white" font-size="15" font-weight="700">Step 1：資産の区分判定（棚卸 / 有価証券 / 固定 / 繰延）</text>
+
+  <!-- 分岐カード4つ（小さく） -->
+  <rect x="255" y="1535" width="155" height="24" rx="6" fill="url(#blueGrad)"/>
+  <text x="332" y="1552" text-anchor="middle" fill="white" font-size="11" font-weight="700">1号 棚卸資産</text>
+  <rect x="420" y="1535" width="155" height="24" rx="6" fill="url(#purpleGrad)"/>
+  <text x="497" y="1552" text-anchor="middle" fill="white" font-size="11" font-weight="700">2号 有価証券</text>
+  <rect x="585" y="1535" width="155" height="24" rx="6" fill="url(#orangeGrad)"/>
+  <text x="662" y="1552" text-anchor="middle" fill="white" font-size="11" font-weight="700">3号 固定資産</text>
+  <rect x="750" y="1535" width="155" height="24" rx="6" fill="url(#yellowGrad)"/>
+  <text x="827" y="1552" text-anchor="middle" fill="white" font-size="11" font-weight="700">4号 繰延資産</text>
+
+  <line x1="600" y1="1559" x2="600" y2="1590" stroke="#4a5568" stroke-width="2" marker-end="url(#arrowDown)"/>
+
+  <!-- Step 2: 物損等の事実 or 法的整理の事実 -->
+  <rect x="200" y="1595" width="800" height="48" rx="24" fill="#2d3748" filter="url(#shadow)"/>
+  <text x="600" y="1625" text-anchor="middle" fill="white" font-size="14" font-weight="700">Step 2：物損等の事実 or 法的整理の事実が生じたか？</text>
+
+  <!-- YES arrow down -->
+  <line x1="600" y1="1643" x2="600" y2="1680" stroke="#38a169" stroke-width="2" marker-end="url(#arrowGreen)"/>
+  <text x="580" y="1670" fill="#38a169" font-size="11" font-weight="700">YES</text>
+
+  <!-- NO arrow right -->
+  <line x1="1000" y1="1619" x2="1120" y2="1619" stroke="#e53e3e" stroke-width="2" marker-end="url(#arrowRed)"/>
+  <text x="1050" y="1612" fill="#e53e3e" font-size="10" font-weight="700">NO</text>
+  <rect x="1130" y="1604" width="200" height="30" rx="6" fill="url(#principleGrad)" filter="url(#shadowLight)"/>
+  <text x="1230" y="1624" text-anchor="middle" fill="white" font-size="12" font-weight="700">損金不算入</text>
+
+  <!-- Step 3: 帳簿価額 > 期末価額？ -->
+  <rect x="200" y="1685" width="800" height="48" rx="24" fill="#2d3748" filter="url(#shadow)"/>
+  <text x="600" y="1715" text-anchor="middle" fill="white" font-size="14" font-weight="700">Step 3：帳簿価額 &gt; 事業年度終了時の価額か？</text>
+
+  <!-- YES arrow down -->
+  <line x1="600" y1="1733" x2="600" y2="1770" stroke="#38a169" stroke-width="2" marker-end="url(#arrowGreen)"/>
+  <text x="580" y="1760" fill="#38a169" font-size="11" font-weight="700">YES</text>
+
+  <!-- NO arrow right -->
+  <line x1="1000" y1="1709" x2="1120" y2="1709" stroke="#e53e3e" stroke-width="2" marker-end="url(#arrowRed)"/>
+  <text x="1050" y="1702" fill="#e53e3e" font-size="10" font-weight="700">NO</text>
+  <rect x="1130" y="1694" width="200" height="30" rx="6" fill="url(#principleGrad)" filter="url(#shadowLight)"/>
+  <text x="1230" y="1714" text-anchor="middle" fill="white" font-size="12" font-weight="700">損金不算入</text>
+
+  <!-- Step 4: 損金経理 -->
+  <rect x="200" y="1775" width="800" height="48" rx="24" fill="#2d3748" filter="url(#shadow)"/>
+  <text x="600" y="1805" text-anchor="middle" fill="white" font-size="14" font-weight="700">Step 4：損金経理により帳簿価額を減額したか？</text>
+
+  <!-- YES arrow down -->
+  <line x1="600" y1="1823" x2="600" y2="1860" stroke="#38a169" stroke-width="2" marker-end="url(#arrowGreen)"/>
+  <text x="580" y="1850" fill="#38a169" font-size="11" font-weight="700">YES</text>
+
+  <!-- NO arrow right -->
+  <line x1="1000" y1="1799" x2="1120" y2="1799" stroke="#e53e3e" stroke-width="2" marker-end="url(#arrowRed)"/>
+  <text x="1050" y="1792" fill="#e53e3e" font-size="10" font-weight="700">NO</text>
+  <rect x="1130" y="1784" width="200" height="30" rx="6" fill="url(#principleGrad)" filter="url(#shadowLight)"/>
+  <text x="1230" y="1804" text-anchor="middle" fill="white" font-size="12" font-weight="700">損金不算入</text>
+
+  <!-- Step 5: 明細書の添付 -->
+  <rect x="200" y="1865" width="800" height="48" rx="24" fill="#2d3748" filter="url(#shadow)"/>
+  <text x="600" y="1895" text-anchor="middle" fill="white" font-size="14" font-weight="700">Step 5：確定申告書に評価損の損金算入に関する明細書を添付？</text>
+
+  <!-- YES arrow down -->
+  <line x1="600" y1="1913" x2="600" y2="1950" stroke="#38a169" stroke-width="3" marker-end="url(#arrowGreen)"/>
+  <text x="580" y="1940" fill="#38a169" font-size="11" font-weight="700">YES</text>
+
+  <!-- NO arrow right -->
+  <line x1="1000" y1="1889" x2="1120" y2="1889" stroke="#e53e3e" stroke-width="2" marker-end="url(#arrowRed)"/>
+  <text x="1050" y="1882" fill="#e53e3e" font-size="10" font-weight="700">NO</text>
+  <rect x="1130" y="1874" width="200" height="30" rx="6" fill="url(#principleGrad)" filter="url(#shadowLight)"/>
+  <text x="1230" y="1894" text-anchor="middle" fill="white" font-size="12" font-weight="700">損金不算入</text>
+
+  <!-- 結果：損金算入OK -->
+  <rect x="300" y="1960" width="600" height="60" rx="10" fill="url(#exceptionGrad)" filter="url(#shadow)"/>
+  <text x="600" y="1988" text-anchor="middle" fill="white" font-size="20" font-weight="800">評価損の損金算入OK</text>
+  <text x="600" y="2010" text-anchor="middle" fill="#c6f6d5" font-size="12">限度額 = 評価換え直前の帳簿価額 - 事業年度終了時の価額（法33条2項）</text>
+
+
+  <!-- ============================================================ -->
+  <!-- SECTION 6: 資産横断の構造比較テーブル                           -->
+  <!-- ============================================================ -->
+  <text x="50" y="2080" fill="#1a365d" font-size="20" font-weight="700">5. 4資産類型の構造比較</text>
+  <line x1="50" y1="2088" x2="350" y2="2088" stroke="#ed8936" stroke-width="3"/>
+
+  <!-- テーブルヘッダー -->
+  <rect x="50" y="2105" width="1300" height="36" rx="0" fill="#2d3748"/>
+  <text x="155" y="2128" text-anchor="middle" fill="white" font-size="12" font-weight="700">比較項目</text>
+  <line x1="260" y1="2105" x2="260" y2="2141" stroke="#4a5568" stroke-width="1"/>
+  <text x="395" y="2128" text-anchor="middle" fill="#bee3f8" font-size="12" font-weight="700">1号 棚卸資産</text>
+  <line x1="530" y1="2105" x2="530" y2="2141" stroke="#4a5568" stroke-width="1"/>
+  <text x="665" y="2128" text-anchor="middle" fill="#e9d8fd" font-size="12" font-weight="700">2号 有価証券</text>
+  <line x1="800" y1="2105" x2="800" y2="2141" stroke="#4a5568" stroke-width="1"/>
+  <text x="935" y="2128" text-anchor="middle" fill="#feebc8" font-size="12" font-weight="700">3号 固定資産</text>
+  <line x1="1070" y1="2105" x2="1070" y2="2141" stroke="#4a5568" stroke-width="1"/>
+  <text x="1215" y="2128" text-anchor="middle" fill="#fefcbf" font-size="12" font-weight="700">4号 繰延資産</text>
+
+  <!-- Row 1: 事実の数 -->
+  <rect x="50" y="2141" width="1300" height="40" rx="0" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="155" y="2166" text-anchor="middle" fill="#2d3748" font-size="12" font-weight="700">事実の類型数</text>
+  <line x1="260" y1="2141" x2="260" y2="2181" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="395" y="2166" text-anchor="middle" fill="#2b6cb0" font-size="18" font-weight="800">3</text>
+  <line x1="530" y1="2141" x2="530" y2="2181" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="665" y="2166" text-anchor="middle" fill="#553c9a" font-size="18" font-weight="800">3</text>
+  <line x1="800" y1="2141" x2="800" y2="2181" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="935" y="2166" text-anchor="middle" fill="#c05621" font-size="18" font-weight="800">5</text>
+  <line x1="1070" y1="2141" x2="1070" y2="2181" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="1215" y="2166" text-anchor="middle" fill="#b7791f" font-size="18" font-weight="800">2</text>
+
+  <!-- Row 2: 事実の性質 -->
+  <rect x="50" y="2181" width="1300" height="50" rx="0" fill="#f7fafc" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="155" y="2206" text-anchor="middle" fill="#2d3748" font-size="12" font-weight="700">事実の性質</text>
+  <line x1="260" y1="2181" x2="260" y2="2231" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="395" y="2201" text-anchor="middle" fill="#4a5568" font-size="11">物理的損傷</text>
+  <text x="395" y="2218" text-anchor="middle" fill="#4a5568" font-size="11">経済的陳腐化</text>
+  <line x1="530" y1="2181" x2="530" y2="2231" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="665" y="2201" text-anchor="middle" fill="#4a5568" font-size="11">市場価額の低下</text>
+  <text x="665" y="2218" text-anchor="middle" fill="#4a5568" font-size="11">発行法人の悪化</text>
+  <line x1="800" y1="2181" x2="800" y2="2231" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="935" y="2201" text-anchor="middle" fill="#4a5568" font-size="11">物理的＋経済的</text>
+  <text x="935" y="2218" text-anchor="middle" fill="#4a5568" font-size="11">（最も広範）</text>
+  <line x1="1070" y1="2181" x2="1070" y2="2231" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="1215" y="2201" text-anchor="middle" fill="#4a5568" font-size="11">固定資産の事実</text>
+  <text x="1215" y="2218" text-anchor="middle" fill="#4a5568" font-size="11">に連動（従属的）</text>
+
+  <!-- Row 3: 災害損傷 -->
+  <rect x="50" y="2231" width="1300" height="40" rx="0" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="155" y="2256" text-anchor="middle" fill="#2d3748" font-size="12" font-weight="700">災害損傷</text>
+  <line x1="260" y1="2231" x2="260" y2="2271" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="395" y="2256" text-anchor="middle" fill="#38a169" font-size="13" font-weight="700">あり（イ）</text>
+  <line x1="530" y1="2231" x2="530" y2="2271" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="665" y="2256" text-anchor="middle" fill="#e53e3e" font-size="13" font-weight="700">なし</text>
+  <line x1="800" y1="2231" x2="800" y2="2271" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="935" y="2256" text-anchor="middle" fill="#38a169" font-size="13" font-weight="700">あり（イ）</text>
+  <line x1="1070" y1="2231" x2="1070" y2="2271" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="1215" y="2256" text-anchor="middle" fill="#d69e2e" font-size="13" font-weight="700">間接的</text>
+
+  <!-- Row 4: 受け皿規定 -->
+  <rect x="50" y="2271" width="1300" height="40" rx="0" fill="#f7fafc" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="155" y="2296" text-anchor="middle" fill="#2d3748" font-size="12" font-weight="700">受け皿規定</text>
+  <line x1="260" y1="2271" x2="260" y2="2311" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="395" y="2296" text-anchor="middle" fill="#4a5568" font-size="11">ハ: イ又はロに準ずる</text>
+  <line x1="530" y1="2271" x2="530" y2="2311" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="665" y="2296" text-anchor="middle" fill="#4a5568" font-size="11">ハ: ロに準ずる</text>
+  <line x1="800" y1="2271" x2="800" y2="2311" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="935" y="2296" text-anchor="middle" fill="#4a5568" font-size="11">ホ: イ〜ニに準ずる</text>
+  <line x1="1070" y1="2271" x2="1070" y2="2311" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="1215" y="2296" text-anchor="middle" fill="#4a5568" font-size="11">ロ: イに準ずる</text>
+
+  <!-- Row 5: 通達体系 -->
+  <rect x="50" y="2311" width="1300" height="50" rx="0" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="155" y="2336" text-anchor="middle" fill="#2d3748" font-size="12" font-weight="700">通達体系</text>
+  <line x1="260" y1="2311" x2="260" y2="2361" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="395" y="2331" text-anchor="middle" fill="#4a5568" font-size="11">第2款</text>
+  <text x="395" y="2348" text-anchor="middle" fill="#3182ce" font-size="10" font-weight="600">9-1-4の2等</text>
+  <line x1="530" y1="2311" x2="530" y2="2361" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="665" y="2331" text-anchor="middle" fill="#4a5568" font-size="11">第3款（最精緻）</text>
+  <text x="665" y="2348" text-anchor="middle" fill="#805ad5" font-size="10" font-weight="600">9-1-7〜9-1-15</text>
+  <line x1="800" y1="2311" x2="800" y2="2361" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="935" y="2331" text-anchor="middle" fill="#4a5568" font-size="11">第4款</text>
+  <text x="935" y="2348" text-anchor="middle" fill="#dd6b20" font-size="10" font-weight="600">9-1-16〜9-1-19</text>
+  <line x1="1070" y1="2311" x2="1070" y2="2361" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="1215" y="2331" text-anchor="middle" fill="#4a5568" font-size="11">独立規定なし</text>
+  <text x="1215" y="2348" text-anchor="middle" fill="#718096" font-size="10">3号通達を参照</text>
+
+  <!-- Row 6: 適用除外 -->
+  <rect x="50" y="2361" width="1300" height="55" rx="0" fill="#f7fafc" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="155" y="2386" text-anchor="middle" fill="#2d3748" font-size="12" font-weight="700">特有の注意点</text>
+  <line x1="260" y1="2361" x2="260" y2="2416" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="395" y="2381" text-anchor="middle" fill="#4a5568" font-size="10">低価法との関係</text>
+  <text x="395" y="2398" text-anchor="middle" fill="#4a5568" font-size="10">（通達9-1-5）</text>
+  <line x1="530" y1="2361" x2="530" y2="2416" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="665" y="2381" text-anchor="middle" fill="#4a5568" font-size="10">売買目的はロ・ハのみ</text>
+  <text x="665" y="2398" text-anchor="middle" fill="#4a5568" font-size="10">完全支配関係で適用除外</text>
+  <line x1="800" y1="2361" x2="800" y2="2416" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="935" y="2381" text-anchor="middle" fill="#4a5568" font-size="10">類型数最多（5種）</text>
+  <text x="935" y="2398" text-anchor="middle" fill="#4a5568" font-size="10">物理的＋経済的事実</text>
+  <line x1="1070" y1="2361" x2="1070" y2="2416" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="1215" y="2381" text-anchor="middle" fill="#4a5568" font-size="10">施行令14条1項6号の</text>
+  <text x="1215" y="2398" text-anchor="middle" fill="#4a5568" font-size="10">一部に限定</text>
+
+  <!-- テーブル角丸の枠線（外周） -->
+  <rect x="50" y="2105" width="1300" height="311" rx="0" fill="none" stroke="#cbd5e0" stroke-width="1.5"/>
+
+
+  <!-- ============================================================ -->
+  <!-- 補足: 法的整理の事実                                           -->
+  <!-- ============================================================ -->
+  <text x="50" y="2470" fill="#1a365d" font-size="20" font-weight="700">6. 法的整理の事実（施行令68条2項）── 全資産共通</text>
+  <line x1="50" y1="2478" x2="530" y2="2478" stroke="#ed8936" stroke-width="3"/>
+
+  <rect x="50" y="2495" width="1300" height="120" rx="8" fill="white" stroke="#e2e8f0" stroke-width="2" filter="url(#shadow)"/>
+
+  <!-- 3つの法的整理事由 -->
+  <rect x="80" y="2510" width="380" height="44" rx="8" fill="url(#exceptionGrad)" filter="url(#shadowLight)"/>
+  <text x="270" y="2530" text-anchor="middle" fill="white" font-size="13" font-weight="700">更生計画認可の決定に基づく評定</text>
+  <text x="270" y="2548" text-anchor="middle" fill="#c6f6d5" font-size="10">法33条3項（損金経理要件なし）</text>
+
+  <rect x="490" y="2510" width="380" height="44" rx="8" fill="url(#exceptionGrad)" filter="url(#shadowLight)"/>
+  <text x="680" y="2530" text-anchor="middle" fill="white" font-size="13" font-weight="700">再生計画認可の決定に準ずる事実</text>
+  <text x="680" y="2548" text-anchor="middle" fill="#c6f6d5" font-size="10">法33条4項（申告要件あり）</text>
+
+  <rect x="900" y="2510" width="420" height="44" rx="8" fill="url(#yellowGrad)" filter="url(#shadowLight)"/>
+  <text x="1110" y="2530" text-anchor="middle" fill="white" font-size="13" font-weight="700">更生手続における評定に準ずる特別の事実</text>
+  <text x="1110" y="2548" text-anchor="middle" fill="#fefcbf" font-size="10">施行令68条2項（法的整理の事実の受け皿）</text>
+
+  <text x="80" y="2585" fill="#4a5568" font-size="12" font-weight="600">共通の効果：物損等の事実と並んで、帳簿価額を下回ることとなった資産について評価損の損金算入を認める</text>
+  <text x="80" y="2602" fill="#718096" font-size="11">※ 法的整理の事実は4資産類型全てに共通して適用される。資産区分ごとの具体的事実の定め（1〜4号）は物損等の事実に特有。</text>
+
+
+  <!-- ============================================================ -->
+  <!-- 全体の整合性を示す補足バー                                      -->
+  <!-- ============================================================ -->
+  <rect x="50" y="2640" width="1300" height="95" rx="8" fill="#edf2f7" stroke="#cbd5e0" stroke-width="1"/>
+  <text x="80" y="2665" fill="#1a365d" font-size="14" font-weight="700">構造の全体像</text>
+  <text x="80" y="2688" fill="#4a5568" font-size="12">法33条1項（原則：損金不算入） → 2項（例外：物損等の事実 → 施行令68条1項で4資産に展開） → 各号で具体的事実を限定列挙</text>
+  <text x="80" y="2708" fill="#4a5568" font-size="12">法人税基本通達（第9章第1節第1〜4款）が各資産類型ごとに解釈基準を提供。有価証券が最も精緻な通達体系を有する。</text>
+  <text x="80" y="2728" fill="#718096" font-size="11">共通要件：(a) 物損等の事実又は法的整理の事実の発生 → (b) 帳簿価額を下回る → (c) 損金経理による帳簿価額減額 → (d) 明細書の添付</text>
+
+  <!-- 色の凡例 -->
+  <rect x="50" y="2755" width="1300" height="50" rx="8" fill="#edf2f7" stroke="#cbd5e0" stroke-width="1"/>
+  <text x="80" y="2780" fill="#1a365d" font-size="12" font-weight="700">色の意味:</text>
+  <rect x="170" y="2770" width="14" height="14" rx="3" fill="url(#blueGrad)"/>
+  <text x="190" y="2782" fill="#4a5568" font-size="11">棚卸資産（1号）</text>
+  <rect x="320" y="2770" width="14" height="14" rx="3" fill="url(#purpleGrad)"/>
+  <text x="340" y="2782" fill="#4a5568" font-size="11">有価証券（2号）</text>
+  <rect x="470" y="2770" width="14" height="14" rx="3" fill="url(#orangeGrad)"/>
+  <text x="490" y="2782" fill="#4a5568" font-size="11">固定資産（3号）</text>
+  <rect x="620" y="2770" width="14" height="14" rx="3" fill="url(#yellowGrad)"/>
+  <text x="640" y="2782" fill="#4a5568" font-size="11">繰延資産（4号）</text>
+  <rect x="790" y="2770" width="14" height="14" rx="3" fill="url(#principleGrad)"/>
+  <text x="810" y="2782" fill="#4a5568" font-size="11">原則（損金不算入）</text>
+  <rect x="960" y="2770" width="14" height="14" rx="3" fill="url(#exceptionGrad)"/>
+  <text x="980" y="2782" fill="#4a5568" font-size="11">例外（損金算入）</text>
+  <rect x="1110" y="2770" width="14" height="14" rx="3" fill="#2d3748"/>
+  <text x="1130" y="2782" fill="#4a5568" font-size="11">分類・判定ステップ</text>
+
+
+  <!-- ============================================================ -->
+  <!-- FOOTER                                                        -->
+  <!-- ============================================================ -->
+  <rect x="0" y="2830" width="1400" height="80" fill="url(#headerGrad)"/>
+  <text x="700" y="2862" text-anchor="middle" fill="white" font-size="15" font-weight="600">法人税法第33条・施行令68条 ── 全資産類型の評価損構造図</text>
+  <text x="700" y="2886" text-anchor="middle" fill="#a0aec0" font-size="11">2026年2月8日 ｜ 法令基準日: 令和8年4月1日現在 ｜ Claude Opus 4.6 Deep Research</text>
+
+</svg>
+
+</div>
+
+<div class="card card-green">
+<h4>この図の読み方</h4>
+<p><strong>上段</strong>（法33条の規範構造）：原則（1項：評価損不算入）と例外（2項以下）の関係を示す。例外は「物損等の事実」と「法的整理の事実」に二分される。</p>
+<p><strong>中段</strong>（施行令68条の分岐ツリー）：物損等の事実が4つの資産区分に分かれる。各号の具体的要件（右側のカード）が、第1章の分析対象である。</p>
+<p><strong>下段</strong>（通達体系マップ＋判定フロー）：通達9-1-1〜9-1-19の全体像と、評価損計上の6ステップ判定フローを示す。</p>
+<p>第1章以降は、この全体像の各部分を詳細に掘り下げる構成となっている。全体像を念頭に置きながら各論を読み進めていただきたい。</p>
+</div>
+
+<!-- ===== 第1章 ===== -->
+<h2 id="ch1">第1章　施行令68条の全体構造</h2>
+
+<p>法人税法33条2項の「政令で定める事実」は、法人税法施行令68条1項に規定される。同項は、評価損計上の前提となる事実を<strong>「物損等の事実」</strong>と<strong>「法的整理の事実」</strong>の2類型に大別した上で、物損等の事実について4つの資産区分ごとに限定列挙する。評価損が認められる事実を限定列挙方式で規定するこの構造は、課税の安全性を重視する法人税法の基本姿勢を反映するものであるが、同時に、列挙されていない類型の経済的損失（例えば、単なる市場価格の下落）については評価損が一切認められないという硬直性をも内包している。</p>
+
+<div class="card card-info">
+<h4>施行令68条1項の基本構造</h4>
+<blockquote>法第三十三条第二項に規定する政令で定める事実は、<strong>物損等の事実</strong>（次の各号に掲げる資産の区分に応じ当該各号に定める事実であつて、当該事実が生じたことにより当該資産の価額がその帳簿価額を下回ることとなつたものをいう。）及び<strong>法的整理の事実</strong>（更生手続における評定が行われることに準ずる特別の事実をいう。）とする。</blockquote>
+<p>ここで重要なのは、物損等の事実には「<strong>当該事実が生じたことにより当該資産の価額がその帳簿価額を下回ることとなつた</strong>」という因果関係が要求されている点である。単に時価が帳簿価額を下回っただけでは足りず、所定の事実の発生と価額の下落との間に因果関係がなければならない。</p>
+</div>
+
+<!-- インラインSVG：4号分岐ツリー -->
+<div style="text-align:center; margin: 24px 0;">
+<svg viewBox="0 0 860 320" xmlns="http://www.w3.org/2000/svg" style="max-width:860px; width:100%;">
+<defs><filter id="ds1"><feDropShadow dx="1" dy="1" stdDeviation="2" flood-opacity="0.1"/></filter></defs>
+<rect x="280" y="10" width="300" height="40" rx="20" fill="#1a365d" filter="url(#ds1)"/>
+<text x="430" y="36" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">施行令68条1項：物損等の事実</text>
+<line x1="430" y1="50" x2="430" y2="80" stroke="#1a365d" stroke-width="2"/>
+<line x1="110" y1="80" x2="750" y2="80" stroke="#1a365d" stroke-width="2"/>
+<line x1="110" y1="80" x2="110" y2="100" stroke="#3182ce" stroke-width="2"/>
+<line x1="320" y1="80" x2="320" y2="100" stroke="#805ad5" stroke-width="2"/>
+<line x1="540" y1="80" x2="540" y2="100" stroke="#dd6b20" stroke-width="2"/>
+<line x1="750" y1="80" x2="750" y2="100" stroke="#d69e2e" stroke-width="2"/>
+<rect x="20" y="100" width="180" height="200" rx="8" fill="#ebf8ff" stroke="#3182ce" stroke-width="2" filter="url(#ds1)"/>
+<text x="110" y="125" text-anchor="middle" fill="#3182ce" font-size="13" font-weight="700">1号 棚卸資産</text>
+<text x="36" y="148" fill="#2d3748" font-size="11">イ 災害による著しい損傷</text>
+<text x="36" y="168" fill="#2d3748" font-size="11">ロ 著しい陳腐化</text>
+<text x="36" y="188" fill="#2d3748" font-size="11">ハ イ又はロに準ずる</text>
+<text x="50" y="206" fill="#2d3748" font-size="11">  特別の事実</text>
+<text x="110" y="278" text-anchor="middle" fill="#3182ce" font-size="20" font-weight="800">3類型</text>
+<rect x="230" y="100" width="180" height="200" rx="8" fill="#faf5ff" stroke="#805ad5" stroke-width="2" filter="url(#ds1)"/>
+<text x="320" y="125" text-anchor="middle" fill="#805ad5" font-size="13" font-weight="700">2号 有価証券</text>
+<text x="246" y="148" fill="#2d3748" font-size="11">イ 価額が著しく低下</text>
+<text x="246" y="168" fill="#2d3748" font-size="11">ロ 発行法人の資産状態</text>
+<text x="258" y="186" fill="#2d3748" font-size="11"> が著しく悪化＋</text>
+<text x="258" y="204" fill="#2d3748" font-size="11"> 価額著しく低下</text>
+<text x="246" y="224" fill="#2d3748" font-size="11">ハ ロに準ずる特別の事実</text>
+<text x="320" y="278" text-anchor="middle" fill="#805ad5" font-size="20" font-weight="800">3類型</text>
+<rect x="450" y="100" width="180" height="200" rx="8" fill="#fffaf0" stroke="#dd6b20" stroke-width="2" filter="url(#ds1)"/>
+<text x="540" y="125" text-anchor="middle" fill="#dd6b20" font-size="13" font-weight="700">3号 固定資産</text>
+<text x="466" y="148" fill="#2d3748" font-size="11">イ 災害による著しい損傷</text>
+<text x="466" y="168" fill="#2d3748" font-size="11">ロ 1年以上遊休状態</text>
+<text x="466" y="188" fill="#2d3748" font-size="11">ハ 用途変更</text>
+<text x="466" y="208" fill="#2d3748" font-size="11">ニ 所在場所の著しい変化</text>
+<text x="466" y="228" fill="#2d3748" font-size="11">ホ イ〜ニに準ずる</text>
+<text x="540" y="278" text-anchor="middle" fill="#dd6b20" font-size="20" font-weight="800">5類型</text>
+<rect x="660" y="100" width="180" height="200" rx="8" fill="#fffff0" stroke="#d69e2e" stroke-width="2" filter="url(#ds1)"/>
+<text x="750" y="125" text-anchor="middle" fill="#d69e2e" font-size="13" font-weight="700">4号 繰延資産</text>
+<text x="676" y="152" fill="#2d3748" font-size="11">イ 対象固定資産に</text>
+<text x="688" y="170" fill="#2d3748" font-size="11"> 3号イ〜ニの事実</text>
+<text x="676" y="194" fill="#2d3748" font-size="11">ロ イに準ずる</text>
+<text x="688" y="212" fill="#2d3748" font-size="11"> 特別の事実</text>
+<text x="676" y="244" fill="#718096" font-size="10">※他者の固定資産利用</text>
+<text x="676" y="258" fill="#718096" font-size="10">  目的の支出に限定</text>
+<text x="750" y="278" text-anchor="middle" fill="#d69e2e" font-size="20" font-weight="800">2類型</text>
+</svg>
+</div>
+
+<h3 id="ch1-1">1.1 棚卸資産（1号）</h3>
+
+<div class="card">
+<p>施行令68条1項1号は、棚卸資産について3つの事実を列挙する。</p>
+<p><strong>イ　災害により著しく損傷したこと</strong>。火災、地震、風水害等の自然災害のほか、事故等による物理的損傷を含む。単なる経年劣化は含まれない。</p>
+<p><strong>ロ　著しく陳腐化したこと</strong>。通達9-1-4は、これを「棚卸資産そのものには物質的な欠陥がないにもかかわらず経済的な環境の変化に伴ってその価値が著しく減少し、その価額が<strong>今後回復しないと認められる</strong>状態にあること」と定義する。具体例として、(1) 季節商品で売れ残り、今後通常の価額では販売できないことが既往の実績等に照らし明らかなもの、(2) 型式・性能・品質等が著しく異なる新製品の発売により、通常の方法では販売できなくなったものが挙げられる。</p>
+<p><strong>ハ　イ又はロに準ずる特別の事実</strong>。通達9-1-5は「破損、型崩れ、たなざらし、品質変化等により通常の方法によって販売することができないようになったこと」を例示する。</p>
+</div>
+
+<div class="card card-warning">
+<h4>評価損が認められない場合（通達9-1-6）</h4>
+<p>通達9-1-6は、棚卸資産の時価が<strong>単に物価変動、過剰生産、建値の変更等</strong>の事情によって低下しただけでは、施行令68条1項1号の事実に該当しないと明記する。これは極めて重要な制限であり、市場環境の変動による値下がりでは評価損計上が認められないことを意味する。</p>
+<p>この制限は、会計基準の棚卸資産評価基準（企業会計基準第9号）との対比で特に重要である。会計基準は「正味売却価額が帳簿価額を下回る場合」に簿価切下げを強制するが、そのトリガーに「物損等の事実」のような限定は設けていない。市場価格の下落だけで会計上の簿価切下げは義務づけられるが、税法上の評価損は認められない。大阪地裁平成23年3月24日判決は、貴金属等の販売用商品について8億円超の評価損を計上した事案であるが、棚卸資産の評価損における「著しい陳腐化」の解釈が中心的争点となった。裁判所は、単なる市場価格の下落ではなく商品自体の物質的又は経済的な状態変化が必要であるとの判断を示している。</p>
+<p>また通達9-1-6の2は、棚卸資産に係る評価損の計上が認められる場合であっても、法人がその評価損を個々の棚卸資産ごとに算定していない場合には、損金算入が認められないことを規定する。すなわち、棚卸資産の評価損は個別資産ごとの算定が要求されるのであり、一括的な評価損計上は許されない。この個別算定要件は、有価証券や固定資産の評価損にも通底する法人税法の基本的スタンスである。</p>
+</div>
+
+<h3 id="ch1-2">1.2 有価証券（2号）</h3>
+
+<div class="card">
+<p>施行令68条1項2号は、有価証券について3つの事実を列挙するが、その構造は棚卸資産・固定資産とは異なる特徴を持つ。</p>
+<p><strong>イ　市場有価証券等の価額が著しく低下したこと</strong>。施行令119条の13第1項1号〜4号に掲げる有価証券（取引所売買有価証券、店頭売買有価証券等）で、かつ償還有価証券に該当しないものが対象。通達9-1-7は「著しく低下した」の意義として、事業年度終了時の価額が帳簿価額の<strong>おおむね50%相当額を下回る</strong>こととし、かつ近い将来その価額の回復が見込まれないことを要件とする。</p>
+<p><strong>ロ　市場有価証券等以外の有価証券で、発行法人の資産状態が著しく悪化し、価額が著しく低下したこと</strong>。非上場株式等が対象。ここで注目すべきは、イとは異なり<strong>「発行法人の資産状態が著しく悪化した」という追加的要件</strong>が課されている点である。通達9-1-9は「資産状態が著しく悪化した」とは、当該有価証券の発行法人の1株当たりの純資産価額が、取得時と比較して<strong>おおむね50%以上下回る</strong>こととする。つまり、有価証券自体の価額低下だけでなく、その背景にある発行法人の財務状況悪化が二重に要求される。</p>
+<p><strong>ハ　ロに準ずる特別の事実</strong>。</p>
+</div>
+
+<div class="card card-info">
+<h4>非上場株式の価額算定（通達9-1-13、9-1-14）</h4>
+<p>非上場株式の時価認定は実務上最も困難な論点の一つである。通達9-1-13は以下の順序で判定する。</p>
+<ol>
+<li><strong>売買実例のあるもの</strong> ── 最近における売買の実例価額</li>
+<li><strong>公開途上にある株式</strong> ── 公開価格等を参酌した価額</li>
+<li><strong>類似法人の株式の価額があるもの</strong> ── 類似法人比準方式</li>
+<li><strong>上記以外</strong> ── 1株当たり純資産価額等を参酌して通常取引されると認められる価額</li>
+</ol>
+<p>通達9-1-14はさらに、財産評価基本通達178条〜189条の7の例によることを認める特例を置く。ただし、法人税法の文脈では以下の修正が必要とされる。</p>
+<ul>
+<li><strong>会社規模</strong>：中心的な同族株主の場合、常に「小会社」として評価</li>
+<li><strong>土地・上場有価証券</strong>：事業年度終了時の<strong>実際の時価</strong>（路線価ではない）</li>
+<li><strong>法人税額等相当額</strong>：評価差額に対する37%控除を<strong>行わない</strong></li>
+</ul>
+<p>この修正は、法人税法上の時価が相続税法上の時価よりも「実態に即した」ものであることを要求していることを示す重要な規定である。</p>
+<p>通達9-1-13と9-1-14の関係は、法人税法の時価と相続税法の時価の交錯を象徴する構造となっている。9-1-13は法人税法独自の評価方法を規定するが、9-1-14は財産評価基本通達（相続税法上の評価通達）の準用を認める。この「二重構造」は実務上の便宜を図るものであるが、同時に法人税法上の時価と相続税法上の時価の関係を複雑にしている。東京高裁平成28年4月21日判決では、通達9-1-14の趣旨解釈が争われ、裁判所は同通達が財産評価基本通達の「例による」とした趣旨は画一的処理の便宜のためであり、通達9-1-13の原則的評価方法による評価額を排除するものではないとの判断を示した。</p>
+<p>加藤浩氏は税務大学校論叢第96号「今後の取引相場のない株式の評価のあり方」において、非上場株式の時価評価方法が財産評価基本通達に過度に依存している現状を批判的に検討し、DCF法や類似上場会社比準法の活用を含めた評価方法の多元化を提言している。法人税法上の非上場株式の時価は、評価通達に拘束されない独自の概念であるはずだが、実務上は通達9-1-14を通じて評価通達に依拠する傾向が強い。この構造的問題は、本稿の第5章で論じる「通達による時価の画一化」問題の一側面である。</p>
+</div>
+
+<h3 id="ch1-3">1.3 固定資産（3号）</h3>
+
+<div class="card">
+<p>施行令68条1項3号は、固定資産について<strong>5つの事実</strong>を列挙する。4つの資産区分の中で最も多い。</p>
+<p><strong>イ　災害により著しく損傷したこと</strong>。棚卸資産の1号イと同趣旨。</p>
+<p><strong>ロ　1年以上にわたり遊休状態にあること</strong>。固定資産に特有の要件である。事業用に取得した資産が使用されないまま1年以上放置されている場合に該当する。ただし通達9-1-16は「やむを得ない事情によりその取得の時から1年以上事業の用に供されない」場合も準ずる特別の事実に含めている。</p>
+<p><strong>ハ　本来の用途に使用できず他の用途に使用されたこと</strong>。例えば、工場として取得した建物を倉庫として使用する場合等が想定される。</p>
+<p><strong>ニ　所在する場所の状況が著しく変化したこと</strong>。周辺環境の悪化（例：近隣に嫌悪施設が建設された、道路計画により立地条件が変化した等）により資産価値が低下した場合が該当する。</p>
+<p><strong>ホ　イからニまでに準ずる特別の事実</strong>。</p>
+</div>
+
+<div class="card card-accent">
+<h4>固定資産の評価損が認められない場合（通達9-1-17）── 極めて重要</h4>
+<p>通達9-1-17は、以下の事実に基づく価額の低下については評価損計上が<strong>認められない</strong>と明記する。</p>
+<ol>
+<li><strong>過度の使用又は修理の不十分等</strong>により著しく損耗していること</li>
+<li>当該固定資産について<strong>償却を行わなかったため</strong>償却不足額が生じていること</li>
+<li>当該固定資産の<strong>取得価額がその取得の時における事情等により同種の資産の価額に比して高い</strong>こと</li>
+</ol>
+<p>特に(3)は、いわゆる「高値掴み」のケースであり、取得時に割高な価格で購入したことによる含み損は評価損の対象とならない。これらはいずれも、資産の内在的価値の毀損ではなく、納税者側の事情（使用方法・会計処理・取得判断）に起因する帳簿価額との乖離であるため、評価損の計上事由から明示的に排除されている。固定資産は使用を目的とする資産であり、旧式化や経年劣化は減価償却を通じてコスト回収される仕組みとなっている点が、販売を目的とする棚卸資産（「陳腐化」が評価損事由となる1号ロ）との構造的相違である。</p>
+</div>
+
+<h3 id="ch1-4">1.4 繰延資産（4号）</h3>
+
+<div class="card">
+<p>施行令68条1項4号は、繰延資産について2つの事実を列挙する。ただし対象は限定的であり、「施行令第14条第1項第6号に掲げるもののうち<strong>他の者の有する固定資産を利用するために支出されたものに限る</strong>」とされる。典型例は、他人の建物を賃借するための権利金や共同的施設の負担金等である。</p>
+<p><strong>イ</strong>　その繰延資産の支出対象となった固定資産につき、固定資産の号（3号）のイ〜ニの事実が生じたこと。つまり、利用対象の固定資産自体に災害損傷・遊休・用途変更・場所状況変化が生じた場合である。</p>
+<p><strong>ロ</strong>　イに準ずる特別の事実。</p>
+<p>国税庁の通達体系では、繰延資産の評価損に関する独立した款は設けられていない。通則（9-1-1〜9-1-3の3）の一般規定で対応する構造である。これは繰延資産の評価損が実務上極めて稀であることを反映している。</p>
+</div>
+
+<h3 id="ch1-5">1.5 通達体系マップ</h3>
+
+<div class="card">
+<h4>法人税基本通達 第1節「資産の評価損」の構成</h4>
+<div class="table-wrap">
+<table>
+<tr><th>款</th><th>通達番号</th><th>対象資産</th><th>主要内容</th></tr>
+<tr><td><strong>第1款 通則</strong></td><td>9-1-1 〜 9-1-3の3</td><td>全資産共通</td><td>評価損の判定単位（9-1-1）、否認金のある資産の処理（9-1-2）、<strong>時価の定義（9-1-3）</strong>、金銭債権の除外（9-1-3の2）、法的整理の事実の例示（9-1-3の3）</td></tr>
+<tr><td><strong>第2款 棚卸資産</strong></td><td>9-1-4 〜 9-1-6の11</td><td>棚卸資産</td><td>著しい陳腐化の例示（9-1-4）、準ずる特別の事実（9-1-5）、<strong>評価損不可の場合（9-1-6）</strong>、補修用部品在庫調整勘定（9-1-6の2〜7）、単行本在庫調整勘定（9-1-6の8〜11）</td></tr>
+<tr><td><strong>第3款 有価証券</strong></td><td>9-1-7 〜 9-1-15の2</td><td>有価証券</td><td><strong>50%基準（9-1-7）</strong>、市場有価証券の価額（9-1-8）、発行法人の資産状態判定（9-1-9）、非上場株式の価額（9-1-13）、<strong>財基通準用の特例（9-1-14）</strong>、企業支配株式の時価（9-1-15）</td></tr>
+<tr><td><strong>第4款 固定資産</strong></td><td>9-1-16 〜 9-1-19</td><td>固定資産</td><td>準ずる特別の事実の例示（9-1-16）、<strong>評価損不可の場合（9-1-17）</strong>、土地賃貸の場合（9-1-18）、減価償却資産の時価（9-1-19）</td></tr>
+<tr><td>（独立款なし）</td><td>―</td><td>繰延資産</td><td>施行令68条1項4号の条文＋通則規定で対応</td></tr>
+</table>
+</div>
+</div>
+
+<div class="card card-green">
+<h4>全資産類型の横断比較</h4>
+<div class="table-wrap">
+<table>
+<tr><th>比較項目</th><th><span class="label label-blue">棚卸資産</span></th><th><span class="label label-purple">有価証券</span></th><th><span class="label label-orange">固定資産</span></th><th><span class="label label-yellow">繰延資産</span></th></tr>
+<tr><td><strong>事実の類型数</strong></td><td>3（イロハ）</td><td>3（イロハ）</td><td>5（イロハニホ）</td><td>2（イロ）</td></tr>
+<tr><td><strong>災害損傷</strong></td><td>あり（イ）</td><td>なし</td><td>あり（イ）</td><td>間接（3号経由）</td></tr>
+<tr><td><strong>陳腐化・旧式化</strong></td><td>陳腐化あり（ロ）</td><td>なし</td><td><strong>旧式化は不可</strong></td><td>なし</td></tr>
+<tr><td><strong>数値基準</strong></td><td>なし</td><td>50%基準</td><td>なし</td><td>なし</td></tr>
+<tr><td><strong>二重要件</strong></td><td>なし</td><td>2号ロ：発行法人の悪化＋価額低下</td><td>なし</td><td>なし</td></tr>
+<tr><td><strong>包括条項</strong></td><td>あり（ハ）</td><td>あり（ハ）</td><td>あり（ホ）</td><td>あり（ロ）</td></tr>
+<tr><td><strong>否定列挙</strong></td><td>9-1-6（物価変動等）</td><td>なし</td><td><strong>9-1-17（4類型）</strong></td><td>なし</td></tr>
+<tr><td><strong>通達の充実度</strong></td><td>中（在庫調整含む）</td><td>高（11通達）</td><td>低（4通達）</td><td>なし</td></tr>
+</table>
+</div>
+</div>
+
+<div class="card">
+<h4>通達体系の不均衡と実務への影響</h4>
+<p>上表から明らかな通り、4つの資産区分に対する通達の整備度には著しい不均衡が存在する。有価証券（第3款）には11の通達（9-1-7〜9-1-15の2）が配され、50%基準の具体的解釈、上場・非上場の区分、回復可能性の判断基準、財産評価基本通達準用の特例等が詳細に規定されている。これに対し、固定資産（第4款）にはわずか4つの通達（9-1-16〜9-1-19）しかなく、「物損等の事実」の具体的解釈や時価の算定方法に関する規定が十分とは言い難い。</p>
+<p>この不均衡は偶然ではない。有価証券は市場取引の対象であり、その時価と帳簿価額の乖離が頻繁かつ明確に発生するため、詳細な規定が必要とされた。バブル崩壊後の株価暴落期に多くの企業が有価証券の評価損計上を求めたことが、通達の充実化を促した歴史的背景がある。国税庁は平成21年4月に「上場有価証券の評価損に関する取扱い」を公表し、リーマンショック後の株価急落に対応した。</p>
+<p>他方、固定資産（特に不動産）の評価損は、前述の通り施行令68条1項3号の要件が極めて厳格であるため、そもそも評価損計上が認められるケース自体が少なく、通達の整備に対するニーズが相対的に低かった。しかしバブル崩壊後の地価下落期には、固定資産の含み損を抱えた企業から評価損計上の要望が多数寄せられ、通達の不備が問題視された。結局、不動産については会計基準の減損会計（2002年導入）が先行し、税法側は限定的な対応にとどまった。</p>
+<p>棚卸資産（第2款）は、在庫調整勘定に関する特殊な規定（9-1-6の2〜11）が含まれるものの、棚卸資産の評価損自体に関する規定は限定的である。これは、棚卸資産の評価については法人税法施行令28条〜28条の2の低価法の規定が別途存在し、そちらで対応可能なケースが多いことによる。ただし、低価法の適用と33条の評価損の適用は要件が異なり、低価法は選択適用であるのに対し評価損は一定の事実の発生が必要である点に注意が必要である。</p>
+<p>繰延資産に至っては独立の通達款が存在せず、施行令68条1項3号の2の条文と通則規定（第1款）のみで運用されている。繰延資産の評価損が問題となることは実務上稀であるが、長期前払費用や権利金等の繰延資産について「基礎となった事実に著しい変化があった」か否かの判断基準が不明確であることは、制度的な課題として指摘できる。</p>
+<p>この通達体系の不均衡は、法人税法上の評価損制度が<strong>事後的・反応的に発展</strong>してきたことを示している。有価証券の通達が充実しているのは、バブル崩壊やリーマンショック等の市場危機に対する事後的な対応の蓄積であり、体系的な制度設計の結果ではない。このため、各款間の整合性に課題があり、例えば棚卸資産の「著しい陳腐化」（1号ロ）と固定資産の「旧式化」（通達9-1-17(4)で否認）が同種の経済現象であるにもかかわらず評価損の可否が異なることの合理的説明は、資産の性質の違い（販売目的 vs 使用目的）に求めるほかない。こうした制度設計上の非対称性は、全資産類型を横断する統一的な評価損制度の構築が法人税法において実現していないことの証左でもある。</p>
+</div>
+
+
+<!-- ===== 第2章 ===== -->
+<h2 id="ch2">第2章　「時価」概念の横断分析</h2>
+
+<p>法人税法における「時価」は一枚岩ではない。条文ごとに異なる性格を持ち、さらに他の法域（相続税法、不動産鑑定評価基準等）との間でも定義が異なる。本章では、各法域における「時価」概念を横断的に比較分析する。</p>
+
+<div class="card">
+<h4>なぜ横断分析が必要か</h4>
+<p>「時価」という同一の言葉が、法人税法・相続税法・所得税法・会計基準・不動産鑑定評価基準においてそれぞれ異なる意味で用いられている。この多義性は、単なる用語の不統一ではなく、各法域が追求する政策目的の違いに根差すものである。法人税法は課税所得の正確な算定を目的とし、相続税法は相続財産の公平な評価を目的とし、会計基準は投資判断に資する情報提供を目的とする。これらの異なる目的が、同一の資産に対して異なる「時価」を導くのは必然的帰結である。</p>
+<p>しかし実務上は、ある法域で算定された「時価」が別の法域にも援用されることが多い。通達9-1-14が財産評価基本通達の例によることを認めていること、裁判所が不動産鑑定評価額を「時価」の証拠として採用すること、会計上の減損処理が税法の損金経理要件の前提となることなど、各法域の「時価」は相互に影響し合っている。この複雑な相互作用を理解するためには、各法域の「時価」の定義とその前提条件を横断的に把握する必要がある。</p>
+</div>
+
+
+<p>以下の時価概念マップは、各法域における「時価」定義の異同を1枚の構造図として可視化したものである。法人税法内部の分裂、法域間の比較、一物多価問題、通達と裁判所の緊張関係を俯瞰できる。</p>
+
+<div class="svg-embed" id="svg-jika">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 3080" font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif">
+  <defs>
+    <linearGradient id="jc-headerGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1a365d"/><stop offset="100%" stop-color="#2c5282"/>
+    </linearGradient>
+    <linearGradient id="jc-blueGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3182ce"/><stop offset="100%" stop-color="#2b6cb0"/>
+    </linearGradient>
+    <linearGradient id="jc-purpleGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#805ad5"/><stop offset="100%" stop-color="#553c9a"/>
+    </linearGradient>
+    <linearGradient id="jc-orangeGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dd6b20"/><stop offset="100%" stop-color="#c05621"/>
+    </linearGradient>
+    <linearGradient id="jc-greenGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#38a169"/><stop offset="100%" stop-color="#2f855a"/>
+    </linearGradient>
+    <linearGradient id="jc-darkGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2d3748"/><stop offset="100%" stop-color="#1a202c"/>
+    </linearGradient>
+    <linearGradient id="jc-redGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e53e3e"/><stop offset="100%" stop-color="#c53030"/>
+    </linearGradient>
+    <linearGradient id="jc-yellowGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d69e2e"/><stop offset="100%" stop-color="#b7791f"/>
+    </linearGradient>
+    <filter id="jc-shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+    <filter id="jc-shadowLight" x="-1%" y="-1%" width="102%" height="102%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-opacity="0.1"/>
+    </filter>
+    <marker id="jc-arrowDown" markerWidth="10" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4a5568"/>
+    </marker>
+    <marker id="jc-arrowBlue" markerWidth="10" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#3182ce"/>
+    </marker>
+    <marker id="jc-arrowOrange" markerWidth="10" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#dd6b20"/>
+    </marker>
+    <marker id="jc-arrowGreen" markerWidth="10" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#38a169"/>
+    </marker>
+    <marker id="jc-arrowDark" markerWidth="10" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2d3748"/>
+    </marker>
+    <marker id="jc-arrowYellow" markerWidth="10" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#d69e2e"/>
+    </marker>
+    <marker id="jc-arrowRed" markerWidth="10" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e53e3e"/>
+    </marker>
+  </defs>
+
+  <!-- ページ背景 -->
+  <rect width="1400" height="3080" fill="#f7fafc"/>
+
+
+  <!-- ================================================================== -->
+  <!-- SECTION 1: ヘッダー + 問題提起                                      -->
+  <!-- ================================================================== -->
+  <rect x="0" y="0" width="1400" height="90" fill="url(#jc-headerGrad)"/>
+  <text x="700" y="40" text-anchor="middle" fill="white" font-size="26" font-weight="700">「時価」とは何か ── 各法域における定義の横断分析</text>
+  <text x="700" y="68" text-anchor="middle" fill="#cbd5e0" font-size="14">Fair Market Value across Japanese Tax Jurisdictions</text>
+
+  <!-- 問い -->
+  <rect x="120" y="110" width="1160" height="50" rx="8" fill="white" stroke="#e2e8f0" stroke-width="1.5" filter="url(#jc-shadowLight)"/>
+  <text x="700" y="141" text-anchor="middle" fill="#2d3748" font-size="16" font-weight="700" font-style="italic">同じ「時価」という言葉が、なぜ法域ごとに異なる金額を生むのか？</text>
+
+  <!-- 上位概念ラベル -->
+  <rect x="420" y="180" width="560" height="36" rx="18" fill="url(#jc-darkGrad)" filter="url(#jc-shadowLight)"/>
+  <text x="700" y="204" text-anchor="middle" fill="white" font-size="14" font-weight="700">共通理念: 客観的交換価値（金子宏『租税法』）</text>
+
+
+  <!-- ================================================================== -->
+  <!-- SECTION 2: 時価の定義比較（並列カード4列）                           -->
+  <!-- ================================================================== -->
+  <text x="50" y="260" fill="#1a365d" font-size="20" font-weight="700">1. 各法域における「時価」の定義</text>
+  <line x1="50" y1="268" x2="420" y2="268" stroke="#ed8936" stroke-width="3"/>
+
+  <!-- カード1: 法人税法33条（青系） -->
+  <rect x="40" y="290" width="310" height="260" rx="8" fill="white" stroke="#e2e8f0" stroke-width="2" filter="url(#jc-shadow)"/>
+  <rect x="40" y="290" width="310" height="38" rx="8" fill="url(#jc-blueGrad)"/>
+  <rect x="40" y="320" width="310" height="8" fill="url(#jc-blueGrad)"/>
+  <text x="195" y="316" text-anchor="middle" fill="white" font-size="14" font-weight="700">法人税法33条</text>
+  <text x="195" y="352" text-anchor="middle" fill="#2d3748" font-size="12" font-weight="600">「事業年度終了の時における</text>
+  <text x="195" y="369" text-anchor="middle" fill="#2d3748" font-size="12" font-weight="600">当該資産の価額」</text>
+  <line x1="80" y1="382" x2="310" y2="382" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="60" y="402" fill="#718096" font-size="10" font-weight="600">通達9-1-3による具体化:</text>
+  <text x="60" y="418" fill="#4a5568" font-size="11">使用収益されるものとして</text>
+  <text x="60" y="434" fill="#4a5568" font-size="11">その時において譲渡される</text>
+  <text x="60" y="450" fill="#4a5568" font-size="11">場合に通常付される価額</text>
+  <line x1="80" y1="462" x2="310" y2="462" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="60" y="480" fill="#3182ce" font-size="10" font-weight="600">特徴: 使用価値を反映した交換価値</text>
+  <text x="60" y="496" fill="#3182ce" font-size="10" font-weight="600">条文自体に「時価」の定義なし</text>
+  <rect x="60" y="510" width="270" height="24" rx="4" fill="#ebf8ff"/>
+  <text x="195" y="527" text-anchor="middle" fill="#2b6cb0" font-size="10" font-weight="700">安全率なし ── 実勢価格を要求</text>
+
+  <!-- カード2: 法人税法22条（紫系） -->
+  <rect x="380" y="290" width="310" height="260" rx="8" fill="white" stroke="#e2e8f0" stroke-width="2" filter="url(#jc-shadow)"/>
+  <rect x="380" y="290" width="310" height="38" rx="8" fill="url(#jc-purpleGrad)"/>
+  <rect x="380" y="320" width="310" height="8" fill="url(#jc-purpleGrad)"/>
+  <text x="535" y="316" text-anchor="middle" fill="white" font-size="14" font-weight="700">法人税法22条</text>
+  <text x="535" y="352" text-anchor="middle" fill="#2d3748" font-size="12" font-weight="600">「無償による資産の譲渡」</text>
+  <text x="535" y="369" text-anchor="middle" fill="#2d3748" font-size="12" font-weight="600">からも収益を認識</text>
+  <line x1="420" y1="382" x2="650" y2="382" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="400" y="402" fill="#718096" font-size="10" font-weight="600">条文に「時価」の文言なし:</text>
+  <text x="400" y="418" fill="#4a5568" font-size="11">暗黙の時価課税が解釈を</text>
+  <text x="400" y="434" fill="#4a5568" font-size="11">通じて導かれる構造</text>
+  <line x1="420" y1="448" x2="650" y2="448" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="400" y="466" fill="#553c9a" font-size="10" font-weight="600">学説の対立:</text>
+  <rect x="400" y="474" width="135" height="22" rx="4" fill="#faf5ff" stroke="#805ad5" stroke-width="1"/>
+  <text x="467" y="490" text-anchor="middle" fill="#553c9a" font-size="9" font-weight="600">適正所得算出説</text>
+  <text x="540" y="490" fill="#718096" font-size="10">vs</text>
+  <rect x="553" y="474" width="120" height="22" rx="4" fill="#faf5ff" stroke="#805ad5" stroke-width="1"/>
+  <text x="613" y="490" text-anchor="middle" fill="#553c9a" font-size="9" font-weight="600">キャピタルゲイン説</text>
+  <rect x="400" y="510" width="270" height="24" rx="4" fill="#faf5ff"/>
+  <text x="535" y="527" text-anchor="middle" fill="#553c9a" font-size="10" font-weight="700">正常な対価による収益認識</text>
+
+  <!-- カード3: 相続税法22条（橙系） -->
+  <rect x="720" y="290" width="310" height="260" rx="8" fill="white" stroke="#e2e8f0" stroke-width="2" filter="url(#jc-shadow)"/>
+  <rect x="720" y="290" width="310" height="38" rx="8" fill="url(#jc-orangeGrad)"/>
+  <rect x="720" y="320" width="310" height="8" fill="url(#jc-orangeGrad)"/>
+  <text x="875" y="316" text-anchor="middle" fill="white" font-size="14" font-weight="700">相続税法22条</text>
+  <text x="875" y="352" text-anchor="middle" fill="#2d3748" font-size="12" font-weight="600">「取得の時における時価」</text>
+  <text x="875" y="369" text-anchor="middle" fill="#2d3748" font-size="12" font-weight="600">（条文上はこれだけ）</text>
+  <line x1="760" y1="382" x2="990" y2="382" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="740" y="402" fill="#718096" font-size="10" font-weight="600">評価通達1項による具体化:</text>
+  <text x="740" y="418" fill="#4a5568" font-size="11">不特定多数の当事者間で</text>
+  <text x="740" y="434" fill="#4a5568" font-size="11">自由な取引が行われた場合に</text>
+  <text x="740" y="450" fill="#4a5568" font-size="11">通常成立すると認められる価額</text>
+  <line x1="760" y1="462" x2="990" y2="462" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="740" y="480" fill="#c05621" font-size="10" font-weight="600">特徴: 客観的交換価値</text>
+  <text x="740" y="496" fill="#c05621" font-size="10" font-weight="600">路線価方式等で画一的に算定</text>
+  <rect x="740" y="510" width="270" height="24" rx="4" fill="#fffaf0"/>
+  <text x="875" y="527" text-anchor="middle" fill="#c05621" font-size="10" font-weight="700">安全率あり ── 公示価格の約80%</text>
+
+  <!-- カード4: 不動産鑑定評価基準（緑系） -->
+  <rect x="1060" y="290" width="310" height="260" rx="8" fill="white" stroke="#e2e8f0" stroke-width="2" filter="url(#jc-shadow)"/>
+  <rect x="1060" y="290" width="310" height="38" rx="8" fill="url(#jc-greenGrad)"/>
+  <rect x="1060" y="320" width="310" height="8" fill="url(#jc-greenGrad)"/>
+  <text x="1215" y="316" text-anchor="middle" fill="white" font-size="13" font-weight="700">不動産鑑定評価基準</text>
+  <text x="1215" y="352" text-anchor="middle" fill="#2d3748" font-size="12" font-weight="600">「正常価格」</text>
+  <text x="1215" y="369" text-anchor="middle" fill="#2d3748" font-size="12" font-weight="600">= 市場価値の表示</text>
+  <line x1="1100" y1="382" x2="1330" y2="382" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="1080" y="402" fill="#718096" font-size="10" font-weight="600">定義:</text>
+  <text x="1080" y="418" fill="#4a5568" font-size="11">合理的と考えられる条件を</text>
+  <text x="1080" y="434" fill="#4a5568" font-size="11">満たす市場で形成される</text>
+  <text x="1080" y="450" fill="#4a5568" font-size="11">であろう市場価値を表示する</text>
+  <text x="1080" y="466" fill="#4a5568" font-size="11">適正な価格</text>
+  <line x1="1100" y1="478" x2="1330" y2="478" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="1080" y="496" fill="#2f855a" font-size="10" font-weight="600">前提: 自由意思・売り急ぎなし</text>
+  <rect x="1080" y="510" width="270" height="24" rx="4" fill="#f0fff4"/>
+  <text x="1215" y="527" text-anchor="middle" fill="#2f855a" font-size="10" font-weight="700">理論上の「真の時価」に最も近い</text>
+
+
+  <!-- ================================================================== -->
+  <!-- SECTION 3: 不動産の一物多価（関係図）                                 -->
+  <!-- ================================================================== -->
+  <text x="50" y="610" fill="#1a365d" font-size="20" font-weight="700">2. 一物多価 ── 同一不動産に4つの「公的価格」</text>
+  <line x1="50" y1="618" x2="520" y2="618" stroke="#ed8936" stroke-width="3"/>
+
+  <!-- 中央の土地シンボル -->
+  <rect x="600" y="760" width="200" height="120" rx="10" fill="url(#jc-darkGrad)" filter="url(#jc-shadow)"/>
+  <text x="700" y="808" text-anchor="middle" fill="white" font-size="16" font-weight="700">同一の土地</text>
+  <text x="700" y="830" text-anchor="middle" fill="#a0aec0" font-size="11">同じ「時価」のはずが</text>
+  <text x="700" y="848" text-anchor="middle" fill="#a0aec0" font-size="11">4つの異なる金額</text>
+
+  <!-- 上: 公示価格 100% -->
+  <line x1="700" y1="760" x2="700" y2="700" stroke="#2d3748" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#jc-arrowDark)"/>
+  <rect x="530" y="640" width="340" height="55" rx="8" fill="url(#jc-darkGrad)" filter="url(#jc-shadow)"/>
+  <text x="700" y="662" text-anchor="middle" fill="white" font-size="22" font-weight="800">100%</text>
+  <text x="700" y="683" text-anchor="middle" fill="#a0aec0" font-size="12">公示価格（地価公示） ── 一般の土地取引の指標</text>
+
+  <!-- 右: 路線価 約80% -->
+  <line x1="800" y1="820" x2="910" y2="820" stroke="#dd6b20" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#jc-arrowOrange)"/>
+  <rect x="920" y="786" width="340" height="70" rx="8" fill="white" stroke="#dd6b20" stroke-width="2.5" filter="url(#jc-shadow)"/>
+  <text x="1090" y="812" text-anchor="middle" fill="#c05621" font-size="22" font-weight="800">約80%</text>
+  <text x="1090" y="832" text-anchor="middle" fill="#4a5568" font-size="12">路線価（相続税路線価）</text>
+  <text x="1090" y="848" text-anchor="middle" fill="#718096" font-size="10">相続税・贈与税の算定基礎</text>
+
+  <!-- 下: 固定資産税評価額 約70% -->
+  <line x1="700" y1="880" x2="700" y2="940" stroke="#d69e2e" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#jc-arrowYellow)"/>
+  <rect x="530" y="945" width="340" height="55" rx="8" fill="white" stroke="#d69e2e" stroke-width="2.5" filter="url(#jc-shadow)"/>
+  <text x="700" y="968" text-anchor="middle" fill="#b7791f" font-size="22" font-weight="800">約70%</text>
+  <text x="700" y="990" text-anchor="middle" fill="#4a5568" font-size="12">固定資産税評価額 ── 3年に1度の評価替え</text>
+
+  <!-- 左: 実勢価格 110-150% -->
+  <line x1="600" y1="820" x2="490" y2="820" stroke="#38a169" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#jc-arrowGreen)"/>
+  <rect x="140" y="786" width="340" height="70" rx="8" fill="white" stroke="#38a169" stroke-width="2.5" filter="url(#jc-shadow)"/>
+  <text x="310" y="812" text-anchor="middle" fill="#2f855a" font-size="22" font-weight="800">110-150%</text>
+  <text x="310" y="832" text-anchor="middle" fill="#4a5568" font-size="12">実勢価格（実際の取引価格）</text>
+  <text x="310" y="848" text-anchor="middle" fill="#718096" font-size="10">地域差が大きい（都心部ほど乖離）</text>
+
+  <!-- 公示価格との関係を示す補足バー -->
+  <rect x="60" y="1020" width="1280" height="50" rx="8" fill="#edf2f7" stroke="#cbd5e0" stroke-width="1"/>
+  <text x="100" y="1043" fill="#1a365d" font-size="12" font-weight="700">乖離の理由:</text>
+  <text x="220" y="1043" fill="#4a5568" font-size="11">安全率（地価変動の吸収） ｜ 評価時点の違い ｜ 課税目的の違い（財産移転vs財産保有） ｜ 納税者保護</text>
+  <text x="100" y="1060" fill="#e53e3e" font-size="10" font-weight="600">問題: 不動産と金融資産の税負担不均衡 ／ 路線価と実勢価格の乖離を利用した租税回避 ／ 「時価」概念の形骸化</text>
+
+
+  <!-- ================================================================== -->
+  <!-- SECTION 4: 法人税法内部の「時価」の分裂（横分岐ツリー）                -->
+  <!-- ================================================================== -->
+  <text x="50" y="1130" fill="#1a365d" font-size="20" font-weight="700">3. 法人税法内部の「時価」の分裂</text>
+  <line x1="50" y1="1138" x2="400" y2="1138" stroke="#ed8936" stroke-width="3"/>
+
+  <!-- 根ノード -->
+  <rect x="50" y="1200" width="260" height="48" rx="24" fill="url(#jc-darkGrad)" filter="url(#jc-shadow)"/>
+  <text x="180" y="1230" text-anchor="middle" fill="white" font-size="15" font-weight="700">法人税法の「時価」</text>
+
+  <!-- 分岐線: 根 → 3本 -->
+  <line x1="310" y1="1224" x2="370" y2="1170" stroke="#4a5568" stroke-width="2"/>
+  <line x1="310" y1="1224" x2="370" y2="1280" stroke="#4a5568" stroke-width="2"/>
+  <line x1="310" y1="1224" x2="370" y2="1390" stroke="#4a5568" stroke-width="2"/>
+
+  <!-- 分岐1: 33条の「価額」（青系） -->
+  <line x1="370" y1="1170" x2="400" y2="1170" stroke="#3182ce" stroke-width="2" marker-end="url(#jc-arrowBlue)"/>
+  <rect x="410" y="1148" width="540" height="100" rx="8" fill="white" stroke="#3182ce" stroke-width="2" filter="url(#jc-shadowLight)"/>
+  <rect x="410" y="1148" width="540" height="32" rx="8" fill="url(#jc-blueGrad)"/>
+  <rect x="410" y="1172" width="540" height="8" fill="url(#jc-blueGrad)"/>
+  <text x="680" y="1171" text-anchor="middle" fill="white" font-size="13" font-weight="700">33条の「価額」 ── 評価損の限度額基準</text>
+  <text x="430" y="1202" fill="#4a5568" font-size="11">使用収益されるものとして譲渡される場合に通常付される価額</text>
+  <text x="430" y="1220" fill="#3182ce" font-size="10" font-weight="600">通達9-1-3 ｜ 個別判定 ｜ 使用価値を反映した交換価値</text>
+  <text x="430" y="1238" fill="#718096" font-size="10">有価証券: 通達9-1-13（4段階の優先順位）、9-1-14（財基通の準用）</text>
+
+  <!-- 分岐2: 22条の「収益認識」（紫系） -->
+  <line x1="370" y1="1280" x2="400" y2="1280" stroke="#805ad5" stroke-width="2"/>
+  <rect x="410" y="1258" width="540" height="100" rx="8" fill="white" stroke="#805ad5" stroke-width="2" filter="url(#jc-shadowLight)"/>
+  <rect x="410" y="1258" width="540" height="32" rx="8" fill="url(#jc-purpleGrad)"/>
+  <rect x="410" y="1282" width="540" height="8" fill="url(#jc-purpleGrad)"/>
+  <text x="680" y="1281" text-anchor="middle" fill="white" font-size="13" font-weight="700">22条の「収益認識」 ── 無償取引からも収益認識</text>
+  <text x="430" y="1312" fill="#4a5568" font-size="11">条文に「時価」の定義なし ── 解釈を通じた暗黙の時価課税</text>
+  <text x="430" y="1330" fill="#805ad5" font-size="10" font-weight="600">22条の2（H30改正）: 「引渡しの日の価額」を明記</text>
+  <text x="430" y="1348" fill="#718096" font-size="10">37条（寄附金）: 時価との差額 = 実質的贈与として寄附金課税</text>
+
+  <!-- 分岐3: 61条の3の「時価評価」（緑系） -->
+  <line x1="370" y1="1390" x2="400" y2="1390" stroke="#38a169" stroke-width="2"/>
+  <rect x="410" y="1368" width="540" height="100" rx="8" fill="white" stroke="#38a169" stroke-width="2" filter="url(#jc-shadowLight)"/>
+  <rect x="410" y="1368" width="540" height="32" rx="8" fill="url(#jc-greenGrad)"/>
+  <rect x="410" y="1392" width="540" height="8" fill="url(#jc-greenGrad)"/>
+  <text x="680" y="1391" text-anchor="middle" fill="white" font-size="13" font-weight="700">61条の3 ── 売買目的有価証券の時価評価</text>
+  <text x="430" y="1422" fill="#4a5568" font-size="11">市場における成約価格（施行令119条の13で精緻に定義）</text>
+  <text x="430" y="1440" fill="#38a169" font-size="10" font-weight="600">法人税法で最も精緻な時価定義 ｜ 実現主義の重大な例外</text>
+  <text x="430" y="1458" fill="#718096" font-size="10">取引所: 最終売買価格 / 店頭: 金商法67条の19公表価格</text>
+
+  <!-- 右端に精緻度ラベル -->
+  <text x="980" y="1190" fill="#3182ce" font-size="10" font-weight="600">精緻度: 中</text>
+  <text x="980" y="1300" fill="#805ad5" font-size="10" font-weight="600">精緻度: 低</text>
+  <text x="980" y="1410" fill="#38a169" font-size="10" font-weight="600">精緻度: 高</text>
+
+  <!-- 共通理念バー -->
+  <rect x="60" y="1490" width="1280" height="45" rx="8" fill="#edf2f7" stroke="#cbd5e0" stroke-width="1"/>
+  <text x="700" y="1510" text-anchor="middle" fill="#1a365d" font-size="13" font-weight="700">共通理念: 客観的な交換価値 ── しかし具体化の程度と方法は条文ごとに大きく異なる</text>
+  <text x="700" y="1527" text-anchor="middle" fill="#718096" font-size="10">25条（評価益）は33条の「裏返し」。いずれも実現主義・取得原価主義に基づく ── 61条の3は純資産増加説に基づく例外</text>
+
+
+  <!-- ================================================================== -->
+  <!-- SECTION 5: 通達による時価の画一化 vs 裁判所の逸脱（並列比較）          -->
+  <!-- ================================================================== -->
+  <text x="50" y="1600" fill="#1a365d" font-size="20" font-weight="700">4. 通達による時価の画一化 vs 裁判所による逸脱</text>
+  <line x1="50" y1="1608" x2="530" y2="1608" stroke="#ed8936" stroke-width="3"/>
+
+  <!-- 左列: 通達による画一化（青系） -->
+  <rect x="40" y="1630" width="630" height="520" rx="10" fill="white" stroke="#3182ce" stroke-width="2.5" filter="url(#jc-shadow)"/>
+  <rect x="40" y="1630" width="630" height="40" rx="10" fill="url(#jc-blueGrad)"/>
+  <rect x="40" y="1662" width="630" height="8" fill="url(#jc-blueGrad)"/>
+  <text x="355" y="1657" text-anchor="middle" fill="white" font-size="16" font-weight="700">通達による画一化</text>
+
+  <!-- 功 -->
+  <text x="70" y="1700" fill="#2f855a" font-size="14" font-weight="700">画一的評価の功</text>
+  <rect x="70" y="1712" width="580" height="115" rx="6" fill="#f0fff4" stroke="#c6f6d5" stroke-width="1"/>
+  <circle cx="95" cy="1738" r="8" fill="#38a169"/>
+  <text x="95" y="1742" text-anchor="middle" fill="white" font-size="10" font-weight="700">1</text>
+  <text x="112" y="1742" fill="#2d3748" font-size="12">納税者間の公平性の確保 ── 全納税者に同一基準を適用</text>
+  <circle cx="95" cy="1764" r="8" fill="#38a169"/>
+  <text x="95" y="1768" text-anchor="middle" fill="white" font-size="10" font-weight="700">2</text>
+  <text x="112" y="1768" fill="#2d3748" font-size="12">納税者の便宜 ── 個別の鑑定評価を不要とする</text>
+  <circle cx="95" cy="1790" r="8" fill="#38a169"/>
+  <text x="95" y="1794" text-anchor="middle" fill="white" font-size="10" font-weight="700">3</text>
+  <text x="112" y="1794" fill="#2d3748" font-size="12">法的予測可能性の向上 ── 事前に計算可能</text>
+  <circle cx="95" cy="1816" r="8" fill="#38a169"/>
+  <text x="95" y="1820" text-anchor="middle" fill="white" font-size="10" font-weight="700">4</text>
+  <text x="112" y="1820" fill="#2d3748" font-size="12">課税事務の効率化 ── 徴税費用の節減</text>
+
+  <!-- 罪 -->
+  <text x="70" y="1860" fill="#c53030" font-size="14" font-weight="700">画一的評価の罪</text>
+  <rect x="70" y="1872" width="580" height="115" rx="6" fill="#fff5f5" stroke="#fed7d7" stroke-width="1"/>
+  <circle cx="95" cy="1898" r="8" fill="#e53e3e"/>
+  <text x="95" y="1902" text-anchor="middle" fill="white" font-size="10" font-weight="700">1</text>
+  <text x="112" y="1902" fill="#2d3748" font-size="12">個別事情の無視 ── 画一的評価と実態の乖離</text>
+  <circle cx="95" cy="1924" r="8" fill="#e53e3e"/>
+  <text x="95" y="1928" text-anchor="middle" fill="white" font-size="10" font-weight="700">2</text>
+  <text x="112" y="1928" fill="#2d3748" font-size="12">「時価」概念の形骸化 ── 通達の評価額 = 時価という擬制</text>
+  <circle cx="95" cy="1950" r="8" fill="#e53e3e"/>
+  <text x="95" y="1954" text-anchor="middle" fill="white" font-size="10" font-weight="700">3</text>
+  <text x="112" y="1954" fill="#2d3748" font-size="12">租税法律主義との緊張 ── 法律でなく通達が課税要件を規定</text>
+  <circle cx="95" cy="1976" r="8" fill="#e53e3e"/>
+  <text x="95" y="1980" text-anchor="middle" fill="white" font-size="10" font-weight="700">4</text>
+  <text x="112" y="1980" fill="#2d3748" font-size="12">課税庁による恣意的運用の余地（総則6項の発動基準不明確）</text>
+
+  <!-- 通達の法的性質 -->
+  <rect x="70" y="2000" width="580" height="55" rx="6" fill="#ebf8ff" stroke="#3182ce" stroke-width="1"/>
+  <text x="80" y="2020" fill="#2b6cb0" font-size="11" font-weight="600">金子宏『租税法』:</text>
+  <text x="80" y="2036" fill="#4a5568" font-size="10">「上級行政庁の下級行政庁への命令であり、国民に対して拘束力をもつ法規ではなく、</text>
+  <text x="80" y="2050" fill="#4a5568" font-size="10">裁判所もそれに拘束されない」── にもかかわらず事実上の法規範として機能</text>
+
+  <!-- 問題の核心 -->
+  <rect x="70" y="2065" width="580" height="70" rx="6" fill="#fffff0" stroke="#ecc94b" stroke-width="1.5"/>
+  <text x="360" y="2086" text-anchor="middle" fill="#975a16" font-size="12" font-weight="700">構造的矛盾の核心</text>
+  <text x="80" y="2104" fill="#4a5568" font-size="11">通達は法律ではない ── しかし全員が従う</text>
+  <text x="80" y="2120" fill="#4a5568" font-size="11">通達に従った評価は適法 ── しかし課税庁は総則6項で逸脱「できる」</text>
+
+  <!-- 右列: 裁判所による逸脱（赤系） -->
+  <rect x="710" y="1630" width="650" height="520" rx="10" fill="white" stroke="#e53e3e" stroke-width="2.5" filter="url(#jc-shadow)"/>
+  <rect x="710" y="1630" width="650" height="40" rx="10" fill="url(#jc-redGrad)"/>
+  <rect x="710" y="1662" width="650" height="8" fill="url(#jc-redGrad)"/>
+  <text x="1035" y="1657" text-anchor="middle" fill="white" font-size="16" font-weight="700">裁判所による逸脱</text>
+
+  <!-- 判例1: 最高裁R4 -->
+  <text x="740" y="1700" fill="#c53030" font-size="12" font-weight="700">最高裁令和4年4月19日判決（総則6項の適用肯定）</text>
+  <rect x="740" y="1710" width="590" height="130" rx="6" fill="#fff5f5" stroke="#fc8181" stroke-width="1"/>
+  <text x="760" y="1732" fill="#4a5568" font-size="11">事案: 相続税軽減目的で相続直前に銀行借入により不動産購入</text>
+  <text x="760" y="1750" fill="#4a5568" font-size="11">　　　甲約8.37億円、乙約5.5億円を取得</text>
+  <line x1="780" y1="1762" x2="1290" y2="1762" stroke="#fed7d7" stroke-width="1"/>
+  <text x="760" y="1780" fill="#c53030" font-size="11" font-weight="600">判旨: 通達評価額と鑑定評価額の乖離「だけでは足りない」</text>
+  <text x="760" y="1798" fill="#c53030" font-size="11" font-weight="600">　　　「租税負担の公平に反する事情」がある場合に限り</text>
+  <text x="760" y="1816" fill="#c53030" font-size="11" font-weight="600">　　　総則6項の適用が許される</text>
+  <rect x="760" y="1822" width="200" height="14" rx="3" fill="#c53030"/>
+  <text x="860" y="1833" text-anchor="middle" fill="white" font-size="9" font-weight="700">看過し難い不均衡 = 適用要件</text>
+
+  <!-- 判例2: 東京地裁R6 -->
+  <text x="740" y="1870" fill="#c53030" font-size="12" font-weight="700">東京地裁令和6年1月18日判決（総則6項の適用否定）</text>
+  <rect x="740" y="1880" width="590" height="90" rx="6" fill="#fff5f5" stroke="#fc8181" stroke-width="1"/>
+  <text x="760" y="1902" fill="#4a5568" font-size="11">事案: 非上場株式の相続税評価が争点</text>
+  <line x1="780" y1="1914" x2="1290" y2="1914" stroke="#fed7d7" stroke-width="1"/>
+  <text x="760" y="1932" fill="#38a169" font-size="11" font-weight="600">判旨: 租税回避のための「積極的行為」が必要</text>
+  <text x="760" y="1950" fill="#38a169" font-size="11" font-weight="600">　　　被相続人に租税回避目的なし → 総則6項の適用を否定</text>
+
+  <!-- 判例3: 東京高裁R6 仙台薬局 -->
+  <text x="740" y="1995" fill="#c53030" font-size="12" font-weight="700">東京高裁令和6年8月28日判決（仙台薬局事件・適用否定）</text>
+  <rect x="740" y="2005" width="590" height="70" rx="6" fill="#fff5f5" stroke="#fc8181" stroke-width="1"/>
+  <text x="760" y="2027" fill="#4a5568" font-size="11">大きな価格乖離があるだけでは総則6項の適用は不可</text>
+  <text x="760" y="2045" fill="#38a169" font-size="11" font-weight="600">「実質的な租税負担の公平に反するというべき事情」の</text>
+  <text x="760" y="2063" fill="#38a169" font-size="11" font-weight="600">主張・立証が必要 → 国側敗訴</text>
+
+  <!-- 総括ボックス -->
+  <rect x="740" y="2090" width="590" height="45" rx="6" fill="#fffff0" stroke="#ecc94b" stroke-width="1.5"/>
+  <text x="1035" y="2110" text-anchor="middle" fill="#975a16" font-size="11" font-weight="700">判例の方向: 総則6項の適用要件を厳格化</text>
+  <text x="1035" y="2127" text-anchor="middle" fill="#975a16" font-size="10">単なる乖離では不足 → 租税回避の積極的行為が必要</text>
+
+  <!-- 中央矢印: 構造的矛盾の強調テキスト -->
+  <rect x="280" y="2170" width="840" height="70" rx="8" fill="url(#jc-darkGrad)" filter="url(#jc-shadow)"/>
+  <text x="700" y="2196" text-anchor="middle" fill="white" font-size="14" font-weight="700">構造的矛盾: 通達は法律ではない → しかし事実上の法規範</text>
+  <text x="700" y="2218" text-anchor="middle" fill="#a0aec0" font-size="12">→ 課税庁は総則6項により「逸脱できる」が、その発動基準は依然として不明確</text>
+
+
+  <!-- ================================================================== -->
+  <!-- SECTION 6: 統合マップ ── 時価概念の本質                              -->
+  <!-- ================================================================== -->
+  <text x="50" y="2300" fill="#1a365d" font-size="20" font-weight="700">5. 時価概念の統合マップ ── 理念の統一性と適用の多様性</text>
+  <line x1="50" y1="2308" x2="560" y2="2308" stroke="#ed8936" stroke-width="3"/>
+
+  <!-- 中央の核心概念 -->
+  <rect x="450" y="2340" width="500" height="60" rx="30" fill="url(#jc-darkGrad)" filter="url(#jc-shadow)"/>
+  <text x="700" y="2367" text-anchor="middle" fill="white" font-size="18" font-weight="700">客観的交換価値</text>
+  <text x="700" y="2388" text-anchor="middle" fill="#a0aec0" font-size="11">全法域の共通理念 ── 金子宏『租税法』</text>
+
+  <!-- 放射状の分岐線 -->
+  <line x1="500" y1="2400" x2="200" y2="2480" stroke="#3182ce" stroke-width="2" marker-end="url(#jc-arrowBlue)"/>
+  <line x1="600" y1="2400" x2="510" y2="2480" stroke="#805ad5" stroke-width="2"/>
+  <line x1="800" y1="2400" x2="890" y2="2480" stroke="#dd6b20" stroke-width="2" marker-end="url(#jc-arrowOrange)"/>
+  <line x1="900" y1="2400" x2="1200" y2="2480" stroke="#38a169" stroke-width="2" marker-end="url(#jc-arrowGreen)"/>
+
+  <!-- 4つの具体化ノード -->
+  <!-- 法人税法33条 -->
+  <rect x="60" y="2485" width="280" height="120" rx="8" fill="white" stroke="#3182ce" stroke-width="2" filter="url(#jc-shadowLight)"/>
+  <rect x="60" y="2485" width="280" height="28" rx="8" fill="url(#jc-blueGrad)"/>
+  <rect x="60" y="2505" width="280" height="8" fill="url(#jc-blueGrad)"/>
+  <text x="200" y="2506" text-anchor="middle" fill="white" font-size="11" font-weight="700">法人税法33条</text>
+  <text x="200" y="2535" text-anchor="middle" fill="#2d3748" font-size="11" font-weight="600">使用収益前提の譲渡価額</text>
+  <text x="200" y="2555" text-anchor="middle" fill="#718096" font-size="10">通達9-1-3で具体化</text>
+  <text x="200" y="2575" text-anchor="middle" fill="#718096" font-size="10">安全率なし</text>
+  <rect x="80" y="2585" width="240" height="14" rx="3" fill="#3182ce"/>
+  <text x="200" y="2596" text-anchor="middle" fill="white" font-size="8" font-weight="700">実勢価格 ≒ 100%</text>
+
+  <!-- 法人税法22条 -->
+  <rect x="370" y="2485" width="280" height="120" rx="8" fill="white" stroke="#805ad5" stroke-width="2" filter="url(#jc-shadowLight)"/>
+  <rect x="370" y="2485" width="280" height="28" rx="8" fill="url(#jc-purpleGrad)"/>
+  <rect x="370" y="2505" width="280" height="8" fill="url(#jc-purpleGrad)"/>
+  <text x="510" y="2506" text-anchor="middle" fill="white" font-size="11" font-weight="700">法人税法22条</text>
+  <text x="510" y="2535" text-anchor="middle" fill="#2d3748" font-size="11" font-weight="600">正常な対価（暗黙の時価）</text>
+  <text x="510" y="2555" text-anchor="middle" fill="#718096" font-size="10">条文に定義なし</text>
+  <text x="510" y="2575" text-anchor="middle" fill="#718096" font-size="10">解釈で導出</text>
+  <rect x="390" y="2585" width="240" height="14" rx="3" fill="#805ad5"/>
+  <text x="510" y="2596" text-anchor="middle" fill="white" font-size="8" font-weight="700">独立当事者間価格</text>
+
+  <!-- 相続税法22条 -->
+  <rect x="750" y="2485" width="280" height="120" rx="8" fill="white" stroke="#dd6b20" stroke-width="2" filter="url(#jc-shadowLight)"/>
+  <rect x="750" y="2485" width="280" height="28" rx="8" fill="url(#jc-orangeGrad)"/>
+  <rect x="750" y="2505" width="280" height="8" fill="url(#jc-orangeGrad)"/>
+  <text x="890" y="2506" text-anchor="middle" fill="white" font-size="11" font-weight="700">相続税法22条</text>
+  <text x="890" y="2535" text-anchor="middle" fill="#2d3748" font-size="11" font-weight="600">客観的交換価値（画一的）</text>
+  <text x="890" y="2555" text-anchor="middle" fill="#718096" font-size="10">評価通達で具体化</text>
+  <text x="890" y="2575" text-anchor="middle" fill="#718096" font-size="10">安全率あり</text>
+  <rect x="770" y="2585" width="240" height="14" rx="3" fill="#dd6b20"/>
+  <text x="890" y="2596" text-anchor="middle" fill="white" font-size="8" font-weight="700">路線価 ≒ 80%</text>
+
+  <!-- 不動産鑑定評価 -->
+  <rect x="1060" y="2485" width="280" height="120" rx="8" fill="white" stroke="#38a169" stroke-width="2" filter="url(#jc-shadowLight)"/>
+  <rect x="1060" y="2485" width="280" height="28" rx="8" fill="url(#jc-greenGrad)"/>
+  <rect x="1060" y="2505" width="280" height="8" fill="url(#jc-greenGrad)"/>
+  <text x="1200" y="2506" text-anchor="middle" fill="white" font-size="11" font-weight="700">不動産鑑定評価基準</text>
+  <text x="1200" y="2535" text-anchor="middle" fill="#2d3748" font-size="11" font-weight="600">正常価格（市場価値）</text>
+  <text x="1200" y="2555" text-anchor="middle" fill="#718096" font-size="10">3条件の市場を前提</text>
+  <text x="1200" y="2575" text-anchor="middle" fill="#718096" font-size="10">理論上の真の時価</text>
+  <rect x="1080" y="2585" width="240" height="14" rx="3" fill="#38a169"/>
+  <text x="1200" y="2596" text-anchor="middle" fill="white" font-size="8" font-weight="700">鑑定評価額 ≒ 100%</text>
+
+  <!-- 下部: 5つの論点 -->
+  <text x="50" y="2650" fill="#1a365d" font-size="14" font-weight="700">核心的論点</text>
+
+  <rect x="50" y="2665" width="252" height="70" rx="6" fill="white" stroke="#e2e8f0" stroke-width="1.5" filter="url(#jc-shadowLight)"/>
+  <rect x="50" y="2665" width="252" height="22" rx="6" fill="#2d3748"/>
+  <rect x="50" y="2681" width="252" height="6" fill="#2d3748"/>
+  <text x="176" y="2682" text-anchor="middle" fill="white" font-size="10" font-weight="700">論点1: 統一概念か？</text>
+  <text x="65" y="2706" fill="#4a5568" font-size="9">理念は同一だが、課税趣旨の違いに</text>
+  <text x="65" y="2720" fill="#4a5568" font-size="9">起因して具体的適用は大きく分岐</text>
+
+  <rect x="320" y="2665" width="252" height="70" rx="6" fill="white" stroke="#e2e8f0" stroke-width="1.5" filter="url(#jc-shadowLight)"/>
+  <rect x="320" y="2665" width="252" height="22" rx="6" fill="#e53e3e"/>
+  <rect x="320" y="2681" width="252" height="6" fill="#e53e3e"/>
+  <text x="446" y="2682" text-anchor="middle" fill="white" font-size="10" font-weight="700">論点2: 通達の法規範化</text>
+  <text x="335" y="2706" fill="#4a5568" font-size="9">法律でなく通達が課税要件の実質的</text>
+  <text x="335" y="2720" fill="#4a5568" font-size="9">内容を規定 → 租税法律主義に抵触？</text>
+
+  <rect x="590" y="2665" width="252" height="70" rx="6" fill="white" stroke="#e2e8f0" stroke-width="1.5" filter="url(#jc-shadowLight)"/>
+  <rect x="590" y="2665" width="252" height="22" rx="6" fill="#805ad5"/>
+  <rect x="590" y="2681" width="252" height="6" fill="#805ad5"/>
+  <text x="716" y="2682" text-anchor="middle" fill="white" font-size="10" font-weight="700">論点3: 実現主義vs時価主義</text>
+  <text x="605" y="2706" fill="#4a5568" font-size="9">原則は実現主義（25条/33条）だが</text>
+  <text x="605" y="2720" fill="#4a5568" font-size="9">売買目的有価証券は時価主義（61条の3）</text>
+
+  <rect x="860" y="2665" width="252" height="70" rx="6" fill="white" stroke="#e2e8f0" stroke-width="1.5" filter="url(#jc-shadowLight)"/>
+  <rect x="860" y="2665" width="252" height="22" rx="6" fill="#dd6b20"/>
+  <rect x="860" y="2681" width="252" height="6" fill="#dd6b20"/>
+  <text x="986" y="2682" text-anchor="middle" fill="white" font-size="10" font-weight="700">論点4: 一物多価と公平</text>
+  <text x="875" y="2706" fill="#4a5568" font-size="9">不動産vs金融資産の税負担不均衡</text>
+  <text x="875" y="2720" fill="#4a5568" font-size="9">路線価の乖離を利用した租税回避</text>
+
+  <rect x="1130" y="2665" width="230" height="70" rx="6" fill="white" stroke="#e2e8f0" stroke-width="1.5" filter="url(#jc-shadowLight)"/>
+  <rect x="1130" y="2665" width="230" height="22" rx="6" fill="#38a169"/>
+  <rect x="1130" y="2681" width="230" height="6" fill="#38a169"/>
+  <text x="1245" y="2682" text-anchor="middle" fill="white" font-size="10" font-weight="700">論点5: 鑑定評価の限界</text>
+  <text x="1145" y="2706" fill="#4a5568" font-size="9">正常価格は理論上最も近い</text>
+  <text x="1145" y="2720" fill="#4a5568" font-size="9">が、鑑定士により評価が異なる</text>
+
+  <!-- 結語 -->
+  <rect x="120" y="2760" width="1160" height="75" rx="8" fill="white" stroke="#2d3748" stroke-width="2" filter="url(#jc-shadow)"/>
+  <text x="700" y="2790" text-anchor="middle" fill="#1a365d" font-size="14" font-weight="700">結論: 「理念の統一性と適用の多様性」が時価概念の本質的特徴であり、同時にその最大の課題</text>
+  <text x="700" y="2812" text-anchor="middle" fill="#4a5568" font-size="11">「時価とは何か」という根本的な問いに対する学問的・制度的な回答は、今なお求められ続けている</text>
+  <text x="700" y="2828" text-anchor="middle" fill="#718096" font-size="10">── 浅井光政「租税法上の時価を巡る諸問題」（税大論叢36号） / 金子宏『租税法』 / 小島俊朗「相続税法における時価の概念」</text>
+
+
+  <!-- ================================================================== -->
+  <!-- SECTION 7（実質6）: 色凡例 + フッター                                -->
+  <!-- ================================================================== -->
+  <rect x="60" y="2860" width="1280" height="70" rx="8" fill="#edf2f7" stroke="#cbd5e0" stroke-width="1"/>
+  <text x="100" y="2885" fill="#1a365d" font-size="12" font-weight="700">色の意味（セマンティックカラー）</text>
+  <rect x="100" y="2898" width="14" height="14" rx="3" fill="url(#jc-blueGrad)"/>
+  <text x="122" y="2910" fill="#4a5568" font-size="10">法人税法33条（評価損の時価）</text>
+  <rect x="320" y="2898" width="14" height="14" rx="3" fill="url(#jc-purpleGrad)"/>
+  <text x="342" y="2910" fill="#4a5568" font-size="10">法人税法22条（収益認識の時価）</text>
+  <rect x="570" y="2898" width="14" height="14" rx="3" fill="url(#jc-orangeGrad)"/>
+  <text x="592" y="2910" fill="#4a5568" font-size="10">相続税法22条（財産評価の時価）</text>
+  <rect x="830" y="2898" width="14" height="14" rx="3" fill="url(#jc-greenGrad)"/>
+  <text x="852" y="2910" fill="#4a5568" font-size="10">不動産鑑定評価（正常価格）</text>
+  <rect x="1060" y="2898" width="14" height="14" rx="3" fill="url(#jc-darkGrad)"/>
+  <text x="1082" y="2910" fill="#4a5568" font-size="10">共通理念・起点</text>
+  <rect x="1210" y="2898" width="14" height="14" rx="3" fill="url(#jc-redGrad)"/>
+  <text x="1232" y="2910" fill="#4a5568" font-size="10">制限・否定</text>
+
+  <!-- フッター -->
+  <rect x="0" y="2960" width="1400" height="80" fill="url(#jc-headerGrad)"/>
+  <text x="700" y="2992" text-anchor="middle" fill="white" font-size="14" font-weight="600">「時価」とは何か ── 各法域における定義の横断分析</text>
+  <text x="700" y="3015" text-anchor="middle" fill="#a0aec0" font-size="11">2026年2月8日 ｜ 法人税法・相続税法・不動産鑑定評価基準の横断比較 ｜ Claude Opus 4.6 Deep Research</text>
+
+</svg>
+</div>
+
+<h3 id="ch2-1">2.1 法人税法33条の「価額」</h3>
+
+<div class="card">
+<p>法人税法33条2項が規定する「事業年度終了の時における当該資産の価額」の意味について、法律の条文自体には定義がない。これを具体化するのが法人税基本通達9-1-3である。</p>
+<blockquote>当該資産が<strong>使用収益されるものとしてその時において譲渡される場合に通常付される価額</strong>による。</blockquote>
+<p>この定義の含意は深い。「使用収益されるものとして」という限定は、当該資産が<strong>現にそのまま使用収益される状態での価額</strong>、すなわち使用価値を反映した交換価値を求めることを意味する。スクラップとしての処分価額ではなく、<strong>事業用資産としての継続使用を前提とした譲渡価額</strong>である。</p>
+<p>この点は、会計基準の「正味売却価額」とも、不動産鑑定評価基準の「正常価格」とも微妙に異なる独自の概念である。</p>
+</div>
+
+<h3 id="ch2-2">2.2 法人税法22条の「時価」</h3>
+
+<div class="card">
+<p>法人税法22条2項は、益金の額に算入すべき金額として「有償又は<strong>無償による</strong>資産の譲渡又は役務の提供」を含める。無償取引であっても時価で取引を行ったものとして収益を認識するのが原則である。</p>
+<p>しかし22条自体に「時価」の文言は直接登場しない。「無償による資産の譲渡」から収益が生じるという規定の解釈を通じて、暗黙のうちに時価による収益認識が要求される構造となっている。</p>
+<p>無償取引からの収益認識の根拠については学説の対立がある。</p>
+<ul>
+<li><strong>適正所得算出説（有力説）</strong>：正常な対価で取引を行った者との間の負担の公平を維持するために、無償取引からも収益が生じることを「擬制」したとする。増井良啓教授がこの立場を支持。</li>
+<li><strong>キャピタルゲイン説</strong>：無償取引であってもキャピタルゲインは発生しており、これを収益として認識すべき旨を定めた「確認的規定」であるとする。</li>
+</ul>
+<p>最高裁平成7年12月19日判決（民集49巻10号3121頁）は、資産の低額譲渡について、有償による資産の譲渡も時価による収益認識を認めるとの解釈を採用している。この判決により、法人税法22条が暗黙のうちに要求する「時価」は、条文の文言には登場しないにもかかわらず、判例法理として確立された。</p>
+<p>法22条の「時価」と法33条の「価額」の関係は、法人税法内部における「時価」概念の多層性を如実に示す。法22条は収益認識（益金算入）の文脈で時価を用い、法33条は評価損計上（損金算入）の文脈で時価を用いる。いずれも資産の客観的な交換価値を基礎とするが、その機能は正反対である。法22条は無償譲渡からの収益認識を通じて課税所得を「引き上げる」方向に作用し、法33条は評価損の損金算入を通じて課税所得を「引き下げる」方向に作用する。</p>
+<p>この非対称性は、法人税法の基本構造に由来する。法人税法は、収益については包括的に認識する（22条2項の広い範囲の益金算入）一方、損失・費用については限定的に認識する（33条1項の評価損の原則損金不算入）という構造を持つ。この「収益は広く、損失は狭く」という設計は、課税の確実性・安全性を確保するための政策判断であるが、同時に納税者にとっての不均衡を内包している。</p>
+</div>
+
+<div class="card card-info">
+<h4>法22条の2（収益認識基準）と寄附金規定</h4>
+<p>平成30年度税制改正で新設された法22条の2は、収益の額は「引渡しの日の価額」等とすることを明記し、法人税法における収益認識をより明確化した。この改正は、会計基準の収益認識基準（企業会計基準第29号）の導入と歩調を合わせたものであり、法22条2項の解釈に依拠していた収益認識のルールを、初めて法令レベルで明文化したものとして意義がある。</p>
+<p>また法37条7項は、法人間の取引について時価との差額のうち「実質的に贈与又は無償の供与をしたと認められる金額」を寄附金の額に含めるとし、22条2項の時価課税と37条の寄附金課税が二段構えで機能する構造となっている。この二段構えの構造は、法人間取引における時価の重要性を浮き彫りにするものであり、時価の算定が適切でなければ、寄附金課税という形で重い税負担が生じうることを意味する。</p>
+</div>
+
+<h3 id="ch2-3">2.3 法人税法61条の3 ── 売買目的有価証券の時価評価</h3>
+
+<div class="card">
+<p>平成12年改正で導入された法61条の3は、売買目的有価証券について期末時価評価を義務づける。25条1項・33条1項の規定にかかわらず、評価損益を益金・損金に算入し、翌期首に洗替え処理を行う。これは<strong>実現主義の重大な例外</strong>であり、金融商品会計基準との調整およびデリバティブ等を利用した租税回避行為防止の観点から導入された。</p>
+
+<h4>時価の定義（施行令119条の13）</h4>
+<div class="table-wrap">
+<table>
+<tr><th>有価証券の種類</th><th>時価の定義</th></tr>
+<tr><td><strong>取引所売買有価証券</strong></td><td>事業年度終了日の最終売買価格（ない場合は最終気配相場の仲値）</td></tr>
+<tr><td><strong>店頭売買有価証券</strong></td><td>金商法67条の19による公表価格</td></tr>
+<tr><td><strong>その他（公表価格あり）</strong></td><td>ブローカー等が公表する価格で、売買の価格決定に重要な影響を与えているもの</td></tr>
+</table>
+</div>
+<p>複数の活発な市場が存在する場合は、<strong>主要な市場</strong>（取引数量・頻度が最大の市場）の価格を使用する。売買目的有価証券の「時価」は、法人税法の中で<strong>最も精緻に定義</strong>されている。</p>
+<p>法61条の3が法人税法に導入された意義は極めて大きい。それまでの法人税法は、法25条（評価益の益金不算入）と法33条（評価損の損金不算入）によって、保有資産の時価変動を課税所得に反映させない「取得原価主義」を一貫して採用していた。61条の3はこの大原則の最初の例外であり、金融商品会計基準（売買目的有価証券の時価評価）との整合性を図るとともに、デリバティブ等を利用した租税回避行為（例えば、含み益のある資産を売買目的から満期保有に振り替えて評価益を回避する等）を防止する目的で導入された。</p>
+<p>法61条の3の「時価」と法33条の「価額」の関係を考えると、興味深い非対称性が浮かび上がる。法61条の3は売買目的有価証券について<strong>毎期末の時価評価を強制</strong>するのに対し、法33条は一定の事実が生じた場合にのみ例外的に評価損を認めるという、きわめて限定的な構造を持つ。同じ「時価」の変動に対して、前者は毎期の課税所得に反映させ、後者は原則として反映させない。この違いは、売買目的有価証券が短期的な売買利益を目的として保有される金融資産であるのに対し、法33条の対象資産が事業用の固定資産・棚卸資産を含む幅広い資産であることに由来する。事業用資産については、短期的な時価変動を課税所得に反映させることは適当でなく、実現主義の維持が合理的であるという政策判断が根底にある。</p>
+</div>
+
+<div class="card">
+<h4>法人税法25条 ── 評価益の益金不算入（33条の対称規定）</h4>
+<p>法人税法25条は33条の「裏返し」（表裏一体）として位置づけられる規定である。25条は資産の評価益について原則として益金不算入とし、33条は評価損について原則として損金不算入とする。いずれも実現主義・取得原価主義に基づく規定であり、保有資産の時価変動による未実現の損益を課税所得に反映させないことを基本とする。</p>
+<p>この対称構造は、法人税法の課税所得計算の基本的枠組みを形成している。法人が保有する資産の時価がいくら上昇しても、売却等の「実現」がなければ課税されない（法25条）。同様に、時価がいくら下落しても、一定の事実が生じない限り損金には算入されない（法33条）。この対称性は理論的には整合的であるが、実務上は非対称な結果をもたらす。すなわち、含み益については納税者がタイミングを選択して実現させることができる（売却時期の調整による課税時期の操作）のに対し、含み損については施行令68条の限定列挙事由に該当しなければ実現させることができない。この非対称性は、実現主義のもとで納税者に不利に作用する側面として認識されている。</p>
+<p>例外として、会社更生法に基づく評価換え（法25条2項）、民事再生法に基づく評価換え（法25条3項）、非適格株式交換等に際して時価評価資産を時価評価する場合（法62条の9）等の場合には、評価損益の計上が認められる。これらの例外は、法的整理や組織再編という特殊な局面において、「時価」による資産の洗い替えが必要とされる場合に限定されている。</p>
+</div>
+
+<h3 id="ch2-4">2.4 相続税法22条の「時価」</h3>
+
+<div class="card">
+<p>相続税法22条は「相続、遺贈又は贈与により取得した財産の価額は、当該財産の取得の時における<strong>時価</strong>により」と規定するのみで、具体的定義は置かない。判例・通説は金子宏教授の定式に従い、以下のように解する。</p>
+<blockquote>課税時期におけるそれぞれの財産の現況に応じ、<strong>不特定多数の当事者間で自由な取引が行われた場合に通常成立すると認められる価額</strong>、すなわち<strong>客観的交換価値</strong></blockquote>
+<p>この「時価」を実務的に具体化するのが国税庁の<strong>財産評価基本通達</strong>（評価通達）である。評価通達1項は、最後に「この通達の定めによって評価した価額による」と規定し、通達が定める評価方法（路線価方式、倍率方式、類似業種比準方式等）による評価額がすなわち「時価」であるという構造を作り出している。</p>
+</div>
+
+<div class="card card-warning">
+<h4>法人税法との最大の差異 ── 評価水準の乖離</h4>
+<p>相続税法上の「時価」と法人税法上の「時価」の最も顕著な差異は<strong>評価水準</strong>にある。</p>
+<ul>
+<li><strong>相続税法</strong>：路線価は公示価格の<strong>約80%</strong>で設定（安全率20%）</li>
+<li><strong>法人税法</strong>：より<strong>実勢に近い時価</strong>が要求される</li>
+</ul>
+<p>同一の土地について、相続税法上の「時価」は法人税法上の「時価」よりも約20%低い。これは相続税が被相続人の死亡という予測困難な事象を課税原因とするため、納税者保護の観点から安全率を設けているものと解される。浅井光政教授は税務大学校論叢第36号「租税法上の時価を巡る諸問題」において、所得課税と贈与・相続課税の時価は課税趣旨の違いに起因して本質的に異なることを指摘している。</p>
+<p>評価通達のもう一つの重要な特徴は、その「補完的評価方法」にある。評価通達6項（いわゆる総則6項）は、「この通達の定めによって評価することが著しく不適当と認められる財産の価額は、国税庁長官の指示を受けて評価する」と定める。これは通達自身が、通達による画一的評価の限界を認め、例外的に通達によらない評価を許容する仕組みである。しかしこの規定は、納税者が通達に従って申告したにもかかわらず、課税庁が事後的に「通達によらない評価」を主張できることを意味し、法的安定性・予測可能性の観点から深刻な問題を含んでいる。</p>
+<p>東京地裁平成26年5月28日判決は、法人税と相続税の「時価」の差異が正面から争われた事案であり、裁判所は両者の時価が異なる概念であることを前提とした上で、法人税法上の時価は相続税法上の路線価評価額に拘束されないとの判断を示した。この判決は、一物多価問題が単なる理論的議論にとどまらず、実際の課税処分において重大な帰結をもたらすことを示す実例として重要である。</p>
+</div>
+
+<h3 id="ch2-5">2.5 不動産鑑定評価基準の「正常価格」</h3>
+
+<div class="card">
+<p>国土交通省の不動産鑑定評価基準は、<strong>正常価格</strong>を「市場性を有する不動産について、現実の社会経済情勢の下で合理的と考えられる条件を満たす市場で形成されるであろう市場価値を表示する適正な価格」と定義する。</p>
+<p>「合理的な市場」の前提条件は以下の3点である。</p>
+<ol>
+<li>市場参加者が<strong>自由意思</strong>に基づいて参加し、参入・退出が自由</li>
+<li>取引形態が売り急ぎ・買い進み等の<strong>特別なもの</strong>でない</li>
+<li>対象不動産が<strong>相当の期間市場に公開</strong>されている</li>
+</ol>
+<p>正常価格は理論的には税法の「時価」（客観的交換価値）に最も近い概念であるが、鑑定評価にはコストがかかり、鑑定士によって評価額が異なりうるという実務上の問題がある。裁判では総則6項の適用場面で鑑定評価額が「真の時価」として採用されることが多いが、鑑定評価額が常に客観的交換価値を正確に反映しているとは限らない。</p>
+<p>不動産鑑定評価基準が定める3つのアプローチ ── 原価法（コスト・アプローチ）、取引事例比較法（マーケット・アプローチ）、収益還元法（インカム・アプローチ）── は、いずれも「正常価格」に到達するための手法であるが、それぞれが異なる前提に基づいている。原価法は対象不動産の再調達原価から減価修正を行うものであり、取引事例比較法は類似不動産の取引事例から比準するものである。収益還元法は将来の収益を現在価値に割り引くものであり、概念的には会計基準のDCF法（使用価値）に近い。しかし、鑑定評価基準における収益還元法はあくまで「正常価格」（交換価値）の算定手法であり、会計基準の「使用価値」とは理論的位置づけが異なる点に注意が必要である。</p>
+<p>小島俊朗氏は税大ジャーナル第7号（2008年）において、相続税法の「時価」＝「客観的交換価値」が、経済学の「均衡価格」（完全競争市場における需給均衡価格）と同義であることに着眼し、市場メカニズムにより客観的交換価値がどのように成立するのかを理論的に検討している。この研究は、「時価」を法的概念としてのみ捉えるのではなく、経済学的基礎から理解しようとする試みとして注目される。</p>
+</div>
+
+<h3 id="ch2-6">2.6 法人税法上の「時価」の統合的理解</h3>
+
+<!-- インラインSVG：時価の定義比較 -->
+<div style="text-align:center; margin: 20px 0;">
+<svg viewBox="0 0 800 260" xmlns="http://www.w3.org/2000/svg" style="max-width:800px; width:100%;">
+<rect x="300" y="5" width="200" height="36" rx="18" fill="#1a365d"/>
+<text x="400" y="28" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">客観的交換価値（共通理念）</text>
+<line x1="400" y1="41" x2="400" y2="60" stroke="#1a365d" stroke-width="2"/>
+<line x1="100" y1="60" x2="700" y2="60" stroke="#1a365d" stroke-width="2"/>
+<line x1="100" y1="60" x2="100" y2="80" stroke="#3182ce" stroke-width="2"/>
+<line x1="280" y1="60" x2="280" y2="80" stroke="#805ad5" stroke-width="2"/>
+<line x1="520" y1="60" x2="520" y2="80" stroke="#dd6b20" stroke-width="2"/>
+<line x1="700" y1="60" x2="700" y2="80" stroke="#38a169" stroke-width="2"/>
+<rect x="10" y="80" width="180" height="170" rx="8" fill="#ebf8ff" stroke="#3182ce" stroke-width="1.5"/>
+<text x="100" y="102" text-anchor="middle" fill="#3182ce" font-size="12" font-weight="700">法人税法33条</text>
+<text x="22" y="122" fill="#2d3748" font-size="10">使用収益前提の</text>
+<text x="22" y="136" fill="#2d3748" font-size="10">譲渡価額</text>
+<text x="22" y="158" fill="#718096" font-size="9">通達9-1-3で具体化</text>
+<text x="22" y="174" fill="#718096" font-size="9">安全率: なし</text>
+<text x="22" y="190" fill="#718096" font-size="9">精緻度: 中</text>
+<text x="100" y="234" text-anchor="middle" fill="#3182ce" font-size="16" font-weight="800">≒実勢</text>
+<rect x="190" y="80" width="180" height="170" rx="8" fill="#faf5ff" stroke="#805ad5" stroke-width="1.5"/>
+<text x="280" y="102" text-anchor="middle" fill="#805ad5" font-size="12" font-weight="700">法人税法61条の3</text>
+<text x="202" y="122" fill="#2d3748" font-size="10">市場における</text>
+<text x="202" y="136" fill="#2d3748" font-size="10">成約価格</text>
+<text x="202" y="158" fill="#718096" font-size="9">施行令119条の13</text>
+<text x="202" y="174" fill="#718096" font-size="9">安全率: なし</text>
+<text x="202" y="190" fill="#718096" font-size="9">精緻度: 最も高い</text>
+<text x="280" y="234" text-anchor="middle" fill="#805ad5" font-size="16" font-weight="800">=市場価格</text>
+<rect x="430" y="80" width="180" height="170" rx="8" fill="#fffaf0" stroke="#dd6b20" stroke-width="1.5"/>
+<text x="520" y="102" text-anchor="middle" fill="#dd6b20" font-size="12" font-weight="700">相続税法22条</text>
+<text x="442" y="122" fill="#2d3748" font-size="10">不特定多数の自由取引</text>
+<text x="442" y="136" fill="#2d3748" font-size="10">で成立する価額</text>
+<text x="442" y="158" fill="#718096" font-size="9">財産評価基本通達</text>
+<text x="442" y="174" fill="#718096" font-size="9">安全率: 約20%</text>
+<text x="442" y="190" fill="#718096" font-size="9">精緻度: 画一的</text>
+<text x="520" y="234" text-anchor="middle" fill="#dd6b20" font-size="16" font-weight="800">≒実勢×80%</text>
+<rect x="610" y="80" width="180" height="170" rx="8" fill="#f0fff4" stroke="#38a169" stroke-width="1.5"/>
+<text x="700" y="102" text-anchor="middle" fill="#38a169" font-size="12" font-weight="700">不動産鑑定評価基準</text>
+<text x="622" y="122" fill="#2d3748" font-size="10">合理的市場で形成</text>
+<text x="622" y="136" fill="#2d3748" font-size="10">される市場価値</text>
+<text x="622" y="158" fill="#718096" font-size="9">正常価格</text>
+<text x="622" y="174" fill="#718096" font-size="9">安全率: なし</text>
+<text x="622" y="190" fill="#718096" font-size="9">精緻度: 個別判定</text>
+<text x="700" y="234" text-anchor="middle" fill="#38a169" font-size="16" font-weight="800">≒実勢</text>
+</svg>
+</div>
+
+<div class="card">
+<h4>法人税法内部の「時価」の整理</h4>
+<div class="table-wrap">
+<table>
+<tr><th>条文</th><th>時価の性格</th><th>算定方法</th><th>精緻度</th></tr>
+<tr><td><strong>33条（評価損）</strong></td><td>使用収益前提の譲渡価額</td><td>通達9-1-3（個別判定）</td><td>中</td></tr>
+<tr><td><strong>22条（収益認識）</strong></td><td>正常な対価（適正所得算出）</td><td>条文に定義なし、判例・通達</td><td>低</td></tr>
+<tr><td><strong>25条（評価益）</strong></td><td>33条の裏返し</td><td>33条と同様</td><td>中</td></tr>
+<tr><td><strong>61条の3（売買目的有価証券）</strong></td><td>市場における成約価格</td><td>施行令119条の13</td><td>最高</td></tr>
+<tr><td><strong>37条（寄附金）</strong></td><td>独立当事者間価格</td><td>時価との差額認定</td><td>低</td></tr>
+</table>
+</div>
+<p>共通するのは「客観的な交換価値」という理念であるが、その具体化の程度と方法は条文ごとに大きく異なる。25条と33条は実現主義・取得原価主義に基づく対称的構造（評価益は原則益金不算入、評価損は原則損金不算入）であるのに対し、61条の3は純資産増加説に基づく実現主義の例外として位置づけられる。</p>
+<p>この「時価」の多層性は、法人税法が一つの統一的な価値観で構築されたものではなく、異なる時期・異なる政策目的で追加・修正された規定の集積であることを反映している。22条は昭和40年の全文改正時に導入された基本規定であり、33条も同時に整備されたが、61条の3は平成12年という30年以上後の改正で導入された。各条文の「時価」が異なるのは、立法時の社会経済環境の違い、対応すべき問題の違い、参照した会計基準の進化の違い等を反映した結果でもある。法人税法の「時価」を統合的に理解するには、各条文の歴史的背景と政策的文脈を踏まえる必要がある。</p>
+</div>
+
+
+<!-- ===== 第3章 ===== -->
+<h2 id="ch3">第3章　不動産の評価損</h2>
+
+<p>不動産（土地・建物等）は固定資産として施行令68条1項3号の適用を受ける。しかし、その時価認定は全資産類型の中で最も困難である。市場流動性が低く、個別性が強く、複数の公的評価が並存するためである。</p>
+
+<div class="card card-info">
+<h4>不動産評価損の実務的重要性</h4>
+<p>不動産は企業のバランスシートに占める比重が大きく、その価値の下落は企業の財務状態に直接的な影響を与える。しかし法人税法上、不動産の評価損を損金算入することは極めて困難である。バブル崩壊後の地価下落局面においても、多くの企業が保有不動産の含み損を抱えながら、税法上の評価損計上要件を満たさないために損金算入を受けられなかった。会計基準上は2002年の減損会計基準導入により固定資産の減損処理が制度化されたが、税法上は依然として物損等の限定列挙事由に該当しなければ評価損が認められない。この会計と税法の乖離は、不動産保有企業にとって恒常的な課題となっている。</p>
+<p>とりわけ問題となるのは、経済的な価値下落（地価の全般的下落、市場環境の悪化等）のみでは施行令68条1項3号の要件を満たさない点である。同号が要求するのは、災害損傷、遊休、用途変更、場所状況の著しい変化等の具体的・物理的な事実であり、経済環境の変動による時価下落は評価損事由として認められていない。この点は、経済的減損も対象とする会計基準の減損会計と対照的であり、両者の構造的乖離の最大の原因ともなっている。</p>
+</div>
+
+<h3>3.1 固定資産の「物損等の事実」と時価認定</h3>
+
+<div class="card">
+<p>固定資産について評価損計上が認められるためには、施行令68条1項3号の5類型（災害損傷・遊休・用途変更・場所状況変化・準ずる特別の事実）のいずれかに該当する必要がある。</p>
+<p>不動産に特に関連するのは以下の類型である。</p>
+<p><strong>イ　災害による著しい損傷</strong>：地震による建物の損壊、土砂災害による土地の流出等。東日本大震災や能登半島地震の際に多くの適用事例がある。</p>
+<p><strong>ニ　所在する場所の状況が著しく変化したこと</strong>：例えば、近隣に産業廃棄物処理場が建設された、鉄道路線の廃止により交通利便性が著しく低下した等のケースが想定される。ただし、単なる地価下落（景気後退に伴う地価の全般的下落等）はこれに該当しない。</p>
+<p><strong>ロ　1年以上にわたり遊休状態にあること</strong>：事業用に取得した建物や土地を1年以上使用していない場合に該当する。通達9-1-16は「やむを得ない事情によりその取得の時から1年以上事業の用に供されない」場合も含めている。</p>
+</div>
+
+<div class="card card-accent">
+<h4>通達9-1-19 ── 減価償却資産の時価算定方法</h4>
+<p>建物等の減価償却資産について評価損を計上する場合の「時価」の算定について、通達9-1-19は特別な方法を認めている。</p>
+<blockquote>当該資産の<strong>再取得価額</strong>を基礎としてその取得の時から事業年度終了の時まで<strong>旧定率法により償却を行ったものとした場合に計算される未償却残額</strong>に相当する金額によっているときは、これを認める。</blockquote>
+<p>この方法は、鑑定評価を行わずに簡便に時価を算定できる実務的なメリットがあるが、市場実勢と乖離する可能性も指摘されている。東京地裁平成15年7月17日判決では、船舶の「適正な価額」の算定において本通達の合理性が論じられた。</p>
+</div>
+
+<h3>3.1.2 建物と土地の評価損の構造的相違</h3>
+
+<div class="card card-warning">
+<p>固定資産の評価損を論じる際、建物と土地の間には構造的な相違が存在する点に留意が必要である。</p>
+<p><strong>建物（減価償却資産）</strong>については、通達9-1-19が再取得価額を基礎とした簡便法を認めているため、「時価」の算定に一定の客観的指標がある。また建物は経年劣化により物理的に損耗するものであるから、「災害による著しい損傷」（3号イ）や「本来の用途に使用することができないため他の用途に使用されたこと」（3号ハ）等の事実に該当するケースが比較的把握しやすい。建物の評価損計上は、物理的な事実（損傷の程度、用途変更の事実）を客観的に立証可能であるため、実務上の争訟リスクが相対的に低い。</p>
+<p><strong>土地（非償却資産）</strong>については、状況が大きく異なる。土地は物理的に損耗しない資産であるから、「災害による著しい損傷」が生じるケースは限定的である（津波による地盤沈下、土砂崩壊による地形変化等に限られる）。土地の価値下落の多くは経済的要因（地価の下落、周辺環境の変化）によるものであるが、前述の通り、経済的な価値下落のみでは施行令68条1項3号の要件を満たさない。このため、バブル崩壊後に広範に生じた地価下落に対して、税法上の評価損計上がほとんど認められなかったという実態がある。</p>
+<p>この建物と土地の構造的相違は、施行令68条が「物損等の事実」という物理的・具体的な事由を要求する制度設計に内在する問題である。経済的価値の下落にも対応しうる会計基準の減損会計（IAS 36 / 減損会計基準）との対比において、法人税法の評価損制度は、特に土地について著しく限定的に機能していると言わざるを得ない。</p>
+</div>
+
+<h3>3.2 通達9-1-18 ── 土地の賃貸をした場合の特例</h3>
+
+<div class="card">
+<p>法人が土地を賃貸し、賃借人から権利金等の一時金を収受するとともに長期間にわたり使用させる場合、賃貸後の価額が帳簿価額に満たないこととなることがある。通達9-1-18は、施行令138条1項（借地権の設定等により地価が著しく低下する場合）の適用がないときでも、その差額をその賃貸をした日の属する事業年度において帳簿価額から減額できるとする。これは不動産特有の評価損計上の特例である。</p>
+</div>
+
+<div class="card">
+<h3>3.3 不動産の評価損をめぐる実務上の課題</h3>
+<p>不動産の評価損は、前述の通り施行令68条1項3号の限定列挙事由に該当する場合にのみ認められる。しかし実務上は、この限定列挙に該当するか否かの判断が容易ではないケースが多い。以下に代表的な実務上の課題を整理する。</p>
+
+<h4>課題1：「所在する場所の状況が著しく変化した」（3号ニ）の解釈</h4>
+<p>通達9-1-16は、3号ニの例として「土地の周辺の環境が著しく変化した」場合を示すが、具体的にどの程度の環境変化が「著しい」に該当するかは明確ではない。近隣に嫌悪施設（産業廃棄物処理場、墓地等）が建設された場合や、鉄道路線の廃止により交通利便性が著しく低下した場合は該当し得るが、周辺の商業施設の閉鎖、人口減少による過疎化、隣接地の空き家増加等がこれに該当するかは議論の余地がある。景気循環に伴う地価の全般的下落は該当しないことは通達上明確であるが、特定地域に限定された構造的な地価下落（例えば原発事故の影響による特定地域の地価暴落）が該当するかは、裁判例の蓄積が待たれるところである。</p>
+
+<h4>課題2：遊休資産の判定（3号ロ）</h4>
+<p>1年以上の遊休状態にある固定資産については評価損の計上が認められるが、「遊休状態」の判定は必ずしも単純ではない。建物の一部をわずかに使用している場合、土地を暫定的に駐車場として使用している場合等、完全な遊休状態とは言い難いケースが実務上多く見られる。通達9-1-16はこの点について「やむを得ない事情によりその取得の時から1年以上事業の用に供されない」場合も含めているが、「やむを得ない事情」の範囲についても解釈の余地がある。</p>
+
+<h4>課題3：時価の算定方法</h4>
+<p>仮に「物損等の事実」に該当する場合でも、不動産の「時価」をいかに算定するかは独立した問題である。通達9-1-19は減価償却資産について再取得価額を基礎とした簡便法を認めているが、土地については適用されない。不動産鑑定評価を取得すれば客観性は高まるが、コストがかかる上、鑑定士によって評価額が異なりうるという問題がある。取引事例比較法による推定も考えられるが、類似の取引事例が乏しい地域では適用が困難である。結局、不動産の時価算定には一定の幅があることを前提とした上で、複数の方法による評価額のレンジの中で合理的な金額を選択するというアプローチが実務的には現実的であろう。</p>
+</div>
+
+<!-- ===== 第4章 ===== -->
+<h2 id="ch4">第4章　一物多価問題</h2>
+
+<p>日本の不動産には、同一の物件に複数の「公的な価格」が存在する。いわゆる「一物四価」ないし「一物五価」と呼ばれる現象であり、「時価」概念の根幹に関わる構造的問題である。</p>
+
+<div class="card">
+<h4>一物多価はなぜ生じるのか</h4>
+<p>経済理論上、完全競争市場においては同一の財には唯一の均衡価格が成立するはずである（一物一価の法則）。しかし不動産市場は完全競争市場の前提（同質的な財、多数の買い手と売り手、完全情報、取引コストゼロ）をいずれも満たさない。不動産は一つとして同じものがなく（個別性）、取引は頻繁には行われず（非流動性）、情報は非対称であり、取引コスト（仲介手数料、登記費用等）も大きい。</p>
+<p>この市場の不完全性に加え、日本では複数の行政機関がそれぞれの政策目的に応じて独自の「公的評価」を行うため、同一の土地に対して公示価格（国土交通省）、路線価（国税庁）、固定資産税評価額（市区町村）、実勢価格（市場取引）、基準地標準価格（都道府県）という複数の「時価」が併存することになる。これらの価格間には一定の比率関係（公示価格を100とすると、路線価≒80、固定資産税評価額≒70）が存在するが、個別の土地については必ずしもこの比率が成り立つとは限らない。</p>
+<p>一物多価の根本原因は、「時価」の決定において何をもって「正常な市場条件」とするかについて統一的な定義が存在しないことにある。各制度は各々の政策目的（適正な地価形成、税収の安定、安全率の確保、課税の公平等）を追求した結果として異なる「時価」を採用しており、これを統一することは複数の政策目的の再調整を伴う大規模な制度改革を要する。</p>
+</div>
+
+<!-- インラインSVG：一物多価の価格比率図 -->
+<div style="text-align:center; margin: 20px 0;">
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg" style="max-width:800px; width:100%;">
+<text x="400" y="22" text-anchor="middle" fill="#1a365d" font-size="15" font-weight="700">同一の土地に存在する複数の「時価」</text>
+<rect x="40" y="40" width="160" height="240" rx="8" fill="#ebf8ff" stroke="#3182ce" stroke-width="2"/>
+<text x="120" y="64" text-anchor="middle" fill="#3182ce" font-size="12" font-weight="700">公示価格</text>
+<text x="120" y="84" text-anchor="middle" fill="#3182ce" font-size="28" font-weight="800">100%</text>
+<text x="120" y="108" text-anchor="middle" fill="#718096" font-size="10">国土交通省</text>
+<text x="120" y="122" text-anchor="middle" fill="#718096" font-size="10">毎年1月1日</text>
+<text x="120" y="142" text-anchor="middle" fill="#718096" font-size="10">一般の土地取引の</text>
+<text x="120" y="156" text-anchor="middle" fill="#718096" font-size="10">指標・基準</text>
+<rect x="40" y="190" width="160" height="80" rx="4" fill="#fff" stroke="#a0aec0" stroke-width="1"/>
+<text x="120" y="218" text-anchor="middle" fill="#4a5568" font-size="9">不動産鑑定士の鑑定</text>
+<text x="120" y="234" text-anchor="middle" fill="#4a5568" font-size="9">評価に基づき決定</text>
+<text x="120" y="256" text-anchor="middle" fill="#4a5568" font-size="9">法人税法：≒ここが基準</text>
+
+<rect x="230" y="40" width="160" height="240" rx="8" fill="#fffaf0" stroke="#dd6b20" stroke-width="2"/>
+<text x="310" y="64" text-anchor="middle" fill="#dd6b20" font-size="12" font-weight="700">路線価</text>
+<text x="310" y="84" text-anchor="middle" fill="#dd6b20" font-size="28" font-weight="800">≒80%</text>
+<text x="310" y="108" text-anchor="middle" fill="#718096" font-size="10">国税庁</text>
+<text x="310" y="122" text-anchor="middle" fill="#718096" font-size="10">毎年1月1日</text>
+<text x="310" y="142" text-anchor="middle" fill="#718096" font-size="10">相続税・贈与税</text>
+<text x="310" y="156" text-anchor="middle" fill="#718096" font-size="10">の算定基礎</text>
+<rect x="230" y="190" width="160" height="80" rx="4" fill="#fff" stroke="#a0aec0" stroke-width="1"/>
+<text x="310" y="218" text-anchor="middle" fill="#4a5568" font-size="9">安全率20%を組込み</text>
+<text x="310" y="234" text-anchor="middle" fill="#4a5568" font-size="9">1年間の地価下落</text>
+<text x="310" y="250" text-anchor="middle" fill="#4a5568" font-size="9">リスクを吸収</text>
+
+<rect x="420" y="40" width="160" height="240" rx="8" fill="#f0fff4" stroke="#38a169" stroke-width="2"/>
+<text x="500" y="64" text-anchor="middle" fill="#38a169" font-size="12" font-weight="700">固定資産税評価額</text>
+<text x="500" y="84" text-anchor="middle" fill="#38a169" font-size="28" font-weight="800">≒70%</text>
+<text x="500" y="108" text-anchor="middle" fill="#718096" font-size="10">市町村</text>
+<text x="500" y="122" text-anchor="middle" fill="#718096" font-size="10">3年に1度</text>
+<text x="500" y="142" text-anchor="middle" fill="#718096" font-size="10">固定資産税・</text>
+<text x="500" y="156" text-anchor="middle" fill="#718096" font-size="10">登録免許税等</text>
+<rect x="420" y="190" width="160" height="80" rx="4" fill="#fff" stroke="#a0aec0" stroke-width="1"/>
+<text x="500" y="218" text-anchor="middle" fill="#4a5568" font-size="9">安全率30%を組込み</text>
+<text x="500" y="234" text-anchor="middle" fill="#4a5568" font-size="9">3年間の評価替え</text>
+<text x="500" y="250" text-anchor="middle" fill="#4a5568" font-size="9">サイクルに対応</text>
+
+<rect x="610" y="40" width="160" height="240" rx="8" fill="#fff5f5" stroke="#e53e3e" stroke-width="2"/>
+<text x="690" y="64" text-anchor="middle" fill="#e53e3e" font-size="12" font-weight="700">実勢価格</text>
+<text x="690" y="84" text-anchor="middle" fill="#e53e3e" font-size="24" font-weight="800">110-150%</text>
+<text x="690" y="108" text-anchor="middle" fill="#718096" font-size="10">市場（売主・買主）</text>
+<text x="690" y="122" text-anchor="middle" fill="#718096" font-size="10">取引時点・随時</text>
+<text x="690" y="142" text-anchor="middle" fill="#718096" font-size="10">実際の売買取引</text>
+<text x="690" y="156" text-anchor="middle" fill="#718096" font-size="10">地域差大</text>
+<rect x="610" y="190" width="160" height="80" rx="4" fill="#fff" stroke="#a0aec0" stroke-width="1"/>
+<text x="690" y="218" text-anchor="middle" fill="#4a5568" font-size="9">都市部では公示価格</text>
+<text x="690" y="234" text-anchor="middle" fill="#4a5568" font-size="9">の1.5〜2倍に達する</text>
+<text x="690" y="250" text-anchor="middle" fill="#4a5568" font-size="9">こともある</text>
+</svg>
+</div>
+
+<div class="card">
+<h4>乖離の政策的理由</h4>
+<p><strong>(1) 税制上の安定性・公平性の確保</strong>：路線価や固定資産税評価額は税額算定の基礎となる。実勢価格に完全連動させれば、地価高騰時に税負担が急増し、納税者に過大な負担を課すことになる。</p>
+<p><strong>(2) 評価時点の違い</strong>：公示価格は1月1日時点、路線価は1月1日時点（公表は7月頃）、固定資産税評価額は3年に1度の評価替え。実勢価格は日々変動する。この時間的ズレが乖離の一因。</p>
+<p><strong>(3) 安全率（バッファー）の組み込み</strong>：路線価の80%、固定資産税評価額の70%は意図的な安全率であり、評価額が実勢価格を上回る事態（逆転現象）を防止するためのバッファーとして機能している。</p>
+<p><strong>(4) 課税目的の違い</strong>：相続税は財産の移転に課税するもの、固定資産税は財産の保有に課税するもの。課税の趣旨が異なれば、評価の考え方も異なるのは当然ともいえる。</p>
+</div>
+
+<div class="card card-accent">
+<h4>一物多価の構造的問題点</h4>
+<ol>
+<li><strong>租税回避の余地</strong>：路線価と実勢価格の乖離を利用した相続税対策（不動産購入による評価額の圧縮）。最高裁令和4年4月19日判決がこの問題に一定の歯止めをかけた。</li>
+<li><strong>公平性の問題</strong>：不動産保有者と金融資産保有者との間の税負担の不均衡。金融資産は時価（市場価格）で評価されるのに対し、不動産は路線価（実勢価格の80%）で評価されるため、不動産保有者が有利となる。</li>
+<li><strong>法的予測可能性の低下</strong>：同じ「時価」でも法域によって異なる金額になる。法人税の申告において「時価」を算定する際、どの水準を用いるべきかが不明確。</li>
+<li><strong>「時価」概念の形骸化</strong>：路線価や固定資産税評価額は「時価」の名の下に実勢価格と大きく乖離した金額を用いており、「時価」という用語の意味が曖昧化している。</li>
+</ol>
+</div>
+
+<div class="card">
+<h4>国際比較 ── 一物多価は日本固有の問題か</h4>
+<p>一物多価現象は日本に固有のものではないが、その程度と制度的背景には各国で差異がある。</p>
+<p><strong>米国</strong>では、不動産の評価は主としてAssessed Value（課税評価額）とFair Market Value（公正市場価値）の2層構造をとる。各州の税務評価官（Assessor）がAssessed Valueを決定し、これに税率を乗じて固定資産税（Property Tax）を算定する。Assessed Valueは通常Fair Market Valueの一定割合（州によって50%〜100%）に設定される。日本と異なり、公示価格に相当する統一的な基準価格は存在せず、不動産鑑定士（MAI Appraiser）による個別鑑定が主要な時価算定手段となる。</p>
+<p><strong>ドイツ</strong>では、不動産の税務評価はBewertungsgesetz（評価法）に基づくEinheitswert（統一価額）が長年用いられてきたが、連邦憲法裁判所の2018年判決（1 BvL 11/14）により、実勢価格との乖離が著しい統一価額に基づく固定資産税制は平等原則に反するとして違憲判断が下された。これを受けてGrundsteuerreform（固定資産税改革）が2025年に施行され、実勢価格に近い評価方法への移行が進んでいる。ドイツの経験は、一物多価の乖離が一定の臨界点を超えると憲法上の問題を生じうることを示す先例として注目される。</p>
+<p><strong>英国</strong>では、相続税（Inheritance Tax）のための不動産評価はHMRC（歳入関税庁）のValuation Officeが行うが、基本的に市場価値（Open Market Value）による個別評価であり、日本のような画一的な路線価方式は採用していない。この結果、英国では一物多価問題は日本ほど顕在化していないが、評価コストの増大と評価のばらつきという別の問題を抱えている。</p>
+</div>
+
+<div class="card">
+<h4>法人税法33条との接点 ── 不動産の「価額」はどの水準か</h4>
+<p>一物多価問題は法人税法33条の評価損を考える際にも直接的に関係する。33条2項の「事業年度終了の時における当該資産の価額」を算定する際、公示価格・路線価・固定資産税評価額・鑑定評価額・実勢価格のいずれを基準とすべきかという問いが生じるからである。</p>
+<p>この点について、通達9-1-3は「使用収益されるものとしてその時において譲渡される場合に通常付される価額」と定めており、これは実勢価格（又はそれに近い水準）を志向するものと解される。しかし「通常付される価額」が実際にいくらであるかを客観的に確定することは容易ではない。不動産の場合、取引事例比較法による推定、収益還元法による算定、不動産鑑定評価額の利用等、複数のアプローチが考えられるが、いずれも一定の幅を伴う。</p>
+<p>通達9-1-19は減価償却資産の時価について、再取得価額を基礎とした未償却残額相当額により算定できるとしているが、これは建物等の償却資産に適用される簡便法であり、非償却資産たる土地には適用されない。土地の「価額」を算定する際の具体的な方法は通達に明記されておらず、この不明確さが実務上の争訟原因の一つとなっている。</p>
+<p>広島地裁平成23年9月14日判決が「適正な価額は不動産鑑定評価額に限られるものではない」と判示したことは、法人税法上の不動産の「時価」が特定の評価手法に拘束されない柔軟な概念であることを示す一方で、その反面として予測可能性を低下させる結果にもなっている。法人税法33条の文脈において、不動産の「価額」をいかに算定すべきかは、依然として理論的にも実務的にも未解決の課題である。</p>
+</div>
+
+<!-- ===== 第5章 ===== -->
+<h2 id="ch5">第5章　通達による時価の画一化</h2>
+
+<h3>5.1 通達の法的性質</h3>
+
+<div class="card">
+<p>通達の法的性質について、金子宏教授は『租税法』において以下のように述べる。</p>
+<blockquote>上級行政庁の下級行政庁への命令であり、行政組織の内部では拘束力をもつが、<strong>国民に対して拘束力をもつ法規ではなく、裁判所もそれに拘束されない</strong></blockquote>
+<p>すなわち通達はあくまで行政内部の指針であり、法律ではない。憲法81条に基づき、裁判所は通達と異なる独自の解釈をすることができる。にもかかわらず、実務においては国税当局も税理士も納税者も、あらゆる税務関係者が通達に従って時価を算定することを原則としている。通達が事実上の「法規範」として機能しているのが現状である。</p>
+<p>この構造は租税法律主義の根幹に関わる問題である。租税法律主義は、課税要件の法定（課税要件法定主義）と明確性（課税要件明確主義）を要求する（憲法84条）。「時価」は法人税法上の課税要件の核心的要素であるにもかかわらず、その具体的内容は法律でも施行令でもなく通達によって規定されている。法律の委任なく通達が課税要件の実質的内容を定めているこの構造は、形式的には課税要件法定主義に抵触するものと言わざるを得ない。</p>
+<p>しかし他方で、個別資産の「時価」を逐一法律で定めることは不可能であるから、通達による具体化は実務上不可避でもある。この点について日本公認会計士協会の租税調査会研究報告第11号「税務上の時価について」（2004年）は、関係会社間取引における時価課税の問題を包括的に検討し、時価の算定方法について法令レベルでの明確化の必要性を指摘している。また浅井光政氏の税務大学校論叢第36号では、租税法律主義の要請する法的安定性・予測可能性と、課税庁の要請する公平性・画一性の調和が核心的な課題であることが論じられている。</p>
+<p>結局のところ、通達による時価の画一化は、「完全には正当化できないが、代替手段がない」という消極的正当化に依拠しているのが実情である。この構造的制約を前提として、通達の合理性に関する継続的な司法審査と、可能な範囲での法令化（施行令レベルでの基本原則の明記等）が求められる。</p>
+</div>
+
+<h3>5.2 画一化の功罪</h3>
+
+<div class="comparison-box">
+<div class="card card-green">
+<h4>功（メリット）</h4>
+<ul>
+<li>納税者間の<strong>公平性の確保</strong>（同一基準の適用）</li>
+<li>納税者の<strong>便宜</strong>（個別鑑定不要）</li>
+<li>法的<strong>予測可能性</strong>の向上（事前に計算可能）</li>
+<li>課税事務の<strong>効率化</strong></li>
+</ul>
+</div>
+<div class="card card-accent">
+<h4>罪（デメリット）</h4>
+<ul>
+<li><strong>個別事情の無視</strong>（画一的評価が実態と乖離）</li>
+<li>「時価」概念の<strong>形骸化</strong>（通達の評価額＝時価という擬制）</li>
+<li><strong>租税法律主義</strong>との緊張（法律ではなく通達が実質的に課税要件を規定）</li>
+<li>課税庁による<strong>恣意的運用</strong>の余地（総則6項の発動基準が不明確）</li>
+</ul>
+</div>
+</div>
+
+<div class="card">
+<h4>画一化の経済学的分析</h4>
+<p>通達による時価の画一化は、情報の経済学の観点から分析可能である。個々の資産について「真の時価」（客観的交換価値）を精密に算定するには、市場データの収集、専門家による評価、比較対象の選定等のコストを要する。これを<strong>情報コスト</strong>（search cost）と呼ぶ。通達は、この情報コストを節約する制度的装置として機能している。画一的な評価基準を事前に提供することで、納税者は個別の鑑定評価を行うことなく「時価」を算定でき、課税庁も大量の申告を効率的に処理できる。</p>
+<p>しかし情報コストの節約は、<strong>情報の精度</strong>の犠牲の上に成り立つ。路線価が公示価格の80%に設定されるという画一的なルールは、実勢価格との乖離が小さい物件（例えば、取引が活発な都市部の住宅地）では合理的に機能するが、乖離が大きい物件（例えば、取引事例の少ない地方の商業地や、特殊な用途の不動産）では大きな歪みをもたらす。この情報コストと情報精度のトレードオフは、通達による画一化の本質的な限界を示すものであり、「精密な個別評価」と「簡便な画一的評価」の間のどこに最適点を設定すべきかという問いは、制度設計上の永続的課題である。</p>
+</div>
+
+<h3>5.3 総則6項問題の構造</h3>
+
+<div class="card card-warning">
+<h4>構造的矛盾の4要素</h4>
+<ol>
+<li><strong>通達は法律ではない</strong> → にもかかわらず事実上の法規範として全員が従う</li>
+<li><strong>通達に従った評価は適法</strong> → しかし課税庁は総則6項により通達に従わない評価を「できる」</li>
+<li><strong>総則6項の発動基準が不明確</strong> → 「著しく不適当」の判断は課税庁の裁量に委ねられる</li>
+<li><strong>課税庁にとって一方向的</strong> → 総則6項は常に<strong>納税者に不利な方向</strong>（通達評価額より高い時価の認定）に使用される</li>
+</ol>
+<p>最高裁令和4年4月19日判決（札幌タワマン事件）は、この構造的矛盾に一定の歯止めをかけた。すなわち、単なる価格乖離ではなく<strong>「租税負担の公平に反する事情」</strong>（＝租税回避の積極的行為）がなければ総則6項の適用は認められないとし、課税庁の裁量に一定の制約を課した。</p>
+<p>しかし「租税負担の公平に反する事情」の外延は依然として不明確であり、納税者の法的予測可能性が十分に確保されているとはいい難い。令和6年以降、非上場株式に関する総則6項の適用を否認する判決（東京地裁令和6年1月18日、東京高裁令和6年8月28日仙台薬局事件、東京地裁令和7年1月17日）が相次いでおり、裁判所が課税庁の総則6項の安易な適用に歯止めをかける傾向が見られる。</p>
+<p>この判例の流れは、「通達に従った評価は原則として適法」という大前提を再確認するものであると同時に、課税庁が総則6項を「伝家の宝刀」として濫用することに対する司法の牽制とも評価できる。最高裁令和4年判決が示した「租税負担の公平に反する事情」という要件は、単なる通達評価額と実勢価格の乖離ではなく、納税者の側に租税回避の意図（又は少なくとも客観的に見て租税回避と評価される行為）が存在することを要求するものと理解される。仙台薬局事件の控訴審判決（東京高裁令和6年8月28日）は、非上場株式の評価について、評価通達による評価額が通達の趣旨に従った合理的なものである限り、その評価額を時価と認めるべきであるとし、課税庁の総則6項適用を否認した。</p>
+<p>法人税法33条の評価損との関係で言えば、総則6項が問題となるのは主として相続税・贈与税の文脈であるが、その射程は法人税にも及びうる。通達9-1-14が財産評価基本通達の例によることを認めている以上、法人税法上の非上場株式の時価算定においても、評価通達の画一的適用と「時価」の実態的把握の間の緊張関係は同様に存在する。通達による画一化の功罪は、法人税法33条の評価損を論じる際にも常に意識されるべき問題である。</p>
+</div>
+
+
+<!-- ===== 第6章 ===== -->
+<h2 id="ch6">第6章　判例分析 ── 時価認定が争われた主要裁判例</h2>
+
+<p>「時価」の認定をめぐっては多くの裁判例が蓄積されている。本章では、判例データベース（3,057件・39,037チャンク）の全文検索およびWeb調査により収集した6カテゴリ19件の裁判例を分析する。</p>
+
+<h3>6.1 最重要判例：最高裁令和4年4月19日判決（札幌タワマン事件）</h3>
+
+<div class="case-card" style="border-left: 4px solid #e53e3e;">
+<div class="case-title">最高裁 令和4年4月19日判決 ── 総則6項適用基準の確立 <span class="star">★★★</span></div>
+<div class="case-meta">相続税更正及び加算税賦課決定取消請求事件 ｜ カテゴリ：C/D</div>
+<p><strong>事案</strong>：被相続人が相続税負担の軽減を目的として相続直前に銀行借入により不動産を購入した事案。甲不動産約8億3,700万円、乙不動産約5億5,000万円を取得。評価通達による評価額（約3.3億円）と不動産鑑定評価額（約12.7億円）に著しい乖離。</p>
+<p><strong>判旨</strong>：</p>
+<ul>
+<li>通達評価額と鑑定評価額との間に大きな乖離があるという事情<strong>だけでは足りない</strong></li>
+<li><strong>「租税負担の公平に反する事情」</strong>がある場合に総則6項の適用が許される</li>
+<li>本件では、相続税軽減目的での不動産購入により、他の納税者との間に<strong>看過し難い不均衡</strong>が生じており、総則6項の適用は適法</li>
+</ul>
+<p><strong>意義</strong>：通達による評価額が「時価」と推認される原則を維持しつつ、例外的に通達と異なる（より高い）時価の認定を認めた。総則6項適用の最高裁基準を確立した画期的判決。</p>
+<p><strong>学術的評価</strong>：本判決は、①「通達評価額と客観的交換価値の間に著しい乖離があること」と②「租税負担の実質的公平を著しく害する特別の事情があること」の二段階要件を示した点で、理論的にも実務的にも極めて重要な射程を持つ。第一の要件は客観的数値で判断可能であるが、第二の要件は評価の余地を残しており、どのような場合に「租税負担の実質的公平を著しく害する」と言えるかについて今後の判例の蓄積が必要である。本判決後、国税庁は総則6項の適用事案を増加させており、仙台薬局事件（東京地裁令和6年1月18日判決）では非上場株式への適用が争われた（結果として適用否認）。通達評価額を超える時価認定が、相続税のみならず法人税の文脈でも問題となりうることは、法人税法33条の評価損を論じる際にも留意すべきである。</p>
+</div>
+
+<h3>6.2 不動産の時価認定が争われた判例</h3>
+
+<div class="case-card">
+<div class="case-title">広島地裁 平成23年9月14日判決 <span class="star">★★★</span></div>
+<div class="case-meta">法人税額等更正処分取消請求事件 [DB:11766] ｜ スコア: 0.787 ｜ カテゴリ：A/E</div>
+<p><strong>争点</strong>：不動産の低額譲渡における「適正な価額」の認定。</p>
+<p><strong>判旨</strong>：低額譲渡に法人税法22条2項が適用される根拠は租税公平主義であるから、不当性・不合理性が存在する低額譲渡に限り適用されるべき。「<strong>適正な価額は不動産鑑定評価額に限られるものではない</strong>」と判示。私人間の取引において常に不動産鑑定を行わなければ課税されるとすることは不合理とした。</p>
+<p><strong>意義</strong>：法人税における不動産の「時価」が通達にも鑑定にもとらわれない柔軟な概念であることを示した。</p>
+</div>
+
+<div class="case-card">
+<div class="case-title">東京地裁 平成26年5月28日判決 <span class="star">★★★</span></div>
+<div class="case-meta">法人税更正処分取消等請求事件 [DB:12479] ｜ スコア: 0.734-0.768 ｜ カテゴリ：A</div>
+<p><strong>争点</strong>：株式の低額譲受けにおける時価認定、不動産の評価方法（路線価方式の合理性）。</p>
+<p><strong>判旨</strong>：法人税通達9-1-14に基づく評価通達準用の合理性を肯定。路線価を0.8で除して公示価格水準に割り戻す方法は一般的な合理性を有する。ただし「<strong>評価通達は相続・贈与のために規定されたものであり、法人税のように経済取引を前提とした財産評価にそのまま適用することには疑問がある</strong>」と指摘。</p>
+<p><strong>意義</strong>：法人税と相続税の「時価」概念の差異を明示的に論じた判決として重要。</p>
+</div>
+
+<h3>6.3 棚卸資産の評価損が争われた判例</h3>
+
+<div class="case-card">
+<div class="case-title">大阪地裁 平成23年3月24日判決 <span class="star">★★☆</span></div>
+<div class="case-meta">法人税更正処分取消等請求事件 [DB:11650] ｜ スコア: 0.736 ｜ カテゴリ：B</div>
+<p><strong>争点</strong>：棚卸商品の評価損（8億4,542万円）の計上の可否。損傷・陳腐化等による棚卸商品の評価損を売上原価に計上すべきかどうか。</p>
+<p><strong>分析</strong>：本判決は、棚卸資産の評価損が金額的に巨額になりうることを示した実例であり、棚卸資産の「著しい陳腐化」（施行令68条1項1号ロ）の解釈が争点となった。通達9-1-4が定義する「経済的な環境の変化に伴ってその価値が著しく減少し、その価額が今後回復しないと認められる状態」に該当するか否かの判断は、個別の棚卸資産の状態、業界動向、類似商品の販売実績等を総合的に考慮する必要がある。単なる市場価格の下落（通達9-1-6の「物価変動、過剰生産、建値の変更等」）との区別が実務上重要であり、両者の境界線は必ずしも明確ではない。棚卸資産の評価損が争われる事例は有価証券や不動産と比較すると少ないが、金額的インパクトは小さくない。</p>
+</div>
+
+<div class="case-card">
+<div class="case-title">福岡地裁 平成30年7月10日判決 / 福岡高裁 平成31年2月28日判決 <span class="star">★★☆</span></div>
+<div class="case-meta">[DB:13165/13247] ｜ スコア: 0.705-0.732 ｜ カテゴリ：B</div>
+<p><strong>争点</strong>：棚卸資産の評価方法（最終仕入原価法）の適用可否。販売用不動産を棚卸資産として評価する際の方法。</p>
+<p><strong>判旨</strong>：法人税法29条（棚卸資産の売上原価等の計算）は法人税法22条3項の「別段の定め」に当たる。棚卸会計基準6-2には最終仕入原価法が挙げられていない点に言及しつつ、棚卸会計基準の趣旨・目的は法人税法において達成されているとした。</p>
+<p><strong>分析</strong>：本判決は、不動産が棚卸資産に分類される場合（販売用不動産）の評価方法が争われた事案であり、棚卸資産と固定資産の分類が評価損の取扱いに重大な影響を与えることを示している。不動産が販売用不動産（棚卸資産）に分類される場合は施行令68条1項1号の適用を受け、事業用不動産（固定資産）に分類される場合は同項3号の適用を受ける。両号の要件は異なるため、同じ不動産でもその保有目的によって評価損の可否が異なりうる。この点は、資産分類の重要性を実務的に示す事例である。</p>
+</div>
+
+<h3>6.4 「時価とは何か」が正面から争われた判例</h3>
+
+<div class="case-card">
+<div class="case-title">「客観的交換価値」の判例法理 ── 最高裁判例の蓄積 <span class="star">★★★</span></div>
+<div class="case-meta">カテゴリ：C ── 「時価」＝客観的交換価値の定義（判例の蓄積により形成）</div>
+<p><strong>判例法理の形成</strong>：相続税法22条にいう「時価」とは、課税時期において、不特定多数の当事者間で自由な取引が行われる場合に通常成立すると認められる価額、すなわち<strong>客観的交換価値</strong>をいう。この定義は、昭和期以降の下級審判決から最高裁判例に至る蓄積によって確立された法的概念であり、単一の判決で「確立」されたものではない。最高裁令和4年4月19日判決（札幌タワマン事件）もこの定義を前提としている。</p>
+<p>評価通達の定める評価方法が一般的合理性を有する限り、その方法に従って算定された評価額は時価を上回らないと<strong>推認</strong>される。この推認を覆すには「特別の事情」の立証が必要とされる（推認法理）。</p>
+<p><strong>分析</strong>：「客観的交換価値」は、金子宏教授が学術的に定式化した概念が判例に受容されたものである。注目すべきは推認法理の構造であり、通達に基づく評価を「時価の上限」と位置づけ、通達評価額が実勢の客観的交換価値よりも低い（＝安全側にある）ことを前提としている。この法理は、路線価が公示価格の80%で設定されている構造と整合的であるが、法人税法の文脈では必ずしも妥当しない。法人税法上の時価は路線価によらず実勢に近い水準が要求されるためである。</p>
+</div>
+
+<div class="case-card">
+<div class="case-title">東京高裁 平成28年4月21日判決 <span class="star">★★☆</span></div>
+<div class="case-meta">法人税更正処分等取消請求控訴事件 [DB:12848] ｜ スコア: 0.695-0.751 ｜ カテゴリ：C</div>
+<p><strong>争点</strong>：法人税における非上場株式の時価評価方法。法人税基本通達9-1-14の趣旨。</p>
+<p><strong>判旨</strong>：法人税基本通達9-1-14は、評価通達の定める非上場株式の評価方法を法人税課税においても是認する趣旨。評価方法が適正な時価を算定する方法として一般的な合理性を有する場合、その方法に従って算定された価額は時価と推認される。ただし<strong>より合理的な評価方法が存在する場合にはそれによるべき</strong>。</p>
+</div>
+
+<div class="case-card">
+<div class="case-title">熊本地裁 平成28年9月21日判決 <span class="star">★★☆</span></div>
+<div class="case-meta">法人税額更正処分等取消請求事件 [DB:12903] ｜ スコア: 0.730-0.739 ｜ カテゴリ：C/F</div>
+<p><strong>争点</strong>：法人税法33条2項（評価損の損金算入）の適用。非上場株式の時価評価。</p>
+<p><strong>判旨</strong>：法人税基本通達9-1-14の趣旨として、法人税課税の場面では親会社にとっての株式の価値を子会社の純資産の額と切り離して考えることができないため、併用方式により株式の時価を算出するとしている点は合理性がある。</p>
+</div>
+
+<h3>6.5 通達と異なる時価を裁判所が認めた判例</h3>
+
+<div class="case-card">
+<div class="case-title">東京高裁 平成20年2月20日判決 <span class="star">★★☆</span></div>
+<div class="case-meta">[DB:10898] ｜ スコア: 0.686-0.743 ｜ カテゴリ：E</div>
+<p><strong>争点</strong>：取引相場のない株式の低額譲渡における時価。通達の解釈の誤り。</p>
+<p><strong>判旨</strong>：控訴人国が主張する株式の価格は「<strong>誤った通達の解釈に基づく</strong>」と指摘。取引実務にも反するものであり、客観的交換価値すなわち時価とは認め難い。通達の例外規定の適用は不当な租税回避が行われるケースに限定すべき。</p>
+<p><strong>分析</strong>：本判決は、裁判所が課税庁の通達解釈を正面から否定した異例の判決として注目される。通常、裁判所は課税庁の通達解釈を尊重する傾向があるが、本件では「誤った通達の解釈」という強い言葉で課税庁の立場を退けた。この判決は、通達は行政内部の指針にすぎず裁判所を拘束しないという原則が実際に機能した事例として、通達による時価の画一化問題を考える上で重要な先例である。通達解釈の正当性は最終的に裁判所の判断に服するという原則が、形式論にとどまらず実質的に貫徹された点に意義がある。</p>
+<p><strong>意義</strong>：裁判所が通達の解釈に正面から異を唱え、国の主張を退けた事例。通達が事実上の法規範として機能する中で、裁判所の独立的判断が示された重要判決。</p>
+</div>
+
+<h3>6.6 総則6項をめぐる最新判例の動向</h3>
+
+<div class="card card-info">
+<h4>令和4年最高裁判決以降の展開</h4>
+<div class="table-wrap">
+<table>
+<tr><th>判決</th><th>裁判所/日付</th><th>対象</th><th>結果</th><th>要旨</th></tr>
+<tr><td><strong>札幌タワマン事件</strong></td><td>最高裁 R4.4.19</td><td>不動産</td><td>国勝訴</td><td>総則6項適用基準を確立。「租税負担の公平に反する事情」が必要</td></tr>
+<tr><td><strong>仙台薬局事件（一審）</strong></td><td>東京地裁 R6.1.18</td><td>非上場株式</td><td>納税者勝訴</td><td>価格乖離だけでは不十分。租税回避の積極的行為の主張立証が必要</td></tr>
+<tr><td><strong>仙台薬局事件（控訴審）</strong></td><td>東京高裁 R6.8.28</td><td>非上場株式</td><td>納税者勝訴維持</td><td>「実質的な租税負担の公平に反するというべき事情」の主張立証が必要</td></tr>
+<tr><td><strong>特定評価会社外し事案</strong></td><td>東京地裁 R7.1.17</td><td>非上場株式</td><td>納税者勝訴</td><td>国が控訴し係属中</td></tr>
+</table>
+</div>
+<p>令和4年最高裁判決後、不動産に関しては国が勝訴する一方、<strong>非上場株式に関しては納税者が連勝</strong>している。裁判所は、総則6項の適用に当たって単なる価格乖離では不十分であり、「租税回避の積極的行為」の存在を要求する姿勢を鮮明にしている。</p>
+</div>
+
+<div class="card">
+<h4>判例の全体的傾向 ── 時価認定訴訟の構造</h4>
+<p>以上の判例分析から、時価認定をめぐる訴訟には共通の構造が見出される。第一に、<strong>挙証責任の問題</strong>がある。評価損を主張する納税者は、所定の事実の発生、時価の低下、帳簿価額との差額の3点を立証しなければならない。しかし「時価」の立証は本質的に困難であり、特に非上場株式や不動産については、いかなる評価方法を採用するかによって「時価」が大きく変動する。裁判所は概ね課税庁の評価方法の合理性を尊重する傾向にあるが、課税庁の評価方法が通達の解釈を誤っている場合（東京高裁平成20年判決）や、不合理な前提に基づいている場合には、裁判所が独自の判断を示すこともある。</p>
+<p>第二に、<strong>通達の役割の二面性</strong>がある。通達は納税者にとって「時価」算定の指針として機能する一方、課税庁にとっても処分の根拠として機能する。通達に従った評価が「時価」と推認されるという構造（最高裁令和4年判決）は、通達に従っている限り訴訟リスクが低いことを意味する。しかし総則6項のような例外規定が存在し、通達に従った評価が覆される可能性がある限り、通達の指針としての信頼性には一定の限界がある。</p>
+</div>
+
+<h3>6.7 法人税法33条が直接争われた判例</h3>
+
+<div class="case-card">
+<div class="case-title">東京地裁 平成24年7月20日判決</div>
+<div class="case-meta">[DB:12008] ｜ スコア: 0.778 ｜ カテゴリ：F</div>
+<p>法人税法33条の全条文（1項〜4項）が直接引用され、評価損の損金算入の要件体系が確認された。原則（1項・損金不算入）、例外（2項・物損等の事実による評価換え）、更生計画（3項）、再生計画（4項）の全体構造が判示されている。</p>
+</div>
+
+<div class="case-card">
+<div class="case-title">東京地裁 平成15年7月17日判決</div>
+<div class="case-meta">[DB:13287] ｜ スコア: 0.731-0.749 ｜ カテゴリ：F</div>
+<p><strong>争点</strong>：船舶の「適正な価額」の算定。低額譲渡による受贈益課税。法人税法33条2項の適用。</p>
+<p><strong>判旨</strong>：減価償却資産の時価について、法人税基本通達9-1-19の方法（再取得価額を基礎とした未償却残額）による算定が合理的。「鑑定による評価額は、類似船舶の売買実績等を基に算定されていることから、適正な価額と認められる」。</p>
+</div>
+
+<div class="card">
+<h4>判例分析のまとめ ── 重要判例トップ10</h4>
+<div class="table-wrap">
+<table>
+<tr><th>順位</th><th>判決</th><th>裁判所</th><th>カテゴリ</th><th>概要</th></tr>
+<tr><td>1</td><td>札幌タワマン事件</td><td>最高裁 R4.4.19</td><td>C/D</td><td>総則6項適用基準の確立</td></tr>
+<tr><td>2</td><td>広島地裁判決</td><td>広島地裁 H23.9.14</td><td>A/E</td><td>「適正な価額は鑑定評価額に限られない」</td></tr>
+<tr><td>3</td><td>東京地裁判決</td><td>東京地裁 H26.5.28</td><td>A</td><td>法人税と相続税の「時価」の差異</td></tr>
+<tr><td>4</td><td>仙台薬局事件</td><td>東京地裁 R6.1.18</td><td>D</td><td>総則6項適用否認（非上場株式）</td></tr>
+<tr><td>5</td><td>最高裁判決</td><td>最高裁 H25.7.12</td><td>C</td><td>「時価」＝客観的交換価値の枠組み確立</td></tr>
+<tr><td>6</td><td>東京高裁判決</td><td>東京高裁 H28.4.21</td><td>C</td><td>通達9-1-14の趣旨解釈</td></tr>
+<tr><td>7</td><td>最高裁判決（私道）</td><td>最高裁 H29.2.28</td><td>D</td><td>評価通達の文理解釈重視</td></tr>
+<tr><td>8</td><td>東京高裁判決</td><td>東京高裁 H20.2.20</td><td>E</td><td>通達解釈に裁判所が異を唱えた</td></tr>
+<tr><td>9</td><td>大阪地裁判決</td><td>大阪地裁 H23.3.24</td><td>B</td><td>棚卸商品の評価損（8億円超）</td></tr>
+<tr><td>10</td><td>熊本地裁判決</td><td>熊本地裁 H28.9.21</td><td>C/F</td><td>法33条2項と通達9-1-14の関係</td></tr>
+</table>
+</div>
+</div>
+
+
+<!-- ===== 第7章 ===== -->
+<h2 id="ch7">第7章　会計基準との乖離 ── 減損会計と税法評価損の構造的ギャップ</h2>
+
+<div class="card card-accent">
+<h3>7.1　問題の所在</h3>
+<p>法人税法33条の評価損と、会計基準における減損処理は、いずれも資産価値の下落に対応する制度である。しかし、両者はその設計思想・トリガー・測定方法・効果において根本的に異なる。この構造的乖離を理解することは、評価損の実務的適用において不可欠である。</p>
+<p>とりわけ重要なのは、会計上の減損処理が「投資家への適正な情報提供」を目的とするのに対し、法人税法の評価損は「課税の公平・確実性」を目的としている点である。制度目的の違いが、同一の経済事象に対して異なる会計・税務処理を生み出す根本原因となっている。</p>
+</div>
+
+<div class="card">
+<h3>7.2　会計基準の「時価」── 3つの体系</h3>
+
+<h4>（1）時価算定基準（企業会計基準第30号、2019年）</h4>
+<p>企業会計基準第30号は、時価を以下のように定義する。</p>
+<blockquote>「算定日において市場参加者間で秩序ある取引が行われると想定した場合の、当該取引における資産の売却によって受け取る価格又は負債の移転のために支払う価格」</blockquote>
+<p>この定義はIFRS第13号（公正価値測定）およびASC Topic 820（米国基準）とほぼ同内容であり、国際的な整合性を意図して策定された。時価の算定に用いるインプットには、3階層の優先順位が設けられている。</p>
+
+<div class="table-wrap">
+<table>
+<tr><th>レベル</th><th>定義</th><th>具体例</th><th>信頼性</th></tr>
+<tr><td><strong>レベル1</strong></td><td>活発な市場における同一資産の相場価格</td><td>上場株式の終値、取引所商品先物</td><td>最高</td></tr>
+<tr><td><strong>レベル2</strong></td><td>直接又は間接に観察可能なインプット</td><td>類似資産の相場、市場データに裏付けられた数値</td><td>中程度</td></tr>
+<tr><td><strong>レベル3</strong></td><td>観察できないインプット</td><td>DCF法、経営者の見積り、シナリオ分析</td><td>最低</td></tr>
+</table>
+</div>
+
+<p>法人税法の「時価」との対比で重要なのは、レベル3のインプット（観察できないインプット）の取扱いである。会計基準はレベル3のDCF法等による「使用価値」を時価として認めるが、法人税法はこうした主観的・将来予測的な評価を基本的に受け入れない。税法の「価額」は客観的に検証可能な交換価値を志向しており、「市場参加者の仮定」に基づくレベル3の時価とは本質的に異なる。</p>
+
+<h4>（2）減損会計基準の「回収可能価額」（2002年）</h4>
+<p>固定資産の減損会計は、以下の<strong>3段階プロセス</strong>で構成される。</p>
+
+<div class="table-wrap">
+<table>
+<tr><th>段階</th><th>内容</th><th>判定方法</th></tr>
+<tr><td><strong>Step 1</strong></td><td>減損の兆候の判定</td><td>営業CF継続マイナス、経営環境著しく悪化、市場価格著しく下落（50%目安）等の4兆候を例示</td></tr>
+<tr><td><strong>Step 2</strong></td><td>減損損失の認識</td><td>帳簿価額 &gt; 割引前将来CF総額 → 減損認識</td></tr>
+<tr><td><strong>Step 3</strong></td><td>減損損失の測定</td><td>帳簿価額を回収可能価額まで減額。回収可能価額 = max（正味売却価額, 使用価値）</td></tr>
+</table>
+</div>
+
+<p>ここにいう「使用価値」とは、資産の継続的使用と処分から生じると見込まれる将来キャッシュ・フローの現在価値（DCF法）である。この「使用価値」概念は、法人税法の「時価」体系には存在しない。法人税法の「時価」は基本的に交換価値（売却時に得られる価額）を念頭に置いており、DCF法に基づく継続使用前提の現在価値という概念を持たない。これは極めて重要な構造的差異である。</p>
+
+<h4>（3）金融商品会計の減損</h4>
+<p>有価証券について、売買目的以外の有価証券の時価が取得原価に比べて「著しく下落」した場合、回復可能性がないと認められれば減損処理を行う。著しい下落の判定は、時価下落率50%以上で推定、30%以上50%未満で各企業の合理的基準により判定、30%未満で原則不要とされる。市場価格のない株式等については、実質価額が取得原価の50%程度以上低下した場合に減損処理を行い、非上場株式では回復可能性の判定は不要とされる。</p>
+</div>
+
+<div class="card card-warning">
+<h3>7.3　6つの構造的乖離ポイント</h3>
+<p>会計基準と法人税法の評価損制度の間には、以下の6つの根本的な構造的乖離が存在する。これらは個別の解釈問題ではなく、制度設計の思想レベルでの差異に起因するものである。</p>
+
+<h4>乖離①：トリガーの広狭</h4>
+<p>会計基準は減損の兆候を<strong>例示列挙</strong>で広く捉える（営業CFマイナス、経営環境悪化、市場価格下落等。他の事象も対象になりうる）。これに対し、法人税法は施行令68条で<strong>限定列挙</strong>する（災害損傷、物損等の事実、法的整理の事実）。同一の資産価値下落が、会計上は減損処理の対象となりながら税法上は評価損計上の要件を満たさないケースが構造的に生じる。実務上、固定資産の減損損失が税務上損金算入されるケースは<strong>皆無に近い</strong>とされる。</p>
+
+<h4>乖離②：「時価」概念の多義性</h4>
+<p>会計基準は「使用価値」（DCF法に基づく継続使用前提の価値）を回収可能価額の一部として認めるが、税法は基本的に<strong>交換価値のみ</strong>で判定する。使用価値が正味売却価額を上回る場合、会計上の減損損失は縮小するが、税法にはこの「救済措置」がない。ただし実際には、税法上は固定資産の評価損自体が物損等の限定事実でしか認められないため、「時価」の算定以前の段階で差異が生じている。</p>
+
+<h4>乖離③：回復可能性の挙証責任の逆転</h4>
+<p>会計基準は「回復可能性がある」ことの立証を<strong>企業に求める</strong>（立証できなければ減損＝保守主義の原則）。税法は「回復が見込まれない」ことの<strong>事実認定を求める</strong>（認定できなければ評価損否認）。<strong>立証責任の方向が逆</strong>であり、会計上は回復可能性が「不明」な場合にも減損処理が必要とされるが、税法ではそのような状況では評価損は認められない。</p>
+
+<h4>乖離④：認識範囲の拡張（30% vs 50%）</h4>
+<p>会計基準は有価証券について30%以上の下落でも企業の合理的基準に基づき減損処理を認めるが、税法は50%が下限である。この<strong>30〜50%のギャップゾーン</strong>では、会計上は減損処理されるが税法上は評価損が認められないという乖離が必然的に生じる。さらに、非上場株式について、会計上は回復可能性の判定不要で実質価額50%低下により自動的に減損されるが、税法上は「資産状態が著しく悪化した」ことが追加的に必要であり、50%低下だけでは足りない場合がある。</p>
+
+<!-- 乖離⑤⑥のインラインSVG図解 -->
+<svg viewBox="0 0 800 340" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:800px;margin:24px auto;display:block;">
+  <defs>
+    <linearGradient id="gapGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fed7d7"/>
+      <stop offset="100%" stop-color="#c6f6d5"/>
+    </linearGradient>
+  </defs>
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="40" rx="6" fill="#1a365d"/>
+  <text x="400" y="26" text-anchor="middle" fill="#fff" font-size="15" font-weight="bold">会計基準 vs 法人税法 ── 有価証券評価損の判定フロー比較</text>
+  
+  <!-- Left: 会計基準 -->
+  <rect x="20" y="60" width="370" height="260" rx="8" fill="#ebf8ff" stroke="#2c5282" stroke-width="1.5"/>
+  <text x="205" y="85" text-anchor="middle" fill="#2c5282" font-size="14" font-weight="bold">会計基準（金融商品会計）</text>
+  
+  <rect x="55" y="100" width="300" height="30" rx="4" fill="#bee3f8"/>
+  <text x="205" y="120" text-anchor="middle" fill="#2a4365" font-size="11">時価下落率 30%以上 → 企業基準で減損可能</text>
+  
+  <rect x="55" y="140" width="300" height="30" rx="4" fill="#90cdf4"/>
+  <text x="205" y="160" text-anchor="middle" fill="#2a4365" font-size="11">時価下落率 50%以上 → 原則減損必須</text>
+  
+  <rect x="55" y="180" width="300" height="30" rx="4" fill="#63b3ed"/>
+  <text x="205" y="200" text-anchor="middle" fill="#fff" font-size="11">回復可能性：企業が「ある」ことを立証</text>
+  
+  <rect x="55" y="220" width="300" height="30" rx="4" fill="#4299e1"/>
+  <text x="205" y="240" text-anchor="middle" fill="#fff" font-size="11">不明 → 減損処理（保守主義）</text>
+  
+  <rect x="55" y="260" width="300" height="30" rx="4" fill="#3182ce"/>
+  <text x="205" y="280" text-anchor="middle" fill="#fff" font-size="11">IFRS：減損戻入れ可（のれん除く）</text>
+  
+  <!-- Right: 法人税法 -->
+  <rect x="410" y="60" width="370" height="260" rx="8" fill="#fff5f5" stroke="#c53030" stroke-width="1.5"/>
+  <text x="595" y="85" text-anchor="middle" fill="#c53030" font-size="14" font-weight="bold">法人税法33条・施行令68条</text>
+  
+  <rect x="445" y="100" width="300" height="30" rx="4" fill="#fed7d7"/>
+  <text x="595" y="120" text-anchor="middle" fill="#9b2c2c" font-size="11">時価下落率 50%未満 → 評価損不可</text>
+  
+  <rect x="445" y="140" width="300" height="30" rx="4" fill="#feb2b2"/>
+  <text x="595" y="160" text-anchor="middle" fill="#9b2c2c" font-size="11">時価下落率 50%以上 → 検討開始</text>
+  
+  <rect x="445" y="180" width="300" height="30" rx="4" fill="#fc8181"/>
+  <text x="595" y="200" text-anchor="middle" fill="#fff" font-size="11">回復可能性：「見込まれない」ことを認定</text>
+  
+  <rect x="445" y="220" width="300" height="30" rx="4" fill="#f56565"/>
+  <text x="595" y="240" text-anchor="middle" fill="#fff" font-size="11">不明 → 評価損否認（実現主義）</text>
+  
+  <rect x="445" y="260" width="300" height="30" rx="4" fill="#e53e3e"/>
+  <text x="595" y="280" text-anchor="middle" fill="#fff" font-size="11">戻入れ不可（日本基準・税法とも）</text>
+  
+  <!-- Gap Zone Indicator -->
+  <rect x="280" y="300" width="240" height="30" rx="15" fill="url(#gapGrad)" stroke="#d69e2e" stroke-width="1.5"/>
+  <text x="400" y="320" text-anchor="middle" fill="#744210" font-size="11" font-weight="bold">30〜50% ギャップゾーン</text>
+</svg>
+
+<h4>乖離⑤：減損損失の戻入れ</h4>
+<p>IFRS（IAS 36）は、のれんを除く資産について減損損失の戻入れを認める。資産の収益力が回復すれば、減損がなかった場合の帳簿価額を上限として戻入れが行われる。これに対し、日本基準および法人税法はいずれも戻入れを認めない。</p>
+<p>日本基準は、減損の存在が「相当程度確実」な場合にのみ損失を認識するという設計であるため、認識後の戻入れは論理的に整合しないとする立場をとっている。法人税法についても、一度損金算入した評価損の戻入れは益金算入の根拠条文が不明確である。</p>
+<p>将来的にIFRSが個別財務諸表にも適用される場合、戻入れ益の課税関係が新たな重要論点となる。連結財務諸表でIFRSを適用し個別で日本基準を適用する企業では、連結上は減損が戻入れされるが個別（＝課税所得計算の基礎）では戻入れされないという「ねじれ」が既に生じている。</p>
+
+<h4>乖離⑥：損金経理要件のゲートキーパー機能</h4>
+<p>法人税法33条2項は、評価損の損金算入の要件として「<strong>損金経理</strong>により帳簿価額を減額した」ことを求める。これは確定決算主義の一環であり、会計上の減損処理（帳簿価額の減額）を行わなければ、税法上の評価損も計上できないことを意味する。</p>
+<p>この構造は3つの問題を内包する。第一に、「<strong>逆基準性</strong>」の問題である。税務上の損金算入を受けるために、本来の会計判断とは異なる処理を行うインセンティブが生じる。第二に、会計基準変更の税務への波及である。IFRS導入企業と日本基準適用企業との間で、同一の経済事象に対する税務処理が異なる可能性がある。第三に、IFRS 9の予想信用損失モデルのように、会計がフォワードルッキングな方向に進化する中で、税法の損金経理要件がそれに追随できるかという問題がある。</p>
+<p>ドイツでは既に2009年の会計基準近代化法（BilMoG）で逆基準性の原則を廃止しており、日本でも同様の法改正が将来的に必要になる可能性がある。</p>
+</div>
+
+<div class="card">
+<h3>7.4　50%基準の微妙な差異</h3>
+<p>有価証券の評価損・減損における50%基準は会計と税法の両方に存在するが、その構造と効果には本質的な差異がある。</p>
+
+<div class="table-wrap">
+<table>
+<tr><th>比較項目</th><th>金融商品会計基準</th><th>法人税基本通達9-1-7</th></tr>
+<tr><td><strong>基準の性格</strong></td><td>「著しく下落」の推定基準</td><td>「価額が著しく低下した」の意義</td></tr>
+<tr><td><strong>比較対象</strong></td><td>時価 vs <strong>取得原価</strong></td><td>事業年度末の価額 vs <strong>帳簿価額</strong>（取得原価とは限らない）</td></tr>
+<tr><td><strong>50%未満の下落</strong></td><td>30%以上なら企業基準で減損<strong>可能</strong></td><td>50%未満では原則<strong>不可</strong></td></tr>
+<tr><td><strong>回復可能性</strong></td><td>不明でも減損必要（保守主義）</td><td>「見込まれない」ことの認定が必要</td></tr>
+<tr><td><strong>判定時期</strong></td><td>期末日の時価が基本</td><td>その他有価証券は末前1月間の平均額も可</td></tr>
+<tr><td><strong>事後的回復</strong></td><td>切放し法（戻入れなし）</td><td>翌期回復しても前期処理を遡及修正不要</td></tr>
+</table>
+</div>
+</div>
+
+<div class="card">
+<h3>7.5　IFRS vs J-GAAP の主要差異</h3>
+
+<div class="table-wrap">
+<table>
+<tr><th>項目</th><th>IFRS（IAS 36）</th><th>日本基準</th><th>法人税法への影響</th></tr>
+<tr><td><strong>減損テスト</strong></td><td>1ステップ（帳簿価額 vs 回収可能価額）</td><td>2ステップ（割引前CF→回収可能価額）</td><td>IFRSはより早期に認識。税法との乖離拡大</td></tr>
+<tr><td><strong>兆候の数値基準</strong></td><td>なし（実質判断）</td><td>あり（50%程度以上等）</td><td>税法も限定列挙であり数値基準は50%</td></tr>
+<tr><td><strong>減損の戻入れ</strong></td><td>認められる（のれん除く）</td><td>認められない</td><td>IFRS個別適用時に戻入れ益の課税が論点化</td></tr>
+<tr><td><strong>のれん</strong></td><td>非償却＋毎年減損テスト</td><td>20年以内の規則的償却＋減損テスト</td><td>税法上は資産調整勘定で5年均等償却</td></tr>
+<tr><td><strong>P/L表示</strong></td><td>営業費用</td><td>特別損失</td><td>税法上の損金区分には直接影響なし</td></tr>
+</table>
+</div>
+
+<p>IFRS 9（金融商品）の「予想信用損失（ECL）モデル」も重要な差異である。IFRS 9は当初認識時から将来予測に基づき即座に損失を認識するのに対し、日本基準は発生損失モデル（信用事象発生後に認識）を維持している。法人税法は「資産状態が著しく悪化した」等の具体的事実の発生を要件とするため、「将来の予想」に基づく損金算入は、租税法律主義の下では困難である。この点でIFRS 9と法人税法の乖離は極めて大きい。</p>
+</div>
+
+<div class="card card-accent">
+<h3>7.6　実務上の乖離ケース ── 申告調整の構造</h3>
+
+<h4>最頻出パターン：会計上は減損処理したが税法上は損金不算入</h4>
+<p>実務上最も頻繁に発生するのは、会計上の減損損失が税法上の評価損要件を満たさないケースである。</p>
+
+<div class="table-wrap">
+<table>
+<tr><th>類型</th><th>会計処理</th><th>税務上の取扱い</th><th>申告調整</th></tr>
+<tr><td><strong>固定資産の減損損失</strong></td><td>収益性低下により減損損失計上</td><td>施行令68条の限定列挙に該当しなければ損金不算入</td><td>非償却資産：別表四で全額加算。償却資産：償却超過額として加算→翌期以降逐次認容</td></tr>
+<tr><td><strong>有価証券30〜50%下落</strong></td><td>企業の合理的基準で減損処理</td><td>50%基準を満たさず評価損不可</td><td>別表四で加算</td></tr>
+<tr><td><strong>有価証券50%超だが回復可能性判断が相違</strong></td><td>回復可能性不明として減損</td><td>「回復が見込まれない」ことの立証不十分</td><td>自己否認して別表四で加算</td></tr>
+<tr><td><strong>棚卸資産の正味売却価額低下</strong></td><td>棚卸資産基準で簿価切下げ</td><td>施行令68条1項1号の事実に該当しなければ損金不算入</td><td>別表四で加算</td></tr>
+</table>
+</div>
+
+<p>逆パターン（税法上は評価損計上できるが会計上は減損しない）は理論上存在するが、損金経理要件があるため、会計上の処理なしには税法上の評価損は計上できない。損金経理要件は、税法上の恩恵を「会計処理の実施」に条件づけるゲートキーパーの役割を果たしている。</p>
+
+<!-- 申告調整フロー図 -->
+<svg viewBox="0 0 800 380" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:800px;margin:24px auto;display:block;">
+  <rect x="0" y="0" width="800" height="40" rx="6" fill="#1a365d"/>
+  <text x="400" y="26" text-anchor="middle" fill="#fff" font-size="15" font-weight="bold">会計上の減損損失 → 税務申告調整フロー</text>
+  
+  <!-- 会計側 -->
+  <rect x="30" y="60" width="200" height="40" rx="6" fill="#bee3f8" stroke="#2c5282"/>
+  <text x="130" y="84" text-anchor="middle" fill="#2a4365" font-size="12">会計：減損の兆候判定</text>
+  <line x1="130" y1="100" x2="130" y2="120" stroke="#2c5282" stroke-width="2" marker-end="url(#arrowBlue7)"/>
+  
+  <rect x="30" y="120" width="200" height="40" rx="6" fill="#90cdf4" stroke="#2c5282"/>
+  <text x="130" y="144" text-anchor="middle" fill="#2a4365" font-size="12">割引前CF vs 帳簿価額</text>
+  <line x1="130" y1="160" x2="130" y2="180" stroke="#2c5282" stroke-width="2" marker-end="url(#arrowBlue7)"/>
+  
+  <rect x="30" y="180" width="200" height="40" rx="6" fill="#63b3ed" stroke="#2c5282"/>
+  <text x="130" y="204" text-anchor="middle" fill="#fff" font-size="12">回収可能価額まで減額</text>
+  <line x1="130" y1="220" x2="130" y2="240" stroke="#2c5282" stroke-width="2" marker-end="url(#arrowBlue7)"/>
+  
+  <rect x="30" y="240" width="200" height="40" rx="6" fill="#3182ce" stroke="#2c5282"/>
+  <text x="130" y="264" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">P/L特別損失に計上</text>
+  
+  <!-- 矢印（会計→税務） -->
+  <defs>
+    <marker id="arrowBlue7" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2c5282"/>
+    </marker>
+    <marker id="arrowRed7" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#c53030"/>
+    </marker>
+  </defs>
+  
+  <line x1="230" y1="260" x2="320" y2="260" stroke="#718096" stroke-width="2" stroke-dasharray="6,4" marker-end="url(#arrowRed7)"/>
+  <text x="275" y="252" text-anchor="middle" fill="#718096" font-size="10">損金経理?</text>
+  
+  <!-- 税務側 -->
+  <rect x="320" y="60" width="200" height="40" rx="6" fill="#fed7d7" stroke="#c53030"/>
+  <text x="420" y="84" text-anchor="middle" fill="#9b2c2c" font-size="12">税務：施行令68条判定</text>
+  <line x1="420" y1="100" x2="420" y2="120" stroke="#c53030" stroke-width="2" marker-end="url(#arrowRed7)"/>
+  
+  <rect x="320" y="120" width="200" height="40" rx="6" fill="#feb2b2" stroke="#c53030"/>
+  <text x="420" y="144" text-anchor="middle" fill="#9b2c2c" font-size="12">限定列挙事実に該当？</text>
+  
+  <!-- 分岐 -->
+  <line x1="420" y1="160" x2="360" y2="200" stroke="#22543d" stroke-width="2" marker-end="url(#arrowBlue7)"/>
+  <text x="375" y="178" fill="#22543d" font-size="10" font-weight="bold">YES</text>
+  
+  <line x1="420" y1="160" x2="480" y2="200" stroke="#c53030" stroke-width="2" marker-end="url(#arrowRed7)"/>
+  <text x="465" y="178" fill="#c53030" font-size="10" font-weight="bold">NO</text>
+  
+  <rect x="280" y="200" width="160" height="36" rx="6" fill="#c6f6d5" stroke="#22543d"/>
+  <text x="360" y="222" text-anchor="middle" fill="#22543d" font-size="11" font-weight="bold">損金算入</text>
+  
+  <rect x="440" y="200" width="160" height="36" rx="6" fill="#fed7d7" stroke="#c53030"/>
+  <text x="520" y="222" text-anchor="middle" fill="#9b2c2c" font-size="11" font-weight="bold">損金不算入</text>
+  
+  <!-- 別表調整 -->
+  <line x1="520" y1="236" x2="520" y2="260" stroke="#c53030" stroke-width="2" marker-end="url(#arrowRed7)"/>
+  
+  <rect x="440" y="260" width="160" height="36" rx="6" fill="#fc8181" stroke="#c53030"/>
+  <text x="520" y="282" text-anchor="middle" fill="#fff" font-size="11">別表四で加算調整</text>
+  
+  <line x1="520" y1="296" x2="520" y2="320" stroke="#c53030" stroke-width="2" marker-end="url(#arrowRed7)"/>
+  
+  <rect x="410" y="320" width="220" height="40" rx="6" fill="#e53e3e" stroke="#9b2c2c"/>
+  <text x="520" y="337" text-anchor="middle" fill="#fff" font-size="10">別表五(一)で利益積立金計上</text>
+  <text x="520" y="353" text-anchor="middle" fill="#fff" font-size="10">→ 将来の売却時に実現損として認容</text>
+  
+  <!-- 統計ボックス -->
+  <rect x="620" y="80" width="160" height="120" rx="8" fill="#fffff0" stroke="#d69e2e" stroke-width="1.5"/>
+  <text x="700" y="102" text-anchor="middle" fill="#744210" font-size="11" font-weight="bold">実務の実態</text>
+  <text x="700" y="122" text-anchor="middle" fill="#744210" font-size="10">固定資産減損：</text>
+  <text x="700" y="140" text-anchor="middle" fill="#c53030" font-size="13" font-weight="bold">ほぼ全件が損金不算入</text>
+  <text x="700" y="160" text-anchor="middle" fill="#744210" font-size="10">有価証券30-50%：</text>
+  <text x="700" y="178" text-anchor="middle" fill="#c53030" font-size="13" font-weight="bold">全件が損金不算入</text>
+</svg>
+</div>
+
+<div class="card card-info">
+<h3>7.7　制度目的の違い ── なぜ一致しないのか</h3>
+
+<div class="table-wrap">
+<table>
+<tr><th>観点</th><th>会計基準</th><th>法人税法</th></tr>
+<tr><td><strong>制度目的</strong></td><td>投資家・債権者への情報提供（意思決定有用性）</td><td>公平な課税所得の算定（課税の公平・確実性）</td></tr>
+<tr><td><strong>基本原則</strong></td><td>経済実態の忠実な表現（保守主義を含む）</td><td>租税法律主義（明確性・予見可能性）</td></tr>
+<tr><td><strong>損失認識</strong></td><td>早期認識を志向（将来の不確実性を保守的に反映）</td><td>実現主義を原則とし、未実現損失の認識に慎重</td></tr>
+<tr><td><strong>経営者裁量</strong></td><td>一定範囲で認める（見積り・判断の要素が大きい）</td><td>最小限に抑制（客観的・画一的基準を重視）</td></tr>
+<tr><td><strong>時価の範囲</strong></td><td>交換価値＋使用価値（DCF法）。レベル3も活用</td><td>主として交換価値（市場価格、通常付される価額）</td></tr>
+</table>
+</div>
+
+<p>会計と税法の「時価」が完全に一致することは、制度目的の違いから<strong>原理的に困難</strong>である。両者の乖離を前提とした実務的対応（申告調整）と制度的調整（法改正）の双方が継続的に求められる。今後の方向性としては、①損金経理要件の見直し（ドイツモデル）、②別表調整ルールの精緻化、③税法独自の時価基準の法令レベルでの明確化、の3つが考えられる。</p>
+</div>
+
+<div class="card">
+<h3>7.8　制度改革の国際比較 ── 確定決算主義の将来</h3>
+<p>日本の法人税法が採用する確定決算主義（法人税法74条1項）は、会計上の処理を税務処理の出発点とする制度であり、損金経理要件（法33条2項）はその具体的な表れである。この制度は、会計基準と税法が基本的に一致していた時代には効率的に機能していたが、会計基準のグローバル化（IFRSへのコンバージェンス）が進む中で、新たな課題に直面している。</p>
+<p><strong>ドイツ</strong>：ドイツでは伝統的に、商法上の決算と税法上の決算の一致（Massgeblichkeitsprinzip、基準性原則）が原則とされていた。しかし2009年の会計基準近代化法（BilMoG）により、税法から商法への影響（逆基準性、umgekehrte Massgeblichkeit）は廃止された。これにより、企業は会計上は国際基準に準拠した処理を行いつつ、税務上は独自の計算を行うことが可能となった。日本においても、IFRSの影響が個別財務諸表にまで及ぶ場合には、同様の制度改革が必要となる可能性がある。</p>
+<p><strong>米国</strong>：米国では会計基準と税法は独立しており、確定決算主義は採用されていない。GAAP（Generally Accepted Accounting Principles）に基づく財務諸表と、IRC（Internal Revenue Code）に基づく課税所得計算は別個のプロセスである。そのため、会計上の減損処理と税法上の損金算入は直接的な連動関係になく、会計基準の変更が税務処理に自動的に影響することはない。</p>
+<p><strong>英国</strong>：英国では2002年から、一定の大企業にIFRSの適用が義務づけられている。法人税法（Corporation Tax Act）は、IFRSに基づく会計利益を課税所得計算の出発点としつつ、必要な調整を加える構造を採用している。減損損失の税務上の取扱いについては、個別の規定（Capital Allowances Act等）で対応しており、日本の損金経理要件のような形式的な連動関係はない。</p>
+<p>これらの国際比較から示唆されるのは、会計基準のグローバル化が進む中で、確定決算主義を維持するか、会計と税法を分離するかは各国の政策判断であり、唯一の正解はないという点である。日本の場合、確定決算主義には中小企業の事務負担軽減、会計と税務の整合性確保、恣意的な利益操作の防止等のメリットがある一方、会計基準の変遷に税法が追随できないリスク、逆基準性の問題、IFRS適用企業と日本基準適用企業の間の不公平等のデメリットも存在する。評価損に関する損金経理要件は、この制度的議論の最前線に位置する論点である。</p>
+</div>
+
+
+<!-- ===== 第8章 ===== -->
+<h2 id="ch8">第8章　結論と示唆 ── 「時価とは何か」への回答</h2>
+
+<div class="card card-accent">
+<h3>8.1　本稿の総括</h3>
+<p>本稿は、法人税法33条の評価損を出発点として、「時価」概念の横断分析を試みた。有価証券に限定された従来の分析を、棚卸資産・固定資産（不動産含む）・繰延資産の全資産類型に拡張し、さらに法人税法内部の時価概念の分裂（22条の時価・33条の価額・61条の3の時価）、相続税法・不動産鑑定評価基準・会計基準との横断比較、一物多価問題、通達による時価の画一化問題、判例法理の展開、会計基準との構造的乖離を包括的に分析した。</p>
+<p>以下に、分析から得られた主要な知見を5つの命題として整理する。</p>
+</div>
+
+<div class="card">
+<h3>8.2　5つの命題</h3>
+
+<h4>命題1：「時価」は統一概念ではない</h4>
+<p>法人税法・相続税法・所得税法における「時価」は、いずれも「客観的交換価値」を指向するという点で表面的には一致する。しかし、課税趣旨の違い（所得課税vs財産課税）、評価方法の違い（実勢価格vs路線価）、安全率の有無（相続税の80%評価）など、具体的な適用場面では大きな差異がある。</p>
+<p>金子宏教授が定義した「客観的交換価値」という理念は各法域に共通する上位概念として機能しているが、その具体的内容は法域ごとに異なる。この「<strong>理念の統一性と適用の多様性</strong>」こそが、時価概念の本質的特徴であり、同時にその最大の課題でもある。法人税法33条の「価額」、22条の「時価」、相続税法22条の「時価」は、同じ言葉を使いながら異なるものを指している。</p>
+
+<h4>命題2：法人税法内部にも「時価」の分裂が存在する</h4>
+<p>法人税法の中だけを見ても、「時価」は一義的ではない。33条2項の「当該資産の価額」は通達9-1-3で「使用収益されるものとして譲渡される場合に通常付される価額」と具体化される。22条は無償取引からの収益認識を通じて暗黙の時価課税を要求する。61条の3は売買目的有価証券について「時価法」による評価を明文で規定する。これらは同一法律内の「時価」でありながら、その前提条件・算定方法・政策目的が異なる。</p>
+<p>さらに、通達9-1-13と9-1-14の関係（独自評価と財産評価基本通達準用の「二重構造」）は、法人税法の時価が相続税法の時価と完全に独立しているわけではないことを示す。この交錯が、実務上の混乱の一因となっている。</p>
+
+<h4>命題3：施行令68条は資産類型ごとに異なる論理で構成されている</h4>
+<p>施行令68条の全体像を分析した結果、各号が異なる論理的構造を持つことが明らかになった。</p>
+
+<div class="table-wrap">
+<table>
+<tr><th>号</th><th>対象</th><th>評価損事由の性格</th><th>論理的特徴</th></tr>
+<tr><td>1項1号</td><td>棚卸資産</td><td>物理的毀損・陳腐化・型崩れ</td><td>物理的・客観的事実を重視。市場変動のみでは不可</td></tr>
+<tr><td>1項2号</td><td>有価証券</td><td>発行法人の資産状態著しく悪化・価額著しく低下</td><td>発行法人の財務状態＋市場評価の二重基準。50%が画一的閾値</td></tr>
+<tr><td>1項3号</td><td>固定資産</td><td>5つの限定列挙事由</td><td>最も厳格な限定。不動産の「時価下落のみ」では不可</td></tr>
+<tr><td>1項3号の2</td><td>繰延資産</td><td>繰延資産の基礎となった事実の変動</td><td>基礎事実の変動という抽象的基準</td></tr>
+</table>
+</div>
+
+<p>とりわけ固定資産（1項3号）は、災害損傷・1年以上の遊休・本来の用途以外への転用・所在場所の状況の著しい変化・事実上催告なき更生計画認可に類する事由、という5つの事由に厳格に限定されている。経済的な価値下落のみでは要件を満たさない点で、会計基準の減損（経済的減損を含む）との乖離が最も大きい。</p>
+
+<h4>命題4：一物多価は制度の構造的欠陥であり単なる「便宜」ではない</h4>
+<p>不動産について、公示価格（100%）・路線価（80%）・固定資産税評価額（70%）・実勢価格（110〜150%）という4つの「時価」が並立する現状は、政策的な意図（相続税の安全率確保、固定資産税の税収安定等）に基づくものである。しかしこの構造は、資産保有者間の税負担の不均衡を構造的に生み出している。路線価が公示価格の80%であることを利用した節税スキームは長年にわたり横行し、最高裁令和4年4月19日判決（札幌タワマン事件）で一定の歯止めがかけられたものの、制度の構造的問題自体は解消されていない。</p>
+<p>総則6項（財産評価基本通達の定めにより評価することが著しく不適当と認められる場合の別評価）による個別対応は、「通達に基づく画一的処理」と「個別的正義」の間のアドホックな調整であり、その適用基準が不明確であること自体が問題である。最高裁令和4年判決は、①通達評価額と客観的交換価値の著しい乖離、②租税負担の実質的公平を著しく害する「特別の事情」、の二段階基準を示したが、「著しい乖離」の数値基準は示されておらず、予見可能性の問題は残存している。</p>
+
+<h4>命題5：通達による時価の「法規範化」は租税法律主義と本質的に矛盾する</h4>
+<p>通達は法律ではなく行政内部の指針にすぎないが、評価通達は事実上の法規範として機能している。納税者は通達に従って申告し、課税庁も通達に基づいて処分を行い、裁判所も通達の合理性を前提に判断する。この構造は実務上の便宜と画一的処理を実現しているが、租税法律主義（憲法84条）の課税要件法定主義・課税要件明確主義との間に本質的な緊張関係を有する。</p>
+<p>法律の委任なく通達が課税要件の実質的内容（「時価」の算定方法）を定めていることは、形式的には課税要件法定主義に抵触する。しかし通達なくしては、個別資産の「時価」を逐一法律で定めることは不可能であるから、通達による具体化は不可避でもある。この矛盾は制度的に解消し得るものではなく、通達の合理性に関する継続的な司法審査と、必要に応じた法令化が求められる。</p>
+</div>
+
+<div class="card card-info">
+<h3>8.3　学術的課題と今後の展望</h3>
+
+<h4>（1）「時価」の法令レベルでの定義</h4>
+<p>法人税法は「時価」を法令レベルで定義していない。33条2項は「当該資産の価額」、22条は文言上「時価」を使わず、61条の3は「時価法」を定めつつも「時価」自体の定義を置かない。通達による具体化に全面的に依存する現状は、租税法律主義の観点から改善の余地がある。少なくとも、施行令レベルで「時価」の基本的な算定原則（何をもって客観的交換価値とするか、どのような評価方法が認められるか）を明記することが望ましい。</p>
+
+<h4>（2）一物多価の制度的解消</h4>
+<p>公示価格・路線価・固定資産税評価額・実勢価格の乖離は、複数の政策目的（適正な地価形成、税収の安定、安全率の確保等）を異なる制度で追求した結果の副産物である。これを統一的な「時価」に収斂させることは、各制度の政策目的の再調整を伴う大規模な制度改革を要するが、税負担の公平性の観点からは長期的に検討すべき課題である。</p>
+
+<h4>（3）実現主義と時価主義の相克の再検討</h4>
+<p>法人税法は原則として実現主義を採用するが（25条・33条）、売買目的有価証券（61条の3）については時価主義を導入した。純資産増加説に立てば全資産の時価評価が理論的には正当であるが、評価の困難性・恣意性の排除・納税資金の問題から、実現主義が維持されている。会計基準が時価主義・フォワードルッキングな方向に進化する中で、法人税法がどの程度まで時価主義を取り込むべきかは、今後の税制改正における重要な論点であり続ける。</p>
+
+<h4>（4）損金経理要件と確定決算主義の将来</h4>
+<p>会計基準のIFRSへのコンバージェンスが進む中で、確定決算主義に基づく損金経理要件は新たな課題に直面している。IFRS適用企業と日本基準適用企業の間で同一の経済事象に対する税務処理が異なりうること、IFRSの減損戻入れや予想信用損失モデルに対する税法の対応が未整備であること、逆基準性の問題が深刻化しうること等が指摘されている。ドイツの会計基準近代化法（BilMoG）に倣い、損金経理要件の廃止又は大幅な緩和が選択肢となりうる。</p>
+
+<h4>（5）不動産鑑定評価と税法「時価」の関係の明確化</h4>
+<p>不動産鑑定評価基準の「正常価格」は、理論的には税法の「時価」に最も近い概念であるが、鑑定士により評価額が異なりうるという問題、鑑定コストの問題がある。裁判例では総則6項の適用場面で不動産鑑定評価額が「真の時価」として採用されることが多いが、鑑定評価額が常に客観的交換価値を正確に反映しているとは限らない。税法上の不動産の「時価」と鑑定評価の関係を、より制度的に明確化する必要がある。</p>
+</div>
+
+<div class="card">
+<h3>8.4　結語</h3>
+<p>「時価」は、租税法上の最も基本的でありながら最も困難な概念の一つである。法人税法33条の評価損における「価額」を出発点に見たとき、「時価」は単一の金額として確定するものではなく、各法域の課税趣旨、通達による具体化の程度、市場の完全性の程度、評価主体の専門性などによって、多様な姿を見せる。</p>
+<p>本稿の分析が示すのは、以下の帰結である。</p>
+<ol>
+<li><strong>「時価」は制度の産物である</strong>。市場における唯一の「真の価値」が存在するのではなく、各制度が各々の目的に応じて「時価」を構成している。</li>
+<li><strong>施行令68条は各資産類型ごとに異なる論理で構成されており</strong>、全資産に共通する「時価」の算定方法は存在しない。</li>
+<li><strong>通達による時価の画一化は不可避であるが</strong>、租税法律主義との緊張関係を内包する。総則6項の判例法理は、この緊張関係の事後的調整メカニズムとして機能している。</li>
+<li><strong>会計基準と法人税法の「時価」の乖離は</strong>、制度目的の違いから原理的に解消不能であり、申告調整による実務的対応が不可避である。</li>
+<li><strong>一物多価の問題は</strong>、税負担の公平性を構造的に損なうものであり、長期的には制度的解消が求められる。</li>
+</ol>
+<p>これらの課題は、個別の立法的手当てのみでは解決し得ず、「時価とは何か」という根本的な問いに対する学問的・制度的な回答が求められている。本稿が、その回答への一つの寄与となれば幸いである。</p>
+</div>
+
+<div class="card card-info">
+<h3>8.5　実務家への示唆</h3>
+<p>本稿の分析から導かれる実務上の示唆を以下に整理する。</p>
+
+<h4>（1）評価損計上を検討する際のチェックポイント</h4>
+<p>法人税法33条に基づく評価損の損金算入を検討する際には、以下の3段階のチェックが必要である。第一に、対象資産が施行令68条のどの号に該当するかを特定し、当該号が列挙する「物損等の事実」のいずれかが生じているかを確認する。第二に、当該事実と資産の価額低下との間に因果関係があることを確認する（単に時価が帳簿価額を下回っただけでは足りない）。第三に、「事業年度終了の時における当該資産の価額」（時価）を適切に算定し、帳簿価額との差額を確定する。</p>
+<p>実務上特に注意すべきは、固定資産（特に不動産）の評価損である。経済的な価値下落のみでは施行令68条1項3号の要件を満たさないため、会計上減損処理を行ったとしても、税法上は損金不算入として申告調整する必要がある。この場合、別表四での加算調整と別表五（一）での利益積立金の計上が必要となり、将来の売却・処分時に実現損として認容されるまで、税務上の資産簿価と会計上の資産簿価に差異が継続することになる。</p>
+
+<h4>（2）非上場株式の評価損における留意点</h4>
+<p>非上場株式の評価損については、施行令68条1項2号ロの「発行法人の資産状態が著しく悪化した」という要件（通達9-1-9の50%基準）と、「価額が著しく低下した」という要件の二重充足が必要である。発行法人の1株当たり純資産価額が取得時の50%以上低下していることに加え、当該株式の価額自体も著しく低下していることが求められる。価額の算定に際しては、通達9-1-13の原則的方法（売買実例、類似法人比準方式、純資産価額方式）又は通達9-1-14の特例（財産評価基本通達の例による方法、ただし修正あり）のいずれかを選択することになるが、両者の関係を正確に理解しておく必要がある。</p>
+
+<h4>（3）上場有価証券の評価損における回復可能性の判断</h4>
+<p>通達9-1-7が定める「近い将来その価額の回復が見込まれない」の判断については、国税庁質疑応答事例が参考になる。株式の取得事情、発行法人の業況等の推移、事業年度末日後の株価の状況等を総合的に勘案し、「過去2年間にわたり下落が継続しかつ回復の見込みがない」場合を典型的な適用場面とする。会計基準とは異なり、回復可能性が「不明」な場合には評価損が否認される点には特に注意が必要である。</p>
+
+<h4>（4）一物多価を前提とした税務戦略</h4>
+<p>不動産の時価認定が争われる局面（関係会社間取引、みなし譲渡等）においては、法人税法上の「時価」が相続税法上の路線価評価額に拘束されないことを前提とした対応が求められる。通達9-1-3の「使用収益されるものとして譲渡される場合に通常付される価額」は実勢価格に近い水準を志向するものであり、路線価の1.25倍（80%の逆数）程度が一つの目安となるが、個別の不動産の事情によって大きく異なりうる。重要な取引においては、不動産鑑定評価を取得しておくことが防衛策として有効であるが、広島地裁平成23年判決が示したように、鑑定評価額が唯一の「適正な価額」ではないことにも留意が必要である。</p>
+</div>
+
+<div class="card card-green">
+<h3>8.6　本研究の限界と射程</h3>
+<p>本稿の分析にはいくつかの限界がある。第一に、本稿は法人税法33条を中心とした「評価損」と「時価」の問題を分析対象としており、同じく「時価」が問題となる他の局面（移転価格税制における独立企業間価格、組織再編税制における時価純資産価額、グループ法人税制における譲渡損益の繰延べ等）は射程外としている。これらの局面における「時価」概念との横断的比較は今後の課題である。</p>
+<p>第二に、本稿の判例分析は主として公刊された判例集および税務訴訟資料に収録された裁判例に基づいており、非公開の裁決事例や課税庁の内部的な処理基準については十分に把握できていない可能性がある。特に不動産の評価損については、実務上は課税庁との事前協議や調査段階での交渉において解決されるケースも少なくないと推測されるが、これらの事例は公表されないため分析の対象とし得ていない。</p>
+<p>第三に、会計基準との乖離分析については、日本基準（J-GAAP）とIFRSを主たる比較対象としたが、米国基準（US GAAP）との比較は限定的にとどまっている。ASC 350（のれんの減損）やASC 360（長期性資産の減損）における「公正価値」概念との比較は、特に米国子会社を有する日本企業にとって実務的にも重要であり、今後の分析の深化が望まれる。</p>
+<p>これらの限界にもかかわらず、本稿が法人税法33条の「価額」＝「時価」の問題を、施行令68条の全資産類型と全法域の時価概念を横断する視点から体系的に分析したことには、一定の学術的意義があると考える。「時価」という一見自明な概念が、実は複数の法域・制度・政策目的によって多様に構成されるものであること、その多様性が実務上の混乱と争訟の原因となっていることを明らかにした点は、今後の研究と制度設計に資するものと期待する。</p>
+</div>
+
+<!-- ===== 参考文献 ===== -->
+<h2 id="refs">参考文献・出典</h2>
+
+<div class="card">
+<h4>法令</h4>
+<ul>
+<li>法人税法第22条、第22条の2、第25条、第33条、第37条、第61条の3</li>
+<li>法人税法施行令第68条、第119条の13</li>
+<li>相続税法第22条</li>
+<li>土地基本法第17条</li>
+<li>憲法第84条（租税法律主義）</li>
+</ul>
+
+<h4>通達</h4>
+<ul>
+<li>法人税基本通達 9-1-1〜9-1-3の3（第1款 通則）</li>
+<li>法人税基本通達 9-1-4〜9-1-6の11（第2款 棚卸資産の評価損）</li>
+<li>法人税基本通達 9-1-7〜9-1-15の2（第3款 有価証券の評価損）</li>
+<li>法人税基本通達 9-1-16〜9-1-19（第4款 固定資産の評価損）</li>
+<li>財産評価基本通達1項、6項（総則6項）、178条〜189条の7</li>
+</ul>
+
+<h4>判例・裁決</h4>
+<ul>
+<li>最高裁令和4年4月19日判決（民集76巻4号411頁）── 札幌タワマン事件</li>
+<li>「客観的交換価値」の判例法理 ── 昭和期以降の判例蓄積により形成。最高裁令和4年4月19日判決等で確認</li>
+<li>最高裁平成29年2月28日判決 ── 私道評価・通達文理解釈</li>
+<li>最高裁平成7年12月19日判決（民集49巻10号3121頁）── 低額譲渡と時価課税</li>
+<li>東京地裁令和6年1月18日判決 ── 仙台薬局事件（非上場株式・総則6項否認）</li>
+<li>東京高裁令和6年8月28日判決 ── 仙台薬局事件控訴審</li>
+<li>広島地裁平成23年9月14日判決 ── 不動産評価損・鑑定評価額の位置づけ</li>
+<li>東京地裁平成26年5月28日判決 ── 相続税と法人税の「時価」差異</li>
+<li>東京高裁平成28年4月21日判決 ── 通達9-1-14の趣旨解釈</li>
+<li>東京高裁平成20年2月20日判決 ── 通達解釈に裁判所が異を唱えた事例</li>
+<li>大阪地裁平成23年3月24日判決 ── 棚卸商品の評価損（8億円超）</li>
+<li>福岡地裁平成30年7月10日判決 ── 販売用不動産の棚卸資産評価損</li>
+<li>熊本地裁平成28年9月21日判決 ── 法33条2項と通達9-1-14の関係</li>
+</ul>
+
+<h4>学術文献</h4>
+<ul>
+<li>金子宏『租税法（第24版）』（弘文堂、2021年）</li>
+<li>浅井光政「租税法上の時価を巡る諸問題」税務大学校論叢第36号（2001年）</li>
+<li>福田吉晴「時価評価を巡る課税上の諸問題」税務大学校論叢第34号</li>
+<li>小島俊朗「相続税法における時価の概念とその経済学的考察」税大ジャーナル第7号（2008年）</li>
+<li>加藤浩「今後の取引相場のない株式の評価のあり方」税務大学校論叢第96号</li>
+<li>日本公認会計士協会「租税調査会研究報告第11号 税務上の時価について」（2004年）</li>
+<li>日本公認会計士協会「租税調査会研究報告第20号 会計基準のコンバージェンスと確定決算主義」</li>
+<li>税務大学校論叢第80号「財産評価基本通達の定めによらない財産の評価について」</li>
+<li>増井良啓ほか（適正所得算出説に関する議論）</li>
+</ul>
+
+<h4>会計基準</h4>
+<ul>
+<li>企業会計基準第30号「時価の算定に関する会計基準」（ASBJ、2019年）</li>
+<li>固定資産の減損に係る会計基準（企業会計審議会、2002年）</li>
+<li>金融商品に関する会計基準（企業会計基準第10号）</li>
+<li>棚卸資産の評価に関する会計基準（企業会計基準第9号）</li>
+<li>IAS 36（資産の減損）</li>
+<li>IFRS 9（金融商品）</li>
+<li>IFRS 13（公正価値測定）/ ASC Topic 820</li>
+</ul>
+
+<h4>その他</h4>
+<ul>
+<li>不動産鑑定評価基準（国土交通省、平成26年一部改正）</li>
+<li>ドイツ会計基準近代化法（BilMoG、Bilanzrechtsmodernisierungsgesetz、2009年）</li>
+<li>国税庁「上場有価証券の評価損に関する取扱い」（平成21年4月）</li>
+<li>国税庁「株価が50％相当額を下回る場合における株価の回復可能性の判断基準について」</li>
+</ul>
+</div>
+
+<!-- ===== SVGリンク ===== -->
+<div class="card" style="background:#f0f4f8;">
+<h4>関連図表（別ファイル）</h4>
+<ul>
+<li><a href="asset_valuation_loss_full.svg" target="_blank">全資産類型の評価損構造図（SVG）</a> ── 施行令68条の全体像を1枚に</li>
+<li><a href="jika_concept_map.svg" target="_blank">時価概念マップ（SVG）</a> ── 各法域の時価定義の横断比較</li>
+<li><a href="evaluation_loss_overview.svg" target="_blank">有価証券の評価損構造図（SVG）</a> ── Phase 1成果物（有価証券特化版）</li>
+<li><a href="phase2_debate/会計基準と法人税法の評価損時価比較.html" target="_blank">会計基準と法人税法の評価損・時価概念の比較（詳細版HTML）</a></li>
+<li><a href="jika_debate.html">時価概念の深層議論 ── 4つの専門的視座からの多角的分析</a> ── 税法理論・会計基準・不動産鑑定・判例法理の議論統合</li>
+</ul>
+</div>
+
+<p style="text-align: center; margin-top: 48px; color: #718096; font-size: 0.85rem;">
+作成日：2026年2月8日 ｜ Deep Research by Claude Opus 4.6<br>
+本稿は、法人税法33条の評価損制度を起点とした「時価」概念の横断分析である。<br>
+法令・通達の引用は調査時点のものであり、最新の改正を反映していない場合がある。
+</p>
+
+</div><!-- /.content -->
+</div><!-- /.wrapper -->
+<script>
+(function(){
+  var btn=document.getElementById('menuToggle'),
+      ov=document.getElementById('menuOverlay'),
+      sb=document.querySelector('.sidebar');
+  if(!btn||!sb)return;
+  function open(){sb.classList.add('open');ov.classList.add('active');btn.textContent='\u2715';}
+  function close(){sb.classList.remove('open');ov.classList.remove('active');btn.textContent='\u2630';}
+  btn.addEventListener('click',function(){sb.classList.contains('open')?close():open();});
+  ov.addEventListener('click',close);
+  sb.querySelectorAll('a').forEach(function(a){a.addEventListener('click',close);});
+})();
+</script>
+</body>
+</html>
