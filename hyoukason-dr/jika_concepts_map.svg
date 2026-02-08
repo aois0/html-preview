@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1000" font-family="Segoe UI, Hiragino Sans, Noto Sans JP, sans-serif">
+  <defs>
+    <linearGradient id="headerGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1a365d"/><stop offset="100%" stop-color="#2c5282"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3182ce"/><stop offset="100%" stop-color="#2b6cb0"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#38a169"/><stop offset="100%" stop-color="#2f855a"/>
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dd6b20"/><stop offset="100%" stop-color="#c05621"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#805ad5"/><stop offset="100%" stop-color="#553c9a"/>
+    </linearGradient>
+    <linearGradient id="darkGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2d3748"/><stop offset="100%" stop-color="#1a202c"/>
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e53e3e"/><stop offset="100%" stop-color="#c53030"/>
+    </linearGradient>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+    <filter id="shadowLight" x="-1%" y="-1%" width="102%" height="102%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-opacity="0.1"/>
+    </filter>
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <!-- 矢印マーカー -->
+    <marker id="arrowSolid" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4a5568"/>
+    </marker>
+    <marker id="arrowDashed" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#a0aec0"/>
+    </marker>
+    <marker id="arrowTension" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e53e3e"/>
+    </marker>
+    <marker id="arrowTensionBack" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="10 0, 0 3.5, 10 7" fill="#e53e3e"/>
+    </marker>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#3182ce"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#38a169"/>
+    </marker>
+    <marker id="arrowOrange" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#dd6b20"/>
+    </marker>
+    <marker id="arrowPurple" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#805ad5"/>
+    </marker>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="1400" height="1000" fill="#f7fafc"/>
+
+  <!-- ヘッダー -->
+  <rect x="0" y="0" width="1400" height="70" fill="url(#headerGrad)"/>
+  <text x="700" y="32" text-anchor="middle" fill="white" font-size="24" font-weight="700">価額概念の全体関係マップ</text>
+  <text x="700" y="54" text-anchor="middle" fill="#cbd5e0" font-size="12">税法・会計・鑑定・会社法にまたがる価額概念の相互関係</text>
+
+  <!-- ========== 中心: 客観的交換価値 ========== -->
+  <rect x="570" y="440" width="260" height="60" rx="30" fill="url(#darkGrad)" filter="url(#glow)"/>
+  <text x="700" y="467" text-anchor="middle" fill="white" font-size="16" font-weight="700">客観的交換価値</text>
+  <text x="700" y="488" text-anchor="middle" fill="#a0aec0" font-size="10">全概念の理念的中心</text>
+
+  <!-- ========== 凡例 ========== -->
+  <rect x="30" y="82" width="340" height="80" rx="6" fill="white" stroke="#e2e8f0" stroke-width="1" filter="url(#shadowLight)"/>
+  <text x="50" y="102" fill="#1a365d" font-size="12" font-weight="700">凡例</text>
+  <line x1="50" y1="118" x2="90" y2="118" stroke="#4a5568" stroke-width="2" marker-end="url(#arrowSolid)"/>
+  <text x="98" y="122" fill="#4a5568" font-size="11">ほぼ同義（実線）</text>
+  <line x1="200" y1="118" x2="240" y2="118" stroke="#a0aec0" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrowDashed)"/>
+  <text x="248" y="122" fill="#718096" font-size="11">参照・影響（点線）</text>
+  <line x1="50" y1="140" x2="90" y2="140" stroke="#e53e3e" stroke-width="2" marker-end="url(#arrowTension)"/>
+  <text x="98" y="144" fill="#e53e3e" font-size="11">緊張・乖離（赤二重）</text>
+  <!-- 領域色 -->
+  <rect x="200" y="132" width="10" height="10" rx="2" fill="#3182ce"/>
+  <text x="215" y="142" fill="#4a5568" font-size="10">税法</text>
+  <rect x="243" y="132" width="10" height="10" rx="2" fill="#38a169"/>
+  <text x="258" y="142" fill="#4a5568" font-size="10">会計</text>
+  <rect x="283" y="132" width="10" height="10" rx="2" fill="#dd6b20"/>
+  <text x="298" y="142" fill="#4a5568" font-size="10">鑑定</text>
+  <rect x="323" y="132" width="10" height="10" rx="2" fill="#805ad5"/>
+  <text x="338" y="142" fill="#4a5568" font-size="10">会社法</text>
+
+  <!-- ========== 領域ラベル ========== -->
+  <!-- 税法領域（左上〜左） -->
+  <rect x="30" y="180" width="90" height="24" rx="4" fill="url(#blueGrad)"/>
+  <text x="75" y="197" text-anchor="middle" fill="white" font-size="12" font-weight="700">税法系</text>
+
+  <!-- 会計領域（右上〜右） -->
+  <rect x="1280" y="180" width="90" height="24" rx="4" fill="url(#greenGrad)"/>
+  <text x="1325" y="197" text-anchor="middle" fill="white" font-size="12" font-weight="700">会計系</text>
+
+  <!-- 鑑定領域（左下） -->
+  <rect x="30" y="740" width="90" height="24" rx="4" fill="url(#orangeGrad)"/>
+  <text x="75" y="757" text-anchor="middle" fill="white" font-size="12" font-weight="700">鑑定系</text>
+
+  <!-- 会社法領域（右下） -->
+  <rect x="1280" y="740" width="90" height="24" rx="4" fill="url(#purpleGrad)"/>
+  <text x="1325" y="757" text-anchor="middle" fill="white" font-size="12" font-weight="700">会社法系</text>
+
+  <!-- ========== 税法系ノード（青） ========== -->
+  <!-- 法人税法の時価(33条) -->
+  <rect x="60" y="230" width="210" height="50" rx="8" fill="white" stroke="#3182ce" stroke-width="2" filter="url(#shadowLight)"/>
+  <rect x="60" y="230" width="210" height="20" rx="8" fill="url(#blueGrad)"/>
+  <rect x="60" y="244" width="210" height="6" fill="url(#blueGrad)"/>
+  <text x="165" y="246" text-anchor="middle" fill="white" font-size="10" font-weight="700">法人税法33条</text>
+  <text x="165" y="268" text-anchor="middle" fill="#2d3748" font-size="11" font-weight="600">評価損の「価額」</text>
+
+  <!-- 法人税法の時価(22条) -->
+  <rect x="60" y="310" width="210" height="50" rx="8" fill="white" stroke="#3182ce" stroke-width="2" filter="url(#shadowLight)"/>
+  <rect x="60" y="310" width="210" height="20" rx="8" fill="url(#blueGrad)"/>
+  <rect x="60" y="324" width="210" height="6" fill="url(#blueGrad)"/>
+  <text x="165" y="326" text-anchor="middle" fill="white" font-size="10" font-weight="700">法人税法22条</text>
+  <text x="165" y="348" text-anchor="middle" fill="#2d3748" font-size="11" font-weight="600">収益認識の「正常な対価」</text>
+
+  <!-- 法人税法の時価(61条の3) -->
+  <rect x="60" y="390" width="210" height="50" rx="8" fill="white" stroke="#3182ce" stroke-width="2" filter="url(#shadowLight)"/>
+  <rect x="60" y="390" width="210" height="20" rx="8" fill="url(#blueGrad)"/>
+  <rect x="60" y="404" width="210" height="6" fill="url(#blueGrad)"/>
+  <text x="165" y="406" text-anchor="middle" fill="white" font-size="10" font-weight="700">法人税法61条の3</text>
+  <text x="165" y="428" text-anchor="middle" fill="#2d3748" font-size="11" font-weight="600">売買目的有価証券の時価</text>
+
+  <!-- 相続税法の時価 -->
+  <rect x="60" y="480" width="210" height="50" rx="8" fill="white" stroke="#3182ce" stroke-width="2" filter="url(#shadowLight)"/>
+  <rect x="60" y="480" width="210" height="20" rx="8" fill="url(#blueGrad)"/>
+  <rect x="60" y="494" width="210" height="6" fill="url(#blueGrad)"/>
+  <text x="165" y="496" text-anchor="middle" fill="white" font-size="10" font-weight="700">相続税法22条</text>
+  <text x="165" y="518" text-anchor="middle" fill="#2d3748" font-size="11" font-weight="600">「取得の時における時価」</text>
+
+  <!-- 所得税法の通常取引価額 -->
+  <rect x="60" y="560" width="210" height="50" rx="8" fill="white" stroke="#3182ce" stroke-width="2" filter="url(#shadowLight)"/>
+  <rect x="60" y="560" width="210" height="20" rx="8" fill="url(#blueGrad)"/>
+  <rect x="60" y="574" width="210" height="6" fill="url(#blueGrad)"/>
+  <text x="165" y="576" text-anchor="middle" fill="white" font-size="10" font-weight="700">所得税法59条等</text>
+  <text x="165" y="598" text-anchor="middle" fill="#2d3748" font-size="11" font-weight="600">通常取引される価額</text>
+
+  <!-- 地方税法の適正な時価 -->
+  <rect x="310" y="580" width="210" height="50" rx="8" fill="white" stroke="#3182ce" stroke-width="2" filter="url(#shadowLight)"/>
+  <rect x="310" y="580" width="210" height="20" rx="8" fill="url(#blueGrad)"/>
+  <rect x="310" y="594" width="210" height="6" fill="url(#blueGrad)"/>
+  <text x="415" y="596" text-anchor="middle" fill="white" font-size="10" font-weight="700">地方税法341条5号</text>
+  <text x="415" y="618" text-anchor="middle" fill="#2d3748" font-size="11" font-weight="600">「適正な時価」</text>
+
+  <!-- 移転価格の独立企業間価格 -->
+  <rect x="310" y="490" width="210" height="50" rx="8" fill="white" stroke="#3182ce" stroke-width="2" filter="url(#shadowLight)"/>
+  <rect x="310" y="490" width="210" height="20" rx="8" fill="url(#blueGrad)"/>
+  <rect x="310" y="504" width="210" height="6" fill="url(#blueGrad)"/>
+  <text x="415" y="506" text-anchor="middle" fill="white" font-size="10" font-weight="700">措置法66条の4</text>
+  <text x="415" y="528" text-anchor="middle" fill="#2d3748" font-size="11" font-weight="600">独立企業間価格(ALP)</text>
+
+  <!-- ========== 会計系ノード（緑） ========== -->
+  <!-- 公正価値(IFRS) -->
+  <rect x="1130" y="210" width="210" height="50" rx="8" fill="white" stroke="#38a169" stroke-width="2" filter="url(#shadowLight)"/>
+  <rect x="1130" y="210" width="210" height="20" rx="8" fill="url(#greenGrad)"/>
+  <rect x="1130" y="224" width="210" height="6" fill="url(#greenGrad)"/>
+  <text x="1235" y="226" text-anchor="middle" fill="white" font-size="10" font-weight="700">IFRS 13</text>
+  <text x="1235" y="248" text-anchor="middle" fill="#2d3748" font-size="11" font-weight="600">公正価値(Fair Value)</text>
+
+  <!-- 時価(日本基準) -->
+  <rect x="1130" y="290" width="210" height="50" rx="8" fill="white" stroke="#38a169" stroke-width="2" filter="url(#shadowLight)"/>
+  <rect x="1130" y="290" width="210" height="20" rx="8" fill="url(#greenGrad)"/>
+  <rect x="1130" y="304" width="210" height="6" fill="url(#greenGrad)"/>
+  <text x="1235" y="306" text-anchor="middle" fill="white" font-size="10" font-weight="700">時価算定会計基準</text>
+  <text x="1235" y="328" text-anchor="middle" fill="#2d3748" font-size="11" font-weight="600">時価(日本基準)</text>
+
+  <!-- 正味売却価額 -->
+  <rect x="1130" y="370" width="210" height="50" rx="8" fill="white" stroke="#38a169" stroke-width="2" filter="url(#shadowLight)"/>
+  <rect x="1130" y="370" width="210" height="20" rx="8" fill="url(#greenGrad)"/>
+  <rect x="1130" y="384" width="210" height="6" fill="url(#greenGrad)"/>
+  <text x="1235" y="386" text-anchor="middle" fill="white" font-size="10" font-weight="700">減損会計基準</text>
+  <text x="1235" y="408" text-anchor="middle" fill="#2d3748" font-size="11" font-weight="600">正味売却価額</text>
+
+  <!-- 使用価値 -->
+  <rect x="1130" y="450" width="210" height="50" rx="8" fill="white" stroke="#38a169" stroke-width="2" filter="url(#shadowLight)"/>
+  <rect x="1130" y="450" width="210" height="20" rx="8" fill="url(#greenGrad)"/>
+  <rect x="1130" y="464" width="210" height="6" fill="url(#greenGrad)"/>
+  <text x="1235" y="466" text-anchor="middle" fill="white" font-size="10" font-weight="700">減損会計基準</text>
+  <text x="1235" y="488" text-anchor="middle" fill="#2d3748" font-size="11" font-weight="600">使用価値</text>
+
+  <!-- 回収可能価額 -->
+  <rect x="1130" y="530" width="210" height="50" rx="8" fill="white" stroke="#38a169" stroke-width="2" filter="url(#shadowLight)"/>
+  <rect x="1130" y="530" width="210" height="20" rx="8" fill="url(#greenGrad)"/>
+  <rect x="1130" y="544" width="210" height="6" fill="url(#greenGrad)"/>
+  <text x="1235" y="546" text-anchor="middle" fill="white" font-size="10" font-weight="700">減損会計基準</text>
+  <text x="1235" y="568" text-anchor="middle" fill="#2d3748" font-size="11" font-weight="600">回収可能価額</text>
+
+  <!-- 取得原価 -->
+  <rect x="1130" y="610" width="210" height="50" rx="8" fill="white" stroke="#38a169" stroke-width="2" filter="url(#shadowLight)"/>
+  <rect x="1130" y="610" width="210" height="20" rx="8" fill="url(#greenGrad)"/>
+  <rect x="1130" y="624" width="210" height="6" fill="url(#greenGrad)"/>
+  <text x="1235" y="626" text-anchor="middle" fill="white" font-size="10" font-weight="700">企業会計原則</text>
+  <text x="1235" y="648" text-anchor="middle" fill="#2d3748" font-size="11" font-weight="600">取得原価</text>
+
+  <!-- ========== 鑑定系ノード（橙） ========== -->
+  <!-- 正常価格 -->
+  <rect x="100" y="770" width="190" height="50" rx="8" fill="white" stroke="#dd6b20" stroke-width="2" filter="url(#shadowLight)"/>
+  <rect x="100" y="770" width="190" height="20" rx="8" fill="url(#orangeGrad)"/>
+  <rect x="100" y="784" width="190" height="6" fill="url(#orangeGrad)"/>
+  <text x="195" y="786" text-anchor="middle" fill="white" font-size="10" font-weight="700">鑑定評価基準</text>
+  <text x="195" y="808" text-anchor="middle" fill="#2d3748" font-size="11" font-weight="600">正常価格</text>
+
+  <!-- 限定価格 -->
+  <rect x="320" y="770" width="190" height="50" rx="8" fill="white" stroke="#dd6b20" stroke-width="2" filter="url(#shadowLight)"/>
+  <rect x="320" y="770" width="190" height="20" rx="8" fill="url(#orangeGrad)"/>
+  <rect x="320" y="784" width="190" height="6" fill="url(#orangeGrad)"/>
+  <text x="415" y="786" text-anchor="middle" fill="white" font-size="10" font-weight="700">鑑定評価基準</text>
+  <text x="415" y="808" text-anchor="middle" fill="#2d3748" font-size="11" font-weight="600">限定価格</text>
+
+  <!-- 特定価格 -->
+  <rect x="540" y="770" width="190" height="50" rx="8" fill="white" stroke="#dd6b20" stroke-width="2" filter="url(#shadowLight)"/>
+  <rect x="540" y="770" width="190" height="20" rx="8" fill="url(#orangeGrad)"/>
+  <rect x="540" y="784" width="190" height="6" fill="url(#orangeGrad)"/>
+  <text x="635" y="786" text-anchor="middle" fill="white" font-size="10" font-weight="700">鑑定評価基準</text>
+  <text x="635" y="808" text-anchor="middle" fill="#2d3748" font-size="11" font-weight="600">特定価格</text>
+
+  <!-- 特殊価格 -->
+  <rect x="760" y="770" width="190" height="50" rx="8" fill="white" stroke="#dd6b20" stroke-width="2" filter="url(#shadowLight)"/>
+  <rect x="760" y="770" width="190" height="20" rx="8" fill="url(#orangeGrad)"/>
+  <rect x="760" y="784" width="190" height="6" fill="url(#orangeGrad)"/>
+  <text x="855" y="786" text-anchor="middle" fill="white" font-size="10" font-weight="700">鑑定評価基準</text>
+  <text x="855" y="808" text-anchor="middle" fill="#2d3748" font-size="11" font-weight="600">特殊価格</text>
+
+  <!-- ========== 会社法系ノード（紫） ========== -->
+  <!-- 公正な価格 -->
+  <rect x="1080" y="770" width="210" height="50" rx="8" fill="white" stroke="#805ad5" stroke-width="2" filter="url(#shadowLight)"/>
+  <rect x="1080" y="770" width="210" height="20" rx="8" fill="url(#purpleGrad)"/>
+  <rect x="1080" y="784" width="210" height="6" fill="url(#purpleGrad)"/>
+  <text x="1185" y="786" text-anchor="middle" fill="white" font-size="10" font-weight="700">会社法785条等</text>
+  <text x="1185" y="808" text-anchor="middle" fill="#2d3748" font-size="11" font-weight="600">「公正な価格」</text>
+
+  <!-- ナカリセバ価格 -->
+  <rect x="1080" y="850" width="210" height="50" rx="8" fill="white" stroke="#805ad5" stroke-width="2" filter="url(#shadowLight)"/>
+  <rect x="1080" y="850" width="210" height="20" rx="8" fill="url(#purpleGrad)"/>
+  <rect x="1080" y="864" width="210" height="6" fill="url(#purpleGrad)"/>
+  <text x="1185" y="866" text-anchor="middle" fill="white" font-size="10" font-weight="700">判例法</text>
+  <text x="1185" y="888" text-anchor="middle" fill="#2d3748" font-size="11" font-weight="600">ナカリセバ価格</text>
+
+  <!-- ========== 関係線 ========== -->
+
+  <!-- 税法系 → 中心（客観的交換価値）への実線 -->
+  <line x1="270" y1="260" x2="570" y2="455" stroke="#3182ce" stroke-width="1.5" stroke-opacity="0.5"/>
+  <line x1="270" y1="340" x2="570" y2="460" stroke="#3182ce" stroke-width="1.5" stroke-opacity="0.5"/>
+  <line x1="270" y1="420" x2="570" y2="465" stroke="#3182ce" stroke-width="1.5" stroke-opacity="0.5"/>
+  <line x1="270" y1="505" x2="570" y2="470" stroke="#3182ce" stroke-width="1.5" stroke-opacity="0.5"/>
+  <line x1="270" y1="585" x2="570" y2="475" stroke="#3182ce" stroke-width="1.5" stroke-opacity="0.5"/>
+
+  <!-- 会計系 → 中心 -->
+  <line x1="1130" y1="240" x2="830" y2="455" stroke="#38a169" stroke-width="1.5" stroke-opacity="0.5"/>
+  <line x1="1130" y1="315" x2="830" y2="458" stroke="#38a169" stroke-width="1.5" stroke-opacity="0.5"/>
+  <line x1="1130" y1="395" x2="830" y2="462" stroke="#38a169" stroke-width="1.5" stroke-opacity="0.5"/>
+
+  <!-- 鑑定系 → 中心 -->
+  <line x1="195" y1="770" x2="640" y2="500" stroke="#dd6b20" stroke-width="1.5" stroke-opacity="0.5"/>
+
+  <!-- 使用価値は中心から遠い（主観側） -->
+  <line x1="1130" y1="475" x2="830" y2="475" stroke="#38a169" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="4,3"/>
+
+  <!-- ========== ほぼ同義（実線矢印） ========== -->
+  <!-- IFRS公正価値 ≒ 日本基準時価 -->
+  <line x1="1235" y1="260" x2="1235" y2="290" stroke="#4a5568" stroke-width="2" marker-end="url(#arrowSolid)"/>
+  <text x="1265" y="278" fill="#4a5568" font-size="9" font-weight="600">convergence</text>
+
+  <!-- 正味売却価額 + 使用価値 → 回収可能価額 -->
+  <line x1="1210" y1="420" x2="1195" y2="530" stroke="#4a5568" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="1260" y1="500" x2="1255" y2="530" stroke="#4a5568" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="1275" y="510" fill="#718096" font-size="9">MAX</text>
+
+  <!-- 法人税法33条 ≒ 通達9-1-3 → 正常価格に近い -->
+  <line x1="165" y1="280" x2="195" y2="770" stroke="#4a5568" stroke-width="1.5" marker-end="url(#arrowSolid)"/>
+  <rect x="90" y="680" width="90" height="16" rx="3" fill="white" stroke="#4a5568" stroke-width="1"/>
+  <text x="135" y="692" text-anchor="middle" fill="#4a5568" font-size="8" font-weight="600">参照関係</text>
+
+  <!-- 正常価格 ≒ 公示地価 -->
+  <!-- (概念的に近接する関係を示す) -->
+
+  <!-- ========== 参照・影響（点線矢印） ========== -->
+  <!-- 相続税法 → 路線価 → 地方税法の適正な時価 -->
+  <line x1="270" y1="510" x2="310" y2="600" stroke="#a0aec0" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrowDashed)"/>
+  <text x="275" y="555" fill="#a0aec0" font-size="8">安全率80%</text>
+
+  <!-- 独立企業間価格 → 法人税法22条 -->
+  <line x1="415" y1="490" x2="270" y2="345" stroke="#a0aec0" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrowDashed)"/>
+  <text x="330" y="405" fill="#a0aec0" font-size="8">正常対価</text>
+
+  <!-- 公正な価格 → 公正価値 -->
+  <line x1="1140" y1="770" x2="1200" y2="660" stroke="#a0aec0" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="1150" y="720" fill="#a0aec0" font-size="8">異なる概念</text>
+
+  <!-- 正常価格 → IFRS公正価値 -->
+  <line x1="290" y1="785" x2="1130" y2="240" stroke="#a0aec0" stroke-width="1" stroke-dasharray="5,3" stroke-opacity="0.5"/>
+  <rect x="650" y="490" width="100" height="14" rx="3" fill="white" stroke="#a0aec0" stroke-width="1"/>
+  <text x="700" y="500" text-anchor="middle" fill="#a0aec0" font-size="8">理念的共通性</text>
+
+  <!-- ========== 緊張・乖離（赤二重矢印） ========== -->
+  <!-- 相続税法の時価 vs 地方税法の適正な時価（一物多価） -->
+  <line x1="270" y1="510" x2="310" y2="610" stroke="#e53e3e" stroke-width="2" marker-end="url(#arrowTension)"/>
+  <line x1="310" y1="615" x2="268" y2="512" stroke="#e53e3e" stroke-width="2" marker-end="url(#arrowTension)"/>
+  <rect x="230" y="548" width="70" height="14" rx="3" fill="#fff5f5" stroke="#e53e3e" stroke-width="0.5"/>
+  <text x="265" y="558" text-anchor="middle" fill="#e53e3e" font-size="7" font-weight="700">一物多価</text>
+
+  <!-- 取得原価 vs 公正価値（会計内の緊張） -->
+  <line x1="1200" y1="610" x2="1270" y2="260" stroke="#e53e3e" stroke-width="2" marker-end="url(#arrowTension)"/>
+  <line x1="1275" y1="260" x2="1205" y2="608" stroke="#e53e3e" stroke-width="2" marker-end="url(#arrowTension)"/>
+  <rect x="1250" y="420" width="100" height="14" rx="3" fill="#fff5f5" stroke="#e53e3e" stroke-width="0.5"/>
+  <text x="1300" y="430" text-anchor="middle" fill="#e53e3e" font-size="7" font-weight="700">HC vs FV論争</text>
+
+  <!-- 公正な価格 vs ナカリセバ価格 -->
+  <line x1="1185" y1="820" x2="1185" y2="850" stroke="#e53e3e" stroke-width="2"/>
+  <rect x="1145" y="828" width="80" height="14" rx="3" fill="#fff5f5" stroke="#e53e3e" stroke-width="0.5"/>
+  <text x="1185" y="838" text-anchor="middle" fill="#e53e3e" font-size="7" font-weight="700">包含関係</text>
+
+  <!-- ========== 補注テキスト ========== -->
+  <!-- 税法系の距離感注記 -->
+  <rect x="320" y="230" width="230" height="84" rx="6" fill="#ebf8ff" stroke="#bee3f8" stroke-width="1"/>
+  <text x="335" y="248" fill="#2b6cb0" font-size="10" font-weight="600">税法系の構造的特徴</text>
+  <text x="335" y="264" fill="#4a5568" font-size="9">条文上「時価」の定義なし</text>
+  <text x="335" y="278" fill="#4a5568" font-size="9">通達が事実上の定義を提供</text>
+  <text x="335" y="292" fill="#4a5568" font-size="9">各税法で異なる具体化方法</text>
+  <text x="335" y="306" fill="#e53e3e" font-size="9" font-weight="600">→ 同一資産に異なる「時価」</text>
+
+  <!-- 会計系の距離感注記 -->
+  <rect x="975" y="340" width="145" height="60" rx="6" fill="#f0fff4" stroke="#c6f6d5" stroke-width="1"/>
+  <text x="990" y="358" fill="#2f855a" font-size="10" font-weight="600">会計の測定属性</text>
+  <text x="990" y="374" fill="#4a5568" font-size="9">Level 1: 市場価格</text>
+  <text x="990" y="388" fill="#4a5568" font-size="9">Level 2: 観察可能input</text>
+  <text x="990" y="398" fill="#4a5568" font-size="9">Level 3: 観察不能input</text>
+
+  <!-- 鑑定系の注記 -->
+  <rect x="100" y="838" width="410" height="40" rx="6" fill="#fffaf0" stroke="#fbd38d" stroke-width="1"/>
+  <text x="115" y="856" fill="#c05621" font-size="10" font-weight="600">鑑定の4価格類型</text>
+  <text x="115" y="870" fill="#4a5568" font-size="9">正常 &gt; 限定（市場が限定） &gt; 特定（法令等による制約） &gt; 特殊（宗教的建造物等）</text>
+
+  <!-- 会社法の注記 -->
+  <rect x="1080" y="910" width="280" height="40" rx="6" fill="#faf5ff" stroke="#d6bcfa" stroke-width="1"/>
+  <text x="1095" y="928" fill="#553c9a" font-size="10" font-weight="600">会社法の「公正な価格」</text>
+  <text x="1095" y="942" fill="#4a5568" font-size="9">シナジー配分込み ≠ 客観的交換価値</text>
+
+  <!-- ========== フッター ========== -->
+  <rect x="0" y="960" width="1400" height="40" fill="url(#headerGrad)"/>
+  <text x="700" y="978" text-anchor="middle" fill="white" font-size="12" font-weight="600">価額概念の全体関係マップ ── 税法・会計・鑑定・会社法の横断分析</text>
+  <text x="700" y="993" text-anchor="middle" fill="#a0aec0" font-size="10">2026年2月8日 | Claude Opus 4.6 Deep Research</text>
+
+</svg>

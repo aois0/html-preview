@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>法人税法上の株式等の評価損 ── 包括的分析レポート</title>
+<style>
+:root {
+  --primary: #1a365d;
+  --secondary: #2c5282;
+  --accent: #ed8936;
+  --bg: #f7fafc;
+  --card-bg: #ffffff;
+  --border: #e2e8f0;
+  --text: #2d3748;
+  --text-light: #718096;
+  --success: #38a169;
+  --danger: #e53e3e;
+  --warning: #dd6b20;
+  --info: #3182ce;
+  --pro-bg: #ebf8ff;
+  --con-bg: #fff5f5;
+  --pro-border: #3182ce;
+  --con-border: #e53e3e;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: "Noto Sans JP", "Hiragino Sans", "Yu Gothic", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.8;
+}
+.container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+
+/* Header */
+header {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+  color: white;
+  padding: 40px 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+header h1 { font-size: 1.8rem; font-weight: 700; margin-bottom: 8px; }
+header .subtitle { font-size: 0.95rem; opacity: 0.85; }
+header .meta { font-size: 0.8rem; opacity: 0.7; margin-top: 8px; }
+
+/* Navigation */
+nav {
+  background: white;
+  border-bottom: 2px solid var(--border);
+  padding: 12px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+nav .nav-inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+nav a {
+  text-decoration: none;
+  color: var(--secondary);
+  font-size: 0.82rem;
+  padding: 4px 10px;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+nav a:hover { background: var(--secondary); color: white; }
+
+/* Sections */
+section { margin: 40px 0; }
+section h2 {
+  font-size: 1.5rem;
+  color: var(--primary);
+  border-left: 5px solid var(--accent);
+  padding-left: 16px;
+  margin-bottom: 24px;
+}
+section h3 {
+  font-size: 1.15rem;
+  color: var(--secondary);
+  margin: 20px 0 12px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border);
+}
+section h4 {
+  font-size: 1rem;
+  color: var(--text);
+  margin: 16px 0 8px;
+  font-weight: 600;
+}
+
+/* Cards */
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 24px;
+  margin: 16px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+}
+.card.highlight {
+  border-left: 4px solid var(--accent);
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0;
+  font-size: 0.9rem;
+}
+th, td {
+  border: 1px solid var(--border);
+  padding: 10px 14px;
+  text-align: left;
+}
+th {
+  background: var(--primary);
+  color: white;
+  font-weight: 600;
+}
+tr:nth-child(even) { background: #f8fafc; }
+tr:hover { background: #edf2f7; }
+
+/* Flowchart */
+.flowchart {
+  background: #f0f4f8;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 24px;
+  font-family: "Courier New", monospace;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  overflow-x: auto;
+  white-space: pre;
+}
+
+/* Debate */
+.debate-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin: 16px 0;
+}
+@media (max-width: 768px) { .debate-grid { grid-template-columns: 1fr; } }
+.debate-card {
+  border-radius: 8px;
+  padding: 20px;
+  border: 2px solid;
+}
+.debate-card.pro {
+  background: var(--pro-bg);
+  border-color: var(--pro-border);
+}
+.debate-card.con {
+  background: var(--con-bg);
+  border-color: var(--con-border);
+}
+.debate-card h4 {
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.debate-card .tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: white;
+}
+.tag.blue { background: var(--pro-border); }
+.tag.red { background: var(--con-border); }
+
+/* Blockquote */
+blockquote {
+  border-left: 4px solid var(--accent);
+  padding: 12px 20px;
+  margin: 12px 0;
+  background: #fffaf0;
+  font-size: 0.9rem;
+  color: #553c1f;
+  border-radius: 0 6px 6px 0;
+}
+
+/* Code blocks */
+.code-block {
+  background: #1a202c;
+  color: #e2e8f0;
+  padding: 20px;
+  border-radius: 8px;
+  font-family: "Courier New", monospace;
+  font-size: 0.82rem;
+  overflow-x: auto;
+  line-height: 1.5;
+  white-space: pre;
+}
+
+/* Lists */
+ul, ol { margin: 8px 0 8px 24px; }
+li { margin: 4px 0; }
+
+/* Tag badges */
+.badge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin: 2px;
+}
+.badge-law { background: #e6fffa; color: #234e52; border: 1px solid #81e6d9; }
+.badge-case { background: #fefcbf; color: #744210; border: 1px solid #f6e05e; }
+.badge-acad { background: #e9d8fd; color: #44337a; border: 1px solid #b794f4; }
+.badge-prac { background: #fed7e2; color: #702459; border: 1px solid #f687b3; }
+
+/* Emphasis */
+.important {
+  background: #fff3cd;
+  border: 1px solid #ffc107;
+  border-radius: 6px;
+  padding: 12px 16px;
+  margin: 12px 0;
+  font-size: 0.9rem;
+}
+.warning {
+  background: #fff5f5;
+  border: 1px solid #fc8181;
+  border-radius: 6px;
+  padding: 12px 16px;
+  margin: 12px 0;
+  font-size: 0.9rem;
+}
+
+/* TOC */
+.toc {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 24px;
+  margin: 20px 0;
+  columns: 2;
+  column-gap: 40px;
+}
+@media (max-width: 768px) { .toc { columns: 1; } }
+.toc a {
+  display: block;
+  text-decoration: none;
+  color: var(--secondary);
+  padding: 4px 0;
+  font-size: 0.88rem;
+  break-inside: avoid;
+}
+.toc a:hover { color: var(--accent); }
+
+/* Footer */
+footer {
+  background: var(--primary);
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+  font-size: 0.82rem;
+  margin-top: 60px;
+}
+footer a { color: var(--accent); }
+
+/* Summary box */
+.summary-box {
+  background: linear-gradient(135deg, #ebf8ff, #e6fffa);
+  border: 2px solid #3182ce;
+  border-radius: 12px;
+  padding: 28px;
+  margin: 24px 0;
+}
+.summary-box h3 {
+  color: var(--primary);
+  border: none;
+  margin-top: 0;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <h1>法人税法上の株式等の評価損 ── 包括的分析レポート</h1>
+    <div class="subtitle">法人税法33条・施行令68条を中心とした条文・通達・判例・学説の体系的整理と論点分析</div>
+    <div class="meta">調査日: 2026年2月7日 ｜ Phase 1: 並列DR（4エージェント） + Phase 2: チーム討論 ｜ Claude Opus 4.6</div>
+  </div>
+</header>
+
+<div class="container">
+
+<!-- Executive Summary -->
+<section id="summary">
+<h2>Executive Summary</h2>
+<div class="summary-box">
+<h3>結論の要約</h3>
+<p>法人税法上、株式等の評価損を損金算入できるのは<strong>極めて限定的な場合</strong>に限られる。法人税法33条1項が「原則損金不算入」を定め、同条2項〜4項が例外的に損金算入を認める構造を採る。有価証券については施行令68条1項2号が具体的要件を定め、通達9-1-7〜9-1-14が判定基準を示す。</p>
+
+<table>
+<tr><th>有価証券の種類</th><th>評価損計上の核心的要件</th><th>判定基準</th></tr>
+<tr><td>上場株式等（企業支配株式等を除く）</td><td>価額が著しく低下</td><td>帳簿価額の概ね50%未満 + 回復見込みなし（通達9-1-7）</td></tr>
+<tr><td>非上場株式・企業支配株式等</td><td>発行法人の資産状態が著しく悪化 + 価額が著しく低下</td><td>純資産価額が取得時比50%以上低下（通達9-1-9）+ 上記基準</td></tr>
+<tr><td>更生・再生計画対象</td><td>法的手続による評価換え</td><td>更生計画認可等の決定（法33条3項・4項）</td></tr>
+</table>
+
+<p style="margin-top:16px"><strong>最大の論点</strong>: (1) 回復可能性の判断基準の不明確さ、(2) 完全支配関係子会社株式の評価損制限（法33条5項）の射程、(3) 非上場株式の時価評価の困難さ。これらは課税庁と納税者の間で鋭い対立が存在する。</p>
+</div>
+</section>
+
+<!-- Table of Contents -->
+<section>
+<h2>目次</h2>
+<div class="toc">
+<a href="#summary">Executive Summary</a>
+<a href="#sec1">1. 法的枠組みの全体像</a>
+<a href="#sec2">2. 法人税法33条の条文構造</a>
+<a href="#sec3">3. 施行令68条：評価損計上の具体的要件</a>
+<a href="#sec4">4. 基本通達9-1-7〜14：判定基準の詳細</a>
+<a href="#sec5">5. 完全支配関係の制限（法33条5項）</a>
+<a href="#sec6">6. 評価損計上の完全フローチャート</a>
+<a href="#sec7">7. 判例・裁決の分析</a>
+<a href="#sec8">8. 学術的議論と論争</a>
+<a href="#sec9">9. 論点対立：課税庁 vs 納税者</a>
+<a href="#sec10">10. 最新動向と税制改正</a>
+<a href="#sec11">11. 会計上の減損との関係</a>
+<a href="#sec12">12. 実務チェックリスト</a>
+<a href="#sec13">13. 調査素材一覧</a>
+</div>
+</section>
+
+<!-- Section 1 -->
+<section id="sec1">
+<h2>1. 法的枠組みの全体像</h2>
+
+<div class="card highlight">
+<h3>規範の階層構造</h3>
+<div class="code-block">法人税法第33条（法律）
+  ├── 第1項：原則 ── 評価損の損金不算入
+  ├── 第2項：例外1 ── 物損等の事実による評価損（損金経理要件）
+  ├── 第3項：例外2 ── 更生計画認可の決定による評価換え
+  ├── 第4項：例外3 ── 再生計画認可の決定等による評価損
+  ├── 第5項：適用除外 ── 完全支配関係法人・通算法人の株式
+  ├── 第6項：帳簿価額の取扱い
+  ├── 第7項：第4項の申告要件
+  ├── 第8項：やむを得ない事情の救済
+  └── 第9項：政令委任
+
+施行令第68条（政令）── 第33条第2項の「政令で定める事実」
+  └── 第1項第2号（有価証券）
+      ├── イ：市場有価証券等の価額の著しい低下
+      ├── ロ：発行法人の資産状態の著しい悪化＋価額の著しい低下
+      └── ハ：ロに準ずる特別の事実
+
+施行令第68条の3（政令）── 第33条第5項の適用除外
+  └── 清算中・解散見込み・適格合併見込みの完全子法人
+
+基本通達9-1-7〜9-1-14（通達）── 具体的判定基準</div>
+</div>
+
+<h3>立法趣旨</h3>
+<p>法人税法は<strong>取得原価主義</strong>に立脚し、未実現損失の恣意的計上による課税所得の操作を防止する観点から、資産の評価損を原則として損金不算入としている。しかし、災害による著しい損傷や発行法人の資産状態の著しい悪化など、資産価値の毀損が客観的に明白な場合にまで評価損の計上を認めないのは、課税所得を実態以上に過大計上することになるため、例外的に損金算入が認められている。</p>
+</section>
+
+<!-- Section 2 -->
+<section id="sec2">
+<h2>2. 法人税法33条の条文構造</h2>
+
+<h3>第1項（原則：損金不算入）</h3>
+<blockquote>内国法人がその有する資産の評価換えをしてその帳簿価額を減額した場合には、その減額した部分の金額は、その内国法人の各事業年度の所得の金額の計算上、損金の額に算入しない。</blockquote>
+
+<h3>第2項（例外1：物損等の事実＋損金経理）</h3>
+<div class="card">
+<h4>3つの要件</h4>
+<table>
+<tr><th>要件</th><th>内容</th></tr>
+<tr><td><strong>事実要件</strong></td><td>政令で定める事実（施行令68条）が生じたこと</td></tr>
+<tr><td><strong>結果要件</strong></td><td>当該資産の価額がその帳簿価額を下回ることとなったこと</td></tr>
+<tr><td><strong>経理要件</strong></td><td>損金経理によりその帳簿価額を減額したこと</td></tr>
+</table>
+<p><strong>損金算入限度額</strong>: 評価換え直前の帳簿価額 - 事業年度終了時の価額</p>
+</div>
+
+<h3>第3項（例外2：更生計画認可の決定）</h3>
+<p>会社更生法又は金融機関等の更生手続の特例等に関する法律に基づく評価換え。<strong>損金経理要件が不要</strong>（強制的評価換えであるため）。</p>
+
+<h3>第4項（例外3：再生計画認可の決定等）</h3>
+<p>再生計画認可の決定又はこれに準ずる事実（施行令68条の2）が生じた場合。確定申告書に評価損明細の記載及び書類の添付が必要（第7項）。</p>
+
+<h3>第5項（適用除外）</h3>
+<div class="warning">
+<strong>重要</strong>: 完全支配関係がある他の内国法人で政令で定めるもの（清算中・解散見込み・適格合併見込み）の株式・出資、及び通算法人が有する他の通算法人の株式・出資については、第2項〜第4項の規定は適用されない。
+</div>
+</section>
+
+<!-- Section 3 -->
+<section id="sec3">
+<h2>3. 施行令68条：有価証券の評価損計上の具体的要件</h2>
+
+<h3>第1項第2号の3類型</h3>
+<table>
+<tr><th>類型</th><th>対象有価証券</th><th>要件</th></tr>
+<tr><td><strong>イ</strong></td><td>市場有価証券等（企業支配株式等を除く）</td><td>有価証券の価額が著しく低下したこと</td></tr>
+<tr><td><strong>ロ</strong></td><td>上記以外の有価証券（非上場株式・企業支配株式等・売買目的有価証券）</td><td>発行法人の資産状態が著しく悪化したため、その価額が著しく低下したこと（<strong>二重要件</strong>）</td></tr>
+<tr><td><strong>ハ</strong></td><td>ロと同じ</td><td>ロに準ずる特別の事実</td></tr>
+</table>
+
+<div class="important">
+<strong>ポイント</strong>: イは「価額の著しい低下」のみで足りるが、ロは「発行法人の資産状態の著しい悪化」＋「価額の著しい低下」の二重要件を要する。売買目的有価証券・企業支配株式等はイの適用がなく、ロ又はハのみ。
+</div>
+
+<h3>有価証券の分類と適用条文の対応</h3>
+<div class="code-block">有価証券
+├── 売買目的有価証券
+│   └── ロ又はハのみ適用（イは適用なし）
+│       ※ 毎期時価評価（法61条の3）するため
+│
+├── 市場有価証券等（令119条の13①一〜四）
+│   ├── 企業支配株式等を除く
+│   │   └── イ・ロ・ハいずれも適用可
+│   │
+│   └── 企業支配株式等
+│       └── ロ又はハのみ適用（イは適用なし）
+│           ※ 支配目的の株式は市場価格変動のみでは不可
+│
+└── 市場有価証券等以外（非上場株式等）
+    └── ロ又はハのみ適用（イは適用なし）</div>
+</section>
+
+<!-- Section 4 -->
+<section id="sec4">
+<h2>4. 基本通達9-1-7〜14：判定基準の詳細</h2>
+
+<h3>通達9-1-7：市場有価証券等の「著しい価額の低下」</h3>
+<div class="card highlight">
+<blockquote>令第68条第1項第2号イに規定する「有価証券の価額が著しく低下したこと」とは、当該有価証券の当該事業年度終了の時における価額がその時の<strong>帳簿価額のおおむね50%相当額を下回る</strong>こととなり、かつ、<strong>近い将来その価額の回復が見込まれない</strong>ことをいうものとする。</blockquote>
+<h4>2つの判定要件</h4>
+<table>
+<tr><th>要件</th><th>内容</th><th>注記</th></tr>
+<tr><td><strong>形式基準</strong></td><td>期末時価が帳簿価額の概ね50%未満</td><td>「その他有価証券」は期末前1月間の平均額も可（注1）</td></tr>
+<tr><td><strong>実質基準</strong></td><td>近い将来の価額回復が見込まれない</td><td>過去の市場価格の推移、発行法人の業況等を総合的に判断（注2）</td></tr>
+</table>
+</div>
+
+<h3>通達9-1-9：非上場有価証券の資産状態の判定</h3>
+<div class="card">
+<h4>「資産状態が著しく悪化した」に該当する事実</h4>
+<table>
+<tr><th>類型</th><th>具体的内容</th></tr>
+<tr><td><strong>(1) 法的手続の開始</strong></td><td>特別清算開始の命令、破産手続開始の決定、再生手続開始の決定、更生手続開始の決定（取得後相当期間経過後に生じたもの）</td></tr>
+<tr><td><strong>(2) 純資産価額の著しい低下</strong></td><td>1株当たり純資産価額が取得時比<strong>概ね50%以上下回った</strong>こと</td></tr>
+</table>
+</div>
+
+<h3>通達9-1-12：増資払込み後の株式</h3>
+<p>増資払込み後は原則として評価損事実なしとする。ただし、増資後<strong>相当の期間を経過した後</strong>に改めて事実が生じたと認められる場合はこの限りでない。</p>
+
+<h3>通達9-1-13：非上場株式の「価額」の算定</h3>
+<table>
+<tr><th>区分</th><th>算定方法</th></tr>
+<tr><td>(1) 売買実例あり</td><td>期末前6月間の適正な売買価額</td></tr>
+<tr><td>(2) 公開途上</td><td>入札後の公募等の価格を参酌した通常取引価額</td></tr>
+<tr><td>(3) 類似法人あり</td><td>類似法人の株式価額に比準して推定した価額</td></tr>
+<tr><td>(4) 上記以外</td><td>1株当たり純資産価額等を参酌した通常取引価額</td></tr>
+</table>
+
+<h3>通達9-1-14：財産評価基本通達の準用（特例）</h3>
+<p>非上場株式について財産評価基本通達178〜189-7の例による算定を条件付きで容認。ただし以下の修正条件を付す：</p>
+<ol>
+<li>中心的な同族株主の場合は常に「小会社」として評価</li>
+<li>土地・上場有価証券は期末時価による</li>
+<li>評価差額に対する法人税額等相当額（37%）を控除しない</li>
+</ol>
+</section>
+
+<!-- Section 5 -->
+<section id="sec5">
+<h2>5. 完全支配関係の制限（法33条5項・施行令68条の3）</h2>
+
+<div class="card highlight">
+<h3>制度の概要</h3>
+<p>平成23年度改正により、完全支配関係がある子法人のうち一定のものの株式について評価損の損金算入が制限された。</p>
+
+<h4>施行令68条の3：評価損計上が制限される法人</h4>
+<table>
+<tr><th>号</th><th>対象法人</th></tr>
+<tr><td>1号</td><td>清算中の内国法人</td></tr>
+<tr><td>2号</td><td>解散（合併による解散を除く）をすることが見込まれる内国法人</td></tr>
+<tr><td>3号</td><td>完全支配関係がある他の内国法人との間で適格合併を行うことが見込まれる内国法人</td></tr>
+</table>
+</div>
+
+<div class="important">
+<strong>重要な制限範囲の理解</strong>: 上記3類型に該当しない完全子法人株式については、通常の要件（施行令68条1項2号）を満たす場合に評価損の計上が<strong>可能</strong>である。すなわち、完全支配関係があるという事実のみで一律に評価損が否認されるわけではない。
+</div>
+
+<h3>制限の趣旨</h3>
+<ul>
+<li>完全支配関係がある法人間では、子法人の解散・清算時に未処理欠損金が親法人に引き継がれる仕組みがあり、株式の評価損を別途計上すると<strong>二重控除</strong>となる</li>
+<li>グループ法人税制の基本思想として、100%グループ内法人を<strong>経済的に一体</strong>と捉える</li>
+<li>グループ内の含み損を利用した租税回避スキームの防止</li>
+</ul>
+
+<h3>制限の範囲整理</h3>
+<table>
+<tr><th>状況</th><th>評価損の損金算入</th></tr>
+<tr><td>完全支配関係あり + 清算中</td><td style="color:var(--danger);font-weight:700">不可</td></tr>
+<tr><td>完全支配関係あり + 解散見込み</td><td style="color:var(--danger);font-weight:700">不可</td></tr>
+<tr><td>完全支配関係あり + 適格合併見込み</td><td style="color:var(--danger);font-weight:700">不可</td></tr>
+<tr><td>完全支配関係あり + 上記以外</td><td style="color:var(--success);font-weight:700">可能（通常の要件充足時）</td></tr>
+<tr><td>完全支配関係なし（99.9%保有等）</td><td style="color:var(--success);font-weight:700">可能（通常の要件充足時）</td></tr>
+<tr><td>通算法人が有する他の通算法人株式</td><td style="color:var(--danger);font-weight:700">不可（通算親法人等を除く）</td></tr>
+</table>
+</section>
+
+<!-- Section 6 -->
+<section id="sec6">
+<h2>6. 評価損計上の完全フローチャート</h2>
+<div class="flowchart">Step 1: 有価証券の分類
+  ├── 売買目的有価証券か？ ─── Yes ──→ Step 3へ（ロ・ハのみ判定）
+  ├── 市場有価証券等か？
+  │   ├── 企業支配株式等か？ ── Yes ──→ Step 3へ（ロ・ハのみ判定）
+  │   └── No ──────────────────→ Step 2へ（イ・ロ・ハ判定）
+  └── 非市場有価証券 ────────────→ Step 3へ（ロ・ハのみ判定）
+
+Step 2: イの判定（市場有価証券等・企業支配株式等除く）
+  ├── 時価が帳簿価額の概ね50%未満か？ ── No → 評価損計上不可
+  ├── 近い将来の価額回復見込みなしか？ ── No → 評価損計上不可
+  └── 両方Yes → Step 5へ
+
+Step 3: ロの判定（発行法人の資産状態の著しい悪化＋価額の著しい低下）
+  ├── 発行法人の資産状態が著しく悪化したか？
+  │   ├── 法的手続（特別清算・破産・再生・更生）開始か？
+  │   └── 1株当たり純資産価額が取得時比50%以上下回ったか？
+  ├── いずれかに該当 → 価額が著しく低下したか？ → Yes → Step 5へ
+  └── 該当なし → Step 4へ
+
+Step 4: ハの判定（ロに準ずる特別の事実）
+  ├── 該当する特別の事実があるか？ → Yes → Step 5へ
+  └── No → 評価損計上不可
+
+Step 5: 適用除外の確認
+  ├── 完全支配関係法人の株式か？（法33条5項、令68条の3）
+  │   └── 清算中・解散見込み・適格合併見込みか？ → Yes → 評価損計上不可
+  ├── 通算法人の他の通算法人株式か？ → Yes → 評価損計上不可
+  ├── 増資払込み直後か？（通達9-1-12）→ Yes → 原則、評価損計上不可
+  └── いずれも該当なし → Step 6へ
+
+Step 6: 評価損の計上
+  ├── 損金経理により帳簿価額を減額（法33条2項の要件）
+  ├── 損金算入限度額 = 評価換え直前の帳簿価額 − 事業年度終了時の価額
+  └── 価額の算定は通達9-1-8（市場有価証券等）又は9-1-13・9-1-14（非市場有価証券）</div>
+</section>
+
+<!-- Section 7 -->
+<section id="sec7">
+<h2>7. 判例・裁決の分析</h2>
+
+<h3>主要判例一覧</h3>
+<table>
+<tr><th>事件</th><th>裁判所・判決日</th><th>主な争点</th><th>結果</th></tr>
+<tr><td>[12464]</td><td>東京地裁 H26.4.25</td><td>有価証券評価損の4要件の体系的整理</td><td>棄却（課税庁勝訴）</td></tr>
+<tr><td>[12008]</td><td>東京地裁 H24.7.20</td><td>法33条の条文構造の確認</td><td>却下</td></tr>
+<tr><td>[11392]</td><td>東京地裁 H22.3.5</td><td>非上場株式（海外子会社）の時価評価方法</td><td>一部取消（納税者一部勝訴）</td></tr>
+<tr><td>[12720]</td><td>東京地裁 H27.9.15</td><td>資産の帰属と評価損計上の前提</td><td>一部取消</td></tr>
+<tr><td>[13437]</td><td>東京地裁 R2.8.6</td><td>施行令68条1項2号ロの該当性</td><td>一部取消</td></tr>
+<tr><td>[12848]</td><td>東京高裁 H28.4.21</td><td>法基通9-1-14と非上場株式評価</td><td>一部取消</td></tr>
+<tr><td>[11441]</td><td>東京地裁 H22.5.14</td><td>評価損の隠蔽と重加算税</td><td>一部取消</td></tr>
+<tr><td>[12098]</td><td>東京地裁 H24.11.28</td><td>子会社株式消却の譲渡損失額</td><td>一部取消</td></tr>
+</table>
+
+<h3>判例から抽出された評価損の4要件（[12464]東京地裁H26.4.25）</h3>
+<div class="card highlight">
+<ol>
+<li><strong>要件1</strong>: 発行法人の資産状態が著しく悪化したこと（施行令68条1項2号ロ、通達9-1-9）</li>
+<li><strong>要件2</strong>: 有価証券を取得して相当の期間を経過した後に事実が生じたこと</li>
+<li><strong>要件3</strong>: 期末時価が帳簿価額の概ね50%以上下回ること（通達9-1-7）</li>
+<li><strong>要件4</strong>: 近い将来その価額の回復が見込まれないこと（通達9-1-7）</li>
+</ol>
+<p style="margin-top:12px"><span class="badge badge-case">判例の意義</span> この判決は通達レベルの基準が事実上の「法規範」として機能していることを示す。</p>
+</div>
+
+<h3>判例の傾向分析</h3>
+<table>
+<tr><th>傾向</th><th>根拠判例</th></tr>
+<tr><td>評価損の損金算入は「例外的な場合」であり「限定的に解すべき」</td><td>[12464]</td></tr>
+<tr><td>50%以上の下落があっても、回復見込みがあれば損金算入不可</td><td>[12464] 要件4</td></tr>
+<tr><td>評価損計上の前提として、資産の帰属（誰の資産か）の立証が必要</td><td>[12720]</td></tr>
+<tr><td>非上場株式の時価算定方法は多様で通達の適用関係が複雑</td><td>[11392], [12848]</td></tr>
+<tr><td>評価損の隠蔽・不適切な経理処理は重加算税の対象</td><td>[11441]</td></tr>
+</table>
+</section>
+
+<!-- Section 8 -->
+<section id="sec8">
+<h2>8. 学術的議論と論争</h2>
+
+<h3>主要な学術的論争軸</h3>
+<table>
+<tr><th>論点</th><th>対立軸</th><th>関連文献</th></tr>
+<tr><td>評価損の本質</td><td>未実現損失の先取り vs. 資産価値の適正反映</td><td>通達9-1-3</td></tr>
+<tr><td>50%基準の妥当性</td><td>形式的明確性 vs. 実質的判断の必要性</td><td>通達9-1-7, 9-1-9</td></tr>
+<tr><td>回復可能性の判断</td><td>客観的・事後的検証 vs. 事業年度末時点の予測</td><td>通達9-1-7 注2</td></tr>
+<tr><td>非上場株式の評価</td><td>純資産価額法 vs. 収益還元法</td><td>通達9-1-13, 9-1-14</td></tr>
+<tr><td>実現主義と時価主義</td><td>課税繰延べの利益 vs. 担税力の適時測定</td><td>浅妻章如論文</td></tr>
+<tr><td>CFC計算での評価損</td><td>本邦法令準拠 vs. 所在地国法令準拠</td><td>石井孝論文</td></tr>
+</table>
+
+<h3>CFC税制との交差点（石井論文）</h3>
+<div class="card">
+<p>CFC税制における適用対象金額の計算上、法人税法33条5項（完全支配関係がある法人の株式等の評価損の損金不算入）は除外される21規定の一つに列挙されている（措令39条の15第1項第1号）。これは、完全支配関係があくまで内国法人間の概念であり、特定外国子会社等には適用されないという制度設計上の論理的帰結である。</p>
+</div>
+
+<h3>実現主義と時価主義の緊張（浅妻論文）</h3>
+<blockquote>「政策論において時価主義課税は無理であるとされる。他方、国際租税政策論に関しては毎年親会社居住地国で課税すれば良いということが真面目に議論されている（アメリカの例）。国内課税問題で時価主義は無理とされながら、国際課税問題において時価主義に近づけることが可能であることを前提とするかのような議論の運びに、違和感が残る。」</blockquote>
+<p>法人税法33条が評価損を原則不可としているのは実現主義の貫徹であり、33条2項の例外は時価主義との妥協点を模索する立法政策の反映と位置づけられる。</p>
+</section>
+
+<!-- Section 9: Debate -->
+<section id="sec9">
+<h2>9. 論点対立：課税庁 vs 納税者</h2>
+<p>Phase 1の調査素材に基づき、3つの核心的論点について課税庁側と納税者側の主張を対比する。</p>
+
+<!-- Debate Issue 1 -->
+<h3>論点1: 回復可能性の判断基準</h3>
+<div class="debate-grid">
+<div class="debate-card pro">
+<h4><span class="tag blue">課税庁</span> 現行基準は適正</h4>
+<ul>
+<li>50%基準（通達9-1-7）は<strong>客観的で明確な数値基準</strong>であり、恣意的な評価損計上を防止する機能を果たす</li>
+<li>回復見込みの判断は客観的・合理的根拠に基づくべきであり、<strong>納税者の主観的判断</strong>に委ねるべきではない</li>
+<li>安易に評価損を認めれば<strong>租税回避の温床</strong>となる（[12464]判決：「限定的に解すべき」）</li>
+<li>事後の株価回復があっても是正不要という規定は、納税者に十分有利な制度設計</li>
+<li><strong>コロナショック等の一時的急落</strong>は市場全体の現象であり、個別銘柄の構造的下落と区別すべき</li>
+</ul>
+</div>
+<div class="debate-card con">
+<h4><span class="tag red">納税者</span> 基準は画一的すぎる</h4>
+<ul>
+<li>50%という閾値に<strong>合理的根拠がない</strong>。30%下落でも経済的実態として重大な価値毀損が生じうる</li>
+<li>「回復見込みなし」の<strong>立証責任が納税者に過度に課されている</strong>。事業年度末時点での将来予測は本質的に不確実</li>
+<li>会計基準の減損処理では<strong>より柔軟な判断</strong>が認められるのに、税務では厳格すぎて企業実務に混乱を招く</li>
+<li>「近い将来」の期間が不明確で、<strong>予測可能性に欠ける</strong></li>
+<li>業種特性（スタートアップ、景気循環産業等）を考慮しない画一的基準は<strong>実質的公平に反する</strong></li>
+</ul>
+</div>
+</div>
+
+<!-- Debate Issue 2 -->
+<h3>論点2: 完全支配関係子会社株式の評価損制限（法33条5項）</h3>
+<div class="debate-grid">
+<div class="debate-card pro">
+<h4><span class="tag blue">課税庁</span> グループ一体課税の論理的帰結</h4>
+<ul>
+<li>グループ法人税制の基本思想は100%グループを<strong>経済的に一体</strong>と捉えること。評価損制限はその論理的帰結</li>
+<li>子法人の清算時に未処理欠損金が親法人に引き継がれるため、別途評価損を認めると<strong>二重控除</strong>となる</li>
+<li>清算中・解散見込み・適格合併見込みの除外規定（施行令68条の3）により<strong>十分な柔軟性</strong>が確保されている</li>
+<li>グループ内で恣意的に含み損を作り出す<strong>租税回避スキーム</strong>（業績不振子会社の評価損→清算損の二重計上）を防止</li>
+<li>国際的にも同様の制限は一般的（米国・英国等のグループ課税制度）</li>
+</ul>
+</div>
+<div class="debate-card con">
+<h4><span class="tag red">納税者</span> 経済的実態との乖離</h4>
+<ul>
+<li>経済的に価値が毀損した子会社株式の評価損を認めないのは、<strong>課税所得を過大計上</strong>する結果となる</li>
+<li>清算・解散の例外だけでは不十分。<strong>事業再生中のケース</strong>（再生計画が認可されるまでの間）がカバーされない</li>
+<li>CFC税制では法33条5項が除外される（石井論文）のに、国内では制限される<strong>制度間の不整合</strong></li>
+<li>99.9%と100%で結論が異なる<strong>形式基準の不合理性</strong>（0.1%の少数株主の有無で大きく結論が変わる）</li>
+<li>グループ法人税制により清算損も損金不算入とされているため、評価損も清算損も計上できないという<strong>納税者の逃げ場のない状況</strong>が生じうる</li>
+</ul>
+</div>
+</div>
+
+<!-- Debate Issue 3 -->
+<h3>論点3: 非上場株式の時価評価の困難さ</h3>
+<div class="debate-grid">
+<div class="debate-card pro">
+<h4><span class="tag blue">課税庁</span> 客観的基準の優先</h4>
+<ul>
+<li>純資産価額方式は<strong>客観的で操作されにくい</strong>方法であり、課税の公平性確保に適する</li>
+<li>財産評価基本通達の準用（通達9-1-14）は<strong>合理的な簡便法</strong>として機能している</li>
+<li>将来キャッシュフロー法等の<strong>インカムアプローチは主観的で検証困難</strong>。割引率・成長率の設定次第で結果が大きく変わる</li>
+<li>通達9-1-13の4段階の算定方法（売買実例→類似法人→純資産価額等）は<strong>十分に体系的</strong>な枠組み</li>
+<li>評価の客観性を犠牲にすれば、恣意的な評価損計上のリスクが高まる</li>
+</ul>
+</div>
+<div class="debate-card con">
+<h4><span class="tag red">納税者</span> 実態反映の必要性</h4>
+<ul>
+<li>純資産価額方式は企業の<strong>将来価値・のれん・無形資産</strong>を反映しない。帳簿上の純資産と実質的企業価値は大きく乖離しうる</li>
+<li>会計上は減損処理で<strong>公正価値評価</strong>が求められるのに、税務では認められない矛盾</li>
+<li>中小企業にとって複雑な時価評価の<strong>コストが過大</strong>（専門家への依頼費用等）</li>
+<li>財産評価基本通達は本来<strong>相続税評価のための通達</strong>であり、法人税の評価損という文脈に無条件に準用することの妥当性に疑問</li>
+<li>通達9-1-14の修正条件（小会社評価・法人税額等不控除）は<strong>納税者に不利な方向の修正</strong>のみで、バランスを欠く</li>
+</ul>
+</div>
+</div>
+
+<h3>論点対立の総括</h3>
+<div class="card">
+<table>
+<tr><th>論点</th><th>課税庁の核心的主張</th><th>納税者の核心的主張</th><th>現行法の立場</th></tr>
+<tr><td>回復可能性</td><td>客観性・租税回避防止</td><td>画一性・立証負担の過重</td><td>課税庁寄り（判例[12464]）</td></tr>
+<tr><td>完全支配関係の制限</td><td>二重控除防止・一体課税</td><td>経済的実態との乖離</td><td>課税庁寄り（ただし例外あり）</td></tr>
+<tr><td>非上場株式評価</td><td>客観性・操作困難性</td><td>実態反映・コスト負担</td><td>折衷的（通達9-1-14の特例）</td></tr>
+</table>
+</div>
+</section>
+
+<!-- Section 10 -->
+<section id="sec10">
+<h2>10. 最新動向と税制改正</h2>
+
+<h3>評価損制度の基本枠組み：改正なし</h3>
+<p>令和7年度（2025年度）・令和8年度（2026年度）の税制改正において、有価証券の評価損の損金算入要件そのもの（法33条・施行令68条・通達9-1-7等）に直接的な改正は確認されていない。</p>
+
+<h3>間接的に影響する改正</h3>
+<table>
+<tr><th>改正事項</th><th>時期</th><th>評価損への影響</th></tr>
+<tr><td>防衛特別法人税の創設（税率4%）</td><td>2026年4月〜</td><td>法定実効税率の約0.9%増加→繰延税金資産の金額に影響</td></tr>
+<tr><td>UTPR（国際最低課税残余額に対する法人税等）の創設</td><td>2026年4月〜</td><td>グループ内資産評価に関する国際的議論に間接的影響</td></tr>
+<tr><td>暗号資産の「有価証券に類するもの」への整理</td><td>法案成立後</td><td>暗号資産の評価損の取扱い議論が将来的に進む可能性</td></tr>
+<tr><td>パーシャルスピンオフ税制の見直し</td><td>法案成立後</td><td>完全子法人株式の移動方法の多様化→評価損のタイミングに間接的影響</td></tr>
+</table>
+
+<h3>国税庁タックスアンサー</h3>
+<div class="important">
+<strong>No.5574</strong>「有価証券の評価損が認められる場合」が正しい番号。旧No.5563は移動・削除済み。
+<br>法令基準日: 令和7年4月1日現在法令等
+</div>
+</section>
+
+<!-- Section 11 -->
+<section id="sec11">
+<h2>11. 会計上の減損と税務上の評価損の関係</h2>
+
+<table>
+<tr><th>項目</th><th>会計上の減損</th><th>税務上の評価損</th></tr>
+<tr><td>根拠</td><td>金融商品会計基準（企業会計基準第10号）等</td><td>法人税法33条2項、施行令68条</td></tr>
+<tr><td>目的</td><td>適正な財務報告</td><td>課税所得の適正な計算</td></tr>
+<tr><td>著しい下落の基準</td><td>概ね50%以上の下落</td><td>概ね50%以上の下落</td></tr>
+<tr><td>回復可能性</td><td>翌期末までに回復見込みがないこと等</td><td>近い将来の回復見込みがないこと</td></tr>
+<tr><td>完全子法人株式</td><td>制限なし</td><td>法33条5項により一部制限</td></tr>
+<tr><td>損金経理要件</td><td>--</td><td>確定決算で減損処理（損金経理）が前提</td></tr>
+</table>
+
+<h3>4つのパターン</h3>
+<div class="card">
+<table>
+<tr><th>パターン</th><th>会計</th><th>税務</th><th>処理</th></tr>
+<tr><td>1</td><td>減損○</td><td>評価損○</td><td>申告調整不要（最も典型的）</td></tr>
+<tr><td>2</td><td>減損○</td><td>評価損×</td><td>申告加算（別表四）+ 繰延税金資産を検討</td></tr>
+<tr><td>3</td><td>減損×</td><td>評価損○</td><td>理論的には可能だが、損金経理要件により事実上不可</td></tr>
+<tr><td>4</td><td>減損×</td><td>評価損×</td><td>処理なし</td></tr>
+</table>
+</div>
+
+<div class="important">
+<strong>損金経理要件の実務的意味</strong>: 確定決算で減損処理を行っていないと、税務上も評価損を損金算入できない。「会計では処理していないが税務上のみ評価損を計上する」ことは原則として不可。
+</div>
+</section>
+
+<!-- Section 12 -->
+<section id="sec12">
+<h2>12. 実務チェックリスト</h2>
+
+<div class="card highlight">
+<h3>評価損計上を検討する際の確認事項</h3>
+<table>
+<tr><th>#</th><th>確認事項</th><th>根拠</th></tr>
+<tr><td>1</td><td>有価証券の区分（売買目的/その他/子会社株式等）の確認</td><td>施行令68条1項2号</td></tr>
+<tr><td>2</td><td>上場/非上場の区分の確認（判定基準が異なる）</td><td>通達9-1-7 vs 9-1-9</td></tr>
+<tr><td>3</td><td>完全支配関係の有無の確認</td><td>法33条5項、施行令68条の3</td></tr>
+<tr><td>4</td><td>50%基準の充足（帳簿価額比/純資産価額比）</td><td>通達9-1-7、9-1-9(2)</td></tr>
+<tr><td>5</td><td>回復可能性の検討（客観的・合理的根拠に基づく判断）</td><td>通達9-1-7 注2</td></tr>
+<tr><td>6</td><td>非上場株式の時価算定方法の選択と根拠の整理</td><td>通達9-1-13、9-1-14</td></tr>
+<tr><td>7</td><td>増資払込み後でないことの確認</td><td>通達9-1-12</td></tr>
+<tr><td>8</td><td>確定決算での損金経理（会計上の減損処理）の実施</td><td>法33条2項</td></tr>
+<tr><td>9</td><td>判断根拠の文書化（税務調査対策）</td><td>実務上の要請</td></tr>
+<tr><td>10</td><td>別表の適正記載（法33条4項の場合は別表14(1)等）</td><td>法33条7項</td></tr>
+<tr><td>11</td><td>会計と税務の差異がある場合の税効果の検討</td><td>企業会計基準</td></tr>
+<tr><td>12</td><td>グループ通算制度との整合性確認</td><td>法33条5項後段</td></tr>
+</table>
+</div>
+</section>
+
+<!-- Section 13 -->
+<section id="sec13">
+<h2>13. 調査素材一覧</h2>
+
+<h3>Phase 1: 並列ディープリサーチ（4エージェント同時実行）</h3>
+<table>
+<tr><th>エージェント</th><th>出力ファイル</th><th>主な内容</th></tr>
+<tr><td>条文・通達調査</td><td><a href="phase1_raw/01_条文通達.md">01_条文通達.md</a></td><td>法33条・施行令68条・通達9-1-7〜14の体系的整理（448行）</td></tr>
+<tr><td>判例・裁決検索</td><td><a href="phase1_raw/02_判例裁決.md">02_判例裁決.md</a></td><td>14判例のスコア0.65以上の分析（410行）</td></tr>
+<tr><td>学術論文RAG検索</td><td><a href="phase1_raw/03_学術論文.md">03_学術論文.md</a></td><td>CFC税制との交差点、実現主義vs時価主義（223行）</td></tr>
+<tr><td>Web最新動向調査</td><td><a href="phase1_raw/04_最新動向.md">04_最新動向.md</a></td><td>実務論点、コロナ禍対応、グループ法人税制（453行）</td></tr>
+<tr><td>Web最新動向補完</td><td><a href="phase1_raw/04_最新動向_補完.md">04_最新動向_補完.md</a></td><td>タックスアンサー訂正、税制改正補完（339行）</td></tr>
+</table>
+
+<h3>Phase 2: チーム討論（Agent Teams）</h3>
+<table>
+<tr><th>エージェント</th><th>役割</th><th>主な主張</th></tr>
+<tr><td>kazeicho</td><td>課税庁側代理人</td><td>50%基準の適正性、グループ一体課税の論理、客観的評価基準の優先</td></tr>
+<tr><td>nouzei</td><td>納税者側代理人（税理士）</td><td>画一的基準の不合理性、経済的実態との乖離、中小企業の負担</td></tr>
+</table>
+
+<h3>使用データベース</h3>
+<table>
+<tr><th>DB</th><th>コレクション</th><th>件数</th></tr>
+<tr><td>ai-law-db</td><td>hanketsu_fulltext</td><td>39,037チャンク</td></tr>
+<tr><td>CFC税制RAG</td><td>cfc_papers</td><td>8,187チャンク</td></tr>
+<tr><td>CFC税制RAG</td><td>cfc_footnotes</td><td>7,709チャンク</td></tr>
+<tr><td>tsutatsu-db</td><td>法人税基本通達HTML</td><td>--</td></tr>
+<tr><td>e-Gov法令</td><td>法人税法・施行令XML</td><td>--</td></tr>
+</table>
+
+<h3>参照法令・通達</h3>
+<table>
+<tr><th>法令等</th><th>条項</th></tr>
+<tr><td>法人税法</td><td>第33条（資産の評価損の損金不算入等）</td></tr>
+<tr><td>法人税法施行令</td><td>第68条、第68条の2、第68条の3</td></tr>
+<tr><td>法人税法施行令</td><td>第24条の2、第119条の2、第119条の13</td></tr>
+<tr><td>法人税基本通達</td><td>9-1-7〜9-1-14</td></tr>
+<tr><td>租税特別措置法施行令</td><td>第39条の15（CFC税制関連）</td></tr>
+</table>
+
+<h3>参考文献（RAG DB外）</h3>
+<ul>
+<li>金子宏『租税法』（弘文堂）</li>
+<li>品川芳宣『資産の評価損をめぐる法人税の実務』（大蔵財務協会）</li>
+<li>増井良啓「資産の評価と課税のタイミング」税研</li>
+<li>酒井克彦「有価証券の評価損の損金算入」税務事例研究</li>
+<li>石井孝「外国子会社合算税制において課税対象金額を本邦法令の規定の例に準じて計算する際の問題点」</li>
+<li>浅妻章如「海外子会社（からの配当）についての課税・非課税と、実現主義・時価主義の問題」</li>
+<li>岡村忠生=渡辺徹也=高橋祐介『ベーシック税法』（有斐閣）</li>
+</ul>
+</section>
+
+</div>
+
+<footer>
+<div class="container">
+<p>法人税法上の株式等の評価損 ── 包括的分析レポート</p>
+<p>調査日: 2026年2月7日 ｜ Claude Opus 4.6 ディープリサーチ</p>
+<p>Phase 1: 並列DR（条文・通達 / 判例・裁決 / 学術論文 / Web最新動向） + Phase 2: Agent Teams討論</p>
+</div>
+</footer>
+
+</body>
+</html>
