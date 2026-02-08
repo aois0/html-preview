@@ -1,0 +1,1130 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>日本法における「価額」「価値」「時価」関連概念の体系的調査報告</title>
+<style>
+:root {
+  --primary: #1a365d;
+  --secondary: #2c5282;
+  --accent: #e53e3e;
+  --bg: #f7fafc;
+  --card-bg: #ffffff;
+  --border: #e2e8f0;
+  --text: #2d3748;
+  --text-light: #718096;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.8;
+}
+.container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+header {
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+header h1 { font-size: 1.8em; margin-bottom: 10px; }
+header p { font-size: 0.95em; opacity: 0.9; }
+
+/* TOC */
+.toc {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 25px;
+  margin: 30px 0;
+}
+.toc h2 { font-size: 1.2em; color: var(--primary); margin-bottom: 15px; border-bottom: 2px solid var(--primary); padding-bottom: 8px; }
+.toc ol { padding-left: 20px; }
+.toc li { margin: 6px 0; }
+.toc a { color: var(--secondary); text-decoration: none; }
+.toc a:hover { text-decoration: underline; }
+
+/* Sections */
+.section {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 30px;
+  margin: 25px 0;
+}
+.section h2 {
+  font-size: 1.4em;
+  color: var(--primary);
+  border-left: 5px solid var(--accent);
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+.section h3 {
+  font-size: 1.15em;
+  color: var(--secondary);
+  margin: 20px 0 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--border);
+}
+.section h4 {
+  font-size: 1.05em;
+  color: #4a5568;
+  margin: 15px 0 8px;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 15px 0;
+  font-size: 0.9em;
+}
+th, td {
+  border: 1px solid var(--border);
+  padding: 10px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+th {
+  background: #edf2f7;
+  font-weight: 600;
+  color: var(--primary);
+  white-space: nowrap;
+}
+tr:nth-child(even) { background: #f7fafc; }
+.highlight-row { background: #fffbeb !important; }
+
+/* Blockquote */
+blockquote {
+  border-left: 4px solid var(--secondary);
+  background: #ebf8ff;
+  padding: 15px 20px;
+  margin: 15px 0;
+  font-size: 0.95em;
+  border-radius: 0 6px 6px 0;
+}
+blockquote.warning {
+  border-left-color: var(--accent);
+  background: #fff5f5;
+}
+blockquote.note {
+  border-left-color: #38a169;
+  background: #f0fff4;
+}
+
+/* Lists */
+ul, ol { padding-left: 20px; margin: 10px 0; }
+li { margin: 5px 0; }
+
+/* Diagram box */
+.diagram-box {
+  background: #f0f5ff;
+  border: 2px solid #90cdf4;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  text-align: center;
+  font-family: monospace;
+  font-size: 0.95em;
+  line-height: 2;
+}
+
+/* Key point */
+.key-point {
+  background: #fffbeb;
+  border: 1px solid #f6e05e;
+  border-radius: 6px;
+  padding: 15px;
+  margin: 15px 0;
+}
+.key-point strong { color: #b7791f; }
+
+/* Comparison box */
+.comparison {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin: 15px 0;
+}
+.comparison > div {
+  background: #f7fafc;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 15px;
+}
+.comparison h4 { margin-top: 0; }
+
+@media (max-width: 768px) {
+  .comparison { grid-template-columns: 1fr; }
+  header h1 { font-size: 1.3em; }
+  .section { padding: 20px; }
+  table { font-size: 0.8em; }
+}
+
+.source-list {
+  background: #f7fafc;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 15px;
+  margin: 10px 0;
+  font-size: 0.85em;
+}
+.source-list a { color: var(--secondary); }
+
+.tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  font-weight: 600;
+  margin-right: 4px;
+}
+.tag-tax { background: #fed7d7; color: #9b2c2c; }
+.tag-acct { background: #c6f6d5; color: #276749; }
+.tag-appr { background: #bee3f8; color: #2a4365; }
+.tag-corp { background: #e9d8fd; color: #553c9a; }
+.tag-pub { background: #fefcbf; color: #975a16; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>日本法における「価額」「価値」「時価」関連概念の体系的調査報告</h1>
+  <p>税法・会計基準・鑑定評価・会社法における価額概念の定義・法的根拠・相互関係</p>
+  <p>調査日: 2026年2月8日</p>
+</header>
+
+<div class="container">
+
+<!-- 目次 -->
+<div class="toc">
+<h2>目次</h2>
+<ol>
+  <li><a href="#sec1">概観：日本法における「価額」概念の多元的構造</a></li>
+  <li><a href="#sec2">税法系の概念群</a>
+    <ol>
+      <li><a href="#sec2-1">法人税法の「時価」（22条・33条）</a></li>
+      <li><a href="#sec2-2">相続税法の「時価」（22条）</a></li>
+      <li><a href="#sec2-3">所得税法の「通常の取引価額」「相当の対価」</a></li>
+      <li><a href="#sec2-4">地方税法の「適正な時価」（固定資産税）</a></li>
+    </ol>
+  </li>
+  <li><a href="#sec3">会計基準系の概念群</a>
+    <ol>
+      <li><a href="#sec3-1">公正価値（IFRS 13号）と時価（日本基準）</a></li>
+      <li><a href="#sec3-2">公正な評価額（ASBJ）</a></li>
+      <li><a href="#sec3-3">正味売却価額・使用価値・回収可能価額</a></li>
+      <li><a href="#sec3-4">取得原価・償却原価</a></li>
+    </ol>
+  </li>
+  <li><a href="#sec4">鑑定評価系の概念群</a>
+    <ol>
+      <li><a href="#sec4-1">正常価格</a></li>
+      <li><a href="#sec4-2">限定価格</a></li>
+      <li><a href="#sec4-3">特定価格</a></li>
+      <li><a href="#sec4-4">特殊価格</a></li>
+    </ol>
+  </li>
+  <li><a href="#sec5">会社法系の概念群</a>
+    <ol>
+      <li><a href="#sec5-1">「公正な価格」（株式買取請求）</a></li>
+      <li><a href="#sec5-2">旧商法「公正ナル価格」との関係</a></li>
+    </ol>
+  </li>
+  <li><a href="#sec6">公的土地評価の概念群（一物四価・五価）</a></li>
+  <li><a href="#sec7">横断的分析</a>
+    <ol>
+      <li><a href="#sec7-1">「時価」と「公正価値」は同じか違うか</a></li>
+      <li><a href="#sec7-2">税法の「時価」と会計の「公正価値」のズレ</a></li>
+      <li><a href="#sec7-3">不動産の「一物四価（五価）」の構造</a></li>
+      <li><a href="#sec7-4">各概念が前提とする「市場」の違い</a></li>
+    </ol>
+  </li>
+  <li><a href="#sec8">全概念の一覧比較表</a></li>
+  <li><a href="#sec9">参考文献・出典</a></li>
+</ol>
+</div>
+
+<!-- ========== 第1章 ========== -->
+<div class="section" id="sec1">
+<h2>1. 概観：日本法における「価額」概念の多元的構造</h2>
+
+<p>日本法において「価額」「価値」「時価」という用語は、税法・会計基準・不動産鑑定評価基準・会社法など、それぞれの法領域で独自の定義を持ち、異なる目的・前提のもとで運用されている。一見同じ「時価」という語が使われていても、その意味内容・算定方法・前提とする市場概念は領域ごとに異なる。</p>
+
+<p>この多元的構造は、以下の要因によって形成されている。</p>
+
+<ul>
+  <li><strong>目的の違い</strong>：課税の公平（税法）、投資家への情報提供（会計）、取引の指標（鑑定評価）、株主保護（会社法）</li>
+  <li><strong>前提とする市場の違い</strong>：現実の市場、仮想的な合理的市場、限定された市場</li>
+  <li><strong>算定方法の違い</strong>：画一的通達方式（税法）、柔軟な評価技法（会計・鑑定）</li>
+  <li><strong>時間軸の違い</strong>：取得時点（取得原価）、現在時点（時価）、将来時点（使用価値）</li>
+</ul>
+
+<div class="diagram-box">
+<strong>【概念の配置図：評価基準の座標軸】</strong><br><br>
+&lt;画一的算定&gt; ─────────────── &lt;柔軟な算定&gt;<br>
+路線価 ─ 固定資産税評価額 ─ 公示価格 ─ 鑑定評価 ─ 公正価値(IFRS)<br><br>
+&lt;客観的交換価値&gt; ───────────── &lt;主観的・個別的価値&gt;<br>
+正常価格 ─ 税法上の時価 ─ 限定価格 ─ 使用価値 ─ 特殊価格
+</div>
+</div>
+
+<!-- ========== 第2章 税法系 ========== -->
+<div class="section" id="sec2">
+<h2>2. 税法系の概念群</h2>
+
+<h3 id="sec2-1">2-1. 法人税法の「時価」（22条・33条）</h3>
+
+<h4>条文と位置づけ</h4>
+<p>法人税法には「時価」の明確な定義規定は存在しない。しかし、以下の条文が時価概念の基盤をなす。</p>
+
+<table>
+<tr><th>条文</th><th>内容</th><th>時価との関係</th></tr>
+<tr>
+  <td>22条2項</td>
+  <td>益金の額に算入すべき金額は、資産の販売、有償又は無償による資産の譲渡又は役務の提供等に係る収益の額</td>
+  <td>益金の認識・測定は時価をもって行うことを包括的に示す</td>
+</tr>
+<tr>
+  <td>22条4項</td>
+  <td>収益の額及び損金の額は、一般に公正妥当と認められる会計処理の基準（公正処理基準）に従って計算</td>
+  <td>時価の算定方法は原則として企業会計に準拠</td>
+</tr>
+<tr>
+  <td>33条2項</td>
+  <td>資産の評価損の損金算入（災害等により資産の価額が帳簿価額を下回る場合）</td>
+  <td>「当該資産の価額」＝事業年度終了時の時価</td>
+</tr>
+</table>
+
+<h4>判例における「時価」の解釈</h4>
+<blockquote>
+「純然たる第三者間において種々の経済性を考慮して定められた価額であれば、一般には常に合理的なものとして是認される」（国税不服審判所・平成11年2月8日裁決）
+</blockquote>
+
+<p>法人税法上の「時価」は、通常、<strong>「不特定多数の当事者間で自由な取引が行われる場合に通常成立すると認められる価額」</strong>と解されている。具体的な算定方法は、法人税基本通達や施行令に委ねられている。</p>
+
+<h4>非上場株式の時価算定（法人税基本通達9-1-14等）</h4>
+<table>
+<tr><th>区分</th><th>算定方法</th></tr>
+<tr><td>売買実例のあるもの</td><td>事業年度終了日前6月間の適正な売買価額</td></tr>
+<tr><td>公開途上にある株式</td><td>入札後の公募等の価格を参酌</td></tr>
+<tr><td>類似法人株式があるもの</td><td>類似法人株式の価額に比準して推定</td></tr>
+<tr><td>上記以外</td><td>1株当たりの純資産価額等を参酌して通常取引されると認められる価額</td></tr>
+</table>
+
+<div class="key-point">
+<strong>要点：</strong>法人税法上の「時価」は法律上の明確な定義を持たず、通達・判例の蓄積によって具体的な算定方法が形成されてきた。法人税法22条4項の公正処理基準を通じて企業会計との接点を持つが、税法独自の政策的考慮（画一的評価・課税の公平）が加味される。
+</div>
+
+<!-- 2-2 -->
+<h3 id="sec2-2">2-2. 相続税法の「時価」（22条）</h3>
+
+<h4>条文</h4>
+<blockquote>
+「この章で特別の定めのあるものを除くほか、相続、遺贈又は贈与により取得した財産の価額は、当該財産の取得の時における時価により、当該財産の価額から控除すべき債務の金額は、その時の現況による。」（相続税法22条）
+</blockquote>
+
+<h4>「時価」＝「客観的交換価値」</h4>
+<p>判例・通説は、相続税法22条にいう「時価」を「客観的な交換価格」と解している。</p>
+
+<blockquote>
+「課税時期において、それぞれの財産の現況に応じ、不特定多数の当事者間で自由な取引が行われる場合に通常成立すると認められる価額、すなわち客観的交換価格をいう」（財産評価基本通達1(2)、最高裁判例）
+</blockquote>
+
+<h4>財産評価基本通達の役割</h4>
+<p>客観的交換価値は一義的には確定しないため、<strong>課税の公平・納税者の便宜・徴税費用の節減</strong>の観点から、財産評価基本通達による画一的な評価方法が採用されている。判例も「評価通達の画一的評価方式には合理性がある」と認めている。</p>
+
+<h4>評価通達によらない「特別の事情」</h4>
+<p>ただし、評価通達の定めにより算出された価額が客観的交換価値を上回ることが明らかな場合には、他の合理的な評価方法による時価算定が許容される（総則6項）。近年の最高裁判例（令和4年4月19日）では、総則6項の適用が争われた。</p>
+
+<!-- 2-3 -->
+<h3 id="sec2-3">2-3. 所得税法の「通常の取引価額」「相当の対価」</h3>
+
+<h4>概要</h4>
+<p>所得税法自体には「通常の取引価額」や「相当の対価」の明確な定義規定は置かれていない。主に基本通達と判例を通じて内容が形成されている。</p>
+
+<table>
+<tr><th>条文・通達</th><th>概念</th><th>内容</th></tr>
+<tr>
+  <td>所得税法59条<br>（みなし譲渡）</td>
+  <td>時価の2分の1未満の対価</td>
+  <td>法人に対する贈与・著しく低い価額の譲渡について、時価で譲渡があったとみなす</td>
+</tr>
+<tr>
+  <td>所得税基本通達59-6</td>
+  <td>取引相場のない株式の時価</td>
+  <td>財産評価基本通達の評価方法を準用するが、純資産価額は実勢価額（路線価ではない）で評価</td>
+</tr>
+<tr>
+  <td>所得税法157条</td>
+  <td>同族会社の行為計算否認</td>
+  <td>「時価」より著しく低い対価による取引の否認</td>
+</tr>
+</table>
+
+<div class="key-point">
+<strong>要点：</strong>所得税法上の「時価」は、法人税法・相続税法と同様に「不特定多数の当事者間で自由な取引が行われる場合に通常成立する価額」と解されるが、具体的な算定方法は財産の種類により異なる。特に取引相場のない株式については、相続税の評価通達を準用しつつも一部修正を加える独自の取扱いがある。
+</div>
+
+<!-- 2-4 -->
+<h3 id="sec2-4">2-4. 地方税法の「適正な時価」（固定資産税）</h3>
+
+<h4>条文</h4>
+<blockquote>
+地方税法341条5号：「価格　適正な時価をいう。」
+</blockquote>
+
+<h4>最高裁判例による解釈</h4>
+<blockquote>
+「適正な時価とは、正常な条件の下に成立する当該土地の取引価格、すなわち、客観的な交換価値をいう」（最高裁平成15年6月26日第一小法廷判決・民集57巻6号）
+</blockquote>
+
+<p>この判決により、登録価格が客観的交換価値を上回れば、その登録価格の決定は<strong>違法</strong>となるという枠組みが確立された。</p>
+
+<h4>「7割評価」の仕組み</h4>
+<p>平成6年度評価替えから、公示価格の<strong>7割程度</strong>を目途に固定資産税評価額を設定する方針がとられている。これは3年に1回の評価替えという制度設計上、地価変動リスクを吸収するための安全弁である。</p>
+</div>
+
+<!-- ========== 第3章 会計基準系 ========== -->
+<div class="section" id="sec3">
+<h2>3. 会計基準系の概念群</h2>
+
+<h3 id="sec3-1">3-1. 公正価値（IFRS 13号）と時価（日本基準）</h3>
+
+<h4>IFRS 13号の定義</h4>
+<blockquote>
+「公正価値（fair value）とは、測定日において市場参加者間で秩序ある取引（orderly transaction）が行われた場合に、資産の売却によって受け取る又は負債を移転するために支払う価格をいう。」（IFRS13.9）
+</blockquote>
+
+<p>公正価値の3つの本質的特徴：</p>
+<ol>
+  <li><strong>出口価格（exit price）</strong>：売却・移転時の価格であり、入口価格（取得時の価格）ではない</li>
+  <li><strong>市場参加者の視点</strong>：企業固有の意図・能力は反映しない</li>
+  <li><strong>秩序ある取引</strong>：強制売買や投売りではない通常の取引を前提</li>
+</ol>
+
+<h4>日本基準：企業会計基準第30号「時価の算定に関する会計基準」（2021年適用開始）</h4>
+<blockquote>
+「算定日において市場参加者間で秩序ある取引が行われると想定した場合の、当該取引における資産の売却によって受け取る価格又は負債の移転のために支払う価格」
+</blockquote>
+
+<p>日本基準はIFRS 13号の定めを基本的にすべて取り入れて開発されたが、用語として「公正価値」ではなく「<strong>時価</strong>」を採用した。これは日本の関連諸法規で「時価」という語が広く使用されていることとの整合性を図るためである。</p>
+
+<h4>公正価値ヒエラルキー（レベル区分）</h4>
+<table>
+<tr><th>レベル</th><th>インプット</th><th>例</th></tr>
+<tr><td>レベル1</td><td>活発な市場における同一の資産・負債の相場価格（無調整）</td><td>上場株式の市場価格</td></tr>
+<tr><td>レベル2</td><td>レベル1以外の直接的又は間接的に観察可能なインプット</td><td>類似資産の相場価格、金利、為替レート</td></tr>
+<tr><td>レベル3</td><td>観察不能なインプット</td><td>企業自身のデータに基づく将来CF見積り</td></tr>
+</table>
+
+<h4>IFRS 13号と日本基準の主な相違点</h4>
+<table>
+<tr><th>項目</th><th>IFRS 13号</th><th>日本基準（時価算定基準）</th></tr>
+<tr><td>用語</td><td>公正価値（Fair Value）</td><td>時価</td></tr>
+<tr><td>適用範囲</td><td>ほぼ全ての公正価値測定に適用</td><td>金融商品等に限定（非上場株式等を除く）</td></tr>
+<tr><td>非上場株式</td><td>公正価値評価が必須</td><td>取得原価評価（時価算定の適用外）</td></tr>
+<tr><td>参照市場</td><td>主要な市場又は最も有利な市場</td><td>一般的な考え方は明示されていない</td></tr>
+<tr><td>開示</td><td>レベル別の詳細開示が要求</td><td>IFRSに比べ限定的</td></tr>
+</table>
+
+<!-- 3-2 -->
+<h3 id="sec3-2">3-2. 公正な評価額（ASBJ）</h3>
+
+<p>減損会計基準や金融商品会計基準において用いられる「公正な評価額」は、基本的に「時価」と同義として使用されている。</p>
+
+<blockquote>
+「時価とは、公正な評価額をいう。通常、それは観察可能な市場価格をいい、市場価格が観察できない場合には合理的に算定された価額をいう。」（固定資産の減損に係る会計基準 注解 注1(3)）
+</blockquote>
+
+<p>金融商品会計基準においても、「金融商品の時価とは公正な評価額をいい、市場において形成されている取引価格、気配又は指標その他の相場に基づく価額」とされている。</p>
+
+<!-- 3-3 -->
+<h3 id="sec3-3">3-3. 正味売却価額・使用価値・回収可能価額</h3>
+
+<p>これらは主に<strong>固定資産の減損会計</strong>において使用される概念である。</p>
+
+<table>
+<tr><th>概念</th><th>定義</th><th>算定方法</th></tr>
+<tr>
+  <td><strong>回収可能価額</strong></td>
+  <td>正味売却価額と使用価値のいずれか高い方の金額</td>
+  <td>max（正味売却価額, 使用価値）</td>
+</tr>
+<tr>
+  <td><strong>正味売却価額</strong></td>
+  <td>資産又は資産グループの時価から処分費用見込額を控除した金額</td>
+  <td>時価（公正な評価額） - 処分費用</td>
+</tr>
+<tr>
+  <td><strong>使用価値</strong></td>
+  <td>資産の継続的使用と使用後の処分によって生ずると見込まれる将来CFの現在価値</td>
+  <td>将来CF の割引現在価値（DCF法）</td>
+</tr>
+</table>
+
+<div class="diagram-box">
+<strong>【減損損失の測定構造】</strong><br><br>
+帳簿価額 &gt; 回収可能価額 → 減損損失を認識<br><br>
+回収可能価額 = max（正味売却価額, 使用価値）<br>
+正味売却価額 = 時価（公正な評価額）- 処分費用<br>
+使用価値 = 将来CF の割引現在価値
+</div>
+
+<div class="key-point">
+<strong>公正価値と使用価値の根本的違い：</strong>公正価値は<strong>市場参加者の視点</strong>（market participant view）から測定される客観的な価格であるのに対し、使用価値は<strong>当該企業固有の視点</strong>（entity-specific view）から測定される主観的な価値である。公正価値は市場の平均的な期待を反映するが、使用価値は当該企業の個別的な事業計画・シナジー等を反映する。
+</div>
+
+<!-- 3-4 -->
+<h3 id="sec3-4">3-4. 取得原価・償却原価</h3>
+
+<h4>取得原価（歴史的原価）</h4>
+<p>取得原価主義（historical cost convention）とは、資産の評価基準として資産を取得した原価を採用する会計手法であり、時価主義と対極をなす。</p>
+
+<ul>
+  <li><strong>取得価額</strong>：金融資産の取得に当たって支払った対価の支払時の時価に付随費用を加算したもの</li>
+  <li><strong>取得原価</strong>：取得価額の合計額から売却原価を控除した価額</li>
+</ul>
+
+<p><strong>取得原価主義の利点</strong>：客観性・検証可能性に優れ、未実現利益の計上を防止する。<br>
+<strong>取得原価主義の限界</strong>：市場価値との乖離（含み益・含み損の隠匿）が生じる。</p>
+
+<h4>償却原価</h4>
+<blockquote>
+「債権又は債券を債権金額又は債券金額より低い又は高い価額で取得した場合に、差額が金利の調整部分に該当するとき、弁済期又は償還期に至るまで毎期一定の方法で取得価額に加減した後の価額」
+</blockquote>
+
+<p>満期保有目的の債券や貸付金などに適用され、利息法又は定額法によって期間配分される。</p>
+
+<h4>IFRSにおける原価モデルと再評価モデル</h4>
+<div class="comparison">
+<div>
+  <h4>原価モデル</h4>
+  <p>帳簿価額 = 取得原価 - 減価償却累計額 - 減損損失累計額</p>
+  <p>日本基準はこのモデルのみ採用</p>
+</div>
+<div>
+  <h4>再評価モデル（IFRS）</h4>
+  <p>帳簿価額 = 再評価日の公正価値 - その後の減価償却累計額 - 減損損失累計額</p>
+  <p>公正価値の変動をOCIに計上</p>
+</div>
+</div>
+</div>
+
+<!-- ========== 第4章 鑑定評価系 ========== -->
+<div class="section" id="sec4">
+<h2>4. 鑑定評価系の概念群</h2>
+
+<p>不動産鑑定評価基準は、鑑定評価によって求める価格を4種類に分類している。原則として「正常価格」を求めるが、依頼目的に応じて他の3種類の価格を求める場合がある。</p>
+
+<h3 id="sec4-1">4-1. 正常価格</h3>
+<blockquote>
+「市場性を有する不動産について、現実の社会経済情勢の下で合理的と考えられる条件を満たす市場で形成されるであろう市場価値を表示する適正な価格をいう。」
+</blockquote>
+
+<p>「合理的と考えられる条件を満たす市場」の要件：</p>
+<ul>
+  <li>市場参加者が自由に出入りできる</li>
+  <li>売り急ぎ・買い急ぎがない</li>
+  <li>特殊な事情による売買ではない</li>
+  <li>対象期間中の市場への情報公開がある</li>
+</ul>
+
+<p><span class="tag tag-appr">鑑定評価</span> 一般の取引当事者にとって妥当する価格であり、鑑定評価の原則的な価格類型。</p>
+
+<h3 id="sec4-2">4-2. 限定価格</h3>
+<blockquote>
+「市場性を有する不動産について、不動産と取得する他の不動産との併合又は不動産の一部を取得する際の分割等に基づき正常価格と同一の市場概念の下において形成されるであろう市場価値と乖離することにより、市場が相対的に限定される場合における取得部分の当該市場限定に基づく市場価値を適正に表示する価格をいう。」
+</blockquote>
+
+<p><strong>具体例：</strong></p>
+<ul>
+  <li>借地権者が底地を買い取る場合（併合による増分価値）</li>
+  <li>隣接地の取得（整形地化による付加価値）</li>
+  <li>経済合理性に反する分割を行う場合</li>
+</ul>
+
+<div class="key-point">
+<strong>限定価格の本質：</strong>特定の当事者間においてのみ経済合理性が認められる価格であり、正常価格からの乖離（通常は上方乖離）を伴う。市場参加者が限定されるという点が正常価格との最大の違いである。
+</div>
+
+<h3 id="sec4-3">4-3. 特定価格</h3>
+<blockquote>
+「市場性を有する不動産について、法令等による社会的要請を背景とする鑑定評価目的の下で、正常価格の前提となる諸条件を満たさないことにより正常価格と同一の市場概念の下において形成されるであろう市場価値と乖離することとなる場合における不動産の経済価値を適正に表示する価格をいう。」
+</blockquote>
+
+<p><strong>具体例：</strong></p>
+<ul>
+  <li>資産流動化法・投資信託法に基づく投資採算価値を表す価格</li>
+  <li>民事再生法に基づく早期売却を前提とした価格</li>
+  <li>会社更生法・民事再生法に基づく事業継続を前提とした価格</li>
+</ul>
+
+<h3 id="sec4-4">4-4. 特殊価格</h3>
+<blockquote>
+「文化財等の一般的に市場性を有しない不動産について、その利用現況等を前提とした不動産の経済価値を適正に表示する価格をいう。」
+</blockquote>
+
+<p><strong>対象：</strong>寺院・神社等の文化財、宗教建築物、公園・鉄道等の公共施設など、そもそも市場での売買が想定されない不動産。</p>
+
+<h4>4つの価格の相互関係</h4>
+<table>
+<tr><th>価格類型</th><th>市場性</th><th>市場の範囲</th><th>法令等の要請</th><th>正常価格との関係</th></tr>
+<tr><td><strong>正常価格</strong></td><td>あり</td><td>開放的・合理的市場</td><td>なし</td><td>基準価格（原則）</td></tr>
+<tr><td><strong>限定価格</strong></td><td>あり</td><td>限定された市場</td><td>なし</td><td>正常価格から乖離（通常は上方）</td></tr>
+<tr><td><strong>特定価格</strong></td><td>あり</td><td>法令等により条件付き</td><td>あり</td><td>正常価格から乖離</td></tr>
+<tr><td><strong>特殊価格</strong></td><td>なし</td><td>市場なし</td><td>なし</td><td>比較不能</td></tr>
+</table>
+
+<blockquote class="note">
+<strong>注記：</strong>正常価格を求め得る不動産について限定価格又は特定価格を求めた場合は、括弧書きで正常価格である旨を付記して正常価格を併記する（鑑定評価基準）。
+</blockquote>
+</div>
+
+<!-- ========== 第5章 会社法系 ========== -->
+<div class="section" id="sec5">
+<h2>5. 会社法系の概念群</h2>
+
+<h3 id="sec5-1">5-1. 「公正な価格」（株式買取請求：会社法785条等）</h3>
+
+<h4>条文</h4>
+<blockquote>
+「吸収合併等をする場合には、反対株主は、消滅株式会社等に対し、自己の有する株式を公正な価格で買い取ることを請求することができる。」（会社法785条1項）
+</blockquote>
+
+<h4>趣旨</h4>
+<p>株式買取請求権の趣旨は、組織再編という会社組織の基礎に本質的変更をもたらす行為を株主総会の多数決で可能とする反面、反対株主に会社からの退出の機会を保障することにある。さらに、会社法のもとでは<strong>シナジー効果の適正な分配</strong>という機能が付加された。</p>
+
+<h4>「公正な価格」の構成要素（最高裁平成23年4月19日決定：楽天対TBS事件）</h4>
+
+<table>
+<tr><th>場面</th><th>「公正な価格」の内容</th></tr>
+<tr class="highlight-row">
+  <td>企業価値が増加する場合<br>（シナジーあり）</td>
+  <td><strong>シナジーを反映した価格</strong><br>組織再編対価が公正であったならば、株式買取請求がされた日においてその株式が有していると認められる価格</td>
+</tr>
+<tr>
+  <td>企業価値が毀損する場合<br>（シナジーなし）</td>
+  <td><strong>ナカリセバ価格</strong><br>組織再編行為を承認する旨の株主総会決議がなければその株式が有していたであろう価格</td>
+</tr>
+</table>
+
+<div class="diagram-box">
+<strong>【「公正な価格」の決定構造】</strong><br><br>
+公正な価格 = max（ナカリセバ価格, シナジー反映価格）<br><br>
+ナカリセバ価格 = 組織再編がなかったならば有していたであろう株式の価格（客観的価値）<br>
+シナジー反映価格 = 客観的価値 + シナジー効果の適正な分配（期待権）
+</div>
+
+<h3 id="sec5-2">5-2. 旧商法「公正ナル価格」との関係</h3>
+
+<table>
+<tr><th></th><th>旧商法</th><th>会社法</th></tr>
+<tr><td><strong>文言</strong></td><td>「決議ナカリセバ其ノ有スベカリシ公正ナル価格」</td><td>「公正な価格」</td></tr>
+<tr><td><strong>シナジー考慮</strong></td><td>考慮しない（ナカリセバ価格のみ）</td><td>考慮する（シナジーの適正な分配を含む）</td></tr>
+<tr><td><strong>機能</strong></td><td>投下資本の回収保障</td><td>投下資本の回収保障 ＋ シナジーの適正分配</td></tr>
+</table>
+
+<div class="key-point">
+<strong>要点：</strong>会社法の「公正な価格」は、旧商法の「適正な価格」（ナカリセバ価格）を包含しつつ、組織再編によるシナジー効果の分配までも射程に含む、より広い概念である。ただし、シナジー配分の具体的基準は確立しておらず、裁判所の裁量に委ねられている。
+</div>
+</div>
+
+<!-- ========== 第6章 公的土地評価 ========== -->
+<div class="section" id="sec6">
+<h2>6. 公的土地評価の概念群（一物四価・五価）</h2>
+
+<p>日本では同一の土地に対して複数の公的評価額が存在する。これを「一物四価」（実勢価格を含めると「一物五価」）と呼ぶ。</p>
+
+<table>
+<tr>
+  <th>価格の種類</th>
+  <th>評価主体</th>
+  <th>法的根拠</th>
+  <th>基準日</th>
+  <th>公表時期</th>
+  <th>公示価格比</th>
+  <th>主な用途</th>
+</tr>
+<tr>
+  <td><strong>公示価格</strong><br><span class="tag tag-pub">公的評価</span></td>
+  <td>国土交通省<br>（土地鑑定委員会）</td>
+  <td>地価公示法</td>
+  <td>1月1日</td>
+  <td>3月中旬</td>
+  <td>100%</td>
+  <td>土地取引の指標、公共用地取得の補償算定</td>
+</tr>
+<tr>
+  <td><strong>基準地価格</strong><br><span class="tag tag-pub">公的評価</span></td>
+  <td>都道府県</td>
+  <td>国土利用計画法<br>施行令9条</td>
+  <td>7月1日</td>
+  <td>9月</td>
+  <td>≒100%</td>
+  <td>公示価格の補完（半年後の時点修正）</td>
+</tr>
+<tr>
+  <td><strong>相続税路線価</strong><br><span class="tag tag-tax">税法</span></td>
+  <td>国税庁</td>
+  <td>相続税法22条<br>財産評価基本通達</td>
+  <td>1月1日</td>
+  <td>7月</td>
+  <td>約80%</td>
+  <td>相続税・贈与税の算定基礎</td>
+</tr>
+<tr>
+  <td><strong>固定資産税評価額</strong><br><span class="tag tag-tax">税法</span></td>
+  <td>市町村<br>（東京23区は都）</td>
+  <td>地方税法341条5号<br>固定資産評価基準</td>
+  <td>1月1日<br>（3年ごと評価替え）</td>
+  <td>4月</td>
+  <td>約70%</td>
+  <td>固定資産税・都市計画税の算定</td>
+</tr>
+<tr>
+  <td><strong>実勢価格（時価）</strong></td>
+  <td>市場（売買当事者）</td>
+  <td>―</td>
+  <td>―</td>
+  <td>―</td>
+  <td>100〜110%</td>
+  <td>実際の取引価格</td>
+</tr>
+</table>
+
+<h4>地価公示法における「正常な価格」</h4>
+<blockquote>
+地価公示法は、「標準地を選定し、その正常な価格を公示することにより、一般の土地の取引価格に対して指標を与え、および公共の利益となる事業の用に供する土地に対する適正な補償金の額の算定等に資し、もって適正な地価の形成に寄与すること」を目的とする（1条）。
+</blockquote>
+
+<p>公示価格は<strong>更地</strong>としての価格であり、建物や借地権が存在してもそれらがないものとして評価される。2人の不動産鑑定士が別々に鑑定評価を行い、土地鑑定委員会が正常な価格を判定する。</p>
+
+<h4>公示価格より低く設定される理由</h4>
+<ul>
+  <li><strong>路線価（80%）</strong>：1年に1回の評価で、その間の地価変動リスクを吸収するため</li>
+  <li><strong>固定資産税評価額（70%）</strong>：3年に1回の評価替えで、より大きな地価変動リスクを吸収するため</li>
+</ul>
+
+<div class="diagram-box">
+<strong>【一物五価の水準関係】</strong><br><br>
+実勢価格 ≒ 100〜110%<br>
+公示価格（基準地価） = 100%（基軸）<br>
+相続税路線価 ≒ 80%<br>
+固定資産税評価額 ≒ 70%<br><br>
+概算：固定資産税評価額 × 1.14 ≒ 相続税路線価<br>
+概算：固定資産税評価額 ÷ 0.7 ≒ 公示価格
+</div>
+</div>
+
+<!-- ========== 第7章 横断的分析 ========== -->
+<div class="section" id="sec7">
+<h2>7. 横断的分析</h2>
+
+<h3 id="sec7-1">7-1. 「時価」と「公正価値」は同じか違うか</h3>
+
+<h4>結論：概念的にはほぼ同義だが、適用範囲と具体的算定に差異がある</h4>
+
+<p>企業会計基準第30号「時価の算定に関する会計基準」は、IFRS 13号の定めを基本的にすべて取り入れて開発された。ASBJは、時価算定基準の開発にあたって「時価」と「公正価値」という用語の間に大きな差異はないとしている。「公正価値」ではなく「時価」を採用したのは、日本の関連諸法規で「時価」が広く使用されていることに配慮したものである。</p>
+
+<p>しかし、以下の点で差異が残る：</p>
+
+<table>
+<tr><th>論点</th><th>IFRS「公正価値」</th><th>日本基準「時価」</th></tr>
+<tr>
+  <td>非上場株式</td>
+  <td>公正価値評価が必須</td>
+  <td>「市場価格のない株式等」として時価算定の適用外（取得原価で評価）</td>
+</tr>
+<tr>
+  <td>適用範囲</td>
+  <td>ほぼ全ての資産・負債の公正価値測定に適用</td>
+  <td>主に金融商品に限定</td>
+</tr>
+<tr>
+  <td>参照市場</td>
+  <td>主要な市場（principal market）又は最も有利な市場</td>
+  <td>一般的な考え方は明示されていない</td>
+</tr>
+</table>
+
+<div class="key-point">
+<strong>要注意：</strong>「時価」という同一の語が、会計基準上の「時価」（IFRS 13号の公正価値に準拠）、税法上の「時価」（客観的交換価値）、日常語としての「時価」（市場で売れる値段）という、少なくとも3つの異なる意味で使用されている。文脈に応じた使い分けが不可欠である。
+</div>
+
+<h3 id="sec7-2">7-2. 税法の「時価」と会計の「公正価値」のズレ</h3>
+
+<p>税法上の「時価」と会計上の「公正価値（時価）」の間には、以下の構造的な乖離が存在する。</p>
+
+<table>
+<tr><th>比較軸</th><th>税法上の「時価」</th><th>会計上の「公正価値（時価）」</th></tr>
+<tr>
+  <td><strong>目的</strong></td>
+  <td>課税の公平性・安定性の確保</td>
+  <td>投資家への意思決定有用な情報提供</td>
+</tr>
+<tr>
+  <td><strong>定義</strong></td>
+  <td>不特定多数の当事者間で自由な取引が行われる場合に通常成立すると認められる価額</td>
+  <td>市場参加者間で秩序ある取引が行われると想定した場合の出口価格</td>
+</tr>
+<tr>
+  <td><strong>算定方法</strong></td>
+  <td>通達等による画一的・類型的算定（路線価方式、類似業種比準方式等）</td>
+  <td>柔軟な評価技法（マーケット・アプローチ、インカム・アプローチ、コスト・アプローチ）</td>
+</tr>
+<tr>
+  <td><strong>前提とする価格</strong></td>
+  <td>入口価格的な側面もある（取得に要する金額を基準とする場合あり）</td>
+  <td>出口価格（exit price）</td>
+</tr>
+<tr>
+  <td><strong>個別事情の反映</strong></td>
+  <td>原則として反映しない（画一的評価）。ただし「特別の事情」がある場合は例外</td>
+  <td>市場参加者の仮定に基づく（企業固有の事情は反映しない）</td>
+</tr>
+<tr>
+  <td><strong>不動産の評価</strong></td>
+  <td>路線価方式（公示価格の約80%）</td>
+  <td>鑑定評価額等の公正な評価額（公示価格水準）</td>
+</tr>
+<tr>
+  <td><strong>非上場株式</strong></td>
+  <td>財産評価基本通達の方式（類似業種比準・純資産価額等）</td>
+  <td>IFRS：公正価値評価必須<br>日本基準：取得原価（適用外）</td>
+</tr>
+</table>
+
+<h4>乖離が生じる本質的理由</h4>
+<ol>
+  <li><strong>制度目的の違い</strong>：税法は「課税の公平・安定」、会計は「情報の有用性」を追求する</li>
+  <li><strong>画一性 vs 柔軟性</strong>：税法は納税者間の公平を確保するため画一的算定を志向し、会計は個別の経済実態を忠実に反映することを志向する</li>
+  <li><strong>安全弁の有無</strong>：税法上の評価額は公示価格の80%（路線価）・70%（固定資産税）と低めに設定されているが、会計上の時価にはそうした安全弁はない</li>
+  <li><strong>入口vs出口</strong>：税法上の時価は取得に要する金額（入口価格的）な面があるのに対し、IFRS 13号の公正価値は明確に出口価格として定義される</li>
+</ol>
+
+<h3 id="sec7-3">7-3. 不動産の「一物四価（五価）」の構造</h3>
+
+<p>第6章で詳述した通り、公示価格を100とした場合、路線価≒80、固定資産税評価額≒70という均衡化が図られている。この構造は以下の政策的理由に基づく。</p>
+
+<table>
+<tr><th>価格</th><th>水準</th><th>低く設定される理由</th></tr>
+<tr><td>公示価格</td><td>100（基軸）</td><td>―（正常な価格そのもの）</td></tr>
+<tr><td>路線価</td><td>約80</td><td>年1回評価。1年間の地価下落リスクへの安全弁</td></tr>
+<tr><td>固定資産税評価額</td><td>約70</td><td>3年に1回評価。より長期の地価変動リスクへの安全弁</td></tr>
+</table>
+
+<p>この構造の帰結として、相続税における不動産評価は「公示価格の80%水準」で行われるため、現金保有と比較して約20%の評価減が生じる。これが「不動産を利用した節税」の基本的メカニズムであり、近年の最高裁判例（令和4年4月19日：マンション節税事案）で総則6項の適用が認められた背景でもある。</p>
+
+<h3 id="sec7-4">7-4. 各概念が前提とする「市場」の違い</h3>
+
+<p>各概念が前提とする「市場」は、抽象度・範囲・参加者の想定が異なる。</p>
+
+<table>
+<tr><th>概念</th><th>前提とする市場</th><th>市場参加者</th><th>取引条件</th></tr>
+<tr>
+  <td><strong>正常価格</strong><br><span class="tag tag-appr">鑑定</span></td>
+  <td>合理的と考えられる条件を満たす市場</td>
+  <td>自由に出入りできる不特定多数</td>
+  <td>売り急ぎ・買い急ぎなし、十分な市場公開</td>
+</tr>
+<tr>
+  <td><strong>税法上の時価</strong><br><span class="tag tag-tax">税法</span></td>
+  <td>不特定多数の当事者間で自由な取引が行われる市場</td>
+  <td>不特定多数の当事者</td>
+  <td>自由な取引（通達による類型化あり）</td>
+</tr>
+<tr>
+  <td><strong>公正価値（IFRS）</strong><br><span class="tag tag-acct">会計</span></td>
+  <td>主要な市場（principal market）又は最も有利な市場</td>
+  <td>市場参加者（market participants）</td>
+  <td>秩序ある取引（orderly transaction）</td>
+</tr>
+<tr>
+  <td><strong>限定価格</strong><br><span class="tag tag-appr">鑑定</span></td>
+  <td>市場が相対的に限定される場合</td>
+  <td>特定の関係にある当事者</td>
+  <td>併合・分割等の特殊条件</td>
+</tr>
+<tr>
+  <td><strong>使用価値</strong><br><span class="tag tag-acct">会計</span></td>
+  <td>市場を前提としない</td>
+  <td>当該企業自身</td>
+  <td>継続的使用と使用後の処分</td>
+</tr>
+<tr>
+  <td><strong>公正な価格</strong><br><span class="tag tag-corp">会社法</span></td>
+  <td>組織再編がなかったならば成立する市場 + シナジー反映</td>
+  <td>株式の売手（反対株主）・買手（会社）</td>
+  <td>株式買取請求という法定手続</td>
+</tr>
+<tr>
+  <td><strong>特殊価格</strong><br><span class="tag tag-appr">鑑定</span></td>
+  <td>市場なし</td>
+  <td>なし</td>
+  <td>市場での取引を想定しない</td>
+</tr>
+</table>
+
+<div class="key-point">
+<strong>核心的洞察：</strong>「時価」や「公正価値」は、いずれも「架空の取引の価格」（固定資産税に関する学説の表現）である。現実には存在しない「合理的な市場における通常の取引」を仮想的に設定し、そこで「成立するであろう価格」を推定するという構造を共有している。しかし、その仮想市場の設計（参加者の範囲、取引条件、情報の対称性等）が概念ごとに異なるため、同一の資産に対して異なる「時価」が算出されることになる。
+</div>
+</div>
+
+<!-- ========== 第8章 一覧表 ========== -->
+<div class="section" id="sec8">
+<h2>8. 全概念の一覧比較表</h2>
+
+<table>
+<tr>
+  <th>概念名</th>
+  <th>領域</th>
+  <th>法的根拠</th>
+  <th>定義の核心</th>
+  <th>算定の特徴</th>
+</tr>
+<tr>
+  <td><strong>時価（法人税法）</strong></td>
+  <td><span class="tag tag-tax">税法</span></td>
+  <td>法人税法22条2項・4項、33条2項</td>
+  <td>不特定多数の当事者間で自由な取引が行われる場合に通常成立すると認められる価額</td>
+  <td>公正処理基準を通じ企業会計に準拠。通達による類型的算定</td>
+</tr>
+<tr>
+  <td><strong>時価（相続税法）</strong></td>
+  <td><span class="tag tag-tax">税法</span></td>
+  <td>相続税法22条</td>
+  <td>取得の時における客観的交換価値</td>
+  <td>財産評価基本通達による画一的評価。総則6項による例外あり</td>
+</tr>
+<tr>
+  <td><strong>通常の取引価額</strong></td>
+  <td><span class="tag tag-tax">税法</span></td>
+  <td>所得税基本通達59-6等</td>
+  <td>通常の取引条件で成立する価額</td>
+  <td>財産評価基本通達を準用（一部修正あり）</td>
+</tr>
+<tr>
+  <td><strong>適正な時価</strong></td>
+  <td><span class="tag tag-tax">税法</span></td>
+  <td>地方税法341条5号</td>
+  <td>正常な条件の下に成立する客観的交換価値</td>
+  <td>固定資産評価基準による画一的評価（公示価格の約70%）</td>
+</tr>
+<tr>
+  <td><strong>公正価値（Fair Value）</strong></td>
+  <td><span class="tag tag-acct">会計</span></td>
+  <td>IFRS 13号</td>
+  <td>市場参加者間の秩序ある取引における出口価格</td>
+  <td>公正価値ヒエラルキー（レベル1〜3）に基づく評価技法</td>
+</tr>
+<tr>
+  <td><strong>時価（日本基準）</strong></td>
+  <td><span class="tag tag-acct">会計</span></td>
+  <td>企業会計基準第30号</td>
+  <td>IFRS 13号の公正価値と実質的に同義</td>
+  <td>IFRS 13号に準拠（適用範囲は金融商品等に限定）</td>
+</tr>
+<tr>
+  <td><strong>公正な評価額</strong></td>
+  <td><span class="tag tag-acct">会計</span></td>
+  <td>減損会計基準、金融商品会計基準</td>
+  <td>時価と同義。観察可能な市場価格又は合理的に算定された価額</td>
+  <td>市場価格がない場合はDCF法等で合理的に算定</td>
+</tr>
+<tr>
+  <td><strong>正味売却価額</strong></td>
+  <td><span class="tag tag-acct">会計</span></td>
+  <td>減損会計基準</td>
+  <td>時価 - 処分費用見込額</td>
+  <td>時価から処分コストを控除</td>
+</tr>
+<tr>
+  <td><strong>使用価値</strong></td>
+  <td><span class="tag tag-acct">会計</span></td>
+  <td>減損会計基準</td>
+  <td>継続使用と使用後処分による将来CFの現在価値</td>
+  <td>企業固有の視点によるDCF法。割引率は加重平均資本コスト等</td>
+</tr>
+<tr>
+  <td><strong>回収可能価額</strong></td>
+  <td><span class="tag tag-acct">会計</span></td>
+  <td>減損会計基準</td>
+  <td>正味売却価額と使用価値のいずれか高い方</td>
+  <td>max（正味売却価額, 使用価値）</td>
+</tr>
+<tr>
+  <td><strong>取得原価</strong></td>
+  <td><span class="tag tag-acct">会計</span></td>
+  <td>企業会計原則</td>
+  <td>資産を取得した時点の原価</td>
+  <td>歴史的原価。客観性・検証可能性が高い</td>
+</tr>
+<tr>
+  <td><strong>償却原価</strong></td>
+  <td><span class="tag tag-acct">会計</span></td>
+  <td>金融商品会計基準</td>
+  <td>取得価額と額面の差額を期間配分した後の価額</td>
+  <td>利息法又は定額法。満期保有目的債券等に適用</td>
+</tr>
+<tr>
+  <td><strong>正常価格</strong></td>
+  <td><span class="tag tag-appr">鑑定</span></td>
+  <td>不動産鑑定評価基準</td>
+  <td>合理的な市場で形成されるであろう市場価値</td>
+  <td>原則的な価格類型。取引事例比較法・収益還元法・原価法</td>
+</tr>
+<tr>
+  <td><strong>限定価格</strong></td>
+  <td><span class="tag tag-appr">鑑定</span></td>
+  <td>不動産鑑定評価基準</td>
+  <td>市場が限定される場合の市場価値</td>
+  <td>併合・分割等の特殊条件下。正常価格を併記</td>
+</tr>
+<tr>
+  <td><strong>特定価格</strong></td>
+  <td><span class="tag tag-appr">鑑定</span></td>
+  <td>不動産鑑定評価基準</td>
+  <td>法令等の社会的要請を背景とする価格</td>
+  <td>投資採算価値、早期売却前提等。正常価格を併記</td>
+</tr>
+<tr>
+  <td><strong>特殊価格</strong></td>
+  <td><span class="tag tag-appr">鑑定</span></td>
+  <td>不動産鑑定評価基準</td>
+  <td>市場性を有しない不動産の経済価値</td>
+  <td>文化財・宗教建築物・公共施設等</td>
+</tr>
+<tr>
+  <td><strong>公正な価格</strong></td>
+  <td><span class="tag tag-corp">会社法</span></td>
+  <td>会社法785条等</td>
+  <td>ナカリセバ価格又はシナジー反映価格の高い方</td>
+  <td>裁判所の裁量による決定。DCF法・市場株価等を参照</td>
+</tr>
+<tr>
+  <td><strong>公示価格</strong></td>
+  <td><span class="tag tag-pub">公的評価</span></td>
+  <td>地価公示法</td>
+  <td>標準地の正常な価格</td>
+  <td>2名の不動産鑑定士による鑑定評価。更地評価</td>
+</tr>
+<tr>
+  <td><strong>基準地価格</strong></td>
+  <td><span class="tag tag-pub">公的評価</span></td>
+  <td>国土利用計画法施行令9条</td>
+  <td>基準地の標準価格</td>
+  <td>公示価格の補完（7月1日時点）</td>
+</tr>
+<tr>
+  <td><strong>路線価</strong></td>
+  <td><span class="tag tag-tax">税法</span></td>
+  <td>財産評価基本通達</td>
+  <td>公示価格の約80%を目途とした相続税評価の基礎</td>
+  <td>道路に面する標準的な宅地の1m<sup>2</sup>当たりの価額</td>
+</tr>
+<tr>
+  <td><strong>固定資産税評価額</strong></td>
+  <td><span class="tag tag-tax">税法</span></td>
+  <td>地方税法・固定資産評価基準</td>
+  <td>公示価格の約70%を目途とした固定資産税の課税標準</td>
+  <td>3年ごとの評価替え。市町村が決定</td>
+</tr>
+</table>
+</div>
+
+<!-- ========== 第9章 参考文献 ========== -->
+<div class="section" id="sec9">
+<h2>9. 参考文献・出典</h2>
+
+<h3>税務大学校論叢・税大ジャーナル</h3>
+<div class="source-list">
+<ul>
+  <li>浅井光政「租税法上の時価を巡る諸問題 ―法人税法、所得税法及び相続税法における時価の総合的検討―」税務大学校論叢第36号 - <a href="https://www.nta.go.jp/about/organization/ntc/kenkyu/ronsou/36/asai/ronsou.pdf" target="_blank">PDF全文</a></li>
+  <li>角田享介「法人税法22条4項に関する一考察 ―企業利益概念の変革と公正処理基準の解釈の観点から―」税務大学校論叢第79号 - <a href="https://www.nta.go.jp/about/organization/ntc/kenkyu/ronsou/79/01/index.htm" target="_blank">国税庁ページ</a></li>
+  <li>小島俊朗「相続税法における時価の概念とその経済学的考察」税大ジャーナル第7号 - <a href="https://www.nta.go.jp/about/organization/ntc/kenkyu/backnumber/journal/07/pdf/04.pdf" target="_blank">PDF全文</a></li>
+  <li>「財産評価基本通達の定めによらない財産の評価について ―裁判例における「特別の事情」の検討を中心に―」税務大学校論叢第80号 - <a href="https://www.nta.go.jp/about/organization/ntc/kenkyu/ronsou/80/02/index.htm" target="_blank">国税庁ページ</a></li>
+</ul>
+</div>
+
+<h3>法人税法・会計関連</h3>
+<div class="source-list">
+<ul>
+  <li>辻・本郷税理士法人「法人税法上の「時価」の考え方と注意点」 - <a href="https://www.ht-tax.or.jp/topics/hojinzei-jika/" target="_blank">リンク</a></li>
+  <li>阪田大作「法人税法22条4項（公正処理基準）の解釈」租税資料館賞論文 - <a href="https://www.sozeishiryokan.or.jp/x_core/uploads/_media/award/z_pdf/ronbun_h26_13.pdf" target="_blank">PDF全文</a></li>
+  <li>日本公認会計士協会「税務上の時価について ―関係会社間の財・サービスの取引価格の研究―」租税調査会研究報告第11号 - <a href="https://jicpa.or.jp/specialized_field/publication/files/00232-000462.pdf" target="_blank">PDF全文</a></li>
+  <li>BUSINESS LAWYERS「公正処理基準と法人税の課税所得」 - <a href="https://www.businesslawyers.jp/practices/687" target="_blank">リンク</a></li>
+</ul>
+</div>
+
+<h3>IFRS・公正価値関連</h3>
+<div class="source-list">
+<ul>
+  <li>KPMGジャパン「IFRS会計基準オンライン基礎講座 公正価値測定」 - <a href="https://kpmg.com/jp/ja/home/insights/2016/07/fair-value-measurement-201607.html" target="_blank">リンク</a></li>
+  <li>PwC Japanグループ「IFRSを開示で読み解く 公正価値測定 概要」 - <a href="https://www.pwc.com/jp/ja/knowledge/ifrs/disclosure/ifrs-disclosure037.html" target="_blank">リンク</a></li>
+  <li>EY Japan「時価の算定に関する会計基準 第1回：概要」 - <a href="https://www.ey.com/ja_jp/technical/corporate-accounting/commentary/financial-instruments/commentary-financial-instruments-2022-04-13-01" target="_blank">リンク</a></li>
+  <li>日本公認会計士協会「時価の算定に関する研究資料 ～非金融商品の時価算定～」会計制度委員会研究資料第4号 - <a href="https://jicpa.or.jp/specialized_field/publication/files/2-11-4-2-20130709.pdf" target="_blank">PDF全文</a></li>
+  <li>KPMG「IFRSと日本基準の主要な相違点」 - <a href="https://assets.kpmg.com/content/dam/kpmg/jp/pdf/2020/jp-ifrs-compared-to-japanese-gaap-an-overview-2020-05.pdf" target="_blank">PDF</a></li>
+</ul>
+</div>
+
+<h3>不動産鑑定評価・公的土地評価</h3>
+<div class="source-list">
+<ul>
+  <li>国土交通省「不動産鑑定評価基準」 - <a href="https://www.mlit.go.jp/common/001204083.pdf" target="_blank">PDF全文</a></li>
+  <li>TSK東京システム鑑定「正常価格と限定価格」 - <a href="https://www.tsk-h.com/cpu/column/theme02/theme01.php" target="_blank">リンク</a></li>
+  <li>関西鑑定「不動産の価格の種類とは」 - <a href="http://kansai-kantei.co.jp/mame_chishiki/Vol4_%E4%B8%8D%E5%8B%95%E7%94%A3%E3%81%AE%E4%BE%A1%E6%A0%BC%E3%81%AE%E7%A8%AE%E9%A1%9E%E3%81%A8%E3%81%AF.pdf" target="_blank">PDF</a></li>
+  <li>国土交通省「地価公示制度の概要」 - <a href="https://www.mlit.go.jp/totikensangyo/H30kouji01.html" target="_blank">リンク</a></li>
+</ul>
+</div>
+
+<h3>会社法・株式買取請求</h3>
+<div class="source-list">
+<ul>
+  <li>プルータス・コンサルティング「株式の「公正な価格」とは」 - <a href="https://www.plutuscon.jp/reports/2397" target="_blank">リンク</a></li>
+  <li>苗村法律事務所「上場会社株式買取請求の「公正な価格」―楽天対TBS事件―」 - <a href="https://www.namura-law.jp/legalessays/%E4%B8%8A%E5%A0%B4%E4%BC%9A%E7%A4%BE%E6%A0%AA%E5%BC%8F%E8%B2%B7%E5%8F%96%E8%AB%8B%E6%B1%82%E3%81%AE%E3%80%8C%E5%85%AC%E6%AD%A3%E3%81%AA%E4%BE%A1%E6%A0%BC%E3%80%8D%EF%BC%8D%E6%A5%BD%E5%A4%A9%E5%AF%BE/" target="_blank">リンク</a></li>
+  <li>弁護士法人M&A総合法律事務所「株式買取請求権の公正な価格とは」 - <a href="https://www.malaw.jp/archives/share_kouseikakaku/" target="_blank">リンク</a></li>
+  <li>山田&パートナーズ「反対株主の買取請求制度の考察」 - <a href="https://www.yamada-partners.jp/tax-topics/newsletter-s240206" target="_blank">リンク</a></li>
+</ul>
+</div>
+
+<h3>減損会計</h3>
+<div class="source-list">
+<ul>
+  <li>ASBJ「固定資産の減損に係る会計基準の適用指針」企業会計基準適用指針第6号 - <a href="https://www.asb-j.jp/jp/wp-content/uploads/sites/4/ikan_20240701_40.pdf" target="_blank">PDF</a></li>
+  <li>デロイト トーマツ「固定資産の減損会計（減損損失の認識・測定）」 - <a href="https://www.deloitte.com/jp/ja/services/audit-assurance/perspectives/kaikeijyoho-202312-04.html" target="_blank">リンク</a></li>
+  <li>会計ノーツ「使用価値と正味売却価額の高い方を回収可能価額とするのはなぜ？」 - <a href="https://cpa-noborikawa.net/genson-why-takaihou/" target="_blank">リンク</a></li>
+</ul>
+</div>
+
+<h3>固定資産税・適正な時価</h3>
+<div class="source-list">
+<ul>
+  <li>最高裁判所判例（平成15年6月26日） - <a href="https://www.courts.go.jp/app/hanrei_jp/detail2?id=57436" target="_blank">裁判所サイト</a></li>
+  <li>古川知紗「固定資産税における宅地の「適正な時価」」立命館法政論集 - <a href="https://www.ritsumei.ac.jp/acd/cg/law/lex/hosei-15/lp_15_furukawa.pdf" target="_blank">PDF</a></li>
+  <li>渡辺「固定資産の価格をめぐる攻撃防御の構造」税法学583号 - <a href="https://zeihogakkai.com/press/files/583/167-192.pdf" target="_blank">PDF</a></li>
+</ul>
+</div>
+
+<h3>相続税・財産評価</h3>
+<div class="source-list">
+<ul>
+  <li>国税不服審判所「時価の意義」公表裁決事例 - <a href="https://www.kfs.go.jp/service/MP/04/0701010000.html" target="_blank">リンク</a></li>
+  <li>「相続財産の時価評価と租税回避の否認」税法学583号 - <a href="https://zeihogakkai.com/press/files/583/217-238.pdf" target="_blank">PDF</a></li>
+  <li>新日本法規「時価・価額をめぐる税務判断の手引」 - <a href="https://www.sn-hoki.co.jp/shop/item/0521" target="_blank">商品ページ</a></li>
+</ul>
+</div>
+
+</div>
+
+<footer style="text-align:center; padding:30px; color:#718096; font-size:0.85em; border-top:1px solid #e2e8f0; margin-top:30px;">
+  <p>本報告は2026年2月8日時点のWeb調査に基づく研究資料です。各法令・基準の正確な内容については原典をご確認ください。</p>
+  <p>Generated by Claude Opus 4.6</p>
+</footer>
+
+</div>
+</body>
+</html>

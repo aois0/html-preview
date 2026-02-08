@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>時価概念ディベート 第2R ── 具体的制度設計の詰め</title>
+<style>
+:root {
+  --primary: #1a365d; --secondary: #2c5282; --accent: #c53030;
+  --bg: #f7fafc; --card-bg: #fff; --border: #e2e8f0;
+  --text: #2d3748; --text-light: #718096;
+  --tax: #9b2c2c; --acc: #276749; --appr: #2b6cb0; --case: #6b46c1;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI','Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif;background:var(--bg);color:var(--text);line-height:1.85}
+.layout{display:flex;max-width:1400px;margin:0 auto}
+.sidebar{width:280px;flex-shrink:0;position:sticky;top:0;height:100vh;overflow-y:auto;background:var(--primary);color:#cbd5e0;padding:24px 16px;font-size:.82rem}
+.sidebar h2{color:#fff;font-size:1rem;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid #4a5568}
+.sidebar a{color:#a0aec0;text-decoration:none;display:block;padding:4px 0;transition:color .2s}
+.sidebar a:hover{color:#fff}
+.sidebar .s-ch{font-weight:600;color:#e2e8f0;margin-top:12px}
+.sidebar .s-sub{padding-left:14px;font-size:.78rem}
+.sidebar .s-link{margin-top:20px;padding-top:12px;border-top:1px solid #4a5568}
+.main{flex:1;min-width:0;padding:40px 36px}
+h1{font-size:1.85rem;color:var(--primary);border-bottom:3px solid var(--primary);padding-bottom:14px;margin-bottom:12px}
+.subtitle{font-size:1rem;color:var(--text-light);margin-bottom:36px}
+h2{font-size:1.4rem;color:var(--secondary);border-left:5px solid var(--secondary);padding-left:14px;margin:48px 0 22px}
+h3{font-size:1.15rem;color:var(--primary);margin:30px 0 14px}
+h4{font-size:1.05rem;color:#4a5568;margin:22px 0 10px}
+p{margin-bottom:14px;text-align:justify}
+.card{background:var(--card-bg);border:1px solid var(--border);border-radius:8px;padding:24px;margin-bottom:24px;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.card-tax{border-left:4px solid var(--tax);background:#fff5f5}
+.card-acc{border-left:4px solid var(--acc);background:#f0fff4}
+.card-appr{border-left:4px solid var(--appr);background:#ebf8ff}
+.card-case{border-left:4px solid var(--case);background:#faf5ff}
+.card-synth{border-left:4px solid var(--accent);background:#fffff0}
+.card-consensus{border-left:4px solid #38a169;background:#f0fff4}
+.card-reform{border-left:4px solid #d69e2e;background:#fffff0}
+.card-draft{border:2px solid var(--primary);background:#edf2f7;border-radius:8px;padding:20px;margin:16px 0 24px;font-family:'Courier New',monospace;font-size:.9rem;line-height:1.7;white-space:pre-wrap}
+table{width:100%;border-collapse:collapse;margin:16px 0 24px;font-size:.93rem}
+th,td{border:1px solid var(--border);padding:10px 14px;text-align:left;vertical-align:top}
+th{background:var(--primary);color:#fff;font-weight:600}
+tr:nth-child(even){background:#f8fafc}
+tr:hover{background:#edf2f7}
+blockquote{border-left:3px solid #a0aec0;padding:12px 16px;margin:14px 0;color:#4a5568;font-style:italic;background:#f7fafc}
+ul,ol{margin:10px 0 16px 24px}
+li{margin-bottom:8px}
+.label{display:inline-block;padding:2px 10px;border-radius:4px;font-size:.82rem;font-weight:600;margin-right:6px}
+.label-tax{background:#fed7d7;color:#9b2c2c}
+.label-acc{background:#c6f6d5;color:#276749}
+.label-appr{background:#bee3f8;color:#2b6cb0}
+.label-case{background:#e9d8fd;color:#6b46c1}
+.label-synth{background:#fefcbf;color:#744210}
+.exchange{background:#f7fafc;border:1px solid #e2e8f0;border-radius:8px;padding:20px;margin:16px 0}
+.exchange-header{font-weight:700;font-size:.95rem;margin-bottom:10px;color:var(--primary)}
+.exchange-msg{padding:10px 16px;margin:8px 0;border-radius:6px;font-size:.93rem}
+.concession{background:#c6f6d5;border-left:3px solid #38a169}
+.concession::before{content:'[譲歩] ';font-weight:700;color:#276749}
+.rebuttal{background:#fed7d7;border-left:3px solid #e53e3e}
+.rebuttal::before{content:'[反論] ';font-weight:700;color:#c53030}
+.new-insight{background:#fefcbf;border-left:3px solid #d69e2e}
+.new-insight::before{content:'[新知見] ';font-weight:700;color:#975a16}
+.agreement{background:#c6f6d5;border-left:3px solid #38a169}
+.agreement::before{content:'[合意] ';font-weight:700;color:#276749}
+.deepening{background:#bee3f8;border-left:3px solid #3182ce}
+.deepening::before{content:'[深化] ';font-weight:700;color:#2b6cb0}
+.spectrum{display:flex;align-items:stretch;gap:0;margin:16px 0 24px;border-radius:8px;overflow:hidden;font-size:.85rem}
+.spectrum-band{flex:1;padding:12px 10px;text-align:center;color:#fff}
+.r2-badge{display:inline-block;background:var(--accent);color:#fff;font-size:.72rem;padding:2px 8px;border-radius:3px;margin-left:6px;vertical-align:middle}
+.flow-diagram{display:flex;flex-wrap:wrap;gap:12px;margin:16px 0 24px}
+.flow-box{flex:1;min-width:180px;background:#fff;border:2px solid var(--border);border-radius:8px;padding:14px;text-align:center;font-size:.88rem}
+.flow-box.active{border-color:var(--accent);background:#fff5f5}
+.flow-arrow{display:flex;align-items:center;font-size:1.4rem;color:var(--text-light)}
+@media(max-width:900px){.layout{flex-direction:column}.sidebar{width:100%;height:auto;position:relative}.spectrum{flex-direction:column}}
+</style>
+</head>
+<body>
+<div class="layout">
+<!-- ===== SIDEBAR ===== -->
+<nav class="sidebar">
+<h2>Round 2 目次</h2>
+<a class="s-ch" href="#intro">序論：なぜ第2Rが必要か</a>
+<a class="s-ch" href="#panelists">討論者と第2R論点</a>
+
+<a class="s-ch" href="#ch1">第1章 立法パッケージ全体像</a>
+<a class="s-sub" href="#ch1-1">1.1 法X条（時価の意義）</a>
+<a class="s-sub" href="#ch1-2">1.2 法33条改正案</a>
+<a class="s-sub" href="#ch1-3">1.3 施行令Y条</a>
+<a class="s-sub" href="#ch1-4">1.4 3層14項目の統合構造</a>
+
+<a class="s-ch" href="#ch2">第2章 セーフハーバー具体数値</a>
+<a class="s-sub" href="#ch2-1">2.1 資産類型別±%</a>
+<a class="s-sub" href="#ch2-2">2.2 統合的評価スペクトラム</a>
+<a class="s-sub" href="#ch2-3">2.3 非上場株式の二重構造</a>
+
+<a class="s-ch" href="#ch3">第3章 総則6項の数値基準化</a>
+<a class="s-sub" href="#ch3-1">3.1 段階的3段階制</a>
+<a class="s-sub" href="#ch3-2">3.2 4段階連続スペクトラム</a>
+
+<a class="s-ch" href="#ch4">第4章 信頼保護条文案</a>
+<a class="s-sub" href="#ch4-1">4.1 国税通則法新設条項</a>
+<a class="s-sub" href="#ch4-2">4.2 逆推認の対称的構造</a>
+
+<a class="s-ch" href="#ch5">第5章 損金経理要件の改革</a>
+<a class="s-sub" href="#ch5-1">5.1 国際比較4モデル</a>
+<a class="s-sub" href="#ch5-2">5.2 法74条改正案</a>
+
+<a class="s-ch" href="#ch6">第6章 国際鑑定基準比較</a>
+<a class="s-sub" href="#ch6-1">6.1 7基準の市場価値定義</a>
+<a class="s-sub" href="#ch6-2">6.2 EUV-Jの新設提案</a>
+<a class="s-sub" href="#ch6-3">6.3 AVM高度化ロードマップ</a>
+<a class="s-sub" href="#ch6-4">6.4 タワマン問題の教訓</a>
+<a class="s-sub" href="#ch6-5">6.5 鑑定3手法とIFRS対応</a>
+
+<a class="s-ch" href="#ch7">第7章 P2P討論ハイライト</a>
+<a class="s-sub" href="#ch7-1">7.1 Level 4をめぐる攻防</a>
+<a class="s-sub" href="#ch7-2">7.2 例示列挙への転換</a>
+<a class="s-sub" href="#ch7-3">7.3 信頼保護4号の文言攻防</a>
+<a class="s-sub" href="#ch7-4">7.4 使用価値の射程制限</a>
+<a class="s-sub" href="#ch7-5">7.5 Phase 2 Q&Aハイライト</a>
+
+<a class="s-ch" href="#ch8">第8章 合意事項と残存課題</a>
+<a class="s-sub" href="#ch8-1">8.1 7つの合意事項</a>
+<a class="s-sub" href="#ch8-2">8.2 残された6つの課題</a>
+
+<a class="s-ch" href="#ch9">第9章 R1→R2深化マトリクス</a>
+
+<a class="s-ch" href="#conclusion">結語</a>
+<a class="s-ch" href="#appendix">補遺：非上場株式の二重構造</a>
+<a class="s-ch" href="#refs">参照法令・基準</a>
+
+<div class="s-link">
+<a href="jika_debate_r3.html" class="s-link" style="color:#fbd38d;font-weight:600">第3R ファーストプリンシパル →</a>
+<a href="jika_debate.html">← 第1R ディベート</a>
+<a href="jika_analysis.html">← 時価概念 統合分析</a>
+<a href="index.html">← メインレポート</a>
+</div>
+</nav>
+
+<!-- ===== MAIN ===== -->
+<main class="main">
+
+<h1 id="intro">時価概念ディベート 第2ラウンド <span class="r2-badge">Round 2</span></h1>
+<p class="subtitle">── 4専門家のpeer-to-peer議論：抽象的合意から具体的制度設計へ ──</p>
+
+<div class="card card-synth">
+<h3>第2ラウンドの位置づけ</h3>
+<p>第1ラウンドでは「時価は幅のある概念」「ヒエラルキー的制度が有効」「信頼保護が必要」等の<strong>方向性の合意</strong>に達した。第2ラウンドの目的は、この合意を<strong>条文案・数値基準・手続的保障</strong>という立法者に提示し得る水準の具体的制度設計に転換することである。</p>
+<p>結果として、4者が提示した制度設計は「実体法×手続法×評価技術」の3層14項目からなる統合的改正パッケージへと収斂した。</p>
+</div>
+
+<!-- ===== PANELISTS ===== -->
+<h2 id="panelists">討論者と第2R担当論点</h2>
+
+<table>
+<tr><th>討論者</th><th>視座</th><th>第2R主担当</th><th>主要成果物</th></tr>
+<tr><td><span class="label label-tax">Tax</span> 租税法理論</td><td>金子宏・増井良啓的視座</td><td>時価概念フレームワーク条文案 / Teilwert制度設計 / レンジ拡張</td><td>法X条（時価の意義）5項構成の条文案</td></tr>
+<tr><td><span class="label label-acc">Acc</span> 会計基準</td><td>IFRS/J-GAAP/US-GAAP</td><td>損金経理要件改革 / Level移植の条文案 / 国際比較4カ国</td><td>法74条但書改正案・施行令XX条</td></tr>
+<tr><td><span class="label label-appr">Appr</span> 不動産鑑定</td><td>鑑定士・IVS/RICS</td><td>セーフハーバー具体数値 / 国際鑑定基準比較 / タワマン教訓</td><td>資産類型別9分類の±%数値</td></tr>
+<tr><td><span class="label label-case">Case</span> 判例法理</td><td>判例・裁決分析</td><td>総則6項数値基準 / 信頼保護条文案 / 推認双方向化</td><td>国税通則法新設条項・段階的基準</td></tr>
+</table>
+
+<!-- ===== CHAPTER 1: LEGISLATIVE PACKAGE ===== -->
+<h2 id="ch1">第1章 立法パッケージ全体像</h2>
+
+<h3 id="ch1-1">1.1 法人税法第X条（時価の意義）── 5項構成</h3>
+<p><span class="label label-tax">Tax</span> が起草し、4者の議論を経て修正された中核条文。法人税法史上初めて「時価」の一般的定義を法律レベルに明記する。</p>
+
+<div class="card-draft">
+（時価の意義）
+第X条　この法律において「時価」とは、その資産が当該時点において、
+その資産の現況に応じ、独立した当事者間の自由な取引により通常成立
+すると認められる価額をいう。
+
+2　前項の時価は、次の各号に掲げる場合その他この法律の規定の適用を
+受ける場合の区分に応じ、それぞれ当該各号に定める測定の基礎による。
+一　第22条の規定の適用を受ける場合　取引により実現した対価
+二　第33条の規定の適用を受ける場合　保有資産の現況における
+    使用を前提とした交換価値
+三　第61条の3の規定の適用を受ける場合　市場において形成された価格
+四　前三号に掲げる場合以外の場合　第1項に定める客観的な交換価値
+
+3　第1項の時価の算定に当たっては、当該資産の市場性の程度に応じ、
+次の各号に定める原則によるものとする。
+一　市場価格が観察可能である資産　当該市場価格
+二　類似の取引事例又は類似の資産の市場価格が利用可能である資産
+    当該取引事例等を基礎として合理的に算定した価額
+三　前二号に掲げる資産以外の資産
+    合理的と認められる評価方法により算定した価額
+四　前三号の規定にかかわらず、大量の資産について個別的に時価を
+    測定することが実務上困難である場合であって、課税の公平の
+    観点から画一的な評価方法を用いることが合理的であるときは、
+    政令で定める画一的評価方法による価額をもって時価と推定する
+    ことができる。ただし、納税者は前三号の規定による個別的な
+    評価方法を選択することを妨げない。
+
+4　前項第2号及び第3号の場合において、合理的と認められる方法により
+算定した価額が複数存する場合には、政令で定めるところにより、当該
+価額の範囲をもって時価の範囲とし、当該範囲内において納税者が採用
+した価額は、これを時価として認めるものとする。
+
+5　第33条の規定の適用において、当該資産の使用又は収益の状況に照らし
+当該資産を継続的に使用することが合理的であると認められる場合には、
+当該使用の状況を考慮した価額をもって第1項の時価とすることができる。
+ただし、この規定は第22条の規定の適用においては適用しない。</div>
+
+<div class="card card-synth">
+<h4>条文の構造的意義</h4>
+<ul>
+<li><strong>第1項</strong>：「客観的交換価値」の初の法文化。ドイツBewG §9のgemeiner Wertに対応。</li>
+<li><strong>第2項</strong>：「無意識的分裂→意識的多元性」の制度化。22条＝取引対価、33条＝現況使用前提の交換価値、61条の3＝市場価格を区別。<span class="label label-case">Case</span>の指摘で例示列挙に修正。</li>
+<li><strong>第3項</strong>：IFRS第13号のLevel 1-3に対応するヒエラルキー。<span class="label label-acc">Acc</span>の提案で第4号（Level 4＝画一的評価）を追加 ── 税法固有のカテゴリー。</li>
+<li><strong>第4項</strong>：時価の「幅」の法的承認。移転価格税制の四分位レンジを一般化。</li>
+<li><strong>第5項</strong>：<span class="label label-case">Case</span>との最終検証で追加。使用価値概念の射程を法33条に限定し、法22条への拡張を遮断する「安全弁」。</li>
+</ul>
+</div>
+
+<h3 id="ch1-2">1.2 法33条改正案 ── EUV-J/Teilwert二分論による3号構造</h3>
+
+<div class="card card-tax">
+<h4>概念の分離：なぜ2つの「使用価値」を区別するのか</h4>
+<p><span class="label label-tax">Tax</span>と<span class="label label-appr">Appr</span>の議論を通じて、Opening Statementで混在していた「使用価値」概念が本質的に異なる2つの概念を含むことが明確化された。これは第2ラウンドにおける理論的深化の核心的成果である。</p>
+<table>
+<tr><th>概念</th><th>定義</th><th>前提</th><th>算定手法</th><th>国際的対応概念</th></tr>
+<tr><td><strong>(a) EUV-J<br>(継続使用前提市場価値)</strong></td><td>市場での交換を前提としつつ、最有効使用ではなく現況使用の継続を条件</td><td>市場参加者的視点を維持</td><td>取引事例比較法＋収益還元法</td><td>英国RICS「Existing Use Value (EUV)」</td></tr>
+<tr><td><strong>(b) Teilwert<br>(使用価値)</strong></td><td>市場での交換を前提としない、企業固有の経済的貢献価値</td><td>仮想的買収者の視点</td><td>DCF法が最適（ただしCF配分・割引率に実務的困難）</td><td>ドイツBewG §10のTeilwert</td></tr>
+</table>
+</div>
+
+<div class="card-draft">
+第2項の2（修正版）── EUV-J/Teilwert二分論による3号構造
+2の2　前項に規定する資産の価額は、次の各号に掲げる場合の区分に
+応じ、当該各号に定める価額とする。
+
+一　当該資産が市場において取引の対象となり得るものである場合
+    当該資産がその事業年度終了の時において、その内国法人により
+    現に使用収益されている状態で譲渡される場合に通常付される
+    価額（以下「継続使用前提市場価値」という。）
+
+二　当該資産が前号に規定する場合に該当しない場合、又は同号に
+    規定する価額がその取得価額から合理的に見積もられる減価の額を
+    控除した価額に比して著しく高いと認められる場合
+    当該資産が当該内国法人の事業活動において有する経済的価値
+    （以下「使用価値」という。）に相当する金額
+
+三　当該資産が市場において活発に取引されるものである場合
+    その事業年度終了の時における市場価格</div>
+
+<div class="card card-synth">
+<h4>Teilwert型使用価値の算定ガイドライン（通達レベル）</h4>
+<p><span class="label label-appr">Appr</span>との合意に基づく、DCF法によるTeilwert算定の実務指針：</p>
+<ul>
+<li><strong>CF配分</strong>：簿価（取得価額マイナス減価償却）をTeilwertの推定値とし、恒久的価値下落の立証があった場合にのみDCF法による引き下げを認める（ドイツBFH判例のアプローチに準拠）</li>
+<li><strong>割引率</strong>：企業固有のWACCではなく、同業種上場企業のWACCの中央値を使用（Teilwertの「仮想的買収者」の論理）</li>
+<li><strong>予測期間</strong>：5-10年。成長率は業界平均を上限</li>
+</ul>
+</div>
+
+<div class="card card-tax">
+<h4>非対称適用の明文化（第2項の3）</h4>
+<blockquote>第2項の規定は、同項に規定する事実が生じた場合において当該資産の価額がその帳簿価額を超えるときにおいても、当該超える部分の金額を益金の額に算入することを認めるものと解してはならない。</blockquote>
+<p>使用価値は評価損の場面で<strong>納税者に有利な方向にのみ</strong>機能する。ドイツEStG §6のWahlrecht（選択権）構造、in dubio pro contribuenteの原則の制度的表現。IAS第36号の減損もまた一方向的（write-down only、ただしgoodwill以外は戻入れ可能）であり、税法における非対称適用は会計基準の構造とも整合する（<span class="label label-acc">Acc</span>確認）。</p>
+</div>
+
+<h3 id="ch1-3">1.3 施行令第Y条 ── 評価方法・レンジ・セーフハーバー</h3>
+
+<div class="card-draft">
+（時価の算定方法）
+第Y条　法第X条第3項第2号に規定する合理的に算定した価額は、
+次の各号に掲げる資産の区分に応じ、当該各号に定める方法の
+うちいずれかの方法により算定した価額とする。
+一　不動産　取引事例比較法、収益還元法又は原価法
+二　非上場株式　純資産価額方式、類似業種比準方式、配当還元方式又はDCF法
+三　前二号に掲げる資産以外の資産　合理的な方法
+
+2　法第X条第4項に規定する時価の範囲は、合理的と認められる方法に
+より算定した複数の価額につき、次の各号に掲げる場合の区分に応じ、
+当該各号に定める範囲とする。
+一　当該価額が四以上存する場合　第25百分位から第75百分位の範囲
+二　当該価額が三以下である場合　最大値と最小値の範囲
+
+2の2　法第X条第3項第2号又は第3号の場合において、納税者の申告した
+価額と合理的と認められる方法により算定した価額との差異が次の各号
+に掲げる資産の区分に応じ当該各号に定める割合以内であるときは、
+当該申告した価額をもって時価とする。
+一　上場有価証券　百分の三
+二　分譲マンション　百分の十
+三　戸建住宅及び一般的商業不動産　百分の十五
+四　非上場株式　百分の二十
+五　特殊用途不動産　百分の二十五
+六　棚卸資産　百分の十
+七　前各号以外の資産　百分の二十</div>
+
+<h3 id="ch1-4">1.4 統合的改正パッケージ ── 3層14項目</h3>
+
+<table>
+<tr><th>層</th><th>項目</th><th>主導者</th></tr>
+<tr><td rowspan="6"><strong>法律</strong></td><td>(1) 法X条（時価の意義）5項構成</td><td><span class="label label-tax">Tax</span></td></tr>
+<tr><td>(2) 法74条但書（損金経理要件緩和）</td><td><span class="label label-acc">Acc</span></td></tr>
+<tr><td>(3) 法74条の2（税務調整明細書）</td><td><span class="label label-acc">Acc</span></td></tr>
+<tr><td>(4) 法33条2項の2（使用価値概念）</td><td><span class="label label-tax">Tax</span></td></tr>
+<tr><td>(5) 法33条2項の3（非対称適用）</td><td><span class="label label-tax">Tax</span> 全員合意</td></tr>
+<tr><td>(6) 国税通則法新設（通達の信頼保護）</td><td><span class="label label-case">Case</span></td></tr>
+<tr><td rowspan="3"><strong>政令</strong></td><td>(7) 施行令Y条（評価方法＋四分位レンジ）</td><td><span class="label label-tax">Tax</span>+<span class="label label-acc">Acc</span></td></tr>
+<tr><td>(8) 施行令（セーフハーバー7類型数値基準）</td><td><span class="label label-appr">Appr</span></td></tr>
+<tr><td>(9) 施行令（総則6項段階的基準）</td><td><span class="label label-case">Case</span></td></tr>
+<tr><td rowspan="5"><strong>通達</strong></td><td>(10) 評価前提の明示義務</td><td><span class="label label-tax">Tax</span></td></tr>
+<tr><td>(11) 鑑定評価基準との接続（EUV-J）</td><td><span class="label label-appr">Appr</span></td></tr>
+<tr><td>(12) 通達9-1-14の位置づけ明確化</td><td><span class="label label-tax">Tax</span></td></tr>
+<tr><td>(13) AVM高度化ロードマップ</td><td><span class="label label-appr">Appr</span></td></tr>
+<tr><td>(14) 更正処分の理由附記強化</td><td><span class="label label-case">Case</span></td></tr>
+</table>
+
+<!-- ===== CHAPTER 2: SAFE HARBOR NUMBERS ===== -->
+<h2 id="ch2">第2章 セーフハーバー具体数値</h2>
+
+<h3 id="ch2-1">2.1 資産類型別の許容乖離幅 ── 9分類</h3>
+<p><span class="label label-appr">Appr</span> が実証データに基づき提案し、4者で数値を検証した最終版。</p>
+
+<table>
+<tr><th>資産類型</th><th>ヒエラルキー</th><th>セーフハーバー幅</th><th>IFRS Level</th><th>根拠</th></tr>
+<tr><td><strong>上場株式</strong></td><td>第1段階</td><td>±3%</td><td>Level 1</td><td>市場価格が客観的に存在</td></tr>
+<tr><td><strong>分譲マンション</strong></td><td>第2段階</td><td>±10%</td><td>Level 2-3</td><td>COD推定8-12%、4変数モデル導入</td></tr>
+<tr><td><strong>戸建住宅</strong></td><td>第2段階</td><td>±12-15%</td><td>Level 2-3</td><td>敷地形状・建物仕様のバラツキ</td></tr>
+<tr><td><strong>商業不動産</strong></td><td>第2段階</td><td>±15%</td><td>Level 2-3</td><td>IAAO基準COD 5-20%の中央値</td></tr>
+<tr><td><strong>非上場株式</strong></td><td>第2-3段階</td><td>±20%</td><td>Level 2-3</td><td>方式内バラツキ（方式間は別制度）</td></tr>
+<tr><td><strong>特殊用途不動産</strong></td><td>第3段階</td><td>±25%</td><td>Level 3</td><td>IFRS Level 3不確実性20-30%と整合</td></tr>
+<tr><td><strong>棚卸資産</strong></td><td>第1-2段階</td><td>±10%</td><td>Level 1-2</td><td>市場価格が比較的入手容易</td></tr>
+<tr><td><strong>底地・借地権</strong></td><td>第2-3段階</td><td>±20%</td><td>Level 2-3</td><td>借地権割合の地域慣行差（新規追加）</td></tr>
+<tr><td><strong>広大地・不整形地</strong></td><td>第3段階</td><td>±20%</td><td>Level 3</td><td>開発法の潰れ地率推定依存（新規追加）</td></tr>
+</table>
+
+<div class="card card-appr">
+<h4>数値の実証的根拠</h4>
+<ul>
+<li><strong>英国K/S Lincoln判決</strong>：住宅±5%、一般商業±10%、複雑物件±15%（鑑定評価の許容誤差の国際的判例法）</li>
+<li><strong>IAAO基準</strong>：COD（Coefficient of Dispersion）住宅5-15%、収益不動産5-20%</li>
+<li><strong>IPD/Drivers Jonas調査</strong>：鑑定評価額と売買価格の乖離中央値±10%</li>
+<li><strong>IFRS Level 3感応度分析</strong>：主要インプット±10-20%で測定結果が±15-30%変動</li>
+</ul>
+</div>
+
+<div class="card card-acc">
+<h4>IFRS測定不確実性との整合性検証（<span class="label label-acc">Acc</span>による確認）</h4>
+<p>IFRS第13号のLevel 3測定における感応度分析の開示実務では、主要な観察不能インプットの±10-20%の変動が測定結果に±15-30%の影響を与えることが一般的である。上記のセーフハーバー数値はこの不確実性レンジと整合しており、会計基準の観点からも妥当な水準と確認された。</p>
+<table>
+<tr><th>資産類型</th><th>セーフハーバー幅</th><th>IFRS Level</th><th>IFRS不確実性レンジ</th><th>整合性</th></tr>
+<tr><td>上場株式</td><td>±3%</td><td>Level 1</td><td>ほぼゼロ（市場価格）</td><td>○ 整合</td></tr>
+<tr><td>分譲マンション</td><td>±10%</td><td>Level 2-3</td><td>±8-15%</td><td>○ 下限付近</td></tr>
+<tr><td>商業不動産</td><td>±15%</td><td>Level 2-3</td><td>±10-20%</td><td>○ 中央値</td></tr>
+<tr><td>非上場株式</td><td>±20%</td><td>Level 2-3</td><td>±15-25%</td><td>○ 中央値</td></tr>
+<tr><td>特殊用途不動産</td><td>±25%</td><td>Level 3</td><td>±20-30%</td><td>○ 中央値</td></tr>
+</table>
+</div>
+
+<div class="card card-synth">
+<h4>セーフハーバーの法的構成と運用ルール</h4>
+<ul>
+<li><strong>法的構成</strong>：「推定規定」（反証可能型）を採用。「みなし規定」は時価概念の理論的一貫性を損ない、租税回避の抑止力を弱めるため不適切（4者合意）</li>
+<li><strong>反証要件（課税庁がセーフハーバー内の価額を否認する場合の3要件）</strong>：
+  <ol>
+  <li>納税者の採用した評価方法又は評価額が、合理的な評価方法に基づかないこと、又は評価方法の適用に重大な誤りがあること</li>
+  <li>当該否認が租税負担の実質的公平の維持に不可欠であること</li>
+  <li>課税庁自らが主張する時価が、合理的な評価方法に基づくものであること</li>
+  </ol>
+</li>
+<li><strong>定期見直し</strong>：3年ごと。固定資産税評価替えのサイクルと連動。直近3年間の取引価格データのCOD分析に基づく</li>
+<li><strong>緊急改定条項</strong>：不動産市場の急激な変動時（年率±15%超の地価変動）には臨時見直し</li>
+</ul>
+</div>
+
+<h3 id="ch2-2">2.2 統合的評価スペクトラム</h3>
+<p><span class="label label-appr">Appr</span> のセーフハーバーと <span class="label label-case">Case</span> の段階的数値基準を統合した5層構造。</p>
+
+<div class="spectrum">
+<div class="spectrum-band" style="background:#38a169;flex:2">セーフハーバー内<br>(±10-25%)<br><small>否認不可</small></div>
+<div class="spectrum-band" style="background:#d69e2e;flex:1.5">～1.5倍<br>グレーゾーン<br><small>個別事情勘案</small></div>
+<div class="spectrum-band" style="background:#dd6b20;flex:1.5">1.5-2倍<br>説明義務<br><small>課税庁に説明義務</small></div>
+<div class="spectrum-band" style="background:#e53e3e;flex:1.5">2-3倍<br>推定<br><small>総則6項適用推定</small></div>
+<div class="spectrum-band" style="background:#9b2c2c;flex:1">3倍超<br>強化推定<br><small>覆滅困難</small></div>
+</div>
+
+<h3 id="ch2-3">2.3 非上場株式の二重構造 ── 第2Rの最重要成果</h3>
+
+<div class="card card-synth">
+<h4>「精度のバラツキ」と「方式選択の乖離」の質的区別</h4>
+<p><span class="label label-case">Case</span>の仙台薬局事件（10倍乖離）分析を契機に、<span class="label label-appr">Appr</span>が提案した質的二分。</p>
+<table>
+<tr><th>乖離の種類</th><th>内容</th><th>規模感</th><th>対処法</th></tr>
+<tr><td><strong>精度のバラツキ</strong></td><td>同一評価方式内のパラメータ差異</td><td>±10-20%</td><td>セーフハーバー（±20%）で吸収</td></tr>
+<tr><td><strong>方式選択の乖離</strong></td><td>異なる評価方式間の構造的差異</td><td>数倍～10倍</td><td>ヒエラルキー＋四分位レンジで対処</td></tr>
+</table>
+<p>この二重構造は、不動産鑑定における「3手法の試算価格の開差調整」プロセスと論理的に同型であり、鑑定実務の知見を非上場株式評価に応用した学際的成果。</p>
+</div>
+
+<!-- ===== CHAPTER 3: ARTICLE 6 NUMBERS ===== -->
+<h2 id="ch3">第3章 総則6項の数値基準化</h2>
+
+<h3 id="ch3-1">3.1 段階的3段階制 ── 令和6年マンション通達との整合</h3>
+
+<div class="card card-case">
+<p><span class="label label-case">Case</span> が提案し、<span class="label label-acc">Acc</span> のIFRS重要性閾値との対応確認、<span class="label label-appr">Appr</span>の0.6基準との統合を経た最終版。</p>
+
+<table>
+<tr><th>段階</th><th>評価水準</th><th>乖離率</th><th>法的効果</th><th>判例との対応</th></tr>
+<tr style="background:#f0fff4"><td>セーフハーバー</td><td>0.6超</td><td>1.67倍未満</td><td>総則6項不適用。通達評価額を時価として是認</td><td>令和6年マンション通達の0.6基準と整合</td></tr>
+<tr><td>第1段階</td><td>0.5-0.6</td><td>1.67-2倍</td><td>課税庁の説明義務発生</td><td>IAS 36減損指標に対応</td></tr>
+<tr style="background:#fff5f5"><td>第2段階</td><td>0.4-0.5</td><td>2-2.5倍</td><td>総則6項適用の推定（反証可能）</td><td>東京高判令和7年の乖離率2.1倍と近接</td></tr>
+<tr><td>第3段階</td><td>0.33-0.4</td><td>2.5-3倍</td><td>推定の強化。反証ハードル引上げ</td><td>国税庁サンプル調査の平均乖離率3.04倍</td></tr>
+<tr style="background:#fed7d7"><td>第4段階</td><td>0.33未満</td><td>3倍超</td><td>覆滅困難。強化推定</td><td>札幌タワマン最判（3.8倍）</td></tr>
+</table>
+</div>
+
+<h3 id="ch3-2">3.2 4段階連続スペクトラム ── レンジとの統合</h3>
+
+<div class="card card-synth">
+<h4><span class="label label-tax">Tax</span>×<span class="label label-case">Case</span>の最終検証で到達</h4>
+<p>法X条第4項のレンジ概念と総則6項の段階的数値基準は「並列」ではなく<strong>連続構造</strong>として統合。乖離の程度に応じて法的効果が段階的に強化されるグラデーション。</p>
+<ol>
+<li><strong>第1区間（レンジ内）</strong>：セーフハーバー内 → 納税者選択が完全に尊重</li>
+<li><strong>第2区間（1.5倍）</strong>：乖離が存するが軽微 → 課税庁の説明義務強化</li>
+<li><strong>第3区間（2倍）</strong>：著しい乖離 → 総則6項の本格的適用（「著しく不適当」の推定）</li>
+<li><strong>第4区間（3倍）</strong>：極端な乖離 → 「著しく不適当」が推定＋租税回避の検討</li>
+</ol>
+<p>突然の「総則6項発動」ではなく、段階的に法的効果が強化される制度設計により、予測可能性を確保。</p>
+</div>
+
+<div class="card card-tax">
+<h4>セーフハーバー外の挙証責任構造</h4>
+<p><span class="label label-tax">Tax</span>が提案し4者で合意した、セーフハーバー外における段階的な説明・立証の構造：</p>
+<table>
+<tr><th>ステップ</th><th>内容</th><th>責任の所在</th></tr>
+<tr><td>Step 1</td><td>納税者が評価方法の合理性を説明</td><td><strong>説明責任</strong>が納税者に転換（立証責任ではない）</td></tr>
+<tr><td>Step 2</td><td>説明が合理的であれば、課税庁が不合理性を立証</td><td>立証責任は<strong>課税庁</strong>に残留</td></tr>
+<tr><td>Step 3</td><td>説明が不合理であれば、課税庁の主張する時価が採用</td><td>課税庁の時価が「合理的な評価方法に基づく」ことが前提</td></tr>
+</table>
+<p>「説明責任」の転換にとどめ、「立証責任」の完全な転換は行わない。これにより、in dubio pro contribuente（疑わしきは納税者の利益に）との抵触を最小化。</p>
+</div>
+
+<div class="card card-tax">
+<h4>評価損計上トリガー（セーフハーバー基準）── 修正版</h4>
+<p><span class="label label-appr">Appr</span>の指摘を受け、不動産のトリガーを70%から<strong>75%</strong>に修正。</p>
+<table>
+<tr><th>資産</th><th>トリガー</th><th>修正理由</th></tr>
+<tr><td>上場有価証券</td><td>期末時価が取得価額の<strong>50%以下</strong>に下落</td><td>現行通達を維持</td></tr>
+<tr><td>非上場株式</td><td>純資産価額が帳簿価額の<strong>50%以下</strong>に低下</td><td>現行通達を維持</td></tr>
+<tr><td>不動産</td><td>鑑定評価額が帳簿価額の<strong>75%以下</strong>に低下（25%以上の下落）</td><td>(1)鑑定誤差±10-15%の範囲外を担保 (2)ドイツBFH判例の25%基準と国際的整合</td></tr>
+<tr><td>その他の固定資産</td><td>使用価値が帳簿価額の<strong>50%以下</strong>に低下</td><td>流動性の低い資産にも50%基準を適用</td></tr>
+</table>
+</div>
+
+<!-- ===== CHAPTER 4: TRUST PROTECTION ===== -->
+<h2 id="ch4">第4章 信頼保護条文案</h2>
+
+<h3 id="ch4-1">4.1 国税通則法新設条項 ── ドイツAO§176型折衷</h3>
+
+<div class="card-draft">
+（通達に対する信頼の保護）
+第〇条
+1　国税に関する法律の規定の解釈又は適用に関する事項について
+国税庁長官が発した通達が次の各号のいずれにも該当するときは、
+当該通達の定めに従ってされた申告又は届出に係る国税について、
+当該通達の定めと異なる解釈又は適用により更正又は決定を
+することができない。
+
+一　当該通達が発出された日から起算して政令で定める期間以上
+    にわたり、当該通達と同一の内容の取扱いが継続して適用
+    されてきたこと。
+
+二　納税者が当該通達の定めに対する信頼に基づき、その経済
+    活動において具体的な行為を行ったこと。
+
+三　当該通達の定めと異なる解釈又は適用を行うことについて、
+    租税回避行為の蔓延その他の合理的な理由が認められないこと。
+
+四　納税者が当該通達の定めを利用して、もっぱら租税の負担を
+    減少させることのみを目的として、通常の経済活動においては
+    合理的とは認められない行為を行っていないこと。
+
+2　前項第一号の政令で定める期間は、通達の性質及び適用の態様
+に応じ、5年以上10年以下の範囲内で定めるものとする。
+
+3　第1項の規定は、当該通達が法律の規定に明らかに反すると
+認められる場合には、適用しない。</div>
+
+<div class="exchange">
+<div class="exchange-header"><span class="label label-tax">Tax</span> → <span class="label label-case">Case</span>：第4号の文言をめぐる攻防</div>
+<div class="exchange-msg deepening"><span class="label label-tax">Tax</span> の代替案A：「もっぱら…のみを目的として、通常の経済活動においては合理的とは認められない行為を行っていないこと」── 「意図」ではなく「行為」を要件とすることで主観的認定の困難さを回避。仙台薬局事件判旨（複合的動機の保護）と整合。</div>
+<div class="exchange-msg agreement"><span class="label label-case">Case</span>：tax-theoristの代替案Aを全面採用。客観的基準型が課税要件明確主義との緊張を最も緩和する。</div>
+</div>
+
+<h3 id="ch4-2">4.2 逆推認の対称的構造</h3>
+
+<div class="card card-case">
+<h4>推認原則の対称的適用</h4>
+<p><span class="label label-tax">Tax</span>との議論で再定式化：「逆推認」は新たな法理の創設ではなく、<strong>単一の推認原則の対称的適用</strong>。通達に推認効を認めるなら、課税庁が通達を適用する場面でも離脱する場面でも対称的に機能するのが論理的に一貫。</p>
+</div>
+
+<table>
+<tr><th>場面</th><th>効果</th><th>立証責任</th></tr>
+<tr><td><strong>A. 課税庁が通達に従う</strong><br>(Level 4の適用)</td><td>通達評価額＝時価の推認（現行の法理を維持）</td><td>セーフハーバー内であれば納税者を是認</td></tr>
+<tr><td><strong>B. 課税庁が通達から離脱</strong><br>(Level 4→2-3への移行)</td><td>逆推認が発動：通達評価額が時価との推定</td><td>課税庁が(i)著しい乖離(ii)公平性違反(iii)租税回避の3要件を全て立証</td></tr>
+<tr><td><strong>C. 納税者が通達より低い評価を主張</strong><br>(Level 4→2-3への移行)</td><td>納税者が合理的評価方法に基づく価額を提示</td><td>レンジ内なら是認。レンジ外は説明責任（立証責任ではない）が転換</td></tr>
+</table>
+
+<div class="card card-acc">
+<h4><span class="label label-acc">Acc</span> IFRS Level変更開示義務との構造的類似性</h4>
+<p>IFRS第13号ではLevel間移転時に移転理由・評価技法・インプットの開示が義務。<span class="label label-case">Case</span>の逆推認＋理由附記強化と<strong>構造的に極めて類似</strong>。「不確実性の増大→説明義務の加重」が会計基準と税法で共通原理として成立。</p>
+<p>重要な差異：IFRSのLevel変更は企業自身の判断、通達離脱は課税庁の一方的行為 → 課税庁の通達離脱にはIFRS<strong>以上の制度的保障</strong>が必要。</p>
+</div>
+
+<div class="card card-case">
+<h4>更正通知書記載事項の具体化（最終版）</h4>
+<p>課税庁が通達の定めと異なる評価により更正又は決定をする場合の記載義務。行政手続法14条の一般的理由提示義務を、時価認定という特殊な行政行為に特化して具体化：</p>
+<ol>
+<li><strong>一</strong>：通達の定めに従って計算した金額及びその根拠</li>
+<li><strong>二</strong>：通達の定めによることが著しく不適当であると認められる具体的な事情</li>
+<li><strong>三</strong>：採用した評価方法の特定、主要なインプットの開示、及び当該評価方法が合理的であることの根拠</li>
+<li><strong>四</strong>：通達評価額との乖離率及びその乖離が「租税負担の公平に反する」理由の具体的説明</li>
+</ol>
+<p>この4項目の記載義務は、<span class="label label-acc">Acc</span>の施行令XX条第5項（課税庁の説明義務）と統合され、実体法と手続法の両面から課税庁の恣意的な時価認定を抑制する。</p>
+</div>
+
+<!-- ===== CHAPTER 5: LOSS ACCOUNTING REFORM ===== -->
+<h2 id="ch5">第5章 損金経理要件の改革</h2>
+
+<h3 id="ch5-1">5.1 国際比較4モデル</h3>
+
+<table>
+<tr><th>モデル</th><th>接続強度</th><th>逆基準性</th><th>日本への教訓</th></tr>
+<tr><td><strong>ドイツ（BilMoG後）</strong></td><td>中（部分的分離）</td><td><strong>廃止済</strong>(2009年)</td><td>順方向の基準性を維持しつつ逆基準性のみ廃止できる。16年間の安定運用が実証</td></tr>
+<tr><td><strong>英国（computation）</strong></td><td>弱（明示的調整）</td><td>なし</td><td>損金経理要件なしで別表調整のみにより完結。CT600申告書の透明性</td></tr>
+<tr><td><strong>米国（book-tax分離）</strong></td><td>弱（原則分離）</td><td>ほぼなし</td><td>完全分離は二重管理コスト大。book-tax gap拡大が問題化</td></tr>
+<tr><td><strong>フランス（connexion）</strong></td><td>強（PCG準拠）</td><td>存在（縮小傾向）</td><td>強い接続は税務当局の会計への過度介入を招くリスク。2025年PCG改革で「例外損益」区分</td></tr>
+</table>
+
+<h3 id="ch5-2">5.2 法人税法74条改正案 ── BilMoG＋computation ハイブリッド</h3>
+
+<div class="card card-acc">
+<h4>段階的改革ロードマップ</h4>
+<table>
+<tr><th>段階</th><th>内容</th><th>根拠</th></tr>
+<tr><td><strong>第1段階（即時）</strong></td><td>IFRS適用企業に対する損金経理要件の免除（74条但書）</td><td>英国computation方式。現在約280社超が対象</td></tr>
+<tr><td><strong>第2段階（中期）</strong></td><td>全法人に対する損金経理要件の原則廃止（申告調整方式への転換）</td><td>ドイツBilMoG。法33条2項の「損金経理」→「申告書記載」に改正</td></tr>
+<tr><td><strong>第3段階（長期）</strong></td><td>IFRS個別財務諸表の税務利用の許容</td><td>国際的収斂の最終段階</td></tr>
+</table>
+
+<h4>法74条但書改正案（新設）</h4>
+<blockquote>ただし、内国法人が法令に基づき国際会計基準に準拠した財務諸表を作成する場合その他政令で定める場合においては、当該財務諸表に基づく会計処理と異なる税務上の取扱いを、法人税に関する法令の定めるところにより確定申告書の別表において調整することができる。</blockquote>
+</div>
+
+<div class="card card-acc">
+<h4>IFRS/US-GAAP/J-GAAPの公正価値測定の差異と税法版への含意</h4>
+<table>
+<tr><th>論点</th><th>IFRS第13号</th><th>ASC 820 (US-GAAP)</th><th>J-GAAP（基準第30号）</th><th>税法版への含意</th></tr>
+<tr><td><strong>使用前提</strong></td><td>常に最有効使用<br>(highest and best use)</td><td>現在の使用が最有効使用と<strong>推定</strong><br>(current use)</td><td>IFRS第13号に大幅収斂</td><td>法33条2項の通達9-1-3（使用収益前提の譲渡価額）はASC 820の「現在の使用」推定と親和的</td></tr>
+<tr><td><strong>Level 3感応度</strong></td><td>定量的感応度分析の開示を<strong>義務</strong>付け<br>(パラ93(h)(ii))</td><td>明示的義務なし</td><td>IFRS収斂により義務化</td><td>税法版ヒエラルキー第3段階で「複数の合理的な評価方法によるレンジ」の提示義務を課す根拠</td></tr>
+<tr><td><strong>測定不確実性</strong></td><td>Level変更時に移転理由の開示義務</td><td>Level間移転の開示あり</td><td>IFRS収斂</td><td>課税庁の通達離脱時の理由附記強化の国際的参照枠</td></tr>
+</table>
+</div>
+
+<div class="card card-synth">
+<h4>公正価値概念の歴史的発展 ── 30年の制度的学習</h4>
+<p><span class="label label-acc">Acc</span>が示した歴史的発展の全体像。会計基準が歩んだ30年の道のりは、税法における時価概念の「段階的精緻化」のロードマップとなる：</p>
+<ol>
+<li><strong>SFAS 107（1991年）</strong>：金融商品の公正価値<em>開示</em>要求 → 「見せる」段階</li>
+<li><strong>SFAS 157（2006年）</strong>：公正価値の統一的定義＋3段階ヒエラルキーの確立 → 「定義する」段階</li>
+<li><strong>IFRS 13（2011年）</strong>：出口価格概念の国際的確立＋感応度分析の義務化 → 「精緻化する」段階</li>
+<li><strong>PIR（2016-2018年）</strong>：適用後レビューで「基準は意図通りに機能」確認 → 「検証する」段階</li>
+<li><strong>J-GAAP収斂（2021年）</strong>：企業会計基準第30号でヒエラルキー的思考が日本に浸透 → 「輸入する」段階</li>
+<li><strong>IFRS 18（2024年）</strong>：表示及び開示の改革 → 「進化する」段階</li>
+</ol>
+<p>第1ラウンドで合意した「無意識的分裂から意識的多元性へ」の転換は、会計基準が30年かけて歩んだ道のりの税法版として位置づけることができる。日本の税法は今、SFASが30年前にいた場所にいる。</p>
+</div>
+
+<!-- ===== CHAPTER 6: INTERNATIONAL APPRAISAL ===== -->
+<h2 id="ch6">第6章 国際鑑定基準比較</h2>
+
+<h3 id="ch6-1">6.1 「市場価値」定義の7基準比較</h3>
+
+<table>
+<tr><th>基準</th><th>定義のコア</th><th>税務目的の位置づけ</th><th>日本への示唆</th></tr>
+<tr><td><strong>IVS 2022/2025</strong></td><td>willing buyer/seller, arm's length</td><td>税務目的を特定しないが各国で参照</td><td>市場価値の国際標準定義</td></tr>
+<tr><td><strong>RICS Red Book 2024</strong></td><td>IVS定義＋EUV（既存用途価値）</td><td>相続税は個別鑑定が原則。Council TaxはBand制</td><td><strong>EUV概念の日本移植</strong>が最重要示唆</td></tr>
+<tr><td><strong>ImmoWertV 2021</strong><br>(独)</td><td>Verkehrswert（§194 BauGB）</td><td>鑑定委員会のBodenrichtwertが税務評価と一体運用</td><td><strong>Modellkonformitätの義務化</strong></td></tr>
+<tr><td><strong>USPAP 2024</strong><br>(米)</td><td>most probable price</td><td>IRS用FMVは「highest price」含意</td><td>FMV一元主義の帰結（膨大な訴訟コスト）は反面教師</td></tr>
+<tr><td><strong>Charte 6e éd.</strong><br>(仏)</td><td>IVS/RICS定義と実質同一</td><td>IFI（不動産富裕税）は市場価値の自己申告制</td><td>自主規制モデルの可能性</td></tr>
+<tr><td><strong>TEGoVA EVS 2025</strong><br>(欧)</td><td>orderly transaction</td><td>「property value」概念新設（保守的評価）</td><td>評価損認定場面での「正常化された市場価値」</td></tr>
+<tr><td><strong>日本・鑑定評価基準</strong></td><td>合理的市場で形成される市場価値</td><td>路線価80%、固定資産税70%の画一的評価が原則</td><td>画一＋個別鑑定の二層維持、<strong>EUV-J新設</strong>で接合</td></tr>
+</table>
+
+<h3 id="ch6-2">6.2 EUV-J（継続使用前提市場価値）の新設提案</h3>
+
+<div class="card card-appr">
+<h4>鑑定評価基準に第5の価格類型を新設</h4>
+<p><strong>定義</strong>：「対象不動産が現在の用途で使用収益を継続するものとして、自由な取引が行われるとした場合に通常成立すると認められる価格。代替的により高い価値を生む用途の可能性は考慮しない。」</p>
+<p>英国RICSの「Existing Use Value (EUV)」に着想。法人税法33条2項の「使用収益されるものとして譲渡される場合に通常付される価額」と構造的同型。</p>
+<h4>3段階の制度改正</h4>
+<ol>
+<li><strong>鑑定評価基準</strong>への第5類型の追加</li>
+<li><strong>法人税基本通達</strong>に「税務目的鑑定の依頼目的はEUV-Jとする」旨を明記</li>
+<li><strong>省庁間共同ガイドライン</strong>（国交省＋国税庁）の策定</li>
+</ol>
+</div>
+
+<h3 id="ch6-3">6.3 AVM高度化3段階ロードマップ</h3>
+
+<table>
+<tr><th>段階</th><th>期間</th><th>内容</th><th>Level</th></tr>
+<tr><td><strong>Stage 1</strong></td><td>現状～3年</td><td>4変数→8-10変数に拡充。立地因子・専有面積・管理指標を追加。回帰係数の毎年更新</td><td>Level 2</td></tr>
+<tr><td><strong>Stage 2</strong></td><td>3～5年</td><td>回帰モデル＋ヘドニック＋HPIのアンサンブル型。各サブモデルは全て透明。信頼度スコア付与</td><td>Level 2</td></tr>
+<tr><td><strong>Stage 3</strong></td><td>5～10年</td><td>MLをスクリーニングツールとして限定導入。XAI要件の義務化。課税処分の直接根拠としない</td><td>Level 3(スクリーニングのみ)</td></tr>
+</table>
+
+<div class="card card-synth">
+<h4>ドイツModellkonformitätの移植</h4>
+<p>鑑定士がデータ提供機関のモデルに拘束される仕組み → AVM導入の制度基盤。<span class="label label-tax">Tax</span>が租税法律主義の観点から3条件（政令レベルの法的根拠・モデル透明性・納税者の異議申立権）を付して支持。</p>
+</div>
+
+<h3 id="ch6-4">6.4 タワマン問題の教訓 ── 令和6年改正の多軸評価</h3>
+
+<div class="card card-appr">
+<h4>4変数モデルの到達点と限界</h4>
+<table>
+<tr><th>評価軸</th><th>肯定面</th><th>否定面</th></tr>
+<tr><td><strong>透明性</strong></td><td>4変数が全て客観的に観察可能。納税者自ら計算可能</td><td>回帰係数の導出過程は不透明（有識者会議の非公開資料に依存）</td></tr>
+<tr><td><strong>精度</strong></td><td>乖離率の縮小（平均2.34倍→1.67倍水準への補正）</td><td>R²推定0.50-0.65。立地因子欠落により個別物件レベルで大きな予測誤差</td></tr>
+<tr><td><strong>公平性</strong></td><td>マンションと戸建の評価水準格差を是正（ともに60%水準へ）</td><td>60%基準の根拠が不明確。現金100%、上場株式100%との資産類型間公平は未解消</td></tr>
+<tr><td><strong>安定性</strong></td><td>「適時見直し」条項により硬直化を防止</td><td>見直しの頻度・基準が不明確</td></tr>
+</table>
+</div>
+
+<div class="card card-case">
+<h4>将来的訴訟リスク（<span class="label label-case">Case</span>×<span class="label label-appr">Appr</span>の共同分析）</h4>
+<ul>
+<li><strong>過小評価リスク（課税庁側）</strong>：4変数モデル適用後もなお市場価格との乖離が大きいケースで、総則6項の重畳適用を試みる可能性。ただし通達自身が定めたモデルを通達6項で否定するのは論理的矛盾であり、ハードルは高い。</li>
+<li><strong>過大評価リスク（納税者側）</strong>：立地因子欠落により、郊外・低層マンションや管理不良マンションで市場価格を超える評価が生じる可能性。最判平成25年7月12日の「通達評価額が時価を上回る場合」の法理が根拠。<strong>4変数モデル適用開始から2-3年以内に顕在化する可能性が高い。</strong></li>
+</ul>
+</div>
+
+<h3 id="ch6-5">6.5 鑑定3手法とIFRSヒエラルキーの対応関係</h3>
+
+<div class="card card-synth">
+<h4><span class="label label-appr">Appr</span>×<span class="label label-acc">Acc</span>の協働成果</h4>
+<table>
+<tr><th>鑑定3手法</th><th>IFRS 3アプローチ</th><th>ヒエラルキー上の位置</th><th>備考</th></tr>
+<tr><td>取引事例比較法</td><td>マーケット・アプローチ</td><td>主に<strong>第2段階</strong>（類似取引基準）</td><td>IFRS第13号パラ63：結果が整合的であることを確認</td></tr>
+<tr><td>収益還元法（直接還元法）</td><td>インカム・アプローチ</td><td>第2段階～<strong>第3段階の境界</strong></td><td>還元利回りの観察可能性が鍵</td></tr>
+<tr><td>収益還元法（DCF法）</td><td>インカム・アプローチ</td><td>主に<strong>第3段階</strong>（合理的見積基準）</td><td>企業固有の予測に依存する度合いが高い</td></tr>
+<tr><td>原価法</td><td>コスト・アプローチ</td><td><strong>第3段階</strong></td><td>再調達原価の推定に不確実性</td></tr>
+</table>
+<p><strong>重要原則</strong>：複数手法併用時は、IFRS 13パラ73と同様、<strong>最も低いレベルのインプット</strong>に引きずられる。この設計は鑑定評価基準の「3手法の試算価格を総合的に勘案」する実務と整合。</p>
+</div>
+
+<!-- ===== CHAPTER 7: P2P HIGHLIGHTS ===== -->
+<h2 id="ch7">第7章 P2P討論ハイライト</h2>
+
+<h3 id="ch7-1">7.1 Level 4をめぐる攻防</h3>
+<div class="exchange">
+<div class="exchange-header"><span class="label label-acc">Acc</span>「通達による画一的評価はIFRS Level 1-3の枠外。税法固有のLevel 4として位置づけるべき」</div>
+<div class="exchange-msg new-insight"><span class="label label-tax">Tax</span> 当初は3段階（Level 1-3のみ）で条文案を書いたが、Level 4の独自カテゴリー化を受け入れ、第3項第4号を追加。「政令で定める画一的評価方法」とし、通達への白紙委任を回避。</div>
+<div class="exchange-msg agreement"><span class="label label-case">Case</span> Level 4こそが総則6項問題の構造的解消に資する。Level 4→Level 2-3への移行条件として数値基準を設計。「Level 4の承認→信頼保護はその論理的帰結」。</div>
+<div class="exchange-msg deepening"><span class="label label-appr">Appr</span> Level 4の精度向上策としてAVM高度化3段階ロードマップを提案。Stage 2（アンサンブル型）はLevel 2型の透明な制度として位置づけ可能（<span class="label label-acc">Acc</span>が確認）。</div>
+</div>
+
+<h3 id="ch7-2">7.2 例示列挙への転換 ── 見落としリスクの発見</h3>
+<div class="exchange">
+<div class="exchange-header"><span class="label label-case">Case</span> → <span class="label label-tax">Tax</span>への法技術的コメント</div>
+<div class="exchange-msg rebuttal"><span class="label label-case">Case</span> 法X条第2項の22条・33条・61条の3の列挙が限定列挙と解されるリスクがある。法61条の2（グループ法人間譲渡損益）等の「時価」が宙に浮く。</div>
+<div class="exchange-msg concession"><span class="label label-tax">Tax</span> 重要な指摘。「次の各号に掲げる場合<strong>その他この法律の規定の適用を受ける場合</strong>の区分に応じ」に修正。第4号に兜括条項を追加。</div>
+</div>
+
+<h3 id="ch7-3">7.3 信頼保護第4号の文言攻防</h3>
+<div class="exchange">
+<div class="exchange-header">3段階の文言修正プロセス</div>
+<div class="exchange-msg"><span class="label label-case">Case</span> Opening原案：「専ら租税の負担を<strong>不当に</strong>減少させる」</div>
+<div class="exchange-msg rebuttal"><span class="label label-tax">Tax</span> 「不当に」は主観的評価。課税要件明確主義に抵触するおそれ。</div>
+<div class="exchange-msg deepening"><span class="label label-case">Case</span> 第1次修正：「不当に」を削除 → 「専ら租税の負担を減少させる」</div>
+<div class="exchange-msg new-insight"><span class="label label-tax">Tax</span> 代替案A（客観的基準型）：「もっぱら租税の負担を減少させることのみを目的として、<strong>通常の経済活動においては合理的とは認められない行為</strong>を行っていないこと」── 「意図」ではなく「行為」の客観的合理性を基準に。</div>
+<div class="exchange-msg agreement"><span class="label label-case">Case</span> 代替案Aを全面採用。(i)主観的認定回避、(ii)複合的動機の保護（仙台薬局事件と整合）、(iii)客観的基準で課税要件明確主義との緊張を最小化。</div>
+</div>
+
+<h3 id="ch7-4">7.4 使用価値の射程制限 ── 「二重の安全弁」</h3>
+<div class="exchange">
+<div class="exchange-header"><span class="label label-case">Case</span>の最終検証で追加された第5項</div>
+<div class="exchange-msg rebuttal"><span class="label label-case">Case</span> 法33条第2項の2の「使用価値」が法22条の時価にまで拡張解釈されるリスク。仙台薬局事件で課税庁がM&A価格（使用価値的）を時価と主張した前例あり。</div>
+<div class="exchange-msg concession"><span class="label label-tax">Tax</span> 理論的に正当な懸念。第5項を新設：「この規定は第22条の規定の適用においては適用しない」。</div>
+<div class="exchange-msg new-insight">第2項の3（非対称適用：益金算入の封鎖）＋ 第5項（使用価値の22条不適用）= <strong>「二重の安全弁」</strong>。課税庁が使用価値概念を援用して課税強化を図ることを二重に遮断。</div>
+</div>
+
+<h3 id="ch7-5">7.5 Phase 2 Q&Aハイライト：3つの鍵となる質問</h3>
+
+<div class="exchange">
+<div class="exchange-header"><span class="label label-tax">Tax</span> → <span class="label label-acc">Acc</span>：法X条第3項のヒエラルキーはIFRS第13号と整合的か</div>
+<div class="exchange-msg deepening"><span class="label label-acc">Acc</span> 回答：構造的に整合する。ただし税法版は(a)「最有効使用」ではなく「現況使用」を前提、(b)Level 4（画一的評価）を追加、(c)Level 3の「合理的と認められる方法」の範囲を法令で具体化 ── IFRS第13号の直接移植ではなく税法固有の修正を含む。</div>
+</div>
+
+<div class="exchange">
+<div class="exchange-header"><span class="label label-appr">Appr</span> → <span class="label label-acc">Acc</span>：AVMアンサンブル型のIFRS上の位置づけは</div>
+<div class="exchange-msg deepening"><span class="label label-acc">Acc</span> 回答：(a)透明な回帰式のみを統合し、統合ウェイトが固定・公表 → <strong>Level 2</strong>。(b)統合ウェイトが動的・モデル依存で外部検証困難 → <strong>Level 3に近い</strong>。Stage 2はインプット透明ならLevel 2型の制度として位置づけ可能。</div>
+</div>
+
+<div class="exchange">
+<div class="exchange-header"><span class="label label-case">Case</span> → <span class="label label-acc">Acc</span>：段階的数値基準と会計監査の重要性閾値の対比</div>
+<div class="exchange-msg deepening"><span class="label label-acc">Acc</span> 回答：会計監査の「量的重要性」（税引前利益5%、総資産0.5%）と乖離率基準（資産評価額レベル）は適用対象が異なり直接比較に限界あり。ただし「一定数値を超えた場合に追加的手続が要求される」制度構造は共通。</div>
+<div class="exchange-msg new-insight">0.6基準（マンション通達の評価水準60%、乖離率1.67倍）は、1.5倍（説明義務）と2倍（推定）の間に位置 ── 国税庁自身が設定した実務的判断と理論的設計が整合的であることの実証。</div>
+</div>
+
+<!-- ===== CHAPTER 8: CONSENSUS & REMAINING ===== -->
+<h2 id="ch8">第8章 合意事項と残存課題</h2>
+
+<h3 id="ch8-1">8.1 第2Rで確認された7つの合意事項</h3>
+
+<div class="card card-consensus">
+<h4>合意1：時価概念フレームワークの4段階ヒエラルキー</h4>
+<p>法X条第3項の4段階（市場価格→類似取引→合理的評価→画一的評価[Level 4]）。Level 4の独自カテゴリー化は <span class="label label-acc">Acc</span> 提案、全員支持。</p>
+</div>
+<div class="card card-consensus">
+<h4>合意2：セーフハーバー数値の9類型</h4>
+<p><span class="label label-appr">Appr</span> の実証データに基づく9分類（上場有価証券±3%～特殊用途不動産±25%）。底地・借地権、広大地・不整形地を第2Rで追加。</p>
+</div>
+<div class="card card-consensus">
+<h4>合意3：信頼保護4要件の国税通則法への新設</h4>
+<p><span class="label label-case">Case</span> 起草、<span class="label label-tax">Tax</span> の第4号文言修正（客観的基準型）を全面採用。ドイツAO§176型折衷。</p>
+</div>
+<div class="card card-consensus">
+<h4>合意4：逆推認の対称的構造 ＋ Level間移行条件</h4>
+<p>「二重構造」ではなく<strong>単一の推認原則の対称的適用</strong>として再定式化。IFRS Level変更開示義務との構造的対応を <span class="label label-acc">Acc</span> が確認。</p>
+</div>
+<div class="card card-consensus">
+<h4>合意5：レンジ概念と総則6項の4段階連続構造</h4>
+<p>法X条第4項のレンジ → 1.5倍（説明義務）→ 2倍（推定）→ 3倍（強化推定）を<strong>同一スペクトラム上の区間</strong>として統合。</p>
+</div>
+<div class="card card-consensus">
+<h4>合意6：損金経理要件の段階的廃止</h4>
+<p><span class="label label-acc">Acc</span> のBilMoG＋computation ハイブリッドを <span class="label label-tax">Tax</span> が「確定決算主義の廃止ではなく現代化」として支持。</p>
+</div>
+<div class="card card-consensus">
+<h4>合意7：法X条第2項の例示列挙化 ＋ 第5項（使用価値制限）</h4>
+<p><span class="label label-case">Case</span> の法技術的指摘で(1)限定列挙リスクの遮断（兜括条項追加）、(2)使用価値の22条不適用（第5項新設）を追加。</p>
+</div>
+
+<h3 id="ch8-2">8.2 残された6つの課題</h3>
+
+<div class="card card-reform">
+<h4>課題1：Level 4の政令レベルでの枠組み規定</h4>
+<p>路線価方式の基本枠（公示価格の80%等）をどこまで政令で規定し、技術的詳細をどこまで通達に委ねるか。第3Rの課題。</p>
+</div>
+<div class="card card-reform">
+<h4>課題2：評価損計上トリガーの最終数値</h4>
+<p><span class="label label-tax">Tax</span>は70%基準（30%下落）、<span class="label label-appr">Appr</span>は75%基準（25%下落）を主張。ドイツBFH判例の25%基準との平仄、鑑定誤差マージンの考慮が必要。</p>
+</div>
+<div class="card card-reform">
+<h4>課題3：信頼保護の継続適用期間の差異化</h4>
+<p>原則10年だが、市場変動の激しいマンション5年、安定的な宅地10年等の資産類型別差異化の具体設計が未了。</p>
+</div>
+<div class="card card-reform">
+<h4>課題4：4変数モデルのR²値の公開</h4>
+<p>国税庁有識者会議資料でR²値非公表。モデルの信頼性評価のため、R²値・回帰係数の標準誤差・残差分析結果の公開が必要。</p>
+</div>
+<div class="card card-reform">
+<h4>課題5：EUV-Jの制度化に必要な省庁間調整</h4>
+<p>鑑定評価基準は国交省、税法通達は国税庁。両省庁間の共同ガイドライン策定の政治的実現可能性は未検討。</p>
+</div>
+<div class="card card-reform">
+<h4>課題6：非上場株式の方式選択ヒエラルキーの具体化</h4>
+<p>層C（四分位レンジ外）と層D（著しい乖離）の境界基準。仙台薬局事件（10倍乖離でも否認不可）が示すように、倍数ではなく「方式選択の意図性」が決定的。</p>
+</div>
+
+<!-- ===== CHAPTER 9: DEEPENING MATRIX ===== -->
+<h2 id="ch9">第9章 R1→R2 深化マトリクス</h2>
+
+<table>
+<tr><th>第1Rの合意事項</th><th>第2Rでの具体化</th><th>主導者</th></tr>
+<tr><td>時価概念フレームワーク4層構造</td><td>法X条（時価の意義）5項構成の条文案</td><td><span class="label label-tax">Tax</span></td></tr>
+<tr><td>ヒエラルキー的時価制度</td><td>同条第3項（4段階、Level 4含む）</td><td><span class="label label-tax">Tax</span>+<span class="label label-acc">Acc</span></td></tr>
+<tr><td>目的別測定基礎の区別</td><td>同条第2項（例示列挙＋兜括条項）</td><td><span class="label label-tax">Tax</span>+<span class="label label-case">Case</span></td></tr>
+<tr><td>使用価値の適用範囲制限</td><td>同条第5項（第33条限定、第22条不適用）</td><td><span class="label label-tax">Tax</span>+<span class="label label-case">Case</span></td></tr>
+<tr><td>時価の「幅」の制度的承認</td><td>同条第4項＋施行令Y条（四分位レンジ）</td><td><span class="label label-tax">Tax</span></td></tr>
+<tr><td>セーフハーバー方式</td><td>施行令Y条2の2（9類型の数値基準）</td><td><span class="label label-appr">Appr</span>+全員</td></tr>
+<tr><td>Teilwert非対称適用</td><td>法33条2項の2（使用価値導入）＋2項の3（非対称）</td><td><span class="label label-tax">Tax</span></td></tr>
+<tr><td>損金経理要件の構造的限界</td><td>法74条但書＋74条の2（段階的廃止）</td><td><span class="label label-acc">Acc</span></td></tr>
+<tr><td>課税庁の説明義務</td><td>施行令XX条＋更正通知書記載事項強化</td><td><span class="label label-acc">Acc</span>+<span class="label label-case">Case</span></td></tr>
+<tr><td>通達9-1-14準用問題</td><td>通達レベルで法人税法固有の評価方法を原則と明記</td><td><span class="label label-tax">Tax</span></td></tr>
+<tr><td>信頼保護4要件</td><td>国税通則法新設条項（AO§176型折衷）</td><td><span class="label label-case">Case</span>+<span class="label label-tax">Tax</span></td></tr>
+<tr><td>総則6項問題</td><td>4段階連続構造（レンジ→1.5倍→2倍→3倍）＋逆推認</td><td><span class="label label-case">Case</span>+<span class="label label-tax">Tax</span></td></tr>
+<tr><td>一物多価の構造的理解</td><td>Level 4の明示的位置づけ＋国際鑑定基準7基準比較</td><td><span class="label label-acc">Acc</span>+<span class="label label-appr">Appr</span></td></tr>
+<tr><td>Modellkonformitätの移植</td><td>AVM高度化3段階ロードマップ＋政令レベル法的根拠</td><td><span class="label label-appr">Appr</span>+<span class="label label-tax">Tax</span></td></tr>
+</table>
+
+<!-- ===== CONCLUSION ===== -->
+<h2 id="conclusion">結語</h2>
+
+<div class="card card-synth">
+<h3>3層構造としての統合</h3>
+<p>第2ラウンドの議論を通じて、4者が提案した制度設計は以下の<strong>3層構造</strong>として統合された。</p>
+
+<div class="flow-diagram">
+<div class="flow-box active">
+<strong>第1層：実体法</strong><br>
+法X条（時価の意義）<br>
+法33条2項の2・3<br>
+法74条但書<br>
+<small>── Tax + Acc</small>
+</div>
+<div class="flow-arrow">→</div>
+<div class="flow-box active">
+<strong>第2層：手続法</strong><br>
+国税通則法（信頼保護）<br>
+逆推認の制度化<br>
+更正通知書強化<br>
+<small>── Case + Acc</small>
+</div>
+<div class="flow-arrow">→</div>
+<div class="flow-box active">
+<strong>第3層：評価技術</strong><br>
+Modellkonformität<br>
+AVM 3段階ロードマップ<br>
+EUV-J新設<br>
+<small>── Appr + Acc</small>
+</div>
+</div>
+
+<p>「時価」概念が本質的に持つ不確定性を否定するのではなく、正面から受け止めた上で、法的安定性と個別的正義の調和を制度的に実現する ── これが2ラウンドの議論の到達点である。</p>
+
+<p>第1ラウンドで「方向性の合意」にとどまっていた議論は、第2ラウンドを経て、<strong>立法者に提示し得る具体的な条文案と数値基準のパッケージ</strong>へと結実した。法X条の5項構成、施行令Y条のセーフハーバー9類型、国税通則法の信頼保護4要件、法74条の損金経理要件改革 ── これらは4者の異なる専門性が統合されることで初めて到達し得た制度設計の厚みである。</p>
+
+<p>「判例が避けた基準設定を立法が補完すべきである」（<span class="label label-case">Case</span>）、「目的従属性の承認は課税要件明確主義の放棄ではなく、むしろ明確性を高める契機となる」（<span class="label label-acc">Acc</span>×<span class="label label-tax">Tax</span>）、「不確定性は排除すべき問題ではなく制御すべき構造的特徴である」（4者共通） ── これら第1ラウンドで生まれた命題が、第2ラウンドで<strong>条文の文言</strong>にまで具体化されたことが、学際的議論の真の価値を証明している。</p>
+</div>
+
+<!-- ===== APPENDIX ===== -->
+<h2 id="appendix">補遺：非上場株式評価の二重構造 ── 詳細分析</h2>
+
+<div class="card card-synth">
+<h4>仙台薬局事件の教訓 ── 10倍乖離はなぜ否認されなかったか</h4>
+<p><span class="label label-case">Case</span>から<span class="label label-appr">Appr</span>への追加質問を契機に深化した分析。仙台薬局事件（東京高判令和6年8月28日）では、類似業種比準方式による評価額とDCFベースの企業価値評価が<strong>10倍</strong>の乖離を示したにもかかわらず、総則6項の適用が否定された。</p>
+<p>判例法理的裏付け：</p>
+<ul>
+<li><strong>方式内バラツキ</strong>：同一方式内の評価者間差異が「合理的な範囲内」として問題にされなかった事例が存在</li>
+<li><strong>方式選択の乖離</strong>：仙台薬局事件は典型的な方式選択の乖離であり、類似業種比準方式とDCFベースの企業価値評価は<strong>異なる概念を測定</strong>しているため、セーフハーバーの幅を広げても吸収不能</li>
+</ul>
+<p>この分析から導出されたのが「精度のバラツキ」と「方式選択の乖離」の質的区別であり、第2ラウンドの最も重要な理論的深化のひとつ。</p>
+</div>
+
+<div class="card card-case">
+<h4>層C・層Dの境界基準に関する判例法理的考察</h4>
+<p>方式間乖離の「著しさ」は絶対値（倍数）では判断できず、<strong>乖離の原因（意図的選択か制度的帰結か）</strong>が決定的：</p>
+<table>
+<tr><th>判例</th><th>乖離倍率</th><th>総則6項</th><th>決定的要因</th></tr>
+<tr><td>仙台薬局事件</td><td><strong>10倍</strong></td><td>否定</td><td>通達に従った結果としての制度的帰結。租税回避意図なし</td></tr>
+<tr><td>東京高判R7</td><td>2.1倍</td><td>肯定</td><td>租税回避意図の認定。増資スキームの意図性</td></tr>
+<tr><td>札幌タワマン最判</td><td>3.8倍</td><td>肯定</td><td>租税負担公平性違反。購入スキームの客観的行為</td></tr>
+</table>
+<p>制度的帰結としての乖離（通達に従った結果）は、たとえ10倍であっても直ちに否認すべきではない ── これが非上場株式の二重構造（層A-Dのスペクトラム）の判例法理的基盤。</p>
+</div>
+
+<!-- ===== REFERENCES ===== -->
+<h2 id="refs">参照法令・基準</h2>
+<div class="card">
+<h4>日本法</h4>
+<ul>
+<li>法人税法22条・33条・61条の3・74条</li>
+<li>相続税法22条、財産評価基本通達（総則6項を含む）</li>
+<li>法人税基本通達9-1-3、9-1-14</li>
+<li>租税特別措置法66条の4（移転価格税制）</li>
+<li>令和5年居住用区分所有財産評価通達</li>
+<li>行政手続法8条・14条</li>
+</ul>
+<h4>判例</h4>
+<ul>
+<li>最判令和4年4月19日（札幌タワマン事件・総則6項の射程）</li>
+<li>東京高判令和6年8月28日（仙台薬局事件・非上場株式の10倍乖離と総則6項）</li>
+<li>東京高判令和7年6月19日（非上場株式増資事件・乖離率2.1倍で総則6項肯定）</li>
+<li>最判昭和62年10月30日（信義則4要件事件）</li>
+<li>最判昭和38年3月3日（課税庁立証責任原則）</li>
+<li>最判平成25年7月12日（通達評価額が時価を上回る場合の通達離脱許容）</li>
+<li>最判平成9年12月18日（仙台薬局判決・「立法的創設」アプローチ）</li>
+<li>那覇地判平成21年10月28日（時価の認識論的命題）</li>
+<li>英国 K/S Lincoln v CB Richard Ellis Hotels Ltd [2010]（鑑定評価の許容誤差）</li>
+</ul>
+<h4>国際基準</h4>
+<ul>
+<li>IFRS第13号（公正価値測定）、IAS第36号（資産の減損）、IFRS第18号</li>
+<li>ASC 820（US-GAAP）、企業会計基準第30号（J-GAAP）</li>
+<li>IVS 2022/2025、RICS Red Book 2024、TEGoVA EVS 2025</li>
+<li>ImmoWertV 2021（ドイツ）、USPAP 2024（米国）、Charte 6e éd.（フランス）</li>
+<li>ドイツBewG §9・§10、EStG §6、AO §176</li>
+<li>ドイツBilMoG（2009年）、英国Corporation Tax computation</li>
+<li>OECDガイドライン2022年改訂版パラ3.55-3.66</li>
+</ul>
+</div>
+
+<p style="text-align:center;color:var(--text-light);margin-top:48px;font-size:.85rem">
+本レポートは4専門エージェント（tax-theorist, accounting-expert, appraisal-expert, case-law-critic）による<br>
+Round 2 peer-to-peer議論（Opening Statement → Response → Final Statement）の成果を統合したものである。<br>
+生成日: 2026-02-08
+</p>
+
+</main>
+</div>
+</body>
+</html>

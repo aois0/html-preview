@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>時価概念ディベート ── 4専門家のpeer-to-peer議論</title>
+<style>
+:root {
+  --primary: #1a365d; --secondary: #2c5282; --accent: #c53030;
+  --bg: #f7fafc; --card-bg: #fff; --border: #e2e8f0;
+  --text: #2d3748; --text-light: #718096;
+  --tax: #9b2c2c; --acc: #276749; --appr: #2b6cb0; --case: #6b46c1;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI','Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif;background:var(--bg);color:var(--text);line-height:1.85}
+.layout{display:flex;max-width:1340px;margin:0 auto}
+.sidebar{width:260px;flex-shrink:0;position:sticky;top:0;height:100vh;overflow-y:auto;background:var(--primary);color:#cbd5e0;padding:24px 16px;font-size:.82rem}
+.sidebar h2{color:#fff;font-size:1rem;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid #4a5568}
+.sidebar a{color:#a0aec0;text-decoration:none;display:block;padding:4px 0;transition:color .2s}
+.sidebar a:hover{color:#fff}
+.sidebar .s-ch{font-weight:600;color:#e2e8f0;margin-top:12px}
+.sidebar .s-sub{padding-left:14px;font-size:.78rem}
+.main{flex:1;min-width:0;padding:40px 36px}
+h1{font-size:1.85rem;color:var(--primary);border-bottom:3px solid var(--primary);padding-bottom:14px;margin-bottom:12px}
+.subtitle{font-size:1rem;color:var(--text-light);margin-bottom:36px}
+h2{font-size:1.4rem;color:var(--secondary);border-left:5px solid var(--secondary);padding-left:14px;margin:48px 0 22px}
+h3{font-size:1.15rem;color:var(--primary);margin:30px 0 14px}
+h4{font-size:1.05rem;color:#4a5568;margin:22px 0 10px}
+p{margin-bottom:14px;text-align:justify}
+.card{background:var(--card-bg);border:1px solid var(--border);border-radius:8px;padding:24px;margin-bottom:24px;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.card-tax{border-left:4px solid var(--tax);background:#fff5f5}
+.card-acc{border-left:4px solid var(--acc);background:#f0fff4}
+.card-appr{border-left:4px solid var(--appr);background:#ebf8ff}
+.card-case{border-left:4px solid var(--case);background:#faf5ff}
+.card-synth{border-left:4px solid var(--accent);background:#fffff0}
+.card-consensus{border-left:4px solid #38a169;background:#f0fff4}
+table{width:100%;border-collapse:collapse;margin:16px 0 24px;font-size:.93rem}
+th,td{border:1px solid var(--border);padding:10px 14px;text-align:left;vertical-align:top}
+th{background:var(--primary);color:#fff;font-weight:600}
+tr:nth-child(even){background:#f8fafc}
+tr:hover{background:#edf2f7}
+blockquote{border-left:3px solid #a0aec0;padding:12px 16px;margin:14px 0;color:#4a5568;font-style:italic;background:#f7fafc}
+ul,ol{margin:10px 0 16px 24px}
+li{margin-bottom:8px}
+.label{display:inline-block;padding:2px 10px;border-radius:4px;font-size:.82rem;font-weight:600;margin-right:6px}
+.label-tax{background:#fed7d7;color:#9b2c2c}
+.label-acc{background:#c6f6d5;color:#276749}
+.label-appr{background:#bee3f8;color:#2b6cb0}
+.label-case{background:#e9d8fd;color:#6b46c1}
+.label-synth{background:#fefcbf;color:#744210}
+.debate-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:16px 0}
+.tension-box{background:linear-gradient(135deg,#fff5f5 0%,#faf5ff 100%);border:1px solid var(--border);border-radius:8px;padding:20px;margin-bottom:16px}
+.exchange{border:1px solid var(--border);border-radius:8px;margin:16px 0;overflow:hidden}
+.exchange-header{background:#edf2f7;padding:10px 16px;font-weight:600;font-size:.9rem;border-bottom:1px solid var(--border)}
+.exchange-msg{padding:16px;border-bottom:1px solid #f0f0f0}
+.exchange-msg:last-child{border-bottom:none}
+.exchange-msg .speaker{font-weight:600;font-size:.88rem;margin-bottom:6px}
+.arrow{display:inline-block;margin:0 8px;color:var(--text-light)}
+.concession{background:#f0fff4;border-left:3px solid #38a169;padding:10px 14px;margin:10px 0;font-size:.92rem}
+.concession::before{content:"[譲歩] ";font-weight:700;color:#38a169}
+.rebuttal{background:#fff5f5;border-left:3px solid #e53e3e;padding:10px 14px;margin:10px 0;font-size:.92rem}
+.rebuttal::before{content:"[反論] ";font-weight:700;color:#e53e3e}
+.new-insight{background:#fffff0;border-left:3px solid #d69e2e;padding:10px 14px;margin:10px 0;font-size:.92rem}
+.new-insight::before{content:"[新知見] ";font-weight:700;color:#d69e2e}
+.sources{background:#f7fafc;border-top:2px solid var(--border);padding:24px;margin-top:40px;font-size:.88rem}
+.table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:16px 0 24px}
+.table-wrap table{margin:0}
+.menu-toggle{display:none;position:fixed;top:12px;left:12px;z-index:1100;background:var(--primary);color:#fff;border:none;border-radius:6px;width:44px;height:44px;font-size:22px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+.menu-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:999}
+@media(max-width:900px){
+  .layout{flex-direction:column}
+  .sidebar{display:none;position:fixed;top:0;left:0;width:280px;height:100vh;z-index:1000;transform:translateX(-100%);transition:transform .3s ease}
+  .sidebar.open{display:block;transform:translateX(0)}
+  .menu-toggle{display:block}
+  .menu-overlay.active{display:block}
+  .main{padding:20px 14px;padding-top:64px}
+  h1{font-size:1.3rem}h2{font-size:1.15rem}
+  .debate-grid{grid-template-columns:1fr}
+  table{font-size:.78rem}th,td{padding:6px 8px}
+}
+@media(max-width:480px){
+  .main{padding:16px 10px;padding-top:60px}
+  h1{font-size:1.15rem}table{font-size:.72rem}th,td{padding:4px 6px}
+}
+</style>
+</head>
+<body>
+<button class="menu-toggle" id="menuToggle" aria-label="メニュー">&#9776;</button>
+<div class="menu-overlay" id="menuOverlay"></div>
+<div class="layout">
+
+<nav class="sidebar">
+<h2>時価概念ディベート</h2>
+<a href="#intro" class="s-ch">はじめに</a>
+<a href="#panelists" class="s-ch">パネリスト紹介</a>
+<a href="#ch1" class="s-ch">1. Opening ── 反論と質問</a>
+<a href="#ch1-1" class="s-sub">1.1 税法理論 vs 会計基準</a>
+<a href="#ch1-2" class="s-sub">1.2 不動産鑑定 vs 判例法理</a>
+<a href="#ch1-3" class="s-sub">1.3 税法理論 vs 不動産鑑定</a>
+<a href="#ch1-4" class="s-sub">1.4 会計基準 vs 判例法理</a>
+<a href="#ch2" class="s-ch">2. Response ── 応答と譲歩</a>
+<a href="#ch2-1" class="s-sub">2.1 主要な譲歩</a>
+<a href="#ch2-2" class="s-sub">2.2 譲れなかった反論</a>
+<a href="#ch2-3" class="s-sub">2.3 議論から生まれた新論点</a>
+<a href="#ch3" class="s-ch">3. 最終弁論 ── 修正された立場</a>
+<a href="#ch3-1" class="s-sub">3.1 税法理論の最終立場</a>
+<a href="#ch3-2" class="s-sub">3.2 会計基準の最終立場</a>
+<a href="#ch3-3" class="s-sub">3.3 不動産鑑定の最終立場</a>
+<a href="#ch3-4" class="s-sub">3.4 判例法理の最終立場</a>
+<a href="#ch4" class="s-ch">4. 合意と対立 ── 議論の結晶</a>
+<a href="#ch4-1" class="s-sub">4.1 4者が合意した命題</a>
+<a href="#ch4-2" class="s-sub">4.2 残された対立</a>
+<a href="#ch4-3" class="s-sub">4.3 議論から生まれた制度設計案</a>
+<a href="#ch5" class="s-ch">5. 結論</a>
+<a href="#refs" class="s-ch">原論考・最終弁論</a>
+<div style="margin-top:24px;padding-top:16px;border-top:1px solid #4a5568;">
+<p style="font-size:.75rem;margin-bottom:8px;">関連レポート</p>
+<a href="jika_analysis.html" class="s-sub">評価損×時価概念（本体）</a>
+<a href="jika_debate_r2.html" class="s-sub" style="color:#fbd38d;font-weight:600">第2R ディベート →</a>
+</div>
+</nav>
+
+<div class="main">
+
+<h1>時価概念ディベート</h1>
+<p class="subtitle">4専門家のpeer-to-peer議論 ── 反論・応答・譲歩・合意の全記録</p>
+
+<!-- ===== はじめに ===== -->
+<h2 id="intro">はじめに ── なぜ「議論」なのか</h2>
+
+<div class="card card-synth">
+<p>「時価とは何か」という問いに対して、4人の専門家が独立に論考を書いた。しかし、独立執筆では各自の論理の<strong>内部整合性</strong>は保たれても、<strong>他の視座からの批判に耐えるか</strong>は検証されない。</p>
+<p>本レポートは、4人の専門家が互いの論考を読み、<strong>直接メッセージ（peer-to-peer）で反論・質問を送り合い、応答し、譲歩し、再反論した</strong>議論の全過程を記録・統合したものである。独立執筆では決して生まれなかった<strong>譲歩・修正・新知見</strong>が、議論を通じてどのように析出されたかを可視化する。</p>
+</div>
+
+<!-- ===== パネリスト ===== -->
+<h2 id="panelists">パネリスト紹介</h2>
+
+<div class="debate-grid">
+<div class="card card-tax"><h4><span class="label label-tax">Tax</span> 税法理論</h4><p>租税法学者。法人税法内部の「時価」概念の分裂（22条・33条・61条の3）、租税法律主義との緊張、ドイツTeilwert概念との比較から、交換価値一元論の限界を論じる。</p></div>
+<div class="card card-acc"><h4><span class="label label-acc">Acc</span> 会計基準</h4><p>国際会計の専門家。IFRS 13の出口価格、IAS 36の回収可能価額、IFRS 9のECLモデル、損金経理の逆基準性から、「時価は測定目的に従属する概念」と論じる。</p></div>
+<div class="card card-appr"><h4><span class="label label-appr">Apr</span> 不動産鑑定</h4><p>不動産鑑定士。鑑定評価の3手法、一物多価の構造、路線価80%の歴史、タワマン問題、AVMの可能性から、「時価の実務的確定は構造的に困難」と論じる。</p></div>
+<div class="card card-case"><h4><span class="label label-case">Case</span> 判例法理</h4><p>租税訴訟の専門家。推認の法理、総則6項「従え、ただし従うな」、札幌タワマン vs 仙台薬局、「時価は幅のある概念」を論じる。</p></div>
+</div>
+
+<!-- ===== 第1章 Opening ===== -->
+<h2 id="ch1">第1章　Opening ── 反論と質問</h2>
+
+<p>各専門家が他の3者の論考を読み、直接メッセージで反論・質問を送った。全12通（4人 &times; 3通）のうち、特に激しく噛み合った4つの対話軸を記録する。</p>
+
+<h3 id="ch1-1">1.1 税法理論 vs 会計基準 ── 「目的従属性」は課税要件明確主義と両立するか</h3>
+
+<div class="exchange">
+<div class="exchange-header"><span class="label label-tax">Tax</span> <span class="arrow">&rarr;</span> <span class="label label-acc">Acc</span></div>
+<div class="exchange-msg">
+<div class="speaker" style="color:var(--tax)">税法理論</div>
+<p>「時価は測定目的に従属する」という命題は、会計学的には正当だが、租税法律主義のもとでは深刻な問題を生む。課税要件の核心をなす「時価」の内容が目的によって変動するなら、<strong>課税要件明確主義の要請は充足し得ない</strong>。法人税法22条の時価と33条の「価額」と61条の3の時価が異なるものだとして、それぞれの内容を法律レベルで定義しなければ、結局は通達依存に陥る。</p>
+</div>
+<div class="exchange-msg">
+<div class="speaker" style="color:var(--acc)">会計基準</div>
+<p>目的従属性と明確性は<strong>両立可能</strong>である。IFRS第13号が公正価値を、IAS第36号が回収可能価額を、それぞれ明確に定義しているように、「何のための時価か」を明示することでむしろ明確性は高まる。問題は目的従属性そのものではなく、<strong>法人税法が各条文の「時価」を定義していないこと</strong>にある。会計基準は「意識的な多元性」、法人税法は「無意識的な分裂」── この差が問題の核心だ。</p>
+</div>
+</div>
+
+<h3 id="ch1-2">1.2 不動産鑑定 vs 判例法理 ── 「一物多価」は制度的知恵か構造的矛盾か</h3>
+
+<div class="exchange">
+<div class="exchange-header"><span class="label label-case">Case</span> <span class="arrow">&rarr;</span> <span class="label label-appr">Apr</span></div>
+<div class="exchange-msg">
+<div class="speaker" style="color:var(--case)">判例法理</div>
+<p>鑑定評価の不確実性（10-20%の乖離）を認めつつ「公的評価の100%化」を提言するのは<strong>自己矛盾</strong>ではないか。20%バッファは不確実性の制度的吸収装置として合理的に機能している。米国のFMV一元主義では訴訟コストが極めて高く、IRSが鑑定評価を最も信頼性の低い証拠類型と位置づけている事実をどう考えるか。</p>
+</div>
+<div class="exchange-msg">
+<div class="speaker" style="color:var(--appr)">不動産鑑定</div>
+<p>鋭い指摘を認める。100%化の提言は撤回し、<strong>不動産類型別のバッファ設定</strong>（マンション10-15%、特殊不動産25-30%）に修正する。一物多価の「制度的知恵」としての積極面を認めつつ、タワマンの3-4倍の乖離は「安全弁」の範囲を逸脱していると主張する。</p>
+</div>
+</div>
+
+<h3 id="ch1-3">1.3 税法理論 vs 不動産鑑定 ── 交換価値の「三段階スペクトラム」</h3>
+
+<div class="exchange">
+<div class="exchange-header"><span class="label label-appr">Apr</span> <span class="arrow">&rarr;</span> <span class="label label-tax">Tax</span></div>
+<div class="exchange-msg">
+<div class="speaker" style="color:var(--appr)">不動産鑑定</div>
+<p>「市場が存在する場合」と「存在しない場合」の二分法では、不動産のように<strong>市場は存在するが個別性が極めて強い資産</strong>（中間領域）を捉えられない。同一不動産で鑑定士間の評価乖離が10-20%生じるのは、市場の不存在ではなく資産の個別性に起因する。</p>
+</div>
+<div class="exchange-msg">
+<div class="speaker" style="color:var(--tax)">税法理論</div>
+<p>この批判を受け入れ、<strong>三段階スペクトラム</strong>に修正する。第1段階：市場の存在＋資産の均質性（上場株式）、第2段階：市場の存在＋資産の個別性（不動産）、第3段階：市場の不存在（非上場株式）。この整理が「ヒエラルキー的時価制度」の基礎となる。</p>
+</div>
+</div>
+
+<h3 id="ch1-4">1.4 会計基準 vs 判例法理 ── 「推認」の構造はIFRSにも存在するか</h3>
+
+<div class="exchange">
+<div class="exchange-header"><span class="label label-acc">Acc</span> <span class="arrow">&rarr;</span> <span class="label label-case">Case</span></div>
+<div class="exchange-msg">
+<div class="speaker" style="color:var(--acc)">会計基準</div>
+<p>通達の「推認」構造は通達行政に特有ではない。IFRS第13号のヒエラルキーにも「Level 1の市場価格は公正価値を適切に反映すると推定される」という構造がある。<strong>画一的基準に一般的合理性を推認することは、不確定概念を制度的に処理する際の不可避の選択</strong>ではないか。</p>
+</div>
+<div class="exchange-msg">
+<div class="speaker" style="color:var(--case)">判例法理</div>
+<p>構造的類似性は認めるが、<strong>本質的差異</strong>がある。IFRSのヒエラルキーは<strong>双方向的</strong>（不確実性が高いほど測定者の開示・説明義務が重くなる）だが、通達の推認は<strong>一方向的</strong>（課税庁の立証負担を軽減し、納税者に覆す責任を課す）。この非対称性が問題の核心だ。</p>
+</div>
+</div>
+
+<!-- ===== 第2章 Response ===== -->
+<h2 id="ch2">第2章　Response ── 応答と譲歩</h2>
+
+<p>Phase 1の反論を受けて、各専門家が応答した。ここで<strong>議論ならではの知的化学反応</strong>が起きた。</p>
+
+<h3 id="ch2-1">2.1 主要な譲歩 ── 議論がなければ修正されなかった点</h3>
+
+<div class="concession">
+<strong><span class="label label-appr">Apr</span> 「公的評価の100%化」を撤回</strong> ── 判例法理の「自己矛盾」指摘を受け、画一的100%化ではなく「不動産類型別バッファ」に修正。マンション10-15%、特殊不動産25-30%。会計基準の「Level 3不確実性が20-30%」という知見が、20%バッファの実質的合理性を裏付けた。
+</div>
+
+<div class="concession">
+<strong><span class="label label-tax">Tax</span> 交換価値・使用価値の「二元論」を撤回</strong> ── 会計基準の「IFRS 13は第三の道を提示している」との批判を受け、単純な二元論から「市場参加者の現況使用前提の交換価値」という統合的視座に修正。ただし「最有効使用」ではなく「現況使用」を前提とする点で税法固有性を維持。
+</div>
+
+<div class="concession">
+<strong><span class="label label-case">Case</span> 「推認」廃止論を撤回</strong> ── 税法理論の「年間数百万件処理の現実」と会計基準の「IFRSにも類似構造がある」との指摘を受け、推認自体の廃止ではなく「推認の覆しやすさの改善」に修正。セーフハーバー方式（資産類型ごとの許容乖離幅）を具体案として提示。
+</div>
+
+<div class="concession">
+<strong><span class="label label-acc">Acc</span> 「デュープロセスの欠落」を認める</strong> ── 判例法理の「IFRSのヒエラルキーが機能するのは独立した基準設定主体とデュープロセスがあるから」との指摘を受け、通達に階層構造を導入する際の前提条件として、策定過程の民主的正統性の整備が不可欠であることを認める。
+</div>
+
+<h3 id="ch2-2">2.2 譲れなかった反論 ── 議論後も維持された主張</h3>
+
+<div class="rebuttal">
+<strong><span class="label label-tax">Tax</span> 法人税法に「時価」の定義規定を置くべき</strong> ── 現行法が「時価」の定義を法律レベルで全く規定していないことは、租税法律主義の観点から正当化し難い。4者とも方向性は一致するが、具体的な定義の内容については依然として議論が必要。
+</div>
+
+<div class="rebuttal">
+<strong><span class="label label-case">Case</span> 通達の法的性質の根本的矛盾は未解消</strong> ── 通達は法規ではないのに事実上法規として機能する構造は、推認の「不可避性」を認めても正当化されない。名古屋高裁H25.1.24判決の「通達を根拠とする主張は主張自体失当」は、この矛盾を最も率直に表現している。
+</div>
+
+<div class="rebuttal">
+<strong><span class="label label-appr">Apr</span> 不動産の「時価」は本質的に不確定概念</strong> ── 鑑定評価の3手法が同一不動産に異なる試算価格を算出することは構造的に不可避。不確定性は「解消」ではなく「制御」の対象。
+</div>
+
+<div class="rebuttal">
+<strong><span class="label label-acc">Acc</span> 損金経理要件の構造的限界</strong> ── IFRS適用・ECLモデル導入により、確定決算主義の接続構造は限界に達しつつある。逆基準性の問題は立法論として提起し続ける必要がある。
+</div>
+
+<h3 id="ch2-3">2.3 議論から生まれた新論点 ── 独立執筆では到達し得なかった知見</h3>
+
+<div class="new-insight">
+<strong>三段階スペクトラム</strong>（税法理論 &times; 不動産鑑定）── 客観的交換価値の確定可能性を、資産の市場性・個別性に応じて3段階に分類。第1段階（均質・市場あり）→第2段階（個別性・市場あり）→第3段階（市場なし）。IFRS Level 1-3と対応し、「ヒエラルキー的時価制度」の基礎となった。
+</div>
+
+<div class="new-insight">
+<strong>Teilwertの「非対称的適用」</strong>（税法理論 &times; 判例法理）── ドイツの使用価値概念を日本法に導入する場合、課税庁の裁量拡大を防ぐため「納税者に有利な方向にのみ」機能させる。in dubio pro contribuenteの原則と整合。
+</div>
+
+<div class="new-insight">
+<strong>信頼保護の4要件</strong>（判例法理 &times; 税法理論）── 通達固有の信頼保護法理として：(i)10年以上の継続適用、(ii)信頼に基づく経済的行動、(iii)変更の合理的理由の不存在、(iv)租税回避目的の不存在。最後の消極要件は税法理論が追加提案。
+</div>
+
+<div class="new-insight">
+<strong>三重の乖離</strong>（会計基準 &times; 不動産鑑定）── 不動産の評価損には「会計上の減損テスト」「鑑定評価の正常価格」「法人税法上の時価」の三重構造があり、評価前提・制度目的・概念構成がすべて異なる。当初の「二重の乖離」分析を拡張。
+</div>
+
+<div class="new-insight">
+<strong>推認の「双方向性」設計</strong>（会計基準 &times; 判例法理）── IFRSのヒエラルキーは双方向的（不確実性が高いほど開示義務が重い）だが、通達の推認は一方向的（課税庁に有利）。税法への階層的思考の導入には双方向性の設計が不可欠。
+</div>
+
+<div class="new-insight">
+<strong>AVMのLevel分類</strong>（不動産鑑定 &times; 会計基準）── 透明な回帰式によるAVMはLevel 2相当（租税法律主義と両立）、ブラックボックス型AIはLevel 3相当（行政手続法8条の理由附記義務に抵触）。前者のみを政策提言の対象とすべき。
+</div>
+
+<!-- ===== 第3章 最終弁論 ===== -->
+<h2 id="ch3">第3章　最終弁論 ── 議論を経て修正された4つの立場</h2>
+
+<h3 id="ch3-1">3.1 税法理論の最終立場</h3>
+
+<div class="card card-tax">
+<h4>修正された核心主張</h4>
+<p>法人税法内部の「時価」概念の分裂は「無意識的・非体系的」であり、会計基準が実現している「意識的・体系的な多元性」に学ぶべきである。交換価値一元論は「統合的視座」（市場参加者の現況使用前提の交換価値）に修正し、時価の「幅」は概念の論理的帰結として認め、ヒエラルキー的制度で制御する。</p>
+
+<div class="table-wrap">
+<table>
+<tr><th>段階</th><th>資産の特性</th><th>時価の確定可能性</th><th>許容される幅</th></tr>
+<tr><td><strong>第1段階</strong></td><td>市場あり＋均質</td><td>高い（市場価格で確定）</td><td>ほぼゼロ</td></tr>
+<tr><td><strong>第2段階</strong></td><td>市場あり＋個別性</td><td>中程度（評価者判断が介在）</td><td>&plusmn;10-15%</td></tr>
+<tr><td><strong>第3段階</strong></td><td>市場なし</td><td>低い（推計に依存）</td><td>&plusmn;20-30%</td></tr>
+</table>
+</div>
+
+<p><strong>譲らない点</strong>：法人税法に「時価」の定義規定を置くべき。各条文（22条・33条・61条の3）における「時価」「価額」の意味を区別する解釈規定を法律又は政令レベルで設けることは、立法技術上も可能かつ必要。</p>
+</div>
+
+<h3 id="ch3-2">3.2 会計基準の最終立場</h3>
+
+<div class="card card-acc">
+<h4>修正された核心主張</h4>
+<p>「時価は測定目的に従属する概念であるが、<strong>課税目的の時価は法律レベルで明確に定義されなければならない</strong>。」目的従属性の承認は課税要件明確主義の放棄ではなく、「何のための時価か」を明示することで明確性を高める契機。IFRS 13が公正価値を、IAS 36が回収可能価額を明確に定義しているように、税法も各条文の時価を定義すべき。</p>
+<p>不動産鑑定の指摘を受け、「二重の乖離」を<strong>「三重の乖離」</strong>に拡張。推認とIFRSヒエラルキーの構造的類似性を認めつつ、<strong>双方向性の欠如</strong>が通達の本質的問題であることを判例法理との対話で明確化。</p>
+<p><strong>譲らない点</strong>：損金経理要件を介した接続構造の構造的限界。IFRS全面適用・ECLモデル導入を見据え、確定決算主義からの部分的離脱を含む制度的対応が不可避。</p>
+</div>
+
+<h3 id="ch3-3">3.3 不動産鑑定の最終立場</h3>
+
+<div class="card card-appr">
+<h4>修正された核心主張</h4>
+<p>「公的評価の100%化」を撤回し、<strong>不動産類型別バッファ＋評価替え頻度向上</strong>に修正。一物多価の「制度的知恵」としての積極面を認容。「正常価格」「公正価値」「税法上の時価」を<strong>本質的に異なる別個の概念</strong>と厳密化。AVM論を「透明な回帰式」（Level 2相当、推進）と「ブラックボックス型AI」（Level 3相当、時期尚早）に明確に区別。</p>
+<p><strong>譲らない点</strong>：不動産の時価は本質的に不確定概念であり、「制御」の対象。鑑定評価の依頼目的（評価前提）の明確化は制度的急務。タワマンの3-4倍乖離は制度的知恵の限界を示す。</p>
+</div>
+
+<h3 id="ch3-4">3.4 判例法理の最終立場</h3>
+
+<div class="card card-case">
+<h4>修正された核心主張</h4>
+<p>「時価の幅」を単なる認識論的限界ではなく<strong>概念の論理構造から導出される存在論的命題</strong>として精緻化。推認の廃止論を撤回し、<strong>「推認の覆しやすさの改善」</strong>に修正。セーフハーバー方式（上場株式&plusmn;5%、不動産&plusmn;15%、非上場株式&plusmn;20-30%）を具体案として提示。「後出しじゃんけん」批判を<strong>通達固有の信頼保護法理</strong>として制度化。</p>
+<p><strong>譲らない点</strong>：通達の法的性質の根本的矛盾は未解消。総則6項の適用基準の不明確性は判例の蓄積では解消不能 ── 数値基準（乖離率2倍超で適用推定）の法定化が不可欠。推認の一方向性（課税庁有利のみ）は租税訴訟の立証責任の基本原則と不整合。</p>
+</div>
+
+<!-- ===== 第4章 合意と対立 ===== -->
+<h2 id="ch4">第4章　合意と対立 ── 議論の結晶</h2>
+
+<h3 id="ch4-1">4.1 4者が合意した5つの命題</h3>
+
+<div class="card card-consensus">
+<ol>
+<li><strong>「時価」は本質的に幅のある概念であり、一義的な確定は構造的に困難である。</strong><br>税法理論は概念の論理構造から、会計基準はLevel 3の主観性から、不動産鑑定は複数鑑定の乖離から、判例法理は判決の蓄積から、4つの異なる角度で同一の結論に到達。</li>
+
+<li><strong>法人税基本通達9-1-14による評価通達の法人税への「準用」は理論的に問題がある。</strong><br>相続税の「静的評価」と法人税の「動的評価」の質的差異は4者に共有された。評価通達を法人税にそのまま準用することは、法人税法上の時価概念の独自性を没却する。</li>
+
+<li><strong>法人税法33条2項の「価額」は、会計上の公正価値とも鑑定評価の正常価格とも異なる、税法固有の概念である。</strong><br>「三重の乖離」分析が示す通り、通達9-1-3の「使用収益前提の譲渡価額」は、IFRS 13の出口価格とも、鑑定の正常価格とも一致しない。</li>
+
+<li><strong>「時価の幅」を制度的に処理する仕組み（ヒエラルキー＋セーフハーバー）が必要である。</strong><br>資産の市場性・個別性に応じたヒエラルキー的制度設計と、資産類型ごとの許容乖離幅（セーフハーバー）の導入で4者が収束。移転価格税制のレンジ概念が立法的先例。</li>
+
+<li><strong>通達の法的位置づけの明確化と、納税者の予測可能性の確保は制度設計の最優先課題である。</strong><br>通達の法規命令化、階層的制度設計（法律→政令→通達）の導入、デュープロセスの整備、信頼保護法理の構築で方向性が一致。</li>
+</ol>
+</div>
+
+<h3 id="ch4-2">4.2 残された3つの対立</h3>
+
+<div class="tension-box">
+<h4>対立A：交換価値か使用価値か</h4>
+<p><span class="label label-tax">Tax</span> 「現況使用前提の交換価値」に修正したが、事業用資産の評価に使用価値的概念が必要との主張は維持。Teilwertの非対称的適用（納税者有利方向のみ）を提案。</p>
+<p><span class="label label-acc">Acc</span> IFRS 13は「市場参加者の最有効使用」で交換価値と使用価値を統合済み。税法独自の概念構成の必要性は認めるが、二元論的枠組みには依然として懐疑的。</p>
+<p><span class="label label-appr">Apr</span> 通達9-1-3の概念は鑑定評価基準の4類型のいずれにも正確に対応しない。「使用収益前提の交換価値」を「特定価格」の一亜種として位置づける制度化が必要。</p>
+</div>
+
+<div class="tension-box">
+<h4>対立B：通達の「推認」をどこまで許容するか</h4>
+<p><span class="label label-case">Case</span> 推認自体は不可避だが、一方向性（課税庁有利のみ）は本質的問題。覆す基準の明確化（乖離率2倍超で自動的覆し）と双方向的設計が不可欠。</p>
+<p><span class="label label-acc">Acc</span> 推認は「不確定概念の制度的処理」として構造的に不可避。問題はデュープロセスの欠如にある。通達策定過程にパブリックコメント・専門家参加を制度化すれば正統性は確保できる。</p>
+</div>
+
+<div class="tension-box">
+<h4>対立C：確定決算主義は維持されるべきか</h4>
+<p><span class="label label-acc">Acc</span> IFRS全面適用・ECLモデル導入を見据えれば、損金経理要件の見直し・確定決算主義からの部分的離脱は不可避。</p>
+<p><span class="label label-tax">Tax</span> 確定決算主義は日本の税法体系の基盤であり、全面的離脱は現実的でない。「意識的な分離と明示的な接続」の再設計が現実的。</p>
+</div>
+
+<h3 id="ch4-3">4.3 議論から生まれた制度設計案</h3>
+
+<div class="card card-synth">
+<h4>統合的制度設計案 ── 4者の議論の収束点</h4>
+
+<div class="table-wrap">
+<table>
+<tr><th>制度要素</th><th>内容</th><th>発案者</th></tr>
+<tr><td><strong>ヒエラルキー的時価制度</strong></td><td>資産の市場性・個別性に応じて3段階に分類し、各段階で時価の認定方法と許容される幅を設定</td><td>Tax &times; Acc</td></tr>
+<tr><td><strong>セーフハーバー</strong></td><td>通達評価額を基準とし、資産類型ごとの許容乖離幅（上場株式&plusmn;5%、不動産&plusmn;15%、非上場株式&plusmn;20-30%）内なら是認</td><td>Case &times; Apr</td></tr>
+<tr><td><strong>信頼保護の4要件</strong></td><td>(i)10年以上の継続適用、(ii)信頼に基づく経済的行動、(iii)変更合理的理由の不存在、(iv)租税回避目的の不存在</td><td>Case &times; Tax</td></tr>
+<tr><td><strong>通達の法規命令化</strong></td><td>法律による委任の明確化＋階層的構造（法律→政令→通達）＋デュープロセス整備</td><td>Case &times; Acc</td></tr>
+<tr><td><strong>類型別バッファ</strong></td><td>画一的20%から不動産類型別設定へ移行（マンション10-15%、特殊不動産25-30%）＋評価替え頻度向上</td><td>Apr &times; Case</td></tr>
+<tr><td><strong>透明なAVMモデル</strong></td><td>回帰式による画一的評価の精度向上（Level 2相当）。ブラックボックス型AIは現時点で不適格</td><td>Apr &times; Acc</td></tr>
+<tr><td><strong>評価前提の明示</strong></td><td>法33条の「価額」が「継続使用前提の交換価値」であることを法令・通達・鑑定評価基準で明示</td><td>Apr &times; Tax</td></tr>
+</table>
+</div>
+</div>
+
+<!-- ===== 第5章 結論 ===== -->
+<h2 id="ch5">第5章　結論 ── 議論は何を生んだか</h2>
+
+<div class="card card-synth">
+<h4>独立執筆 vs peer-to-peer議論</h4>
+<p>4人の専門家が独立に論考を書いた段階では、各自の論理は内部整合的だが、<strong>他の視座からの批判に対する耐性が検証されていなかった</strong>。peer-to-peer議論を通じて、以下の変化が生じた。</p>
+
+<div class="table-wrap">
+<table>
+<tr><th>変化の類型</th><th>具体例</th><th>関与した視座</th></tr>
+<tr><td><strong>自己矛盾の発見と修正</strong></td><td>鑑定不確実性を認めつつ100%化を提言する矛盾</td><td>Apr &larr; Case</td></tr>
+<tr><td><strong>概念の精緻化</strong></td><td>二分法→三段階スペクトラム、二元論→統合的視座</td><td>Tax &larr; Apr, Tax &larr; Acc</td></tr>
+<tr><td><strong>制度設計の具体化</strong></td><td>「幅を認めよ」→セーフハーバーの数値基準</td><td>Case &larr; Apr</td></tr>
+<tr><td><strong>新しい概念の創出</strong></td><td>三重の乖離、Teilwertの非対称的適用、推認の双方向性設計</td><td>複数の組合せ</td></tr>
+<tr><td><strong>建設的方向への転換</strong></td><td>「推認を廃止せよ」→「覆しやすさを改善せよ」</td><td>Case &larr; Tax, Acc</td></tr>
+</table>
+</div>
+
+<p>判例法理エージェントの結語が、この議論の本質を最も的確に表現している：</p>
+<blockquote>困難の根源は「時価」概念そのものにあるのではなく、不確定概念を法律で明確にせず通達に委ね、通達を法規でないと言いつつ法規として扱い、個別的正義を事後的裁量で実現しようとする<strong>制度設計</strong>にある。</blockquote>
+<p>「時価とは何か」という問いに対する最終的な答えは、4者の議論を経てもなお確定しない。しかし、この問いに答えるための<strong>方法論的枠組み</strong> ── 測定目的の明確化、不確実性の段階的制御、会計と税法の意識的分離と明示的接続 ── については、相当程度の合意が形成された。</p>
+</div>
+
+<!-- ===== 参考文献 ===== -->
+<h2 id="refs">原論考・最終弁論</h2>
+
+<div class="sources">
+<h4>各専門家の原論考（Phase 0: 独立執筆）</h4>
+<ul>
+<li><a href="phase2_debate/jika_tax_theory.md">税法理論の論考（34KB）</a></li>
+<li><a href="phase2_debate/jika_accounting.md">会計基準の論考（52KB）</a></li>
+<li><a href="phase2_debate/jika_appraisal.md">不動産鑑定の論考（48KB）</a></li>
+<li><a href="phase2_debate/jika_case_law.md">判例法理の論考（33KB）</a></li>
+</ul>
+
+<h4>各専門家の最終弁論（Phase 3: 議論後）</h4>
+<ul>
+<li><a href="phase2_debate/debate_tax_theory_final.md">税法理論の最終弁論 ── 三段階スペクトラム、ヒエラルキー的制度、信頼保護4要件</a></li>
+<li><a href="phase2_debate/debate_accounting_final.md">会計基準の最終弁論 ── 目的従属性の修正版、三重の乖離、双方向的設計</a></li>
+<li><a href="phase2_debate/debate_appraisal_final.md">不動産鑑定の最終弁論 ── 類型別バッファ、AVM Level分類、評価前提の明示</a></li>
+<li><a href="phase2_debate/debate_case_law_final.md">判例法理の最終弁論 ── セーフハーバー方式、信頼保護法理、覆しやすさの改善</a></li>
+</ul>
+</div>
+
+<p style="text-align:center;margin-top:48px;color:#718096;font-size:.85rem;">
+作成日：2026年2月8日 ｜ Deep Research by Claude Opus 4.6<br>
+4つの専門エージェントがpeer-to-peerで議論（Opening→Response→Closing）した記録の統合レポート。<br>
+Agent Teams（experimental）を使用。各エージェントはSendMessageで直接メッセージを交換。
+</p>
+
+</div><!-- /.main -->
+</div><!-- /.layout -->
+<script>
+(function(){
+  var btn=document.getElementById('menuToggle'),ov=document.getElementById('menuOverlay'),sb=document.querySelector('.sidebar');
+  if(!btn||!sb)return;
+  function open(){sb.classList.add('open');ov.classList.add('active');btn.textContent='\u2715';}
+  function close(){sb.classList.remove('open');ov.classList.remove('active');btn.textContent='\u2630';}
+  btn.addEventListener('click',function(){sb.classList.contains('open')?close():open();});
+  ov.addEventListener('click',close);
+  sb.querySelectorAll('a').forEach(function(a){a.addEventListener('click',close);});
+})();
+</script>
+</body>
+</html>
