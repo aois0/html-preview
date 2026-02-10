@@ -1,0 +1,7 @@
+law: 商法施行法 (shouhou_sekouhou)
+law_type: act / law_num: 明治三十二年法律第四十九号 / egov_id: 132AC0000000049 / as_of: 2025-12-27
+article: 15 / title: 第十五条
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou_sekouhou/15.html
+
+[p1] 1 商法施行前ニ東京市又ハ大阪市ニ於テ商号ノ登記ヲ為シタル者ハ商法施行ノ日ヨリ六个月内ニ其市ニ存スル他ノ登記所ニ於テ其登記ヲ為スコトヲ要ス
+[p2] 2 前項ニ定メタル登記ヲ為ササリシ者ハ其登記ヲ為ササリシ登記所ノ管轄区域内ニ於テハ商法第二十条ニ定メタル権利ヲ行フコトヲ得ス

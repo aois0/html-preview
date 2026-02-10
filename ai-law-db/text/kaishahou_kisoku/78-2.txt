@@ -1,0 +1,9 @@
+law: 会社法施行規則 (kaishahou_kisoku)
+law_type: rule / law_num: 平成十八年法務省令第十二号 / egov_id:  / as_of: 2025-12-27
+article: 78-2 / title: 第七十八条の二（監査等委員である取締役の解任に関する議案）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou_kisoku/78-2.html
+
+[p1] 1 取締役が監査等委員である取締役の解任に関する議案を提出する場合には、株主総会参考書類には、次に掲げる事項を記載しなければならない。
+[p1-i1] 一 監査等委員である取締役の氏名
+[p1-i2] 二 解任の理由
+[p1-i3] 三 法第三百四十二条の二第一項の規定による監査等委員である取締役の意見があるときは、その意見の内容の概要

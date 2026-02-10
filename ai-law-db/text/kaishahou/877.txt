@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 877 / title: 第八百七十七条（審問等の必要的併合）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/877.html
+
+[p1] 1 第八百四十条第二項（第八百四十一条第二項及び第八百四十二条第二項において準用する場合を含む。）の申立てに係る事件が数個同時に係属するときは、審問及び裁判は、併合してしなければならない。

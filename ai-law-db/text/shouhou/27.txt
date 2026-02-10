@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 27 / title: 第二十七条（通知義務）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/27.html
+
+[p1] 1 代理商（商人のためにその平常の営業の部類に属する取引の代理又は媒介をする者で、その商人の使用人でないものをいう。以下この章において同じ。）は、取引の代理又は媒介をしたときは、遅滞なく、商人に対して、その旨の通知を発しなければならない。

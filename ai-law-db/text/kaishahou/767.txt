@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 767 / title: 第七百六十七条（株式交換契約の締結）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/767.html
+
+[p1] 1 株式会社は、株式交換をすることができる。 この場合においては、当該株式会社の発行済株式の全部を取得する会社（株式会社又は合同会社に限る。以下この編において「株式交換完全親会社」という。）との間で、株式交換契約を締結しなければならない。

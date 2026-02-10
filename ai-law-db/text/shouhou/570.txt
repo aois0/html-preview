@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 570 / title: 第五百七十条（物品運送契約）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/570.html
+
+[p1] 1 物品運送契約は、運送人が荷送人からある物品を受け取りこれを運送して荷受人に引き渡すことを約し、荷送人がその結果に対してその運送賃を支払うことを約することによって、その効力を生ずる。

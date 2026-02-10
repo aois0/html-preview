@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 518-2 / title: 第五百十八条の二（共助対象外国租税債権者の手続参加）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/518-2.html
+
+[p1] 1 協定債権者は、共助対象外国租税の請求権をもって特別清算の手続に参加するには、租税条約等実施特例法第十一条第一項に規定する共助実施決定を得なければならない。

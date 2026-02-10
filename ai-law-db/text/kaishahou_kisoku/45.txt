@@ -1,0 +1,9 @@
+law: 会社法施行規則 (kaishahou_kisoku)
+law_type: rule / law_num: 平成十八年法務省令第十二号 / egov_id:  / as_of: 2025-12-27
+article: 45 / title: 第四十五条
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou_kisoku/45.html
+
+[p1] 1 法第二百十三条第一項第二号に規定する法務省令で定めるものは、次に掲げる者とする。
+[p1-i1] 一 株主総会に現物出資財産の価額の決定に関する議案を提案した取締役
+[p1-i2] 二 前号の議案の提案の決定に同意した取締役（取締役会設置会社の取締役を除く。）
+[p1-i3] 三 第一号の議案の提案が取締役会の決議に基づいて行われたときは、当該取締役会の決議に賛成した取締役

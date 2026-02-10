@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 523 / title: 第五百二十三条（清算人の公平誠実義務）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/523.html
+
+[p1] 1 特別清算が開始された場合には、清算人は、債権者、清算株式会社及び株主に対し、公平かつ誠実に清算事務を行う義務を負う。

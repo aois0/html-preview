@@ -1,0 +1,8 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 643 / title: 第六百四十三条（解散した持分会社の合併等の制限）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/643.html
+
+[p1] 1 持分会社が解散した場合には、当該持分会社は、次に掲げる行為をすることができない。
+[p1-i1] 一 合併（合併により当該持分会社が存続する場合に限る。）
+[p1-i2] 二 吸収分割による他の会社がその事業に関して有する権利義務の全部又は一部の承継

@@ -1,0 +1,7 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 885 / title: 第八百八十五条（公告）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/885.html
+
+[p1] 1 この節の規定による公告は、官報に掲載してする。
+[p2] 2 前項の公告は、掲載があった日の翌日に、その効力を生ずる。

@@ -1,0 +1,7 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 800 / title: 第八百条
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/800.html
+
+[p1] 1 船舶所有者が第七百九十八条の案の作成を怠ったときは、管海官庁は、船員の請求により、船舶所有者に対し、その案の作成を命ずることができる。
+[p2] 2 船舶所有者が前項の規定による命令に従わないときは、管海官庁は、自ら第七百九十七条第四項の規定による決定をすることができる。

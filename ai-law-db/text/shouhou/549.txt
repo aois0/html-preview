@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 549 / title: 第五百四十九条
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/549.html
+
+[p1] 1 仲立人は、当事者の一方の氏名又は名称をその相手方に示さなかったときは、当該相手方に対して自ら履行をする責任を負う。

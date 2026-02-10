@@ -1,0 +1,7 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 1 / title: 第一条（趣旨等）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/1.html
+
+[p1] 1 商人の営業、商行為その他商事については、他の法律に特別の定めがあるものを除くほか、この法律の定めるところによる。
+[p2] 2 商事に関し、この法律に定めがない事項については商慣習に従い、商慣習がないときは、民法（明治二十九年法律第八十九号）の定めるところによる。

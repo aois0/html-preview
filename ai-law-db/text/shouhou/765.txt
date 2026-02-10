@@ -1,0 +1,7 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 765 / title: 第七百六十五条（数通の船荷証券を作成した場合における運送品の引渡し）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/765.html
+
+[p1] 1 陸揚港においては、運送人は、数通の船荷証券のうち一通の所持人が運送品の引渡しを請求したときであっても、その引渡しを拒むことができない。
+[p2] 2 陸揚港外においては、運送人は、船荷証券の全部の返還を受けなければ、運送品の引渡しをすることができない。

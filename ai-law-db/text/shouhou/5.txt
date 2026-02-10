@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 5 / title: 第五条（未成年者登記）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/5.html
+
+[p1] 1 未成年者が前条の営業を行うときは、その登記をしなければならない。

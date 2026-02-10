@@ -1,0 +1,7 @@
+law: 商法施行規則 (shouhou_kisoku)
+law_type: rule / law_num: 平成十四年法務省令第二十二号 / egov_id:  / as_of: 2025-12-27
+article: 3 / title: 第三条
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou_kisoku/3.html
+
+[p1] 1 商法第七条に規定する法務省令で定める財産の価額は、営業の用に供する財産につき最終の営業年度に係る貸借対照表（最終の営業年度がない場合にあっては、開業時における貸借対照表）に計上した額とする。
+[p2] 2 商法第七条に規定する法務省令で定める金額は、五十万円とする。

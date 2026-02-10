@@ -10,6 +10,7 @@
 # 例:
 # - 措置法66条の7 → .../text/sozei_tokubetsu/66-7.txt
 # - 措置令39条の14 → .../text/sozei_tokubetsu_seirei/39-14.txt
+# - 会社法2条 → .../text/kaishahou/2.txt
 #
 # 表記:
 # - 「第66条の7」→ "66-7"（「の」= "-"）
@@ -34,6 +35,12 @@
 # - sozei_tokubetsu : 租税特別措置法（措置法）
 # - sozei_tokubetsu_seirei : 租税特別措置法施行令（措置令）
 # - sozei_tokubetsu_kisoku : 租税特別措置法施行規則（措置規則）
+# - kaishahou : 会社法
+# - kaishahou_seirei : 会社法施行令
+# - kaishahou_kisoku : 会社法施行規則
+# - shouhou : 商法
+# - shouhou_sekouhou : 商法施行法
+# - shouhou_kisoku : 商法施行規則
 #
 # 3) 根拠リンクが必要なときだけ（任意）
 #   https://jplawdb.github.io/html-preview/ai-law-db/enhanced/{law_code}/{article}.html

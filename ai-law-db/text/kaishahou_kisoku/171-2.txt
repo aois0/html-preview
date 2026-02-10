@@ -1,0 +1,9 @@
+law: 会社法施行規則 (kaishahou_kisoku)
+law_type: rule / law_num: 平成十八年法務省令第十二号 / egov_id:  / as_of: 2025-12-27
+article: 171-2 / title: 第百七十一条の二（社債管理補助者の資格）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou_kisoku/171-2.html
+
+[p1] 1 法第七百十四条の三に規定する法務省令で定める者は、次に掲げる者とする。
+[p1-i1] 一 弁護士
+[p1-i2] 二 弁護士法人
+[p1-i3] 三 弁護士・外国法事務弁護士共同法人

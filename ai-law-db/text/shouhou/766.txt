@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 766 / title: 第七百六十六条
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/766.html
+
+[p1] 1 二人以上の船荷証券の所持人がある場合において、その一人が他の所持人より先に運送人から運送品の引渡しを受けたときは、当該他の所持人の船荷証券は、その効力を失う。

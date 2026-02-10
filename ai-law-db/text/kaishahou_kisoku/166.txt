@@ -1,0 +1,8 @@
+law: 会社法施行規則 (kaishahou_kisoku)
+law_type: rule / law_num: 平成十八年法務省令第十二号 / egov_id:  / as_of: 2025-12-27
+article: 166 / title: 第百六十六条（社債原簿記載事項）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou_kisoku/166.html
+
+[p1] 1 法第六百八十一条第七号に規定する法務省令で定める事項は、次に掲げる事項とする。
+[p1-i1] 一 募集社債と引換えにする金銭の払込みに代えて金銭以外の財産の給付があったときは、その財産の価額及び給付の日
+[p1-i2] 二 社債権者が募集社債と引換えにする金銭の払込みをする債務と会社に対する債権とを相殺したときは、その債権の額及び相殺をした日

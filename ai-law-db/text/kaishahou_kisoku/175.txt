@@ -1,0 +1,6 @@
+law: 会社法施行規則 (kaishahou_kisoku)
+law_type: rule / law_num: 平成十八年法務省令第十二号 / egov_id:  / as_of: 2025-12-27
+article: 175 / title: 第百七十五条（書面による議決権行使の期限）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou_kisoku/175.html
+
+[p1] 1 法第七百二十六条第二項に規定する法務省令で定める時は、第百七十二条第二号の行使の期限とする。

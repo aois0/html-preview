@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 605 / title: 第六百五条（寄託物に関する処分）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/605.html
+
+[p1] 1 倉荷証券が作成されたときは、寄託物に関する処分は、倉荷証券によってしなければならない。

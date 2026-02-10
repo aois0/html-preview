@@ -1,0 +1,8 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 801 / title: 第八百一条（救助料を請求することができない場合）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/801.html
+
+[p1] 1 次に掲げる場合には、救助者は、救助料を請求することができない。
+[p1-i1] 一 故意に海難を発生させたとき。
+[p1-i2] 二 正当な事由により救助を拒まれたにもかかわらず、救助したとき。

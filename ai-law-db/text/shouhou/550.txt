@@ -1,0 +1,7 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 550 / title: 第五百五十条（仲立人の報酬）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/550.html
+
+[p1] 1 仲立人は、第五百四十六条の手続を終了した後でなければ、報酬を請求することができない。
+[p2] 2 仲立人の報酬は、当事者双方が等しい割合で負担する。

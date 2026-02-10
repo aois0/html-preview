@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 663 / title: 第六百六十三条（出資の履行の請求）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/663.html
+
+[p1] 1 清算持分会社に現存する財産がその債務を完済するのに足りない場合において、その出資の全部又は一部を履行していない社員があるときは、当該出資に係る定款の定めにかかわらず、当該清算持分会社は、当該社員に出資させることができる。

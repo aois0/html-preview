@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 354 / title: 第三百五十四条（表見代表取締役）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/354.html
+
+[p1] 1 株式会社は、代表取締役以外の取締役に社長、副社長その他株式会社を代表する権限を有するものと認められる名称を付した場合には、当該取締役がした行為について、善意の第三者に対してその責任を負う。

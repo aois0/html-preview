@@ -1,0 +1,7 @@
+law: 会社法施行規則 (kaishahou_kisoku)
+law_type: rule / law_num: 平成十八年法務省令第十二号 / egov_id:  / as_of: 2025-12-27
+article: 147 / title: 第百四十七条（各清算事務年度に係る事務報告）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou_kisoku/147.html
+
+[p1] 1 法第四百九十四条第一項の規定により作成すべき事務報告は、清算に関する事務の執行の状況に係る重要な事項をその内容としなければならない。
+[p2] 2 法第四百九十四条第一項の規定により作成すべき事務報告の附属明細書は、事務報告の内容を補足する重要な事項をその内容としなければならない。

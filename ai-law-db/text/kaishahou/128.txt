@@ -1,0 +1,7 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 128 / title: 第百二十八条（株券発行会社の株式の譲渡）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/128.html
+
+[p1] 1 株券発行会社の株式の譲渡は、当該株式に係る株券を交付しなければ、その効力を生じない。 ただし、自己株式の処分による株式の譲渡については、この限りでない。
+[p2] 2 株券の発行前にした譲渡は、株券発行会社に対し、その効力を生じない。

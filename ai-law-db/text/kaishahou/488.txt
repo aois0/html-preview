@@ -1,0 +1,7 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 488 / title: 第四百八十八条（清算人及び監査役の連帯責任）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/488.html
+
+[p1] 1 清算人又は監査役が清算株式会社又は第三者に生じた損害を賠償する責任を負う場合において、他の清算人又は監査役も当該損害を賠償する責任を負うときは、これらの者は、連帯債務者とする。
+[p2] 2 前項の場合には、第四百三十条の規定は、適用しない。

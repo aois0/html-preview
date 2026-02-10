@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 791 / title: 第七百九十一条（非航海船との衝突等への準用）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/791.html
+
+[p1] 1 前三条の規定は、船舶と非航海船との事故について準用する。

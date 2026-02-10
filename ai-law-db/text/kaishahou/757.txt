@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 757 / title: 第七百五十七条（吸収分割契約の締結）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/757.html
+
+[p1] 1 会社（株式会社又は合同会社に限る。）は、吸収分割をすることができる。 この場合においては、当該会社がその事業に関して有する権利義務の全部又は一部を当該会社から承継する会社（以下この編において「吸収分割承継会社」という。）との間で、吸収分割契約を締結しなければならない。

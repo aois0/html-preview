@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 174 / title: 第百七十四条（相続人等に対する売渡しの請求に関する定款の定め）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/174.html
+
+[p1] 1 株式会社は、相続その他の一般承継により当該株式会社の株式（譲渡制限株式に限る。）を取得した者に対し、当該株式を当該株式会社に売り渡すことを請求することができる旨を定款で定めることができる。

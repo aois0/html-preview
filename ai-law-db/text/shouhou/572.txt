@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 572 / title: 第五百七十二条（危険物に関する通知義務）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/572.html
+
+[p1] 1 荷送人は、運送品が引火性、爆発性その他の危険性を有するものであるときは、その引渡しの前に、運送人に対し、その旨及び当該運送品の品名、性質その他の当該運送品の安全な運送に必要な情報を通知しなければならない。

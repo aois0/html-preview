@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 600 / title: 第六百条（倉荷証券の交付義務）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/600.html
+
+[p1] 1 倉庫営業者は、寄託者の請求により、寄託物の倉荷証券を交付しなければならない。

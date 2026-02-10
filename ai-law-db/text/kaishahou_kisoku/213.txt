@@ -1,0 +1,6 @@
+law: 会社法施行規則 (kaishahou_kisoku)
+law_type: rule / law_num: 平成十八年法務省令第十二号 / egov_id:  / as_of: 2025-12-27
+article: 213 / title: 第二百十三条（新設合併設立株式会社の事後開示事項）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou_kisoku/213.html
+
+[p1] 1 法第八百十五条第三項第一号に規定する法務省令で定める事項は、法第八百三条第一項の規定により新設合併消滅株式会社が備え置いた書面又は電磁的記録に記載又は記録がされた事項（新設合併契約の内容を除く。）とする。

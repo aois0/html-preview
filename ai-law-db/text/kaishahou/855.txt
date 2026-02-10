@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 855 / title: 第八百五十五条（被告）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/855.html
+
+[p1] 1 前条第一項の訴え（次条及び第九百三十七条第一項第一号ヌにおいて「株式会社の役員の解任の訴え」という。）については、当該株式会社及び前条第一項の役員を被告とする。

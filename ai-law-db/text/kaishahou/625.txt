@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 625 / title: 第六百二十五条
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/625.html
+
+[p1] 1 合同会社の債権者は、当該合同会社の営業時間内は、いつでも、その計算書類（作成した日から五年以内のものに限る。）について第六百十八条第一項各号に掲げる請求をすることができる。

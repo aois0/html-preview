@@ -1,0 +1,7 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 559 / title: 第五百五十九条（定義等）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/559.html
+
+[p1] 1 この章において「運送取扱人」とは、自己の名をもって物品運送の取次ぎをすることを業とする者をいう。
+[p2] 2 運送取扱人については、この章に別段の定めがある場合を除き、第五百五十一条に規定する問屋に関する規定を準用する。

@@ -1,0 +1,9 @@
+law: 会社法施行規則 (kaishahou_kisoku)
+law_type: rule / law_num: 平成十八年法務省令第十二号 / egov_id:  / as_of: 2025-12-27
+article: 92 / title: 第九十二条（事業譲渡等に係る契約の承認に関する議案）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou_kisoku/92.html
+
+[p1] 1 取締役が事業譲渡等に係る契約の承認に関する議案を提出する場合には、株主総会参考書類には、次に掲げる事項を記載しなければならない。
+[p1-i1] 一 当該事業譲渡等を行う理由
+[p1-i2] 二 当該事業譲渡等に係る契約の内容の概要
+[p1-i3] 三 当該契約に基づき当該株式会社が受け取る対価又は契約の相手方に交付する対価の算定の相当性に関する事項の概要

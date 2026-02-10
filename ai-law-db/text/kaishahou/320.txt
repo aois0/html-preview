@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 320 / title: 第三百二十条（株主総会への報告の省略）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/320.html
+
+[p1] 1 取締役が株主の全員に対して株主総会に報告すべき事項を通知した場合において、当該事項を株主総会に報告することを要しないことにつき株主の全員が書面又は電磁的記録により同意の意思表示をしたときは、当該事項の株主総会への報告があったものとみなす。

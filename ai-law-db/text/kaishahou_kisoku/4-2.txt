@@ -1,0 +1,6 @@
+law: 会社法施行規則 (kaishahou_kisoku)
+law_type: rule / law_num: 平成十八年法務省令第十二号 / egov_id:  / as_of: 2025-12-27
+article: 4-2 / title: 第四条の二（株式交付子会社）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou_kisoku/4-2.html
+
+[p1] 1 法第二条第三十二号の二に規定する法務省令で定めるものは、同条第三号に規定する会社が他の会社等の財務及び事業の方針の決定を支配している場合（第三条第三項第一号に掲げる場合に限る。）における当該他の会社等とする。
