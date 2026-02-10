@@ -1,0 +1,48 @@
+{
+  "as_of": "2025-12-27",
+  "base_url": "https://jplawdb.github.io/html-preview/ai-law-db",
+  "law_code": "shouhou_kisoku",
+  "law_title": "商法施行規則",
+  "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou_kisoku/index.html",
+  "articles": {
+    "1": {
+      "title": "目的"
+    },
+    "2": {
+      "title": "定義"
+    },
+    "3": {
+      "title": "第三条"
+    },
+    "4": {
+      "title": "通則"
+    },
+    "5": {
+      "title": "会計帳簿"
+    },
+    "6": {
+      "title": "貸借対照表の表示の原則"
+    },
+    "7": {
+      "title": "貸借対照表の作成"
+    },
+    "8": {
+      "title": "貸借対照表の区分"
+    },
+    "9": {
+      "title": "第九条"
+    },
+    "10": {
+      "title": "結約書等の作成"
+    },
+    "11": {
+      "title": "結約書等の交付等"
+    },
+    "12": {
+      "title": "書面に記載すべき事項の電磁的方法による提供の承諾等"
+    },
+    "13": {
+      "title": "電磁的方法"
+    }
+  }
+}

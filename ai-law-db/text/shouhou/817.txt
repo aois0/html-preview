@@ -1,0 +1,7 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 817 / title: 第八百十七条
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/817.html
+
+[p1] 1 保険者は、海難の救助又は共同海損の分担のため被保険者が支払うべき金額を塡補する責任を負う。
+[p2] 2 保険法第十九条の規定は、前項に規定する金額について準用する。 この場合において、同条中「てん補損害額」とあるのは、「商法（明治三十二年法律第四十八号）第八百十七条第一項に規定する金額」と読み替えるものとする。

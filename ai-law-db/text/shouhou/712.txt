@@ -1,0 +1,7 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 712 / title: 第七百十二条（航海継続のための積荷の使用）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/712.html
+
+[p1] 1 船長は、航海を継続するため必要があるときは、積荷を航海の用に供することができる。
+[p2] 2 第五百七十六条第一項及び第二項の規定は、前項の場合において船舶所有者が支払うべき償金の額について準用する。 この場合において、同条第一項中「引渡し」とあるのは、「陸揚げ」と読み替えるものとする。

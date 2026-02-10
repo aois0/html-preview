@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 554 / title: 第五百五十四条（問屋が委託者の指定した金額との差額を負担する場合の販売又は買入れの効力）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/554.html
+
+[p1] 1 問屋が委託者の指定した金額より低い価格で販売をし、又は高い価格で買入れをした場合において、自らその差額を負担するときは、その販売又は買入れは、委託者に対してその効力を生ずる。

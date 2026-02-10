@@ -1,0 +1,6 @@
+law: 商法施行法 (shouhou_sekouhou)
+law_type: act / law_num: 明治三十二年法律第四十九号 / egov_id: 132AC0000000049 / as_of: 2025-12-27
+article: 48 / title: 第四十八条
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou_sekouhou/48.html
+
+[p1] 1 商法第百六十三条第一項及ヒ第二項ノ規定ハ旧商法ノ規定ニ依リテ招集シタル創業総会ノ決議ニ之ヲ準用ス 但同条第二項ノ期間ハ商法施行前ニ決議ヲ為シタル場合ニ於テハ其施行ノ日ヨリ之ヲ起算ス

@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 714-2 / title: 第七百十四条の二（社債管理補助者の設置）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/714-2.html
+
+[p1] 1 会社は、第七百二条ただし書に規定する場合には、社債管理補助者を定め、社債権者のために、社債の管理の補助を行うことを委託することができる。 ただし、当該社債が担保付社債である場合は、この限りでない。

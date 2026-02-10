@@ -1,0 +1,7 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 315 / title: 第三百十五条（議長の権限）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/315.html
+
+[p1] 1 株主総会の議長は、当該株主総会の秩序を維持し、議事を整理する。
+[p2] 2 株主総会の議長は、その命令に従わない者その他当該株主総会の秩序を乱す者を退場させることができる。

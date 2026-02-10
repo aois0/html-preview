@@ -1,0 +1,6 @@
+law: 会社法施行規則 (kaishahou_kisoku)
+law_type: rule / law_num: 平成十八年法務省令第十二号 / egov_id:  / as_of: 2025-12-27
+article: 49 / title: 第四十九条（株券喪失登録者による抹消の申請）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou_kisoku/49.html
+
+[p1] 1 法第二百二十六条第一項の規定による申請は、当該申請をする株券喪失登録者の氏名又は名称及び住所並びに当該申請に係る株券喪失登録がされた株券の番号を明らかにしてしなければならない。

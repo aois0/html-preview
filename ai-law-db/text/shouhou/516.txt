@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 516 / title: 第五百十六条（債務の履行の場所）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/516.html
+
+[p1] 1 商行為によって生じた債務の履行をすべき場所がその行為の性質又は当事者の意思表示によって定まらないときは、特定物の引渡しはその行為の時にその物が存在した場所において、その他の債務の履行は債権者の現在の営業所（営業所がない場合にあっては、その住所）において、それぞれしなければならない。

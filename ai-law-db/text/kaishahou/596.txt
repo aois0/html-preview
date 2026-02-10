@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 596 / title: 第五百九十六条（業務を執行する社員の持分会社に対する損害賠償責任）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/596.html
+
+[p1] 1 業務を執行する社員は、その任務を怠ったときは、持分会社に対し、連帯して、これによって生じた損害を賠償する責任を負う。

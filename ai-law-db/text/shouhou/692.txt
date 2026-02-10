@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 692 / title: 第六百九十二条（共有に係る船舶の利用）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/692.html
+
+[p1] 1 船舶共有者の間においては、船舶の利用に関する事項は、各船舶共有者の持分の価格に従い、その過半数で決する。

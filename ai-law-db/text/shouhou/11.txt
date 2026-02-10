@@ -1,0 +1,7 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 11 / title: 第十一条（商号の選定）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/11.html
+
+[p1] 1 商人（会社及び外国会社を除く。以下この編において同じ。）は、その氏、氏名その他の名称をもってその商号とすることができる。
+[p2] 2 商人は、その商号の登記をすることができる。

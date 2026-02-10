@@ -1,0 +1,8 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 206 / title: 第二百六条（募集株式の引受け）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/206.html
+
+[p1] 1 次の各号に掲げる者は、当該各号に定める募集株式の数について募集株式の引受人となる。
+[p1-i1] 一 申込者 株式会社の割り当てた募集株式の数
+[p1-i2] 二 前条第一項の契約により募集株式の総数を引き受けた者 その者が引き受けた募集株式の数

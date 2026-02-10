@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 548 / title: 第五百四十八条（当事者の氏名等を相手方に示さない場合）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/548.html
+
+[p1] 1 当事者がその氏名又は名称を相手方に示してはならない旨を仲立人に命じたときは、仲立人は、結約書及び前条第二項の謄本にその氏名又は名称を記載することができない。

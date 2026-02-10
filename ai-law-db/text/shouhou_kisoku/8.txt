@@ -1,0 +1,10 @@
+law: 商法施行規則 (shouhou_kisoku)
+law_type: rule / law_num: 平成十四年法務省令第二十二号 / egov_id:  / as_of: 2025-12-27
+article: 8 / title: 第八条（貸借対照表の区分）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou_kisoku/8.html
+
+[p1] 1 貸借対照表は、次に掲げる部に区分して表示しなければならない。
+[p1-i1] 一 資産
+[p1-i2] 二 負債
+[p1-i3] 三 純資産
+[p2] 2 前項各号に掲げる部は、適当な項目に細分することができる。 この場合において、当該各項目については、資産、負債又は純資産を示す適当な名称を付さなければならない。

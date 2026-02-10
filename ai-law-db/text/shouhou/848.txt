@@ -1,0 +1,7 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 848 / title: 第八百四十八条（船舶抵当権と船舶先取特権等との競合）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/848.html
+
+[p1] 1 船舶の抵当権と船舶先取特権とが競合する場合には、船舶先取特権は、船舶の抵当権に優先する。
+[p2] 2 船舶の抵当権と先取特権（船舶先取特権を除く。）とが競合する場合には、船舶の抵当権は、民法第三百三十条第一項に規定する第一順位の先取特権と同順位とする。

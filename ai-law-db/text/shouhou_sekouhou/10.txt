@@ -1,0 +1,6 @@
+law: 商法施行法 (shouhou_sekouhou)
+law_type: act / law_num: 明治三十二年法律第四十九号 / egov_id: 132AC0000000049 / as_of: 2025-12-27
+article: 10 / title: 第十条
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou_sekouhou/10.html
+
+[p1] 1 商法施行前ニ設立ノ登記ヲ為シタル会社ノ社名ハ商法ノ規定ニ従ヒテ登記シタル商号ト同一ノ効力ヲ有ス

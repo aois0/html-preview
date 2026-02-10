@@ -1,0 +1,7 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 573 / title: 第五百七十三条（運送賃）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/573.html
+
+[p1] 1 運送賃は、到達地における運送品の引渡しと同時に、支払わなければならない。
+[p2] 2 運送品がその性質又は瑕疵かしによって滅失し、又は損傷したときは、荷送人は、運送賃の支払を拒むことができない。

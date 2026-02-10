@@ -1,0 +1,21 @@
+{
+  "as_of": "2025-12-27",
+  "base_url": "https://jplawdb.github.io/html-preview/ai-law-db",
+  "law_code": "kaishahou_seirei",
+  "law_title": "会社法施行令",
+  "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou_seirei/index.html",
+  "articles": {
+    "1": {
+      "title": "書面に記載すべき事項等の電磁的方法による提供の承諾等"
+    },
+    "2": {
+      "title": "電磁的方法による通知の承諾等"
+    },
+    "3": {
+      "title": "電子公告調査機関の登録及びその更新の申請に係る手数料の額"
+    },
+    "4": {
+      "title": "電子公告調査機関の登録の有効期間"
+    }
+  }
+}

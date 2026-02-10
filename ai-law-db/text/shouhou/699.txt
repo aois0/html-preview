@@ -1,0 +1,7 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 699 / title: 第六百九十九条（船舶管理人の義務）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/699.html
+
+[p1] 1 船舶管理人は、その職務に関する帳簿を備え、船舶の利用に関する一切の事項を記載しなければならない。
+[p2] 2 船舶管理人は、一定の期間ごとに、船舶の利用に関する計算を行い、各船舶共有者の承認を求めなければならない。

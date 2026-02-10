@@ -1,6 +1,6 @@
-# AI向け 日本税法（主要税法）データセット
+# AI向け 日本法（主要税法＋会社法・商法）データセット
 
-> 主要税法の条文を、AIが読みやすい最小HTML（1条=1ページ）で提供します。
+> 主要税法に加え、会社法・商法の条文を、AIが読みやすい最小HTML（1条=1ページ）で提供します。
 
 ## 目的
 
@@ -77,6 +77,12 @@
 - sozei_tokubetsu : 租税特別措置法
 - sozei_tokubetsu_seirei : 租税特別措置法施行令
 - sozei_tokubetsu_kisoku : 租税特別措置法施行規則
+- kaishahou : 会社法
+- kaishahou_seirei : 会社法施行令
+- kaishahou_kisoku : 会社法施行規則
+- shouhou : 商法
+- shouhou_sekouhou : 商法施行法
+- shouhou_kisoku : 商法施行規則
 
 ## データ出典
 

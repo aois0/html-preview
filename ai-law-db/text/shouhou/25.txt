@@ -1,0 +1,7 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 25 / title: 第二十五条（ある種類又は特定の事項の委任を受けた使用人）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/25.html
+
+[p1] 1 商人の営業に関するある種類又は特定の事項の委任を受けた使用人は、当該事項に関する一切の裁判外の行為をする権限を有する。
+[p2] 2 前項の使用人の代理権に加えた制限は、善意の第三者に対抗することができない。

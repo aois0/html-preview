@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 710 / title: 第七百十条（属具目録の備置き）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/710.html
+
+[p1] 1 船長は、属具目録を船内に備え置かなければならない。

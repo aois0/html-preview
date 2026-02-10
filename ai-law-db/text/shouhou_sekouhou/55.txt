@@ -1,0 +1,7 @@
+law: 商法施行法 (shouhou_sekouhou)
+law_type: act / law_num: 明治三十二年法律第四十九号 / egov_id: 132AC0000000049 / as_of: 2025-12-27
+article: 55 / title: 第五十五条
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou_sekouhou/55.html
+
+[p1] 1 商法施行前ニ設立シタル株式会社ニ於テ株式ノ金額カ商法第百四十五条第二項ノ規定ニ反スルモ旧商法及ヒ旧商法施行条例ノ規定ニ反セサル場合ニ於テハ定款ノ定ムル所ニ依ルコトヲ得商法施行後ニ新株ヲ発行スルトキ亦同シ
+[p2] 2 前項ノ規定ハ商法施行後ニ株式ノ金額ヲ変更スル場合ニハ之ヲ適用セス

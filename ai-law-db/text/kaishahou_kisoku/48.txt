@@ -1,0 +1,6 @@
+law: 会社法施行規則 (kaishahou_kisoku)
+law_type: rule / law_num: 平成十八年法務省令第十二号 / egov_id:  / as_of: 2025-12-27
+article: 48 / title: 第四十八条（株券を所持する者による抹消の申請）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou_kisoku/48.html
+
+[p1] 1 法第二百二十五条第一項の規定による申請は、株券を提示し、当該申請をする者の氏名又は名称及び住所を明らかにしてしなければならない。

@@ -1,0 +1,7 @@
+law: 商法施行法 (shouhou_sekouhou)
+law_type: act / law_num: 明治三十二年法律第四十九号 / egov_id: 132AC0000000049 / as_of: 2025-12-27
+article: 118 / title: 第百十八条
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou_sekouhou/118.html
+
+[p1] 1 商法施行前ニ設定シタル質権ノ実行ニ付テハ別段ノ意思表示アリタル場合ヲ除ク外民事執行法（昭和五十四年法律第四号）ノ規定ヲ適用ス 但取引所ノ相場アル有価証券其他ノ商品ニ在リテハ執行官ハ取引所ニ於テ之ヲ売却スルコトヲ得
+[p2] 2 前項ノ規定ハ留置権者カ其留置物ヲ売却スル場合ニ之ヲ準用ス

@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 873 / title: 第八百七十三条（原裁判の執行停止）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/873.html
+
+[p1] 1 第八百七十二条の即時抗告は、執行停止の効力を有する。 ただし、第八百七十条第一項第一号から第四号まで及び第八号に掲げる裁判に対するものについては、この限りでない。

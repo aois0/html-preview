@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 837 / title: 第八百三十七条（弁論等の必要的併合）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/837.html
+
+[p1] 1 同一の請求を目的とする会社の組織に関する訴えに係る訴訟が数個同時に係属するときは、その弁論及び裁判は、併合してしなければならない。

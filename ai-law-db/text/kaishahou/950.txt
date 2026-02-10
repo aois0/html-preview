@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 950 / title: 第九百五十条（業務の休廃止）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/950.html
+
+[p1] 1 調査機関は、電子公告調査の業務の全部又は一部を休止し、又は廃止しようとするときは、法務省令で定めるところにより、あらかじめ、その旨を法務大臣に届け出なければならない。

@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 504 / title: 第五百四条（商行為の代理）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/504.html
+
+[p1] 1 商行為の代理人が本人のためにすることを示さないでこれをした場合であっても、その行為は、本人に対してその効力を生ずる。 ただし、相手方が、代理人が本人のためにすることを知らなかったときは、代理人に対して履行の請求をすることを妨げない。

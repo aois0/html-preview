@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 544 / title: 第五百四十四条（当事者のために給付を受けることの制限）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/544.html
+
+[p1] 1 仲立人は、その媒介により成立させた行為について、当事者のために支払その他の給付を受けることができない。 ただし、当事者の別段の意思表示又は別段の慣習があるときは、この限りでない。

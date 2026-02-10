@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 410 / title: 第四百十条（招集権者）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/410.html
+
+[p1] 1 指名委員会等は、当該指名委員会等の各委員が招集する。

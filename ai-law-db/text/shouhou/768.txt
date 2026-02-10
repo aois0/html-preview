@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 768 / title: 第七百六十八条（船荷証券が作成された場合の特則）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/768.html
+
+[p1] 1 船荷証券が作成された場合における前編第八章第二節の規定の適用については、第五百八十条中「荷送人」とあるのは、「船荷証券の所持人」とし、第五百八十一条、第五百八十二条第二項及び第五百八十七条ただし書の規定は、適用しない。

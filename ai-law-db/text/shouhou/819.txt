@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 819 / title: 第八百十九条（貨物保険の保険価額）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/819.html
+
+[p1] 1 貨物を保険の目的物とする海上保険契約（以下この章において「貨物保険契約」という。）については、その船積みがされた地及び時における当該貨物の価額、運送賃並びに保険に関する費用の合計額を保険価額とする。

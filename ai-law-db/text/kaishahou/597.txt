@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 597 / title: 第五百九十七条（業務を執行する有限責任社員の第三者に対する損害賠償責任）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/597.html
+
+[p1] 1 業務を執行する有限責任社員がその職務を行うについて悪意又は重大な過失があったときは、当該有限責任社員は、連帯して、これによって第三者に生じた損害を賠償する責任を負う。

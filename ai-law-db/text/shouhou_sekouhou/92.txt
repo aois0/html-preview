@@ -1,0 +1,6 @@
+law: 商法施行法 (shouhou_sekouhou)
+law_type: act / law_num: 明治三十二年法律第四十九号 / egov_id: 132AC0000000049 / as_of: 2025-12-27
+article: 92 / title: 第九十二条
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou_sekouhou/92.html
+
+[p1] 1 商法施行前ニ日本ニ支店ヲ設ケタル外国会社ニ付テハ勅令ヲ以テ特別ノ規程ヲ設クルコトヲ得商法施行前ニ外国人カ日本ニ於テ設立シタル会社及ヒ組合ニ付キ亦同シ

@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 846-8 / title: 第八百四十六条の八（無効の判決の効力）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/846-8.html
+
+[p1] 1 売渡株式等の取得の無効の訴えに係る請求を認容する判決が確定したときは、当該判決において無効とされた売渡株式等の全部の取得は、将来に向かってその効力を失う。

@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 687 / title: 第六百八十七条（船舶所有権の移転の対抗要件）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/687.html
+
+[p1] 1 船舶所有権の移転は、その登記をし、かつ、船舶国籍証書に記載しなければ、第三者に対抗することができない。

@@ -1,0 +1,7 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 228 / title: 第二百二十八条（株券の無効）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/228.html
+
+[p1] 1 株券喪失登録（抹消されたものを除く。）がされた株券は、株券喪失登録日の翌日から起算して一年を経過した日に無効となる。
+[p2] 2 前項の規定により株券が無効となった場合には、株券発行会社は、当該株券についての株券喪失登録者に対し、株券を再発行しなければならない。

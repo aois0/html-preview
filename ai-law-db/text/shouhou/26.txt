@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 26 / title: 第二十六条（物品の販売等を目的とする店舗の使用人）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/26.html
+
+[p1] 1 物品の販売等（販売、賃貸その他これらに類する行為をいう。以下この条において同じ。）を目的とする店舗の使用人は、その店舗に在る物品の販売等をする権限を有するものとみなす。 ただし、相手方が悪意であったときは、この限りでない。

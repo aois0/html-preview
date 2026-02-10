@@ -1,0 +1,6 @@
+law: 会社法施行規則 (kaishahou_kisoku)
+law_type: rule / law_num: 平成十八年法務省令第十二号 / egov_id:  / as_of: 2025-12-27
+article: 185 / title: 第百八十五条（持分等）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou_kisoku/185.html
+
+[p1] 1 法第七百八十三条第二項に規定する法務省令で定めるものは、権利の移転又は行使に債務者その他第三者の承諾を要するもの（持分会社の持分及び譲渡制限株式を除く。）とする。

@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 700 / title: 第七百条（船舶共有者の持分の売渡しの請求等）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/700.html
+
+[p1] 1 船舶共有者の持分の移転又は国籍の喪失により船舶が日本の国籍を喪失することとなるときは、他の船舶共有者は、相当の対価でその持分を売り渡すことを請求し、又は競売に付することができる。

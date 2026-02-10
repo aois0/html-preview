@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 300 / title: 第三百条（招集手続の省略）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/300.html
+
+[p1] 1 前条の規定にかかわらず、株主総会は、株主の全員の同意があるときは、招集の手続を経ることなく開催することができる。 ただし、第二百九十八条第一項第三号又は第四号に掲げる事項を定めた場合は、この限りでない。

@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 594 / title: 第五百九十四条（運送人の債権の消滅時効）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/594.html
+
+[p1] 1 第五百八十六条の規定は、旅客運送について準用する。

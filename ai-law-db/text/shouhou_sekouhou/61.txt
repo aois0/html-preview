@@ -1,0 +1,6 @@
+law: 商法施行法 (shouhou_sekouhou)
+law_type: act / law_num: 明治三十二年法律第四十九号 / egov_id: 132AC0000000049 / as_of: 2025-12-27
+article: 61 / title: 第六十一条
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou_sekouhou/61.html
+
+[p1] 1 旧商法施行前ニ設立シタル株式会社ニ於テハ株主ノ議決権ノ制限カ商法第百六十二条ノ規定ニ反スルモ定款ノ定ムル所ニ依ルコトヲ得 但商法施行後ニ其制限ヲ変更スル場合ハ此限ニ在ラス

@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 746 / title: 第七百四十六条（積荷を航海の用に供した場合の運送賃）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/746.html
+
+[p1] 1 運送人は、船長が第七百十二条第一項の規定により積荷を航海の用に供したときにおいても、運送賃の全額を請求することができる。

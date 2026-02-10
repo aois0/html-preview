@@ -1,0 +1,7 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 503 / title: 第五百三条（附属的商行為）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/503.html
+
+[p1] 1 商人がその営業のためにする行為は、商行為とする。
+[p2] 2 商人の行為は、その営業のためにするものと推定する。

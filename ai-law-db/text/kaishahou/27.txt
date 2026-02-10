@@ -1,0 +1,11 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 27 / title: 第二十七条（定款の記載又は記録事項）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/27.html
+
+[p1] 1 株式会社の定款には、次に掲げる事項を記載し、又は記録しなければならない。
+[p1-i1] 一 目的
+[p1-i2] 二 商号
+[p1-i3] 三 本店の所在地
+[p1-i4] 四 設立に際して出資される財産の価額又はその最低額
+[p1-i5] 五 発起人の氏名又は名称及び住所

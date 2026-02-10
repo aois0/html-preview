@@ -1,0 +1,8 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 621 / title: 第六百二十一条（利益の配当）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/621.html
+
+[p1] 1 社員は、持分会社に対し、利益の配当を請求することができる。
+[p2] 2 持分会社は、利益の配当を請求する方法その他の利益の配当に関する事項を定款で定めることができる。
+[p3] 3 社員の持分の差押えは、利益の配当を請求する権利に対しても、その効力を有する。

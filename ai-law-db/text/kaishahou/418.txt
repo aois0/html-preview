@@ -1,0 +1,8 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 418 / title: 第四百十八条（執行役の権限）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/418.html
+
+[p1] 1 執行役は、次に掲げる職務を行う。
+[p1-i1] 一 第四百十六条第四項の規定による取締役会の決議によって委任を受けた指名委員会等設置会社の業務の執行の決定
+[p1-i2] 二 指名委員会等設置会社の業務の執行

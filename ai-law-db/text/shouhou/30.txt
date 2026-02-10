@@ -1,0 +1,7 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 30 / title: 第三十条（契約の解除）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/30.html
+
+[p1] 1 商人及び代理商は、契約の期間を定めなかったときは、二箇月前までに予告し、その契約を解除することができる。
+[p2] 2 前項の規定にかかわらず、やむを得ない事由があるときは、商人及び代理商は、いつでもその契約を解除することができる。

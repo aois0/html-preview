@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 8 / title: 第八条（通則）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/8.html
+
+[p1] 1 この編の規定により登記すべき事項は、当事者の申請により、商業登記法（昭和三十八年法律第百二十五号）の定めるところに従い、商業登記簿にこれを登記する。

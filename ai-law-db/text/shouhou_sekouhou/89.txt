@@ -1,0 +1,6 @@
+law: 商法施行法 (shouhou_sekouhou)
+law_type: act / law_num: 明治三十二年法律第四十九号 / egov_id: 132AC0000000049 / as_of: 2025-12-27
+article: 89 / title: 第八十九条
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou_sekouhou/89.html
+
+[p1] 1 商法施行前ニ旧商法第二百四十二条ノ規定ニ依リテ選任シタル代人ハ商法施行ノ後ト雖モ其権限ヲ保有ス

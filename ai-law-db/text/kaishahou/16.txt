@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 16 / title: 第十六条（通知義務）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/16.html
+
+[p1] 1 代理商（会社のためにその平常の事業の部類に属する取引の代理又は媒介をする者で、その会社の使用人でないものをいう。以下この節において同じ。）は、取引の代理又は媒介をしたときは、遅滞なく、会社に対して、その旨の通知を発しなければならない。

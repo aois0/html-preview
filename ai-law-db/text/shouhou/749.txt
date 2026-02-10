@@ -1,0 +1,7 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 749 / title: 第七百四十九条（第三者による船積み）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/749.html
+
+[p1] 1 船長は、第三者から運送品を受け取るべき場合において、その第三者を確知することができないとき、又はその第三者が運送品の船積みをしないときは、直ちに傭船者に対してその旨の通知を発しなければならない。
+[p2] 2 前項の場合において、傭船者は、船積期間内に限り、運送品の船積みをすることができる。

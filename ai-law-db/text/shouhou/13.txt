@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 13 / title: 第十三条（過料）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/13.html
+
+[p1] 1 前条第一項の規定に違反した者は、百万円以下の過料に処する。

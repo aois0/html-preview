@@ -1,0 +1,7 @@
+law: 商法施行法 (shouhou_sekouhou)
+law_type: act / law_num: 明治三十二年法律第四十九号 / egov_id: 132AC0000000049 / as_of: 2025-12-27
+article: 19 / title: 第十九条
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou_sekouhou/19.html
+
+[p1] 1 商法施行前ヨリ支配人又ハ支配役ト称スル者カ商法第三十条ニ定メタル権限ヲ有セサルトキハ主人ハ商法施行ノ日ヨリ三个月内ニ其名称ヲ改ムルコトヲ要ス
+[p2] 2 主人カ前項ノ期間内ニ支配人又ハ支配役ノ名称ヲ改メサリシトキハ其者ハ商法第三十条ニ定メタル権限ヲ有スルモノト看做ス

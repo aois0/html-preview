@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 533 / title: 第五百三十三条（調査委員の選任等）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/533.html
+
+[p1] 1 裁判所は、調査命令をする場合には、当該調査命令において、一人又は二人以上の調査委員を選任し、調査委員が調査すべき事項及び裁判所に対して調査の結果の報告をすべき期間を定めなければならない。
