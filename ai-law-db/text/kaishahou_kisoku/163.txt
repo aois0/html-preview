@@ -1,0 +1,9 @@
+law: 会社法施行規則 (kaishahou_kisoku)
+law_type: rule / law_num: 平成十八年法務省令第十二号 / egov_id:  / as_of: 2025-12-27
+article: 163 / title: 第百六十三条（申込みをしようとする者に対して通知すべき事項）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou_kisoku/163.html
+
+[p1] 1 法第六百七十七条第一項第三号に規定する法務省令で定める事項は、次に掲げる事項とする。
+[p1-i1] 一 社債管理者を定めたときは、その名称及び住所
+[p1-i2] 二 社債管理補助者を定めたときは、その氏名又は名称及び住所
+[p1-i3] 三 社債原簿管理人を定めたときは、その氏名又は名称及び住所

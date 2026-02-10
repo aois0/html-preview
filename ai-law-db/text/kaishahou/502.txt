@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 502 / title: 第五百二条（債務の弁済前における残余財産の分配の制限）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/502.html
+
+[p1] 1 清算株式会社は、当該清算株式会社の債務を弁済した後でなければ、その財産を株主に分配することができない。 ただし、その存否又は額について争いのある債権に係る債務についてその弁済をするために必要と認められる財産を留保した場合は、この限りでない。

@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 820 / title: 第八百二十条（告知義務）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/820.html
+
+[p1] 1 保険契約者又は被保険者になる者は、海上保険契約の締結に際し、海上保険契約により塡補することとされる損害の発生の可能性（以下この章において「危険」という。）に関する重要な事項について、事実の告知をしなければならない。

@@ -1,0 +1,7 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 509 / title: 第五百九条（契約の申込みを受けた者の諾否通知義務）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/509.html
+
+[p1] 1 商人が平常取引をする者からその営業の部類に属する契約の申込みを受けたときは、遅滞なく、契約の申込みに対する諾否の通知を発しなければならない。
+[p2] 2 商人が前項の通知を発することを怠ったときは、その商人は、同項の契約の申込みを承諾したものとみなす。

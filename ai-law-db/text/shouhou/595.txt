@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 595 / title: 第五百九十五条（受寄者の注意義務）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/595.html
+
+[p1] 1 商人がその営業の範囲内において寄託を受けた場合には、報酬を受けないときであっても、善良な管理者の注意をもって、寄託物を保管しなければならない。

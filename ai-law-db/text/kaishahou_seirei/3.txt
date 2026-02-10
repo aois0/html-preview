@@ -1,0 +1,6 @@
+law: 会社法施行令 (kaishahou_seirei)
+law_type: order / law_num: 平成十七年政令第三百六十四号 / egov_id:  / as_of: 2025-12-27
+article: 3 / title: 第三条（電子公告調査機関の登録及びその更新の申請に係る手数料の額）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou_seirei/3.html
+
+[p1] 1 法第九百四十二条第二項（法第九百四十五条第二項において準用する場合を含む。）の政令で定める手数料の額は、四十二万六百円とする。

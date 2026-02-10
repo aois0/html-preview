@@ -43,6 +43,17 @@
     "措置令": "sozei_tokubetsu_seirei",
     "租税特別措置法施行規則": "sozei_tokubetsu_kisoku",
     "租特規則": "sozei_tokubetsu_kisoku",
-    "措置規則": "sozei_tokubetsu_kisoku"
+    "措置規則": "sozei_tokubetsu_kisoku",
+    "会社法": "kaishahou",
+    "会法": "kaishahou",
+    "会社法施行令": "kaishahou_seirei",
+    "会社令": "kaishahou_seirei",
+    "会社法施行規則": "kaishahou_kisoku",
+    "会社規則": "kaishahou_kisoku",
+    "商法": "shouhou",
+    "商法施行法": "shouhou_sekouhou",
+    "商施行法": "shouhou_sekouhou",
+    "商法施行規則": "shouhou_kisoku",
+    "商法規則": "shouhou_kisoku"
   }
 }

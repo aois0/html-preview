@@ -1,0 +1,8 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 196 / title: 第百九十六条（株主に対する通知の省略）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/196.html
+
+[p1] 1 株式会社が株主に対してする通知又は催告が五年以上継続して到達しない場合には、株式会社は、当該株主に対する通知又は催告をすることを要しない。
+[p2] 2 前項の場合には、同項の株主に対する株式会社の義務の履行を行う場所は、株式会社の住所地とする。
+[p3] 3 前二項の規定は、登録株式質権者について準用する。

@@ -1,0 +1,7 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 699 / title: 第六百九十九条（社債券の喪失）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/699.html
+
+[p1] 1 社債券は、非訟事件手続法第百条に規定する公示催告手続によって無効とすることができる。
+[p2] 2 社債券を喪失した者は、非訟事件手続法第百六条第一項に規定する除権決定を得た後でなければ、その再発行を請求することができない。

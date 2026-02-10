@@ -1,0 +1,7 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 897 / title: 第八百九十七条（担保権者が処分をすべき期間の指定）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/897.html
+
+[p1] 1 第五百三十九条第一項の申立てについての裁判に対しては、即時抗告をすることができる。
+[p2] 2 前項の裁判及び同項の即時抗告についての裁判があった場合には、その裁判書を当事者に送達しなければならない。

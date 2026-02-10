@@ -1,0 +1,13 @@
+law: 会社法施行規則 (kaishahou_kisoku)
+law_type: rule / law_num: 平成十八年法務省令第十二号 / egov_id:  / as_of: 2025-12-27
+article: 159 / title: 第百五十九条
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou_kisoku/159.html
+
+[p1] 1 次に掲げる規定に規定する法務省令で定めるべき事項は、会社計算規則の定めるところによる。
+[p1-i1] 一 法第六百十五条第一項
+[p1-i2] 二 法第六百十七条第一項及び第二項
+[p1-i3] 三 法第六百二十条第二項
+[p1-i4] 四 法第六百二十三条第一項
+[p1-i5] 五 法第六百二十六条第四項第四号
+[p1-i6] 六 法第六百三十一条第一項
+[p1-i7] 七 法第六百三十五条第二項、第三項及び第五項

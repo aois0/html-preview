@@ -1,0 +1,7 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 945 / title: 第九百四十五条（登録の更新）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/945.html
+
+[p1] 1 登録は、三年を下らない政令で定める期間ごとにその更新を受けなければ、その期間の経過によって、その効力を失う。
+[p2] 2 前三条の規定は、前項の登録の更新について準用する。

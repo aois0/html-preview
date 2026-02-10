@@ -1,0 +1,7 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 555 / title: 第五百五十五条（介入権）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/555.html
+
+[p1] 1 問屋は、取引所の相場がある物品の販売又は買入れの委託を受けたときは、自ら買主又は売主となることができる。 この場合において、売買の代価は、問屋が買主又は売主となったことの通知を発した時における取引所の相場によって定める。
+[p2] 2 前項の場合においても、問屋は、委託者に対して報酬を請求することができる。

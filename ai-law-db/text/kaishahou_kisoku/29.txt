@@ -1,0 +1,6 @@
+law: 会社法施行規則 (kaishahou_kisoku)
+law_type: rule / law_num: 平成十八年法務省令第十二号 / egov_id:  / as_of: 2025-12-27
+article: 29 / title: 第二十九条（議案の追加の請求の時期）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou_kisoku/29.html
+
+[p1] 1 法第百六十条第三項に規定する法務省令で定める時は、法第百五十六条第一項の株主総会の日の五日（定款でこれを下回る期間を定めた場合にあっては、その期間）前とする。 ただし、前条各号に掲げる場合には、三日（定款でこれを下回る期間を定めた場合にあっては、その期間）前とする。

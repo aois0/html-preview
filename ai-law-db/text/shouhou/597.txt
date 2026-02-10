@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 597 / title: 第五百九十七条（高価品の特則）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/597.html
+
+[p1] 1 貨幣、有価証券その他の高価品については、客がその種類及び価額を通知してこれを場屋営業者に寄託した場合を除き、場屋営業者は、その滅失又は損傷によって生じた損害を賠償する責任を負わない。

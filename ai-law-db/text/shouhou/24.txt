@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 24 / title: 第二十四条（表見支配人）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/24.html
+
+[p1] 1 商人の営業所の営業の主任者であることを示す名称を付した使用人は、当該営業所の営業に関し、一切の裁判外の行為をする権限を有するものとみなす。 ただし、相手方が悪意であったときは、この限りでない。

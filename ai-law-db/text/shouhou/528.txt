@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 528 / title: 第五百二十八条
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/528.html
+
+[p1] 1 前条の規定は、売主から買主に引き渡した物品が注文した物品と異なる場合における当該売主から買主に引き渡した物品及び売主から買主に引き渡した物品の数量が注文した数量を超過した場合における当該超過した部分の数量の物品について準用する。

@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 530 / title: 第五百三十条（商業証券に係る債権債務に関する特則）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/530.html
+
+[p1] 1 手形その他の商業証券から生じた債権及び債務を交互計算に組み入れた場合において、その商業証券の債務者が弁済をしないときは、当事者は、その債務に関する項目を交互計算から除外することができる。

@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 826 / title: 第八百二十六条（官庁等の法務大臣に対する通知義務）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/826.html
+
+[p1] 1 裁判所その他の官庁、検察官又は吏員は、その職務上第八百二十四条第一項の申立て又は同項第三号の警告をすべき事由があることを知ったときは、法務大臣にその旨を通知しなければならない。

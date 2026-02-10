@@ -19,6 +19,12 @@
     {"code":"kokuzei_tsusoku_kisoku","title":"国税通則法施行規則","egov_id":"337M50000040028","type":"rule"},
     {"code":"sozei_tokubetsu","title":"租税特別措置法","egov_id":"332AC0000000026","type":"act"},
     {"code":"sozei_tokubetsu_seirei","title":"租税特別措置法施行令","egov_id":"332CO0000000043","type":"order"},
-    {"code":"sozei_tokubetsu_kisoku","title":"租税特別措置法施行規則","egov_id":"332M50000040015","type":"rule"}
+    {"code":"sozei_tokubetsu_kisoku","title":"租税特別措置法施行規則","egov_id":"332M50000040015","type":"rule"},
+    {"code":"kaishahou","title":"会社法","egov_id":"417AC0000000086","type":"act"},
+    {"code":"kaishahou_seirei","title":"会社法施行令","egov_id":"417CO0000000364","type":"order"},
+    {"code":"kaishahou_kisoku","title":"会社法施行規則","egov_id":"418M60000010012","type":"rule"},
+    {"code":"shouhou","title":"商法","egov_id":"132AC0000000048","type":"act"},
+    {"code":"shouhou_sekouhou","title":"商法施行法","egov_id":"132AC0000000049","type":"act"},
+    {"code":"shouhou_kisoku","title":"商法施行規則","egov_id":"414M60000010022","type":"rule"}
   ]
 }

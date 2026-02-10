@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 330 / title: 第三百三十条（株式会社と役員等との関係）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/330.html
+
+[p1] 1 株式会社と役員及び会計監査人との関係は、委任に関する規定に従う。

@@ -1,0 +1,7 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 508 / title: 第五百八条（隔地者間における契約の申込み）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/508.html
+
+[p1] 1 商人である隔地者の間において承諾の期間を定めないで契約の申込みを受けた者が相当の期間内に承諾の通知を発しなかったときは、その申込みは、その効力を失う。
+[p2] 2 民法第五百二十四条の規定は、前項の場合について準用する。

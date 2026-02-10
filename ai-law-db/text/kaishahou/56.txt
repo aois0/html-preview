@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 56 / title: 第五十六条（株式会社不成立の場合の責任）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/56.html
+
+[p1] 1 株式会社が成立しなかったときは、発起人は、連帯して、株式会社の設立に関してした行為についてその責任を負い、株式会社の設立に関して支出した費用を負担する。

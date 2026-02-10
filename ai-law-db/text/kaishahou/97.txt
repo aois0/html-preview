@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 97 / title: 第九十七条（設立時発行株式の引受けの取消し）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/97.html
+
+[p1] 1 創立総会において、第二十八条各号に掲げる事項を変更する定款の変更の決議をした場合には、当該創立総会においてその変更に反対した設立時株主は、当該決議後二週間以内に限り、その設立時発行株式の引受けに係る意思表示を取り消すことができる。

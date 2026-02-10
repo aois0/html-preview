@@ -1,0 +1,7 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 561 / title: 第五百六十一条（運送取扱人の報酬）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/561.html
+
+[p1] 1 運送取扱人は、運送品を運送人に引き渡したときは、直ちにその報酬を請求することができる。
+[p2] 2 運送取扱契約で運送賃の額を定めたときは、運送取扱人は、特約がなければ、別に報酬を請求することができない。

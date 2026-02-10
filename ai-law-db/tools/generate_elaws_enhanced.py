@@ -81,24 +81,50 @@ def related_laws(law_code: str) -> list[tuple[str, str]]:
     """
     Returns [(relative_index_path, label), ...]
     """
+    # NOTE: Not every act has both an enforcement order (施行令) and rule (施行規則).
+    # We only link to related laws that we actually publish (LAW_ID_MAP).
     law_type = infer_law_type(law_code)
-    if law_type == "act":
-        return [
-            (f"../{law_code}_seirei/index.html", "施行令"),
-            (f"../{law_code}_kisoku/index.html", "施行規則"),
-        ]
-    if law_type == "order":
+
+    def exists(code: str) -> bool:
+        return code in LAW_ID_MAP
+
+    if law_code.endswith("_seirei"):
         base = law_code[: -len("_seirei")]
-        return [
-            (f"../{base}/index.html", "本則"),
-            (f"../{base}_kisoku/index.html", "施行規則"),
-        ]
-    if law_type == "rule":
+        rel: list[tuple[str, str]] = [(f"../{base}/index.html", "本則")]
+        if exists(f"{base}_kisoku"):
+            rel.append((f"../{base}_kisoku/index.html", "施行規則"))
+        if exists(f"{base}_sekouhou"):
+            rel.append((f"../{base}_sekouhou/index.html", "施行法"))
+        return rel
+
+    if law_code.endswith("_kisoku"):
         base = law_code[: -len("_kisoku")]
-        return [
-            (f"../{base}/index.html", "本則"),
-            (f"../{base}_seirei/index.html", "施行令"),
-        ]
+        rel = [(f"../{base}/index.html", "本則")]
+        if exists(f"{base}_seirei"):
+            rel.append((f"../{base}_seirei/index.html", "施行令"))
+        if exists(f"{base}_sekouhou"):
+            rel.append((f"../{base}_sekouhou/index.html", "施行法"))
+        return rel
+
+    if law_code.endswith("_sekouhou"):
+        base = law_code[: -len("_sekouhou")]
+        rel = [(f"../{base}/index.html", "本則")]
+        if exists(f"{base}_seirei"):
+            rel.append((f"../{base}_seirei/index.html", "施行令"))
+        if exists(f"{base}_kisoku"):
+            rel.append((f"../{base}_kisoku/index.html", "施行規則"))
+        return rel
+
+    if law_type == "act":
+        rel: list[tuple[str, str]] = []
+        if exists(f"{law_code}_seirei"):
+            rel.append((f"../{law_code}_seirei/index.html", "施行令"))
+        if exists(f"{law_code}_kisoku"):
+            rel.append((f"../{law_code}_kisoku/index.html", "施行規則"))
+        if exists(f"{law_code}_sekouhou"):
+            rel.append((f"../{law_code}_sekouhou/index.html", "施行法"))
+        return rel
+
     return []
 
 
@@ -496,6 +522,14 @@ LAW_ID_MAP: dict[str, str] = {
     "sozei_tokubetsu": "332AC0000000026",
     "sozei_tokubetsu_seirei": "332CO0000000043",
     "sozei_tokubetsu_kisoku": "332M50000040015",
+    # 会社法
+    "kaishahou": "417AC0000000086",
+    "kaishahou_seirei": "417CO0000000364",
+    "kaishahou_kisoku": "418M60000010012",
+    # 商法
+    "shouhou": "132AC0000000048",
+    "shouhou_sekouhou": "132AC0000000049",
+    "shouhou_kisoku": "414M60000010022",
 }
 
 

@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 774-6 / title: 第七百七十四条の六（株式交付子会社の株式の譲渡しの申込み及び株式交付親会社が譲り受ける株式交付子会社の株式の割当てに関する特則）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/774-6.html
+
+[p1] 1 前二条の規定は、株式交付子会社の株式を譲り渡そうとする者が、株式交付親会社が株式交付に際して譲り受ける株式交付子会社の株式の総数の譲渡しを行う契約を締結する場合には、適用しない。

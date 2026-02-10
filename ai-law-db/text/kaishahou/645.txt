@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 645 / title: 第六百四十五条（清算持分会社の能力）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/645.html
+
+[p1] 1 前条の規定により清算をする持分会社（以下「清算持分会社」という。）は、清算の目的の範囲内において、清算が結了するまではなお存続するものとみなす。

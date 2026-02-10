@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 399-4 / title: 第三百九十九条の四（取締役会への報告義務）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/399-4.html
+
+[p1] 1 監査等委員は、取締役が不正の行為をし、若しくは当該行為をするおそれがあると認めるとき、又は法令若しくは定款に違反する事実若しくは著しく不当な事実があると認めるときは、遅滞なく、その旨を取締役会に報告しなければならない。

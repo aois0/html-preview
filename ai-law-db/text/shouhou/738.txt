@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 738 / title: 第七百三十八条（船長に対する必要書類の交付）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/738.html
+
+[p1] 1 荷送人は、船積期間内に、運送に必要な書類を船長に交付しなければならない。

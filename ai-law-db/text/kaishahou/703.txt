@@ -1,0 +1,9 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 703 / title: 第七百三条（社債管理者の資格）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/703.html
+
+[p1] 1 社債管理者は、次に掲げる者でなければならない。
+[p1-i1] 一 銀行
+[p1-i2] 二 信託会社
+[p1-i3] 三 前二号に掲げるもののほか、これらに準ずるものとして法務省令で定める者

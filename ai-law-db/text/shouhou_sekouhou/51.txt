@@ -1,0 +1,6 @@
+law: 商法施行法 (shouhou_sekouhou)
+law_type: act / law_num: 明治三十二年法律第四十九号 / egov_id: 132AC0000000049 / as_of: 2025-12-27
+article: 51 / title: 第五十一条
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou_sekouhou/51.html
+
+[p1] 1 商法施行前ニ本店ノ所在地ニ於テ設立ノ登記ヲ為シタル株式会社ニシテ其定款ニ商法第百二十条第一号乃至第七号ニ掲ケタル事項ヲ定メサルモノハ商法施行ノ日ヨリ三个月内ニ其定款ヲ変更スルコトヲ要ス

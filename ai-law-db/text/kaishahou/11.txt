@@ -1,0 +1,8 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 11 / title: 第十一条（支配人の代理権）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/11.html
+
+[p1] 1 支配人は、会社に代わってその事業に関する一切の裁判上又は裁判外の行為をする権限を有する。
+[p2] 2 支配人は、他の使用人を選任し、又は解任することができる。
+[p3] 3 支配人の代理権に加えた制限は、善意の第三者に対抗することができない。

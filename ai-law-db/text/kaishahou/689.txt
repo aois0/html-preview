@@ -1,0 +1,7 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 689 / title: 第六百八十九条（権利の推定等）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/689.html
+
+[p1] 1 社債券の占有者は、当該社債券に係る社債についての権利を適法に有するものと推定する。
+[p2] 2 社債券の交付を受けた者は、当該社債券に係る社債についての権利を取得する。 ただし、その者に悪意又は重大な過失があるときは、この限りでない。

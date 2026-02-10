@@ -1,0 +1,7 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 511 / title: 第五百十一条（特別清算開始の申立て）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/511.html
+
+[p1] 1 債権者、清算人、監査役又は株主は、特別清算開始の申立てをすることができる。
+[p2] 2 清算株式会社に債務超過の疑いがあるときは、清算人は、特別清算開始の申立てをしなければならない。

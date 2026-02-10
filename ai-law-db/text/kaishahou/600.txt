@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 600 / title: 第六百条（持分会社を代表する社員等の行為についての損害賠償責任）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/600.html
+
+[p1] 1 持分会社は、持分会社を代表する社員その他の代表者がその職務を行うについて第三者に加えた損害を賠償する責任を負う。

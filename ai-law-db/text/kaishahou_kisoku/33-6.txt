@@ -1,0 +1,6 @@
+law: 会社法施行規則 (kaishahou_kisoku)
+law_type: rule / law_num: 平成十八年法務省令第十二号 / egov_id:  / as_of: 2025-12-27
+article: 33-6 / title: 第三十三条の六（売渡株主等に対して通知すべき事項）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou_kisoku/33-6.html
+
+[p1] 1 法第百七十九条の四第一項第一号に規定する法務省令で定める事項は、前条第一項第二号に掲げる事項とする。

@@ -1,0 +1,6 @@
+law: 会社法施行規則 (kaishahou_kisoku)
+law_type: rule / law_num: 平成十八年法務省令第十二号 / egov_id:  / as_of: 2025-12-27
+article: 42-4 / title: 第四十二条の四（株主に対する通知を要しない場合における反対通知の期間の初日）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou_kisoku/42-4.html
+
+[p1] 1 法第二百六条の二第四項に規定する法務省令で定める日は、株式会社が金融商品取引法の規定に基づき前条の書類の届出又は提出（当該書類に記載すべき事項を同法の規定に基づき電磁的方法により提供した場合にあっては、その提供）をした日とする。

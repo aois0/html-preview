@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 742 / title: 第七百四十二条（運送品の競売）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/742.html
+
+[p1] 1 運送人は、荷受人に運送品を引き渡した後においても、運送賃等の支払を受けるため、その運送品を競売に付することができる。 ただし、第三者がその占有を取得したときは、この限りでない。

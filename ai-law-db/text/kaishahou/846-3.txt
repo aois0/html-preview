@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 846-3 / title: 第八百四十六条の三（被告）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/846-3.html
+
+[p1] 1 売渡株式等の取得の無効の訴えについては、特別支配株主を被告とする。

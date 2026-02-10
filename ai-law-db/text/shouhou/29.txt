@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 29 / title: 第二十九条（通知を受ける権限）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/29.html
+
+[p1] 1 物品の販売又はその媒介の委託を受けた代理商は、第五百二十六条第二項の通知その他売買に関する通知を受ける権限を有する。

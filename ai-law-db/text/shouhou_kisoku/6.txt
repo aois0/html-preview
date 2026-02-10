@@ -1,0 +1,7 @@
+law: 商法施行規則 (shouhou_kisoku)
+law_type: rule / law_num: 平成十四年法務省令第二十二号 / egov_id:  / as_of: 2025-12-27
+article: 6 / title: 第六条（貸借対照表の表示の原則）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou_kisoku/6.html
+
+[p1] 1 貸借対照表に係る事項の金額は、一円単位、千円単位又は百万円単位をもって表示するものとする。
+[p2] 2 貸借対照表は、日本語をもって表示するものとする。 ただし、その他の言語をもって表示することが不当でない場合は、この限りでない。

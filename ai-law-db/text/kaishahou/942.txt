@@ -1,0 +1,7 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 942 / title: 第九百四十二条（登録）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/942.html
+
+[p1] 1 前条の登録（以下この節において単に「登録」という。）は、同条の規定による調査（以下この節において「電子公告調査」という。）を行おうとする者の申請により行う。
+[p2] 2 登録を受けようとする者は、実費を勘案して政令で定める額の手数料を納付しなければならない。

@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 531 / title: 第五百三十一条（交互計算の期間）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/531.html
+
+[p1] 1 当事者が相殺をすべき期間を定めなかったときは、その期間は、六箇月とする。

@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 748 / title: 第七百四十八条（合併契約の締結）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/748.html
+
+[p1] 1 会社は、他の会社と合併をすることができる。 この場合においては、合併をする会社は、合併契約を締結しなければならない。

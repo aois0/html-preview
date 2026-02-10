@@ -53,7 +53,18 @@
     "措置令": "sozei_tokubetsu_seirei",
     "租税特別措置法施行規則": "sozei_tokubetsu_kisoku",
     "租特規則": "sozei_tokubetsu_kisoku",
-    "措置規則": "sozei_tokubetsu_kisoku"
+    "措置規則": "sozei_tokubetsu_kisoku",
+    "会社法": "kaishahou",
+    "会法": "kaishahou",
+    "会社法施行令": "kaishahou_seirei",
+    "会社令": "kaishahou_seirei",
+    "会社法施行規則": "kaishahou_kisoku",
+    "会社規則": "kaishahou_kisoku",
+    "商法": "shouhou",
+    "商法施行法": "shouhou_sekouhou",
+    "商施行法": "shouhou_sekouhou",
+    "商法施行規則": "shouhou_kisoku",
+    "商法規則": "shouhou_kisoku"
   },
   "laws": {
     "hojinzei": {
@@ -85,6 +96,36 @@
       "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/hojinzei_seirei/index.html",
       "articles_count": 432,
       "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_lite/hojinzei_seirei.json"
+    },
+    "kaishahou": {
+      "title": "会社法",
+      "type": "act",
+      "law_num": "平成十七年法律第八十六号",
+      "egov_id": "417AC0000000086",
+      "as_of": "2025-12-27",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/index.html",
+      "articles_count": 1078,
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_lite/kaishahou.json"
+    },
+    "kaishahou_kisoku": {
+      "title": "会社法施行規則",
+      "type": "rule",
+      "law_num": "平成十八年法務省令第十二号",
+      "egov_id": null,
+      "as_of": "2025-12-27",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou_kisoku/index.html",
+      "articles_count": 303,
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_lite/kaishahou_kisoku.json"
+    },
+    "kaishahou_seirei": {
+      "title": "会社法施行令",
+      "type": "order",
+      "law_num": "平成十七年政令第三百六十四号",
+      "egov_id": null,
+      "as_of": "2025-12-27",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou_seirei/index.html",
+      "articles_count": 4,
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_lite/kaishahou_seirei.json"
     },
     "kokuzei_tsusoku": {
       "title": "国税通則法",
@@ -175,6 +216,36 @@
       "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei_seirei/index.html",
       "articles_count": 463,
       "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_lite/shotokuzei_seirei.json"
+    },
+    "shouhou": {
+      "title": "商法",
+      "type": "act",
+      "law_num": "明治三十二年法律第四十八号",
+      "egov_id": "132AC0000000048",
+      "as_of": "2025-12-27",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/index.html",
+      "articles_count": 264,
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_lite/shouhou.json"
+    },
+    "shouhou_kisoku": {
+      "title": "商法施行規則",
+      "type": "rule",
+      "law_num": "平成十四年法務省令第二十二号",
+      "egov_id": null,
+      "as_of": "2025-12-27",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou_kisoku/index.html",
+      "articles_count": 13,
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_lite/shouhou_kisoku.json"
+    },
+    "shouhou_sekouhou": {
+      "title": "商法施行法",
+      "type": "act",
+      "law_num": "明治三十二年法律第四十九号",
+      "egov_id": "132AC0000000049",
+      "as_of": "2025-12-27",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou_sekouhou/index.html",
+      "articles_count": 113,
+      "resolve_lite_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_lite/shouhou_sekouhou.json"
     },
     "sozei_tokubetsu": {
       "title": "租税特別措置法",
