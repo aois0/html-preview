@@ -1,0 +1,7 @@
+law: 商法施行法 (shouhou_sekouhou)
+law_type: act / law_num: 明治三十二年法律第四十九号 / egov_id: 132AC0000000049 / as_of: 2025-12-27
+article: 38 / title: 第三十八条
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou_sekouhou/38.html
+
+[p1] 1 商法施行前ニ設立シタル合資会社ニハ旧商法ノ規定ヲ適用ス
+[p2] 2 第二十三条、第二十五条乃至第三十二条及ヒ前三条ノ規定ハ前項ノ会社ニ之ヲ準用ス

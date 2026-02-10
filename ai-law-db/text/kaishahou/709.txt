@@ -1,0 +1,7 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 709 / title: 第七百九条（二以上の社債管理者がある場合の特則）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/709.html
+
+[p1] 1 二以上の社債管理者があるときは、これらの者が共同してその権限に属する行為をしなければならない。
+[p2] 2 前項に規定する場合において、社債管理者が第七百五条第一項の弁済を受けたときは、社債管理者は、社債権者に対し、連帯して、当該弁済の額を支払う義務を負う。

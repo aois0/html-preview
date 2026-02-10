@@ -1,0 +1,6 @@
+law: 商法施行規則 (shouhou_kisoku)
+law_type: rule / law_num: 平成十四年法務省令第二十二号 / egov_id:  / as_of: 2025-12-27
+article: 1 / title: 第一条（目的）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou_kisoku/1.html
+
+[p1] 1 この規則は、商法（明治三十二年法律第四十八号）の委任に基づく事項を定めることを目的とする。

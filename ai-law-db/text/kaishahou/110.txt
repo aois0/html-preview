@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 110 / title: 第百十条（定款の変更の手続の特則）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/110.html
+
+[p1] 1 定款を変更してその発行する全部の株式の内容として第百七条第一項第三号に掲げる事項についての定款の定めを設け、又は当該事項についての定款の変更（当該事項についての定款の定めを廃止するものを除く。）をしようとする場合（株式会社が種類株式発行会社である場合を除く。）には、株主全員の同意を得なければならない。

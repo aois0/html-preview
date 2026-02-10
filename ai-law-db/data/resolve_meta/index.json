@@ -24,6 +24,27 @@
       "articles_count": 432,
       "resolve_meta_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta/hojinzei_seirei.json"
     },
+    "kaishahou": {
+      "title": "会社法",
+      "as_of": "2025-12-27",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/index.html",
+      "articles_count": 1078,
+      "resolve_meta_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta/kaishahou.json"
+    },
+    "kaishahou_kisoku": {
+      "title": "会社法施行規則",
+      "as_of": "2025-12-27",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou_kisoku/index.html",
+      "articles_count": 303,
+      "resolve_meta_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta/kaishahou_kisoku.json"
+    },
+    "kaishahou_seirei": {
+      "title": "会社法施行令",
+      "as_of": "2025-12-27",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou_seirei/index.html",
+      "articles_count": 4,
+      "resolve_meta_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta/kaishahou_seirei.json"
+    },
     "kokuzei_tsusoku": {
       "title": "国税通則法",
       "as_of": "2025-12-27",
@@ -86,6 +107,27 @@
       "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shotokuzei_seirei/index.html",
       "articles_count": 463,
       "resolve_meta_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta/shotokuzei_seirei.json"
+    },
+    "shouhou": {
+      "title": "商法",
+      "as_of": "2025-12-27",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/index.html",
+      "articles_count": 264,
+      "resolve_meta_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta/shouhou.json"
+    },
+    "shouhou_kisoku": {
+      "title": "商法施行規則",
+      "as_of": "2025-12-27",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou_kisoku/index.html",
+      "articles_count": 13,
+      "resolve_meta_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta/shouhou_kisoku.json"
+    },
+    "shouhou_sekouhou": {
+      "title": "商法施行法",
+      "as_of": "2025-12-27",
+      "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou_sekouhou/index.html",
+      "articles_count": 113,
+      "resolve_meta_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta/shouhou_sekouhou.json"
     },
     "sozei_tokubetsu": {
       "title": "租税特別措置法",

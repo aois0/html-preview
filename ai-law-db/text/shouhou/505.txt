@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 505 / title: 第五百五条（商行為の委任）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/505.html
+
+[p1] 1 商行為の受任者は、委任の本旨に反しない範囲内において、委任を受けていない行為をすることができる。

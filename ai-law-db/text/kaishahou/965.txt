@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 965 / title: 第九百六十五条（預合いの罪）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/965.html
+
+[p1] 1 第九百六十条第一項第一号から第七号までに掲げる者が、株式の発行に係る払込みを仮装するため預合いを行ったときは、五年以下の拘禁刑若しくは五百万円以下の罰金に処し、又はこれを併科する。 預合いに応じた者も、同様とする。

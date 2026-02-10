@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 930:932 / title: 第九百三十条から第九百三十二条まで
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/930:932.html
+
+[p1] 1 削除

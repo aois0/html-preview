@@ -1,0 +1,7 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 667 / title: 第六百六十七条
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/667.html
+
+[p1] 1 清算持分会社は、清算事務が終了したときは、遅滞なく、清算に係る計算をして、社員の承認を受けなければならない。
+[p2] 2 社員が一箇月以内に前項の計算について異議を述べなかったときは、社員は、当該計算の承認をしたものとみなす。 ただし、清算人の職務の執行に不正の行為があったときは、この限りでない。

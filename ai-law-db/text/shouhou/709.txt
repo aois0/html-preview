@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 709 / title: 第七百九条（船長による職務代行者の選任）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/709.html
+
+[p1] 1 船長は、やむを得ない事由により自ら船舶を指揮することができない場合には、法令に別段の定めがあるときを除き、自己に代わって船長の職務を行うべき者を選任することができる。 この場合において、船長は、船舶所有者に対してその選任についての責任を負う。

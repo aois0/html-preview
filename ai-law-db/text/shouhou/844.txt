@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 844 / title: 第八百四十四条（船舶先取特権と他の先取特権との競合）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/844.html
+
+[p1] 1 船舶先取特権と他の先取特権とが競合する場合には、船舶先取特権は、他の先取特権に優先する。

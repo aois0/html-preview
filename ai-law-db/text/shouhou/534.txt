@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 534 / title: 第五百三十四条（交互計算の解除）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/534.html
+
+[p1] 1 各当事者は、いつでも交互計算の解除をすることができる。 この場合において、交互計算の解除をしたときは、直ちに、計算を閉鎖して、残額の支払を請求することができる。

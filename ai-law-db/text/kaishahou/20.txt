@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 20 / title: 第二十条（代理商の留置権）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/20.html
+
+[p1] 1 代理商は、取引の代理又は媒介をしたことによって生じた債権の弁済期が到来しているときは、その弁済を受けるまでは、会社のために当該代理商が占有する物又は有価証券を留置することができる。 ただし、当事者が別段の意思表示をしたときは、この限りでない。

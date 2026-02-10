@@ -1,0 +1,7 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 146 / title: 第百四十六条（株式の質入れ）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/146.html
+
+[p1] 1 株主は、その有する株式に質権を設定することができる。
+[p2] 2 株券発行会社の株式の質入れは、当該株式に係る株券を交付しなければ、その効力を生じない。

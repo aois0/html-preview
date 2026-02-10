@@ -1,0 +1,34 @@
+{
+  "as_of": "2025-12-27",
+  "base_url": "https://jplawdb.github.io/html-preview/ai-law-db",
+  "enhanced_base_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced",
+  "law_code": "shouhou_kisoku",
+  "law_title": "商法施行規則",
+  "law_type": "rule",
+  "law_num": "平成十四年法務省令第二十二号",
+  "egov_id": null,
+  "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou_kisoku/index.html",
+  "article_url_template": "enhanced/{law_code}/{article}.html",
+  "text_url_template": "text/{law_code}/{article}.txt",
+  "anchors": {
+    "paragraph": "#p{paragraph}",
+    "item": "#p{paragraph}-i{item_index}",
+    "subitem": "#p{paragraph}-i{item_index}-s{subitem_path}"
+  },
+  "articles": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13"
+  ],
+  "resolve_meta_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta/shouhou_kisoku.json"
+}

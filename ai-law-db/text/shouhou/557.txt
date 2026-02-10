@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 557 / title: 第五百五十七条（代理商に関する規定の準用）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/557.html
+
+[p1] 1 第二十七条及び第三十一条の規定は、問屋について準用する。

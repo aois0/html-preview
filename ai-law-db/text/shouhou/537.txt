@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 537 / title: 第五百三十七条（自己の氏名等の使用を許諾した匿名組合員の責任）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/537.html
+
+[p1] 1 匿名組合員は、自己の氏若しくは氏名を営業者の商号中に用いること又は自己の商号を営業者の商号として使用することを許諾したときは、その使用以後に生じた債務については、営業者と連帯してこれを弁済する責任を負う。

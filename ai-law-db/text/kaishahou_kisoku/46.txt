@@ -1,0 +1,6 @@
+law: 会社法施行規則 (kaishahou_kisoku)
+law_type: rule / law_num: 平成十八年法務省令第十二号 / egov_id:  / as_of: 2025-12-27
+article: 46 / title: 第四十六条
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou_kisoku/46.html
+
+[p1] 1 法第二百十三条第一項第三号に規定する法務省令で定めるものは、取締役会に現物出資財産の価額の決定に関する議案を提案した取締役及び執行役とする。

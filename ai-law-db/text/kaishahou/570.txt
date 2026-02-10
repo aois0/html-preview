@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 570 / title: 第五百七十条（協定の効力発生の時期）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/570.html
+
+[p1] 1 協定は、認可の決定の確定により、その効力を生ずる。

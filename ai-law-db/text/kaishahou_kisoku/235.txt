@@ -1,0 +1,6 @@
+law: 会社法施行規則 (kaishahou_kisoku)
+law_type: rule / law_num: 平成十八年法務省令第十二号 / egov_id:  / as_of: 2025-12-27
+article: 235 / title: 第二百三十五条（縦覧等の方法）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou_kisoku/235.html
+
+[p1] 1 民間事業者等が、電子文書法第五条第一項の規定に基づき、前条各号に掲げる縦覧等に代えて当該縦覧等をすべき書面に係る電磁的記録の縦覧等を行う場合は、民間事業者等の事務所に備え置く電子計算機の映像面に当該縦覧等に係る事項を表示する方法又は電磁的記録に記録されている当該事項を記載した書面を縦覧等に供する方法により行わなければならない。

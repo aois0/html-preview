@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 545 / title: 第五百四十五条（見本保管義務）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/545.html
+
+[p1] 1 仲立人がその媒介に係る行為について見本を受け取ったときは、その行為が完了するまで、これを保管しなければならない。

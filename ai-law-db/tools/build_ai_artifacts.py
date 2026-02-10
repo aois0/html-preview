@@ -28,6 +28,7 @@ import shutil
 from typing import Any, Iterable
 
 from bs4 import BeautifulSoup
+from xml.sax.saxutils import escape
 
 
 SITE_BASE_URL = "https://jplawdb.github.io/html-preview/ai-law-db"
@@ -89,6 +90,14 @@ def extract_subject_title(heading: str) -> str:
     if m:
         return clean_ws(m.group(1))
     return h
+
+
+def build_sitemap(urls: Iterable[str]) -> str:
+    lines = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for u in urls:
+        lines.append(f"  <url><loc>{escape(u)}</loc></url>")
+    lines.append("</urlset>")
+    return "\n".join(lines) + "\n"
 
 
 def iter_article_files(law_dir: Path) -> list[Path]:
@@ -155,6 +164,21 @@ def build_law_aliases() -> dict[str, str]:
         "租税特別措置法施行規則": "sozei_tokubetsu_kisoku",
         "租特規則": "sozei_tokubetsu_kisoku",
         "措置規則": "sozei_tokubetsu_kisoku",
+        # 会社法
+        "会社法": "kaishahou",
+        "会法": "kaishahou",
+        # 会社法施行令/規則
+        "会社法施行令": "kaishahou_seirei",
+        "会社令": "kaishahou_seirei",
+        "会社法施行規則": "kaishahou_kisoku",
+        "会社規則": "kaishahou_kisoku",
+        # 商法
+        "商法": "shouhou",
+        # 商法施行法/規則
+        "商法施行法": "shouhou_sekouhou",
+        "商施行法": "shouhou_sekouhou",
+        "商法施行規則": "shouhou_kisoku",
+        "商法規則": "shouhou_kisoku",
     }
 
 
@@ -651,6 +675,51 @@ def main() -> None:
         + "\n",
         encoding="utf-8",
     )
+
+    # Sitemap (HTML + text + key JSON artifacts).
+    sitemap_urls: list[str] = [
+        f"{SITE_BASE_URL}/",
+        f"{SITE_BASE_URL}/index.html",
+        f"{SITE_BASE_URL}/llms.txt",
+        f"{SITE_BASE_URL}/quickstart.txt",
+        f"{SITE_BASE_URL}/data/laws.json",
+        f"{SITE_BASE_URL}/data/law_aliases.json",
+        f"{SITE_BASE_URL}/data/resolve.json",
+        f"{SITE_BASE_URL}/data/resolve.min.json",
+        f"{SITE_BASE_URL}/data/resolve_lite.json",
+        f"{SITE_BASE_URL}/data/{RESOLVE_LITE_DIR_NAME}/index.json",
+        f"{SITE_BASE_URL}/data/{RESOLVE_META_DIR_NAME}/index.json",
+        f"{SITE_BASE_URL}/data/{RESOLVE_META_CORP_DIR_NAME}/index.json",
+    ]
+
+    for law_code, law in sorted(laws.items(), key=lambda kv: kv[0]):
+        articles_obj = law.get("articles") or {}
+        articles = sorted(list(articles_obj.keys()), key=sort_article_key)
+
+        sitemap_urls.append(f"{SITE_ENHANCED_BASE_URL}/{law_code}/index.html")
+        sitemap_urls.append(f"{SITE_BASE_URL}/data/{RESOLVE_LITE_DIR_NAME}/{law_code}.json")
+        sitemap_urls.append(f"{SITE_BASE_URL}/data/{RESOLVE_META_DIR_NAME}/{law_code}.json")
+        sitemap_urls.append(f"{SITE_BASE_URL}/data/chunks/{law_code}.jsonl")
+
+        if law_code in CORP_LAW_CODES:
+            sitemap_urls.append(f"{SITE_BASE_URL}/data/{RESOLVE_META_CORP_DIR_NAME}/{law_code}/index.json")
+            buckets = {bucket_for_article(a) for a in articles}
+            for b in sorted(buckets, key=sort_bucket_key):
+                sitemap_urls.append(f"{SITE_BASE_URL}/data/{RESOLVE_META_CORP_DIR_NAME}/{law_code}/{b}.json")
+
+        for a in articles:
+            sitemap_urls.append(f"{SITE_ENHANCED_BASE_URL}/{law_code}/{a}.html")
+            sitemap_urls.append(f"{SITE_BASE_URL}/text/{law_code}/{a}.txt")
+
+    # Dedupe while preserving order.
+    seen: set[str] = set()
+    deduped: list[str] = []
+    for u in sitemap_urls:
+        if u in seen:
+            continue
+        seen.add(u)
+        deduped.append(u)
+    (base_dir / "sitemap.xml").write_text(build_sitemap(deduped), encoding="utf-8")
 
 
 if __name__ == "__main__":

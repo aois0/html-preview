@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 798 / title: 第七百九十八条（救助料の割合の案）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/798.html
+
+[p1] 1 船舶所有者が前条第四項の規定により救助料の割合を決定するには、航海を終了するまでにその案を作成し、これを船員に示さなければならない。

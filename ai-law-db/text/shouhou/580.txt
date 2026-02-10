@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 580 / title: 第五百八十条（荷送人による運送の中止等の請求）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/580.html
+
+[p1] 1 荷送人は、運送人に対し、運送の中止、荷受人の変更その他の処分を請求することができる。 この場合において、運送人は、既にした運送の割合に応じた運送賃、付随の費用、立替金及びその処分によって生じた費用の弁済を請求することができる。

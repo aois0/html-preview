@@ -1,0 +1,7 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 796 / title: 第七百九十六条（救助料の割合等）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/796.html
+
+[p1] 1 数人が共同して救助した場合において、各救助者に支払うべき救助料の割合については、第七百九十三条の規定を準用する。
+[p2] 2 第七百九十二条第一項に規定する場合において、人命の救助に従事した者があるときは、その者も、前項の規定に従って救助料の支払を受けることができる。

@@ -1,0 +1,6 @@
+law: 会社法施行規則 (kaishahou_kisoku)
+law_type: rule / law_num: 平成十八年法務省令第十二号 / egov_id:  / as_of: 2025-12-27
+article: 152 / title: 第百五十二条（総資産額）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou_kisoku/152.html
+
+[p1] 1 法第五百三十六条第一項第二号及び第三号イに規定する法務省令で定める方法は、法第四百九十二条第一項の規定により作成した貸借対照表の資産の部に計上した額を総資産額とする方法とする。

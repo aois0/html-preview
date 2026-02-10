@@ -1,0 +1,8 @@
+law: 商法施行規則 (shouhou_kisoku)
+law_type: rule / law_num: 平成十四年法務省令第二十二号 / egov_id:  / as_of: 2025-12-27
+article: 4 / title: 第四条（通則）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou_kisoku/4.html
+
+[p1] 1 商法第十九条第二項の規定により作成すべき商業帳簿については、この章の定めるところによる。
+[p2] 2 この章の用語の解釈及び規定の適用に関しては、一般に公正妥当と認められる会計の基準その他の会計の慣行を斟酌しなければならない。
+[p3] 3 商業帳簿は、書面又は電磁的記録をもって作成及び保存をすることができる。

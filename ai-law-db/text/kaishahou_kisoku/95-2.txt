@@ -1,0 +1,6 @@
+law: 会社法施行規則 (kaishahou_kisoku)
+law_type: rule / law_num: 平成十八年法務省令第十二号 / egov_id:  / as_of: 2025-12-27
+article: 95-2 / title: 第九十五条の二（電子提供措置）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou_kisoku/95-2.html
+
+[p1] 1 法第三百二十五条の二に規定する法務省令で定めるものは、第二百二十二条第一項第一号ロに掲げる方法のうち、インターネットに接続された自動公衆送信装置を使用するものによる措置とする。

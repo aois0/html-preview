@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 812 / title: 第八百十二条（共同海損の分担に基づく債権の消滅時効）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/812.html
+
+[p1] 1 共同海損の分担に基づく債権は、その計算が終了した時から一年間行使しないときは、時効によって消滅する。

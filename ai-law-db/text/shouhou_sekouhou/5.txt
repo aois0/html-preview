@@ -1,0 +1,6 @@
+law: 商法施行法 (shouhou_sekouhou)
+law_type: act / law_num: 明治三十二年法律第四十九号 / egov_id: 132AC0000000049 / as_of: 2025-12-27
+article: 5 / title: 第五条
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou_sekouhou/5.html
+
+[p1] 1 商法施行前ニ会社ノ無限責任社員ト為ルコトヲ許サレタル未成年者又ハ妻ハ商法施行ノ日ヨリ其会社ノ業務ニ関シ之ヲ能力者ト看做ス

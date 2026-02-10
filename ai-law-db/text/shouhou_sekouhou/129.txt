@@ -1,0 +1,6 @@
+law: 商法施行法 (shouhou_sekouhou)
+law_type: act / law_num: 明治三十二年法律第四十九号 / egov_id: 132AC0000000049 / as_of: 2025-12-27
+article: 129 / title: 第百二十九条
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou_sekouhou/129.html
+
+[p1] 1 商法第五百五十八条乃至第五百六十八条及ヒ第五百七十条乃至第五百七十四条ノ規定ハ商法施行ノ日ヨリ其施行前ニ選任シタル船長ニモ亦之ヲ適用ス

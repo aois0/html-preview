@@ -1,0 +1,8 @@
+law: 商法施行法 (shouhou_sekouhou)
+law_type: act / law_num: 明治三十二年法律第四十九号 / egov_id: 132AC0000000049 / as_of: 2025-12-27
+article: 75 / title: 第七十五条
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou_sekouhou/75.html
+
+[p1] 1 商法第百九十六条ノ規定ハ商法施行前ニ本店ノ所在地ニ於テ設立ノ登記ヲ為シタル株式会社カ其登記後二年以上開業ヲ為スコト能ハサルモノト認ムル場合ニモ亦之ヲ適用ス
+[p2] 2 裁判所カ定款ノ規定ヲ認可シタルトキハ取締役ハ二週間内ニ本店及ヒ支店ノ所在地ニ於テ其登記ヲ為スコトヲ要ス
+[p3] 3 取締役カ前項ニ定メタル登記ヲ為スコトヲ怠リタルトキハ五円以上五十円以下ノ過料ニ処セラル

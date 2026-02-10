@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 743 / title: 第七百四十三条（組織変更計画の作成）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/743.html
+
+[p1] 1 会社は、組織変更をすることができる。 この場合においては、組織変更計画を作成しなければならない。

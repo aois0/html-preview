@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 35 / title: 第三十五条（設立時発行株式の株主となる権利の譲渡）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/35.html
+
+[p1] 1 前条第一項の規定による払込み又は給付（以下この章において「出資の履行」という。）をすることにより設立時発行株式の株主となる権利の譲渡は、成立後の株式会社に対抗することができない。

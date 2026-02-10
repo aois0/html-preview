@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 793 / title: 第七百九十三条（救助料の額）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/793.html
+
+[p1] 1 救助料につき特約がない場合において、その額につき争いがあるときは、裁判所は、危険の程度、救助の結果、救助のために要した労力及び費用（海洋の汚染の防止又は軽減のためのものを含む。）その他一切の事情を考慮して、これを定める。

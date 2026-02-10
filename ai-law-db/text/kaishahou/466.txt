@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 466 / title: 第四百六十六条
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/466.html
+
+[p1] 1 株式会社は、その成立後、株主総会の決議によって、定款を変更することができる。

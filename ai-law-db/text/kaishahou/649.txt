@@ -1,0 +1,9 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 649 / title: 第六百四十九条（清算人の職務）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/649.html
+
+[p1] 1 清算人は、次に掲げる職務を行う。
+[p1-i1] 一 現務の結了
+[p1-i2] 二 債権の取立て及び債務の弁済
+[p1-i3] 三 残余財産の分配

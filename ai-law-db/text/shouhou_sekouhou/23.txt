@@ -1,0 +1,6 @@
+law: 商法施行法 (shouhou_sekouhou)
+law_type: act / law_num: 明治三十二年法律第四十九号 / egov_id: 132AC0000000049 / as_of: 2025-12-27
+article: 23 / title: 第二十三条
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou_sekouhou/23.html
+
+[p1] 1 商法第四十七条ニ定メタル期間ハ商法施行前ニ本店ノ所在地ニ於テ設立ノ登記ヲ為シタル会社ニ付テハ其施行ノ日ヨリ之ヲ起算ス

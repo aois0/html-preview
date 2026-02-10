@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 610 / title: 第六百十条（倉庫営業者の責任）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/610.html
+
+[p1] 1 倉庫営業者は、寄託物の保管に関し注意を怠らなかったことを証明しなければ、その滅失又は損傷につき損害賠償の責任を免れることができない。

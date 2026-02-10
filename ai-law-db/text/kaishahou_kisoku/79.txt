@@ -1,0 +1,9 @@
+law: 会社法施行規則 (kaishahou_kisoku)
+law_type: rule / law_num: 平成十八年法務省令第十二号 / egov_id:  / as_of: 2025-12-27
+article: 79 / title: 第七十九条（会計参与の解任に関する議案）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou_kisoku/79.html
+
+[p1] 1 取締役が会計参与の解任に関する議案を提出する場合には、株主総会参考書類には、次に掲げる事項を記載しなければならない。
+[p1-i1] 一 会計参与の氏名又は名称
+[p1-i2] 二 解任の理由
+[p1-i3] 三 法第三百四十五条第一項の規定による会計参与の意見があるときは、その意見の内容の概要

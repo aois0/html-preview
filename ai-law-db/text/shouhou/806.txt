@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 806 / title: 第八百六条（救助料に係る債権等の消滅時効）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/806.html
+
+[p1] 1 救助料又は特別補償料に係る債権は、救助の作業が終了した時から二年間行使しないときは、時効によって消滅する。

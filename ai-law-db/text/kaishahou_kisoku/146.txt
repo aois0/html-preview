@@ -1,0 +1,8 @@
+law: 会社法施行規則 (kaishahou_kisoku)
+law_type: rule / law_num: 平成十八年法務省令第十二号 / egov_id:  / as_of: 2025-12-27
+article: 146 / title: 第百四十六条（各清算事務年度に係る貸借対照表）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou_kisoku/146.html
+
+[p1] 1 法第四百九十四条第一項の規定により作成すべき貸借対照表は、各清算事務年度に係る会計帳簿に基づき作成しなければならない。
+[p2] 2 前条第三項の規定は、前項の貸借対照表について準用する。
+[p3] 3 法第四百九十四条第一項の規定により作成すべき貸借対照表の附属明細書は、貸借対照表の内容を補足する重要な事項をその内容としなければならない。

@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 590 / title: 第五百九十条（運送人の責任）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/590.html
+
+[p1] 1 運送人は、旅客が運送のために受けた損害を賠償する責任を負う。 ただし、運送人が運送に関し注意を怠らなかったことを証明したときは、この限りでない。

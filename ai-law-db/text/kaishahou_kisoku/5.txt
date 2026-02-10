@@ -1,0 +1,10 @@
+law: 会社法施行規則 (kaishahou_kisoku)
+law_type: rule / law_num: 平成十八年法務省令第十二号 / egov_id:  / as_of: 2025-12-27
+article: 5 / title: 第五条（設立費用）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou_kisoku/5.html
+
+[p1] 1 法第二十八条第四号に規定する法務省令で定めるものは、次に掲げるものとする。
+[p1-i1] 一 定款に係る印紙税
+[p1-i2] 二 設立時発行株式と引換えにする金銭の払込みの取扱いをした銀行等に支払うべき手数料及び報酬
+[p1-i3] 三 法第三十三条第三項の規定により決定された検査役の報酬
+[p1-i4] 四 株式会社の設立の登記の登録免許税

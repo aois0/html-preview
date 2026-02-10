@@ -1,0 +1,7 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 802 / title: 第八百二条（積荷等についての先取特権）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/802.html
+
+[p1] 1 救助料に係る債権を有する者は、救助された積荷等について先取特権を有する。
+[p2] 2 前項の先取特権については、第八百四十三条第二項、第八百四十四条及び第八百四十六条の規定を準用する。

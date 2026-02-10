@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 738 / title: 第七百三十八条（代表社債権者等の解任等）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/738.html
+
+[p1] 1 社債権者集会においては、その決議によって、いつでも、代表社債権者若しくは決議執行者を解任し、又はこれらの者に委任した事項を変更することができる。

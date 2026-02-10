@@ -1,0 +1,6 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 618:683 / title: 第六百十八条から第六百八十三条まで
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/618:683.html
+
+[p1] 1 削除

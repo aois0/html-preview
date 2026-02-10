@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 553 / title: 第五百五十三条（異議を述べられた議決権の取扱い）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/553.html
+
+[p1] 1 債権者集会において、第五百四十八条第二項又は第三項の規定により各協定債権について定められた事項について、当該協定債権を有する者又は他の協定債権者が異議を述べたときは、裁判所がこれを定める。

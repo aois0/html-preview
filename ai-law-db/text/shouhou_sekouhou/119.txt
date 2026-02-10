@@ -1,0 +1,6 @@
+law: 商法施行法 (shouhou_sekouhou)
+law_type: act / law_num: 明治三十二年法律第四十九号 / egov_id: 132AC0000000049 / as_of: 2025-12-27
+article: 119 / title: 第百十九条
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou_sekouhou/119.html
+
+[p1] 1 商法施行前ニ発行シタル指図証券及ヒ無記名証券ニハ本法ニ別段ノ定アル場合ヲ除ク外旧商法ノ規定ヲ適用ス 但民法施行法第三十条、第三十一条及ヒ第三十三条ノ準用ヲ妨ケス

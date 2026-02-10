@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 233 / title: 第二百三十三条（適用除外）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/233.html
+
+[p1] 1 非訟事件手続法第四編の規定は、株券については、適用しない。

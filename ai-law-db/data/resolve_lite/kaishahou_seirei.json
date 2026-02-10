@@ -1,0 +1,25 @@
+{
+  "as_of": "2025-12-27",
+  "base_url": "https://jplawdb.github.io/html-preview/ai-law-db",
+  "enhanced_base_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced",
+  "law_code": "kaishahou_seirei",
+  "law_title": "会社法施行令",
+  "law_type": "order",
+  "law_num": "平成十七年政令第三百六十四号",
+  "egov_id": null,
+  "index_url": "https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou_seirei/index.html",
+  "article_url_template": "enhanced/{law_code}/{article}.html",
+  "text_url_template": "text/{law_code}/{article}.txt",
+  "anchors": {
+    "paragraph": "#p{paragraph}",
+    "item": "#p{paragraph}-i{item_index}",
+    "subitem": "#p{paragraph}-i{item_index}-s{subitem_path}"
+  },
+  "articles": [
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "resolve_meta_url": "https://jplawdb.github.io/html-preview/ai-law-db/data/resolve_meta/kaishahou_seirei.json"
+}

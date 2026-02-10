@@ -1,0 +1,7 @@
+law: 商法 (shouhou)
+law_type: act / law_num: 明治三十二年法律第四十八号 / egov_id: 132AC0000000048 / as_of: 2025-12-27
+article: 603 / title: 第六百三条（寄託物の分割請求）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/shouhou/603.html
+
+[p1] 1 倉荷証券の所持人は、倉庫営業者に対し、寄託物の分割及びその各部分に対する倉荷証券の交付を請求することができる。 この場合において、所持人は、その所持する倉荷証券を倉庫営業者に返還しなければならない。
+[p2] 2 前項の規定による寄託物の分割及び倉荷証券の交付に関する費用は、所持人が負担する。

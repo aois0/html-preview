@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 163 / title: 第百六十三条（子会社からの株式の取得）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/163.html
+
+[p1] 1 株式会社がその子会社の有する当該株式会社の株式を取得する場合における第百五十六条第一項の規定の適用については、同項中「株主総会」とあるのは、「株主総会（取締役会設置会社にあっては、取締役会）」とする。 この場合においては、第百五十七条から第百六十条までの規定は、適用しない。

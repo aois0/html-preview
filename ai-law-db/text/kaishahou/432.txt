@@ -1,0 +1,7 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 432 / title: 第四百三十二条（会計帳簿の作成及び保存）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/432.html
+
+[p1] 1 株式会社は、法務省令で定めるところにより、適時に、正確な会計帳簿を作成しなければならない。
+[p2] 2 株式会社は、会計帳簿の閉鎖の時から十年間、その会計帳簿及びその事業に関する重要な資料を保存しなければならない。

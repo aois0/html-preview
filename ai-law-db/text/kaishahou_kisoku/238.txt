@@ -1,0 +1,8 @@
+law: 会社法施行規則 (kaishahou_kisoku)
+law_type: rule / law_num: 平成十八年法務省令第十二号 / egov_id:  / as_of: 2025-12-27
+article: 238 / title: 第二百三十八条（交付等の承諾）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou_kisoku/238.html
+
+[p1] 1 民間事業者等が行う書面の保存等における情報通信の技術の利用に関する法律施行令（平成十七年政令第八号）第二条第一項の規定により示すべき方法の種類及び内容は、次に掲げる事項とする。
+[p1-i1] 一 前条第一項に規定する方法のうち民間事業者等が使用するもの
+[p1-i2] 二 ファイルへの記録の方式

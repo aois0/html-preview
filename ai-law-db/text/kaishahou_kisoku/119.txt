@@ -1,0 +1,11 @@
+law: 会社法施行規則 (kaishahou_kisoku)
+law_type: rule / law_num: 平成十八年法務省令第十二号 / egov_id:  / as_of: 2025-12-27
+article: 119 / title: 第百十九条（公開会社の特則）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou_kisoku/119.html
+
+[p1] 1 株式会社が当該事業年度の末日において公開会社である場合には、次に掲げる事項を事業報告の内容に含めなければならない。
+[p1-i1] 一 株式会社の現況に関する事項
+[p1-i2] 二 株式会社の会社役員に関する事項
+[p1-i3] 二の二 株式会社の役員等賠償責任保険契約に関する事項
+[p1-i4] 三 株式会社の株式に関する事項
+[p1-i5] 四 株式会社の新株予約権等に関する事項

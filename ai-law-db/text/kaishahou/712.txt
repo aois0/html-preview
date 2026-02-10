@@ -1,0 +1,6 @@
+law: 会社法 (kaishahou)
+law_type: act / law_num: 平成十七年法律第八十六号 / egov_id: 417AC0000000086 / as_of: 2025-12-27
+article: 712 / title: 第七百十二条（社債管理者が辞任した場合の責任）
+url: https://jplawdb.github.io/html-preview/ai-law-db/enhanced/kaishahou/712.html
+
+[p1] 1 第七百十条第二項の規定は、社債発行会社が社債の償還若しくは利息の支払を怠り、若しくは社債発行会社について支払の停止があった後又はその前三箇月以内に前条第二項の規定により辞任した社債管理者について準用する。
