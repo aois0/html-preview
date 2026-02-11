@@ -1,0 +1,27 @@
+# AI向け NTA手引DB クイックスタート（1URL≒1万トークン制約向け）
+#
+# 基本方針:
+# 1) 小さい索引で item_id を決める
+# 2) resolve_liteのpartを開いて item_id を決める
+# 3) 本文は text/{doc_code}/{item_id}.txt を読む
+# 4) 引用URLが必要なときだけ enhanced/...#pX を使う
+
+# 入口
+# - https://jplawdb.github.io/html-preview/ai-nta-guide-db/llms.txt
+# - https://jplawdb.github.io/html-preview/ai-nta-guide-db/data/resolve_lite/index.json
+# - https://jplawdb.github.io/html-preview/ai-nta-guide-db/data/shards_index.json
+
+# 本文URL
+# - https://jplawdb.github.io/html-preview/ai-nta-guide-db/text/{doc_code}/{item_id}.txt
+
+# 利用可能な doc_code
+# - hojin_aramashi_2025 : 法人税のあらましと申告の手引（令和7年版） (37 items)
+# - gensen_aramashi_2026 : 源泉徴収のあらまし（令和8年版） (62 items)
+
+# 例: 法人税のあらましと申告の手引（令和7年版）
+# - https://jplawdb.github.io/html-preview/ai-nta-guide-db/text/hojin_aramashi_2025/s001.txt
+# - https://jplawdb.github.io/html-preview/ai-nta-guide-db/enhanced/hojin_aramashi_2025/s001.html
+
+# 例: 源泉徴収のあらまし（令和8年版）
+# - https://jplawdb.github.io/html-preview/ai-nta-guide-db/text/gensen_aramashi_2026/s001.txt
+# - https://jplawdb.github.io/html-preview/ai-nta-guide-db/enhanced/gensen_aramashi_2026/s001.html

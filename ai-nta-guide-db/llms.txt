@@ -1,0 +1,18 @@
+# AI向け NTA Guide DB
+# Base URL: https://jplawdb.github.io/html-preview/ai-nta-guide-db/
+
+入口（推奨）
+- `quickstart.txt`
+- `data/resolve_lite/index.json`
+- `data/shards_index.json`
+
+高速フロー（10kトークン制約向け）
+1) `data/resolve_lite/index.json` で doc_code を選ぶ
+2) `data/resolve_lite/{doc_code}.json` で part URL を選ぶ
+3) `data/resolve_lite_parts/{doc_code}/part-XXX.json` で item_id を選ぶ
+4) `text/{doc_code}/{item_id}.txt` を読む
+5) 根拠URLが必要なら `enhanced/{doc_code}/{item_id}.html#pX` を使う
+
+収録ドキュメント
+- `hojin_aramashi_2025`: 法人税のあらましと申告の手引（令和7年版） (37件)
+- `gensen_aramashi_2026`: 源泉徴収のあらまし（令和8年版） (62件)

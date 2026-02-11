@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jplawdb.github.io/html-preview/ai-nta-guide-db/sitemap.xml
