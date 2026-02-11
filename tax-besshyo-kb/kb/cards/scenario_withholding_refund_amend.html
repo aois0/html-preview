@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>シナリオ: 源泉還付→修正申告で黒字</title>
+  <style>
+    :root{--bg:#ffffff;--text:#1b1b1b;--muted:#666;--accent:#b04a2f;--border:#e7e0d8;--code:#f5f2ed;}
+    body{margin:0;font-family:"Hiragino Kaku Gothic ProN","Yu Gothic","Meiryo",sans-serif;color:var(--text);background:var(--bg);line-height:1.75;}
+    header{padding:18px 18px 14px;border-bottom:1px solid var(--border);background:linear-gradient(135deg,#f6efe4,#fff);}
+    header h1{margin:0 0 6px 0;font-size:18px;}
+    header .meta{color:var(--muted);font-size:13px;}
+    main{max-width:980px;margin:0 auto;padding:18px;}
+    section{border:1px solid var(--border);border-radius:12px;padding:14px 16px;margin:14px 0;}
+    h2{margin:0 0 8px 0;font-size:15px;color:var(--accent);}
+    p{margin:8px 0;}
+    ul{padding-left:20px;margin:8px 0;}
+    code,pre{background:var(--code);border:1px solid #eee2d7;border-radius:8px;}
+    code{padding:0 6px;}
+    pre{padding:10px 12px;overflow:auto;font-size:13px;white-space:pre-wrap;}
+    .tldr{font-weight:600;}
+    .small{color:var(--muted);font-size:13px;}
+    .k{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12px;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>シナリオ: 当初赤字で源泉10,000還付 → 調査で修正申告し黒字化</h1>
+    <div class="meta">card_id: scenario_withholding_refund_amend / 目的: 別表の“どこが動くか”を1URLに集約</div>
+  </header>
+  <main>
+    <section>
+      <h2>TL;DR</h2>
+      <p class="tldr">まず別表一で「修正後の確定税額（本税）」と「所得税（源泉）の控除・還付」を確定する。次に別表五（二）で ①②③④⑤→⑥ を組み直し、最後に別表五（一）27へ⑥（確定4本書）を転記する。源泉10,000は“別表五（一）27から直接引かない”。</p>
+    </section>
+
+    <section>
+      <h2>手順（別表の順番）</h2>
+      <ol>
+        <li>別表一: 修正後の「差引確定法人税額15」「所得税の額16」「所得税額等の還付金額21」等を確定。</li>
+        <li>別表五（二）: 法人税+地方法人税ブロックで ①（期首未納）+②（当期発生: 中間3/確定4）-③④⑤（納付）=⑥（期末未納）を作る。</li>
+        <li>別表五（一）: 27は原則として、別表五（二）⑥（確定4）本書を転記。</li>
+      </ol>
+      <p class="small">地方法人税を含めると、②（確定4）は別表一の 15 + 41 でリンクする。</p>
+    </section>
+
+    <section>
+      <h2>最小のリンク図</h2>
+      <pre><code>別表一(15 + 41) -> 別表五（二）②（確定4）
+別表五（二）①②③④⑤ -> ⑥（確定4）
+別表五（二）⑥（確定4本書） -> 別表五（一）27</code></pre>
+    </section>
+
+    <section>
+      <h2>注意（ここで事故る）</h2>
+      <ul>
+        <li>「50,000（税額）」という言い方が“控除前/控除後”のどちらかで別物になり得る。別表番号と欄番号で固定して会話するのが安全。</li>
+        <li>還付や外書(△)が絡むと、別表五（二）⑥の読み方（本書/外書、未収還付法人税の扱い）が分岐する。</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>関連カード</h2>
+      <ul>
+        <li><a href="map_core_flow.html">マップ: 別表一→五（二）→五（一）</a></li>
+        <li><a href="besshyo5-2_overview.html">別表五（二）overview</a></li>
+        <li><a href="besshyo5-1_27.html">別表五（一）27</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>根拠（ソース）</h2>
+      <ul>
+        <li>国税庁 手引（修正申告欄の注意、別表五（一）27、別表五（二）各欄説明）。</li>
+      </ul>
+      <p class="small">sources: <code class="k">../sources/nta/tebiki2022/all.pdf</code></p>
+    </section>
+  </main>
+</body>
+</html>
