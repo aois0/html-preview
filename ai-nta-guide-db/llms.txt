@@ -6,6 +6,10 @@
 - `data/resolve_lite/index.json`
 - `data/shards_index.json`
 
+収録内容（明示）
+- `hojin_aramashi_2025`: 法人税のあらましと申告の手引（令和7年版）
+- `gensen_aramashi_2026`: 源泉徴収のあらまし（令和8年版）
+
 高速フロー（10kトークン制約向け）
 1) `data/resolve_lite/index.json` で doc_code を選ぶ
 2) `data/resolve_lite/{doc_code}.json` で part URL を選ぶ
@@ -13,6 +17,6 @@
 4) `text/{doc_code}/{item_id}.txt` を読む
 5) 根拠URLが必要なら `enhanced/{doc_code}/{item_id}.html#pX` を使う
 
-収録ドキュメント
+収録ドキュメント（件数）
 - `hojin_aramashi_2025`: 法人税のあらましと申告の手引（令和7年版） (37件)
 - `gensen_aramashi_2026`: 源泉徴収のあらまし（令和8年版） (62件)
