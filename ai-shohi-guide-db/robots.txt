@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jplawdb.github.io/html-preview/ai-shohi-guide-db/sitemap.xml

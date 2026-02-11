@@ -1,0 +1,19 @@
+# AI向け 消費税申告書手引DB
+# Base URL: https://jplawdb.github.io/html-preview/ai-shohi-guide-db/
+
+入口（推奨）
+- `quickstart.txt`
+- `data/resolve_lite/index.json`
+- `data/shards_index.json`
+
+高速フロー（10kトークン制約向け）
+1) `data/resolve_lite/index.json` で doc_code を選ぶ
+2) `data/resolve_lite/{doc_code}.json` で part URL を選ぶ
+3) `data/resolve_lite_parts/{doc_code}/part-XXX.json` で item_id を選ぶ
+4) `text/{doc_code}/{item_id}.txt` を読む
+5) 根拠URLが必要なら `enhanced/{doc_code}/{item_id}.html#pX` を使う
+
+収録ドキュメント
+- `hojin_shohi_kakikata_ippan`: 法人用 消費税及び地方消費税の申告書（一般用）の書き方 (5件)
+- `hojin_shohi_kakikata_kani`: 法人用 消費税及び地方消費税の申告書（簡易課税用）の書き方 (4件)
+- `invoice_oshirase_2025`: インボイス制度に関するお知らせ（令和7年4月） (1件)

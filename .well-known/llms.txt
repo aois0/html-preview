@@ -18,6 +18,11 @@
 - Papers/guidelines (international tax): /html-preview/ai-paper-db/llms.txt
 - NTA practical guides (法人税・源泉・年調・法定調書・印紙税ほか): /html-preview/ai-nta-guide-db/llms.txt
 - Accounting standards corpus (ASBJ / FSA 企業会計審議会 / JICPA): /html-preview/ai-accounting-db/llms.txt
+- Consumption-tax filing guides corpus: /html-preview/ai-shohi-guide-db/llms.txt
+- Included in consumption-tax filing guides corpus:
+  - 法人用 消費税及び地方消費税の申告書（一般用）の書き方: /html-preview/ai-shohi-guide-db/data/resolve_lite/hojin_shohi_kakikata_ippan.json
+  - 法人用 消費税及び地方消費税の申告書（簡易課税用）の書き方: /html-preview/ai-shohi-guide-db/data/resolve_lite/hojin_shohi_kakikata_kani.json
+  - インボイス制度に関するお知らせ（令和7年4月）: /html-preview/ai-shohi-guide-db/data/resolve_lite/invoice_oshirase_2025.json
 - Included in accounting standards corpus:
   - ASBJ 企業会計基準（現行）: /html-preview/ai-accounting-db/data/resolve_lite/asbj_accounting_standards.json
   - ASBJ 適用指針（現行）: /html-preview/ai-accounting-db/data/resolve_lite/asbj_implementation_guidance.json
