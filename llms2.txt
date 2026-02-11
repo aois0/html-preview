@@ -110,8 +110,8 @@ NOTE: `core/batch-*.txt` は内部用。入口ナビには使わない。
   `{sub-db}/data/latin_terms/index.json` → `data/latin_terms/*.tsv` → packs本文
 
 **収録（3 sub-DB）**
-- oecd-tpg-2022/ : OECD移転価格ガイドライン―多国籍企業と税務当局のための移転価格算定に関する指針―2022年版（国税庁参考仮訳）
-- nta-tp-audit/ : 移転価格事務運営要領（事務運営指針）（国税庁）・移転価格税制の適用に当たっての参考事例集（国税庁）
+- oecd-tpg-2022/ : 「OECD 多国籍企業及び税務当局のための移転価格ガイドライン 2022年版」（国税庁参考仮訳）
+- nta-tp-audit/ : 「移転価格事務運営要領」（国税庁事務運営指針）・「移転価格税制の適用に当たっての参考事例集」（国税庁）
 - oecd-beps/ : OECD/G20 BEPS Actions 3,4,8-10,14等（国税庁参考仮訳+OECD原文、選抜9文書）
 
 ## 5) 租税条約 → ai-treaty-db
@@ -171,11 +171,11 @@ NOTE: `core/batch-*.txt` は内部用。入口ナビには使わない。
 5) 根拠URL: `ai-nta-guide-db/enhanced/{doc_code}/{item_id}.html#pX`
 
 **収録ドキュメント（doc_code）**（全て国税庁発行）
-- hojin_aramashi_2025 : 「法人税のあらまし」と「申告の手引」（令和7年版） (56件)
+- hojin_aramashi_2025 : 「法人税のあらましと申告の手引」（令和7年版） (56件)
 - gensen_aramashi_2026 : 「源泉徴収のあらまし」（令和8年版） (62件)
 - gensen_shikata_2026 : 「源泉徴収のしかた」（令和8年版） (44件)
 - nencho_shikata_2025 : 「年末調整のしかた」（令和7年分） (135件)
-- hotei_tebiki_2025 : 「給与所得の源泉徴収票等の法定調書の作成と提出の手引」（令和7年分） (27件)
+- hotei_tebiki_2025 : 「法定調書の作成と提出の手引」（令和7年分） (27件)
 - inshi_tebiki_2025 : 「印紙税の手引」（令和7年5月） (11件)
 - hojin_kaisei_gaiyo_2025 : 「法人税関係法令の改正の概要」（令和7年度版） (15件)
 - hojin_shinkoku_besshyo : 「法人税及び地方法人税の申告（法人税申告書別表等）」 (5件)
