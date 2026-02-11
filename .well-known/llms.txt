@@ -23,4 +23,6 @@
 - Tax treaties: /html-preview/ai-treaty-db/llms.txt
 - Treaty corpus (JP tax treaties, major jurisdictions): /html-preview/ai-treaty-db/jp-tax-treaties/quickstart.txt
 
+- Corporate tax schedules (別表): /html-preview/beppyo-db/llms.txt
+
 - Tax KB prototype: /html-preview/tax-kb/quickstart.txt
