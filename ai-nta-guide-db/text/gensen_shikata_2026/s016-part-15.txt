@@ -1,0 +1,58 @@
+doc: 源泉徴収のしかた（令和8年版） (gensen_shikata_2026)
+year: 2026
+item: s016-part-15 / title: 資料 15 (part 15/21)
+section: 16 / 資料 15
+source_type: pdf
+source_url: https://www.nta.go.jp/publication/pamph/gensen/shikata_r08/pdf/15.pdf
+url: https://jplawdb.github.io/html-preview/ai-nta-guide-db/enhanced/gensen_shikata_2026/s016-part-15.html
+
+[p1] 2 A person who does not issue any salary payment slips to the recipient of salary, etc. or is sues any slips with false statements (provides using electromagnetic means) shall be punished by
+[p2] imprisonment with required labor for not longer than one year or a fine of not more than 500 ,000 yen.
+[p3] Reference1: Electronic Submission of Documents Relating to Withholding If a payer of salary, etc. meets certain requirements by taking the necessary measures to receive the
+[p4] information to be stated in the following applications from the beneficiary by electromagnetic means , the beneficiary may provide the information to be stated in the applications by electromagnetic means instead of
+[p5] by applying in writing.
+[p6] 1 Application for exemption for dependents of employment income earner 2 Application for exemption for dependents concerning secondary salary 3 Application for exemption for spouse of employment income earner
+[p7] 4 Application for Special Exemption for Specified Relatives of Employment Income Earner 5 Application for Basic Exemption of Employment Income Earner
+[p8] 6 Application for deduction for insurance premiums for employment income earner 7 Application for Exemption of amount of Income Adjustment
+[p9] 8 Application for Special Credit for Loans, etc. Related to a Dwelling for Employment Income Earner 9 Application concerning receipt of retirement income
+[p10] (Note) In the case of submitting matters to be described in the Application for deduction in an electronic method, you may submit documents certifying deduction for social insurance premiums, deduction
+[p11] for small business mutual aid premiums, deduction for life insurance premiums, deduction for earthquake insurance premiums, or special credit for loans,etc. related to dwelling in an electronic
+[p12] method.(When the matters to be included in the certificate documents certifying each deduction are provided by electromagnetic means, the electronic documents, in which the matters to be included
+[p13] in these certificate documents are recorded, must be provided.) .
+[p14] [page 33]
+[p15] Reference 2: Various Forms and Instructions for Completion For the various forms and instructions for completion such as the "Notification of
+[p16] Establishment/Relocation/Closure of a Salary -Paying Office" and the "Application for Approval Made in Relation to the Special Provision for Due Dates for Withholding Income Tax", etc., please see "Withholding
+[p17] Income Tax -Related Forms" section of the "Filing/Application/Notification, Forms (Procedure Guide and Form)" on the NTA website.
+[p18] [https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/mokuji.htm]
+[p19] [page 34]
+[p20] 3. Procedure for Withholding from Retirement Income The procedure for withholding from retirement income paid to a resident is: (1) receipt of an "Application Concerning Receipt of Retirement Income"（退職所得の受給に関する申告書）
+[p21] from the person receiving a retirement allowance, etc. , and calculate the retirement income deductions based on the length of service, etc., stated in the application;
+[p22] (2) calculate the amount of tax (the amount of income tax and special income tax for reconstruction)
+[p23] according to the formula indicated in the column headed "Tax amount" in the "Quick Calculating Table for Withholding Tax Amount for Retirement Income"（退職所得の源泉徴収税額の速算表） by using the
+[p24] "taxable retirement income amount ," which is calculated in accordance with "Category of retirement allowance, etc." on "Table for Calculation of Taxable Retirement Income Amount" (please refer to II on
+[p25] this page) as the tax base; and (3) withhold and pay the amount of tax at the time the retirement allowance, etc. is paid.
+[p26] I. Scope of Retirement Income Retirement income is income paid on one occasion due to retirement or resignation , such as a retirement allowance or the lump-sum payment of a public pension.
+[p27] A retirement allowance paid to a person who ceases working due to death is normally subject to inheritance tax levied on his/her successors, and so is not subject to income tax.
+[p28] II. Categories of Retirement Allowance, etc.
+[p29] Retirement income shall be taxed separately from other income , according to the category of retirement allowance, etc. received during the year, using the below taxable retirement income amount as the tax base.
+[p30] Table of formulas for calculating taxable retirement income amount (2026)
+[p31] Category of retirement allowance, etc. Taxable retirement income amount General retirement allowance, etc.
+[p32] (Note 1)
+[p33] Amount of revenue from general retirement allowance, etc.
+[p34] – Amount of deduction for retirement income × 1/2 Short-term retirement allowance, etc.
+[p35] (Note 2)
+[p36] (1) If Amount of revenue from short-term retirement allowance, etc. − Amount of deduction for retirement income ≤ 3,000,000 yen, Amount of revenue from short-term retirement allowance, etc.
+[p37] – Amount of deduction for retirement income × 1/2 (2) If Amount of revenue from short-term retirement allowance, etc. − Amount of deduction for retirement income > 3,000,000 yen, 1,500,000 yen ＋ Amount of revenue
+[p38] from short-term retirement allowance, etc – 3,000,000 yen + Amount of deduction for retirement income Specified officer retirement allowance, etc. (Note 3)
+[p39] Amount of revenue from specified officer retirement allowance, etc.
+[p40] – Amount of deduction for retirement income
+[p41] [page 35]
+[p42] (Note) 1 A general retirement allowance, etc. refer to allowances that do not fall under any of the retirement allowances, etc. which are Specified officer retirement allowance, etc. or Short -t
+[p43] erm retirement allowance, etc.
+[p44] 2 A short -term retirement allowance, etc. are retirement allowances that a person receives in accordance with the length of short -term service (where the length of service is 5 years or
+[p45] less when calculated by the period of service as one who is not an officer, etc. This len gth of service is calculated by including a period of service as an officer, etc. if there is
+[p46] such a period) other than specified officer retirement allowance, etc.
+[p47] 3 A specified officer retirement allowance, etc. refer to a retirement allowance, etc. received by a person whose length of service as an officer, etc. (hereinafter referred to as "length
+[p48] of service as officers, etc. ") is 5 years or less, according to his/her length of service as of ficers, etc.
+[p49] (*) 1 Any fraction of the taxable amount of retirement income that is less than 1,000 yen is omitted.
+[p50] 2 Please see "Tanki taishoku teate tou Q&A"(短期退職手当等 Q＆A) in Japanese only, posted o n the website of the NTA ( https://www.nta.go.jp) for matters including how to calculate the ta

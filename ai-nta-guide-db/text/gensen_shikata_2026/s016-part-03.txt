@@ -1,0 +1,55 @@
+doc: 源泉徴収のしかた（令和8年版） (gensen_shikata_2026)
+year: 2026
+item: s016-part-03 / title: 資料 15 (part 3/21)
+section: 16 / 資料 15
+source_type: pdf
+source_url: https://www.nta.go.jp/publication/pamph/gensen/shikata_r08/pdf/15.pdf
+url: https://jplawdb.github.io/html-preview/ai-nta-guide-db/enhanced/gensen_shikata_2026/s016-part-03.html
+
+[p1] of personal services including salary, certain amounts of public pensions, etc., and any retirement allowances, etc. sourced from work performed while the beneficiary was a resident (non-residents only);
+[p2] (10) Money or items awarded for advertising business conducted in Japan; (11) Pensions based on an insurance contract, etc. concluded with a life insurance company,
+[p3] a casualty insurance company under the Insurance Business Act, made through domestic business offices, etc.; (12) Compensation money for benefits from installment deposits accepted by business offices in Japan, etc.; and
+[p4] (13) Distribution of profits received under any silent partnership (Tokumei-Kumiai)
+[p5] contract pertaining to a contribution to a person doing business in Japan.
+[p6] 2 Capital gains, etc. from listed stocks, etc. kept in a specific account and received by a non-resident having a permanent establishment in Japan
+[p7] 3 Monetary awards, etc. from deposits and savings offering such awards, etc.
+[p8] 4 Profit from redemption of discount bonds 5 Profit on redemption amount of discount bonds VI. Timing of Withholding Withholding of income tax and special income tax for reconstruction occurs when the income subject to
+[p9] withholding is actually paid. Even if the income should be paid, no withholding is in principle necessary unless actual payment is made.
+[p10] (Note) 1 "Payment" for the purpose of withholding includes not only actual delivery of cash, but also all other
+[p11] [page 6]
+[p12] acts to extinguish the payment obligation such as a transfer to a principal and/or to a savings account.
+[p13] 2 If no actual payment is made for dividends, etc., directors' bonus and distribution of profits arising from business conducted through a permanent establishment based on a partnership contract , a
+[p14] payment shall be deemed to have been made on a date after passing a given period of time, and it is necessary to withhold.
+[p15] VII. Payment of Withheld Income Tax and Special Income Tax for Reconstruction 1 Due Date for Payment Income tax and special income tax for reconstruction withheld by a withholding agent shall be paid by the
+[p16] 10th of the month following the month in which the income subject to withholding was paid.
+[p17] If the due date is a Saturday, Sunday, or holiday, the next business day shall be the due date.
+[p18] If payment is not made by the due date, the withholding agent may have to pay delinquent tax and additional tax for non-payment.
+[p19] 2 Special Provision for Due Date Any withholding agent that pays salaries to fewer than 10 employees on a regular basis a nd submits an
+[p20] "Application for Approval Made in Relation to the Special Provision for Due Dates f or Withholding Income Tax"（源泉所得税の納期の特例の承認に関する申請書）and obtains such approval may take advantage of a
+[p21] special provision regarding the due dates for income tax and special income tax for reconstruction withheld from salaries, etc., retirement allowances, etc. and remuneration/fees paid to tax accountants, etc. Under this
+[p22] arrangement, payment can be made twice a year as indicated below.
+[p23] If no notice of approval or denial of the application has been received from the district director of the competent tax office by the last day of the month following the month in which the application was submitted,
+[p24] the special provision shall be deemed to have been approved at the end of the month following the month in which the application was submitted and shall apply to tax payments made in the second month following the
+[p25] month in which the application was submitted.
+[p26] Classification Due date The amount of the income tax and special income tax for reconstruction withheld from income paid between January and June July 10 The amount of the income tax and special income tax for
+[p27] reconstruction withheld from income paid between July and December January 20 of the following year (Note) 1 The special provision for due dates is limited to the following:
+[p28] i) Income tax and special income tax for reconstruction withheld from salaries , etc. and retirement allowances, etc. (including those for non-residents).
+[p29] ii) Income tax and special income tax for reconstruction withheld from remuneration/fees as provided for in Item 2 of Article 204, Paragraph 1 of the Income Tax Act paid to attorneys at
+[p30] law (including foreign lawyers licensed in Japan), judicial scriveners, real estate surveyors, certified public accountants, tax accountants, social insurance labor consultants, patent
+[p31] attorneys, marine procedure commission agents, surveyors, architects, real estate appraisers, professional engineers, etc.
+[p32] 2 If this application was submitted by post or correspondence delivery (hereinafter referred to as "mail"), it shall be deemed to have been submitted on the date indicated by the date stamp on the mail.
+[p33] 3 Payment Procedure Withheld income tax and special income tax for reconstruction shall be paid at a local financial institution or
+[p34] [page 7]
+[p35] over the counter at the competent tax office, by submitting the "data on the statement of income tax collected" via e -Tax (cashless payment), or together with submission of "Statement (Tax Payment Slip) of Collected
+[p36] Income Tax."（所得税徴収高計算書（納付書））
+[p37] In addition, the kinds and use category of the Statement (Tax Payment Slip) of Collected Income Tax（所得税徴収 高計算書（納付書） are as indicated in the table below.
+[p38] For more information, please see the NTA website "Payment Procedures for Withholding Income Tax" [https://www.nta.go.jp/users/gensen/nencho/index/gensen_nouzei/cashless.htm ].
+[p39] Kind of Statement (Tax Payment Slip)
+[p40] of Collected Income Tax Symbol Main kinds of income for which the tax payment slip shown in the left column is used Statement (tax payment slip) of income tax collected from employment/retirement income,
+[p41] etc. (for general purposes and the special provision for due dates)
+[p42] Employment income, retirement income, and remuneration/fees paid to attorneys at law and tax accountants, etc.
+[p43] Statement (tax payment slip) of income tax collected from remuneration/fees, etc.
+[p44] Remuneration/fees other than remuneration/fees paid to attorneys at law and tax accountants, pensions paid under a life/casualty insurance contract or similar annuity agreement, or public pensions
+[p45] Statement (tax payment slip) of income tax collected from interest, etc.
+[p46] Interest income, distribution of proceeds from an investment trust (excluding a trust subject to corporation taxation) or a specified trust that issues beneficiary certificates, and distribution of profits
+[p47] under a silent partnership (Tokumei-Kumiai) contract (excluding

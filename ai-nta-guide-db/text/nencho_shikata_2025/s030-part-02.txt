@@ -1,0 +1,33 @@
+doc: 年末調整のしかた（令和7年分） (nencho_shikata_2025)
+year: 2025
+item: s030-part-02 / title: 302 en (part 2/2)
+section: 30 / 302 en
+source_type: pdf
+source_url: https://www.nta.go.jp/publication/pamph/gensen/nencho2025/pdf/302_en.pdf
+url: https://jplawdb.github.io/html-preview/ai-nta-guide-db/enhanced/nencho_shikata_2025/s030-part-02.html
+
+[p1] In the case that you have paid for social insurance premium, life insurance premium, or earthquake insurance premium, you will be qualified for the
+[p2] following deductions. Please fill in the appropriate items and submit it to your employer.
+[p3] 〇 Deductions for insurance premiums (Note） The former policy denotes insurance policies concluded on December 31, 2011 or before. The new policy denotes insurance policies concluded on January 1, 2012, or after
+[p4] 5 Deductions applicable by submitting "Application for Exemption of Amount of Income Adjustment" If the earnings from employment subject to year -end adjustment exceeds
+[p5] 8,500,000 yen, and if you are qualified for Special Disabled Person, or if you have dependent relatives under the age 23, a spouse being a special
+[p6] disabled person, living in the same household or a dependent relative being a special disabled person, you are qualified for the exemption of amount of
+[p7] income adjustment for up to 150,000 yen, please sill in the appropriate items on the Application for Exemption of Amount of Income Adjustment, and submit it to your employer.
+[p8] 6 Deductions applicable by submitting "Application for Basic Exemption" If the total amount of your income is 25,000,000 yen or less, you are qualified
+[p9] for the following deductions. You may fill in the appropriate items on the Application for Basic Exemption and submit it to your employer.
+[p10] 〇 Basic exemption The amount of your income Amount of Deduction 1,320,000 yen or less 950,000 yen Over 1,320,000 yen 3,360,000 yen or less 880,000 yen Over 3,360,000 yen 4,890,000 yen or less 680,000 yen
+[p11] Over 4,890,000 yen 6,550,000 yen or less 630,000 yen Over 6,550,000 yen 23,500,000 yen or less 580,000 yen Over 23,500,000 yen 24,000,000 yen or less 480,000 yen Over 24,000,000 yen 24,500,000 yen or less 320,000 yen
+[p12] Over 24,500,000 yen 25,000,000 yen or less 160,000 yen (Note) The deduction amount for total income of 6,550,000 yen or less is calculated by adding the additional amount under Article 41- 16-2 of the Special Taxation
+[p13] Measures Act to the basic deduction amount of 580,000 yen under Article 86 of the Income Tax Act.
+[p14] 7 Deductions applicable by submitting "Application for Special Credit for Loans,etc. Related to Dwelling" If you have filed a tax return for a special credit for loans,etc. related to a
+[p15] dwelling by last year and have certain types of loans,etc. related to a dwelling, you are qualified for special credit for loans,etc. related to a dwelling (a certain
+[p16] amount depending on the type and amount of loans,etc.related to a dwelling).
+[p17] Please fill in the appropriate items on the Application for Special Credit for Loans,etc. Related to Dwelling and submit it to your employer .
+[p18] Types of Deduction Amount of Deduction Deduction for social insurance premium Total amount of insurance premium already paid Deduction for small business mutual aid premiums, etc.
+[p19] Total amount of premiums already paid Deduction for life insurance premium Types of insurance,etc. Former policy New policy If both policies are present Life insurance premium 50,000 yen at maximum 40,000 yen at maximum
+[p20] 40,000 yen at maximum Personal pension insurance premium 50,000 yen at maximum 40,000 yen at maximum 40,000 yen at maximum Medical care insurance premium － 40,000 yen － Maximum amount of deduction 120,000 yen at maximum
+[p21] Deduction for earthquake insurance premium In a case of only earthquake insurance premium 50,000 yen at maximum In a case of only former long-term casualty insurance premium 15,000 yen at maximum In a case of paying both
+[p22] insurance premiums 50,000 yen at maximum About kinds of deduction (For employment income earner)
+[p23] In the year-end adjustment, you may receive any deduction applicable by submitting "Application for Exemption (Deduction)" to your employer.
+[p24] * Please note that this year's year-end tax adjustment includes revisions such as raising the income requirements for dependents eligible for dependency deductions and
+[p25] establishing a special exemption for specified relatives.

@@ -35,7 +35,7 @@ from pathlib import Path
 from urllib.parse import urljoin, urlparse
 
 from bs4 import BeautifulSoup
-import pdfplumber
+from pypdf import PdfReader
 import requests
 
 
@@ -65,6 +65,7 @@ class SourceSpec:
     index_url: str
     link_prefix: str
     aliases: list[str]
+    manual_sections: tuple[tuple[str, str], ...] = ()
 
 
 @dataclass(frozen=True)
@@ -119,6 +120,142 @@ SOURCES: list[SourceSpec] = [
             "源泉徴収 手引",
             "gensen aramashi",
         ],
+    ),
+    SourceSpec(
+        doc_code="gensen_shikata_2026",
+        doc_title="源泉徴収のしかた（令和8年版）",
+        year="2026",
+        index_url="https://www.nta.go.jp/publication/pamph/gensen/shikata_r08/01.htm",
+        link_prefix="/publication/pamph/gensen/shikata_r08/",
+        aliases=[
+            "源泉徴収のしかた",
+            "源泉 しかた",
+            "gensen shikata",
+        ],
+    ),
+    SourceSpec(
+        doc_code="nencho_shikata_2025",
+        doc_title="年末調整のしかた（令和7年分）",
+        year="2025",
+        index_url="https://www.nta.go.jp/publication/pamph/gensen/nencho2025/01.htm",
+        link_prefix="/publication/pamph/gensen/nencho2025/",
+        aliases=[
+            "年末調整のしかた",
+            "年調のしかた",
+            "nencho shikata",
+        ],
+    ),
+    SourceSpec(
+        doc_code="hotei_tebiki_2025",
+        doc_title="法定調書の作成と提出の手引（令和7年分）",
+        year="2025",
+        index_url="https://www.nta.go.jp/publication/pamph/hotei/tebiki2025/index.htm",
+        link_prefix="/publication/pamph/hotei/tebiki2025/",
+        aliases=[
+            "法定調書の作成と提出の手引",
+            "法定調書 手引",
+            "hotei tebiki",
+        ],
+    ),
+    SourceSpec(
+        doc_code="inshi_tebiki_2025",
+        doc_title="印紙税の手引（令和7年5月）",
+        year="2025",
+        index_url="https://www.nta.go.jp/publication/pamph/inshi/tebiki/01.htm",
+        link_prefix="/publication/pamph/inshi/tebiki/",
+        aliases=[
+            "印紙税の手引",
+            "印紙税 手引",
+            "inshi tebiki",
+        ],
+    ),
+    SourceSpec(
+        doc_code="hojin_kaisei_gaiyo_2025",
+        doc_title="法人税関係法令の改正の概要（令和7年度）",
+        year="2025",
+        index_url="https://www.nta.go.jp/publication/pamph/hojin/kaisei_gaiyo2025/01.htm",
+        link_prefix="/publication/pamph/hojin/kaisei_gaiyo2025/",
+        aliases=[
+            "法人税関係法令の改正の概要",
+            "法人税 改正の概要",
+            "hojin kaisei gaiyo",
+        ],
+    ),
+    SourceSpec(
+        doc_code="hojin_shinkoku_besshyo",
+        doc_title="法人税及び地方法人税の申告（別表等）",
+        year="2025",
+        index_url="https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/hojin/shinkoku/01.htm",
+        link_prefix="/taxes/tetsuzuki/shinsei/annai/hojin/shinkoku/",
+        aliases=[
+            "法人税及び地方法人税の申告（別表等）",
+            "法人税申告書別表",
+            "hojin shinkoku besshyo",
+        ],
+        manual_sections=(
+            ("法人税及び地方法人税の申告（法人税申告書別表等）", "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/hojin/shinkoku/01.htm"),
+            ("令和7年4月以降に提供した法人税等各種別表関係", "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/hojin/shinkoku/itiran2025/01.htm"),
+        ),
+    ),
+    SourceSpec(
+        doc_code="etax_tetsuzuki6",
+        doc_title="e-Tax 利用可能手続一覧（法人税確定申告等）",
+        year="2026",
+        index_url="https://www.e-tax.nta.go.jp/tetsuzuki/tetsuzuki6.htm",
+        link_prefix="/tetsuzuki/",
+        aliases=[
+            "e-Tax 利用可能手続一覧",
+            "e-Tax 法人税確定申告",
+            "etax tetsuzuki6",
+        ],
+        manual_sections=(
+            ("利用可能手続一覧", "https://www.e-tax.nta.go.jp/tetsuzuki/tetsuzuki6.htm"),
+            ("ファイル形式を定める国税庁告示（令和7年国税庁告示第12号）の概要", "https://www.e-tax.nta.go.jp/hojin/gimuka/r7_12go_outline_2025.pdf"),
+            ("法人税申告書別表等（明細記載を要する部分）のCSV形式データの作成方法", "https://www.e-tax.nta.go.jp/hojin/gimuka/csv_jyoho5.htm"),
+        ),
+    ),
+    SourceSpec(
+        doc_code="hojin_shohi_kakikata_ippan",
+        doc_title="法人用 消費税及び地方消費税の申告書（一般用）の書き方",
+        year="2020",
+        index_url="https://www.nta.go.jp/publication/pamph/shohi/kaisei/yoshiki/pdf/202008_01.pdf",
+        link_prefix="/publication/pamph/shohi/kaisei/yoshiki/pdf/",
+        aliases=[
+            "法人用 消費税 申告書 一般用 書き方",
+            "消費税申告書 一般用",
+        ],
+        manual_sections=(
+            ("法人用 消費税及び地方消費税の申告書（一般用）の書き方", "https://www.nta.go.jp/publication/pamph/shohi/kaisei/yoshiki/pdf/202008_01.pdf"),
+        ),
+    ),
+    SourceSpec(
+        doc_code="hojin_shohi_kakikata_kani",
+        doc_title="法人用 消費税及び地方消費税の申告書（簡易課税用）の書き方",
+        year="2020",
+        index_url="https://www.nta.go.jp/publication/pamph/shohi/kaisei/yoshiki/pdf/202008_02.pdf",
+        link_prefix="/publication/pamph/shohi/kaisei/yoshiki/pdf/",
+        aliases=[
+            "法人用 消費税 申告書 簡易課税用 書き方",
+            "消費税申告書 簡易課税用",
+        ],
+        manual_sections=(
+            ("法人用 消費税及び地方消費税の申告書（簡易課税用）の書き方", "https://www.nta.go.jp/publication/pamph/shohi/kaisei/yoshiki/pdf/202008_02.pdf"),
+        ),
+    ),
+    SourceSpec(
+        doc_code="invoice_oshirase_2025",
+        doc_title="インボイス制度に関するお知らせ（令和7年4月）",
+        year="2025",
+        index_url="https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/shohi/keigenzeiritsu/pdf/0024004-035.pdf",
+        link_prefix="/taxes/shiraberu/zeimokubetsu/shohi/keigenzeiritsu/pdf/",
+        aliases=[
+            "インボイス制度に関するお知らせ",
+            "インボイス お知らせ",
+            "invoice oshirase",
+        ],
+        manual_sections=(
+            ("インボイス制度に関するお知らせ（令和7年4月）", "https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/shohi/keigenzeiritsu/pdf/0024004-035.pdf"),
+        ),
     ),
 ]
 
@@ -208,28 +345,91 @@ def derive_row_title(cells: list[str], anchor_text: str) -> str:
     return t
 
 
+def derive_fallback_title(source_url: str) -> str:
+    name = Path(urlparse(source_url).path).name
+    stem = Path(name).stem
+    stem = clean_ws(stem.replace("_", " ").replace("-", " "))
+    if not stem:
+        return name or source_url
+    if re.fullmatch(r"[0-9]{1,4}", stem):
+        return f"資料 {stem}"
+    return stem
+
+
+def build_manual_sections(spec: SourceSpec) -> list[Section]:
+    out: list[Section] = []
+    for i, (title, source_url) in enumerate(spec.manual_sections, start=1):
+        parsed = urlparse(source_url)
+        stype = "pdf" if parsed.path.lower().endswith(".pdf") else "html"
+        out.append(
+            Section(
+                section_no=i,
+                section_id=f"s{i:03d}",
+                section_title=clean_ws(title) or derive_fallback_title(source_url),
+                source_url=source_url,
+                source_type=stype,
+            )
+        )
+    return out
+
+
 def extract_sections(spec: SourceSpec, html: str) -> list[Section]:
+    if spec.manual_sections:
+        return build_manual_sections(spec)
+
     soup = BeautifulSoup(html, "html.parser")
     sections: list[Section] = []
     seen_urls: set[str] = set()
+    index_parsed = urlparse(spec.index_url)
 
     for tr in soup.select("table tr"):
-        a = tr.find("a", href=True)
-        if not a:
-            continue
+        cells = [clean_ws(td.get_text(" ", strip=True)) for td in tr.find_all(["th", "td"])]
+        for a in tr.find_all("a", href=True):
+            source_url = urljoin(spec.index_url, a.get("href", ""))
+            parsed = urlparse(source_url)
+            path_lc = parsed.path.lower()
+            if spec.link_prefix not in parsed.path:
+                continue
+            if not (path_lc.endswith(".pdf") or path_lc.endswith(".htm") or path_lc.endswith(".html")):
+                continue
+            if source_url in seen_urls:
+                continue
+
+            title = derive_row_title(cells, a.get_text(" ", strip=True))
+            if not title:
+                title = derive_fallback_title(source_url)
+
+            seen_urls.add(source_url)
+            n = len(sections) + 1
+            sections.append(
+                Section(
+                    section_no=n,
+                    section_id=f"s{n:03d}",
+                    section_title=title,
+                    source_url=source_url,
+                    source_type="pdf" if path_lc.endswith(".pdf") else "html",
+                )
+            )
+
+    # Also collect non-table anchors under link_prefix to avoid missing 00.pdf / A.pdf / all.pdf etc.
+    for a in soup.find_all("a", href=True):
         source_url = urljoin(spec.index_url, a.get("href", ""))
         parsed = urlparse(source_url)
+        path_lc = parsed.path.lower()
         if spec.link_prefix not in parsed.path:
             continue
-        if not (parsed.path.endswith(".pdf") or parsed.path.endswith(".htm") or parsed.path.endswith(".html")):
+        if parsed.fragment:
+            continue
+        if not (path_lc.endswith(".pdf") or path_lc.endswith(".htm") or path_lc.endswith(".html")):
+            continue
+        if parsed.path == index_parsed.path:
             continue
         if source_url in seen_urls:
             continue
 
-        cells = [clean_ws(td.get_text(" ", strip=True)) for td in tr.find_all(["th", "td"])]
-        title = derive_row_title(cells, a.get_text(" ", strip=True))
-        if not title:
-            continue
+        title = clean_ws(a.get_text(" ", strip=True))
+        if not title or re.search(r"PDF|KB", title, flags=re.IGNORECASE):
+            title = derive_fallback_title(source_url)
 
         seen_urls.add(source_url)
         n = len(sections) + 1
@@ -239,7 +439,7 @@ def extract_sections(spec: SourceSpec, html: str) -> list[Section]:
                 section_id=f"s{n:03d}",
                 section_title=title,
                 source_url=source_url,
-                source_type="pdf" if parsed.path.endswith(".pdf") else "html",
+                source_type="pdf" if path_lc.endswith(".pdf") else "html",
             )
         )
 
@@ -254,22 +454,22 @@ def normalize_line(line: str) -> str:
 
 def extract_pdf_lines(pdf_path: Path) -> list[str]:
     out: list[str] = []
-    with pdfplumber.open(pdf_path) as pdf:
-        for page_no, page in enumerate(pdf.pages, start=1):
-            txt = page.extract_text() or ""
-            lines: list[str] = []
-            for raw in txt.splitlines():
-                ln = normalize_line(raw)
-                if not ln:
-                    continue
-                if ln in COMMON_NOISE_LINES:
-                    continue
-                if re.fullmatch(r"[0-9]{1,4}", ln):
-                    continue
-                lines.append(ln)
-            if lines:
-                out.append(f"[page {page_no}]")
-                out.extend(lines)
+    reader = PdfReader(str(pdf_path))
+    for page_no, page in enumerate(reader.pages, start=1):
+        txt = page.extract_text() or ""
+        lines: list[str] = []
+        for raw in txt.splitlines():
+            ln = normalize_line(raw)
+            if not ln:
+                continue
+            if ln in COMMON_NOISE_LINES:
+                continue
+            if re.fullmatch(r"[0-9]{1,4}", ln):
+                continue
+            lines.append(ln)
+        if lines:
+            out.append(f"[page {page_no}]")
+            out.extend(lines)
     return out
 
 
@@ -387,7 +587,7 @@ def build_items(spec: SourceSpec, sections: list[Section]) -> list[Item]:
 
         lines = [ln for ln in lines if ln]
         if not lines:
-            continue
+            lines = [f"※ テキスト抽出結果が空でした。原本を参照してください: {s.source_url}"]
 
         parts = split_lines(lines, MAX_PART_CHARS)
         part_total = len(parts)

@@ -1,0 +1,51 @@
+doc: 源泉徴収のしかた（令和8年版） (gensen_shikata_2026)
+year: 2026
+item: s016-part-14 / title: 資料 15 (part 14/21)
+section: 16 / 資料 15
+source_type: pdf
+source_url: https://www.nta.go.jp/publication/pamph/gensen/shikata_r08/pdf/15.pdf
+url: https://jplawdb.github.io/html-preview/ai-nta-guide-db/enhanced/gensen_shikata_2026/s016-part-14.html
+
+[p1] 4 How to Use the Table f or Calculating Withholding Tax Amount s for Bonus es (if an "Application for Exemption for Dependents of Employment Income Earner" is submitted)
+[p2] (Example)
+[p3] (1) Payment amount of bonus 554,000 yen (2) Social insurance premiums deducted from bonus 85,177 yen (3) Amount of ordinary salary in the previous month (after deducting social insurance premiums) 200,820 yen
+[p4] (4) Number of dependents 2 persons (Spouse covered by a withholding exemption and one additional relative qualified for withholding deduction)
+[p5] [Tax calculation] (1) In the column headed "2 dependents" in column 甲(kou) of the "Table for Calculating Withholding Tax Amounts for Bonuses"（賞与に対する源泉徴収税額の算出率の表）, find the row for " 143,000 yen or
+[p6] more and less than 276,000 yen," which includes 200,820 yen, the amount of salary, etc. in the previous month after deduction of social insurance premiums, then find the rate coinciding with the "Bonus
+[p7] Amount Multiplication Rate"（賞与の金額に乗ずべき率）column, 2.042% in this example. This is the tax rate used as the multiplier applied to the bonus.
+[p8] (2) The tax amount to be withheld from the bonus is calculated as follows: (Bonus 554,000 yen – social insurance premiums 85,177 yen)  2.042%
+[p9] That is: 468,823 yen  2.042% = 9,573 yen (any fraction of less than one yen is omitted)
+[p10] The table for calculating withholding tax amounts for bonuses)
+[p11] Column for 2 dependents Row including the amount of salary, etc. in the previous month after deduction of social insurance premiums: 200,820 yen Tax rate to be applied to the bonus
+[p12] [page 31]
+[p13] VII. Year-end Adjustment The y ear-end adjustment is th e process whereby the payer of salary, etc. settles the discrepancy for each
+[p14] person between the total amount of income tax and special income tax for reconstruction withheld from each payment of salary, etc. made during the year and the tax amount to be paid for total salary, etc. paid during the
+[p15] year at the time of the last payment of salary, etc. in the year. For most people receiving a salary , etc. , therefore, the year-end adjustment plays an important role as a substitute for filing a final return.
+[p16] 1 Timing of the Year-end Adjustment The year-end adjustment is, in principle, made at the time of the last payment of salary, etc. in a year. In the
+[p17] case of any person who has ceased working during the year due to death or who has become a non-resident due to a transfer to an overseas branch, the year-end adjustment is performed at the time of the person's death
+[p18] or transfer to an overseas branch.
+[p19] 2 Persons Not Covered by the Year-end Adjustment Salaries, etc. paid to the following persons are not subject to the year-end adjustment.
+[p20] (1) Persons having neither domicile in Japan nor residence for one year or more in Japan (non-residents)
+[p21] (2) Persons who do not submit an "Application for (Change in) Exemption for Dependents of Employment Income Earner" (to which column 乙(otsu) or 丙(hei) of the tax amount table applies)
+[p22] (3) Persons receiving payments of salary, etc. during the year in the amount of 20,000,000 yen or more (4) Persons for whom collection has been suspended or who have received a tax refund relating to
+[p23] withholding income tax and special income tax for reconstruction for their salaries, etc. during the year under the provisions of the Act on Exemption, Reduction or Postponement of Collection of Taxes for
+[p24] Disaster Victims (5) Persons who have left their jobs during the course of the year (excluding those who have ceased working due to death, etc.)
+[p25] 3 Salary Covered by the Year-end Adjustment The amount of salary, etc. subject to the year-end adjustment is the amount of salary, etc. which should be
+[p26] paid when the date of payment arrives between January 1 and December 31 of the relevant year. Therefore, the amount of salary, etc. which should be paid during the year shall be included in the yearly salary , etc. and
+[p27] subject to the year-end adjustment, even if unpaid.
+[p28] 4 Procedures for the Year-end Adjustment For practical information on how to perform the year-end adjustment, see "Year-end Adjustment Guide", in Japanese only posted on the website of the NTA （https://www.nta.go.jp）.
+[p29] VIII. Payment of Withheld Income Tax and Special Income Tax for Reconstruction Withheld income tax and special income tax for reconstruction is to be paid by the 10 th day of the month
+[p30] following the month in which the salary, etc. was paid (in cases where exceptional permission is received, by July 10 and January 20 in the following year) by sending a "data on the statement of income tax collected" via
+[p31] e-Tax (cashless payment), or paid at a local financial institution or over the counter at the competent tax office, together with submission of a "Statement of income tax collected (tax payment slip)".
+[p32] [page 32]
+[p33] Even if no tax is to be paid, the statement of income tax collected (payment slip) should be submitted to the competent tax office; or should be submitted over the counter in the competent tax office. (In this case, the
+[p34] data on s statement of income tax collected" can also be sent via e-Tax.)
+[p35] For detailed information, please see the NTA website,"Procedures for Payment of Withholding Income Tax" [https://www.nta.go.jp/users/gensen/nencho/index/gensen_nouzei/cashless.htm].
+[p36] (Note) If the bonus for directors* prescribed in Item 15 of Article 2 of the Corporate Tax Act is not paid after 1 year has elapsed since the day on which the payment bec ame definitive, it s hall be deemed that
+[p37] payment was made at the e nd of that 1-year period and income tax and special income tax for reconstruction will be withheld in relation to the unpaid bonus.
+[p38] * "Directors" include s directors, executive officers, accounting advisors, auditors, trustees, supervisors, liquidators, and certain others engaged in the management of a corporation.
+[p39] IX. Issuance of Salary Payment Slip Any person paying a salary, etc. in Japan is required to issue to the recipient a payment slip stating the amount
+[p40] of the salary, etc., the amount of tax withheld, and certain other necessary matters at the time of payment.
+[p41] (Note) 1 If the recipient certainly agrees*, the payer of salary, etc. may provide the required information by electromagnetic means instead of providing a salary payment slip in writing. Any payer of salary,
+[p42] etc. who provides a payment slip by electromagnetic means shall be deemed to have issued a payment slip.
+[p43] When required by the recipient, the payer of salary, etc. must issue a payment slip in writing.

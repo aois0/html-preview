@@ -1,0 +1,52 @@
+doc: 源泉徴収のしかた（令和8年版） (gensen_shikata_2026)
+year: 2026
+item: s016-part-21 / title: 資料 15 (part 21/21)
+section: 16 / 資料 15
+source_type: pdf
+source_url: https://www.nta.go.jp/publication/pamph/gensen/shikata_r08/pdf/15.pdf
+url: https://jplawdb.github.io/html-preview/ai-nta-guide-db/enhanced/gensen_shikata_2026/s016-part-21.html
+
+[p1] the person shall settle by receiving a deduction of casualty losses and a reduction of or exemption from income taxes pursuant to the Disaster Exemption Act with the final tax return.
+[p2] (2) If a recipient of salary, etc. or public pension, etc. claims a postponement of collection under the Disaster
+[p3] Exemption Act, the person shall submit the prescribed application to the district director of the competent tax office for the place of tax payment of the disaster victim through the payer (Note). (In order to be
+[p4] granted a refund, or a postponement of collection of withholding tax for remuneration/fees, an application shall be submitted directly to the district director of the competent tax office for the place of tax payment
+[p5] of the disaster victim.)
+[p6] For detailed procedures, please refer to the "Outline of Withholding Tax （源泉徴収のあらまし）" (in Japanese only) available on the National Tax Agency website [https://www.nta.go.jp].
+[p7] (Note) The application may be submitted to the district director of the competent tax office for the place of tax payment of the payer. (In such a case also, the addressee of the application shall be the district
+[p8] director of the competent tax office for the place of tax payment of the disaster victim.)
+[p9] [page 48]
+[p10] IV. Refunds of Tax Amounts Withheld in Response to Employment Income Earners' Tax Returns An employment income earner with the amount of tax withheld who falls within any of the following
+[p11] descriptions may receive a refund of the amount of tax withheld by filing a final return.
+[p12] (1) Any person who has left a company during the course of a year and has not undergo ne a year-end adjustment, resulting in the amount of tax withheld on salary, etc. exceeding the tax amount for the year
+[p13] due to such reasons as no other income for the rest of the year after having left the company (2) Any person who has an intention of applying for a reduction in or exemption of income tax under the
+[p14] Disaster Exemption Act because his/her property has suffered damage the cost of which is equivalent to 50% or more of the value of the house or other assets affected by the disaster
+[p15] (3) Any person who has suffered from the loss of a house or other assets due to a disaster, theft or embezzlement, has made necessary expenditure pertaining to the disaster, etc. and has an intention of
+[p16] applying for a deduction for casualty losses under the Income Tax Act because the loss or the expenditure exceeds a certain amount (this deduction is not available to any person granted a reduction or exemption
+[p17] described in (2) above for the loss amount due to the disaster.)
+[p18] (4) Any person who has an intention of applying for a deduction for medical expenses under the Income Tax Act because the amount paid for medical expenses exceeds the lower of either 100,000 yen or the amount
+[p19] equivalent to 5% of total amount of income (5) Any person who has an intention of applying for a deduction for contribution s or donations under the
+[p20] Income Tax Act, etc. because his/her payment amount exceeds 2,000 yen for: donation s paid to the national government, a specific public interest promotion corporation, etc.; Contributions to prefectural
+[p21] and municipal goverments （Furusato Nouzei,etc. ）; donation s relating to certain specified nonprofit activities conducted by certified NPOs, etc.; amount needed to purchase stocks issued by specified new
+[p22] small and medium-sized companies; or specified political contributions.
+[p23] (6) Any person earning below a certain amount of income who has an intention of applying for a credit for dividends under the Income Tax Act
+[p24] (7) Any person earning below a certain amount of income, or person receiving distribution of income from collective investment trusts and other payments and fulfill certain requirements, who has an intention of
+[p25] applying for a credit for dividends under the Income Tax Act, or applying for deduction of the amount equivalent to foreign tax adjusted at the time of distribution
+[p26] (8) Any person who has an intention of applying for a special credit for loans , etc. related to a dwelling (specific additions or improvements, etc.) under the Act on Special Measures Concerning Taxation due to
+[p27] the acquisition of a house, etc., or any person who has not claimed the credit at the time of the year -end adjustment from the second and subsequent years after the application of a special credit for loans , etc.
+[p28] related to a dwelling (specific additions or improvements, etc.)
+[p29] (9) Any person who has failed to submit an "Application Concerning Receipt of Retirement Income" upon receipt of retirement allowance, etc. and was withheld a tax at a rate of 20 .42% on the amount received,
+[p30] where the amount of tax withheld exceeds the amount of tax calculated by applying the deduction for retirement income, etc.
+[p31] (10) Any person who has an intention of applying for a special credit for contributions to political parties, etc.
+[p32] because the person has made a certain contribution to a political party, etc. related to political activities (11) Any person who has an intention of applying for a special credit of income tax amount under the Act on
+[p33] Special Measures Concerning Taxation because his/her payment amount exceeds 2,000 yen for certain donations to certified NPOs , etc. or for certain donations to certain public interest incorporated
+[p34] [page 49]
+[p35] associations, etc.
+[p36] (12) Any person who has completed a certain anti-earthquake improvement and has an intention of applying for a special credit for anti-earthquake improvements made to an existing house
+[p37] (13) Any person who has completed a certain specified housing improvements and has an intention of applying for a special tax credit for specified housing improvements, or any person who has newly built a
+[p38] certified house, etc. and has an intention of applying for a special tax credit for new building, etc. of a certified house,etc.
+[p39] (14) Any person whose total specifi c expenses exceeds the amount equal to one half of the amount of the deduction for employment income and who has an intention of applying for special provisions o n
+[p40] deduction for specially designated expenditure of employment income earners (15) Any person who has taken a health examination to maintain/improve his/her health and to prevent
+[p41] diseases, and has an intention of applying for a special provision s on deduction for medical expenses under the Act on Special Measures Concerning Taxation in the case that his/her total purchase amount of
+[p42] certain drugs exceeds 12,000 yen When you perform the year -end adjustment procedures electronically, you will benefit from better efficiency in the year -end adjustment procedures, such as eliminating the
+[p43] need to verify the deducted amount for deduction of insurance premiums, etc. and to check certificates for deduction and others.
+[p44] Enjoy Advantage of Year-end Adjustment Done Electronically!

@@ -1,0 +1,54 @@
+doc: 源泉徴収のしかた（令和8年版） (gensen_shikata_2026)
+year: 2026
+item: s016-part-12 / title: 資料 15 (part 12/21)
+section: 16 / 資料 15
+source_type: pdf
+source_url: https://www.nta.go.jp/publication/pamph/gensen/shikata_r08/pdf/15.pdf
+url: https://jplawdb.github.io/html-preview/ai-nta-guide-db/enhanced/gensen_shikata_2026/s016-part-12.html
+
+[p1] credit card company (3) A documents of an electronic payment instruments service provider (including issue electronic payment instruments of a certain type of banks or funds transfer service
+[p2] providers) , or their copies, which clarify that the resident paid to the non-resident relatives by electronic payment instruments service providers.
+[p3] (Note) 4 "380,000 yen remittance document" refers to a document, among the "documents concerning remittances" that clearly states that the total amount of payment from the
+[p4] person receiving salary or other payments to each overseas resident relative is 380,000 yen or more in that year.
+[p5] (Note) 5 If you wish to apply for (special) exemptions for spouses pertaining to non -resident relatives or the special exemption for specified relatives through your year-end adjustment, "Documents concerning
+[p6] relatives" pertaining to the non -resident relatives and "Documents concerning remittances" must be submitted or presented by attaching to an "Application for Exemption for Spouse of Employment
+[p7] Income Earner" and "Application for Special Exemption for Specified Relatives of Employment Income Earner." If "Documents concerning relatives" pertaining to the non-resident relatives have been already
+[p8] submitted or presented when submitting an "Application for Exemption for Dependents of Employment Income Earner ," the "Documents concerning relatives" are not required to be submitted or presented.
+[p9] (2) Working students In order for a person falling in the category (1) (b) or (c) of the above 3 (Working students) to apply for
+[p10] exemptions for working students, he/she is required to obtain a copy of a certificate by the competent minister
+[p11] and a certificate by the headmaster, etc. issued by a school, etc. and to submit or present them by attaching to an "Application for (Change in) Exemption for Dependents of Employment Income Earner".
+[p12] 5 Timing of Determination of Eligibility for Deductions The determination on whether a person qualifies as a spouse covered by an exemption, a dependent covered
+[p13] by an exemption or a person with disabilities shall, in principle, be based on his/her status on December 31 of
+[p14] the relevant year. If the earner of salary, etc. or his/her relatives dies during the course of a year or the earner
+[p15] of salary, etc. departs from Japan during the course of the year, the determination s hall be made based on the status of that person at the time of his/her death or departure.
+[p16] When an "Application for (Change in) Exemption for Dependents of Employment Income Earner "（給与 所得者の扶養控除等申告書）, an "Application for Exemption for Spouse of Employment Income Earner"
+[p17] （給与所得者の配偶者控除等申告書）, an "Application for Special Exemption for Specified Relatives of Employment Income Earner" （給与所得者の特定親族特別控除申告書）, an "Application for Exemption of
+[p18] amount of Income Adjustment"（所得金額調整控除申告書）or an "Application for Deduction for Insurance
+[p19] [page 26]
+[p20] Premiums for Employment Income Earner" ( 給与所得者の保険料控除申告書) is submitted, the determination on whether any spouse covered by a withholding exemption, relatives qualified for withholding deduction or a
+[p21] person with disabilities is eligible for a deduction shall be made on the date of submission of the relevant application. In making the determination, total amount of income for the year, and the amount of payment for
+[p22] living expenses or education mentioned in (2)③-c of 3 above "(dependent covered by an exemption)" shall be estimated according to the status on the date on which the relevant application is submitted and the amount of
+[p23] payment for the year, and the relevant person's age will be determined as at December 31 of the relevant year.
+[p24] V. How to Apply the Tax Amount Table 1 Application of the Tax Amount Table (1) Tax amount table used for withholding of monthly (daily) salaries, bonuses,
+[p25] The amount of income tax and special income tax for reconstruction withheld from salaries, bonuses, etc. can be determined by using the "the Tax Amount Table".
+[p26] The table is used as follows , according to salary , etc., the submission of an "Application for Exemption for Dependents of Employment Income Earner", and the manner in which salary, etc. is paid.
+[p27] Tax amount table Category of payment of salary, etc. Applicable column in the table Monthly table (1) Paid monthly (2) Paid twice monthly or every 10 days (3) Paid per period where the period is a multiple of
+[p28] whole months Column 甲(kou): Salary, etc. paid to persons who have submitted an "Application for Exemption for Dependents of Employment Income Earner" Column 乙(otsu): Salary, etc. paid to others Daily table (1) Paid daily
+[p29] (2) Paid weekly (excluding daily wage)
+[p30] (3) Paid for number of days Column 甲(kou): Salary, etc. paid to persons who have submitted an "Application for Exemption for Dependents of Employment Income Earner" Column 乙(otsu): Salary, etc. paid to others
+[p31] "Daily wage" Column 丙(hei)
+[p32] Table for calculating withholding tax amounts for bonuses Bonus If no ordinary salary is paid in the previous month or if the bonus exceeds 10 times the ordinary salary in the previous month, use the monthly table.
+[p33] Column 甲(kou): Bonus paid to persons who have submitted an "Application for Exemption for Dependents of Employment Income Earner" Column 乙(otsu): Bonus paid to others
+[p34] (Note) The "daily wage" is a salary , etc. received by a person employed on a daily basis for each workday as calculated
+[p35] according to the day or time of work (including payments made on other days than the workdays) . If a payer of salary, etc. pays this continuously for more than two months, payments made beyond the two-month period are
+[p36] not included in the "daily wage." (2) Quick calculating tax amount table used for the year-end adjustment The annual tax amount used for the year-end adjustment is determined by first deducting the amount of
+[p37] special credit for loans, etc. related to a dwelling from the calculated income tax amount determined by using the quick calculating table below and then multiplying that amount after deduction (the tax amount for the
+[p38] year after the year-end adjustment) by 102.1%.
+[p39] [page 27]
+[p40] (Quick Calculating Income Tax Amount Table for the Year-end Adjustment in 2026)
+[p41] Taxable employment income amount (A)
+[p42] Rate (B)
+[p43] Deduction (C)
+[p44] Tax amount = (A)  (B) – (C)
+[p45] 1,950,000 yen or less Over 1,950,000 yen and 3,300,000 yen or less Over 3,300,000 yen and 6,950,000 yen or less Over 6,950,000 yen and 9,000,000 yen or less Over 9,000,000 yen and 18,000,000 yen or less
+[p46] Over 18,000,000 yen and 18,050,000 yen or less 5% 10% 20% 23% 33% 40% -
