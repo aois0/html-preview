@@ -1,0 +1,59 @@
+doc: 源泉徴収のしかた（令和8年版） (gensen_shikata_2026)
+year: 2026
+item: s016-part-08 / title: 資料 15 (part 8/21)
+section: 16 / 資料 15
+source_type: pdf
+source_url: https://www.nta.go.jp/publication/pamph/gensen/shikata_r08/pdf/15.pdf
+url: https://jplawdb.github.io/html-preview/ai-nta-guide-db/enhanced/gensen_shikata_2026/s016-part-08.html
+
+[p1] 2 For details on the above deductions, please see the "Outline of Withholding Procedure" （源泉徴収のあらまし）
+[p2] on the NTA website [https://www.nta.go.jp].
+[p3] 3 In addition, deductions for casualty losses, medical expenses, contributions or donations, credits for dividends,
+[p4] Deduction of the amount equivalent to foreign tax adjusted at the time of distribution, foreign tax, special
+[p5] credits for contributions to political parties, etc., donations to certified NPOs, etc., donations to public interest
+[p6] incorporated associations, etc., anti-earthquake improvements made to an existing house, special tax credits for specified housing improvements , new building, etc. of a certified house,etc and deduction for specially
+[p7] designated expenditure of employment income earners are also available as deductions that may be claimed by submitting a final return.
+[p8] [page 17]
+[p9] (*1) The amount prescribed in the following category shall be deducted from income.
+[p10] (Amount table of Basic exemption)
+[p11] Total amount of income of income earner Amount of deduction Total amount of income of income earner Amountof deduction 1,320,000 yen or less 950,000 yen Over 6,550,000 yen and 23,500,000 yen or less 580,000 yen
+[p12] Over 1,320,000 yen and 3,360,000 yen or less 880,000 yen Over 23,500,000 yen and 24,000,000 yen or less 480,000 yen Over 3,360,000 yen and 4,890,000 yen or less 680,000 yen Over 24,000,000 yen and
+[p13] 24,500,000 yen or less 320,000 yen Over 4,890,000 yen and 6,550,000 yen or less 630,000 yen Over 24,500,000 yen and 25,000,000 yen or less 160,000 yen
+[p14] (*2) The amount prescribed in the following category shall be deducted from income.
+[p15] (Amount table of Exemption for spouses)
+[p16] (*3) The amount prescribed in the following category shall be deducted from income.
+[p17] (Amount table of Special exemption for spouses)
+[p18] 9,000,000 yen or less Over 9,000,000 yen and 9,500,000 yen or less Over 9,500,000 yen and 10,000,000 yen or less Over 580,000 yen and 950,000 yen or less 380,000 yen 260,000 yen 130,000 yen
+[p19] Over 950,000 yen and 1,000,000 yen or less 360,000 yen 240,000 yen 120,000 yen Over 1,000,000 yen and 1,050,000 yen or less 310,000 yen 210,000 yen 110,000 yen
+[p20] Over 1,050,000 yen and 1, 100,000 yen or less 260,000 yen 180,000 yen 90,000 yen Over 1, 100,000 yen and 1, 150,000 yen or less 210,000 yen 140,000 yen 70,000 yen
+[p21] Over 1,150,000 yen and 1,200,000 yen or less 160,000 yen 110,000 yen 60,000 yen Over 1,200,000 yen and 1,250,000 yen or less 110,000 yen 80,000 yen 40,000 yen
+[p22] Over 1,250,000 yen and 1,300,000 yen or less 60,000 yen 40,000 yen 20,000 yen Over 1,300,000 yen and 1,330,000 yen or less 30,000 yen 20,000 yen 10,000 yen Over 1, 330,000 yen 0 yen 0 yen 0 yen
+[p23] (*4) Amounts according to the following category shall be deducted from income: (Table of amounts for special exemption for specified relatives)
+[p24] Total amount of income of specified relatives Amount of deduction Over 580,000 yen and 850,000 yen or less 630,000 yen Over 850,000 yen and 900,000 yen or less 610,000 yen
+[p25] Over 900,000 yen and 950,000 yen or less 510,000 yen 9,000,000 yen or less Over 9,000,000 yen and 9,500,000 yen or less Over 9,500,000 yen and 10,000,000 yen or less
+[p26] 580,000 yen or less 380,000 yen 260,000 yen 130,000 yen Elderly spouses covered by exemption 480,000 yen 320,000 yen 160,000 yen Total amount of income of income earner Total amount of income of spouse
+[p27] Total amount of income of spouse Total amount of income of income earner
+[p28] [page 18]
+[p29] Over 950,000 yen and 1,000,000 yen or less 410,000 yen Over 1,000,000 yen and 1,050,000 yen or less 310,000 yen Over 1,050,000 yen and 1,100,000 yen or less 210,000 yen
+[p30] Over 1,100,000 yen and 1,150,000 yen or less 110,000 yen Over 1,150,000 yen and 1,200,000 yen or less 60,000 yen Over 1,200,000 yen and 1,230,000 yen or less 30,000 yen 3 Scope of Persons Covered by Exemptions
+[p31] The persons covered by particular exemptions and specific remarks concerning their eligibility are as follows: (Spouse living in the same household)
+[p32] A spouse living in the same household as the earner of salary, etc. (excluding persons receiving salaries as blue return business family employees and/or white return business family employees (hereinafter "blue
+[p33] return business family employees, etc.) ) whose total amount of income is 580,000 yen or less.
+[p34] (Note)
+[p35] 1 The term "spouse" excludes common-law spouses.
+[p36] 2 "Total amount of income" is the sum of the following: (1) "Amount of gross income" without appl ying any carry-over deduction f or a net loss , carry -over
+[p37] deduction for a casualty loss, carry-over deduction f or a capital loss in the case of replacement of assets used for living purposes or carry-over deduction for a capital loss on specific assets used for
+[p38] living purposes.
+[p39] (2) The amount of dividend income on listed stocks, etc., when the income recipient opts for separate self-assessment taxation. (if an aggregation of profit and loss for any capital loss pertaining to listed
+[p40] stocks, etc. is applicable, the amount after the application of the aggregation; and if a carry -over deduction for any capital loss pertaining to listed stocks, etc. is applicable, the amount before th e
+[p41] application of the carry-over)
+[p42] (3) The amount of capital gains from land or buildings (total of long -term capital gain/loss (before any special deduction) and short-term capital gain/loss (before any special deduction))
+[p43] (4) The amount of capital gain from unlisted stocks, etc. or the amount of capital gain from listed stocks, etc. (if a carry-over deduction for any capital loss pertaining to listed stocks, etc. or the amount of a
+[p44] carry-over deduction f or a capital loss pertaining to stock issued by a specific small business is applicable, the amount before the application of that carry-over)
+[p45] (5) The amount of miscellaneous income pertaining to future transactions (if a carry-over deduction pertaining to a settlement loss such as a differential in future transactions is applicable, the amount
+[p46] before the application of that carry-over)
+[p47] (6) The amount of retirement income (7) The amount of timber income "Total amount of income" excludes income subject to separate withholding taxation at source for which
+[p48] tax has been paid in full only by separate withholding and the following types of income in respect of which the taxpayer chooses not to submit a final return:
+[p49] A. The following forms of interest income or dividends income
+[p50] [page 19]
+[p51] (A) Those subject to separate withholding taxation at source

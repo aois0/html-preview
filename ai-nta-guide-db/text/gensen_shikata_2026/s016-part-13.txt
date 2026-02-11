@@ -1,0 +1,58 @@
+doc: 源泉徴収のしかた（令和8年版） (gensen_shikata_2026)
+year: 2026
+item: s016-part-13 / title: 資料 15 (part 13/21)
+section: 16 / 資料 15
+source_type: pdf
+source_url: https://www.nta.go.jp/publication/pamph/gensen/shikata_r08/pdf/15.pdf
+url: https://jplawdb.github.io/html-preview/ai-nta-guide-db/enhanced/gensen_shikata_2026/s016-part-13.html
+
+[p1] 97,500 yen 427,500 yen 636,000 yen 1,536,000 yen 2,796,000 yen (A)  5% (A)  10% – 97,500 yen (A)  20% – 427,500 yen (A)  23% – 636,000 yen (A)  33% – 1,536,000 yen (A)  40% – 2,796,000 yen
+[p2] (Note) 1 Fractions of taxable income amounts of less than 1,000 yen are omitted.
+[p3] 2 Taxable income amounts exceeding 18,050,000 yen are not covered by the year-end adjustment in 2026 2 How to Use the Tax Amount Table
+[p4] In using the tax amount table when paying monthly (daily) salaries and bonuses, please take note of the following:
+[p5] (1) The amount of salary, etc. to which the tax amount table applies is the monthly or daily salary , etc. less premiums for welfare pensions, health insurance, employment insurance, and other social insurance.
+[p6] (2) The column 甲(kou) in the tax amount table is applied according to the number of dependents that the earner of salary, etc. has.
+[p7] The "number of dependents" here means the total including any spouse covered by a withholding exemption and relatives qualified for withholding deduction. If the earner of salary, etc. is a person with
+[p8] disabilities (including any person with special disabilities), widow, single parent or working student, this number shall be added. If the person's spouse living in the same household and dependents (including
+[p9] those aged younger than 16) include a person with disabilities (including any person with special disabilities) or a person with special disabilities living together with the salary earner, etc., the number of
+[p10] dependents shall be increased by one for each such person.
+[p11] How to calculate the number of dependents, etc. pertaining to spouses is as per the following table: [Reference: How to calculate the number of dependents, etc. pertaining to spouses].
+[p12] (Note) 1 It is not possible for both husband and wife to mutually qualify for exemption for spouses covered by a withholding exemption.
+[p13] 2 It is not possible for both dependents to mutually qualify for exemption for specified relatives or qualify for exemption by designating specified relatives who is eligible for exemption for specified relatives.
+[p14] [page 28]
+[p15] [Reference: How to calculate the number of dependents, etc. pertaining to spouses] Total amount of income of earner of salary, etc.
+[p16] (Revenue from salary, etc. of earner of salary, etc. who earn only employment income)
+[p17] 9,000,000 yen or less (10,950,000 yen or less)
+[p18] Over 9,000,000 yen and 9,500,000 yen or less Over 10,950,000 yen and 11,450,000 yen or less Over 9,500,000 yen and 10,000,000 yen or less Over 11,450,000 yen and 11,950,000 yen or less Over 10,000,000 yen
+[p19] (Over 11,950,000 yen)
+[p20] Total amount of income of spouses (Revenue from salary, etc. of spouses who earn only employment income)
+[p21] 580,000 yen or less (1,230,000 yen or less)
+[p22] 1 person 0 person 0 person 0 person Over 580,000 yen and 950,000 yen or less Over 1,230,000 yen and 1,600,000 yen or less 1 person 0 person 0 person 0 person Over 950,000 yen (Over 1,600,000 yen)
+[p23] 0 person 0 person 0 person 0 person If exemption of amount of income adjustment is applicable, please add 150,000 yen to each amount in
+[p24] brackets. Please note that the amounts in brackets are not applicable, either, in the case of applying for deduction for specially designated expenditure of employment income earners.
+[p25] VI. Calculation of Tax Amount (based on the Tax Amount Table for 2026)
+[p26] The amount of income tax and special income tax for reconst ruction withheld from salary, bonuses, etc. can be determined by using the Tax Amount Table.
+[p27] If the payer of salary, etc. calculates payments of salary, etc. by computer or other office machinery, the amount of income tax and special income tax for reconstruction withheld from the salary , etc. to which
+[p28] column 甲(kou) applies in the monthly table may be determined using the method prescribed by the Minister of Finance (public notice by the Ministry of Finance).
+[p29] 1 How to Use Column 甲(kou) of the Monthly Table (if an "Application for Exemption for Dependents of Employment Income Earner" is submitted)
+[p30] (Example)
+[p31] (1) Payment amount of salary, etc. (monthly amount) 420,000 yen (2) Social insurance premiums deducted from salary, etc. 63,087 yen (3) Number of dependents 2 persons
+[p32] (Spouse covered by a withholding exemption and one additional relative qualified for withholding deduction)
+[p33] [Tax calculation] If spouses fall under persons with disabilities, one person is added.
+[p34] [page 29]
+[p35] (1) Social insurance premiums, etc., are deducted from the salary: 356,913 yen (420,000 yen – 63,087 yen)
+[p36] (2) In the column headed "amount of salary, etc. after deduction of social insurance premiums, etc. , for the month"（その月の社会保険料控除後の給与等の金額）in the monthly table, find the row for "356,000 or
+[p37] more and less than 359,000," which includes 356,913 yen, then read across to column 甲(kou) headed "2 dependents." You will then find the withholding amount of 7,020 yen in the box where the row and
+[p38] column intersect. This is the amount of income tax and special income tax for reconstruction withheld from salary, etc.
+[p39] [Entries in the ledger of withholding tax] Monthly payments of salaries, etc., the amounts of social insurance premiums and withheld taxes are recorded
+[p40] in the "Ledger of Withholding Tax for Employment Income"（給与所得に対する源泉徴収簿）and used for the year-end adjustment.
+[p41] 2 How to Use Column 乙(otsu) in the Monthly Table (if an "Application for Exemption for Dependents of Employment Income Earner" is not submitted)
+[p42] (Example)
+[p43] (1) Payment amount of salary, etc. (monthly amount) 80,750 yen (2) Social insurance premiums deducted from salary, etc. none [Tax calculation]
+[p44] (1) As there are no social insurance premiums to be deducted from the salary , etc. , the amount paid of 80,750 yen is the amount of salary, etc. after deduction of social insurance premiums.
+[p45] (2) In the column headed "amount of salary, etc. after deduction of social insurance premiums, etc. , for the month," find the row for "less than 105,000 yen," which includes 80,750 yen. This will be the "amount
+[p46] equivalent to 3 .063% of the salary , etc. after deduction of social insurance premiums" in column 乙 (otsu). Therefore, 2,473 yen (80,750 yen  3.063%, any fraction of less than one yen is omitted ) is the
+[p47] amount of income tax and special income tax for reconstruction to be withheld from the salary, etc.
+[p48] Column for 2 dependents Tax amount determined Row including 356,913 yen
+[p49] [page 30]
+[p50] 3 How to Use the Daily Table You can use the daily table in the same manner as the monthly table.

@@ -1,0 +1,63 @@
+doc: 源泉徴収のしかた（令和8年版） (gensen_shikata_2026)
+year: 2026
+item: s016-part-09 / title: 資料 15 (part 9/21)
+section: 16 / 資料 15
+source_type: pdf
+source_url: https://www.nta.go.jp/publication/pamph/gensen/shikata_r08/pdf/15.pdf
+url: https://jplawdb.github.io/html-preview/ai-nta-guide-db/enhanced/gensen_shikata_2026/s016-part-09.html
+
+[p1] (B) Certain interest, etc. or dividends, etc. of which the taxpayer chooses not to submit a final return: B. Separately withheld compensation money for benefits from installment deposits, monetary awards,
+[p2] etc. from deposits and savings offering such awards, etc., and profit from re demption of discount bonds C. Capital gains, etc. from listed stocks, etc. kept in a specific account for which withholding is chosen
+[p3] and regarding which the taxpayer chooses not to submit a final return 3 Where the only income of a spouse is employment income or the business income of a spouse who is a
+[p4] home worker, total amount of income shall be 580,000 yen or less if the yearly revenue is 1,230,000 yen or less.
+[p5] 4 "Living in the same household" does not necessarily mean living in the same house. For example, if some relatives do not live together with other relatives due to work, study, or recuperation, etc. they will
+[p6] still be treated as living in the same household if they return home during holidays from work or study, or where living costs, study funds, and medical care costs are remitted on an ongoing basis.
+[p7] 5 The spouse of any income earner that falls into the category of a spouse living in the same household as that income earner and into the category of a dependent of any other income earner shall be considered
+[p8] as falling into either category.
+[p9] (Spouse covered by the exemption)
+[p10] Any spouse living in the same household as the earner of salary, etc., the total amount of income of such salary, etc. is 10,000,000 yen or less.
+[p11] (Elderly spouse covered by the exemption)
+[p12] A spouse covered by the exemption who is aged 70 or above (Spouse covered by the withholding exemption)
+[p13] Any spouse whose total amount of income is 950,000 yen or less (excluding blue return business family employees, etc.) living in the same household as the earner of salary, etc. (limited to those earners of salary,
+[p14] etc. whose total amount of income is 9,000,000 yen or less).
+[p15] (Note)
+[p16] 1 If the income of the spouse is only employment income, the total amount of income is 950,000 yen or less if the yearly revenue from salary, etc. within a year is 1,600,000 yen or less.
+[p17] 2 Since it is not possible for both husband and wife to mutually qualify for exemptions concerning spouses qualified for withholding deduction of the other spouse, one of the two will not be eligible for the exemption.
+[p18] (Spouse covered by the special exemption for spouses)
+[p19] Any spouse (excluding blue return business family employee s, etc., and limited to those whose total amount of income is 1,330,000 yen or less) who lives in the same household as the earner of salary, etc. (limited to
+[p20] those who earn total amount of income of 10,000,000 yen or less) and does not fall within the category of a spouse covered by an exemption.
+[p21] [page 20]
+[p22] (Note)
+[p23] 1 Please note that no special exemption for spouse s may apply if a spouse qualifies for a n exemption for spouse.
+[p24] 2 If the only income of the spouse is employment income, the special exemption for spouses may not apply if the yearly revenue from salary, etc. within a year is 1,230,000 yen or less or exceeds 2,015,999 yen.
+[p25] 3 It is not possible for a husband and wife to both qualify for the special exemption for spouses. One of the two will not be eligible for the exemption.
+[p26] 4 If a spouse of an income earner is a spouse eligible for the special exemption for spouses of that income earner and also a specified relative of another income earner, that spouse shall be deemed to fall under
+[p27] only one of the following categories.
+[p28] (Dependents)
+[p29] Relatives, etc., living in the same household as the earner of salary, etc. (excluding any spouse and person receiving a salary, etc. as a blue return business family employee s, etc. ) whose total amount of income is
+[p30] 580,000 yen or less.
+[p31] (Note)
+[p32] "Relative, etc." here means a relative (a relative within the sixth degree of consanguinity and a relative by
+[p33] affinity within the third degree). In addition to the above, it includes foster children entrusted for care under
+[p34] the provisions of the Child Welfare Act and the elderly entrusted for care under the provisions of the Act on Social Welfare for the Elderly.
+[p35] (Dependents covered by the exemption)
+[p36] The following persons are defined as dependents.
+[p37] (1) Residents who are 16 years of age or older (2) Among non-residents, the following persons ① Persons 16 years of age or older and under 30 years of age ②Persons 70 years of age or older
+[p38] ③Persons 30 years of age or older and under 70 years of age who fall into one of the following categories a. No longer have a domicile or residence in Japan due to studying abroad b. Disabled persons
+[p39] c. Persons who received more than 380,000 yen to cover living or educational expenses from a person receiving salary or other payments in that year.
+[p40] (Specific dependents)
+[p41] Dependents aged 19 or above but younger than 23 (Elderly dependents)
+[p42] Dependents aged 70 or above
+[p43] [page 21]
+[p44] (Elderly parents living together with the salary earner, etc.)
+[p45] Elderly dependents who are lineal ascendants (parent s, grandparent s, etc.) of the earner of salary, etc. or his/her spouse and live together permanently with the earner of salary. etc. or his/her spouse.
+[p46] (Specified Relatives)
+[p47] Specified relatives are relatives, etc., who are 19 years of age or older and less than 23 years of age, who are
+[p48] living in the same household as the earner of salary, etc. (excluding spouses and blue return business family employees, etc.), and whose total income exceeds 580,000 yen and less than 1,230,000 yen.
+[p49] (Note)
+[p50] 1 The term "relative, etc." as used herein includes not only relatives ( relatives by blood within the sixth degree and relatives by affinity within the third degree ), but also so-called foster children entrusted with
+[p51] foster care pursuant to the provisions of the Child Welfare Act.
+[p52] 2 If the only income of a relative, etc. is employment income, the special exemption for specified relatives may not apply if the yearly revenue from salary, etc. within a year is 1,230,000 yen or less or exceeds
+[p53] 1,880,000 yen.
+[p54] 3 If there is a person who falls under the category of a specified relative among two or more income earners, that person will be considered to be a specified relative of only one of those income earners.
+[p55] 4 If a relative, etc. of an income earner falls under a specified relative of that income earner and also falls under the spouse subject to a special exemption for spouses of another income earner, that relative, etc. is

@@ -1,0 +1,52 @@
+doc: 源泉徴収のしかた（令和8年版） (gensen_shikata_2026)
+year: 2026
+item: s016-part-20 / title: 資料 15 (part 20/21)
+section: 16 / 資料 15
+source_type: pdf
+source_url: https://www.nta.go.jp/publication/pamph/gensen/shikata_r08/pdf/15.pdf
+url: https://jplawdb.github.io/html-preview/ai-nta-guide-db/enhanced/gensen_shikata_2026/s016-part-20.html
+
+[p1] be submitted before December 31, 2026, please see TAX ANSER No. 7411 "Scope of Submission and Number of Copies for the ‘Employment Income Withholding Record'" on the on the NTA website
+[p2] [https://www.nta.go.jp/taxes/shiraberu/taxanswer/hotei/7411.htm].
+[p3] (3) If a "Payroll Report" is submitted to the mayor of the municipality on or after January 1, 2027, it is deemed that the "Employment Income Withholding Record" is submitted to the director of tax office for the
+[p4] salary, etc. stated in the report.
+[p5] (Note) Until December 31, 2026, the "Employment Income Withholding Record" to the director of tax office, and the "Payroll Report" must be submitted to the mayor of the municipality.
+[p6] [page 46]
+[p7] (4) If the recipient certainly agrees, the payer of salary, etc. may provide the required information by electromagnetic means instead of providing "Employment Income Withholding Record" in writing. Any
+[p8] payer of salary, etc. who provides the record by electromagnetic means shall be deemed to have issued the"Employment Income Withholding Record."
+[p9] However, if a recipient requests that the record be provided in writing, the payer shall do so.
+[p10] 2 Retirement Income Withholding Record (1) A person paying a retirement allowance, etc. , shall prepare two copies of a "Retirement Income
+[p11] Withholding Record"（退職所得の源泉徴収票）stating the amount of the retirement allowance , etc. for which payment is defined and the withholding tax amount. One copy should be submitted to the district
+[p12] director of the competent tax office within 1 month of retirement, together with a totalized table, and the other copy should be issued to the beneficiary. In this case, the year's withholding records may be
+[p13] submitted to the district director by January 31 of the following year.
+[p14] (2) The records are treated similarly to 1(4) above.
+[p15] 3 Report of Payment for Remuneration/Fees (1) A payer of remuneration/fees, contract money, awards or medical remuneration listed in a ny item of
+[p16] Article 204, Paragraph 1 of the Income Tax Act shall prepare a "Report of Payment of Remuneration, Fees, Contract Money, and Prize Money " stating the payments made, tax amount withheld, and the
+[p17] individual number or corporate number of the payer and the recipient with respect to each recipient of the remuneration/fees, contract money, etc. and submit it , together with a totalized table , to the district
+[p18] director of the competent tax office by January 31 of the following year.
+[p19] (2) For the types of remuneration/fees, etc. listed below, it is unnecessary to submit a report of payment to the district director, notwithstanding (1) above.
+[p20] A. Remuneration/fees for medical services, professional boxers, salespersons, money collectors, meter readers, bar and cabaret hostesses, banquet hostesses, and companions, etc. , for whom the yearly
+[p21] payment is 500,000 yen or less B. Awards for advertising paid to the same person in an amount of 500,000 yen or less for the year
+[p22] C. Regarding horse racing prizes received by horse owners, the amount paid during the year for which all individual payments to the same person are 750,000 yen or less
+[p23] D. Remuneration/fees other than those described in A, B and C above of 50,000 yen or less paid as a yearly payment to the same person 4 Report of Payment for Income Paid to Non-Residents or Foreign Corporations
+[p24] A person paying salary, etc. or remuneration/fees, etc., to a non-resident or a foreign corporation shall prepare a "Report of Payment" stating the payments made, tax amount withheld and the individual number or
+[p25] corporate number of the payer and the recipient (only for an individual or a corporation having an individual
+[p26] number or a corporate number) for each recipient and submit it , together with a totalized table , to the district director of the competent tax office by January 31 of the following year.
+[p27] It is unnecessary to submit a report if the total amount of payments made during the year is 500,000 yen or less.
+[p28] [page 47]
+[p29] (Note) The due date and scope of submission may differ for certain reports, such as the "Report of Payment for Profits under a Partnership Contract to be Paid to Non-residents, etc."（非居住者等に支払われる組合 契約に基づく利益の支払調書）
+[p30] 5 Points to be Noted When Preparing Withholding Record, etc.
+[p31] (1) A payer of salary, etc. or retirement allowance, etc. is required to state the individual number or corporate
+[p32] number of the beneficiary, etc. in the copy of a withholding record submitted to the district director of the competent tax office, but shall not state the individual number or corporate number of the beneficiary, etc.
+[p33] in the copy of a withholding record issued to the beneficiary, etc.
+[p34] (2) The copy of a report of payment issued to a recipient cannot be issued stating the individual numbers of the payer and the recipient in it.
+[p35] (3) When submitting a withholding record or report of payment to the district director of the competent tax office, if the number of records or the number of reports that should have been submitted in the second
+[p36] preceding year is 30 or more, they must be submitted via e-Tax, using cloud service, etc., or using optical disks, etc.
+[p37] (Note) For information return to be submitted before December 31, 2026, those with 100 or more pages that should have been submitted two years prior must be submitted via e-Tax, etc.
+[p38] (4) If a payer of salary, etc., retirement allowance, etc. or remuneration/fees and other payments (1) does not submit a withholding record or a report of payment to the district director of the competent tax office
+[p39] before the due date or submits with false statements or records, or (2) does not issue a withholding record to the beneficiary before the due date or issues with false statements (provid es false records using
+[p40] electromagnetic means), the payer shall be punished by imprisonment with required labor for not longer than one year or a fine of not more than 500,000 yen.
+[p41] III. Relief for Disaster Victims (1) If the property of a person who receives salary, etc., remuneration/fees, public pension, etc., suffers great
+[p42] damage caused by an earthquake, storm, flood, lightning, or fire, he/she may be granted a postpone of collection or refund of withholding tax under the Act on Exemption, Reduction or Postponement of
+[p43] Collection of Taxes for Disaster Victims (hereinafter referred to as the "Disaster Exemption Act").
+[p44] Given that any person who is granted a postponement or refund is not be subject to a year-end adjustment,

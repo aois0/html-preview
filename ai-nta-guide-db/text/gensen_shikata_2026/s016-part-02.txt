@@ -1,0 +1,60 @@
+doc: 源泉徴収のしかた（令和8年版） (gensen_shikata_2026)
+year: 2026
+item: s016-part-02 / title: 資料 15 (part 2/21)
+section: 16 / 資料 15
+source_type: pdf
+source_url: https://www.nta.go.jp/publication/pamph/gensen/shikata_r08/pdf/15.pdf
+url: https://jplawdb.github.io/html-preview/ai-nta-guide-db/enhanced/gensen_shikata_2026/s016-part-02.html
+
+[p1] subject to "separate withholding tax" regarding which the tax obligation is concluded solely by withholding.
+[p2] II. Withholding Agents Under the withholding tax system, persons are obliged to withhold income tax and special income tax for
+[p3] reconstruction subject to withholding, and pay it to the government are called "withholding agents." All payers of income subject to withholding are withholding agents, including schools, government agencies, and
+[p4] even individuals and non-juridical associations or foundations, as well as companies.
+[p5] However, salaries, etc., retirement allowances, etc. and remuneration/fees such as tax accountant s' fees that are paid by an individual who regularly employs no more than two domestic employees are not subject to
+[p6] withholding income tax.
+[p7] III. Place f or Payment of Withheld Income Tax and Special Income Tax for Reconstruction Income tax and special income tax for reconstruction withheld by a withholding agent shall be paid to the
+[p8] competent tax office for the place of tax payment . The place of tax payment of the withheld tax shall, in principle, be the location of the office, establishment, etc., as it exists on the date income is paid, where the
+[p9] income payer pays the income subject to withholding.
+[p10] If the office, establishment, etc. where the income payer pays the income are relocated, the place of tax payment of withheld income tax and special income tax for reconstruction on the payment of the income
+[p11] before the relocation shall be the location of the office, establishment, etc. after the relocation, which should be stated in a "Notification of Relocation of a Salary-Paying Office"（給与支払事務所等の移転届出書）.
+[p12] IV. Notification of Salary-Paying Office 1 Submission of "Notification of Establishment of a Salary-Paying Office" A payer of salary, etc. shall submit a "Notification of Establishment of a Salary-Paying Office"（給与支払事
+[p13] [page 4]
+[p14] 務所等の開設届出書）to the district director of the competent tax office for the salary -paying office, etc.
+[p15] within one month of the date of occurrence of any of the following events: (1) The e stablishment of a new office that handles payments of salary, etc. (e.g. the establishment of a
+[p16] corporation or the opening of a branch or business office); or (2) The commencement of handling activities of payment of salary, etc. by any branch, business office, or similar establishment.
+[p17] 2 Submission of "Notification of Relocation (Closure) of a Salary-Paying Office" A payer of salary, etc. shall submit a "Notification of Relocation (Closure) of a Salary-Paying Office"（給与支
+[p18] 払事務所等の移転 （廃止） 届出書）within one month of the date of occurrence of any of the following events: (1) Discontinuation of payments of salary, etc. due to the dissolution, closure or suspension of a business, etc.
+[p19] (2) Transfer of handling activities of payments of salary, etc. from any branch or business office to the head office or the principal establishment, etc.; or
+[p20] (3) Relocation of an office that handles payments of salary, etc.
+[p21] (Note) If a payer of salary, etc. relocates an office that handles payment of salary, etc., the payer is required to submit the above Notification to the district director of the competent tax office in the place before
+[p22] the relocation.
+[p23] V. Scope of Income Subject to Withholding The scope of income subject to withholding according to the category of the beneficiary is as shown in the following table.
+[p24] Each of the main items is considered separately in more detail below.
+[p25] Beneficiary Kinds and scope of income subject to withholding Resident (an individual having a domicile in Japan or an individual who resides continuously in Japan for 1 year or more)
+[p26] 1 Interest, etc.
+[p27] 2 Dividends, etc.
+[p28] 3 Salary, etc.
+[p29] 4 Retirement allowance, etc.
+[p30] 5 Public pension, etc.
+[p31] 6 Remuneration/fees, etc. (Excluding the income covered in "3. Salary, etc." and "4.
+[p32] Retirement allowance, etc.")
+[p33] 7 Pension based on a life insurance contract, casualty insurance contract, or similar annuity agreement concluded with a life insurance company or a casualty insurance company, etc. under the Insurance Business Act
+[p34] 8 Compensation money for benefits from installment deposits, etc.
+[p35] 9 Distribution of profits under a silent partnership (Tokumei-Kumiai) contract 10 Capital gains, etc. from listed stocks, etc. kept in a specific account
+[p36] 11 Monetary awards, etc. from deposits and savings offering such awards, etc.
+[p37] 12 Profit from redemption of discount bonds 13 Profit on redemption amount of discount bonds
+[p38] [page 5]
+[p39] Domestic corporation (a legal person having a head office or principal place of business in Japan)
+[p40] 1 Interest, etc.
+[p41] 2 Dividends, etc.
+[p42] 3 Compensation money for benefits from installment deposits, etc.
+[p43] 4 Distribution of profits under a silent partnership (Tokumei-Kumiai) contract 5 Horse racing prizes received by a horse owner 6 Monetary awards, etc. from deposits and savings offering such awards, etc.
+[p44] 7 Profit from redemption of discount bonds 8 Profit on redemption amount of discount bonds (Only for certain domestic corporations)
+[p45] Non-resident (an individual other than a resident) or a foreign corporation (a legal person other than a domestic corporation)
+[p46] 1 The following domestic source income: (1) Distribution of profits arising from business conducted through a permanent establishment based on a partnership contract ;
+[p47] (2) Consideration for the transfer of land, etc., in Japan; (3) Consideration received by a person doing business that involves the provision of personal services in Japan;
+[p48] (4) Consideration for leasing of real property, etc. and arranging land use rights, etc. in Japan; (5) Interest, etc., on deposits and savings deposited in a business office in Japan;
+[p49] (6) Dividends of surplus, dividends of profit, distribution of surplus, distribution of monies or interest on funds received from a domestic corporation, distribution of
+[p50] proceeds from an investment trust (excluding bond investment trusts and publicly offered bond investment trusts) or specified trust that issues beneficiary certificates entrusted to a business office in Japan.;
+[p51] (7) Interest on a loan pertaining to domestic operations for a person doing operations in Japan; (8) Royalties for any industrial property right or copyright, consideration for the transfer
+[p52] thereof, or royalties for machinery, equipment, etc. pertaining to domestic operations from a person doing operations in Japan; (9) Any amount sourced from work in Japan among remuneration paid for the provision

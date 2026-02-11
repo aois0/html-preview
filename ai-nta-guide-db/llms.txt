@@ -6,10 +6,6 @@
 - `data/resolve_lite/index.json`
 - `data/shards_index.json`
 
-収録内容（明示）
-- `hojin_aramashi_2025`: 法人税のあらましと申告の手引（令和7年版）
-- `gensen_aramashi_2026`: 源泉徴収のあらまし（令和8年版）
-
 高速フロー（10kトークン制約向け）
 1) `data/resolve_lite/index.json` で doc_code を選ぶ
 2) `data/resolve_lite/{doc_code}.json` で part URL を選ぶ
@@ -17,6 +13,16 @@
 4) `text/{doc_code}/{item_id}.txt` を読む
 5) 根拠URLが必要なら `enhanced/{doc_code}/{item_id}.html#pX` を使う
 
-収録ドキュメント（件数）
-- `hojin_aramashi_2025`: 法人税のあらましと申告の手引（令和7年版） (37件)
+収録ドキュメント
+- `hojin_aramashi_2025`: 法人税のあらましと申告の手引（令和7年版） (56件)
 - `gensen_aramashi_2026`: 源泉徴収のあらまし（令和8年版） (62件)
+- `gensen_shikata_2026`: 源泉徴収のしかた（令和8年版） (44件)
+- `nencho_shikata_2025`: 年末調整のしかた（令和7年分） (135件)
+- `hotei_tebiki_2025`: 法定調書の作成と提出の手引（令和7年分） (27件)
+- `inshi_tebiki_2025`: 印紙税の手引（令和7年5月） (11件)
+- `hojin_kaisei_gaiyo_2025`: 法人税関係法令の改正の概要（令和7年度） (15件)
+- `hojin_shinkoku_besshyo`: 法人税及び地方法人税の申告（別表等） (5件)
+- `etax_tetsuzuki6`: e-Tax 利用可能手続一覧（法人税確定申告等） (3件)
+- `hojin_shohi_kakikata_ippan`: 法人用 消費税及び地方消費税の申告書（一般用）の書き方 (5件)
+- `hojin_shohi_kakikata_kani`: 法人用 消費税及び地方消費税の申告書（簡易課税用）の書き方 (4件)
+- `invoice_oshirase_2025`: インボイス制度に関するお知らせ（令和7年4月） (1件)

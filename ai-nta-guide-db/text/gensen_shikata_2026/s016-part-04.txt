@@ -1,0 +1,52 @@
+doc: 源泉徴収のしかた（令和8年版） (gensen_shikata_2026)
+year: 2026
+item: s016-part-04 / title: 資料 15 (part 4/21)
+section: 16 / 資料 15
+source_type: pdf
+source_url: https://www.nta.go.jp/publication/pamph/gensen/shikata_r08/pdf/15.pdf
+url: https://jplawdb.github.io/html-preview/ai-nta-guide-db/enhanced/gensen_shikata_2026/s016-part-04.html
+
+[p1] interest income from listed stocks, etc. received in a specific account for which withholding is chosen)
+[p2] Statement (tax payment slip) of income tax collected from dividends, etc.
+[p3] Dividend income (excluding distribution of proceeds from an investment trust (excluding a trust subject to corporation taxation) or a specified trust that issues beneficiary certificates,
+[p4] and dividend income from listed stocks, etc. received in a specific account for which withholding is chosen)
+[p5] Statement (tax payment slip) of income tax collected from income of a non-resident/foreign corporation Various types of income paid to a non-resident or a foreign
+[p6] corporation (excluding income using tax payment slips with 償 割 株 )
+[p7] Statement (tax payment slip) of income tax collected from redemption profit Profit from redemption of discount bonds (withheld at the time of issue)
+[p8] Statement (tax payment lip) of income tax collected from profit on redemption amount of discount bonds Profit on redemption amount of discount bonds (withheld at the time of redemption)
+[p9] Statement (tax payment slip) of income tax collected from compensation payments for benefits from installment deposits, etc.
+[p10] Compensation money for benefits from installment deposits and monetary awards, etc. from deposits and savings offering such awards, etc.
+[p11] Statement (tax payment slip) of income tax collected: from adjusted amount of income from any listed stocks, etc. kept in a specific account for which withholding is chosen; from
+[p12] dividends, etc. received in a specific account for which withholding is chosen Capital gains, etc. from listed stocks, etc. kept in a specific account for which withholding is chosen and dividend income
+[p13] from listed stocks, etc. received in a specific account for which withholding is chosen 株 定 利 非 配 報 償 割 給
+[p14] [page 8]
+[p15] 2. Procedure for Withholding from Employment Income The process of withholding from employment income paid to residents is broadly divided into the process of
+[p16] withholding from monthly (daily) salary and bonuses, etc. , and the year-end adjustment process at the end of the year. The key points to consider here are: (1) the scope of taxable employment income, (2) the
+[p17] requirements for the application of various deductions, such as exemptions for spouses and dependents, and (3) how to use the tax amount table and the methods for specific tax amount calculations.
+[p18] (Note) The definitions of resident and non-resident are unrelated to nationality or residence (visa) status and it is determined by considering such factors as whether having a domicile in Japan or whether
+[p19] continuously having a residence in Japan for 1 year or more. In each of the following cases, it shall be handled as below.
+[p20] 1 If a person who is to reside in Japan has an occupation normally requiring a continuous residence in Japan for one year or more, the person is presumed to have a domicile in Japan.
+[p21] 2 If a person who is to reside outside Japan has an occupation normally requiring a continuous residence outside Japan for one year or more, the person is presumed not to have a domicile in Japan.
+[p22] * In this brochure, "the Tax Amount Table" means "the Withholding Tax Amount Table for Employment Income" (monthly table and daily table) and "the Table for Calculating Withholding Tax Amount for Bonuses".
+[p23] I. Outline of Withholding Procedure The employment income withholding process and the tax amount table and application form used for withholding are as outlined below.
+[p24] The National Tax Agency (hereinafter the "NTA") has established a special page in its website "Withholding Tax Agents"（源泉徴収義務者の方）, in Japanese only（https://www.nta.go.jp/users/gensen/index.htm） in
+[p25] order to provide the latest information to withholding tax agents.
+[p26] The special page contains information necessary for withholding procedure, including various forms such as "the Tax Amount Table ", "Application for (Change in) Exemption for Dependents of Employment Income
+[p27] Earner", various kinds of guides and brochures such as the "Gensen choshu no aramashi"（源泉徴収のあらま し）, in Japanese only, and Q&As on withholding tax. We recommend you to visit the page in our website.
+[p28] You can easily access the special page by clicking "Withholding Tax Agents" on the bottom right of the top page of the NTA website.
+[p29] [page 9]
+[p30]  Withholding process at time of payment of monthly (daily) salary, bonus, etc.
+[p31] <Process> <Forms used> 1 Confirmation of spouse covered by the withholding exemption and relatives qualified for withholding deduction Application for (change in) Exemption for Dependents of Employment Income Earner
+[p32] 2 Calculation of amount of tax withheld from salaries, bonuses, etc.
+[p33] Withholding Tax Amount Table for Employment Income (Monthly Table, Daily Table), Table for Calculating Withholding Tax Amounts for Bonuses 3 Collection and recording of amount of tax withheld
+[p34] Ledger of Withholding Tax for Employment Income 4 Payment of amount of tax withheld Statement (Tax Payment Slip) of Income Tax Collected from Employment Income/Retirement Income, etc.
+[p35]  Year-end adjustment process, etc.
+[p36] <Process> <Forms used> 5 Confirmation of various deductions for life insurance/earthquake insurance premiums, (special) exemption for spouses, special exemption for specified relatives, basic
+[p37] exemption, special credit for loans, etc. related to a dwelling (specific additions or improvements, etc.) and exemption of amount of income adjustment Application for Deduction for Insurance Premiums
+[p38] for Employment Income Earner, Application for Exemption for Spouse of Employment Income Earner, Application for Special Exemption for Specified Relatives of Employment Income Earner,
+[p39] Application for Basic Exemption of Employment Income Earner, Application for Special Credit for Loans, etc. Related to a Dwelling (Specific Additions or Improvements, etc.) for Employment
+[p40] Income Earner and Application for Exemption of Amount of Income Adjustment 6 Settlement of any discrepancy and payment by year-end adjustment Table of Salary Amounts after Employment Income
+[p41] Deductions for the Year-End Adjustment, Quick Calculating Income Tax Amount Table for the Year-End Adjustment, Ledger of Withholding Tax for Employment Income," "Statement (Tax Payment Slip) of Income Tax Collected from
+[p42] Employment/Retirement Income, etc.
+[p43] 7 Withholding record delivered to the taxpayer and submitted to a tax office Employment Income Withholding Record II. Scope of Employment Income
+[p44] Employment income includes normal salary, wages, bonuses, various allowances, and fringe benefits paid for

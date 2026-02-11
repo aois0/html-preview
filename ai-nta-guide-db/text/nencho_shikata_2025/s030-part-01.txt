@@ -1,0 +1,49 @@
+doc: 年末調整のしかた（令和7年分） (nencho_shikata_2025)
+year: 2025
+item: s030-part-01 / title: 302 en (part 1/2)
+section: 30 / 302 en
+source_type: pdf
+source_url: https://www.nta.go.jp/publication/pamph/gensen/nencho2025/pdf/302_en.pdf
+url: https://jplawdb.github.io/html-preview/ai-nta-guide-db/enhanced/nencho_shikata_2025/s030-part-01.html
+
+[p1] [page 1]
+[p2] .
+[p3] 1 Deductions applicable by submitting "Application for Exemption for Dependents" Those who have a dependent relative who is 16 years old or older, or have
+[p4] a disabled person, or those who are students, or are singles not currently married and have children, may be eligible for the following deductions.
+[p5] Please fill in the appropriate items and submit it to your employer.
+[p6] (1) Exemptions for dependents Those qualified for exemption for dependents includes : only those having total amount of income 580 ,000 yen or less (1, 230,000 yen or less in a
+[p7] case of salary revenues only) among relatives who are residents and 16 years old or older, living in the same household with you (including a foster child and the elderly, but excluding your suppose, a person who receive
+[p8] salary payment as a family employee of blue return taxpayer, or a family employee of white return taxpayer. The same applies hereinafter) and non-residents who satisfy a certain condition.
+[p9] Types of Deduction Amount of Deduction Exemption for dependents Dependent relatives qualified for deduction 380,000 yen Specified dependent relatives 630,000 yen Elderly dependent relatives 480,000 yen
+[p10] Elderly parent living together or the like 580,000 yen (Note１) Specified dependent relatives denote those who are 19 years old or more and less than 23 years old (those who were born
+[p11] between January 2, 2003 and January 1, 2007).
+[p12] (Note2) Elderly dependent relatives denote those who are 70 years old or more (those who were born on January 1st, 1956 or before), among dependent relatives qualified for deduction
+[p13] (2) Exemptions for working students, and disabled persons Types of Exemption Amount of Exemption Exemptions for disabled persons Disabled person 270,000 yen Yourself Special disabled person 400,000 yen
+[p14] Spouse living in the same household Dependent relatives Special disabled person living together 750,000 yen Exemptions for working students (Only yourself） 270,000 yen
+[p15] (Note１) A spouse living in the same household denote a spouse who lives in the same household with you (excluding a person who receives salary payment as a family employee of blue return
+[p16] taxpayer, or a family employee of white return taxpayer), and his/her total amount of income is 580,000 yen or less.
+[p17] (Note2) A dependent relative denote a person who lives in the same household with you, and his/her total amount of income is 580,000 yen or less.
+[p18] (Note3) Exemptions for working students apply for students or school children who satisfy a certain condition having an amount of income through working, the total amount of which being 850,000
+[p19] yen or less (1,500,000 yen or less in the case of salary revenues only), and when the income other than employment income among the total amount of income, is 100,000 yen or less.
+[p20] (3) Exemptions for widows and single parents Types of Exemption Amount of Exemption Exemption for widows 270,000 yen Exemption for single parents 350,000 yen
+[p21] (Note 1) A "widow" denotes a person who satisfies the condition of having not got married after divorcing with her husband, and having dependent relative(s), with the total amount of income being
+[p22] 5,000,000 yen or less, and there is no partner who can be recognized as in such relationship similar to marriage in fact.
+[p23] Another condition to be qualified as a widow is a person who satisfies the condition of having not got married after her husband passed away, or being not clear about if her husband is alive or
+[p24] not, with the total amount of income being 5,000,000 yen or less, and there is no partner who can be recognized as in such relationship similar to marriage in fact (excluding persons who fall under single parents).
+[p25] (Note 2) A "single parent" denotes a person who is currently not get married, or her/his spouse is not clear about if his/her suppose is alive or not, and having children (excluding a spouse of another
+[p26] person who lives in the same household with her/him, or dependent relatives, and it applies only when the total amount of income for the year of each of the children is 580,000 yen or less.)
+[p27] who live in the same household with you, with the total amount of income being 5,000,000 yen or less, and there is no partner who can be recognized as in such relationship similar to marriage in fact.
+[p28] ２ Deductions applicable by submitting "Application for exemption for Spouse" In a case of having a spouse, you may be qualified for deductions. Please
+[p29] confirm the contents of deductions described below, and if it is applicable, you may full in the appropriate items on the Application for Exemption for Spouse and submit it to your employer.
+[p30] (1) Exemption for Spouse If the total amount of your income is 10,000,000 yen or less, and you have a spouse living in the same household, with his/her total amount of income
+[p31] being 580,000 yen or less, you are qualified for the Exemption for Spouse.
+[p32] The amount of deduction is 380,000 yen at maximum (480,000 yen at maximum, in the case that your spouse is an elderly spouse covered by Exemption)
+[p33] (Note) The elderly spouse covered by Exemption denotes a person who is 70 years old or older (born on January 1, 1956 or before)
+[p34] (2) Special Exemption for Spouse If the total amount of your income is 10,000,000 yen or less, and you have a spouse living in the same household, with his/her total amount of income
+[p35] exceeds 580,000 yen and 1,330,000 yen or less, you are qualified for the Exemption for Spouse by 380,000 yen at maximum, according to the total amount of income of you and your spouse.
+[p36] 3 Deduction applicable by submitting "Application for Special Exemption for Specified Relatives If you have a relative (including foster children, but excluding spouses, blue
+[p37] return business exclusive workers receiving salary, and white return business exclusive workers) who lives in the same household as you, is aged 19 or older
+[p38] but under 23 (born between January 2, 2003 and January 1, 2007), and whose total annual income exeeds 580,000 yen but not more than 1,230,000 yen (a
+[p39] "specified relative"), you may be eligible for the Special Exemption for Specified Relatives. Please fill out the required information on the Application for Special
+[p40] Exemption for Specified Relatives and submit it to your employer. The deduction amount per the specified relative is 630,000 yen at maximum , according to the total amount of income of the specified relative.
+[p41] 4 Deductions applicable by submitting "Application for Deduction for Insurance Premiums"

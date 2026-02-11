@@ -1,0 +1,53 @@
+doc: 源泉徴収のしかた（令和8年版） (gensen_shikata_2026)
+year: 2026
+item: s016-part-06 / title: 資料 15 (part 6/21)
+section: 16 / 資料 15
+source_type: pdf
+source_url: https://www.nta.go.jp/publication/pamph/gensen/shikata_r08/pdf/15.pdf
+url: https://jplawdb.github.io/html-preview/ai-nta-guide-db/enhanced/gensen_shikata_2026/s016-part-06.html
+
+[p1] Any fringe benefit derived from the provision of a trip, drama performance or award in commemoration of the long service of a person shall not be taxed if the award meets
+[p2] certain requirements, such as the person having worked for 10 years or more.
+[p3] [page 12]
+[p4] Gifts commemorating startups, etc.
+[p5] Any gift provided in commemoration of startup, capital increase, completion of construction or merger, etc., shall not be taxed if the gift is considered proper in light of
+[p6] commonly accepted norms and meets certain requirements such as that its price (valued based on the resale price) is 10,000 yen or less, other than any gift provided upon
+[p7] completion of a construction or shipbuilding contract by a construction firm or shipbuilder.
+[p8] Whether the price is 10,000 yen or less is determined by the amount after subtracting the amount of consumption tax and local consumption tax.
+[p9] Discounted sale of merchandise, etc.
+[p10] The fringe benefit derived from a discount for a product or merchandise (excluding securities and meals) is not taxable if the discounted price is equal to or higher than the
+[p11] employer's acquisition cost and meets certain requirements such as that the price is about 70% or more of the price for sales to others.
+[p12] Interest-free loans The fringe benefit derived from receipt of an interest-free or low-interest loan from an employer shall not be taxed if: (1) with regard to the fringe benefit is derived from the
+[p13] provision of funds for persons temporarily requiring a high living allowance due to disaster, sickness, etc., it shall be received during a period regarded to be rational for the
+[p14] repayment of the amount loaned for the allocation of such funds, (2) the interest is collected at a reasonable rate, such as the average interest rate on loans procured by the
+[p15] employer, or (3) the total of the fringe benefit provided is 5,000 yen or less.
+[p16] Use of welfare facilities The fringe benefit to a user derived from the employer's payment for the running costs of a welfare facility shall not be taxed unless the amount is extremely high or only directors
+[p17] receive the fringe benefit.
+[p18] III. Application for (Change in) Exemption for Dependents of Employment Income Earner An earner of salary, etc. shall submit to the payer of salary, etc. (or the principal payer of salary, etc. where
+[p19] there are two or more sources) an "Application for (Change in) Exemption for Dependents of Employment Income Earner"（給与所得者の扶養控除等（異動）申告書）no later than one day prior to the date of the first
+[p20] payment of salary, etc. in each year.
+[p21] This application must also be submitted by a ny person with no dependents or spouse eligible for the withholding exemption. Any person who does not submit such an application shall have his/her salary, etc.
+[p22] taxed according to column 乙(otsu) of the "Withholding Tax Amount Table" （源泉徴収税額表）, i.e., at a higher rate than would have applied had the application been submitted. The payer of salary, etc. is requested
+[p23] to advise eligible employees , i.e. recipients of salary, etc. from principal payer of salary, etc. to submit the application.
+[p24] The payer of salary, etc. who receives this application from an earner of salary, etc. is required to keep the application until the district director of the competent tax office requires its submission.
+[p25] ≪Main Withholding Procedure Concerning the Social Security and Tax Number System ("My Number System")≫ (1) Entries in "Application for (Change in) Exemption for Dependents of Employment Income Earner"
+[p26] When a payer of salary, etc. receives an "Application for (Change in) Exemption for Dependents of Employment Income Earner", the payer is required to receive from the employment income earner an
+[p27] application which states individual numbers of the employment income earner him/herself, spouse covered by withholding exemption, relatives qualified for withholding deduction, etc.
+[p28] (Note) If a payer of salary, etc. keeps a book stating individual numbers , etc. of the employment income earner him/herself, spouse covered by withholding exemption, relatives qualified for withholding
+[p29] deduction, etc. that should be stated in "Application for (Change in) Exemption for Dependents of
+[p30] [page 13]
+[p31] Employment Income Earner", the employment income earner is not required to state individual numbers stated in the book in the "Application for (Change in) Exemption for Dependents of Employment Income Earner."
+[p32] (2) Confirmation of the identity of the individual When a payer of salary, etc. receives a provision of the individual number from an employment income
+[p33] earner, the payer is required to carry out confirmation of the identity of the individual, first "Number Confirmation" to confirm that the provided number is correct, and "Identity Confirmation" to confirm
+[p34] that the provider of the number is the true owner of the number.
+[p35] A payer of salary, etc. is required to confirm the identity only of the employment income earner him/herself providing the individual number (confirmation of the identity of the spouse covered by withholding
+[p36] exemption, the relatives qualified for withholding deduction , etc. shall be made by the employment income earner).
+[p37] (Note) Examples of documents used to confirm the identity of the individual 1 Individual number card (for Number Confirmation and Identity Confirmation)
+[p38] 2 Notification card (for Number Confirmation) and driver's license, passport, etc. (for Identity Confirmation) (in the case of Identity Confirmation using an ID card without a photograph, two
+[p39] types of ID cards are necessary)
+[p40] 3 To use the notification card as a number confirmation document, descriptions therein need to be the same as those, such as the name and address, in your certificate of residence. Please be careful th at
+[p41] the "Individual Number Notice " to be issued on and after May 25, 2020 cannot be used as a n Individual Number confirmation document.
+[p42] For details of Social Security and Tax Number System (The My Number System), please see the website of Digital Agency（https://www.digital.go.jp） or of the NTA（https://www.nta.go.jp）
+[p43] IV. Various Withholding Deductions 1 Deduction for Employment Income The amount of employment income shall be the balance of the total revenue from salary, wages, bonuses, etc.
+[p44] received during the relevant year minus the deduction for employment income.
+[p45] The deduction for employment income is determined according to the following chart: Revenue from salaries, etc. Deduction for employment income 1,900,000 yen or less Over 1,900,000 yen and 3,600,000 yen or less
