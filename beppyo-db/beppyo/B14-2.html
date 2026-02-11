@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>【別表十四(二)】寄附金の損金算入に関する明細書 - 法人税別表DB</title>
+<style>
+body{font-family:'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif;line-height:1.7;color:#333;max-width:900px;margin:0 auto;padding:20px;background:#f8f9fa}
+h1{color:#1a365d;border-bottom:3px solid #2b6cb0;padding-bottom:8px;font-size:1.4em}
+h2{color:#2b6cb0;font-size:1.1em;margin:20px 0 8px;border-left:4px solid #2b6cb0;padding-left:10px}
+a{color:#2b6cb0}
+table{width:100%;border-collapse:collapse;font-size:0.88em;margin:8px 0}
+th,td{padding:5px 8px;border:1px solid #e2e8f0;text-align:left}
+th{background:#edf2f7}
+.meta{background:#ebf8ff;border:1px solid #bee3f8;border-radius:6px;padding:10px 14px;margin:10px 0;font-size:0.9em}
+.warn{background:#fffbeb;border-left:4px solid #d69e2e;padding:8px 14px;margin:10px 0;font-size:0.9em}
+footer{margin-top:24px;padding-top:10px;border-top:1px solid #e2e8f0;font-size:0.8em;color:#718096}
+</style>
+</head><body>
+
+<!--BEPPYO:B14-2|寄附金の損金算入に関する明細書|法37条|寄附金を支出した法人|→B04(加算・社外流出)-->
+<h1>【別表十四(二)】寄附金の損金算入に関する明細書</h1>
+
+<div class="meta">
+<strong>根拠</strong>: 法人税法37条（寄附金の損金不算入） | <strong>適用</strong>: 寄附金を支出した場合<br>
+<strong>転記先</strong>: → <a href="B04.html">別表四</a>（加算・社外流出③）<br>
+<strong>性格</strong>: 寄附金の損金算入限度額を計算し、超過額を損金不算入として加算
+</div>
+
+<h2>寄附金の4区分と損金算入限度</h2>
+<table>
+<tr><th>区分</th><th>損金算入限度</th><th>根拠</th></tr>
+<tr><td>国等に対する寄附金</td><td>全額損金算入</td><td>法37条3項1号</td></tr>
+<tr><td>指定寄附金</td><td>全額損金算入</td><td>法37条3項2号</td></tr>
+<tr><td>特定公益増進法人等に対する寄附金</td><td>特別損金算入限度額</td><td>法37条4項、措法66条の11の2</td></tr>
+<tr><td>一般の寄附金（上記以外）</td><td>一般損金算入限度額</td><td>法37条1項</td></tr>
+</table>
+
+<h2>損金算入限度額の計算式</h2>
+<table>
+<tr><th>限度額</th><th>計算式</th></tr>
+<tr><td>一般損金算入限度額</td><td>（資本金等の額×当期月数/12×2.5/1000 ＋ 所得金額×2.5/100）× 1/4</td></tr>
+<tr><td>特別損金算入限度額</td><td>（資本金等の額×当期月数/12×3.75/1000 ＋ 所得金額×6.25/100）× 1/2</td></tr>
+</table>
+<p>※所得金額は寄附金支出前の所得（別表四仮計＋寄附金の損金経理額）を使用</p>
+
+<h2>各欄の詳細（前半：寄附金の内訳）</h2>
+<table>
+<tr><th>欄</th><th>項目名</th><th>意味・内容</th></tr>
+<tr><td>1</td><td>指定寄附金等の額</td><td>国等・指定寄附金の合計。全額損金算入</td></tr>
+<tr><td>2</td><td>特定公益増進法人等に対する寄附金の額</td><td>特定公益増進法人・認定NPO法人への寄附金合計</td></tr>
+<tr><td>3</td><td>上記以外の寄附金の額</td><td>一般の寄附金の合計額</td></tr>
+<tr><td>4</td><td>寄附金の額の合計</td><td>1＋2＋3</td></tr>
+</table>
+
+<h2>各欄の詳細（後半：限度額計算）</h2>
+<table>
+<tr><th>欄</th><th>項目名</th><th>計算・転記</th></tr>
+<tr><td>5</td><td>資本基準額（一般用）</td><td>資本金等の額×当期月数/12×2.5/1000</td></tr>
+<tr><td>6</td><td>所得基準額（一般用）</td><td>所得金額（寄附金支出前）×2.5/100</td></tr>
+<tr><td>7</td><td>一般損金算入限度額</td><td>（5＋6）×1/4</td></tr>
+<tr><td>11</td><td>資本基準額（特別用）</td><td>資本金等の額×当期月数/12×3.75/1000</td></tr>
+<tr><td>12</td><td>所得基準額（特別用）</td><td>所得金額（寄附金支出前）×6.25/100</td></tr>
+<tr><td>13</td><td>特別損金算入限度額</td><td>（11＋12）×1/2</td></tr>
+<tr><td>18</td><td>特定公益増進法人等の損金不算入額</td><td>2 と 13のうち小さい方を損金算入。超過額が損金不算入</td></tr>
+<tr><td>24</td><td>一般寄附金の損金不算入額</td><td>（3＋18の超過額） と 7のうち小さい方を損金算入。超過額が損金不算入</td></tr>
+<tr><td>40</td><td>損金不算入額合計</td><td>18＋24。→ B04加算（社外流出③）</td></tr>
+</table>
+
+<h2>所得金額の計算に注意</h2>
+<div class="warn">
+<strong>所得金額（寄附金支出前）の求め方</strong>:<br>
+B04の仮計（欄21）＋ 寄附金の損金経理額（寄附金全額）＝ 寄附金支出前の所得金額<br>
+この金額を限度額計算に使う。B04の最終所得金額ではない。
+</div>
+
+<h2>完全子法人等間の寄附金（グループ法人税制）</h2>
+<table>
+<tr><th>関係</th><th>支出法人</th><th>受領法人</th></tr>
+<tr><td>100%グループ内</td><td>全額損金不算入（限度額計算不要）</td><td>全額益金不算入</td></tr>
+</table>
+<p>法37条2項・法25条の2。100%グループ内の寄附は全額否認される特例。</p>
+
+<h2>よくある間違い</h2>
+<table>
+<tr><th>間違い</th><th>正しい処理</th></tr>
+<tr><td>所得金額にB04最終所得を使用</td><td>寄附金支出前の所得金額を使う</td></tr>
+<tr><td>指定寄附金を限度額計算に含める</td><td>指定寄附金は全額損金。限度額計算の対象外</td></tr>
+<tr><td>B04で留保②に記載</td><td>寄附金の損金不算入は社外流出③。B05(一)に転記しない</td></tr>
+<tr><td>グループ内寄附に限度額計算を適用</td><td>100%グループ内は限度額計算不要。全額損金不算入</td></tr>
+<tr><td>特別限度額の超過を一般に振替忘れ</td><td>特定公益増進法人の超過額は一般寄附金に加算して判定</td></tr>
+</table>
+
+<h2>関連別表</h2>
+<p>
+<a href="B04.html">別表四</a>（加算・社外流出の転記先） |
+<a href="B01.html">別表一</a> |
+<a href="B15.html">別表十五</a>（交際費） |
+<a href="../rel/rel-to-B04.html">→B04転記一覧</a> |
+<a href="../lookup/article-map.html">条文→別表</a>
+</p>
+
+<footer>
+<a href="../index.html">← 別表DBトップ</a> |
+法人税別表データベース | 最終更新: 2026-02-11
+</footer>
+</body></html>

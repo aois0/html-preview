@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>別表四→別表一→別表五 転記一覧 - 法人税別表DB</title>
+<style>
+body{font-family:'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif;line-height:1.7;color:#333;max-width:900px;margin:0 auto;padding:20px;background:#f8f9fa}
+h1{color:#1a365d;border-bottom:3px solid #2b6cb0;padding-bottom:8px;font-size:1.4em}
+h2{color:#2b6cb0;font-size:1.1em;margin:20px 0 8px;border-left:4px solid #2b6cb0;padding-left:10px}
+a{color:#2b6cb0}
+table{width:100%;border-collapse:collapse;font-size:0.88em;margin:8px 0}
+th,td{padding:5px 8px;border:1px solid #e2e8f0;text-align:left}
+th{background:#edf2f7}
+.formula{background:#f0fff4;border:1px solid #c6f6d5;border-radius:6px;padding:10px 14px;margin:10px 0;font-family:monospace;font-size:0.95em}
+.warn{background:#fffbeb;border-left:4px solid #d69e2e;padding:8px 14px;margin:10px 0;font-size:0.9em}
+footer{margin-top:24px;padding-top:10px;border-top:1px solid #e2e8f0;font-size:0.8em;color:#718096}
+</style>
+</head><body>
+
+<!--PAGE:rel/rel-from-B04|B04→B01→B05 転記一覧|B04起点|後工程の転記-->
+<h1>B04→B01→B05 転記一覧</h1>
+<p><a href="../index.html">← 別表DB トップ</a> | 別表四から先の転記チェーン（後工程）</p>
+
+<h2>B04→B01: 所得金額→税額計算</h2>
+<table>
+<tr><th>転記元（B04）</th><th>→</th><th>転記先（B01）</th><th>内容</th></tr>
+<tr><td>欄27① 所得金額又は欠損金額</td><td>→</td><td>欄1 所得金額</td><td>課税標準となる所得金額</td></tr>
+<tr><td>（B07(一)経由）欠損金控除額</td><td>→</td><td>欄26</td><td>繰越欠損金の損金算入額</td></tr>
+</table>
+
+<h2>B01での税額計算フロー</h2>
+<div class="formula">
+B01欄1（所得金額） × 税率 ＝ 欄2（法人税額）<br>
+欄2 − 欄3（所得税額控除）− 欄5（特別控除）＝ 欄11（確定法人税額）<br>
+欄12（確定法人税額）× 10.3% ＝ 欄16（確定地方法人税額）
+</div>
+
+<h2>B01→B05(二): 確定税額→納付状況</h2>
+<table>
+<tr><th>転記元（B01）</th><th>→</th><th>転記先（B05(二)）</th><th>内容</th></tr>
+<tr><td>欄11 確定法人税額</td><td>→</td><td>法人税の②確定欄</td><td>当期確定法人税額</td></tr>
+<tr><td>欄16 確定地方法人税額</td><td>→</td><td>地方法人税の②確定欄</td><td>当期確定地方法人税額</td></tr>
+<tr><td>（地方税申告書から）</td><td>→</td><td>住民税の②確定欄</td><td>当期確定住民税額</td></tr>
+</table>
+
+<h2>B05(二)→B05(一): 未納税額→利益積立金</h2>
+<table>
+<tr><th>転記元（B05(二)）</th><th>→</th><th>転記先（B05(一)）</th><th>内容</th></tr>
+<tr><td>法人税の⑥期末残高</td><td>→</td><td>28行（未納法人税）</td><td>△表示。利益積立金の減算項目</td></tr>
+<tr><td>住民税の⑥期末残高</td><td>→</td><td>29行（未納住民税）</td><td>△表示</td></tr>
+<tr><td>事業税の⑥期末残高</td><td>→</td><td>30行（未納事業税）</td><td>△表示。事業税は損金算入される点に注意</td></tr>
+<tr><td>下段 納税充当金計34</td><td>→</td><td>27行④ 期末現在</td><td>納税充当金（＝BS未払法人税等）</td></tr>
+</table>
+
+<h2>B04→B05(一): 留保項目の転記（主要パターン）</h2>
+<table>
+<tr><th>B04の項目</th><th>留保/社外</th><th>B05(一)の行</th><th>増③/減②</th></tr>
+<tr><td>損金経理法人税（加算）</td><td>留保②</td><td>28行</td><td>増③</td></tr>
+<tr><td>損金経理住民税（加算）</td><td>留保②</td><td>29行</td><td>増③</td></tr>
+<tr><td>納税充当金繰入（加算）</td><td>留保②</td><td>27行</td><td>増③</td></tr>
+<tr><td>減価償却超過額（加算）</td><td>留保②</td><td>任意行「償却超過額」</td><td>増③</td></tr>
+<tr><td>貸倒引当金繰入超過額（加算）</td><td>留保②</td><td>任意行「引当金超過額」</td><td>増③</td></tr>
+<tr><td>減価償却認容額（減算）</td><td>留保②</td><td>任意行「償却超過額」</td><td>減②</td></tr>
+<tr><td>貸倒引当金認容額（減算）</td><td>留保②</td><td>任意行「引当金超過額」</td><td>減②</td></tr>
+<tr><td>欠損金控除（減算）</td><td>留保②</td><td>26行（繰越損益金）</td><td>減②</td></tr>
+<tr><td>還付法人税等（減算）</td><td>留保②</td><td>28行付近</td><td>減②</td></tr>
+</table>
+
+<h2>転記しないもの（社外流出③）</h2>
+<div class="warn">
+以下はB04で社外流出③に記載され、<strong>B05(一)には転記しない</strong>:<br>
+交際費の損金不算入、寄附金の損金不算入、役員給与の損金不算入、所得税額控除、受取配当等の益金不算入、事業税の損金算入
+</div>
+
+<h2>地方税への転記</h2>
+<table>
+<tr><th>転記元</th><th>→</th><th>転記先</th><th>内容</th></tr>
+<tr><td>B04 欄27①（所得金額）</td><td>→</td><td>第六号様式</td><td>事業税の課税標準（所得割）</td></tr>
+<tr><td>B01 欄11（確定法人税額）</td><td>→</td><td>第二十号様式</td><td>住民税の法人税割の課税標準</td></tr>
+<tr><td>B04 欄27①</td><td>→</td><td>第六号様式別表五</td><td>外形標準課税（付加価値割・資本割）の調整</td></tr>
+</table>
+
+<h2>転記チェーンの全体像</h2>
+<div class="formula">
+B06〜B16（個別計算）<br>
+　↓ 加算/減算項目<br>
+<strong>B04</strong>（税務上のPL）<br>
+　├→ B01（税額計算）→ B05(二)（納付状況）→ B05(一)（税務BS）<br>
+　├→ B05(一)に留保②を直接転記<br>
+　└→ 地方税申告書へ
+</div>
+
+<h2>関連ページ</h2>
+<p>
+<a href="rel-core.html">5別表の相互関係</a> |
+<a href="rel-to-B04.html">各別表→B04 転記一覧</a> |
+<a href="../check/kenzan.html">検算が合わない時</a> |
+<a href="../beppyo/B04.html">別表四</a> |
+<a href="../beppyo/B01.html">別表一</a> |
+<a href="../beppyo/B05-1.html">別表五(一)</a>
+</p>
+
+<footer>
+<a href="../index.html">← 別表DBトップ</a> |
+法人税別表データベース | 最終更新: 2026-02-11
+</footer>
+</body></html>

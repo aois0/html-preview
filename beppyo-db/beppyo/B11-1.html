@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>【別表十一(一の二)】一括評価金銭債権に係る貸倒引当金の損金算入 - 法人税別表DB</title>
+<style>
+body{font-family:'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif;line-height:1.7;color:#333;max-width:900px;margin:0 auto;padding:20px;background:#f8f9fa}
+h1{color:#1a365d;border-bottom:3px solid #2b6cb0;padding-bottom:8px;font-size:1.4em}
+h2{color:#2b6cb0;font-size:1.1em;margin:20px 0 8px;border-left:4px solid #2b6cb0;padding-left:10px}
+a{color:#2b6cb0}
+table{width:100%;border-collapse:collapse;font-size:0.88em;margin:8px 0}
+th,td{padding:5px 8px;border:1px solid #e2e8f0;text-align:left}
+th{background:#edf2f7}
+.meta{background:#ebf8ff;border:1px solid #bee3f8;border-radius:6px;padding:10px 14px;margin:10px 0;font-size:0.9em}
+.warn{background:#fffbeb;border-left:4px solid #d69e2e;padding:8px 14px;margin:10px 0;font-size:0.9em}
+footer{margin-top:24px;padding-top:10px;border-top:1px solid #e2e8f0;font-size:0.8em;color:#718096}
+</style>
+</head><body>
+
+<!--BEPPYO:B11-1|一括評価金銭債権に係る貸倒引当金の損金算入|法52条|中小法人等|→B04(加算・留保/減算・留保)-->
+<h1>【別表十一(一の二)】一括評価金銭債権に係る貸倒引当金</h1>
+
+<div class="meta">
+<strong>根拠</strong>: 法人税法52条（貸倒引当金） | <strong>適用</strong>: 中小法人等（資本金1億円以下）、銀行・保険等<br>
+<strong>転記先</strong>: → <a href="B04.html">別表四</a>（繰入超過額は加算・留保②、戻入超過額は減算・留保②）<br>
+<strong>性格</strong>: 売掛金等の一括評価金銭債権に対する貸倒引当金の損金算入限度額を計算
+</div>
+
+<h2>制度の概要</h2>
+<table>
+<tr><th>項目</th><th>内容</th></tr>
+<tr><td>対象法人</td><td>中小法人等（資本金1億円以下）、銀行・保険・リース等の金融法人</td></tr>
+<tr><td>大法人</td><td>一括評価の貸倒引当金は損金算入不可（H24年度改正で廃止・経過措置終了）</td></tr>
+<tr><td>方法</td><td>法定繰入率方式（原則）または貸倒実績率方式（選択）</td></tr>
+<tr><td>処理</td><td>洗替法（前期繰入額を全額戻入→当期繰入額を新規計上）</td></tr>
+</table>
+
+<h2>法定繰入率</h2>
+<table>
+<tr><th>業種</th><th>法定繰入率</th></tr>
+<tr><td>卸売業・小売業</td><td>10/1000</td></tr>
+<tr><td>製造業</td><td>8/1000</td></tr>
+<tr><td>金融・保険業</td><td>3/1000</td></tr>
+<tr><td>割賦販売小売業</td><td>13/1000</td></tr>
+<tr><td>その他の事業</td><td>6/1000</td></tr>
+</table>
+
+<h2>各欄の詳細</h2>
+<table>
+<tr><th>欄</th><th>項目名</th><th>意味・計算</th></tr>
+<tr><td>1</td><td>期末一括評価金銭債権の帳簿価額</td><td>売掛金・受取手形・貸付金等の期末残高合計</td></tr>
+<tr><td>2</td><td>実質的に債権とみられないものの額</td><td>担保付債権の担保額等を控除</td></tr>
+<tr><td>3</td><td>差引金銭債権の額</td><td>1 − 2</td></tr>
+<tr><td>4</td><td>法定繰入率</td><td>業種に応じた繰入率（上表参照）</td></tr>
+<tr><td>5</td><td>繰入限度額（法定繰入率方式）</td><td>3 × 4</td></tr>
+<tr><td>6</td><td>貸倒実績率</td><td>過去3年間の貸倒損失額÷各年末の債権額の平均</td></tr>
+<tr><td>7</td><td>繰入限度額（実績率方式）</td><td>3 × 6</td></tr>
+<tr><td>8</td><td>繰入限度額</td><td>5と7のいずれか大きい金額（法定と実績の有利選択）</td></tr>
+<tr><td>9</td><td>損金経理による繰入額</td><td>会計上の貸倒引当金繰入額</td></tr>
+<tr><td>10</td><td>繰入超過額</td><td>9 ＞ 8 の場合: 9 − 8 → B04加算（留保②）</td></tr>
+</table>
+
+<h2>洗替処理のB04転記</h2>
+<table>
+<tr><th>処理</th><th>B04</th><th>留保/社外</th><th>B05(一)</th></tr>
+<tr><td>当期繰入超過額</td><td>加算（欄9付近）</td><td>留保②</td><td>増③（貸倒引当金の繰入超過額）</td></tr>
+<tr><td>前期繰入超過額の認容</td><td>減算（欄15付近）</td><td>留保②</td><td>減②（前期超過額の取崩し）</td></tr>
+</table>
+
+<div class="warn">
+<strong>洗替法の処理</strong>: 税務上は毎期洗替。前期末の引当金を全額戻入（益金算入）→当期末に新規繰入。繰入超過額は累積的に管理する。
+</div>
+
+<h2>一括評価金銭債権に含まれるもの・含まれないもの</h2>
+<table>
+<tr><th>含まれる</th><th>含まれない</th></tr>
+<tr><td>売掛金、受取手形</td><td>預貯金</td></tr>
+<tr><td>貸付金</td><td>仮払金、立替金</td></tr>
+<tr><td>未収入金（債権性のあるもの）</td><td>保証金、敷金</td></tr>
+<tr><td>割引手形（偶発債務）</td><td>個別評価の対象となった債権</td></tr>
+</table>
+
+<h2>よくある間違い</h2>
+<table>
+<tr><th>間違い</th><th>正しい処理</th></tr>
+<tr><td>大法人で一括評価引当金を計上</td><td>大法人は一括評価不可（個別評価のみ可能）</td></tr>
+<tr><td>実績率と法定繰入率を併用</td><td>いずれか一方を選択適用（有利な方を選べる）</td></tr>
+<tr><td>個別評価債権を一括評価に含める</td><td>個別評価の対象（破産等）は一括評価の債権から除外</td></tr>
+<tr><td>B04で社外流出③に記載</td><td>貸倒引当金の繰入超過は留保②。B05(一)に転記する</td></tr>
+<tr><td>前期超過額の認容を忘れる</td><td>前期の繰入超過額は当期に認容→B04減算（留保②）</td></tr>
+</table>
+
+<h2>関連別表</h2>
+<p>
+<a href="B04.html">別表四</a>（加算/減算・留保の転記先） |
+<a href="B05-1.html">別表五(一)</a>（引当金超過額の利益積立金） |
+<a href="B16-2.html">別表十六(二)</a>（減価償却） |
+<a href="../rel/rel-to-B04.html">→B04転記一覧</a>
+</p>
+
+<footer>
+<a href="../index.html">← 別表DBトップ</a> |
+法人税別表データベース | 最終更新: 2026-02-11
+</footer>
+</body></html>
