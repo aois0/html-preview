@@ -17,6 +17,9 @@
 
 - Papers/guidelines (international tax): /html-preview/ai-paper-db/llms.txt
 - NTA practical guides (法人税の手引・源泉あらまし): /html-preview/ai-nta-guide-db/llms.txt
+- Included in NTA practical guides:
+  - 法人税のあらましと申告の手引（令和7年版）: /html-preview/ai-nta-guide-db/data/resolve_lite/hojin_aramashi_2025.json
+  - 源泉徴収のあらまし（令和8年版）: /html-preview/ai-nta-guide-db/data/resolve_lite/gensen_aramashi_2026.json
 - Paper corpus (OECD TPG 2022): /html-preview/ai-paper-db/oecd-tpg-2022/quickstart.txt
 - Paper corpus (NTA TP audit): /html-preview/ai-paper-db/nta-tp-audit/quickstart.txt
 - Paper corpus (OECD/G20 BEPS): /html-preview/ai-paper-db/oecd-beps/quickstart.txt
