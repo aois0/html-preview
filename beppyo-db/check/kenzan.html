@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>検算が合わない時 - B04↔B05(一)検算トラブルシューティング - 法人税別表DB</title>
+<style>
+body{font-family:'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif;line-height:1.7;color:#333;max-width:900px;margin:0 auto;padding:20px;background:#f8f9fa}
+h1{color:#1a365d;border-bottom:3px solid #2b6cb0;padding-bottom:8px;font-size:1.4em}
+h2{color:#2b6cb0;font-size:1.1em;margin:20px 0 8px;border-left:4px solid #2b6cb0;padding-left:10px}
+a{color:#2b6cb0}
+table{width:100%;border-collapse:collapse;font-size:0.88em;margin:8px 0}
+th,td{padding:5px 8px;border:1px solid #e2e8f0;text-align:left}
+th{background:#edf2f7}
+.formula{background:#f0fff4;border:1px solid #c6f6d5;border-radius:6px;padding:10px 14px;margin:10px 0;font-family:monospace;font-size:0.95em}
+.warn{background:#fffbeb;border-left:4px solid #d69e2e;padding:8px 14px;margin:10px 0;font-size:0.9em}
+.step{background:#ebf8ff;border:1px solid #bee3f8;border-radius:6px;padding:10px 14px;margin:10px 0}
+footer{margin-top:24px;padding-top:10px;border-top:1px solid #e2e8f0;font-size:0.8em;color:#718096}
+</style>
+</head><body>
+
+<!--PAGE:check/kenzan|B04↔B05(一)検算トラブルシューティング|全法人|検算不一致の原因と対処法-->
+<h1>検算が合わない時 - B04↔B05(一)トラブルシューティング</h1>
+<p><a href="../index.html">← 別表DB トップ</a> | 別表四と別表五(一)の検算が合わない原因と対処法</p>
+
+<h2>検算式（基本）</h2>
+<div class="formula">
+<strong>【通常の場合】</strong><br>
+B05(一)31④ ＝ B05(一)31① ＋ B04 27② － (B05(一) 28③＋29③＋30③)<br><br>
+<strong>言い換え</strong>:<br>
+翌期首利益積立金 ＝ 期首利益積立金 ＋ 留保所得 － 当期確定法人税等
+</div>
+
+<div class="formula">
+<strong>【還付がある場合】</strong><br>
+B05(一)31④ ＝ B05(一)31① ＋ B04 27② － (28③＋29③＋30③) ＋ 未収還付法人税等
+</div>
+
+<h2>検算手順（ステップバイステップ）</h2>
+<div class="step">
+<strong>STEP 1</strong>: B04の留保欄を集計。27②（留保所得金額）を確認<br>
+<strong>STEP 2</strong>: B05(一)の31①（期首利益積立金合計）を確認。前期④と一致するか<br>
+<strong>STEP 3</strong>: B05(一)の28③＋29③＋30③（法人税等の当期確定額合計）を確認<br>
+<strong>STEP 4</strong>: 検算式を実行: 31① ＋ 27② － (28③＋29③＋30③) ＝ ?<br>
+<strong>STEP 5</strong>: 計算結果とB05(一)31④を比較。一致すればOK<br>
+<strong>STEP 6</strong>: 不一致の場合→下記の原因TOP10を確認
+</div>
+
+<h2>検算が合わない原因TOP10</h2>
+<table>
+<tr><th>#</th><th>原因</th><th>差額の特徴</th><th>対処法</th></tr>
+<tr><td>1</td><td><strong>納税充当金の処理ミス</strong></td><td>未払法人税等と同額のズレ</td><td>B05(二)下段とB05(一)27行の整合確認。繰入額→B04加算(留保)、取崩額→B05(一)減②</td></tr>
+<tr><td>2</td><td><strong>留保/社外流出の区分誤り</strong></td><td>B04の特定項目と同額</td><td>交際費・寄附金は社外流出③。B05(一)には転記しない。留保②のみB05(一)に反映</td></tr>
+<tr><td>3</td><td><strong>前期繰越の転記ミス</strong></td><td>前期末との差額</td><td>B05(一)の各行①が前期④と完全一致するか確認。合計31だけでなく各行個別に照合</td></tr>
+<tr><td>4</td><td><strong>B04の留保項目のB05(一)転記漏れ</strong></td><td>漏れた項目の金額分</td><td>B04の留保②の全項目がB05(一)のいずれかの行に転記されているか確認</td></tr>
+<tr><td>5</td><td><strong>還付の場合の処理漏れ</strong></td><td>還付額と同額のズレ</td><td>中間納付＞確定税額の場合、未収還付法人税等をB05(一)に計上。検算式にも加算</td></tr>
+<tr><td>6</td><td><strong>別表四を通さない項目の見落とし</strong></td><td>特殊取引の金額</td><td>欠損填補、資本剰余金配当、適格合併の引継等はB05(一)で直接処理。B04には記載しない</td></tr>
+<tr><td>7</td><td><strong>事業税の処理誤り</strong></td><td>事業税額と同額</td><td>事業税は損金算入。B04で減算(社外流出③)。法人税・住民税とは逆の処理</td></tr>
+<tr><td>8</td><td><strong>繰越欠損金控除の反映漏れ</strong></td><td>欠損金控除額と同額</td><td>B07(一)→B04減算(留保②)→B05(一)繰越損益金26行の減②に反映</td></tr>
+<tr><td>9</td><td><strong>過年度遡及修正の処理誤り</strong></td><td>遡及修正額</td><td>税務では過年度遡及を認めない。B05(一)の期首①で調整。B04は修正後利益を使用</td></tr>
+<tr><td>10</td><td><strong>端数処理の不整合</strong></td><td>数百円〜数千円の端数</td><td>千円未満切捨・百円未満切捨の処理タイミングを確認</td></tr>
+</table>
+
+<h2>差額の金額から原因を推定</h2>
+<table>
+<tr><th>差額の特徴</th><th>疑うべき原因</th></tr>
+<tr><td>交際費・寄附金と同額</td><td>社外流出③をB05(一)に転記してしまっている（原因#2）</td></tr>
+<tr><td>確定法人税額と同額</td><td>B05(一)28行の増③への転記漏れ、または納税充当金の処理ミス（原因#1）</td></tr>
+<tr><td>前期末数値との差</td><td>前期繰越の転記ミス（原因#3）</td></tr>
+<tr><td>中間納付額と同額</td><td>還付処理の漏れ（原因#5）</td></tr>
+<tr><td>欠損金控除額と同額</td><td>B07(一)からの転記漏れ（原因#8）</td></tr>
+<tr><td>事業税額と同額</td><td>事業税の加算/減算の処理誤り（原因#7）</td></tr>
+<tr><td>100円〜999円の端数</td><td>端数処理タイミングの問題（原因#10）</td></tr>
+</table>
+
+<h2>検算チェックシート</h2>
+<table>
+<tr><th>チェック項目</th><th>確認欄</th><th>確認方法</th></tr>
+<tr><td>B05(一)各行①＝前期④</td><td>□</td><td>前期申告書と突合</td></tr>
+<tr><td>B05(一)26行④＝BS繰越利益剰余金</td><td>□</td><td>貸借対照表と突合</td></tr>
+<tr><td>B05(一)27行④＝BS未払法人税等</td><td>□</td><td>貸借対照表と突合</td></tr>
+<tr><td>B05(二)34行＝B05(一)27行④</td><td>□</td><td>B05(二)下段とB05(一)を突合</td></tr>
+<tr><td>B04の留保②全項目がB05(一)に反映</td><td>□</td><td>B04の留保項目を1行ずつ確認</td></tr>
+<tr><td>B04の社外流出③はB05(一)に転記していない</td><td>□</td><td>社外流出項目がB05(一)に混入していないか</td></tr>
+<tr><td>B05(一)の各行で横計算OK</td><td>□</td><td>④＝①－②＋③</td></tr>
+<tr><td>B05(二)の各行で横計算OK</td><td>□</td><td>⑥＝①＋②－(③＋④＋⑤)</td></tr>
+<tr><td>最終検算式が一致</td><td>□</td><td>31④＝31①＋27②－(28③＋29③＋30③)</td></tr>
+</table>
+
+<div class="warn">
+<strong>それでも合わない場合</strong>: (1) B04の各行の留保②と社外流出③の合計が①総額と一致するか確認、(2) B05(一)の全行の④の合計と31④が一致するか確認、(3) 特殊取引（合併・分割・欠損填補等）がないか確認。税務申告ソフトを使用している場合はソフトの検算機能も併用する。
+</div>
+
+<h2>関連ページ</h2>
+<p>
+<a href="../beppyo/B04.html">別表四</a> |
+<a href="../beppyo/B05-1.html">別表五(一)</a> |
+<a href="../beppyo/B05-2.html">別表五(二)</a> |
+<a href="../rel/rel-core.html">5別表の相互関係</a> |
+<a href="../flow/overview.html">作成順序</a>
+</p>
+
+<footer>
+<a href="../index.html">← 別表DBトップ</a> |
+法人税別表データベース | 最終更新: 2026-02-11
+</footer>
+</body></html>

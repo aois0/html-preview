@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>必須5別表の相互関係 - 法人税別表DB</title>
+<style>
+body{font-family:'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif;line-height:1.7;color:#333;max-width:900px;margin:0 auto;padding:20px;background:#f8f9fa}
+h1{color:#1a365d;border-bottom:3px solid #2b6cb0;padding-bottom:8px;font-size:1.4em}
+h2{color:#2b6cb0;font-size:1.1em;margin:20px 0 8px;border-left:4px solid #2b6cb0;padding-left:10px}
+a{color:#2b6cb0}
+pre{background:#1a365d;color:#e2e8f0;padding:16px;border-radius:6px;font-size:0.85em;overflow-x:auto;line-height:1.5}
+table{width:100%;border-collapse:collapse;font-size:0.88em;margin:8px 0}
+th,td{padding:5px 8px;border:1px solid #e2e8f0;text-align:left}
+th{background:#edf2f7}
+.formula{background:#f0fff4;border:1px solid #c6f6d5;border-radius:6px;padding:10px 14px;margin:10px 0;font-family:monospace;font-size:0.95em}
+.warn{background:#fffbeb;border-left:4px solid #d69e2e;padding:8px 14px;margin:10px 0;font-size:0.9em}
+footer{margin-top:24px;padding-top:10px;border-top:1px solid #e2e8f0;font-size:0.8em;color:#718096}
+</style>
+</head><body>
+
+<!--PAGE:rel/rel-core|必須5別表の相互関係|全法人|B01,B02,B04,B05(一),B05(二)-->
+<h1>必須5別表の相互関係</h1>
+<p><a href="../index.html">← 別表DB トップ</a> | 全法人が作成する5つの別表はどう関連するか</p>
+
+<h2>5別表の関係図</h2>
+<pre>
+決算書（PL当期純利益）
+    │
+    ↓ 転記
+┌────────────────────────────────────┐
+│ <a href="../beppyo/B04.html" style="color:#90cdf4">別表四</a>（税務上のPL）                     │
+│ 当期利益 ＋ 加算 － 減算 ＝ 所得金額     │
+│   [留保②] ─────────────────┐           │
+│   [社外流出③]は転記しない   │           │
+└───────┬──────────────────┼───────────┘
+        │所得金額           │留保項目
+        ↓                   ↓
+┌──────────────┐    ┌─────────────────────┐
+│ <a href="../beppyo/B01.html" style="color:#90cdf4">別表一</a>           │    │ <a href="../beppyo/B05-1.html" style="color:#90cdf4">別表五(一)</a>             │
+│（税額計算）     │    │（税務上のBS）          │
+│ 所得×税率      │    │ 期首①-減②+増③=期末④ │
+│ −税額控除      │    │ 留保②→増③/減②       │
+│ ＝確定法人税額  │    │ ★B04と検算必須        │
+└──────┬───────┘    └──────┬──────────────┘
+       │確定税額             ↑未納税額
+       ↓                     │納税充当金
+┌──────────────────────────┐   │
+│ <a href="../beppyo/B05-2.html" style="color:#90cdf4">別表五(二)</a>                    │   │
+│（租税公課の納付状況）        ├───┘
+│ 期首① +発生② -納付 =期末⑥│
+└──────────────────────────┘
+
+┌──────────────────────────┐
+│ <a href="../beppyo/B02.html" style="color:#90cdf4">別表二</a>                        │
+│（同族会社判定）              │
+│ ※他の別表と独立して作成可能 │
+└──────────────────────────┘
+</pre>
+
+<h2>転記関係の全リスト</h2>
+<table>
+<tr><th>#</th><th>転記元</th><th>→</th><th>転記先</th><th>内容</th></tr>
+<tr><td>1</td><td>決算書PL</td><td>→</td><td>B04 欄1</td><td>当期純利益（税引後）</td></tr>
+<tr><td>2</td><td>B04 欄27①</td><td>→</td><td>B01 欄1</td><td>所得金額又は欠損金額</td></tr>
+<tr><td>3</td><td>B06系 控除額</td><td>→</td><td>B01 欄3,5</td><td>税額控除（所得税額控除等）</td></tr>
+<tr><td>4</td><td>B01 確定税額</td><td>→</td><td>B05(二) ②確定行</td><td>確定法人税額・地方法人税額</td></tr>
+<tr><td>5</td><td>B05(二) ⑥期末未納</td><td>→</td><td>B05(一) 28〜30行</td><td>未納法人税・住民税（△表示）</td></tr>
+<tr><td>6</td><td>B05(二) 下段</td><td>→</td><td>B05(一) 27行</td><td>納税充当金（増③・減②）</td></tr>
+<tr><td>7</td><td>B04 留保②各行</td><td>→</td><td>B05(一) 各行の増③/減②</td><td>税務調整項目の利益積立金増減</td></tr>
+<tr><td>8</td><td>B05(二)</td><td>→</td><td>B04 欄2〜4</td><td>法人税等・納税充当金の加算</td></tr>
+<tr><td>9</td><td>B04 所得金額</td><td>→</td><td>地方税第六号様式</td><td>事業税の課税標準</td></tr>
+<tr><td>10</td><td>B01 法人税額</td><td>→</td><td>地方税第六号様式</td><td>住民税の法人税割の課税標準</td></tr>
+</table>
+
+<h2>作成順序（推奨）</h2>
+<table>
+<tr><th>順序</th><th>別表</th><th>理由</th></tr>
+<tr><td>1</td><td>B06〜B16（税務調整別表）</td><td>個別計算がないとB04が完成しない</td></tr>
+<tr><td>2</td><td><a href="../beppyo/B04.html">別表四</a></td><td>B06〜B16の結果を集約→所得金額確定</td></tr>
+<tr><td>3</td><td><a href="../beppyo/B01.html">別表一</a></td><td>B04の所得金額→税額計算</td></tr>
+<tr><td>4</td><td><a href="../beppyo/B05-2.html">別表五(二)</a></td><td>B01の確定税額→納付状況の管理</td></tr>
+<tr><td>5</td><td><a href="../beppyo/B05-1.html">別表五(一)</a></td><td>B04の留保＋B05(二)の未納額→利益積立金</td></tr>
+<tr><td>※</td><td><a href="../beppyo/B02.html">別表二</a></td><td>独立して作成可能（どのタイミングでもOK）</td></tr>
+</table>
+
+<h2>検算式</h2>
+<div class="formula">
+<strong>【基本検算式】B04とB05(一)の整合性確認</strong><br><br>
+B05(一) 31④ ＝ B05(一) 31① ＋ B04 27② － (B05(一) 28③＋29③＋30③)<br><br>
+言い換え: 翌期首利益積立金 ＝ 期首利益積立金 ＋ 留保所得 － 法人税等
+</div>
+
+<div class="formula">
+<strong>【横計検算】別表五(一)の各行</strong><br>
+各行④ ＝ 各行① － 各行② ＋ 各行③
+</div>
+
+<div class="formula">
+<strong>【横計検算】別表五(二)の各行</strong><br>
+⑥ ＝ ① ＋ ② － (③＋④＋⑤)
+</div>
+
+<div class="warn">
+検算が合わない場合は <a href="../check/kenzan.html">検算トラブルシューティング</a> を参照。
+</div>
+
+<h2>関連ページ</h2>
+<p>
+<a href="rel-to-B04.html">→B04転記一覧</a> |
+<a href="../flow/overview.html">作成順序・フロー</a> |
+<a href="../check/kenzan.html">検算が合わない時</a> |
+<a href="../index.html">別表DBトップ</a>
+</p>
+
+<footer>
+<a href="../index.html">← 別表DBトップ</a> |
+法人税別表データベース | 最終更新: 2026-02-11
+</footer>
+</body></html>
