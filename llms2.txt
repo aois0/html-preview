@@ -198,8 +198,3 @@ NOTE: `core/batch-*.txt` は内部用。入口ナビには使わない。
 - 欄記述の記法: `欄N: 名称 計算式 ←転記元 →転記先`
 
 収録: 全45別表（B01〜B17-4）。別表一覧・転記関係・検算式の詳細は `beppyo-db/llms.txt` 参照。
-
-## 9) Tax KB / 別表ナビKB
-
-- Tax KB（PageIndex型）: `tax-kb/quickstart.txt`
-- 別表ナビKB: `tax-besshyo-kb/quickstart.txt`
