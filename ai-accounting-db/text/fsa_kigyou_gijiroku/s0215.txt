@@ -1,0 +1,21 @@
+doc: 金融庁 企業会計審議会（議事録・会議資料） (fsa_kigyou_gijiroku)
+year: 2026
+item: s0215 / title: 企業会計審議会 第13回監査部会 議事次第
+section: 215 / 企業会計審議会 第13回監査部会 議事次第
+source_type: html
+source_url: https://www.fsa.go.jp/singi/singi_kigyou/siryou/kansa/20051111.html
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/fsa_kigyou_gijiroku/s0215.html
+
+[p1] Note: This page is machine translated. Translated pages are not necessarily correct.
+[p2] Tweet 平成17年11月11日 企業会計審議会 第13回監査部会 議事次第 （11月11日（金）10時～12時 金融庁特別会議室）
+[p3] １． 開会 ２． 「適性なディスクロージャーと厳正な会計監査の確保に向けた対応策について」
+[p4] ３． 四半期会計基準の検討状況について ４． 質疑応答 ５． 四半期レビューのあり方をの検討していくに当たっての留意点について ６． 意見交換 ７． 閉会 （以上）
+[p5] 第13回監査部会（17年11月11日）配布資料 資料１ 監査基準及び中間監査基準の改訂に関する意見書並びに監査に関する品質管理基準の設定に係る意見書（17年10月28日）
+[p6] （10月28日金融庁ホームページ参照）
+[p7] 資料２ 適正なディスクロージャーと厳正な会計監査の確保に向けた対応策について（PDF：192KB）
+[p8] 資料３-１ 四半期会計基準の検討状況（PDF：259KB）
+[p9] 資料３-２ 四半期会計基準専門委員会 専門委員（PDF：75KB）
+[p10] 資料３-３ リステートメントする場合のイメージ（PDF：98KB）
+[p11] 資料３-４ 論点のまとめ (1)（PDF：3,128KB）
+[p12] (2)（PDF：3,435KB）
+[p13] 資料４ 四半期レビューのあり方を検討していくに当たっての留意点（案）（PDF：298KB）

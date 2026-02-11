@@ -1,0 +1,12 @@
+doc: JICPA 実務指針等公表物（研究報告） (jicpa_research_report)
+year: 2026
+item: s0322 / title: 前書文
+section: 322 / 前書文
+source_type: pdf
+source_url: https://jicpa.or.jp/specialized_field/files/2-15-1-1-20160801.pdf
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/jicpa_research_report/s0322.html
+
+[p1] [page 1]
+[p2] 法規委員会研究報告第１号「公認会計士等の法的責任について」の改正について 常務理事 上林 三子雄 日本公認会計士協会（法規委員会）では、平成 28 年７月 25 日に開催された常務理事会の承認 を受けて、同日付けで「法規委員会研究報告第１号「公認会計士等の法的責任について」の改正 について」を公表いたしましたのでお知らせいたします。
+[p3] 本研究報告は、公認会計士等の法的責任についての体系的・網羅的な理解に資するものとして 取りまとめたものであり、今回の改正は、平成 26 年改正会社法の施行を機に、前回改正時以降の 環境や制度の変化を踏まえ、所要の見直しを行ったものです。
+[p4] 以 上

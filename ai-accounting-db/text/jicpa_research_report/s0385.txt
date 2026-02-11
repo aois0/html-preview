@@ -1,0 +1,12 @@
+doc: JICPA 実務指針等公表物（研究報告） (jicpa_research_report)
+year: 2026
+item: s0385 / title: 前書文
+section: 385 / 前書文
+source_type: pdf
+source_url: https://jicpa.or.jp/specialized_field/files/2-3-54-1-20140903.pdf
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/jicpa_research_report/s0385.html
+
+[p1] [page 1]
+[p2] 経営研究調査会研究報告第 54 号 「CSR 報告書に見る企業のジェンダー・ギャップに関する取組」の公表について 常務理事 和貝 享介 常務理事 井上 浩一 日本公認会計士協会（経営研究調査会）は、平成 26 年９月３日付けで経営研究調査 会研究報告第 54 号「CSR 報告書に見る企業のジェンダー・ギャップに関する取組」を 公表しました。
+[p3] 本研究報告は、公認会計士として業務上知っておくべき事項であり、企業の長期的な 成長に当たって参考となる事項として、 ダイバーシティにおける重要なテーマであるジ ェンダー・ギャップを取り上げ、日本企業の職場における取組の現状と課題をサステナ ビリティ情報開示の観点から情報提供するものです。本研究報告が、企業の取組及び情 報開示を促進するとともに、会員が行う業務の参考となれば幸いです。
+[p4] 以 上

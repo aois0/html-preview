@@ -1,0 +1,43 @@
+doc: JICPA 実務指針等公表物（研究報告） (jicpa_research_report)
+year: 2026
+item: s0507-part-02 / title: 国際監査・保証基準審議会（IAASB） (part 2/2)
+section: 507 / 国際監査・保証基準審議会（IAASB）
+source_type: html
+source_url: https://jicpa.or.jp/specialized_field/translation/iaasb.html
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/jicpa_research_report/s0507-part-02.html
+
+[p1] ARTICLE BY IAASB CHAIR：BALANCING URGENCY AND EFFECTIVENESS IN INTERNATIONAL SUSTAINABILITY ASSURANCE STANDARDS IAASB議長記事「国際的なサステナビリティ保証基準における緊急性と有効性のバランス」
+[p2] 2022.5.5 Non-Authoritative Guidance on Fraud in an Audit of Financial Statements: THE FRAUD LENS -INTERACTIONS BETWEEN ISA 240 AND OTHER ISAs 財務諸表監査における不正に関する規範性のないガイダンス「不正レンズ－ISA 240と他のISAとの相互関係」
+[p3] 2022.5.2 ISA 220 (REVISED): DEFINITION OF AN ENGAGEMENT TEAM FACT SHEET ISA220（改訂）「監査チームの定義」ファクトシート 2022.2.17
+[p4] FIRST-TIME IMPLEMENTATION GUIDE: International Standard on Auditing 220 (Revised), Quality Management for an Audit of Financial Statements 初度適用ガイド「国際監査基準220（改訂）「監査業務における品質マネジメント」」
+[p5] 2021.12.15 ARTICLE BY IAASB CHAIR：THE DEMAND FOR ASSURANCE ENGAGEMENTS ON SUSTAINABILITY AND ESG REPORTING IS HIGH. HERE IS HOW THE IAASB IS RESPONDING.
+[p6] IAASB議長記事「サステナビリティ及びESG報告に対する保証業務への需要の高まりとIAASBの対応」
+[p7] 2021.9.28
+[p8] FIRST-TIME IMPLEMENTATION GUIDE: International Standard on Quality Management (ISQM) 1,Quality Management For Firms That Perform Audits or Reviews of financial Statements, or Other Assurance or Related Services Engagement
+[p9] 初度適用ガイド「国際品質マネジメント基準第１号「財務諸表の監査若しくはレビュー又はその他の保証若しくは関連サービス業務を行う事務所の品質マネジメント」」
+[p10] 2021.6.14 FIRST-TIME IMPLEMENTATION GUIDE: International Standard on Quality Management (ISQM) 2,Engagement Quality Reviews 初度適用ガイド「国際品質マネジメント基準第２号「審査」」
+[p11] 2021.6.2 FEEDBACK STATEMENT: AUDITOR REPORTING POST-IMPLEMENTATION REVIEW フィードバック文書：監査報告に関する基準の適用後レビュー 2021.4.6
+[p12] Non-Authoritative Guidance on Applying ISAE 3000 (Revised) to Sustainability and Other Extended External Reporting (EER) Assurance Engagements
+[p13] サステナビリティ及びその他の拡張された外部報告（EER）に対する保証業務への国際保証業務基準3000（ISAE 3000）（改訂）の適用に関する規範性のないガイダンス 2021.3.22 ARTICLE BY IAASB CHAIR：ASSURANCE STANDARDS KEEPING PACE ON NON-FINANCIAL REPORTING IAASB議長記事「非財務の報告の発展に合わせた保証基準の開発」
+[p14] 2020.10.1 Staff Audit Practice Alert: The Consideration of Climate-Related Risks in an Audit of Financial Statement 監査実務に関するスタッフ文書「財務諸表監査おける気候関連リスクの検討」
+[p15] 2020.6.26 Staff Audit Practice Alert：Auditing Accounting Estimates ㏌ the Current Evolving Environment due to COVID-19 監査実務に関するスタッフ文書「新型コロナウイルス感染症(COVID-19)により変化し続ける環境下での会計上の見積りの監査」
+[p16] 2020.5.22 Staff Audit Practice Alert：Auditor Reporting ㏌ the Current Evolving Environment Due to COVID-19 監査実務に関するスタッフ文書「新型コロナウイルス感染症(COVID-19)により変化し続ける環境下での監査報告」
+[p17] 2020.5.14 Staff Audit Practice Alert：Subsequent Events ㏌ the Current Evolving Environment―Audit Considerations for the Impact of COVID-19 監査実務に関するスタッフ文書「変化し続ける環境下での後発事象 - 新型コロナウイルス感染症(COVID-19)の影響に関する監査上の留意事項」
+[p18] 2020.4.29 Staff Audit Practice Alert：Going Concern in the Current Evolving Environment―Audit Considerations for the Impact of COVID-19 監査実務に関するスタッフ文書「変化し続ける環境下での継続企業の前提の評価 - 新型コロナウイルス感染症（COVID-19）の影響に関する監査上の留意事項」
+[p19] 専門情報 専門情報一覧 実務指針等公表物一覧 監査実務指針等 実務指針 通達 研究報告 研究資料 周知文書（通知等）
+[p20] その他の公表物 公開草案・論点整理 各種様式ダウンロード 監査等書類関係 監査契約書 任意監査契約書の様式 共同監査協定書 監査契約（締結・変更・解除）報告書 監査概要書 旧様式ファイル・ダウンロード 監査実施報告書 保証業務等実施報告書 監査関係書類受理書 業務会費計算書 合意された手続業務関係 品質管理関係 会員登録関係 会計参与契約関係 2022年公認会計士法改正の概要 IFRS（国際財務報告基準）とは IFRSに関するお知らせ
+[p21] 2025年 2024年 2023年 2022年 2021年 2020年 2019年 2018年 2017年 2016年 2015年 2014年 2013年 2012年 2011年 2010年 2009年 2008年 IASB・IFRSの基礎知識 IASBの基礎知識 IFRSの基礎知識 IFRS/IFRIC文書 IFRS/IFRIC原文・日本語訳 「中小企業向け国際財務報告基準」（"IFRS for SMEs"）の翻訳
+[p22] IFRS財団の教育文書 コメント募集文書 我が国のIFRSの取り組み 第1章 国際会計基準審議会（IASB）の組織のあり方を巡る議論 01 第1章 国際会計基準審議会（IASB）の組織のあり方を巡る議論 02 第2章 国際財務報告基準（IFRS）への収斂の国際的動向 01 第2章 国際財務報告基準（IFRS）への収斂の国際的動向 02 第2章 国際財務報告基準（IFRS）への収斂の国際的動向 03
+[p23] 第2章 国際財務報告基準（IFRS）への収斂の国際的動向 04 第2章 国際財務報告基準（IFRS）への収斂の国際的動向 05 第3章 国際財務報告基準（IFRS）への収斂の我が国の対応 01 第3章 国際財務報告基準（IFRS）への収斂の我が国の対応 02 第3章 国際財務報告基準（IFRS）への収斂の我が国の対応 03 第4章 国際財務報告基準（IFRS）の任意適用に向けての我が国の対応
+[p24] 第5章 国際財務報告基準（IFRS）の任意適用後の我が国の対応 第6章 国際財務報告基準（IFRS）の任意適用の積上げに向けた我が国の対応 ケース・スタディ 『会計・監査ジャーナル』掲載記事 1. IASB（国際会計基準審議会）関連会議報告 2. IFRS等の解説 3. IFRSIC（国際財務報告解釈指針委員会）関連 4. 公開草案・討議資料の解説 5. 座談会 6. その他 研修教材・出版物 JICPA CPE教材
+[p25] IFRSに関する書籍のご案内 IFRS財団教育イニシアチブ 日本語教材 IFRS第18号「財務諸表における表示及び開示」に関するお知らせ 国際動向紹介 一覧 2026年 2025年 2024年 2023年 2022年 2021年 2020年 2019年 2018年 2017年 2016年 2015年 監査・品質管理 倫理 SMP・SME 公会計・非営利 制度・教育 会計職業専門家団体 IVSC その他 会計・監査ジャーナル記事
+[p26] 監査・品質管理 倫理 SMP・SME 公会計・非営利 制度・教育 会計職業専門家団体 IVSC その他 翻訳 国際監査・保証基準審議会（IAASB）
+[p27] 国際教育基準審議会（IAESB）
+[p28] 国際会計士倫理基準審議会（IESBA）
+[p29] その他 国際公会計基準審議会（IPSASB）
+[p30] 日本公認会計士協会（JICPA）
+[p31] サステナビリティ サステナビリティ入門 サステナビリティ情報開示 サステナビリティ保証 サステナビリティ能力開発 非営利組織の会計 公会計協議会 お知らせ 2026年 2025年 2024年 2023年 2022年 2021年 2020年 2019年 2018年 2017年 2016年 2015年 公会計協議会とは 入会のご案内 地方公共団体会計・監査部会とは 非営利組織会計・監査部会とは 入会申請
+[p32] 部会員検索システム（地方公共団体会計・監査部会及び非営利組織会計・監査部会）
+[p33] 非営利組織会計・監査部会 関係法人リスト 各種公表資料一覧 公会計分野における協会の取組 研修講座紹介動画について 非営利組織会計・監査部会 研修一覧 包括外部監査に関する取組 公益法人の制度改革に関するお知らせ 学校法人の制度改革に関するお知らせ 各種リンク先一覧 公会計協議会に関するQ＆A お問い合わせ 非営利分野 非営利分野 お知らせ・公表物 非営利分野 制度 非営利分野 研修一覧 ウェビナー 職業倫理に関する取組
+[p34] 倫理に関する各種研修動画 監査、監査以外の保証業務及びAUPに関する取組 基準設定の取組（倫理・監査）
+[p35] 社外役員会計士協議会 お知らせ 研修会・イベント 対談記事 社外役員会計士のための各種情報 社外役員会計士協議会の取組 公認会計士社外役員ネットワークについて XBRLとは ちょっと教えて！XBRL もっと教えて！XBRL 公認会計士の一体的能力開発 ページトップへ

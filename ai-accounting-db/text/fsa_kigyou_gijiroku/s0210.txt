@@ -1,0 +1,15 @@
+doc: 金融庁 企業会計審議会（議事録・会議資料） (fsa_kigyou_gijiroku)
+year: 2026
+item: s0210 / title: Machine translation English
+section: 210 / Machine translation English
+source_type: html
+source_url: https://www.fsa.go.jp/singi/singi_kigyou/siryou/kansa/20050623.html
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/fsa_kigyou_gijiroku/s0210.html
+
+[p1] Note: This page is machine translated. Translated pages are not necessarily correct.
+[p2] Tweet 平成17年６月23日 企業会計審議会 第８回監査部会 議事次第 （６月23日（木）10時～12時 金融庁特別会議室）
+[p3] １． 開会 ２． 監査に関する品質管理基準について ３． 質疑及び意見交換 ４． ビジネス・リスクを重視した監査に関する監査基準の改訂について ５． 質疑及び意見交換 ６． その他 ７． 閉会 （以上）
+[p4] 第８回監査部会（17年6月23日）配布資料 資料１ 監査基準の体系（案）（PDF：31KB）
+[p5] 資料２ 監査に関する品質管理基準（案）（PDF：181KB）
+[p6] 資料３ 改訂監査基準（案）（PDF：419KB）
+[p7] 資料４ 新しい基準・現行の基準の図（PDF：30KB）

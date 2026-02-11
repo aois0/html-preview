@@ -1,0 +1,67 @@
+# AI向け 会計基準DB クイックスタート（1URL≒1万トークン制約向け）
+#
+# 基本方針:
+# 1) 小さい索引で item_id を決める
+# 2) resolve_liteのpartを開いて item_id を決める
+# 3) 本文は text/{doc_code}/{item_id}.txt を読む
+# 4) 引用URLが必要なときだけ enhanced/...#pX を使う
+
+# 入口
+# - https://jplawdb.github.io/html-preview/ai-accounting-db/llms.txt
+# - https://jplawdb.github.io/html-preview/ai-accounting-db/data/resolve_lite/index.json
+# - https://jplawdb.github.io/html-preview/ai-accounting-db/data/shards_index.json
+
+# 本文URL
+# - https://jplawdb.github.io/html-preview/ai-accounting-db/text/{doc_code}/{item_id}.txt
+
+# 利用可能な doc_code
+# - asbj_accounting_standards : ASBJ 企業会計基準（現行） (253 items)
+# - asbj_implementation_guidance : ASBJ 適用指針（現行） (326 items)
+# - asbj_practical_solution : ASBJ 実務対応報告（現行） (151 items)
+# - asbj_completed_drafts : ASBJ 公開草案・過年度分（completed） (45 items)
+# - fsa_kigyou_toushin : 金融庁 企業会計審議会（答申・報告書等） (514 items)
+# - fsa_kigyou_gijiroku : 金融庁 企業会計審議会（議事録・会議資料） (1479 items)
+# - jicpa_practical_guidelines : JICPA 実務指針等公表物（実務指針） (198 items)
+# - jicpa_notification : JICPA 実務指針等公表物（お知らせ・公表物） (66 items)
+# - jicpa_research_report : JICPA 実務指針等公表物（研究報告） (570 items)
+# - jicpa_research_data : JICPA 実務指針等公表物（研究資料） (127 items)
+
+# 例: ASBJ 企業会計基準（現行）
+# - https://jplawdb.github.io/html-preview/ai-accounting-db/text/asbj_accounting_standards/s0001.txt
+# - https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/asbj_accounting_standards/s0001.html
+
+# 例: ASBJ 適用指針（現行）
+# - https://jplawdb.github.io/html-preview/ai-accounting-db/text/asbj_implementation_guidance/s0001.txt
+# - https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/asbj_implementation_guidance/s0001.html
+
+# 例: ASBJ 実務対応報告（現行）
+# - https://jplawdb.github.io/html-preview/ai-accounting-db/text/asbj_practical_solution/s0001.txt
+# - https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/asbj_practical_solution/s0001.html
+
+# 例: ASBJ 公開草案・過年度分（completed）
+# - https://jplawdb.github.io/html-preview/ai-accounting-db/text/asbj_completed_drafts/s0001.txt
+# - https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/asbj_completed_drafts/s0001.html
+
+# 例: 金融庁 企業会計審議会（答申・報告書等）
+# - https://jplawdb.github.io/html-preview/ai-accounting-db/text/fsa_kigyou_toushin/s0001-part-01.txt
+# - https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/fsa_kigyou_toushin/s0001-part-01.html
+
+# 例: 金融庁 企業会計審議会（議事録・会議資料）
+# - https://jplawdb.github.io/html-preview/ai-accounting-db/text/fsa_kigyou_gijiroku/s0001-part-01.txt
+# - https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/fsa_kigyou_gijiroku/s0001-part-01.html
+
+# 例: JICPA 実務指針等公表物（実務指針）
+# - https://jplawdb.github.io/html-preview/ai-accounting-db/text/jicpa_practical_guidelines/s0001.txt
+# - https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/jicpa_practical_guidelines/s0001.html
+
+# 例: JICPA 実務指針等公表物（お知らせ・公表物）
+# - https://jplawdb.github.io/html-preview/ai-accounting-db/text/jicpa_notification/s0001.txt
+# - https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/jicpa_notification/s0001.html
+
+# 例: JICPA 実務指針等公表物（研究報告）
+# - https://jplawdb.github.io/html-preview/ai-accounting-db/text/jicpa_research_report/s0001.txt
+# - https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/jicpa_research_report/s0001.html
+
+# 例: JICPA 実務指針等公表物（研究資料）
+# - https://jplawdb.github.io/html-preview/ai-accounting-db/text/jicpa_research_data/s0001.txt
+# - https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/jicpa_research_data/s0001.html

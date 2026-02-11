@@ -1,0 +1,18 @@
+doc: 金融庁 企業会計審議会（議事録・会議資料） (fsa_kigyou_gijiroku)
+year: 2026
+item: s0220 / title: Machine translation English
+section: 220 / Machine translation English
+source_type: html
+source_url: https://www.fsa.go.jp/singi/singi_kigyou/siryou/kansa/20080128.html
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/fsa_kigyou_gijiroku/s0220.html
+
+[p1] Note: This page is machine translated. Translated pages are not necessarily correct.
+[p2] Tweet 企業会計審議会 第18回監査部会 議事次第 日時：平成20年１月28日（月）13時30分～15時30分 場所：共用第一特別会議室 １．開会 ２．監査をめぐる国際的動向について (１) 監査基準をめぐる国際的な動向 (２) 国際監査基準の設定状況 (３) 国際監査基準への日本公認会計士協会の対応 ３．質疑応答・意見交換 ４．改正公認会計士法の概要 ５．閉会 第18回監査部会配付資料
+[p3] 資料１ 監査基準をめぐる国際的な動向（PDF：110KB）
+[p4] 資料２－１ IAASBプロジェクト・タイムテーブル（PDF：179KB）
+[p5] 資料２－２ クラリティ・プロジェクトについて（PDF：127KB）
+[p6] 資料２－３ INTERNATIONAL STANDARD ON AUDITING 300（クラリティ対応前のISA300）（PDF：97KB）
+[p7] 資料２－４ INTERNATIONAL STANDARD ON AUDITING 300（クラリティ版ISA300）（PDF：114KB）
+[p8] 資料２－５ 監査の基準をめぐる我が国とIAASBの動向について（PDF：97KB）
+[p9] 資料３ 日本公認会計士協会 監査基準委員会タイムテーブル（2007年度）（PDF：120KB）
+[p10] 資料４ 公認会計士法等の一部を改正する法律概要（PDF：184KB）

@@ -1,0 +1,13 @@
+doc: ASBJ 実務対応報告（現行） (asbj_practical_solution)
+year: 2026
+item: s0064 / title: こちら
+section: 64 / こちら
+source_type: pdf
+source_url: https://www.asb-j.jp/jp/wp-content/uploads/sites/4/20180426.pdf
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/asbj_practical_solution/s0064.html
+
+[p1] [page 1]
+[p2] - 1 - 実務対応報告第 38 号「資金決済法における仮想通貨の会計処理等に関する当面の取扱い」
+[p3] 実務対応報告第 38 号「資金決済法における仮想通貨の会計処理等に関する当面の取扱い」（平成 30 年 3 月 14 日公表）を次のように訂正する（訂正部分に 下線を付している。）。
+[p4] 該当項 訂正後 訂正前 備考 第 63 項 貸借対照表 貸借対諸表 第 63 項の第 1 段落及び第 2 段落 の合計 2 箇所について、 左記のと おり字句等の訂正を行う。
+[p5] 以 上 平 成3 0年4月2 6日

@@ -1,0 +1,16 @@
+doc: 金融庁 企業会計審議会（議事録・会議資料） (fsa_kigyou_gijiroku)
+year: 2026
+item: s0208 / title: 企業会計審議会 第６回監査部会 議事次第
+section: 208 / 企業会計審議会 第６回監査部会 議事次第
+source_type: html
+source_url: https://www.fsa.go.jp/singi/singi_kigyou/siryou/kansa/20050516.html
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/fsa_kigyou_gijiroku/s0208.html
+
+[p1] Note: This page is machine translated. Translated pages are not necessarily correct.
+[p2] Tweet 平成17年５月16日 企業会計審議会 第６回監査部会 議事次第 （５月16日（月）10時～12時 共用特別会議室）
+[p3] １． 開会 ２． 品質管理に関する監査基準の改訂案の説明 ３． 質疑及び意見交換 ４． 閉会 （以上）
+[p4] 第６回監査部会（17年5月16日）配布資料 資料１ 監査基準の体系（案）（PDF：27KB）
+[p5] 資料２ 改訂監査基準（PDF：334KB）
+[p6] 資料３ 監査に関する品質管理の実施（素案）（PDF：143KB）
+[p7] （参考）
+[p8] 品質管理等に関する監査基準の論点（第３回 資料１）（PDF：104KB）

@@ -1,0 +1,13 @@
+doc: JICPA 実務指針等公表物（研究資料） (jicpa_research_data)
+year: 2026
+item: s0060 / title: 前書文
+section: 60 / 前書文
+source_type: pdf
+source_url: https://jicpa.or.jp/specialized_field/files/2-3-10-1-20230728.pdf
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/jicpa_research_data/s0060.html
+
+[p1] [page 1]
+[p2] 経営研究調査会研究資料第 10 号 「上場会社等における会計不正の動向（2023 年版）」の公表について 常務理事 洪 誠悟 日本公認会計士協会（経営研究調査会）は、2023 年７月 28 日付けで経営研究調査会 研究資料第 10 号「上場会社等における会計不正の動向（2023 年版）」を公表しました。
+[p3] 本研究資料は、近年の会計不正の動向を適時にお知らせするため、上場会社及びその 関係会社が公表した会計不正を集計し、取りまとめたものです。
+[p4] 2018 年６月 26 日付けの同５号「上場会社等における会計不正の動向」から公表をは じめ、今回は、2022 年６月 27 日付けで公表した同９号「上場会社等における会計不正 の動向（2022 年版）」に続く更新版となります。
+[p5] 以 上

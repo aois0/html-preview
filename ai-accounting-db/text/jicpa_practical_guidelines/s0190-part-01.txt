@@ -1,0 +1,62 @@
+doc: JICPA 実務指針等公表物（実務指針） (jicpa_practical_guidelines)
+year: 2026
+item: s0190-part-01 / title: 国際監査・保証基準審議会（IAASB） (part 1/2)
+section: 190 / 国際監査・保証基準審議会（IAASB）
+source_type: html
+source_url: https://jicpa.or.jp/specialized_field/translation/iaasb.html
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/jicpa_practical_guidelines/s0190-part-01.html
+
+[p1] 専門情報 翻訳 国際監査・保証基準審議会（IAASB）
+[p2] 最終基準 公開草案等 その他 最終基準 原文公表日 原文タイトル 翻訳 2022.4.7 International Standard on Auditing 600 （Revised）, Special Considerations--Audits of Group Financial Statements (Including The Work of Component AUDITORS)
+[p3] 国際監査基準 600（改訂）「グループ財務諸表監査における特別な考慮事項（構成単位の監査人の作業を含む。）」（最終基準、結論の根拠及びファクトシート）
+[p4] 2020.12.17 International Standard on Quality Management 1 Quality Management for Firms that Perform Audits or Reviews of Financial Statements, or Other Assurance or Related Services Engagements INTRODUCTION TO ISQM 1
+[p5] 国際品質マネジメント基準第１号「財務諸表の監査若しくはレビュー又はその他の保証若しくは関連サービス業務を行う事務所の品質マネジメント」（最終基準及び結論の根拠）
+[p6] ISQM1の概要 2020.12.17 International Standard on Quality Management 2 Engagement Quality Reviews INTRODUCTION TO ISQM 2 国際品質マネジメント基準第２号「審査」（最終基準及び結論の根拠）
+[p7] ISQM2の概要 2020.12.17 International Standard on Auditing 220 (Revised) Quality Management for an Audit of Financial Statements INTRODUCTION TO ISA220(REVISED)
+[p8] 国際監査基準220（改訂）「監査業務における品質マネジメント」（最終基準及び結論の根拠）
+[p9] ISA220（改訂）の概要 公開草案等 原文公表日 (コメント期限)
+[p10] 原文タイトル 翻訳 2024.2.6 (2024.6.5)
+[p11] Exposure Drafts, Proposed International Standard on Auditing 240 (Revised) The Auditor's Responsibilities Relating to Fraud in an Audit of Financial Statements and Proposed Conforming and Consequential Amendments to Other ISAs）
+[p12] 公開草案「国際監査基準240（改訂）「財務諸表監査における不正」及び他の国際監査基準の適合修正案」
+[p13] 2023.8.2 (2023.12.1)
+[p14] Exposure Drafts, Proposed International Standard on Sustainability Assurance 5000, General Requirements for Sustainability Assurance Engagements
+[p15] and Proposed Conforming and Consequential Amendments to Other IAASB Standards）
+[p16] FREQUENTLY ASKED QUESTIONS, Proposed ISSA 5000: The Application of Materiality by the Entity and the Assurance Practitioner（2023.10.25公表）
+[p17] 公開草案「国際サステナビリティ保証基準5000「サステナビリティ保証業務の一般的要求事項」案及び他のIAASB 基準の適合修正案」
+[p18] よくある質問「ISSA 5000案：事業体と保証業務実施者における重要性の適用」
+[p19] 2023.4.26 (2023.8.24)
+[p20] Exposure Drafts, Proposed International Standard on Auditing 570 (Revised 202X) Going Concern and Proposed Conforming and Consequential Amendments to Other ISAs 公開草案「国際監査基準570（202X年改訂）「継続企業」及び他の国際監査基準の適合修正案」
+[p21] 2023.1.24 (2023.5.2)
+[p22] Exposure Drafts, Proposed Part 10, Audits of Group Financial Statements of the Proposed International Standard on Auditing for Audits of Financial Statements of Less Complex Entities (ISA for LCE) and Proposed Conforming Amendments
+[p23] 公開草案「複雑でない企業の国際監査基準（LCEのためのISA）案のうち「グループ財務諸表の監査」に関するパート10 及び適合修正案」
+[p24] 2023.1.11 (2023.4.11)
+[p25] Consultation Paper, Proposed Strategy and Work Plan for 2024‒2027 コンサルテーション・ペーパー「IAASBの2024年～2027年の戦略及び作業計画（案）」
+[p26] 2022.10.24 (2023.4.24)
+[p27] Exposure Draft1:Proposed International Standard on Auditing 500 (Revised), Audit Evidence, and Proposed Conforming and Consequential Amendments to Other ISAs）
+[p28] 公開草案「国際監査基準500（改訂）「監査証拠」及び他の国際監査基準の適合修正案」
+[p29] 2022.7.6 (2022.10.4)
+[p30] Exposure Draft ：Proposed Narrow Scope Amendments to: ISA 700 (Revised), Forming an Opinion and Reporting on Financial Statements; and ISA 260 (Revised), Communication with Those Charged with Governance, as a Result of the Revisions to the IESBA Code that Require a Firm to Publicly Disclose When a Firm Has Applied the Independence Requirements for Public Interest Entities (PIEs)
+[p31] 公開草案「IESBA倫理規程の改訂により会計事務所が社会的影響度の高い事業体（PIE）に対する独立性に関する要求事項を適用している場合の開示要求に伴う狭い範囲の改訂案-ISA700（改訂）「財務諸表に対する意見の形成と監査報告」及び ISA260（改訂）「ガバナンスに責任を有する者とのコミュニケーション」」
+[p32] 2021.7.23 (2022.1.31)
+[p33] Exposure Draft, Proposed International Standard On Auditing of Financial Statements of Less Complex Entities(ISA for LCE)
+[p34] 公開草案 国際監査基準「複雑でない企業の財務諸表監査に関する国際監査基準（LCEのためのISA）案」
+[p35] 2020.4.27 (2020.10.2)
+[p36] Proposed International Standard on Auditing 600 (Revised) Special Considerations--Audits of Group Financial Statements (Including the Work of Component Auditors) and Proposed Conforming and Consequential Amendments to Other ISAs
+[p37] 公開草案 国際監査基準 600（改訂）「グループ財務諸表監査における特別な考慮事項（構成単位の監査人の作業を含む。)」及び他の国際監査基準の適合修正案 その他 原文公表日 原文タイトル 翻訳 2025.7.21 How the IAASB's Revised Going Concern and Fraud Standards Reinforce Professional Skepticism
+[p38] 継続企業及び不正に関するIAASBの改訂基準が職業的専門家としての懐疑心をいかに強化するかを説明する規範性のない説明文書 2025.7.8 ISA 240 (Revised), The Auditor's Responsibilities Relating to Fraud in an Audit of Financial Statements Fact Sheet
+[p39] ISA 240（改訂）「財務諸表監査における不正に関する監査人の責任」ファクトシート 2025.6.11 Frequently Asked Questions (FAQs) on Sustainability Assurance Engagements サステナビリティ保証業務のよくある質問（FAQ）
+[p40] 2024.12.19 Building Trust in Sustainability Reporting and Preparing for Assurance: Governance and Controls for Sustainability Information サステナビリティ報告に対する信頼の構築と保証への準備：サステナビリティ情報のためのガバナンスと内部統制 2024.11.12
+[p41] KEYNOTE ADDRESS BY IAASB CHAIR：STRENGTHENING THE FOUNDATIONS OF SUSTAINABILITY REPORTING:ISSA 5000 AND ASSURANCE, CORE ELEMENTS OF BUILDING TRUST IAASB議長基調講演「サステナビリティ報告の基盤強化：ISSA 5000と保証、信頼構築の中核要素」
+[p42] 2024.10.3 THE IAASB'S TECHNOLOGY POSITION IAASBのテクノロジー・ポジション 2023.8.2 NEWS ARTICLE：IAASB LAUNCHES PUBLIC CONSULTATION ON LANDMARK PROPOSED GLOBAL SUSTAINABILITY ASSURANCE STANDARD
+[p43] IAASB記事「IAASBが画期的なグローバルサステナビリティ保証基準案への意見募集を開始」
+[p44] 2023.6.28 NEWS ARTICLE：PROPOSED INTERNATIONAL STANDARD ON SUSTAINABILITY ASSURANCE 5000APPROVED FOR PUBLIC CONSULTATION BY UNANIMOUS VOTE IAASB記事「国際サステナビリティ保証基準（ISSA）5000案をIAASBが全会一致で市中協議にかけることを承認」
+[p45] 2023.4.24 NEWS ARTICLE：IAASB ADVANCES TIMELINE FOR CONSULTATION FOR PROPOSAL ON SUSTAINABILITY ASSURANCE IAASB記事「IAASBがサステナビリティ保証に関する公開草案のタイムラインを前 倒し」
+[p46] 2023.3.28 IESBA AND IAASB HIGHLIGHT COMMITMENT TO DELIVER ON RECOMMENDATIONS IN NEW IOSCO REPORT ON A GLOBAL ASSURANCE FRAMEWORK FOR SUSTAINABILITY-RELATED CORPORATE REPORTING
+[p47] IESBA・IAASB共同声明「IOSCOによるサステナビリティ関連企業報告のためのグローバル な保証フレームワークの開発に向けた新たな報告書における提言実現に向けた取組をコミット」
+[p48] 2022.12 IISA 220 (Revised): Quality Management and Group Audits: Highlighting Certain Aspects of Interaction Between ISA 220 (Revised) and ISA 600 Fact Sheet ISA 220（改訂）：品質マネジメント及びグループ監査ISA 220（改訂）とISA 600との相互関係ファクトシート
+[p49] 2022.9 IAASB September 2022 Meeting Highlights 2022年９月IAASBボード会議ハイライト 2022.9.15 IAASB, IESBA WELCOME IOSCO STATEMENT OF SUPPORT FOR DEVELOPING STANDARDS RELATING TO ASSURANCE OF SUSTAINABILITY-RELATED INFORMATION
+[p50] IAASB・IESBA共同声明「サステナビリティ関連情報の保証に関連した基準開発を支持するIOSCOの声明を歓迎」
+[p51] 2022.8.1 Frequently Asked Questions : Reporting Going Concern Matters in the Auditor's Report よくある質問：継続企業の前提に関する事項の監査報告書における報告 2022.7.27
+[p52] First-Time Implementation Guide : ISA 315 (Revised 2019) Identifying and Assessing the Risks of Material Misstatement 初度適用ガイド：ISA 315（2019年改訂）「重要な虚偽表示リスクの識別と評価」
+[p53] 2022.7.1 NEWS ARTICLE：ASSURANCE IN THE DIGITAL AGE IAASB記事「デジタル時代のアシュアランス」
+[p54] 2022.6 IAASB June 2022 Meeting Highlights 2022年６月IAASBボード会議ハイライト 2022.6.8

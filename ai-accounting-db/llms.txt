@@ -1,0 +1,26 @@
+# AI向け 会計基準DB
+# Base URL: https://jplawdb.github.io/html-preview/ai-accounting-db/
+
+入口（推奨）
+- `quickstart.txt`
+- `data/resolve_lite/index.json`
+- `data/shards_index.json`
+
+高速フロー（10kトークン制約向け）
+1) `data/resolve_lite/index.json` で doc_code を選ぶ
+2) `data/resolve_lite/{doc_code}.json` で part URL を選ぶ
+3) `data/resolve_lite_parts/{doc_code}/part-XXX.json` で item_id を選ぶ
+4) `text/{doc_code}/{item_id}.txt` を読む
+5) 根拠URLが必要なら `enhanced/{doc_code}/{item_id}.html#pX` を使う
+
+収録ドキュメント
+- `asbj_accounting_standards`: ASBJ 企業会計基準（現行） (253件)
+- `asbj_implementation_guidance`: ASBJ 適用指針（現行） (326件)
+- `asbj_practical_solution`: ASBJ 実務対応報告（現行） (151件)
+- `asbj_completed_drafts`: ASBJ 公開草案・過年度分（completed） (45件)
+- `fsa_kigyou_toushin`: 金融庁 企業会計審議会（答申・報告書等） (514件)
+- `fsa_kigyou_gijiroku`: 金融庁 企業会計審議会（議事録・会議資料） (1479件)
+- `jicpa_practical_guidelines`: JICPA 実務指針等公表物（実務指針） (198件)
+- `jicpa_notification`: JICPA 実務指針等公表物（お知らせ・公表物） (66件)
+- `jicpa_research_report`: JICPA 実務指針等公表物（研究報告） (570件)
+- `jicpa_research_data`: JICPA 実務指針等公表物（研究資料） (127件)

@@ -1,0 +1,14 @@
+doc: 金融庁 企業会計審議会（議事録・会議資料） (fsa_kigyou_gijiroku)
+year: 2026
+item: s0328 / title: 「企業会計審議会総会の開催について」
+section: 328 / 「企業会計審議会総会の開催について」
+source_type: html
+source_url: https://www.fsa.go.jp/singi/singi_kigyou/tosin/f-20010202-1a.html
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/fsa_kigyou_gijiroku/s0328.html
+
+[p1] Note: This page is machine translated. Translated pages are not necessarily correct.
+[p2] Tweet 平成13年２月２日 金融庁 企業会計審議会総会の開催について 企業会計審議会（会長 若杉 明 高千穂商科大学教授）は、本日総会を開催し、中央省庁等再編に伴う、部会の設置、部会長の指名等議事の運営に関する事務的な事項について整備を行いました。
+[p3] なお、審議会に設置される部会及び審議事項については、従前の体制を引き継ぎ、審議を継続することとされました。
+[p4] 問い合わせ先 金融庁 Tel：03-3506-6000（代表）
+[p5] 総務企画局企業開示参事官室 小宮（内線3651）、平松（内線3656）、多賀谷（内線3657）
+[p6] 企業会計審議会の審議状況 企業会計審議会名簿 企業会計審議会 企画調整部会 名簿 企業会計審議会 第一部会 名簿 企業会計審議会 第二部会 名簿 企業会計審議会 固定資産部会 名簿
