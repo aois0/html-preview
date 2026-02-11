@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>【別表八(一)】受取配当等の益金不算入に関する明細書 - 法人税別表DB</title>
+<style>
+body{font-family:'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif;line-height:1.7;color:#333;max-width:900px;margin:0 auto;padding:20px;background:#f8f9fa}
+h1{color:#1a365d;border-bottom:3px solid #2b6cb0;padding-bottom:8px;font-size:1.4em}
+h2{color:#2b6cb0;font-size:1.1em;margin:20px 0 8px;border-left:4px solid #2b6cb0;padding-left:10px}
+a{color:#2b6cb0}
+table{width:100%;border-collapse:collapse;font-size:0.88em;margin:8px 0}
+th,td{padding:5px 8px;border:1px solid #e2e8f0;text-align:left}
+th{background:#edf2f7}
+.meta{background:#ebf8ff;border:1px solid #bee3f8;border-radius:6px;padding:10px 14px;margin:10px 0;font-size:0.9em}
+.warn{background:#fffbeb;border-left:4px solid #d69e2e;padding:8px 14px;margin:10px 0;font-size:0.9em}
+footer{margin-top:24px;padding-top:10px;border-top:1px solid #e2e8f0;font-size:0.8em;color:#718096}
+</style>
+</head><body>
+
+<!--BEPPYO:B08-1|受取配当等の益金不算入に関する明細書|法23条|配当等を受取った法人|→B04(減算・社外流出)-->
+<h1>【別表八(一)】受取配当等の益金不算入に関する明細書</h1>
+
+<div class="meta">
+<strong>根拠</strong>: 法人税法23条（受取配当等の益金不算入） | <strong>適用</strong>: 他の法人から配当等を受取った場合<br>
+<strong>転記先</strong>: → <a href="B04.html">別表四</a>（減算・社外流出③）<br>
+<strong>性格</strong>: 法人間の配当の二重課税を排除するための益金不算入額の計算
+</div>
+
+<h2>持株比率4区分と益金不算入割合</h2>
+<table>
+<tr><th>区分</th><th>持株比率</th><th>益金不算入割合</th><th>負債利子控除</th></tr>
+<tr><td>完全子法人株式等</td><td>100%</td><td>100%</td><td>不要</td></tr>
+<tr><td>関連法人株式等</td><td>1/3超</td><td>100%（負債利子控除後）</td><td>必要</td></tr>
+<tr><td>その他の株式等</td><td>5%超〜1/3以下</td><td>50%</td><td>不要</td></tr>
+<tr><td>非支配目的株式等</td><td>5%以下</td><td>20%</td><td>不要</td></tr>
+</table>
+
+<h2>主要欄の詳細</h2>
+
+<h3>区分ごとの計算（上段）</h3>
+<table>
+<tr><th>欄</th><th>項目名</th><th>意味・計算</th></tr>
+<tr><td>1</td><td>完全子法人株式等に係る配当等の額</td><td>100%保有子会社からの配当。全額益金不算入</td></tr>
+<tr><td>2</td><td>関連法人株式等に係る配当等の額</td><td>1/3超保有の関連法人からの配当</td></tr>
+<tr><td>3</td><td>関連法人株式等の負債利子控除額</td><td>配当対応の借入利子を控除</td></tr>
+<tr><td>4</td><td>関連法人株式等の益金不算入額</td><td>2 － 3（負債利子控除後）</td></tr>
+<tr><td>5</td><td>その他株式等に係る配当等の額</td><td>5%超〜1/3以下の株式の配当</td></tr>
+<tr><td>6</td><td>その他株式等の益金不算入額</td><td>5 × 50%</td></tr>
+<tr><td>7</td><td>非支配目的株式等に係る配当等の額</td><td>5%以下の株式の配当</td></tr>
+<tr><td>8</td><td>非支配目的株式等の益金不算入額</td><td>7 × 20%</td></tr>
+</table>
+
+<h3>合計・転記欄</h3>
+<table>
+<tr><th>欄</th><th>項目名</th><th>計算・転記先</th></tr>
+<tr><td>13</td><td>益金不算入額の合計（短期保有以外）</td><td>1＋4＋6＋8</td></tr>
+<tr><td>26</td><td>益金不算入額合計（最終）</td><td>短期保有株式の調整後の最終金額</td></tr>
+<tr><td>―</td><td>→ B04転記</td><td>13欄or26欄 → B04の減算欄（社外流出③）</td></tr>
+</table>
+
+<h2>負債利子控除の計算（関連法人株式等のみ）</h2>
+<table>
+<tr><th>項目</th><th>内容</th></tr>
+<tr><td>対象</td><td>関連法人株式等（1/3超保有）の配当のみ</td></tr>
+<tr><td>計算式</td><td>支払利子総額 × 関連法人株式の帳簿価額 / 総資産の帳簿価額</td></tr>
+<tr><td>簡便法</td><td>基準年度の負債利子を使用（毎期計算不要）</td></tr>
+<tr><td>控除限度</td><td>配当等の額が上限（マイナスにはならない）</td></tr>
+</table>
+
+<div class="warn">
+<strong>持株比率の判定時期</strong>: 配当の効力発生日（配当基準日ではない）の持株比率で判定する。期中に株式を取得・譲渡した場合は注意。
+</div>
+
+<h2>よくある間違い</h2>
+<table>
+<tr><th>間違い</th><th>正しい処理</th></tr>
+<tr><td>持株比率の区分を誤る</td><td>効力発生日時点の持株比率で4区分を正確に判定</td></tr>
+<tr><td>完全子法人に負債利子控除を適用</td><td>負債利子控除は関連法人株式等(1/3超)のみ。完全子法人は不要</td></tr>
+<tr><td>B04で留保②に記載</td><td>受取配当の益金不算入は社外流出③。B05(一)には転記しない</td></tr>
+<tr><td>短期保有株式の除外を忘れる</td><td>配当基準日前1月以内取得の短期保有株式は益金不算入の対象外</td></tr>
+<tr><td>みなし配当を含め忘れる</td><td>自己株式取得等のみなし配当も対象</td></tr>
+</table>
+
+<h2>関連別表</h2>
+<p>
+<a href="B04.html">別表四</a>（減算・社外流出の転記先） |
+<a href="B01.html">別表一</a> |
+<a href="../rel/rel-to-B04.html">→B04転記一覧</a> |
+<a href="../lookup/article-map.html">条文→別表</a>
+</p>
+
+<footer>
+<a href="../index.html">← 別表DBトップ</a> |
+法人税別表データベース | 最終更新: 2026-02-11
+</footer>
+</body></html>

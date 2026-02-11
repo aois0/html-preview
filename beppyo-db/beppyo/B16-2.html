@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>【別表十六(二)】旧定額法又は定額法による減価償却資産の償却額の計算 - 法人税別表DB</title>
+<style>
+body{font-family:'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif;line-height:1.7;color:#333;max-width:900px;margin:0 auto;padding:20px;background:#f8f9fa}
+h1{color:#1a365d;border-bottom:3px solid #2b6cb0;padding-bottom:8px;font-size:1.4em}
+h2{color:#2b6cb0;font-size:1.1em;margin:20px 0 8px;border-left:4px solid #2b6cb0;padding-left:10px}
+a{color:#2b6cb0}
+table{width:100%;border-collapse:collapse;font-size:0.88em;margin:8px 0}
+th,td{padding:5px 8px;border:1px solid #e2e8f0;text-align:left}
+th{background:#edf2f7}
+.meta{background:#ebf8ff;border:1px solid #bee3f8;border-radius:6px;padding:10px 14px;margin:10px 0;font-size:0.9em}
+.warn{background:#fffbeb;border-left:4px solid #d69e2e;padding:8px 14px;margin:10px 0;font-size:0.9em}
+footer{margin-top:24px;padding-top:10px;border-top:1px solid #e2e8f0;font-size:0.8em;color:#718096}
+</style>
+</head><body>
+
+<!--BEPPYO:B16-2|旧定額法又は定額法による減価償却資産の償却額の計算|法31条|定額法で減価償却する法人|→B04(加算・留保/減算・留保)-->
+<h1>【別表十六(二)】定額法による減価償却資産の償却額の計算</h1>
+
+<div class="meta">
+<strong>根拠</strong>: 法人税法31条（減価償却資産の償却費の損金算入） | <strong>適用</strong>: 定額法で減価償却する場合<br>
+<strong>転記先</strong>: → <a href="B04.html">別表四</a>（償却超過額は加算・留保②、認容額は減算・留保②）<br>
+<strong>性格</strong>: 各資産の税務上の償却限度額を計算し、損金経理額との差額を判定
+</div>
+
+<h2>定額法の計算式</h2>
+<table>
+<tr><th>取得時期</th><th>計算式</th><th>備考</th></tr>
+<tr><td>H19.4.1以後取得</td><td>取得価額 × 定額法償却率</td><td>残存価額なし（1円まで償却）</td></tr>
+<tr><td>H19.3.31以前取得</td><td>（取得価額 − 残存価額）× 旧定額法償却率</td><td>残存価額＝取得価額×10%</td></tr>
+</table>
+
+<h2>各欄の詳細（資産ごとに1行）</h2>
+<table>
+<tr><th>欄</th><th>項目名</th><th>意味・内容</th></tr>
+<tr><td>1</td><td>資産の種類・構造・用途</td><td>建物、器具備品等の区分</td></tr>
+<tr><td>2</td><td>取得年月</td><td>資産の取得年月（償却率の決定に使用）</td></tr>
+<tr><td>3</td><td>耐用年数</td><td>法定耐用年数（耐用年数省令）</td></tr>
+<tr><td>4</td><td>償却率</td><td>法定耐用年数に対応する定額法の償却率</td></tr>
+<tr><td>5</td><td>取得価額</td><td>購入代価＋付随費用</td></tr>
+<tr><td>6</td><td>期首帳簿価額</td><td>取得価額 − 既償却額累計</td></tr>
+<tr><td>7</td><td>償却限度額</td><td>取得価額 × 償却率 ×（事業供用月数/12）</td></tr>
+<tr><td>8</td><td>損金経理額（会計上の償却費）</td><td>会社が費用計上した金額</td></tr>
+<tr><td>9</td><td>償却超過額</td><td>8 ＞ 7 の場合: 8 − 7 → B04加算（留保②）</td></tr>
+<tr><td>10</td><td>償却不足額</td><td>7 ＞ 8 の場合: 7 − 8（将来の認容に使えない）</td></tr>
+<tr><td>11</td><td>前期からの繰越超過額</td><td>過年度の償却超過額の累計</td></tr>
+<tr><td>12</td><td>当期認容額</td><td>11のうち当期に認容する金額 → B04減算（留保②）</td></tr>
+<tr><td>13</td><td>翌期繰越超過額</td><td>9 ＋ 11 − 12</td></tr>
+</table>
+
+<h2>事業供用月数の端数処理</h2>
+<div class="warn">
+<strong>月数按分</strong>: 期中取得の場合、事業供用月数/12で月割計算。1月未満の端数は1月に切上げ。<br>
+<strong>例</strong>: 10月15日取得、3月決算 → 供用月数は6月（10月〜3月。10月は1月に切上げ）
+</div>
+
+<h2>B04・B05(一)との転記関係</h2>
+<table>
+<tr><th>状況</th><th>B04</th><th>留保/社外</th><th>B05(一)</th></tr>
+<tr><td>償却超過（会計＞税務）</td><td>加算（欄5付近）</td><td>留保②</td><td>増③（減価償却超過額として）</td></tr>
+<tr><td>前期超過の当期認容</td><td>減算（欄14付近）</td><td>留保②</td><td>減②（超過額の取崩し）</td></tr>
+<tr><td>償却不足（会計＜税務）</td><td>調整なし</td><td>―</td><td>転記なし</td></tr>
+</table>
+
+<h2>よくある間違い</h2>
+<table>
+<tr><th>間違い</th><th>正しい処理</th></tr>
+<tr><td>償却不足を翌期に繰越す</td><td>定額法の償却不足は翌期に繰越せない（損金経理主義）</td></tr>
+<tr><td>中古資産に法定耐用年数を適用</td><td>中古資産は見積耐用年数or簡便法で短縮可能</td></tr>
+<tr><td>月数計算で端数切捨て</td><td>1月未満の端数は切上げ</td></tr>
+<tr><td>旧定額法と新定額法を混同</td><td>H19.4.1前後で計算式が異なる。残存価額の有無</td></tr>
+<tr><td>特別償却との関係を忘れる</td><td>特別償却は別表十六(一)で別途計算。普通償却との合計が限度額</td></tr>
+</table>
+
+<h2>関連別表</h2>
+<p>
+<a href="B04.html">別表四</a>（加算/減算・留保の転記先） |
+<a href="B05-1.html">別表五(一)</a>（償却超過額の利益積立金） |
+<a href="B16-7.html">別表十六(七)</a>（少額減価償却） |
+<a href="../rel/rel-to-B04.html">→B04転記一覧</a>
+</p>
+
+<footer>
+<a href="../index.html">← 別表DBトップ</a> |
+法人税別表データベース | 最終更新: 2026-02-11
+</footer>
+</body></html>
