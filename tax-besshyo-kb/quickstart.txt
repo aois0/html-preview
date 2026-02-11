@@ -1,0 +1,17 @@
+Tax Besshyo KB - Quickstart
+
+1) まず索引を見る
+- kb/index/field_index.jsonl
+
+2) ローカル検索（推奨）
+- python3 tools/query_kb.py "未納法人税 別表五(一) 27" --topk 5
+- python3 tools/query_kb.py "源泉 10,000 還付 修正申告 別表" --topk 5
+
+3) カードだけ読む
+- kb/cards/*.html
+  各カードは TL;DR（先頭）に結論と転記元がある。
+
+4) 典型導線
+- 別表一（確定税額/控除/還付）
+  -> 別表五（二）（未納税額の発生②と納付③④⑤、期末未納⑥）
+  -> 別表五（一）（納税充当金26、未納法人税等27）
