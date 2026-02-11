@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tax Besshyo KB</title>
+  <style>
+    :root{--bg:#fbfaf7;--panel:#fff;--text:#1a1a1a;--muted:#666;--accent:#b04a2f;--border:#e7e0d8;}
+    body{margin:0;font-family:"Hiragino Kaku Gothic ProN","Yu Gothic","Meiryo",sans-serif;background:var(--bg);color:var(--text);line-height:1.7;}
+    header{padding:26px 18px;background:linear-gradient(135deg,#f6efe4,#fff);border-bottom:1px solid var(--border);}
+    header h1{margin:0 0 6px 0;font-size:22px;letter-spacing:.02em;}
+    header p{margin:0;color:var(--muted);}
+    main{max-width:980px;margin:0 auto;padding:22px 18px 56px;}
+    section{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:16px 18px;margin:14px 0;box-shadow:0 2px 6px rgba(0,0,0,.04);}
+    h2{margin:0 0 8px 0;font-size:16px;color:var(--accent);}
+    code,pre{background:#f5f2ed;border:1px solid #eee2d7;border-radius:8px;}
+    code{padding:0 6px;}
+    pre{padding:12px 14px;overflow:auto;font-size:13px;white-space:pre-wrap;}
+    ul{padding-left:20px;margin:8px 0;}
+    .note{color:var(--muted);font-size:13px;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tax Besshyo KB</h1>
+    <p>法人税の別表（欄定義 + 別表間リンク）を「1 URL 1万token」制約に合わせてカード化したローカルKB</p>
+  </header>
+  <main>
+    <section>
+      <h2>AI向け入口</h2>
+      <ul>
+        <li><a href="llms.txt">llms.txt</a></li>
+        <li><a href="quickstart.txt">quickstart.txt</a></li>
+      </ul>
+      <p class="note">AIはまず索引（JSONL）→カード（HTML）だけ読む。</p>
+    </section>
+
+    <section>
+      <h2>カード</h2>
+      <ul>
+        <li><a href="kb/cards/map_core_flow.html">マップ: 別表一→五（二）→五（一）</a></li>
+        <li><a href="kb/cards/besshyo5-2_overview.html">別表五（二）: 行と列の意味（①②③④⑤→⑥）</a></li>
+        <li><a href="kb/cards/besshyo5-1_27.html">別表五（一）27: 未納法人税及び未納地方法人税</a></li>
+        <li><a href="kb/cards/scenario_withholding_refund_amend.html">シナリオ: 源泉還付→修正申告で黒字</a></li>
+      </ul>
+      <p class="note">追加カードは kb/index/field_index.jsonl に随時増やす。</p>
+    </section>
+
+    <section>
+      <h2>ローカル検索</h2>
+      <pre><code>python3 tools/query_kb.py "未納法人税 別表五(一)" --topk 5
+python3 tools/query_kb.py "源泉 還付 修正申告" --topk 5</code></pre>
+    </section>
+  </main>
+</body>
+</html>
