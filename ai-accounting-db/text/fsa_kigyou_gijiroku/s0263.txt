@@ -1,0 +1,14 @@
+doc: 金融庁 企業会計審議会（議事録・会議資料） (fsa_kigyou_gijiroku)
+year: 2026
+item: s0263 / title: Machine translation English
+section: 263 / Machine translation English
+source_type: html
+source_url: https://www.fsa.go.jp/singi/singi_kigyou/siryou/naibu/20050421.html
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/fsa_kigyou_gijiroku/s0263.html
+
+[p1] Note: This page is machine translated. Translated pages are not necessarily correct.
+[p2] Tweet 平成17年４月21日 企業会計審議会 第５回内部統制部会 議事次第 （４月21日（木）16時～18時 金融庁特別会議室）
+[p3] 開会 内部統制の基本的枠組み 意見交換 閉会 （以上）
+[p4] 第５回内部統制部会（17年4月21日）配布資料 内部統制の基本的枠組み並びにその有効性の評価及び検証（監査）に係る基準の構成（PDF：15KB）
+[p5] 内部統制の基本的枠組み（素案）（PDF：215KB）
+[p6] 参考図表（PDF：245KB）

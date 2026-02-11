@@ -1,0 +1,11 @@
+doc: ASBJ 適用指針（現行） (asbj_implementation_guidance)
+year: 2026
+item: s0054 / title: 金融商品取引法上の「電子記録移転権利」又は資金決済法上の「暗号資産」に該当するICOトークンの発行・保有等に係る会計上の取扱い
+section: 54 / 金融商品取引法上の「電子記録移転権利」又は資金決済法上の「暗号資産」に該当するICOトークンの発行・保有等に係る会計上の取扱い
+source_type: html
+source_url: https://www.asb-j.jp/jp/project/project_list/pj-20191202.html
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/asbj_implementation_guidance/s0054.html
+
+[p1] 企業会計基準等 実務対応報告第43号「電子記録移転有価証券表示権利等の発行及び保有の会計処理及び開示に関する取扱い」の公表（2022年8月26日）
+[p2] 公開草案 実務対応報告公開草案第63号 「電子記録移転有価証券表示権利等の発行及び保有の会計処理及び開示に関する取扱い（案）」の公表（2022年3月15日）
+[p3] 論点整理 「資金決済法上の暗号資産又は金融商品取引法上の電子記録移転権利に該当するICOトークンの発行及び保有に係る会計処理に関する論点の整理」の公表（2022年3月15日）

@@ -1,0 +1,15 @@
+doc: 金融庁 企業会計審議会（議事録・会議資料） (fsa_kigyou_gijiroku)
+year: 2026
+item: s0216 / title: Machine translation English
+section: 216 / Machine translation English
+source_type: html
+source_url: https://www.fsa.go.jp/singi/singi_kigyou/siryou/kansa/20060707.html
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/fsa_kigyou_gijiroku/s0216.html
+
+[p1] Note: This page is machine translated. Translated pages are not necessarily correct.
+[p2] Tweet 平成18年７月７日 企業会計審議会 第14回監査部会 議事次第 （７月７日（金）10時～12時 金融庁特別会議室）
+[p3] 開会 四半期報告制度の概要について 四半期会計基準の検討状況について 質疑応答 四半期レビューの考え方(案)について 意見交換 閉会 第14回監査部会配付資料(18年7月7日)配付資料 資料 監査部会名簿（PDF：76KB）
+[p4] 資料１ 四半期報告制度の概要（PDF：80KB）
+[p5] 資料２-１ 四半期会計基準の検討状況（PDF：159KB）
+[p6] 資料２-２ 四半期財務諸表に関する会計基準（案）（PDF：352KB）
+[p7] 資料３ 四半期レビューの考え方（案）（PDF：157KB）

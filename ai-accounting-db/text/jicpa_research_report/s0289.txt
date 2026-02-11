@@ -1,0 +1,13 @@
+doc: JICPA 実務指針等公表物（研究報告） (jicpa_research_report)
+year: 2026
+item: s0289 / title: 前書文
+section: 289 / 前書文
+source_type: pdf
+source_url: https://jicpa.or.jp/specialized_field/files/2-13-21-1-20200715.pdf
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/jicpa_research_report/s0289.html
+
+[p1] [page 1]
+[p2] 非営利法人委員会研究報告第 21 号「公益法人の継続事業の前提について」の改 正について 常務理事 秋山 修一郎 日本公認会計士協会（非営利法人委員会）は、2020年７月15日に開催された常務理事会の 承認を受けて、非営利法人委員会研究報告第21号「公益法人の継続事業の前提について」
+[p3] を改正いたしましたので、お知らせします。
+[p4] 本改正は、2020年５月15日の「公益法人会計基準」改正において、 「継続事業の前提」の 呼称が 「継続組織の前提」 に変更されたことを受け、 「非営利法人委員会研究報告第21号 「公 益法人の継続事業の前提について」」を適合修正するものです。
+[p5] 以 上

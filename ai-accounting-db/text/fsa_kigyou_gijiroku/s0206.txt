@@ -1,0 +1,19 @@
+doc: 金融庁 企業会計審議会（議事録・会議資料） (fsa_kigyou_gijiroku)
+year: 2026
+item: s0206 / title: 企業会計審議会 第４回監査部会 議事次第
+section: 206 / 企業会計審議会 第４回監査部会 議事次第
+source_type: html
+source_url: https://www.fsa.go.jp/singi/singi_kigyou/siryou/kansa/20050414.html
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/fsa_kigyou_gijiroku/s0206.html
+
+[p1] Note: This page is machine translated. Translated pages are not necessarily correct.
+[p2] Tweet 平成17年４月14日 企業会計審議会 第４回監査部会 議事次第 （４月14日（木）16時～18時 金融庁特別会議室）
+[p3] １． 開会 ２． 国際監査基準の改訂状況及び日本公認会計士協会の取組み予定、並びに改訂実務指針におけるリスク・アプローチの考え方 ３． 我が国監査基準における対応 ４． 質疑及び意見交換 ５． 閉会 （以上）
+[p4] 第４回監査部会（17年4月14日）配布資料 資料１－１ ＩＡＡＳＢにおけるＩＳＡの一連の改訂の背景（PDF：46KB）
+[p5] 資料１－２ 監査基準委員会報告書の改正スケジュール（平成17年４月案）（PDF：163KB）
+[p6] 資料１－３ 監査基準委員会の活動の概要（平成16年４月以降）（PDF：70KB）
+[p7] 資料１－４ 改正実務指針におけるリスク・アプローチの考え方（PDF：60KB）
+[p8] 資料１－５ 監査基準委員会報告書（実務指針）の主な改正点（PDF：183KB）
+[p9] 資料１－６ 改正実務指針５本の関係（PDF：53KB）
+[p10] 参考資料 監査基準報告書第27号から第31号及び第５号の一部改正について（PDF：47KB）
+[p11] 資料２ 国際監査基準の改訂の状況（PDF：82KB）

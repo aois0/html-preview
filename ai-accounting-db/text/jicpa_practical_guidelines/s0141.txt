@@ -1,0 +1,10 @@
+doc: JICPA 実務指針等公表物（実務指針） (jicpa_practical_guidelines)
+year: 2026
+item: s0141 / title: 前書文
+section: 141 / 前書文
+source_type: pdf
+source_url: https://jicpa.or.jp/specialized_field/files/2-9-45-1-20100518.pdf
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/jicpa_practical_guidelines/s0141.html
+
+[p1] [page 1]
+[p2] ç ç ͷç දʹ͍ͭͯç ç ç ç ձͷঝೝΛड͚ ࢦ ද͍ͨ͠·ͨ͠ͷͰɺ͓஌Β͍ͤͨ͠·͢ɻç ߸ ؔ ʯ ਑ʹ͍ͭͯऔΓ·ͱΊͨ΋ ͷͰ͢ɻç ͔Β ʢúʣ ͔Βద༻͞Ε·͢ɻç Ҏ çç্ ç

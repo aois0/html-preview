@@ -1,0 +1,15 @@
+doc: 金融庁 企業会計審議会（議事録・会議資料） (fsa_kigyou_gijiroku)
+year: 2026
+item: s0269 / title: Machine translation English
+section: 269 / Machine translation English
+source_type: html
+source_url: https://www.fsa.go.jp/singi/singi_kigyou/siryou/naibu/20050706.html
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/fsa_kigyou_gijiroku/s0269.html
+
+[p1] Note: This page is machine translated. Translated pages are not necessarily correct.
+[p2] Tweet 平成17年７月６日 企業会計審議会 第11回内部統制部会 議事次第 （７月６日（水）15時～17時 金融庁特別会議室）
+[p3] １． 開会 ２． 「財務報告に係る内部統制の評価及び監査」（公開草案）について ３． 意見交換 ４． 閉会 （以上）
+[p4] 第11回内部統制部会（17年7月6日）配布資料 資料１ 財務報告に係る内部統制の評価及び監査の基準（公開草案）（案）（PDF：1,445KB）
+[p5] 資料２ 内部統制の構築・評価・監査（PDF：33KB）
+[p6] 資料３ 各国の内部統制の評価基準及び検証基準（各国比較）（PDF：76KB）
+[p7] 資料４ 会社法（商法）との関係について（PDF：44KB）

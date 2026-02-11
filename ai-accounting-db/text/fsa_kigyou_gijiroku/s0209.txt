@@ -1,0 +1,15 @@
+doc: 金融庁 企業会計審議会（議事録・会議資料） (fsa_kigyou_gijiroku)
+year: 2026
+item: s0209 / title: Machine translation English
+section: 209 / Machine translation English
+source_type: html
+source_url: https://www.fsa.go.jp/singi/singi_kigyou/siryou/kansa/20050530.html
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/fsa_kigyou_gijiroku/s0209.html
+
+[p1] Note: This page is machine translated. Translated pages are not necessarily correct.
+[p2] Tweet 平成17年５月30日 企業会計審議会 第７回監査部会 議事次第 （５月30日（月）16時～18時 金融庁特別会議室）
+[p3] １． 開会 ２． ビジネス・リスクを重視した監査に関する監査基準改訂の論点 ３． 質疑及び意見交換 ４． 閉会 （以上）
+[p4] 第７回監査部会（17年5月30日）配布資料 資料１ ビジネス・リスクを重視した監査に関する論点（PDF：119KB）
+[p5] 資料２ 監査基準改訂が必要と思われる項目と論点（PDF：153KB）
+[p6] 資料３ ビジネス・リスクを重視した監査（PDF：19KB）
+[p7] 資料４ 伝統的な監査リスク・アプローチ（現行の監査基準）（PDF：246KB）

@@ -1,0 +1,12 @@
+doc: JICPA 実務指針等公表物（実務指針） (jicpa_practical_guidelines)
+year: 2026
+item: s0124 / title: 前書文
+section: 124 / 前書文
+source_type: pdf
+source_url: https://jicpa.or.jp/specialized_field/files/2-8-77-1-20180219_2.pdf
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/jicpa_practical_guidelines/s0124.html
+
+[p1] [page 1]
+[p2] 監査・保証実務委員会実務指針第77号「追加情報の注記について」の改正について 常務理事 手塚 正彦 日本公認会計士協会（監査・保証実務委員会）では、平成30年２月15日に開催されました常務理事会の承 認を受けて、監査・保証実務委員会実務指針第77号「追加情報の注記について」の改正を平成30年２月16日 付けで公表しましたのでお知らせします。
+[p3] 本改正は、企業会計基準委員会から平成30年２月16日に公表された企業会計基準適用指針第29号「中間財 務諸表等における税効果会計に関する適用指針」に対応するため、関連する規定の整理、字句の見直し等を 行ったものです。
+[p4] 以 上

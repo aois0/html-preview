@@ -1,0 +1,9 @@
+doc: JICPA 実務指針等公表物（研究報告） (jicpa_research_report)
+year: 2026
+item: s0240 / title: 前書文＋新旧対照表
+section: 240 / 前書文＋新旧対照表
+source_type: pdf
+source_url: https://jicpa.or.jp/specialized_field/files/01662-005526.pdf
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/jicpa_research_report/s0240.html
+
+[p1] ※ テキスト抽出結果が空でした。原本を参照してください: https://jicpa.or.jp/specialized_field/files/01662-005526.pdf

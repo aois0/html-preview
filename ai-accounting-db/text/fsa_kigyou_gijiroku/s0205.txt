@@ -1,0 +1,15 @@
+doc: 金融庁 企業会計審議会（議事録・会議資料） (fsa_kigyou_gijiroku)
+year: 2026
+item: s0205 / title: 企業会計審議会 第３回監査部会 議事次第
+section: 205 / 企業会計審議会 第３回監査部会 議事次第
+source_type: html
+source_url: https://www.fsa.go.jp/singi/singi_kigyou/siryou/kansa/20050330.html
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/fsa_kigyou_gijiroku/s0205.html
+
+[p1] Note: This page is machine translated. Translated pages are not necessarily correct.
+[p2] Tweet 平成17年３月30日 企業会計審議会 第３回監査部会 議事次第 （３月30日（水）16時～18時 共用第１特別会議室）
+[p3] １． 開会 ２． 品質管理等に関する監査基準をめぐる論点 ３． 品質管理に関する国際監査基準の規定 ４． 共同監査等に関する考え方についての意見 ５． 質疑及び意見交換 ６． 閉会 （以上）
+[p4] 第３回監査部会（17年3月30日）配布資料 資料１ 品質管理等に関する監査基準の論点（PDF：108KB）
+[p5] 資料２－１ ＩＳＱＣ１と日本基準（PDF：187KB）
+[p6] 資料２－２ ＩＳＡ２２０と日本基準（PDF：91KB）
+[p7] 資料３ 有価証券報告書提出会社関係資料（PDF：52KB）

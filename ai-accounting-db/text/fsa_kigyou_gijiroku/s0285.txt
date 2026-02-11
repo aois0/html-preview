@@ -1,0 +1,18 @@
+doc: 金融庁 企業会計審議会（議事録・会議資料） (fsa_kigyou_gijiroku)
+year: 2026
+item: s0285 / title: 企業会計審議会 総会 議事次第
+section: 285 / 企業会計審議会 総会 議事次第
+source_type: html
+source_url: https://www.fsa.go.jp/singi/singi_kigyou/siryou/soukai/20070215.html
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/fsa_kigyou_gijiroku/s0285.html
+
+[p1] Note: This page is machine translated. Translated pages are not necessarily correct.
+[p2] Tweet 企業会計審議会 総会 議事次第 日時：平成19年２月15日（木）10時00分～11時15分 場所：中央合同庁舎４号館11階 共用第一特別会議室 １． 開会の辞 ２． 「財務報告に係る内部統制の評価及び監査の基準並びに財務報告に係る内部統制の評価及び監査に関する実施基準の設定について（意見書）」について ３． 大臣挨拶 ４． 審議会の今後の運営について ５． 閉会の辞 （以上）
+[p3] 企業会計審議会 総会（19年2月15日）配布資料 （資料１）
+[p4] 財務報告に係る内部統制の評価及び監査の基準並びに財務報告に係る内部統制の評価及び監査に関する実施基準の設定について（意見書）（案）（PDF：929KB）
+[p5] （資料１－１）
+[p6] 企業会計審議会内部統制部会における審議の経過（PDF：69KB）
+[p7] （資料１－２）
+[p8] 財務報告に係る内部統制の整備（PDF：175KB）
+[p9] （資料２）
+[p10] 企業会計審議会の今後の運営について（案）（PDF：53KB）

@@ -15,6 +15,7 @@
 - AI向け NTA QA DB（質疑応答事例・文書回答事例・タックスアンサー）: `/html-preview/ai-nta-qa-db/`
 - AI向け 法人税別表DB（確定申告書別表の構造・各欄・転記関係）: `/html-preview/beppyo-db/`
 - AI向け NTA Guide DB（法人税の手引・源泉徴収のあらまし）: `/html-preview/ai-nta-guide-db/`
+- AI向け 会計基準DB（ASBJ・企業会計審議会・JICPA）: `/html-preview/ai-accounting-db/`
 - Tax KB Prototype: `/html-preview/tax-kb/`
 
 ## 1) 条文（法令）を引きたい → ai-law-db
@@ -136,6 +137,31 @@ NOTE
 4) `ai-nta-guide-db/text/{doc_code}/{item_id}.txt`（本文）
 5) 根拠URL: `ai-nta-guide-db/enhanced/{doc_code}/{item_id}.html#pX`
 
+## 10) 会計基準関連（ASBJ・金融庁企業会計審議会・JICPA）を引きたい → ai-accounting-db
+
+入口（最短）
+- `/html-preview/ai-accounting-db/quickstart.txt`
+- `/html-preview/ai-accounting-db/llms.txt`
+
+収録（明示）
+- `asbj_accounting_standards` = ASBJ 企業会計基準（現行）
+- `asbj_implementation_guidance` = ASBJ 適用指針（現行）
+- `asbj_practical_solution` = ASBJ 実務対応報告（現行）
+- `asbj_completed_drafts` = ASBJ 公開草案・過年度分（completed）
+- `fsa_kigyou_toushin` = 金融庁 企業会計審議会（答申・報告書等）
+- `fsa_kigyou_gijiroku` = 金融庁 企業会計審議会（議事録・会議資料）
+- `jicpa_practical_guidelines` = JICPA 実務指針等公表物（実務指針）
+- `jicpa_notification` = JICPA 実務指針等公表物（お知らせ・公表物）
+- `jicpa_research_report` = JICPA 実務指針等公表物（研究報告）
+- `jicpa_research_data` = JICPA 実務指針等公表物（研究資料）
+
+典型フロー（10kトークン制約向け）
+1) `ai-accounting-db/data/resolve_lite/index.json`
+2) `ai-accounting-db/data/resolve_lite/{doc_code}.json`（part一覧）
+3) `ai-accounting-db/data/resolve_lite_parts/{doc_code}/part-XXX.json`（item一覧）
+4) `ai-accounting-db/text/{doc_code}/{item_id}.txt`（本文）
+5) 根拠URL: `ai-accounting-db/enhanced/{doc_code}/{item_id}.html#pX`
+
 ## 最後に
 
 迷ったら:
@@ -147,3 +173,4 @@ NOTE
 - 別表 = `beppyo-db/llms.txt`
 - 国税庁Q&A = `ai-nta-qa-db/quickstart.txt`
 - 国税庁手引き = `ai-nta-guide-db/quickstart.txt`
+- 会計基準 = `ai-accounting-db/quickstart.txt`

@@ -1,0 +1,50 @@
+doc: JICPA 実務指針等公表物（研究資料） (jicpa_research_data)
+year: 2026
+item: s0035-part-09 / title: 本文 (part 9/9)
+section: 35 / 本文
+source_type: pdf
+source_url: https://jicpa.or.jp/specialized_field/files/00724-002255.pdf
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/jicpa_research_data/s0035-part-09.html
+
+[p1] ïvªv£·×«à¾ÓCÆµÄA@à±¹ÉÎ·éà¾ÓCAA@ÌKèyÑs­ ûjÉÂ¢ÄÌRvCAXÉÎ·éà¾ÓCAB^cãÌø¦«ÆoÏ«ÉÎ·é
+[p2] à¾ÓCAC­{{ôEÆÌÊÉÎ·éà¾ÓCª éB±Ìæ¤Èà¾ÓCàAñ à±îñSÌ¬ÊÉÖ·éîñÆAà±îñÉæéRXgîñÌg¹ÉæÁÄB¬³ êAæèLÓ`ÈîñÆÈéàÌÆ¢¦éB pêÌà¾
+[p3] AJGASB http://accounting.rutgers.edu/raw/gasb/ i1jgDÆ¶ÍÍ GASBiGovernmental Accounting Standards BoardjÍAAJÌB­{E nû­{ÈÇªKp·éïvîÌÝè@ÖÆµÄAà±ïvàciFAFjÉ
+[p4] æèA1984 NÉÝ§³ê½¡GASB ÅÍAB­{yÑnû­{iSAsA¬A ºjÉÁ¦AB§åwÈÇÌö§åwÆ¢Á½öIåÌñcgDðÎÛÆ µÄ¢éBÈ¨AcéÆÈÇÌïvîðÝè·éFASBiFinancial
+[p5] Accounting Standards BoardjÍ¯¶à±ïvàciFAFjÌàÆÉÝu³ê Ä¢éB i2j{¤¿ÅÌ¢ÎÛ @GASB TOÓ©æ1  GASB TOÓ©æPÍAB­{ânû­{ÈÇÌà±ñÌÚIÉÂ¢Ä
+[p6] èß½TOt[[NÆµÄ1987 NÉö\³ê½BTOt[[N» ê©ÌÍïvîÅÍÈ­AGASB ªèßéïvîÌîbÆÈéàÌÅ éB GASB TOÓ©æ1 ÅÍAà¾ÓCðà±ñÌdv_ÆµÄÊut¯A
+[p7] B­{ânû­{ÍAZ¯Ì¢mé £ÉÎµÄà¾ÓCðÊ½³ËÎÈçÈ ¢ÆµÄ¢é¡È¨Aà±ñpÒÉñ·éîñÉÍAà±\ÌÙ©Éñ à±\îñàÜÜêéÆµÄ¢é¡ AGASB XeCggæ34 
+[p8] GASB XeCggæ34 wBEnû­{Ìî{à±\yÑÇÒÉæé
+[p9] [page 30]
+[p10] ¢cÆªÍxÍA­{ÌoÏ¹ð­¶å`ÉîÃ«ªè\¦·é­{SÌà ±\iGovernment-Wide Financial Statements jðKèµ½àÌÅA1999 N6 Éö\³ê½¡ªèÌÅ_ªAoÏ¹ÆÈèA­¶å`ÌïvîªÌ
+[p11] p³êé½ßAYà±\ÅÍ·×ÄÌYAÂAûvAïpªªèEñ ³êé±ÆÅACtXgN`[ÌvãÆ¸¿pÈÇªßçêé ±ÆÉÈÁ½B­{SÌà±\ÍAÂXÌt@hÅÍÈ­­{SÌÌ®
+[p12] ÊÆà­óÔÉÖ·éîñÆµÄAYñÆ®vZÉæè\¬³ êé¡È¨ABEnû­{ÌNÔûüÉæÁÄA2001 N6 È~ÉnÜéï vNx©ç3 NÔÉí½ÁÄKp³êé¡ AJFASAB http://www.fasab.gov/
+[p13] i1jgDÆ¶ÍÍ FASABiFederal Accounting Standards Advisory BoardjÍAAJAM­ {Ìïv´¥ÌRc©ðs¤ÚIÅAïv¸@·iComptroller General,
+[p14] The General Accounting Office icïÌgDjAGAOjAs­Ç\ZÇ· iDirector of the Office of Management and BudgetiåÌ{ÌgDjAOMBjA
+[p15] à±·¯iSecretary of the Treasury(s­{ÌgD)jAÌÓÉæÁÄ1990 N ÉÝu³ê½BãLÌ3 ÒªÓµ½êAGAO @·ÆOMB ·¯ª¤¯Åï vîð­s·é±ÆÆÈé¡È¨A1999 NÉAICPA ÍAM­{ÉKp³êé
+[p16] GAAP ÌÝè@ÖÅ éÆFèµÄ¢éB i2j{¤¿ÅÌ¢ÎÛ FASAB TOXeCgg FASAB TOXeCggiStatement of Federal Financial Accounting
+[p17] Conceptsj ÍAAM­{Ìà±ñÌÚIÉÂ¢Äèß½TOt[[N ÆµÄ1993 NÉö\³ê½BTOt[[N»ê©ÌÍïvîÅÍÈ­A AM­{ÌïvîÌîbÆÈéàÌÅ éBà¾ÓCÌsALpÈîñÌ
+[p18] ñAà±îñÌàpÒª­{Ì}lWgðüP·éÌÉð§Äé½ ßÉA@\ZÌ®S«AAÆÑ]¿ABX` [hVbvACVXeÆR g[Æ¢¤4 ÂÌÚIª¾¦³êÄ¢éB
+[p19] CMX¹ïv iCMXà±ÈFhttp://www.hm-treasury.gov.uk/j i1jgDÆ¶ÍÍ CMXÌöïvÍ´¥ÆµÄ¢êÊÉFßçê½ïv´¥iGAAPj£É]¤
+[p20] ±Æ©çACMXÌïvîÝè@ÖÅ éïvîRØïiASBA1990 N
+[p21] [page 31]
+[p22] Ýujªì¬E­sµ½ïvîðKp·éB»µÄAöIåÉGAAP ðK p·éÌªKØÅÈ¢êÈÇÍA­{É¨¢ÄÍTreasury ªèßÄ¢é ¹ïv}j AiRAMjðKp·é¡ i2j{¤¿ÅÌ¢ÎÛ ¹ïv}j
+[p23] A ¹ïv}j AiResource Accounting ManualjÍA­¶å`ðKp·é ¹ïvÌàÆÅ­{ÉKp³êéïvTOÆïv´¥ðèß½àÌÅ éB±Ì}j AÅGAAP Æá¤_ÍAL`ÅèYECtYÌ]¿
+[p24] Æ¸¿pA­¶å`ÉæÁÄ©Ïàçê½\ZzÆÀÑzyÑ»àå`Éæ é\ZzÆÀÑzÉÖ·éîñÌJ¦ÈÇÅ é¡ IFAC¥PSC ihttp://www.ifac.org/j i1jgDÆ¶ÍÍ
+[p25] IFACiInternational Federation of AccountantsjÍA1977 NÉÝ§³êAö ¤ÌvÉ·é½ßÉïvmÌ¿ÌüãÆîðê»·éÚIð¿A» Ý113 ©A155 ÌïvmcÌÅ200 l]ªïõÆÈÁÄ¢éBIFAC ÅÍA
+[p26] ïÌºÉÝu³êéÏõïª èA»ÌÐÆÂÉPSCiPublic Sector CommitteejðÝuµÄ¢éB PSC ÅÍAEnûö¤cÌðnßÆµ½öIåÌïvEÄ¸Ìîðôè
+[p27] µA»ÌKpðeÉ¨¢Äi·é±ÆÈÇf°Ä¢éBÈ¨APSC ÍA¢ EâsAAWAJ­âsAÛÊÝîàÈÇÉæéàÌºAÛöïv îÈÇÌÝèìÆÉæègñÅ¢éB i2j{¤¿ÅÌ¢ÎÛ IPSAS
+[p28] IPSASiInternational Public Sector Accounting Standards jÍAÓvèA à±ÇAöIåÌà¾ÓCsÉæèLpÈà±ñÌ½ßÉ­¶å`ï vÉîÃ¢½îðAÛïvîiInternational Accounting Standards
+[p29] (IASs)F»ÝÌIFRS Ûà±ñîjðQlÉæ20 ÜÅÝèµÄ¢éB È¨ÊrA»àå`ÉÂ¢ÄÌIPSAS ªèßçêÄ¢éB èE¼Ì ärIAS P Presentation of Financial Statements IASP Q Cash Flow Statements IASV
+[p30] R Net Surplus or Deficit for the Period, Fundamental Errors and Changes in Accounting Policies IASW S The Effects of Changes in Foreign Exchange Rates IAS21
+[p31] [page 32]
+[p32] T Borrowing Costs IAS23 U Consolidated Financial Statements and Accounting for Controlled Entities IAS27 V Accounting for Investments in Associates IAS28 W Financial Reporting of Interests in Joint Ventures IAS31
+[p33] X Revenue from Exchange Transactions IAS18 10 Financial Reporting in Hype rinflationary Economies IAS29 11 Construction Contracts IAS11 12 Inventories IASQ 13 Leases IAS17 14 Events after the Reporting date IAS10
+[p34] 15 Financial Instruments : Disclosure and Presentation IAS32 16 Investment Property IAS40 17 Property , Plant and Equipment IAS16 18 Segment Reporting IAS14
+[p35] 19 Provisions, Contingent Liabilitie s and Contingent Assets IAS37 20 Related Party Disclosures IAS24 | Financial Reporting under the Cash Basis of Accounting | ú{öFïvm¦ï (1) öïv´¥Ä
+[p36] ¦ïÍAöïvÌ´¥ðÝè·é ÀðL·éàÌÅÍÈ¢ªAOÌóµð QlÉc_Ì½½«äÆµÄÄÌÊut¯Åì¬µ½B½¬9 N9 ÉöïvÏ
+[p37] õï¤ñÆµÄö\µA»Ìã½¬15 N3 ÉüùÅðö\µ½BüùÅÅ ÍA\Zñ´¥ÆµÄA­¶å`ÉîÃ¢½E·ú\ZA¡Nx\Zðñ¾ µÄ¢éB (2) öïvTOt[[N
+[p38] öïvTOt[[NOÅÍÚIÈÇÌTOãÌggÝðèµA»Ìã »ÌggÝÉîÃ«ïvîðÝè·éÆ¢¤Av[`ðÆÁÄ¢éBµ©µA
+[p39] äªÅÍAAnûö¤cÌAÆ§s­@lA§åw@lAöv@lÈÇ`Ô Êàµ­ÍÇ¯¡ÊÉïvîªèßçêÄ¢éB¦ïÍAöïvÌ´¥ðÝ
+[p40] è·é ÀðL·éàÌÅÍÈ¢Bµ©µAöIåÉWéïvÌl¦ûðïI É¢·é±ÆÍAöïvðc_·éÉKvÈyäÅ é±Æ©çA±êðæèÜ
+[p41] Æß½¬15 N4 Éö\µ½BàeÍAöïvîñÌÎÛÍÍAöïvåvà± \ÌªèÌÅ_AöïvîñÌpÒAöïvÌÚIAöïvÌîbIOñðA
+[p42] öïvÌåvà±\ÌÌnA\¬vfÌF¯EªèîA­{ÌöINàÂ±A [ÅÒªAÅÌÊut¯AàTOÌg£AöïvÉ¨¯é{ÛTOAzñ @ÈÇðÔ IÉ¦µÄ¢éB È ã

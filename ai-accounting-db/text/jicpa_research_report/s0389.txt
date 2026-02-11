@@ -1,0 +1,14 @@
+doc: JICPA 実務指針等公表物（研究報告） (jicpa_research_report)
+year: 2026
+item: s0389 / title: 前書文
+section: 389 / 前書文
+source_type: pdf
+source_url: https://jicpa.or.jp/specialized_field/files/2-3-58-1-20160621.pdf
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/jicpa_research_report/s0389.html
+
+[p1] [page 1]
+[p2] 経営研究調査会研究報告第 58 号 「CSR 報告書にみるサプライチェーンにおける CSR 課題への取組と開示」
+[p3] の公表について 常務理事 和貝 享介 常務理事 井上 浩一 日本公認会計士協会（経営研究調査会）は、平成 28 年６月 14 日付けで経営研究調査 会研究報告第 58 号「CSR 報告書にみるサプライチェーンにおける CSR 課題への取組と 開示」を公表しました。
+[p4] 本研究報告は、 サプライチェーンに関する国際的な制度やガイドラインなどの動向を 整理するとともに、業種ごとのサプライチェーンにおける CSR（企業の社会的責任）に 関連するリスクを特定し、CSR 報告書の開示を通じて日本企業の取組や開示の現状を調 査したものです。
+[p5] 本研究報告が、企業の取組及び情報開示を促進するとともに、会員が行うサステナビ リティ情報関連業務の参考となれば幸いです。
+[p6] 以 上

@@ -1,0 +1,13 @@
+doc: JICPA 実務指針等公表物（研究報告） (jicpa_research_report)
+year: 2026
+item: s0397 / title: 前書文
+section: 397 / 前書文
+source_type: pdf
+source_url: https://jicpa.or.jp/specialized_field/files/2-3-66-1-20190712.pdf
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/jicpa_research_report/s0397.html
+
+[p1] [page 1]
+[p2] 経営研究調査会研究報告第 66 号 「機械設備の評価実務」の公表について 常務理事 井上 浩一 常務理事 岸上 恵子 日本公認会計士協会（経営研究調査会）は、2019 年７月 12 日付けで経営研究調査会 研究報告第 66 号「機械設備の評価実務」を公表しました。
+[p3] 公認会計士は、例えば、機械設備の評価を依頼される場合、機械設備の評価について 助言を求められる場合、又は監査人の立場で機械設備の評価書を検討する場合等、様々 な場合に機械設備の評価に直面することが想定されます。
+[p4] 本研究報告は、このような様々な場合において、公認会計士が参考にすることができ るよう、機械設備の評価実務について取りまとめたものです。
+[p5] 以 上

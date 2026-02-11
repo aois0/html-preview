@@ -1,0 +1,12 @@
+doc: JICPA 実務指針等公表物（研究報告） (jicpa_research_report)
+year: 2026
+item: s0331 / title: 前書文
+section: 331 / 前書文
+source_type: pdf
+source_url: https://jicpa.or.jp/specialized_field/files/2-19-2-1-20180115.pdf
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/jicpa_research_report/s0331.html
+
+[p1] [page 1]
+[p2] 中小企業施策調査会研究報告第２号 「公認会計士による中小企業の事業承継支援－従業員承継の支援手法について」 の公表 常務理事 酒井 宏暢 日本公認会計士協会は、平成 30 年１月 15 日付けで「公認会計士による中小企業の事業 承継支援－従業員承継の支援手法について」を公表しましたので、お知らせします。
+[p3] 本研究報告は、昨今、中小企業の事業承継支援の重要性が叫ばれている中で、従業員承 継に焦点を絞り、従業員承継における一般的な検討・考慮すべき事項や想定されるトラブ ルを事前に列挙することで、公認会計士として相談企業の事業承継支援に資する情報を提 供しようとするものです。また、今後、研修会を実施する予定であることを申し添えます。
+[p4] 以 上

@@ -1,0 +1,12 @@
+doc: JICPA 実務指針等公表物（研究報告） (jicpa_research_report)
+year: 2026
+item: s0370 / title: 前書文
+section: 370 / 前書文
+source_type: pdf
+source_url: https://jicpa.or.jp/specialized_field/files/2-3-35-1-20090119.pdf
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/jicpa_research_report/s0370.html
+
+[p1] [page 1]
+[p2] 経営研究調査会研究報告第 35 号 「日本企業の労働関連 KPI」について 常務理事 小見山 満 常務理事 中西 清 経営研究調査会より答申のありました「経営研究調査会研究報告第 35 号「日本企業 の労働関連 KPI」」が、平成 21 年１月 14 日の常務理事会で承認されましたのでお知ら せいたします。
+[p3] 本答申は、平成 19 年９月５日付けの会長からの諮問「CSR に関する情報開示及び関 連するマネジメントについて調査研究されたい。」に対するものであります。
+[p4] 本研究報告は、労働関連課題への誠実な取組みに対して、正当な評価が行われるよう な市場環境が整備されるように、我が国の特徴的な労働問題への対応も含めた労働関連 の CSR 問題を整理し、その取組状況とこれに関連する KPI（Key Performance Indicators；主要業績評価指標）及び定性情報の開示について検討を行い、取りまとめ たものであります。

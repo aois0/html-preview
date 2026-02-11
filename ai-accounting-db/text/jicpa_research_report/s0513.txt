@@ -1,0 +1,43 @@
+doc: JICPA 実務指針等公表物（研究報告） (jicpa_research_report)
+year: 2026
+item: s0513 / title: その他
+section: 513 / その他
+source_type: html
+source_url: https://jicpa.or.jp/specialized_field/translation/other.html
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/jicpa_research_report/s0513.html
+
+[p1] 専門情報 翻訳 その他 公表者 原文公表日 原文タイトル 翻訳 国際会計士連盟（IFAC）
+[p2] 2024.9.24 Quality Management Series: Small Firm Implementation Installment Three 品質管理シリーズ小規模事務所への導入：第３回 国際会計士連盟（IFAC）
+[p3] 2024.6.26 Sustainability Assurance: What to Expect サステナビリティ保証：何が期待されるか 米国CAQ（Center for Audit Quality）
+[p4] 2024.4 Auditing in the Age of Generative AI 生成ＡＩの時代の監査 国際会計士連盟（IFAC）
+[p5] 2023.12.12 Building Trust in Sustainability Reporting: The Urgent Need for Integrated Internal Control サステナビリティ報告に対する信頼の構築：早急に求められる統合的内部統制 国際会計士連盟（IFAC）
+[p6] ニュージーランド勅許会計士協会（CA ANZ）
+[p7] 2023.11.6 Quality Management Toolkit for Small- and Medium-Sized Firms and Illustrative Risk Matrix 中小監査事務所向け品質管理ツールキットとリスクマトリックス例 国際会計士連盟（IFAC）
+[p8] 2023.7.5 Quality Management Series: Small Firm Implementation Installment Two 品質管理シリーズ小規模事務所への導入：第２回 国際会計士連盟（IFAC）
+[p9] 2022.10.31 Quality Management Series: Small Firm Implementation Installment One 品質管理シリーズ小規模事務所への導入：第１回 国際会計士連盟（IFAC）
+[p10] 2021.9.7 Corporate Reporting: Climate Change Information and the 2021 Reporting Cycle 企業報告：気候変動情報と2021年報告サイクル IFAC 中小事務所アドバイザリーグループ（SMP AG）
+[p11] 2020.12.18 Choosing the right service: Comparing Audit, Review, Compilation, and Agreed-Upon Procedure Services 正しいサービスの選択:監査、レビュー、調整及び合意された手続の比較 IFAC 中小事務所アドバイザリーグループ（SMP AG）
+[p12] 2020.5.1 Practice Transformation Action Plan 業務のトランスフォーメーション・アクションプラン 米国CAQ（Center for Audit Quality）
+[p13] 2016.2.2 Understanding Cybersecurity and the External Audit サイバーセキュリティと外部監査の理解 カナダ勅許職業会計士協会（CPA Canada）
+[p14] 2017.9 Audit Data Analytics Alert 監査データ分析に関するアラート 米国公認会計士協会（AICPA）
+[p15] Implications of the Use of Blockchain in SOC for Service Organization Examinations Blockchain Universal Glossary 受託会社に関するSOC業務におけるブロックチェーンの使用がもたらす影響 ブロックチェーン用語集 米国公認会計士協会（AICPA）
+[p16] DC Section 200 Description Criteria for a Description of a Service Organization's System in a SOC 2® Report DCセクション200 SOC2®報告書における受託会社のシステムに係る記述書に関する記述規準 米国公認会計士協会（AICPA）
+[p17] Trust Services Criteria for Security, Availability, Processing Integrity, Confidentiality, and Privacy セキュリティ、可用性、処理のインテグリティ、機密保持及びプライバシーに関するTrustサービス規準 米国公認会計士協会（AICPA）
+[p18] Audit Analytics and Continuous Audit: Looking Toward the Future 監査分析及び継続的監査：将来を見据えて 米国公認会計士協会（AICPA）
+[p19] 2013.1 Information integrity 情報インテグリティ 専門情報 専門情報一覧 実務指針等公表物一覧 監査実務指針等 実務指針 通達 研究報告 研究資料 周知文書（通知等）
+[p20] その他の公表物 公開草案・論点整理 各種様式ダウンロード 監査等書類関係 監査契約書 任意監査契約書の様式 共同監査協定書 監査契約（締結・変更・解除）報告書 監査概要書 旧様式ファイル・ダウンロード 監査実施報告書 保証業務等実施報告書 監査関係書類受理書 業務会費計算書 合意された手続業務関係 品質管理関係 会員登録関係 会計参与契約関係 2022年公認会計士法改正の概要 IFRS（国際財務報告基準）とは IFRSに関するお知らせ
+[p21] 2025年 2024年 2023年 2022年 2021年 2020年 2019年 2018年 2017年 2016年 2015年 2014年 2013年 2012年 2011年 2010年 2009年 2008年 IASB・IFRSの基礎知識 IASBの基礎知識 IFRSの基礎知識 IFRS/IFRIC文書 IFRS/IFRIC原文・日本語訳 「中小企業向け国際財務報告基準」（"IFRS for SMEs"）の翻訳
+[p22] IFRS財団の教育文書 コメント募集文書 我が国のIFRSの取り組み 第1章 国際会計基準審議会（IASB）の組織のあり方を巡る議論 01 第1章 国際会計基準審議会（IASB）の組織のあり方を巡る議論 02 第2章 国際財務報告基準（IFRS）への収斂の国際的動向 01 第2章 国際財務報告基準（IFRS）への収斂の国際的動向 02 第2章 国際財務報告基準（IFRS）への収斂の国際的動向 03
+[p23] 第2章 国際財務報告基準（IFRS）への収斂の国際的動向 04 第2章 国際財務報告基準（IFRS）への収斂の国際的動向 05 第3章 国際財務報告基準（IFRS）への収斂の我が国の対応 01 第3章 国際財務報告基準（IFRS）への収斂の我が国の対応 02 第3章 国際財務報告基準（IFRS）への収斂の我が国の対応 03 第4章 国際財務報告基準（IFRS）の任意適用に向けての我が国の対応
+[p24] 第5章 国際財務報告基準（IFRS）の任意適用後の我が国の対応 第6章 国際財務報告基準（IFRS）の任意適用の積上げに向けた我が国の対応 ケース・スタディ 『会計・監査ジャーナル』掲載記事 1. IASB（国際会計基準審議会）関連会議報告 2. IFRS等の解説 3. IFRSIC（国際財務報告解釈指針委員会）関連 4. 公開草案・討議資料の解説 5. 座談会 6. その他 研修教材・出版物 JICPA CPE教材
+[p25] IFRSに関する書籍のご案内 IFRS財団教育イニシアチブ 日本語教材 IFRS第18号「財務諸表における表示及び開示」に関するお知らせ 国際動向紹介 一覧 2026年 2025年 2024年 2023年 2022年 2021年 2020年 2019年 2018年 2017年 2016年 2015年 監査・品質管理 倫理 SMP・SME 公会計・非営利 制度・教育 会計職業専門家団体 IVSC その他 会計・監査ジャーナル記事
+[p26] 監査・品質管理 倫理 SMP・SME 公会計・非営利 制度・教育 会計職業専門家団体 IVSC その他 翻訳 国際監査・保証基準審議会（IAASB）
+[p27] 国際教育基準審議会（IAESB）
+[p28] 国際会計士倫理基準審議会（IESBA）
+[p29] その他 国際公会計基準審議会（IPSASB）
+[p30] 日本公認会計士協会（JICPA）
+[p31] サステナビリティ サステナビリティ入門 サステナビリティ情報開示 サステナビリティ保証 サステナビリティ能力開発 非営利組織の会計 公会計協議会 お知らせ 2026年 2025年 2024年 2023年 2022年 2021年 2020年 2019年 2018年 2017年 2016年 2015年 公会計協議会とは 入会のご案内 地方公共団体会計・監査部会とは 非営利組織会計・監査部会とは 入会申請
+[p32] 部会員検索システム（地方公共団体会計・監査部会及び非営利組織会計・監査部会）
+[p33] 非営利組織会計・監査部会 関係法人リスト 各種公表資料一覧 公会計分野における協会の取組 研修講座紹介動画について 非営利組織会計・監査部会 研修一覧 包括外部監査に関する取組 公益法人の制度改革に関するお知らせ 学校法人の制度改革に関するお知らせ 各種リンク先一覧 公会計協議会に関するQ＆A お問い合わせ 非営利分野 非営利分野 お知らせ・公表物 非営利分野 制度 非営利分野 研修一覧 ウェビナー 職業倫理に関する取組
+[p34] 倫理に関する各種研修動画 監査、監査以外の保証業務及びAUPに関する取組 基準設定の取組（倫理・監査）
+[p35] 社外役員会計士協議会 お知らせ 研修会・イベント 対談記事 社外役員会計士のための各種情報 社外役員会計士協議会の取組 公認会計士社外役員ネットワークについて XBRLとは ちょっと教えて！XBRL もっと教えて！XBRL 公認会計士の一体的能力開発 ページトップへ

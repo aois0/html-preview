@@ -1,0 +1,13 @@
+doc: JICPA 実務指針等公表物（研究報告） (jicpa_research_report)
+year: 2026
+item: s0346 / title: 前書文
+section: 346 / 前書文
+source_type: pdf
+source_url: https://jicpa.or.jp/specialized_field/files/2-2-31-1-20160812.pdf
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/jicpa_research_report/s0346.html
+
+[p1] [page 1]
+[p2] 租税調査会研究報告第 31 号 「国境を越える電子商取引と消費税について」の公表について 常務理事 中尾 健 日本公認会計士協会は、 平成 28 年７月 25 日に開催されました常務理事会の承認を受 けて「租税調査会研究報告第 31 号「国境を越える電子商取引と消費税について」」を 公表いたしましたのでお知らせいたします。
+[p3] 本研究報告は、平成 27 年度税制改正で電気通信利用役務の提供に関する内外判定や 課税方式等について消費税法の改正が行われたことから、 その制度上の課題などについ ての検討を行い、その結果を報告するものです。
+[p4] 本研究報告が会員の行う業務の参考となれば幸いです。
+[p5] 以 上
