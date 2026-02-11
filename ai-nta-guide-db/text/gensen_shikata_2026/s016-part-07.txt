@@ -1,0 +1,54 @@
+doc: 源泉徴収のしかた（令和8年版） (gensen_shikata_2026)
+year: 2026
+item: s016-part-07 / title: 資料 15 (part 7/21)
+section: 16 / 資料 15
+source_type: pdf
+source_url: https://www.nta.go.jp/publication/pamph/gensen/shikata_r08/pdf/15.pdf
+url: https://jplawdb.github.io/html-preview/ai-nta-guide-db/enhanced/gensen_shikata_2026/s016-part-07.html
+
+[p1] Over 3,600,000 yen and 6,600,000 yen or less Over 6,600,000 yen and 8,500,000 yen or less Over 8,500,000 yen 650,000 yen Revenue  30% + 80,000 yen Revenue  20% + 440,000 yen Revenue  10% + 1,100,000 yen 1,950,000 yen
+[p2] If certain requirements are met, the exemption of amount of income adjustment can be deducted from the amount of the above employment income. If a taxpayer applies for exemption of amount of income
+[p3] adjustment in the year -end adjustment, it is required to submit an application for exemption of amount of income adjustment by the day before the date of the last payment of salary, etc. in the relevant year. For
+[p4] details, please see "Gensen choshu no aramashi" in Japanese only posted on the website of the NTA （https://www.nta.go.jp）.
+[p5] The "Withholding Tax Amount Table for Employment Income ," which is used to determine the monthly (or
+[p6] [page 14]
+[p7] daily) amount of withholding tax, takes into account the amounts equivalent to the deductions for employment income. It is therefore unnecessary to calculate the deductions for monthly (or daily) withholding. When the
+[p8] year-end adjustment is made, the amount of tax will be determined by using the "Quick Calculating Income Tax Amount Table for the Year-end Adjustment"（年末調整のための算出所得税額の速算表）based on the
+[p9] amount of salary, etc., after making the deduction for employment income from the yearly income of salary, etc. In this case, the amount of salary, etc. , remaining after making the deduction for employment income
+[p10] shall be determined according to the "Table of Salary Amounts after Employment Income Deductions for the Year-end Adjustment."（年末調整のための給与所得控除後の給与等の金額の表）
+[p11] 2 Income Deduction and Tax Credit Various tax deductions are available according to the capacity of the taxpayer. The kinds of deductions made
+[p12] at the time of withholding and the applications to be submitted to apply for these deductions are indicated in the table below.
+[p13] Classification Kind of deduction (Reference)
+[p14] Amounts for 2026 Application for deduction to be submitted by the time indicated below Exemption and deduction from income Deduction for social insurance premiums Deduction for small business mutual aid premiums, etc.
+[p15] Deducted from salary, etc. Premiums deducted (Application not required)
+[p16] Paid directly by taxpayer Premiums paid "Application for Deduction for Insurance Premiums for Employment Income Earner" One day prior to the date of the last payment of salary, etc. in the relevant year
+[p17] Deduction for life insurance premiums Ceiling amount to be covered: 120,000 yen Life insurance premium New life insurance premium Up to a maximum of 40,000 yen *Up to 60,000 yen if you have dependent relatives under 23
+[p18] years of age Old life insurance premium Up to a maximum of 50,000 yen Both new and old life insurance premium Up to a maximum of 40,000 yen *Up to 60,000 yen if you have dependent relatives under 23 years of age
+[p19] Medical care insurance premium Up to a maximum of 40,000 yen Personal pension insurance premium New Personal pension insurance premium Up to a maximum of 40,000 yen Old Personal pension insurance premium
+[p20] Up to a maximum of 50,000 yen
+[p21] [page 15]
+[p22] Both new and old Personal pension insurance premium Up to a maximum of 40,000 yen Deduction for earthquake insurance premiums Earthquake insurance premiums only Up to a maximum of 50,000 yen
+[p23] Former long-term casualty insurance premiums only Up to a maximum of 15,000 yen Both earthquake insurance premiums and former long-term casualty insurance premiums Up to a maximum of 50,000 yen Exemption for persons with
+[p24] disabilities Persons with disabilities 270,000 yen "Application for (Change in) Exemption for Dependents of Employment Income Earner" 1 Principle One day prior to the Persons with special disabilities 400,000 yen
+[p25] Persons with special disabilities living together with the salary earner, etc.
+[p26] 750,000 yen Exemption for widows 270,000 yen date of the first payment of salary, etc.
+[p27] in the relevant year 2 Where employed during the year One day prior to the date of the first payment of salary, etc.
+[p28] after being employed 3 Change in the application One day prior to the date of the first payment of salary, etc.
+[p29] after the change Exemption for single parents 350,000 yen Exemption for working students 270,000 yen Exemption for dependents Dependents covered by exemption 380,000 yen Specific dependents 630,000 yen
+[p30] Elderly dependents Other than elderly parents living together with the salary earner, etc.
+[p31] 480,000 yen Elderly parents living together with the salary earner, etc.
+[p32] 580,000 yen Basic exemption Up to a maximum of 950,000 yen(*1)
+[p33] "Application for Basic Exemption of Employment Income Earner" One day prior to the date of the last payment of salary, etc. in the relevant year Exemption for spouses Spouses covered by exemption Up to a maximum of
+[p34] 380,000 yen(*2)
+[p35] "Application for Exemption for Spouse of Employment Income Earner" Elderly spouses covered by exemption Up to a maximum of 480,000 yen(*2)
+[p36] [page 16]
+[p37] Special exemption for spouses Up to a maximum of 380,000 yen(*3)
+[p38] One day prior to the date of the last payment of salary, etc. in the relevant year * If falling under spouses covered by the withholding exemption, please see also "Application for (Change in) Exemption for Dependents of
+[p39] Employment Income Earner." Special Exemption for Specified Relatives Up to a maximum of 630,000 yen(*4)
+[p40] "Application for Special Exemption for Specified Relatives of Employment Income Earner" One day prior to the date of the last payment of salary, etc. in the relevant year *If falling under relatives
+[p41] qualified for withholding deduction, please see also "Application for (Change in) Exemption for Dependents of Employment Income Earner" above.
+[p42] Tax credit Special credit for loans, etc. related to a dwelling Up to a maximum of 600,000 yen "Application for Special Credit for Loans, etc.
+[p43] Related to a Dwelling for Employment Income Earner" One day prior to the date of the last payment of salary, etc. in the relevant year
+[p44] (Note) 1 Monthly (daily) withholding shall be carried out pursuant to the Withholding Tax Amount Table for Employment Income (monthly table or daily table) , etc. The tax amount table reflects the various deductions
+[p45] shown in the above table —from the exemption for persons with disabilities to the special exemption for specified relatives —so there is no need to calculate the amount of deductions on each occasion of monthly
+[p46] (daily) withholding.

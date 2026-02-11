@@ -16,10 +16,20 @@
 - Tax cases/rulings: /html-preview/ai-hanketsu-db/quickstart.txt
 
 - Papers/guidelines (international tax): /html-preview/ai-paper-db/llms.txt
-- NTA practical guides (法人税の手引・源泉あらまし): /html-preview/ai-nta-guide-db/llms.txt
+- NTA practical guides (法人税・源泉・年調・法定調書・印紙税ほか): /html-preview/ai-nta-guide-db/llms.txt
 - Included in NTA practical guides:
   - 法人税のあらましと申告の手引（令和7年版）: /html-preview/ai-nta-guide-db/data/resolve_lite/hojin_aramashi_2025.json
   - 源泉徴収のあらまし（令和8年版）: /html-preview/ai-nta-guide-db/data/resolve_lite/gensen_aramashi_2026.json
+  - 源泉徴収のしかた（令和8年版）: /html-preview/ai-nta-guide-db/data/resolve_lite/gensen_shikata_2026.json
+  - 年末調整のしかた（令和7年分）: /html-preview/ai-nta-guide-db/data/resolve_lite/nencho_shikata_2025.json
+  - 法定調書の作成と提出の手引（令和7年分）: /html-preview/ai-nta-guide-db/data/resolve_lite/hotei_tebiki_2025.json
+  - 印紙税の手引（令和7年5月）: /html-preview/ai-nta-guide-db/data/resolve_lite/inshi_tebiki_2025.json
+  - 法人税関係法令の改正の概要（令和7年度）: /html-preview/ai-nta-guide-db/data/resolve_lite/hojin_kaisei_gaiyo_2025.json
+  - 法人税及び地方法人税の申告（別表等）: /html-preview/ai-nta-guide-db/data/resolve_lite/hojin_shinkoku_besshyo.json
+  - e-Tax 利用可能手続一覧（法人税確定申告等）: /html-preview/ai-nta-guide-db/data/resolve_lite/etax_tetsuzuki6.json
+  - 法人用消費税申告書（一般用）の書き方: /html-preview/ai-nta-guide-db/data/resolve_lite/hojin_shohi_kakikata_ippan.json
+  - 法人用消費税申告書（簡易課税用）の書き方: /html-preview/ai-nta-guide-db/data/resolve_lite/hojin_shohi_kakikata_kani.json
+  - インボイス制度に関するお知らせ（令和7年4月）: /html-preview/ai-nta-guide-db/data/resolve_lite/invoice_oshirase_2025.json
 - Paper corpus (OECD TPG 2022): /html-preview/ai-paper-db/oecd-tpg-2022/quickstart.txt
 - Paper corpus (NTA TP audit): /html-preview/ai-paper-db/nta-tp-audit/quickstart.txt
 - Paper corpus (OECD/G20 BEPS): /html-preview/ai-paper-db/oecd-beps/quickstart.txt

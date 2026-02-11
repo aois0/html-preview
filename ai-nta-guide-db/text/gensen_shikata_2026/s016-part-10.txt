@@ -1,0 +1,62 @@
+doc: 源泉徴収のしかた（令和8年版） (gensen_shikata_2026)
+year: 2026
+item: s016-part-10 / title: 資料 15 (part 10/21)
+section: 16 / 資料 15
+source_type: pdf
+source_url: https://www.nta.go.jp/publication/pamph/gensen/shikata_r08/pdf/15.pdf
+url: https://jplawdb.github.io/html-preview/ai-nta-guide-db/enhanced/gensen_shikata_2026/s016-part-10.html
+
+[p1] deemed to fall under only one of these categories.
+[p2] 5 It is not possible for both dependents to mutually qualify for exemption for specified relatives or qualify for exemption by designating specified relatives who is eligible for exemption for specified relatives.
+[p3] (Relatives qualified for withholding deduction)
+[p4] A relative qualified for withholding deduction refers to a person who is either a dependent relative qualified for deduction or a specified relative whose total income is 1,000,000 yen or less.
+[p5] (Note)
+[p6] 1 If the only income of a specified relative is employment income, the total income shall be 1,000,000 yen or less if the yearly revenue from salary, etc. within a year is 1,650,000 yen or less
+[p7] 2 It is not possible for both dependents to mutually qualify for exemption for specified relatives or qualify for exemption by designating specified relatives who is eligible for exemption for specified relatives.
+[p8] (Persons with disabilities/special disabilities)
+[p9] An earner of salary, etc., spouse living in the same household and a dependent to whom any of the following circumstances apply: (1) Permanently lacks the ability to comprehend matters due to a mental disorder;
+[p10] All persons in this category are persons with special disabilities.
+[p11] (2) Intellectually disabled in the judgment of a child consultation center, center for the rehabilitation of the intellectually disabled, mental health and welfare center, or designated mental health doctor;
+[p12] Persons in this category who are judged to be seriously intellectually disabled are persons with special
+[p13] [page 22]
+[p14] disabilities.
+[p15] (3) Certified as mentally disabled under the Act for the Mental Health and Welfare of Persons with Mental Disorders; Persons registered as Grade 1 disabled in this category are persons with special disabilities.
+[p16] (4) Registered as having a physical disability on a physical disability certificate received under the Act for the Welfare of Persons with Physical Disabilities;
+[p17] Persons registered as Grade 1 or Grade 2 in this disabled persons category are persons with special disabilities.
+[p18] (5) Certified as a war invalid under the Act for Special Assistance to Wartime Invalids; Persons registered as having a disability of a level of severity between (and including) a special disorder
+[p19] and a Grade 3 disorder under Exhibit 1 , Table 2 of the Military Pension s Act are persons with special disabilities.
+[p20] (6) Recognized by the Minister of Health, Labo ur and Welfare under the Act to Assist the Victims of the Atomic Bombs; All persons in this category are persons with special disabilities.
+[p21] (7) Permanently bedridden and in need of complex care; All persons in this category are persons with special disabilities.
+[p22] (8) Out of those persons with a mental or physical disability who are aged 65 or above and who are treated as having a disability that is equivalent to (1), (2) or (4) above as recognized by the mayor of a
+[p23] municipality or a special ward, or the head of a welfare center; Persons who have a disability that are treated as being equivalent to the special disab ilities described in
+[p24] (1), (2) or (4) above and have been recognized as such by the mayor of municipality and others are persons with special disabilities.
+[p25] (Persons with special disabilities living together with the salary earner, etc.)
+[p26] Spouses covered by the exemption or d ependents who fall within the category of persons with special disabilities, living together permanently with either the earner of salary, etc., his/her spouse, or other relatives
+[p27] who live in the same household as the earner of salary, etc.
+[p28] (Widows)
+[p29] The person herself who receives payments of salary, etc. and who falls under one of the following (Excluding people who fall under "Single parents" on the next page).
+[p30] (1) A person who has divorced from her husband and has not since remarried and who falls under all of the following requirements.
+[p31] (a) A person who has (a) dependent(s).
+[p32] (b) A person whose total amount of income is 5,000,000 yen or less.
+[p33] (c) A person who does not have a person who is conceived to be in a de facto marital relationship with that person.
+[p34] (2) A person whose husband is dead and who has not since remarried or whose husband is not known to be living or dead and who falls under all of the following requirements.
+[p35] (a) A person whose total amount of income is 5,000,000 yen or less.
+[p36] (b) A person who does not have a person who is conceived to be in a de facto marital relationship with
+[p37] [page 23]
+[p38] that person.
+[p39] (Note)
+[p40] 1. In the case that income is entirely made up of employment income, the total amount of income will be 5,000,000 yen or less if the yearly revenue from salary, etc. is 6,777,778 yen or less.
+[p41] 2. "A person who is conceived to be in a de facto marital relationship with that person" described herein refers to the following persons.
+[p42] ・ If that person is the one described as the head of the household in the certificate of residence, a person is the one described to be conceived to be in a de facto marital relationship with the head of
+[p43] the household, or, for example is the one who is described as the husband who is not legally registered in the relationship to the head of the household in the certificate of residence of a person
+[p44] who belongs to the same household of that person.
+[p45] ・ If that person is not the one described as the head of the household in the certificate of residence, the head of the household when there is the description that that person is conceived to be in a de
+[p46] facto marital relationship with the head of the household or, for example, when there is the description that that person is the wife who is not legally registered in the relationship to the head
+[p47] of the household in the certificate of residence of that person.
+[p48] (Single parents)
+[p49] Persons themselves who receive payment of salary, etc. and person who is unmarried or whose spouse is not known to be living or dead and who fall under all of the following requirements.
+[p50] (1) A person who has (a) child(ren) living in the same household of that person (Limited to a child whose total amount of yearly total amount of income, retirement income, and timber income is 580,000yen or
+[p51] less excluding other people who are the spouse living in the same household and dependent relatives).
+[p52] (2) A person whose total amount of income is 5,000,000 yen or less.
+[p53] (3) A person who does not have a person who is conceived to be in a de facto marital relationship with that person.
+[p54] (Note)

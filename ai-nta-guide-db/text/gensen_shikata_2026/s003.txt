@@ -1,0 +1,12 @@
+doc: 源泉徴収のしかた（令和8年版） (gensen_shikata_2026)
+year: 2026
+item: s003 / title: ・源泉徴収事務のあらまし
+section: 3 / ・源泉徴収事務のあらまし
+source_type: pdf
+source_url: https://www.nta.go.jp/publication/pamph/gensen/shikata_r08/pdf/03.pdf
+url: https://jplawdb.github.io/html-preview/ai-nta-guide-db/enhanced/gensen_shikata_2026/s003.html
+
+[p1] [page 1]
+[p2] ຿ ຿ͷ͋Β·͠ ઘ௃ऩͷ ߇ ͷํ๏ͳͲ͕ɺ ͦͷϙΠϯτͱͳΓ·͢ɻ ಺ʹॅॴΛ༗͢Δ͔ຢ͸ ͷΑ ͏ ʹऔΓѻΘΕ·͢ɻ ߹ ಺ʹॅॴΛ༗͢Δਓͱਪఆ͞Ε·͢ʢॴྩ ʣ ɻ ߹ ಺ʹॅॴΛ༗͠ͳ͍ਓͱਪఆ͞Ε·͢ʢॴྩ ʣ ɻ ֹ ग़཰ͷදʯͷ͜ͱΛ͍͍·͢ɻ ͷͱ͓ Γ Ͱ͢ɻ ੫ிϗʔϜϖʔδ಺ʹಛઃϖʔδ
+[p3] ຿ऀͷํʯͷϖʔδ ʲIUUQTXXXOUBHPKQVTFSTHFOTFOJOEFYIUNʳΛઃ͚͍ͯ·͢ɻ ઘ௃ऩͷ ઘ௃ऩͷखଓ ͍ͯ͠·͢ͷͰɺੋඇ͝ར༻͍ͩ͘͞ɻ ຿ऀͷํʯͷೖ ୯ʹΞΫηε͢Δ͜ͱ͕Ͱ͖·͢ɻ ຿ ຿౳ ຿ͷ಺༰ʫ ຿ͷ಺༰ʫ ॻ౳ʫ ॻ౳ʫ আର৅਌଒ͳͲ ೝ ऀʢಛ আɺॅ আͳͲ ೝ දʣ ɺ ग़཰ͷද ఆ͢Δ ॻΛ͍͍·͢ɻҎԼಉ͡Ͱ͢ɻ ༩ॴಘऀͷ഑ ༩ॴಘऀͷಛఆ਌଒ಛผ څ
+[p4] ۚ ॻ ʢ஫ʣ ઘ௃ऩථ ۚ දɺ ༩ॴಘ ɾ ୀ৬ॴಘ ॻʢೲ෇ॻʣ ॻʢೲ ෇ॻʣ ࢉܭ ॻ ࿥ ͷೲ෇ ͱೲ෇ ෇ͱ੫຿ॺ΁ͷఏग़

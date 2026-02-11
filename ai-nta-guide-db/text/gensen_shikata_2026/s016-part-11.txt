@@ -1,0 +1,50 @@
+doc: 源泉徴収のしかた（令和8年版） (gensen_shikata_2026)
+year: 2026
+item: s016-part-11 / title: 資料 15 (part 11/21)
+section: 16 / 資料 15
+source_type: pdf
+source_url: https://www.nta.go.jp/publication/pamph/gensen/shikata_r08/pdf/15.pdf
+url: https://jplawdb.github.io/html-preview/ai-nta-guide-db/enhanced/gensen_shikata_2026/s016-part-11.html
+
+[p1] 1. Earnings of salary, etc. in the case of "the total amount of income is 5,000,000 yen or less" in this case is the same as the case of "Widows" on the preceding page.
+[p2] 2. "A person who is conceived to be in a de facto marital relationship with that person" described herein refers to the following persons.
+[p3] ・ If that person is the one described as the head of the household in the certificate of residence, a person is the one described to be conceived to be in a de facto marital relationship with the head of
+[p4] the household, or, for example, is the one who is described as the husband or the wife who is not legally registered in the relationship to the head of the household in the certificate of residence of
+[p5] a person who belongs to the same household of that person.
+[p6] ・ If that person is not the one described as the head of the household in the certificate of residence, the head of the household when there is the description that that person is conceived to be in a de
+[p7] facto marital relationship with the head of the household, or, for example, when there is the description that that person is the husband or the wife who is not legally registered in the
+[p8] relationship to the head of the household in the certificate of residence of that person.
+[p9] (Working students)
+[p10] Any earner of salary, etc. falling under both (1) and (2) below: (1) A person who is a student, pupil or trainee at one of the following types of school:
+[p11] [page 24]
+[p12] (a) An elementary school, junior high school, compulsory education school, high school, middle education school, university, technical college or special-needs school as provided for in the School Education Law
+[p13] (b) A specialized training college or one of a number of schools meeting the standards prescribed by the Minister of Education, Culture, Sports, Science and Technology (hereinafter referred to as
+[p14] "specialized training colleges") established by the state, a municipality, a school corporation, the Federation of Agricultural Cooperatives in managing medical business, or a medical corporation
+[p15] that has established a specialized training college, and which offers courses meeting certain requirements, such as education in required job skills
+[p16] (c) A v ocational training corporation that offers certified vocational training and courses meeting certain requirements
+[p17] (2) Total amount of income for the year is 850,000 yen or less and the amount other than the employment income, etc. he/she has earned is 100,000 yen or less.
+[p18] (Note)
+[p19] If income is entirely made up of employment income, total amount of income shall be 850,000 yen or less if the yearly revenue from salary, etc. is 1,500,000 yen or less. For example, a student with employment income
+[p20] from any part -time jobs is eligible for this deduction, if he/she has no other income than income from the
+[p21] part-time job(s) and the total amount of salary, etc. for the year from the part -time job(s) is 1,500,000 yen or less.
+[p22] 4 Documents to be submitted to apply for exemptions (1) Non-resident Relatives If a spouse covered by the withholding exemption, a relative qualified for withholding deduction , or a
+[p23] disabled person is a non-resident relative (hereinafter referred to as a "non-resident relative"), and you wish to apply for exemptions for dependents pertaining to that non -resident relatives, then, in addition to the
+[p24] "Documents concerning relatives," (Note 1) the "Documents concerning visa for studying abroad" (Note 2) must be attached to an "Application for Exemption for Dependents of Employment Income Earner, " if you are
+[p25] eligible for exemptions for dependents as a "if the non-resident relative is "a person who has lost their address or residence in Japan due to studying abroad" for the non -resident relative. If you wish to apply for
+[p26] exemptions for dependents or persons with disabilities pertaining to non -resident relatives for the year-end adjustment, "Documents concerning remittances" (Note 3) (If the overseas resident relative qualifies for the
+[p27] deduction for dependents as "a person who received more than 380,000 yen to cover living or educational expenses from a person receiving salary or other payments in that year," the "380,000 yen remittance
+[p28] document" (Note 4)) are required to be submitted by attaching to th e application or presented when submitting
+[p29] the application by the day before receiving the last salary, etc. of a year, in addition to describing the fact of living in the same household in the application.
+[p30] (Note) 1 "Documents concerning relatives" refer to either of the following (1) or (2), which proves that the non-resident relatives concerned are relatives of the employment income earner (including Japanese
+[p31] translation of these documents, if they are prepared in foreign languages).
+[p32] (1) A copy of the supplementary family register or other documents issued by the Japanese government or a Japanese local government as well as a copy of the passport of the non-resident relatives
+[p33] (2) A document issued by a foreign government or a foreign local government (limited to documents showing the name, date of birth and address or domicile of the non-resident relatives)
+[p34] (Note) 2 "Documents concerning visa for studying abroad" means a copy of a document similar to a visa in a foreign country or a copy of a document equivalent to a resident card in a
+[p35] [page 25]
+[p36] foreign country, issued by a foreign government or municipality, which certifies that the foreign resident relative no longer has a domicile or residence in Japan due to his/her
+[p37] residence in a foreign country with a status equivalent to the status of residence as a student in that foreign country (if the document is made in a foreign language, its translation is also to be included).
+[p38] (Note) 3 "Documents concerning remittances" refer to either of the following (1) or (2), which prove that the residents paid living expenses or educational expenses of their non-resident relatives to each of them
+[p39] each time required within a year (including Japanese translation of these documents, if they are prepared in foreign languages).
+[p40] (1) A document issued by a financial institution or its copy proving that the resident paid those expenses to his/her non -resident relatives via exchange transactions made by the financial institution
+[p41] (2) A document issued by a so -called credit card company or its copy proving that the non-resident relatives received or are to receive money equal to purchase prices, etc.
+[p42] of goods, etc. from the resident by purchasing goods, etc. using a card issued by the

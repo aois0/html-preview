@@ -109,7 +109,7 @@ NOTE
 3) `ai-nta-qa-db/text/{doc_code}/{item_id}.txt`（本文）
 4) 根拠URL: `ai-nta-qa-db/enhanced/{doc_code}/{item_id}.html#pX`
 
-## 9) 国税庁の手引き系（法人税の手引・源泉徴収のあらまし）を引きたい → ai-nta-guide-db
+## 9) 国税庁の手引き系（法人税・源泉・年調・法定調書・印紙税ほか）を引きたい → ai-nta-guide-db
 
 入口（最短）
 - `/html-preview/ai-nta-guide-db/quickstart.txt`
@@ -118,6 +118,16 @@ NOTE
 収録（明示）
 - `hojin_aramashi_2025` = 法人税のあらましと申告の手引（令和7年版）
 - `gensen_aramashi_2026` = 源泉徴収のあらまし（令和8年版）
+- `gensen_shikata_2026` = 源泉徴収のしかた（令和8年版）
+- `nencho_shikata_2025` = 年末調整のしかた（令和7年分）
+- `hotei_tebiki_2025` = 法定調書の作成と提出の手引（令和7年分）
+- `inshi_tebiki_2025` = 印紙税の手引（令和7年5月）
+- `hojin_kaisei_gaiyo_2025` = 法人税関係法令の改正の概要（令和7年度）
+- `hojin_shinkoku_besshyo` = 法人税及び地方法人税の申告（別表等）
+- `etax_tetsuzuki6` = e-Tax 利用可能手続一覧（法人税確定申告等）
+- `hojin_shohi_kakikata_ippan` = 法人用 消費税及び地方消費税の申告書（一般用）の書き方
+- `hojin_shohi_kakikata_kani` = 法人用 消費税及び地方消費税の申告書（簡易課税用）の書き方
+- `invoice_oshirase_2025` = インボイス制度に関するお知らせ（令和7年4月）
 
 典型フロー（10kトークン制約向け）
 1) `ai-nta-guide-db/data/resolve_lite/index.json`

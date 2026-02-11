@@ -1,0 +1,10 @@
+doc: 法人税関係法令の改正の概要（令和7年度） (hojin_kaisei_gaiyo_2025)
+year: 2025
+item: s001 / title: 表紙
+section: 1 / 表紙
+source_type: pdf
+source_url: https://www.nta.go.jp/publication/pamph/hojin/kaisei_gaiyo2025/pdf/B.pdf
+url: https://jplawdb.github.io/html-preview/ai-nta-guide-db/enhanced/hojin_kaisei_gaiyo_2025/s001.html
+
+[p1] [page 1]
+[p2] 令和７年度 法人税関係法令の改正の概要 国税庁 法人番号：7000012050002

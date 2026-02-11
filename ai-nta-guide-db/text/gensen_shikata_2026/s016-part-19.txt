@@ -1,0 +1,56 @@
+doc: 源泉徴収のしかた（令和8年版） (gensen_shikata_2026)
+year: 2026
+item: s016-part-19 / title: 資料 15 (part 19/21)
+section: 16 / 資料 15
+source_type: pdf
+source_url: https://www.nta.go.jp/publication/pamph/gensen/shikata_r08/pdf/15.pdf
+url: https://jplawdb.github.io/html-preview/ai-nta-guide-db/enhanced/gensen_shikata_2026/s016-part-19.html
+
+[p1] If an individual or a corporation normally not having a business or a relationship with a non -resident or a
+[p2] foreign corporation receives a transfer of or rents real property in Japan, the individual or the corporation is required to pay withholding tax when paying the consideration.
+[p3] * An individual is not required to pay withholding tax, if he/she receives a transfer of or rents real property for
+[p4] the purpose of using it as his/her own residence or his/her relatives' residence (The amount of consideration for the transfer must be 100,000,000 yen or less.)
+[p5] [page 43]
+[p6] Special Provisions for Taxation of Non-residents and Foreign Corporations Certain exceptions listed below apply to the taxation of non-residents and foreign corporations.
+[p7] For further details, please refer to the National Tax Agency website [https://www.nta.go.jp].
+[p8] 1 Exemption by Certificate of Exemption from Withholding Where a non -resident or a foreign corporation having a permanent establishment in Japan receives a
+[p9] "Certificate of Exemption from Withholding" （源泉徴収免除証明書） from the district director of the competent tax office stating that he, she or it meets certain requirements, and presents it to the payer of
+[p10] domestic source income, no withholding is required in respect of certain domestic source income (limited only
+[p11] to the income attributable to the permanent establishment of the said non-resident or foreign corporation) paid by the payer during the effective period of the certificate.
+[p12] 2 Relief by Tax Convention Where the country of residence of a non-resident or a foreign corporation has an income tax convention with
+[p13] Japan, income tax and special income tax for reconstruction on the domestic source income received by the non-resident or the foreign corporation may be relieved in accordance with the provisions of the
+[p14] convention(Note1). To apply for this relief f or income tax and special income tax for reconstruction , it is
+[p15] necessary to submit the prescribed application or claim for refund to the district director of the competent tax office through the withholding agent of domestic source income(Note2).
+[p16] 3 Relief by the Mutual Exemption Law for Income of Foreign Resident, etc. (parts related to Taiwan)
+[p17] Income tax and special income tax for reconstruction on the domestic source income received by a non-resident having a domicile, etc. in Taiwan or a foreign corporation having its head office, etc. in Taiwan
+[p18] may be relieved(Note1). To apply for this relief for income tax and special income tax for reconstruction, it is
+[p19] necessary to submit the prescribed application to the district director of the competent tax office through the withholding agent of domestic source income(Note2).
+[p20] (Note)1 If the tax rate prescribed by a tax convention, etc. is same as or lower than the tax rate under the Income Tax Act or the Act on Special Measures Concerning Taxation, it is not necessary to withhold
+[p21] special income tax for reconstruction together.
+[p22] 2 The required information includes matters, etc. to be stated in the application or claim for refund if submitted by electromagnetic means in lieu of the above documents being physically submitted.
+[p23] [page 44]
+[p24] 7. Withholding from Other Income Withholding is required for the following types of income: Please see the "Gensen choshu no aramashi," in Japanese only, posted on the website of the NTA
+[p25] (https://www. nta.go.jp) for details.
+[p26] (1) Interest on bonds and deposits, savings, etc.
+[p27] (2) Compensation money for benefit from installment deposits, etc.
+[p28] (3) Capital gains, etc. from listed stocks, etc., kept in specific accounts (4) Public pensions, etc.
+[p29] [page 45]
+[p30] 8. Other Matters I. Refunds of Erroneously Withheld Amounts If there is any overpayment of withholding tax due to erroneously calculating the amount of tax, the
+[p31] withholding agent should submit an "Application for Refund of Erroneously Paid Withholding Income Tax and Special Income Tax for Reconstruction "（源泉所得税及び復興特別所得税の誤納額還付請求書）to the
+[p32] district director of the competent tax office for the place of tax payment stating the reason for the overpayment
+[p33] and the amount to be refunded. If the amount of the overpayment is confirmed by t he competent tax office, a refund of the overpaid amount shall be made to the withholding agent.
+[p34] Please note that for applying for refund of overpayment at year -end adjustment, there is a separate procedure.
+[p35] For details please see "Year-end Adjustment Guide", in Japanese only posted on the website of the NTA （https://www.nta.go.jp）.
+[p36] II. Submission of Withholding Records and Report of Payment A payer of salary , etc. , retirement allowance , etc. , remuneration /fees, etc., must deliver a "Withholding
+[p37] Record"（源泉徴収票）or "Report of Payment"（支払調書）stating the particulars of payment to the beneficiary and/or the district director of the competent tax office by a certain deadline.
+[p38] The submission of withholding record s for salary, etc. and retirement allowance, etc. and report of payment for remuneration/fees is explained below.
+[p39] 1 Employment Income Withholding Record (1) The payer of salary, etc. shall prepare two copies of an "Employment Income Withholding Record"（給与
+[p40] 所得の源泉徴収票）stating the amount of salary , etc., accrued and determined during the period between January 1 and December 31 of the relevant year, and the amount of withholding tax. One copy should be
+[p41] submitted, together with a totalized table, to the district director of the competent tax office by January 31 of the following year (or within 1 month of retirement in the case of a beneficiary who retires during the
+[p42] course of a year), and the other copy should be issued to the beneficiary (please refer to 5 (1) below).
+[p43] The withholding record for a beneficiary who retired during the course of a year may be submitted to the district director of the competent tax office by January 31 of the year after the year of retirement , together
+[p44] with withholding records for other beneficiaries.
+[p45] (Note) Please note that the same shall apply also to a foreign worker who becomes a resident due to having a domicile in Japan or having had a residence continuously for 1 year or more in Japan.
+[p46] (2) If the amount of salary paid during the year to a beneficiary who retires during the course of a year is 300,000 yen or less, regardless of 1 above, it is not necessary to submit a withholding record of such salary
+[p47] to the director of tax office.
+[p48] (Note) Regarding the scope of exemption from submitting the "Employment Income Withholding Record" to

@@ -1,0 +1,9 @@
+doc: 年末調整のしかた（令和7年分） (nencho_shikata_2025)
+year: 2025
+item: s017 / title: 110a3
+section: 17 / 110a3
+source_type: pdf
+source_url: https://www.nta.go.jp/publication/pamph/gensen/nencho2025/pdf/110a3.pdf
+url: https://jplawdb.github.io/html-preview/ai-nta-guide-db/enhanced/nencho_shikata_2025/s017.html
+
+[p1] ※ テキスト抽出結果が空でした。原本を参照してください: https://www.nta.go.jp/publication/pamph/gensen/nencho2025/pdf/110a3.pdf
