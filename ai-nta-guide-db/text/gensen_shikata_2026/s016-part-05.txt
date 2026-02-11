@@ -1,0 +1,57 @@
+doc: 源泉徴収のしかた（令和8年版） (gensen_shikata_2026)
+year: 2026
+item: s016-part-05 / title: 資料 15 (part 5/21)
+section: 16 / 資料 15
+source_type: pdf
+source_url: https://www.nta.go.jp/publication/pamph/gensen/shikata_r08/pdf/15.pdf
+url: https://jplawdb.github.io/html-preview/ai-nta-guide-db/enhanced/gensen_shikata_2026/s016-part-05.html
+
+[p1] employment.
+[p2] Please note the following points concerning the scope of employment income:
+[p3] [page 10]
+[p4] 1 Commutation Allowances, etc.
+[p5] Commutation allowances paid in addition to the normal salary and commutation passes (including equivalent allowances and tickets) are tax -free up to a certain amount depending on the classifications of commutation
+[p6] means and commutation distance.
+[p7] For details, please check TAX ANSER on the NTA website.
+[p8] "No. 2582 Commutation allowances for train and bus commuters" [https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2582.htm] "No. 2585 Commutation allowances for car and bicycle commuters"
+[p9] [https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2585.htm] 2 Special Allowances, etc.
+[p10] Classification Treatment Travel expenses Money and items provided and paid as required for the travel of an employment income earner indicated below and considered to be necessary
+[p11] for such travel in normal circumstances are not taxable.
+[p12] (1) Travel to implement certain duties away from the workplace (2) Travel for relocation as a result of a transfer (3) Travel for relocation of a person who has found an employment or has
+[p13] ceased working, or of the bereaved of a person who has ceased working due to death Night/day-duty allowance The amount of the night/day-duty allowance on any one occasion not
+[p14] exceeding 4,000 yen (if any meal is provided for night/day duty, the balance of 4,000 yen minus the cost of the meal) shall not be taxed, other than
+[p15] certain amounts such as night/day-duty allowances for persons whose work primarily involves night/day-duty.
+[p16] Entertainment expenses Money and items provided as entertainment and social expenses are treated as salary, etc. If it is clear that the expenses are used for the business of the employer, they are not taxable.
+[p17] Marriage gifts, etc. Money and items provided under an employment contract for occasions such as marriage or the birth of a child are treated as salary,etc. If they are
+[p18] deemed reasonable according to commonly accepted norms in light of the status of the recipient, they are not taxable.
+[p19] Allowances for bereavement, disasters, etc.
+[p20] Funeral contributions, condolence payments, consolation money for disasters, etc., are not taxable if they are deemed reasonable according to commonly accepted norms.
+[p21] Various benefits provided for under the Labor Standards Act Benefits for medical treatment or leave compensation provided for under the Labor Standards Act and the Seaman Act are not taxable.
+[p22] Scholarships While the money and items provided as a scholarship having the nature of compensation such as salary, etc. are excluded from tax exempt items, a
+[p23] scholarship provided in addition to his/her normal salary among scholarships received by an employment income earner from his/her employer and is not taxable, except for certain cases such as that provided
+[p24] by a corporate employer to its director to help fund the cost of the director's schooling.
+[p25] [page 11]
+[p26] 3 Fringe Benefits While salary, etc. is usually paid in monetary form, it may be paid with in the form of an object, right, or other fringe benefit, including meals supplied in kind and discounts for merchandise.
+[p27] Although these fringe benefits are treated as employment income, they are treated differently from monetary salary, etc. as indicated below because they differ in nature from monetary salary, etc. , as (1) they are
+[p28] indispensable in terms of the nature of the duty and are provided as a necessity of the employer's business; (2)
+[p29] they cannot be encashed; (3) they cannot be valued easily or (4) the beneficiary cannot select particular items , or because (5) they require special treatment in terms of government policy.
+[p30] Classification Treatment Meals Meals provided by an employer shall not, in principle, be taxed if the beneficiary pays half or more of the cost of the meal. If the balance of the cost of the meal minus the amount
+[p31] borne by the beneficiary (i.e. the amount borne by the employer) exceeds 3,500 yen per month, the whole amount borne by the employer (the cost of the meal minus the amount
+[p32] paid by the beneficiary) shall be treated as employment income.
+[p33] Whether the amount borne by the employer exceeds 3,500 yen is determined by the amount after subtracting the amount of consumption tax and local consumption tax.
+[p34] The cost of meals provided by the employer is assessed by the amount listed as below.
+[p35] (1) Meals cooked and provided by the employer: the amount equivalent of the "direct cost" of the ingredients, etc.
+[p36] (2) Meals purchased from food shops and provided by the employer: the amount equivalent of the purchase price of meals.
+[p37] Meals provided to a person on night/day duty or working overtime outside his/her regular hours for such work are not taxable.
+[p38] Uniforms Uniforms and other belongings, business wear, work wear, etc., provided or leased to a person who must wear a uniform due to the nature of the work are not taxable.
+[p39] Lease of company residence The fringe benefit received by an employee, etc. through the leasing of a company residence or dormitory gratuitously or at a low rent shall not be taxed if the rent collected
+[p40] from the employee is equal to or more than the amount of a reasonable rent to be paid for a company house, etc. calculated using a certain formula. If the rent collected from an
+[p41] employee falls below the amount of the reasonable rent to be paid for a company house, etc., the difference is deemed employment income.
+[p42] If a company residence, etc. leased to directors (including any executive officer, auditor, etc.) is a "luxury residence," the amount of the reasonable rent shall be calculated based on
+[p43] the amount that would normally be payable for a general rental house.
+[p44] Recreation costs The fringe benefit received from the employer by a person participating in an event, such as a party, trip, performance or athletic competition, whose cost is borne by the employer
+[p45] and which is deemed in light of commonly accepted norms to be held for recreational purposes, is not taxable unless any money is paid to persons who could not participate
+[p46] owing to their own circumstances to make up for their non-participation, or the cost of the event is borne by the company only for directors.
+[p47] In the case that a recreational trip meets certain requirements, such as a trip for four nights (the number of days spent at a destination in the case of a trip abroad) or less, such a trip
+[p48] may be tax-free in principle only when its fringe benefit is considered insignificant.
+[p49] Awards for long service

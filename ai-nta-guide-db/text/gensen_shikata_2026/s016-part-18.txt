@@ -1,0 +1,55 @@
+doc: 源泉徴収のしかた（令和8年版） (gensen_shikata_2026)
+year: 2026
+item: s016-part-18 / title: 資料 15 (part 18/21)
+section: 16 / 資料 15
+source_type: pdf
+source_url: https://www.nta.go.jp/publication/pamph/gensen/shikata_r08/pdf/15.pdf
+url: https://jplawdb.github.io/html-preview/ai-nta-guide-db/enhanced/gensen_shikata_2026/s016-part-18.html
+
+[p1] from units of investment of specified investment corporations. For details, see the "Gensen choshu no aramashi," in Japanese only posted on the website of the NTA. (https://www.nta.go.jp)
+[p2] 2 Dividends Other Than Those from Listed Stocks, etc.
+[p3] The withholding tax rate is 20.42% (no inhabitant tax applies).
+[p4] [page 41]
+[p5] 6. Procedure for Withholding from Income Paid to Non-Residents or Foreign Corporations Withholding from income paid to non-residents or foreign corporations involves collection and payment to the
+[p6] tax authorities of income tax and special income tax for reconstruction at a certain rate at the time of payment to non-residents or foreign corporations of domestic source income subject to withholding.
+[p7] Kinds of domestic source income subject to withholding and tax rates for withholding, etc. are as follows: Kinds of domestic source income subject to withholding Withholding tax rate
+[p8] (1) Distribution of profits arising from business conducted through a permanent establishment in Japan under a partnership contract (Note 1)
+[p9] 20.42% (2) Consideration for the transfer of land, rights on land, buildings, auxiliary equipment, or structures in Japan * excluding consideration of 100,000,000 yen or less that is paid by an individual
+[p10] receiving land, etc., for the purpose of using it as his/her own residence or his/her relatives' residence 10.21% (3)
+[p11] Consideration for the provision of the services of persons listed below in the business that as its main content provides personal services conducted in Japan
+[p12] a. Services of motion picture or theatre artists, musicians, and any other entertainers, and professional athletes b. Services of attorneys at law, certified public accountants and architects, and other
+[p13] professional services c. Services of persons having expert knowledge or specialist skills in science and technology, or business management, etc.
+[p14] 20.42% (4)
+[p15] Consideration for the leasing of real property, rights on real property, rights of quarrying, the establishment of a mining lease, or the lending of vessels or aircraft to residents and domestic corporations in Japan
+[p16] * excluding consideration for leasing land, houses, etc. that is paid by an individual renting land, houses, etc., for the purpose of using it as his/her own residence or his/her relatives' residence 20.42%
+[p17] (5) Interest on Japanese government bonds, Japanese municipal bonds, or bonds issued by domestic corporations, interest on bonds issued by foreign corporations pertaining
+[p18] to business operations carried out through their permanent establishments in Japan, and interest on deposits and savings deposited in business offices, etc. in Japan 15.315% (Note 2)
+[p19] (6) Dividends of surplus, dividends of profits, distribution of surplus, distribution of cash or interest on funds received from domestic corporations, or distribution of profit
+[p20] from an investment trust (excluding a bond investment trust and a publicly offered bond investment trust) or a specified trust issuing a beneficiary certificate which have
+[p21] been entrusted with a business office located in Japan 20.42% (7) Interest on a loan provided for a person who performs operations in Japan pertaining to that operations 20.42% (8)
+[p22] Any of the royalties or considerations listed below received from a person who performs operations in Japan pertaining to that operations
+[p23] a. Royalties on or consideration for the transfer of rights concerning technology such as industrial property rights, production methods involving special technologies, or know-how
+[p24] b. Royalties on or consideration for the transfer of copyrights, neighboring rights, or publishing rights c. Rental of machinery, equipment, vehicles, carriers, industrial tools, apparatus, or fixtures
+[p25] d. Rental of objects used on vessels or aircraft among the assets listed in b. or c.
+[p26] above and used for the operations of residents or domestic corporations 20.42%
+[p27] [page 42]
+[p28] (9) Remuneration for the provision of personal services such as salaries arising from work in Japan, or public pensions, etc., retirement allowances, etc., arising from work
+[p29] performed while the person was a resident (in case of a non-resident)
+[p30] 20.42% (10) Money or items awarded for advertising business conducted in Japan 20.42% (11) Pensions based on an insurance contract, etc. concluded with a life insurance
+[p31] company, a casualty insurance company under the Insurance Business Act, made through domestic business offices, etc.
+[p32] 20.42% (12) Compensation money for benefits from installment deposits which pertains to agreements concluded with business offices in Japan, etc.
+[p33] 15.315% (13) Regarding payments made to a person who performs operations in Japan, distribution of profits under any silent partnership (Tokumei-Kumiai) contract, etc.
+[p34] 20.42% (Note) 1 A "partnership contract" refers to a partnership contract provided for in Item 4 of Article 161, Paragraph 1 of the Income Tax Act.
+[p35] 2 Interest on transferred Japanese government bonds and transferred Japanese municipal bonds, and interest on certain transferred corporate bonds, shall be exempted from withholding under certain conditions.
+[p36] (Reference)
+[p37] Withholding tax rates for kinds of domestic source income listed below are shown in the right column of the following table.
+[p38] Kinds of domestic source income subject to withholding Withholding tax rate (1) Distributions of proceeds listed below a. Distribution of proceeds from beneficial rights of bond management investment
+[p39] trusts (excluding publicly offered ones)
+[p40] b. Distribution of proceeds from company bond -type beneficial rights in specified purpose trusts (excluding publicly offered ones)
+[p41] 15.315% (2) Dividends from listed stocks, etc.
+[p42] * Excluding dividends, etc. received by an individual who owns stocks or capital contributions equal to 3% or more of issued shares or capital contributions either in number or amount 15.315% (3)
+[p43] Capital gains, etc. from listed stocks, etc. kept in a specific account for which withholding is chosen * Only for the case in which a non-resident having a permanent establishment receives the payment 15.315%
+[p44] (4) Monetary awards, etc. from deposits and savings offering awards, etc. deposited in Japan 15.315% (5) Profit from redemption of discount bonds 18.378% (16.336% for certain cases)
+[p45] (6) Profit on redemption amount of discount bonds 15.315% (Note)
+[p46] (Note) Profit on redemption amount of transferred discount bonds shall be exempted from withholding under certain conditions.
+[p47] Attention!

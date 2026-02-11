@@ -1,0 +1,59 @@
+doc: 源泉徴収のしかた（令和8年版） (gensen_shikata_2026)
+year: 2026
+item: s016-part-16 / title: 資料 15 (part 16/21)
+section: 16 / 資料 15
+source_type: pdf
+source_url: https://www.nta.go.jp/publication/pamph/gensen/shikata_r08/pdf/15.pdf
+url: https://jplawdb.github.io/html-preview/ai-nta-guide-db/enhanced/gensen_shikata_2026/s016-part-16.html
+
+[p1] xable retirement inco me amount if you receive two or more retirement allowances from am ong general retirement allowance, etc., short -term retirement allowance, etc. or specified offi
+[p2] cer retirement allowance, etc. during this year.
+[p3] III. Deduction for Retirement Income In the case of genera l retirement, the amount of deduction for retirement income is determined as follows
+[p4] according to the length of service between joining the company and retirement.
+[p5] Length of service Deduction for retirement income 20 years or less 400,000 yen  length of service in years More than 20 years 8,000,000 yen + 700,000 yen  (length of service in years – 20 years)
+[p6] When calculating the deduction for retirement income, please consider the following points: 1 The amount of the deduction for retirement income is determined according to the "Table for Retirement
+[p7] Income Deduction Amount for Withholding."（源泉徴収のための退職所得控除額の表）
+[p8] Moreover, please see the "Withholding Tax Amount Table", in Japanese only, posted on the website of the NTA (https://www.nta.go.jp) for the "Table for Retirement Income Deduction Amount for Withholding.
+[p9] 2 Any fraction of length of service in years that is less than one year shall be rounded up to 1 year (e.g. 21 years and 3 months→22 years).
+[p10] 3 If the deduction for retirement income is calculated to be less than 800,000 yen, it is treated as 800,000 yen.
+[p11] 4 In the case of retirement as a direct result of becoming disabled, the amount of the deduction for retirement income shall be the amount for ordinary retirement plus 1,000,000 yen.
+[p12] [page 36]
+[p13] IV. Calculation of Tax Amount (based on the Tax Amount Table for 2026)
+[p14] (Example)
+[p15] (1) Length of service Joined on October 1, 1996, retired on March 31, 2026 (2) Amount of retirement allowance, etc. 17,000,000 yen (general retirement allowance, etc.)
+[p16] (3) Reason Reaching the compulsory retirement age (Note) In this instance, an " Application Concerning Receipt of Retirement Income" s hall be submitted.
+[p17] 20.42% of the retirement allowance, etc. would be withheld if the application were not submitted.
+[p18] The withholding agent is required to keep this application until the district director of the competent tax office requires its submission.
+[p19] [Tax calculation] (1) As length of service is 29 years and 6 months, this figure is rounded up to 30 years.
+[p20] (2) According to the "Table for Retirement Income Deduction Amount for Withholding ," the deduction for retirement income for a length of service of 30 years in the case of general retirement is 15,000,000 yen.
+[p21] (Table for Retirement Income Deduction Amount for Withholding)
+[p22] Length of service Deduction for retirement income General retirement Disability retirement 24 years 25 years Thousand yen 10,800 11,500 Thousand yen 11,800 12,500 29 years 30 years 31 years 32 years 14,300 15,000 15,700
+[p23] 16,400 15,300 16,000 16,700 17,400 (3) The taxable amount of retirement income is one half of the result of subtracting the deduction for retirement income from the revenue from retirement allowance, etc.
+[p24] (17,000,000 yen – 15,000,000 yen)  1/2 = 1,000,000 yen (4) The calculation is performed using the formula shown in the column headed "Tax amount" in the "Quick
+[p25] Calculating Table for Withholding Tax Amount for Retirement Income." (1,000,000 yen  5%)  102.1% = 51,050 yen This is the amount of income tax and special income tax for reconstruction to be withheld from the
+[p26] retirement allowance, etc.
+[p27] (Quick Calculating Table for Withholding Tax Amount for Retirement Income (for 2026)
+[p28] Taxable retirement income (A)
+[p29] Income tax rate (B)
+[p30] Deduction (C)
+[p31] Tax amount = { (A)  (B)－(C) } 102.1% 1,950,000 yen or less 5% - { (A)  5%}  102.1%
+[p32] [page 37]
+[p33] Over 1,950,000 yen and 3,300,000 yen or less 10% ¥97,500 { (A)  10% － ¥97,500}  102.1% Over 3,300,000 yen and 6,950,000 yen or less 20% ¥427,500 { (A)  20% － ¥427,500} × 102.1%
+[p34] Over 6,950,000 yen and 9,000,000 yen or less 23% ¥636,000 { (A)  23% － ¥636,000}  102.1% Over 9,000,000 yen and 18,000,000 yen or less 33% ¥1,536,000 { (A)  33% －¥1,536,000}  102.1%
+[p35] Over 18,000,000 yen and 40,000,000 yen or less 40% ¥2,796,000 { (A)  40% －¥2,796,000}  102.1% Over 40,000,000 yen 45% ¥4,796,000 { (A)  45% －¥4,796,000}  102.1%
+[p36] (Note) Any fraction of the tax amount determined that is less than 1 yen is omitted.
+[p37] [page 38]
+[p38] 4. Procedure for Withholding from Remuneration/Fees Certain remuneration/fees paid to a resident or domestic corporation, such as payments for manuscripts,
+[p39] lecture fees, fees for education/guidance in the arts, sports, or knowledge, remuneration paid to tax accountants, salespersons' fees, performance fees, and hostess remuneration, is subject to withholding income
+[p40] tax and special income tax for reconstruction at a certain rate at the time of payment, which amount is paid to the tax authorities by the payer of the remuneration/fees.
+[p41] The scope of remuneration/fees subject to withholding and the calculation method f or the amount of tax are shown in the following table.
+[p42] Any individual not paying salary , etc. or only paying salaries , etc. to two or fewer domestic employees on a regular basis does not have to withhold tax (excluding certain payment s of remuneration/fees such as
+[p43] hostess's remuneration as described in Item 9 of the following table).
+[p44] I. Remuneration/Fees Paid to Residents Remuneration/fees subject to withholding Method for calculation of amount of tax 1 Remuneration/fees for the services of attorneys at law, tax accountants, etc.
+[p45] Remuneration/fees for the services of attorneys at law (including foreign lawyers licensed in Japan), certified public accountants, tax accountants, registered accountants, assistant accountants, social
+[p46] insurance labor consultants, patent attorneys, management consultants, surveyors, assistant surveyors, architects, architect agents, real estate appraisers, assistant real estate appraisers,
+[p47] professional engineers, assistant professional engineers, fire damage appraisers, and automobile damage appraisers Amount of payment  10.21% If the amount paid to a person on one occasion exceeds
+[p48] 1,000,000 yen, the rate applied to the excess is 20.42%.
+[p49] 2 Remuneration/fees for juridical scriveners, real estate surveyors, and marine procedure commission agents (Amount of payment – 10,000 yen)  10.21% 3 Remuneration/fees for salespersons, money
+[p50] collectors, and meter readers {Monthly amount of payment – (120,000 yen – amount of monthly salary, etc.)}  10.21% 4 Fees for manuscripts and lectures, etc.
+[p51] Fees for manuscripts, book illustrations, musical

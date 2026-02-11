@@ -15,8 +15,18 @@
 # - https://jplawdb.github.io/html-preview/ai-nta-guide-db/text/{doc_code}/{item_id}.txt
 
 # 利用可能な doc_code
-# - hojin_aramashi_2025 : 法人税のあらましと申告の手引（令和7年版） (37 items)
+# - hojin_aramashi_2025 : 法人税のあらましと申告の手引（令和7年版） (56 items)
 # - gensen_aramashi_2026 : 源泉徴収のあらまし（令和8年版） (62 items)
+# - gensen_shikata_2026 : 源泉徴収のしかた（令和8年版） (44 items)
+# - nencho_shikata_2025 : 年末調整のしかた（令和7年分） (135 items)
+# - hotei_tebiki_2025 : 法定調書の作成と提出の手引（令和7年分） (27 items)
+# - inshi_tebiki_2025 : 印紙税の手引（令和7年5月） (11 items)
+# - hojin_kaisei_gaiyo_2025 : 法人税関係法令の改正の概要（令和7年度） (15 items)
+# - hojin_shinkoku_besshyo : 法人税及び地方法人税の申告（別表等） (5 items)
+# - etax_tetsuzuki6 : e-Tax 利用可能手続一覧（法人税確定申告等） (3 items)
+# - hojin_shohi_kakikata_ippan : 法人用 消費税及び地方消費税の申告書（一般用）の書き方 (5 items)
+# - hojin_shohi_kakikata_kani : 法人用 消費税及び地方消費税の申告書（簡易課税用）の書き方 (4 items)
+# - invoice_oshirase_2025 : インボイス制度に関するお知らせ（令和7年4月） (1 items)
 
 # 例: 法人税のあらましと申告の手引（令和7年版）
 # - https://jplawdb.github.io/html-preview/ai-nta-guide-db/text/hojin_aramashi_2025/s001.txt
@@ -25,3 +35,43 @@
 # 例: 源泉徴収のあらまし（令和8年版）
 # - https://jplawdb.github.io/html-preview/ai-nta-guide-db/text/gensen_aramashi_2026/s001.txt
 # - https://jplawdb.github.io/html-preview/ai-nta-guide-db/enhanced/gensen_aramashi_2026/s001.html
+
+# 例: 源泉徴収のしかた（令和8年版）
+# - https://jplawdb.github.io/html-preview/ai-nta-guide-db/text/gensen_shikata_2026/s001.txt
+# - https://jplawdb.github.io/html-preview/ai-nta-guide-db/enhanced/gensen_shikata_2026/s001.html
+
+# 例: 年末調整のしかた（令和7年分）
+# - https://jplawdb.github.io/html-preview/ai-nta-guide-db/text/nencho_shikata_2025/s001.txt
+# - https://jplawdb.github.io/html-preview/ai-nta-guide-db/enhanced/nencho_shikata_2025/s001.html
+
+# 例: 法定調書の作成と提出の手引（令和7年分）
+# - https://jplawdb.github.io/html-preview/ai-nta-guide-db/text/hotei_tebiki_2025/s001.txt
+# - https://jplawdb.github.io/html-preview/ai-nta-guide-db/enhanced/hotei_tebiki_2025/s001.html
+
+# 例: 印紙税の手引（令和7年5月）
+# - https://jplawdb.github.io/html-preview/ai-nta-guide-db/text/inshi_tebiki_2025/s001.txt
+# - https://jplawdb.github.io/html-preview/ai-nta-guide-db/enhanced/inshi_tebiki_2025/s001.html
+
+# 例: 法人税関係法令の改正の概要（令和7年度）
+# - https://jplawdb.github.io/html-preview/ai-nta-guide-db/text/hojin_kaisei_gaiyo_2025/s001.txt
+# - https://jplawdb.github.io/html-preview/ai-nta-guide-db/enhanced/hojin_kaisei_gaiyo_2025/s001.html
+
+# 例: 法人税及び地方法人税の申告（別表等）
+# - https://jplawdb.github.io/html-preview/ai-nta-guide-db/text/hojin_shinkoku_besshyo/s001.txt
+# - https://jplawdb.github.io/html-preview/ai-nta-guide-db/enhanced/hojin_shinkoku_besshyo/s001.html
+
+# 例: e-Tax 利用可能手続一覧（法人税確定申告等）
+# - https://jplawdb.github.io/html-preview/ai-nta-guide-db/text/etax_tetsuzuki6/s001.txt
+# - https://jplawdb.github.io/html-preview/ai-nta-guide-db/enhanced/etax_tetsuzuki6/s001.html
+
+# 例: 法人用 消費税及び地方消費税の申告書（一般用）の書き方
+# - https://jplawdb.github.io/html-preview/ai-nta-guide-db/text/hojin_shohi_kakikata_ippan/s001-part-01.txt
+# - https://jplawdb.github.io/html-preview/ai-nta-guide-db/enhanced/hojin_shohi_kakikata_ippan/s001-part-01.html
+
+# 例: 法人用 消費税及び地方消費税の申告書（簡易課税用）の書き方
+# - https://jplawdb.github.io/html-preview/ai-nta-guide-db/text/hojin_shohi_kakikata_kani/s001-part-01.txt
+# - https://jplawdb.github.io/html-preview/ai-nta-guide-db/enhanced/hojin_shohi_kakikata_kani/s001-part-01.html
+
+# 例: インボイス制度に関するお知らせ（令和7年4月）
+# - https://jplawdb.github.io/html-preview/ai-nta-guide-db/text/invoice_oshirase_2025/s001.txt
+# - https://jplawdb.github.io/html-preview/ai-nta-guide-db/enhanced/invoice_oshirase_2025/s001.html
