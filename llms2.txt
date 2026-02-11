@@ -1,0 +1,205 @@
+# jplawdb — 日本税法AIデータベースポータル
+# 設計前提: 1 Read ≒ 10kトークン / 1セッション ≒ 40回読み込み
+# 原則: 軽い索引で絞る → 本文に最短到達
+
+## 迷ったら（DB選択の早見表）
+
+| 探すもの | DB | 最短入口 |
+|----------|-----|---------|
+| 条文（法令） | ai-law-db/ | quickstart.txt |
+| 通達 | ai-tsutatsu-db/ | llms.txt |
+| 判決・裁決 | ai-hanketsu-db/ | quickstart.txt |
+| 文献（OECD/NTA） | ai-paper-db/ | llms.txt |
+| 租税条約 | ai-treaty-db/ | jp-tax-treaties/quickstart.txt |
+| NTA Q&A（質疑応答等） | ai-nta-qa-db/ | quickstart.txt |
+| NTA手引き（法人税・源泉等） | ai-nta-guide-db/ | quickstart.txt |
+| 法人税別表（構造・欄・転記） | beppyo-db/ | llms.txt |
+
+## 共通URLルール（全DB横断チートシート）
+
+- 本文テキスト: `text/{code}/{id}.txt`（法令/通達/QA/手引）、`core/{id}.txt`（判決）、`packs/*.txt`（文献/条約）、`beppyo/{ID}.txt`（別表）
+- 根拠HTML: `enhanced/{code}/{id}.html#pX`（項）/ `#pX-iY`（号）
+- shard索引: `data/shards_index.json` → `data/shards/shard-XX.txt`（TSV。キーワード検索用）
+- 目次索引: `data/resolve_lite/index.json` → `data/resolve_lite/{code}.json`（項番一覧）
+- 英字キーワード検索: `data/latin_terms/index.json` → `data/latin_terms/*.tsv`（文献/条約DB）
+
+## 読み込みコスト目安
+
+- ID判明（条番号・通達番号・別表番号等）→ 直接アクセスで**1回**（索引スキップ推奨）
+- キーワード検索 → shards_index + shard-XX.txt + 本文 = **3-4回**
+- 複数DB横断 → 直接アクセスできるものを先に取り、shard検索は後回し
+
+---
+
+## 1) 条文（法令）→ ai-law-db
+
+入口: `ai-law-db/quickstart.txt`
+
+**検索方法**
+- 条番号が判明: `ai-law-db/text/{law_code}/{article}.txt` を直接読む（**1回で完結**）
+  例: 措置法66条の7 → `text/sozei_tokubetsu/66-7.txt`
+  例: 法人税法22条 → `text/hojinzei/22.txt`
+  例: 法人税法施行令4条の2 → `text/hojinzei_seirei/4-2.txt`
+  表記ルール: 「第66条の7」→ `66-7`（「の」= `-`）
+- 条番号が曖昧/条名から探す: `ai-law-db/data/resolve_meta_corp/index.json` → `{law_code}/{bucket}.json`
+  bucket = 条文キー先頭の数字（例: 39-14 → bucket `39`）
+- 法令略称が不明: `ai-law-db/data/law_aliases.json` で law_code を確定
+- 根拠URL: `ai-law-db/enhanced/{law_code}/{article}.html#pX` (#pX=項, #pX-iY=号)
+
+**主要law_code**
+- hojinzei / hojinzei_seirei / hojinzei_kisoku : 法人税法/施行令/施行規則
+- sozei_tokubetsu / sozei_tokubetsu_seirei : 租税特別措置法/施行令
+- shotokuzei / shotokuzei_seirei : 所得税法/施行令
+- shohizei / shohizei_seirei : 消費税法/施行令
+- sozokuzei / sozokuzei_seirei : 相続税法/施行令
+- kokuzei_tsusoku / kokuzei_tsusoku_seirei : 国税通則法/施行令
+- kaishahou / kaishahou_seirei / kaishahou_kisoku : 会社法/施行令/施行規則
+- shouhou : 商法
+（各法令にはさらに _kisoku（施行規則）あり。全24法令）
+
+## 2) 通達 → ai-tsutatsu-db
+
+入口: `ai-tsutatsu-db/llms.txt`
+
+**検索方法**
+- 項番が判明: `ai-tsutatsu-db/text/{doc_code}/{item_id}.txt` を直接読む（**1回**）
+  例: 法基通1-1-1 → `text/hojinzei_kihon_tsutatsu/1-1-1.txt`
+  例: 措通(法)66の6-1 → `text/sozei_tokubetsu_tsutatsu_hojinzei/66-6-1.txt`
+  注意: item_id の区切りは半角ハイフン `-` 固定
+- 項番が不明: `ai-tsutatsu-db/data/resolve_lite/{doc_code}.json` で項番一覧を取得
+- 通達名が不明: `ai-tsutatsu-db/data/doc_aliases.json` で doc_code を確定
+
+**doc_code一覧**
+- hojinzei_kihon_tsutatsu : 法人税基本通達
+- shotokuzei_kihon_tsutatsu : 所得税基本通達
+- shohizei_kihon_tsutatsu : 消費税基本通達
+- sozokuzei_kihon_tsutatsu : 相続税法基本通達
+- hyoka_kihon_tsutatsu : 財産評価基本通達
+- sozei_tokubetsu_tsutatsu_hojinzei : 租税特別措置法関係通達（法人税編）
+- kokuzei_tsusoku_kihon_tsutatsu : 国税通則法基本通達
+
+## 3) 判決・裁決 → ai-hanketsu-db
+
+入口: `ai-hanketsu-db/quickstart.txt`
+
+**検索方法**
+- case_idが判明: `ai-hanketsu-db/houjinzei/core/{id}.txt` を直接読む（**1回**）
+  例: `houjinzei/core/13436.txt`
+  読み方: YAML（メタデータ）→ 判決要約 → 注意書き
+- キーワード検索:
+  1) `ai-hanketsu-db/houjinzei/data/shards_index.json` → shard番号特定
+  2) `ai-hanketsu-db/houjinzei/data/shards/shard-XX.txt`（TSV: issue_hint列等でキーワード検索）
+  3) `ai-hanketsu-db/houjinzei/core/{id}.txt`（要約本文）
+
+**収録**
+- houjinzei/ : 法人税判決 990件
+- saiketsu-houjinzei/ : 法人税裁決（同構造: data/shards/ + core/）
+
+NOTE: `core/batch-*.txt` は内部用。入口ナビには使わない。
+
+## 4) 文献（OECD/NTA）→ ai-paper-db
+
+入口: `ai-paper-db/llms.txt`
+
+**検索方法**
+- キーワード検索:
+  1) `{sub-db}/data/shards_index.json` → shard番号特定
+  2) `{sub-db}/data/shards/shard-XX.txt`（TSV検索）
+  3) `{sub-db}/packs/{section}-pack-XX.txt`（本文。1ファイル≒1万トークン以内）
+- 英字キーワード（HTVI/CCA/APA/CUP/TNMM/DEMPE等）:
+  `{sub-db}/data/latin_terms/index.json` → `data/latin_terms/*.tsv` → packs本文
+
+**収録（3 sub-DB）**
+- oecd-tpg-2022/ : OECD 移転価格ガイドライン 2022（参考仮訳）
+- nta-tp-audit/ : 国税庁 移転価格事務運営指針・参考事例集
+- oecd-beps/ : OECD/G20 BEPS（選抜）
+
+## 5) 租税条約 → ai-treaty-db
+
+入口: `ai-treaty-db/jp-tax-treaties/quickstart.txt`
+
+**検索方法**
+- 対象国を選ぶ: `ai-treaty-db/jp-tax-treaties/data/docs_index.tsv`（国名/文書一覧）
+- キーワード検索:
+  1) `jp-tax-treaties/data/shards_index.json`
+  2) `jp-tax-treaties/data/shards/shard-XXX.txt`（TSV検索）
+  3) `jp-tax-treaties/packs/...`（本文）
+- 英字キーワード（PE/MAP/MLI/PPT等）:
+  `jp-tax-treaties/data/latin_terms/index.json` → `*.tsv` → packs本文
+
+## 6) NTA Q&A（質疑応答/文書回答/タックスアンサー）→ ai-nta-qa-db
+
+入口: `ai-nta-qa-db/quickstart.txt`
+
+**検索方法**
+- doc_code + item_idが判明: `ai-nta-qa-db/text/{doc_code}/{item_id}.txt`（**1回**）
+- キーワード検索:
+  1) `ai-nta-qa-db/data/shards_index.json`
+  2) `ai-nta-qa-db/data/shards/shard-XXX.txt`（TSV検索）
+  3) `ai-nta-qa-db/text/{doc_code}/{item_id}.txt`
+- 根拠URL: `ai-nta-qa-db/enhanced/{doc_code}/{item_id}.html#pX`
+
+**doc_code命名規則**: `{種類}_{税目}`
+- 種類: shitsugi（質疑応答）、bunshokaito（文書回答）、taxanswer（タックスアンサー）
+- 税目: hojin/shotoku/shohi/gensen/sozoku/zoyo/joto/inshi/hyoka/hotei等
+- 例: 法人税の質疑応答 → `shitsugi_hojin` (307件), 文書回答 → `bunshokaito_hojin` (188件)
+
+**主要件数（税目別）**
+- 法人税: 601件 / 所得税: 624件 / 消費税: 453件 / 譲渡所得: 366件
+- 印紙税: 279件 / 源泉所得税: 251件 / 相続税・贈与税: 246件 / 財産評価: 205件
+
+全doc_code一覧 → `ai-nta-qa-db/quickstart.txt` 参照
+
+## 7) NTA手引き（法人税・源泉・年調・法定調書・印紙税ほか）→ ai-nta-guide-db
+
+入口: `ai-nta-guide-db/quickstart.txt`
+
+**検索方法**（3階層の目次→本文）
+1) `ai-nta-guide-db/data/resolve_lite/index.json` → doc_code一覧
+2) `ai-nta-guide-db/data/resolve_lite/{doc_code}.json` → part一覧
+3) `ai-nta-guide-db/data/resolve_lite_parts/{doc_code}/part-XXX.json` → item_id一覧
+4) `ai-nta-guide-db/text/{doc_code}/{item_id}.txt`（本文）
+5) 根拠URL: `ai-nta-guide-db/enhanced/{doc_code}/{item_id}.html#pX`
+
+**収録ドキュメント（doc_code）**
+- hojin_aramashi_2025 : 法人税のあらましと申告の手引（令和7年版） (56件)
+- gensen_aramashi_2026 : 源泉徴収のあらまし（令和8年版） (62件)
+- gensen_shikata_2026 : 源泉徴収のしかた（令和8年版） (44件)
+- nencho_shikata_2025 : 年末調整のしかた（令和7年分） (135件)
+- hotei_tebiki_2025 : 法定調書の作成と提出の手引（令和7年分） (27件)
+- inshi_tebiki_2025 : 印紙税の手引（令和7年5月） (11件)
+- hojin_kaisei_gaiyo_2025 : 法人税関係法令の改正の概要（令和7年度） (15件)
+- hojin_shinkoku_besshyo : 法人税及び地方法人税の申告・別表等 (5件)
+- hojin_shohi_kakikata_ippan : 法人用 消費税申告書（一般用）の書き方 (5件)
+- hojin_shohi_kakikata_kani : 法人用 消費税申告書（簡易課税用）の書き方 (4件)
+- invoice_oshirase_2025 : インボイス制度に関するお知らせ (1件)
+
+## 8) 法人税別表（構造・各欄・転記関係）→ beppyo-db
+
+入口: `beppyo-db/llms.txt`（推奨: まずこれ。別表一覧表・転記関係・検算式・税率を記載）
+
+**検索方法**
+- 別表番号が判明: `beppyo-db/beppyo/{ID}.txt` を直接読む（**1回**）
+  例: 別表四 → `beppyo/B04.txt`, 別表十五 → `beppyo/B15.txt`
+  ID命名: B{番号}。枝番はハイフン（例: B05-1, B06-2-2, B17-3-5）
+- 条文番号から別表を探す: `beppyo-db/lookup/article-map.txt`（条文→別表の逆引き）
+- 転記関係を調べる:
+  `beppyo-db/rel/rel-core.txt` : 必須5別表(B01,B04,B05-1,B05-2,B02)の相互関係
+  `beppyo-db/rel/rel-to-B04.txt` : 各別表→B04への転記一覧
+  `beppyo-db/rel/rel-from-B04.txt` : B04→B01→B05(二)→B05(一)の転記チェーン
+- 検算不一致の調査: `beppyo-db/check/kenzan.txt`（B04↔B05(一)不一致原因TOP10）
+- 作成順序: `beppyo-db/flow/overview.txt`
+
+**txtファイルの読み方（全45ファイル共通フォーマット）**
+- 1行目: `{ID} {別表名}｜{正式名称}`
+- 2行目: `{根拠条文}｜{適用法人}｜{性格}`
+- 3行目: `←{入力元} →{出力先}`（転記関係の要約。先頭3行だけで転記ネットワーク把握可能）
+- 以降: ■セクション群（■構造、■欄N:記述、■NTA記載の仕方のポイント、■関連別表、■よくある間違い）
+- 欄記述の記法: `欄N: 名称 計算式 ←転記元 →転記先`
+
+収録: 全45別表（B01〜B17-4）。別表一覧・転記関係・検算式の詳細は `beppyo-db/llms.txt` 参照。
+
+## 9) Tax KB / 別表ナビKB
+
+- Tax KB（PageIndex型）: `tax-kb/quickstart.txt`
+- 別表ナビKB: `tax-besshyo-kb/quickstart.txt`
