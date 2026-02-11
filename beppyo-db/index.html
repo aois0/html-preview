@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>法人税別表データベース - 実務家向けリファレンス</title>
+<style>
+body{font-family:'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif;line-height:1.7;color:#333;max-width:900px;margin:0 auto;padding:20px;background:#f8f9fa}
+h1{color:#1a365d;border-bottom:3px solid #2b6cb0;padding-bottom:8px;font-size:1.5em}
+h2{color:#2b6cb0;font-size:1.15em;margin:24px 0 8px;border-left:4px solid #2b6cb0;padding-left:10px}
+a{color:#2b6cb0;text-decoration:none}a:hover{text-decoration:underline}
+table{width:100%;border-collapse:collapse;font-size:0.92em;margin:8px 0}
+th,td{padding:6px 8px;border:1px solid #e2e8f0;text-align:left}
+th{background:#edf2f7;font-weight:600}
+.nav{background:#edf2f7;padding:10px 14px;border-radius:6px;margin:12px 0;font-size:0.9em}
+.nav a{margin-right:16px}
+.tag{display:inline-block;font-size:0.75em;padding:1px 6px;border-radius:3px;color:#fff;margin-right:4px}
+.tag-must{background:#e53e3e}.tag-freq{background:#dd6b20}.tag-spec{background:#805ad5}
+footer{margin-top:30px;padding-top:12px;border-top:1px solid #e2e8f0;font-size:0.8em;color:#718096;text-align:center}
+</style>
+</head><body>
+
+<!--SITE:beppyo-db|法人税別表データベース|AI知識ベース|実務家向け-->
+<h1>法人税別表データベース</h1>
+<p>法人税確定申告書の別表について、各欄の意味・転記関係・相互関係を実務家向けに整理したリファレンスです。</p>
+
+<div class="nav">
+<strong>ナビ:</strong>
+<a href="flow/overview.html">作成順序・フロー</a>
+<a href="rel/rel-core.html">5別表の相互関係</a>
+<a href="rel/rel-to-B04.html">→B04転記一覧</a>
+<a href="check/kenzan.html">検算が合わない時</a>
+<a href="lookup/article-map.html">条文→別表</a>
+</div>
+
+<h2>必須別表（全法人が作成）</h2>
+<table>
+<tr><th>別表</th><th>名称</th><th>根拠</th><th>概要</th></tr>
+<tr><td><a href="beppyo/B01.html">別表一(一)</a></td><td>各事業年度の所得に係る申告書</td><td>法74条</td><td>税額計算の最終集約。所得金額←B04、税額控除←B06系。確定法人税額を算出</td></tr>
+<tr><td><a href="beppyo/B02.html">別表二</a></td><td>同族会社等の判定に関する明細書</td><td>法2条十</td><td>株主上位3グループで50%超→同族会社。特定同族会社の留保金課税の前提</td></tr>
+<tr><td><a href="beppyo/B04.html">別表四</a></td><td>所得の金額の計算に関する明細書</td><td>法22条</td><td>申告調整の中核。PL当期利益+加算-減算=所得金額。<a href="beppyo/B04-2.html">後半(減算)</a></td></tr>
+<tr><td><a href="beppyo/B05-1.html">別表五(一)</a></td><td>利益積立金額及び資本金等の額の計算</td><td>法2条十七の三</td><td>税務上のBS。期首残+増-減=期末残。B04と検算必須</td></tr>
+<tr><td><a href="beppyo/B05-2.html">別表五(二)</a></td><td>租税公課の納付状況等に関する明細書</td><td>法38条</td><td>法人税・住民税・事業税の期首未納→発生→納付→期末未納を管理</td></tr>
+</table>
+
+<h2>税額控除系（別表六）</h2>
+<table>
+<tr><th>別表</th><th>名称</th><th>根拠</th><th>概要</th></tr>
+<tr><td><span class="tag tag-freq">頻出</span>別表六(一)</td><td>所得税額の控除に関する明細書</td><td>法68条</td><td>配当・利子の源泉所得税を法人税から控除→B01</td></tr>
+<tr><td>別表六(二)</td><td>外国税額の控除に関する明細書</td><td>法69条</td><td>外国で課された税額を控除。控除限度額の計算→B01</td></tr>
+<tr><td>別表六(六)</td><td>試験研究費の総額に係る税額控除</td><td>措法42の4</td><td>R&D減税。総額型の税額控除→B01</td></tr>
+<tr><td><span class="tag tag-freq">頻出</span>別表六(二十四)</td><td>給与等の支給額が増加した場合の税額控除</td><td>措法42の12の5</td><td>賃上げ促進税制。中小は15-45%控除→B01</td></tr>
+<tr><td>別表六(二十七)</td><td>戦略分野国内生産促進税制</td><td>措法42の12の7</td><td>R6新設。半導体・EV等の生産設備投資→B01</td></tr>
+</table>
+
+<h2>所得計算系（別表七〜八）</h2>
+<table>
+<tr><th>別表</th><th>名称</th><th>根拠</th><th>概要</th></tr>
+<tr><td><span class="tag tag-freq">頻出</span>別表七(一)</td><td>欠損金又は災害損失金の損金算入</td><td>法57条</td><td>青色欠損金10年繰越。大法人50%制限。→B04減算</td></tr>
+<tr><td><span class="tag tag-freq">頻出</span>別表八(一)</td><td>受取配当等の益金不算入に関する明細書</td><td>法23条</td><td>持株比率4区分（100%/1/3超/5%超/5%以下）→B04減算</td></tr>
+</table>
+
+<h2>引当金・準備金（別表十一）</h2>
+<table>
+<tr><th>別表</th><th>名称</th><th>根拠</th><th>概要</th></tr>
+<tr><td>別表十一(一の二)</td><td>一括評価金銭債権に係る貸倒引当金</td><td>法52条</td><td>貸倒実績率法。繰入限度超過額→B04加算</td></tr>
+<tr><td>別表十一(二)</td><td>個別評価金銭債権に係る貸倒引当金</td><td>法52条</td><td>個別に回収不能見込額を評価→B04加算/減算</td></tr>
+</table>
+
+<h2>寄附金・交際費（別表十四・十五）</h2>
+<table>
+<tr><th>別表</th><th>名称</th><th>根拠</th><th>概要</th></tr>
+<tr><td><span class="tag tag-freq">頻出</span>別表十四(二)</td><td>寄附金の損金算入に関する明細書</td><td>法37条</td><td>損金算入限度額計算。国等指定寄附金は全額損金→B04加算</td></tr>
+<tr><td><span class="tag tag-freq">頻出</span>別表十五</td><td>交際費等の損金不算入額の計算</td><td>措法61の4</td><td>中小800万定額控除or飲食50%有利選択。→B04加算(社外流出)</td></tr>
+</table>
+
+<h2>減価償却（別表十六）</h2>
+<table>
+<tr><th>別表</th><th>名称</th><th>根拠</th><th>概要</th></tr>
+<tr><td>別表十六(一)</td><td>旧定額法又は定額法による減価償却資産</td><td>法31条</td><td>H19.3以前取得。償却超過額→B04加算(留保)</td></tr>
+<tr><td><span class="tag tag-freq">頻出</span>別表十六(二)</td><td>定額法による減価償却資産</td><td>法31条</td><td>H19.4以降取得。償却超過額→B04加算(留保)</td></tr>
+<tr><td>別表十六(六)</td><td>定率法による減価償却資産</td><td>法31条</td><td>H24.4以降200%定率法。償却超過額→B04加算(留保)</td></tr>
+<tr><td><span class="tag tag-freq">頻出</span>別表十六(七)</td><td>少額減価償却資産の取得価額の損金算入</td><td>措法67の5</td><td>中小30万未満即時償却（年300万限度）→B04減算</td></tr>
+</table>
+
+<h2>国際税務（別表十七）</h2>
+<table>
+<tr><th>別表</th><th>名称</th><th>根拠</th><th>概要</th></tr>
+<tr><td><span class="tag tag-spec">特殊</span>別表十七(四)</td><td>国外関連者に関する明細書</td><td>措法66の4</td><td>移転価格税制。独立企業間価格の算定</td></tr>
+</table>
+
+<h2>グローバルミニマム課税（別表二十）</h2>
+<table>
+<tr><th>別表</th><th>名称</th><th>根拠</th><th>概要</th></tr>
+<tr><td><span class="tag tag-spec">特殊</span>別表二十系</td><td>各対象会計年度の国際最低課税額に係る申告書</td><td>法82の2</td><td>R6新設。Pillar2/GloBE。年間収益7.5億EUR超のグループ対象</td></tr>
+</table>
+
+<footer>
+法人税別表データベース | AI知識ベース（Genspark等対応）| 最終更新: 2026-02-11 | 適用: 令和6年4月1日以後終了事業年度
+</footer>
+</body></html>

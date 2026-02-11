@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>【別表四】所得の金額の計算に関する明細書（後半） - 法人税別表DB</title>
+<style>
+body{font-family:'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif;line-height:1.7;color:#333;max-width:900px;margin:0 auto;padding:20px;background:#f8f9fa}
+h1{color:#1a365d;border-bottom:3px solid #2b6cb0;padding-bottom:8px;font-size:1.4em}
+h2{color:#2b6cb0;font-size:1.1em;margin:20px 0 8px;border-left:4px solid #2b6cb0;padding-left:10px}
+a{color:#2b6cb0}
+table{width:100%;border-collapse:collapse;font-size:0.88em;margin:8px 0}
+th,td{padding:5px 8px;border:1px solid #e2e8f0;text-align:left}
+th{background:#edf2f7}
+.meta{background:#ebf8ff;border:1px solid #bee3f8;border-radius:6px;padding:10px 14px;margin:10px 0;font-size:0.9em}
+.warn{background:#fffbeb;border-left:4px solid #d69e2e;padding:8px 14px;margin:10px 0;font-size:0.9em}
+footer{margin-top:24px;padding-top:10px;border-top:1px solid #e2e8f0;font-size:0.8em;color:#718096}
+</style>
+</head><body>
+
+<!--BEPPYO:B04-2|所得の金額の計算に関する明細書（後半）|法22条|全法人|→B01,→B05(一)-->
+<h1>【別表四】所得の金額の計算に関する明細書（後半：減算・所得金額）</h1>
+
+<div class="meta">
+<strong>前半</strong>: <a href="B04.html">別表四（前半：構造と加算）</a> |
+<strong>転記先</strong>: → <a href="B01.html">別表一</a>（所得金額）、→ <a href="B05-1.html">別表五(一)</a>（留保項目）
+</div>
+
+<h2>減算項目の詳細</h2>
+<table>
+<tr><th>欄</th><th>項目名</th><th>意味・内容</th><th>転記元←</th><th>留保/社外</th></tr>
+<tr><td>12</td><td>減算: 受取配当等の益金不算入額</td><td>二重課税排除。持株比率4区分（完全子法人100%、関連法人1/3超、その他5%超、非支配5%以下）</td><td>←B08(一)13欄or26欄</td><td>社外流出③</td></tr>
+<tr><td>13</td><td>減算: 外国子会社配当の益金不算入額</td><td>外国子会社からの配当95%益金不算入</td><td>←B08(二)</td><td>社外流出③</td></tr>
+<tr><td>14</td><td>減算: 減価償却超過額の当期認容額</td><td>過年度の償却超過額が当期の償却不足で解消（認容）</td><td>←B16系</td><td>留保②</td></tr>
+<tr><td>15</td><td>減算: 貸倒引当金の当期認容額（戻入）</td><td>前期繰入超過額の当期取崩・認容</td><td>←B11系</td><td>留保②</td></tr>
+<tr><td>16</td><td>減算: 欠損金又は災害損失金の損金算入額</td><td>青色欠損金10年繰越控除。大法人は所得の50%が限度</td><td>←B07(一)</td><td>留保②</td></tr>
+<tr><td>17</td><td>減算: 還付法人税等の益金不算入額</td><td>還付された法人税等で雑収入に計上したもの。益金不算入のため減算</td><td>←B05(二)</td><td>留保②</td></tr>
+<tr><td>18</td><td>減算: 還付所得税等の益金不算入額</td><td>還付された所得税等（源泉税の還付等）</td><td>←B05(二)</td><td>社外流出③</td></tr>
+<tr><td>19</td><td>減算: その他（各社個別記載）</td><td>事業税の損金算入、少額減価償却資産の即時償却等。空欄に個別記載</td><td>←各種計算</td><td>項目による</td></tr>
+<tr><td>20</td><td>減算計</td><td>欄12〜19の合計</td><td>―</td><td>―</td></tr>
+</table>
+
+<h2>仮計・所得金額の計算</h2>
+<table>
+<tr><th>欄</th><th>項目名</th><th>計算式・内容</th><th>転記先→</th></tr>
+<tr><td>21</td><td>仮計</td><td>1（当期利益）＋ 11（加算計）－ 20（減算計）</td><td>―</td></tr>
+<tr><td>22</td><td>法人税額から控除される所得税額</td><td>別表六(一)の控除所得税額を加算。損金不算入のため</td><td>社外流出③</td></tr>
+<tr><td>23〜26</td><td>各種調整項目</td><td>欠損金の繰越控除の特殊調整等</td><td>―</td></tr>
+<tr><td>27</td><td><strong>所得金額又は欠損金額</strong></td><td>21＋22＋各種調整 ＝ 最終的な課税所得</td><td>→ <a href="B01.html">B01</a>「所得金額」欄</td></tr>
+</table>
+
+<div class="warn">
+<strong>欄27が最重要</strong>: この金額が法人税額計算の基礎。別表一の「所得金額」欄に転記される。千円未満切捨。
+</div>
+
+<h2>別表四から別表五(一)への転記ルール</h2>
+<table>
+<tr><th>別表四の欄</th><th>→</th><th>別表五(一)の処理</th><th>例</th></tr>
+<tr><td>加算・留保②</td><td>→</td><td>該当項目の「増③」欄に記載</td><td>償却超過額5→B05(一)減価償却超過額の増③</td></tr>
+<tr><td>減算・留保②</td><td>→</td><td>該当項目の「減②」欄に記載</td><td>認容額14→B05(一)減価償却超過額の減②</td></tr>
+<tr><td>社外流出③</td><td>→</td><td>転記しない</td><td>交際費7（社外流出）→B05(一)に影響なし</td></tr>
+</table>
+
+<h2>よくある間違い</h2>
+<table>
+<tr><th>間違い</th><th>正しい処理</th></tr>
+<tr><td>1欄に税引前利益を記載</td><td>税引後の当期純利益を記載する</td></tr>
+<tr><td>交際費を留保②に記載</td><td>交際費は社外流出③。永久差異なのでB05(一)に連動しない</td></tr>
+<tr><td>事業税を加算に記載</td><td>事業税は損金算入。法人税・住民税のみ加算対象</td></tr>
+<tr><td>前期分事業税の減算漏れ</td><td>前期確定事業税は当期の損金。別表四で減算処理が必要</td></tr>
+<tr><td>個別別表を作成せずに別表四を記載</td><td>必ず各別表(B06〜B16)を先に作成し、結果を転記する</td></tr>
+</table>
+
+<h2>関連別表</h2>
+<p>
+<a href="B04.html">別表四（前半）</a> |
+<a href="B01.html">別表一</a> |
+<a href="B05-1.html">別表五(一)</a> |
+<a href="B05-2.html">別表五(二)</a> |
+<a href="../rel/rel-core.html">5別表の相互関係</a> |
+<a href="../check/kenzan.html">検算</a>
+</p>
+
+<footer>
+<a href="../index.html">← 別表DBトップ</a> |
+法人税別表データベース | 最終更新: 2026-02-11
+</footer>
+</body></html>
