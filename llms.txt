@@ -115,6 +115,10 @@ NOTE
 - `/html-preview/ai-nta-guide-db/quickstart.txt`
 - `/html-preview/ai-nta-guide-db/llms.txt`
 
+収録（明示）
+- `hojin_aramashi_2025` = 法人税のあらましと申告の手引（令和7年版）
+- `gensen_aramashi_2026` = 源泉徴収のあらまし（令和8年版）
+
 典型フロー（10kトークン制約向け）
 1) `ai-nta-guide-db/data/resolve_lite/index.json`
 2) `ai-nta-guide-db/data/resolve_lite/{doc_code}.json`（part一覧）
