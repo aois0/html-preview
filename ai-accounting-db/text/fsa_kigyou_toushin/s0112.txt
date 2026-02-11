@@ -1,0 +1,34 @@
+doc: 金融庁 企業会計審議会（答申・報告書等） (fsa_kigyou_toushin)
+year: 2026
+item: s0112 / title: Machine translation English
+section: 112 / Machine translation English
+source_type: html
+source_url: https://www.fsa.go.jp/singi/singi_kigyou/top.html
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/fsa_kigyou_toushin/s0112.html
+
+[p1] Note: This page is machine translated. Translated pages are not necessarily correct.
+[p2] Tweet 企業会計審議会 新着情報 開催通知 会議資料 議事録 報告書等 さらに見る 答申・報告書等 各会議体の答申・報告書等については、こちらからご覧ください。
+[p3] 議事録・資料等 各会議体の議事録・資料等については、こちらからご覧ください。
+[p4] 総会 総会以外の会議 監査基準等（最新版）
+[p5] 監査基準（令和２年11月６日時点）
+[p6] 中間監査基準（令和２年11月６日時点）
+[p7] 監査に関する品質管理基準（令和６年３月12日時点）
+[p8] 期中レビュー基準（令和６年３月12日時点）
+[p9] 監査における不正リスク対応基準（平成25年３月26日時点）
+[p10] 財務報告に係る内部統制の評価及び監査の基準並びに財務報告に係る内部統制の評価及び監査に関する実施基準（令和５年４月７日時点）
+[p11] 委員名簿 企業会計審議会 委員名簿(令和７年７月29日現在)
+[p12] 会計部会 委員等名簿(令和７年９月19日現在)
+[p13] 監査部会 委員等名簿(令和７年７月29日現在)
+[p14] 内部統制部会 委員等名簿(令和５年４月７日現在)
+[p15] 調査研究 オックスフォード・レポート「日本の経済社会に対するIFRSの影響に関する調査研究」（平成24年３月）
+[p16] IFRSに関する調査報告書（平成24年２月）
+[p17] IFRSに関する欧州調査出張（フランス・ドイツ・EFRAG）調査報告書概要（PDF:149KB）
+[p18] IFRSに関する北米調査出張（米国）調査報告書概要（PDF:165KB）
+[p19] IFRSに関する北米調査出張（カナダ）調査報告書概要（PDF:167KB）
+[p20] IFRSに関するアジア調査出張（中国）調査報告書概要（PDF:135KB）
+[p21] IFRSに関するアジア調査出張（韓国）調査報告書概要（PDF:132KB）
+[p22] IFRSに関する欧州調査出張（フランス・ドイツ・EFRAG）調査報告書（PDF:410KB）
+[p23] IFRSに関する北米調査出張（米国）調査報告書（PDF:308KB）
+[p24] IFRSに関する北米調査出張（カナダ）調査報告書（PDF:297KB）
+[p25] IFRSに関するアジア調査出張（中国）調査報告書（PDF:355KB）
+[p26] IFRSに関するアジア調査出張（韓国）調査報告書（PDF:322KB）

@@ -1,0 +1,14 @@
+doc: 金融庁 企業会計審議会（議事録・会議資料） (fsa_kigyou_gijiroku)
+year: 2026
+item: s0272 / title: Machine translation English
+section: 272 / Machine translation English
+source_type: html
+source_url: https://www.fsa.go.jp/singi/singi_kigyou/siryou/naibu/20061106.html
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/fsa_kigyou_gijiroku/s0272.html
+
+[p1] Note: This page is machine translated. Translated pages are not necessarily correct.
+[p2] Tweet 企業会計審議会第14回内部統制部会 議事次第 日時：平成18年11月６日（月）14時～16時 場所：金融庁特別会議室 １．開会 ２．実施基準案に係る検討について ３．「内部統制の基本的枠組み」について ４．意見交換 ５.「財務報告に係る内部統制の評価及び報告」について ６．意見交換 ７．「財務報告に係る内部統制の監査」について ８．意見交換 ９．閉会 第14回内部統制部会配付資料
+[p3] （資料１－１）内部統制の基本的枠組み（案）（PDF：263KB）
+[p4] （資料１－２）財務報告に係る内部統制の評価及び報告（案）（PDF：323KB）
+[p5] （資料１－３）財務報告に係る内部統制の監査（案）（PDF：209KB）
+[p6] （資料２） 参考資料（PDF：146KB）

@@ -1,0 +1,11 @@
+doc: JICPA 実務指針等公表物（お知らせ・公表物） (jicpa_notification)
+year: 2026
+item: s0031 / title: 本文
+section: 31 / 本文
+source_type: pdf
+source_url: https://jicpa.or.jp/specialized_field/files/5-99-0-2-20080213.pdf
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/jicpa_notification/s0031.html
+
+[p1] [page 1]
+[p2] ໿ͷదਖ਼ԽͷҰ૚ͷਪਐʹ͍ͭͯʯ ʢฏ੒ লி࿈བྷձ ੓๏ਓʹ͓͚Δਵҙ ೔ɺ૯ ߦ ʯ ʢฏ੒ ֳ ݄ ؔ ਖ਼ͳ ʢຢ͸పఈతͳʣ ؂ܭ Ͱ͖Δ͜ͱʹ͍ͭ ਖ਼ʹରԠ ੓๏ਓ͔Β ໿ͷͦ΋ͦ ͍ʹ͍ͭ ਓ͕νΣοΫ΍൑அΛ͢Δ͜ͱ ͔ΒൣғΛ௒͑Δ΋ͷͰ͋Δ ೝ͓ͯ͠Γ·͢ɻ ਖ਼ͳʢຢ͸పఈతͳʣ ੓๏ਓ͕ɺ ఆͷ੔උ΍ͦΕΒͷίϯϓϥΠΞϯε૊৫Λઃఆ ํ ͱ੹೚ Խ͢Δ͜ͱ͕ॏཁͰ͋ ਓʹ͓͍ͯ ฒͼʹͦ ͍ɺ ΅͢
+[p3] ങϓϩηεʹ͓͚Δ ͍ͬͯ͘౳ͷඞ ͑ΒΕ·͢ɻ ؂ ਖ਼ʹʢຢ͸పఈతʹʣ ຿ ݶ ׺ ͍ ͠·͢ɻ Ҏɹɹ্ ໿ʹ͍ͭͯ ೔ ɹ୲ɹ౰ ɹ୩ɹོ෉ ɹԬɹอ෉

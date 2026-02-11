@@ -1,0 +1,10 @@
+doc: JICPA 実務指針等公表物（研究報告） (jicpa_research_report)
+year: 2026
+item: s0234 / title: 前書文
+section: 234 / 前書文
+source_type: pdf
+source_url: https://jicpa.or.jp/specialized_field/files/01223-004055.pdf
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/jicpa_research_report/s0234.html
+
+[p1] [page 1]
+[p2]  ߸ ද   ࣄຬ  ࠪ ද͍ͨ͠·ͨ͠ͷͰ͓஌ Β͍ͤͨ͠·͢ɻ ࢈ࢿ ͞Ε͍ͨɻʯʹର͢Δ΋ͷͰ͢ɻ ४͸ɺೲ੫ऀʹे෼ཧղ͞Ε͍ͯΔͱ͸͍͍ ͍Δ͜ͱ΋গͳ͋͘Γ ΅͍ͯ͠Δͱ΋͍ΘΕ͓ͯΓɺ ձͷਰୀΛট͘ཁҼͱͳΔ͜ͱ͕༧૝͞Ε·͢ɻ ४ͷ໰୊఺ΛɺҰൠతͳ ࢈ࢿ ࢈ࢿ ੫શൠʹର ΛऔΓ·ͱΊ·ͨ͠ɻ  

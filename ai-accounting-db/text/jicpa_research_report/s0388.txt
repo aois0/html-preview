@@ -1,0 +1,14 @@
+doc: JICPA 実務指針等公表物（研究報告） (jicpa_research_report)
+year: 2026
+item: s0388 / title: 前書文
+section: 388 / 前書文
+source_type: pdf
+source_url: https://jicpa.or.jp/specialized_field/files/2-3-57-1-20160621.pdf
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/jicpa_research_report/s0388.html
+
+[p1] [page 1]
+[p2] 経営研究調査会研究報告第 57 号 「無形資産の評価実務－M&A 会計における評価と PPA 業務－」の公表について 常務理事 井上 浩一 常務理事 和貝 享介 日本公認会計士協会（経営研究調査会）は、平成 28 年６月 14 日付けで経営研究調査 会研究報告第 57 号「無形資産の評価実務－M&A 会計における評価と PPA 業務－」を公 表しました。
+[p3] 本研究報告は、公認会計士が PPA 目的（Purchase Price Allocation：M&A における 取得原価の配分目的）で無形資産の評価を委嘱された場合に、評価業務を実施し、その 結果を依頼人に報告するための実務を中心にまとめたものです。
+[p4] 本研究報告は PPA 目的を中心としていることから、 まず PPA の実務と留意点について 記述した上で、無形資産の評価の概要について記述しています。また、評価法ごとの具 体的な評価例や、評価結果の報告書の記載事項についても検討を行っています。
+[p5] 本研究報告に拘束力はありませんが、 会員が無形資産の評価を実施する際の参考とな れば幸いです。
+[p6] 以 上

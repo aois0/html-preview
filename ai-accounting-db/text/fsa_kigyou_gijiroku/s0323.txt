@@ -1,0 +1,13 @@
+doc: 金融庁 企業会計審議会（議事録・会議資料） (fsa_kigyou_gijiroku)
+year: 2026
+item: s0323 / title: 「監査基準の改訂に関する意見書」の公表について
+section: 323 / 「監査基準の改訂に関する意見書」の公表について
+source_type: html
+source_url: https://www.fsa.go.jp/singi/singi_kigyou/tosin/20100329.html
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/fsa_kigyou_gijiroku/s0323.html
+
+[p1] Note: This page is machine translated. Translated pages are not necessarily correct.
+[p2] Tweet 平成22年３月29日 金融庁 「監査基準の改訂に関する意見書」の公表について 企業会計審議会（会長 安藤英義 専修大学教授）は、明瞭性（クラリティ）プロジェクトによる国際監査基準（ISA）の改正を踏まえ、監査基準の改訂について審議を行ってきましたが、３月26日に開催した総会において、「監査基準の改訂に関する意見書」を取りまとめましたので、公表します。
+[p3] お問い合わせ先 金融庁 Tel：03-3506-6000（代表）
+[p4] 総務企画局内 企業会計審議会 事務局（内線3656、3672）
+[p5] 監査基準の改訂に関する意見書（PDF：265KB）

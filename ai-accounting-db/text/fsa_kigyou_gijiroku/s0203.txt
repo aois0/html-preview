@@ -1,0 +1,14 @@
+doc: 金融庁 企業会計審議会（議事録・会議資料） (fsa_kigyou_gijiroku)
+year: 2026
+item: s0203 / title: Machine translation English
+section: 203 / Machine translation English
+source_type: html
+source_url: https://www.fsa.go.jp/singi/singi_kigyou/siryou/kansa/20050304.html
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/fsa_kigyou_gijiroku/s0203.html
+
+[p1] Note: This page is machine translated. Translated pages are not necessarily correct.
+[p2] Tweet 平成17年３月４日 企業会計審議会 第１回監査部会 議事次第 （３月４日（金）16時～18時 共用第１特別会議室）
+[p3] １． 開会 ２． 総会決定事項の説明 ３． 監査をめぐる最近の動向等の説明 ４． 品質管理レビューの実態把握及び提言 ５． 質疑及び意見交換 ６． 閉会 （以上）
+[p4] 第１回監査部会（17年3月4日）配布資料 企業会計審議会 監査部会名簿（PDF：73KB）
+[p5] 資料１ 関係資料（金融庁）（PDF：450KB）
+[p6] 資料２ 品質管理レビューの一層の機能向上に向けて（PDF：3,053KB）

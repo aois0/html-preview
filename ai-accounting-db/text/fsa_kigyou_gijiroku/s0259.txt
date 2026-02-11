@@ -1,0 +1,14 @@
+doc: 金融庁 企業会計審議会（議事録・会議資料） (fsa_kigyou_gijiroku)
+year: 2026
+item: s0259 / title: Machine translation English
+section: 259 / Machine translation English
+source_type: html
+source_url: https://www.fsa.go.jp/singi/singi_kigyou/siryou/naibu/20050223.html
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/fsa_kigyou_gijiroku/s0259.html
+
+[p1] Note: This page is machine translated. Translated pages are not necessarily correct.
+[p2] Tweet 平成17年２月23日 企業会計審議会 第１回内部統制部会 議事次第 （２月23日（水）16時～18時 共用第１特別会議室）
+[p3] 開会 会議の公開について 委員等の紹介 総会決定事項等の説明 わが国の制度導入に当たっての留意事項 米国COSOのレポートの説明 質疑及び意見交換 閉会 （以上）
+[p4] 第１回内部統制部会（17年2月23日）配布資料 企業会計審議会 内部統制部会名簿（PDF：75KB）
+[p5] 資料１ 関係資料（金融庁）（PDF：611KB）
+[p6] 資料２ COSOの内部統制フレームワークについて（PDF：418KB）

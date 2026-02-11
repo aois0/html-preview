@@ -1,0 +1,12 @@
+doc: JICPA 実務指針等公表物（研究報告） (jicpa_research_report)
+year: 2026
+item: s0278 / title: 前書文
+section: 278 / 前書文
+source_type: pdf
+source_url: https://jicpa.or.jp/specialized_field/files/2-12-24-1-20230615_1.pdf
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/jicpa_research_report/s0278.html
+
+[p1] [page 1]
+[p2] 学校法人委員会研究報告第24号「私立学校振興助成法監査における監査人の 独立性チェックリスト」の改正について 常務理事 稲垣 正人 日本公認会計士協会（学校法人委員会）は、2023年６月15日に開催された常務理 事会の承認を受けて、学校法人委員会研究報告第24号「私立学校振興助成法監査に おける監査人の独立性チェックリスト」を改正し、公表いたしましたので、お知ら せします。
+[p3] 本研究報告の改正は、倫理規則及び公認会計士法等の改正により倫理委員会研究 報告第１号「監査人の独立性チェックリスト」が改正され、倫理規則実務ガイダン ス第３号「監査人の独立性チェックリスト（実務ガイダンス）」として公表された ことを受けて、見直しを行ったものです。
+[p4] 以 上

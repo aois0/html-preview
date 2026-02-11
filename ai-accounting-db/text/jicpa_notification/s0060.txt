@@ -1,0 +1,53 @@
+doc: JICPA 実務指針等公表物（お知らせ・公表物） (jicpa_notification)
+year: 2026
+item: s0060 / title: 国際会計士倫理基準審議会（IESBA）
+section: 60 / 国際会計士倫理基準審議会（IESBA）
+source_type: html
+source_url: https://jicpa.or.jp/specialized_field/translation/iesba.html
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/jicpa_notification/s0060.html
+
+[p1] 専門情報 翻訳 国際会計士倫理基準審議会（IESBA）
+[p2] 最終基準 公開草案 その他 最終基準 原文公表日 原文タイトル 翻訳 2024.4.14 Revisions to the Code Addressing Tax Planning and Related Services タックス・プランニング及び関連業務に関するIESBA倫理規程 2023.4.17 Technology-related Revisions to the Code テクノロジーに関するIESBA倫理規程の改訂
+[p3] 2023.2.28 Revisions to the Code Relating to the Definition of Engagement Team and Group Audits 業務チームの定義及びグループ監査業務に関するIESBA倫理規程の改訂 2022.4.11
+[p4] Revisions to the Definitions of Listed Entity and Public Interest Entity in the Code 上場事業体及び社会的影響度の高い事業体の定義に関するIESBA倫理規程の改訂 2021.4.28 Revisions to the Fee-related Provisions of the Code 報酬に関するIESBA倫理規程の改訂 2021.4.28
+[p5] Revisions to the Non-Assurance Services Provisions of the Code 非保証業務に関するIESBA倫理規程の改訂 公開草案 原文公表日 原文タイトル 翻訳 2024.1.29
+[p6] Explanatory Memorandum: Proposed International Ethics Standards for Sustainability Assurance(including International Independence Standards)(IESSA)and Other Revisions to the Code Relating to Sustainability Assurance and Reporting）
+[p7] 説明文書：サステナビリティ保証業務に関する国際倫理基準（国際独立性基準を含む。）及びサステナビリティ報告・保証業務に関連するその他のIESBA倫理規程の改訂 2024.1.29
+[p8] Exposure Draft: Proposed International Ethics Standards for Sustainability Assurance(including International Independence Standards)(IESSA)and Other Revisions to the Code Relating to Sustainability Assurance and Reporting
+[p9] 公開草案：サステナビリティ保証業務に関する国際倫理基準（国際独立性基準を含む。）及びサステナビリティ報告・保証業務に関連するその他のIESBA倫理規程の改訂 2024.1.29 Exposure Draft: Using the Work of an External Expert 公開草案：外部の専門家の作業の利用 その他 原文公表日 原文タイトル 翻訳 2025.1.25
+[p10] Technical Overview: International Ethics Standards for Sustainability Assurance (IESSA)
+[p11] 基準の概要：サステナビリティ保証に関する国際倫理基準(IESSA)
+[p12] 2025.1.25 Ethics & Independence for Sustainability Assurance (IESSA) Fact Sheet ファクトシート：サステナビリティ保証に関する倫理・独立性 2025.1.25 Ethics for Sustainability Reporting Fact Sheet ファクトシート：サステナビリティ報告に関する倫理 2025.1.25
+[p13] Technical Overview: Using the Work of An External Expert 基準の概要：外部の専門家の作業の利用 2025.1.25 Using the Work of an External Expert Fact Sheet ファクトシート：外部の専門家の作業の利用 2024.9.3
+[p14] Staff Q&A: Revisions to the Definitions of Listed Entity and Public Interest Entity in the Code スタッフQ&A：上場事業体及び社会的影響度の高い事業体の定義に関するIESBA倫理規程の改訂（アップデート版）
+[p15] 2024.4.14 Basis for Conclusion: Revisions to the Code Addressing Tax Planning and Related Services 結論の背景：タックス・プランニング及び関連業務に関するIESBA倫理規程 2023.4.17 Basis for Conclusion: Technology-related Revisions to the Code
+[p16] 結論の背景：テクノロジーに関するIESBA倫理規程の改訂 2023.10.23 Staff Q&A: Revisions to the Code Relating to the Definition of Engagement Team and Group Audit スタッフQ&A: 業務チームの定義及びグループ監査業務に関するIESBA倫理規程の改訂 2023.3.10
+[p17] Staff Q&A: Revisions to the Definitions of Listed Entity and Public Interest Entity in the Code スタッフQ&A：上場事業体及び社会的影響度の高い事業体の定義に関するIESBA倫理規程の改訂 2023.2.28 Basis for
+[p18] Conclusion: Revisions to the Code Relating to the Definition of Engagement Team and Group Audits 結論の背景：業務チームの定義及びグループ監査業務に関するIESBA倫理規程の改訂 2022.10.21
+[p19] Ethics Considerations in Sustainability Reporting, Including Guidance to Address Concerns about Greenwashing サステナビリティ報告における倫理上の検討事項（グリーンウォッシュに関する懸念に対処するためのガイダンスを含む。）
+[p20] 2022.9.26 Ethical Leadership In A Digital Era: Applying The IESBA Code To Selected Technology-Related Scenarios デジタル時代における倫理的リーダーシップ：テクノロジーに関するシナリオに対するIESBA倫理規程の適用 2022.9.15
+[p21] IAASB, IESBA welcome IOSCO statement of support for developing standards relating to assurance of sustainability-related information IAASB及びIESBA共同声明「サステナビリティ関連情報の保証に関連した基準開発を支持するIOSCOの声明を歓迎」
+[p22] 2022.7.11 Revised Non-Assurance Services Provisions of the Code：Guidance for Professional Accountants in Public Practice in Relation to Audits of Financial Statements of Public Interest Entities
+[p23] 非保証業務に関するIESBA倫理規程の改訂：社会的影響度の高い事業体の財務諸表監査に関する会計事務所等所属の職業会計士のためのガイダンス 2022.4.11 Basis for Conclusion: Revisions to the Definitions of Listed Entity and Public Interest Entity in the Code
+[p24] 結論の背景：上場事業体及び社会的影響度の高い事業体の定義に関するIESBA倫理規程の改訂 2022.1.31 Revised Fee-related Provisions of the Code：Guidance for Professional Accountants in Public Practice 報酬に関するIESBA倫理規程の改訂：会計事務所等所属の職業会計士のためのガイダンス 2021.4.28
+[p25] Basis for Conclusions :Revisions to the Fee-related Provisions of the Code 結論の背景：報酬に関するIESBA倫理規程の改訂 Basis for Conclusions :Revisions to the Non-Assurance Services Provisions of the Code 結論の背景：非保証業務に関するIESBA倫理規程の改訂
+[p26] 2020.5.8 COVID-19: ETHICS AND INDEPENDENCE CONSIDERATIONS スタッフQ＆A「新型コロナウイルス感染症（COVID-19）：倫理及び独立性に関する留意事項」
+[p27] 2016.7.14 Responding to Non-Compliance with Laws and Regulations 概要及びファクト・シート「新規定「違法行為への対応」」
+[p28] 2016.1.6 Ethical Considerations Relating to Audit Fee Setting in the Context of Downward Fee Pressure スタッフ文書「監査報酬切下げプレッシャーの局面における監査報酬の決定に関する倫理的考慮事項」
+[p29] 2015.5.6 Responding to Non-Compliance with Laws and Regulations 再公開草案「違法行為への対応」の概要 専門情報 専門情報一覧 実務指針等公表物一覧 監査実務指針等 実務指針 通達 研究報告 研究資料 周知文書（通知等）
+[p30] その他の公表物 公開草案・論点整理 各種様式ダウンロード 監査等書類関係 監査契約書 任意監査契約書の様式 共同監査協定書 監査契約（締結・変更・解除）報告書 監査概要書 旧様式ファイル・ダウンロード 監査実施報告書 保証業務等実施報告書 監査関係書類受理書 業務会費計算書 合意された手続業務関係 品質管理関係 会員登録関係 会計参与契約関係 2022年公認会計士法改正の概要 IFRS（国際財務報告基準）とは IFRSに関するお知らせ
+[p31] 2025年 2024年 2023年 2022年 2021年 2020年 2019年 2018年 2017年 2016年 2015年 2014年 2013年 2012年 2011年 2010年 2009年 2008年 IASB・IFRSの基礎知識 IASBの基礎知識 IFRSの基礎知識 IFRS/IFRIC文書 IFRS/IFRIC原文・日本語訳 「中小企業向け国際財務報告基準」（"IFRS for SMEs"）の翻訳
+[p32] IFRS財団の教育文書 コメント募集文書 我が国のIFRSの取り組み 第1章 国際会計基準審議会（IASB）の組織のあり方を巡る議論 01 第1章 国際会計基準審議会（IASB）の組織のあり方を巡る議論 02 第2章 国際財務報告基準（IFRS）への収斂の国際的動向 01 第2章 国際財務報告基準（IFRS）への収斂の国際的動向 02 第2章 国際財務報告基準（IFRS）への収斂の国際的動向 03
+[p33] 第2章 国際財務報告基準（IFRS）への収斂の国際的動向 04 第2章 国際財務報告基準（IFRS）への収斂の国際的動向 05 第3章 国際財務報告基準（IFRS）への収斂の我が国の対応 01 第3章 国際財務報告基準（IFRS）への収斂の我が国の対応 02 第3章 国際財務報告基準（IFRS）への収斂の我が国の対応 03 第4章 国際財務報告基準（IFRS）の任意適用に向けての我が国の対応
+[p34] 第5章 国際財務報告基準（IFRS）の任意適用後の我が国の対応 第6章 国際財務報告基準（IFRS）の任意適用の積上げに向けた我が国の対応 ケース・スタディ 『会計・監査ジャーナル』掲載記事 1. IASB（国際会計基準審議会）関連会議報告 2. IFRS等の解説 3. IFRSIC（国際財務報告解釈指針委員会）関連 4. 公開草案・討議資料の解説 5. 座談会 6. その他 研修教材・出版物 JICPA CPE教材
+[p35] IFRSに関する書籍のご案内 IFRS財団教育イニシアチブ 日本語教材 IFRS第18号「財務諸表における表示及び開示」に関するお知らせ 国際動向紹介 一覧 2026年 2025年 2024年 2023年 2022年 2021年 2020年 2019年 2018年 2017年 2016年 2015年 監査・品質管理 倫理 SMP・SME 公会計・非営利 制度・教育 会計職業専門家団体 IVSC その他 会計・監査ジャーナル記事
+[p36] 監査・品質管理 倫理 SMP・SME 公会計・非営利 制度・教育 会計職業専門家団体 IVSC その他 翻訳 国際監査・保証基準審議会（IAASB）
+[p37] 国際教育基準審議会（IAESB）
+[p38] 国際会計士倫理基準審議会（IESBA）
+[p39] その他 国際公会計基準審議会（IPSASB）
+[p40] 日本公認会計士協会（JICPA）
+[p41] サステナビリティ サステナビリティ入門 サステナビリティ情報開示 サステナビリティ保証 サステナビリティ能力開発 非営利組織の会計 公会計協議会 お知らせ 2026年 2025年 2024年 2023年 2022年 2021年 2020年 2019年 2018年 2017年 2016年 2015年 公会計協議会とは 入会のご案内 地方公共団体会計・監査部会とは 非営利組織会計・監査部会とは 入会申請
+[p42] 部会員検索システム（地方公共団体会計・監査部会及び非営利組織会計・監査部会）
+[p43] 非営利組織会計・監査部会 関係法人リスト 各種公表資料一覧 公会計分野における協会の取組 研修講座紹介動画について 非営利組織会計・監査部会 研修一覧 包括外部監査に関する取組 公益法人の制度改革に関するお知らせ 学校法人の制度改革に関するお知らせ 各種リンク先一覧 公会計協議会に関するQ＆A お問い合わせ 非営利分野 非営利分野 お知らせ・公表物 非営利分野 制度 非営利分野 研修一覧 ウェビナー 職業倫理に関する取組
+[p44] 倫理に関する各種研修動画 監査、監査以外の保証業務及びAUPに関する取組 基準設定の取組（倫理・監査）
+[p45] 社外役員会計士協議会 お知らせ 研修会・イベント 対談記事 社外役員会計士のための各種情報 社外役員会計士協議会の取組 公認会計士社外役員ネットワークについて XBRLとは ちょっと教えて！XBRL もっと教えて！XBRL 公認会計士の一体的能力開発 ページトップへ

@@ -1,0 +1,20 @@
+doc: 金融庁 企業会計審議会（答申・報告書等） (fsa_kigyou_toushin)
+year: 2026
+item: s0072 / title: 資料
+section: 72 / 資料
+source_type: html
+source_url: https://www.fsa.go.jp/singi/singi_kigyou/siryou/kaikei/20240305.html
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/fsa_kigyou_toushin/s0072.html
+
+[p1] Note: This page is machine translated. Translated pages are not necessarily correct.
+[p2] Tweet English Summary 企業会計審議会総会 議事次第 日時：令和６年３月12日（火曜）10時30分～12時00分 場所：オンライン開催 ※一部、中央合同庁舎７号館 13階 共用第１特別会議室 開会 四半期レビュー基準の期中レビュー基準への改訂等 開示・会計・監査を巡る最近の動向 閉会 （以上）
+[p3] 配布資料 資料１－１ 四半期レビュー基準の期中レビュー基準への改訂について（案）（PDF：662KB）
+[p4] 資料１－２ 監査に関する品質管理基準の改訂について（案）（PDF：606KB）
+[p5] 資料１－３ コメントの概要及びコメントに対する考え方（PDF：159KB）
+[p6] 資料１－４ 四半期レビュー基準の期中レビュー基準への改訂 新旧比較表（PDF：322KB）
+[p7] 資料１－５ 品質管理基準の改訂（抄）新旧比較表（PDF：97KB）
+[p8] 資料２ 事務局資料（PDF：827KB）
+[p9] 企業会計審議会 委員名簿（PDF：90KB）
+[p10] 企業会計審議会 監査部会委員等名簿（PDF：128KB）
+[p11] お問い合わせ先 金融庁 Tel 03-3506-6000（代表）
+[p12] 企画市場局企業開示課（内線3657、5443）

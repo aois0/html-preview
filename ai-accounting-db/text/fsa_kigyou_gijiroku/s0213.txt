@@ -1,0 +1,17 @@
+doc: 金融庁 企業会計審議会（議事録・会議資料） (fsa_kigyou_gijiroku)
+year: 2026
+item: s0213 / title: 企業会計審議会 第11回監査部会 議事次第
+section: 213 / 企業会計審議会 第11回監査部会 議事次第
+source_type: html
+source_url: https://www.fsa.go.jp/singi/singi_kigyou/siryou/kansa/20050909.html
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/fsa_kigyou_gijiroku/s0213.html
+
+[p1] Note: This page is machine translated. Translated pages are not necessarily correct.
+[p2] Tweet 平成17年９月９日 企業会計審議会 第11回監査部会 議事次第 （９月９日（金）16時～18時 金融庁特別会議室）
+[p3] １． 開会 ２． 四半期レビューをめぐる状況等について ３． 中間監査基準について ４． 「マザーズ上場企業等の四半期財務諸表に対する意見表明業務」（研究報告）について ５． 国際レビュー基準・米国レビュー基準について ６． 質疑及び意見交換 ７． 閉会 （以上）
+[p4] 第11回監査部会（17年9月9日）配布資料 資料１－１ 関係資料（PDF：75KB）
+[p5] 資料１－２ 金融審議会金融分科会第一部会 ディスクロージャー・ワーキング・グループ報告 －今後の開示制度のあり方について－（PDF：603KB）
+[p6] 資料２ 中間監査（基準）について（PDF：81KB）
+[p7] 資料３－１ 監査・保証実務委員会研究報告第９号について（PDF：117KB）
+[p8] 資料３－２ 東京証券取引所のマザーズ上場企業等の四半期財務諸表に対する意見表明業務について（中間報告）（PDF：1,396KB）
+[p9] 資料４ 米国のレビュー基準（SAS100）及び国際レビュー基準（ISRE2410）（PDF：154KB）

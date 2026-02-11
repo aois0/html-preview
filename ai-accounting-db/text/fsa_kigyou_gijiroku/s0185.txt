@@ -1,0 +1,13 @@
+doc: 金融庁 企業会計審議会（議事録・会議資料） (fsa_kigyou_gijiroku)
+year: 2026
+item: s0185 / title: Machine translation English
+section: 185 / Machine translation English
+source_type: html
+source_url: https://www.fsa.go.jp/singi/singi_kigyou/kaikei/kaikei_index.html
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/fsa_kigyou_gijiroku/s0185.html
+
+[p1] Note: This page is machine translated. Translated pages are not necessarily correct.
+[p2] Tweet 企業会計審議会「会計部会」
+[p3] 取りまとめ （なし）
+[p4] 議事録・資料等 第10回 令和５年６月２日開催 開催通知 資料 議事録 第９回 令和４年９月29日開催 資料 議事録 第８回 令和３年11月16日開催 資料 議事録 第７回 令和２年11月６日開催 資料 議事録 第６回 令和元年９月３日開催 資料 議事録 第５回 平成29年２月14日開催 資料 議事録 第４回 平成28年７月22日開催 資料 議事録 第３回 平成27年11月19日開催 資料 議事録 第２回 平成27年４月15日開催 資料
+[p5] 議事録 第１回 平成26年12月15日開催 資料 議事録

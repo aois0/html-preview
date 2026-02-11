@@ -1,0 +1,20 @@
+doc: 金融庁 企業会計審議会（議事録・会議資料） (fsa_kigyou_gijiroku)
+year: 2026
+item: s0200 / title: Machine translation English
+section: 200 / Machine translation English
+source_type: html
+source_url: https://www.fsa.go.jp/singi/singi_kigyou/siryou/kaikei/20230331.html
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/fsa_kigyou_gijiroku/s0200.html
+
+[p1] Note: This page is machine translated. Translated pages are not necessarily correct.
+[p2] Tweet 企業会計審議会総会 議事次第 日時：令和５年４月７日（金曜）13時00分～15時00分 場所：オンライン開催 ※一部、中央合同庁舎７号館 13階 共用第１特別会議室 開会 内部統制基準・実施基準の改訂 開示・会計監査を巡る国内外の動向 国際会計基準への対応 閉会 （以上）
+[p3] 配布資料 資料１－１ 【意見書案】財務報告に係る内部統制の評価及び監査の基準並びに財務報告に係る内部統制の評価及び監査に関する実施基準の改訂について」(PDF:1160KB)
+[p4] 資料１－２ コメントの概要及びコメントに対する考え方(PDF:989KB)
+[p5] 資料１－３ 内部統制基準・実施基準の改訂について（公開草案からの修正箇所）(PDF:1103KB)
+[p6] 資料１－４ 内部統制基準（抄）新旧対照表(PDF:289KB)
+[p7] 資料１－５ 内部統制実施基準（抄） 新旧対照表(PDF:544KB)
+[p8] 資料２ 開示・会計監査を巡る国内外の動向(PDF:955KB)
+[p9] 資料３ 国際会計基準への対応(PDF:532KB)
+[p10] 企業会計審議会 委員名簿(PDF:85KB)
+[p11] お問い合わせ先 金融庁 Tel 03-3506-6000（代表）
+[p12] 企画市場局企業開示課（内線3673、3691）

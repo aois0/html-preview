@@ -1,0 +1,12 @@
+doc: JICPA 実務指針等公表物（研究資料） (jicpa_research_data)
+year: 2026
+item: s0051 / title: 前書文
+section: 51 / 前書文
+source_type: pdf
+source_url: https://jicpa.or.jp/specialized_field/files/2-12-1-1-20070802.pdf
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/jicpa_research_data/s0051.html
+
+[p1] [page 1]
+[p2] 学校法人委員会研究資料第１号「学校法人会計基準改正に伴う相談回答事例」
+[p3] の公表について 常務理事 佐野 慶子 日本公認会計士協会は、平成19年７月31日に開催されました常務理事会の承認を受け て、学校法人委員会研究資料第１号「学校法人会計基準改正に伴う相談回答事例」を公 表いたしましたのでお知らせいたします。
+[p4] 本研究資料は、平成17年３月31日に改正された学校法人会計基準に関する実務上の問 題点とその取扱いがより明確になるよう、Q&A形式で取りまとめたものであります。

@@ -1,0 +1,46 @@
+doc: JICPA 実務指針等公表物（実務指針） (jicpa_practical_guidelines)
+year: 2026
+item: s0195 / title: 日本公認会計士協会（JICPA）
+section: 195 / 日本公認会計士協会（JICPA）
+source_type: html
+source_url: https://jicpa.or.jp/specialized_field/translation/jicpa.html
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/jicpa_practical_guidelines/s0195.html
+
+[p1] 専門情報 翻訳 日本公認会計士協会（JICPA）
+[p2] 原文公表日 原文タイトル 翻訳 2024.8.13 テクノロジー委員会研究文書第11号「監査におけるＡＩの利用に関する研究文書」
+[p3] Technology Committee Research Report No. 11," The Study into the Use of AI in Audits" 2022.4.7※ 2022年３月期監査上の留意事項（ウクライナをめぐる現下の国際情勢を踏まえた監査上の対応について）
+[p4] Audit Considerations for the Fiscal Year Ended March 31, 2022 (Summary) (Regarding audit responses in light of the current international situation surrounding Ukraine)
+[p5] 2021.10.29 「「監査上の主要な検討事項」の強制適用初年度（2021年3月期）事例分析レポート」
+[p6] Summary of the Case Analysis of the First Year Mandatory Application of KAM (Listed Companies in Japan, Fiscal year ended March 31, 2021)
+[p7] 2021.4.22 リモートワークを俯瞰した論点・課題（提言）
+[p8] Discussion Points and Issues Based on Overview of Remote Work(Suggestion)
+[p9] 2021.3.19※ リモートワーク対応第６号「電子メールを利用した確認に関する監査上の留意事項」
+[p10] Remote Work Series No.6 Audit Considerations in Relation to External Confirmation Using Electronic Mail 2021.2.12※ リモートワーク対応第５号「リモート会議及びリモート会議ツールの活用について」
+[p11] Remote Work Series No.5 Remote Meetings and the Use of Remote Meeting Tools 2021.2.12※ リモートワーク対応第４号「構成単位等への往査が制限される場合の留意事項」
+[p12] Remote Work Series No.4 Considerations When Visits to Components are Restricted 2021.2.12※ リモートワーク対応第３号「PDFに変換された証憑の真正性に関する監査上の留意事項」
+[p13] Remote Work Series No.3 Audit Considerations In Relation to Authentication of Evidence Converted to PDF Format 2020.12.25※ リモートワーク対応第２号「リモート棚卸立会の留意事項」
+[p14] Remote Work Series No.2 Considerations In Relation to Remote Attendance at Physical Inventory Counting 2020.12.25※ リモートワーク対応第１号「電子的媒体又は経路による確認に関する監査上の留意事項 ～監査人のウェブサイトによる方式について～」
+[p15] Remote Work Series No.1 Audit Considerations in Relation to External Confirmation Using Electronic Media or Processes- Method using the auditor website - 2021.3.2※ 新型コロナウイルス感染症に関連する監査上の留意事項（その７）
+[p16] Audit Consideration related to COVID-19 Part7 2020.8.21 「企業情報開示に関する有用性と信頼性の向上に向けた論点の検討～ 開示とガバナンスの連動による持続的価値創造サイクルの実現に向けて ～（中間報告）」
+[p17] Key Issues towards Useful and Reliable Corporate Disclosure - Realizing a Sustainable Value Creation Cycle through Interaction between Disclosure and Governance - 2020.6.30※ 新型コロナウイルス感染症に関連する監査上の留意事項（その６）
+[p18] Audit Consideration related to COVID-19 Part6 2020.5.8 （2020.5.15更新）※ 新型コロナウイルス感染症に関連する監査上の留意事項（その５）更新 Audit Consideration related to COVID-19 Part5-updated 2020.4.22※ 新型コロナウイルス感染症に関連する監査上の留意事項（その４）
+[p19] Audit Consideration related to COVID-19 Part 4 2020.4.15※ 新型コロナウイルス感染症に関連する監査上の留意事項（その３）
+[p20] Audit Consideration related to COVID-19 Part 3 2020.4.10 （2020.5.14更新）※ 新型コロナウイルス感染症に関連する監査上の留意事項（その２）更新 Audit Consideration related to COVID-19 Part2-updated 2020.3.18※ 新型コロナウイルス感染症に関連する監査上の留意事項（その１）
+[p21] Audit Consideration related to COVID-19 Part 1 ※ 監査基準報告書（序）の公表に伴い、2022年10月に原文の表題等を修正しております。最新の報告書は こちら をご参照ください。
+[p22] 専門情報 専門情報一覧 実務指針等公表物一覧 監査実務指針等 実務指針 通達 研究報告 研究資料 周知文書（通知等）
+[p23] その他の公表物 公開草案・論点整理 各種様式ダウンロード 監査等書類関係 監査契約書 任意監査契約書の様式 共同監査協定書 監査契約（締結・変更・解除）報告書 監査概要書 旧様式ファイル・ダウンロード 監査実施報告書 保証業務等実施報告書 監査関係書類受理書 業務会費計算書 合意された手続業務関係 品質管理関係 会員登録関係 会計参与契約関係 2022年公認会計士法改正の概要 IFRS（国際財務報告基準）とは IFRSに関するお知らせ
+[p24] 2025年 2024年 2023年 2022年 2021年 2020年 2019年 2018年 2017年 2016年 2015年 2014年 2013年 2012年 2011年 2010年 2009年 2008年 IASB・IFRSの基礎知識 IASBの基礎知識 IFRSの基礎知識 IFRS/IFRIC文書 IFRS/IFRIC原文・日本語訳 「中小企業向け国際財務報告基準」（"IFRS for SMEs"）の翻訳
+[p25] IFRS財団の教育文書 コメント募集文書 我が国のIFRSの取り組み 第1章 国際会計基準審議会（IASB）の組織のあり方を巡る議論 01 第1章 国際会計基準審議会（IASB）の組織のあり方を巡る議論 02 第2章 国際財務報告基準（IFRS）への収斂の国際的動向 01 第2章 国際財務報告基準（IFRS）への収斂の国際的動向 02 第2章 国際財務報告基準（IFRS）への収斂の国際的動向 03
+[p26] 第2章 国際財務報告基準（IFRS）への収斂の国際的動向 04 第2章 国際財務報告基準（IFRS）への収斂の国際的動向 05 第3章 国際財務報告基準（IFRS）への収斂の我が国の対応 01 第3章 国際財務報告基準（IFRS）への収斂の我が国の対応 02 第3章 国際財務報告基準（IFRS）への収斂の我が国の対応 03 第4章 国際財務報告基準（IFRS）の任意適用に向けての我が国の対応
+[p27] 第5章 国際財務報告基準（IFRS）の任意適用後の我が国の対応 第6章 国際財務報告基準（IFRS）の任意適用の積上げに向けた我が国の対応 ケース・スタディ 『会計・監査ジャーナル』掲載記事 1. IASB（国際会計基準審議会）関連会議報告 2. IFRS等の解説 3. IFRSIC（国際財務報告解釈指針委員会）関連 4. 公開草案・討議資料の解説 5. 座談会 6. その他 研修教材・出版物 JICPA CPE教材
+[p28] IFRSに関する書籍のご案内 IFRS財団教育イニシアチブ 日本語教材 IFRS第18号「財務諸表における表示及び開示」に関するお知らせ 国際動向紹介 一覧 2026年 2025年 2024年 2023年 2022年 2021年 2020年 2019年 2018年 2017年 2016年 2015年 監査・品質管理 倫理 SMP・SME 公会計・非営利 制度・教育 会計職業専門家団体 IVSC その他 会計・監査ジャーナル記事
+[p29] 監査・品質管理 倫理 SMP・SME 公会計・非営利 制度・教育 会計職業専門家団体 IVSC その他 翻訳 国際監査・保証基準審議会（IAASB）
+[p30] 国際教育基準審議会（IAESB）
+[p31] 国際会計士倫理基準審議会（IESBA）
+[p32] その他 国際公会計基準審議会（IPSASB）
+[p33] 日本公認会計士協会（JICPA）
+[p34] サステナビリティ サステナビリティ入門 サステナビリティ情報開示 サステナビリティ保証 サステナビリティ能力開発 非営利組織の会計 公会計協議会 お知らせ 2026年 2025年 2024年 2023年 2022年 2021年 2020年 2019年 2018年 2017年 2016年 2015年 公会計協議会とは 入会のご案内 地方公共団体会計・監査部会とは 非営利組織会計・監査部会とは 入会申請
+[p35] 部会員検索システム（地方公共団体会計・監査部会及び非営利組織会計・監査部会）
+[p36] 非営利組織会計・監査部会 関係法人リスト 各種公表資料一覧 公会計分野における協会の取組 研修講座紹介動画について 非営利組織会計・監査部会 研修一覧 包括外部監査に関する取組 公益法人の制度改革に関するお知らせ 学校法人の制度改革に関するお知らせ 各種リンク先一覧 公会計協議会に関するQ＆A お問い合わせ 非営利分野 非営利分野 お知らせ・公表物 非営利分野 制度 非営利分野 研修一覧 ウェビナー 職業倫理に関する取組
+[p37] 倫理に関する各種研修動画 監査、監査以外の保証業務及びAUPに関する取組 基準設定の取組（倫理・監査）
+[p38] 社外役員会計士協議会 お知らせ 研修会・イベント 対談記事 社外役員会計士のための各種情報 社外役員会計士協議会の取組 公認会計士社外役員ネットワークについて XBRLとは ちょっと教えて！XBRL もっと教えて！XBRL 公認会計士の一体的能力開発 ページトップへ

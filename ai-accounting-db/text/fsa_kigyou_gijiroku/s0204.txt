@@ -1,0 +1,14 @@
+doc: 金融庁 企業会計審議会（議事録・会議資料） (fsa_kigyou_gijiroku)
+year: 2026
+item: s0204 / title: 企業会計審議会 第２回監査部会 議事次第
+section: 204 / 企業会計審議会 第２回監査部会 議事次第
+source_type: html
+source_url: https://www.fsa.go.jp/singi/singi_kigyou/siryou/kansa/20050315.html
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/fsa_kigyou_gijiroku/s0204.html
+
+[p1] Note: This page is machine translated. Translated pages are not necessarily correct.
+[p2] Tweet 平成17年３月15日 企業会計審議会 第２回監査部会 議事次第 （３月15日（火）14時～16時 共用第１特別会議室）
+[p3] １． 開会 ２． 米国及び国際監査基準における最近の動向 ３． 公認会計士協会における最近の対応状況等の説明 ４． 質疑及び意見交換 ５． 閉会 （以上）
+[p4] 第２回監査部会（17年3月15日）配布資料 資料１ 国際監査・保証基準審議会（IAASB会議）の概要（PDF：59KB）
+[p5] 資料２ 監査の品質管理における日本基準と国際監査基準の比較（PDF：283KB）
+[p6] 資料３ 監査の品質管理（監査人の交代を含む）に関する規定（PDF：1,185KB）

@@ -1,0 +1,12 @@
+doc: JICPA 実務指針等公表物（研究報告） (jicpa_research_report)
+year: 2026
+item: s0267 / title: 前書文
+section: 267 / 前書文
+source_type: pdf
+source_url: https://jicpa.or.jp/specialized_field/files/2-11-9-1-20140402.pdf
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/jicpa_research_report/s0267.html
+
+[p1] [page 1]
+[p2] 会計制度委員会研究報告第９号「計算書類に係る附属明細書のひな型」の改正について 常務理事 小倉 加奈子 日本公認会計士協会（会計制度委員会）では、平成26年３月19日に開催されました常務理事会の承認を受け て、「会計制度委員会研究報告第９号「計算書類に係る附属明細書のひな型」の改正について」を公表いたし ましたのでお知らせいたします。
+[p3] 本改正は、平成26年３月に公布された「財務諸表等の用語、様式及び作成方法に関する規則等の一部を改正 する内閣府令」（内閣府令第19号）に対応するため、所要の見直しを行ったものです。
+[p4] 以 上
