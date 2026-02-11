@@ -17,6 +17,18 @@
 
 - Papers/guidelines (international tax): /html-preview/ai-paper-db/llms.txt
 - NTA practical guides (法人税・源泉・年調・法定調書・印紙税ほか): /html-preview/ai-nta-guide-db/llms.txt
+- Accounting standards corpus (ASBJ / FSA 企業会計審議会 / JICPA): /html-preview/ai-accounting-db/llms.txt
+- Included in accounting standards corpus:
+  - ASBJ 企業会計基準（現行）: /html-preview/ai-accounting-db/data/resolve_lite/asbj_accounting_standards.json
+  - ASBJ 適用指針（現行）: /html-preview/ai-accounting-db/data/resolve_lite/asbj_implementation_guidance.json
+  - ASBJ 実務対応報告（現行）: /html-preview/ai-accounting-db/data/resolve_lite/asbj_practical_solution.json
+  - ASBJ 公開草案・過年度分（completed）: /html-preview/ai-accounting-db/data/resolve_lite/asbj_completed_drafts.json
+  - 金融庁 企業会計審議会（答申・報告書等）: /html-preview/ai-accounting-db/data/resolve_lite/fsa_kigyou_toushin.json
+  - 金融庁 企業会計審議会（議事録・会議資料）: /html-preview/ai-accounting-db/data/resolve_lite/fsa_kigyou_gijiroku.json
+  - JICPA 実務指針等公表物（実務指針）: /html-preview/ai-accounting-db/data/resolve_lite/jicpa_practical_guidelines.json
+  - JICPA 実務指針等公表物（お知らせ・公表物）: /html-preview/ai-accounting-db/data/resolve_lite/jicpa_notification.json
+  - JICPA 実務指針等公表物（研究報告）: /html-preview/ai-accounting-db/data/resolve_lite/jicpa_research_report.json
+  - JICPA 実務指針等公表物（研究資料）: /html-preview/ai-accounting-db/data/resolve_lite/jicpa_research_data.json
 - Included in NTA practical guides:
   - 法人税のあらましと申告の手引（令和7年版）: /html-preview/ai-nta-guide-db/data/resolve_lite/hojin_aramashi_2025.json
   - 源泉徴収のあらまし（令和8年版）: /html-preview/ai-nta-guide-db/data/resolve_lite/gensen_aramashi_2026.json

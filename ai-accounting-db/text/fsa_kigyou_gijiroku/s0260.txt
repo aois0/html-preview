@@ -1,0 +1,13 @@
+doc: 金融庁 企業会計審議会（議事録・会議資料） (fsa_kigyou_gijiroku)
+year: 2026
+item: s0260 / title: 企業会計審議会 第２回内部統制部会 議事次第
+section: 260 / 企業会計審議会 第２回内部統制部会 議事次第
+source_type: html
+source_url: https://www.fsa.go.jp/singi/singi_kigyou/siryou/naibu/20050302.html
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/fsa_kigyou_gijiroku/s0260.html
+
+[p1] Note: This page is machine translated. Translated pages are not necessarily correct.
+[p2] Tweet 平成17年３月２日 企業会計審議会 第２回内部統制部会 議事次第 （３月２日（水）15時～17時 共用第１特別会議室）
+[p3] 開会 米国PCAOBの監査基準第２号について 各国の内部統制制度について 質疑及び意見交換 閉会 （以上）
+[p4] 第２回内部統制部会（17年3月2日）配布資料 資料１ ＰＣＡＯＢ監査基準第２号について（PDF：457KB）
+[p5] 資料２ カナダ、フランス、イギリス、韓国、ＥＵ、ＩＡＡＳＢの状況（PDF：454KB）

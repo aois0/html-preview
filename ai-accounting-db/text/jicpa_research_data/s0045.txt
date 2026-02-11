@@ -1,0 +1,9 @@
+doc: JICPA 実務指針等公表物（研究資料） (jicpa_research_data)
+year: 2026
+item: s0045 / title: 本文＋解説
+section: 45 / 本文＋解説
+source_type: pdf
+source_url: https://jicpa.or.jp/specialized_field/files/01370-004399.pdf
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/jicpa_research_data/s0045.html
+
+[p1] ※ テキスト抽出結果が空でした。原本を参照してください: https://jicpa.or.jp/specialized_field/files/01370-004399.pdf

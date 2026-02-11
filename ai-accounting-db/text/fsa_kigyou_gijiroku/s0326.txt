@@ -1,0 +1,17 @@
+doc: 金融庁 企業会計審議会（議事録・会議資料） (fsa_kigyou_gijiroku)
+year: 2026
+item: s0326 / title: 「監査基準の改訂及び監査における不正リスク対応基準の設定について」の公表について
+section: 326 / 「監査基準の改訂及び監査における不正リスク対応基準の設定について」の公表について
+source_type: html
+source_url: https://www.fsa.go.jp/singi/singi_kigyou/tosin/20130314.html
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/fsa_kigyou_gijiroku/s0326.html
+
+[p1] Note: This page is machine translated. Translated pages are not necessarily correct.
+[p2] Tweet 平成25年３月14日 企業会計審議会監査部会 「監査基準の改訂及び監査における不正リスク対応基準の設定について」の公表について 企業会計審議会監査部会（部会長 脇田 良一 名古屋経済大学大学院教授）は、「監査基準の改訂及び監査における不正リスク対応基準の設定について」を取りまとめましたので、公表します。
+[p3] なお、平成24年12月21日（金）から平成25年１月25日（金）にかけて行った本件意見募集に関して、お寄せいただいたコメントの概要及びコメントに対する考え方は（別紙）を御参照ください。
+[p4] お問い合わせ先 企業会計審議会 事務局（金融庁総務企画局内）
+[p5] Tel 03-3506-6000（代表）
+[p6] （内線3656、3887）
+[p7] 「監査基準の改訂及び監査における不正リスク対応基準の設定について」（PDF:308KB）
+[p8] （参考）不正リスクに対応した監査のプロセス（PDF:132KB）
+[p9] （別紙）コメントの概要及びコメントに対する考え方（PDF:331KB）

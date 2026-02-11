@@ -1,0 +1,13 @@
+doc: JICPA 実務指針等公表物（研究報告） (jicpa_research_report)
+year: 2026
+item: s0248 / title: 前書文
+section: 248 / 前書文
+source_type: pdf
+source_url: https://jicpa.or.jp/specialized_field/files/2-1-1-1-20160229.pdf
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/jicpa_research_report/s0248.html
+
+[p1] [page 1]
+[p2] 中小事務所等施策調査会研究報告第１号 「「会計参与の行動指針」に関するＱ＆Ａ」
+[p3] の改正について 常務理事 中川 隆之 日本公認会計士協会（中小事務所等施策調査会）は、平成 28 年２月 23 日に開催されま した常務理事会の承認を受けて、平成 28 年２月 29 日付けで『中小事務所等施策調査会研 究報告第１号「「会計参与の行動指針」に関するＱ＆Ａ」の改正について』を公表いたし ましたのでお知らせいたします。
+[p4] 本改正では、「中小企業の会計に関する指針」、「会社法」の改正に対応した見直し等 を行っております。
+[p5] 以 上

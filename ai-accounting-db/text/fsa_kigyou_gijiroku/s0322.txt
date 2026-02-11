@@ -1,0 +1,14 @@
+doc: 金融庁 企業会計審議会（議事録・会議資料） (fsa_kigyou_gijiroku)
+year: 2026
+item: s0322 / title: 企業会計審議会の意見書の公表について
+section: 322 / 企業会計審議会の意見書の公表について
+source_type: html
+source_url: https://www.fsa.go.jp/singi/singi_kigyou/tosin/20090410.html
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/fsa_kigyou_gijiroku/s0322.html
+
+[p1] Note: This page is machine translated. Translated pages are not necessarily correct.
+[p2] Tweet 英語版はこちら 平成21年４月10日 金融庁 企業会計審議会の意見書の公表について 企業会計審議会（会長 安藤英義 専修大学教授）は、監査基準の改訂について審議を行ってきましたが、昨日（4月9日）開催した総会において、「監査基準の改訂に関する意見書」を取りまとめ、本日公表しました。
+[p3] お問い合わせ先 金融庁 Tel：03-3506-6000（代表）
+[p4] 総務企画局内 企業会計審議会 事務局（内線3656、3672）
+[p5] 監査基準の改訂に関する意見書（PDF：254KB）
+[p6] 「継続企業の前提」に関する監査手続（PDF：52KB）

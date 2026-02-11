@@ -1,0 +1,16 @@
+doc: 金融庁 企業会計審議会（議事録・会議資料） (fsa_kigyou_gijiroku)
+year: 2026
+item: s0265 / title: 企業会計審議会 第７回内部統制部会 議事次第
+section: 265 / 企業会計審議会 第７回内部統制部会 議事次第
+source_type: html
+source_url: https://www.fsa.go.jp/singi/singi_kigyou/siryou/naibu/20050519.html
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/fsa_kigyou_gijiroku/s0265.html
+
+[p1] Note: This page is machine translated. Translated pages are not necessarily correct.
+[p2] Tweet 平成17年５月19日 企業会計審議会 第７回内部統制部会 議事次第 （５月19日（木）16時～18時 金融庁特別会議室）
+[p3] 開会 監査人による検証（監査）
+[p4] ＩＴ統制の監査について 意見交換 閉会 （以上）
+[p5] 第７回内部統制部会（17年5月19日）配布資料 資料１ 監査人による検証（監査）（素案）（PDF：175KB）
+[p6] 資料２ 内部統制の検証（監査）（PDF：26KB）
+[p7] 資料３ 「財務報告に係る内部統制が有効であるとしている文例」他（PDF：582KB）
+[p8] 資料４ ＩＴ統制の監査（PDF：303KB）

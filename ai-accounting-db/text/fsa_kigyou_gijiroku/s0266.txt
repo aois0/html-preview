@@ -1,0 +1,14 @@
+doc: 金融庁 企業会計審議会（議事録・会議資料） (fsa_kigyou_gijiroku)
+year: 2026
+item: s0266 / title: 企業会計審議会 第８回内部統制部会 議事次第
+section: 266 / 企業会計審議会 第８回内部統制部会 議事次第
+source_type: html
+source_url: https://www.fsa.go.jp/singi/singi_kigyou/siryou/naibu/20050526.html
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/fsa_kigyou_gijiroku/s0266.html
+
+[p1] Note: This page is machine translated. Translated pages are not necessarily correct.
+[p2] Tweet 平成17年５月26日 企業会計審議会 第８回内部統制部会 議事次第 （５月26日（木）10時～12時 金融庁特別会議室）
+[p3] 開会 財務報告に係る内部統制の評価及び監査 意見交換 閉会 （以上）
+[p4] 企業会計審議会 第８回内部統制部会 議事次第 資料１ 財務報告に係る内部統制の評価及び監督（素案）（PDF：938KB）
+[p5] 資料２ 内部統制の構築・評価・監査（PDF：32KB）
+[p6] 資料３ アメリカにおける内部統制報告制度のガイダンス等について（PDF：66KB）

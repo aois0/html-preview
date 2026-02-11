@@ -1,0 +1,17 @@
+doc: 金融庁 企業会計審議会（答申・報告書等） (fsa_kigyou_toushin)
+year: 2026
+item: s0078 / title: 資料
+section: 78 / 資料
+source_type: html
+source_url: https://www.fsa.go.jp/singi/singi_kigyou/siryou/soukai/20080327.html
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/fsa_kigyou_toushin/s0078.html
+
+[p1] Note: This page is machine translated. Translated pages are not necessarily correct.
+[p2] Tweet 企業会計審議会 総会 議事次第 日時：平成20年３月27日（木）10時～ 場所：中央合同庁舎第７号館13階共用第一特別会議室 １． 開会 ２． 報告事項 (1) 会計基準をめぐる国際的動向について (2) 監査をめぐる国際的動向について (3) 内部統制報告制度の準備状況について (4) 質疑応答 ３． 企業会計審議会の今後の運営について ４． 閉会 企業会計審議会総会配付資料 資料１ ：
+[p3] EUによる会計基準の同等性評価関連資料（PDF：1,013KB）
+[p4] 資料２－１ ： IAASBプロジェクト・タイムテーブル（PDF：281KB）
+[p5] 資料２－２ ： EUによる監査の同等性評価関連資料（PDF：984KB）
+[p6] 資料３ ： 内部統制報告制度導入に向けた対応（内部統制に係る基準等公表以後）（PDF：547KB）
+[p7] 資料４ ： 企業会計審議会の今後の運営について（案）（PDF：41KB）
+[p8] （藤沼委員資料）
+[p9] グローバルスタンダードへの道（IASCF及びIASBの将来像の構築「定款の見直し」の開始に当たって）（PDF：582KB）

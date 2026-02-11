@@ -1,0 +1,12 @@
+doc: JICPA 実務指針等公表物（研究報告） (jicpa_research_report)
+year: 2026
+item: s0326 / title: 前書文
+section: 326 / 前書文
+source_type: pdf
+source_url: https://jicpa.or.jp/specialized_field/files/2-15-4-1-20150807.pdf
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/jicpa_research_report/s0326.html
+
+[p1] [page 1]
+[p2] 法規委員会研究報告第４号「株主代表訴訟に関するＱ＆Ａ」の改正について 常務理事 上林 三子雄 日本公認会計士協会（法規委員会）では、平成 27 年８月６日に開催された常務理事会の承認を 受けて、 「法規委員会研究報告第４号「株主代表訴訟に関するＱ＆Ａ」の改正について」を公表い たしましたのでお知らせいたします。
+[p3] 本改正は、平成 26 年の会社法改正を受け、多重代表訴訟制度に関するＱ＆Ａの追加等を行った ものです。また、本研究報告を公表した平成 18 年当時からの法令改正等を踏まえた所要の見直し を併せて行っております。
+[p4] 以 上

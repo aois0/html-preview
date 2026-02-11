@@ -1,0 +1,13 @@
+doc: JICPA 実務指針等公表物（研究報告） (jicpa_research_report)
+year: 2026
+item: s0374 / title: 前書文
+section: 374 / 前書文
+source_type: pdf
+source_url: https://jicpa.or.jp/specialized_field/files/2-3-41-1-20131224.pdf
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/jicpa_research_report/s0374.html
+
+[p1] [page 1]
+[p2] 「経営研究調査会研究報告第 41 号「事例に見る企業価値評価上の論点 －紛争の予防及び解決の見地から－」の改正について」の公表について 常務理事 井上 浩一 常務理事 和貝 享介 日本公認会計士協会（経営研究調査会）は、経営研究調査会研究報告第 41 号「事例 に見る企業価値評価上の論点」について見直しを進めてきましたが、このたび、「経営 研究調査会研究報告第 41 号「事例に見る企業価値評価上の論点」の改正について」と
+[p3] して公表しましたのでお知らせします。
+[p4] 今回の改正は、本研究報告が、昨年７月に改正された、経営研究調査会研究報告第 32 号「企業価値評価ガイドライン」の内容を一部参照していることから、該当箇所を 中心に見直しをしたものです。
+[p5] 以 上

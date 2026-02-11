@@ -1,0 +1,12 @@
+doc: JICPA 実務指針等公表物（研究報告） (jicpa_research_report)
+year: 2026
+item: s0408 / title: 前書文
+section: 408 / 前書文
+source_type: pdf
+source_url: https://jicpa.or.jp/specialized_field/files/2-9-11-1-20130910.pdf
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/jicpa_research_report/s0408.html
+
+[p1] [page 1]
+[p2] 業種別委員会研究報告第11号「「金融商品取引業等に関する内閣府令」に基づく依頼により信託 銀行にファンドの監査報告書等を直接送付する場合における覚書の文例」の公表について 常務理事 小暮 和敏 日本公認会計士協会（業種別委員会）は、平成25年９月４日に開催されました常務理事会の承認を受 けて、業種別委員会研究報告第11号「「金融商品取引業等に関する内閣府令」に基づく依頼により信託
+[p3] 銀行にファンドの監査報告書等を直接送付する場合における覚書の文例」を同日付けで公表しましたの でお知らせします。
+[p4] 以 上

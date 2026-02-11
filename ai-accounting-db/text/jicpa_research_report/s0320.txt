@@ -1,0 +1,17 @@
+doc: JICPA 実務指針等公表物（研究報告） (jicpa_research_report)
+year: 2026
+item: s0320 / title: 前書文
+section: 320 / 前書文
+source_type: pdf
+source_url: https://jicpa.or.jp/specialized_field/files/2-14-28-1-20220311.pdf
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/jicpa_research_report/s0320.html
+
+[p1] [page 1]
+[p2] 公会計委員会研究報告第 28 号「国の財務書類の課題～国際公会計基準（IPSAS）
+[p3] との比較～」の公表について 常務理事 椎名 弘 日本公認会計士協会（公会計委員会）は、2022年２月17日に開催された常務理事会の承認 を受けて、公会計委員会研究報告第28号「国の財務書類の課題～国際公会計基準（IPSAS）
+[p4] との比較～」を公表いたしましたので、お知らせします。
+[p5] 国際公会計基準（International Public Sector Accounting Standards：IPSAS）は、基 準書の内容が充実するとともに採用国（地方政府・国際機関等も含む）が増加しており、 国際的な政府会計基準としての地位を確立しつつあります。
+[p6] 公会計委員会では、今般「国の財務書類」の概要や国際的な政府会計の動向をご紹介する とともに、「国の財務書類」とIPSASの主な相違点を整理し、「国の財務書類」の改善に向け た提言を行うべく、研究報告「国の財務書類の課題～国際公会計基準（IPSAS）との比較～」
+[p7] を取りまとめました。
+[p8] 本研究報告が、公会計分野に携わる会員の理解の一助となるとともに、今後の国の財務報 告の更なる発展の一助となれば幸いです。
+[p9] 以 上

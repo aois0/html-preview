@@ -1,0 +1,12 @@
+doc: JICPA 実務指針等公表物（研究報告） (jicpa_research_report)
+year: 2026
+item: s0410 / title: 前書文
+section: 410 / 前書文
+source_type: pdf
+source_url: https://jicpa.or.jp/specialized_field/files/2-9-13-1-20210531_2.pdf
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/jicpa_research_report/s0410.html
+
+[p1] [page 1]
+[p2] 「業種別委員会研究報告第 13 号「銀行等金融機関における金融商品の 時価の算定に関する監査上の留意事項」の改正について」の公表について 常務理事 小林 尚明 日本公認会計士協会（業種別委員会）では、2021 年５月 13 日に開催された常務理事会の承認を受けて、 「業 種別委員会研究報告第 13 号「銀行等金融機関における金融商品の時価の算定に関する監査上の留意事項」の 改正について」を公表いたしましたので、お知らせします。
+[p3] 今回の改正は、業種別委員会実務指針第 67 号「銀行等金融機関のデリバティブ取引の監査手続に関する実 務指針」の公表に伴うものであり、Ｑ９―１（第三者から入手した相場価格の利用に関する留意点）を修正し ております。
+[p4] 以 上

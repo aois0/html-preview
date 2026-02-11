@@ -1,0 +1,12 @@
+doc: JICPA 実務指針等公表物（研究報告） (jicpa_research_report)
+year: 2026
+item: s0303 / title: 前書文
+section: 303 / 前書文
+source_type: pdf
+source_url: https://jicpa.or.jp/specialized_field/files/2-13-38-1-20190418.pdf
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/jicpa_research_report/s0303.html
+
+[p1] [page 1]
+[p2] 非営利法人委員会研究報告第 38 号「医療法人会計基準に基づく 計算書類等の様式等に関するチェックリスト」の改正について 常務理事 柴 毅 日本公認会計士協会（非営利法人委員会）は、2019 年４月 18 日に開催されました常務理事会の承認を 受けて、非営利法人委員会研究報告第 38 号「医療法人会計基準に基づく計算書類等の様式等のチェックリ スト」 （改正 2019 年４月 18 日）を公表しましたのでお知らせします。
+[p3] 本研究報告で示すチェックリストは、医療法人会計基準の改正、関係する厚生労働省通知の改廃が行わ れたことに伴い、所要の見直しを行っています。
+[p4] 以 上

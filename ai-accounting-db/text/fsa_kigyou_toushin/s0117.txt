@@ -1,0 +1,13 @@
+doc: 金融庁 企業会計審議会（答申・報告書等） (fsa_kigyou_toushin)
+year: 2026
+item: s0117 / title: Machine translation English
+section: 117 / Machine translation English
+source_type: html
+source_url: https://www.fsa.go.jp/singi/singi_kigyou/tosin/20070327.html
+url: https://jplawdb.github.io/html-preview/ai-accounting-db/enhanced/fsa_kigyou_toushin/s0117.html
+
+[p1] Note: This page is machine translated. Translated pages are not necessarily correct.
+[p2] Tweet 企業会計審議会 総会 議事次第 日時：平成19年３月27日 14時00分～15時30分 場所：中央合同庁舎４号館９階 特別会議室 １． 開会の辞 ２． 「四半期レビュー基準の設定に関する意見書」について ３． 大臣挨拶 ４． ＥＵによる会計基準・監査の同等性評価について ５． 閉会の辞 企業会計審議会総会配付資料 資料１ ： 四半期レビュー基準の設定に関する意見書（案）（PDF：284KB）
+[p3] 資料２ ： 四半期報告制度の概要（PDF：157KB）
+[p4] 資料３－１ ： ＥＵにおける会計基準・監査の同等性評価について（PDF：124KB）
+[p5] 資料３－２ ： 参考資料（PDF：2,262KB）
