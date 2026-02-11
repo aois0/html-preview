@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>【別表七(一)】欠損金又は災害損失金の損金算入 - 法人税別表DB</title>
+<style>
+body{font-family:'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif;line-height:1.7;color:#333;max-width:900px;margin:0 auto;padding:20px;background:#f8f9fa}
+h1{color:#1a365d;border-bottom:3px solid #2b6cb0;padding-bottom:8px;font-size:1.4em}
+h2{color:#2b6cb0;font-size:1.1em;margin:20px 0 8px;border-left:4px solid #2b6cb0;padding-left:10px}
+a{color:#2b6cb0}
+table{width:100%;border-collapse:collapse;font-size:0.88em;margin:8px 0}
+th,td{padding:5px 8px;border:1px solid #e2e8f0;text-align:left}
+th{background:#edf2f7}
+.meta{background:#ebf8ff;border:1px solid #bee3f8;border-radius:6px;padding:10px 14px;margin:10px 0;font-size:0.9em}
+.warn{background:#fffbeb;border-left:4px solid #d69e2e;padding:8px 14px;margin:10px 0;font-size:0.9em}
+footer{margin-top:24px;padding-top:10px;border-top:1px solid #e2e8f0;font-size:0.8em;color:#718096}
+</style>
+</head><body>
+
+<!--BEPPYO:B07-1|欠損金又は災害損失金の損金算入に関する明細書|法57条|青色申告法人|→B04(減算留保),→B01-->
+<h1>【別表七(一)】欠損金又は災害損失金の損金算入に関する明細書</h1>
+
+<div class="meta">
+<strong>根拠</strong>: 法人税法57条（青色欠損金の繰越控除） | <strong>適用</strong>: 青色申告法人で繰越欠損金がある場合<br>
+<strong>転記先</strong>: → <a href="B04.html">別表四</a>（減算・留保②）、→ <a href="B01.html">別表一</a>（欄26）<br>
+<strong>性格</strong>: 過去10年間の欠損金を当期の所得から控除する計算
+</div>
+
+<h2>制度の概要</h2>
+<table>
+<tr><th>項目</th><th>内容</th></tr>
+<tr><td>繰越期間</td><td>10年（H30.4.1以後開始事業年度に生じた欠損金）</td></tr>
+<tr><td>控除限度額（大法人）</td><td>所得金額の50%</td></tr>
+<tr><td>控除限度額（中小法人）</td><td>所得金額の100%（制限なし）</td></tr>
+<tr><td>適用要件</td><td>欠損金が生じた事業年度に青色申告書を提出していること</td></tr>
+<tr><td>連続申告要件</td><td>その後の事業年度も連続して確定申告書を提出していること</td></tr>
+</table>
+
+<h2>各欄の詳細</h2>
+<table>
+<tr><th>欄</th><th>項目名</th><th>意味・内容</th><th>備考</th></tr>
+<tr><td>1</td><td>事業年度</td><td>欠損金が生じた各事業年度</td><td>古い年度から記載</td></tr>
+<tr><td>2</td><td>青色欠損金額</td><td>各年度に生じた欠損金の額</td><td>別表四で計算した欠損金額</td></tr>
+<tr><td>3</td><td>控除未済欠損金額</td><td>前期までに控除しきれなかった残額</td><td>←前期B07(一)の残額</td></tr>
+<tr><td>4</td><td>当期控除額</td><td>当期に損金算入する金額</td><td>→B04減算(留保②)、→B01欄26</td></tr>
+<tr><td>5</td><td>翌期繰越額</td><td>3 － 4。翌期に繰越す残額</td><td>→翌期B07(一)の3欄</td></tr>
+</table>
+
+<h2>控除限度額の計算</h2>
+<table>
+<tr><th>法人区分</th><th>控除限度額</th><th>具体例（所得1,000万円）</th></tr>
+<tr><td>中小法人（資本金1億円以下）</td><td>所得金額の100%</td><td>1,000万円まで控除可能</td></tr>
+<tr><td>大法人（資本金1億円超）</td><td>所得金額の50%</td><td>500万円まで控除可能</td></tr>
+<tr><td>更生法人等</td><td>所得金額の100%</td><td>1,000万円まで控除可能</td></tr>
+</table>
+
+<h2>転記関係（3箇所一致必須）</h2>
+<div class="warn">
+<strong>重要</strong>: B07(一)の当期控除額合計は以下の3箇所で一致する必要がある:<br>
+B07(一) 欄4合計 ＝ B01 欄26 ＝ B04 欄16（減算・留保②）
+</div>
+
+<h2>控除順序のルール</h2>
+<ul>
+<li><strong>古い年度から順に控除</strong>: 最も古い欠損金から先に使用（FIFO）</li>
+<li><strong>災害損失金が優先</strong>: 災害損失金は50%制限の対象外</li>
+<li><strong>特定資産の譲渡等損失額に制限</strong>: 合併等で引き継いだ欠損金には使用制限あり</li>
+</ul>
+
+<h2>よくある間違い</h2>
+<table>
+<tr><th>間違い</th><th>正しい処理</th></tr>
+<tr><td>大法人で100%控除してしまう</td><td>大法人は所得の50%が限度</td></tr>
+<tr><td>繰越期間を超えた欠損金を控除</td><td>10年（旧9年・旧7年）の期限管理が必要</td></tr>
+<tr><td>白色申告年度の欠損金を使用</td><td>欠損金発生年度が青色申告でなければ使用不可</td></tr>
+<tr><td>B04の社外流出③に記載</td><td>欠損金控除は留保②。B05(一)に連動する</td></tr>
+<tr><td>B01への転記を忘れる</td><td>B04とB01の両方に転記。3箇所一致を確認</td></tr>
+</table>
+
+<h2>関連別表</h2>
+<p>
+<a href="B04.html">別表四</a>（減算転記先） |
+<a href="B01.html">別表一</a>（欄26転記先） |
+<a href="B05-1.html">別表五(一)</a>（留保項目として連動） |
+<a href="../rel/rel-to-B04.html">→B04転記一覧</a>
+</p>
+
+<footer>
+<a href="../index.html">← 別表DBトップ</a> |
+法人税別表データベース | 最終更新: 2026-02-11
+</footer>
+</body></html>

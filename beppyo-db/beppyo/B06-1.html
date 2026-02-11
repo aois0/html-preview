@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>【別表六(一)】所得税額の控除に関する明細書 - 法人税別表DB</title>
+<style>
+body{font-family:'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif;line-height:1.7;color:#333;max-width:900px;margin:0 auto;padding:20px;background:#f8f9fa}
+h1{color:#1a365d;border-bottom:3px solid #2b6cb0;padding-bottom:8px;font-size:1.4em}
+h2{color:#2b6cb0;font-size:1.1em;margin:20px 0 8px;border-left:4px solid #2b6cb0;padding-left:10px}
+a{color:#2b6cb0}
+table{width:100%;border-collapse:collapse;font-size:0.88em;margin:8px 0}
+th,td{padding:5px 8px;border:1px solid #e2e8f0;text-align:left}
+th{background:#edf2f7}
+.meta{background:#ebf8ff;border:1px solid #bee3f8;border-radius:6px;padding:10px 14px;margin:10px 0;font-size:0.9em}
+.warn{background:#fffbeb;border-left:4px solid #d69e2e;padding:8px 14px;margin:10px 0;font-size:0.9em}
+footer{margin-top:24px;padding-top:10px;border-top:1px solid #e2e8f0;font-size:0.8em;color:#718096}
+</style>
+</head><body>
+
+<!--BEPPYO:B06-1|所得税額の控除に関する明細書|法68条,法40条|源泉所得税が課された利子・配当を受取った法人|→B01(税額控除),→B04(加算・社外流出)-->
+<h1>【別表六(一)】所得税額の控除に関する明細書</h1>
+
+<div class="meta">
+<strong>根拠</strong>: 法人税法68条（所得税額の控除）、法40条（源泉所得税の損金不算入） | <strong>適用</strong>: 利子・配当等に源泉所得税が課された場合<br>
+<strong>転記先</strong>: → <a href="B01.html">別表一</a>（税額控除・欄3）、→ <a href="B04.html">別表四</a>（加算・社外流出③・欄22）<br>
+<strong>性格</strong>: 法人が受けた源泉徴収所得税額を法人税額から控除（二重課税排除）
+</div>
+
+<h2>制度の概要</h2>
+<table>
+<tr><th>項目</th><th>内容</th></tr>
+<tr><td>趣旨</td><td>配当・利子等から源泉徴収された所得税を法人税額から控除して二重課税を排除</td></tr>
+<tr><td>B04との関係</td><td>源泉所得税は損金不算入（法40条）→B04で加算（社外流出③）</td></tr>
+<tr><td>B01との関係</td><td>控除所得税額→B01欄3で法人税額から控除</td></tr>
+<tr><td>控除しきれない場合</td><td>還付される（B01で法人税額がマイナスになる場合）</td></tr>
+</table>
+
+<h2>源泉所得税の対象と税率</h2>
+<table>
+<tr><th>所得の種類</th><th>源泉税率</th><th>元本所有期間の按分</th></tr>
+<tr><td>上場株式の配当</td><td>15.315%</td><td>必要（銘柄別簡便法可）</td></tr>
+<tr><td>非上場株式の配当</td><td>20.42%</td><td>必要</td></tr>
+<tr><td>利子（預金利子等）</td><td>15.315%</td><td>不要（全額控除可）</td></tr>
+<tr><td>公社債の利子</td><td>15.315%</td><td>不要（全額控除可）</td></tr>
+<tr><td>投資信託の収益分配</td><td>15.315%</td><td>必要</td></tr>
+</table>
+
+<h2>各欄の詳細</h2>
+<table>
+<tr><th>欄</th><th>項目名</th><th>意味・内容</th></tr>
+<tr><td>上段（個別記載）</td><td>銘柄別の明細</td><td>利子・配当等の種類、支払者名、収入金額、所得税額を記載</td></tr>
+<tr><td>1</td><td>収入金額又は総額</td><td>利子・配当等の総額（源泉徴収前の額面）</td></tr>
+<tr><td>2</td><td>所得税の額</td><td>源泉徴収された所得税額（復興特別所得税を含む）</td></tr>
+<tr><td>3</td><td>元本所有期間</td><td>配当計算期間中の所有期間。按分計算に使用</td></tr>
+<tr><td>4</td><td>控除を受ける所得税額</td><td>元本所有期間で按分した控除対象所得税額</td></tr>
+<tr><td>計</td><td>控除所得税額の合計</td><td>→B01欄3（税額控除）、→B04欄22（加算・社外流出③）</td></tr>
+</table>
+
+<h2>元本所有期間の按分</h2>
+<div class="warn">
+<strong>配当の元本所有期間按分</strong>: 配当計算期間の途中で株式を取得した場合、所有期間に応じて所得税額を按分する。利子については按分不要（全額控除可）。<br><br>
+<strong>銘柄別簡便法</strong>: 配当計算期間の末日に所有していた株式の取得日から起算して計算する簡便法が認められている。
+</div>
+
+<h2>B04・B01への二重転記</h2>
+<table>
+<tr><th>転記先</th><th>欄</th><th>内容</th><th>留保/社外</th></tr>
+<tr><td>B04</td><td>欄22</td><td>所得税額を加算（損金不算入・法40条）</td><td>社外流出③</td></tr>
+<tr><td>B01</td><td>欄3</td><td>法人税額から控除（二重課税排除・法68条）</td><td>―</td></tr>
+</table>
+
+<h2>よくある間違い</h2>
+<table>
+<tr><th>間違い</th><th>正しい処理</th></tr>
+<tr><td>B04の加算を忘れる</td><td>控除所得税額はB04で加算（社外流出③）とB01で税額控除の両方が必要</td></tr>
+<tr><td>元本所有期間の按分を忘れる</td><td>配当は元本所有期間で按分。利子は按分不要</td></tr>
+<tr><td>復興特別所得税を別計算</td><td>復興特別所得税は所得税額に含めて一括控除</td></tr>
+<tr><td>B04で留保②に記載</td><td>所得税額の加算は社外流出③。還付の場合も同様</td></tr>
+</table>
+
+<h2>関連別表</h2>
+<p>
+<a href="B01.html">別表一</a>（税額控除の転記先） |
+<a href="B04.html">別表四</a>（加算・社外流出の転記先） |
+<a href="B08-1.html">別表八(一)</a>（受取配当益金不算入） |
+<a href="../rel/rel-to-B04.html">→B04転記一覧</a>
+</p>
+
+<footer>
+<a href="../index.html">← 別表DBトップ</a> |
+法人税別表データベース | 最終更新: 2026-02-11
+</footer>
+</body></html>
