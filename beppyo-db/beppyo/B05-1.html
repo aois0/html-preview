@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>【別表五(一)】利益積立金額及び資本金等の額の計算 - 法人税別表DB</title>
+<style>
+body{font-family:'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif;line-height:1.7;color:#333;max-width:900px;margin:0 auto;padding:20px;background:#f8f9fa}
+h1{color:#1a365d;border-bottom:3px solid #2b6cb0;padding-bottom:8px;font-size:1.4em}
+h2{color:#2b6cb0;font-size:1.1em;margin:20px 0 8px;border-left:4px solid #2b6cb0;padding-left:10px}
+a{color:#2b6cb0}
+table{width:100%;border-collapse:collapse;font-size:0.88em;margin:8px 0}
+th,td{padding:5px 8px;border:1px solid #e2e8f0;text-align:left}
+th{background:#edf2f7}
+.meta{background:#ebf8ff;border:1px solid #bee3f8;border-radius:6px;padding:10px 14px;margin:10px 0;font-size:0.9em}
+.warn{background:#fffbeb;border-left:4px solid #d69e2e;padding:8px 14px;margin:10px 0;font-size:0.9em}
+.formula{background:#f0fff4;border:1px solid #c6f6d5;border-radius:6px;padding:10px 14px;margin:10px 0;font-family:monospace;font-size:0.95em}
+footer{margin-top:24px;padding-top:10px;border-top:1px solid #e2e8f0;font-size:0.8em;color:#718096}
+</style>
+</head><body>
+
+<!--BEPPYO:B05-1|利益積立金額及び資本金等の額の計算に関する明細書|法2条十七の三,十七の四|全法人|←B04(留保),←B05(二)(未納税額)-->
+<h1>【別表五(一)】利益積立金額及び資本金等の額の計算に関する明細書</h1>
+
+<div class="meta">
+<strong>根拠</strong>: 法人税法2条十七の三（利益積立金額）、同十七の四（資本金等の額） | <strong>適用</strong>: 全法人（必須）<br>
+<strong>転記元</strong>: ← <a href="B04.html">別表四</a>（留保②欄）、← <a href="B05-2.html">別表五(二)</a>（未納税額・納税充当金）<br>
+<strong>性格</strong>: 税務上の貸借対照表。法人設立以来の「税務上の留保利益の累計額」を管理する
+</div>
+
+<h2>全体構造</h2>
+<p><strong>Ⅰ 利益積立金額</strong>（1〜31行）: 各項目ごとに 期首① - 減② + 増③ = 差引翌期首④<br>
+<strong>Ⅱ 資本金等の額</strong>（32〜36行）: 同様の4列構造</p>
+
+<div class="formula">
+<strong>横計算</strong>: 各行④ = 各行① - 各行② + 各行③<br>
+<strong>縦計算</strong>: 31行 = 各行(1〜30)の合計
+</div>
+
+<h2>Ⅰ 利益積立金額の各欄詳細</h2>
+<table>
+<tr><th>行</th><th>区分</th><th>期首①の内容</th><th>減②の内容</th><th>増③の内容</th><th>備考</th></tr>
+<tr><td>1</td><td>利益準備金</td><td>前期末BS利益準備金</td><td>資本組入等の減少</td><td>剰余金処分による積立</td><td>BS利益準備金と完全一致必須</td></tr>
+<tr><td>2</td><td>積立金（別途積立金等）</td><td>前期末BS各種積立金</td><td>取崩額</td><td>新規積立額</td><td>BSと一致。圧縮積立金は別行</td></tr>
+<tr><td>3〜25</td><td>税務調整項目（空欄に個別記載）</td><td>前期繰越額</td><td>←B04の減算・留保②</td><td>←B04の加算・留保②</td><td>項目ごとに行を分けて記載</td></tr>
+</table>
+
+<h3>税務調整項目の典型例（3〜25行に個別記載）</h3>
+<table>
+<tr><th>項目</th><th>期首①</th><th>減②（B04減算留保）</th><th>増③（B04加算留保）</th><th>差引④</th></tr>
+<tr><td>減価償却超過額</td><td>前期繰越超過額</td><td>当期認容額</td><td>当期超過額</td><td>繰越超過額</td></tr>
+<tr><td>貸倒引当金超過額</td><td>前期超過額</td><td>当期戻入額</td><td>当期超過額</td><td>繰越超過額</td></tr>
+<tr><td>賞与引当金</td><td>前期末計上額</td><td>当期戻入益</td><td>当期繰入額</td><td>当期末計上額</td></tr>
+<tr><td>未払事業税</td><td>前期末未払額</td><td>当期納付額</td><td>当期末見積額</td><td>当期末未払額</td></tr>
+</table>
+
+<h3>特殊行（固定行）</h3>
+<table>
+<tr><th>行</th><th>区分</th><th>内容</th><th>転記元</th><th>注意</th></tr>
+<tr><td>26</td><td>繰越損益金</td><td>BS繰越利益剰余金。BS金額をそのまま転記</td><td>←貸借対照表</td><td>BS繰越利益剰余金と完全一致必須</td></tr>
+<tr><td>27</td><td>納税充当金</td><td>会計上の未払法人税等</td><td>←<a href="B05-2.html">B05(二)</a>下段</td><td>B05(二)の期末納税充当金と一致</td></tr>
+<tr><td>28</td><td>未納法人税及び地方法人税</td><td>当期確定法人税額（マイナス表示）</td><td>←B05(二)⑥</td><td>△（マイナス）で記載</td></tr>
+<tr><td>29</td><td>未納道府県民税</td><td>当期確定住民税額（マイナス表示）</td><td>←B05(二)⑥</td><td>△（マイナス）で記載</td></tr>
+<tr><td>30</td><td>未納市町村民税</td><td>当期確定住民税額（マイナス表示）</td><td>←B05(二)⑥</td><td>△（マイナス）で記載</td></tr>
+<tr><td><strong>31</strong></td><td><strong>差引合計額</strong></td><td>全行の合計。税務上の利益積立金額</td><td>←各行合計</td><td>検算の対象（最重要）</td></tr>
+</table>
+
+<h2>Ⅱ 資本金等の額（32〜36行）</h2>
+<table>
+<tr><th>行</th><th>区分</th><th>内容</th><th>備考</th></tr>
+<tr><td>32</td><td>資本金又は出資金</td><td>BS資本金と一致</td><td>増資・減資があれば増減記載</td></tr>
+<tr><td>33</td><td>資本準備金</td><td>BS資本準備金と一致</td><td>中小企業はほぼ変動なし</td></tr>
+<tr><td>34</td><td>その他資本剰余金</td><td>資本剰余金のうち資本準備金以外</td><td>資本剰余金配当時に減少</td></tr>
+<tr><td>36</td><td>差引合計額</td><td>資本金等の額の合計</td><td>均等割の判定に使用</td></tr>
+</table>
+
+<h2>別表四との検算</h2>
+<div class="formula">
+<strong>検算式</strong>:<br>
+B05(一)31④ ＝ B05(一)31① ＋ B04の留保所得(27②) － 法人税等(28③＋29③＋30③の合計)<br>
+<br>
+<strong>還付がある場合</strong>: 上記に未収還付法人税等を加算
+</div>
+
+<div class="warn">
+<strong>検算が合わない場合</strong>: <a href="../check/kenzan.html">検算トラブルシューティング</a>を参照。典型原因は納税充当金の処理ミス、社外流出/留保の区分誤り、前期繰越の転記ミス。
+</div>
+
+<h2>よくある間違い</h2>
+<table>
+<tr><th>間違い</th><th>正しい処理</th></tr>
+<tr><td>繰越損益金(26)がBSと不一致</td><td>BS繰越利益剰余金と完全一致させる</td></tr>
+<tr><td>前期④と当期①が不一致</td><td>前期申告書の④欄をそのまま転記</td></tr>
+<tr><td>B04の社外流出③をB05(一)に転記</td><td>留保②のみ転記。社外流出は転記しない</td></tr>
+<tr><td>未納法人税(28〜30)をプラスで記載</td><td>マイナス（△）で記載。利益積立金を減少させる</td></tr>
+<tr><td>B05(二)を完成前にB05(一)を作成</td><td>B05(二)→B05(一)の順で作成する</td></tr>
+</table>
+
+<h2>関連別表</h2>
+<p>
+<a href="B04.html">別表四</a>（留保項目の転記元） |
+<a href="B05-2.html">別表五(二)</a>（未納税額の転記元） |
+<a href="B01.html">別表一</a> |
+<a href="../rel/rel-core.html">5別表の相互関係</a> |
+<a href="../check/kenzan.html">検算</a>
+</p>
+
+<footer>
+<a href="../index.html">← 別表DBトップ</a> |
+法人税別表データベース | 最終更新: 2026-02-11
+</footer>
+</body></html>

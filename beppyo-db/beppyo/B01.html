@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>【別表一(一)】各事業年度の所得に係る申告書 - 法人税別表DB</title>
+<style>
+body{font-family:'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif;line-height:1.7;color:#333;max-width:900px;margin:0 auto;padding:20px;background:#f8f9fa}
+h1{color:#1a365d;border-bottom:3px solid #2b6cb0;padding-bottom:8px;font-size:1.4em}
+h2{color:#2b6cb0;font-size:1.1em;margin:20px 0 8px;border-left:4px solid #2b6cb0;padding-left:10px}
+a{color:#2b6cb0}
+table{width:100%;border-collapse:collapse;font-size:0.88em;margin:8px 0}
+th,td{padding:5px 8px;border:1px solid #e2e8f0;text-align:left}
+th{background:#edf2f7}
+.meta{background:#ebf8ff;border:1px solid #bee3f8;border-radius:6px;padding:10px 14px;margin:10px 0;font-size:0.9em}
+.warn{background:#fffbeb;border-left:4px solid #d69e2e;padding:8px 14px;margin:10px 0;font-size:0.9em}
+footer{margin-top:24px;padding-top:10px;border-top:1px solid #e2e8f0;font-size:0.8em;color:#718096}
+</style>
+</head><body>
+
+<!--BEPPYO:B01|各事業年度の所得に係る申告書|法74条|全法人|←B04(所得金額),←B06系(税額控除)→B05(二)(確定税額)-->
+<h1>【別表一(一)】各事業年度の所得に係る申告書</h1>
+
+<div class="meta">
+<strong>根拠</strong>: 法人税法74条（確定申告） | <strong>適用</strong>: 全法人（必須）<br>
+<strong>転記元</strong>: ← <a href="B04.html">別表四</a>（所得金額）、← 別表六系（税額控除）<br>
+<strong>転記先</strong>: → <a href="B05-2.html">別表五(二)</a>（確定法人税額）、→ 地方税第六号様式（法人税額）<br>
+<strong>性格</strong>: 法人税確定申告書の本体。全別表の計算結果を集約し、最終的な税額を確定する
+</div>
+
+<h2>法人税額の計算（主要欄）</h2>
+<table>
+<tr><th>欄</th><th>項目名</th><th>計算・内容</th><th>転記元←</th></tr>
+<tr><td>1</td><td>所得金額又は欠損金額</td><td>課税標準。千円未満切捨</td><td>←<a href="B04.html">B04</a>の27欄①</td></tr>
+<tr><td>2</td><td>法人税額</td><td>所得金額×税率。百円未満切捨</td><td>←次葉で計算</td></tr>
+<tr><td>-</td><td>（税率計算）</td><td>中小法人: 800万以下15%＋超過分23.2%<br>普通法人: 全額23.2%</td><td>―</td></tr>
+<tr><td>3</td><td>法人税額の特別控除額</td><td>試験研究費・賃上げ促進等の税額控除合計</td><td>←B06(六)(二十四)等</td></tr>
+<tr><td>5</td><td>所得税額等の控除額</td><td>源泉所得税・外国税額の控除</td><td>←B06(一)(二)</td></tr>
+<tr><td>9</td><td>差引所得に対する法人税額</td><td>2 － 3 － 5（各種調整後）</td><td>←上記計算</td></tr>
+<tr><td>10</td><td>中間申告分の法人税額</td><td>当期中間申告で納付済の額</td><td>←中間申告書</td></tr>
+<tr><td>11</td><td><strong>差引確定法人税額</strong></td><td>9 － 10。百円未満切捨</td><td>→<a href="B05-2.html">B05(二)</a></td></tr>
+</table>
+
+<h2>地方法人税の計算</h2>
+<table>
+<tr><th>欄</th><th>項目名</th><th>計算・内容</th><th>備考</th></tr>
+<tr><td>12</td><td>課税標準法人税額</td><td>法人税額（欄2ベース）千円未満切捨</td><td>一定の調整あり</td></tr>
+<tr><td>13</td><td>地方法人税額</td><td>12 × 10.3%。百円未満切捨</td><td>R4.4.1以後開始事業年度</td></tr>
+<tr><td>14</td><td>外国税額控除額</td><td>地方法人税からの外国税額控除</td><td>←B06(二の二)</td></tr>
+<tr><td>15</td><td>中間申告分の地方法人税額</td><td>中間で納付済の地方法人税額</td><td>←中間申告書</td></tr>
+<tr><td>16</td><td><strong>差引確定地方法人税額</strong></td><td>13 － 14 － 15</td><td>→B05(二)</td></tr>
+</table>
+
+<div class="warn">
+<strong>還付の場合</strong>: 中間納付額＞確定税額の場合、差額が還付される。還付額は別欄（欄22等）に記載し、B05(二)で還付処理を行う。
+</div>
+
+<h2>税率の適用区分</h2>
+<table>
+<tr><th>法人区分</th><th>所得800万円以下</th><th>所得800万円超</th><th>適用条件</th></tr>
+<tr><td>中小法人</td><td>15%</td><td>23.2%</td><td>資本金1億円以下（大法人の完全子法人除く）</td></tr>
+<tr><td>普通法人</td><td>23.2%</td><td>23.2%</td><td>資本金1億円超</td></tr>
+<tr><td>特定医療法人</td><td>15%（全額）</td><td>15%（全額）</td><td>特定の医療法人</td></tr>
+</table>
+
+<h2>主要な税額控除（別表六系→B01）</h2>
+<table>
+<tr><th>控除の種類</th><th>転記元</th><th>B01の欄</th><th>概要</th></tr>
+<tr><td>所得税額控除</td><td>B06(一)</td><td>欄5</td><td>配当・利子の源泉所得税を控除</td></tr>
+<tr><td>外国税額控除</td><td>B06(二)</td><td>欄5</td><td>外国で課された税額を控除</td></tr>
+<tr><td>試験研究費税額控除</td><td>B06(六)(七)</td><td>欄3</td><td>R&D減税。総額型・中小型</td></tr>
+<tr><td>賃上げ促進税額控除</td><td>B06(二十四)(二十五)</td><td>欄3</td><td>給与増加15-45%控除</td></tr>
+<tr><td>中小企業経営強化税額控除</td><td>B06(十七)</td><td>欄3</td><td>経営力向上設備7-10%控除</td></tr>
+</table>
+
+<h2>よくある間違い</h2>
+<table>
+<tr><th>間違い</th><th>正しい処理</th></tr>
+<tr><td>所得金額に千円未満が残っている</td><td>千円未満切捨。B04で処理済のはず</td></tr>
+<tr><td>中小法人の軽減税率を適用しない</td><td>資本金1億円以下の法人は800万以下15%を適用</td></tr>
+<tr><td>地方法人税の税率を旧税率(4.4%)で計算</td><td>R4.4.1以後開始事業年度は10.3%</td></tr>
+<tr><td>B05(二)への転記を忘れる</td><td>確定法人税額・地方法人税額をB05(二)②欄に転記</td></tr>
+</table>
+
+<h2>関連別表</h2>
+<p>
+<a href="B04.html">別表四</a>（所得金額の転記元） |
+<a href="B05-2.html">別表五(二)</a>（確定税額の転記先） |
+<a href="B02.html">別表二</a>（同族会社判定） |
+<a href="../rel/rel-core.html">5別表の相互関係</a> |
+<a href="../flow/overview.html">作成順序</a>
+</p>
+
+<footer>
+<a href="../index.html">← 別表DBトップ</a> |
+法人税別表データベース | 最終更新: 2026-02-11
+</footer>
+</body></html>
