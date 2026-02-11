@@ -13,6 +13,7 @@
 - AI向け 文献DB（税務・国際課税）: `/html-preview/ai-paper-db/`
 - AI向け 租税条約DB（主要国）: `/html-preview/ai-treaty-db/`
 - AI向け NTA QA DB（質疑応答事例・文書回答事例・タックスアンサー）: `/html-preview/ai-nta-qa-db/`
+- AI向け 法人税別表DB（確定申告書別表の構造・各欄・転記関係）: `/html-preview/beppyo-db/`
 - Tax KB Prototype: `/html-preview/tax-kb/`
 
 ## 1) 条文（法令）を引きたい → ai-law-db
@@ -82,7 +83,20 @@ NOTE
 2) `ai-treaty-db/jp-tax-treaties/data/shards/shard-XXX.txt`（TSVを検索）
 3) `ai-treaty-db/jp-tax-treaties/packs/...`（本文。1ファイル≒1万トークン以内）
 
-## 7) 国税庁Q&A（質疑応答/文書回答/タックスアンサー）を引きたい → ai-nta-qa-db
+## 7) 法人税の別表（確定申告書別表）を調べたい → beppyo-db
+
+入口
+- `/html-preview/beppyo-db/llms.txt`（推奨: まずこれ）
+
+典型フロー
+1) `beppyo-db/llms.txt` で別表番号・転記関係・検算式の全体像を把握
+2) `beppyo-db/beppyo/{ID}.txt` で個別別表の全欄詳細を取得（例: B04.txt, B15.txt）
+3) `beppyo-db/rel/rel-core.txt` で必須5別表の相互関係を確認
+4) `beppyo-db/check/kenzan.txt` でB04↔B05(一)検算不一致の原因を調査
+
+収録別表: B01,B02,B04,B05-1,B05-2,B06-1,B06-24,B07-1,B08-1,B11-1,B14-2,B15,B16-2,B16-7
+
+## 8) 国税庁Q&A（質疑応答/文書回答/タックスアンサー）を引きたい → ai-nta-qa-db
 
 入口（最短）
 - `/html-preview/ai-nta-qa-db/quickstart.txt`（推奨: まずこれ）
@@ -102,4 +116,5 @@ NOTE
 - 判決 = `ai-hanketsu-db/quickstart.txt`
 - 文献 = `ai-paper-db/llms.txt`
 - 租税条約 = `ai-treaty-db/llms.txt`
+- 別表 = `beppyo-db/llms.txt`
 - 国税庁Q&A = `ai-nta-qa-db/quickstart.txt`
