@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>別表五（二）: ①②③④⑤→⑥</title>
+  <style>
+    :root{--bg:#ffffff;--text:#1b1b1b;--muted:#666;--accent:#b04a2f;--border:#e7e0d8;--code:#f5f2ed;}
+    body{margin:0;font-family:"Hiragino Kaku Gothic ProN","Yu Gothic","Meiryo",sans-serif;color:var(--text);background:var(--bg);line-height:1.75;}
+    header{padding:18px 18px 14px;border-bottom:1px solid var(--border);background:linear-gradient(135deg,#f6efe4,#fff);}
+    header h1{margin:0 0 6px 0;font-size:18px;}
+    header .meta{color:var(--muted);font-size:13px;}
+    main{max-width:980px;margin:0 auto;padding:18px;}
+    section{border:1px solid var(--border);border-radius:12px;padding:14px 16px;margin:14px 0;}
+    h2{margin:0 0 8px 0;font-size:15px;color:var(--accent);}
+    p{margin:8px 0;}
+    ul{padding-left:20px;margin:8px 0;}
+    code,pre{background:var(--code);border:1px solid #eee2d7;border-radius:8px;}
+    code{padding:0 6px;}
+    pre{padding:10px 12px;overflow:auto;font-size:13px;white-space:pre-wrap;}
+    .tldr{font-weight:600;}
+    .small{color:var(--muted);font-size:13px;}
+    .k{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12px;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>別表五（二）: 租税公課の納付状況（①②③④⑤→⑥）</h1>
+    <div class="meta">card_id: besshyo5-2_overview / 別表五（二）を「未納の動き」として読むためのカード</div>
+  </header>
+  <main>
+    <section>
+      <h2>TL;DR</h2>
+      <p class="tldr">別表五（二）は「未納税額の期首残①」に「当期発生②」を足し、「当期中の納付③④⑤」を引いて「期末未納⑥」を出す表。別表五（一）の未納法人税等27は、原則としてこの⑥（確定4）の本書を転記する。</p>
+      <p class="small">混乱ポイント: ②（確定4）は“確定税額（本税）”、⑥（確定4）は“残っている未納（本書）”。源泉・中間還付等があると⑥が小さくなる、または外書(△)が立つ。</p>
+    </section>
+
+    <section>
+      <h2>欄の意味（法人税及び地方法人税ブロック）</h2>
+      <ul>
+        <li><code>① 期首現在未納税額</code>: 前期末の未納の繰越。</li>
+        <li><code>② 当期発生税額</code>: 当期に確定する本税。中間3と確定4に分かれる。</li>
+        <li><code>③④⑤ 当期中の納付税額</code>: 当期中に納付した税額を、納税充当金取崩/仮払経理/損金経理で区分。</li>
+        <li><code>⑥ 期末現在未納税額</code>: <code>① + ② - ③ - ④ - ⑤</code>（法人税+地方法人税の行ごと）。</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>別表一とのリンク（確定4）</h2>
+      <pre><code>別表五（二）②（確定4）
+  = 別表一「差引確定法人税額15」
+  + 別表一「差引確定地方法人税額41」
+
+別表五（二）⑥（確定4）
+  = ① + ② - ③ - ④ - ⑤
+  （源泉・還付・過誤納などで外書(△)が絡むと読み方が変わる）</code></pre>
+    </section>
+
+    <section>
+      <h2>別表五（一）へのリンク</h2>
+      <pre><code>別表五（一）27（未納法人税及び未納地方法人税）
+  = 別表五（二）⑥（確定4）の本書</code></pre>
+      <p class="small">詳細は <a href="besshyo5-1_27.html">別表五（一）27カード</a>。</p>
+    </section>
+
+    <section>
+      <h2>根拠（ソース）</h2>
+      <ul>
+        <li>国税庁 手引（別表五（二）の記載要領）</li>
+      </ul>
+      <p class="small">sources: <code class="k">../sources/nta/tebiki2022/all.pdf</code>, <code class="k">../sources/nta/itiran2025/pdf/05(02)-ki.pdf</code></p>
+    </section>
+  </main>
+</body>
+</html>
