@@ -16,6 +16,7 @@
 - Tax cases/rulings: /html-preview/ai-hanketsu-db/quickstart.txt
 
 - Papers/guidelines (international tax): /html-preview/ai-paper-db/llms.txt
+- NTA practical guides (法人税の手引・源泉あらまし): /html-preview/ai-nta-guide-db/llms.txt
 - Paper corpus (OECD TPG 2022): /html-preview/ai-paper-db/oecd-tpg-2022/quickstart.txt
 - Paper corpus (NTA TP audit): /html-preview/ai-paper-db/nta-tp-audit/quickstart.txt
 - Paper corpus (OECD/G20 BEPS): /html-preview/ai-paper-db/oecd-beps/quickstart.txt

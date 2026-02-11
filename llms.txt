@@ -14,6 +14,7 @@
 - AI向け 租税条約DB（主要国）: `/html-preview/ai-treaty-db/`
 - AI向け NTA QA DB（質疑応答事例・文書回答事例・タックスアンサー）: `/html-preview/ai-nta-qa-db/`
 - AI向け 法人税別表DB（確定申告書別表の構造・各欄・転記関係）: `/html-preview/beppyo-db/`
+- AI向け NTA Guide DB（法人税の手引・源泉徴収のあらまし）: `/html-preview/ai-nta-guide-db/`
 - Tax KB Prototype: `/html-preview/tax-kb/`
 
 ## 1) 条文（法令）を引きたい → ai-law-db
@@ -108,6 +109,19 @@ NOTE
 3) `ai-nta-qa-db/text/{doc_code}/{item_id}.txt`（本文）
 4) 根拠URL: `ai-nta-qa-db/enhanced/{doc_code}/{item_id}.html#pX`
 
+## 9) 国税庁の手引き系（法人税の手引・源泉徴収のあらまし）を引きたい → ai-nta-guide-db
+
+入口（最短）
+- `/html-preview/ai-nta-guide-db/quickstart.txt`
+- `/html-preview/ai-nta-guide-db/llms.txt`
+
+典型フロー（10kトークン制約向け）
+1) `ai-nta-guide-db/data/resolve_lite/index.json`
+2) `ai-nta-guide-db/data/resolve_lite/{doc_code}.json`（part一覧）
+3) `ai-nta-guide-db/data/resolve_lite_parts/{doc_code}/part-XXX.json`（item一覧）
+4) `ai-nta-guide-db/text/{doc_code}/{item_id}.txt`（本文）
+5) 根拠URL: `ai-nta-guide-db/enhanced/{doc_code}/{item_id}.html#pX`
+
 ## 最後に
 
 迷ったら:
@@ -118,3 +132,4 @@ NOTE
 - 租税条約 = `ai-treaty-db/llms.txt`
 - 別表 = `beppyo-db/llms.txt`
 - 国税庁Q&A = `ai-nta-qa-db/quickstart.txt`
+- 国税庁手引き = `ai-nta-guide-db/quickstart.txt`
