@@ -140,15 +140,24 @@ NOTE: `core/batch-*.txt` は内部用。入口ナビには使わない。
 - 根拠URL: `ai-nta-qa-db/enhanced/{doc_code}/{item_id}.html#pX`
 
 **doc_code命名規則**: `{種類}_{税目}`
-- 種類: shitsugi（質疑応答）、bunshokaito（文書回答）、taxanswer（タックスアンサー）
-- 税目: hojin/shotoku/shohi/gensen/sozoku/zoyo/joto/inshi/hyoka/hotei等
-- 例: 法人税の質疑応答 → `shitsugi_hojin` (307件), 文書回答 → `bunshokaito_hojin` (188件)
 
-**主要件数（税目別）**
-- 法人税: 601件 / 所得税: 624件 / 消費税: 453件 / 譲渡所得: 366件
-- 印紙税: 279件 / 源泉所得税: 251件 / 相続税・贈与税: 246件 / 財産評価: 205件
+質疑応答（shitsugi_*）:
+- shitsugi_hojin (307) / shitsugi_shotoku (261) / shitsugi_shohi (272)
+- shitsugi_gensen (153) / shitsugi_sozoku (129) / shitsugi_joto (255)
+- shitsugi_inshi (243) / shitsugi_hyoka (172) / shitsugi_hotei (1)
 
-全doc_code一覧 → `ai-nta-qa-db/quickstart.txt` 参照
+文書回答（bunshokaito_*）:
+- bunshokaito_hojin (188) / bunshokaito_shotoku (157) / bunshokaito_shohi (67)
+- bunshokaito_gensen (25) / bunshokaito_gensenshotoku (7) / bunshokaito_joto-sanrin (40)
+- bunshokaito_sozoku (10) / bunshokaito_souzoku (13) / bunshokaito_zoyo (12) / bunshokaito_zouyo (2)
+- bunshokaito_hyoka (4) / bunshokaito_inshi (5) / bunshokaito_inshi-sonota (1)
+- bunshokaito_shozei (7) / bunshokaito_sonota (5)
+
+タックスアンサー（taxanswer_*）:
+- taxanswer_hojin (106) / taxanswer_shotoku (206) / taxanswer_shohi (114)
+- taxanswer_gensen (66) / taxanswer_sozoku (52) / taxanswer_zoyo (28) / taxanswer_joto (71)
+- taxanswer_inshi (30) / taxanswer_hyoka (29) / taxanswer_hotei (14)
+- taxanswer_saigai (16) / taxanswer_fufuku (2) / taxanswer_osirase (10)
 
 ## 7) NTA手引き（法人税・源泉・年調・法定調書・印紙税ほか）→ ai-nta-guide-db
 
