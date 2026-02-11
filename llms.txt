@@ -16,6 +16,7 @@
 - AI向け 法人税別表DB（確定申告書別表の構造・各欄・転記関係）: `/html-preview/beppyo-db/`
 - AI向け NTA Guide DB（法人税の手引・源泉徴収のあらまし）: `/html-preview/ai-nta-guide-db/`
 - AI向け 会計基準DB（ASBJ・企業会計審議会・JICPA）: `/html-preview/ai-accounting-db/`
+- AI向け 消費税申告書手引DB（一般用・簡易課税用・インボイス）: `/html-preview/ai-shohi-guide-db/`
 - Tax KB Prototype: `/html-preview/tax-kb/`
 
 ## 1) 条文（法令）を引きたい → ai-law-db
@@ -162,6 +163,24 @@ NOTE
 4) `ai-accounting-db/text/{doc_code}/{item_id}.txt`（本文）
 5) 根拠URL: `ai-accounting-db/enhanced/{doc_code}/{item_id}.html#pX`
 
+## 11) 消費税申告書の作成手引きを引きたい → ai-shohi-guide-db
+
+入口（最短）
+- `/html-preview/ai-shohi-guide-db/quickstart.txt`
+- `/html-preview/ai-shohi-guide-db/llms.txt`
+
+収録（明示）
+- `hojin_shohi_kakikata_ippan` = 法人用 消費税及び地方消費税の申告書（一般用）の書き方
+- `hojin_shohi_kakikata_kani` = 法人用 消費税及び地方消費税の申告書（簡易課税用）の書き方
+- `invoice_oshirase_2025` = インボイス制度に関するお知らせ（令和7年4月）
+
+典型フロー（10kトークン制約向け）
+1) `ai-shohi-guide-db/data/resolve_lite/index.json`
+2) `ai-shohi-guide-db/data/resolve_lite/{doc_code}.json`（part一覧）
+3) `ai-shohi-guide-db/data/resolve_lite_parts/{doc_code}/part-XXX.json`（item一覧）
+4) `ai-shohi-guide-db/text/{doc_code}/{item_id}.txt`（本文）
+5) 根拠URL: `ai-shohi-guide-db/enhanced/{doc_code}/{item_id}.html#pX`
+
 ## 最後に
 
 迷ったら:
@@ -174,3 +193,4 @@ NOTE
 - 国税庁Q&A = `ai-nta-qa-db/quickstart.txt`
 - 国税庁手引き = `ai-nta-guide-db/quickstart.txt`
 - 会計基準 = `ai-accounting-db/quickstart.txt`
+- 消費税申告書手引き = `ai-shohi-guide-db/quickstart.txt`
