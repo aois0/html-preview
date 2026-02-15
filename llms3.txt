@@ -76,6 +76,7 @@ URL: `{base}ai-law-db/text/{law_code}/{article}.txt`
 ## 2) 通達 → ai-tsutatsu-db ★1通達=1URL保証
 
 入口: https://jplawdb.github.io/html-preview/ai-tsutatsu-db/llms.txt
+法基通索引: `{base}ai-tsutatsu-db/quickstart.txt`（条文番号→通達の逆引き／章節キーワード検索対応・~5Kトークン）
 
 **直接アクセス（推奨・1回で完結）**
 URL: `{base}ai-tsutatsu-db/text/{doc_code}/{item_id}.txt`
