@@ -75,7 +75,13 @@ URL: `{base}ai-law-db/text/{law_code}/{article}.txt`
 
 ## 2) 通達 → ai-tsutatsu-db ★1通達=1URL保証
 
-入口: `{base}ai-tsutatsu-db/quickstart.txt`（法基通ハイブリッド索引・条文逆引き／章節キーワード検索・~5Kトークン）
+入口（法基通）: `{base}ai-tsutatsu-db/quickstart.txt`（~5Kトークン）
+入口（所基通）: `{base}ai-tsutatsu-db/quickstart-shotokuzei.txt`（~7Kトークン）
+入口（消基通）: `{base}ai-tsutatsu-db/quickstart-shohizei.txt`（~5Kトークン）
+入口（相基通）: `{base}ai-tsutatsu-db/quickstart-sozokuzei.txt`（~2Kトークン）
+入口（措通法）: `{base}ai-tsutatsu-db/quickstart-sozei-tokubetsu.txt`（~4Kトークン）
+入口（評基通）: `{base}ai-tsutatsu-db/quickstart-hyoka.txt`（~2Kトークン）
+入口（通法基通）: `{base}ai-tsutatsu-db/quickstart-tsusoku.txt`（~0.5Kトークン）
 
 **直接アクセス（推奨・1回で完結）**
 URL: `{base}ai-tsutatsu-db/text/{doc_code}/{item_id}.txt`
