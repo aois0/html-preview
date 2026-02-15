@@ -31,12 +31,13 @@ base = https://jplawdb.github.io/html-preview/
 通達番号が分かる ──→ ai-tsutatsu-db 直接アクセス（1回）
 別表番号が分かる ──→ beppyo-db     直接アクセス（1回）
 条文の解釈・運用 ──→ まず通達を直接アクセス → なければ ai-nta-qa-db をshard検索
+通達をキーワードで探す → quickstart（2回: 索引→本文）
 別表の書き方    ──→ beppyo-db（構造・欄・転記） → NTA原文要 → ai-nta-guide-db
 判例を探す     ──→ ai-hanketsu-db shard検索（3回）
 キーワードのみ  ──→ 該当DBのshard検索（hanketsu/QA/paper/treatyのみ対応）
 ```
 
-注意: **ai-law-db と ai-tsutatsu-db にはshard検索が存在しない**。直接アクセス一択。
+注意: **ai-law-db と ai-tsutatsu-db にはshard検索が存在しない**。通達の検索はquickstart索引を使う。
 
 ---
 
@@ -75,17 +76,22 @@ URL: `{base}ai-law-db/text/{law_code}/{article}.txt`
 
 ## 2) 通達 → ai-tsutatsu-db ★1通達=1URL保証
 
-入口（法基通）: `{base}ai-tsutatsu-db/quickstart.txt`（~5Kトークン）
-入口（所基通）: `{base}ai-tsutatsu-db/quickstart-shotokuzei.txt`（~7Kトークン）
-入口（消基通）: `{base}ai-tsutatsu-db/quickstart-shohizei.txt`（~5Kトークン）
-入口（相基通）: `{base}ai-tsutatsu-db/quickstart-sozokuzei.txt`（~2Kトークン）
-入口（措通法）: `{base}ai-tsutatsu-db/quickstart-sozei-tokubetsu.txt`（~4Kトークン）
-入口（評基通）: `{base}ai-tsutatsu-db/quickstart-hyoka.txt`（~2Kトークン）
-入口（通法基通）: `{base}ai-tsutatsu-db/quickstart-tsusoku.txt`（~0.5Kトークン）
-
-**直接アクセス（推奨・1回で完結）**
+**番号が分かる → 直接アクセス（1回）**
 URL: `{base}ai-tsutatsu-db/text/{doc_code}/{item_id}.txt`
 各通達は平均1-2KB（0.3-0.5Kトークン）。10通達読んでも5Kトークン以下。
+
+**番号が不明・キーワードで探す → quickstart索引（2回: 索引→本文）**
+各quickstartは章節キーワード＋条文逆引きのTSV索引。SECTION_INDEXのlabelやREF_INDEXの条文番号で検索し、rangeからitem_idを特定して本文を読む。
+
+| 通達 | quickstart | トークン |
+|------|-----------|---------|
+| 法基通 | `{base}ai-tsutatsu-db/quickstart.txt` | ~5K |
+| 所基通 | `{base}ai-tsutatsu-db/quickstart-shotokuzei.txt` | ~7K |
+| 消基通 | `{base}ai-tsutatsu-db/quickstart-shohizei.txt` | ~5K |
+| 相基通 | `{base}ai-tsutatsu-db/quickstart-sozokuzei.txt` | ~2K |
+| 措通法 | `{base}ai-tsutatsu-db/quickstart-sozei-tokubetsu.txt` | ~4K |
+| 評基通 | `{base}ai-tsutatsu-db/quickstart-hyoka.txt` | ~2K |
+| 通法基通 | `{base}ai-tsutatsu-db/quickstart-tsusoku.txt` | ~0.5K |
 
 **略称→doc_code変換表**
 
@@ -110,8 +116,9 @@ URL: `{base}ai-tsutatsu-db/text/{doc_code}/{item_id}.txt`
 - 措通66-6-1 → 措置法66条の6に関する通達第1号
 
 **番号が不明な場合**
-`{base}ai-tsutatsu-db/data/resolve_lite/{doc_code}.json` で全項番+タイトル一覧を取得（1回）
-通達名不明→ `{base}ai-tsutatsu-db/data/doc_aliases.json`
+まず上記quickstart索引で検索。それでも見つからない場合:
+- `{base}ai-tsutatsu-db/data/resolve_lite/{doc_code}.json` で全項番+タイトル一覧を取得（1回）
+- 通達名不明→ `{base}ai-tsutatsu-db/data/doc_aliases.json`
 
 ## 3) 判決・裁決 → ai-hanketsu-db
 
