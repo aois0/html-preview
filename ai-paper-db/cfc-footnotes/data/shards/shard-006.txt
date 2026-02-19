@@ -1,0 +1,104 @@
+id	section_id	section_title	footnote_number	page_hint	snippet	core
+cfc-footnotes-05-fn0047	cfc-footnotes-05	鍋谷論文	47		「(47) 中里実ほか編『租税法概説〔第 2 版〕』326 頁〔伊藤剛志〕（有斐閣, 2015）。」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0048	cfc-footnotes-05	鍋谷論文	48		「(48) 株式の数又は出資金額の割合によるが、本稿においては、便宜上、株式のみについて記載する。」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0049	cfc-footnotes-05	鍋谷論文	49		「(49) 本稿においては、便宜上、一般社団法人及び一般財団法人に関する法律（平成 18年法律 48 号）4 条、独立行政法人法（平成 15 年法律 118 号）10 条等の規定に係る「主たる事務所」を省略し、本店のみについて記載する。」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0050	cfc-footnotes-05	鍋谷論文	50		「(50) 平成 27 年度税制改正により、「20%以下」が「20%未満」に改正された（平成 27年政令 148 号による改正後の措令 39 条の 14 第 1 項 2 号、財務省「平成 27 年度税制改正の解説」693 頁（http://www.mof.nta.go.jp/tax_policy/tax_reform…	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0051	cfc-footnotes-05	鍋谷論文	51		「(51) 租税特別措置法及び国税収納金整理資金に関する法律の一部を改正する法律（昭和53 年法律 11 号）1 条の規定による租税特別措置法の一部改正。」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0052	cfc-footnotes-05	鍋谷論文	52		「(52) 高橋元監修『タックス･ヘイブン対策税制の解説』81～83 頁（清文社, 1979）。」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0053	cfc-footnotes-05	鍋谷論文	53		「(53) 昭和 52 年 12 月税制調査会「昭和 53 年度の税制改正に関する答申」6～7 頁。」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0054	cfc-footnotes-05	鍋谷論文	54		「(54) 高橋・前掲注(52) 45 頁。」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0055	cfc-footnotes-05	鍋谷論文	55		「(55) 高橋・前掲注(52) 93 頁。」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0056	cfc-footnotes-05	鍋谷論文	56		「(56) 高橋・前掲注(52) 173 頁。」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0057	cfc-footnotes-05	鍋谷論文	57		「(57) 浅妻章如「外国子会社合算税制の存在意義と方向性」21 世紀政策研究所『わが国企業を巡る国際租税制度の現状と今後(中間報告)』46～48 頁（2010）。」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0058	cfc-footnotes-05	鍋谷論文	58		「(58) 高橋・前掲注(52) 136 頁。」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0059	cfc-footnotes-05	鍋谷論文	59		「(59) 小田嶋清治「タックス・ヘイブン対策税制の立法経緯と今後の動向」中里実ほか編著『国際租税訴訟の最前線』253 頁（有斐閣, 2010）、中里実ほか「国際租税法の現状と展望」同 402 頁〔小田嶋発言〕。」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0060	cfc-footnotes-05	鍋谷論文	60		「(60) 増井良啓教授は、外国子会社配当益金不算入制度が、損金算入配当の取扱いを例に、「テリトリアル型」（相手国での課税の有無を問題にせず日本で免税するという考え方）を容認しており、日本の法人税制の国際的側面は、外国支店の取扱い、外国子会社株式の譲渡損益や外国子会社合算税制といった「全世界型」（内国法人の全世界所得…	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0061	cfc-footnotes-05	鍋谷論文	61		「(61) 我が国のほか、アルゼンチン、オーストラリア、ブラジル、カナダ、中国、デンマーク、エジプト、エストニア、フィンランド、フランス、ドイツ、ハンガリー、アイスランド、インドネシア、イスラエル、イタリア、韓国、リトアニア、メキシコ、ニュージーランド、ノルウェー、ポルトガル、南アフリカ、スペイン、スウェーデン、トル…	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0062	cfc-footnotes-05	鍋谷論文	62		「(62) オーストリア、ベルギー、ブルガリア、チリ、コロンビア、キプロス、チェコ、エクアドル、ジブラルタル、ギリシャ、香港、インド、アイルランド、ラトビア、ルクセンブルグ、マレイシア、マルタ、モーリシャス、ナイジェリア、ペルー、フィリピン、ポーランド、ルーマニア、ロシア、サウジアラビア、シンガポール、スロバキア、ス…	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0063	cfc-footnotes-05	鍋谷論文	63		「(63) この概要は、主に浅川雅嗣「OECD における BEPS と自動的情報交換への取り組み」租税研究 786 号 77 頁以下（2015）を参考にまとめた。」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0064	cfc-footnotes-05	鍋谷論文	64		「(64) OECD. (2013). “Action Plan on Base Erosion and Profit Shifting” .」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0065	cfc-footnotes-05	鍋谷論文	65		「(65) Russia G20. (2013). “G20 LEADERS’ DECLARATION” and “TAX ANNEX TO THE ST. PETERSBURG G20 LEADERS’ DECLARATION” .」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0066	cfc-footnotes-05	鍋谷論文	66		「(66) OECD. (2014). “Neutralising the Effects of Hybrid Mismatch Agreements”(Action 2), “Preventing the Granting of Treaty Benefits in Inappropriate Circumstan…	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0067	cfc-footnotes-05	鍋谷論文	67		「(67) 例えば、我が国においては、行動計画 2 に関する勧告を踏まえ、平成 27 年度税制改正において、二重非課税を防止するため、外国子会社配当益金不算入制度について、子会社の所在地国で損金算入が認められる配当（例：オーストラリアの優先株式等）については、支払を受けた内国法人の益金に算入（課税）することとされた（…	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0068	cfc-footnotes-05	鍋谷論文	68		「(68) OECD Public Discussion Draft “BEPS ACTION 3: STRENGTHENING CFC RULES” 3 April 2015 (http://www.oecd.org/ctp/aggressive/discussion-draft-beps action-3-str…	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0069	cfc-footnotes-05	鍋谷論文	69		「(69) Id., para 2.」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0070	cfc-footnotes-05	鍋谷論文	70		「(70) Id., paras 6-28.」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0071	cfc-footnotes-05	鍋谷論文	71		「(71) Id., paras 30-31.」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0072	cfc-footnotes-05	鍋谷論文	72		「(72) Id., paras 32-41.」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0073	cfc-footnotes-05	鍋谷論文	73		「(73) Id., para 43.」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0074	cfc-footnotes-05	鍋谷論文	74		「(74) Id., paras 44-63.」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0075	cfc-footnotes-05	鍋谷論文	75		「(75) Id., para 65.」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0076	cfc-footnotes-05	鍋谷論文	76		「(76) Id., paras 66-81.」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0077	cfc-footnotes-05	鍋谷論文	77		「(77) Id., p.34 (Note for consultation of CHAPTER 5: DEFINITION OF CFC INCOME).」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0078	cfc-footnotes-05	鍋谷論文	78		「(78) Id., paras 82-85.」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0079	cfc-footnotes-05	鍋谷論文	79		「(79) Id., paras 86-95.」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0080	cfc-footnotes-05	鍋谷論文	80		「(80) Id., paras 96-110.」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0081	cfc-footnotes-05	鍋谷論文	81		「(81) Id., paras 111-125.」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0082	cfc-footnotes-05	鍋谷論文	82		「(82) Id., paras 126-129.」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0083	cfc-footnotes-05	鍋谷論文	83		「(83) Id., para 131。」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0084	cfc-footnotes-05	鍋谷論文	84		「(84) Id., paras 132～140。」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0085	cfc-footnotes-05	鍋谷論文	85		「(85) IFRS(International Financial Reporting Standards)とは、国際会計基準審議会（International Accounting Standards Board; IASB）によって設定された会計基準の総称をいう（IFRS コンソーシアムのホームページ http…	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0086	cfc-footnotes-05	鍋谷論文	86		「(86) OECD, supra note 68, paras 142-143.」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0087	cfc-footnotes-05	鍋谷論文	87		「(87) Id., paras 144-152.」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0088	cfc-footnotes-05	鍋谷論文	88		「(88) Id., paras 154-155.」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0089	cfc-footnotes-05	鍋谷論文	89		「(89) 例えば、A 国の居住法人である法人 X、その 100%子会社で B 国の居住法人である法人 Y、Y の 100%子会社で C 国の居住法人である法人 Z がある場合に、Z に生じた所得について、A 国が自国の CFC 税制に基づき X に課税するとともに、B 国が自国の CFC 税制に基づき Y に課税す…	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0090	cfc-footnotes-05	鍋谷論文	90		「(90) Id., paras 156-168.」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0091	cfc-footnotes-05	鍋谷論文	91		「(91) サブパート F 所得には、国際ボイコット活動に係る所得、国際贈収賄に係る所得及び外交関係の思わしくない国で発生する所得が含まれる（IRC952(a)(3)-(5))が、本稿の論点を踏まえ、これらの所得に関する記載は省略する。」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0092	cfc-footnotes-05	鍋谷論文	92		「(92) 2016 年度予算教書において提案されている法人税率の引下げ（35%→28%）が実現した場合には、25.2%（28%×0.9）が基準となる。」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0093	cfc-footnotes-05	鍋谷論文	93		「(93) 財務省規則 1.954-1(b)(1)(ii) and (d)(6).」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0094	cfc-footnotes-05	鍋谷論文	94		「(94) この規定は、2006 年に 2008 年末までの一時的な優遇措置として導入された後、2014 年末まで順次延長されている（2015 年 1 月 8 日現在）。」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0095	cfc-footnotes-05	鍋谷論文	95		「(95) この規定は、1998 年に 1998 年末までの一時的な優遇措置として導入された後、2014 年末まで順次延長されている（2015 年 1 月 8 日現在）。」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0096	cfc-footnotes-05	鍋谷論文	96		「(96) 渕教授は、サブパート F 税制が、Foreign Personal Holding Company 税制を原型としつつも、更に、合衆国憲法第 16 条修正後の最初の所得税制である 1913 年法に盛り込まれた留保利益税(Accumulated Earnings Tax)（法人を通じて事業又は投資活動を行い…	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0097	cfc-footnotes-05	鍋谷論文	97		「(97) 佐藤正勝「国際的租税回避行為等の類型及び対応策―米国のタックス・ヘイブン税制との比較を中心として―」税大論叢第 22 号 349 頁（1992）。」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0098	cfc-footnotes-05	鍋谷論文	98		「(98) 佐藤・前掲注(97) 235～236 頁、小島俊朗「タックス・ヘイブン税制の現在的意義について」税大ジャーナル 9 号 44～45 頁（2008）、経済産業省・前掲注(45) 62 頁及び LexisNexis のデータベースから抽出した米国内国歳入法の各規定の HISTORYを基にまとめた。」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0099	cfc-footnotes-05	鍋谷論文	99		「(99) Mark P. Keightley and Molly F. Sherlock. (2014). “The Corporate Income Tax System: Overview and Options for Reform” Congressional Research Service R42726…	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0100	cfc-footnotes-05	鍋谷論文	100		「(100) Id., p.27.」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0101	cfc-footnotes-05	鍋谷論文	101		「(101) Id., p.27-28.」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0102	cfc-footnotes-05	鍋谷論文	102		「(102) Id., p.28.」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0103	cfc-footnotes-05	鍋谷論文	103		「(103) 公表時期の新しいものから順に、Id., p.28-31 及び⑴から⑹までのそれぞれの脚注の文献等による。」	packs/cfc-footnotes-05-pack-01.txt
+cfc-footnotes-05-fn0104	cfc-footnotes-05	鍋谷論文	104		「(104) Department of the Treasury. (2015). “General Explanations of the Administration’s Fiscal Year 2016 Revenue Proposals” (http://www.treasury.gov/resource-…	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0105	cfc-footnotes-05	鍋谷論文	105		「(105) Chairman Max Baucus U.S. Senate Committee on Finance. (2013). “International Business Tax Reform Staff Discussion Draft” (http://www. finance. senate.go…	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0106	cfc-footnotes-05	鍋谷論文	106		「(106) A Joint Report by the White House and the Department of the Treasury. (2012) “The President’s Framework for Business Tax Reform” (http://www.treasury.go…	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0107	cfc-footnotes-05	鍋谷論文	107		「(107) 米国下院予算委員会のホームページ (http://www.waysandmeans.house.gov/ taxreform/) においてこの原典を確認することができなかった（平成 27 年 6 月 24日最終閲覧）。青山・前掲注(106)も参照されたい。」	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0108	cfc-footnotes-05	鍋谷論文	108		「(108) U.S. Senators Ron Wyden and Dan Coats. (2011). “The Bipartisan Tax Fairness and Simplification Act of 2011” (http://www.waysandmeans.house.gov/ taxrefor…	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0109	cfc-footnotes-05	鍋谷論文	109		「(109) 財政赤字削減委員会(The National Commission of Fiscal Responsibility and Reform)は、オバマ大統領が、米国の中期的な財政赤字削減のために 2010 年 2 月に設立した超党派の組織で、2015 年までに財政収支（利払費を除く。）を均衡させるための…	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0110	cfc-footnotes-05	鍋谷論文	110		「(110) Keightley and Sherlock, supra note 99, p.31.」	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0111	cfc-footnotes-05	鍋谷論文	111		「(111) 一高龍司「米国 Subpart F 税制における外国同族持株会社所得（FPHCI）の意義―除外項目を中心に―」税大ジャーナル 12 号 63 頁（2009）。」	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0112	cfc-footnotes-05	鍋谷論文	112		「(112) 一高・前掲注(111) 63 頁。」	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0113	cfc-footnotes-05	鍋谷論文	113		「(113) 一高龍司「米国 Subpart F 税制の要点と問題点について」国際税制研究 22 号 91頁（2009）。」	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0114	cfc-footnotes-05	鍋谷論文	114		「(114) 英国における CFC 税制改正の動向及び新制度の内容等については、神山弘行「英国における CFC 税制改正の動向とその課題」中里ほか・前掲注(27) 248 頁以下、青山慶二「英国の法人税改正の動向―国際課税の観点から―」租税研究 743 号 173 頁以下（2011）、本庄資『オフショア・タックス・ヘ…	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0115	cfc-footnotes-05	鍋谷論文	115		「(115) Solo Consolidation 所得という区分があるが、英国固有の制度を前提としたものと考えられるため、省略した。」	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0116	cfc-footnotes-05	鍋谷論文	116		「(116) 事業所得の算定は、OECD の恒久的施設への所得帰属に関する 2010 年報告書（ OECD. (2010). “Report on the Attribution of Profits to Permanent Establishments”）と同様の手法が採用されている（神山・前掲注(114) 26…	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0117	cfc-footnotes-05	鍋谷論文	117		「( 117 ) HM Revenue & Customs “Controlled Foreign Companies and permanent establishments – draft guidance” (Updated of 31 May 2013) para104 of The CFC Charge G…	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0118	cfc-footnotes-05	鍋谷論文	118		「(118) この仕組みについて、「厳密な意味での独立当事者間基準には該当しないかもしれないが、通常の会社の状態を参照基準としている点では共通している」との見解がある（神山・前掲注(114) 270 頁）。」	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0119	cfc-footnotes-05	鍋谷論文	119		「(119) EU 加盟 28 か国（オーストリア、ベルギー、ブルガリア、クロアチア、キプロス、チェコ、デンマーク、エストニア、フィンランド、フランス、ドイツ、ギリシャ、ハンガリー、アイルランド、イタリア、ラトビア、リトアニア、ルクセンブルグ、マルタ、オランダ、ポーランド、ポルトガル、ルーマニア、スロバキア、スロベニ…	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0120	cfc-footnotes-05	鍋谷論文	120		「(120) TIOPA§371BC(1), Steps 1, 3 and 4.」	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0121	cfc-footnotes-05	鍋谷論文	121		「(121) The Controlled Foreign Companies (Excluded Territories) Regulations 2012 No.3024 §3 and Part 1 of the Schedule.」	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0122	cfc-footnotes-05	鍋谷論文	122		「(122) Id., §5 and Part 2 of the Schedule.」	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0123	cfc-footnotes-05	鍋谷論文	123		「(123) Id., §4.」	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0124	cfc-footnotes-05	鍋谷論文	124		「(124) The Controlled Foreign Companies (Designer Rate Tax Provisions) Regulations 2000 No.3158.」	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0125	cfc-footnotes-05	鍋谷論文	125		「(125) Part XVIIA (international bodies) of the Income Tax (Guernsey) Law, 1975.」	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0126	cfc-footnotes-05	鍋谷論文	126		「(126) Article 123B (international business companies) of the Income Tax (Jersey) Law 1961.」	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0127	cfc-footnotes-05	鍋谷論文	127		「(127) Part 1 (International Companies) of the Isle of Man International Business Act 1994.」	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0128	cfc-footnotes-05	鍋谷論文	128		「( 128 ) Section 41 (rates for qualifying companies) of the Gibraltar Income Tax Ordinance.」	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0129	cfc-footnotes-05	鍋谷論文	129		「(129) 2008 年に 30%から 28%に、2011 年に 26%に、2012 年に 24%に、2013 年に 23%に、2014 年に 21%に、2015 年に 20%に順次引き下げられている。」	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0130	cfc-footnotes-05	鍋谷論文	130		「(130) 2013 年 4 月に導入され、特許権の開発及び実施から生じる所得について、10%の税率で分離課税するもの。英国を含む各国のパテントボックス税制については、村岡欣潤=岡田至康「The Patent Box: 各国のパテントボックス税制の概要」租税研究 763号 311～326 頁（2013）が詳しい。」	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0131	cfc-footnotes-05	鍋谷論文	131		「(131) 主に神山・前掲注(114) 249～262 頁を参考とした。このほか、英国における一連の法人税改革については、Policy paper “2010 to 2015 government policy: business tax reform” HM Treasury (Updated 8 May 201…	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0132	cfc-footnotes-05	鍋谷論文	132		「(132) Case C-196/04 Cadbury Schwepps plc, and Cadbury Schweppes Overseas Ltd. v. Commissioners of Inland Revenue European Court Reports 2006 Page I-7995.この判決後…	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0133	cfc-footnotes-05	鍋谷論文	133		「( 133 ) HM Treasury Policy paper “Tackling aggressive tax planning in the global economy: UK priorities for the G20-OECD project for countering Base Erosion a…	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0134	cfc-footnotes-05	鍋谷論文	134		「(134) Id., paras 3.1-3.7。」	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0135	cfc-footnotes-05	鍋谷論文	135		「(135) 神山・前掲注(114) 276 頁。」	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0136	cfc-footnotes-05	鍋谷論文	136		「(136) 納税者の法的安定性・予見可能性を害する可能性及び課税当局の執行コストの増大の可能性について懸念がある（神山・前掲注(114) 276 頁）。」	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0137	cfc-footnotes-05	鍋谷論文	137		「(137) 神山・前掲注(114) 278 頁。」	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0138	cfc-footnotes-05	鍋谷論文	138		「(138) 我が国法人税法は、国内に本店又は主たる事務所を有する法人を内国法人、内国法人以外の法人を外国法人と定義する（法法 2 三、四）。法人の居住地に関する基準としては、本店所在地主義のほか、管理支配地主義と呼ばれるものがあり、法人の事業の指揮・監督が行われる場所が国内にあるかどうかを基準とする（金子宏『租税法…	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0139	cfc-footnotes-05	鍋谷論文	139		「(139) 佐藤・前掲注(97) 171～175 頁。ここでいう「国際的租税回避等」とは、国際的租税回避行為（この定義については、「特に定まったものはないように思われる」として、ロッテルダム・インスティテュート(the Rotterdam Institute for Fiscal Studies)の研究が引用されて…	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0140	cfc-footnotes-05	鍋谷論文	140		「(140) 会社法における合併等対価の柔軟化に伴い、組織再編成や株式の譲渡等を通じて内国法人を軽課税国の法人の子会社とし、その後の軽課税国の親会社との取引を通じて所得移転を図る等の租税回避行為に対応するため、 いわゆるコーポレート・インバージョン対策税制（措法 66 の 9 の 2～66 の 9 の 5、68 の …	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0141	cfc-footnotes-05	鍋谷論文	141		「(141) 外国子会社等への株式移転時に内国法人に課税関係が生じる場合には、租税回避のメリットが減殺されることになるため、適格組織再編による簿価引継ぎでの移転が必要となろう。」	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0142	cfc-footnotes-05	鍋谷論文	142		「(142) 取引価格、費用の種類・金額等によって、移転価格税制（措法 66 の 4）、過少資本税制（措法 66 の 5）、過大支払利子損金不算入制度（措法 66 の 5 の 2）といった他の制度が適用される場合がある。」	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0143	cfc-footnotes-05	鍋谷論文	143		「(143) 国税庁「平成 21 年税制改正の解説」425 頁。」	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0144	cfc-footnotes-05	鍋谷論文	144		「(144) 増井・前掲注(60)212～213 頁。」	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0145	cfc-footnotes-05	鍋谷論文	145		「(145) 増井・前掲注(60)214 頁。」	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0146	cfc-footnotes-05	鍋谷論文	146		「(146) 水野忠恒編著『国際課税の理論と課題〔二訂版〕』5 頁（税務経理協会, 2005）。」	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0147	cfc-footnotes-05	鍋谷論文	147		「(147) 高橋・前掲注(52) 45 頁。」	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0148	cfc-footnotes-05	鍋谷論文	148		「(148) 高橋・前掲注(52) 93 頁。」	packs/cfc-footnotes-05-pack-02.txt
+cfc-footnotes-05-fn0149	cfc-footnotes-05	鍋谷論文	149		「(149) 前田謙二税理士は、「現行対策税制…は、居住地国課税をベースに株主の持分による支配力を主なネクサスとしていると考えられる」との見解を示されている（前田謙二「タックス・ヘイブン対策税制の新たな展開―源泉地国課税の視点からの設計―」税法学 570 号 143 頁（2013）。」	packs/cfc-footnotes-05-pack-02.txt

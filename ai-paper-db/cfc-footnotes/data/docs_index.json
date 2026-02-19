@@ -1,0 +1,63 @@
+{
+  "dataset": {
+    "name": "CFC脚注集 (jplawdb optimized)",
+    "generated_at": "2026-02-19",
+    "base_url": "https://jplawdb.github.io/html-preview/ai-paper-db/cfc-footnotes"
+  },
+  "fields": [
+    "doc_id",
+    "title",
+    "source_file",
+    "record_count",
+    "footnote_min",
+    "footnote_max",
+    "pack_count"
+  ],
+  "rows": [
+    {
+      "doc_id": "cfc-footnotes-01",
+      "title": "山崎論文",
+      "source_file": "山崎論文脚注集.txt",
+      "record_count": 99,
+      "footnote_min": 1,
+      "footnote_max": 99,
+      "pack_count": 3
+    },
+    {
+      "doc_id": "cfc-footnotes-02",
+      "title": "木山論文",
+      "source_file": "木山論文脚注集.txt",
+      "record_count": 150,
+      "footnote_min": 1,
+      "footnote_max": 150,
+      "pack_count": 5
+    },
+    {
+      "doc_id": "cfc-footnotes-03",
+      "title": "石井論文",
+      "source_file": "石井論文脚注集.txt",
+      "record_count": 124,
+      "footnote_min": 1,
+      "footnote_max": 124,
+      "pack_count": 7
+    },
+    {
+      "doc_id": "cfc-footnotes-04",
+      "title": "羽島論文",
+      "source_file": "羽島論文脚注集.txt",
+      "record_count": 128,
+      "footnote_min": 1,
+      "footnote_max": 128,
+      "pack_count": 5
+    },
+    {
+      "doc_id": "cfc-footnotes-05",
+      "title": "鍋谷論文",
+      "source_file": "鍋谷論文脚注集.txt",
+      "record_count": 174,
+      "footnote_min": 1,
+      "footnote_max": 174,
+      "pack_count": 4
+    }
+  ]
+}

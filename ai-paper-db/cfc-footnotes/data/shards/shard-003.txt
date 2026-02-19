@@ -1,0 +1,98 @@
+id	section_id	section_title	footnote_number	page_hint	snippet	core
+cfc-footnotes-03-fn0042	cfc-footnotes-03	石井論文	42	29	金子・前掲（注6）333頁。	packs/cfc-footnotes-03-pack-02.txt
+cfc-footnotes-03-fn0043	cfc-footnotes-03	石井論文	43	29	高橋・前掲（注13）148頁。 なお、立案担当者は、この規定の適用を認めるとしたならば、同一の軽課税国内に持株会社を介在させて他の CFC の所得を配当の形でその持株会社に移転させることにより、本税制の適用を免れ得るといった事態が生じることも考えられることも理由として挙げているが、平成 21年度改正後は、CFC が支…	packs/cfc-footnotes-03-pack-02.txt
+cfc-footnotes-03-fn0044	cfc-footnotes-03	石井論文	44	29	武田昌輔編著『DHCコンメンタール法人税法』5016頁（第一法規出版、2014（加除式））。	packs/cfc-footnotes-03-pack-02.txt
+cfc-footnotes-03-fn0045	cfc-footnotes-03	石井論文	45	29	なお、法人税法第23条の2は外国子会社からの配当等に限定しているが、租税特別措置法施行令第39条の15第1項第4号は、外国子会社からの配当等に限定せず、子会社からの配当等を対象としているという違いがある。	packs/cfc-footnotes-03-pack-02.txt
+cfc-footnotes-03-fn0046	cfc-footnotes-03	石井論文	46	30	その理由について、立案担当者は、「今回の立法は、特定外国子会社等の留保所得を親会社の所得に合算して課税するものであり、特定外国子会社等の合算の対象となる所得は課税上親会社に帰属しているものとみなされているものといえよう。従って、子会社等の所得について外国で課税が行われていれば、子会社等が外国で課された税は、親会社の所…	packs/cfc-footnotes-03-pack-02.txt
+cfc-footnotes-03-fn0047	cfc-footnotes-03	石井論文	47	30	高橋・前掲（注13）148頁、武田・前掲（注44）5017頁。	packs/cfc-footnotes-03-pack-02.txt
+cfc-footnotes-03-fn0048	cfc-footnotes-03	石井論文	48	30	金子・前掲（注6）412頁。	packs/cfc-footnotes-03-pack-02.txt
+cfc-footnotes-03-fn0049	cfc-footnotes-03	石井論文	49	30	武田・前掲（注44）5017頁。	packs/cfc-footnotes-03-pack-02.txt
+cfc-footnotes-03-fn0050	cfc-footnotes-03	石井論文	50	30	高橋・前揭（注13）148頁、武田・前掲（注44）5017頁。	packs/cfc-footnotes-03-pack-02.txt
+cfc-footnotes-03-fn0051	cfc-footnotes-03	石井論文	51	31	高橋・前掲（注13）152頁、武田・前掲（注44）5013頁。	packs/cfc-footnotes-03-pack-02.txt
+cfc-footnotes-03-fn0052	cfc-footnotes-03	石井論文	52	31	武田・前掲（注44）5016頁。	packs/cfc-footnotes-03-pack-02.txt
+cfc-footnotes-03-fn0053	cfc-footnotes-03	石井論文	53	31	国税庁『平成22年度改正税法のすべて』189頁。	packs/cfc-footnotes-03-pack-02.txt
+cfc-footnotes-03-fn0054	cfc-footnotes-03	石井論文	54	31	所得税・法人税等の直接税については、納税義務者を無制限納税義務者と制限納税義務者とに分けることができる。無制限納税義務者というのは、わが国に住所または居所を有するため、いわば人的にわが国の課税権に服し、国内に源泉があるか国外に源泉があるかを問わず、それに帰属する課税物件のすべてについて納税義務を負う者をいい、制限納税…	packs/cfc-footnotes-03-pack-03.txt
+cfc-footnotes-03-fn0055	cfc-footnotes-03	石井論文	55	32	国税庁・前掲（注53）193頁。	packs/cfc-footnotes-03-pack-03.txt
+cfc-footnotes-03-fn0056	cfc-footnotes-03	石井論文	56	32	平成23年度税制改正において導入された規定である。	packs/cfc-footnotes-03-pack-03.txt
+cfc-footnotes-03-fn0057	cfc-footnotes-03	石井論文	57	32	武田・前掲（注44）5016頁。	packs/cfc-footnotes-03-pack-03.txt
+cfc-footnotes-03-fn0058	cfc-footnotes-03	石井論文	58	32	国税庁『平成23年度改正税法のすべて』515頁、武田・前掲（注44）5016頁。	packs/cfc-footnotes-03-pack-03.txt
+cfc-footnotes-03-fn0059	cfc-footnotes-03	石井論文	59	33	国税庁・前掲（注53）210頁。	packs/cfc-footnotes-03-pack-03.txt
+cfc-footnotes-03-fn0060	cfc-footnotes-03	石井論文	60	33	国税庁・前掲（注53）211頁。	packs/cfc-footnotes-03-pack-03.txt
+cfc-footnotes-03-fn0061	cfc-footnotes-03	石井論文	61	34	高橋・前掲（注13）148頁、武田・前掲（注44）5017頁。	packs/cfc-footnotes-03-pack-03.txt
+cfc-footnotes-03-fn0062	cfc-footnotes-03	石井論文	62	34	武田・前掲（注44）5025頁。	packs/cfc-footnotes-03-pack-03.txt
+cfc-footnotes-03-fn0063	cfc-footnotes-03	石井論文	63	35	大澤・前掲（注38）1112頁。	packs/cfc-footnotes-03-pack-03.txt
+cfc-footnotes-03-fn0064	cfc-footnotes-03	石井論文	64	36	例えば、青色申告に対する更正は、推計によって行うことはできず、その帳簿書類を調査し、その調査により所得金額に誤りがあると認められる場合に限ってすることができ、しかもその場合には更正通知書に更正の理由を附記しなければならない（法法 130）。また、租税特別措置法の規定の多くは、青色申告の場合に限って適用されることになっ…	packs/cfc-footnotes-03-pack-03.txt
+cfc-footnotes-03-fn0065	cfc-footnotes-03	石井論文	65	36	金子・前掲（注6）814頁。	packs/cfc-footnotes-03-pack-03.txt
+cfc-footnotes-03-fn0066	cfc-footnotes-03	石井論文	66	37	成松洋一『新減価償却の法人税務（第3版）』9頁（大蔵財務協会、2012）。 ただし、福岡高裁平成19年6月19日訟月 53巻9号2728頁は、「『確定した決算に基づき』とは、株主総会又は社員総会の承認を受けた決算書類を基礎として所得及び法人税額の計算を行う意味と解すべきである。しかしながら、我が国株式会社や有限会社の…	packs/cfc-footnotes-03-pack-03.txt
+cfc-footnotes-03-fn0067	cfc-footnotes-03	石井論文	67	37	大澤・前掲（注38）1112頁。	packs/cfc-footnotes-03-pack-03.txt
+cfc-footnotes-03-fn0068	cfc-footnotes-03	石井論文	68	38	なお、1つの内国法人が複数の CFC の株主であることも考えられるが、決算の修正は必ず行わなければならないとはされていないから、ある CFCには決算の修正を行い、他の CFC には決算の修正を行わないということも課税上の弊害がない限り認められるものと考えられる。	packs/cfc-footnotes-03-pack-03.txt
+cfc-footnotes-03-fn0069	cfc-footnotes-03	石井論文	69	38	金子・前掲（注6）342頁。	packs/cfc-footnotes-03-pack-03.txt
+cfc-footnotes-03-fn0070	cfc-footnotes-03	石井論文	70	40	法制執務研究会・前掲（注3）695頁、金子・前掲（注3）1296頁。	packs/cfc-footnotes-03-pack-03.txt
+cfc-footnotes-03-fn0071	cfc-footnotes-03	石井論文	71	40	吉国・前掲（注4）618頁。	packs/cfc-footnotes-03-pack-03.txt
+cfc-footnotes-03-fn0072	cfc-footnotes-03	石井論文	72	41	法制執務研究会・前掲（注3）748頁。	packs/cfc-footnotes-03-pack-03.txt
+cfc-footnotes-03-fn0073	cfc-footnotes-03	石井論文	73	41	吉国・前掲（注4）392頁。	packs/cfc-footnotes-03-pack-03.txt
+cfc-footnotes-03-fn0074	cfc-footnotes-03	石井論文	74	41	金子・前掲（注6）114頁、増井・前掲（注6）310頁、中里ほか・前掲（注6）42頁、岡村ほか・前掲（注6）37頁、谷口・前掲（注6）34頁等。 なお、占部裕典「租税法における文理解釈の意義-租税特別措置法 66 条の6を素材にして-」同志社法学 61巻2号198頁（2009）は、「租税法の解釈にあたり、文理解釈が採…	packs/cfc-footnotes-03-pack-04.txt
+cfc-footnotes-03-fn0075	cfc-footnotes-03	石井論文	75	44	羽島・前掲（注7）において同様の問題が取り上げられている。	packs/cfc-footnotes-03-pack-04.txt
+cfc-footnotes-03-fn0076	cfc-footnotes-03	石井論文	76	45	羽島・前掲（注7）において当該規定の適用関係に関する問題が取り上げられている。	packs/cfc-footnotes-03-pack-04.txt
+cfc-footnotes-03-fn0077	cfc-footnotes-03	石井論文	77	46	国税庁『平成13年度改正税法のすべて』134頁。	packs/cfc-footnotes-03-pack-04.txt
+cfc-footnotes-03-fn0078	cfc-footnotes-03	石井論文	78	47	国税庁『平成10年度改正税法のすべて』310頁。	packs/cfc-footnotes-03-pack-04.txt
+cfc-footnotes-03-fn0079	cfc-footnotes-03	石井論文	79	47	武田・前掲（注44）623の8頁。 この規制は、従来の現物出資の特例を利用して、価値の増加した株式を現物出資して外国に子会社を設立することで租税回避を行う事例（最判平成18年1月24日第三小法廷判決、いわゆるオウブンシャホールディング事件）が発生したことを契機として、このような租税回避を防止するために平成 10 年度…	packs/cfc-footnotes-03-pack-04.txt
+cfc-footnotes-03-fn0080	cfc-footnotes-03	石井論文	80	47	国税庁・前掲（注58）283頁。	packs/cfc-footnotes-03-pack-04.txt
+cfc-footnotes-03-fn0081	cfc-footnotes-03	石井論文	81	48	増井良啓=宮崎裕子『国際租税法[第2版]』6頁（東京大学出版会、2011）は、居住地管轄について、「所得を稼得する者に対する人的なつながり（nexus）を根拠とする。多くの国は、居住地管轄に服する者に対して、所得の地理的源泉を問わず全世界所得（world-wide income）に課税している。」としている。	packs/cfc-footnotes-03-pack-04.txt
+cfc-footnotes-03-fn0082	cfc-footnotes-03	石井論文	82	48	増井ほか・前掲（注81）6頁は、源泉地管轄について、「所得を産み出す活動との物理的な関連性を根拠とする。源泉地管轄に基づく課税は、自国で生み出された所得、すなわち国内に源泉をもつ所得を対象とする。」としている。	packs/cfc-footnotes-03-pack-04.txt
+cfc-footnotes-03-fn0083	cfc-footnotes-03	石井論文	83	51	羽島・前掲（注7）78頁は、基準所得金額の計算が CFCを基準に法令の適用を行うことを理由として、CFC を「国内」に所在する「内国法人」と読み替えるとしている。	packs/cfc-footnotes-03-pack-04.txt
+cfc-footnotes-03-fn0084	cfc-footnotes-03	石井論文	84	56	国際課税実務検討会『外国子会社合算税制（タックス・ヘイブン対策税制）における課税上の取扱いについて』34頁（日本租税研究協会、2014）では、外国子会社合算税制に係る租税負担割合の判定におけるオランダ子会社による現物出資の取扱いが整理されており、本稿の表2-1及び表2-2それぞれの(5)及び(6)のパターンの現物出資…	packs/cfc-footnotes-03-pack-04.txt
+cfc-footnotes-03-fn0085	cfc-footnotes-03	石井論文	85	56	国税庁『平成3年度改正税法のすべて』287頁。	packs/cfc-footnotes-03-pack-04.txt
+cfc-footnotes-03-fn0086	cfc-footnotes-03	石井論文	86	56	国税庁『昭和61年度改正税法のすべて』193頁では、タックス・ヘイブン対策税制について、移転価格問題に対する規制策としても機能する面があるが、これのみでは不十分であることを指摘している。	packs/cfc-footnotes-03-pack-04.txt
+cfc-footnotes-03-fn0087	cfc-footnotes-03	石井論文	87	57	中里実「課税管轄権からの離脱をはかる行為について」フィナンシャル・レビュー94号9頁（2009）は、納税者による課税管轄権からの離脱を目指した行為として、①居住地の移転、②取引の移転、③資産や所得の移転を挙げている。国外関連者に対する寄附金は③に該当する。	packs/cfc-footnotes-03-pack-04.txt
+cfc-footnotes-03-fn0088	cfc-footnotes-03	石井論文	88	57	国税庁・前掲（注86）195頁。	packs/cfc-footnotes-03-pack-04.txt
+cfc-footnotes-03-fn0089	cfc-footnotes-03	石井論文	89	58	外国子会社合算税制の適用を受ける者に居住者が含まれる場合も、同様である。	packs/cfc-footnotes-03-pack-04.txt
+cfc-footnotes-03-fn0090	cfc-footnotes-03	石井論文	90	58	YとZ1 及び Z2との間には、いずれも特定事実による支配関係（措令39の12①三～五）はないことを前提としている。	packs/cfc-footnotes-03-pack-04.txt
+cfc-footnotes-03-fn0091	cfc-footnotes-03	石井論文	91	61	羽島・前掲（注7）78頁は、基準所得金額の計算が CFCを基準に法令の適用を行うことを理由として、CFC を「国内」に所在する「内国法人」と読み替えるとしている。	packs/cfc-footnotes-03-pack-04.txt
+cfc-footnotes-03-fn0092	cfc-footnotes-03	石井論文	92	63	上記3（図2-2）の我が国を国内とする場合には、寄附の受け手が外国子会社合算税制の対象となった場合のみ二重課税が生じるが、（図2-3）の特定外国子会社等の本店所在地国を国内と修正する場合には、寄附の受け手は日本に所在する法人であるから常に二重課税が生ずる。	packs/cfc-footnotes-03-pack-04.txt
+cfc-footnotes-03-fn0093	cfc-footnotes-03	石井論文	93	64	本庄資著『オフショア・タックス・ヘイブンをめぐる国際課税』129頁（日本租稅研究協会、2013）において、IRS 国際課税担当特別法律顧問官リチャードAゴードンの『タックス・ヘイブンと米国納税者によるその利用 - 概観』（いわゆるゴードン・レポート）が紹介されており、タックス・ヘイブンの利用形態としてバミューダやケイ…	packs/cfc-footnotes-03-pack-04.txt
+cfc-footnotes-03-fn0094	cfc-footnotes-03	石井論文	94	64	保険業法のほかに、船主相互保険組合法、農業協同組合法、消費生活協同組合法、水産業協同組合法、中小企業等協同組合法、生活衛生関係営業の運営の適正化及び振興に関する法律及び森林組合法が定められている。	packs/cfc-footnotes-03-pack-04.txt
+cfc-footnotes-03-fn0095	cfc-footnotes-03	石井論文	95	65	武田・前掲（注44）2604頁。	packs/cfc-footnotes-03-pack-04.txt
+cfc-footnotes-03-fn0096	cfc-footnotes-03	石井論文	96	66	江頭憲治郎『商取引法〔第7版〕』407 頁（弘文堂、2013）。	packs/cfc-footnotes-03-pack-04.txt
+cfc-footnotes-03-fn0097	cfc-footnotes-03	石井論文	97	66	後藤元「ファイナイト再保険の課税上の取扱い」山下友信ほか『保険法判例百選』5頁（有斐閣、2010）。なお、中里実「法人課税における保険とデリバティブの境界」小塚荘一郎ほか『落合誠一先生還暦記念商事法への提言』933 頁（商事法務、2004）は、「保険とデリバティブとは、ともに将来リスクに応じて、受領する金額が変動する…	packs/cfc-footnotes-03-pack-04.txt
+cfc-footnotes-03-fn0098	cfc-footnotes-03	石井論文	98	66	その定義については、「保険以外の（事業を営む）親会社の所有または管理下にあって、主として親会社の保険ニーズに答えるために設立された保険会社」とされている。石黒一憲「バミューダ島におかれた自家保険会社 - いわゆるキャプティヴ・インシュアランス・カンパニーについて - 」ジュリスト 804号97頁（1983）。	packs/cfc-footnotes-03-pack-05.txt
+cfc-footnotes-03-fn0099	cfc-footnotes-03	石井論文	99	66	山下友信「キャプティブに関する序論的考察」前田重行ほか『前田庸先生喜寿記念企業法の変遷』488頁（有斐閣、2009）。その理由については、「わが国実定法としても、キャプティブを当然に禁圧すべきものであるという考え方をとっているわけではないということである。もっとも、それではキャプティブの存在意義を積極的に認めているか…	packs/cfc-footnotes-03-pack-05.txt
+cfc-footnotes-03-fn0100	cfc-footnotes-03	石井論文	100	66	山下・前掲（注99）488頁。	packs/cfc-footnotes-03-pack-05.txt
+cfc-footnotes-03-fn0101	cfc-footnotes-03	石井論文	101	67	国税庁『平成5年度改正税法のすべて』228頁。	packs/cfc-footnotes-03-pack-05.txt
+cfc-footnotes-03-fn0102	cfc-footnotes-03	石井論文	102	67	本店所在地国の法令の規定により計算する場合には、措令 39の15②十で単に保険準備金と規定しており、条文上、我が国の保険業法等によるものに限定されていない。	packs/cfc-footnotes-03-pack-05.txt
+cfc-footnotes-03-fn0103	cfc-footnotes-03	石井論文	103	68	ルクセンブルグを例に挙げ、ルクセンブルグのようなキャプティブに対する措置は、調整の対象となるとしている。なお、未経過保険料に相当する準備金や支払準備金のようなものは、保険事業に係る将来の損失に備えるためのものではないため、ここでいう保険準備金には該当しないとされている。国税庁・前掲（注101）228頁。	packs/cfc-footnotes-03-pack-05.txt
+cfc-footnotes-03-fn0104	cfc-footnotes-03	石井論文	104	69	ただし、我が国の保険業法においても、キャプティブが営む事業が保険の実質的要素を備えていれば保険業に該当すること自体を否定しているわけではなく、適用除	packs/cfc-footnotes-03-pack-05.txt
+cfc-footnotes-03-fn0105	cfc-footnotes-03	石井論文	105	70	高橋・前掲（注13）41頁は、「保険会社がこのような会社を設立すると、その保険会社（親会社）は専用保険会社に再保険させることが可能となり、支払う再保険を所得計算上控除することができる。こうしてタックス・ヘイブン子会社に所得を留保し得ることとなる。保険会社以外の大企業については、通常の保険市場が受入れないようなリスクを…	packs/cfc-footnotes-03-pack-05.txt
+cfc-footnotes-03-fn0106	cfc-footnotes-03	石井論文	106	71	船舶法第1条の規定は次のとおりである。 ○船舶法（明治32年法律第46号） 〔日本船舶の範囲〕 第1条左ノ船舶ヲ以テ日本船舶トス 一 日本ノ官庁又ハ公署ノ所有ニ属スル船舶 二日本国民ノ所有ニ属スル船舶 三 日本ノ法令ニ依リ設立シタル会社ニシテ其代表者ノ全員及ビ業務ヲ執行スル役員ノ三分ノ二以上ガ日本国民ナルモノノ所有ニ…	packs/cfc-footnotes-03-pack-05.txt
+cfc-footnotes-03-fn0107	cfc-footnotes-03	石井論文	107	71	谷川久「日本船舶の要件」別冊ジュリスト 42号 10頁（1973）。	packs/cfc-footnotes-03-pack-05.txt
+cfc-footnotes-03-fn0108	cfc-footnotes-03	石井論文	108	72	東京高判平成26年4月24日裁判所ウェブサイトでは、海上リグについて、曳航船に牽引されて海上を移動することができることや船舶検査証書の交付を受けていたことなどを理由として、所得税法第161条3号の船舶に該当すると判示している。	packs/cfc-footnotes-03-pack-05.txt
+cfc-footnotes-03-fn0109	cfc-footnotes-03	石井論文	109	72	国税庁『昭和45年度改正税法のすべて』75頁。	packs/cfc-footnotes-03-pack-05.txt
+cfc-footnotes-03-fn0110	cfc-footnotes-03	石井論文	110	72	谷川久「旗国法の基礎の変化と海事国際私法」成城法学22号2頁（1984）。	packs/cfc-footnotes-03-pack-05.txt
+cfc-footnotes-03-fn0111	cfc-footnotes-03	石井論文	111	73	山内惟介「国際私法における便宜置籍船の問題（一）」法学新報 82巻6・7号26頁（1976）。	packs/cfc-footnotes-03-pack-05.txt
+cfc-footnotes-03-fn0112	cfc-footnotes-03	石井論文	112	73	船舶法第1条の要件をみたすだけで当然に日本船舶としての日本の国籍を取得するものと解されている。戸田修三「船舶登記」別冊ジュリスト 34号 32頁（1971）。なお、ここでは商法第686条で、船舶所有者は特別法の定めるところに従い登記をなし、かつ、船舶国籍証明書の請い受けることを要する旨規定していることを理由に、登記と…	packs/cfc-footnotes-03-pack-05.txt
+cfc-footnotes-03-fn0113	cfc-footnotes-03	石井論文	113	73	谷川・前掲（注110）5頁。	packs/cfc-footnotes-03-pack-05.txt
+cfc-footnotes-03-fn0114	cfc-footnotes-03	石井論文	114	74	我が国外航海運企業が運航する 2,000 総トン以上の外国商船群をいう。自らが所有する日本籍船のみならず、外国企業（自らが設立した外国現地法人を含む。）から用船（チャーター）した外国籍船も合わせた概念。国土交通省海事局編『海事レポート2014』139 頁（成山堂書店、2014）。	packs/cfc-footnotes-03-pack-05.txt
+cfc-footnotes-03-fn0115	cfc-footnotes-03	石井論文	115	74	国土交通省海事局編・前掲（注114）141頁。	packs/cfc-footnotes-03-pack-05.txt
+cfc-footnotes-03-fn0116	cfc-footnotes-03	石井論文	116	74	独立行政法人日本貿易保険HP（http://nexi.go.jp/glossary/detail/002881.html）。	packs/cfc-footnotes-03-pack-05.txt
+cfc-footnotes-03-fn0117	cfc-footnotes-03	石井論文	117	74	谷川・前掲（注110）5頁。	packs/cfc-footnotes-03-pack-06.txt
+cfc-footnotes-03-fn0118	cfc-footnotes-03	石井論文	118	74	山内・前掲（注111）38頁。	packs/cfc-footnotes-03-pack-06.txt
+cfc-footnotes-03-fn0119	cfc-footnotes-03	石井論文	119	75	谷川・前掲（注110）6頁。例外であるリベリア・ホンジュラス等は、外国法人が保有する船舶についても自国船籍を付与するため、例えば、パナマ法人が保有する船舶がリベリア・ホンジュラス等の船籍を有することもあり得る。	packs/cfc-footnotes-03-pack-06.txt
+cfc-footnotes-03-fn0120	cfc-footnotes-03	石井論文	120	75	馬木昇『パナマ便宜置籍船の法律実務』146 頁（成山堂書店、1993）。	packs/cfc-footnotes-03-pack-06.txt
+cfc-footnotes-03-fn0121	cfc-footnotes-03	石井論文	121	75	高橋・前掲（注13）。	packs/cfc-footnotes-03-pack-06.txt
+cfc-footnotes-03-fn0122	cfc-footnotes-03	石井論文	122	76	羽島・前掲（注7）77頁と結論は同じである。ただし、その理由は、基準所得金額の計算上、「国内」と「国外」の立場が逆転するということではないため、結論に至る根拠は異なる。 また、永田・前掲（注93）44頁は、「『例に準じて計算する』との規定になっていることから上記特定外国子会社等が保有する船舶が第三国船舶である場合には…	packs/cfc-footnotes-03-pack-06.txt
+cfc-footnotes-03-fn0123	cfc-footnotes-03	石井論文	123	77	馬木・前掲（注120）147頁。	packs/cfc-footnotes-03-pack-06.txt
+cfc-footnotes-03-fn0124	cfc-footnotes-03	石井論文	124	81	OECD Public Discussion Draft “BEPS ACTION 3: STRENGTHENING CFC RULES” 3 April 2015, paras131-140.	packs/cfc-footnotes-03-pack-06.txt
+cfc-footnotes-04-fn0001	cfc-footnotes-04	羽島論文	1	6	Base Erosion and Profit Shifting の略。 (P6)	packs/cfc-footnotes-04-pack-00.txt
+cfc-footnotes-04-fn0002	cfc-footnotes-04	羽島論文	2	6	最高裁平成19年9月28日判決:民集61巻6号2486頁「双輝汽船事件」。 (P6)	packs/cfc-footnotes-04-pack-00.txt
+cfc-footnotes-04-fn0003	cfc-footnotes-04	羽島論文	3	6	最高裁平成21年10月29日判決:民集63巻8号1881頁「グラクソ事件」。 (P6)	packs/cfc-footnotes-04-pack-00.txt
+cfc-footnotes-04-fn0004	cfc-footnotes-04	羽島論文	4	6	最高裁平成21年12月3日判決:民集63巻10号2283頁「ガーンジー島事件」。 (P6)	packs/cfc-footnotes-04-pack-00.txt
+cfc-footnotes-04-fn0005	cfc-footnotes-04	羽島論文	5	9	金子宏著『租税法〔第18版〕』462 頁(弘文堂、2013)。 (P9)	packs/cfc-footnotes-04-pack-00.txt
+cfc-footnotes-04-fn0006	cfc-footnotes-04	羽島論文	6	9	法人税法第2条第1号。 (P9)	packs/cfc-footnotes-04-pack-00.txt
+cfc-footnotes-04-fn0007	cfc-footnotes-04	羽島論文	7	9	法人税法第2条第3号。 (P9)	packs/cfc-footnotes-04-pack-00.txt
+cfc-footnotes-04-fn0008	cfc-footnotes-04	羽島論文	8	9	法人税法第2条第2号。 (P9)	packs/cfc-footnotes-04-pack-00.txt
+cfc-footnotes-04-fn0009	cfc-footnotes-04	羽島論文	9	9	法人税法第2条第4号。 (P9)	packs/cfc-footnotes-04-pack-00.txt
+cfc-footnotes-04-fn0010	cfc-footnotes-04	羽島論文	10	9	金子・前掲注(5)280頁・472頁。 (P9)	packs/cfc-footnotes-04-pack-00.txt
+cfc-footnotes-04-fn0011	cfc-footnotes-04	羽島論文	11	9	これに対し、「管理支配地主義」という考え方がある。これは、事業の指揮・監督の行われる場所が国内にあるかどうかを基準として、法人の納税義務の範囲を決める考え方であり、英国をはじめとするいくつかの国で採用されている。金子・前掲注(5)462頁。 (P9)	packs/cfc-footnotes-04-pack-00.txt
+cfc-footnotes-04-fn0012	cfc-footnotes-04	羽島論文	12	10	国内にある資産又は負債とは、国内にある不動産、国内にある不動産の上に存する権利、鉱業権及び採石権その他国内にある事業所に属する資産(外国法人の発行済株式等の総数の100分の25以上の数の株式を有する場合におけるその外国法人の株式を除く。)又は負債のことをいう(法人税法施行令第4条の3)。 (P10)	packs/cfc-footnotes-04-pack-00.txt
+cfc-footnotes-04-fn0013	cfc-footnotes-04	羽島論文	13	10	国外にある資産又は負債とは、国外にある事業所に属する資産(国内にある不動産、国内にある不動産の上に存する権利、鉱業権及び採石権を除く。)又は負債のことをいう(法人税法施行令第4条の3)。 (P10)	packs/cfc-footnotes-04-pack-00.txt
+cfc-footnotes-04-fn0014	cfc-footnotes-04	羽島論文	14	10	高橋元監修『タックス・ヘイブン対策税制の解説』81頁〔石山〕(清文社、1979)。 (P10)	packs/cfc-footnotes-04-pack-00.txt

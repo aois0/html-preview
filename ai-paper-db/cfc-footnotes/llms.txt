@@ -1,0 +1,16 @@
+# CFC脚注集 / AI検索最適化
+# Base URL: https://jplawdb.github.io/html-preview/ai-paper-db/cfc-footnotes/
+# 設計前提: 1 URL 1万トークン以内（hard 10000, target 9000）
+
+推奨読手順（10k tokens/read 制約前提）
+1) `quickstart.txt`
+2) `data/docs_index.tsv`（論文を選ぶ）
+3) `data/shards_index.json`（shard対応を確認）
+4) `data/shards/shard-*.txt`（候補抽出）
+5) `packs/*.txt`（本文）
+
+代表URL
+- 索引: `data/docs_index.tsv`
+- shard索引: `data/shards_index.json`
+- shard本体: `data/shards/shard-000.txt`
+- 本文pack: `packs/cfc-footnotes-01-pack-00.txt`

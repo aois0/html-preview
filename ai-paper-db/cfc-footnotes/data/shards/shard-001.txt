@@ -1,0 +1,100 @@
+id	section_id	section_title	footnote_number	page_hint	snippet	core
+cfc-footnotes-01-fn0090	cfc-footnotes-01	山崎論文	90	56	ただし、民法組合契約等に基づく分配については、その計算期間の末日の翌日から2月を経過する日までに金銭等の交付がされない場合には、同日において支払があったものとみなして源泉徴収課税されることとなるが(所法 212⑤)、匿名組合分配金については、そのような規定がないので、実際の支払があるまでは源泉徴収課税されない。	packs/cfc-footnotes-01-pack-02.txt
+cfc-footnotes-01-fn0091	cfc-footnotes-01	山崎論文	91	57	渡辺・前掲注(5) 19-20 頁。	packs/cfc-footnotes-01-pack-02.txt
+cfc-footnotes-01-fn0092	cfc-footnotes-01	山崎論文	92	57	通常は、資産購入のための SPC による追加資金はノンリコースローンにより調達され、また、資産に係る損害賠償等についても保険によりカバーするなど、匿名組合員に出資額以上の責任が及ぶことはない。	packs/cfc-footnotes-01-pack-02.txt
+cfc-footnotes-01-fn0093	cfc-footnotes-01	山崎論文	93	57	匿名組合契約は、営業者と匿名組合員の1対1の契約であるから、その契約ごとに区分して取扱うことが可能であると考える。	packs/cfc-footnotes-01-pack-02.txt
+cfc-footnotes-01-fn0094	cfc-footnotes-01	山崎論文	94	59	OECD モデル租税条約3条コメンタリー・パラ4は、「『企業』という用語はあらゆる事業の遂行に適用されると規定されている。『事業』という用語には自由職業その他の独立の性格を有する活動が含まれると、明文により定義されていることから、当該用語の国内法令における意味にかかわらず、自由職業その他の独立の性格を有する活動は企業…	packs/cfc-footnotes-01-pack-02.txt
+cfc-footnotes-01-fn0095	cfc-footnotes-01	山崎論文	95	60	具体的には、租税条約の実施に伴う所得税法、法人税法及び地方税法の特例等に関する法律施行令が考えられる。	packs/cfc-footnotes-01-pack-02.txt
+cfc-footnotes-01-fn0096	cfc-footnotes-01	山崎論文	96	60	前掲注(55)参照。	packs/cfc-footnotes-01-pack-02.txt
+cfc-footnotes-01-fn0097	cfc-footnotes-01	山崎論文	97	60	租税条約実施特例法において、匿名組合分配金に対しては租税条約の「利子条項」が適用されるとした場合は、租税条約上の限度税率(ゼロ税率を含む。)が適用されることとなるが、日米及び日英の新租税条約のように、匿名組合分配金に対しては国内法を適用する旨の規定であれば、租税条約上の限度税率は適用されないことになる。	packs/cfc-footnotes-01-pack-02.txt
+cfc-footnotes-01-fn0098	cfc-footnotes-01	山崎論文	98	61	K. Tipke 著/木村弘之亮=吉村典久=西山由美訳『所得税・法人税・消費税-西ドイツ租税法ー』(木鐸社、1988) 178 頁。なお、「共同事業者」の概念については、谷口勢津夫「ドイツにおける人的会社(共同事業者)課稅」日稅研論集44号(日本税務研究センター、2000) 91-101頁。	packs/cfc-footnotes-01-pack-02.txt
+cfc-footnotes-01-fn0099	cfc-footnotes-01	山崎論文	99	62	BFH GrS BStB1. II 1984 751 769f.。 以上となります。ご確認ください。	packs/cfc-footnotes-01-pack-02.txt
+cfc-footnotes-02-fn0001	cfc-footnotes-02	木山論文	1		五十嵐清『法学入門〔第3版〕』(悠々社,2005年)138頁。同書では,「法文中に『男』とあれば『女』をふくめず、逆に『女』とあれば『男』を除外するように解釈するのが、文理解釈である。その点では、国語の解釈と本質的に変わりはない」と説明されている(同138頁)。	packs/cfc-footnotes-02-pack-00.txt
+cfc-footnotes-02-fn0002	cfc-footnotes-02	木山論文	2		星野英一『民法のもう一つの学び方 〔補訂版〕』(有斐閣,2006年)62頁。	packs/cfc-footnotes-02-pack-00.txt
+cfc-footnotes-02-fn0003	cfc-footnotes-02	木山論文	3		山下純司=島田聡一郎=宍戸常寿『法解釈入門』(有斐閣,2013年)26頁〔島田聡一郎執筆部分〕。	packs/cfc-footnotes-02-pack-00.txt
+cfc-footnotes-02-fn0004	cfc-footnotes-02	木山論文	4		五十嵐・前掲注1) 145頁。同書では「目的解釈、または目的論的解釈という」と説明されており、この解釈には、①立法者の意思に従うべきとする立法者意思說（主観的解釈）と、②立法当時に有した目的ではなく、現在の社会において有する目的に従うべきとする法律意思說（客観的解釈）の2つがあるとの整理がなされている(同146-15…	packs/cfc-footnotes-02-pack-00.txt
+cfc-footnotes-02-fn0005	cfc-footnotes-02	木山論文	5		星野・前掲注2)64頁。同書では「立法者または起草者の考え方による解釈」と「目的論的解釈」を分けた説明がなされているため、「現在」の趣旨目的という表現がなされている。五十嵐・前掲注4)の整理によれば、前者は①立法者意思說（主観的解釈）となり、後者は②法律意思説（客観的解釈）ということになるであろう。この2つの整理をみ…	packs/cfc-footnotes-02-pack-00.txt
+cfc-footnotes-02-fn0006	cfc-footnotes-02	木山論文	6		山下ほか・前掲注3)24頁〔島田聡一郎執筆部分〕。同書においても、前掲注5)と同じように、この目的論的解釈と立法者意思を考慮する解釈とを分けて整理されているが、目的論的解釈が規定の趣旨目的を考慮する解釈である点では変わりがない。	packs/cfc-footnotes-02-pack-00.txt
+cfc-footnotes-02-fn0007	cfc-footnotes-02	木山論文	7		金子宏「租税法解釈論序説一若干の最高裁判決を通して見た租税法の解釈のあり方」金子宏=中里実=J. マーク・ラムザイヤー編『租税法と市場』(有斐閣,2014年)9頁。	packs/cfc-footnotes-02-pack-00.txt
+cfc-footnotes-02-fn0008	cfc-footnotes-02	木山論文	8		最判平成22年3月2日民集64巻2号420頁。	packs/cfc-footnotes-02-pack-00.txt
+cfc-footnotes-02-fn0009	cfc-footnotes-02	木山論文	9		最判平成27年7月17日集民250号29頁。	packs/cfc-footnotes-02-pack-00.txt
+cfc-footnotes-02-fn0010	cfc-footnotes-02	木山論文	10		最判平成23年2月18日集民236号71頁。	packs/cfc-footnotes-02-pack-00.txt
+cfc-footnotes-02-fn0011	cfc-footnotes-02	木山論文	11		須藤正彦裁判官補足意見。	packs/cfc-footnotes-02-pack-00.txt
+cfc-footnotes-02-fn0012	cfc-footnotes-02	木山論文	12		最判平成24年1月13日民集66巻1号1頁。	packs/cfc-footnotes-02-pack-00.txt
+cfc-footnotes-02-fn0013	cfc-footnotes-02	木山論文	13		最判平成9年11月11日民集186号15頁。	packs/cfc-footnotes-02-pack-00.txt
+cfc-footnotes-02-fn0014	cfc-footnotes-02	木山論文	14		最判昭和45年10月23日民集24巻11号1617頁。	packs/cfc-footnotes-02-pack-00.txt
+cfc-footnotes-02-fn0015	cfc-footnotes-02	木山論文	15		最判平成20年10月24日民集62巻9号2424頁。	packs/cfc-footnotes-02-pack-00.txt
+cfc-footnotes-02-fn0016	cfc-footnotes-02	木山論文	16		最判平成17年12月19日民集59巻10号2964頁。	packs/cfc-footnotes-02-pack-00.txt
+cfc-footnotes-02-fn0017	cfc-footnotes-02	木山論文	17		最判平成16年12月16日民集58巻9号2458頁。	packs/cfc-footnotes-02-pack-00.txt
+cfc-footnotes-02-fn0018	cfc-footnotes-02	木山論文	18		最判平成26年12月12日集民248号165頁。	packs/cfc-footnotes-02-pack-00.txt
+cfc-footnotes-02-fn0019	cfc-footnotes-02	木山論文	19		最判昭和45年9月22日民集24巻10号1424	packs/cfc-footnotes-02-pack-00.txt
+cfc-footnotes-02-fn0020	cfc-footnotes-02	木山論文	20		大判昭和19年12月22日民集23巻626頁。	packs/cfc-footnotes-02-pack-00.txt
+cfc-footnotes-02-fn0021	cfc-footnotes-02	木山論文	21		罪刑法定主義の下で同じく厳格解釈の要請が求められる刑法においても、税法解釈と類似の議論がある。たとえば、「弓矢を使用する方法による捕獲」という構成要件であるにもかかわらず、食用とする目的で狩猟鳥獣であるマガモ又はカルガモをねらい洋弓銃（クロスボウ）で矢を射かけた行為について、矢が外れたため鳥獣を自己の実力支配内に入れ…	packs/cfc-footnotes-02-pack-00.txt
+cfc-footnotes-02-fn0022	cfc-footnotes-02	木山論文	22		最判昭和58年9月9日民集37巻7号962頁	packs/cfc-footnotes-02-pack-00.txt
+cfc-footnotes-02-fn0023	cfc-footnotes-02	木山論文	23		最判平成22年7月6日民集64巻5号1277頁。	packs/cfc-footnotes-02-pack-00.txt
+cfc-footnotes-02-fn0024	cfc-footnotes-02	木山論文	24		最判平成17年2月1日集民216号279頁。	packs/cfc-footnotes-02-pack-00.txt
+cfc-footnotes-02-fn0025	cfc-footnotes-02	木山論文	25		最判平成27年3月10日刑集69巻2号434頁。	packs/cfc-footnotes-02-pack-00.txt
+cfc-footnotes-02-fn0026	cfc-footnotes-02	木山論文	26		最判平成28年2月29日裁時1646号5頁。	packs/cfc-footnotes-02-pack-00.txt
+cfc-footnotes-02-fn0027	cfc-footnotes-02	木山論文	27		税法解釈の方法として文理解釈の原則を掲げるものには、他の脚注等で示したもののほかにも、中里実=弘中聡浩=渕圭吾=伊藤剛志=吉村政穂編『租税法概説〔第2版〕』(有斐閣,2015年)41頁〔増井良啓執筆部分〕、岡村ほか・前揭注7)37頁〔岡村忠生執筆部分〕、佐藤英明『プレップ租税法〔第3版〕』(有斐閣,2015年)69頁…	packs/cfc-footnotes-02-pack-00.txt
+cfc-footnotes-02-fn0028	cfc-footnotes-02	木山論文	28		五十嵐・前掲注1)140頁。	packs/cfc-footnotes-02-pack-00.txt
+cfc-footnotes-02-fn0029	cfc-footnotes-02	木山論文	29		山下ほか・前掲注3)53頁〔山下純司執筆部分〕にも、「条文の解釈において、その文理が重要であることはいうまでもない」と指摘されている。	packs/cfc-footnotes-02-pack-00.txt
+cfc-footnotes-02-fn0030	cfc-footnotes-02	木山論文	30		五十嵐・前掲注1)140-141頁参照。	packs/cfc-footnotes-02-pack-00.txt
+cfc-footnotes-02-fn0031	cfc-footnotes-02	木山論文	31		憲法41条には「国会」が「国の唯一の立法機関」であると規定されている。ここにいう「立法」の意義については、国会が制定する法規範という形式的意味の立法とその内容が問われる実質的意味の立法の2つがあると考えられている。後者については、「およそ一般的・抽象的な法規範をすべて含むと考えるのが妥当である」と考えられており、ここ…	packs/cfc-footnotes-02-pack-00.txt
+cfc-footnotes-02-fn0032	cfc-footnotes-02	木山論文	32		「法は多かれ少なかれ多数の人々に適用される一般的取りきめであるから、どうしても抽象的・定型的なものとして構成しなければなら」ず、「法の言葉が抽象的,一般的であればあるほど、法の意味の確定は困難を伴うことになる」との指摘がなされている(末川博編『法学入門〔第6版補訂版〕』(有斐閣,2014年)74-75頁)。	packs/cfc-footnotes-02-pack-00.txt
+cfc-footnotes-02-fn0033	cfc-footnotes-02	木山論文	33		文理解釈だけでは不十分なことがある理由として、① 「公共の福祉」や「公序良俗」といった抽象的な文言が多いこと、②法文には多義的な言葉が使われることも免れないこと、③個々の法文は他の法文と関連しているため、特定の法文の文理解釈だけで結論を導くと、法の体系に矛盾することになりがちであること、が挙げられている(五十嵐・前掲…	packs/cfc-footnotes-02-pack-00.txt
+cfc-footnotes-02-fn0034	cfc-footnotes-02	木山論文	34		「法律はすべての場合に、画一的に適用されることを必要とする」ということを「法律における一般的確実性」といい、「それぞれの場合の特殊の事情に応ずること」を「法律における具体的妥当性」ということを説明したうえで、「この法律における2つの要請,一般的確実性と具体的妥当性を調和させる」ことが「法律家の任務」であると解くものに…	packs/cfc-footnotes-02-pack-00.txt
+cfc-footnotes-02-fn0035	cfc-footnotes-02	木山論文	35		民法94条2項の類推適用を認めたもの(最判昭和45年9月22日前掲注) 20等)、民法94条2項,110条の類推適用を認めたもの(最判平成18年2月23日民集60巻2号546頁)、民法295条2項の類推適用を認めたもの(最判昭和46年7月16日民集25巻5号749頁)、民法416条の類推適用を認めたもの(最判昭和48…	packs/cfc-footnotes-02-pack-01.txt
+cfc-footnotes-02-fn0036	cfc-footnotes-02	木山論文	36		五十嵐・前掲注1)141頁,145頁。	packs/cfc-footnotes-02-pack-01.txt
+cfc-footnotes-02-fn0037	cfc-footnotes-02	木山論文	37		金子・前揭注7)115頁、金子・前掲注8)3頁、清永敬次『税法〔新装版第4刷〕』(ミネルヴァ書房,2014年)35頁等参照。	packs/cfc-footnotes-02-pack-01.txt
+cfc-footnotes-02-fn0038	cfc-footnotes-02	木山論文	38		私有財産権の保障と税負担の公平の実現のために、税法の解釈に他の法分野よりも厳格性が求められるとする見解もある(新井隆一 『税法からの問 税法からの答』(成文堂,2008年)19–22頁)。ただし、そもそも、税法解釈において文理解釈の原則(厳格解釈の要請)を強調しない考え方もある。たとえば、「租税法の個々の法条の解釈に…	packs/cfc-footnotes-02-pack-01.txt
+cfc-footnotes-02-fn0039	cfc-footnotes-02	木山論文	39		金子宏=清永敬次=宮谷俊胤=畠山武道『税法入門〔第7版〕』(有斐閣,2016年)52頁〔宮谷俊胤執筆部分〕。	packs/cfc-footnotes-02-pack-01.txt
+cfc-footnotes-02-fn0040	cfc-footnotes-02	木山論文	40		谷口・前揭注7)39頁。	packs/cfc-footnotes-02-pack-01.txt
+cfc-footnotes-02-fn0041	cfc-footnotes-02	木山論文	41		東京高判平成15年9月9日高民集56巻3号1頁。	packs/cfc-footnotes-02-pack-01.txt
+cfc-footnotes-02-fn0042	cfc-footnotes-02	木山論文	42		東京高判平成20年3月12日金判1290号32頁。	packs/cfc-footnotes-02-pack-01.txt
+cfc-footnotes-02-fn0043	cfc-footnotes-02	木山論文	43		五十嵐・前掲注1),星野・前掲注2),山下ほか・前揭注3)等参照。	packs/cfc-footnotes-02-pack-01.txt
+cfc-footnotes-02-fn0044	cfc-footnotes-02	木山論文	44		占部裕典『租税法における文理解釈と限界』(慈学社,2013年)39-40頁。	packs/cfc-footnotes-02-pack-01.txt
+cfc-footnotes-02-fn0045	cfc-footnotes-02	木山論文	45		五十嵐・前掲注4),星野・前掲注5),山下ほか・前掲注6)等参照。	packs/cfc-footnotes-02-pack-01.txt
+cfc-footnotes-02-fn0046	cfc-footnotes-02	木山論文	46		東京高判平成14年2月28日訟月48巻12号3016頁。	packs/cfc-footnotes-02-pack-01.txt
+cfc-footnotes-02-fn0047	cfc-footnotes-02	木山論文	47		東京地判平成19年4月17日判時1986号23頁(東京高判平成20年3月12日前掲注43)の1審)。	packs/cfc-footnotes-02-pack-01.txt
+cfc-footnotes-02-fn0048	cfc-footnotes-02	木山論文	48		最判昭和48年11月16日民集27巻10号1333頁。	packs/cfc-footnotes-02-pack-01.txt
+cfc-footnotes-02-fn0049	cfc-footnotes-02	木山論文	49		東京地判昭和39年7月18日行集15巻7号1363頁。	packs/cfc-footnotes-02-pack-01.txt
+cfc-footnotes-02-fn0050	cfc-footnotes-02	木山論文	50		東京高判昭和43年5月29日行集19巻5号948頁。	packs/cfc-footnotes-02-pack-01.txt
+cfc-footnotes-02-fn0051	cfc-footnotes-02	木山論文	51		原審が採用した解釈は非課税規定の類推適用であるから、納税者にとって有利な規定の類推解釈であった。しかし、納税者に有利な規定ある否かを問わず、税法解釈には厳格解釈の要請がある点は変わらない以上、文理解釈が原則であるとの考え方を垣間見ることができる。	packs/cfc-footnotes-02-pack-01.txt
+cfc-footnotes-02-fn0052	cfc-footnotes-02	木山論文	52		最判平成22年3月2日前揭注9)。	packs/cfc-footnotes-02-pack-01.txt
+cfc-footnotes-02-fn0053	cfc-footnotes-02	木山論文	53		中里実=佐藤英明=增井良啓=渋谷雅弘編『租税判例百選〔第6版〕』(有斐閣,2016年)では「I 租税法序説 (4) 租税法の解釈と適用」に分類されているし、金子・前掲注7)でも「第1編租税法序説 第6章租税法の解釈と適用第1節租税法の解釈」のなかで、「租税法･･････の解釈は原則として文理解釈によるべきであ」るとの…	packs/cfc-footnotes-02-pack-01.txt
+cfc-footnotes-02-fn0054	cfc-footnotes-02	木山論文	54		金子・前揭注8)5頁。	packs/cfc-footnotes-02-pack-01.txt
+cfc-footnotes-02-fn0055	cfc-footnotes-02	木山論文	55		佐藤英明「判批」水野忠恒=中里実=佐藤英明=増井良啓=渋谷雅弘編『租稅判例百選〔第5版〕』(有斐閣,2011年)31頁。	packs/cfc-footnotes-02-pack-01.txt
+cfc-footnotes-02-fn0056	cfc-footnotes-02	木山論文	56		東京地判平成18年3月23日稅資256号順号 10351。	packs/cfc-footnotes-02-pack-01.txt
+cfc-footnotes-02-fn0057	cfc-footnotes-02	木山論文	57		東京高判平成18年12月13日稅資256号順号10600。	packs/cfc-footnotes-02-pack-01.txt
+cfc-footnotes-02-fn0058	cfc-footnotes-02	木山論文	58		鎌野真敬「判解」『最高裁判所判例解說民事編 平成22年度(上)』(法曹会,2014年)136-137頁	packs/cfc-footnotes-02-pack-01.txt
+cfc-footnotes-02-fn0059	cfc-footnotes-02	木山論文	59		鎌野・前掲注74)137頁。	packs/cfc-footnotes-02-pack-01.txt
+cfc-footnotes-02-fn0060	cfc-footnotes-02	木山論文	60		最判平成27年7月17日前掲注10)。	packs/cfc-footnotes-02-pack-01.txt
+cfc-footnotes-02-fn0061	cfc-footnotes-02	木山論文	61		大阪地判平成25年4月26日判例自治400号46頁。	packs/cfc-footnotes-02-pack-01.txt
+cfc-footnotes-02-fn0062	cfc-footnotes-02	木山論文	62		大阪高判平成26年2月6日判例自治400号1頁。	packs/cfc-footnotes-02-pack-01.txt
+cfc-footnotes-02-fn0063	cfc-footnotes-02	木山論文	63		同判決の評釈(判タ1418号86頁)では、「租税法律主義の原則は、国民の経済生活における法的安定を図り、将来の予測可能性を与えることをその趣旨とするものであるところ、この原則は、単に立法上の原則にとどまるものではなく、租税法規の解釈にもその趣旨が及ぶものと解されており、租税法規の解釈は原則として文理解釈によるべきであ…	packs/cfc-footnotes-02-pack-01.txt
+cfc-footnotes-02-fn0064	cfc-footnotes-02	木山論文	64		当時の相続税法では,国外財産については、受贈者の住所が国内(日本)になければ贈与税を課すことができなかった。なお、このオランダ株式は、武富士の株式が総資産の8割以上を占めているものであった。	packs/cfc-footnotes-02-pack-01.txt
+cfc-footnotes-02-fn0065	cfc-footnotes-02	木山論文	65		「各人の生活の本拠をその者の住所とする」と定める民法22条の規定を指す。	packs/cfc-footnotes-02-pack-01.txt
+cfc-footnotes-02-fn0066	cfc-footnotes-02	木山論文	66		東京地判平成19年5月23日稅資257号順号 10717。	packs/cfc-footnotes-02-pack-01.txt
+cfc-footnotes-02-fn0067	cfc-footnotes-02	木山論文	67		東京高判平成20年1月23日判夕1283号119頁。	packs/cfc-footnotes-02-pack-01.txt
+cfc-footnotes-02-fn0068	cfc-footnotes-02	木山論文	68		最判平成23年2月18日前揭注11)。	packs/cfc-footnotes-02-pack-02.txt
+cfc-footnotes-02-fn0069	cfc-footnotes-02	木山論文	69		民法や商法・会社法など他の法分野における概念を税法が定義規定を置くことなく用いている場合、その概念を借用概念というが、この借用概念については、別の見解もあるものの(独立說等),法的安定性の見地から、他の法分野における概念と同じ意味として捉えるべきであると考えられている(金子・前揭注7)118-120頁,清永・前掲注3…	packs/cfc-footnotes-02-pack-02.txt
+cfc-footnotes-02-fn0070	cfc-footnotes-02	木山論文	70		最高裁平成23年判決が、最高裁昭和48年判決及び最高裁平成22年判決と同様の考え方に基づくものであると指摘するものに、前掲注62)がある。	packs/cfc-footnotes-02-pack-02.txt
+cfc-footnotes-02-fn0071	cfc-footnotes-02	木山論文	71		須藤正彦裁判官の補足意見	packs/cfc-footnotes-02-pack-02.txt
+cfc-footnotes-02-fn0072	cfc-footnotes-02	木山論文	72		平成12年法律第13号により租税特別措置法(平成15年法律第8号による改正前のもの) 69条2項の規定が設けられ、その後、平成15年法律第8号により相続税法1条の4第1項2号イの規定が設けられている。そのため、現在では武富士事件のような受贈者の住所を外国に移した後に国外財産を贈与するスキームが実施された場合でも、同規…	packs/cfc-footnotes-02-pack-02.txt
+cfc-footnotes-02-fn0073	cfc-footnotes-02	木山論文	73		三木義一「判批」租稅訴訟学会『租税訴訟 第5号一租税訴訟における最高裁判例の動向―』(財経詳報社,2012年)177-178頁には、「民法上の法の不備は、民法改正が容易ではないため、判決を通じて是正していくことが慣行化してきた」との指摘がある。	packs/cfc-footnotes-02-pack-02.txt
+cfc-footnotes-02-fn0074	cfc-footnotes-02	木山論文	74		憲法9条には、戦争放棄、戦力の不保持、交戦権の否認が規定されている。そこで、制定当時の書を紐解くと、たとえば、美濃部達吉『新憲法逐条解説』(日本評論社,1947年) 35-36頁には「一切の軍備を撤廃し、戦争遂行能力を完全に失った結果は、防御的の戦争すらも事実不可能となったので、世界の諸国に未だ嘗て類例を見ない絶対的…	packs/cfc-footnotes-02-pack-02.txt
+cfc-footnotes-02-fn0075	cfc-footnotes-02	木山論文	75		鎌野・前掲注74)137頁。	packs/cfc-footnotes-02-pack-02.txt
+cfc-footnotes-02-fn0076	cfc-footnotes-02	木山論文	76		鎌野・前掲注74)137頁。	packs/cfc-footnotes-02-pack-02.txt
+cfc-footnotes-02-fn0077	cfc-footnotes-02	木山論文	77		最判平成24年1月13日前掲注13)。	packs/cfc-footnotes-02-pack-02.txt
+cfc-footnotes-02-fn0078	cfc-footnotes-02	木山論文	78		所得税法施行令(平成23年政令第195号による改正前のもの) 183条2項2号には、生命保険契約等に基づく一時金に係る一時所得の金額の計算について,当該生命保険契約等に係る保険料又は掛金の総額は、その年分の一時所得の金額の計算上,支出した金額に算入すると定められており、他方で、同号イないしニでは、当該支出した金額に総…	packs/cfc-footnotes-02-pack-02.txt
+cfc-footnotes-02-fn0079	cfc-footnotes-02	木山論文	79		福岡地判平成21年1月27日稅資259号順号11125。	packs/cfc-footnotes-02-pack-02.txt
+cfc-footnotes-02-fn0080	cfc-footnotes-02	木山論文	80		福岡高判平成21年7月29日前掲注78)。	packs/cfc-footnotes-02-pack-02.txt
+cfc-footnotes-02-fn0081	cfc-footnotes-02	木山論文	81		小林宏司「判解」『最高裁判所判例解說民事編 平成24年度(上)』(法曹会,2015年)10頁。	packs/cfc-footnotes-02-pack-02.txt
+cfc-footnotes-02-fn0082	cfc-footnotes-02	木山論文	82		渡辺裕泰「判批」 ジュリスト1446号 (2012年) 121頁には、「問題になっている法律、政令,通達が、いずれもわかりにくいものである」こと、「所得者本人が支出したものに限るということが、一般納税者にもわかるように、明確に記述すべき」ことが指摘されている。	packs/cfc-footnotes-02-pack-02.txt
+cfc-footnotes-02-fn0083	cfc-footnotes-02	木山論文	83		小林・前掲注81)10頁。引用されている学説は、「金子宏『租税法・第18版』112頁」である。	packs/cfc-footnotes-02-pack-02.txt
+cfc-footnotes-02-fn0084	cfc-footnotes-02	木山論文	84		金子・前掲注7) 116頁にも、最高裁平成24年判決が、趣旨解釈が行われた例として挙げられている。	packs/cfc-footnotes-02-pack-02.txt
+cfc-footnotes-02-fn0085	cfc-footnotes-02	木山論文	85		金子・前掲注7)116頁。	packs/cfc-footnotes-02-pack-02.txt
+cfc-footnotes-02-fn0086	cfc-footnotes-02	木山論文	86		最判平成18年6月19日集民220号539頁。	packs/cfc-footnotes-02-pack-02.txt
+cfc-footnotes-02-fn0087	cfc-footnotes-02	木山論文	87		東京地判平成15年1月22日判夕1118号129頁。	packs/cfc-footnotes-02-pack-02.txt
+cfc-footnotes-02-fn0088	cfc-footnotes-02	木山論文	88		東京高判平成15年9月24日裁判所HP。	packs/cfc-footnotes-02-pack-02.txt
+cfc-footnotes-02-fn0089	cfc-footnotes-02	木山論文	89		金子・前掲注7)116頁には、炭化水素油の意義についての最高裁平成18年判決が「趣旨解釈の例」として挙げられている。	packs/cfc-footnotes-02-pack-02.txt

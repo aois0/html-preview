@@ -1,0 +1,114 @@
+---
+id: "cfc-footnotes-04-pack-04"
+section_id: "cfc-footnotes-04"
+section_title: "羽島論文"
+footnote_no_start: 120
+footnote_no_end: 128
+fid_start: "cfc-footnotes-04-fn0120"
+fid_end: "cfc-footnotes-04-fn0128"
+record_count: 9
+part_index: 5
+part_total: 5
+source_file: "羽島論文脚注集.txt"
+source_title: "羽島論文"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/cfc-footnotes/packs/cfc-footnotes-04-pack-04.txt"
+---
+## cfc-footnotes-04-fn0120 (footnote 120, page 46)
+
+### 本文該当箇所
+我が国の法人税法等の規定の基本構造である本店所在地主義の下¹²⁰、第3章において新たに創出されたループホールに対する現実的な対応策としては、以下の(1)及び(2)が考えられる。 (P46)
+
+### 脚注内容
+本稿での問題に対する他の対応策としては、我が国の法人税法等の規定の基本構造である本店所在地主義から、英国などの国が採用する管理支配地主義への抜本的な見直しという方法も考えられる。しかしながら、本稿ではあくまでも現行の本店所在地主義を基本とした対応策を模索したものである。 (P46)
+
+- source_file: 羽島論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-04-fn0121 (footnote 121, page 50)
+
+### 本文該当箇所
+CFC税制は、昭和53年に「国際的な租税回避を防止する」という大きな命題の下に創設された税制であり、我が国の多国籍企業が行う所得の国外移転に対し、一定の効果をあげている¹²¹。 (P50)
+
+### 脚注内容
+国税庁の報道発表によると、平成23事務年度の税務調査においてCFC税制が問題となったものが102件、申告漏れ所得金額は315億円、平成24事務年度の税務調査において問題となったものが81件、申告漏れ所得金額は64億円となっている。国税庁HP(2014.1) http://www.nta.go.jp/kohyo/press/press/2013/hojin_chosa/03.htm (P50)
+
+- source_file: 羽島論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-04-fn0122 (footnote 122, page 50)
+
+### 本文該当箇所
+しかしながら、本税制については、平成19年の双輝汽船事件最高裁判決以後も、立て続けに訴訟を提起されるなど、現在も審理が継続中のものも多く、本制度が現代社会に必ずしも適合していないのではないかとの指摘もなされている¹²² ¹²³。 (P50)
+
+### 脚注内容
+中里実ほか編著『国際租税訴訟の最前線』135 頁(有斐閣、2010)。ここでは「現行法における同税制には現代の複雑な企業活動や経済環境に必ずしも適応しきれていない面があり、同税制における一種の歪みが顕在化しつつあります。」と説明されている。 (P50)
+
+- source_file: 羽島論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-04-fn0123 (footnote 123, page 50)
+
+### 本文該当箇所
+しかしながら、本税制については、平成19年の双輝汽船事件最高裁判決以後も、立て続けに訴訟を提起されるなど、現在も審理が継続中のものも多く、本制度が現代社会に必ずしも適合していないのではないかとの指摘もなされている¹²² ¹²³。 (P50)
+
+### 脚注内容
+昭和53年のCFC税制導入に携わられた小田嶋清治氏においても「…外国子会社合算税制が適用されるか否かは、海外においては重要なファクターを占めていますが、その解釈上は、依然として不明確な点が見受けられます。」と述べられている。小田嶋清治=岩谷博紀「米国 LLC とタックス・ヘイブン税制における『特定外国子会社等』への該当性」西村あさひ法律事務所ビジネス・タックス・ロー・ニューズレター2009年12月号1頁。西村あさひ法律事務所HP(2014.1) http://www.jurists.co.jp/ja/topics/docs/newsletter_200912_btl.pdf (P50)
+
+- source_file: 羽島論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-04-fn0124 (footnote 124, page 50)
+
+### 本文該当箇所
+諸外国においても、先に述べたとおり、米アップルやグーグル、アマゾン・ドット・コム、スターバックス等の世界的に著名な多国籍企業が、各国の税制や租税条約等の穴を巧みに利用するアグレッシブ・タックス・プランニング¹²⁴を組成し、自社の利益を最大に図るといった企業活動を行っており、これは各国の税制や租税条約等が、抑止力としての機能を果たさず、改正等が後手に回っていることの表れでもある。 (P50)
+
+### 脚注内容
+本庄資教授によると、アグレッシブ・タックス・プランニングとは、「個人又は法人が税負担を最小化する意図で一税制の法技術や各国税制の差異を利用するプランニングであり、例えば一方の国の課税を免れるために他方の国の租税条約を利用するトリーティ・ショッピング、法令規定の文言に触れないが法の精神(spirit of the law)を遵守しないプランニングをいう。」と説明されている。本庄・前掲注(66)8頁。 (P50)
+
+- source_file: 羽島論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-04-fn0125 (footnote 125, page 50)
+
+### 本文該当箇所
+2013年7月にOECDが公表した「BEPS行動計画¹²⁵」によれば、CFC税制はBEPSに対する対応策として有効であるとの一定の評価がなされており、その重要性がより一層高まってきている¹²⁶。 (P50)
+
+### 脚注内容
+OECD 『Action Plan on Base Erosion and Profit Shifting』(2013). OECD HP (2014.1) http://www.oecd.org/ctp/BEPSActionPlan.pdf (P50)
+
+- source_file: 羽島論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-04-fn0126 (footnote 126, page 50)
+
+### 本文該当箇所
+2013年7月にOECDが公表した「BEPS行動計画¹²⁵」によれば、CFC税制はBEPSに対する対応策として有効であるとの一定の評価がなされており、その重要性がより一層高まってきている¹²⁶。 (P50)
+
+### 脚注内容
+OECD・前掲注(125) p. 15-17 Chapter3 Action2 (Neutralise the effects of hybrid mismatch arrangements)、Action3(Strengthen CFC rules) 、Action4(Limit Base erosion via interest deductions and other financial payments). (P50-51)
+
+- source_file: 羽島論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-04-fn0127 (footnote 127, page 51)
+
+### 本文該当箇所
+したがって、我が国のCFC税制の今後の在り方についても、平成25年7月19日の財務大臣談話において、当該行動計画を強く支持するとの立場を明確にしていることから¹²⁷、その期限までにある一定の方向性を示す必要があり、本稿で取り上げたようなCFC税制に係る問題の早期治癒を念頭に制度設計を再度考える時期に来ているのではないだろうか。 (P51)
+
+### 脚注内容
+財務省HP(2014. 1)。http://www.mof.go.jp/tax_policy/summary/international/20130719.htm (P51)
+
+- source_file: 羽島論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-04-fn0128 (footnote 128, page 51)
+
+### 本文該当箇所
+なぜなら、当該行動計画において述べられているように、CFC税制は多国籍企業の所得移転を防止するための有効な税制である一方、各国の足並みが揃わず、自国の多国籍企業の企業活動のみを促進するため、若しくは、他国の企業の本社を自国に誘致するために意図的にCFC税制を緩めるような国家が存在する場合には、その結果、CFC税制を強化した国ではなく、意図的にCFC税制を緩めた国に富が集中するという皮肉な事態が生じる可能性があるからである¹²⁸。 (P51)
+
+### 脚注内容
+Hugh J. Ault. (2013) “Some Reflections on the OECD and the Sources of International Tax Principles" Tax Notes International, Vol70, Number12. p. 1198. (P51)
+
+- source_file: 羽島論文脚注集.txt
+- parse_method: explicit-block
+

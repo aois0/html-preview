@@ -1,0 +1,664 @@
+---
+id: "cfc-footnotes-05-pack-01"
+section_id: "cfc-footnotes-05"
+section_title: "鍋谷論文"
+footnote_no_start: 45
+footnote_no_end: 103
+fid_start: "cfc-footnotes-05-fn0045"
+fid_end: "cfc-footnotes-05-fn0103"
+record_count: 59
+part_index: 2
+part_total: 4
+source_file: "鍋谷論文脚注集.txt"
+source_title: "鍋谷論文"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/cfc-footnotes/packs/cfc-footnotes-05-pack-01.txt"
+---
+## cfc-footnotes-05-fn0045 (footnote 45, page ?)
+
+### 本文該当箇所
+「... 制度のあり方を検討していく必要がある。(45)」
+
+### 脚注内容
+「(45) 経済産業省貿易経済協力局貿易振興課「平成 24 年度アジア拠点化立地推進調査等事業（国際租税問題に関する調査（タックスヘイブン対策税制及び無形資産の取扱いについて））調査報告書」61 頁（委託先：税理士法人プライスウォーターハウスクーパース, 2013）。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0046 (footnote 46, page ?)
+
+### 本文該当箇所
+「... 健全な制度となるよう見直す必要がある。(46)」
+
+### 脚注内容
+「(46) 租税調査会研究報告第 21 号「タックスヘイブン対策税制から外国子会社合算税制へ－問題点の分析と提言－」8 頁（日本公認会計士協会, 2011）。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0047 (footnote 47, page ?)
+
+### 本文該当箇所
+「... 所得アプローチを一部取り入れたハイブリッド型の制度であると位置付けられる(47)。」
+
+### 脚注内容
+「(47) 中里実ほか編『租税法概説〔第 2 版〕』326 頁〔伊藤剛志〕（有斐閣, 2015）。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0048 (footnote 48, page ?)
+
+### 本文該当箇所
+「この判定は、その外国法人が発行する株式の保有割合(48)に基づき行われる。」
+
+### 脚注内容
+「(48) 株式の数又は出資金額の割合によるが、本稿においては、便宜上、株式のみについて記載する。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0049 (footnote 49, page ?)
+
+### 本文該当箇所
+「（１）法人の所得に対して課される税が存在しない国・地域に本店(49)を有する外国関係会社」
+
+### 脚注内容
+「(49) 本稿においては、便宜上、一般社団法人及び一般財団法人に関する法律（平成 18年法律 48 号）4 条、独立行政法人法（平成 15 年法律 118 号）10 条等の規定に係る「主たる事務所」を省略し、本店のみについて記載する。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0050 (footnote 50, page ?)
+
+### 本文該当箇所
+「（２）その各事業年度の所得に対して課される租税の額が当該所得の金額の20%未満(50)である外国関係会社」
+
+### 脚注内容
+「(50) 平成 27 年度税制改正により、「20%以下」が「20%未満」に改正された（平成 27年政令 148 号による改正後の措令 39 条の 14 第 1 項 2 号、財務省「平成 27 年度税制改正の解説」693 頁（http://www.mof.nta.go.jp/tax_policy/tax_reform/outline/fy2015/explanation/pdf/p0615_0794.pdf）（平成 27 年 8 月 24 日最終閲覧）。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0051 (footnote 51, page ?)
+
+### 本文該当箇所
+「外国子会社合算税制は、昭和 53 年税制改正(51)において、...」
+
+### 脚注内容
+「(51) 租税特別措置法及び国税収納金整理資金に関する法律の一部を改正する法律（昭和53 年法律 11 号）1 条の規定による租税特別措置法の一部改正。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0052 (footnote 52, page ?)
+
+### 本文該当箇所
+「... このような事例に対処するための措置として導入されたものであり(52)、...」
+
+### 脚注内容
+「(52) 高橋元監修『タックス･ヘイブン対策税制の解説』81～83 頁（清文社, 1979）。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0053 (footnote 53, page ?)
+
+### 本文該当箇所
+「... 所要の立法措置を講ずることが適当であるとの提言がされている(53)。」
+
+### 脚注内容
+「(53) 昭和 52 年 12 月税制調査会「昭和 53 年度の税制改正に関する答申」6～7 頁。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0054 (footnote 54, page ?)
+
+### 本文該当箇所
+「・ 「通常であれば、会社の株式を保有するのは配当を受取るためであり、株主としてはできるだけ多くの配当を得ることに利害をもつので、子会社等が特定の所得を留保してしまう場合には、支配的株主の配当取得以外の意図がそこに働いていると考えざるを得ない。」(54)」
+
+### 脚注内容
+「(54) 高橋・前掲注(52) 45 頁。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0055 (footnote 55, page ?)
+
+### 本文該当箇所
+「・ 「株主たる内国法人あるいは居住者に係る課税対象留保金額が、通常であれば当該内国法人あるいは居住者に対する利益の配当又は剰余金の分配として交付されるべき性質のものであり、株主は子会社等にそうさせるだけの支配力をもっているにもかかわらず、子会社等が配当を全くあるいはわずかしか行わず、留保所得を蓄積しているところに税の回避を推認し得る。」 (55)」
+
+### 脚注内容
+「(55) 高橋・前掲注(52) 93 頁。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0056 (footnote 56, page ?)
+
+### 本文該当箇所
+「... 我が国における租税回避は生じないこととなる。」(56)」
+
+### 脚注内容
+「(56) 高橋・前掲注(52) 173 頁。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0057 (footnote 57, page ?)
+
+### 本文該当箇所
+「... 「課税繰延対策という手法と適用対象とがマッチしていない」との指摘をされているところである(57)。」
+
+### 脚注内容
+「(57) 浅妻章如「外国子会社合算税制の存在意義と方向性」21 世紀政策研究所『わが国企業を巡る国際租税制度の現状と今後(中間報告)』46～48 頁（2010）。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0058 (footnote 58, page ?)
+
+### 本文該当箇所
+「... 「すべての留保所得を合算課税する、という独自の方式」を採用し(58)、...」
+
+### 脚注内容
+「(58) 高橋・前掲注(52) 136 頁。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0059 (footnote 59, page ?)
+
+### 本文該当箇所
+「... 課税できればとりあえず OK」と考えられていたようである(59)。」
+
+### 脚注内容
+「(59) 小田嶋清治「タックス・ヘイブン対策税制の立法経緯と今後の動向」中里実ほか編著『国際租税訴訟の最前線』253 頁（有斐閣, 2010）、中里実ほか「国際租税法の現状と展望」同 402 頁〔小田嶋発言〕。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0060 (footnote 60, page ?)
+
+### 本文該当箇所
+「... 「租税回避」の防止という目的を達成することはもはやできなくなったと思われる(60)。」
+
+### 脚注内容
+「(60) 増井良啓教授は、外国子会社配当益金不算入制度が、損金算入配当の取扱いを例に、「テリトリアル型」（相手国での課税の有無を問題にせず日本で免税するという考え方）を容認しており、日本の法人税制の国際的側面は、外国支店の取扱い、外国子会社株式の譲渡損益や外国子会社合算税制といった「全世界型」（内国法人の全世界所得に対して少なくとも日本の法人税率での課税を及ぼすという考え方）との間の微妙な折衷の上に成り立っていると指摘されている（増井良啓「外国子会社配当の益金不算入制度は何のためにあるか」村井正先生喜寿記念論文集『租税の複合法的構成』203～220 頁（清文社, 2012））。なお、BEPS プロジェクトの勧告を踏まえ、平成 27年度税制改正において、外国子会社配当益金不算入制度の対象から損金算入配当を除くこととされた（後掲注(67)参照）。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0061 (footnote 61, page ?)
+
+### 本文該当箇所
+「我が国の外国子会社合算税制に相当する制度（CFC 税制）は、多くの諸外国においても導入されている(61)。」
+
+### 脚注内容
+「(61) 我が国のほか、アルゼンチン、オーストラリア、ブラジル、カナダ、中国、デンマーク、エジプト、エストニア、フィンランド、フランス、ドイツ、ハンガリー、アイスランド、インドネシア、イスラエル、イタリア、韓国、リトアニア、メキシコ、ニュージーランド、ノルウェー、ポルトガル、南アフリカ、スペイン、スウェーデン、トルコ、英国、米国、ベネズエラが CFC 税制を導入している（本庄資「陳腐化した国際課税原則を見直し新しい国際課税原則を構築する必要性―OECD の BEPS 対策の始動を中心として―」税大ジャーナル 21 号 45 頁（2013））。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0062 (footnote 62, page ?)
+
+### 本文該当箇所
+「一方、CFC 税制を持たない国も多い(62)。」
+
+### 脚注内容
+「(62) オーストリア、ベルギー、ブルガリア、チリ、コロンビア、キプロス、チェコ、エクアドル、ジブラルタル、ギリシャ、香港、インド、アイルランド、ラトビア、ルクセンブルグ、マレイシア、マルタ、モーリシャス、ナイジェリア、ペルー、フィリピン、ポーランド、ルーマニア、ロシア、サウジアラビア、シンガポール、スロバキア、スロベニア、スイス、台湾、タイ、ウクライナ、ウルグアイ、ベトナムは、CFC 税制を有しない（本庄・前掲注(61) 45 頁）。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0063 (footnote 63, page ?)
+
+### 本文該当箇所
+「BEPS プロジェクトにおける CFC 税制の強化に関する個別の議論に入る前に、この BEPS プロジェクト全体の概要を確認しておきたい (63)。」
+
+### 脚注内容
+「(63) この概要は、主に浅川雅嗣「OECD における BEPS と自動的情報交換への取り組み」租税研究 786 号 77 頁以下（2015）を参考にまとめた。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0064 (footnote 64, page ?)
+
+### 本文該当箇所
+「OECD 租税委員会は、1 年間の議論を経て、2013 年 7 月に 15 項目にわたる BEPS 行動計画(64)を公表するとともに、...」
+
+### 脚注内容
+「(64) OECD. (2013). “Action Plan on Base Erosion and Profit Shifting” .」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0065 (footnote 65, page ?)
+
+### 本文該当箇所
+「... 日本を含む G20 各国から全面的な支持を得た(65)。」
+
+### 脚注内容
+「(65) Russia G20. (2013). “G20 LEADERS’ DECLARATION” and “TAX ANNEX TO THE ST. PETERSBURG G20 LEADERS’ DECLARATION” .」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0066 (footnote 66, page ?)
+
+### 本文該当箇所
+「... 2014 年 9 月 16 日に第一弾の報告書を公表した(66)。」
+
+### 脚注内容
+「(66) OECD. (2014). “Neutralising the Effects of Hybrid Mismatch Agreements”(Action 2), “Preventing the Granting of Treaty Benefits in Inappropriate Circumstances” (Action 6), “Guidance on Transfer Pricing Aspects of Intangibles” (Action 8), “Guidance on Transfer Pricing Documentation and Country-by-Country Reporting” (Action 13), “Addressing the Tax Challenges of the Digital Economy” (Action 1), “Developing a Multilateral Instrument to Modify Bilateral Tax Treaties” (Action 15), “Countering Harmful Tax Practices More Effectively, Taking into Account Transparency and Substance” (Action 5) (http://www.oecd.org/newsroom/oecd-releases-first-beps- recommendations-to-g20-for international-approach-to-combat-tax-avoidance-by-multinationals.htm)（平成 27 年 4月 6 日最終閲覧）.」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0067 (footnote 67, page ?)
+
+### 本文該当箇所
+「第一弾の報告書の勧告のうち、国内法又は租税条約の改正が必要なものについては、各国において順次検討を開始する(67)とともに、...」
+
+### 脚注内容
+「(67) 例えば、我が国においては、行動計画 2 に関する勧告を踏まえ、平成 27 年度税制改正において、二重非課税を防止するため、外国子会社配当益金不算入制度について、子会社の所在地国で損金算入が認められる配当（例：オーストラリアの優先株式等）については、支払を受けた内国法人の益金に算入（課税）することとされた（平成 27 年法律 9 号による改正後の法法 23 条の 2 第 2 項 1 号等、財務省・前掲注(50) 617～623 頁）。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0068 (footnote 68, page ?)
+
+### 本文該当箇所
+「BEPS 行動計画 3（CFC 税制の強化）に関する公開討議草案(68)（以下「BEPS行動 3 草案」という。）が、2015（平成 27）年 4 月 3 日に OECD によって公表された。」
+
+### 脚注内容
+「(68) OECD Public Discussion Draft “BEPS ACTION 3: STRENGTHENING CFC RULES” 3 April 2015 (http://www.oecd.org/ctp/aggressive/discussion-draft-beps action-3-strengthening-cfc-rules.pdf) （平成 27 年 4 月 6 日最終閲覧）.」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0069 (footnote 69, page ?)
+
+### 本文該当箇所
+「BEPS 行動 3 草案は、CFC 税制を次の 7 つの構成要素(building blocks)に区分し、これらの構成要素ごとに、検討及び勧告の提示を行う形となっている(69)。」
+
+### 脚注内容
+「(69) Id., para 2.」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0070 (footnote 70, page ?)
+
+### 本文該当箇所
+「各項目の主な説明は、それぞれ次のとおりである(70)。」
+
+### 脚注内容
+「(70) Id., paras 6-28.」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0071 (footnote 71, page ?)
+
+### 本文該当箇所
+「イ 勧告案(71)」
+
+### 脚注内容
+「(71) Id., paras 30-31.」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0072 (footnote 72, page ?)
+
+### 本文該当箇所
+「ロ 主な説明(72)」
+
+### 脚注内容
+「(72) Id., paras 32-41.」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0073 (footnote 73, page ?)
+
+### 本文該当箇所
+「イ 勧告案(73)」
+
+### 脚注内容
+「(73) Id., para 43.」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0074 (footnote 74, page ?)
+
+### 本文該当箇所
+「ロ 主な説明(74)」
+
+### 脚注内容
+「(74) Id., paras 44-63.」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0075 (footnote 75, page ?)
+
+### 本文該当箇所
+「イ 勧告案(75)」
+
+### 脚注内容
+「(75) Id., para 65.」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0076 (footnote 76, page ?)
+
+### 本文該当箇所
+「ロ 主な説明(76)」
+
+### 脚注内容
+「(76) Id., paras 66-81.」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0077 (footnote 77, page ?)
+
+### 本文該当箇所
+「... 複数の考え得る選択肢に関する議論が示されているに留まる(77)。」
+
+### 脚注内容
+「(77) Id., p.34 (Note for consultation of CHAPTER 5: DEFINITION OF CFC INCOME).」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0078 (footnote 78, page ?)
+
+### 本文該当箇所
+「イ 基本的論点(78)」
+
+### 脚注内容
+「(78) Id., paras 82-85.」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0079 (footnote 79, page ?)
+
+### 本文該当箇所
+「ロ 原則的アプローチ(79)」
+
+### 脚注内容
+「(79) Id., paras 86-95.」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0080 (footnote 80, page ?)
+
+### 本文該当箇所
+「ハ BEPS 問題を生じる所得を正確に帰属させる方法(80)」
+
+### 脚注内容
+「(80) Id., paras 96-110.」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0081 (footnote 81, page ?)
+
+### 本文該当箇所
+「ニ 考え得るアプローチ (81)」
+
+### 脚注内容
+「(81) Id., paras 111-125.」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0082 (footnote 82, page ?)
+
+### 本文該当箇所
+「ホ 事業体アプローチ(entity approach)と取引アプローチ(transactional approach) (82)」
+
+### 脚注内容
+「(82) Id., paras 126-129.」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0083 (footnote 83, page ?)
+
+### 本文該当箇所
+「イ 勧告案(83)」
+
+### 脚注内容
+「(83) Id., para 131。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0084 (footnote 84, page ?)
+
+### 本文該当箇所
+「ロ 主な説明(84)」
+
+### 脚注内容
+「(84) Id., paras 132～140。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0085 (footnote 85, page ?)
+
+### 本文該当箇所
+「(ﾊ) 他の選択肢（CFC 居住地国のルール、納税者の選択又は IFRS(85)といった共通基準）と比較して、BEPS 行動計画の目標と整合的である」
+
+### 脚注内容
+「(85) IFRS(International Financial Reporting Standards)とは、国際会計基準審議会（International Accounting Standards Board; IASB）によって設定された会計基準の総称をいう（IFRS コンソーシアムのホームページ http://www.ifrs.ne.jp/about/index.php（平成 27 年 6 月 24 日最終閲覧））。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0086 (footnote 86, page ?)
+
+### 本文該当箇所
+「イ 勧告案(86)」
+
+### 脚注内容
+「(86) OECD, supra note 68, paras 142-143.」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0087 (footnote 87, page ?)
+
+### 本文該当箇所
+「ロ 主な説明(87)」
+
+### 脚注内容
+「(87) Id., paras 144-152.」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0088 (footnote 88, page ?)
+
+### 本文該当箇所
+「イ 勧告案(88)」
+
+### 脚注内容
+「(88) Id., paras 154-155.」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0089 (footnote 89, page ?)
+
+### 本文該当箇所
+「(ﾛ) 複数の国の CFC 税制が同一の CFC 所得に適用される場合、中間に介在する法人に課される税額を含めて、外国税額控除を認める(89)。」
+
+### 脚注内容
+「(89) 例えば、A 国の居住法人である法人 X、その 100%子会社で B 国の居住法人である法人 Y、Y の 100%子会社で C 国の居住法人である法人 Z がある場合に、Z に生じた所得について、A 国が自国の CFC 税制に基づき X に課税するとともに、B 国が自国の CFC 税制に基づき Y に課税する場合に、A 国は、Y に対する B 国の課税額も Xの外国税額控除を認めることになる（Id., paras 160-163）。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0090 (footnote 90, page ?)
+
+### 本文該当箇所
+「ロ 主な説明(90)」
+
+### 脚注内容
+「(90) Id., paras 156-168.」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0091 (footnote 91, page ?)
+
+### 本文該当箇所
+「（IRC952⒜⑴⑵） (91)、更に、後者については、...」
+
+### 脚注内容
+「(91) サブパート F 所得には、国際ボイコット活動に係る所得、国際贈収賄に係る所得及び外交関係の思わしくない国で発生する所得が含まれる（IRC952(a)(3)-(5))が、本稿の論点を踏まえ、これらの所得に関する記載は省略する。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0092 (footnote 92, page ?)
+
+### 本文該当箇所
+「... 31.5%(35%×0.9)が基準となる(92)。」
+
+### 脚注内容
+「(92) 2016 年度予算教書において提案されている法人税率の引下げ（35%→28%）が実現した場合には、25.2%（28%×0.9）が基準となる。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0093 (footnote 93, page ?)
+
+### 本文該当箇所
+「... すべての所得が合算課税の対象とならない(93)。」
+
+### 脚注内容
+「(93) 財務省規則 1.954-1(b)(1)(ii) and (d)(6).」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0094 (footnote 94, page ?)
+
+### 本文該当箇所
+「... 取り扱われない（IRC954(c)(6)）(94)。」
+
+### 脚注内容
+「(94) この規定は、2006 年に 2008 年末までの一時的な優遇措置として導入された後、2014 年末まで順次延長されている（2015 年 1 月 8 日現在）。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0095 (footnote 95, page ?)
+
+### 本文該当箇所
+「... 外国同族持株会社所得に含まれない（IRC954(h)(1)）(95)。」
+
+### 脚注内容
+「(95) この規定は、1998 年に 1998 年末までの一時的な優遇措置として導入された後、2014 年末まで順次延長されている（2015 年 1 月 8 日現在）。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0096 (footnote 96, page ?)
+
+### 本文該当箇所
+「... 翌 1962 年、導入された (96)。」
+
+### 脚注内容
+「(96) 渕教授は、サブパート F 税制が、Foreign Personal Holding Company 税制を原型としつつも、更に、合衆国憲法第 16 条修正後の最初の所得税制である 1913 年法に盛り込まれた留保利益税(Accumulated Earnings Tax)（法人を通じて事業又は投資活動を行い、株式の形態で資産を子孫に承継させ、又は株式の譲渡によるキャピタル・ゲインとしてリターンを得ることで、個人として事業又は投資活動を行う場合の超過累進税率による個人所得税の課税を回避することに対処）にその起源を有すると位置付けている（渕圭吾「タックス・ヘイブン対策税制と同族会社の留保金課税の共通性」中里ほか・前掲注(27) 203～205 頁）。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0097 (footnote 97, page ?)
+
+### 本文該当箇所
+「... 米国での課税は行われないこととなる (97)。」
+
+### 脚注内容
+「(97) 佐藤正勝「国際的租税回避行為等の類型及び対応策―米国のタックス・ヘイブン税制との比較を中心として―」税大論叢第 22 号 349 頁（1992）。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0098 (footnote 98, page ?)
+
+### 本文該当箇所
+「導入後の主な改正は、次頁の表４のとおりである(98)。」
+
+### 脚注内容
+「(98) 佐藤・前掲注(97) 235～236 頁、小島俊朗「タックス・ヘイブン税制の現在的意義について」税大ジャーナル 9 号 44～45 頁（2008）、経済産業省・前掲注(45) 62 頁及び LexisNexis のデータベースから抽出した米国内国歳入法の各規定の HISTORYを基にまとめた。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0099 (footnote 99, page ?)
+
+### 本文該当箇所
+「... 重要な課題とされている(99)。」
+
+### 脚注内容
+「(99) Mark P. Keightley and Molly F. Sherlock. (2014). “The Corporate Income Tax System: Overview and Options for Reform” Congressional Research Service R42726, Summary.」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0100 (footnote 100, page ?)
+
+### 本文該当箇所
+「... 逆方向に向かう傾向があるとされている(100)。」
+
+### 脚注内容
+「(100) Id., p.27.」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0101 (footnote 101, page ?)
+
+### 本文該当箇所
+「領域内所得課税主義への移行に関しては、次の理由から否定的に考えられているようである(101)。」
+
+### 脚注内容
+「(101) Id., p.27-28.」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0102 (footnote 102, page ?)
+
+### 本文該当箇所
+「また、タックス･ヘイブンに資金を退避させるインセンティブを最小化させるためのハイブリッド・アプローチとして、次の選択肢が示されている(102)。」
+
+### 脚注内容
+「(102) Id., p.28.」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0103 (footnote 103, page ?)
+
+### 本文該当箇所
+「その主なものは、次のとおりである(103)。」
+
+### 脚注内容
+「(103) 公表時期の新しいものから順に、Id., p.28-31 及び⑴から⑹までのそれぞれの脚注の文献等による。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
