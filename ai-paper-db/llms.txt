@@ -8,8 +8,11 @@
 - `nta-tp-audit/data/shards_index.json`
 - `oecd-beps/quickstart.txt`
 - `oecd-beps/data/shards_index.json`
+- `cfc-footnotes/quickstart.txt`
+- `cfc-footnotes/data/shards_index.json`
 
 収録
 - OECD 移転価格ガイドライン 2022（参考仮訳）: `oecd-tpg-2022/`
 - 国税庁（NTA）移転価格（事務運営指針・別冊参考事例集）: `nta-tp-audit/`
 - OECD/G20 BEPS（選抜）: `oecd-beps/`
+- CFC関連5論文 脚注集（1URL 10k tokens設計）: `cfc-footnotes/`

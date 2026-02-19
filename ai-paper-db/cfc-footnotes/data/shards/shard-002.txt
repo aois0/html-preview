@@ -1,0 +1,103 @@
+id	section_id	section_title	footnote_number	page_hint	snippet	core
+cfc-footnotes-02-fn0090	cfc-footnotes-02	木山論文	90		最高裁平成18年判決を「文理に反するものではなく、また拡大解釈でも類推解釈でもなく、趣旨解釈として筋の通った妥当な判決である」とするものに、金子・前掲注8) 11 頁がある。	packs/cfc-footnotes-02-pack-02.txt
+cfc-footnotes-02-fn0091	cfc-footnotes-02	木山論文	91		「文理解釈による場合、炭化水素が1%しか含まれないものがこれにあたるといえるだろうか。20%の場合はどうか」との指摘もあるが(佐藤・前掲注56)31頁),1%は極限事例に過ぎず、20%は混合物であると考えるのが文理に忠実な自然な解釈であると思われる(そもそも、これらは当該事案と異なる事例である。)。	packs/cfc-footnotes-02-pack-02.txt
+cfc-footnotes-02-fn0092	cfc-footnotes-02	木山論文	92		最高裁平成9年11月11日前掲注14)。	packs/cfc-footnotes-02-pack-02.txt
+cfc-footnotes-02-fn0093	cfc-footnotes-02	木山論文	93		京都地判平成5年1月29日判夕835号191頁。	packs/cfc-footnotes-02-pack-02.txt
+cfc-footnotes-02-fn0094	cfc-footnotes-02	木山論文	94		大阪高判平成6年3月30日稅資200号順号7320。	packs/cfc-footnotes-02-pack-02.txt
+cfc-footnotes-02-fn0095	cfc-footnotes-02	木山論文	95		金子・前掲注7) 115頁にも,「競争用自動車を小型普通乗用自動車に入ると解するのは、一種の拡張解釈であるというべきであろう」との見解が述べられている。	packs/cfc-footnotes-02-pack-02.txt
+cfc-footnotes-02-fn0096	cfc-footnotes-02	木山論文	96		川田剛「判批」ジュリスト1141号(1998年)194頁では、同判決が「同一の機能、性状等を有する物品については、課税上も競争上のバランスを保つという観点から同種物品に対する同一取扱いという強い要請があった」ことが指摘され、こうした「実務上の要請」にも配慮した点で「妥当な結論」としながらも、「実務上の観点のみが重視さ…	packs/cfc-footnotes-02-pack-02.txt
+cfc-footnotes-02-fn0097	cfc-footnotes-02	木山論文	97		最判昭和45年10月23日前掲注15)。	packs/cfc-footnotes-02-pack-02.txt
+cfc-footnotes-02-fn0098	cfc-footnotes-02	木山論文	98		東京地判昭和39年5月28日訟月10巻7号1047頁。	packs/cfc-footnotes-02-pack-02.txt
+cfc-footnotes-02-fn0099	cfc-footnotes-02	木山論文	99		東京高判昭和41年3月15日訟月12巻5号768頁。	packs/cfc-footnotes-02-pack-03.txt
+cfc-footnotes-02-fn0100	cfc-footnotes-02	木山論文	100		東京高判昭和46年12月21日訟月18巻4号607頁。	packs/cfc-footnotes-02-pack-03.txt
+cfc-footnotes-02-fn0101	cfc-footnotes-02	木山論文	101		富沢達「判解」『最高裁判所判例解說民事編 昭和45年度』(法曹会,1970年)1047頁,1048頁。	packs/cfc-footnotes-02-pack-03.txt
+cfc-footnotes-02-fn0102	cfc-footnotes-02	木山論文	102		最判平成20年10月24日前揭注16)。	packs/cfc-footnotes-02-pack-03.txt
+cfc-footnotes-02-fn0103	cfc-footnotes-02	木山論文	103		東京地判平成18年7月14日判夕1303号147頁。	packs/cfc-footnotes-02-pack-03.txt
+cfc-footnotes-02-fn0104	cfc-footnotes-02	木山論文	104		東京高判平成19年6月27日民集62巻9号2488頁。	packs/cfc-footnotes-02-pack-03.txt
+cfc-footnotes-02-fn0105	cfc-footnotes-02	木山論文	105		鎌野真敬「判解」「最高裁判所判例解說民事篇 平成20年度』(法曹会,2011年)553頁。	packs/cfc-footnotes-02-pack-03.txt
+cfc-footnotes-02-fn0106	cfc-footnotes-02	木山論文	106		浅妻章如「判批」中里ほか・前掲注54) 193頁も「類推解釈で結論を出した例」として最高裁平成20年判決を挙げている。	packs/cfc-footnotes-02-pack-03.txt
+cfc-footnotes-02-fn0107	cfc-footnotes-02	木山論文	107		鎌野・前掲注105)555頁。	packs/cfc-footnotes-02-pack-03.txt
+cfc-footnotes-02-fn0108	cfc-footnotes-02	木山論文	108		判夕1283号68頁。	packs/cfc-footnotes-02-pack-03.txt
+cfc-footnotes-02-fn0109	cfc-footnotes-02	木山論文	109		鎌野・前掲注105)555頁。	packs/cfc-footnotes-02-pack-03.txt
+cfc-footnotes-02-fn0110	cfc-footnotes-02	木山論文	110		前掲注108)68頁。	packs/cfc-footnotes-02-pack-03.txt
+cfc-footnotes-02-fn0111	cfc-footnotes-02	木山論文	111		このような見解を採った裁判例に横浜地判平成13年9月19日裁判所HP がある。同判決は、「たとえ納税者に有利な方向の解釈であっても、解釈の幅を広げることにより、課税庁の恣意的な解釈を許すことになるし、本来課税されるべき場合において課税されない者が出現してしまうことにより、税負担の公平性が損なわれてしまう」ため、「ある…	packs/cfc-footnotes-02-pack-03.txt
+cfc-footnotes-02-fn0112	cfc-footnotes-02	木山論文	112		最判平成17年12月19日前掲注17)。	packs/cfc-footnotes-02-pack-03.txt
+cfc-footnotes-02-fn0113	cfc-footnotes-02	木山論文	113		金子・前掲注7) 131頁参照。	packs/cfc-footnotes-02-pack-03.txt
+cfc-footnotes-02-fn0114	cfc-footnotes-02	木山論文	114		限定解釈ではなく、法人税法69条自体を適用すべきでないとしたものと評するものに、今村隆「判批」税理49巻7号(2006年)2頁,本庄資「判批」ジュリスト1336号(2007年)142頁等参照。	packs/cfc-footnotes-02-pack-03.txt
+cfc-footnotes-02-fn0115	cfc-footnotes-02	木山論文	115		谷口勢津夫『租税回避論』(清文社,2014年)25頁は、「課税要件減免規定の限定解釈も広い意味では目的論的解釈の一種といえよう」とし、ただし、これは「目的論的制限」であるとする。	packs/cfc-footnotes-02-pack-03.txt
+cfc-footnotes-02-fn0116	cfc-footnotes-02	木山論文	116		谷口勢津夫「租税回避と税法の解釈適用方法論—税法の目的論的解釈の『過形成』を中心に―」岡村忠生編著『租税回避研究の展開と課題 清永敬次先生謝恩論文集』(ミネルヴァ書房,2015年) 17頁には、「制度(権利) 濫用アプローチの採用に当たって、いわば『不文の濫用規制要件」とも言うべき要件を措定ないし創造したものと解され…	packs/cfc-footnotes-02-pack-03.txt
+cfc-footnotes-02-fn0117	cfc-footnotes-02	木山論文	117		金子・前掲注7) 131頁参照。	packs/cfc-footnotes-02-pack-03.txt
+cfc-footnotes-02-fn0118	cfc-footnotes-02	木山論文	118		同名誉教授は、アメリカのグレゴリー判決を紹介した後に、「ある規定の解釈に当って、その中に立法趣旨を読み込むことによってその規定を限定的に解釈するという解釈技術は、わが国でも用いる余地があると思われる」と述べられている(金子宏『租税法理論の形成と解明 上巻』(有斐閣,2010年)404-409頁)。	packs/cfc-footnotes-02-pack-03.txt
+cfc-footnotes-02-fn0119	cfc-footnotes-02	木山論文	119		前橋地判平成12年5月31日稅資247号順号8663。	packs/cfc-footnotes-02-pack-03.txt
+cfc-footnotes-02-fn0120	cfc-footnotes-02	木山論文	120		東京高判平成13年1月30日稅資250号順号8827。	packs/cfc-footnotes-02-pack-03.txt
+cfc-footnotes-02-fn0121	cfc-footnotes-02	木山論文	121		同種事件の最判平成16年12月20日集民215号1005頁に付された滝井繁男裁判官の反対意見等を参照。なお、滝井裁判官の反対意見も「着実に課税が行われるよう、課税売上げの額を正しく把握すると同時に控除されるべき税額は確実に控除されなければならないという消費税制度の趣旨を考えれば、同項にいう『保存』に、その通常の意味す…	packs/cfc-footnotes-02-pack-03.txt
+cfc-footnotes-02-fn0122	cfc-footnotes-02	木山論文	122		高世三郎「判解」『最高裁判所判例解說民事篇 平成16年度(下)』(法曹会,2007年)807頁。	packs/cfc-footnotes-02-pack-03.txt
+cfc-footnotes-02-fn0123	cfc-footnotes-02	木山論文	123		高世・前掲注125) 805頁。	packs/cfc-footnotes-02-pack-03.txt
+cfc-footnotes-02-fn0124	cfc-footnotes-02	木山論文	124		最判平成26年12月12日前揭注19)。	packs/cfc-footnotes-02-pack-03.txt
+cfc-footnotes-02-fn0125	cfc-footnotes-02	木山論文	125		この延滞税の計算期間の特例規定(国税通則法61条1項1号)の趣旨は,「期限内申告書が提出されてから1年以上も経過した後に更正された場合には、法定納期限にまで遡って多額の延滞税の納税義務を負わせることが酷であること及び税務官署の事務分配上更正等の時期が納税者ごとに区々であることにより納税者の負担に差異が生じるのは相当で…	packs/cfc-footnotes-02-pack-03.txt
+cfc-footnotes-02-fn0126	cfc-footnotes-02	木山論文	126		東京地判平成24年12月18日前掲注128)。	packs/cfc-footnotes-02-pack-03.txt
+cfc-footnotes-02-fn0127	cfc-footnotes-02	木山論文	127		東京高判平成25年6月27日裁判所 HP。	packs/cfc-footnotes-02-pack-03.txt
+cfc-footnotes-02-fn0128	cfc-footnotes-02	木山論文	128		判夕1412号122頁参照。同評釈には、これに加えて、租税法規をその趣旨から解釈した最高裁の裁判例として養老保険事件(最高裁平成24年判決)などがあるとの指摘がある(同123頁)。浅妻・前掲注106) 193頁も,最高裁平成26年判決を「目的論的限定解釈の一例と読むのが素直である」とする。	packs/cfc-footnotes-02-pack-03.txt
+cfc-footnotes-02-fn0129	cfc-footnotes-02	木山論文	129		占部・前掲注45)40頁。	packs/cfc-footnotes-02-pack-03.txt
+cfc-footnotes-02-fn0130	cfc-footnotes-02	木山論文	130		最判昭和58年9月9日前揭注23)。	packs/cfc-footnotes-02-pack-03.txt
+cfc-footnotes-02-fn0131	cfc-footnotes-02	木山論文	131		最判平成22年7月6日前掲注24)。	packs/cfc-footnotes-02-pack-03.txt
+cfc-footnotes-02-fn0132	cfc-footnotes-02	木山論文	132		最判平成17年2月1日前掲注25)。	packs/cfc-footnotes-02-pack-03.txt
+cfc-footnotes-02-fn0133	cfc-footnotes-02	木山論文	133		最判平成27年3月10日前掲注26)。	packs/cfc-footnotes-02-pack-04.txt
+cfc-footnotes-02-fn0134	cfc-footnotes-02	木山論文	134		最判平成28年2月29日前掲注27)。	packs/cfc-footnotes-02-pack-04.txt
+cfc-footnotes-02-fn0135	cfc-footnotes-02	木山論文	135		最判昭和58年9月9日前掲注23)。	packs/cfc-footnotes-02-pack-04.txt
+cfc-footnotes-02-fn0136	cfc-footnotes-02	木山論文	136		最判平成22年7月6日前掲注24)。	packs/cfc-footnotes-02-pack-04.txt
+cfc-footnotes-02-fn0137	cfc-footnotes-02	木山論文	137		最判平成17年2月1日前掲注25)。	packs/cfc-footnotes-02-pack-04.txt
+cfc-footnotes-02-fn0138	cfc-footnotes-02	木山論文	138		最判平成27年3月10日前掲注26)。	packs/cfc-footnotes-02-pack-04.txt
+cfc-footnotes-02-fn0139	cfc-footnotes-02	木山論文	139		最判平成28年2月29日前掲注27)。	packs/cfc-footnotes-02-pack-04.txt
+cfc-footnotes-02-fn0140	cfc-footnotes-02	木山論文	140		最判平成22年7月6日前掲注24)。	packs/cfc-footnotes-02-pack-04.txt
+cfc-footnotes-02-fn0141	cfc-footnotes-02	木山論文	141		最判平成17年2月1日前掲注25)。 （編集者注：この脚注(141)は本文中の(141)に対応するものの、その内容は前掲注25であり、(132)や(137)と同じです。意図された参照であるか、あるいは別の脚注番号が振られるべきであった可能性があります。）	packs/cfc-footnotes-02-pack-04.txt
+cfc-footnotes-02-fn0142	cfc-footnotes-02	木山論文	142		直接対応する本文中の言及は見当たりませんでしたが、文脈から、(140)から(148)の脚注は、セクション5で言及された判例群、特にその趣旨解釈のあり方について、追加で参照情報を示しているものと考えられます。	packs/cfc-footnotes-02-pack-04.txt
+cfc-footnotes-02-fn0143	cfc-footnotes-02	木山論文	143		直接対応する本文中の言及は見当たりませんでしたが、文脈から、(140)から(148)の脚注は、セクション5で言及された判例群、特にその趣旨解釈のあり方について、追加で参照情報を示しているものと考えられます。	packs/cfc-footnotes-02-pack-04.txt
+cfc-footnotes-02-fn0144	cfc-footnotes-02	木山論文	144		最判昭和58年9月9日前揭注23)。 (これは①5年退職事件に対応、(130)と同じ)	packs/cfc-footnotes-02-pack-04.txt
+cfc-footnotes-02-fn0145	cfc-footnotes-02	木山論文	145		最判平成22年7月6日前掲注24)。 (これは②生保年金二重課税事件に対応、(131)と同じ)	packs/cfc-footnotes-02-pack-04.txt
+cfc-footnotes-02-fn0146	cfc-footnotes-02	木山論文	146		最判平成17年2月1日前掲注25)。 (これは③ゴルフ会員権譲渡事件に対応、(132)と同じ)	packs/cfc-footnotes-02-pack-04.txt
+cfc-footnotes-02-fn0147	cfc-footnotes-02	木山論文	147		最判平成27年3月10日前掲注26)。 (これは④競馬事件に対応、(133)と同じ)	packs/cfc-footnotes-02-pack-04.txt
+cfc-footnotes-02-fn0148	cfc-footnotes-02	木山論文	148		最判平成28年2月29日前掲注27)。 (これは⑤ヤフー事件に対応、(134)と同じ)	packs/cfc-footnotes-02-pack-04.txt
+cfc-footnotes-02-fn0149	cfc-footnotes-02	木山論文	149		たとえば、金子・前掲注119) 387頁では、「固有概念について、私法上の法律関係にとらわれることなく、税法独自の見地からその解釈をなすべきことについては、あまり異論がない」とされている。 （編集者注：上記の通り、この脚注(149)は、本文中の「金子・前掲注119) 387頁では、...」という記述に対応していると見…	packs/cfc-footnotes-02-pack-04.txt
+cfc-footnotes-02-fn0150	cfc-footnotes-02	木山論文	150		たとえば、消費税法における「事業」と、所得税法における「事業」とは異なる概念であることが判示された裁判例がある(名古屋高金沢支判平成15年11月26日稅資253号順号9473)。 編集者注記: 脚注(141)は、内容が前掲注であり、複数の箇所で同じ文献を参照していることを示しています。 脚注(142)～(148)の番…	packs/cfc-footnotes-02-pack-04.txt
+cfc-footnotes-03-fn0001	cfc-footnotes-03	石井論文	1	12	特定外国子会社等とは、内国法人に係る外国関係会社（居住者、内国法人等によって持分の50%超を保有される外国法人）のうち、その本店の所在する国・地域におけるその所得に対して課される税の負担が我が国の税の負担に比して著しく低い国・地域（無税又は 20%未満）に所在するものをいう（措法 66 の 6①、措令 39の14）。…	packs/cfc-footnotes-03-pack-00.txt
+cfc-footnotes-03-fn0002	cfc-footnotes-03	石井論文	2	12	本稿は、特に断りのない限り、内国法人（単体）に係る制度に基づく。	packs/cfc-footnotes-03-pack-00.txt
+cfc-footnotes-03-fn0003	cfc-footnotes-03	石井論文	3	13	法制執務研究会編『新訂ワークブック法制執務』695頁（ぎょうせい、2007）、金子宏ほか編『法律学小辞典[第4版補訂版]』1296頁（有斐閣、2008）等。	packs/cfc-footnotes-03-pack-00.txt
+cfc-footnotes-03-fn0004	cfc-footnotes-03	石井論文	4	13	吉国一郎ほか編『法令用語辞典（第9次改定版）』618頁（学陽書房、2009）。	packs/cfc-footnotes-03-pack-00.txt
+cfc-footnotes-03-fn0005	cfc-footnotes-03	石井論文	5	13	吉国・前掲（注4）392頁。	packs/cfc-footnotes-03-pack-00.txt
+cfc-footnotes-03-fn0006	cfc-footnotes-03	石井論文	6	13	金子宏『租税法〔第20版〕』114頁（弘文堂、2015）、増井良啓『租稅法入門』310頁（有斐閣、2014）、中里実ほか『租税法概説』42頁（有斐閣、2012）、岡村忠生ほか『ベーシック税法〔第6版〕』37頁（有斐閣、2011）、谷口勢津夫『稅法基本講義』34頁（弘文堂、2010）等。	packs/cfc-footnotes-03-pack-00.txt
+cfc-footnotes-03-fn0007	cfc-footnotes-03	石井論文	7	14	羽島和宏「外国子会社合算税制の課税上の問題についての一考察 - 税制の交錯から生じる問題を中心に-」租税資料館賞論文集第23回（2014年）上巻 35 頁以下において同様の問題が取り上げられている。	packs/cfc-footnotes-03-pack-00.txt
+cfc-footnotes-03-fn0008	cfc-footnotes-03	石井論文	8	14	羽島・前掲（注7）において当該規定の適用関係に関する問題が取り上げられている。	packs/cfc-footnotes-03-pack-00.txt
+cfc-footnotes-03-fn0009	cfc-footnotes-03	石井論文	9	15	国税庁『昭和 53 年度改正税法のすべて』157頁。 判例も外国子会社合算税制の目的が租税回避対策であることを明らかにしている。最判平成19年9月28日民集61巻6号2486頁、最判平成21年10月29日民集63巻8号1979頁、最判平成21年12月4日集民232号541頁。 なお、金子教授は、租税回避の否認規定には…	packs/cfc-footnotes-03-pack-00.txt
+cfc-footnotes-03-fn0010	cfc-footnotes-03	石井論文	10	15	外国子会社合算税制は、タックス・ヘイブン対策税制と呼ばれることもある。	packs/cfc-footnotes-03-pack-00.txt
+cfc-footnotes-03-fn0011	cfc-footnotes-03	石井論文	11	15	平成4年度税制改正により軽課税国の指定制度は廃止され、外国関係会社が CFCに該当するかどうかの判定は、個々の法人ごとにその租税負担割合等により行うこととされた。	packs/cfc-footnotes-03-pack-00.txt
+cfc-footnotes-03-fn0012	cfc-footnotes-03	石井論文	12	16	平成21年度税制改正前は、CFC が内国法人に支払った剰余金の配当等の額は、その内国法人において益金の額に算入されることから、二重課税を避けるため、CFCの適用対象留保金額（改正後の適用対象金額に相当）の計算上控除していた。このため、結果として、CFC が留保する所得が外国子会社合算税制の課税対象金額の基礎となってい…	packs/cfc-footnotes-03-pack-00.txt
+cfc-footnotes-03-fn0013	cfc-footnotes-03	石井論文	13	16	高橋元監修『タックス・ヘイブン対策税制の解説』92 頁（清文社、1979）。	packs/cfc-footnotes-03-pack-00.txt
+cfc-footnotes-03-fn0014	cfc-footnotes-03	石井論文	14	16	租税特別措置法第66条の6第3項の規定。①事業基準、②実体基準、③管理支配基準及び④所在地国基準又は非関連者基準のすべてを満たす場合には、たとえ外国法人が CFC に該当した場合であっても、外国子会社合算税制は適用されない。	packs/cfc-footnotes-03-pack-00.txt
+cfc-footnotes-03-fn0015	cfc-footnotes-03	石井論文	15	16	高橋・前掲（注13）95頁。	packs/cfc-footnotes-03-pack-00.txt
+cfc-footnotes-03-fn0016	cfc-footnotes-03	石井論文	16	17	内国法人は、全ての所得を課税の対象とされ、外国法人は、国内源泉所得にのみ課税されるから、内国法人と外国法人の区別が問題となるが、我が国の法人税法は、内国法人とは国内に本店又は主たる事務所を有する法人をいい（法法2三）、外国法人はそれ以外の法人をいう（法法2四）と定めて、本店所在地主義を採用している。これに対して、イギ…	packs/cfc-footnotes-03-pack-00.txt
+cfc-footnotes-03-fn0017	cfc-footnotes-03	石井論文	17	17	高橋・前掲（注13）92頁。	packs/cfc-footnotes-03-pack-00.txt
+cfc-footnotes-03-fn0018	cfc-footnotes-03	石井論文	18	17	平成22年度税制改正により適用除外要件を満たす CFC であっても、特定所得（一定の配当所得等）を有する場合には、特定所得の金額の合計額のうち、内国法人のその有する株式等に対応する部分として計算した金額を収益の額とみなして、その内国法人の所得の金額の計算上、益金の額に算入することとされた（措法 66の6④）。	packs/cfc-footnotes-03-pack-00.txt
+cfc-footnotes-03-fn0019	cfc-footnotes-03	石井論文	19	17	最判平成21年10月29日民集63巻8号1981頁は、「措置法 66条の6は、一定の要件を満たした海外子会社等の所得の一部を、その親会社である『内国法人の収益の額とみなして』課税するというものであって、海外子会社の利得に対して課税するものでないことは、条文の文言上、明らかである。」としている。	packs/cfc-footnotes-03-pack-01.txt
+cfc-footnotes-03-fn0020	cfc-footnotes-03	石井論文	20	18	東京高判平成19年11月1日民集63巻8号1979頁、金子宏『租税法〔第10版〕』430頁（弘文堂、2005）、占部裕典「タックス・ヘイブン税制と租税条約の抵触関係について」同志社法学58巻2号 715頁、本庄資「タックス・ヘイブン対策税制と租税条約」税経通信62巻8号153頁等。 立案担当者は、「株主たる内国法人あ…	packs/cfc-footnotes-03-pack-01.txt
+cfc-footnotes-03-fn0021	cfc-footnotes-03	石井論文	21	18	この制度導入の趣旨は、外国子会社利益の国内還流に向けた環境整備と間接外国税額控除制度に代えて制度を簡素化することにあるとされている。国税庁『平成21年度改正税法のすべて』425頁。	packs/cfc-footnotes-03-pack-01.txt
+cfc-footnotes-03-fn0022	cfc-footnotes-03	石井論文	22	18	岡田幸人「時の判例」ジュリスト 1405号174頁（2010）。	packs/cfc-footnotes-03-pack-01.txt
+cfc-footnotes-03-fn0023	cfc-footnotes-03	石井論文	23	18	秋元秀仁「外国子会社配当益金不算入制度導入後の改正タックス・ヘイブン対策税制における租税条約適合性」税大ジャーナル 17号 142頁（2011）。	packs/cfc-footnotes-03-pack-01.txt
+cfc-footnotes-03-fn0024	cfc-footnotes-03	石井論文	24	19	渕圭吾「外国子会社合算税制の意義と機能」フィナンシャル・レビュー94号 89頁（2009）。	packs/cfc-footnotes-03-pack-01.txt
+cfc-footnotes-03-fn0025	cfc-footnotes-03	石井論文	25	19	中里実「タックス・ヘイブン対策税制改正の必要性」中里実ほか編著『タックス・ヘイブン対策税制のフロンティア』16頁（有斐閣、2013）。	packs/cfc-footnotes-03-pack-01.txt
+cfc-footnotes-03-fn0026	cfc-footnotes-03	石井論文	26	20	CFCの決算に基づくことについて立案担当者は、「我が国の法人税の課税標準は、法人の確定した決算を基礎として計算されますが、特定外国子会社等については、その所在地国の税法が様々であるため、我が国の確定した決算のような概念になじまないものもあります。しかしながら、法人である以上何らかの形で決算自体は行われることとなります…	packs/cfc-footnotes-03-pack-01.txt
+cfc-footnotes-03-fn0027	cfc-footnotes-03	石井論文	27	21	高橋・前掲（注13）150頁、措令 39の15①二、三。	packs/cfc-footnotes-03-pack-01.txt
+cfc-footnotes-03-fn0028	cfc-footnotes-03	石井論文	28	21	国税庁・前掲（注21）444頁。 ここでいう子会社とは、他の法人の発行済株式等のうちに CFC が保有しているその株式等の数の占める割合が100分の25以上であり、かつ、その状態が CFC が当該他の法人から受ける配当等の額の支払義務が確定する日以前6月以上継続している場合の当該他の法人をいう。 なお、平成21年度税…	packs/cfc-footnotes-03-pack-01.txt
+cfc-footnotes-03-fn0029	cfc-footnotes-03	石井論文	29	22	高橋・前掲（注13）146頁、国税庁・前掲（注9）161頁。	packs/cfc-footnotes-03-pack-01.txt
+cfc-footnotes-03-fn0030	cfc-footnotes-03	石井論文	30	22	高橋・前掲（注13）153頁。	packs/cfc-footnotes-03-pack-01.txt
+cfc-footnotes-03-fn0031	cfc-footnotes-03	石井論文	31	23	本店所在地国の法令の規定により計算する場合の一定の調整に寄附金の損金不算入に関する計算が含まれている理由は、隠れた利益処分の形で社外流出が行われることにより本制度の適用を実質的に免れ得ることを防止するためであるとされている。高橋・前掲（注13）153頁。	packs/cfc-footnotes-03-pack-01.txt
+cfc-footnotes-03-fn0032	cfc-footnotes-03	石井論文	32	23	なお、公益法人に対する寄附金についての特則は認められないこととされている。国税庁・前掲（注9）162頁。	packs/cfc-footnotes-03-pack-01.txt
+cfc-footnotes-03-fn0033	cfc-footnotes-03	石井論文	33	23	国税庁『昭和40年度改正税法のすべて』134頁。	packs/cfc-footnotes-03-pack-01.txt
+cfc-footnotes-03-fn0034	cfc-footnotes-03	石井論文	34	23	大澤幸宏編著『法人税基本通達逐条解説』877頁（税務研究会出版局、2014）。	packs/cfc-footnotes-03-pack-01.txt
+cfc-footnotes-03-fn0035	cfc-footnotes-03	石井論文	35	24	高橋・前掲（注13）146頁。	packs/cfc-footnotes-03-pack-01.txt
+cfc-footnotes-03-fn0036	cfc-footnotes-03	石井論文	36	24	最判平成19年9月28日民集61巻6号2486頁。	packs/cfc-footnotes-03-pack-01.txt
+cfc-footnotes-03-fn0037	cfc-footnotes-03	石井論文	37	24	高橋・前掲（注13）154頁。	packs/cfc-footnotes-03-pack-01.txt
+cfc-footnotes-03-fn0038	cfc-footnotes-03	石井論文	38	25	爾後の事業年度の所得計算を考慮すると外国通貨表示で行うことが合理的であると考えられることがその理由とされている。大澤幸宏編著『法人税関係措置法通達逐条解説〔平成26年3月1日現在版〕』1109頁（財経詳報社、2014）。	packs/cfc-footnotes-03-pack-01.txt
+cfc-footnotes-03-fn0039	cfc-footnotes-03	石井論文	39	26	国税庁・前掲（注9）161頁。	packs/cfc-footnotes-03-pack-02.txt
+cfc-footnotes-03-fn0040	cfc-footnotes-03	石井論文	40	26	現在の適用対象金額に相当する。	packs/cfc-footnotes-03-pack-02.txt
+cfc-footnotes-03-fn0041	cfc-footnotes-03	石井論文	41	27	高橋・前掲（注13）148頁。	packs/cfc-footnotes-03-pack-02.txt

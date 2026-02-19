@@ -1,0 +1,15 @@
+# CFC脚注集 - Quickstart
+
+前提（重要）
+- あなたのAIは「1回のReadで最初の1万トークンのみ」読む前提。
+- このDBは『docs_index → shards_index → shard → 本文(pack)』で最短到達できるように分割済み。
+
+推奨フロー（最小Read）
+1) `data/docs_index.tsv` を読む（論文を選ぶ）
+2) `data/shards_index.json` を読む（section と shard の対応を確認）
+3) 関連する `data/shards/*.txt` を読む（一覧検索）
+4) 行の `core` で示される `packs/*.txt` を開く（本文と脚注内容の原文）
+
+補足
+- pack/shard は 9000 token 目安で分割、hard上限は 10000 token。
+- tokenizer: `o200k_base`（mode: tiktoken）。

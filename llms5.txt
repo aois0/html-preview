@@ -1,0 +1,24 @@
+# jplawdb / llms5（CFC脚注入口付き）
+# 目的: CFC脚注集へ最短到達するための入口ファイル
+
+## 入口
+- `/html-preview/llms3.txt`（直下コピー版）
+- `/html-preview/ai-paper-db/cfc-footnotes/quickstart.txt`
+- `/html-preview/ai-paper-db/cfc-footnotes/llms3.txt`
+
+## 最短フロー（10k tokens/read前提）
+1) `/html-preview/ai-paper-db/cfc-footnotes/data/docs_index.tsv`
+2) `/html-preview/ai-paper-db/cfc-footnotes/data/shards_index.json`
+3) `/html-preview/ai-paper-db/cfc-footnotes/data/shards/shard-000.txt`（必要に応じて他shard）
+4) 行の `core` 列にある `/html-preview/ai-paper-db/cfc-footnotes/packs/*.txt`
+
+## 代表URL
+- `/html-preview/ai-paper-db/cfc-footnotes/index.html`
+- `/html-preview/ai-paper-db/cfc-footnotes/llms.txt`
+- `/html-preview/ai-paper-db/cfc-footnotes/llms2.txt`
+- `/html-preview/ai-paper-db/cfc-footnotes/llms3.txt`
+- `/html-preview/ai-paper-db/cfc-footnotes/data/quality_report.json`
+
+## 補足
+- 収録: 5論文・675脚注
+- 品質: hard上限1万トークン超過ファイル 0件（quality_report基準）

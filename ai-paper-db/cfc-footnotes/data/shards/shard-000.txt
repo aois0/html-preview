@@ -1,0 +1,90 @@
+id	section_id	section_title	footnote_number	page_hint	snippet	core
+cfc-footnotes-01-fn0001	cfc-footnotes-01	山崎論文	1	8	「匿名組合契約に準ずる契約の範囲」については「当事者の一方が相手方の事業のために出資をし、相手方がその事業から生ずる利益を分配することを約する契約とする。」と規定されている(所令 288・法令 184)。	packs/cfc-footnotes-01-pack-00.txt
+cfc-footnotes-01-fn0002	cfc-footnotes-01	山崎論文	2	8	平成14年度税制改正以前は、匿名組合員が10人未満の場合には、匿名組合契約に基づく利益の分配は、「国内にある資産の運用又は保有により生ずる所得」に該当するとされ(所法 161 一・所令 280①四、法法 138 一・法令 177①四)、所得税の源泉徴収は行われず、所得税又は法人税の申告による総合課税の対象とされていた…	packs/cfc-footnotes-01-pack-00.txt
+cfc-footnotes-01-fn0003	cfc-footnotes-01	山崎論文	3	8	日独租税条約 10 条(5)においては、匿名組合分配金は「配当」とされ、日米新租税条約においては議定書 13(b)により、2006年2月2日に署名された日英新租税条約は20条により、匿名組合分配金は日本の国内法により課税されることとなっている。	packs/cfc-footnotes-01-pack-00.txt
+cfc-footnotes-01-fn0004	cfc-footnotes-01	山崎論文	4	9	東京地判平成17年9月30日(平成15年行(ウ)第529号)。これについてはⅢで考察する。	packs/cfc-footnotes-01-pack-00.txt
+cfc-footnotes-01-fn0005	cfc-footnotes-01	山崎論文	5	9	渡辺裕泰『国際取引と課税問題』19-21 頁(日本租税研究協会、2003)。	packs/cfc-footnotes-01-pack-00.txt
+cfc-footnotes-01-fn0006	cfc-footnotes-01	山崎論文	6	9	水野忠恒「判批」水野忠恒=中里実=佐藤英明=増井良啓編『租稅判例百選(第4版)』別冊ジュリスト178号 30-31頁(2005)。	packs/cfc-footnotes-01-pack-00.txt
+cfc-footnotes-01-fn0007	cfc-footnotes-01	山崎論文	7	9	金子宏『租税法〔第10版〕』122頁(弘文堂、2005)。	packs/cfc-footnotes-01-pack-00.txt
+cfc-footnotes-01-fn0008	cfc-footnotes-01	山崎論文	8	9	植松守雄「講座・所得税法の諸問題(第12回)」税経通信 42巻8号(1987) 47頁。	packs/cfc-footnotes-01-pack-00.txt
+cfc-footnotes-01-fn0009	cfc-footnotes-01	山崎論文	9	10	水野忠恒教授は、「匿名組合員の受ける利益の分配は、事業所得をはじめ、匿名組合のもとにおける性質に応じて、所得の性質が定まると考えられる。…国際課税の関係では、匿名組合の非居住者である匿名組合員が、地理的にみて、実質的事業に参加することは考えられないので、すべて、投資家にすぎないと認定するものとも思われるが、一般には、…	packs/cfc-footnotes-01-pack-00.txt
+cfc-footnotes-01-fn0010	cfc-footnotes-01	山崎論文	10	11	所得税法基本通達36・37 共-21 の2は、「36・37 共-21 により営業者が匿名組合員に分配する利益の額は、当該営業者の当該組合事業に係る所得の計算上必要経費に算入する。」(平成17年12月26日付改正前の旧通達36・37 共-21の第2パラグラフも同旨)と規定している。また、法人税基本通達 14-1-3 は…	packs/cfc-footnotes-01-pack-00.txt
+cfc-footnotes-01-fn0011	cfc-footnotes-01	山崎論文	11	14	平出慶道『商行為法〔第二版〕』334-335 頁(青林書院、1989)。	packs/cfc-footnotes-01-pack-00.txt
+cfc-footnotes-01-fn0012	cfc-footnotes-01	山崎論文	12	14	西原寛一『商行為法〔3版〕』182頁(有斐閣、1973)。平出・前掲注(11)329頁。なお、営業者からの損失分配は匿名組合員の出資額を減少させるが、出資額を超えて損失分配された場合には、出資額はマイナスにならないという説(西原・前掲注(12)182頁)と出資額はマイナスとなりうるという説(平出・前掲注(11)338…	packs/cfc-footnotes-01-pack-00.txt
+cfc-footnotes-01-fn0013	cfc-footnotes-01	山崎論文	13	15	税務訴訟の裁判例を題材に「匿名組合契約」について論じたものとして、村井正「匿名組合契約(I)・(II)」税務弘報31巻4・6号(1983年)。	packs/cfc-footnotes-01-pack-00.txt
+cfc-footnotes-01-fn0014	cfc-footnotes-01	山崎論文	14	15	最二小判昭 36. 10. 27 民集15巻9号2357頁(「勧業経済事件」)。所得税法上の「匿名組合に準ずる契約」であるためには、出資者が隠れた事業者として事業に参加しその利益の配当を受ける意思を有することを要するものであって、出資者が出資金の対価として利息を享受するものは匿名組合ではないとされた事例。「判批」につ…	packs/cfc-footnotes-01-pack-00.txt
+cfc-footnotes-01-fn0015	cfc-footnotes-01	山崎論文	15	15	最一小判昭 63. 10. 13 稅資 166号 131頁。「金銭消費貸借契約」を標榜する不動産の取得・運用・処分を目的とする原告会社と他の契約当事者間の出資、利益配分に関する契約が、商法上の匿名組合契約に該当すると認定した上で、いわゆる土地重課を営業者が営業者に帰属するとした事例。	packs/cfc-footnotes-01-pack-00.txt
+cfc-footnotes-01-fn0016	cfc-footnotes-01	山崎論文	16	15	金融法務事情 150号13~14頁。	packs/cfc-footnotes-01-pack-00.txt
+cfc-footnotes-01-fn0017	cfc-footnotes-01	山崎論文	17	16	西原・前掲注(12) 177頁。税務訴訟ではあるが、東京地判昭36.7.5は、匿名組合契約は「営業成績に従って浮動する利益を分配することが絶対的要素」であると判示している。	packs/cfc-footnotes-01-pack-00.txt
+cfc-footnotes-01-fn0018	cfc-footnotes-01	山崎論文	18	16	西原・前掲注(12) 178頁。平出・前掲注(11)331頁。	packs/cfc-footnotes-01-pack-00.txt
+cfc-footnotes-01-fn0019	cfc-footnotes-01	山崎論文	19	16	最二小判昭36.10.27・前掲注(14)。	packs/cfc-footnotes-01-pack-00.txt
+cfc-footnotes-01-fn0020	cfc-footnotes-01	山崎論文	20	16	広岡保「判批」判タ 651号 199-202頁。高山浩平「判批」判夕706号196-197頁。清河雅孝「判批」商事法務1236号35-39頁。	packs/cfc-footnotes-01-pack-00.txt
+cfc-footnotes-01-fn0021	cfc-footnotes-01	山崎論文	21	17	平出・前掲注(11) 339 頁。「禁反言の法理としての名板貸の規定(商23)を具体的に表現した当然の注意規定にすぎない。」との説明もある(西原・前掲注(12) 183頁)。	packs/cfc-footnotes-01-pack-00.txt
+cfc-footnotes-01-fn0022	cfc-footnotes-01	山崎論文	22	17	遠藤美光「判批」別冊ジュリスト 164 号 164-165 頁。松本清隆「判批」判時 1557号104-108頁。井上和彦「判批」判時1582号186-190頁。	packs/cfc-footnotes-01-pack-00.txt
+cfc-footnotes-01-fn0023	cfc-footnotes-01	山崎論文	23	18	商法上は、法人は固有の商人であるのでペーパーカンパニーであっても匿名組合営業者となり得る。	packs/cfc-footnotes-01-pack-00.txt
+cfc-footnotes-01-fn0024	cfc-footnotes-01	山崎論文	24	19	篠田四郎「非典型的匿名組合-その類型論的・法的構成-(一)」名城法学31巻1号3-4頁(1982)。	packs/cfc-footnotes-01-pack-00.txt
+cfc-footnotes-01-fn0025	cfc-footnotes-01	山崎論文	25	20	篠田・前掲注(24) 16頁。	packs/cfc-footnotes-01-pack-00.txt
+cfc-footnotes-01-fn0026	cfc-footnotes-01	山崎論文	26	20	篠田・前掲注(24) 16頁。	packs/cfc-footnotes-01-pack-00.txt
+cfc-footnotes-01-fn0027	cfc-footnotes-01	山崎論文	27	20	篠田・前掲注(24) 25-26頁。	packs/cfc-footnotes-01-pack-00.txt
+cfc-footnotes-01-fn0028	cfc-footnotes-01	山崎論文	28	21	篠田四郎「非典型的匿名組合-その類型論的・法的構成-(二)完」名城法学 31巻3・4合併号72頁(1982)。	packs/cfc-footnotes-01-pack-00.txt
+cfc-footnotes-01-fn0029	cfc-footnotes-01	山崎論文	29	21	西原・前掲注(12) 178頁、平出・前掲注(11)331頁。	packs/cfc-footnotes-01-pack-00.txt
+cfc-footnotes-01-fn0030	cfc-footnotes-01	山崎論文	30	21	篠田・前掲注(28) 45頁。	packs/cfc-footnotes-01-pack-00.txt
+cfc-footnotes-01-fn0031	cfc-footnotes-01	山崎論文	31	21	篠田・前掲注(28) 49頁。	packs/cfc-footnotes-01-pack-00.txt
+cfc-footnotes-01-fn0032	cfc-footnotes-01	山崎論文	32	21	主な区別の指標は次のとおり(篠田・前掲注(28)50頁)。	packs/cfc-footnotes-01-pack-00.txt
+cfc-footnotes-01-fn0033	cfc-footnotes-01	山崎論文	33	22	篠田・前掲注(28) 47 頁、73-74 頁。	packs/cfc-footnotes-01-pack-00.txt
+cfc-footnotes-01-fn0034	cfc-footnotes-01	山崎論文	34	22	篠田・前掲注(28)77-75 頁。	packs/cfc-footnotes-01-pack-00.txt
+cfc-footnotes-01-fn0035	cfc-footnotes-01	山崎論文	35	22	最高裁第三小法廷判決昭和24年7月26日(民集3巻8号283頁)は、「商法第 156条の規定中業務執行に関する部分は任意規定と解するのが相当であり、従って、合資会社が定款その他の内部規約を以て有限責任社員に業務執行の権利義務ある旨を定めた場合においては、その定は有効と認むべきである。」と判示している。すなわち、商法 …	packs/cfc-footnotes-01-pack-00.txt
+cfc-footnotes-01-fn0036	cfc-footnotes-01	山崎論文	36	23	「勧業経済事件」(最二小判昭 32.10.27・前掲注(14))も同様に「消費貸借型匿名組合」であるか否かが問題となった事例であろう。	packs/cfc-footnotes-01-pack-00.txt
+cfc-footnotes-01-fn0037	cfc-footnotes-01	山崎論文	37	26	OECD モデル租税条約7条コメンタリー・パラ 32 (OECD(川端康之監訳)『OECD モデル租税条約2003年版(所得と財産に対する租税条約)』(日本租稅研究協会、2003)。以下、OECD モデル租税条約コメンタリーの訳は本書による。)。	packs/cfc-footnotes-01-pack-00.txt
+cfc-footnotes-01-fn0038	cfc-footnotes-01	山崎論文	38	26	宮武敏夫「匿名組合契約と税務」ジュリスト 1255号(2003)110-111 頁。島谷博=古川稔=小堺克巳『外国法人課税の実務と理論〔二訂版〕』(税務研究会出版局、1993)87-88頁。	packs/cfc-footnotes-01-pack-00.txt
+cfc-footnotes-01-fn0039	cfc-footnotes-01	山崎論文	39	26	OECD モデル条約 21 条コメンタリー・パラ1は、「本条は、この条約の前条までにおいて扱われていない所得に関する一般準則を定めている。ここでいう所得は、明示されて扱われていない種類の所得だけでなく、明示されていない源泉からの所得も含むものである。」としている。	packs/cfc-footnotes-01-pack-01.txt
+cfc-footnotes-01-fn0040	cfc-footnotes-01	山崎論文	40	26	小沢進「匿名組合の利益の分配に関する日独租税条約の規定の適用について」税務事例29巻3号(1997)67-68 頁。仲谷栄一郎=井上康一=梅辻雅春=藍原滋『〔改訂版〕外国企業との取引と税務』277-278頁(商事法務研究会、2000)。	packs/cfc-footnotes-01-pack-01.txt
+cfc-footnotes-01-fn0041	cfc-footnotes-01	山崎論文	41	27	対カナダ条約、対シンガポール条約、対スウェーデン条約など 11 カ国と締結している租税条約がこのような規定となっている。	packs/cfc-footnotes-01-pack-01.txt
+cfc-footnotes-01-fn0042	cfc-footnotes-01	山崎論文	42	27	対オーストラリア条約、対ニュージーランド条約など7カ国と締結している租税条約には規定がない。	packs/cfc-footnotes-01-pack-01.txt
+cfc-footnotes-01-fn0043	cfc-footnotes-01	山崎論文	43	27	谷口勢津夫「匿名組合の課税問題-TKスキームに関する租税条約の解釈適用一」日稅研論集 55号(日本税務研究センター、2004)174-178 頁。渕圭吾「匿名組合契約と所得課税-なぜ日本の匿名組合契約は節税目的で用いられるのか?」ジュリスト1251号(2003)184頁。谷口教授は、我が国はドイツのように「典型的匿名…	packs/cfc-footnotes-01-pack-01.txt
+cfc-footnotes-01-fn0044	cfc-footnotes-01	山崎論文	44	29	島谷=古川=小堺・前掲注(38) 85-86 頁。仲谷=井上=梅辻=藍原・前掲注(40)277頁。	packs/cfc-footnotes-01-pack-01.txt
+cfc-footnotes-01-fn0045	cfc-footnotes-01	山崎論文	45	30	OECD モデル租税条約7条7項は、「他の条で別個に取り扱われている種類の所得が企業の利得に含まれる場合には、当該他の条の規定は、この条の規定によって影響されることはない。」と規定している。この「他の条で別個に取り扱われている種類の所得」と同モデル条約 21 条1項の「一方の締約国の居住者の所得(源泉地を問わない)で…	packs/cfc-footnotes-01-pack-01.txt
+cfc-footnotes-01-fn0046	cfc-footnotes-01	山崎論文	46	31	OECD モデル租税条約7条コメンタリー・パラ3。	packs/cfc-footnotes-01-pack-01.txt
+cfc-footnotes-01-fn0047	cfc-footnotes-01	山崎論文	47	31	OECD モデル租税条約7条コメンタリー・パラ5。	packs/cfc-footnotes-01-pack-01.txt
+cfc-footnotes-01-fn0048	cfc-footnotes-01	山崎論文	48	32	水野忠恒教授は、「分類された所得類型によって源泉管轄が決定されるという所得税制度のもとでは、P. E. が所得の分類及び源泉地の決定のため同時に機能するものであることが理解できる。」としている(水野忠恒『国際課税の制度と理論-国際租税法の基礎的考察-』26頁(有斐閣、2000))。	packs/cfc-footnotes-01-pack-01.txt
+cfc-footnotes-01-fn0049	cfc-footnotes-01	山崎論文	49	33	クラウス・フォーゲル・ミュンヘン大学名誉教授は、次のように述べている。「21条2項は、2つの理由で適用される。第1の理由は、6条~20条は、これらの条において特定された種類の所得以外の所得に関してはカバーしていないこと、第2の理由は、前各条の規定のうちのいくつかの規定は、他方の締約国の源泉所得に対する課税についてのみ…	packs/cfc-footnotes-01-pack-01.txt
+cfc-footnotes-01-fn0050	cfc-footnotes-01	山崎論文	50	34	クラウス・フォーゲル名誉教授は、次のように述べている。「21 条2項は、『権利又は財産』に基因して支払われた所得に限り適用される。…それ故、21条2項は、まず、10条から 12 条の種類の所得(配当、利子、使用料)に適用される。10条から12条の規定は、一方の締約国の居住者によって受領され、他方の締約国の源泉から生ず…	packs/cfc-footnotes-01-pack-01.txt
+cfc-footnotes-01-fn0051	cfc-footnotes-01	山崎論文	51	35	「利子」は OECD モデル租税条約7条7項にいう「他の条で別個に取り扱われている種類の所得」に該当し、まず同モデル条約 11 条が適用されることになる。	packs/cfc-footnotes-01-pack-01.txt
+cfc-footnotes-01-fn0052	cfc-footnotes-01	山崎論文	52	35	所得税法 161条4号(法人税法 138 条4号)は「所得稅法第23条第1項(利子所得)に規定する利子等のうち次に掲げるもの」として次のものを挙げている。イ 所得税法第二条第一項第九号に規定する公社債のうち日本国の国債若しくは地方債又は内国法人の発行する債券の利子 ロ国内にある営業所、事務所その他これらに準ずるもの(…	packs/cfc-footnotes-01-pack-01.txt
+cfc-footnotes-01-fn0053	cfc-footnotes-01	山崎論文	53	35	OECD モデル租税条約11 条コメンタリー・パラ20。	packs/cfc-footnotes-01-pack-01.txt
+cfc-footnotes-01-fn0054	cfc-footnotes-01	山崎論文	54	37	Klaus Vogel supra note49, Article 11, para 61 (p.733-734)。	packs/cfc-footnotes-01-pack-01.txt
+cfc-footnotes-01-fn0055	cfc-footnotes-01	山崎論文	55	38	これを一般に「恒久的施設に関する但書の留保」規定という。利子条項のほか、配当条項、使用量条項及びその他所得条項にみられる。前掲注(50)参照。	packs/cfc-footnotes-01-pack-01.txt
+cfc-footnotes-01-fn0056	cfc-footnotes-01	山崎論文	56	38	谷口・前掲注(43) 157-173 頁。ドイツにおける「典型的匿名組合」と「非典型的匿名組合」とに区別した課税上の取扱いについて詳しく論じられている。また、植松守雄「講座・所得税法の諸問題(第14回)」税経通信42巻11号(1987) 51-53頁。ドイツの匿名組合の税務判例を取り上げたものとして、村井正「匿名組合…	packs/cfc-footnotes-01-pack-01.txt
+cfc-footnotes-01-fn0057	cfc-footnotes-01	山崎論文	57	38	谷口・前掲注(43) 158頁。	packs/cfc-footnotes-01-pack-01.txt
+cfc-footnotes-01-fn0058	cfc-footnotes-01	山崎論文	58	38	「資本財産所得」を列挙しているドイツ所得税法20条1項は、その4号で「営業に対する匿名組合員としての参加及び共算的消費貸借(partiarisches Darlehen)から生ずる収入。ただし、当該組合員又は貸主が、共同事業者とみなされる場合はこの限りではない。」と規定し、典型的匿名組合の所得は資本財産所得として、非…	packs/cfc-footnotes-01-pack-01.txt
+cfc-footnotes-01-fn0059	cfc-footnotes-01	山崎論文	59	39	谷口・前掲注(43) 165頁。典型的匿名組合についてはドイツ所得税法 49条1項5号aに規定され、非典型的匿名組合については同項2号aに規定されている。	packs/cfc-footnotes-01-pack-01.txt
+cfc-footnotes-01-fn0060	cfc-footnotes-01	山崎論文	60	39	谷口・前掲注(43) 172頁。	packs/cfc-footnotes-01-pack-01.txt
+cfc-footnotes-01-fn0061	cfc-footnotes-01	山崎論文	61	39	Klaus Vogel supra note 49 Article 7 para 40 (p.419)。	packs/cfc-footnotes-01-pack-01.txt
+cfc-footnotes-01-fn0062	cfc-footnotes-01	山崎論文	62	41	国側は、A社とB社の共同事業性からA社の恒久的施設の存在を明確にするために、本件契約は民法上の組合契約であると主張した。	packs/cfc-footnotes-01-pack-01.txt
+cfc-footnotes-01-fn0063	cfc-footnotes-01	山崎論文	63	42	本件契約に基づく分配利益は、原告が日本国内に有する恒久的施設を通じて日本国内で行った本件事業から生じた所得であり、そのすべてが本件恒久的施設に帰属する、という主張。	packs/cfc-footnotes-01-pack-01.txt
+cfc-footnotes-01-fn0064	cfc-footnotes-01	山崎論文	64	43	OECD モデル租税条約5条コメンタリー・パラ4。	packs/cfc-footnotes-01-pack-01.txt
+cfc-footnotes-01-fn0065	cfc-footnotes-01	山崎論文	65	43	OECD モデル租税条約5条コメンタリー・パラ 4.1。	packs/cfc-footnotes-01-pack-01.txt
+cfc-footnotes-01-fn0066	cfc-footnotes-01	山崎論文	66	44	OECD モデル租税条約5条コメンタリー・パラ 5.2。	packs/cfc-footnotes-01-pack-01.txt
+cfc-footnotes-01-fn0067	cfc-footnotes-01	山崎論文	67	44	匿名組合は民法組合を企業活動により適した形に加工した共同事業形態の一つであるとされる(平出・前掲注(11)322-323 頁、西原・前掲注(12)175 頁)。	packs/cfc-footnotes-01-pack-01.txt
+cfc-footnotes-01-fn0068	cfc-footnotes-01	山崎論文	68	44	事業所の人件費等の諸経費は、営業者の利益の計算上控除されるので、匿名組合員も事業活動に必要なコストを負担することになる。	packs/cfc-footnotes-01-pack-01.txt
+cfc-footnotes-01-fn0069	cfc-footnotes-01	山崎論文	69	44	匿名組合員が、単なる匿名出資者の地位にとどまっている場合、すなわち、①営業者の業務執行に一切関与していない、また、②いかなる形であれ営業者の業務執行に関与できる権利が確保されていない、という場合には、広い意味での共同事業者には該当しても、基本的には、営業の成果を期待して営業利益の分配請求権を有する単なる投資家の立場に…	packs/cfc-footnotes-01-pack-01.txt
+cfc-footnotes-01-fn0070	cfc-footnotes-01	山崎論文	70	45	商法においても、有限責任の匿名組合員に業務執行権限を付与する匿名組合も成立しうるとされている(前掲注(35)参照)。	packs/cfc-footnotes-01-pack-01.txt
+cfc-footnotes-01-fn0071	cfc-footnotes-01	山崎論文	71	45	これを非典型匿名組合契約と類型化するか、民法上の組合契約と性格づけるかは、恒久的施設(PE)の有無の判定という局面においてはあまり意味をなさないと考えられる。	packs/cfc-footnotes-01-pack-01.txt
+cfc-footnotes-01-fn0072	cfc-footnotes-01	山崎論文	72	45	篠田・前掲注(28) 89頁。	packs/cfc-footnotes-01-pack-01.txt
+cfc-footnotes-01-fn0073	cfc-footnotes-01	山崎論文	73	45	篠田・前掲注(28)77頁。	packs/cfc-footnotes-01-pack-01.txt
+cfc-footnotes-01-fn0074	cfc-footnotes-01	山崎論文	74	45	篠田・前掲注(28)89頁。	packs/cfc-footnotes-01-pack-01.txt
+cfc-footnotes-01-fn0075	cfc-footnotes-01	山崎論文	75	45	この場合、出資者の契約上の責任の度合い(有限責任であるか無限責任であるか)は考慮すべき要素とはなり得ないと考える。	packs/cfc-footnotes-01-pack-01.txt
+cfc-footnotes-01-fn0076	cfc-footnotes-01	山崎論文	76	46	支配は必ずしも完全支配である必要はないと考える。支配力が及ぶという意味では、同族会社の判定基準や過少資本税制における国外支配株主等が参考になるであろう。	packs/cfc-footnotes-01-pack-02.txt
+cfc-footnotes-01-fn0077	cfc-footnotes-01	山崎論文	77	46	この考え方によれば、親子会社間でいわゆる「共算的消費貸借契約」が締結されている場合も同様の取扱いになるものと考えられる。	packs/cfc-footnotes-01-pack-02.txt
+cfc-footnotes-01-fn0078	cfc-footnotes-01	山崎論文	78	49	商法 537 条は〔自己の商号等を使用させる匿名組合員の責任〕として「匿名組合員カ其氏若クハ氏名ヲ営業者ノ商号中二用牛又ハ其商号ヲ営業者ノ商号トシテ用ユルコトヲ許諾シタルトキハ其使用以後ニ生シタル債務ニ付テハ営業者ト連帯シテ其責二任ス」と規定している。これについては、「名板貸し(商23)と同じ趣旨に基づくものであるが…	packs/cfc-footnotes-01-pack-02.txt
+cfc-footnotes-01-fn0079	cfc-footnotes-01	山崎論文	79	50	一般に、外資系企業においては、代表者や主要役員などの企業の中枢ポストはエキスパッツと呼ばれるグループの中核企業からの外国人派遣社員によって占められ、日本における事業は、実質的にグループ本社の事業方針に基づいて運営・管理されている。	packs/cfc-footnotes-01-pack-02.txt
+cfc-footnotes-01-fn0080	cfc-footnotes-01	山崎論文	80	53	高倉明=高橋一郎=加藤裕編『所得稅基本通達逐条解説』354 頁(大蔵財務協会、2004)。	packs/cfc-footnotes-01-pack-02.txt
+cfc-footnotes-01-fn0081	cfc-footnotes-01	山崎論文	81	53	所得税における匿名組合分配金の所得区分について考察したものとして、酒井克彦「匿名組合契約に基づく分配金に係る所得区分ーいわゆる航空機リース事件の検討を契機として-」税大ジャーナル2号 96-116頁(2005)。	packs/cfc-footnotes-01-pack-02.txt
+cfc-footnotes-01-fn0082	cfc-footnotes-01	山崎論文	82	54	旧通達については、「匿名組合員が事業者でその出資が事業の一環としてされている場合には事業所得」と考えられるが、「このような場合、匿名組合員は単なる出資者にとどまらず、営業者との間で実質的に共同事業者としての役割を果たしているとみられる場合もあろうが、そのような場合でも、上記の所得区分は、共同事業者としての側面に着目す…	packs/cfc-footnotes-01-pack-02.txt
+cfc-footnotes-01-fn0083	cfc-footnotes-01	山崎論文	83	54	財務省大臣官房文書課編『ファイナンス別冊平成17年度税制改正の解説』29 頁、269-280頁(大蔵財務協会、2005)。	packs/cfc-footnotes-01-pack-02.txt
+cfc-footnotes-01-fn0084	cfc-footnotes-01	山崎論文	84	55	ただし、「匿名組合契約における匿名組合員は、法律上組合事業の業務執行を行うことが禁じられており(商542、156)」おのずと本制度の対象組合員に該当する旨説明されている(財務省・前掲注(83) 271頁)。	packs/cfc-footnotes-01-pack-02.txt
+cfc-footnotes-01-fn0085	cfc-footnotes-01	山崎論文	85	55	経緯については、植松守雄「講座・所得税法の諸問題(第10回)」税経通信 42巻6号(1987)59-60 頁、増井良啓「組合形式の投資媒体と所得課税」日稅研論集 44号(日本税務研究センター、2000) 113-115頁。	packs/cfc-footnotes-01-pack-02.txt
+cfc-footnotes-01-fn0086	cfc-footnotes-01	山崎論文	86	55	最二小判昭32.10.27・前掲注(14)。	packs/cfc-footnotes-01-pack-02.txt
+cfc-footnotes-01-fn0087	cfc-footnotes-01	山崎論文	87	55	水野忠恒教授は、「出資額に対して一定割合により分配を受ける場合は、営業者の営業の成果いかんにかかわらず分配を受けるのであるから、営業に参加しているとはいえず、匿名組合類似の事業形態ではないかと思われる。この場合の出資関係は、事実によっては、むしろ、消費貸借とみるべきであるとも考えられる。」と述べている(水野・前掲注(…	packs/cfc-footnotes-01-pack-02.txt
+cfc-footnotes-01-fn0088	cfc-footnotes-01	山崎論文	88	56	ここでいう「民法組合契約等」には匿名組合契約は含まれない(所令 281 の2)。	packs/cfc-footnotes-01-pack-02.txt
+cfc-footnotes-01-fn0089	cfc-footnotes-01	山崎論文	89	56	民法組合契約等を締結している組合員である外国法人等は、国内で行う組合事業(共同事業)に係る PE を有しているので、従来から自らに配分される利益について申告納税することとなっていたが、今後は、源泉徴収課税のうえ申告納税することとされた。	packs/cfc-footnotes-01-pack-02.txt

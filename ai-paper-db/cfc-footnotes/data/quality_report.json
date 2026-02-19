@@ -1,0 +1,195 @@
+{
+  "generated_at": "2026-02-19T19:28:46",
+  "input_db": "/mnt/d/Users/PC/Desktop/CFC税制/要ＤＢ化/済/脚注/footnotes.db",
+  "output_dir": "/mnt/d/Users/PC/Desktop/CFC税制/要ＤＢ化/済/脚注/jplawdb-cfc-footnotes",
+  "tokenizer": {
+    "encoding": "o200k_base",
+    "mode": "tiktoken"
+  },
+  "limits": {
+    "hard_max_tokens_per_url": 10000,
+    "soft_target_tokens": 9000
+  },
+  "counts": {
+    "records": 675,
+    "docs": 5,
+    "packs": 24,
+    "shards": 8,
+    "files_checked": 42
+  },
+  "max_file": {
+    "file": "data/shards/shard-006.txt",
+    "tokens": 8996
+  },
+  "over_limit_files": [],
+  "per_file_tokens": [
+    {
+      "file": "data/docs_index.json",
+      "tokens": 496
+    },
+    {
+      "file": "data/docs_index.tsv",
+      "tokens": 166
+    },
+    {
+      "file": "data/packs_index.json",
+      "tokens": 3308
+    },
+    {
+      "file": "data/packs_index.tsv",
+      "tokens": 1380
+    },
+    {
+      "file": "data/shards/shard-000.txt",
+      "tokens": 8965
+    },
+    {
+      "file": "data/shards/shard-001.txt",
+      "tokens": 8907
+    },
+    {
+      "file": "data/shards/shard-002.txt",
+      "tokens": 8972
+    },
+    {
+      "file": "data/shards/shard-003.txt",
+      "tokens": 8848
+    },
+    {
+      "file": "data/shards/shard-004.txt",
+      "tokens": 8990
+    },
+    {
+      "file": "data/shards/shard-005.txt",
+      "tokens": 8950
+    },
+    {
+      "file": "data/shards/shard-006.txt",
+      "tokens": 8996
+    },
+    {
+      "file": "data/shards/shard-007.txt",
+      "tokens": 2705
+    },
+    {
+      "file": "data/shards_index.json",
+      "tokens": 1769
+    },
+    {
+      "file": "index.html",
+      "tokens": 607
+    },
+    {
+      "file": "llms.txt",
+      "tokens": 205
+    },
+    {
+      "file": "llms2.txt",
+      "tokens": 407
+    },
+    {
+      "file": "llms3.txt",
+      "tokens": 262
+    },
+    {
+      "file": "packs/cfc-footnotes-01-pack-00.txt",
+      "tokens": 8880
+    },
+    {
+      "file": "packs/cfc-footnotes-01-pack-01.txt",
+      "tokens": 8908
+    },
+    {
+      "file": "packs/cfc-footnotes-01-pack-02.txt",
+      "tokens": 6315
+    },
+    {
+      "file": "packs/cfc-footnotes-02-pack-00.txt",
+      "tokens": 8951
+    },
+    {
+      "file": "packs/cfc-footnotes-02-pack-01.txt",
+      "tokens": 8685
+    },
+    {
+      "file": "packs/cfc-footnotes-02-pack-02.txt",
+      "tokens": 8916
+    },
+    {
+      "file": "packs/cfc-footnotes-02-pack-03.txt",
+      "tokens": 8743
+    },
+    {
+      "file": "packs/cfc-footnotes-02-pack-04.txt",
+      "tokens": 6569
+    },
+    {
+      "file": "packs/cfc-footnotes-03-pack-00.txt",
+      "tokens": 8532
+    },
+    {
+      "file": "packs/cfc-footnotes-03-pack-01.txt",
+      "tokens": 8921
+    },
+    {
+      "file": "packs/cfc-footnotes-03-pack-02.txt",
+      "tokens": 8273
+    },
+    {
+      "file": "packs/cfc-footnotes-03-pack-03.txt",
+      "tokens": 8962
+    },
+    {
+      "file": "packs/cfc-footnotes-03-pack-04.txt",
+      "tokens": 8556
+    },
+    {
+      "file": "packs/cfc-footnotes-03-pack-05.txt",
+      "tokens": 8968
+    },
+    {
+      "file": "packs/cfc-footnotes-03-pack-06.txt",
+      "tokens": 3244
+    },
+    {
+      "file": "packs/cfc-footnotes-04-pack-00.txt",
+      "tokens": 8861
+    },
+    {
+      "file": "packs/cfc-footnotes-04-pack-01.txt",
+      "tokens": 8679
+    },
+    {
+      "file": "packs/cfc-footnotes-04-pack-02.txt",
+      "tokens": 8857
+    },
+    {
+      "file": "packs/cfc-footnotes-04-pack-03.txt",
+      "tokens": 8846
+    },
+    {
+      "file": "packs/cfc-footnotes-04-pack-04.txt",
+      "tokens": 2538
+    },
+    {
+      "file": "packs/cfc-footnotes-05-pack-00.txt",
+      "tokens": 8826
+    },
+    {
+      "file": "packs/cfc-footnotes-05-pack-01.txt",
+      "tokens": 8955
+    },
+    {
+      "file": "packs/cfc-footnotes-05-pack-02.txt",
+      "tokens": 8988
+    },
+    {
+      "file": "packs/cfc-footnotes-05-pack-03.txt",
+      "tokens": 3684
+    },
+    {
+      "file": "quickstart.txt",
+      "tokens": 213
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+id	section_id	section_title	footnote_number	page_hint	snippet	core
+cfc-footnotes-04-fn0015	cfc-footnotes-04	羽島論文	15	10	我が国の内国法人に係る外国子会社等が、「国外」において外国法を準拠法として行う組織再編成についての我が国の租税法上の取扱いについては、『外国における組織再編成に係る我が国租税法上の取扱いについて』((公)日本租税研究協会、2012)を参考にした。その中では、「基本的な考え方としては、外国における組織再編成が、我が国に…	packs/cfc-footnotes-04-pack-00.txt
+cfc-footnotes-04-fn0016	cfc-footnotes-04	羽島論文	16	11	適格現物出資の要件の一つである「国内にある事業所に属する資産又は負債」の判定は、形式的な記帳の場所ではなく、あくまでも実質的に経常的な管理が行われていた場所により判断される(法人税法基本通達1-4-12)。本事例では、S1社はペーパーカンパニーであり、その保有資産(不動産及び不動産の上に存する権利)の経常的な管理は内…	packs/cfc-footnotes-04-pack-00.txt
+cfc-footnotes-04-fn0017	cfc-footnotes-04	羽島論文	17	12	国外関連者とは、「外国法人」で、当該法人との間にいずれか一方の法人が他方の法人の発行済株式又は出資(当該他方の法人が有する自己の株式又は出資を除く。)の総数又は総額の100分の50以上の数又は金額の株式又は出資を直接又は間接に保有する関係その他の政令で定める特殊の関係のあるものをいうとされる(租税特別措置法第66条の…	packs/cfc-footnotes-04-pack-00.txt
+cfc-footnotes-04-fn0018	cfc-footnotes-04	羽島論文	18	12	遠藤克博「移転価格税制と寄附金課税」稅大論叢33号214頁以下(1999)の図を基に、国外関連者間の寄附金とCFC税制を重ねる形で改編したもの。 (P12)	packs/cfc-footnotes-04-pack-00.txt
+cfc-footnotes-04-fn0019	cfc-footnotes-04	羽島論文	19	13	なお、本事例ではP社、S1社及びS2社の間には完全支配関係(法人税法第2条12号の7の6、同令第4条の2第2項)はないものとする。 (P13)	packs/cfc-footnotes-04-pack-00.txt
+cfc-footnotes-04-fn0020	cfc-footnotes-04	羽島論文	20	14	船舶法第1条 左の船舶を以て日本船舶とす 一 日本の官庁又は公署の所有に属する船舶 二 日本国民の所有に属する船舶 三 日本の法令に依り設立したる会社にして其代表者の全員及び業務を執行する役員の三分の二以上が日本国民なるものの所有に属する船舶 四 前号に掲げたる法人以外の法人にして日本の法令に依り設立し其代表者の全員…	packs/cfc-footnotes-04-pack-00.txt
+cfc-footnotes-04-fn0021	cfc-footnotes-04	羽島論文	21	14	日本船舶の意義については、租税特別措置法通達65の7(1)-32(日本船舶の意義)において定められており、その内容は次のとおりである。 「措置法第65条の7第1項の表の第10号の下欄の買換資産である船舶は日本船舶に限られるのであるが、当該日本船舶には、外国船籍であった船舶を取得し、これを日本船舶として登録した上運航の…	packs/cfc-footnotes-04-pack-00.txt
+cfc-footnotes-04-fn0022	cfc-footnotes-04	羽島論文	22	14	政令で定めるものとは、次に掲げる船舶とされている(租税特別措置法施行令39の7の9)。 「一 建造の後事業の用に供されたことのない船舶のうち環境への負荷の低減に資する船舶として国土交通大臣及び農林水産大臣が財務大臣と協議して指定するもの 二 買換資産に該当する船舶(以下この号において「買換船舶」という。)の進水の日か…	packs/cfc-footnotes-04-pack-00.txt
+cfc-footnotes-04-fn0023	cfc-footnotes-04	羽島論文	23	15	国際税務 Vol. 13(44頁・45頁、税務研究会 1993.6)では、特定外国子会社等における未処分所得の計算上、特定の資産の買換えの場合の課税の特例の適用にあたり、「船舶」は日本船舶に限られるかという質問に対し、「特定外国子会社等の未処分所得の計算を行う場合、措法第65条の7第1項の表の18の規定の適用について…	packs/cfc-footnotes-04-pack-00.txt
+cfc-footnotes-04-fn0024	cfc-footnotes-04	羽島論文	24	15	本件特例と実質所得者課税の原則との関係に係る裁判例(横浜地裁平成13年10月10日判決:稅資251号8999順号)及び国際税務・前掲注(23)44頁・45頁を参考に作成したもの。 (P15)	packs/cfc-footnotes-04-pack-00.txt
+cfc-footnotes-04-fn0025	cfc-footnotes-04	羽島論文	25	18	日本税理士連合会 税制審議会『「租税回避について」の諮問に対する答申-平成9年度諮問に対する答申-』1頁。日本税理士連合会HP(2014.1)。http://www.nichizeiren.or.jp/guidance/pdf/toushin_H9.pdf (P18)	packs/cfc-footnotes-04-pack-00.txt
+cfc-footnotes-04-fn0026	cfc-footnotes-04	羽島論文	26	18	租税回避の意義には、この他に「私法上の選択可能性の自由を利用して租税負担を軽減するために法形式の濫用という問題」水野忠恒著『租稅法〔第5版〕』25頁(有斐閣、2011)や、「課税要件の充足を回避することにより租税負担を軽減又は排除すること」山田二郎著『税法講義〔第2版〕』39頁(信山社、2001)などが挙げられる。 …	packs/cfc-footnotes-04-pack-00.txt
+cfc-footnotes-04-fn0027	cfc-footnotes-04	羽島論文	27	18	金子・前掲注(5)121頁。 (P18)	packs/cfc-footnotes-04-pack-00.txt
+cfc-footnotes-04-fn0028	cfc-footnotes-04	羽島論文	28	18	日本税理士連合会・前掲注(25)1頁。 (P18)	packs/cfc-footnotes-04-pack-00.txt
+cfc-footnotes-04-fn0029	cfc-footnotes-04	羽島論文	29	19	居波邦泰「国際的租税回避の類型化」本庄資編著『国際課税の理論と実務73の重要課題』609 頁(大蔵財務協会、2011)。 (P19)	packs/cfc-footnotes-04-pack-01.txt
+cfc-footnotes-04-fn0030	cfc-footnotes-04	羽島論文	30	19	増井良啓教授は、租税回避とは、「合法か違法かがあいまいな灰色領域を指す概念である。」とした上で、「租税回避のうち国際的な側面に関係するものを、国際的租税回避(international tax avoidance)と呼ぶ。」と説明されている。増井良啓=宮崎裕子著『国際租税法〔第2版〕』164頁(東京大学出版会、201…	packs/cfc-footnotes-04-pack-01.txt
+cfc-footnotes-04-fn0031	cfc-footnotes-04	羽島論文	31	19	このことについて中里実教授は「納税義務を課すべき対象である経済的な事実の全体を過不足なく課税要件の中に取り込むことは、立法技術的にほとんど不可能である」とし、「同一の経済目的を達成するための私法上の構成は数多く存在するにもかかわらず、立法技術上の制約から、課税の対象とされているのは(立法者の予測した)その一部でしかな…	packs/cfc-footnotes-04-pack-01.txt
+cfc-footnotes-04-fn0032	cfc-footnotes-04	羽島論文	32	19	金子・前掲注(5)71頁。 (P19)	packs/cfc-footnotes-04-pack-01.txt
+cfc-footnotes-04-fn0033	cfc-footnotes-04	羽島論文	33	19	金子・前掲注(5)123頁。 (P19)	packs/cfc-footnotes-04-pack-01.txt
+cfc-footnotes-04-fn0034	cfc-footnotes-04	羽島論文	34	19	租税回避の問題について、中里実教授は、「租税回避の問題は、(租税法における最大の論点の一つである)租税法と私法の関係の問題と密接に関連している。これは、租税回避が、基本的に私法上の形成可能性の乱用により行われ、その否認が、私法上の法形式を無視して課税を行うというものだからである。」と説明されている。中里実「課税逃れ商…	packs/cfc-footnotes-04-pack-01.txt
+cfc-footnotes-04-fn0035	cfc-footnotes-04	羽島論文	35	19	川田剛教授は、「租税回避をめぐって争いが生じる最大の原因は、納税者と課税当局との間に『租税回避』及び『節税』の境界線について認識の差があるためである」と説明されている。川田剛著『節税と租税回避(裁判例にみる境界線)』4頁(税務経理協会、2009)。 (P19)	packs/cfc-footnotes-04-pack-01.txt
+cfc-footnotes-04-fn0036	cfc-footnotes-04	羽島論文	36	19	渡辺智之教授は、租税回避は税務戦略の一種であると位置づけた上で、租税回避は「法律の抜け穴を利用して、法律適用の限界にまで挑戦しようとするもの」と説明されている。渡辺智之著『税務戦略入門』120頁(東洋経済新報社、2005)。 (P19)	packs/cfc-footnotes-04-pack-01.txt
+cfc-footnotes-04-fn0037	cfc-footnotes-04	羽島論文	37	19	2012年4月現在、法人所得課税の実効税率は、米国 40.75%、仏 33.33%は我が国の40.69%と同様に比較的高い水準にあるが、ドイツ、イギリス、中国、韓国はいずれも20%台となっている。財務省 HP (2014. 1) http://www.mof.go.jp/tax_policy/summary/corp…	packs/cfc-footnotes-04-pack-01.txt
+cfc-footnotes-04-fn0038	cfc-footnotes-04	羽島論文	38	19	中里実「課稅管轄権からの離脱を図る行為について」ファイナンシャル・レビュー平成 21年第2号5頁(2009)。 (P19)	packs/cfc-footnotes-04-pack-01.txt
+cfc-footnotes-04-fn0039	cfc-footnotes-04	羽島論文	39	19	金子宏教授は、このことについて、「国際的な経済活動においては、複数の国家の税制の相違を利用して、租税回避が行われることが多い(タックス・アービトラージとしての国際的租税回避)」と説明されている。金子・前掲注(5)455 頁。 (P20)	packs/cfc-footnotes-04-pack-01.txt
+cfc-footnotes-04-fn0040	cfc-footnotes-04	羽島論文	40	20	中里・前掲注(38)5頁。 (P20)	packs/cfc-footnotes-04-pack-01.txt
+cfc-footnotes-04-fn0041	cfc-footnotes-04	羽島論文	41	20	増井ほか・前掲注(30)2頁。 (P20)	packs/cfc-footnotes-04-pack-01.txt
+cfc-footnotes-04-fn0042	cfc-footnotes-04	羽島論文	42	20	小島俊朗「タックス・ヘイブン税制の現代的意義について」税大ジャーナル9号 44 頁(2008)。 (P20)	packs/cfc-footnotes-04-pack-01.txt
+cfc-footnotes-04-fn0043	cfc-footnotes-04	羽島論文	43	20	高橋・前掲注(14)81頁〔石山〕。 (P20)	packs/cfc-footnotes-04-pack-01.txt
+cfc-footnotes-04-fn0044	cfc-footnotes-04	羽島論文	44	20-21	「タックス・ヘイブン」という文言に単一の定義を設けることは困難であるとされている(石弘光『現代税制改革史』527頁、528頁(東洋経済新報社、2009))が、当時、一般的には①法人の設立、運営、清算が容易であること、②租税及び税外負担が軽いこと、③為替管理がないこと、④企業秘密が確保できること、⑤政治経済が安定してい…	packs/cfc-footnotes-04-pack-01.txt
+cfc-footnotes-04-fn0045	cfc-footnotes-04	羽島論文	45	20-21	OECDでは、タックス・ヘイブンを識別する主な要因として、①No or only nominal taxes(無税または名目上の課税)、②Lack of effective exchange of information(有効な情報交換の欠如)、③Lack of transparency(透明性の欠如)、④No su…	packs/cfc-footnotes-04-pack-01.txt
+cfc-footnotes-04-fn0046	cfc-footnotes-04	羽島論文	46	20-21	具体的には、OECDによる昭和52年9月の「租税回避及び脱税防止のための法令又は行政上の措置を強化し、かつ、これらの措置に関する各国の経験を交換すべきである」旨の理事会勧告などがされている。国税庁『昭和53年 改正税法のすべて』157 頁。 (P21)	packs/cfc-footnotes-04-pack-01.txt
+cfc-footnotes-04-fn0047	cfc-footnotes-04	羽島論文	47	20-21	高橋・前掲注(14)81頁〔石山〕。 (P21)	packs/cfc-footnotes-04-pack-01.txt
+cfc-footnotes-04-fn0048	cfc-footnotes-04	羽島論文	48	21	高橋・前掲注(14)82頁〔石山〕、国税庁・前掲注(46)157頁。 (P21)	packs/cfc-footnotes-04-pack-01.txt
+cfc-footnotes-04-fn0049	cfc-footnotes-04	羽島論文	49	21	この他にも、昭和52年9月14日の衆議院大蔵委員会(第81回国会第2号)では、当時の大蔵大臣であった坊秀男氏の「･･･何か税負担をあえて軽からしめるために脱税、あるいはそういったような目的のためにつくって、そういうようなことをやるということは許されるべきではない」という発言や、当時の国税庁長官であった磯部律夫氏の「……	packs/cfc-footnotes-04-pack-01.txt
+cfc-footnotes-04-fn0050	cfc-footnotes-04	羽島論文	50	21	高橋・前掲注(14) 82頁‧83頁〔石山〕、国税庁・前掲注(46)156頁・157頁、朝長英樹編著『外国子会社合算税制(タックス・ヘイブン対策税制)』4頁・5頁(法令出版、2012)。 (P21)	packs/cfc-footnotes-04-pack-01.txt
+cfc-footnotes-04-fn0051	cfc-footnotes-04	羽島論文	51	22	同答申では、「近年、我が国経済の国際化に伴い、いわゆるタックスヘイブンに子会社等を設立し、これを利用して税負担の不当な軽減を図る事例が見受けられる。このような事例は、税負担の公平の見地から問題のあるところであり、また、諸外国においてもこれに対処するための立法措置が講じられていることを考えると、我が国においても…昭和5…	packs/cfc-footnotes-04-pack-01.txt
+cfc-footnotes-04-fn0052	cfc-footnotes-04	羽島論文	52	22	この呼称は平成16年度の税制改正により、現行の「外国子会社合算税制」に変更されたものである。この理由について、朝長英樹氏は「平成4年度改正において軽課税国指定制度を廃止したことに加えて、我が国の本制度の適用対象となる国や地域が諸外国において租税回避とされ『タックス・ヘイブン』より広くなっているという事情があったことに…	packs/cfc-footnotes-04-pack-01.txt
+cfc-footnotes-04-fn0053	cfc-footnotes-04	羽島論文	53	22	高橋・前掲注(14)82 頁〔石山〕、国税庁・前掲注(46)157頁、朝長・前掲注(50)4頁。 (P22)	packs/cfc-footnotes-04-pack-01.txt
+cfc-footnotes-04-fn0054	cfc-footnotes-04	羽島論文	54	22	金子・前掲注(5)506頁。 (P22)	packs/cfc-footnotes-04-pack-01.txt
+cfc-footnotes-04-fn0055	cfc-footnotes-04	羽島論文	55	22	高橋・前掲注(14)91頁〔石山〕。 (P22)	packs/cfc-footnotes-04-pack-01.txt
+cfc-footnotes-04-fn0056	cfc-footnotes-04	羽島論文	56	22	比較的とした理由は、適用除外要件のうち、例えば「非関連者基準」については、「相当の理由」という抽象的な文言の規定も存在するからである。租税特別措置法第39条の17第9項。 (P22)	packs/cfc-footnotes-04-pack-01.txt
+cfc-footnotes-04-fn0057	cfc-footnotes-04	羽島論文	57	22	伴忠彦「外国子会社合算税制における合算方式と適用除外基準の再考」稅大論叢 63号212頁・213頁(2009)。 (P22)	packs/cfc-footnotes-04-pack-01.txt
+cfc-footnotes-04-fn0058	cfc-footnotes-04	羽島論文	58	22-23	昭和53年当時には、軽課税国についての指定制度が採用されていたが、平成4年にこの指定制度は廃止され、現行の租税負担割合により軽課税国の判定を行うこととされている。なお、この割合は平成22年度の税制改正により20%に引き下げられている。 (P22-23)	packs/cfc-footnotes-04-pack-01.txt
+cfc-footnotes-04-fn0059	cfc-footnotes-04	羽島論文	59	22-23	平成21年度税制改正前の旧租税特別措置法第66条の6。 (P23)	packs/cfc-footnotes-04-pack-01.txt
+cfc-footnotes-04-fn0060	cfc-footnotes-04	羽島論文	60	22-23	なお、本稿では触れていないが、CFC税制には、内国法人に係る外国関係会社が特定外国子会社等に該当する場合であっても、常に、本税制により、当該特定外国子会社等の稼得した所得が内国法人等の所得に合算されるということではない。外国関係会社が軽課税国に所在することに十分な経済合理性がある場合には、本税制の対象としないという考…	packs/cfc-footnotes-04-pack-02.txt
+cfc-footnotes-04-fn0061	cfc-footnotes-04	羽島論文	61	23	小島・前掲注(42)47頁・48頁。 小島俊朗氏は、課税の繰延べについて「内国法人が支店を通じて海外事業を行うと、外国で稼得した収益を含む全世界所得に我が国の課税が行われるが、同じ納税者が支店の代わりに外国に子会社を設立して同じ事業を行うと、その後会社の所得に課税することはできないので、本来は我が国の支配が及ぶべき所…	packs/cfc-footnotes-04-pack-02.txt
+cfc-footnotes-04-fn0062	cfc-footnotes-04	羽島論文	62	23	法人税法第23条の2(外国子会社から受ける配当等の益金不算入)。その内容は、内国法人の各事業年度の所得の計算上、内国法人の保有割合が25%以上の外国子会社から受ける配当等について、その配当等の額の95%相当額が益金不算入とするものである。 (P23)	packs/cfc-footnotes-04-pack-02.txt
+cfc-footnotes-04-fn0063	cfc-footnotes-04	羽島論文	63	23	国税庁『平成21年 改正税法のすべて』424頁。 (P23)	packs/cfc-footnotes-04-pack-02.txt
+cfc-footnotes-04-fn0064	cfc-footnotes-04	羽島論文	64	23	伴・前掲注(57)224頁。 (P23)	packs/cfc-footnotes-04-pack-02.txt
+cfc-footnotes-04-fn0065	cfc-footnotes-04	羽島論文	65	23-24	秋元秀仁「外国子会社配当益金不算入制度導入後の改正タックス・ヘイブン対策税制における租税条約適合性」税大ジャーナル 17号 125頁(2011)、伴・前掲注(57)228頁。 (P23-24)	packs/cfc-footnotes-04-pack-02.txt
+cfc-footnotes-04-fn0066	cfc-footnotes-04	羽島論文	66	24	このことについて、伴忠彦氏は「我が国CFC税制本来の性格が表面化したものといえるであろう。本来の性格とは、特定外国子会社等が留保した所得ではなく、計上した所得を合算の対象とするという、租税回避防止規定としての性格である。」と説明されている。伴・前掲注(57)228頁。 (P24)	packs/cfc-footnotes-04-pack-02.txt
+cfc-footnotes-04-fn0067	cfc-footnotes-04	羽島論文	67	24	本庄資教授は、我が国は平成21年度税制改正で外国子会社配当益金不算入制度を導入し、ハイブリッド領土主義課税となったとした上で、これに伴いCFCルールの趣旨は、全世界所得課税における「課税繰延」の防止ではなく、国内源泉所得になるべきものが国外に移転されること(profit shifting)を防止する規定に変わってきた…	packs/cfc-footnotes-04-pack-02.txt
+cfc-footnotes-04-fn0068	cfc-footnotes-04	羽島論文	68	24	このことに対し、朝長英樹氏は、そもそもCFC税制が導入された際には、特定外国子会社等が所得を国外に留保して我が国に配当しないことを「租税回避」と捉えていたことに着目し、その所得の全額を我が国に配当すれば「租税回避」とすべき金額はないと理解されていたとし、平成21年度の税制改正後のCFC税制は租税回避を防止するための制…	packs/cfc-footnotes-04-pack-02.txt
+cfc-footnotes-04-fn0069	cfc-footnotes-04	羽島論文	69	24-25	旧法人税法第51条(特定の現物出資により取得した有価証券の圧縮額の損金算入)第1項の規定内容は次のとおりである。 「内国法人が、各事業年度において新たに法人を設立するためその有する金銭以外の資産の出資(当該資産の出資その他当該設立のための出資によりその内国法人が有することとなる当該法人の株式の数又は出資の金額が当該法…	packs/cfc-footnotes-04-pack-02.txt
+cfc-footnotes-04-fn0070	cfc-footnotes-04	羽島論文	70	25	小林淳子「国外取引に対する租税法の適用と外国法人の分割に関する問題」税大論叢 45号346・347頁(2004)。 (P25)	packs/cfc-footnotes-04-pack-02.txt
+cfc-footnotes-04-fn0071	cfc-footnotes-04	羽島論文	71	25	小林・前掲注(70)349頁。 (P25)	packs/cfc-footnotes-04-pack-02.txt
+cfc-footnotes-04-fn0072	cfc-footnotes-04	羽島論文	72	25	伏見泰治監修『平成8年度版 新しい土地稅制II』621 頁(税務研究会出版局、1996)。 (P25)	packs/cfc-footnotes-04-pack-02.txt
+cfc-footnotes-04-fn0073	cfc-footnotes-04	羽島論文	73	26	国税庁『平成10年 改正税法のすべて』310頁。 (P26)	packs/cfc-footnotes-04-pack-02.txt
+cfc-footnotes-04-fn0074	cfc-footnotes-04	羽島論文	74	26	旧法人税法施行令第93条(特定の現物出資の要件)第1項。その規定内容は、次のとおりである。 法第51条第1項(特定の現物出資により取得した有価証券の圧縮額の損金算入)に規定する政令で定める資産は、国内にある不動産、国内にある不動産の上に存する権利、鉱業法の規定による鉱業権及び採石法の規定による採石権その他国内にある事…	packs/cfc-footnotes-04-pack-02.txt
+cfc-footnotes-04-fn0075	cfc-footnotes-04	羽島論文	75	26	国税庁・前掲注(73) 311 頁では、旧法人税法施行令第93条に規定されている「国内にある事業所に属する資産」とは、「国内にある事業所の資産として管理・記帳されているものをいいますので、はじめから海外にある事業所の資産として管理・記帳されていたものは除かれますが、海外子会社を設立するために国内の事業所から海外の事業…	packs/cfc-footnotes-04-pack-02.txt
+cfc-footnotes-04-fn0076	cfc-footnotes-04	羽島論文	76	26	旧法人税法施行令第93条(特定の現物出資の要件) 第2項第3号。その規定内容は、次のとおりである。 「2 法第51条第一項に規定する政令で定める要件は、次に掲げる要件とする。 三 新設法人の設立の時において、法第51条第1項の内国法人の有する当該新設法人の株式の数又は出資の金額が当該新設法人の発行済株式の総数又は出資…	packs/cfc-footnotes-04-pack-02.txt
+cfc-footnotes-04-fn0077	cfc-footnotes-04	羽島論文	77	26	国税庁・前掲注(73)311頁。 (P26)	packs/cfc-footnotes-04-pack-02.txt
+cfc-footnotes-04-fn0078	cfc-footnotes-04	羽島論文	78	26	最高裁平成18年1月24日判決:判時1923号 20 頁「オーブンシャホールディングス事件」。 (P26)	packs/cfc-footnotes-04-pack-02.txt
+cfc-footnotes-04-fn0079	cfc-footnotes-04	羽島論文	79	26	小林・前掲注(70)246頁・350頁。 (P26)	packs/cfc-footnotes-04-pack-02.txt
+cfc-footnotes-04-fn0080	cfc-footnotes-04	羽島論文	80	26	税制調査会平成8年11月『法人課稅小委員会報告』61 頁・62頁。 (P26)	packs/cfc-footnotes-04-pack-02.txt
+cfc-footnotes-04-fn0081	cfc-footnotes-04	羽島論文	81	27	国税庁・前掲注(73)311頁。 (P27)	packs/cfc-footnotes-04-pack-02.txt
+cfc-footnotes-04-fn0082	cfc-footnotes-04	羽島論文	82	27	小林・前掲注(70)351頁。 (P27)	packs/cfc-footnotes-04-pack-02.txt
+cfc-footnotes-04-fn0083	cfc-footnotes-04	羽島論文	83	27	国税庁『平成13年 改正税法のすべて』134頁。 (P27)	packs/cfc-footnotes-04-pack-02.txt
+cfc-footnotes-04-fn0084	cfc-footnotes-04	羽島論文	84	27	国税庁・前掲注(83)136頁。 (P27)	packs/cfc-footnotes-04-pack-02.txt
+cfc-footnotes-04-fn0085	cfc-footnotes-04	羽島論文	85	28	国税庁『平成3年 改正税法のすべて』287頁。 (P28)	packs/cfc-footnotes-04-pack-02.txt
+cfc-footnotes-04-fn0086	cfc-footnotes-04	羽島論文	86	28	遠藤・前掲注(18) 185頁。 (P28)	packs/cfc-footnotes-04-pack-02.txt
+cfc-footnotes-04-fn0087	cfc-footnotes-04	羽島論文	87	28	国税庁『昭和40年 改正税法のすべて』133頁。 (P28)	packs/cfc-footnotes-04-pack-02.txt
+cfc-footnotes-04-fn0088	cfc-footnotes-04	羽島論文	88	28	昭和40年当時の法人税法第37条第2項(現行法では同条第1項)は次のとおりである。 「2 内国法人が各事業年度において支出した寄付金の額(前項の規定の適用を受けた寄付金の額を除く。次項において同じ。)の合計額のうち、その内国法人の資本等の金額又は当該事業年度の所得の金額を基礎として政令で定めるところにより計算した金額…	packs/cfc-footnotes-04-pack-02.txt
+cfc-footnotes-04-fn0089	cfc-footnotes-04	羽島論文	89	28	遠藤・前掲注(18)199頁。 (P28)	packs/cfc-footnotes-04-pack-02.txt
+cfc-footnotes-04-fn0090	cfc-footnotes-04	羽島論文	90	29	税制調査会昭和60年12月『昭和61年度の税制改正に関する答申』5頁。 (P29)	packs/cfc-footnotes-04-pack-03.txt
+cfc-footnotes-04-fn0091	cfc-footnotes-04	羽島論文	91	29	金子・前掲注(5)483頁。 (P29)	packs/cfc-footnotes-04-pack-03.txt
+cfc-footnotes-04-fn0092	cfc-footnotes-04	羽島論文	92	29	国税庁・前掲注(85)287頁。 (P29)	packs/cfc-footnotes-04-pack-03.txt
+cfc-footnotes-04-fn0093	cfc-footnotes-04	羽島論文	93	30	武田・前掲注(68)3069の4頁。 (P30)	packs/cfc-footnotes-04-pack-03.txt
+cfc-footnotes-04-fn0094	cfc-footnotes-04	羽島論文	94	30	武田・前掲注(68) 3069の4頁・5頁。 (P30)	packs/cfc-footnotes-04-pack-03.txt
+cfc-footnotes-04-fn0095	cfc-footnotes-04	羽島論文	95	31	「船齢」とは、船の進水後の経過年数のことをいう。新村出編『広辞苑第6版』1612頁(岩波書店、2008)。 (P31)	packs/cfc-footnotes-04-pack-03.txt
+cfc-footnotes-04-fn0096	cfc-footnotes-04	羽島論文	96	31	国税庁『昭和49年 改正税法のすべて』75頁。 (P31)	packs/cfc-footnotes-04-pack-03.txt
+cfc-footnotes-04-fn0097	cfc-footnotes-04	羽島論文	97	31	伏見・前掲注(72)310頁。 (P31)	packs/cfc-footnotes-04-pack-03.txt
+cfc-footnotes-04-fn0098	cfc-footnotes-04	羽島論文	98	31	成松洋一著『圧縮記帳の法人税務〔10訂版〕』425頁・430頁(大蔵財務協会、2012)。 (P31)	packs/cfc-footnotes-04-pack-03.txt

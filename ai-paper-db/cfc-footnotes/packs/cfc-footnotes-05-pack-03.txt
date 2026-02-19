@@ -1,0 +1,202 @@
+---
+id: "cfc-footnotes-05-pack-03"
+section_id: "cfc-footnotes-05"
+section_title: "鍋谷論文"
+footnote_no_start: 158
+footnote_no_end: 174
+fid_start: "cfc-footnotes-05-fn0158"
+fid_end: "cfc-footnotes-05-fn0174"
+record_count: 17
+part_index: 4
+part_total: 4
+source_file: "鍋谷論文脚注集.txt"
+source_title: "鍋谷論文"
+url: "https://jplawdb.github.io/html-preview/ai-paper-db/cfc-footnotes/packs/cfc-footnotes-05-pack-03.txt"
+---
+## cfc-footnotes-05-fn0158 (footnote 158, page ?)
+
+### 本文該当箇所
+「... どのように判定するかの問題がある (158)。」
+
+### 脚注内容
+「(158) OECD, supra note 68, para 94.」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0159 (footnote 159, page ?)
+
+### 本文該当箇所
+「... どのように認定するかの問題はある(159)。」
+
+### 脚注内容
+「(159) OECD, supra note 68, para 94.」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0160 (footnote 160, page ?)
+
+### 本文該当箇所
+「... きめ細かに要件を定めることが適当であろう(160)。」
+
+### 脚注内容
+「(160) 特定外国子会社等が行う各種の事業をそれぞれ一単位として、適用除外基準の判定及び合算所得の計算をその事業単位で行うという「事業アプローチ」を提唱する意見もある（伴忠彦「外国子会社合算税制における合算方式と適用除外基準の再考」税大論叢 63 号 189 頁以下（2009, http://www.nta.go.jp/ntc/kenkyu/ronsou/63/02/pdf/63-2.pdf））。また、適用除外基準を満たす場合でも合算課税の対象となる受動的所得の範囲の拡大（インカム・アプローチの拡充）を提唱する意見もある（保井久里子「外国子会社合算税制における新しい概念について―資産性所得を中心として―」税大論叢 71 号335 頁以下（http://www.nta.go.jp/ntc/kenkyu/ronsou/71/03/03.pdf））。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0161 (footnote 161, page ?)
+
+### 本文該当箇所
+「... 先例や経験を生かすことができると思われること(161)。」
+
+### 脚注内容
+「(161) 例えば、法法 138 条、所法 141 条、租税条約の各規定。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0162 (footnote 162, page ?)
+
+### 本文該当箇所
+「... ②「その取引の相手方が関連者であるかどうか」によることが考えられるとの意見がある(162)。」
+
+### 脚注内容
+「(162) 小田嶋・前掲注(59) 260 頁。ただし、この意見は、英国の新制度が成立する前に示されたものであることに留意する必要がある。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0163 (footnote 163, page ?)
+
+### 本文該当箇所
+「... 外国基地会社販売所得に該当することを免れることがないようにするための規定(163)を設けるとともに、...」
+
+### 脚注内容
+「(163) IRC954 条⒟⑵, 財務省規則 1.954-3⒝.」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0164 (footnote 164, page ?)
+
+### 本文該当箇所
+「CFC 自身が製造した資産は外国基地会社販売所得には含まれず(164)、...」
+
+### 脚注内容
+「(164) 財務省規則 1.954-3⒜⑷(i) .」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0165 (footnote 165, page ?)
+
+### 本文該当箇所
+「... CFC 自身が製造したものと取り扱うこととされている(165)。」
+
+### 脚注内容
+「(165) 財務省規則 1.954-3⒜⑷(iv). このような取扱いに基づき、来料加工取引から生じる所得については、「米国 CFC ルールの適用を受けないものと思われる」との見解がある（経済産業省「平成 21 年度 対内直接投資情報発信等事業（タックスヘイブン対策税制等各国税制調査）調査報告書」13 頁, 165～169 頁（2010））。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0166 (footnote 166, page ?)
+
+### 本文該当箇所
+「イ 取引(所得)アプローチは、制度及び執行の複雑さを伴うものであり、それ自身で制度を簡便なものとすることは容易ではない(166)。」
+
+### 脚注内容
+「(166) 制度創設時の立案担当者は、「本税制は、執行上の簡便性の観点から、いわゆる汚い所得のみを抽出して課税する米・西独方式はとら」なかったとしている（高橋・前掲注(52) 136 頁）。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0167 (footnote 167, page ?)
+
+### 本文該当箇所
+「... 法人単位での適用除外を幅広く認めていること(167)。」
+
+### 脚注内容
+「(167) 神山准教授は、英国の制度について、「ゲートウェイ審査の導入により、新 CFC 税制は、純粋なインカム・アプローチではないものの、旧 CFC 税制と比較すると、インカム・アプローチの側面を強めたハイブリッドタイプの制度と評価することが可能であろう。」と述べられている（神山・前掲注(114) 276 頁）。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0168 (footnote 168, page ?)
+
+### 本文該当箇所
+「(ﾛ) BEPS に関する議論において、事業体アプローチが完全に否定されているものではないこと(168)。」
+
+### 脚注内容
+「(168) OECD, supra note 68, footnote 62.」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0169 (footnote 169, page ?)
+
+### 本文該当箇所
+「... 納税者及び課税当局の双方にとって定着したものであると考えられること(169)。」
+
+### 脚注内容
+「(169) 一般社団法人日本経済団体連合会（経団連）「BEPS 行動計画 3(CFC 税制)に係わる公開討議草案に対する意見」（2015 年 4 月 30 日）では、「［BEPS 対策］の政策目的を達成するための手段には entity approach を含め多様なアプローチがあって良いと考えられ」、「とりわけ、entity approach には CFC に該当するかどうかの判断を簡潔に行うことができ、課税当局・納税者の双方にとって、簡便な制度と言える」、「能動的/受動的所得の判定については、当該企業の事業実態を考慮し、BEPS リスクの少ない企業については、企業の外形等からできるだけ簡便に判定を行い、事務負担等を軽減するかたちとすることが望ましい」との見解が示されている。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0170 (footnote 170, page ?)
+
+### 本文該当箇所
+「... 英国の法人税率の引下げがある(170)。」
+
+### 脚注内容
+「(170) 平成 27 年度税制改正におけるトリガー税率引下げの理由として、英国が 2015 年度から法人税率を 20%（現行 21%）に引き下げる結果、外国子会社合算税制が適用される可能性があることが挙げられている（財務省・前掲注(50) 693 頁）。また、経団連は「18%以下」にすることを要望している（経団連「平成 27 年度税制改正に関する提言」11 頁（2014））が、英国は、2015 年夏予算において、法人税率を 2017 年に 19%、2020 年に 18%に更に段階的に引き下げる方針を打ち出している（HM Treasury “SUMMER BUDGET 2015” (July 2015) p.54, (http://www.gov.uk/ government/uploads/system/uploads/attachment_data/file/443232/50325_ Summer_Budget_15_Web_Accessible.pdf（平成 27 年 8 月 24 日最終閲覧）) ）。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0171 (footnote 171, page ?)
+
+### 本文該当箇所
+「... 「ホワイト・リスト」の導入を検討する余地があるように思われる(171)。」
+
+### 脚注内容
+「(171) 経団連は、ホワイト・リストの導入が望ましいとの見解を示している（経団連・前掲注(169)）。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0172 (footnote 172, page ?)
+
+### 本文該当箇所
+「この勧告を受け、我が国のみならず、諸外国が今後どのような対応をとっていくことになるのかが注目される(172)。」
+
+### 脚注内容
+「(172) 中里教授は、「BEPS プロジェクトの中で、私達が心配していて、しかし、現実には、どこまでいくのか何ともわからないのは、タックスヘイブン対策税制に関するプロジェクトではないかと思います。」との見解を示されている（中里実「BEPSプロジェクトはどこまで実現されるか」租税研究 790 号 12 頁（2015）。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0173 (footnote 173, page ?)
+
+### 本文該当箇所
+「例えば、英国では、本年 4 月に迂回利益税(Diverted Profits Tax) を導入した(173)。」
+
+### 脚注内容
+「(173) 英国における恒久的施設（PE）の認定を回避しようとする取決め及び各国の税制の違い（ミスマッチ）を利用し経済実態を欠いた取決めに対処するために、その認定がされた場合及びそのミスマッチがなかった場合に発生したであろう所得に対して、通常の法人税とは別の租税として、25%の税率で課税するもの。2015 年 4 月 1日から施行・適用開始がされている。詳細については、HM Treasury and HM Revenue & Customs Policy paper “Finance Bill 2015: diverted profits tax” (10 December 2014) (http://www.gov.uk/government/uploads/system/uploads/ attachment_data/file/385741/Diverted_Profits_Tax.pdf（平成 27 年 2 月 26 日最終閲覧）)、HM Revenue & Customs Guidance “Diverted Profits Tax: guidance”(10 December 2014) (http:// www.gov.uk/government/uploads/system/uploads/ attachment_data/file/385264/technical_note_measure_2148.pdf（平成 27 年 2 月16 日最終閲覧）)等。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
+## cfc-footnotes-05-fn0174 (footnote 174, page ?)
+
+### 本文該当箇所
+「オーストラリアにおいてもこれと同様の観点から既存の租税回避防止規定を改正しようという動きがある (174)。」
+
+### 脚注内容
+「(174) 全世界年間売上 10 億オーストラリアドル超の多国籍企業グループに属する外国法人が、オーストラリア国内でその関連者等による支援を受けて、オーストラリアの顧客に商品又は役務の提供をしている場合において、当該外国法人が無税又は軽課税（税率等による定義なし）の国・地域と関係があり、その取引スキームが租税回避を主たる目的とするときに、租税回避防止規定の適用により法人税の課税（同額の加算税等の賦課を含む。）をすること（2016 年 1 月 1 日から適用）が、2015/16 年度連邦政府予算案の中で提案されている。詳細については、“BUDGET 2015: Fairness in Tax and Benefits”(http://www.budget.gov.au/2015-16/content/glossy/tax/download/Tax-and-Benefits.pdf)（平成27年6月24日最終閲覧）等。」
+
+- source_file: 鍋谷論文脚注集.txt
+- parse_method: explicit-block
+
