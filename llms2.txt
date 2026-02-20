@@ -2,7 +2,6 @@
 # 設計前提: 1 Read ≒ 10kトークン / 1セッション ≒ 40回読み込み
 # 原則: 軽い索引で絞る → 本文に最短到達
 # base URL: https://jplawdb.github.io/html-preview/
-# 実務レシピ版: `/html-preview/llms3.txt`
 
 ## 迷ったら（DB選択の早見表）
 
@@ -113,11 +112,10 @@ NOTE: `core/batch-*.txt` は内部用。入口ナビには使わない。
 - 英字キーワード（HTVI/CCA/APA/CUP/TNMM/DEMPE等）:
   `https://jplawdb.github.io/html-preview/ai-paper-db/{sub-db}/data/latin_terms/index.json` → `data/latin_terms/*.tsv` → packs本文
 
-**収録（4 sub-DB）**
+**収録（3 sub-DB）**
 - oecd-tpg-2022/ : 「OECD 多国籍企業及び税務当局のための移転価格ガイドライン 2022年版」（国税庁参考仮訳）
 - nta-tp-audit/ : 「移転価格事務運営要領」（国税庁事務運営指針）・「移転価格税制の適用に当たっての参考事例集」（国税庁）
 - oecd-beps/ : OECD/G20 BEPS Actions 3,4,8-10,14等（国税庁参考仮訳+OECD原文、選抜9文書）
-- cfc-footnotes/ : CFC関連5論文 脚注集（1URL 10k tokens設計）
 
 ## 5) 租税条約 → ai-treaty-db
 
