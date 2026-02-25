@@ -3493,6 +3493,16 @@ ${content}
                           onScroll={handlePreviewScroll}
                         />
                       </div>
+                    ) : currentMode === 'PPTX' ? (
+                      <div className="w-full h-full relative overflow-auto">
+                        <iframe
+                          srcDoc={previewCode}
+                          title="PPTX Preview"
+                          className="w-full h-full border-0"
+                          sandbox="allow-scripts"
+                          onScroll={handlePreviewScroll}
+                        />
+                      </div>
                     ) : currentMode === 'TEXT' ? (
                       <div className="w-full h-full relative overflow-auto">
                         <iframe
@@ -4249,6 +4259,13 @@ ${content}
                       className="w-full h-full border-0"
                     />
                   </div>
+                ) : currentMode === 'PPTX' ? (
+                  <iframe
+                    srcDoc={previewCode}
+                    title="PPTX Preview"
+                    className="w-full h-full border-0"
+                    sandbox="allow-scripts"
+                  />
                 ) : currentMode === 'PPTX' ? (
                   <iframe
                     srcDoc={previewCode}
