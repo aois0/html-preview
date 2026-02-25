@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CFC合算所得計算：特定船舶特別修繕準備金・特定資産買換圧縮記帳の損金算入可否</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: "Noto Serif JP", "Yu Mincho", "游明朝", Georgia, serif;
+    background: #f8f6f1;
+    color: #1a1a1a;
+    line-height: 1.9;
+    font-size: 15px;
+  }
+  .container {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+  }
+
+  /* Header */
+  .doc-header {
+    border-top: 4px solid #1a3a5c;
+    padding-top: 28px;
+    margin-bottom: 36px;
+  }
+  .doc-meta {
+    font-size: 12px;
+    color: #888;
+    letter-spacing: 0.05em;
+    margin-bottom: 10px;
+    font-family: "Noto Sans JP", sans-serif;
+  }
+  h1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1a3a5c;
+    line-height: 1.5;
+    margin-bottom: 8px;
+  }
+  .subtitle {
+    font-size: 13px;
+    color: #666;
+    font-family: "Noto Sans JP", sans-serif;
+  }
+
+  /* Section */
+  .section {
+    margin-bottom: 40px;
+  }
+  .section-label {
+    display: inline-block;
+    background: #1a3a5c;
+    color: #fff;
+    font-size: 11px;
+    font-family: "Noto Sans JP", sans-serif;
+    letter-spacing: 0.1em;
+    padding: 3px 10px;
+    margin-bottom: 14px;
+    border-radius: 2px;
+  }
+  h2 {
+    font-size: 17px;
+    color: #1a3a5c;
+    border-bottom: 1px solid #c8d4e0;
+    padding-bottom: 6px;
+    margin-bottom: 16px;
+    font-weight: bold;
+  }
+  h3 {
+    font-size: 15px;
+    color: #1a3a5c;
+    margin: 20px 0 10px;
+    font-weight: bold;
+  }
+
+  /* Question box */
+  .question-box {
+    background: #fff;
+    border: 1px solid #c8d4e0;
+    border-left: 4px solid #1a3a5c;
+    padding: 20px 24px;
+    border-radius: 2px;
+    font-size: 14.5px;
+    line-height: 1.85;
+  }
+  .question-box p { margin-bottom: 8px; }
+  .question-box p:last-child { margin-bottom: 0; }
+
+  /* Framework box */
+  .framework-box {
+    background: #eef2f7;
+    border: 1px solid #c8d4e0;
+    padding: 16px 20px;
+    border-radius: 2px;
+    margin-bottom: 16px;
+    font-size: 14px;
+    font-family: "Noto Sans JP", sans-serif;
+  }
+  .framework-box .law-ref {
+    font-weight: bold;
+    color: #1a3a5c;
+  }
+  .arrow {
+    text-align: center;
+    color: #888;
+    font-size: 18px;
+    margin: 6px 0;
+  }
+
+  /* Analysis block */
+  .analysis-block {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 20px 24px;
+    margin-bottom: 20px;
+  }
+  .analysis-block.issue1 { border-top: 3px solid #c0392b; }
+  .analysis-block.issue2 { border-top: 3px solid #2980b9; }
+
+  .issue-title {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 14px;
+  }
+  .issue-title.red { color: #c0392b; }
+  .issue-title.blue { color: #2980b9; }
+
+  /* Point list */
+  .point-list {
+    list-style: none;
+    margin: 10px 0;
+  }
+  .point-list li {
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-family: "Noto Sans JP", sans-serif;
+  }
+  .point-list li::before {
+    content: "▸";
+    position: absolute;
+    left: 0;
+    color: #888;
+  }
+
+  /* Quote */
+  blockquote {
+    border-left: 3px solid #aaa;
+    padding: 8px 14px;
+    margin: 12px 0;
+    background: #f9f9f9;
+    font-size: 13.5px;
+    color: #444;
+    font-family: "Noto Sans JP", sans-serif;
+    line-height: 1.7;
+  }
+  .quote-source {
+    font-size: 11px;
+    color: #999;
+    margin-top: 4px;
+  }
+
+  /* Conclusion box */
+  .conclusion-box {
+    padding: 12px 18px;
+    border-radius: 2px;
+    margin-top: 14px;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .conclusion-box.ng {
+    background: #fdf2f2;
+    border: 1px solid #e8b4b4;
+    color: #c0392b;
+  }
+  .conclusion-box.ok {
+    background: #f2f7fd;
+    border: 1px solid #a8c4e0;
+    color: #1a5a8c;
+  }
+  .conclusion-box.conditional {
+    background: #fdfaf2;
+    border: 1px solid #e0d0a0;
+    color: #7a6000;
+  }
+
+  /* Summary table */
+  .summary-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 13px;
+    margin-top: 10px;
+  }
+  .summary-table th {
+    background: #1a3a5c;
+    color: #fff;
+    padding: 10px 14px;
+    text-align: left;
+    font-weight: normal;
+    letter-spacing: 0.03em;
+  }
+  .summary-table td {
+    padding: 10px 14px;
+    border-bottom: 1px solid #e0e0e0;
+    vertical-align: top;
+    line-height: 1.6;
+  }
+  .summary-table tr:nth-child(even) td { background: #f5f5f5; }
+  .badge-ng {
+    display: inline-block;
+    background: #c0392b;
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 11px;
+    font-weight: bold;
+  }
+  .badge-ok {
+    display: inline-block;
+    background: #1a6a9c;
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 11px;
+    font-weight: bold;
+  }
+  .badge-cond {
+    display: inline-block;
+    background: #b8860b;
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 11px;
+    font-weight: bold;
+  }
+
+  /* Interpretation note */
+  .interp-note {
+    background: #f8f4ee;
+    border: 1px solid #d4c49a;
+    border-left: 4px solid #b8860b;
+    padding: 14px 18px;
+    margin-top: 20px;
+    font-size: 13.5px;
+    font-family: "Noto Sans JP", sans-serif;
+    line-height: 1.8;
+    border-radius: 2px;
+  }
+  .interp-note strong { color: #7a5800; }
+
+  /* References */
+  .references {
+    margin-top: 10px;
+    font-size: 12.5px;
+    font-family: "Noto Sans JP", sans-serif;
+    color: #666;
+    line-height: 1.7;
+  }
+  .references li { margin-bottom: 4px; }
+
+  /* Divider */
+  hr {
+    border: none;
+    border-top: 1px solid #d8d0c4;
+    margin: 36px 0;
+  }
+
+  @media (max-width: 600px) {
+    h1 { font-size: 17px; }
+    .analysis-block { padding: 16px; }
+    .summary-table { font-size: 12px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- Header -->
+  <div class="doc-header">
+    <div class="doc-meta">税務研究ノート ｜ 2026.02.26 ｜ CFC税制・本邦法令基準</div>
+    <h1>CFC合算所得計算における<br>特定船舶特別修繕準備金・特定資産買換圧縮記帳の損金算入可否</h1>
+    <div class="subtitle">措法57の8 / 措法65の7 ― 本邦法令基準（措令39の15①一）に即した条文検討</div>
+  </div>
+
+  <!-- Question -->
+  <div class="section">
+    <div class="section-label">設　問</div>
+    <div class="question-box">
+      <p>日本親会社が外国関係会社（CFC）の所得を合算課税しており、当該合算所得を計算している。この計算にあたり、外国関係会社の決算書上、<strong>特定船舶の特別修繕準備金</strong>と<strong>特定資産の買換の圧縮記帳</strong>が費用計上されている。</p>
+      <p>この金額が合算所得の計算上、<strong>損金として認められるか</strong>。条文に即して検討せよ。</p>
+      <p>なお、<strong>本邦法令基準</strong>を採用している。</p>
+    </div>
+  </div>
+
+  <!-- Framework -->
+  <div class="section">
+    <div class="section-label">法的フレームワーク</div>
+    <h2>適用条文の構造</h2>
+
+    <div class="framework-box">
+      <span class="law-ref">措法66の6②二</span>（適用対象金額の計算）<br>
+      「法人税法及びこの法律による各事業年度の所得の金額の計算に<strong>準ずるものとして政令で定める基準</strong>により計算した金額」
+    </div>
+    <div class="arrow">↓</div>
+    <div class="framework-box">
+      <span class="law-ref">措令39の15①一</span>（本邦法令基準・措置法列挙）<br>
+      本邦法令基準採用時に適用される措置法条文を明示列挙：<br><br>
+      　✔ <strong>措法57の8</strong>（特定船舶特別修繕準備金）― 列挙あり<br>
+      　✔ <strong>措法65の7</strong>（特定資産買換圧縮記帳）― 列挙あり、ただし<strong>第4号に係る部分に限る</strong>
+    </div>
+
+    <div class="interp-note">
+      <strong>「準ずる」の解釈原則（石井論文）</strong><br>
+      「準ずる」とは本邦法令を基準として忠実に当てはめることが原則。<strong>手続的要件</strong>（青色申告・届出等）は「準ずる」計算において擬制されると解されるが、<strong>業法・規制法を根拠とする実体的要件</strong>はCFCが国内で事業を行わない限り充足できず、文理解釈によれば適用できない。
+    </div>
+  </div>
+
+  <!-- Issue 1 -->
+  <div class="section">
+    <div class="section-label">論点①</div>
+    <h2>特定船舶の特別修繕準備金（措法57の8）</h2>
+
+    <div class="analysis-block issue1">
+      <div class="issue-title red">措法57の8の要件とCFCへの適用</div>
+
+      <h3>（1）青色申告要件（柱書き）</h3>
+      <ul class="point-list">
+        <li>措法57の8は「<strong>青色申告書を提出する法人</strong>」を適用要件とする</li>
+        <li>CFCは日本での申告義務がなく、青色申告を行わない</li>
+        <li>ただし、措令39の15①一に明示列挙されていることから、<strong>手続的要件として擬制される</strong>と解するのが合理的（列挙に実質的意義を持たせるため）</li>
+      </ul>
+
+      <h3>（2）船舶安全法要件（実体的要件）― 核心的問題</h3>
+      <ul class="point-list">
+        <li>措法57の8①：「<strong>船舶安全法第5条第1項第1号の規定による定期検査を受けなければならない船舶</strong>」</li>
+        <li>船舶安全法は<strong>旗国主義</strong>により、日本籍船舶を主たる対象とする国内法</li>
+        <li>外国法人であるCFCが保有する船舶は通常<strong>外国籍</strong>であり、同法の定期検査対象外</li>
+        <li>これは手続的要件ではなく<strong>船舶の客観的性質に関する実体的要件</strong>であり、「準ずる」計算でも擬制できない</li>
+      </ul>
+
+      <blockquote>
+        「CFCが我が国で事業を行わない限り、我が国の業法・規制法の適用を受けることはないため、文理解釈によると当該要件を満たすことができない場合が一般的に生ずる」
+        <div class="quote-source">石井孝「外国子会社合算税制の課税上の問題についての一考察」</div>
+      </blockquote>
+
+      <div class="conclusion-box ng">
+        【結論①】損金として認められない（損金不算入）<br>
+        <span style="font-weight:normal; font-size:13px;">措令39の15①一への列挙にもかかわらず、措法57の8の実体的要件（船舶安全法上の定期検査対象船舶）をCFCの外国籍船舶は通常満たし得ないため、租税法律主義（文理解釈）の下では損金算入は認められない。</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Issue 2 -->
+  <div class="section">
+    <div class="section-label">論点②</div>
+    <h2>特定資産の買換の圧縮記帳（措法65の7）</h2>
+
+    <div class="analysis-block issue2">
+      <div class="issue-title blue">措令による号の限定と適用可否</div>
+
+      <h3>（1）適用号の限定―「第4号に係る部分に限る」の意義</h3>
+      <ul class="point-list">
+        <li>石井論文・羽島論文は措法65の7①表<strong>第10号</strong>（「船舶法第1条に規定する日本船舶に限る」）を問題として論じていた</li>
+        <li>現行の措令39の15①一は措法65の7を<strong>第4号のみ</strong>に限定 → 第10号（日本船舶要件）は列挙から除外済み</li>
+        <li>すなわち、<strong>船舶の買換えに係る圧縮記帳（第10号）は本邦法令基準の計算対象外</strong>（立法的解決）</li>
+      </ul>
+
+      <h3>（2）手続要件の扱い</h3>
+      <ul class="point-list">
+        <li>措法65の7①後段：「所轄税務署長へのこの項の適用を受ける旨の届出」</li>
+        <li>措法65の7⑥：確定申告書への記載・計算明細書の添付</li>
+        <li>→ 措令が明示列挙していることから、<strong>手続要件は擬制される</strong>と解するのが合理的</li>
+      </ul>
+
+      <h3>（3）国税庁の解釈（参考）</h3>
+      <blockquote>
+        「『例に準じて計算する』との規定になっていることから上記特定外国子会社等が保有する船舶が<strong>第三国船舶である場合には買換えの圧縮記帳の適用はありません</strong>が、当該特定外国子会社等の<strong>所在地国に船籍を置く船舶である場合には日本船舶と同様に買換えの圧縮記帳の適用があり</strong>、合算課税の計算を行っても課税上問題はないものと考えられます。」
+        <div class="quote-source">国税庁調査課海外担当主査 永田勝身「海外取引質疑応答室」国際税務13巻6号44頁（1993）</div>
+      </blockquote>
+      <ul class="point-list">
+        <li>ただし、この見解は旧法（号の限定なし）当時のもの</li>
+        <li>現行法では第10号（船舶）が除外されているため、<strong>船舶の買換えを意図した場合は現行法上適用不可</strong></li>
+      </ul>
+
+      <div class="conclusion-box conditional">
+        【結論②】第4号に該当する買換えに限り損金算入可<br>
+        <span style="font-weight:normal; font-size:13px;">措令39の15①一が第4号に限定していることから、第4号に掲げる資産の買換えであれば手続要件は擬制されて<strong>損金算入が認められる</strong>。一方、第4号に該当しない資産（船舶関連の第10号等）の買換えは<strong>損金不算入</strong>。</span>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Summary -->
+  <div class="section">
+    <div class="section-label">結　論</div>
+    <h2>まとめ</h2>
+
+    <table class="summary-table">
+      <thead>
+        <tr>
+          <th>項　目</th>
+          <th>措令列挙</th>
+          <th>実体的要件の充足</th>
+          <th>結　論</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>特定船舶特別修繕準備金</strong><br><small>（措法57の8）</small></td>
+          <td>あり</td>
+          <td>船舶安全法対象→外国籍船舶は通常対象外</td>
+          <td><span class="badge-ng">損金不算入</span></td>
+        </tr>
+        <tr>
+          <td><strong>特定資産買換圧縮記帳（第4号）</strong><br><small>（措法65の7①表第4号）</small></td>
+          <td>あり（第4号限定）</td>
+          <td>第4号該当の買換え・手続要件は擬制</td>
+          <td><span class="badge-ok">損金算入可</span></td>
+        </tr>
+        <tr>
+          <td><strong>特定資産買換圧縮記帳（第10号・船舶）</strong><br><small>（措法65の7①表第10号）</small></td>
+          <td><strong>なし（除外）</strong></td>
+          <td>―</td>
+          <td><span class="badge-ng">損金不算入</span></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="interp-note" style="margin-top: 24px;">
+      <strong>解釈論の核心</strong><br>
+      「準ずる」の文言は<strong>手続的要件を擬制するが、業法・規制法を前提とする実体的要件は擬制できない</strong>。特別修繕準備金（57の8）は船舶安全法という実体的要件が壁となり損金不算入。買換圧縮記帳（65の7①第4号）は実体的に充足可能な号として措令が列挙しており手続要件を擬制して損金算入可、という整理になる。なお第10号（日本船舶）については立法的に除外済みであり、解釈論の余地はない。
+    </div>
+  </div>
+
+  <!-- References -->
+  <div class="section">
+    <div class="section-label">参考文献・条文</div>
+    <ul class="references">
+      <li>措法66の6（外国子会社合算税制）</li>
+      <li>措令39の15（基準所得金額の計算・本邦法令基準）</li>
+      <li>措法57の8（特定船舶に係る特別修繕準備金）</li>
+      <li>措法65の7（特定の資産の買換えの場合の課税の特例）</li>
+      <li>石井孝「外国子会社合算税制において課税対象金額を本邦法令の規定の例に準じて計算する際の問題点」</li>
+      <li>羽島和宏「外国子会社合算税制の課税上の問題についての一考察」租税資料館賞論文集第23回（2014年）</li>
+      <li>国税庁調査課海外担当主査 永田勝身「海外取引質疑応答室」国際税務13巻6号44頁（1993）</li>
+      <li>jplawdb（ai-law-db / sozei_tokubetsu, sozei_tokubetsu_seirei）</li>
+    </ul>
+  </div>
+
+</div>
+</body>
+</html>
