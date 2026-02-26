@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>サンリオCFC事件 総合インフォグラフィック</title>
+<style>
+  body { margin: 0; background: #0f1923; display: flex; justify-content: center; padding: 20px; }
+  svg { max-width: 100%; height: auto; display: block; }
+</style>
+</head>
+<body>
+<svg viewBox="0 0 1000 2640" xmlns="http://www.w3.org/2000/svg" style="width:1000px;max-width:100%">
+  <defs>
+    <!-- Arrow markers -->
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#4a90d9"/>
+    </marker>
+    <marker id="arr-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/>
+    </marker>
+    <marker id="arr-white" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#ffffff"/>
+    </marker>
+    <marker id="arr-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#f1c40f"/>
+    </marker>
+    <marker id="arr-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#95a5a6"/>
+    </marker>
+    <!-- Drop shadow filter -->
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#00000040"/>
+    </filter>
+    <filter id="shadow-sm" x="-3%" y="-3%" width="106%" height="106%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-color="#00000030"/>
+    </filter>
+    <!-- Glow filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <!-- Gradient backgrounds -->
+    <linearGradient id="grad-navy" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0f2544"/>
+      <stop offset="100%" style="stop-color:#1a3a5c"/>
+    </linearGradient>
+    <linearGradient id="grad-header" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a1628"/>
+      <stop offset="50%" style="stop-color:#1a3a5c"/>
+      <stop offset="100%" style="stop-color:#2c4f7c"/>
+    </linearGradient>
+    <linearGradient id="grad-red" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#922b21"/>
+      <stop offset="100%" style="stop-color:#c0392b"/>
+    </linearGradient>
+    <linearGradient id="grad-blue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1a5276"/>
+      <stop offset="100%" style="stop-color:#2980b9"/>
+    </linearGradient>
+    <linearGradient id="grad-purple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#5b2c6f"/>
+      <stop offset="100%" style="stop-color:#8e44ad"/>
+    </linearGradient>
+    <linearGradient id="grad-dark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1c2833"/>
+      <stop offset="100%" style="stop-color:#212f3d"/>
+    </linearGradient>
+    <linearGradient id="grad-section" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1a3a5c"/>
+      <stop offset="60%" style="stop-color:#2471a3"/>
+      <stop offset="100%" style="stop-color:#1a3a5c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- =============================================
+       BACKGROUND
+       ============================================= -->
+  <rect width="1000" height="2640" fill="#0f1923"/>
+  <!-- Subtle grid texture -->
+  <pattern id="grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40,0 L0,0 0,40" fill="none" stroke="#ffffff06" stroke-width="1"/>
+  </pattern>
+  <rect width="1000" height="2640" fill="url(#grid)"/>
+
+  <!-- =============================================
+       SECTION 1: HEADER
+       ============================================= -->
+  <rect x="0" y="0" width="1000" height="110" fill="url(#grad-header)"/>
+  <!-- Accent line -->
+  <rect x="0" y="107" width="1000" height="3" fill="url(#grad-red)"/>
+  <!-- Decorative left accent -->
+  <rect x="0" y="0" width="6" height="110" fill="#c0392b"/>
+
+  <text x="30" y="38" font-family="'Noto Sans JP', sans-serif" font-size="11" fill="#93c5fd" letter-spacing="3">CASE ANALYSIS</text>
+  <text x="30" y="68" font-family="'Noto Sans JP', sans-serif" font-size="22" font-weight="bold" fill="white">サンリオCFC判決 — 外税控除当初申告要件との構造的対比</text>
+  <text x="30" y="92" font-family="'Noto Sans JP', sans-serif" font-size="12" fill="#94a3b8">東京地裁 令和3年2月26日 / 東京高裁 令和3年11月24日 | 税務訴訟資料第271号-29・131 全文分析</text>
+  <!-- Right badge -->
+  <rect x="820" y="18" width="160" height="74" rx="8" fill="#ffffff0f" stroke="#ffffff20" stroke-width="1"/>
+  <text x="900" y="40" font-family="'Noto Sans JP', sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">判決全文確認済</text>
+  <text x="900" y="57" font-family="'Noto Sans JP', sans-serif" font-size="11" fill="#93c5fd" text-anchor="middle" font-weight="bold">順号13531</text>
+  <text x="900" y="73" font-family="'Noto Sans JP', sans-serif" font-size="11" fill="#93c5fd" text-anchor="middle" font-weight="bold">順号13633</text>
+
+  <!-- =============================================
+       SECTION 2: 事件概要ファクト
+       ============================================= -->
+  <!-- Section Label -->
+  <rect x="30" y="126" width="200" height="24" rx="4" fill="url(#grad-blue)"/>
+  <text x="42" y="143" font-family="'Noto Sans JP', sans-serif" font-size="11" font-weight="bold" fill="white">01  事件の基本事実</text>
+
+  <!-- 4 fact cards in 2x2 -->
+  <!-- Card 1: 当事者 -->
+  <rect x="30" y="158" width="220" height="120" rx="8" fill="#1c2d42" stroke="#2c4f7c" stroke-width="1" filter="url(#shadow-sm)"/>
+  <rect x="30" y="158" width="220" height="28" rx="8" fill="url(#grad-blue)"/>
+  <rect x="30" y="178" width="220" height="8" rx="0" fill="url(#grad-blue)"/>
+  <text x="140" y="177" font-family="'Noto Sans JP', sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">当事者</text>
+  <text x="45" y="207" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#93c5fd" font-weight="bold">原告（納税者）</text>
+  <text x="45" y="222" font-family="'Noto Sans JP', sans-serif" font-size="11" fill="#e2e8f0">株式会社 A（サンリオ）</text>
+  <text x="45" y="237" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#64748b">品川税務署長 管轄</text>
+  <text x="45" y="256" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#f87171" font-weight="bold">被告</text>
+  <text x="45" y="270" font-family="'Noto Sans JP', sans-serif" font-size="11" fill="#e2e8f0">国（東京国税局）</text>
+
+  <!-- Card 2: 課税額 -->
+  <rect x="268" y="158" width="220" height="120" rx="8" fill="#1c2d42" stroke="#2c4f7c" stroke-width="1" filter="url(#shadow-sm)"/>
+  <rect x="268" y="158" width="220" height="28" rx="8" fill="url(#grad-red)"/>
+  <rect x="268" y="178" width="220" height="8" rx="0" fill="url(#grad-red)"/>
+  <text x="378" y="177" font-family="'Noto Sans JP', sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">課税額</text>
+  <text x="283" y="207" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#fca5a5">旧事件（本件）追徴</text>
+  <text x="283" y="226" font-family="'Noto Sans JP', sans-serif" font-size="20" font-weight="bold" fill="#f87171">約11億円</text>
+  <text x="283" y="243" font-family="'Noto Sans JP', sans-serif" font-size="9" fill="#94a3b8">所得約28億円 / H25〜H28年度</text>
+  <text x="283" y="260" font-family="'Noto Sans JP', sans-serif" font-size="9" fill="#64748b">新事件（2023提訴）は約13億円</text>
+  <text x="283" y="275" font-family="'Noto Sans JP', sans-serif" font-size="9" fill="#64748b">（所得約42億円 / 5年間）</text>
+
+  <!-- Card 3: 対象子会社 -->
+  <rect x="506" y="158" width="220" height="120" rx="8" fill="#1c2d42" stroke="#2c4f7c" stroke-width="1" filter="url(#shadow-sm)"/>
+  <rect x="506" y="158" width="220" height="28" rx="8" fill="url(#grad-navy)"/>
+  <rect x="506" y="178" width="220" height="8" rx="0" fill="url(#grad-navy)"/>
+  <text x="616" y="177" font-family="'Noto Sans JP', sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">対象子会社</text>
+  <text x="521" y="207" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#93c5fd" font-weight="bold">B社（香港）</text>
+  <text x="521" y="222" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#e2e8f0">法人税率 16.5%  → 20%未満</text>
+  <text x="521" y="237" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#e2e8f0">キャラクターライセンス事業</text>
+  <text x="521" y="257" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#93c5fd" font-weight="bold">C社（香港）</text>
+  <text x="521" y="272" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#e2e8f0">同上・キャラクタービジネス</text>
+
+  <!-- Card 4: 裁判経過 -->
+  <rect x="744" y="158" width="220" height="120" rx="8" fill="#1c2d42" stroke="#2c4f7c" stroke-width="1" filter="url(#shadow-sm)"/>
+  <rect x="744" y="158" width="220" height="28" rx="8" fill="url(#grad-purple)"/>
+  <rect x="744" y="178" width="220" height="8" rx="0" fill="url(#grad-purple)"/>
+  <text x="854" y="177" font-family="'Noto Sans JP', sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">裁判経過</text>
+  <text x="759" y="205" font-family="'Noto Sans JP', sans-serif" font-size="9" fill="#d8b4fe">H29.12 課税処分（品川税務署長）</text>
+  <text x="759" y="222" font-family="'Noto Sans JP', sans-serif" font-size="9" fill="#fca5a5">R3.2.26  東京地裁 →  棄却</text>
+  <text x="759" y="239" font-family="'Noto Sans JP', sans-serif" font-size="9" fill="#fca5a5">R3.11.24 東京高裁 →  棄却</text>
+  <text x="759" y="256" font-family="'Noto Sans JP', sans-serif" font-size="9" fill="#f1c40f">最高裁へ上告（「到底承服できない」）</text>
+  <text x="759" y="273" font-family="'Noto Sans JP', sans-serif" font-size="9" fill="#94a3b8">裁判長：鎌野真敬（地裁）</text>
+
+  <!-- =============================================
+       SECTION 3: 5争点の論理連鎖
+       ============================================= -->
+  <rect x="30" y="302" width="200" height="24" rx="4" fill="url(#grad-section)"/>
+  <text x="42" y="319" font-family="'Noto Sans JP', sans-serif" font-size="11" font-weight="bold" fill="white">02  5つの争点と裁判所の判断</text>
+
+  <!-- Flow: 5 dispute points -->
+  <!-- Point 1 -->
+  <rect x="30" y="340" width="940" height="52" rx="7" fill="#1e2d3d" stroke="#334155" stroke-width="1"/>
+  <rect x="30" y="340" width="7" height="52" rx="3" fill="#64748b"/>
+  <text x="50" y="362" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#94a3b8" font-weight="bold">争点１</text>
+  <text x="50" y="380" font-family="'Noto Sans JP', sans-serif" font-size="11" fill="#64748b">連結利益積立金額等のお知らせは行政処分か</text>
+  <!-- Result badge -->
+  <rect x="780" y="351" width="170" height="26" rx="5" fill="#374151"/>
+  <text x="865" y="369" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">行政処分でない → 訴え却下</text>
+
+  <!-- Arrow down -->
+  <line x1="500" y1="392" x2="500" y2="408" stroke="#334155" stroke-width="1.5" marker-end="url(#arr-gray)"/>
+
+  <!-- Point 2 -->
+  <rect x="30" y="412" width="940" height="52" rx="7" fill="#1e2d3d" stroke="#334155" stroke-width="1"/>
+  <rect x="30" y="412" width="7" height="52" rx="3" fill="#64748b"/>
+  <text x="50" y="434" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#94a3b8" font-weight="bold">争点２</text>
+  <text x="50" y="452" font-family="'Noto Sans JP', sans-serif" font-size="11" fill="#64748b">本件各香港子会社は特定外国子会社等（タックスヘイブン居住会社）に該当するか</text>
+  <rect x="780" y="423" width="170" height="26" rx="5" fill="#374151"/>
+  <text x="865" y="441" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#64748b" text-anchor="middle">判断省略（後の争点で棄却）</text>
+
+  <line x1="500" y1="464" x2="500" y2="480" stroke="#334155" stroke-width="1.5" marker-end="url(#arr-gray)"/>
+
+  <!-- Point 3 - KEY -->
+  <rect x="30" y="484" width="940" height="66" rx="7" fill="#2d1515" stroke="#c0392b" stroke-width="1.5" filter="url(#shadow-sm)"/>
+  <rect x="30" y="484" width="7" height="66" rx="3" fill="#c0392b"/>
+  <!-- Star marker -->
+  <text x="44" y="516" font-family="sans-serif" font-size="14" fill="#f1c40f">★</text>
+  <text x="64" y="504" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#fca5a5" font-weight="bold">争点３  〔核心①〕</text>
+  <text x="64" y="521" font-family="'Noto Sans JP', sans-serif" font-size="12" font-weight="bold" fill="#fde8e8">適用除外記載書面を確定申告書に添付していなくても、適用除外規定を受けられるか</text>
+  <text x="64" y="540" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#fca5a5">→ 措法66条の6第７項は適用要件（効力要件）であり、書面不添付 ＝ 適用除外の権利消滅</text>
+  <!-- Result -->
+  <rect x="780" y="493" width="170" height="46" rx="5" fill="#7f1d1d"/>
+  <text x="865" y="511" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#fca5a5" text-anchor="middle" font-weight="bold">適用除外：認めず</text>
+  <text x="865" y="527" font-family="'Noto Sans JP', sans-serif" font-size="9" fill="#fca5a5" text-anchor="middle">地裁・高裁とも</text>
+
+  <line x1="500" y1="550" x2="500" y2="566" stroke="#c0392b" stroke-width="2" marker-end="url(#arr-red)"/>
+
+  <!-- Point 4 -->
+  <rect x="30" y="570" width="940" height="66" rx="7" fill="#1e1a2e" stroke="#8e44ad" stroke-width="1.5"/>
+  <rect x="30" y="570" width="7" height="66" rx="3" fill="#8e44ad"/>
+  <text x="44" y="592" font-family="sans-serif" font-size="14" fill="#d8b4fe">⚖</text>
+  <text x="64" y="590" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#d8b4fe" font-weight="bold">争点４  〔理由の差替え〕</text>
+  <text x="64" y="607" font-family="'Noto Sans JP', sans-serif" font-size="12" font-weight="bold" fill="#f0e6ff">書面不添付を理由とする主張の追加は、違法な「理由の差替え」として許されないか</text>
+  <text x="64" y="626" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#d8b4fe">→ 処分適正化機能・争点明確化機能の観点から、追加は許される。差替えには当たらない</text>
+  <rect x="780" y="579" width="170" height="46" rx="5" fill="#4a235a"/>
+  <text x="865" y="597" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#d8b4fe" text-anchor="middle" font-weight="bold">差替え：許容</text>
+  <text x="865" y="613" font-family="'Noto Sans JP', sans-serif" font-size="9" fill="#d8b4fe" text-anchor="middle">地裁・高裁とも</text>
+
+  <line x1="500" y1="636" x2="500" y2="652" stroke="#c0392b" stroke-width="2" marker-end="url(#arr-red)"/>
+
+  <!-- Point 5 - KEY -->
+  <rect x="30" y="656" width="940" height="80" rx="7" fill="#2d1515" stroke="#c0392b" stroke-width="1.5" filter="url(#shadow-sm)"/>
+  <rect x="30" y="656" width="7" height="80" rx="3" fill="#c0392b"/>
+  <text x="44" y="698" font-family="sans-serif" font-size="14" fill="#f1c40f">★</text>
+  <text x="64" y="676" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#fca5a5" font-weight="bold">争点５  〔核心②〕  予備的主張</text>
+  <text x="64" y="694" font-family="'Noto Sans JP', sans-serif" font-size="12" font-weight="bold" fill="#fde8e8">仮にCFC課税が適用されるとしても、外国税額控除（法人税法69条15項）は適用されるか</text>
+  <text x="64" y="712" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#fca5a5">→ 法人税法69条15項も適用要件（当初申告要件型）。明細書未添付 ＝ 外税控除の権利消滅</text>
+  <text x="64" y="727" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#fca5a5">→ 「特別の事情」後段も：控除限度額の増額再計算のみ。外国法人税の範囲拡大は不可</text>
+  <rect x="780" y="665" width="170" height="60" rx="5" fill="#7f1d1d"/>
+  <text x="865" y="686" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#fca5a5" text-anchor="middle" font-weight="bold">外税控除：認めず</text>
+  <text x="865" y="702" font-family="'Noto Sans JP', sans-serif" font-size="9" fill="#fca5a5" text-anchor="middle">地裁・高裁とも</text>
+  <text x="865" y="718" font-family="'Noto Sans JP', sans-serif" font-size="9" fill="#fca5a5" text-anchor="middle">最高裁へ上告</text>
+
+  <!-- Result box -->
+  <rect x="30" y="754" width="940" height="40" rx="7" fill="#7f1d1d" filter="url(#shadow)"/>
+  <text x="500" y="779" font-family="'Noto Sans JP', sans-serif" font-size="13" font-weight="bold" fill="white" text-anchor="middle">
+    ▶ 結論：CFC合算課税 ＋ 外税控除なし　＝　香港法人税（16.5%）＋日本法人税　の完全二重課税が確定
+  </text>
+
+  <!-- =============================================
+       SECTION 4: 二つの書面要件の構造的矛盾
+       ============================================= -->
+  <rect x="30" y="820" width="260" height="24" rx="4" fill="url(#grad-section)"/>
+  <text x="42" y="837" font-family="'Noto Sans JP', sans-serif" font-size="11" font-weight="bold" fill="white">03  二つの書面要件の構造的対比</text>
+
+  <!-- Left column: 適用除外書面 -->
+  <rect x="30" y="858" width="440" height="320" rx="10" fill="#1e2d3d" stroke="#2980b9" stroke-width="1.5" filter="url(#shadow-sm)"/>
+  <rect x="30" y="858" width="440" height="36" rx="10" fill="url(#grad-blue)"/>
+  <rect x="30" y="882" width="440" height="12" fill="url(#grad-blue)"/>
+  <text x="250" y="882" font-family="'Noto Sans JP', sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">適用除外記載書面</text>
+  <text x="250" y="916" font-family="'Noto Sans JP', sans-serif" font-size="11" fill="#93c5fd" text-anchor="middle" font-weight="bold">措法66条の6第７項（旧６項）</text>
+  <text x="250" y="933" font-family="'Noto Sans JP', sans-serif" font-size="11" fill="#93c5fd" text-anchor="middle">措法68条の90第７項（連結法人）</text>
+
+  <!-- Property rows -->
+  <line x1="50" y1="948" x2="450" y2="948" stroke="#2c4f7c" stroke-width="1"/>
+  <text x="50" y="965" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#64748b">法的性格</text>
+  <text x="200" y="965" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#fca5a5" font-weight="bold">適用要件（効力要件）</text>
+  <line x1="50" y1="978" x2="450" y2="978" stroke="#2c4f7c" stroke-width="1"/>
+  <text x="50" y="995" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#64748b">添付先</text>
+  <text x="200" y="995" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#e2e8f0">確定申告書</text>
+  <line x1="50" y1="1008" x2="450" y2="1008" stroke="#2c4f7c" stroke-width="1"/>
+  <text x="50" y="1025" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#64748b">制度目的</text>
+  <text x="200" y="1025" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#e2e8f0">課税庁の適用除外要件審査促進</text>
+  <line x1="50" y1="1038" x2="450" y2="1038" stroke="#2c4f7c" stroke-width="1"/>
+  <text x="50" y="1055" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#64748b">事後救済</text>
+  <text x="200" y="1055" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#e2e8f0">平成27年改正・宥恕規定（やむを得ない事情）</text>
+  <line x1="50" y1="1068" x2="450" y2="1068" stroke="#2c4f7c" stroke-width="1"/>
+  <text x="50" y="1085" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#64748b">「調査中の情報提供」代替</text>
+  <text x="200" y="1085" font-family="'Noto Sans JP', sans-serif" font-size="11" fill="#f87171" font-weight="bold">✗ 不可（地裁・高裁）</text>
+  <line x1="50" y1="1098" x2="450" y2="1098" stroke="#2c4f7c" stroke-width="1"/>
+  <!-- Meaning box -->
+  <rect x="50" y="1112" width="400" height="50" rx="6" fill="#1a3a5c"/>
+  <text x="250" y="1131" font-family="'Noto Sans JP', sans-serif" font-size="11" fill="#93c5fd" text-anchor="middle" font-weight="bold">申告書上の意味</text>
+  <text x="250" y="1150" font-family="'Noto Sans JP', sans-serif" font-size="12" fill="#dbeafe" text-anchor="middle" font-weight="bold">「私はCFC課税を受けません」</text>
+
+  <!-- VS Badge -->
+  <circle cx="500" cy="1018" r="26" fill="#1a3a5c" stroke="#f1c40f" stroke-width="2" filter="url(#shadow)"/>
+  <text x="500" y="1024" font-family="sans-serif" font-size="16" font-weight="bold" fill="#f1c40f" text-anchor="middle">VS</text>
+
+  <!-- Right column: 外税控除明細書 -->
+  <rect x="530" y="858" width="440" height="320" rx="10" fill="#2d1515" stroke="#c0392b" stroke-width="1.5" filter="url(#shadow-sm)"/>
+  <rect x="530" y="858" width="440" height="36" rx="10" fill="url(#grad-red)"/>
+  <rect x="530" y="882" width="440" height="12" fill="url(#grad-red)"/>
+  <text x="750" y="882" font-family="'Noto Sans JP', sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">外国税額控除明細書</text>
+  <text x="750" y="916" font-family="'Noto Sans JP', sans-serif" font-size="11" fill="#fca5a5" text-anchor="middle" font-weight="bold">法人税法69条15項（前段）</text>
+  <text x="750" y="933" font-family="'Noto Sans JP', sans-serif" font-size="11" fill="#fca5a5" text-anchor="middle">法人税法81条の15第9項（連結法人）</text>
+
+  <line x1="550" y1="948" x2="950" y2="948" stroke="#7f1d1d" stroke-width="1"/>
+  <text x="550" y="965" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#64748b">法的性格</text>
+  <text x="700" y="965" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#fca5a5" font-weight="bold">適用要件（当初申告要件型）</text>
+  <line x1="550" y1="978" x2="950" y2="978" stroke="#7f1d1d" stroke-width="1"/>
+  <text x="550" y="995" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#64748b">添付先</text>
+  <text x="700" y="995" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#e2e8f0">確定申告書 / 修正申告書 / 更正請求書</text>
+  <line x1="550" y1="1008" x2="950" y2="1008" stroke="#7f1d1d" stroke-width="1"/>
+  <text x="550" y="1025" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#64748b">制度目的</text>
+  <text x="700" y="1025" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#e2e8f0">選択の確実化・計算の透明性確保</text>
+  <line x1="550" y1="1038" x2="950" y2="1038" stroke="#7f1d1d" stroke-width="1"/>
+  <text x="550" y="1055" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#64748b">事後救済</text>
+  <text x="700" y="1055" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#e2e8f0">平成23年改正・修正申告書等への添付も可</text>
+  <line x1="550" y1="1068" x2="950" y2="1068" stroke="#7f1d1d" stroke-width="1"/>
+  <text x="550" y="1085" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#64748b">「特別の事情」後段</text>
+  <text x="700" y="1085" font-family="'Noto Sans JP', sans-serif" font-size="11" fill="#f87171" font-weight="bold">✗ 外国法人税の範囲拡大は不可</text>
+  <line x1="550" y1="1098" x2="950" y2="1098" stroke="#7f1d1d" stroke-width="1"/>
+  <!-- Meaning box -->
+  <rect x="550" y="1112" width="400" height="50" rx="6" fill="#7f1d1d"/>
+  <text x="750" y="1131" font-family="'Noto Sans JP', sans-serif" font-size="11" fill="#fca5a5" text-anchor="middle" font-weight="bold">申告書上の意味</text>
+  <text x="750" y="1150" font-family="'Noto Sans JP', sans-serif" font-size="12" fill="#fecdd3" text-anchor="middle" font-weight="bold">「私はCFC課税を受けます（控除します）」</text>
+
+  <!-- Contradiction Arrow -->
+  <path d="M470,1175 Q500,1195 530,1175" stroke="#f1c40f" stroke-width="2.5" fill="none" stroke-dasharray="6,3"/>
+  <text x="500" y="1202" font-family="'Noto Sans JP', sans-serif" font-size="11" fill="#f1c40f" text-anchor="middle" font-weight="bold">── 論理矛盾・排他的対立 ──</text>
+
+  <!-- =============================================
+       SECTION 5: 法人税法69条15項の構造
+       ============================================= -->
+  <rect x="30" y="1226" width="260" height="24" rx="4" fill="url(#grad-section)"/>
+  <text x="42" y="1243" font-family="'Noto Sans JP', sans-serif" font-size="11" font-weight="bold" fill="white">04  法人税法69条15項の構造と平成23年改正</text>
+
+  <!-- 69条15項 box -->
+  <rect x="30" y="1264" width="940" height="200" rx="10" fill="#1a2535" stroke="#334155" stroke-width="1.5"/>
+
+  <!-- 前段 -->
+  <rect x="50" y="1282" width="420" height="160" rx="8" fill="#1c3a5a" stroke="#2980b9" stroke-width="1"/>
+  <rect x="50" y="1282" width="420" height="28" rx="8" fill="url(#grad-blue)"/>
+  <rect x="50" y="1302" width="420" height="8" fill="url(#grad-blue)"/>
+  <text x="260" y="1300" font-family="'Noto Sans JP', sans-serif" font-size="11" font-weight="bold" fill="white" text-anchor="middle">前段：適用要件（効力要件）</text>
+  <text x="70" y="1328" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#93c5fd" font-weight="bold">要件①</text>
+  <text x="130" y="1328" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#e2e8f0">確定申告書等に明細書の添付</text>
+  <text x="70" y="1348" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#93c5fd" font-weight="bold">要件②</text>
+  <text x="130" y="1348" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#e2e8f0">控除対象外国法人税を課されたことを証する書類の保存</text>
+  <line x1="70" y1="1362" x2="450" y2="1362" stroke="#2c4f7c" stroke-width="1"/>
+  <text x="70" y="1378" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#fca5a5">効果：両要件を欠く場合、外税控除の適用なし</text>
+
+  <!-- 平成23年改正の注記 -->
+  <rect x="70" y="1390" width="380" height="36" rx="5" fill="#1a3a5c"/>
+  <text x="260" y="1405" font-family="'Noto Sans JP', sans-serif" font-size="9" fill="#93c5fd" text-anchor="middle" font-weight="bold">平成23年度改正で「当初申告要件を緩和」</text>
+  <text x="260" y="1420" font-family="'Noto Sans JP', sans-serif" font-size="9" fill="#bfdbfe" text-anchor="middle">旧法：確定申告書への添付のみ  →  改正後：修正申告書・更正請求書への添付も可</text>
+
+  <!-- 後段 -->
+  <rect x="510" y="1282" width="440" height="160" rx="8" fill="#2d1515" stroke="#c0392b" stroke-width="1"/>
+  <rect x="510" y="1282" width="440" height="28" rx="8" fill="url(#grad-red)"/>
+  <rect x="510" y="1302" width="440" height="8" fill="url(#grad-red)"/>
+  <text x="730" y="1300" font-family="'Noto Sans JP', sans-serif" font-size="11" font-weight="bold" fill="white" text-anchor="middle">後段：「特別の事情」例外</text>
+  <text x="530" y="1328" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#fca5a5">「税務署長において特別の事情がある場合」</text>
+  <text x="530" y="1346" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#fca5a5">明細書記載額を超えた控除を認める規定</text>
+  <line x1="530" y1="1360" x2="930" y2="1360" stroke="#7f1d1d" stroke-width="1"/>
+  <text x="530" y="1378" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#fca5a5" font-weight="bold">裁判所の解釈（地裁・高裁）：</text>
+  <text x="530" y="1394" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#f87171">✗ 外国法人税の範囲自体の拡大には使えない</text>
+  <text x="530" y="1410" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#f87171">✓ 控除限度額の増額再計算のみ許容</text>
+
+  <!-- Key finding: 平成23年改正と本件 -->
+  <rect x="30" y="1478" width="940" height="52" rx="7" fill="#1e1a0a" stroke="#f1c40f" stroke-width="1.5"/>
+  <text x="50" y="1497" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#f1c40f" font-weight="bold">高裁の明示判断（順号13633）</text>
+  <text x="50" y="1515" font-family="'Noto Sans JP', sans-serif" font-size="11" fill="#fef3c7">「平成23年度税制改正による当初申告要件の緩和をもって、確定申告書等に明細書の添付がない場合に、</text>
+  <text x="50" y="1530" font-family="'Noto Sans JP', sans-serif" font-size="11" fill="#fef9c3" font-weight="bold">それ以外の方法により納税者が制度を選択し適用範囲を拡張することを許容されたとも認められない。」</text>
+
+  <!-- =============================================
+       SECTION 6: 論理的二重拘束
+       ============================================= -->
+  <rect x="30" y="1556" width="260" height="24" rx="4" fill="url(#grad-section)"/>
+  <text x="42" y="1573" font-family="'Noto Sans JP', sans-serif" font-size="11" font-weight="bold" fill="white">05  論理的二重拘束：対立する意思の同時要求</text>
+
+  <!-- The core diagram -->
+  <rect x="30" y="1594" width="940" height="290" rx="10" fill="url(#grad-dark)" stroke="#334155" stroke-width="1"/>
+
+  <!-- Taxpayer box (top center) -->
+  <rect x="370" y="1614" width="260" height="54" rx="8" fill="url(#grad-navy)" filter="url(#shadow)"/>
+  <text x="500" y="1636" font-family="'Noto Sans JP', sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">株式会社Ａ（サンリオ）</text>
+  <text x="500" y="1654" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#93c5fd" text-anchor="middle">確定申告書を提出</text>
+
+  <!-- Left option: 適用除外申請 -->
+  <line x1="440" y1="1668" x2="230" y2="1730" stroke="#2980b9" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arr)"/>
+  <rect x="80" y="1730" width="280" height="70" rx="8" fill="#1c3a5a" stroke="#2980b9" stroke-width="1.5"/>
+  <text x="220" y="1753" font-family="'Noto Sans JP', sans-serif" font-size="11" font-weight="bold" fill="#93c5fd" text-anchor="middle">選択Ａ：適用除外書面 添付</text>
+  <text x="220" y="1771" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#dbeafe" text-anchor="middle">「CFC課税を受けません」</text>
+  <text x="220" y="1787" font-family="'Noto Sans JP', sans-serif" font-size="9" fill="#93c5fd" text-anchor="middle">措法66条の6第7項</text>
+
+  <!-- Right option: 外税控除申請 -->
+  <line x1="560" y1="1668" x2="770" y2="1730" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arr-red)"/>
+  <rect x="640" y="1730" width="280" height="70" rx="8" fill="#2d1515" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="780" y="1753" font-family="'Noto Sans JP', sans-serif" font-size="11" font-weight="bold" fill="#fca5a5" text-anchor="middle">選択Ｂ：外税控除明細書 添付</text>
+  <text x="780" y="1771" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#fecdd3" text-anchor="middle">「CFC課税を受けます（控除します）」</text>
+  <text x="780" y="1787" font-family="'Noto Sans JP', sans-serif" font-size="9" fill="#fca5a5" text-anchor="middle">法人税法69条15項</text>
+
+  <!-- サンリオの実際 -->
+  <rect x="335" y="1726" width="330" height="44" rx="6" fill="#374151" stroke="#6b7280" stroke-width="1"/>
+  <text x="500" y="1746" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#9ca3af" text-anchor="middle">サンリオの実際の申告</text>
+  <text x="500" y="1762" font-family="'Noto Sans JP', sans-serif" font-size="11" fill="#d1d5db" text-anchor="middle" font-weight="bold">選択Ａのみ（Ｂ未申告）</text>
+
+  <!-- 高裁の「解決策」 -->
+  <rect x="270" y="1825" width="460" height="44" rx="6" fill="#1a2535" stroke="#8e44ad" stroke-width="1.5"/>
+  <text x="500" y="1844" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#d8b4fe" text-anchor="middle" font-weight="bold">高裁の示した「解決策」</text>
+  <text x="500" y="1861" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#c4b5fd" text-anchor="middle">「適用除外を主張しながら、認められない場合に備えてＢも添付できた」</text>
+
+  <!-- 問題点ラベル -->
+  <path d="M500,1800 L500,1825" stroke="#8e44ad" stroke-width="1.5" stroke-dasharray="4,2" marker-end="url(#arr)"/>
+  <!-- 矛盾マーク -->
+  <text x="490" y="1814" font-family="sans-serif" font-size="18" fill="#ef4444">⚡</text>
+
+  <!-- 問題点3つ -->
+  <rect x="50" y="1882" width="860" height="30" rx="5" fill="#2d1515"/>
+  <text x="500" y="1902" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#fca5a5" text-anchor="middle">
+    問題① 対立意思の同時表明（申告書上の論理的矛盾）　　問題② CFC合算額は更正前に未確定（明細書に記載できない額がある）　　問題③ 過剰な実務負担
+  </text>
+
+  <!-- =============================================
+       SECTION 7: 理論的射程
+       ============================================= -->
+  <rect x="30" y="1936" width="200" height="24" rx="4" fill="url(#grad-section)"/>
+  <text x="42" y="1953" font-family="'Noto Sans JP', sans-serif" font-size="11" font-weight="bold" fill="white">06  理論的射程</text>
+
+  <!-- 4 theory cards -->
+  <!-- Card A -->
+  <rect x="30" y="1972" width="454" height="120" rx="8" fill="#1a1f2e" stroke="#8e44ad" stroke-width="1" filter="url(#shadow-sm)"/>
+  <rect x="30" y="1972" width="454" height="24" rx="8" fill="url(#grad-purple)"/>
+  <rect x="30" y="1988" width="454" height="8" fill="url(#grad-purple)"/>
+  <text x="257" y="1988" font-family="'Noto Sans JP', sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">当初申告要件の本質的緊張</text>
+  <text x="50" y="2012" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#d8b4fe">申告納税制度は「申告時点の意思を尊重」する。</text>
+  <text x="50" y="2028" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#d8b4fe">しかしCFC課税は更正処分で初めて現実化する</text>
+  <text x="50" y="2044" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#d8b4fe">→ 当初申告時点では「CFC課税か否か」が未確定</text>
+  <text x="50" y="2060" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#d8b4fe">→ 当初申告要件の論理的前提が崩れる場面</text>
+  <text x="50" y="2080" font-family="'Noto Sans JP', sans-serif" font-size="9" fill="#9ca3af" font-style="italic">cf. 強制連動説（更正処分と外税控除の一体的適用）</text>
+
+  <!-- Card B -->
+  <rect x="516" y="1972" width="454" height="120" rx="8" fill="#1a1f2e" stroke="#e67e22" stroke-width="1" filter="url(#shadow-sm)"/>
+  <rect x="516" y="1972" width="454" height="24" rx="8" fill="#784212"/>
+  <rect x="516" y="1988" width="454" height="8" fill="#784212"/>
+  <text x="743" y="1988" font-family="'Noto Sans JP', sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">形式主義と二重課税防止の衝突</text>
+  <text x="536" y="2012" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#fdba74">本判決は「文言解釈優先」の形式主義を徹底。</text>
+  <text x="536" y="2028" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#fdba74">しかし外税控除制度の目的＝二重課税排除</text>
+  <text x="536" y="2044" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#fdba74">→ 制度目的と解釈結果が正面から対立</text>
+  <text x="536" y="2060" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#fdba74">→ 日港租税条約（二重課税防止義務）との緊張も</text>
+  <text x="536" y="2080" font-family="'Noto Sans JP', sans-serif" font-size="9" fill="#9ca3af" font-style="italic">高裁：「条約に実質的に違反しない」で短く排斥</text>
+
+  <!-- Card C -->
+  <rect x="30" y="2108" width="454" height="110" rx="8" fill="#1a1f2e" stroke="#27ae60" stroke-width="1" filter="url(#shadow-sm)"/>
+  <rect x="30" y="2108" width="454" height="24" rx="8" fill="#1d5e3a"/>
+  <rect x="30" y="2124" width="454" height="8" fill="#1d5e3a"/>
+  <text x="257" y="2124" font-family="'Noto Sans JP', sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">立法的解決の方向（課題）</text>
+  <text x="50" y="2148" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#6ee7b7">①更正連動条項：更正処分によりCFC課税が確定した場合、</text>
+  <text x="70" y="2164" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#6ee7b7">外税控除を強制適用する規定の創設</text>
+  <text x="50" y="2180" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#6ee7b7">②「特別の事情」後段の明文化：更正処分確定を明示</text>
+  <text x="50" y="2200" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#6ee7b7">③宥恕規定の拡充（外税控除版）</text>
+
+  <!-- Card D -->
+  <rect x="516" y="2108" width="454" height="110" rx="8" fill="#1a1f2e" stroke="#2980b9" stroke-width="1" filter="url(#shadow-sm)"/>
+  <rect x="516" y="2108" width="454" height="24" rx="8" fill="#1a5276"/>
+  <rect x="516" y="2124" width="454" height="8" fill="#1a5276"/>
+  <text x="743" y="2124" font-family="'Noto Sans JP', sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">新事件（令和5年提訴）への影響</text>
+  <text x="536" y="2148" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#93c5fd">2017年税制改正後の「経済活動基準」が問題</text>
+  <text x="536" y="2164" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#93c5fd">書面要件の構造は旧制度と基本的に同様</text>
+  <text x="536" y="2180" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#93c5fd">旧事件の「二重ロック」問題は新事件でも再現</text>
+  <text x="536" y="2196" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#93c5fd">→ 「予防的並行申告」の実践が実務上の必須対応</text>
+
+  <!-- =============================================
+       SECTION 8: 核心命題まとめ
+       ============================================= -->
+  <rect x="30" y="2240" width="200" height="24" rx="4" fill="url(#grad-section)"/>
+  <text x="42" y="2257" font-family="'Noto Sans JP', sans-serif" font-size="11" font-weight="bold" fill="white">07  核心命題</text>
+
+  <!-- Finding 1 -->
+  <rect x="30" y="2278" width="940" height="62" rx="8" fill="url(#grad-dark)" stroke="#f1c40f" stroke-width="1.5" filter="url(#shadow-sm)"/>
+  <rect x="30" y="2278" width="6" height="62" rx="3" fill="#f1c40f"/>
+  <text x="50" y="2298" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#f1c40f">命題①  二重書面要件による完全封鎖</text>
+  <text x="50" y="2316" font-family="'Noto Sans JP', sans-serif" font-size="11" fill="#fef9c3">CFC適用除外書面（措法66の6・7項）と外税控除明細書（法人税法69条15項）は、いずれも「効力要件型の当初申告要件」として機能し、</text>
+  <text x="50" y="2334" font-family="'Noto Sans JP', sans-serif" font-size="11" fill="#fef9c3">納税者が一方を失えば他方も失うという二重封鎖構造を形成した。形式的瑕疵が実体的権利を完全に消滅させる。</text>
+
+  <!-- Finding 2 -->
+  <rect x="30" y="2352" width="940" height="62" rx="8" fill="url(#grad-dark)" stroke="#c0392b" stroke-width="1.5" filter="url(#shadow-sm)"/>
+  <rect x="30" y="2352" width="6" height="62" rx="3" fill="#c0392b"/>
+  <text x="50" y="2372" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#fca5a5">命題②  「予防的申告」要求の矛盾</text>
+  <text x="50" y="2390" font-family="'Noto Sans JP', sans-serif" font-size="11" fill="#fde8e8">高裁が示した解決策（「認められない場合に備えて外税控除の明細書も添付すべきだった」）は、申告書上で</text>
+  <text x="50" y="2408" font-family="'Noto Sans JP', sans-serif" font-size="11" fill="#fde8e8">対立する法的立場の同時表明を要求するものであり、申告納税制度の論理的前提と緊張関係に立つ。</text>
+
+  <!-- Finding 3 -->
+  <rect x="30" y="2426" width="940" height="62" rx="8" fill="url(#grad-dark)" stroke="#8e44ad" stroke-width="1.5" filter="url(#shadow-sm)"/>
+  <rect x="30" y="2426" width="6" height="62" rx="3" fill="#8e44ad"/>
+  <text x="50" y="2446" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#d8b4fe">命題③  本判決の学術的位置付け</text>
+  <text x="50" y="2464" font-family="'Noto Sans JP', sans-serif" font-size="11" fill="#f0e6ff">サンリオ事件は「手続と実体」「形式と目的」の緊張関係をCFC税制において最も鮮烈に示した先例。</text>
+  <text x="50" y="2482" font-family="'Noto Sans JP', sans-serif" font-size="11" fill="#f0e6ff">岡村忠生評釈「サンリオ事件判決への疑問」（国際税務42巻4号）の批判は正当。立法的解決が急務。</text>
+
+  <!-- =============================================
+       FOOTER
+       ============================================= -->
+  <rect x="0" y="2560" width="1000" height="80" fill="#0a1628"/>
+  <rect x="0" y="2560" width="1000" height="2" fill="url(#grad-red)"/>
+  <text x="500" y="2588" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#64748b" text-anchor="middle">
+    分析根拠：税務訴訟資料第271号-29（順号13531・東京地裁）および第271号-131（順号13633・東京高裁）全文確認済
+  </text>
+  <text x="500" y="2606" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#64748b" text-anchor="middle">
+    参照評釈：岡村忠生「サンリオ事件判決への疑問」国際税務42巻4号39-51頁（2022年4月、税務研究会）
+  </text>
+  <text x="500" y="2624" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#475569" text-anchor="middle">
+    DR_20260226_CFC_サンリオ判決  v3 infographic  |  令和8年2月26日
+  </text>
+
+</svg>
+</body>
+</html>
