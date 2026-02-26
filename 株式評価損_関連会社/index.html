@@ -6,233 +6,307 @@
 <title>法人税法上の株式評価損 — 債務超過の関連会社株式</title>
 <style>
   :root {
-    --bg: #0f1923;
-    --card: #1a2535;
-    --border: #2d4060;
-    --accent1: #3b82f6;
-    --accent2: #10b981;
-    --accent3: #f59e0b;
-    --accent4: #ef4444;
-    --text: #e2e8f0;
-    --muted: #94a3b8;
-    --highlight: #fbbf24;
+    --bg: #f1f5f9;
+    --card: #ffffff;
+    --border: #e2e8f0;
+    --border-strong: #cbd5e1;
+    --accent1: #2563eb;
+    --accent2: #059669;
+    --accent3: #d97706;
+    --accent4: #dc2626;
+    --text: #1e293b;
+    --muted: #64748b;
+    --highlight: #1d4ed8;
+    --head-bg: #1e3a5f;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
     background: var(--bg);
     color: var(--text);
-    font-family: 'Hiragino Kaku Gothic Pro', 'Meiryo', sans-serif;
+    font-family: 'Hiragino Kaku Gothic Pro', 'Meiryo', 'Yu Gothic', sans-serif;
+    font-size: 16px;
     line-height: 1.7;
-    padding: 24px;
+    padding: 16px;
+    -webkit-text-size-adjust: 100%;
   }
+
+  /* === ページタイトル === */
   .page-title {
     text-align: center;
-    padding: 32px 0 16px;
+    padding: 28px 0 20px;
   }
   .page-title h1 {
-    font-size: 1.8rem;
-    color: #fff;
-    margin-bottom: 8px;
+    font-size: clamp(1.3rem, 5vw, 1.9rem);
+    color: var(--head-bg);
+    margin-bottom: 6px;
+    line-height: 1.3;
   }
   .page-title .subtitle {
     color: var(--muted);
-    font-size: 0.95rem;
+    font-size: 0.9rem;
+    margin-bottom: 12px;
   }
   .tag {
     display: inline-block;
     background: var(--accent1);
     color: #fff;
-    padding: 2px 10px;
+    padding: 3px 10px;
     border-radius: 12px;
-    font-size: 0.78rem;
-    margin: 2px;
+    font-size: 0.75rem;
+    margin: 3px 2px;
   }
   .tag.green { background: var(--accent2); }
-  .tag.amber { background: var(--accent3); color: #1a1a1a; }
+  .tag.amber { background: var(--accent3); }
   .tag.red { background: var(--accent4); }
 
-  /* === 法令体系フロー === */
-  .flow-section {
-    max-width: 900px;
-    margin: 32px auto;
+  /* === セクション共通 === */
+  .section {
+    max-width: 860px;
+    margin: 0 auto 24px;
   }
   .section-header {
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: bold;
     color: var(--highlight);
     border-left: 4px solid var(--highlight);
-    padding-left: 12px;
-    margin-bottom: 16px;
+    padding: 2px 0 2px 12px;
+    margin-bottom: 14px;
   }
+
+  /* === 訂正バナー === */
+  .correction-banner {
+    max-width: 860px;
+    margin: 0 auto 20px;
+    background: #fffbeb;
+    border: 1px solid #fbbf24;
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-size: 0.85rem;
+    color: #78350f;
+  }
+  .correction-banner strong { color: #92400e; }
+
+  /* === 法令体系フロー === */
   .flow-box {
     background: var(--card);
     border: 1px solid var(--border);
     border-radius: 10px;
-    padding: 16px 20px;
-    margin-bottom: 10px;
-    position: relative;
+    padding: 14px 16px;
+    margin-bottom: 8px;
   }
+  .flow-box.accent { border-color: var(--accent1); border-left-width: 4px; }
   .flow-box .law-ref {
-    font-size: 0.78rem;
+    font-size: 0.75rem;
     color: var(--accent1);
     font-weight: bold;
-    margin-bottom: 4px;
+    margin-bottom: 2px;
   }
   .flow-box .law-title {
-    font-size: 1rem;
+    font-size: 0.97rem;
     font-weight: bold;
-    color: #fff;
+    color: var(--text);
   }
   .flow-box .law-desc {
-    font-size: 0.88rem;
+    font-size: 0.84rem;
     color: var(--muted);
     margin-top: 4px;
   }
+  .flow-box .law-desc strong { color: var(--text); }
   .flow-arrow {
     text-align: center;
     color: var(--muted);
-    font-size: 1.3rem;
-    margin: 4px 0;
+    font-size: 1.1rem;
+    margin: 2px 0;
   }
+  .flow-dual {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+  @media (max-width: 540px) { .flow-dual { grid-template-columns: 1fr; } }
 
   /* === 要件グリッド === */
   .req-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 16px;
-    max-width: 900px;
-    margin: 24px auto;
+    gap: 12px;
+    max-width: 860px;
+    margin: 0 auto 24px;
   }
-  @media (max-width: 640px) { .req-grid { grid-template-columns: 1fr; } }
+  @media (max-width: 540px) { .req-grid { grid-template-columns: 1fr; } }
   .req-card {
     background: var(--card);
     border: 1px solid var(--border);
     border-radius: 10px;
-    padding: 18px;
+    padding: 16px;
   }
+  .req-card.accent2 { border-top: 3px solid var(--accent2); }
   .req-card .req-num {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: bold;
     color: var(--accent1);
     line-height: 1;
   }
+  .req-card.accent2 .req-num { color: var(--accent2); }
   .req-card .req-title {
-    font-size: 1rem;
+    font-size: 0.95rem;
     font-weight: bold;
-    color: #fff;
+    color: var(--text);
     margin: 6px 0 4px;
   }
   .req-card .req-body {
-    font-size: 0.85rem;
+    font-size: 0.83rem;
     color: var(--muted);
+    line-height: 1.6;
   }
   .req-card .req-body strong { color: var(--text); }
-  .req-card.highlight-card { border-color: var(--accent2); }
-  .req-card.highlight-card .req-num { color: var(--accent2); }
 
-  /* === 債務超過分析 === */
+  /* === 分析ボックス === */
   .analysis-box {
-    max-width: 900px;
-    margin: 0 auto 32px;
+    max-width: 860px;
+    margin: 0 auto 16px;
     background: var(--card);
     border: 1px solid var(--border);
     border-radius: 12px;
     overflow: hidden;
   }
   .analysis-head {
-    background: linear-gradient(90deg, #1e3a5f, #1a2535);
-    padding: 14px 20px;
+    background: var(--head-bg);
+    padding: 12px 16px;
     font-weight: bold;
     color: #fff;
-    font-size: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.4;
   }
-  .analysis-body { padding: 20px; }
+  .analysis-body { padding: 16px; }
   .calc-row {
     display: flex;
     align-items: center;
-    gap: 12px;
-    margin: 10px 0;
+    gap: 8px;
     flex-wrap: wrap;
+    margin: 8px 0;
   }
   .calc-box {
-    background: #0f1923;
-    border: 1px solid var(--border);
+    background: var(--bg);
+    border: 1px solid var(--border-strong);
     border-radius: 8px;
-    padding: 10px 16px;
+    padding: 10px 14px;
     text-align: center;
-    min-width: 140px;
+    flex: 1;
+    min-width: 100px;
   }
-  .calc-box .label { font-size: 0.75rem; color: var(--muted); }
-  .calc-box .value { font-size: 1.1rem; font-weight: bold; color: var(--highlight); }
-  .calc-box.result-box { border-color: var(--accent2); }
-  .calc-box.result-box .value { color: var(--accent2); }
-  .op { font-size: 1.3rem; color: var(--muted); }
+  .calc-box .label { font-size: 0.72rem; color: var(--muted); margin-bottom: 2px; }
+  .calc-box .value { font-size: 1rem; font-weight: bold; color: var(--accent1); }
+  .calc-box.red .value { color: var(--accent4); }
+  .calc-box.green { border-color: var(--accent2); }
+  .calc-box.green .value { color: var(--accent2); }
+  .op { font-size: 1.2rem; color: var(--muted); flex-shrink: 0; }
   .conclusion-bar {
-    margin-top: 14px;
-    background: rgba(16,185,129,0.12);
-    border: 1px solid var(--accent2);
+    margin-top: 12px;
+    background: #f0fdf4;
+    border: 1px solid #86efac;
     border-radius: 8px;
-    padding: 12px 16px;
-    font-size: 0.9rem;
+    padding: 10px 14px;
+    font-size: 0.87rem;
+    color: #14532d;
   }
-  .conclusion-bar .icon { color: var(--accent2); font-weight: bold; }
+  .note-bar {
+    margin-top: 10px;
+    font-size: 0.82rem;
+    color: var(--muted);
+  }
+  .note-bar strong { color: var(--text); }
 
-  /* === 比較表 === */
-  .compare-table {
-    max-width: 900px;
-    margin: 0 auto 32px;
+  /* === 支援リスク表 === */
+  .risk-table {
     width: 100%;
     border-collapse: collapse;
-    font-size: 0.87rem;
+    font-size: 0.83rem;
+    margin-top: 8px;
+  }
+  .risk-table th {
+    background: var(--head-bg);
+    color: #fff;
+    padding: 9px 12px;
+    text-align: left;
+    border: 1px solid var(--border-strong);
+  }
+  .risk-table td {
+    padding: 9px 12px;
+    border: 1px solid var(--border);
+    vertical-align: top;
+    background: var(--card);
+  }
+  .risk-table td.risk-high { color: var(--accent4); font-weight: bold; }
+  .risk-table td.risk-mid { color: var(--accent3); font-weight: bold; }
+  .risk-table td.risk-low { color: var(--accent2); font-weight: bold; }
+  .risk-table tr:nth-child(even) td { background: #f8fafc; }
+
+  /* === 比較表（スクロール対応） === */
+  .table-scroll-wrap {
+    max-width: 860px;
+    margin: 0 auto 24px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+  }
+  .compare-table {
+    width: 100%;
+    min-width: 560px;
+    border-collapse: collapse;
+    font-size: 0.83rem;
   }
   .compare-table th {
-    background: #1e3a5f;
+    background: var(--head-bg);
     color: #fff;
-    padding: 10px 14px;
+    padding: 10px 12px;
     text-align: left;
-    border: 1px solid var(--border);
+    border-bottom: 1px solid #2d4a6f;
+    white-space: nowrap;
   }
   .compare-table td {
     background: var(--card);
-    padding: 10px 14px;
-    border: 1px solid var(--border);
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border);
     vertical-align: top;
   }
-  .compare-table td.ok { color: var(--accent2); }
-  .compare-table td.ng { color: var(--accent4); }
-  .compare-table td.caution { color: var(--accent3); }
-  .compare-table tr:hover td { background: #1e2d42; }
+  .compare-table tr:last-child td { border-bottom: none; }
+  .compare-table tr.highlight td { background: #eff6ff; }
+  .compare-table td.ok { color: var(--accent2); font-weight: bold; }
+  .compare-table td.ng { color: var(--accent4); font-weight: bold; }
+  .compare-table td.caution { color: var(--accent3); font-weight: bold; }
 
-  /* === 注意事項カード === */
+  /* === 注意事項グリッド === */
   .warn-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 14px;
-    max-width: 900px;
-    margin: 0 auto 32px;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 12px;
+    max-width: 860px;
+    margin: 0 auto 24px;
   }
   .warn-card {
     background: var(--card);
     border: 1px solid var(--border);
     border-radius: 10px;
-    padding: 16px;
+    padding: 14px 16px;
   }
-  .warn-card.red-border { border-color: var(--accent4); }
-  .warn-card.amber-border { border-color: var(--accent3); }
-  .warn-card.green-border { border-color: var(--accent2); }
-  .warn-card .warn-icon { font-size: 1.4rem; margin-bottom: 6px; }
-  .warn-card .warn-title { font-weight: bold; color: #fff; margin-bottom: 6px; }
-  .warn-card .warn-body { font-size: 0.85rem; color: var(--muted); }
+  .warn-card.amber { border-top: 3px solid var(--accent3); }
+  .warn-card.red   { border-top: 3px solid var(--accent4); }
+  .warn-card.green { border-top: 3px solid var(--accent2); }
+  .warn-card .warn-icon { font-size: 1.3rem; margin-bottom: 4px; }
+  .warn-card .warn-title { font-weight: bold; color: var(--text); font-size: 0.93rem; margin-bottom: 5px; }
+  .warn-card .warn-body { font-size: 0.82rem; color: var(--muted); line-height: 1.6; }
   .warn-card .warn-body strong { color: var(--text); }
 
   /* === 実務フロー === */
   .proc-steps {
-    max-width: 700px;
-    margin: 0 auto 32px;
+    max-width: 680px;
+    margin: 0 auto 24px;
   }
   .proc-step {
     display: flex;
-    gap: 16px;
+    gap: 14px;
     margin-bottom: 12px;
     align-items: flex-start;
   }
@@ -240,61 +314,69 @@
     background: var(--accent1);
     color: #fff;
     font-weight: bold;
-    width: 30px;
-    height: 30px;
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
     font-size: 0.9rem;
-    margin-top: 2px;
+    margin-top: 1px;
   }
-  .step-content .step-title { font-weight: bold; color: #fff; }
-  .step-content .step-detail { font-size: 0.85rem; color: var(--muted); }
+  .step-content .step-title { font-weight: bold; color: var(--text); font-size: 0.95rem; }
+  .step-content .step-detail { font-size: 0.82rem; color: var(--muted); margin-top: 2px; line-height: 1.5; }
 
   /* === まとめ === */
   .summary-box {
-    max-width: 900px;
-    margin: 0 auto 48px;
-    background: linear-gradient(135deg, #1e3a5f, #1a2535);
-    border: 1px solid var(--accent1);
+    max-width: 860px;
+    margin: 0 auto 32px;
+    background: #eff6ff;
+    border: 1px solid #93c5fd;
     border-radius: 12px;
-    padding: 24px;
+    padding: 20px;
   }
-  .summary-box h3 { color: #fff; font-size: 1.05rem; margin-bottom: 12px; }
+  .summary-box h3 { color: var(--head-bg); font-size: 0.97rem; margin-bottom: 10px; }
   .summary-box ul { list-style: none; }
-  .summary-box li { padding: 6px 0; font-size: 0.9rem; border-bottom: 1px solid rgba(255,255,255,0.05); }
+  .summary-box li {
+    padding: 7px 0;
+    font-size: 0.87rem;
+    color: var(--text);
+    border-bottom: 1px solid #bfdbfe;
+    line-height: 1.5;
+  }
   .summary-box li:last-child { border-bottom: none; }
   .summary-box li::before { content: "▶ "; color: var(--accent1); }
 
+  /* === フッター === */
   .footer {
     text-align: center;
     color: var(--muted);
-    font-size: 0.78rem;
-    margin-top: 16px;
-    padding-bottom: 32px;
+    font-size: 0.75rem;
+    padding-bottom: 40px;
+    line-height: 1.8;
   }
 
-  /* 訂正バナー */
-  .correction-banner {
-    max-width: 900px;
-    margin: 0 auto 20px;
-    background: rgba(245,158,11,0.1);
-    border: 1px solid var(--accent3);
-    border-radius: 8px;
-    padding: 12px 16px;
-    font-size: 0.85rem;
+  /* === ポイント注記 === */
+  .sub-note {
+    font-size: 0.82rem;
+    color: var(--muted);
+    margin-top: 10px;
+    padding: 8px 12px;
+    background: #f8fafc;
+    border-radius: 6px;
+    line-height: 1.5;
   }
-  .correction-banner strong { color: var(--accent3); }
+  .sub-note strong { color: var(--accent3); }
 </style>
 </head>
 <body>
 
+<!-- タイトル -->
 <div class="page-title">
   <h1>法人税法上の株式評価損</h1>
-  <div class="subtitle">債務超過の関連会社株式 — 計上要件と実務上の論点</div>
-  <div style="margin-top:10px;">
+  <div class="subtitle">債務超過の関連会社株式 — 計上要件と実務論点</div>
+  <div>
     <span class="tag">法人税法33条2項</span>
     <span class="tag">法令68条1項2号ロ</span>
     <span class="tag">法基通9-1-9</span>
@@ -306,13 +388,11 @@
 <!-- 訂正バナー -->
 <div class="correction-banner">
   <strong>実務上の重要訂正：</strong>
-  法基通9-1-10は「外国法人の発行する有価証券の資産状態判定」に関する特例（物価変動国）であり、
-  子会社・関連会社株式の「支援義務」を直接規定するものではありません。
-  支援義務は法基通9-1-9の「回復可能性なし」要件の判断の中で問題になります。
+  法基通9-1-10は「外国法人の発行する有価証券の資産状態判定」（物価変動国特例）であり、子会社・関連会社株式の「支援義務」を直接規定するものではありません。支援義務は法基通9-1-9の「回復可能性なし」要件の判断の中で問題になります。
 </div>
 
-<!-- ① 法令体系フロー -->
-<div class="flow-section">
+<!-- 01 法令体系 -->
+<div class="section">
   <div class="section-header">01 ｜ 法令体系</div>
 
   <div class="flow-box">
@@ -327,7 +407,7 @@
     <div class="law-desc">政令で定める事実が生じた場合に限り、評価換えにより生じた損失額を損金算入できる。</div>
   </div>
   <div class="flow-arrow">▼ 政令委任先</div>
-  <div class="flow-box" style="border-color:#3b82f6;">
+  <div class="flow-box accent">
     <div class="law-ref">法人税法施行令 68条1項2号ロ</div>
     <div class="law-title">非上場株式の評価損要件</div>
     <div class="law-desc">
@@ -336,47 +416,43 @@
     </div>
   </div>
   <div class="flow-arrow">▼ 通達による具体的基準</div>
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;max-width:900px;margin:0 auto;">
+  <div class="flow-dual">
     <div class="flow-box">
       <div class="law-ref">法基通 9-1-9</div>
       <div class="law-title">「資産状態の著しい悪化」判定</div>
-      <div class="law-desc">
-        1株あたり純資産価額が取得時比<strong>おおむね50%以上低下</strong>（または法的整理手続）
-      </div>
+      <div class="law-desc">1株純資産価額が取得時比<strong>おおむね50%以上低下</strong>（または法的整理手続）</div>
     </div>
     <div class="flow-box">
       <div class="law-ref">法基通 9-1-11（9-1-7準用）</div>
       <div class="law-title">「価額の著しい低下」判定</div>
-      <div class="law-desc">
-        時価（期末）が帳簿価額の<strong>おおむね50%未満</strong>、かつ近い将来回復見込みなし
-      </div>
+      <div class="law-desc">時価が帳簿価額の<strong>おおむね50%未満</strong>＋回復見込みなし</div>
     </div>
   </div>
 </div>
 
-<!-- ② 計上要件 -->
-<div class="flow-section">
+<!-- 02 評価損計上の4要件 -->
+<div class="section">
   <div class="section-header">02 ｜ 評価損計上の4要件（非上場株式）</div>
 </div>
 <div class="req-grid">
   <div class="req-card">
     <div class="req-num">①</div>
     <div class="req-title">損金経理の実施</div>
-    <div class="req-body">会計上で評価損を計上すること（<strong>税務のみでの損金算入不可</strong>）。<br>決算で帳簿価額を実際に減額処理する。</div>
+    <div class="req-body">会計上で評価損を計上すること（<strong>税務のみでの損金算入不可</strong>）。決算で帳簿価額を実際に減額処理する。</div>
   </div>
   <div class="req-card">
     <div class="req-num">②</div>
     <div class="req-title">資産状態の著しい悪化</div>
     <div class="req-body">
       <strong>（a）法的整理</strong>：特別清算・破産・民事再生・会社更生の開始<br>
-      <strong>（b）純資産価額50%低下</strong>：期末の1株純資産価額が取得時比おおむね50%以上低下（<strong>法基通9-1-9</strong>）
+      <strong>（b）純資産価額50%低下</strong>：期末の1株純資産価額が取得時比おおむね50%以上低下（法基通9-1-9）
     </div>
   </div>
-  <div class="req-card highlight-card">
+  <div class="req-card accent2">
     <div class="req-num">③</div>
     <div class="req-title">価額の著しい低下</div>
     <div class="req-body">
-      期末時価が帳簿価額のおおむね<strong>50%未満</strong>に低下していること（<strong>法基通9-1-11</strong>）<br>
+      期末時価が帳簿価額のおおむね<strong>50%未満</strong>に低下（法基通9-1-11）<br>
       ＋ 近い将来の<strong>価額回復見込みがないこと</strong>
     </div>
   </div>
@@ -384,220 +460,195 @@
     <div class="req-num">④</div>
     <div class="req-title">グループ法人税制の非該当</div>
     <div class="req-body">
-      完全支配関係（<strong>100%保有</strong>）がある場合は法33条5項で評価損禁止。<br>
+      完全支配関係（<strong>100%保有</strong>）の場合は法33条5項で評価損禁止。<br>
       関連会社（20〜50%未満）は<strong>原則この制限なし</strong>。
     </div>
   </div>
 </div>
 
-<!-- ③ 債務超過分析 -->
-<div class="flow-section">
+<!-- 03 債務超過の場合の分析 -->
+<div class="section">
   <div class="section-header">03 ｜ 債務超過の場合の具体的分析</div>
 </div>
-<div class="analysis-box" style="max-width:900px;margin:0 auto 24px;">
+
+<div class="analysis-box">
   <div class="analysis-head">要件②の充足：1株あたり純資産価額 50%以上低下の判定</div>
   <div class="analysis-body">
     <div class="calc-row">
       <div class="calc-box">
         <div class="label">取得時 1株純資産価額</div>
-        <div class="value">例）+500円</div>
+        <div class="value">例）＋500円</div>
       </div>
       <div class="op">→</div>
-      <div class="calc-box">
+      <div class="calc-box red">
         <div class="label">期末 1株純資産価額（債務超過）</div>
-        <div class="value" style="color:var(--accent4);">−（マイナス）</div>
+        <div class="value">マイナス</div>
       </div>
       <div class="op">=</div>
-      <div class="calc-box result-box">
+      <div class="calc-box green">
         <div class="label">低下率</div>
         <div class="value">100%超低下</div>
       </div>
     </div>
     <div class="conclusion-bar">
-      <span class="icon">✔</span>
-      <strong> 債務超過（純資産価額がゼロ未満）なら、要件②は自動的に充足。</strong>
-      取得時がプラスであれば、期末がマイナスの時点で50%どころか100%超下落している。
+      ✔ <strong>債務超過（純資産価額がゼロ未満）なら、要件②は自動的に充足。</strong>取得時がプラスであれば、期末がマイナスの時点で50%どころか100%超下落している。
     </div>
-    <div style="margin-top:12px;font-size:0.85rem;color:var(--muted);">
-      <strong style="color:var(--text);">注意：</strong>
-      取得時点がすでに債務超過だった場合（取得時純資産価額がマイナス）は、
-      「50%以上下落」の判定が複雑になる（法基通9-1-9の計算方法に従う）。
-      また、複数回に分けて取得した場合は加重平均した取得時純資産価額を使用。
+    <div class="note-bar">
+      <strong>注意：</strong>取得時点がすでに債務超過だった場合や、複数回取得した場合は計算が複雑になる（法基通9-1-9の計算方法に従う）。
     </div>
   </div>
 </div>
 
-<div class="analysis-box" style="max-width:900px;margin:0 auto 32px;">
+<div class="analysis-box">
   <div class="analysis-head">要件③の充足：期末時価が帳簿価額の50%未満かつ回復可能性なし</div>
   <div class="analysis-body">
-    <div style="font-size:0.87rem;margin-bottom:10px;">
-      非上場株式の「時価」（期末）は、<strong>法基通9-1-14</strong>に基づき「1株あたり純資産価額」等で算定。
-      債務超過の場合は時価もゼロ以下となるため、帳簿価額比50%未満は通常充足される。
+    <div style="font-size:0.85rem;color:var(--muted);margin-bottom:10px;">
+      非上場株式の「時価」は法基通9-1-14に基づき1株純資産価額等で算定。債務超過なら時価もゼロ以下となるため、帳簿価額比50%未満は通常充足される。
     </div>
     <div class="conclusion-bar">
-      <span class="icon">✔</span>
-      <strong> ただし「回復可能性なし」が最大の論点。</strong>
-      以下に詳述。
+      ⚠ <strong>「回復可能性なし」が実務上の最大の論点。</strong>下のセクション04で詳述。
     </div>
   </div>
 </div>
 
-<!-- ④ 関連会社特有の問題 -->
-<div class="flow-section">
+<!-- 04 関連会社特有の問題 -->
+<div class="section" style="margin-top:24px;">
   <div class="section-header">04 ｜ 「関連会社」株式の特殊論点：支援義務と回復可能性</div>
 </div>
 
-<div class="analysis-box" style="max-width:900px;margin:0 auto 24px;">
+<div class="analysis-box">
   <div class="analysis-head">「回復可能性なし」の判断に支援意思・能力が影響する</div>
   <div class="analysis-body">
-    <div style="font-size:0.87rem;color:var(--muted);margin-bottom:12px;">
-      法令や通達に「支援義務があれば評価損不可」と直接規定した条文はない。しかし税務調査では：
+    <div style="font-size:0.85rem;color:var(--muted);margin-bottom:10px;">
+      法令・通達に「支援義務があれば評価損不可」と直接規定した条文はない。しかし税務調査では：
     </div>
-    <table style="width:100%;border-collapse:collapse;font-size:0.85rem;">
+    <table class="risk-table">
       <tr>
-        <th style="background:#1e3a5f;padding:8px 12px;border:1px solid var(--border);color:#fff;">支援の状況</th>
-        <th style="background:#1e3a5f;padding:8px 12px;border:1px solid var(--border);color:#fff;">税務上のリスク</th>
+        <th>支援の状況</th>
+        <th>税務上のリスク</th>
       </tr>
       <tr>
-        <td style="padding:8px 12px;border:1px solid var(--border);background:var(--card);">具体的な再建計画を策定・実施中</td>
-        <td style="padding:8px 12px;border:1px solid var(--border);background:var(--card);color:var(--accent4);">
-          「回復見込みあり」と認定され評価損を否認されるリスク大
-        </td>
+        <td>具体的な再建計画を策定・実施中</td>
+        <td class="risk-high">否認リスク大</td>
       </tr>
       <tr>
-        <td style="padding:8px 12px;border:1px solid var(--border);background:var(--card);">支援の意思表明あり（役員会議事録等）</td>
-        <td style="padding:8px 12px;border:1px solid var(--border);background:var(--card);color:var(--accent3);">
-          否認されるリスクあり（客観的根拠で反証必要）
-        </td>
+        <td>支援の意思表明あり（議事録等）</td>
+        <td class="risk-mid">否認リスクあり</td>
       </tr>
       <tr>
-        <td style="padding:8px 12px;border:1px solid var(--border);background:var(--card);">支援せず放置・清算方針を決定</td>
-        <td style="padding:8px 12px;border:1px solid var(--border);background:var(--card);color:var(--accent2);">
-          評価損計上が認められやすい（客観的証拠を整備）
-        </td>
+        <td>支援せず放置・清算方針を決定</td>
+        <td class="risk-low">認められやすい</td>
       </tr>
       <tr>
-        <td style="padding:8px 12px;border:1px solid var(--border);background:var(--card);">業界全体の構造的不況で回復見込みなし</td>
-        <td style="padding:8px 12px;border:1px solid var(--border);background:var(--card);color:var(--accent2);">
-          客観的状況から回復可能性なしとして認められやすい
-        </td>
+        <td>業界全体の構造的不況で回復見込みなし</td>
+        <td class="risk-low">認められやすい</td>
       </tr>
     </table>
-    <div style="margin-top:12px;font-size:0.85rem;color:var(--muted);">
-      <strong style="color:var(--accent3);">実務ポイント：</strong>
-      法基通9-4-1（子会社等の整理損）・9-4-2（再建支援の損金性）は評価損ではなく
-      「損失負担・贈与等の損金性」に関する通達。評価損と支援損の扱いは別論点。
+    <div class="sub-note">
+      <strong>実務ポイント：</strong>法基通9-4-1（子会社等の整理損）・9-4-2（再建支援の損金性）は評価損ではなく「損失負担・贈与等の損金性」に関する通達。評価損と支援損は別論点。
     </div>
   </div>
 </div>
 
-<!-- ⑤ 比較表 -->
-<div class="flow-section">
+<!-- 05 比較表 -->
+<div class="section" style="margin-top:24px;">
   <div class="section-header">05 ｜ 子会社・関連会社・完全子会社の比較</div>
 </div>
+<div class="table-scroll-wrap">
+  <table class="compare-table">
+    <thead>
+      <tr>
+        <th>区分</th>
+        <th>持株比率</th>
+        <th>法令68条1項2号ロ</th>
+        <th>法33条5項制限</th>
+        <th>支援リスク</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>完全子会社</td>
+        <td>100%</td>
+        <td class="ng">原則不可</td>
+        <td class="ng">あり（評価損禁止）</td>
+        <td class="ng">高い</td>
+      </tr>
+      <tr>
+        <td>子会社</td>
+        <td>50%超</td>
+        <td class="ok">適用可</td>
+        <td class="ok">なし</td>
+        <td class="caution">中</td>
+      </tr>
+      <tr class="highlight">
+        <td><strong>関連会社（本件）</strong></td>
+        <td><strong>20〜50%未満</strong></td>
+        <td class="ok"><strong>適用可</strong></td>
+        <td class="ok"><strong>なし</strong></td>
+        <td class="caution">中〜低</td>
+      </tr>
+      <tr>
+        <td>少数株主保有</td>
+        <td>20%未満</td>
+        <td class="ok">適用可</td>
+        <td class="ok">なし</td>
+        <td class="ok">低い</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-<table class="compare-table" style="max-width:900px;margin:0 auto 32px;">
-  <thead>
-    <tr>
-      <th>区分</th>
-      <th>持株比率の目安</th>
-      <th>法令68条1項2号ロ適用</th>
-      <th>グループ法人税制制限（法33条5項）</th>
-      <th>支援義務の税務リスク</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>完全子会社</td>
-      <td>100%</td>
-      <td class="ng">原則 適用不可（法33条5項）</td>
-      <td class="ng">あり（評価損禁止）<br><small>例外：清算中・解散見込等</small></td>
-      <td class="ng">高い（支援義務明確）</td>
-    </tr>
-    <tr>
-      <td>子会社</td>
-      <td>50%超</td>
-      <td class="ok">適用可</td>
-      <td class="ok">なし（100%未満）</td>
-      <td class="caution">中（支配的立場）</td>
-    </tr>
-    <tr>
-      <td><strong>関連会社（本件）</strong></td>
-      <td><strong>20〜50%未満</strong></td>
-      <td class="ok"><strong>適用可</strong></td>
-      <td class="ok"><strong>なし</strong></td>
-      <td class="caution">中〜低（持分法適用会社の場合は考慮が必要）</td>
-    </tr>
-    <tr>
-      <td>少数株主保有</td>
-      <td>20%未満</td>
-      <td class="ok">適用可</td>
-      <td class="ok">なし</td>
-      <td class="ok">低（影響力小）</td>
-    </tr>
-  </tbody>
-</table>
-
-<!-- ⑥ 注意事項 -->
-<div class="flow-section">
+<!-- 06 実務上の注意点 -->
+<div class="section">
   <div class="section-header">06 ｜ 実務上の注意点</div>
 </div>
 <div class="warn-grid">
-  <div class="warn-card amber-border">
+  <div class="warn-card amber">
     <div class="warn-icon">📋</div>
     <div class="warn-title">洗替え処理は不要</div>
     <div class="warn-body">
-      子会社・関連会社株式は売買目的有価証券ではないため、
-      <strong>翌期に評価益を強制計上する必要はない</strong>。
-      評価損計上後の帳簿価額が新たな取得価額となる。
+      関連会社株式は売買目的有価証券ではないため、<strong>翌期に評価益を強制計上する必要はない</strong>。評価損計上後の帳簿価額が新たな取得価額となる。
     </div>
   </div>
-  <div class="warn-card amber-border">
+  <div class="warn-card amber">
     <div class="warn-icon">📑</div>
-    <div class="warn-title">申告書への特別別表添付は任意</div>
+    <div class="warn-title">特別別表の添付義務なし</div>
     <div class="warn-body">
-      会社更生法に基づく評価換えと異なり、<strong>別表14(1)等の特定別表添付義務はない</strong>。
-      ただし、税務調査に備えて計算根拠書類の整備は必須。
+      会社更生法に基づく評価換えと異なり、<strong>別表14(1)等の特定別表添付義務はない</strong>。ただし、計算根拠書類の整備は必須。
     </div>
   </div>
-  <div class="warn-card red-border">
+  <div class="warn-card red">
     <div class="warn-icon">⚠️</div>
     <div class="warn-title">増資後の制限（法基通9-1-12）</div>
     <div class="warn-body">
-      <strong>増資を引き受けた後も債務超過が継続している場合</strong>、
-      その増資について評価損の計上事実がないとされる場合がある。
-      増資→即評価損の節税スキームは否認リスクが高い。
+      <strong>増資引受後も債務超過が継続</strong>している場合、その増資部分について評価損の計上事実がないとされることがある。増資→即評価損スキームは否認リスク大。
     </div>
   </div>
-  <div class="warn-card red-border">
+  <div class="warn-card red">
     <div class="warn-icon">⚠️</div>
     <div class="warn-title">当初申告要件は存在しない</div>
     <div class="warn-body">
-      外税控除（法69条15項）と異なり、<strong>株式評価損には当初申告要件がない</strong>。
-      修正申告・更正の請求でも対応可能。
-      （サンリオ判決の外税控除当初申告要件問題とは異なる論点）
+      外税控除（法69条15項）と異なり、<strong>株式評価損には当初申告要件がない</strong>。修正申告・更正の請求でも対応可能。
     </div>
   </div>
-  <div class="warn-card green-border">
+  <div class="warn-card green">
     <div class="warn-icon">📊</div>
-    <div class="warn-title">純資産価額の計算（実態BS）</div>
+    <div class="warn-title">純資産価額は実態BS基準</div>
     <div class="warn-body">
-      法基通9-1-9の純資産価額は<strong>「実態貸借対照表」（時価BS）</strong>ベース。
-      簿価BSではなく、含み損益を反映した実態ベースで計算する必要がある。
+      法基通9-1-9の純資産価額は<strong>実態貸借対照表（時価ベース）</strong>で計算。含み損益を反映した実態ベースが必要。
     </div>
   </div>
-  <div class="warn-card green-border">
+  <div class="warn-card green">
     <div class="warn-icon">🏢</div>
-    <div class="warn-title">持分法との関係（会計）</div>
+    <div class="warn-title">持分法との関係</div>
     <div class="warn-body">
-      持分法適用会社の場合、<strong>会計上は持分法による損失計上が先行</strong>する。
-      持分法損失計上後に評価損が残存する場合に、改めて評価損の税務要件を検討する。
+      持分法適用会社の場合、<strong>会計上は持分法損失計上が先行</strong>。持分法損失計上後に残余価額がある場合に改めて評価損の税務要件を検討する。
     </div>
   </div>
 </div>
 
-<!-- ⑦ 実務フロー -->
-<div class="flow-section" style="margin-top:8px;">
+<!-- 07 実務対応フロー -->
+<div class="section">
   <div class="section-header">07 ｜ 実務対応フロー</div>
 </div>
 <div class="proc-steps">
@@ -612,14 +663,14 @@
     <div class="step-num">2</div>
     <div class="step-content">
       <div class="step-title">発行法人の実態BSを取得</div>
-      <div class="step-detail">関連会社の決算書（できれば時価ベースの実態BS）を入手。1株あたり純資産価額を計算する。</div>
+      <div class="step-detail">関連会社の決算書（時価ベースの実態BS）を入手。1株あたり純資産価額を計算する。</div>
     </div>
   </div>
   <div class="proc-step">
     <div class="step-num">3</div>
     <div class="step-content">
       <div class="step-title">50%低下要件の確認（法基通9-1-9）</div>
-      <div class="step-detail">期末の1株純資産価額 ÷ 取得時の1株純資産価額で判定。<strong>債務超過なら通常充足</strong>（取得時がプラスの場合）。</div>
+      <div class="step-detail">期末の1株純資産価額 ÷ 取得時の1株純資産価額で判定。債務超過なら通常充足（取得時がプラスの場合）。</div>
     </div>
   </div>
   <div class="proc-step">
@@ -649,13 +700,13 @@
 <div class="summary-box">
   <h3>核心まとめ：債務超過の関連会社株式に評価損を計上できるか</h3>
   <ul>
-    <li>法的根拠：法33条2項→法令68条1項2号ロ→法基通9-1-9・9-1-11</li>
-    <li>債務超過（純資産マイナス）なら「50%以上低下」要件（法基通9-1-9）は通常充足</li>
+    <li>法的根拠：法33条2項 → 法令68条1項2号ロ → 法基通9-1-9・9-1-11</li>
+    <li>債務超過（純資産マイナス）なら「50%以上低下」要件は通常自動充足</li>
     <li>最大の論点は「回復可能性なし」の立証。支援計画があると否認リスク大</li>
     <li>関連会社（20〜50%）は完全支配関係でないため法33条5項の制限なし</li>
-    <li>洗替え不要・当初申告要件なし（外税控除の当初申告要件問題とは別論点）</li>
+    <li>洗替え不要・当初申告要件なし（外税控除とは異なる）</li>
     <li>会計上の損金経理（帳簿価額の減額処理）が前提として必須</li>
-    <li>持分法適用会社なら、持分法損失計上後の残余価額について評価損を検討</li>
+    <li>持分法適用会社は持分法損失計上後の残余価額について評価損を検討</li>
   </ul>
 </div>
 
