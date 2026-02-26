@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>サンリオCFC判決 解説</title>
+<style>
+  :root {
+    --primary: #1a3a5c;
+    --accent: #c0392b;
+    --accent2: #2980b9;
+    --bg: #f8f9fa;
+    --card: #ffffff;
+    --border: #dee2e6;
+    --text: #212529;
+    --muted: #6c757d;
+    --success: #27ae60;
+    --warn: #f39c12;
+    --purple: #8e44ad;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Noto Sans JP', 'Hiragino Sans', sans-serif; background: var(--bg); color: var(--text); font-size: 15px; line-height: 1.75; }
+
+  header {
+    background: linear-gradient(135deg, var(--primary) 0%, #2c5282 100%);
+    color: white;
+    padding: 2.5rem 2rem;
+    border-bottom: 4px solid var(--accent);
+  }
+  header h1 { font-size: 1.65rem; font-weight: 700; margin-bottom: 0.5rem; }
+  header .subtitle { font-size: 0.95rem; opacity: 0.85; }
+  header .meta { margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 1rem; }
+  header .badge {
+    background: rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.3);
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.82rem;
+  }
+
+  .container { max-width: 960px; margin: 0 auto; padding: 2rem 1.5rem; }
+
+  /* Alert banner */
+  .alert-banner {
+    background: #fff3cd;
+    border-left: 5px solid var(--warn);
+    padding: 1rem 1.25rem;
+    border-radius: 6px;
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+  }
+  .alert-banner strong { color: #856404; }
+
+  /* Section */
+  .section { margin-bottom: 2.5rem; }
+  .section-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--primary);
+    border-left: 4px solid var(--accent2);
+    padding-left: 0.8rem;
+    margin-bottom: 1.2rem;
+  }
+
+  /* Cards */
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.4rem;
+    margin-bottom: 1.2rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  }
+  .card h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.6rem;
+  }
+
+  /* Case timeline */
+  .timeline { position: relative; padding-left: 2rem; }
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 0.5rem;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: var(--border);
+  }
+  .timeline-item { position: relative; margin-bottom: 1.8rem; }
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -1.75rem;
+    top: 0.4rem;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--accent2);
+    border: 2px solid white;
+    box-shadow: 0 0 0 2px var(--accent2);
+  }
+  .timeline-item.milestone::before { background: var(--accent); box-shadow: 0 0 0 2px var(--accent); }
+  .timeline-item.pending::before { background: var(--muted); box-shadow: 0 0 0 2px var(--muted); }
+  .timeline-date {
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: var(--muted);
+    margin-bottom: 0.3rem;
+    text-transform: uppercase;
+  }
+  .timeline-content { font-size: 0.93rem; }
+  .timeline-content strong { color: var(--primary); }
+
+  /* Issue table */
+  table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+  th {
+    background: var(--primary);
+    color: white;
+    padding: 0.65rem 1rem;
+    text-align: left;
+    font-weight: 600;
+  }
+  td { padding: 0.65rem 1rem; border-bottom: 1px solid var(--border); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: #f8f9fa; }
+
+  /* Verdict box */
+  .verdict-box {
+    background: #fff;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 1.2rem 1.4rem;
+    margin-bottom: 1rem;
+  }
+  .verdict-box.negative { border-color: var(--accent); }
+  .verdict-box.positive { border-color: var(--success); }
+  .verdict-box.neutral { border-color: var(--muted); }
+  .verdict-box .verdict-header {
+    font-weight: 700;
+    font-size: 0.95rem;
+    margin-bottom: 0.6rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .verdict-box.negative .verdict-header { color: var(--accent); }
+  .verdict-box.positive .verdict-header { color: var(--success); }
+  .verdict-box.neutral .verdict-header { color: var(--muted); }
+
+  /* Two columns */
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  @media (max-width: 600px) { .two-col { grid-template-columns: 1fr; } }
+
+  /* Highlight */
+  .highlight-box {
+    background: #eef6ff;
+    border-left: 4px solid var(--accent2);
+    padding: 1rem 1.2rem;
+    border-radius: 0 8px 8px 0;
+    margin: 1rem 0;
+    font-size: 0.92rem;
+  }
+  .highlight-box.red { background: #fff5f5; border-color: var(--accent); }
+  .highlight-box.green { background: #f0fff4; border-color: var(--success); }
+  .highlight-box.yellow { background: #fffbeb; border-color: var(--warn); }
+
+  /* Key finding */
+  .key-finding {
+    background: linear-gradient(135deg, #1a3a5c 0%, #2c5282 100%);
+    color: white;
+    border-radius: 12px;
+    padding: 1.5rem 1.8rem;
+    margin: 1.5rem 0;
+  }
+  .key-finding h3 { font-size: 1rem; opacity: 0.8; margin-bottom: 0.7rem; }
+  .key-finding p { font-size: 0.95rem; line-height: 1.8; }
+  .key-finding .number {
+    font-size: 2.5rem;
+    font-weight: 800;
+    opacity: 0.3;
+    float: right;
+    margin-top: -0.5rem;
+  }
+
+  /* Quote */
+  blockquote {
+    border-left: 3px solid var(--accent);
+    padding: 0.8rem 1.2rem;
+    margin: 1rem 0;
+    font-style: italic;
+    color: #444;
+    background: #fafafa;
+    font-size: 0.9rem;
+  }
+
+  /* Tag */
+  .tag {
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-right: 0.3rem;
+  }
+  .tag.red { background: #fde8e8; color: var(--accent); }
+  .tag.blue { background: #dbeafe; color: #1d4ed8; }
+  .tag.green { background: #dcfce7; color: #166534; }
+  .tag.gray { background: #f3f4f6; color: #374151; }
+  .tag.purple { background: #ede9fe; color: #6d28d9; }
+  .tag.orange { background: #fff7ed; color: #c2410c; }
+
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.8rem;
+    color: var(--muted);
+    border-top: 1px solid var(--border);
+    margin-top: 3rem;
+  }
+
+  /* Source */
+  .source-list { list-style: none; }
+  .source-list li { padding: 0.5rem 0; border-bottom: 1px dotted var(--border); font-size: 0.85rem; }
+  .source-list li::before { content: '📄 '; }
+  .source-list a { color: var(--accent2); text-decoration: none; }
+  .source-list a:hover { text-decoration: underline; }
+
+  .status-badge {
+    display: inline-block;
+    padding: 0.15rem 0.6rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 700;
+  }
+  .status-badge.confirmed { background: #dcfce7; color: #166534; }
+  .status-badge.ongoing { background: #fef3c7; color: #92400e; }
+  .status-badge.critical { background: #fee2e2; color: #991b1b; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>サンリオCFC事件 解説</h1>
+  <div class="subtitle">外国子会社合算税制における「著作権の提供」事業基準と適用除外書面の法的性格</div>
+  <div class="meta">
+    <span class="badge">📅 調査日：令和8年2月26日</span>
+    <span class="badge">🏛 東京地裁→東京高裁</span>
+    <span class="badge">⚖ 措法66条の6</span>
+    <span class="badge">🔄 新事件係属中</span>
+  </div>
+</header>
+
+<div class="container">
+
+  <div class="alert-banner">
+    <strong>⚠ 注記</strong>：本稿は公開情報（新聞報道・判決評釈書誌・開示情報）に基づく解説です。
+    判決全文は確認できていないため、判旨の詳細については確認中の部分があります。
+    岡村忠生「サンリオ事件判決への疑問」（国際税務42巻4号）等を原典として参照してください。
+  </div>
+
+  <!-- ==================== 事件全体像 ==================== -->
+  <div class="section">
+    <div class="section-title">1. 事件の全体像</div>
+
+    <div class="two-col">
+      <div class="card">
+        <h3>🏢 当事者</h3>
+        <p><strong>原告（納税者）</strong><br>株式会社サンリオ（東京都品川区）<br>キャラクタービジネスを主とする上場会社</p>
+        <br>
+        <p><strong>被告</strong><br>国（東京国税局）<br>香港子会社等をCFC合算課税対象と認定</p>
+      </div>
+      <div class="card">
+        <h3>💰 課税額</h3>
+        <p><strong>旧事件（係争済）</strong><br>2017年12月に追徴課税（額不明）</p>
+        <br>
+        <p><strong>新事件（係争中）</strong><br>約<strong>13億円</strong>追徴課税<br>（2022年8月処分）<br>対象所得：約42億円<br>（2017〜2021年度・5年間）</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>🗺 対象子会社</h3>
+      <table>
+        <thead>
+          <tr><th>子会社所在地</th><th>法人税率</th><th>主たる事業</th><th>旧事件</th><th>新事件</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>香港</strong></td>
+            <td>16.5%（20%未満）</td>
+            <td>キャラクターライセンス・ローカライズ</td>
+            <td><span class="status-badge confirmed">対象</span></td>
+            <td><span class="status-badge ongoing">対象</span></td>
+          </tr>
+          <tr>
+            <td><strong>台湾</strong></td>
+            <td>20%（閾値境界）</td>
+            <td>キャラクタービジネス</td>
+            <td>—</td>
+            <td><span class="status-badge ongoing">対象</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- ==================== 時系列 ==================== -->
+  <div class="section">
+    <div class="section-title">2. 訴訟の経緯（時系列）</div>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-date">2017年12月</div>
+        <div class="timeline-content">
+          <strong>【旧事件】第1回追徴課税</strong><br>
+          東京国税局がサンリオ香港子会社にCFC課税適用。
+          サンリオは処分を不服とし取消請求訴訟を提起。
+        </div>
+      </div>
+
+      <div class="timeline-item milestone">
+        <div class="timeline-date">令和3年2月26日（2021年）</div>
+        <div class="timeline-content">
+          <strong>【旧事件・第一審】東京地裁判決</strong><br>
+          <span class="tag red">納税者敗訴</span>
+          <span class="tag blue">実体判断回避</span><br>
+          裁判所は香港子会社の事業内容（著作権の提供か否か）の
+          実体的判断を行わず、<strong>「適用除外記載書面の不添付」</strong>
+          という手続的理由のみで請求を棄却。
+          形式主義的判断として後の学界から批判を受ける。
+        </div>
+      </div>
+
+      <div class="timeline-item milestone">
+        <div class="timeline-date">令和3年11月24日（2021年）</div>
+        <div class="timeline-content">
+          <strong>【旧事件・控訴審】東京高裁判決</strong><br>
+          <span class="tag red">控訴棄却（推定）</span>
+          <span class="tag purple">理由の差替え争点</span><br>
+          岡村忠生（京大教授）が評釈「サンリオ事件判決への疑問」
+          （国際税務42巻4号、2022年4月）を執筆。
+          高裁でも「理由の差替え」問題等が主要争点として扱われた模様。
+          <span class="status-badge confirmed">判決確定</span>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">2022年8月</div>
+        <div class="timeline-content">
+          <strong>【新事件】第2回追徴課税処分</strong><br>
+          東京国税局が2017〜2021年度（5年間）の香港・台湾子会社所得
+          約42億円について、CFC課税により約13億円を追徴。
+          2017年度税制改正後（経済活動基準）の事業年度が対象。
+        </div>
+      </div>
+
+      <div class="timeline-item pending">
+        <div class="timeline-date">令和5年12月15日（2023年）</div>
+        <div class="timeline-content">
+          <strong>【新事件】東京地裁に提訴</strong><br>
+          <span class="status-badge ongoing">係属中</span><br>
+          サンリオが約13億円の追徴処分取消を求めて東京地裁に提訴。
+          「子会社は現地でしか行えない事業を行っており、
+          経済活動基準（事業基準）に該当する」と主張。
+          判決時期未定。
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== 核心争点 ==================== -->
+  <div class="section">
+    <div class="section-title">3. 核心争点の解説</div>
+
+    <!-- 争点1 -->
+    <div class="card">
+      <h3>争点① 事業基準：キャラクターライセンスは「著作権の提供」か</h3>
+
+      <div class="highlight-box yellow">
+        <strong>条文（措法66条の6第3項括弧書き・経済活動基準）</strong><br>
+        特定外国子会社等が「工業所有権その他の技術に関する権利…若しくは
+        <strong>著作権（出版権及び著作隣接権その他これに準ずるものを含む。）の提供</strong>
+        …を主たる事業とするもの」は事業基準を充たさない（適用除外不可）。
+      </div>
+
+      <div class="two-col" style="margin-top:1rem;">
+        <div class="verdict-box negative">
+          <div class="verdict-header">❌ 課税庁の主張</div>
+          <p>サンリオ香港子会社の主たる事業は、
+          日本親会社が保有するサンリオキャラクターの
+          著作権を各国ライセンシーに提供（サブライセンス）することであり、
+          「著作権の提供」に該当する。</p>
+        </div>
+        <div class="verdict-box positive">
+          <div class="verdict-header">✅ 納税者の主張</div>
+          <p>香港子会社は単なる著作権の転貸しではなく、
+          現地市場のローカライズ業務・ライセンシーへのサポート・
+          マーケティング支援等を付加した独立した事業を営んでいる。
+          主たる事業は著作権の提供ではなく、キャラクタービジネス全般。</p>
+        </div>
+      </div>
+
+      <div class="highlight-box" style="margin-top:1rem;">
+        <strong>⚖ 論点の核心</strong>：
+        「著作権の提供」はあくまで著作権をパッシブに転貸する行為に限るか、
+        それともローカライズ等のサービスが付加されていても
+        著作権が主要収益源であれば「提供」主体と見るか。
+        比較軸は後述の「能動的事業活動」理論。
+      </div>
+    </div>
+
+    <!-- 争点2 -->
+    <div class="card">
+      <h3>争点② 適用除外記載書面の法的性格（旧事件の最大の焦点）</h3>
+
+      <div class="highlight-box red">
+        <strong>問題の構造</strong>：サンリオは確定申告書に
+        「適用除外記載書面（措法66条の6第6項所定の書面）」を添付していなかった。
+        地裁はこれを理由に、実体的な事業基準の充足・不充足の判断をせず
+        請求を棄却した。
+      </div>
+
+      <table style="margin-top:1rem;">
+        <thead>
+          <tr><th>見解</th><th>適用除外記載書面の性格</th><th>効果</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>東京地裁（地裁判決）</strong></td>
+            <td>適用除外の実体的要件（効力要件）</td>
+            <td>書面不添付→適用除外要件を満たさない→課税適法</td>
+          </tr>
+          <tr>
+            <td><strong>岡村忠生ほか（批判説）</strong></td>
+            <td>手続的要件にすぎない</td>
+            <td>書面不添付は手続違反だが、実体的充足の立証は可→実体判断すべき</td>
+          </tr>
+          <tr>
+            <td><strong>岡山地裁平成26年7月16日</strong></td>
+            <td>→手続規定（当時の旧条文構造との比較で）</td>
+            <td>類似の議論が展開された先例</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <blockquote style="margin-top:1rem;">
+        地裁の判断は「確定申告書への特定外国子会社等の書面添付義務は単なる手続規定」
+        との立場と矛盾するとの批判がある。
+        書面不添付を理由に実体的争点の審理を回避するのは「極めて形式主義的」と
+        評されている（岡村忠生「サンリオ事件判決への疑問」国際税務42巻4号）。
+      </blockquote>
+    </div>
+
+    <!-- 争点3 -->
+    <div class="card">
+      <h3>争点③ 理由の差替え問題（控訴審での主要争点）</h3>
+
+      <div class="two-col">
+        <div>
+          <p><strong>問題の概要</strong></p>
+          <p style="margin-top:0.5rem; font-size:0.9rem;">
+            課税処分の理由付記（通則法74条の14等）において、
+            課税庁が訴訟中に当初とは異なる理由に差し替えることが
+            許容されるか否かという問題。
+          </p>
+          <p style="margin-top:0.8rem; font-size:0.9rem;">
+            サンリオ控訴審では、課税庁が
+            地裁段階とは異なる法的構成を主張した可能性があり、
+            「理由の差替え」の許否が争われたとされる。
+          </p>
+        </div>
+        <div>
+          <p><strong>一般論</strong></p>
+          <p style="margin-top:0.5rem; font-size:0.9rem;">
+            最高裁は「更正処分の理由差替えは、処分の同一性を維持する範囲で可能」
+            とするが、具体的な射程は事案ごとに異なる。
+            サンリオ事件では書面不添付理由（手続的）から
+            事業基準不充足（実体的）への差替えの可否が問題となった
+            可能性がある。
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== 法的意義 ==================== -->
+  <div class="section">
+    <div class="section-title">4. 事件の法的意義</div>
+
+    <div class="key-finding">
+      <span class="number">①</span>
+      <h3>意義①</h3>
+      <p>キャラクタービジネス特有の「著作権の提供」問題。
+      知的財産を活用したサービス型事業（ローカライズ・マーケティング等）が
+      CFC税制の「著作権の提供」事業基準にどう対応するか。
+      グローバルなIP（知的財産）ビジネスモデルへの課税の在り方を示す先例。</p>
+    </div>
+
+    <div class="key-finding">
+      <span class="number">②</span>
+      <h3>意義②</h3>
+      <p>適用除外記載書面の法的性格問題。
+      CFC税制の適用除外は実体的基準の充足が本質であるにもかかわらず、
+      書面の様式的不備により実体審理が封殺されることの是非。
+      「実体要件説」vs「手続要件説」の理論的対立に実践的決着を迫る。</p>
+    </div>
+
+    <div class="key-finding">
+      <span class="number">③</span>
+      <h3>意義③</h3>
+      <p>2017年税制改正後の経済活動基準への影響。
+      新事件（2023年提訴）は改正後の「経済活動基準」の解釈が問われる最前線事件。
+      旧事件の理論蓄積（特に批判的評釈）が新事件の当事者双方の論拠として参照される。</p>
+    </div>
+  </div>
+
+  <!-- ==================== 2017年改正との関係 ==================== -->
+  <div class="section">
+    <div class="section-title">5. 2017年税制改正との関係</div>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr><th></th><th>旧制度（〜2017年度）</th><th>新制度（2017年度改正〜）</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>対象法人の呼称</strong></td>
+            <td>特定外国子会社等</td>
+            <td>外国関係会社（ペーパーカンパニー等に類型化）</td>
+          </tr>
+          <tr>
+            <td><strong>適用除外の枠組み</strong></td>
+            <td>経済的実体基準（4基準一括）</td>
+            <td>経済活動基準（事業・実体・管理支配・所在地国の4基準）</td>
+          </tr>
+          <tr>
+            <td><strong>事業基準</strong></td>
+            <td>「著作権の提供を主たる事業とするもの」を除外</td>
+            <td>同様の文言維持（ただし対象会社の分類が変化）</td>
+          </tr>
+          <tr>
+            <td><strong>サンリオへの影響</strong></td>
+            <td>旧事件の対象期間</td>
+            <td>新事件（2022年追徴・2023年提訴）の対象期間</td>
+          </tr>
+          <tr>
+            <td><strong>税率閾値</strong></td>
+            <td>20%未満（実質支配要件あり）</td>
+            <td>30%未満（特定外国関係会社）/ 20%未満（対象外国関係会社）に精緻化</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="highlight-box yellow" style="margin-top:1rem;">
+        <strong>新事件の焦点</strong>：2017年改正後の制度下では、
+        「ペーパーカンパニー」「実質的支配会社」等の類型判断が新たに加わる。
+        サンリオの香港子会社が「実体のある会社」として
+        新制度の適用除外に該当するかが中心争点となる。
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== 学説・評釈 ==================== -->
+  <div class="section">
+    <div class="section-title">6. 学説・評釈</div>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr><th>著者</th><th>タイトル</th><th>掲載誌</th><th>主な論点</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>岡村忠生</strong>（京都大学）</td>
+            <td>「サンリオ事件判決への疑問」</td>
+            <td>国際税務42巻4号<br>（2022年4月）</td>
+            <td>書面不添付による実体判断回避の問題性。理由の差替えの許否。</td>
+          </tr>
+          <tr>
+            <td>（未確認）</td>
+            <td>新事件関連評釈（予定）</td>
+            <td>—</td>
+            <td>2023年提訴後の学術的展開は現在進行中</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- ==================== サンリオ事件の構造図 ==================== -->
+  <div class="section">
+    <div class="section-title">7. 事件構造の俯瞰図</div>
+
+    <div class="card" style="overflow-x:auto;">
+      <svg viewBox="0 0 800 380" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:800px;display:block;margin:0 auto;font-family:sans-serif;">
+        <!-- Background -->
+        <rect width="800" height="380" fill="#f8f9fa" rx="8"/>
+
+        <!-- Title -->
+        <text x="400" y="30" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a3a5c">サンリオCFC事件 全体構造</text>
+
+        <!-- 親会社 -->
+        <rect x="310" y="50" width="180" height="60" rx="8" fill="#1a3a5c" stroke="none"/>
+        <text x="400" y="78" text-anchor="middle" font-size="12" font-weight="bold" fill="white">株式会社サンリオ</text>
+        <text x="400" y="96" text-anchor="middle" font-size="10" fill="#cfe2ff">（日本・内国法人）</text>
+
+        <!-- 香港子会社 -->
+        <rect x="100" y="180" width="160" height="60" rx="8" fill="#2c5282" stroke="#1a3a5c" stroke-width="2"/>
+        <text x="180" y="205" text-anchor="middle" font-size="11" font-weight="bold" fill="white">香港子会社</text>
+        <text x="180" y="222" text-anchor="middle" font-size="9" fill="#bfdbfe">法人税率 16.5%</text>
+        <text x="180" y="236" text-anchor="middle" font-size="9" fill="#bfdbfe">キャラクターライセンス</text>
+
+        <!-- 台湾子会社 -->
+        <rect x="540" y="180" width="160" height="60" rx="8" fill="#2c5282" stroke="#1a3a5c" stroke-width="2"/>
+        <text x="620" y="205" text-anchor="middle" font-size="11" font-weight="bold" fill="white">台湾子会社</text>
+        <text x="620" y="222" text-anchor="middle" font-size="9" fill="#bfdbfe">法人税率 〜20%</text>
+        <text x="620" y="236" text-anchor="middle" font-size="9" fill="#bfdbfe">キャラクタービジネス</text>
+
+        <!-- 矢印：持株 -->
+        <line x1="380" y1="110" x2="260" y2="180" stroke="#666" stroke-width="1.5" marker-end="url(#arr)"/>
+        <text x="295" y="148" font-size="10" fill="#555">100%保有</text>
+        <line x1="420" y1="110" x2="540" y2="180" stroke="#666" stroke-width="1.5" marker-end="url(#arr)"/>
+        <text x="472" y="148" font-size="10" fill="#555">100%保有</text>
+
+        <!-- 課税庁 -->
+        <rect x="590" y="50" width="160" height="60" rx="8" fill="#c0392b"/>
+        <text x="670" y="78" text-anchor="middle" font-size="12" font-weight="bold" fill="white">東京国税局</text>
+        <text x="670" y="96" text-anchor="middle" font-size="10" fill="#fecaca">CFC合算課税</text>
+
+        <!-- 課税矢印 -->
+        <line x1="590" y1="80" x2="490" y2="80" stroke="#c0392b" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arr-red)"/>
+
+        <!-- 旧事件ボックス -->
+        <rect x="30" y="290" width="340" height="75" rx="8" fill="#fff" stroke="#dee2e6" stroke-width="1"/>
+        <rect x="30" y="290" width="340" height="20" rx="8" fill="#1a3a5c"/>
+        <text x="200" y="304" text-anchor="middle" font-size="11" font-weight="bold" fill="white">旧事件（係争終了）</text>
+        <text x="40" y="326" font-size="10" fill="#333">地裁：令和3年2月26日 → 書面不添付で棄却</text>
+        <text x="40" y="342" font-size="10" fill="#333">高裁：令和3年11月24日 → 確定（内容調査中）</text>
+        <text x="40" y="356" font-size="10" fill="#c0392b">評釈：岡村忠生「サンリオ事件判決への疑問」</text>
+
+        <!-- 新事件ボックス -->
+        <rect x="430" y="290" width="340" height="75" rx="8" fill="#fff" stroke="#dee2e6" stroke-width="1"/>
+        <rect x="430" y="290" width="340" height="20" rx="8" fill="#f39c12"/>
+        <text x="600" y="304" text-anchor="middle" font-size="11" font-weight="bold" fill="white">新事件（係属中）</text>
+        <text x="440" y="326" font-size="10" fill="#333">処分：2022年8月・約13億円（5年間約42億円）</text>
+        <text x="440" y="342" font-size="10" fill="#333">提訴：令和5年12月15日 東京地裁</text>
+        <text x="440" y="356" font-size="10" fill="#f39c12">争点：経済活動基準（2017年改正後）</text>
+
+        <!-- 矢印：旧事件 -->
+        <line x1="180" y1="240" x2="180" y2="290" stroke="#1a3a5c" stroke-width="1.5" stroke-dasharray="4,2" marker-end="url(#arr-blue)"/>
+        <!-- 矢印：新事件 -->
+        <line x1="620" y1="240" x2="620" y2="290" stroke="#f39c12" stroke-width="1.5" stroke-dasharray="4,2" marker-end="url(#arr-orange)"/>
+
+        <!-- Arrow markers -->
+        <defs>
+          <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="#666"/>
+          </marker>
+          <marker id="arr-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="#c0392b"/>
+          </marker>
+          <marker id="arr-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="#1a3a5c"/>
+          </marker>
+          <marker id="arr-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="#f39c12"/>
+          </marker>
+        </defs>
+      </svg>
+    </div>
+  </div>
+
+  <!-- ==================== 実務的含意 ==================== -->
+  <div class="section">
+    <div class="section-title">8. 実務的・理論的含意</div>
+
+    <div class="two-col">
+      <div class="card">
+        <h3>🏢 企業実務への含意</h3>
+        <ul style="padding-left:1.2rem; font-size:0.9rem; line-height:2;">
+          <li><strong>書面添付の絶対確保</strong>：適用除外記載書面を毎年確実に添付</li>
+          <li><strong>事業実態の証拠蓄積</strong>：ローカライズ業務・人員・固定施設の記録化</li>
+          <li><strong>「著作権の提供」の境界線</strong>：単純ライセンスと付加サービスの区別を明確化</li>
+          <li><strong>税制改正後の再評価</strong>：2017年改正後の新制度下での子会社類型確認</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>📚 理論的含意</h3>
+        <ul style="padding-left:1.2rem; font-size:0.9rem; line-height:2;">
+          <li><strong>能動的活動理論の適用可能性</strong>：IPライセンス事業における「能動的活動」の認定基準</li>
+          <li><strong>書面要件の法的性格</strong>：手続要件 vs 効力要件の一般論への影響</li>
+          <li><strong>理由の差替え限界</strong>：CFC課税処分の特殊性</li>
+          <li><strong>比較法的示唆</strong>：OECDのBEPS行動計画2（被支配外国会社税制）との整合性</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== 情報源 ==================== -->
+  <div class="section">
+    <div class="section-title">参考情報源</div>
+    <ul class="source-list">
+      <li>岡村忠生「サンリオ事件判決への疑問[東京高判令和3.11.24]」国際税務42巻4号39-51頁（2022年4月、税務研究会）</li>
+      <li>CiNii Research「判決評釈 サンリオ事件判決への疑問[東京高判令和3.11.24]」CRID:1520010381347502976</li>
+      <li>東京地裁 令和3年2月26日判決（判決全文未確認）</li>
+      <li>東京高裁 令和3年11月24日判決（判決全文未確認）</li>
+      <li>サンリオ[8136]適時開示「タックスヘイブン対策税制に基づく更正処分に対する取消訴訟の提起について」2023年12月15日</li>
+      <li>サンリオ[8136]適時開示「タックスヘイブン対策税制に基づく更正処分に対する取消請求訴訟の控訴審判決について」2021年11月24日</li>
+      <li>企業法務ナビ「サンリオに追徴課税１３億円、外国子会社合算税制とは」</li>
+      <li>和田倉門法律事務所note「TH税制の『著作権の提供』事業該当性が争われた裁判例 その１」</li>
+    </ul>
+  </div>
+
+</div>
+
+<footer>
+  CFC税制研究 DR_20260226 | 調査日：令和8年2月26日 | 注：判決全文未確認の部分あり。原典参照を推奨。
+</footer>
+
+</body>
+</html>
