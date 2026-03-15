@@ -213,6 +213,14 @@
       const [showHighlightMenu, setShowHighlightMenu] = useState(false); // ハイライトメニュー表示
       const [tappedHighlight, setTappedHighlight] = useState(null); // タップされたハイライト { highlightId, color, rect }
       const [urlFetchState, setUrlFetchState] = useState({ loading: false, error: null, url: null }); // URL取得状態
+      // ZIPフォルダモード
+      const [zipFiles, setZipFiles] = useState(null); // Map<path, {content, type, blobUrl}>
+      const [zipCurrentPath, setZipCurrentPath] = useState('');
+      const [zipHistory, setZipHistory] = useState([]);
+      const [zipForwardHistory, setZipForwardHistory] = useState([]);
+      const [zipName, setZipName] = useState('');
+      const [showZipFileList, setShowZipFileList] = useState(false);
+      const zipBlobUrls = useRef([]);
       const [theme, setTheme] = useState(() => {
         return localStorage.getItem('html-preview-theme') || 'dark';
       }); // テーマ（dark/light）
@@ -615,6 +623,22 @@
         const fileName = file.name.toLowerCase();
         const fileType = file.type;
 
+        // ZIPファイル
+        if (fileName.endsWith('.zip') || fileType === 'application/zip' || fileType === 'application/x-zip-compressed') {
+          const reader = new FileReader();
+          reader.onload = async (event) => {
+            try {
+              await loadZipFile(event.target.result, file.name);
+            } catch (err) {
+              console.error('ZIP読み込みエラー:', err);
+              showToast('ZIPの読み込みに\n失敗しました', 3000, 'error');
+            }
+          };
+          reader.readAsArrayBuffer(file);
+          e.target.value = '';
+          return;
+        }
+
         // HTMLファイル: テキストとして読み込んで置き換え
         if (fileName.endsWith('.html') || fileName.endsWith('.htm') || fileType === 'text/html') {
           const reader = new FileReader();
@@ -694,7 +718,7 @@
 
         // 同じファイルを再選択可能にする
         e.target.value = '';
-      }, [code]);
+      }, [code, loadZipFile, showToast]);
 
       // ドラッグ&ドロップ状態
       const [isDragOver, setIsDragOver] = useState(false);
@@ -722,6 +746,21 @@
 
         const fileName = file.name.toLowerCase();
         const fileType = file.type;
+
+        // ZIPファイル
+        if (fileName.endsWith('.zip') || fileType === 'application/zip' || fileType === 'application/x-zip-compressed') {
+          const reader = new FileReader();
+          reader.onload = async (event) => {
+            try {
+              await loadZipFile(event.target.result, file.name);
+            } catch (err) {
+              console.error('ZIP読み込みエラー:', err);
+              showToast('ZIPの読み込みに\n失敗しました', 3000, 'error');
+            }
+          };
+          reader.readAsArrayBuffer(file);
+          return;
+        }
 
         // HTMLファイル
         if (fileName.endsWith('.html') || fileName.endsWith('.htm') || fileType === 'text/html') {
@@ -761,7 +800,7 @@
           };
           reader.readAsText(file);
         }
-      }, [code]);
+      }, [code, loadZipFile, showToast]);
 
       // 長押しでペースト（モバイル用）
       const handleLongPressStart = useCallback((e) => {
@@ -1091,6 +1130,160 @@
         }, duration);
       }, []);
 
+      // 相対パスを解決するユーティリティ（ZIP用）
+      const resolveRelativePath = useCallback((basePath, href) => {
+        if (/^(https?:|mailto:|javascript:|#|data:)/i.test(href)) return null;
+        // クエリストリング・フラグメントを除去
+        const cleanHref = href.split('#')[0].split('?')[0];
+        if (!cleanHref) return null;
+        const baseDir = basePath.includes('/') ? basePath.substring(0, basePath.lastIndexOf('/') + 1) : '';
+        let resolved = baseDir + cleanHref;
+        const parts = resolved.split('/');
+        const stack = [];
+        for (const part of parts) {
+          if (part === '..') stack.pop();
+          else if (part !== '.' && part !== '') stack.push(part);
+        }
+        return stack.join('/');
+      }, []);
+
+      // HTML内のリソース参照をblob URLに置換（ZIP用）
+      const resolveZipResources = useCallback((html, basePath, filesMap) => {
+        let result = html;
+        result = result.replace(/(src|href)="([^"]*?)"/gi, (match, attr, url) => {
+          if (/^(https?:|data:|blob:|javascript:|#|mailto:)/i.test(url)) return match;
+          const resolved = resolveRelativePath(basePath, url);
+          if (!resolved) return match;
+          const file = filesMap.get(resolved);
+          if (!file) return match;
+          if (file.blobUrl) return `${attr}="${file.blobUrl}"`;
+          if (file.type === 'image') return `${attr}="${file.content}"`;
+          return match;
+        });
+        // <link rel="stylesheet" href="xxx.css"> をインラインCSSに変換
+        result = result.replace(/<link[^>]*rel=["']stylesheet["'][^>]*href=["']([^"']+)["'][^>]*\/?>/gi, (match, url) => {
+          if (/^https?:/i.test(url)) return match;
+          const resolved = resolveRelativePath(basePath, url);
+          if (!resolved) return match;
+          const file = filesMap.get(resolved);
+          if (file && file.type === 'css') return `<style>${file.content}</style>`;
+          return match;
+        });
+        // 逆順のlinkタグも対応（href が rel より前）
+        result = result.replace(/<link[^>]*href=["']([^"']+)["'][^>]*rel=["']stylesheet["'][^>]*\/?>/gi, (match, url) => {
+          if (/^https?:/i.test(url)) return match;
+          const resolved = resolveRelativePath(basePath, url);
+          if (!resolved) return match;
+          const file = filesMap.get(resolved);
+          if (file && file.type === 'css') return `<style>${file.content}</style>`;
+          return match;
+        });
+        return result;
+      }, [resolveRelativePath]);
+
+      // ZIPファイル内ナビゲーション
+      const navigateZipFile = useCallback((targetPath, filesOverride) => {
+        const files = filesOverride || zipFiles;
+        if (!files) return;
+        const file = files.get(targetPath);
+        if (!file) {
+          showToast(`ファイルが見つかりません:\n${targetPath}`, 2000, 'error');
+          return;
+        }
+        if (file.type === 'html') {
+          let html = resolveZipResources(file.content, targetPath, files);
+          setCode(html);
+          setZipCurrentPath(targetPath);
+        } else if (file.type === 'image' || file.type === 'svg') {
+          const url = file.blobUrl || file.content;
+          setCode(`<img src="${url}" style="max-width:100%;height:auto;">`);
+          setZipCurrentPath(targetPath);
+        }
+        setTimeout(() => setActiveTab('preview'), 100);
+      }, [zipFiles, resolveZipResources, showToast]);
+
+      // ZIP読み込み関数
+      const loadZipFile = useCallback(async (arrayBuffer, fileName) => {
+        zipBlobUrls.current.forEach(u => URL.revokeObjectURL(u));
+        zipBlobUrls.current = [];
+        const zip = await JSZip.loadAsync(arrayBuffer);
+        const files = new Map();
+        const entries = Object.keys(zip.files);
+        let rootPrefix = '';
+        const topLevelDirs = [...new Set(entries.map(e => e.split('/')[0]))].filter(d => !d.includes('.'));
+        if (topLevelDirs.length === 1 && entries.every(e => e.startsWith(topLevelDirs[0] + '/') || e === topLevelDirs[0] + '/')) {
+          rootPrefix = topLevelDirs[0] + '/';
+        }
+        for (const [path, zipEntry] of Object.entries(zip.files)) {
+          if (zipEntry.dir) continue;
+          const normalizedPath = rootPrefix ? path.replace(rootPrefix, '') : path;
+          if (!normalizedPath) continue;
+          const lower = normalizedPath.toLowerCase();
+          if (lower.endsWith('.html') || lower.endsWith('.htm')) {
+            const content = await zipEntry.async('string');
+            files.set(normalizedPath, { content, type: 'html' });
+          } else if (lower.match(/\.(png|jpg|jpeg|gif|webp|ico)$/)) {
+            const blob = await zipEntry.async('blob');
+            const blobUrl = URL.createObjectURL(blob);
+            zipBlobUrls.current.push(blobUrl);
+            files.set(normalizedPath, { content: blobUrl, type: 'image' });
+          } else if (lower.endsWith('.svg')) {
+            const content = await zipEntry.async('string');
+            const blob = new Blob([content], { type: 'image/svg+xml' });
+            const blobUrl = URL.createObjectURL(blob);
+            zipBlobUrls.current.push(blobUrl);
+            files.set(normalizedPath, { content, type: 'svg', blobUrl });
+          } else if (lower.endsWith('.css')) {
+            const content = await zipEntry.async('string');
+            files.set(normalizedPath, { content, type: 'css' });
+          } else if (lower.match(/\.(js|json|woff2?|ttf|eot)$/)) {
+            // JS/フォント等もblob化
+            const blob = await zipEntry.async('blob');
+            const blobUrl = URL.createObjectURL(blob);
+            zipBlobUrls.current.push(blobUrl);
+            files.set(normalizedPath, { content: blobUrl, type: 'asset', blobUrl });
+          }
+        }
+        setZipFiles(files);
+        setZipName(fileName);
+        setZipHistory([]);
+        setZipForwardHistory([]);
+        // index.htmlを探す
+        const indexCandidates = ['index.html', 'index.htm'];
+        let startPath = '';
+        for (const c of indexCandidates) {
+          if (files.has(c)) { startPath = c; break; }
+        }
+        if (!startPath) {
+          for (const [p, f] of files) {
+            if (f.type === 'html') { startPath = p; break; }
+          }
+        }
+        if (startPath) {
+          navigateZipFile(startPath, files);
+        }
+        setLoadedFile({ name: fileName, type: 'ZIP' });
+        showToast(`ZIP展開完了\n${files.size}ファイル`, 2000);
+      }, [navigateZipFile, showToast]);
+
+      // ZIP戻る
+      const zipGoBack = useCallback(() => {
+        if (zipHistory.length === 0) return;
+        const prev = zipHistory[zipHistory.length - 1];
+        setZipHistory(h => h.slice(0, -1));
+        setZipForwardHistory(f => [zipCurrentPath, ...f]);
+        navigateZipFile(prev);
+      }, [zipHistory, zipCurrentPath, navigateZipFile]);
+
+      // ZIP進む
+      const zipGoForward = useCallback(() => {
+        if (zipForwardHistory.length === 0) return;
+        const next = zipForwardHistory[0];
+        setZipForwardHistory(f => f.slice(1));
+        setZipHistory(h => [...h, zipCurrentPath]);
+        navigateZipFile(next);
+      }, [zipForwardHistory, zipCurrentPath, navigateZipFile]);
+
       // トーストメッセージ内の「登録」「解除」をハイライト
       const renderToastMessage = (message, type) => {
         if (type === 'save' && message.includes('登録')) {
@@ -1264,10 +1457,22 @@
               saveToIndexedDB(updated);
             }
           }
+          // ZIPモード: リンクナビゲーション
+          if (e.data && e.data.type === 'zip-navigate') {
+            const href = e.data.href;
+            const resolved = resolveRelativePath(zipCurrentPath, href);
+            if (resolved && zipFiles && zipFiles.has(resolved)) {
+              setZipHistory(h => [...h, zipCurrentPath]);
+              setZipForwardHistory([]);
+              navigateZipFile(resolved);
+            } else {
+              showToast(`ファイル未収録:\n${href}`, 2000, 'error');
+            }
+          }
         };
         window.addEventListener('message', handleMessage);
         return () => window.removeEventListener('message', handleMessage);
-      }, [savedItems, code]);
+      }, [savedItems, code, zipFiles, zipCurrentPath, resolveRelativePath, navigateZipFile, showToast]);
 
       // コード変更時に保存済みハイライトを復元
       useEffect(() => {
@@ -1521,6 +1726,15 @@
         const doClear = () => {
           setCode('');
           setLoadedFile(null);
+          // ZIP状態をクリア
+          zipBlobUrls.current.forEach(u => URL.revokeObjectURL(u));
+          zipBlobUrls.current = [];
+          setZipFiles(null);
+          setZipCurrentPath('');
+          setZipHistory([]);
+          setZipForwardHistory([]);
+          setZipName('');
+          setShowZipFileList(false);
         };
 
         // 10回以上確認済みなら確認なしでクリア
@@ -2376,8 +2590,31 @@ ${scrollScript}
           html = html + scrollScript;
         }
 
+        // ZIPモード時のリンク捕捉スクリプト注入
+        if (zipFiles) {
+          const zipNavScript = `<scr` + `ipt>(function(){
+            document.addEventListener('click',function(e){
+              var a=e.target.closest('a[href]');
+              if(!a)return;
+              var href=a.getAttribute('href');
+              if(!href||/^(https?:|mailto:|javascript:|#|data:)/i.test(href))return;
+              e.preventDefault();
+              e.stopPropagation();
+              window.parent.postMessage({type:'zip-navigate',href:href},'*');
+            },true);
+          })();</scr` + `ipt>`;
+
+          if (/<\/body>/i.test(html)) {
+            html = html.replace(/<\/body>/i, zipNavScript + '</body>');
+          } else if (/<\/html>/i.test(html)) {
+            html = html.replace(/<\/html>/i, zipNavScript + '</html>');
+          } else {
+            html = html + zipNavScript;
+          }
+        }
+
         return html;
-      }, [debouncedCode]);
+      }, [debouncedCode, zipFiles, zipCurrentPath]);
 
       // Markdown検出関数 - #や*が2回以上あればMD
       const isMarkdown = useCallback((text) => {
@@ -2994,7 +3231,7 @@ ${content}
             <input
               ref={fileInputRef}
               type="file"
-              accept="image/*,.html,.htm,.svg,.pdf"
+              accept="image/*,.html,.htm,.svg,.pdf,.zip"
               onChange={handleFileSelect}
               className="hidden"
             />
@@ -3453,8 +3690,32 @@ ${content}
                 </div>
               ) : (
                 <div className="flex flex-col w-full h-full">
+                  {/* ZIPナビゲーションバー（モバイル） */}
+                  {zipFiles && (
+                    <div className="flex items-center gap-2 px-3 py-1.5 text-xs border-b" style={{background:'var(--bg-secondary)',borderColor:'var(--border)',color:'var(--text-primary)'}}>
+                      <button onClick={zipGoBack} disabled={zipHistory.length===0} className="px-2 py-0.5 rounded" style={{opacity:zipHistory.length?1:0.3}}>&#9664;</button>
+                      <button onClick={zipGoForward} disabled={zipForwardHistory.length===0} className="px-2 py-0.5 rounded" style={{opacity:zipForwardHistory.length?1:0.3}}>&#9654;</button>
+                      <span className="truncate flex-1" style={{color:'var(--text-secondary)'}}>{zipCurrentPath}</span>
+                      <button onClick={()=>setShowZipFileList(v=>!v)} className="px-2 py-0.5 rounded" style={{background:showZipFileList?'var(--accent)':'transparent',fontSize:'14px'}}>&#128194;</button>
+                    </div>
+                  )}
                   {/* プレビューエリア */}
                   <div className="relative flex-1 overflow-hidden">
+                    {/* ZIPファイル一覧パネル（モバイル） */}
+                    {showZipFileList && zipFiles && (
+                      <div className="absolute right-0 top-0 h-full w-64 z-20 overflow-y-auto border-l" style={{background:'var(--bg-primary)',borderColor:'var(--border)'}}>
+                        <div className="p-2 text-xs font-bold border-b" style={{borderColor:'var(--border)',color:'var(--text-primary)'}}>
+                          {zipName} ({zipFiles.size}files)
+                        </div>
+                        {[...zipFiles.entries()].filter(([,f])=>f.type==='html').sort(([a],[b])=>a.localeCompare(b)).map(([path])=>(
+                          <div key={path} className="px-2 py-1 text-xs cursor-pointer hover:opacity-80 truncate"
+                               style={{background:path===zipCurrentPath?'var(--accent)':'transparent',color:path===zipCurrentPath?'#000':'var(--text-secondary)'}}
+                               onClick={()=>{setZipHistory(h=>[...h,zipCurrentPath]);setZipForwardHistory([]);navigateZipFile(path);setShowZipFileList(false);}}>
+                            {path}
+                          </div>
+                        ))}
+                      </div>
+                    )}
                     {/* コードがない場合：ペースト誘導表示 */}
                     {!code ? (
                       <div className="w-full h-full flex flex-col items-center justify-center" style={{ backgroundColor: 'var(--bg-secondary)', color: 'var(--text-secondary)' }}>
@@ -4249,7 +4510,31 @@ ${content}
                 </div>
               </div>
               )}
-              <div className="flex-1 overflow-hidden">
+              {/* ZIPナビゲーションバー（デスクトップ） */}
+              {zipFiles && (
+                <div className="flex items-center gap-2 px-3 py-1.5 text-xs border-b" style={{background:'var(--bg-secondary)',borderColor:'var(--border)',color:'var(--text-primary)'}}>
+                  <button onClick={zipGoBack} disabled={zipHistory.length===0} className="px-2 py-0.5 rounded" style={{opacity:zipHistory.length?1:0.3}}>&#9664;</button>
+                  <button onClick={zipGoForward} disabled={zipForwardHistory.length===0} className="px-2 py-0.5 rounded" style={{opacity:zipForwardHistory.length?1:0.3}}>&#9654;</button>
+                  <span className="truncate flex-1" style={{color:'var(--text-secondary)'}}>{zipCurrentPath}</span>
+                  <button onClick={()=>setShowZipFileList(v=>!v)} className="px-2 py-0.5 rounded" style={{background:showZipFileList?'var(--accent)':'transparent',fontSize:'14px'}}>&#128194;</button>
+                </div>
+              )}
+              <div className="flex-1 overflow-hidden relative">
+                {/* ZIPファイル一覧パネル（デスクトップ） */}
+                {showZipFileList && zipFiles && (
+                  <div className="absolute right-0 top-0 h-full w-64 z-20 overflow-y-auto border-l" style={{background:'var(--bg-primary)',borderColor:'var(--border)'}}>
+                    <div className="p-2 text-xs font-bold border-b" style={{borderColor:'var(--border)',color:'var(--text-primary)'}}>
+                      {zipName} ({zipFiles.size}files)
+                    </div>
+                    {[...zipFiles.entries()].filter(([,f])=>f.type==='html').sort(([a],[b])=>a.localeCompare(b)).map(([path])=>(
+                      <div key={path} className="px-2 py-1 text-xs cursor-pointer hover:opacity-80 truncate"
+                           style={{background:path===zipCurrentPath?'var(--accent)':'transparent',color:path===zipCurrentPath?'#000':'var(--text-secondary)'}}
+                           onClick={()=>{setZipHistory(h=>[...h,zipCurrentPath]);setZipForwardHistory([]);navigateZipFile(path);setShowZipFileList(false);}}>
+                        {path}
+                      </div>
+                    ))}
+                  </div>
+                )}
                 {currentMode === 'SVG' ? (
                   <div className="w-full h-full bg-gray-100 overflow-auto">
                     <iframe
