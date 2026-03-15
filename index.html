@@ -591,18 +591,94 @@
         reader.readAsDataURL(blob);
       }, [savedItems, showToast]);
 
-      // コードペースト検知→自動プレビュー遷移（画像対応）
+      // コードペースト検知→自動プレビュー遷移（画像/HTMLファイル対応）
       const handleCodePaste = useCallback((e) => {
-        // 画像がペーストされたかチェック
         const items = e.clipboardData?.items;
         if (items) {
           for (const item of items) {
+            // 画像ペースト
             if (item.type.startsWith('image/')) {
               e.preventDefault();
               const blob = item.getAsFile();
               if (blob) {
                 handleImageBlob(blob);
                 return;
+              }
+            }
+            // HTMLファイルペースト（iOSファイルアプリからコピー）
+            if (item.kind === 'file') {
+              const file = item.getAsFile();
+              if (file) {
+                const fileName = file.name?.toLowerCase() || '';
+                // HTMLファイル
+                if (fileName.endsWith('.html') || fileName.endsWith('.htm') || file.type === 'text/html') {
+                  e.preventDefault();
+                  const reader = new FileReader();
+                  reader.onload = (ev) => {
+                    setCode(ev.target.result);
+                    setLoadedFile({ name: file.name, type: 'HTML' });
+                    setTimeout(() => setActiveTab('preview'), 300);
+                    if (navigator.vibrate) navigator.vibrate(50);
+                  };
+                  reader.readAsText(file);
+                  return;
+                }
+                // SVGファイル
+                if (fileName.endsWith('.svg') || file.type === 'image/svg+xml') {
+                  e.preventDefault();
+                  const reader = new FileReader();
+                  reader.onload = (ev) => {
+                    setCode(ev.target.result);
+                    setLoadedFile({ name: file.name, type: 'SVG' });
+                    setTimeout(() => setActiveTab('preview'), 300);
+                    if (navigator.vibrate) navigator.vibrate(50);
+                  };
+                  reader.readAsText(file);
+                  return;
+                }
+                // ZIPファイル
+                if (fileName.endsWith('.zip') || file.type === 'application/zip' || file.type === 'application/x-zip-compressed') {
+                  e.preventDefault();
+                  const reader = new FileReader();
+                  reader.onload = async (ev) => {
+                    try {
+                      await loadZipFile(ev.target.result, file.name);
+                    } catch (err) {
+                      console.error('ZIP読み込みエラー:', err);
+                      showToast('ZIPの読み込みに\n失敗しました', 3000, 'error');
+                    }
+                  };
+                  reader.readAsArrayBuffer(file);
+                  return;
+                }
+                // PDFファイル
+                if (fileName.endsWith('.pdf') || file.type === 'application/pdf') {
+                  e.preventDefault();
+                  const reader = new FileReader();
+                  reader.onload = async (ev) => {
+                    try {
+                      const pdf = await pdfjsLib.getDocument({ data: ev.target.result }).promise;
+                      const images = [];
+                      for (let i = 1; i <= pdf.numPages; i++) {
+                        const page = await pdf.getPage(i);
+                        const viewport = page.getViewport({ scale: 2 });
+                        const canvas = document.createElement('canvas');
+                        canvas.width = viewport.width;
+                        canvas.height = viewport.height;
+                        await page.render({ canvasContext: canvas.getContext('2d'), viewport }).promise;
+                        images.push('<img src="' + canvas.toDataURL('image/png') + '" style="max-width:100%;height:auto;margin-bottom:10px;">');
+                      }
+                      setCode(images.join('\n'));
+                      setLoadedFile({ name: file.name, type: 'PDF' });
+                      setTimeout(() => setActiveTab('preview'), 300);
+                      if (navigator.vibrate) navigator.vibrate(50);
+                    } catch (err) {
+                      showToast('PDFの読み込みに\n失敗しました', 3000, 'error');
+                    }
+                  };
+                  reader.readAsArrayBuffer(file);
+                  return;
+                }
               }
             }
           }
@@ -983,22 +1059,35 @@
 
       // ペーストボタン用（モバイル）- URL・画像検知対応
       const handlePaste = useCallback(async () => {
-        // 1. 画像ペーストを試行（Clipboard API）
+        // 1. 画像・ファイルペーストを試行（Clipboard API）
         try {
           if (navigator.clipboard?.read) {
             const items = await navigator.clipboard.read();
             for (const item of items) {
+              // 画像
               const imageType = item.types.find(t => t.startsWith('image/'));
               if (imageType) {
                 const blob = await item.getType(imageType);
                 await handleImageBlob(blob);
                 return;
               }
+              // HTMLファイル（iOSファイルアプリからコピー時、text/htmlとして取得できる場合）
+              if (item.types.includes('text/html')) {
+                const blob = await item.getType('text/html');
+                const text = await blob.text();
+                // 完全なHTMLドキュメントかチェック
+                if (/<!DOCTYPE\s+html/i.test(text) || /<html[\s>]/i.test(text)) {
+                  setCode(text);
+                  setLoadedFile({ name: 'ペースト', type: 'HTML' });
+                  setTimeout(() => setActiveTab('preview'), 300);
+                  if (navigator.vibrate) navigator.vibrate(50);
+                  return;
+                }
+              }
             }
           }
         } catch (err) {
-          // NotAllowedError等は無視してテキストペーストに進む
-          console.warn('Clipboard image read failed:', err);
+          console.warn('Clipboard read failed:', err);
         }
 
         // 2. テキストペースト
@@ -1473,6 +1562,68 @@
         window.addEventListener('message', handleMessage);
         return () => window.removeEventListener('message', handleMessage);
       }, [savedItems, code, zipFiles, zipCurrentPath, resolveRelativePath, navigateZipFile, showToast]);
+
+      // グローバルペーストリスナー（画面どこでもファイルペースト受付）
+      useEffect(() => {
+        const handleGlobalPaste = (e) => {
+          // テキストエリアにフォーカス中は既存のhandleCodePasteに任せる
+          if (document.activeElement?.tagName === 'TEXTAREA') return;
+
+          const items = e.clipboardData?.items;
+          if (!items) return;
+
+          for (const item of items) {
+            if (item.kind === 'file') {
+              const file = item.getAsFile();
+              if (!file) continue;
+              const fn = file.name?.toLowerCase() || '';
+
+              if (fn.endsWith('.html') || fn.endsWith('.htm') || file.type === 'text/html') {
+                e.preventDefault();
+                const reader = new FileReader();
+                reader.onload = (ev) => {
+                  setCode(ev.target.result);
+                  setLoadedFile({ name: file.name, type: 'HTML' });
+                  setTimeout(() => setActiveTab('preview'), 300);
+                  if (navigator.vibrate) navigator.vibrate(50);
+                  showToast(`${file.name}\nを読み込みました`, 2000, 'success');
+                };
+                reader.readAsText(file);
+                return;
+              }
+              if (fn.endsWith('.zip') || file.type === 'application/zip') {
+                e.preventDefault();
+                const reader = new FileReader();
+                reader.onload = async (ev) => {
+                  try { await loadZipFile(ev.target.result, file.name); }
+                  catch (err) { showToast('ZIPの読み込みに\n失敗しました', 3000, 'error'); }
+                };
+                reader.readAsArrayBuffer(file);
+                return;
+              }
+              if (fn.endsWith('.svg') || file.type === 'image/svg+xml') {
+                e.preventDefault();
+                const reader = new FileReader();
+                reader.onload = (ev) => {
+                  setCode(ev.target.result);
+                  setLoadedFile({ name: file.name, type: 'SVG' });
+                  setTimeout(() => setActiveTab('preview'), 300);
+                  if (navigator.vibrate) navigator.vibrate(50);
+                };
+                reader.readAsText(file);
+                return;
+              }
+              if (file.type.startsWith('image/')) {
+                e.preventDefault();
+                handleImageBlob(file);
+                return;
+              }
+            }
+          }
+        };
+        document.addEventListener('paste', handleGlobalPaste);
+        return () => document.removeEventListener('paste', handleGlobalPaste);
+      }, [loadZipFile, handleImageBlob, showToast]);
 
       // コード変更時に保存済みハイライトを復元
       useEffect(() => {
