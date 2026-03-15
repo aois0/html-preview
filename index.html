@@ -234,6 +234,7 @@
       const longPressTimer = useRef(null);
       const textareaRef = useRef(null);
       const fileInputRef = useRef(null);
+      const folderInputRef = useRef(null);
       const importInputRef = useRef(null);
       const libraryLongPressTimer = useRef(null);
       const libraryLongPressTriggered = useRef(false);
@@ -691,6 +692,28 @@
         }, 300);
       }, [handleImageBlob]);
 
+      const openInputPicker = useCallback((inputRef) => {
+        const input = inputRef.current;
+        if (!input) return;
+        if (typeof input.showPicker === 'function') {
+          try {
+            input.showPicker();
+            return;
+          } catch (err) {
+            console.warn('showPicker failed:', err);
+          }
+        }
+        input.click();
+      }, []);
+
+      const openFilePicker = useCallback(() => {
+        openInputPicker(fileInputRef);
+      }, [openInputPicker]);
+
+      const openFolderPicker = useCallback(() => {
+        openInputPicker(folderInputRef);
+      }, [openInputPicker]);
+
       // ファイル選択ハンドラ（モバイル用）- 画像/HTML/PDF対応
       const handleFileSelect = useCallback((e) => {
         const fileList = e.target.files;
@@ -803,6 +826,21 @@
         // 同じファイルを再選択可能にする
         e.target.value = '';
       }, [code, loadZipFile, showToast]);
+
+      const handleFolderSelect = useCallback((e) => {
+        const fileList = e.target.files;
+        if (!fileList || fileList.length === 0) return;
+
+        const files = Array.from(fileList);
+        if (!files.some(file => file.webkitRelativePath)) {
+          showToast('このブラウザでは\nフォルダ選択に未対応です', 3000, 'error');
+          e.target.value = '';
+          return;
+        }
+
+        loadMultipleFiles(fileList);
+        e.target.value = '';
+      }, [loadMultipleFiles, showToast]);
 
       // ドラッグ&ドロップ状態
       const [isDragOver, setIsDragOver] = useState(false);
@@ -1447,8 +1485,8 @@
         }
         if (startPath) navigateZipFile(startPath, files);
 
-        setLoadedFile({ name: 'フォルダ', type: 'ZIP' });
-        showToast(`${files.size}ファイル読み込み`, 2000, 'success');
+        setLoadedFile({ name: 'フォルダ', type: 'FOLDER' });
+        showToast(`フォルダ読込完了\n${files.size}ファイル`, 2000, 'success');
       }, [navigateZipFile, showToast]);
 
       // ZIP戻る
@@ -3286,23 +3324,34 @@ ${content}
                 </button>
                 {/* 左下：ファイル添付ボタン（空のプレビュー時のみ表示） */}
                 {!code && (
-                  <button
-                    onClick={() => fileInputRef.current?.click()}
-                    className={`fixed bottom-16 left-3 z-20 w-10 h-10 rounded-full
-                      backdrop-blur-md shadow-lg
-                      flex items-center justify-center
-                      active:scale-90 transition-all duration-300
-                      ${hideUI ? 'opacity-0 pointer-events-none translate-y-4' : 'opacity-100 translate-y-0'}`}
-                    style={{
-                      backgroundColor: 'rgba(107, 114, 128, 0.6)',
-                      color: 'rgba(255, 255, 255, 0.8)'
-                    }}
-                    title="ファイルを開く"
-                  >
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" style={{ filter: 'drop-shadow(0 0 2px white) drop-shadow(0 0 2px white)' }}>
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.172 7l-6.586 6.586a2 2 0 102.828 2.828l6.414-6.586a4 4 0 00-5.656-5.656l-6.415 6.585a6 6 0 108.486 8.486L20.5 13" />
-                    </svg>
-                  </button>
+                  <div className={`fixed bottom-16 left-3 z-20 flex gap-2 transition-all duration-300 ${hideUI ? 'opacity-0 pointer-events-none translate-y-4' : 'opacity-100 translate-y-0'}`}>
+                    <button
+                      onClick={openFolderPicker}
+                      className="w-10 h-10 rounded-full backdrop-blur-md shadow-lg flex items-center justify-center active:scale-90"
+                      style={{
+                        backgroundColor: 'rgba(59, 130, 246, 0.78)',
+                        color: 'rgba(255, 255, 255, 0.92)'
+                      }}
+                      title="フォルダを開く"
+                    >
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" style={{ filter: 'drop-shadow(0 0 2px white) drop-shadow(0 0 2px white)' }}>
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 7a2 2 0 012-2h4l2 2h8a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2V7z" />
+                      </svg>
+                    </button>
+                    <button
+                      onClick={openFilePicker}
+                      className="w-10 h-10 rounded-full backdrop-blur-md shadow-lg flex items-center justify-center active:scale-90"
+                      style={{
+                        backgroundColor: 'rgba(107, 114, 128, 0.6)',
+                        color: 'rgba(255, 255, 255, 0.8)'
+                      }}
+                      title="ファイルを開く"
+                    >
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" style={{ filter: 'drop-shadow(0 0 2px white) drop-shadow(0 0 2px white)' }}>
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.172 7l-6.586 6.586a2 2 0 102.828 2.828l6.414-6.586a4 4 0 00-5.656-5.656l-6.415 6.585a6 6 0 108.486 8.486L20.5 13" />
+                      </svg>
+                    </button>
+                  </div>
                 )}
                 {/* 左下：上下スクロールボタン（コードがある時のみ表示） */}
                 {code && (
@@ -3481,6 +3530,15 @@ ${content}
               accept="*/*"
               multiple
               onChange={handleFileSelect}
+              className="hidden"
+            />
+            <input
+              ref={folderInputRef}
+              type="file"
+              multiple
+              webkitdirectory=""
+              directory=""
+              onChange={handleFolderSelect}
               className="hidden"
             />
 
@@ -3897,7 +3955,16 @@ ${content}
                     </button>
                     <span className="text-sm" style={{ color: 'var(--text-secondary)' }}>コード編集</span>
                     <button
-                      onClick={() => fileInputRef.current?.click()}
+                      onClick={openFolderPicker}
+                      className="p-2 bg-blue-600 hover:bg-blue-500 text-white rounded-lg transition active:scale-95"
+                      title="フォルダを開く"
+                    >
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 7a2 2 0 012-2h4l2 2h8a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2V7z" />
+                      </svg>
+                    </button>
+                    <button
+                      onClick={openFilePicker}
                       className="p-2 bg-purple-600 hover:bg-purple-500 text-white rounded-lg transition active:scale-95"
                       title="ファイルを開く"
                     >
@@ -4572,7 +4639,18 @@ ${content}
               {/* ファイル操作グループ */}
               <div className="flex items-center rounded-lg overflow-hidden" style={{ backgroundColor: 'var(--bg-tertiary)' }}>
                 <button
-                  onClick={() => fileInputRef.current?.click()}
+                  onClick={openFolderPicker}
+                  className="px-3 py-1.5 hover:bg-blue-600/20 text-sm transition flex items-center gap-1.5"
+                  style={{ color: 'var(--text-primary)' }}
+                  title="フォルダを開く"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 7a2 2 0 012-2h4l2 2h8a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2V7z" />
+                  </svg>
+                  フォルダ
+                </button>
+                <button
+                  onClick={openFilePicker}
                   className="px-3 py-1.5 hover:bg-purple-600/20 text-sm transition flex items-center gap-1.5"
                   style={{ color: 'var(--text-primary)' }}
                   title="ファイルを開く (Ctrl+O)"
