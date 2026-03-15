@@ -693,9 +693,17 @@
 
       // ファイル選択ハンドラ（モバイル用）- 画像/HTML/PDF対応
       const handleFileSelect = useCallback((e) => {
-        const file = e.target.files?.[0];
-        if (!file) return;
+        const fileList = e.target.files;
+        if (!fileList || fileList.length === 0) return;
 
+        // 複数ファイル選択 → フォルダモード
+        if (fileList.length > 1) {
+          loadMultipleFiles(fileList);
+          e.target.value = '';
+          return;
+        }
+
+        const file = fileList[0];
         const fileName = file.name.toLowerCase();
         const fileType = file.type;
 
@@ -1353,6 +1361,94 @@
         }
         setLoadedFile({ name: fileName, type: 'ZIP' });
         showToast(`ZIP展開完了\n${files.size}ファイル`, 2000);
+      }, [navigateZipFile, showToast]);
+
+      // 複数ファイル選択→フォルダモード（ZIP不要版）
+      const loadMultipleFiles = useCallback(async (fileList) => {
+        zipBlobUrls.current.forEach(u => URL.revokeObjectURL(u));
+        zipBlobUrls.current = [];
+        const files = new Map();
+
+        // webkitRelativePathがあればパス付き、なければファイル名のみ
+        const readPromises = Array.from(fileList).map(file => {
+          return new Promise((resolve) => {
+            const path = file.webkitRelativePath || file.name;
+            const lower = path.toLowerCase();
+
+            if (lower.endsWith('.html') || lower.endsWith('.htm')) {
+              const reader = new FileReader();
+              reader.onload = (ev) => {
+                files.set(path, { content: ev.target.result, type: 'html' });
+                resolve();
+              };
+              reader.readAsText(file);
+            } else if (lower.match(/\.(png|jpg|jpeg|gif|webp|ico)$/)) {
+              const blobUrl = URL.createObjectURL(file);
+              zipBlobUrls.current.push(blobUrl);
+              files.set(path, { content: blobUrl, type: 'image' });
+              resolve();
+            } else if (lower.endsWith('.svg')) {
+              const reader = new FileReader();
+              reader.onload = (ev) => {
+                const blob = new Blob([ev.target.result], { type: 'image/svg+xml' });
+                const blobUrl = URL.createObjectURL(blob);
+                zipBlobUrls.current.push(blobUrl);
+                files.set(path, { content: ev.target.result, type: 'svg', blobUrl });
+                resolve();
+              };
+              reader.readAsText(file);
+            } else if (lower.endsWith('.css')) {
+              const reader = new FileReader();
+              reader.onload = (ev) => {
+                files.set(path, { content: ev.target.result, type: 'css' });
+                resolve();
+              };
+              reader.readAsText(file);
+            } else {
+              const blobUrl = URL.createObjectURL(file);
+              zipBlobUrls.current.push(blobUrl);
+              files.set(path, { content: blobUrl, type: 'asset', blobUrl });
+              resolve();
+            }
+          });
+        });
+
+        await Promise.all(readPromises);
+
+        // ルートプレフィックス除去（全ファイルが同一フォルダ内の場合）
+        const paths = [...files.keys()];
+        if (paths.length > 0 && paths[0].includes('/')) {
+          const firstDir = paths[0].split('/')[0];
+          if (paths.every(p => p.startsWith(firstDir + '/'))) {
+            const prefix = firstDir + '/';
+            const newFiles = new Map();
+            for (const [p, v] of files) {
+              newFiles.set(p.replace(prefix, ''), v);
+            }
+            files.clear();
+            for (const [p, v] of newFiles) files.set(p, v);
+          }
+        }
+
+        setZipFiles(files);
+        setZipName('フォルダ');
+        setZipHistory([]);
+        setZipForwardHistory([]);
+
+        // index.htmlを探す
+        let startPath = '';
+        for (const c of ['index.html', 'index.htm']) {
+          if (files.has(c)) { startPath = c; break; }
+        }
+        if (!startPath) {
+          for (const [p, f] of files) {
+            if (f.type === 'html') { startPath = p; break; }
+          }
+        }
+        if (startPath) navigateZipFile(startPath, files);
+
+        setLoadedFile({ name: 'フォルダ', type: 'ZIP' });
+        showToast(`${files.size}ファイル読み込み`, 2000, 'success');
       }, [navigateZipFile, showToast]);
 
       // ZIP戻る
@@ -3382,7 +3478,8 @@ ${content}
             <input
               ref={fileInputRef}
               type="file"
-              accept="image/*,.html,.htm,.svg,.pdf,.zip"
+              accept="image/*,.html,.htm,.svg,.pdf,.zip,.css"
+              multiple
               onChange={handleFileSelect}
               className="hidden"
             />
