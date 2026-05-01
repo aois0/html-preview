@@ -4,7 +4,7 @@ This repository was rebuilt from the WSL Git history so Windows can check out ev
 
 Windows cannot store : in filenames, so historical paths containing : were rewritten to %3A across the Git history.
 
-- Active Windows branch: $(System.Collections.Hashtable.SafeBranch)
+- Active Windows branch: windows-safe-master
 - Path map: _migration-notes/path-map.jsonl
 - Original WSL copy: D:\dev\from-wsl\home\html-preview
 
